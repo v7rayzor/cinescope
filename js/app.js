@@ -526,14 +526,17 @@ function openModal(item) {
     });
   }
 
-  // Note Avis (en 3e) avec étoiles
+  // Note globale (en 3e) avec étoiles
   if (ratingEl) {
     const score = Number(item.note_globale || item.note_avis || 0);
     let starsSymbol = '★★★+';
-    if (score >= 8.5) starsSymbol = '★★★★★';
-    else if (score >= 7.5) starsSymbol = '★★★★';
+    if (score >= 8.0) starsSymbol = '★★★★★';
+    else if (score >= 7.0) starsSymbol = '★★★★';
     
-    ratingEl.innerHTML = `${item.note_avis ? Number(item.note_avis).toFixed(1) : '-'} / 10 <span class="modal-stars-tag">${starsSymbol}</span>`;
+    const displayRating = (item.note_globale !== undefined && item.note_globale !== null)
+      ? Number(item.note_globale).toFixed(1)
+      : (item.note_avis !== undefined && item.note_avis !== null ? Number(item.note_avis).toFixed(1) : '-');
+    ratingEl.innerHTML = `${displayRating} / 10 <span class="modal-stars-tag">${starsSymbol}</span>`;
   }
 
   document.body.classList.add('modal-open');

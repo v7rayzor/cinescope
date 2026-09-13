@@ -2858,7 +2858,7 @@ const CATALOG_DATA = [
     "categories": [
       "drame_emotion"
     ],
-    "badge": "12",
+    "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/poster_ocs_haute_couture.jpg",
     "logo_chaine": "assets/logos/cine_emotion.png",
@@ -9420,7 +9420,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_5_5septembre",
@@ -9465,7 +9466,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_7_lachambredct",
@@ -9487,7 +9489,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_9_betterman",
@@ -9509,7 +9512,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_10_yannick",
@@ -9531,7 +9535,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_11_lamouretlesfort",
@@ -9548,7 +9553,7 @@ const CATALOG_DATA = [
     "note_recence": 9.0,
     "note_globale": 8.2,
     "is_eligible": true,
-    "badge": "12",
+    "badge": "10",
     "chaines": [
       "OCS"
     ],
@@ -9576,7 +9581,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_14_eleonoraduse",
@@ -9598,7 +9604,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_15_thechronologyof",
@@ -9620,7 +9627,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "16"
   },
   {
     "id": "ocs_16_lequatrimemur",
@@ -9660,7 +9668,7 @@ const CATALOG_DATA = [
     "note_recence": 8.7,
     "note_globale": 8.1,
     "is_eligible": true,
-    "badge": "10",
+    "badge": "12",
     "chaines": [
       "OCS"
     ],
@@ -9683,7 +9691,7 @@ const CATALOG_DATA = [
     "note_recence": 8.7,
     "note_globale": 8.1,
     "is_eligible": true,
-    "badge": "12",
+    "badge": "10",
     "chaines": [
       "OCS"
     ],
@@ -9711,7 +9719,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_20_parthenope",
@@ -9728,7 +9737,7 @@ const CATALOG_DATA = [
     "note_recence": 9.3,
     "note_globale": 8.1,
     "is_eligible": true,
-    "badge": "12",
+    "badge": "10",
     "chaines": [
       "OCS"
     ],
@@ -9756,7 +9765,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_24_lhommequirtrcit",
@@ -9778,7 +9788,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_25_deuxprocureurs",
@@ -9800,7 +9811,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_26_jeanvaljean",
@@ -9822,7 +9834,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_27_desjoursmeilleu",
@@ -9844,7 +9857,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_28_oxana",
@@ -9866,7 +9880,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "ocs_29_urchin",
@@ -9888,7 +9903,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "ocs_30_promisleciel",
@@ -9910,7 +9926,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_31_paramour",
@@ -9932,7 +9949,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_32_lapetitedernire",
@@ -9954,7 +9972,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_33_lacache",
@@ -9976,7 +9995,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_34_larparation",
@@ -9998,7 +10018,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_35_danslacuisinede",
@@ -10020,7 +10041,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_36_jaccuse",
@@ -10042,7 +10064,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_37_labellepoque",
@@ -10064,7 +10087,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_39_maria",
@@ -10081,7 +10105,7 @@ const CATALOG_DATA = [
     "note_recence": 9.3,
     "note_globale": 8.0,
     "is_eligible": true,
-    "badge": "10",
+    "badge": "12",
     "chaines": [
       "OCS"
     ],
@@ -10109,7 +10133,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_41_lelivredessolut",
@@ -10131,7 +10156,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_43_leroutard",
@@ -10153,7 +10179,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_44_aimonsnousvivan",
@@ -10175,7 +10202,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_45_lesecretdekhops",
@@ -10197,7 +10225,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_46_lamourcestsurco",
@@ -10219,7 +10248,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_47_lemlangedesgenr",
@@ -10241,7 +10271,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_48_lesmusiciens",
@@ -10263,7 +10294,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_49_laproiedesombre",
@@ -10285,7 +10317,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "ocs_50_unepointedamour",
@@ -10307,7 +10340,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_51_jeunesmres",
@@ -10329,7 +10363,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_52_mikado",
@@ -10351,7 +10386,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_53_nino",
@@ -10373,7 +10409,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_54_rebuilding",
@@ -10395,7 +10432,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_55_captainfantasti",
@@ -10417,7 +10455,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_56_astarisborn",
@@ -10439,7 +10478,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_57_t85",
@@ -10484,7 +10524,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_59_kaamelottpremie",
@@ -10506,7 +10547,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_60_coupez",
@@ -10551,7 +10593,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_62_100millions",
@@ -10573,7 +10616,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_63_douxjsus",
@@ -10595,7 +10639,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_64_dlocaliss",
@@ -10617,7 +10662,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_65_vacancesforces",
@@ -10639,7 +10685,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_66_toujourspossibl",
@@ -10661,7 +10708,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_67_papamobile",
@@ -10683,7 +10731,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_68_cadeaux",
@@ -10705,7 +10754,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_69_legranddplaceme",
@@ -10727,7 +10777,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_70_prosper",
@@ -10749,7 +10800,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_71_bloodstar",
@@ -10817,7 +10869,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_74_enattendantboja",
@@ -10839,7 +10892,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_75_sixjours",
@@ -10861,7 +10915,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_76_aliceetlemaire",
@@ -10883,7 +10938,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_77_tumritesunamour",
@@ -10905,7 +10961,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_79_tralala",
@@ -10927,7 +10984,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_80_theson",
@@ -10972,7 +11030,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_83_godsavethetuche",
@@ -10994,7 +11053,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_84_minederien",
@@ -11016,7 +11076,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_85_toutespourune",
@@ -11038,7 +11099,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "ocs_86_lesboulesdenol",
@@ -11060,7 +11122,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_87_lesbodinsparten",
@@ -11082,7 +11145,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_88_theartist",
@@ -11104,7 +11168,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_89_mrwolff",
@@ -11121,7 +11186,7 @@ const CATALOG_DATA = [
     "note_recence": 7.3,
     "note_globale": 7.3,
     "is_eligible": true,
-    "badge": "12",
+    "badge": "10",
     "chaines": [
       "OCS"
     ],
@@ -11149,7 +11214,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_91_thelostcityofz",
@@ -11171,7 +11237,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_92_dalida",
@@ -11193,7 +11260,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_93_argo",
@@ -11256,7 +11324,7 @@ const CATALOG_DATA = [
     "note_recence": 7.3,
     "note_globale": 7.2,
     "is_eligible": true,
-    "badge": "10",
+    "badge": null,
     "chaines": [
       "OCS"
     ],
@@ -11307,7 +11375,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_98_hypnotic",
@@ -11352,7 +11421,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_100_lucky",
@@ -11374,7 +11444,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_101_babysitting",
@@ -11419,7 +11490,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_103_insaisissables",
@@ -11441,7 +11513,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_104_verybadtrip",
@@ -11486,7 +11559,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_106_rampagehorsdeco",
@@ -11531,7 +11605,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_108_larnacur",
@@ -11553,7 +11628,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_109_oss117rionerpon",
@@ -11575,7 +11651,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_110_babysitting2",
@@ -11620,7 +11697,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_112_whitehousedown",
@@ -11665,7 +11743,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_114_vaincreoumourir",
@@ -11687,7 +11766,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_115_oss117lecaireni",
@@ -11709,7 +11789,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_116_munich",
@@ -11726,7 +11807,7 @@ const CATALOG_DATA = [
     "note_recence": 5.1,
     "note_globale": 6.4,
     "is_eligible": true,
-    "badge": "12",
+    "badge": "10",
     "chaines": [
       "OCS"
     ],
@@ -11754,7 +11835,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_118_lenvahisseur",
@@ -11771,7 +11853,7 @@ const CATALOG_DATA = [
     "note_recence": 6.2,
     "note_globale": 6.3,
     "is_eligible": true,
-    "badge": "16",
+    "badge": null,
     "chaines": [
       "OCS"
     ],
@@ -11794,7 +11876,7 @@ const CATALOG_DATA = [
     "note_recence": 6.2,
     "note_globale": 6.3,
     "is_eligible": true,
-    "badge": "10",
+    "badge": "12",
     "chaines": [
       "OCS"
     ],
@@ -11822,7 +11904,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_121_missionimpossib",
@@ -11867,7 +11950,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_123_ibiza",
@@ -11884,7 +11968,7 @@ const CATALOG_DATA = [
     "note_recence": 7.9,
     "note_globale": 6.2,
     "is_eligible": true,
-    "badge": "10",
+    "badge": null,
     "chaines": [
       "OCS"
     ],
@@ -11912,7 +11996,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_125_oceanseleven",
@@ -11934,7 +12019,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_126_aiintelligencea",
@@ -11956,7 +12042,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_1_demauvaisefoi",
@@ -11979,7 +12066,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_2_livressedupouvo",
@@ -12002,7 +12090,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_3_stars80lefilm",
@@ -12025,7 +12114,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_4_cliente",
@@ -12048,7 +12138,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_5_oceanstwelve",
@@ -12071,7 +12162,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "ocs_6_uneliaisonporno",
@@ -12088,7 +12180,7 @@ const CATALOG_DATA = [
     "note_recence": 3.9,
     "note_globale": 5.5,
     "is_eligible": false,
-    "badge": "16",
+    "badge": "10",
     "exclusion": "Récence (3.9 < 4), Globale",
     "chaines": [
       "OCS"
@@ -12112,7 +12204,7 @@ const CATALOG_DATA = [
     "note_recence": 4.2,
     "note_globale": 5.5,
     "is_eligible": false,
-    "badge": "12",
+    "badge": "16",
     "exclusion": "Globale (5.5 < 6)",
     "chaines": [
       "OCS"
@@ -12142,7 +12234,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_9_missionimpossib",
@@ -12165,7 +12258,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "ocs_10_novocane",
@@ -12182,7 +12276,7 @@ const CATALOG_DATA = [
     "note_recence": 4.2,
     "note_globale": 5.0,
     "is_eligible": false,
-    "badge": "12",
+    "badge": "16",
     "exclusion": "Globale (5.0 < 6)",
     "chaines": [
       "OCS"
@@ -12211,7 +12305,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "scifi_2_danslabrume",
@@ -12233,7 +12328,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "scifi_3_thesecretkingdo",
@@ -12255,7 +12351,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "scifi_4_rubikon",
@@ -12277,7 +12374,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "scifi_5_radius",
@@ -12299,7 +12397,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_6_darkwebcicada33",
@@ -12316,7 +12415,7 @@ const CATALOG_DATA = [
     "note_recence": 8.3,
     "note_globale": 6.8,
     "is_eligible": true,
-    "badge": "10",
+    "badge": "16",
     "chaines": [
       "SCIFI"
     ],
@@ -12344,7 +12443,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_8_correctivemeasu",
@@ -12366,7 +12466,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "scifi_9_piper",
@@ -12388,7 +12489,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "scifi_11_escapethefield",
@@ -12410,7 +12512,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "29_assassin",
@@ -12430,7 +12533,7 @@ const CATALOG_DATA = [
     "categories": [
       "scifi_fantastique"
     ],
-    "badge": null,
+    "badge": "12",
     "is_eligible": true,
     "poster": "assets/posters/poster_action_assassin.jpg",
     "logo_chaine": "assets/logos/action.png",
@@ -12459,7 +12562,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_14_curvature",
@@ -12481,7 +12585,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_15_lemystredulivre",
@@ -12503,7 +12608,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_16_godsofthedeep",
@@ -12525,7 +12631,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_17_thetwisters",
@@ -12547,7 +12654,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_18_enlvementdevils",
@@ -12569,7 +12677,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "scifi_19_laguerredesmond",
@@ -12591,7 +12700,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_20_continentalspli",
@@ -12613,7 +12723,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_21_fireislandlagra",
@@ -12635,7 +12746,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_22_icestormtemptep",
@@ -12657,7 +12769,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_23_thelastwavelasu",
@@ -12679,7 +12792,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_24_leroyaumeinterd",
@@ -12701,7 +12815,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_25_battlestargalac",
@@ -12718,7 +12833,7 @@ const CATALOG_DATA = [
     "note_recence": 5.9,
     "note_globale": 6.2,
     "is_eligible": true,
-    "badge": "12",
+    "badge": "10",
     "chaines": [
       "SCIFI"
     ],
@@ -12746,7 +12861,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "scifi_27_apevsmechaape",
@@ -12768,7 +12884,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_28_doomsdaymeteor",
@@ -12790,7 +12907,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_29_stormchasers",
@@ -12812,7 +12930,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_30_arcticarmageddo",
@@ -12834,7 +12953,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_31_meg2rising",
@@ -12856,7 +12976,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_32_dcdown",
@@ -12878,7 +12999,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_33_earthquakeunder",
@@ -12900,7 +13022,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "scifi_34_2025armageddon",
@@ -12922,7 +13045,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_35_battleforpandor",
@@ -12944,7 +13068,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_36_infestation",
@@ -12989,7 +13114,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "scifi_38_ironarm",
@@ -13011,7 +13137,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_39_arthurmerlinkni",
@@ -13033,7 +13160,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_40_robotapocalypse",
@@ -13055,7 +13183,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_41_planetdune",
@@ -13077,7 +13206,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_42_attackontitan",
@@ -13099,7 +13229,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_43_jurassicdominat",
@@ -13121,7 +13252,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "scifi_44_lamenaceandromd",
@@ -13138,7 +13270,7 @@ const CATALOG_DATA = [
     "note_recence": 5.7,
     "note_globale": 5.8,
     "is_eligible": false,
-    "badge": "10",
+    "badge": "12",
     "chaines": [
       "SCIFI"
     ],
@@ -13161,7 +13293,7 @@ const CATALOG_DATA = [
     "note_recence": 5.7,
     "note_globale": 5.8,
     "is_eligible": false,
-    "badge": "10",
+    "badge": "12",
     "chaines": [
       "SCIFI"
     ],
@@ -13189,7 +13321,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "scifi_47_flight42",
@@ -13206,7 +13339,7 @@ const CATALOG_DATA = [
     "note_recence": 7.1,
     "note_globale": 5.8,
     "is_eligible": false,
-    "badge": "12",
+    "badge": "10",
     "chaines": [
       "SCIFI"
     ],
@@ -13257,7 +13390,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_50_megaquake",
@@ -13279,7 +13413,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_51_dinosaurworld",
@@ -13301,7 +13436,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_52_megrising",
@@ -13341,7 +13477,7 @@ const CATALOG_DATA = [
     "note_recence": 8.3,
     "note_globale": 5.8,
     "is_eligible": false,
-    "badge": "16",
+    "badge": "12",
     "chaines": [
       "SCIFI"
     ],
@@ -13369,7 +13505,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "scifi_55_aliensiege",
@@ -13391,7 +13528,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "scifi_56_lacryptedudrago",
@@ -13413,7 +13551,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_57_mutantlegacy",
@@ -13430,7 +13569,7 @@ const CATALOG_DATA = [
     "note_recence": 6.8,
     "note_globale": 5.4,
     "is_eligible": false,
-    "badge": "10",
+    "badge": "12",
     "chaines": [
       "SCIFI"
     ],
@@ -13458,7 +13597,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_59_supericyclone",
@@ -13480,7 +13620,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_60_alienapocalypse",
@@ -13502,7 +13643,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "scifi_61_lesrescapsdumon",
@@ -13524,7 +13666,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "13eme_1_fauxsemblants",
@@ -13541,7 +13684,7 @@ const CATALOG_DATA = [
     "note_recence": 8.0,
     "note_globale": 7.1,
     "is_eligible": true,
-    "badge": "12",
+    "badge": "10",
     "chaines": [
       "13ème RUE"
     ],
@@ -13615,7 +13758,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "13eme_5_auseuildelamort",
@@ -13655,7 +13799,7 @@ const CATALOG_DATA = [
     "note_recence": 7.9,
     "note_globale": 6.8,
     "is_eligible": true,
-    "badge": "16",
+    "badge": "12",
     "chaines": [
       "13ème RUE"
     ],
@@ -13683,7 +13827,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "13eme_8_thestolengirl",
@@ -13774,7 +13919,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "13eme_1_preparetodie",
@@ -13797,7 +13943,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "13eme_2_fusionthecore",
@@ -13814,7 +13961,7 @@ const CATALOG_DATA = [
     "note_recence": 4.6,
     "note_globale": 5.3,
     "is_eligible": false,
-    "badge": "10",
+    "badge": "12",
     "exclusion": "Globale (5.3 < 6)",
     "chaines": [
       "13ème RUE"
@@ -13843,7 +13990,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "action_2_inexorable",
@@ -13883,7 +14031,7 @@ const CATALOG_DATA = [
     "note_recence": 8.0,
     "note_globale": 7.3,
     "is_eligible": true,
-    "badge": "16",
+    "badge": "12",
     "chaines": [
       "Action"
     ],
@@ -13911,7 +14059,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "action_5_thewhiskeybandi",
@@ -13933,7 +14082,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "action_6_jungle",
@@ -13950,7 +14100,7 @@ const CATALOG_DATA = [
     "note_recence": 7.5,
     "note_globale": 7.2,
     "is_eligible": true,
-    "badge": "12",
+    "badge": "10",
     "chaines": [
       "Action"
     ],
@@ -14001,7 +14151,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_9_houndsofwar",
@@ -14018,7 +14169,7 @@ const CATALOG_DATA = [
     "note_recence": 9.3,
     "note_globale": 7.2,
     "is_eligible": true,
-    "badge": "16",
+    "badge": "10",
     "chaines": [
       "Action"
     ],
@@ -14064,7 +14215,7 @@ const CATALOG_DATA = [
     "note_recence": 5.9,
     "note_globale": 7.0,
     "is_eligible": true,
-    "badge": "10",
+    "badge": null,
     "chaines": [
       "Action"
     ],
@@ -14092,7 +14243,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "action_13_kontiki",
@@ -14114,7 +14266,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_14_22jumpstreet",
@@ -14177,7 +14330,7 @@ const CATALOG_DATA = [
     "note_recence": 7.5,
     "note_globale": 6.8,
     "is_eligible": true,
-    "badge": "12",
+    "badge": "10",
     "chaines": [
       "Action"
     ],
@@ -14205,7 +14358,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_18_finalscore",
@@ -14245,7 +14399,7 @@ const CATALOG_DATA = [
     "note_recence": 8.0,
     "note_globale": 6.8,
     "is_eligible": true,
-    "badge": "10",
+    "badge": null,
     "chaines": [
       "Action"
     ],
@@ -14273,7 +14427,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_21_americanfighter",
@@ -14295,7 +14450,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_22_enfant44",
@@ -14363,7 +14519,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_25_levirtuose",
@@ -14380,7 +14537,7 @@ const CATALOG_DATA = [
     "note_recence": 8.3,
     "note_globale": 6.7,
     "is_eligible": true,
-    "badge": "10",
+    "badge": null,
     "chaines": [
       "Action"
     ],
@@ -14408,7 +14565,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_27_303squadron",
@@ -14430,7 +14588,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "action_28_paradoxeffect",
@@ -14452,7 +14611,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_30_winterinwartime",
@@ -14474,7 +14634,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_31_soushauteprotec",
@@ -14519,7 +14680,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "action_33_attraction",
@@ -14541,7 +14703,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_34_actsofvengeance",
@@ -14581,7 +14744,7 @@ const CATALOG_DATA = [
     "note_recence": 7.5,
     "note_globale": 6.5,
     "is_eligible": true,
-    "badge": "16",
+    "badge": "12",
     "chaines": [
       "Action"
     ],
@@ -14609,7 +14772,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_37_theyacht",
@@ -14631,7 +14795,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_38_theminuteyouwak",
@@ -14648,7 +14813,7 @@ const CATALOG_DATA = [
     "note_recence": 8.7,
     "note_globale": 6.5,
     "is_eligible": true,
-    "badge": "12",
+    "badge": "10",
     "chaines": [
       "Action"
     ],
@@ -14676,7 +14841,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "action_40_hanselgretelwit",
@@ -14721,7 +14887,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "action_42_manipulations",
@@ -14738,7 +14905,7 @@ const CATALOG_DATA = [
     "note_recence": 7.3,
     "note_globale": 6.3,
     "is_eligible": true,
-    "badge": "12",
+    "badge": "10",
     "chaines": [
       "Action"
     ],
@@ -14766,7 +14933,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "action_44_lavengeancedans",
@@ -14783,7 +14951,7 @@ const CATALOG_DATA = [
     "note_recence": 7.5,
     "note_globale": 6.3,
     "is_eligible": true,
-    "badge": "12",
+    "badge": "10",
     "chaines": [
       "Action"
     ],
@@ -14811,7 +14979,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "action_46_enemylines",
@@ -14874,7 +15043,7 @@ const CATALOG_DATA = [
     "note_recence": 5.3,
     "note_globale": 6.2,
     "is_eligible": true,
-    "badge": "12",
+    "badge": null,
     "chaines": [
       "Action"
     ],
@@ -14902,7 +15071,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "16"
   },
   {
     "id": "action_50_kickboxervengea",
@@ -14924,7 +15094,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "action_51_skyhunter",
@@ -14946,7 +15117,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_52_sangdacierbleed",
@@ -14968,7 +15140,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_53_stratton",
@@ -14990,7 +15163,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_54_64minuteschrono",
@@ -15012,7 +15186,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_55_rogue",
@@ -15057,7 +15232,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "action_57_cagefighterworl",
@@ -15079,7 +15255,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_58_guardiansofthet",
@@ -15101,7 +15278,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_59_killmode",
@@ -15123,7 +15301,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "action_60_gijoeconspirati",
@@ -15168,7 +15347,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_62_gunshy",
@@ -15190,7 +15370,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_63_killersanonymou",
@@ -15212,7 +15393,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "action_1_vanquish",
@@ -15229,7 +15411,7 @@ const CATALOG_DATA = [
     "note_recence": 8.3,
     "note_globale": 5.9,
     "is_eligible": false,
-    "badge": "12",
+    "badge": "16",
     "exclusion": "Avis (3.4 < 4), Globale (5.9 <",
     "chaines": [
       "Action"
@@ -15253,7 +15435,7 @@ const CATALOG_DATA = [
     "note_recence": 5.9,
     "note_globale": 5.8,
     "is_eligible": false,
-    "badge": "10",
+    "badge": null,
     "exclusion": "Globale (5.8 < 6)",
     "chaines": [
       "Action"
@@ -15277,7 +15459,7 @@ const CATALOG_DATA = [
     "note_recence": 6.8,
     "note_globale": 5.8,
     "is_eligible": false,
-    "badge": "12",
+    "badge": "10",
     "exclusion": "Globale (5.8 < 6)",
     "chaines": [
       "Action"
@@ -15307,7 +15489,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_5_tolrancezro",
@@ -15330,7 +15513,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "action_6_missionvasion",
@@ -15353,7 +15537,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_7_trigonalfightfo",
@@ -15376,7 +15561,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_8_lalgendedescrne",
@@ -15399,7 +15585,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "action_9_leprixdusang",
@@ -15422,7 +15609,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "action_10_jeufatal",
@@ -15445,7 +15633,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "12"
   },
   {
     "id": "action_11_banlieueinterdi",
@@ -15468,7 +15657,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "action_12_crimesensrie",
@@ -15491,7 +15681,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_13_americanoutlaws",
@@ -15508,7 +15699,7 @@ const CATALOG_DATA = [
     "note_recence": 4.2,
     "note_globale": 4.8,
     "is_eligible": false,
-    "badge": "12",
+    "badge": null,
     "exclusion": "Globale (4.8 < 6)",
     "chaines": [
       "Action"
@@ -15538,7 +15729,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_15_wildbill",
@@ -15561,7 +15753,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": "10"
   },
   {
     "id": "action_16_lvaddalcatraz",
@@ -15578,7 +15771,7 @@ const CATALOG_DATA = [
     "note_recence": 0.9,
     "note_globale": 4.5,
     "is_eligible": false,
-    "badge": "10",
+    "badge": null,
     "exclusion": "Récence (0.9 < 4), Globale",
     "chaines": [
       "Action"
@@ -15602,7 +15795,7 @@ const CATALOG_DATA = [
     "note_recence": 1.9,
     "note_globale": 4.5,
     "is_eligible": false,
-    "badge": "12",
+    "badge": "10",
     "exclusion": "Récence (1.9 < 4), Globale",
     "chaines": [
       "Action"
@@ -15632,7 +15825,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "action_19_labatailledangl",
@@ -15655,7 +15849,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "badge": null
   },
   {
     "id": "action_20_ostermanweekend",
@@ -15672,7 +15867,7 @@ const CATALOG_DATA = [
     "note_recence": 1.3,
     "note_globale": 3.6,
     "is_eligible": false,
-    "badge": "12",
+    "badge": "10",
     "exclusion": "Récence (1.3 < 4), Globale",
     "chaines": [
       "Action"
@@ -15720,7 +15915,7 @@ const CATALOG_DATA = [
     "note_recence": 2.2,
     "note_globale": 3.0,
     "is_eligible": false,
-    "badge": "12",
+    "badge": "10",
     "exclusion": "Avis (3.8 < 4), Récence (2.2 <",
     "chaines": [
       "Action"

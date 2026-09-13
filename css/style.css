@@ -723,7 +723,9 @@ body.modal-open {
 .info-row {
   display: flex;
   flex-direction: column;
-  gap: 0.2rem;
+  align-items: center;
+  text-align: center;
+  gap: 0.25rem;
 }
 
 .info-label {
@@ -732,6 +734,7 @@ body.modal-open {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--text-muted);
+  text-align: center;
 }
 
 .info-value {
@@ -740,7 +743,15 @@ body.modal-open {
   color: var(--text-primary);
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.6rem;
+}
+
+.modal-channel-logos {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
 .modal-channel-logo {
@@ -766,9 +777,10 @@ body.modal-open {
   border: 1px solid rgba(244, 63, 94, 0.35);
   padding: 0.25rem 0.75rem;
   border-radius: var(--radius-full);
-  align-self: flex-start;
+  align-self: center;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.35rem;
 }
 
@@ -781,9 +793,10 @@ body.modal-open {
   border: 1px solid rgba(234, 179, 8, 0.35);
   padding: 0.25rem 0.75rem;
   border-radius: var(--radius-full);
-  align-self: flex-start;
+  align-self: center;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.4rem;
 }
 
@@ -799,6 +812,7 @@ body.modal-open {
 .modal-categories-chips {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 0.4rem;
   margin-top: 0.2rem;
 }
