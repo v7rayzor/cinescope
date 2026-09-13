@@ -529,7 +529,7 @@ function openModal(item) {
   // Note globale (en 3e) avec étoiles
   if (ratingEl) {
     const score = Number(item.note_globale || item.note_avis || 0);
-    let starsSymbol = '★★★+';
+    let starsSymbol = '★★★';
     if (score >= 8.0) starsSymbol = '★★★★★';
     else if (score >= 7.0) starsSymbol = '★★★★';
     
