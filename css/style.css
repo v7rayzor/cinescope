@@ -909,7 +909,8 @@ body.modal-open {
     opacity: 0;
     cursor: pointer;
     z-index: 2;
-    -webkit-appearance: menulist-button;
+    appearance: none;
+    -webkit-appearance: none;
   }
 
   .genre-dropdown-trigger {
