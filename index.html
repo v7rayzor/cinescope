@@ -49,6 +49,7 @@
   <main class="main-content">
     <!-- Barre des 7 Catégories Thématiques -->
     <section class="categories-bar-section">
+      <!-- Carousel de catégories (Desktop / Tablette) -->
       <div class="categories-wrapper" id="categoriesNav">
         <button class="category-btn active" data-category="all" id="catAll">
           <span class="cat-icon">✨</span>
@@ -82,6 +83,30 @@
           <span class="cat-icon">🧸</span>
           <span class="cat-name">Animation & Famille</span>
         </button>
+      </div>
+
+      <!-- Sélecteur de Genre Mobile (Bouton Genre déroulant + Bouton inactif affichant le genre sélectionné) -->
+      <div class="mobile-genre-selector" id="mobileGenreSelector">
+        <div class="genre-select-wrapper">
+          <select id="mobileCategorySelect" class="genre-native-select" aria-label="Choisir un genre">
+            <option value="all">✨ Tous les titres</option>
+            <option value="action_aventure">🏹 Action & Aventure</option>
+            <option value="thriller_policier">🔍 Thriller & Policier</option>
+            <option value="scifi_fantastique">🚀 Science-fiction & Fantastique</option>
+            <option value="horreur_epouvante">👻 Horreur & Épouvante</option>
+            <option value="comedie">🎭 Comédie</option>
+            <option value="drame_emotion">❤️ Drame & Émotion</option>
+            <option value="animation_famille">🧸 Animation & Famille</option>
+          </select>
+          <button class="genre-dropdown-trigger" type="button" tabindex="-1" aria-hidden="true">
+            <span class="genre-trigger-text">Genre</span>
+            <span class="genre-trigger-caret">▾</span>
+          </button>
+        </div>
+        <div class="selected-genre-badge" id="selectedGenreBadge" aria-readonly="true">
+          <span class="selected-genre-icon" id="selectedGenreIcon">✨</span>
+          <span class="selected-genre-text" id="selectedGenreText">Tous les titres</span>
+        </div>
       </div>
     </section>
 

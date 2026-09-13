@@ -5,34 +5,42 @@
 // Définition des 7 catégories et leurs descriptions exactes
 const CATEGORIES_INFO = {
   all: {
+    icon: "✨",
     title: "Tous les titres",
     desc: ""
   },
   action_aventure: {
+    icon: "🏹",
     title: "Action & Aventure",
     desc: "Pour le grand spectacle, le rythme et le mouvement. Action pure, western, arts martiaux, guerre, survie et grandes épopées."
   },
   thriller_policier: {
+    icon: "🔍",
     title: "Thriller & Policier",
     desc: "Pour le mystère, la tension et l'enquête. Polars urbains, enquêtes judiciaires, espionnage, machinations politiques et thrillers psychologiques."
   },
   scifi_fantastique: {
+    icon: "🚀",
     title: "Science-fiction & Fantastique",
     desc: "Pour l'évasion, le voyage et l'imaginaire. Voyages dans le temps, espace, anticipation/dystopie, super-héros et mondes magiques."
   },
   horreur_epouvante: {
+    icon: "👻",
     title: "Horreur & Épouvante",
     desc: "Pour le frisson, la peur et l'angoisse. Films de monstres, slashers, surnaturel/démons, gore et body horror."
   },
   comedie: {
+    icon: "🎭",
     title: "Comédie",
     desc: "Pour décompresser et rire. Comédies populaires, satires, parodies et comédies d'action."
   },
   drame_emotion: {
+    icon: "❤️",
     title: "Drame & Émotion",
     desc: "Pour les récits profonds, réalistes et touchants. Drames familiaux, histoires vraies/biopics, chroniques sociales et romances dramatiques."
   },
   animation_famille: {
+    icon: "🧸",
     title: "Animation & Famille",
     desc: "Pour un public jeune ou un visionnage tous publics. Films et séries d'animation, aventures jeunesse et contes familiaux."
   }
@@ -171,6 +179,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initNavigation();
   initStarsNavigation();
   initModal();
+  updateMobileGenreDisplay(AppState.activeCategory);
   updateCategoryAutoStar();
   renderCatalog();
   preloadAllCatalogImages();
@@ -197,12 +206,13 @@ function initNavigation() {
       mediaTabs.forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
       AppState.activeType = tab.dataset.type;
+      updateMobileGenreDisplay(AppState.activeCategory);
       updateCategoryAutoStar();
       renderCatalog();
     });
   });
 
-  // Navigation 7 Catégories
+  // Navigation 7 Catégories (Desktop / Tablette)
   const catButtons = document.querySelectorAll('.category-btn');
   catButtons.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -210,12 +220,51 @@ function initNavigation() {
       btn.classList.add('active');
       AppState.activeCategory = btn.dataset.category;
       
+      // Synchroniser le menu déroulant et badge mobile
+      updateMobileGenreDisplay(btn.dataset.category);
+
       // Lors du changement de catégorie, on recalcule le palier par défaut (30-50 films)
       AppState.isAutoStars = true;
       updateCategoryAutoStar();
       renderCatalog();
     });
   });
+
+  // Navigation Menu Déroulant Genre (Mobile)
+  const mobileCatSelect = document.getElementById('mobileCategorySelect');
+  if (mobileCatSelect) {
+    mobileCatSelect.addEventListener('change', (e) => {
+      const selectedCategory = e.target.value;
+      AppState.activeCategory = selectedCategory;
+
+      // Synchroniser les boutons du carousel desktop
+      catButtons.forEach(b => {
+        b.classList.toggle('active', b.dataset.category === selectedCategory);
+      });
+
+      updateMobileGenreDisplay(selectedCategory);
+
+      // Recalculer le palier automatique
+      AppState.isAutoStars = true;
+      updateCategoryAutoStar();
+      renderCatalog();
+    });
+  }
+}
+
+// Synchronisation de l'affichage du genre sélectionné sur mobile
+function updateMobileGenreDisplay(categoryKey) {
+  const mobileCatSelect = document.getElementById('mobileCategorySelect');
+  const badgeIcon = document.getElementById('selectedGenreIcon');
+  const badgeText = document.getElementById('selectedGenreText');
+
+  if (mobileCatSelect && mobileCatSelect.value !== categoryKey) {
+    mobileCatSelect.value = categoryKey;
+  }
+
+  const catInfo = CATEGORIES_INFO[categoryKey] || CATEGORIES_INFO.all;
+  if (badgeIcon) badgeIcon.textContent = catInfo.icon || '✨';
+  if (badgeText) badgeText.textContent = catInfo.title || 'Tous les titres';
 }
 
 // Initialisation de la navigation par étoiles
@@ -391,6 +440,8 @@ function initModal() {
   const closeModal = () => {
     modal.classList.remove('open');
     modal.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('modal-open');
+    document.documentElement.classList.remove('modal-open');
   };
 
   closeBtn.addEventListener('click', closeModal);
@@ -398,6 +449,13 @@ function initModal() {
   modal.addEventListener('click', (e) => {
     if (e.target === modal) closeModal();
   });
+
+  // Empêcher le défilement de la page arrière-plan au toucher sur le fond
+  modal.addEventListener('touchmove', (e) => {
+    if (e.target === modal) {
+      e.preventDefault();
+    }
+  }, { passive: false });
 
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && modal.classList.contains('open')) {
@@ -478,6 +536,8 @@ function openModal(item) {
     ratingEl.innerHTML = `${item.note_avis ? Number(item.note_avis).toFixed(1) : '-'} / 10 <span class="modal-stars-tag">${starsSymbol}</span>`;
   }
 
+  document.body.classList.add('modal-open');
+  document.documentElement.classList.add('modal-open');
   modal.classList.add('open');
   modal.setAttribute('aria-hidden', 'false');
 }
