@@ -1,0 +1,10 @@
+node_modules/
+dist/
+scratch/
+__pycache__/
+*.pyc
+.tempmediaStorage/
+.user_uploaded/
+Site/
+.DS_Store
+Thumbs.db

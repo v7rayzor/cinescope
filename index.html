@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CinéScope - Filmothèque & Guide Streaming</title>
+  <meta name="description" content="Guide et catalogue intelligent de films et séries avec recommandations personnalisées et classement pondéré.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header / Navigation principale -->
+  <header class="main-header">
+    <div class="header-container">
+      <div class="brand">
+        <div class="brand-logo">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="4" />
+            <polygon points="10 8 16 12 10 16 10 8" fill="currentColor" />
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">CinéScope</span>
+          <span class="brand-subtitle">Filmothèque Personnelle</span>
+        </div>
+      </div>
+
+      <!-- Navigation type de média : Films / Séries -->
+      <nav class="media-nav" id="mediaNav">
+        <button class="nav-tab active" data-type="film" id="tabFilms">
+          <span class="tab-icon">🎬</span>
+          <span class="tab-label">Films</span>
+          <span class="tab-badge" id="filmsCount">0</span>
+        </button>
+        <button class="nav-tab" data-type="serie" id="tabSeries">
+          <span class="tab-icon">📺</span>
+          <span class="tab-label">Séries</span>
+          <span class="tab-badge" id="seriesCount">0</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <!-- Barre des 7 Catégories Thématiques -->
+    <section class="categories-bar-section">
+      <div class="categories-wrapper" id="categoriesNav">
+        <button class="category-btn active" data-category="all" id="catAll">
+          <span class="cat-icon">✨</span>
+          <span class="cat-name">Tous les titres</span>
+        </button>
+        <button class="category-btn" data-category="action_aventure" id="catAction">
+          <span class="cat-icon">🏹</span>
+          <span class="cat-name">Action & Aventure</span>
+        </button>
+        <button class="category-btn" data-category="thriller_policier" id="catThriller">
+          <span class="cat-icon">🔍</span>
+          <span class="cat-name">Thriller & Policier</span>
+        </button>
+        <button class="category-btn" data-category="scifi_fantastique" id="catScifi">
+          <span class="cat-icon">🚀</span>
+          <span class="cat-name">Science-fiction & Fantastique</span>
+        </button>
+        <button class="category-btn" data-category="horreur_epouvante" id="catHorreur">
+          <span class="cat-icon">👻</span>
+          <span class="cat-name">Horreur & Épouvante</span>
+        </button>
+        <button class="category-btn" data-category="comedie" id="catComedie">
+          <span class="cat-icon">🎭</span>
+          <span class="cat-name">Comédie</span>
+        </button>
+        <button class="category-btn" data-category="drame_emotion" id="catDrame">
+          <span class="cat-icon">❤️</span>
+          <span class="cat-name">Drame & Émotion</span>
+        </button>
+        <button class="category-btn" data-category="animation_famille" id="catAnimation">
+          <span class="cat-icon">🧸</span>
+          <span class="cat-name">Animation & Famille</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Barre de Filtrage par Étoiles -->
+    <section class="stars-filter-section" id="starsFilterSection">
+      <div class="stars-wrapper" id="starsWrapper">
+        <button class="star-btn" data-stars="all" id="starAll">
+          <span class="star-title">Tous</span>
+          <span class="star-count" id="countStarAll">0</span>
+        </button>
+        <button class="star-btn" data-stars="4" id="star4">
+          <span class="star-icons">★</span>
+          <span class="star-title">4+</span>
+          <span class="star-count" id="countStar4">0</span>
+        </button>
+        <button class="star-btn" data-stars="5" id="star5">
+          <span class="star-icons">★</span>
+          <span class="star-title">5</span>
+          <span class="star-count" id="countStar5">0</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- En-tête de la section active -->
+    <section class="section-intro">
+      <div class="section-intro-text">
+        <h1 class="section-title" id="currentCategoryTitle">Tous les films</h1>
+        <p class="section-description" id="currentCategoryDesc"></p>
+      </div>
+      <div class="filter-stats" id="catalogStats">
+        <span class="stats-pill"><strong id="displayedCount">0</strong> titres affichés</span>
+        <span class="stats-hint">Ordre aléatoire régénéré à chaque chargement de page</span>
+      </div>
+    </section>
+
+    <!-- Grille des films -->
+    <section class="grid-section">
+      <div class="posters-grid" id="postersGrid">
+        <!-- Rendu dynamique via app.js -->
+      </div>
+      
+      <!-- État vide si aucun contenu -->
+      <div class="empty-state hidden" id="emptyState">
+        <div class="empty-icon">🍿</div>
+        <h2 class="empty-title">Aucun titre disponible</h2>
+        <p class="empty-desc">Aucun contenu ne correspond aux critères stricts pour cette sélection actuellement.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modale d'informations détaillées au clic -->
+  <div class="modal-backdrop" id="movieModal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modalCloseBtn" aria-label="Fermer la fiche">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+      
+      <div class="modal-body">
+        <div class="modal-poster-wrapper">
+          <img src="" alt="" id="modalPoster" class="modal-poster-img">
+        </div>
+        
+        <div class="modal-details">
+          <div class="modal-header-meta">
+            <span class="modal-type-badge" id="modalTypeBadge">Film</span>
+            <span class="modal-year" id="modalYear">2024</span>
+            <span class="modal-csa-badge" id="modalCsaBadge"></span>
+          </div>
+
+          <h2 class="modal-title" id="modalTitle">Titre du Film</h2>
+
+          <div class="modal-info-list">
+            <div class="info-row">
+              <span class="info-label">📺 Chaîne</span>
+              <span class="info-value highlight" id="modalChannel">Ciné+ Frisson</span>
+            </div>
+
+            <div class="info-row">
+              <span class="info-label">🏷️ Catégories</span>
+              <div class="modal-categories-chips" id="modalCategories"></div>
+            </div>
+
+            <div class="info-row">
+              <span class="info-label">⭐ Note Avis</span>
+              <span class="info-value highlight-rating" id="modalRating">8.0 / 10</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="main-footer">
+    <div class="footer-content">
+      <p id="footerDate">Mise à jour le 13 septembre 2026</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/catalog.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
