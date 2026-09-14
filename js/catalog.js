@@ -762,10 +762,10 @@ const CATALOG_DATA = [
     "chaine": "Ciné+ Frisson",
     "section": "Films",
     "position": "Films — Ligne 11, N° 2",
-    "annee": 2017,
-    "note_avis": 7.2,
-    "note_recence": 7.5,
-    "note_globale": 7.3,
+    "annee": 2025,
+    "note_avis": 6.5,
+    "note_recence": 6.5,
+    "note_globale": 6.5,
     "categories": [
       "thriller_policier"
     ],
@@ -779,7 +779,7 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
     ],
-    "duree": "2h 00min"
+    "duree": "1h 34min"
   },
   {
     "id": "looper",
@@ -4136,10 +4136,10 @@ const CATALOG_DATA = [
     ],
     "section": "Films",
     "position": "Films • Ciné+ Emotion & OCS",
-    "annee": 2007,
+    "annee": 2025,
     "note_avis": 6.4,
-    "note_recence": 5.5,
-    "note_globale": 6.0,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "categories": [
       "drame_emotion"
     ],
@@ -4151,7 +4151,7 @@ const CATALOG_DATA = [
       "assets/logos/cine_emotion.png",
       "assets/logos/ocs.png"
     ],
-    "duree": "1h 35min"
+    "duree": "1h 31min"
   },
   {
     "id": "un-barrage-contre-le-pacifique",
