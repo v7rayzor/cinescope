@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=2.2">
 </head>
 <body>
   <!-- Header / Navigation principale -->
@@ -172,7 +172,10 @@
           </span>
           <div class="duration-filter-controls">
             <div class="duration-input-group">
-              <span class="duration-bound-label">Plus de</span>
+              <span class="duration-bound-label">
+                <span class="lbl-full">Plus de</span>
+                <span class="lbl-short">+ de</span>
+              </span>
               <div class="duration-time-box">
                 <input type="text" inputmode="numeric" pattern="[0-9]*" maxlength="1" id="durationMinH" class="duration-input" placeholder="0" aria-label="Heures minimum">
                 <span class="duration-time-unit">h</span>
@@ -182,7 +185,10 @@
             </div>
 
             <div class="duration-input-group">
-              <span class="duration-bound-label">Moins de</span>
+              <span class="duration-bound-label">
+                <span class="lbl-full">Moins de</span>
+                <span class="lbl-short">- de</span>
+              </span>
               <div class="duration-time-box">
                 <input type="text" inputmode="numeric" pattern="[0-9]*" maxlength="1" id="durationMaxH" class="duration-input" placeholder="0" aria-label="Heures maximum">
                 <span class="duration-time-unit">h</span>
@@ -283,7 +289,7 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="js/catalog.js"></script>
-  <script src="js/app.js"></script>
+  <script src="js/catalog.js?v=2.2"></script>
+  <script src="js/app.js?v=2.2"></script>
 </body>
 </html>
