@@ -14399,18 +14399,18 @@ const CATALOG_DATA = [
   },
   {
     "id": "13eme_8_thestolengirl",
-    "titre": "The Stolen Girl",
+    "titre": "Stolen Girl",
     "type": "film",
     "categories": [
       "thriller_policier"
     ],
-    "annee": 2020,
+    "annee": 2025,
     "chaine": "13ème RUE",
     "logo_chaine": "assets/logos/13eme_rue.png",
     "poster": "assets/posters/poster_13eme_the_stolen_girl.jpg",
     "note_avis": 4.6,
-    "note_recence": 8.0,
-    "note_globale": 6.3,
+    "note_recence": 9.7,
+    "note_globale": 7.2,
     "is_eligible": true,
     "badge": "10",
     "chaines": [

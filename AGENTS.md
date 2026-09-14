@@ -29,3 +29,10 @@ Avant d'intégrer ou de mettre à jour un film / une série :
 
 ## 3. Critères d'Éligibilité
 Une œuvre est éligible (`is_eligible: true`) si et seulement si elle respecte les conditions du catalogue (accès valide, chaîne active, métadonnées complètes).
+
+---
+
+## 4. Qualité des Affiches : Images HD Officielles Obligatoires
+- Toutes les affiches du catalogue (`assets/posters/`) doivent être **STRICTEMENT des images haute définition (HD)** officielles de l'œuvre (provenant de TMDb, Allociné, Unifrance, Apple TV ou des distributeurs officiels).
+- **Il est FORMELLEMENT INTERDIT d'utiliser des captures d'écran de captures d'écran**, des découpes de l'interface Molotov ou des images basse résolution/floues comme affiches.
+- Les captures d'écran présentes dans le dossier `Site/` servent **exclusivement de repère visuel de référence** (pour identifier les acteurs, l'affiche de diffusion et le badge d'âge CSA/PEGI), mais le fichier final dans `assets/posters/` doit toujours être le poster officiel original en haute définition.
