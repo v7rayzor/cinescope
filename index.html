@@ -47,86 +47,155 @@
   </header>
 
   <main class="main-content">
-    <!-- Barre des 7 Catégories Thématiques -->
-    <section class="categories-bar-section">
-      <!-- Carousel de catégories (Desktop / Tablette) -->
-      <div class="categories-wrapper" id="categoriesNav">
-        <button class="category-btn active" data-category="all" id="catAll">
-          <span class="cat-icon">✨</span>
-          <span class="cat-name">Tous les titres</span>
-        </button>
-        <button class="category-btn" data-category="action_aventure" id="catAction">
-          <span class="cat-icon">🏹</span>
-          <span class="cat-name">Action & Aventure</span>
-        </button>
-        <button class="category-btn" data-category="thriller_policier" id="catThriller">
-          <span class="cat-icon">🔍</span>
-          <span class="cat-name">Thriller & Policier</span>
-        </button>
-        <button class="category-btn" data-category="scifi_fantastique" id="catScifi">
-          <span class="cat-icon">🚀</span>
-          <span class="cat-name">Science-fiction & Fantastique</span>
-        </button>
-        <button class="category-btn" data-category="horreur_epouvante" id="catHorreur">
-          <span class="cat-icon">👻</span>
-          <span class="cat-name">Horreur & Épouvante</span>
-        </button>
-        <button class="category-btn" data-category="comedie" id="catComedie">
-          <span class="cat-icon">🎭</span>
-          <span class="cat-name">Comédie</span>
-        </button>
-        <button class="category-btn" data-category="drame_emotion" id="catDrame">
-          <span class="cat-icon">❤️</span>
-          <span class="cat-name">Drame & Émotion</span>
-        </button>
-        <button class="category-btn" data-category="animation_famille" id="catAnimation">
-          <span class="cat-icon">🧸</span>
-          <span class="cat-name">Animation & Famille</span>
-        </button>
-      </div>
-
-      <!-- Sélecteur de Genre Mobile (Bouton Genre déroulant + Bouton inactif affichant le genre sélectionné) -->
-      <div class="mobile-genre-selector" id="mobileGenreSelector">
-        <div class="genre-select-wrapper">
-          <select id="mobileCategorySelect" class="genre-native-select" aria-label="Choisir un genre">
-            <option value="all">✨ Tous les titres</option>
-            <option value="action_aventure">🏹 Action & Aventure</option>
-            <option value="thriller_policier">🔍 Thriller & Policier</option>
-            <option value="scifi_fantastique">🚀 Science-fiction & Fantastique</option>
-            <option value="horreur_epouvante">👻 Horreur & Épouvante</option>
-            <option value="comedie">🎭 Comédie</option>
-            <option value="drame_emotion">❤️ Drame & Émotion</option>
-            <option value="animation_famille">🧸 Animation & Famille</option>
-          </select>
-          <button class="genre-dropdown-trigger" type="button" tabindex="-1" aria-hidden="true">
-            <span class="genre-trigger-text">Genre</span>
-            <span class="genre-trigger-caret">▾</span>
+    <!-- Bulle Unifiée de Tous les Filtres (Catégories / Genre, Étoiles, Durée) -->
+    <section class="filters-unified-bubble" id="filtersUnifiedBubble">
+      <!-- Ligne 1 : Catégories (Desktop) / Sélecteur Genre (Mobile) -->
+      <div class="categories-bar-section" id="categoriesBarSection">
+        <!-- Carousel de catégories (Desktop / Tablette) -->
+        <div class="categories-wrapper" id="categoriesNav">
+          <button class="category-btn active" data-category="all" id="catAll">
+            <span class="cat-icon">✨</span>
+            <span class="cat-name">Tous les titres</span>
+          </button>
+          <button class="category-btn" data-category="action_aventure" id="catAction">
+            <span class="cat-icon">🏹</span>
+            <span class="cat-name">Action & Aventure</span>
+          </button>
+          <button class="category-btn" data-category="thriller_policier" id="catThriller">
+            <span class="cat-icon">🔍</span>
+            <span class="cat-name">Thriller & Policier</span>
+          </button>
+          <button class="category-btn" data-category="scifi_fantastique" id="catScifi">
+            <span class="cat-icon">🚀</span>
+            <span class="cat-name">Science-fiction & Fantastique</span>
+          </button>
+          <button class="category-btn" data-category="horreur_epouvante" id="catHorreur">
+            <span class="cat-icon">👻</span>
+            <span class="cat-name">Horreur & Épouvante</span>
+          </button>
+          <button class="category-btn" data-category="comedie" id="catComedie">
+            <span class="cat-icon">🎭</span>
+            <span class="cat-name">Comédie</span>
+          </button>
+          <button class="category-btn" data-category="drame_emotion" id="catDrame">
+            <span class="cat-icon">❤️</span>
+            <span class="cat-name">Drame & Émotion</span>
+          </button>
+          <button class="category-btn" data-category="animation_famille" id="catAnimation">
+            <span class="cat-icon">🧸</span>
+            <span class="cat-name">Animation & Famille</span>
           </button>
         </div>
-        <div class="selected-genre-badge" id="selectedGenreBadge" aria-readonly="true">
-          <span class="selected-genre-icon" id="selectedGenreIcon">✨</span>
-          <span class="selected-genre-text" id="selectedGenreText">Tous les titres</span>
+
+        <!-- Sélecteur de Genre Mobile (Bouton Genre déroulant + Bouton inactif affichant le genre sélectionné) -->
+        <div class="mobile-genre-selector" id="mobileGenreSelector">
+          <div class="genre-select-wrapper" id="genreSelectWrapper">
+            <button class="genre-dropdown-trigger" id="genreDropdownBtn" type="button" aria-haspopup="listbox" aria-expanded="false">
+              <span class="genre-trigger-text">Genre</span>
+              <span class="genre-trigger-caret" id="genreTriggerCaret">▾</span>
+            </button>
+            <div class="genre-dropdown-menu" id="genreDropdownMenu" role="listbox" aria-label="Choisir un genre">
+              <button type="button" class="genre-option active" role="option" data-category="all" aria-selected="true">
+                <span class="genre-opt-icon">✨</span>
+                <span class="genre-opt-name">Tous les titres</span>
+              </button>
+              <button type="button" class="genre-option" role="option" data-category="action_aventure" aria-selected="false">
+                <span class="genre-opt-icon">🏹</span>
+                <span class="genre-opt-name">Action & Aventure</span>
+              </button>
+              <button type="button" class="genre-option" role="option" data-category="thriller_policier" aria-selected="false">
+                <span class="genre-opt-icon">🔍</span>
+                <span class="genre-opt-name">Thriller & Policier</span>
+              </button>
+              <button type="button" class="genre-option" role="option" data-category="scifi_fantastique" aria-selected="false">
+                <span class="genre-opt-icon">🚀</span>
+                <span class="genre-opt-name">Science-fiction & Fantastique</span>
+              </button>
+              <button type="button" class="genre-option" role="option" data-category="horreur_epouvante" aria-selected="false">
+                <span class="genre-opt-icon">👻</span>
+                <span class="genre-opt-name">Horreur & Épouvante</span>
+              </button>
+              <button type="button" class="genre-option" role="option" data-category="comedie" aria-selected="false">
+                <span class="genre-opt-icon">🎭</span>
+                <span class="genre-opt-name">Comédie</span>
+              </button>
+              <button type="button" class="genre-option" role="option" data-category="drame_emotion" aria-selected="false">
+                <span class="genre-opt-icon">❤️</span>
+                <span class="genre-opt-name">Drame & Émotion</span>
+              </button>
+              <button type="button" class="genre-option" role="option" data-category="animation_famille" aria-selected="false">
+                <span class="genre-opt-icon">🧸</span>
+                <span class="genre-opt-name">Animation & Famille</span>
+              </button>
+            </div>
+          </div>
+          <div class="selected-genre-badge" id="selectedGenreBadge" aria-readonly="true">
+            <span class="selected-genre-icon" id="selectedGenreIcon">✨</span>
+            <span class="selected-genre-text" id="selectedGenreText">Tous les titres</span>
+          </div>
         </div>
       </div>
-    </section>
 
-    <!-- Barre de Filtrage par Étoiles -->
-    <section class="stars-filter-section" id="starsFilterSection">
-      <div class="stars-wrapper" id="starsWrapper">
-        <button class="star-btn" data-stars="all" id="starAll">
-          <span class="star-title">Tous</span>
-          <span class="star-count" id="countStarAll">0</span>
-        </button>
-        <button class="star-btn" data-stars="4" id="star4">
-          <span class="star-icons">★</span>
-          <span class="star-title">4+</span>
-          <span class="star-count" id="countStar4">0</span>
-        </button>
-        <button class="star-btn" data-stars="5" id="star5">
-          <span class="star-icons">★</span>
-          <span class="star-title">5</span>
-          <span class="star-count" id="countStar5">0</span>
-        </button>
+      <!-- Ligne de séparation horizontale entre Catégories et Étoiles/Durée -->
+      <div class="filters-bubble-divider" aria-hidden="true"></div>
+
+      <!-- Ligne 2 : Étoiles & Durée -->
+      <div class="stars-filter-section" id="starsFilterSection">
+        <div class="stars-wrapper" id="starsWrapper">
+          <button class="star-btn" data-stars="all" id="starAll">
+            <span class="star-title">Tous</span>
+            <span class="star-count" id="countStarAll">0</span>
+          </button>
+          <button class="star-btn" data-stars="4" id="star4">
+            <span class="star-icons">★</span>
+            <span class="star-title">4+</span>
+            <span class="star-count" id="countStar4">0</span>
+          </button>
+          <button class="star-btn" data-stars="5" id="star5">
+            <span class="star-icons">★</span>
+            <span class="star-title">5</span>
+            <span class="star-count" id="countStar5">0</span>
+          </button>
+        </div>
+
+        <!-- Séparateur vertical sur desktop -->
+        <div class="stars-filter-divider" aria-hidden="true"></div>
+
+        <!-- Séparateur horizontal spécifique mobile entre Étoiles et Durée -->
+        <div class="filters-mobile-divider" aria-hidden="true"></div>
+
+        <!-- Filtre Durée (PC sur la même ligne, Mobile sur la ligne du dessous) -->
+        <div class="duration-filter-container" id="durationFilterContainer">
+          <span class="duration-filter-title">
+            <span class="duration-filter-icon" aria-hidden="true">⏱️</span>
+            <span class="duration-filter-text">Durée :</span>
+          </span>
+          <div class="duration-filter-controls">
+            <div class="duration-input-group">
+              <span class="duration-bound-label">Plus de</span>
+              <div class="duration-time-box">
+                <input type="text" inputmode="numeric" pattern="[0-9]*" maxlength="1" id="durationMinH" class="duration-input" placeholder="0" aria-label="Heures minimum">
+                <span class="duration-time-unit">h</span>
+                <input type="text" inputmode="numeric" pattern="[0-9]*" maxlength="2" id="durationMinM" class="duration-input" placeholder="00" aria-label="Minutes minimum">
+                <span class="duration-time-unit">min</span>
+              </div>
+            </div>
+
+            <div class="duration-input-group">
+              <span class="duration-bound-label">Moins de</span>
+              <div class="duration-time-box">
+                <input type="text" inputmode="numeric" pattern="[0-9]*" maxlength="1" id="durationMaxH" class="duration-input" placeholder="0" aria-label="Heures maximum">
+                <span class="duration-time-unit">h</span>
+                <input type="text" inputmode="numeric" pattern="[0-9]*" maxlength="2" id="durationMaxM" class="duration-input" placeholder="00" aria-label="Minutes maximum">
+                <span class="duration-time-unit">min</span>
+              </div>
+            </div>
+
+            <button type="button" class="duration-reset-btn" id="durationResetBtn" title="Réinitialiser le filtre durée" aria-label="Réinitialiser le filtre durée">
+              ✕
+            </button>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -175,8 +244,8 @@
         <div class="modal-details">
           <div class="modal-header-meta">
             <span class="modal-type-badge" id="modalTypeBadge">Film</span>
-            <span class="modal-year" id="modalYear">2024</span>
             <span class="modal-csa-badge" id="modalCsaBadge"></span>
+            <span class="modal-year" id="modalYear">2024</span>
           </div>
 
           <h2 class="modal-title" id="modalTitle">Titre du Film</h2>
@@ -185,6 +254,11 @@
             <div class="info-row">
               <span class="info-label">📺 Chaîne</span>
               <span class="info-value highlight" id="modalChannel">Ciné+ Frisson</span>
+            </div>
+
+            <div class="info-row" id="modalDurationRow">
+              <span class="info-label" id="modalDurationLabel">⏱️ Durée</span>
+              <span class="info-value" id="modalDuration">-</span>
             </div>
 
             <div class="info-row">

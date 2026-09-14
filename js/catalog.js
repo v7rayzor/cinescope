@@ -22,7 +22,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "2h 35min"
   },
   {
     "id": "la-legende-dochi",
@@ -47,7 +48,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 36min"
   },
   {
     "id": "le-mohican",
@@ -72,7 +74,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 27min"
   },
   {
     "id": "u-are-the-universe",
@@ -97,7 +100,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 37min"
   },
   {
     "id": "heretic",
@@ -122,7 +126,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 50min"
   },
   {
     "id": "reflet-dans-un-diamant-mort",
@@ -147,7 +152,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 27min"
   },
   {
     "id": "the-things-you-kill",
@@ -172,7 +178,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 53min"
   },
   {
     "id": "goliath",
@@ -197,7 +204,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "2h 02min"
   },
   {
     "id": "le-clan-des-betes",
@@ -222,7 +230,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 46min"
   },
   {
     "id": "mads",
@@ -247,7 +256,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 29min"
   },
   {
     "id": "hautlesmains",
@@ -274,7 +284,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_frisson.png",
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 23min"
   },
   {
     "id": "que-ma-volonte-soit-faite",
@@ -299,7 +310,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "les-arenes",
@@ -324,7 +336,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 34min"
   },
   {
     "id": "cloud",
@@ -349,7 +362,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "2h 04min"
   },
   {
     "id": "les-femmes-au-balcon",
@@ -374,7 +388,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 43min"
   },
   {
     "id": "the-ugly-stepsister",
@@ -399,7 +414,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 49min"
   },
   {
     "id": "magma",
@@ -424,7 +440,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 25min"
   },
   {
     "id": "belladone",
@@ -449,7 +466,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "brule-le-sang",
@@ -474,7 +492,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 49min"
   },
   {
     "id": "else",
@@ -499,7 +518,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 40min"
   },
   {
     "id": "l-espion-de-dieu",
@@ -524,7 +544,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "2h 12min"
   },
   {
     "id": "un-homme-en-fuite",
@@ -549,7 +570,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 46min"
   },
   {
     "id": "coka-chicas",
@@ -574,7 +596,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 40min"
   },
   {
     "id": "animale",
@@ -599,7 +622,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 38min"
   },
   {
     "id": "other",
@@ -624,7 +648,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "guillaume-tell",
@@ -649,7 +674,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "2h 13min"
   },
   {
     "id": "resurrection",
@@ -674,7 +700,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 43min"
   },
   {
     "id": "marae",
@@ -699,7 +726,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 25min"
   },
   {
     "id": "corporate",
@@ -724,7 +752,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "sans-pitie",
@@ -749,7 +778,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "2h 00min"
   },
   {
     "id": "looper",
@@ -774,7 +804,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 50min"
   },
   {
     "id": "snowden",
@@ -799,7 +830,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "2h 14min"
   },
   {
     "id": "le-fidele",
@@ -824,7 +856,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "2h 10min"
   },
   {
     "id": "la-derniere-plongee",
@@ -849,7 +882,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 36min"
   },
   {
     "id": "source-code",
@@ -874,7 +908,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 33min"
   },
   {
     "id": "ni-le-ciel-ni-la-terre",
@@ -899,7 +934,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 40min"
   },
   {
     "id": "prisonniere",
@@ -924,7 +960,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 20min"
   },
   {
     "id": "fighter",
@@ -949,7 +986,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 53min"
   },
   {
     "id": "jeune-jolie",
@@ -974,7 +1012,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 34min"
   },
   {
     "id": "slow-west",
@@ -999,7 +1038,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 24min"
   },
   {
     "id": "ares",
@@ -1024,7 +1064,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 20min"
   },
   {
     "id": "burn-out",
@@ -1049,7 +1090,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 43min"
   },
   {
     "id": "chanson-douce",
@@ -1074,7 +1116,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 40min"
   },
   {
     "id": "sang-froid",
@@ -1099,7 +1142,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 59min"
   },
   {
     "id": "l-annee-du-requin",
@@ -1124,7 +1168,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 27min"
   },
   {
     "id": "watchmen-les-gardiens",
@@ -1149,7 +1194,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "2h 42min"
   },
   {
     "id": "under-the-skin",
@@ -1174,7 +1220,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 48min"
   },
   {
     "id": "the-two-faces-of-january",
@@ -1199,7 +1246,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 37min"
   },
   {
     "id": "mon-garcon",
@@ -1224,7 +1272,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 24min"
   },
   {
     "id": "otages-a-entebbe",
@@ -1249,7 +1298,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 47min"
   },
   {
     "id": "les-lyonnais",
@@ -1274,7 +1324,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 42min"
   },
   {
     "id": "la-proie",
@@ -1299,7 +1350,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 42min"
   },
   {
     "id": "la-taupe",
@@ -1324,7 +1376,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "2h 07min"
   },
   {
     "id": "volontaire",
@@ -1349,7 +1402,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 41min"
   },
   {
     "id": "pour-elle",
@@ -1374,7 +1428,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 36min"
   },
   {
     "id": "attack-the-block",
@@ -1399,7 +1454,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 28min"
   },
   {
     "id": "les-apaches",
@@ -1424,7 +1480,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 22min"
   },
   {
     "id": "gibraltar",
@@ -1449,7 +1506,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 50min"
   },
   {
     "id": "robocop",
@@ -1474,7 +1532,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 57min"
   },
   {
     "id": "rocky-balboa",
@@ -1499,7 +1558,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 45min"
   },
   {
     "id": "the-machinist",
@@ -1524,7 +1584,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 42min"
   },
   {
     "id": "la-raison-du-plus-faible",
@@ -1549,7 +1610,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 56min"
   },
   {
     "id": "hors-la-loi-2010",
@@ -1576,7 +1638,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_festival.png",
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "2h 18min"
   },
   {
     "id": "aux-yeux-de-tous",
@@ -1601,7 +1664,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 25min"
   },
   {
     "id": "mr-73",
@@ -1626,7 +1690,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "2h 04min"
   },
   {
     "id": "destination-finale-5",
@@ -1651,7 +1716,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "l-avocat",
@@ -1676,7 +1742,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 42min"
   },
   {
     "id": "96-heures",
@@ -1701,7 +1768,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 36min"
   },
   {
     "id": "fight-club",
@@ -1726,7 +1794,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "2h 19min"
   },
   {
     "id": "man-on-fire",
@@ -1751,7 +1820,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "2h 26min"
   },
   {
     "id": "le-moine",
@@ -1776,7 +1846,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 41min"
   },
   {
     "id": "les-rivieres-pourpres",
@@ -1801,7 +1872,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 45min"
   },
   {
     "id": "le-pacte-des-loups",
@@ -1826,7 +1898,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "2h 31min"
   },
   {
     "id": "la-fleur-du-mal",
@@ -1851,7 +1924,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 44min"
   },
   {
     "id": "destination-finale-3",
@@ -1876,7 +1950,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 33min"
   },
   {
     "id": "destination-finale",
@@ -1901,7 +1976,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 38min"
   },
   {
     "id": "destination-finale-2",
@@ -1926,7 +2002,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "l-empire-des-loups",
@@ -1951,7 +2028,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "2h 08min"
   },
   {
     "id": "open-water-en-eaux-profondes",
@@ -1976,7 +2054,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 20min"
   },
   {
     "id": "s1m0ne",
@@ -2001,7 +2080,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 55min"
   },
   {
     "id": "destination-finale-4",
@@ -2026,7 +2106,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 21min"
   },
   {
     "id": "l-arme-fatale-4",
@@ -2051,7 +2132,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "2h 07min"
   },
   {
     "id": "terminator",
@@ -2076,7 +2158,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 48min"
   },
   {
     "id": "basic-instinct",
@@ -2101,7 +2184,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "2h 10min"
   },
   {
     "id": "l-arme-fatale",
@@ -2126,7 +2210,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 49min"
   },
   {
     "id": "l-arme-fatale-2",
@@ -2151,7 +2236,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 54min"
   },
   {
     "id": "l-arme-fatale-3",
@@ -2176,7 +2262,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 58min"
   },
   {
     "id": "copycat",
@@ -2201,7 +2288,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "2h 04min"
   },
   {
     "id": "2001-l-odyssee-de-lespace",
@@ -2226,7 +2314,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "2h 36min"
   },
   {
     "id": "rocky",
@@ -2251,7 +2340,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 59min"
   },
   {
     "id": "rocky-iv",
@@ -2276,7 +2366,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 31min"
   },
   {
     "id": "rocky-ii",
@@ -2301,7 +2392,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 59min"
   },
   {
     "id": "rocky-iii",
@@ -2326,7 +2418,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 39min"
   },
   {
     "id": "running-man",
@@ -2351,7 +2444,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 41min"
   },
   {
     "id": "rocky-v",
@@ -2376,7 +2470,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_frisson.png"
-    ]
+    ],
+    "duree": "1h 44min"
   },
   {
     "id": "vingt-dieux",
@@ -2401,7 +2496,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "lattachement",
@@ -2428,7 +2524,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_emotion.png",
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 46min"
   },
   {
     "id": "l-amour-au-present",
@@ -2453,7 +2550,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 48min"
   },
   {
     "id": "bicyclette",
@@ -2480,7 +2578,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_emotion.png",
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "mon-inseparable",
@@ -2505,7 +2604,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 34min"
   },
   {
     "id": "lire-lolita-a-teheran",
@@ -2530,7 +2630,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 47min"
   },
   {
     "id": "jane-austen-a-gache-ma-vie",
@@ -2555,7 +2656,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 38min"
   },
   {
     "id": "bridgetjonesfol",
@@ -2582,7 +2684,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_emotion.png",
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "2h 04min"
   },
   {
     "id": "sarah-bernhardt-la-divine",
@@ -2607,7 +2710,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 38min"
   },
   {
     "id": "onira",
@@ -2634,7 +2738,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_emotion.png",
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 37min"
   },
   {
     "id": "les-choses-quon-dit-les-choses-quon-fait",
@@ -2659,7 +2764,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "2h 02min"
   },
   {
     "id": "lapetitecuisine",
@@ -2686,7 +2792,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_emotion.png",
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 44min"
   },
   {
     "id": "la-fille-dun-grand-amour",
@@ -2711,7 +2818,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 34min"
   },
   {
     "id": "patients",
@@ -2736,7 +2844,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 50min"
   },
   {
     "id": "moi-tonya",
@@ -2761,7 +2870,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "2h 00min"
   },
   {
     "id": "mademoiselle-de-joncquieres",
@@ -2786,7 +2896,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 49min"
   },
   {
     "id": "la-vie-scolaire-2019",
@@ -2813,7 +2924,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_emotion.png",
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 51min"
   },
   {
     "id": "en-liberte",
@@ -2838,7 +2950,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 47min"
   },
   {
     "id": "hautecouture",
@@ -2865,7 +2978,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_emotion.png",
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 36min"
   },
   {
     "id": "jamais-sans-mon-psy",
@@ -2890,7 +3004,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 31min"
   },
   {
     "id": "les-combattants",
@@ -2915,7 +3030,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 38min"
   },
   {
     "id": "colette",
@@ -2940,7 +3056,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 51min"
   },
   {
     "id": "la-belle-saison",
@@ -2965,7 +3082,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 45min"
   },
   {
     "id": "l-hermine",
@@ -2990,7 +3108,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 38min"
   },
   {
     "id": "love-friendship",
@@ -3015,7 +3134,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 32min"
   },
   {
     "id": "l-homme-fidele",
@@ -3040,7 +3160,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 14min"
   },
   {
     "id": "la-lutte-des-classes",
@@ -3065,7 +3186,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 43min"
   },
   {
     "id": "happiness-therapy",
@@ -3090,7 +3212,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "2h 02min"
   },
   {
     "id": "jirai-ou-tu-iras",
@@ -3115,7 +3238,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 40min"
   },
   {
     "id": "en-mai-fais-ce-quil-te-plait",
@@ -3140,7 +3264,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 48min"
   },
   {
     "id": "le-stratege",
@@ -3165,7 +3290,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "2h 13min"
   },
   {
     "id": "alceste-a-bicyclette",
@@ -3190,7 +3316,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 44min"
   },
   {
     "id": "les-noces-rebelles",
@@ -3215,7 +3342,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "2h 05min"
   },
   {
     "id": "tout-ce-qui-brille",
@@ -3240,7 +3368,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 36min"
   },
   {
     "id": "poulet-aux-prunes",
@@ -3265,7 +3394,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 33min"
   },
   {
     "id": "last-days-of-summer",
@@ -3290,7 +3420,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 51min"
   },
   {
     "id": "la-ritournelle",
@@ -3315,7 +3446,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 38min"
   },
   {
     "id": "orgueil-prejuges",
@@ -3340,7 +3472,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "2h 07min"
   },
   {
     "id": "my-week-with-marilyn",
@@ -3365,7 +3498,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 39min"
   },
   {
     "id": "les-saveurs-du-palais",
@@ -3390,7 +3524,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "perfect-mothers",
@@ -3415,7 +3550,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 51min"
   },
   {
     "id": "gemma-bovery",
@@ -3440,7 +3576,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 39min"
   },
   {
     "id": "beaux-parents",
@@ -3465,7 +3602,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 24min"
   },
   {
     "id": "reviens-moi",
@@ -3490,7 +3628,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "2h 03min"
   },
   {
     "id": "belles-familles",
@@ -3515,7 +3654,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 53min"
   },
   {
     "id": "la-fete-des-meres",
@@ -3540,7 +3680,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 40min"
   },
   {
     "id": "lost-in-translation",
@@ -3565,7 +3706,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 42min"
   },
   {
     "id": "twilight-chapitre-5-revelation-2e-partie",
@@ -3590,7 +3732,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 55min"
   },
   {
     "id": "coach-carter",
@@ -3615,7 +3758,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "2h 17min"
   },
   {
     "id": "hors-du-temps",
@@ -3640,7 +3784,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 47min"
   },
   {
     "id": "coup-de-foudre-a-austenland",
@@ -3665,7 +3810,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 37min"
   },
   {
     "id": "je-ne-vois-que-toi",
@@ -3690,7 +3836,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 49min"
   },
   {
     "id": "prete-moi-ta-main",
@@ -3715,7 +3862,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "jane",
@@ -3740,7 +3888,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 55min"
   },
   {
     "id": "fauteuils-dorchestre",
@@ -3765,7 +3914,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 46min"
   },
   {
     "id": "lol-laughing-out-loud",
@@ -3790,7 +3940,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 47min"
   },
   {
     "id": "twilight-chapitre-1-fascination",
@@ -3815,7 +3966,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "2h 02min"
   },
   {
     "id": "non-ma-fille-tu-niras-pas-danser",
@@ -3840,7 +3992,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 47min"
   },
   {
     "id": "damour-et-deau-fraiche",
@@ -3865,7 +4018,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "last-night",
@@ -3890,7 +4044,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "twilight-chapitre-3-hesitation",
@@ -3915,7 +4070,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "2h 04min"
   },
   {
     "id": "twilight-chapitre-4-revelation-1re-partie",
@@ -3940,7 +4096,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 52min"
   },
   {
     "id": "lettre-ouverte-a-jane-austen",
@@ -3965,7 +4122,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 46min"
   },
   {
     "id": "laviedevantmoi",
@@ -3992,7 +4150,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_emotion.png",
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "un-barrage-contre-le-pacifique",
@@ -4017,7 +4176,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 55min"
   },
   {
     "id": "mon-pire-cauchemar",
@@ -4042,7 +4202,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 43min"
   },
   {
     "id": "sex-therapy",
@@ -4067,7 +4228,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 52min"
   },
   {
     "id": "american-beauty",
@@ -4092,7 +4254,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "2h 02min"
   },
   {
     "id": "8-femmes",
@@ -4117,7 +4280,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 43min"
   },
   {
     "id": "jeux-denfants",
@@ -4142,7 +4306,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 33min"
   },
   {
     "id": "podium",
@@ -4167,7 +4332,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "la-grande-boucle",
@@ -4192,7 +4358,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 38min"
   },
   {
     "id": "pour-un-garcon",
@@ -4217,7 +4384,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 45min"
   },
   {
     "id": "twilight-chapitre-2-tentation",
@@ -4242,7 +4410,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "2h 11min"
   },
   {
     "id": "jusqua-toi",
@@ -4267,7 +4436,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 20min"
   },
   {
     "id": "laissez-passer",
@@ -4292,7 +4462,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "2h 45min"
   },
   {
     "id": "nos-enfants-cheris",
@@ -4317,7 +4488,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 26min"
   },
   {
     "id": "sex-tape",
@@ -4342,7 +4514,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 34min"
   },
   {
     "id": "les-vestiges-du-jour",
@@ -4367,7 +4540,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "2h 08min"
   },
   {
     "id": "raison-et-sentiments",
@@ -4392,7 +4566,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "2h 16min"
   },
   {
     "id": "mansfield-park",
@@ -4417,7 +4592,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 52min"
   },
   {
     "id": "le-prix-a-payer",
@@ -4442,7 +4618,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "4-mariages-et-1-enterrement",
@@ -4467,7 +4644,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 57min"
   },
   {
     "id": "la-reine-margot",
@@ -4492,7 +4670,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "2h 38min"
   },
   {
     "id": "l-amour-sans-preavis",
@@ -4517,7 +4696,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 41min"
   },
   {
     "id": "emma",
@@ -4542,7 +4722,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "2h 01min"
   },
   {
     "id": "demain-on-se-marie",
@@ -4567,7 +4748,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "les-remplacants",
@@ -4592,7 +4774,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 58min"
   },
   {
     "id": "quand-harry-rencontre-sally",
@@ -4617,7 +4800,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 36min"
   },
   {
     "id": "un-vent-de-folie",
@@ -4642,7 +4826,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 45min"
   },
   {
     "id": "barnie-et-ses-petites-contrarietes",
@@ -4667,7 +4852,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 25min"
   },
   {
     "id": "la-crise",
@@ -4692,7 +4878,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "un-automne-a-new-york",
@@ -4717,7 +4904,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 37min"
   },
   {
     "id": "40-jours-et-40-nuits",
@@ -4742,7 +4930,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 36min"
   },
   {
     "id": "valmont",
@@ -4767,7 +4956,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "2h 17min"
   },
   {
     "id": "rendez-vous-au-paradis",
@@ -4792,7 +4982,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 51min"
   },
   {
     "id": "maurice",
@@ -4817,7 +5008,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "2h 20min"
   },
   {
     "id": "officier-et-gentleman",
@@ -4842,7 +5034,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "2h 04min"
   },
   {
     "id": "risky-business",
@@ -4867,7 +5060,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_emotion.png"
-    ]
+    ],
+    "duree": "1h 38min"
   },
   {
     "id": "lepanache",
@@ -4894,7 +5088,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_family.png",
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 33min"
   },
   {
     "id": "le-secret-des-mesanges",
@@ -4919,7 +5114,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 16min"
   },
   {
     "id": "mlle-bottine",
@@ -4944,7 +5140,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 50min"
   },
   {
     "id": "une-nuit-au-zoo",
@@ -4969,7 +5166,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 31min"
   },
   {
     "id": "les-vedettes",
@@ -4994,7 +5192,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 42min"
   },
   {
     "id": "monster-summer",
@@ -5019,7 +5218,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 37min"
   },
   {
     "id": "super-charlie",
@@ -5044,11 +5244,12 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 20min"
   },
   {
     "id": "la-traversee-de-madison",
-    "titre": "La Traversée de Madison",
+    "titre": "La Course de Madison",
     "type": "film",
     "chaine": "Ciné+ Family",
     "section": "Films",
@@ -5069,7 +5270,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 27min"
   },
   {
     "id": "unnolenfamille",
@@ -5096,7 +5298,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_family.png",
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 33min"
   },
   {
     "id": "l-ecole-buissonniere",
@@ -5121,7 +5324,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 56min"
   },
   {
     "id": "mia-et-le-lion-blanc",
@@ -5146,7 +5350,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 38min"
   },
   {
     "id": "mon-pere-est-une-saucisse",
@@ -5171,7 +5376,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 20min"
   },
   {
     "id": "les-aventures-des-enfants-du-chemin-de-fer",
@@ -5196,7 +5402,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 39min"
   },
   {
     "id": "enzo-le-croco",
@@ -5221,7 +5428,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 46min"
   },
   {
     "id": "le-brigand-briquambroque",
@@ -5246,7 +5454,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 46min"
   },
   {
     "id": "mes-racines-damour",
@@ -5271,7 +5480,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "24min"
   },
   {
     "id": "hotel-sinestra",
@@ -5296,7 +5506,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 25min"
   },
   {
     "id": "microbe-et-gasoil",
@@ -5321,7 +5532,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 43min"
   },
   {
     "id": "venise-nest-pas-en-italie",
@@ -5346,7 +5558,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "persepolis",
@@ -5371,7 +5584,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "super-8",
@@ -5396,7 +5610,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 52min"
   },
   {
     "id": "les-beaux-gosses",
@@ -5421,7 +5636,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "le-noel-magique-de-jill-et-joy-telefilm",
@@ -5446,7 +5662,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 21min"
   },
   {
     "id": "bliss",
@@ -5471,7 +5688,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 51min"
   },
   {
     "id": "10_albatorcorsaire",
@@ -5498,7 +5716,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_family.png",
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "1h 55min"
   },
   {
     "id": "les-gamins",
@@ -5523,7 +5742,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "adventureland-un-job-dete-a-eviter",
@@ -5548,7 +5768,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 47min"
   },
   {
     "id": "sos-fantomes",
@@ -5573,7 +5794,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 57min"
   },
   {
     "id": "drole-de-prof-4",
@@ -5598,7 +5820,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 15min"
   },
   {
     "id": "the-karate-kid",
@@ -5623,7 +5846,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "2h 19min"
   },
   {
     "id": "drole-de-prof-telefilm",
@@ -5648,7 +5872,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 21min"
   },
   {
     "id": "drole-de-prof-2-au-camping-telefilm",
@@ -5673,7 +5898,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 21min"
   },
   {
     "id": "drole-de-prof-3-sur-les-planches-telefilm",
@@ -5698,7 +5924,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 20min"
   },
   {
     "id": "du-goudron-et-des-plumes",
@@ -5723,7 +5950,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 31min"
   },
   {
     "id": "fatal",
@@ -5748,7 +5976,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "neuilly-sa-mere",
@@ -5773,7 +6002,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "billy-elliot",
@@ -5798,7 +6028,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 50min"
   },
   {
     "id": "chicken-run",
@@ -5823,7 +6054,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 25min"
   },
   {
     "id": "rock-academy",
@@ -5848,7 +6080,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 48min"
   },
   {
     "id": "penelope",
@@ -5873,7 +6106,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 41min"
   },
   {
     "id": "la-machine-a-demonter-le-temps",
@@ -5898,7 +6132,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 40min"
   },
   {
     "id": "bob-leponge-le-film",
@@ -5923,7 +6158,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 27min"
   },
   {
     "id": "associes-contre-le-crime",
@@ -5948,7 +6184,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 44min"
   },
   {
     "id": "les-vacances-de-mr-bean",
@@ -5973,7 +6210,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "rush-hour-3",
@@ -5998,7 +6236,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 31min"
   },
   {
     "id": "les-gorilles",
@@ -6023,7 +6262,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 21min"
   },
   {
     "id": "rush-hour",
@@ -6048,7 +6288,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "rush-hour-2",
@@ -6073,7 +6314,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "barbershop",
@@ -6098,7 +6340,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 42min"
   },
   {
     "id": "barbershop-2",
@@ -6123,7 +6366,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 46min"
   },
   {
     "id": "le-pere-noel-est-une-ordure",
@@ -6148,7 +6392,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "le-ballon-dor",
@@ -6173,7 +6418,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "papy-fait-de-la-resistance",
@@ -6198,7 +6444,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 45min"
   },
   {
     "id": "l-operation-corned-beef",
@@ -6223,7 +6470,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 45min"
   },
   {
     "id": "le-prince-nezha-triomphe-du-roi-dragon",
@@ -6248,7 +6496,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "58min"
   },
   {
     "id": "la-soif-de-lor",
@@ -6273,7 +6522,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 26min"
   },
   {
     "id": "absolument-fabuleux",
@@ -6298,7 +6548,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 45min"
   },
   {
     "id": "hibernatus",
@@ -6323,7 +6574,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 18min"
   },
   {
     "id": "l-avare",
@@ -6348,7 +6600,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "2h 05min"
   },
   {
     "id": "l-enfant-sacre-du-tibet",
@@ -6373,7 +6626,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "les-enfants-du-chemin-de-fer",
@@ -6398,7 +6652,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 44min"
   },
   {
     "id": "jesuistoujoursl",
@@ -6425,7 +6680,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_festival.png",
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "2h 15min"
   },
   {
     "id": "la-plus-precieuse-des-marchandises",
@@ -6450,7 +6706,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 21min"
   },
   {
     "id": "jouer-avec-le-feu",
@@ -6475,7 +6732,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 58min"
   },
   {
     "id": "bird",
@@ -6500,7 +6758,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 59min"
   },
   {
     "id": "black-dog",
@@ -6525,7 +6784,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 50min"
   },
   {
     "id": "everybody-loves-touda",
@@ -6550,7 +6810,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 42min"
   },
   {
     "id": "slow",
@@ -6575,7 +6836,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 48min"
   },
   {
     "id": "lettres-siciliennes",
@@ -6600,7 +6862,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 02min"
   },
   {
     "id": "toxic",
@@ -6625,7 +6888,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 02min"
   },
   {
     "id": "marco-lenigme-dune-vie",
@@ -6650,7 +6914,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 25min"
   },
   {
     "id": "diamant-brut",
@@ -6675,7 +6940,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 43min"
   },
   {
     "id": "comme-le-feu",
@@ -6700,7 +6966,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 41min"
   },
   {
     "id": "simon-de-la-montana",
@@ -6725,7 +6992,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 38min"
   },
   {
     "id": "marmaille",
@@ -6750,7 +7018,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 32min"
   },
   {
     "id": "loveable",
@@ -6775,7 +7044,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 41min"
   },
   {
     "id": "la-mer-au-loin",
@@ -6800,7 +7070,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 57min"
   },
   {
     "id": "hiver-a-sokcho",
@@ -6825,7 +7096,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 44min"
   },
   {
     "id": "kontinental-25",
@@ -6850,7 +7122,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 49min"
   },
   {
     "id": "en-garde",
@@ -6875,7 +7148,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 46min"
   },
   {
     "id": "limonov-la-ballade",
@@ -6900,7 +7174,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 18min"
   },
   {
     "id": "reves-amour-desir-partie-1",
@@ -6925,7 +7200,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 58min"
   },
   {
     "id": "reves-amour-desir-partie-2",
@@ -6950,7 +7226,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 59min"
   },
   {
     "id": "mexico-86",
@@ -6975,7 +7252,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 33min"
   },
   {
     "id": "reves-amour-desir-partie-3",
@@ -7000,7 +7278,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 50min"
   },
   {
     "id": "la-pie-voleuse",
@@ -7025,7 +7304,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 41min"
   },
   {
     "id": "les-tempetes",
@@ -7050,7 +7330,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 24min"
   },
   {
     "id": "the-shameless",
@@ -7075,7 +7356,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 54min"
   },
   {
     "id": "une-enfance-allemande",
@@ -7100,7 +7382,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 52min"
   },
   {
     "id": "lady-nazca",
@@ -7125,7 +7408,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 39min"
   },
   {
     "id": "la-lumiere-ne-meurt-jamais",
@@ -7150,7 +7434,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 48min"
   },
   {
     "id": "left-handed-girl",
@@ -7175,7 +7460,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 48min"
   },
   {
     "id": "le-rire-et-le-couteau",
@@ -7200,7 +7486,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "3h 31min"
   },
   {
     "id": "a-feu-doux",
@@ -7225,7 +7512,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "les-lumieres-de-new-york",
@@ -7250,7 +7538,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 43min"
   },
   {
     "id": "le-maitre-du-kabuki",
@@ -7275,7 +7564,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 54min"
   },
   {
     "id": "l-amour-quil-nous-reste",
@@ -7300,7 +7590,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 49min"
   },
   {
     "id": "prima-la-vita",
@@ -7325,7 +7616,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 50min"
   },
   {
     "id": "en-boucle",
@@ -7350,7 +7642,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 26min"
   },
   {
     "id": "les-regles-de-lart",
@@ -7375,7 +7668,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 34min"
   },
   {
     "id": "l-aventura",
@@ -7400,7 +7694,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 40min"
   },
   {
     "id": "escape-from-the-21st-century",
@@ -7425,7 +7720,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 38min"
   },
   {
     "id": "gangs-de-taiwan",
@@ -7450,7 +7746,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 15min"
   },
   {
     "id": "un-poete",
@@ -7475,7 +7772,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 00min"
   },
   {
     "id": "koute-vwa",
@@ -7500,7 +7798,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 17min"
   },
   {
     "id": "cordes-sensibles",
@@ -7525,7 +7824,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "18min"
   },
   {
     "id": "les-amants-astronautes",
@@ -7550,7 +7850,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 56min"
   },
   {
     "id": "madres-paralelas",
@@ -7575,7 +7876,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 00min"
   },
   {
     "id": "egoist",
@@ -7600,7 +7902,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 00min"
   },
   {
     "id": "chroniques-dhaifa",
@@ -7625,7 +7928,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 04min"
   },
   {
     "id": "le-systeme-victoria",
@@ -7650,7 +7954,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 41min"
   },
   {
     "id": "laurent-dans-le-vent",
@@ -7675,7 +7980,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 50min"
   },
   {
     "id": "amour-apocalypse",
@@ -7700,7 +8006,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 40min"
   },
   {
     "id": "le-rendez-vous-de-lete",
@@ -7725,7 +8032,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 17min"
   },
   {
     "id": "yokai-le-monde-des-esprits",
@@ -7750,7 +8058,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 45min"
   },
   {
     "id": "bonjour-lasile",
@@ -7775,7 +8084,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 47min"
   },
   {
     "id": "miroirs-no-3",
@@ -7800,7 +8110,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 26min"
   },
   {
     "id": "la-femme-qui-en-savait-trop",
@@ -7825,7 +8136,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "woman-and-child",
@@ -7850,7 +8162,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 11min"
   },
   {
     "id": "le-fantome-utile",
@@ -7875,7 +8188,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 10min"
   },
   {
     "id": "le-beau-role",
@@ -7900,7 +8214,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 24min"
   },
   {
     "id": "l-effacement",
@@ -7925,7 +8240,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 33min"
   },
   {
     "id": "sorry-baby",
@@ -7950,7 +8266,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 44min"
   },
   {
     "id": "invention",
@@ -7975,7 +8292,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 12min"
   },
   {
     "id": "mademoiselle",
@@ -8000,7 +8318,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 25min"
   },
   {
     "id": "cold-war",
@@ -8025,7 +8344,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 24min"
   },
   {
     "id": "amanda",
@@ -8050,7 +8370,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 47min"
   },
   {
     "id": "a-labordage-telefilm",
@@ -8075,7 +8396,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "vera",
@@ -8100,7 +8422,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 17min"
   },
   {
     "id": "vade-retro",
@@ -8125,11 +8448,12 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "rabiat",
-    "titre": "Rabiat",
+    "titre": "Rabia",
     "type": "film",
     "chaine": "Ciné+ Festival",
     "section": "Films",
@@ -8150,7 +8474,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "duel-a-monte-carlo-del-norte",
@@ -8175,7 +8500,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 20min"
   },
   {
     "id": "bonne-mere",
@@ -8200,7 +8526,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 39min"
   },
   {
     "id": "oui",
@@ -8225,7 +8552,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 30min"
   },
   {
     "id": "mourir-a-ibiza",
@@ -8250,7 +8578,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 48min"
   },
   {
     "id": "une-vie-violente",
@@ -8275,7 +8604,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 48min"
   },
   {
     "id": "la-villa",
@@ -8300,7 +8630,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 47min"
   },
   {
     "id": "her",
@@ -8325,7 +8656,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 06min"
   },
   {
     "id": "les-ogres",
@@ -8350,7 +8682,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 24min"
   },
   {
     "id": "l-economie-du-couple",
@@ -8375,7 +8708,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 40min"
   },
   {
     "id": "une-pluie-sans-fin",
@@ -8400,7 +8734,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 59min"
   },
   {
     "id": "genese",
@@ -8425,7 +8760,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 10min"
   },
   {
     "id": "babysitter",
@@ -8450,7 +8786,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 27min"
   },
   {
     "id": "mon-roi",
@@ -8475,7 +8812,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 04min"
   },
   {
     "id": "macbeth",
@@ -8500,7 +8838,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 53min"
   },
   {
     "id": "jackie",
@@ -8525,7 +8864,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 40min"
   },
   {
     "id": "les-echos-du-passe",
@@ -8550,7 +8890,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 29min"
   },
   {
     "id": "a-most-violent-year",
@@ -8575,7 +8916,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 04min"
   },
   {
     "id": "foxcatcher",
@@ -8600,7 +8942,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 14min"
   },
   {
     "id": "le-gamin-au-velo",
@@ -8625,7 +8968,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 27min"
   },
   {
     "id": "ce-sentiment-de-lete",
@@ -8650,7 +8994,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 46min"
   },
   {
     "id": "voir-du-pays",
@@ -8675,7 +9020,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 42min"
   },
   {
     "id": "shame",
@@ -8700,7 +9046,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 42min"
   },
   {
     "id": "les-neiges-du-kilimandjaro",
@@ -8725,7 +9072,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 47min"
   },
   {
     "id": "fish-tank",
@@ -8750,7 +9098,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 02min"
   },
   {
     "id": "la-vie-tres-privee-de-monsieur-sim",
@@ -8775,7 +9124,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 42min"
   },
   {
     "id": "place-publique",
@@ -8800,7 +9150,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 38min"
   },
   {
     "id": "memories-of-murder",
@@ -8825,7 +9176,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 09min"
   },
   {
     "id": "hunger",
@@ -8850,7 +9202,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 40min"
   },
   {
     "id": "tokyo-fiancee",
@@ -8875,7 +9228,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 40min"
   },
   {
     "id": "burn-after-reading",
@@ -8900,7 +9254,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 36min"
   },
   {
     "id": "prince-of-broadway",
@@ -8925,7 +9280,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 42min"
   },
   {
     "id": "17-filles",
@@ -8950,7 +9306,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 27min"
   },
   {
     "id": "memory-lane",
@@ -8975,7 +9332,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 38min"
   },
   {
     "id": "ricky",
@@ -9000,7 +9358,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "la-pianiste",
@@ -9025,7 +9384,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 05min"
   },
   {
     "id": "holy-lola",
@@ -9050,7 +9410,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 10min"
   },
   {
     "id": "ghost-in-the-shell",
@@ -9075,7 +9436,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 22min"
   },
   {
     "id": "je-rentre-a-la-maison",
@@ -9100,7 +9462,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "malcolm-x",
@@ -9125,7 +9488,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "3h 22min"
   },
   {
     "id": "panic-sur-florida-beach",
@@ -9150,7 +9514,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 39min"
   },
   {
     "id": "raging-bull",
@@ -9175,7 +9540,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 10min"
   },
   {
     "id": "a-scene-at-the-sea",
@@ -9200,7 +9566,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 41min"
   },
   {
     "id": "sexe-mensonges-et-video",
@@ -9225,7 +9592,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 40min"
   },
   {
     "id": "kika",
@@ -9250,7 +9618,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 54min"
   },
   {
     "id": "l-uf-de-lange",
@@ -9275,7 +9644,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 11min"
   },
   {
     "id": "colors",
@@ -9300,7 +9670,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "2h 00min"
   },
   {
     "id": "une-etrange-affaire",
@@ -9325,7 +9696,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 50min"
   },
   {
     "id": "detective",
@@ -9350,7 +9722,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 38min"
   },
   {
     "id": "caligula-et-messaline",
@@ -9375,7 +9748,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_festival.png"
-    ]
+    ],
+    "duree": "1h 41min"
   },
   {
     "id": "ocs_1_missionimpossib",
@@ -9398,7 +9772,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "2h 53min"
   },
   {
     "id": "ocs_2_enfanfare",
@@ -9421,7 +9796,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 43min"
   },
   {
     "id": "ocs_5_5septembre",
@@ -9444,7 +9820,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 31min"
   },
   {
     "id": "ocs_6_lematreetmargue",
@@ -9467,7 +9844,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "2h 37min"
   },
   {
     "id": "ocs_7_lachambredct",
@@ -9490,7 +9868,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 47min"
   },
   {
     "id": "ocs_9_betterman",
@@ -9513,7 +9892,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "2h 11min"
   },
   {
     "id": "ocs_10_yannick",
@@ -9536,7 +9916,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 07min"
   },
   {
     "id": "ocs_11_lamouretlesfort",
@@ -9559,7 +9940,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 45min"
   },
   {
     "id": "ocs_13_lederniersouffl",
@@ -9582,7 +9964,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 37min"
   },
   {
     "id": "ocs_14_eleonoraduse",
@@ -9605,7 +9988,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "2h 05min"
   },
   {
     "id": "ocs_15_thechronologyof",
@@ -9628,7 +10012,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "16"
+    "badge": "16",
+    "duree": "2h 08min"
   },
   {
     "id": "ocs_16_lequatrimemur",
@@ -9651,7 +10036,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "2h 05min"
   },
   {
     "id": "ocs_17_lochantentlescr",
@@ -9674,7 +10060,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "2h 06min"
   },
   {
     "id": "ocs_18_loriginedumal",
@@ -9697,7 +10084,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "2h 05min"
   },
   {
     "id": "ocs_19_ledeuximeacte",
@@ -9720,7 +10108,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 20min"
   },
   {
     "id": "ocs_20_parthenope",
@@ -9743,7 +10132,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "2h 16min"
   },
   {
     "id": "ocs_23_fuori",
@@ -9766,7 +10156,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 57min"
   },
   {
     "id": "ocs_24_lhommequirtrcit",
@@ -9789,7 +10180,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 39min"
   },
   {
     "id": "ocs_25_deuxprocureurs",
@@ -9812,7 +10204,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 58min"
   },
   {
     "id": "ocs_26_jeanvaljean",
@@ -9835,7 +10228,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 38min"
   },
   {
     "id": "ocs_27_desjoursmeilleu",
@@ -9858,7 +10252,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 39min"
   },
   {
     "id": "ocs_28_oxana",
@@ -9881,7 +10276,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 43min"
   },
   {
     "id": "ocs_29_urchin",
@@ -9904,7 +10300,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 39min"
   },
   {
     "id": "ocs_30_promisleciel",
@@ -9927,7 +10324,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 32min"
   },
   {
     "id": "ocs_31_paramour",
@@ -9950,7 +10348,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 25min"
   },
   {
     "id": "ocs_32_lapetitedernire",
@@ -9973,7 +10372,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 46min"
   },
   {
     "id": "ocs_33_lacache",
@@ -9996,7 +10396,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 30min"
   },
   {
     "id": "ocs_34_larparation",
@@ -10019,7 +10420,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 44min"
   },
   {
     "id": "ocs_35_danslacuisinede",
@@ -10042,7 +10444,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 35min"
   },
   {
     "id": "ocs_36_jaccuse",
@@ -10065,7 +10468,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "2h 12min"
   },
   {
     "id": "ocs_37_labellepoque",
@@ -10088,7 +10492,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 50min"
   },
   {
     "id": "ocs_39_maria",
@@ -10111,7 +10516,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "2h 03min"
   },
   {
     "id": "ocs_40_adieulescons",
@@ -10134,7 +10540,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 27min"
   },
   {
     "id": "ocs_41_lelivredessolut",
@@ -10157,7 +10564,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 42min"
   },
   {
     "id": "ocs_43_leroutard",
@@ -10180,7 +10588,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 25min"
   },
   {
     "id": "ocs_44_aimonsnousvivan",
@@ -10203,7 +10612,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 30min"
   },
   {
     "id": "ocs_45_lesecretdekhops",
@@ -10226,7 +10636,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 37min"
   },
   {
     "id": "ocs_46_lamourcestsurco",
@@ -10249,7 +10660,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 33min"
   },
   {
     "id": "ocs_47_lemlangedesgenr",
@@ -10272,7 +10684,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 43min"
   },
   {
     "id": "ocs_48_lesmusiciens",
@@ -10295,7 +10708,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 42min"
   },
   {
     "id": "ocs_49_laproiedesombre",
@@ -10318,7 +10732,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 41min"
   },
   {
     "id": "ocs_50_unepointedamour",
@@ -10341,7 +10756,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 20min"
   },
   {
     "id": "ocs_51_jeunesmres",
@@ -10364,7 +10780,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 44min"
   },
   {
     "id": "ocs_52_mikado",
@@ -10387,7 +10804,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 34min"
   },
   {
     "id": "ocs_53_nino",
@@ -10410,7 +10828,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 36min"
   },
   {
     "id": "ocs_54_rebuilding",
@@ -10433,7 +10852,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 35min"
   },
   {
     "id": "ocs_55_captainfantasti",
@@ -10456,7 +10876,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 58min"
   },
   {
     "id": "ocs_56_astarisborn",
@@ -10479,7 +10900,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "2h 15min"
   },
   {
     "id": "ocs_57_t85",
@@ -10502,7 +10924,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 40min"
   },
   {
     "id": "ocs_58_partirunjour",
@@ -10525,7 +10948,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "25min"
   },
   {
     "id": "ocs_59_kaamelottpremie",
@@ -10548,7 +10972,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "2h 00min"
   },
   {
     "id": "ocs_60_coupez",
@@ -10571,7 +10996,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 51min"
   },
   {
     "id": "ocs_61_lesfemmesdusqua",
@@ -10594,7 +11020,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 45min"
   },
   {
     "id": "ocs_62_100millions",
@@ -10617,7 +11044,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 37min"
   },
   {
     "id": "ocs_63_douxjsus",
@@ -10640,7 +11068,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 26min"
   },
   {
     "id": "ocs_64_dlocaliss",
@@ -10663,7 +11092,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 26min"
   },
   {
     "id": "ocs_65_vacancesforces",
@@ -10686,7 +11116,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 40min"
   },
   {
     "id": "ocs_66_toujourspossibl",
@@ -10709,7 +11140,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 30min"
   },
   {
     "id": "ocs_67_papamobile",
@@ -10732,11 +11164,12 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 26min"
   },
   {
     "id": "ocs_68_cadeaux",
-    "titre": "Cadeaux",
+    "titre": "Les Cadeaux",
     "type": "film",
     "categories": [
       "comedie"
@@ -10755,7 +11188,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 23min"
   },
   {
     "id": "ocs_69_legranddplaceme",
@@ -10778,7 +11212,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 23min"
   },
   {
     "id": "ocs_70_prosper",
@@ -10801,7 +11236,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 32min"
   },
   {
     "id": "ocs_71_bloodstar",
@@ -10824,7 +11260,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 26min"
   },
   {
     "id": "ocs_72_lamule",
@@ -10847,7 +11284,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 56min"
   },
   {
     "id": "ocs_73_officialsecrets",
@@ -10870,7 +11308,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 52min"
   },
   {
     "id": "ocs_74_enattendantboja",
@@ -10893,7 +11332,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "2h 04min"
   },
   {
     "id": "ocs_75_sixjours",
@@ -10916,7 +11356,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 41min"
   },
   {
     "id": "ocs_76_aliceetlemaire",
@@ -10939,7 +11380,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 43min"
   },
   {
     "id": "ocs_77_tumritesunamour",
@@ -10962,7 +11404,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 42min"
   },
   {
     "id": "ocs_79_tralala",
@@ -10985,7 +11428,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "2h 00min"
   },
   {
     "id": "ocs_80_theson",
@@ -11008,7 +11452,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 38min"
   },
   {
     "id": "ocs_81_birthdaygirl",
@@ -11031,7 +11476,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 35min"
   },
   {
     "id": "ocs_83_godsavethetuche",
@@ -11054,7 +11500,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 41min"
   },
   {
     "id": "ocs_84_minederien",
@@ -11077,7 +11524,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 25min"
   },
   {
     "id": "ocs_85_toutespourune",
@@ -11100,7 +11548,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 36min"
   },
   {
     "id": "ocs_86_lesboulesdenol",
@@ -11123,7 +11572,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 30min"
   },
   {
     "id": "ocs_87_lesbodinsparten",
@@ -11146,7 +11596,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 35min"
   },
   {
     "id": "ocs_88_theartist",
@@ -11169,7 +11620,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 40min"
   },
   {
     "id": "ocs_89_mrwolff",
@@ -11192,7 +11644,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "2h 08min"
   },
   {
     "id": "ocs_90_demaintoutcomme",
@@ -11215,7 +11668,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 58min"
   },
   {
     "id": "ocs_91_thelostcityofz",
@@ -11238,7 +11692,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "2h 20min"
   },
   {
     "id": "ocs_92_dalida",
@@ -11261,7 +11716,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "2h 04min"
   },
   {
     "id": "ocs_93_argo",
@@ -11284,7 +11740,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "2h 00min"
   },
   {
     "id": "ocs_94_13hours",
@@ -11307,7 +11764,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "2h 24min"
   },
   {
     "id": "ocs_95_maldepierres",
@@ -11330,7 +11788,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "2h 01min"
   },
   {
     "id": "ocs_96_atomicblonde",
@@ -11353,7 +11812,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 51min"
   },
   {
     "id": "ocs_97_oss117alerterou",
@@ -11376,7 +11836,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 56min"
   },
   {
     "id": "ocs_98_hypnotic",
@@ -11399,7 +11860,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 33min"
   },
   {
     "id": "ocs_99_madeinitaly",
@@ -11422,7 +11884,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 34min"
   },
   {
     "id": "ocs_100_lucky",
@@ -11445,7 +11908,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 30min"
   },
   {
     "id": "ocs_101_babysitting",
@@ -11468,7 +11932,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 25min"
   },
   {
     "id": "ocs_102_oceans8",
@@ -11491,7 +11956,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 50min"
   },
   {
     "id": "ocs_103_insaisissables",
@@ -11514,7 +11980,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 56min"
   },
   {
     "id": "ocs_104_verybadtrip",
@@ -11537,7 +12004,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "ocs_105_insaisissables2",
@@ -11560,7 +12028,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "2h 10min"
   },
   {
     "id": "ocs_106_rampagehorsdeco",
@@ -11583,7 +12052,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 40min"
   },
   {
     "id": "ocs_107_larecherchedubo",
@@ -11606,7 +12076,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 58min"
   },
   {
     "id": "ocs_108_larnacur",
@@ -11629,7 +12100,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 50min"
   },
   {
     "id": "ocs_109_oss117rionerpon",
@@ -11652,7 +12124,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 40min"
   },
   {
     "id": "ocs_110_babysitting2",
@@ -11675,7 +12148,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 33min"
   },
   {
     "id": "ocs_111_chacunchezsoi",
@@ -11698,7 +12172,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 24min"
   },
   {
     "id": "ocs_112_whitehousedown",
@@ -11721,7 +12196,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "2h 11min"
   },
   {
     "id": "ocs_113_leprinceoubli",
@@ -11744,7 +12220,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 41min"
   },
   {
     "id": "ocs_114_vaincreoumourir",
@@ -11767,7 +12244,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 55min"
   },
   {
     "id": "ocs_115_oss117lecaireni",
@@ -11790,7 +12268,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 39min"
   },
   {
     "id": "ocs_116_munich",
@@ -11813,7 +12292,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "2h 43min"
   },
   {
     "id": "ocs_117_lesbureauxdedie",
@@ -11836,7 +12316,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "2h 00min"
   },
   {
     "id": "ocs_118_lenvahisseur",
@@ -11859,7 +12340,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "ocs_119_verybadtrip2",
@@ -11882,7 +12364,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 42min"
   },
   {
     "id": "ocs_120_lepetitlieutena",
@@ -11905,7 +12388,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 50min"
   },
   {
     "id": "ocs_121_missionimpossib",
@@ -11928,7 +12412,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "2h 05min"
   },
   {
     "id": "ocs_122_oceans13",
@@ -11951,7 +12436,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "2h 02min"
   },
   {
     "id": "ocs_123_ibiza",
@@ -11974,7 +12460,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 27min"
   },
   {
     "id": "ocs_124_unbalconsurlame",
@@ -11997,7 +12484,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 45min"
   },
   {
     "id": "ocs_125_oceanseleven",
@@ -12020,7 +12508,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 56min"
   },
   {
     "id": "ocs_126_aiintelligencea",
@@ -12043,7 +12532,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "2h 26min"
   },
   {
     "id": "ocs_1_demauvaisefoi",
@@ -12067,7 +12557,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 28min"
   },
   {
     "id": "ocs_2_livressedupouvo",
@@ -12091,7 +12582,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 50min"
   },
   {
     "id": "ocs_3_stars80lefilm",
@@ -12115,7 +12607,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 52min"
   },
   {
     "id": "ocs_4_cliente",
@@ -12139,7 +12632,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 45min"
   },
   {
     "id": "ocs_5_oceanstwelve",
@@ -12163,7 +12657,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "2h 05min"
   },
   {
     "id": "ocs_6_uneliaisonporno",
@@ -12187,7 +12682,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 20min"
   },
   {
     "id": "ocs_7_ledernierchteau",
@@ -12211,7 +12707,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "2h 12min"
   },
   {
     "id": "ocs_8_missionimpossib",
@@ -12235,7 +12732,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 50min"
   },
   {
     "id": "ocs_9_missionimpossib",
@@ -12259,7 +12757,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "2h 03min"
   },
   {
     "id": "ocs_10_novocane",
@@ -12283,7 +12782,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 35min"
   },
   {
     "id": "scifi_1_tim",
@@ -12306,7 +12806,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 42min"
   },
   {
     "id": "scifi_2_danslabrume",
@@ -12329,7 +12830,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 30min"
   },
   {
     "id": "scifi_3_thesecretkingdo",
@@ -12352,7 +12854,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 38min"
   },
   {
     "id": "scifi_4_rubikon",
@@ -12375,7 +12878,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 50min"
   },
   {
     "id": "scifi_5_radius",
@@ -12398,7 +12902,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 33min"
   },
   {
     "id": "scifi_6_darkwebcicada33",
@@ -12421,7 +12926,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "1h 44min"
   },
   {
     "id": "scifi_7_thedeal",
@@ -12444,7 +12950,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 35min"
   },
   {
     "id": "scifi_8_correctivemeasu",
@@ -12467,7 +12974,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 46min"
   },
   {
     "id": "scifi_9_piper",
@@ -12490,7 +12998,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 45min"
   },
   {
     "id": "scifi_11_escapethefield",
@@ -12513,7 +13022,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 29min"
   },
   {
     "id": "29_assassin",
@@ -12540,7 +13050,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png",
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "1h 28min"
   },
   {
     "id": "scifi_13_limpermablemagi",
@@ -12563,7 +13074,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 30min"
   },
   {
     "id": "scifi_14_curvature",
@@ -12586,7 +13098,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 30min"
   },
   {
     "id": "scifi_15_lemystredulivre",
@@ -12609,7 +13122,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 33min"
   },
   {
     "id": "scifi_16_godsofthedeep",
@@ -12632,7 +13146,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 20min"
   },
   {
     "id": "scifi_17_thetwisters",
@@ -12655,7 +13170,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 23min"
   },
   {
     "id": "scifi_18_enlvementdevils",
@@ -12678,7 +13194,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 34min"
   },
   {
     "id": "scifi_19_laguerredesmond",
@@ -12701,7 +13218,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 27min"
   },
   {
     "id": "scifi_20_continentalspli",
@@ -12724,7 +13242,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 28min"
   },
   {
     "id": "scifi_21_fireislandlagra",
@@ -12747,7 +13266,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 25min"
   },
   {
     "id": "scifi_22_icestormtemptep",
@@ -12770,7 +13290,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 22min"
   },
   {
     "id": "scifi_23_thelastwavelasu",
@@ -12793,7 +13314,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 23min"
   },
   {
     "id": "scifi_24_leroyaumeinterd",
@@ -12816,7 +13338,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 53min"
   },
   {
     "id": "scifi_25_battlestargalac",
@@ -12839,7 +13362,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "1h 52min"
   },
   {
     "id": "scifi_26_hautesfrquences",
@@ -12862,7 +13386,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 26min"
   },
   {
     "id": "scifi_27_apevsmechaape",
@@ -12885,7 +13410,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 20min"
   },
   {
     "id": "scifi_28_doomsdaymeteor",
@@ -12908,7 +13434,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 26min"
   },
   {
     "id": "scifi_29_stormchasers",
@@ -12931,7 +13458,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 40min"
   },
   {
     "id": "scifi_30_arcticarmageddo",
@@ -12954,7 +13482,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 22min"
   },
   {
     "id": "scifi_31_meg2rising",
@@ -12977,7 +13506,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 22min"
   },
   {
     "id": "scifi_32_dcdown",
@@ -13000,7 +13530,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 30min"
   },
   {
     "id": "scifi_33_earthquakeunder",
@@ -13023,7 +13554,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 22min"
   },
   {
     "id": "scifi_34_2025armageddon",
@@ -13046,7 +13578,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 30min"
   },
   {
     "id": "scifi_35_battleforpandor",
@@ -13069,7 +13602,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 24min"
   },
   {
     "id": "scifi_36_infestation",
@@ -13092,7 +13626,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "1h 31min"
   },
   {
     "id": "scifi_37_lordredesgardie",
@@ -13115,7 +13650,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 29min"
   },
   {
     "id": "scifi_38_ironarm",
@@ -13138,7 +13674,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 48min"
   },
   {
     "id": "scifi_39_arthurmerlinkni",
@@ -13161,7 +13698,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 30min"
   },
   {
     "id": "scifi_40_robotapocalypse",
@@ -13184,7 +13722,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 27min"
   },
   {
     "id": "scifi_41_planetdune",
@@ -13207,7 +13746,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 26min"
   },
   {
     "id": "scifi_42_attackontitan",
@@ -13230,7 +13770,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 33min"
   },
   {
     "id": "scifi_43_jurassicdominat",
@@ -13253,7 +13794,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 30min"
   },
   {
     "id": "scifi_44_lamenaceandromd",
@@ -13276,7 +13818,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "1h 28min"
   },
   {
     "id": "scifi_45_lamenaceandromd",
@@ -13299,7 +13842,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "1h 29min"
   },
   {
     "id": "scifi_46_lesaventuresdef",
@@ -13322,7 +13866,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 35min"
   },
   {
     "id": "scifi_47_flight42",
@@ -13345,7 +13890,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "1h 25min"
   },
   {
     "id": "scifi_48_takingearth",
@@ -13368,7 +13914,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "1h 40min"
   },
   {
     "id": "scifi_49_tombinvader",
@@ -13391,7 +13938,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 23min"
   },
   {
     "id": "scifi_50_megaquake",
@@ -13414,7 +13962,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 27min"
   },
   {
     "id": "scifi_51_dinosaurworld",
@@ -13437,7 +13986,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 15min"
   },
   {
     "id": "scifi_52_megrising",
@@ -13460,7 +14010,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "1h 23min"
   },
   {
     "id": "scifi_53_megaboa",
@@ -13483,7 +14034,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "1h 27min"
   },
   {
     "id": "scifi_54_lesaventuresdef",
@@ -13506,7 +14058,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 35min"
   },
   {
     "id": "scifi_55_aliensiege",
@@ -13529,7 +14082,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 25min"
   },
   {
     "id": "scifi_56_lacryptedudrago",
@@ -13552,7 +14106,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 29min"
   },
   {
     "id": "scifi_57_mutantlegacy",
@@ -13575,7 +14130,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "scifi_58_immorteladvitam",
@@ -13598,7 +14154,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 42min"
   },
   {
     "id": "scifi_59_supericyclone",
@@ -13621,7 +14178,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 26min"
   },
   {
     "id": "scifi_60_alienapocalypse",
@@ -13644,7 +14202,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 25min"
   },
   {
     "id": "scifi_61_lesrescapsdumon",
@@ -13667,7 +14226,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/scifi.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 28min"
   },
   {
     "id": "13eme_1_fauxsemblants",
@@ -13690,7 +14250,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "13eme_2_thelockmaster",
@@ -13713,7 +14274,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "1h 32min"
   },
   {
     "id": "13eme_3_therearenosaint",
@@ -13736,7 +14298,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "1h 45min"
   },
   {
     "id": "13eme_4_getfast",
@@ -13759,7 +14322,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 28min"
   },
   {
     "id": "13eme_5_auseuildelamort",
@@ -13782,7 +14346,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "1h 28min"
   },
   {
     "id": "13eme_6_triplethreat",
@@ -13805,7 +14370,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "1h 36min"
   },
   {
     "id": "13eme_7_gunner",
@@ -13828,7 +14394,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 30min"
   },
   {
     "id": "13eme_8_thestolengirl",
@@ -13851,7 +14418,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "1h 34min"
   },
   {
     "id": "13eme_9_7minutes",
@@ -13874,7 +14442,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "1h 32min"
   },
   {
     "id": "13eme_10_thehousekeeper",
@@ -13897,7 +14466,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "1h 38min"
   },
   {
     "id": "13eme_11_theoutsider",
@@ -13920,7 +14490,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "2h 00min"
   },
   {
     "id": "13eme_1_preparetodie",
@@ -13944,7 +14515,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 33min"
   },
   {
     "id": "13eme_2_fusionthecore",
@@ -13968,7 +14540,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "2h 14min"
   },
   {
     "id": "action_1_lombredemesyeux",
@@ -13991,7 +14564,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 56min"
   },
   {
     "id": "action_2_inexorable",
@@ -14014,7 +14588,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 38min"
   },
   {
     "id": "action_3_runhidefight",
@@ -14037,7 +14612,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 49min"
   },
   {
     "id": "action_4_ducrpitementsou",
@@ -14060,7 +14636,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 38min"
   },
   {
     "id": "action_5_thewhiskeybandi",
@@ -14083,7 +14660,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "2h 06min"
   },
   {
     "id": "action_6_jungle",
@@ -14106,7 +14684,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 55min"
   },
   {
     "id": "action_7_lintervention",
@@ -14129,7 +14708,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 38min"
   },
   {
     "id": "action_8_notoriousnick",
@@ -14152,7 +14732,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 28min"
   },
   {
     "id": "action_9_houndsofwar",
@@ -14175,7 +14756,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 34min"
   },
   {
     "id": "action_10_theraid",
@@ -14198,7 +14780,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 41min"
   },
   {
     "id": "action_11_startrek",
@@ -14221,11 +14804,12 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "2h 08min"
   },
   {
     "id": "action_12_voyagesenrivire",
-    "titre": "Voyages en rivières",
+    "titre": "Wind River",
     "type": "film",
     "categories": [
       "action_aventure"
@@ -14244,7 +14828,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 46min"
   },
   {
     "id": "action_13_kontiki",
@@ -14267,7 +14852,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 58min"
   },
   {
     "id": "action_14_22jumpstreet",
@@ -14290,7 +14876,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 52min"
   },
   {
     "id": "action_15_21jumpstreet",
@@ -14313,7 +14900,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 49min"
   },
   {
     "id": "action_16_blackbutterfly",
@@ -14336,7 +14924,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 33min"
   },
   {
     "id": "action_17_huracn",
@@ -14359,7 +14948,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 43min"
   },
   {
     "id": "action_18_finalscore",
@@ -14382,7 +14972,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 44min"
   },
   {
     "id": "action_19_attraction2inva",
@@ -14405,7 +14996,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "2h 14min"
   },
   {
     "id": "action_20_braquagedesangc",
@@ -14428,7 +15020,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 28min"
   },
   {
     "id": "action_21_americanfighter",
@@ -14451,7 +15044,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 38min"
   },
   {
     "id": "action_22_enfant44",
@@ -14474,7 +15068,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "2h 17min"
   },
   {
     "id": "action_23_runningwiththed",
@@ -14497,7 +15092,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 40min"
   },
   {
     "id": "action_24_droidwarmonster",
@@ -14520,7 +15116,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "2h 11min"
   },
   {
     "id": "action_25_levirtuose",
@@ -14543,7 +15140,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 50min"
   },
   {
     "id": "action_26_traquesfarhaven",
@@ -14566,7 +15164,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 33min"
   },
   {
     "id": "action_27_303squadron",
@@ -14589,7 +15188,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 44min"
   },
   {
     "id": "action_28_paradoxeffect",
@@ -14612,7 +15212,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 27min"
   },
   {
     "id": "action_30_winterinwartime",
@@ -14635,7 +15236,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 43min"
   },
   {
     "id": "action_31_soushauteprotec",
@@ -14658,7 +15260,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 34min"
   },
   {
     "id": "action_32_middleman",
@@ -14681,7 +15284,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 40min"
   },
   {
     "id": "action_33_attraction",
@@ -14704,7 +15308,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 57min"
   },
   {
     "id": "action_34_actsofvengeance",
@@ -14727,7 +15332,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 23min"
   },
   {
     "id": "action_35_bullethead",
@@ -14750,7 +15356,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 34min"
   },
   {
     "id": "action_36_soushautesurvei",
@@ -14773,7 +15380,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 25min"
   },
   {
     "id": "action_37_theyacht",
@@ -14796,7 +15404,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 30min"
   },
   {
     "id": "action_38_theminuteyouwak",
@@ -14819,7 +15428,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "action_39_ipmanlalgendees",
@@ -14842,7 +15452,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 40min"
   },
   {
     "id": "action_40_hanselgretelwit",
@@ -14865,7 +15476,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 28min"
   },
   {
     "id": "action_41_railroadtigers",
@@ -14888,7 +15500,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "2h 04min"
   },
   {
     "id": "action_42_manipulations",
@@ -14911,7 +15524,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 46min"
   },
   {
     "id": "action_43_ussindianapolis",
@@ -14934,7 +15548,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "2h 08min"
   },
   {
     "id": "action_44_lavengeancedans",
@@ -14957,7 +15572,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 44min"
   },
   {
     "id": "action_45_insurrection",
@@ -14980,7 +15596,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 30min"
   },
   {
     "id": "action_46_enemylines",
@@ -15003,7 +15620,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 28min"
   },
   {
     "id": "action_47_thedoorman",
@@ -15026,7 +15644,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "action_48_miamivicedeuxfl",
@@ -15049,7 +15668,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "2h 20min"
   },
   {
     "id": "action_49_ransomgames",
@@ -15072,7 +15692,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "16"
+    "badge": "16",
+    "duree": "1h 52min"
   },
   {
     "id": "action_50_kickboxervengea",
@@ -15095,7 +15716,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 30min"
   },
   {
     "id": "action_51_skyhunter",
@@ -15118,7 +15740,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 55min"
   },
   {
     "id": "action_52_sangdacierbleed",
@@ -15141,7 +15764,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 50min"
   },
   {
     "id": "action_53_stratton",
@@ -15164,7 +15788,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 35min"
   },
   {
     "id": "action_54_64minuteschrono",
@@ -15187,7 +15812,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 38min"
   },
   {
     "id": "action_55_rogue",
@@ -15210,7 +15836,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 45min"
   },
   {
     "id": "action_56_thepoisonrose",
@@ -15233,7 +15860,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 34min"
   },
   {
     "id": "action_57_cagefighterworl",
@@ -15256,7 +15884,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 38min"
   },
   {
     "id": "action_58_guardiansofthet",
@@ -15279,7 +15908,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 30min"
   },
   {
     "id": "action_59_killmode",
@@ -15302,7 +15932,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 37min"
   },
   {
     "id": "action_60_gijoeconspirati",
@@ -15325,7 +15956,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 50min"
   },
   {
     "id": "action_61_braquagelamrica",
@@ -15348,7 +15980,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 49min"
   },
   {
     "id": "action_62_gunshy",
@@ -15371,7 +16004,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 31min"
   },
   {
     "id": "action_63_killersanonymou",
@@ -15394,7 +16028,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 35min"
   },
   {
     "id": "action_1_vanquish",
@@ -15418,7 +16053,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 34min"
   },
   {
     "id": "action_2_gijoelerveilduc",
@@ -15442,7 +16078,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "2h 00min"
   },
   {
     "id": "action_3_tokarev",
@@ -15466,7 +16103,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 38min"
   },
   {
     "id": "action_4_riotenfercarcra",
@@ -15490,7 +16128,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 27min"
   },
   {
     "id": "action_5_tolrancezro",
@@ -15514,7 +16153,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 25min"
   },
   {
     "id": "action_6_missionvasion",
@@ -15538,7 +16178,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "2h 05min"
   },
   {
     "id": "action_7_trigonalfightfo",
@@ -15562,7 +16203,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 40min"
   },
   {
     "id": "action_8_lalgendedescrne",
@@ -15586,7 +16228,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 29min"
   },
   {
     "id": "action_9_leprixdusang",
@@ -15610,7 +16253,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 38min"
   },
   {
     "id": "action_10_jeufatal",
@@ -15634,7 +16278,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "12"
+    "badge": "12",
+    "duree": "1h 40min"
   },
   {
     "id": "action_11_banlieueinterdi",
@@ -15658,7 +16303,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "1h 28min"
   },
   {
     "id": "action_12_crimesensrie",
@@ -15682,7 +16328,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 39min"
   },
   {
     "id": "action_13_americanoutlaws",
@@ -15706,7 +16353,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 34min"
   },
   {
     "id": "action_14_airforce2",
@@ -15730,7 +16378,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 28min"
   },
   {
     "id": "action_15_wildbill",
@@ -15754,7 +16403,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": "10"
+    "badge": "10",
+    "duree": "1h 38min"
   },
   {
     "id": "action_16_lvaddalcatraz",
@@ -15778,7 +16428,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 53min"
   },
   {
     "id": "action_17_roadhouse",
@@ -15802,7 +16453,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 54min"
   },
   {
     "id": "action_18_labatailledemid",
@@ -15826,7 +16478,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "2h 03min"
   },
   {
     "id": "action_19_labatailledangl",
@@ -15850,7 +16503,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/action.png"
     ],
-    "badge": null
+    "badge": null,
+    "duree": "2h 06min"
   },
   {
     "id": "action_20_ostermanweekend",
@@ -15874,7 +16528,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 42min"
   },
   {
     "id": "action_21_blastfighterlex",
@@ -15898,7 +16553,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 27min"
   },
   {
     "id": "action_22_highlanderleret",
@@ -15922,7 +16578,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/action.png"
-    ]
+    ],
+    "duree": "1h 49min"
   },
   {
     "id": "sonic-3-le-film-film",
@@ -15947,7 +16604,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 40min"
   },
   {
     "id": "maya-donne-moi-un-titre-film",
@@ -15972,7 +16630,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 01min"
   },
   {
     "id": "diplodocus-film",
@@ -15997,7 +16656,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 33min"
   },
   {
     "id": "la-tortue-rouge-film",
@@ -16022,7 +16682,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 21min"
   },
   {
     "id": "heidi-et-le-lynx-des-montagnes-film",
@@ -16047,7 +16708,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 19min"
   },
   {
     "id": "tafiti-voyage-a-travers-le-desert-film",
@@ -16072,7 +16734,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 20min"
   },
   {
     "id": "olivia-film",
@@ -16097,7 +16760,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 11min"
   },
   {
     "id": "le-petit-prince-film",
@@ -16122,7 +16786,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 46min"
   },
   {
     "id": "les-blagues-de-toto-film",
@@ -16147,7 +16812,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 24min"
   },
   {
     "id": "bigfoot-junior-film",
@@ -16172,7 +16838,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 32min"
   },
   {
     "id": "hirondelles-et-amazones-film",
@@ -16197,7 +16864,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 37min"
   },
   {
     "id": "robinson-crusoe-film",
@@ -16222,7 +16890,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 26min"
   },
   {
     "id": "monsieur-grenouille-film",
@@ -16247,7 +16916,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 23min"
   },
   {
     "id": "operation-casse-noisette-2-film",
@@ -16272,7 +16942,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 31min"
   },
   {
     "id": "operation-casse-noisette-film",
@@ -16297,7 +16968,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 25min"
   },
   {
     "id": "alvin-et-les-chipmunks-a-fond-la-caisse-film",
@@ -16322,7 +16994,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 33min"
   },
   {
     "id": "alvin-et-les-chipmunks-3-film",
@@ -16347,7 +17020,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 27min"
   },
   {
     "id": "alvin-et-les-chipmunks-2-film",
@@ -16372,7 +17046,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "alvin-et-les-chipmunks-film",
@@ -16397,7 +17072,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "les-voyages-de-gulliver-film",
@@ -16422,7 +17098,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_family.png"
-    ]
+    ],
+    "duree": "1h 16min"
   },
   {
     "id": "resident-alien-serie",
@@ -16447,7 +17124,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "45min"
   },
   {
     "id": "the-librarians-l-heritage-de-flynn-carson-serie",
@@ -16472,7 +17150,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "44min"
   },
   {
     "id": "arcadia-serie",
@@ -16497,7 +17176,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "46min"
   },
   {
     "id": "les-chroniques-de-spiderwick-serie",
@@ -16522,7 +17202,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "46min"
   },
   {
     "id": "the-lazarus-project-serie",
@@ -16549,7 +17230,8 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/ocs.png",
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "43min"
   },
   {
     "id": "revival-serie",
@@ -16574,7 +17256,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "44min"
   },
   {
     "id": "domino-day-serie",
@@ -16599,7 +17282,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "42min"
   },
   {
     "id": "la-guerre-des-royaumes-serie",
@@ -16624,7 +17308,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "46min"
   },
   {
     "id": "surrealestate-serie",
@@ -16649,7 +17334,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "43min"
   },
   {
     "id": "wreck-serie",
@@ -16674,7 +17360,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "46min"
   },
   {
     "id": "generation-z-serie",
@@ -16699,7 +17386,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "47min"
   },
   {
     "id": "le-ministere-du-temps-serie",
@@ -16724,7 +17412,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "1h 10min"
   },
   {
     "id": "brave-new-world-serie",
@@ -16749,7 +17438,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "47min"
   },
   {
     "id": "timeless-serie",
@@ -16774,7 +17464,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "42min"
   },
   {
     "id": "the-magicians-serie",
@@ -16799,7 +17490,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "44min"
   },
   {
     "id": "reginald-the-vampire-serie",
@@ -16824,7 +17516,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "43min"
   },
   {
     "id": "the-ark-serie",
@@ -16849,7 +17542,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "44min"
   },
   {
     "id": "les-chroniques-de-shannara-serie",
@@ -16874,7 +17568,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "42min"
   },
   {
     "id": "grimm-serie",
@@ -16899,7 +17594,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "41min"
   },
   {
     "id": "midnight-texas-serie",
@@ -16924,7 +17620,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "45min"
   },
   {
     "id": "flynn-carson-et-les-nouveaux-aventuriers-serie",
@@ -16949,7 +17646,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "44min"
   },
   {
     "id": "childhood-s-end-les-enfants-d-icare-serie",
@@ -16974,7 +17672,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "1h 25min"
   },
   {
     "id": "powers-serie",
@@ -16999,7 +17698,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "40min"
   },
   {
     "id": "battlestar-galactica-serie",
@@ -17024,7 +17724,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "44min"
   },
   {
     "id": "heroes-serie",
@@ -17049,7 +17750,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "44min"
   },
   {
     "id": "warehouse-13-serie",
@@ -17074,7 +17776,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "48min"
   },
   {
     "id": "spides-we-come-in-peace-serie",
@@ -17099,7 +17802,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "1h 00min"
   },
   {
     "id": "stargate-atlantis-serie",
@@ -17124,7 +17828,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "43min"
   },
   {
     "id": "heroes-reborn-serie",
@@ -17149,7 +17854,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "43min"
   },
   {
     "id": "alerte-tsunamis-tsunami-the-aftermath-serie",
@@ -17174,7 +17880,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "1h 28min"
   },
   {
     "id": "code-quantum-quantum-leap-serie",
@@ -17199,7 +17906,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/scifi.png"
-    ]
+    ],
+    "duree": "53min"
   },
   {
     "id": "follow-serie",
@@ -17224,7 +17932,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "45min"
   },
   {
     "id": "wild-cards-serie",
@@ -17249,7 +17958,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "44min"
   },
   {
     "id": "patience-serie",
@@ -17274,7 +17984,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "48min"
   },
   {
     "id": "toronto-section-criminelle-serie",
@@ -17299,7 +18010,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "44min"
   },
   {
     "id": "new-york-crime-organise-serie",
@@ -17324,7 +18036,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "42min"
   },
   {
     "id": "grace-serie",
@@ -17349,7 +18062,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "1h 28min"
   },
   {
     "id": "professor-t-serie",
@@ -17374,7 +18088,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "46min"
   },
   {
     "id": "harry-wild-serie",
@@ -17399,7 +18114,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "47min"
   },
   {
     "id": "knok-serie",
@@ -17424,7 +18140,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "43min"
   },
   {
     "id": "allegeance-serie",
@@ -17449,7 +18166,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "44min"
   },
   {
     "id": "factice-serie",
@@ -17474,7 +18192,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "41min"
   },
   {
     "id": "new-york-police-judiciaire-2022-serie",
@@ -17499,7 +18218,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "42min"
   },
   {
     "id": "in-flight-serie",
@@ -17524,7 +18244,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "46min"
   },
   {
     "id": "family-law-serie",
@@ -17549,7 +18270,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "45min"
   },
   {
     "id": "les-enquetes-de-pearl-nolan-serie",
@@ -17574,7 +18296,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "48min"
   },
   {
     "id": "cuisine-interne-serie",
@@ -17599,7 +18322,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "45min"
   },
   {
     "id": "le-voyageur-serie",
@@ -17624,7 +18348,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "my-life-is-murder-serie",
@@ -17649,7 +18374,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "42min"
   },
   {
     "id": "chicago-p-d-serie",
@@ -17674,7 +18400,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "44min"
   },
   {
     "id": "hudson-rex-serie",
@@ -17699,7 +18426,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "41min"
   },
   {
     "id": "trauma-serie",
@@ -17724,7 +18452,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "45min"
   },
   {
     "id": "almost-paradise-serie",
@@ -17749,7 +18478,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "45min"
   },
   {
     "id": "marion-serie",
@@ -17774,7 +18504,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "42min"
   },
   {
     "id": "j-ai-tue-mon-mari-serie",
@@ -17799,7 +18530,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "45min"
   },
   {
     "id": "les-petits-meurtres-d-agatha-christie-serie",
@@ -17824,7 +18556,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "motive-serie",
@@ -17849,7 +18582,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "44min"
   },
   {
     "id": "candice-renoir-serie",
@@ -17874,7 +18608,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "50min"
   },
   {
     "id": "aurora-teagarden-serie",
@@ -17899,7 +18634,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "1h 24min"
   },
   {
     "id": "le-sang-de-la-vigne-serie",
@@ -17924,7 +18660,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/13eme_rue.png"
-    ]
+    ],
+    "duree": "1h 30min"
   },
   {
     "id": "la-nuit-ou-laurier-gaudreault-s-est-reveille-serie",
@@ -17949,7 +18686,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 02min"
   },
   {
     "id": "the-narrow-road-to-the-deep-north-serie",
@@ -17974,7 +18712,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "45min"
   },
   {
     "id": "les-sartori-une-histoire-italienne-la-storia-serie",
@@ -17999,7 +18738,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "50min"
   },
   {
     "id": "joan-serie",
@@ -18024,7 +18764,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "46min"
   },
   {
     "id": "aspergirl-serie",
@@ -18049,7 +18790,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "18min"
   },
   {
     "id": "spartacus-house-of-ashur-serie",
@@ -18074,7 +18816,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "1h 00min"
   },
   {
     "id": "twisted-metal-serie",
@@ -18099,7 +18842,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "30min"
   },
   {
     "id": "monsieur-spade-serie",
@@ -18124,7 +18868,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "56min"
   },
   {
     "id": "marie-antoinette-serie",
@@ -18149,7 +18894,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "53min"
   },
   {
     "id": "the-walking-dead-dead-city-serie",
@@ -18174,7 +18920,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "45min"
   },
   {
     "id": "archie-serie",
@@ -18199,7 +18946,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "48min"
   },
   {
     "id": "funny-woman-serie",
@@ -18224,7 +18972,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "46min"
   },
   {
     "id": "pecheresses-serie",
@@ -18249,7 +18998,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "26min"
   },
   {
     "id": "extra-serie",
@@ -18274,7 +19024,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "13min"
   },
   {
     "id": "la-famille-rose-serie",
@@ -18299,7 +19050,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "39min"
   },
   {
     "id": "hotel-cocaine-serie",
@@ -18324,7 +19076,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "51min"
   },
   {
     "id": "deep-serie",
@@ -18349,7 +19102,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "26min"
   },
   {
     "id": "el-inmortal-serie",
@@ -18374,7 +19128,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "49min"
   },
   {
     "id": "extra-lucide-serie",
@@ -18399,7 +19154,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "30min"
   },
   {
     "id": "au-pair-serie",
@@ -18424,7 +19180,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "45min"
   },
   {
     "id": "orphan-black-echoes-serie",
@@ -18449,7 +19206,8 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "46min"
   },
   {
     "id": "django-serie",
@@ -18474,6 +19232,7 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/ocs.png"
-    ]
+    ],
+    "duree": "52min"
   }
 ];

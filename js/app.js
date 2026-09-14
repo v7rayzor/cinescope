@@ -178,6 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initCounts();
   initNavigation();
   initStarsNavigation();
+  initDurationFilter();
   initModal();
   updateMobileGenreDisplay(AppState.activeCategory);
   updateCategoryAutoStar();
@@ -230,37 +231,78 @@ function initNavigation() {
     });
   });
 
-  // Navigation Menu Déroulant Genre (Mobile)
-  const mobileCatSelect = document.getElementById('mobileCategorySelect');
-  if (mobileCatSelect) {
-    mobileCatSelect.addEventListener('change', (e) => {
-      const selectedCategory = e.target.value;
-      AppState.activeCategory = selectedCategory;
+  // Navigation Menu Déroulant Genre Personnalisé (Mobile)
+  const dropdownBtn = document.getElementById('genreDropdownBtn');
+  const dropdownMenu = document.getElementById('genreDropdownMenu');
+  const genreOptions = document.querySelectorAll('.genre-option');
 
-      // Synchroniser les boutons du carousel desktop
-      catButtons.forEach(b => {
-        b.classList.toggle('active', b.dataset.category === selectedCategory);
+  if (dropdownBtn && dropdownMenu) {
+    // Ouvrir / Fermer au clic
+    dropdownBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = dropdownMenu.classList.toggle('open');
+      dropdownBtn.classList.toggle('open', isOpen);
+      dropdownBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+
+    // Sélectionner une option
+    genreOptions.forEach(opt => {
+      opt.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const selectedCategory = opt.dataset.category;
+        AppState.activeCategory = selectedCategory;
+
+        // Synchroniser les boutons du carousel desktop
+        catButtons.forEach(b => {
+          b.classList.toggle('active', b.dataset.category === selectedCategory);
+        });
+
+        // Synchroniser le menu déroulant personnalisé et le badge
+        updateMobileGenreDisplay(selectedCategory);
+
+        // Fermer le menu
+        dropdownMenu.classList.remove('open');
+        dropdownBtn.classList.remove('open');
+        dropdownBtn.setAttribute('aria-expanded', 'false');
+
+        // Recalculer le palier automatique et rafraîchir
+        AppState.isAutoStars = true;
+        updateCategoryAutoStar();
+        renderCatalog();
       });
+    });
 
-      updateMobileGenreDisplay(selectedCategory);
+    // Fermer si clic en dehors
+    document.addEventListener('click', (e) => {
+      if (!dropdownBtn.contains(e.target) && !dropdownMenu.contains(e.target)) {
+        dropdownMenu.classList.remove('open');
+        dropdownBtn.classList.remove('open');
+        dropdownBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
 
-      // Recalculer le palier automatique
-      AppState.isAutoStars = true;
-      updateCategoryAutoStar();
-      renderCatalog();
+    // Fermer si touche Échap
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        dropdownMenu.classList.remove('open');
+        dropdownBtn.classList.remove('open');
+        dropdownBtn.setAttribute('aria-expanded', 'false');
+      }
     });
   }
 }
 
 // Synchronisation de l'affichage du genre sélectionné sur mobile
 function updateMobileGenreDisplay(categoryKey) {
-  const mobileCatSelect = document.getElementById('mobileCategorySelect');
   const badgeIcon = document.getElementById('selectedGenreIcon');
   const badgeText = document.getElementById('selectedGenreText');
+  const genreOptions = document.querySelectorAll('.genre-option');
 
-  if (mobileCatSelect && mobileCatSelect.value !== categoryKey) {
-    mobileCatSelect.value = categoryKey;
-  }
+  genreOptions.forEach(opt => {
+    const isSelected = opt.dataset.category === categoryKey;
+    opt.classList.toggle('active', isSelected);
+    opt.setAttribute('aria-selected', isSelected ? 'true' : 'false');
+  });
 
   const catInfo = CATEGORIES_INFO[categoryKey] || CATEGORIES_INFO.all;
   if (badgeIcon) badgeIcon.textContent = catInfo.icon || '✨';
@@ -281,10 +323,227 @@ function initStarsNavigation() {
   });
 }
 
+// Parser une durée ("1h 45min", "2h 00min", "45min", "1h", etc.) en nombre total de minutes
+function parseDurationMinutes(dureeStr) {
+  if (!dureeStr || typeof dureeStr !== 'string') return null;
+  const str = dureeStr.trim().toLowerCase();
+
+  const hMatch = str.match(/(\d+)\s*h/);
+  const mMatch = str.match(/(\d+)\s*min/);
+
+  const hours = hMatch ? parseInt(hMatch[1], 10) : 0;
+  const minutes = mMatch ? parseInt(mMatch[1], 10) : 0;
+
+  if (!hMatch && !mMatch) {
+    const numMatch = str.match(/^\d+$/);
+    if (numMatch) return parseInt(numMatch[0], 10);
+    return null;
+  }
+
+  return (hours * 60) + minutes;
+}
+
+// Obtenir la durée minimale en minutes selon les inputs "Plus de"
+function getDurationMinMinutes() {
+  const hInput = document.getElementById('durationMinH');
+  const mInput = document.getElementById('durationMinM');
+  if (!hInput || !mInput) return null;
+
+  const hVal = hInput.value.trim();
+  const mVal = mInput.value.trim();
+
+  if (hVal === '' && mVal === '') return null;
+
+  const h = hVal !== '' ? Math.max(0, parseInt(hVal, 10) || 0) : 0;
+  const m = mVal !== '' ? Math.max(0, Math.min(59, parseInt(mVal, 10) || 0)) : 0;
+
+  return (h * 60) + m;
+}
+
+// Obtenir la durée maximale en minutes selon les inputs "Moins de"
+function getDurationMaxMinutes() {
+  const hInput = document.getElementById('durationMaxH');
+  const mInput = document.getElementById('durationMaxM');
+  if (!hInput || !mInput) return null;
+
+  const hVal = hInput.value.trim();
+  const mVal = mInput.value.trim();
+
+  if (hVal === '' && mVal === '') return null;
+
+  const h = hVal !== '' ? Math.max(0, parseInt(hVal, 10) || 0) : 0;
+  const m = mVal !== '' ? Math.max(0, Math.min(59, parseInt(mVal, 10) || 0)) : 0;
+
+  return (h * 60) + m;
+}
+
+// Validation et auto-complétion du groupe d'heures et minutes (ex: 1h 5 -> 1h 05, 1h -> 1h 00, 45min -> 0h 45)
+function validateAndFormatDurationGroup(hInput, mInput) {
+  if (!hInput || !mInput) return;
+
+  const hRaw = hInput.value.trim().replace(/\D/g, '');
+  const mRaw = mInput.value.trim().replace(/\D/g, '');
+
+  // Si les deux champs sont vides, laisser vide
+  if (hRaw === '' && mRaw === '') {
+    hInput.value = '';
+    mInput.value = '';
+    return;
+  }
+
+  // Si au moins un champ est renseigné, formater proprement les deux
+  const hNum = hRaw !== '' ? Math.max(0, parseInt(hRaw, 10)) : 0;
+  let mNum = mRaw !== '' ? Math.max(0, parseInt(mRaw, 10)) : 0;
+  if (mNum > 59) mNum = 59;
+
+  hInput.value = String(hNum);
+  mInput.value = String(mNum).padStart(2, '0');
+}
+
+// Initialisation des écouteurs du filtre de durée
+function initDurationFilter() {
+  const minH = document.getElementById('durationMinH');
+  const minM = document.getElementById('durationMinM');
+  const maxH = document.getElementById('durationMaxH');
+  const maxM = document.getElementById('durationMaxM');
+  const resetBtn = document.getElementById('durationResetBtn');
+
+  const updateResetBtnVisibility = () => {
+    const hasValue = (minH && minH.value !== '') ||
+                     (minM && minM.value !== '') ||
+                     (maxH && maxH.value !== '') ||
+                     (maxM && maxM.value !== '');
+    if (resetBtn) {
+      resetBtn.classList.toggle('visible', hasValue);
+    }
+  };
+
+  const onDurationInput = () => {
+    updateResetBtnVisibility();
+    updateCategoryAutoStar();
+    renderCatalog();
+  };
+
+  // Configuration des deux groupes (Min et Max)
+  const setupGroup = (hInput, mInput) => {
+    if (!hInput || !mInput) return;
+
+    const handleBlur = () => {
+      setTimeout(() => {
+        const active = document.activeElement;
+        // Si le focus est encore dans l'autre input du même groupe (ex: passage de h à min), attendre
+        if (active === hInput || active === mInput) {
+          return;
+        }
+
+        // Le focus a complètement quitté le groupe : validation et complétion automatique
+        validateAndFormatDurationGroup(hInput, mInput);
+        updateResetBtnVisibility();
+        updateCategoryAutoStar();
+        renderCatalog();
+      }, 60);
+    };
+
+    // Configuration du champ Heures
+    hInput.addEventListener('input', () => {
+      const clean = hInput.value.replace(/\D/g, '');
+      if (clean !== hInput.value) {
+        hInput.value = clean;
+      }
+      onDurationInput();
+
+      // Dès qu'un chiffre d'heure est saisi, basculer directement sur les minutes
+      if (hInput.value.length >= 1) {
+        mInput.focus();
+        mInput.select();
+      }
+    });
+
+    hInput.addEventListener('focus', () => {
+      hInput.select();
+    });
+
+    hInput.addEventListener('blur', handleBlur);
+
+    hInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        validateAndFormatDurationGroup(hInput, mInput);
+        updateResetBtnVisibility();
+        hInput.blur();
+        updateCategoryAutoStar();
+        renderCatalog();
+      }
+    });
+
+    // Configuration du champ Minutes
+    mInput.addEventListener('input', () => {
+      const clean = mInput.value.replace(/\D/g, '');
+      if (clean !== mInput.value) {
+        mInput.value = clean;
+      }
+      onDurationInput();
+    });
+
+    mInput.addEventListener('focus', () => {
+      mInput.select();
+    });
+
+    mInput.addEventListener('blur', handleBlur);
+
+    mInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        validateAndFormatDurationGroup(hInput, mInput);
+        updateResetBtnVisibility();
+        mInput.blur();
+        updateCategoryAutoStar();
+        renderCatalog();
+      } else if (e.key === 'Backspace' && mInput.value === '') {
+        // Revenir en arrière sur l'heure si les minutes sont déjà vides
+        hInput.focus();
+        hInput.select();
+      }
+    });
+  };
+
+  setupGroup(minH, minM);
+  setupGroup(maxH, maxM);
+
+  if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+      if (minH) minH.value = '';
+      if (minM) minM.value = '';
+      if (maxH) maxH.value = '';
+      if (maxM) maxM.value = '';
+      resetBtn.classList.remove('visible');
+      updateCategoryAutoStar();
+      renderCatalog();
+    });
+  }
+}
+
+// Obtenir tous les items éligibles selon le type, la catégorie et la plage de durée
+function getFilteredItemsBeforeStars() {
+  let items = getCategoryEligibleItems();
+  const minMin = getDurationMinMinutes();
+  const maxMin = getDurationMaxMinutes();
+
+  if (minMin !== null || maxMin !== null) {
+    items = items.filter(item => {
+      const dur = parseDurationMinutes(item.duree);
+      if (dur === null) return false;
+      if (minMin !== null && dur < minMin) return false;
+      if (maxMin !== null && dur > maxMin) return false;
+      return true;
+    });
+  }
+
+  return items;
+}
+
 // Mise à jour du palier d'étoiles automatique pour la catégorie courante
 function updateCategoryAutoStar() {
-  // Récupérer tous les items éligibles de la catégorie courante
-  const categoryEligible = getCategoryEligibleItems();
+  // Récupérer les items éligibles de la sélection (catégorie + filtre durée éventuel)
+  const categoryEligible = getFilteredItemsBeforeStars();
 
   // Mise à jour des compteurs sur les boutons d'étoiles
   updateStarButtonsCounts(categoryEligible);
@@ -354,8 +613,8 @@ function renderCatalog() {
     descEl.style.display = catInfo.desc ? 'block' : 'none';
   }
 
-  // 1. Récupérer les items de la catégorie
-  let items = getCategoryEligibleItems();
+  // 1. Récupérer les items filtrés par catégorie et par durée
+  let items = getFilteredItemsBeforeStars();
 
   // 2. Mettre à jour les compteurs des étoiles
   updateStarButtonsCounts(items);
@@ -433,6 +692,8 @@ function renderCatalog() {
 }
 
 // Modale de détails au clic
+let savedScrollY = 0;
+
 function initModal() {
   const modal = document.getElementById('movieModal');
   const closeBtn = document.getElementById('modalCloseBtn');
@@ -442,6 +703,17 @@ function initModal() {
     modal.setAttribute('aria-hidden', 'true');
     document.body.classList.remove('modal-open');
     document.documentElement.classList.remove('modal-open');
+    
+    // Restaurer immédiatement la position exacte de défilement où se trouvait l'utilisateur
+    window.scrollTo({
+      top: savedScrollY,
+      left: 0,
+      behavior: 'instant'
+    });
+    // Sécurité supplémentaire pour les navigateurs asynchrones / mobiles
+    requestAnimationFrame(() => {
+      window.scrollTo(0, savedScrollY);
+    });
   };
 
   closeBtn.addEventListener('click', closeModal);
@@ -465,6 +737,9 @@ function initModal() {
 }
 
 function openModal(item) {
+  // Enregistrer immédiatement la position exacte de scroll avant d'afficher la modale
+  savedScrollY = window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0;
+
   const modal = document.getElementById('movieModal');
   const poster = document.getElementById('modalPoster');
   const title = document.getElementById('modalTitle');
@@ -475,6 +750,10 @@ function openModal(item) {
   const categoriesContainer = document.getElementById('modalCategories');
   const ratingEl = document.getElementById('modalRating');
 
+  const durationRow = document.getElementById('modalDurationRow');
+  const durationLabel = document.getElementById('modalDurationLabel');
+  const durationVal = document.getElementById('modalDuration');
+
   poster.src = item.poster;
   poster.alt = item.titre;
   title.textContent = item.titre;
@@ -482,6 +761,20 @@ function openModal(item) {
   
   // Le type reste 'Film' ou 'Série'
   typeBadge.textContent = item.type === 'film' ? 'Film' : 'Série';
+
+  // Affichage de la durée au milieu uniquement (garantir le format Xh YYmin, même si 00)
+  const formattedDuree = (item.duree || '').replace(/^(\d+)h$/i, '$1h 00min');
+  if (formattedDuree) {
+    if (durationRow) {
+      durationRow.style.display = 'flex';
+      if (durationLabel) {
+        durationLabel.textContent = item.type === 'serie' ? '⏱️ Durée moyenne' : '⏱️ Durée';
+      }
+      if (durationVal) durationVal.textContent = formattedDuree;
+    }
+  } else {
+    if (durationRow) durationRow.style.display = 'none';
+  }
   
   // Badge CSA dans la modale
   if (modalCsaBadge) {
@@ -540,7 +833,6 @@ function openModal(item) {
   }
 
   document.body.classList.add('modal-open');
-  document.documentElement.classList.add('modal-open');
   modal.classList.add('open');
   modal.setAttribute('aria-hidden', 'false');
 }
