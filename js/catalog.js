@@ -14550,14 +14550,15 @@ const CATALOG_DATA = [
     "categories": [
       "drame_emotion"
     ],
-    "annee": 2021,
+    "annee": 2005,
     "chaine": "Action",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_a_lombre_de_mes_yeux.jpg",
-    "note_avis": 7.2,
-    "note_recence": 8.3,
-    "note_globale": 7.8,
-    "is_eligible": true,
+    "note_avis": 4.8,
+    "note_recence": 5.1,
+    "note_globale": 5.0,
+    "is_eligible": false,
+    "exclusion": "Globale (5.0 < 6)",
     "chaines": [
       "Action"
     ],
@@ -14565,7 +14566,7 @@ const CATALOG_DATA = [
       "assets/logos/action.png"
     ],
     "badge": null,
-    "duree": "1h 56min"
+    "duree": "1h 30min"
   },
   {
     "id": "action_2_inexorable",
