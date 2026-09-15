@@ -232,17 +232,14 @@ body.modal-open {
   gap: 0.6rem;
   overflow-x: auto;
   padding: 0.15rem 0;
-  scrollbar-width: thin;
-  scrollbar-color: var(--border-subtle) transparent;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .categories-wrapper::-webkit-scrollbar {
-  height: 4px;
-}
-
-.categories-wrapper::-webkit-scrollbar-thumb {
-  background: var(--border-subtle);
-  border-radius: var(--radius-full);
+  display: none;
+  width: 0;
+  height: 0;
 }
 
 .category-btn {
