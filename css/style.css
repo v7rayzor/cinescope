@@ -525,11 +525,6 @@ body.modal-open {
   font-weight: 700;
 }
 
-.stats-hint {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-}
-
 /* Posters Grid */
 .grid-section {
   position: relative;
