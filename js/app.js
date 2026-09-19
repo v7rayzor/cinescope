@@ -105,14 +105,55 @@ function getAutoStarTier(categoryEligibleItems) {
   return 'all';
 }
 
-// Algorithme de mélange aléatoire de Fisher-Yates (indépendant à chaque exécution/refresh)
-function shuffleArray(array) {
-  const arr = [...array];
-  for (let i = arr.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
+// Générateur de clé de jour (ex: "2026-09-19")
+function getDailySeed() {
+  const d = new Date();
+  const year = d.getFullYear();
+  const month = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+// Fonction de hachage 32-bit pour calculer un score pseudo-aléatoire déterministe par item et par jour
+function getDailyItemHash(item, dailySeed) {
+  const key = `${item.id || item.titre || ''}_${dailySeed}`;
+  let h1 = 0xdeadbeef, h2 = 0x41c6ce57;
+  for (let i = 0; i < key.length; i++) {
+    const ch = key.charCodeAt(i);
+    h1 = Math.imul(h1 ^ ch, 2654435761);
+    h2 = Math.imul(h2 ^ ch, 1597334677);
   }
-  return arr;
+  h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507);
+  h1 ^= Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+  h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507);
+  h2 ^= Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+  return 4294967296 * (2097151 & h2) + (h1 >>> 0);
+}
+
+// Cache des scores du jour pour garantir des performances optimales
+const _dailyScoresCache = new Map();
+let _currentCachedSeed = '';
+
+function getDailyScore(item) {
+  const seed = getDailySeed();
+  if (_currentCachedSeed !== seed) {
+    _dailyScoresCache.clear();
+    _currentCachedSeed = seed;
+  }
+  const key = item.id || item.titre;
+  let score = _dailyScoresCache.get(key);
+  if (score === undefined) {
+    score = getDailyItemHash(item, seed);
+    _dailyScoresCache.set(key, score);
+  }
+  return score;
+}
+
+// Mélange quotidien : 1 tirage aléatoire unique et stable par jour ("1 jour 1 aléatoire")
+// L'ordre reste parfaitement identique sur toute la journée lors des rafraîchissements ou filtrages,
+// et se renouvelle automatiquement chaque jour à minuit.
+function shuffleArray(array) {
+  return [...array].sort((a, b) => getDailyScore(a) - getDailyScore(b));
 }
 
 // Préchargement proactif de toutes les affiches et logos pour affichage instantané sans délai

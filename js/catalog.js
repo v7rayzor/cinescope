@@ -523,7 +523,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "l-espion-de-dieu",
-    "titre": "L 'Espion de Dieu",
+    "titre": "L'Espion de Dieu",
     "type": "film",
     "chaine": "Ciné+ Frisson",
     "section": "Films",
@@ -1147,7 +1147,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "l-annee-du-requin",
-    "titre": "L 'Année du requin",
+    "titre": "L'Année du requin",
     "type": "film",
     "chaine": "Ciné+ Frisson",
     "section": "Films",
@@ -1721,7 +1721,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "l-avocat",
-    "titre": "L 'Avocat",
+    "titre": "L'Avocat",
     "type": "film",
     "chaine": "Ciné+ Frisson",
     "section": "Films",
@@ -2007,7 +2007,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "l-empire-des-loups",
-    "titre": "L 'Empire des loups",
+    "titre": "L'Empire des loups",
     "type": "film",
     "chaine": "Ciné+ Frisson",
     "section": "Films",
@@ -2111,7 +2111,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "l-arme-fatale-4",
-    "titre": "L 'Arme fatale 4",
+    "titre": "L'Arme fatale 4",
     "type": "film",
     "chaine": "Ciné+ Frisson",
     "section": "Films",
@@ -2189,7 +2189,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "l-arme-fatale",
-    "titre": "L 'Arme fatale",
+    "titre": "L'Arme fatale",
     "type": "film",
     "chaine": "Ciné+ Frisson",
     "section": "Films",
@@ -2215,7 +2215,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "l-arme-fatale-2",
-    "titre": "L 'Arme fatale 2",
+    "titre": "L'Arme fatale 2",
     "type": "film",
     "chaine": "Ciné+ Frisson",
     "section": "Films",
@@ -2241,7 +2241,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "l-arme-fatale-3",
-    "titre": "L 'Arme fatale 3",
+    "titre": "L'Arme fatale 3",
     "type": "film",
     "chaine": "Ciné+ Frisson",
     "section": "Films",
@@ -2293,7 +2293,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "2001-l-odyssee-de-lespace",
-    "titre": "2001 : L 'Odyssée de l'espace",
+    "titre": "2001 : L'Odyssée de l'espace",
     "type": "film",
     "chaine": "Ciné+ Frisson",
     "section": "Films",
@@ -2529,7 +2529,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "l-amour-au-present",
-    "titre": "L 'Amour au présent",
+    "titre": "L'Amour au présent",
     "type": "film",
     "chaine": "Ciné+ Emotion",
     "section": "Films",
@@ -3087,7 +3087,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "l-hermine",
-    "titre": "L 'Hermine",
+    "titre": "L'Hermine",
     "type": "film",
     "chaine": "Ciné+ Emotion",
     "section": "Films",
@@ -3139,7 +3139,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "l-homme-fidele",
-    "titre": "L 'Homme fidèle",
+    "titre": "L'Homme fidèle",
     "type": "film",
     "chaine": "Ciné+ Emotion",
     "section": "Films",
@@ -4675,7 +4675,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "l-amour-sans-preavis",
-    "titre": "L 'Amour sans préavis",
+    "titre": "L'Amour sans préavis",
     "type": "film",
     "chaine": "Ciné+ Emotion",
     "section": "Films",
@@ -5303,7 +5303,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "l-ecole-buissonniere",
-    "titre": "L 'École buissonnière",
+    "titre": "L'École buissonnière",
     "type": "film",
     "chaine": "Ciné+ Family",
     "section": "Films",
@@ -6449,7 +6449,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "l-operation-corned-beef",
-    "titre": "L 'Opération Corned-Beef",
+    "titre": "L'Opération Corned-Beef",
     "type": "film",
     "chaine": "Ciné+ Family",
     "section": "Films",
@@ -6579,7 +6579,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "l-avare",
-    "titre": "L 'Avare",
+    "titre": "L'Avare",
     "type": "film",
     "chaine": "Ciné+ Family",
     "section": "Films",
@@ -6605,7 +6605,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "l-enfant-sacre-du-tibet",
-    "titre": "L 'Enfant sacré du Tibet",
+    "titre": "L'Enfant sacré du Tibet",
     "type": "film",
     "chaine": "Ciné+ Family",
     "section": "Films",
@@ -7569,7 +7569,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "l-amour-quil-nous-reste",
-    "titre": "L 'Amour qu'il nous reste",
+    "titre": "L'Amour qu'il nous reste",
     "type": "film",
     "chaine": "Ciné+ Festival",
     "section": "Films",
@@ -7673,7 +7673,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "l-aventura",
-    "titre": "L 'Aventura",
+    "titre": "L'Aventura",
     "type": "film",
     "chaine": "Ciné+ Festival",
     "section": "Films",
@@ -8219,7 +8219,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "l-effacement",
-    "titre": "L 'Effacement",
+    "titre": "L'Effacement",
     "type": "film",
     "chaine": "Ciné+ Festival",
     "section": "Films",
@@ -8687,7 +8687,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "l-economie-du-couple",
-    "titre": "L 'Économie du couple",
+    "titre": "L'Économie du couple",
     "type": "film",
     "chaine": "Ciné+ Festival",
     "section": "Films",
@@ -9623,7 +9623,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "l-uf-de-lange",
-    "titre": "L 'Œuf de l'ange",
+    "titre": "L'Œuf de l'ange",
     "type": "film",
     "chaine": "Ciné+ Festival",
     "section": "Films",
@@ -12765,7 +12765,7 @@ const CATALOG_DATA = [
     "titre": "Novocaïne",
     "type": "film",
     "categories": [
-      "action_aventure"
+      "thriller_policier"
     ],
     "annee": 2001,
     "chaine": "OCS",
@@ -14813,7 +14813,7 @@ const CATALOG_DATA = [
     "titre": "Wind River",
     "type": "film",
     "categories": [
-      "action_aventure"
+      "thriller_policier"
     ],
     "annee": 2018,
     "chaine": "Action",
@@ -17130,7 +17130,7 @@ const CATALOG_DATA = [
   },
   {
     "id": "the-librarians-l-heritage-de-flynn-carson-serie",
-    "titre": "The Librarians : L 'Héritage de Flynn Carson",
+    "titre": "The Librarians : L'Héritage de Flynn Carson",
     "type": "serie",
     "chaine": "SCIFI",
     "section": "Séries",
@@ -17584,7 +17584,7 @@ const CATALOG_DATA = [
     "note_recence": 6.2,
     "note_globale": 7.0,
     "categories": [
-      "thriller_policier"
+      "scifi_fantastique"
     ],
     "badge": "12",
     "is_eligible": true,
@@ -19087,12 +19087,12 @@ const CATALOG_DATA = [
     "chaine": "OCS",
     "section": "Séries",
     "position": "Séries • OCS",
-    "annee": 2024,
+    "annee": 2026,
     "note_avis": 6.6,
-    "note_recence": 9.3,
-    "note_globale": 8.0,
+    "note_recence": 9.7,
+    "note_globale": 8.2,
     "categories": [
-      "thriller_policier"
+      "scifi_fantastique"
     ],
     "badge": "12",
     "is_eligible": true,
