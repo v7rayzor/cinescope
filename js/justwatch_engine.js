@@ -182,8 +182,8 @@ const JustWatchEngine = (function () {
       }
     }
 
-    // 4. Règle Western pur
-    if (rawTags.includes('wsn') && allowed.has('action_aventure')) {
+    // 4. Règle Western pur (exclut les polars contemporains et intrigues criminelles)
+    if (rawTags.includes('wsn') && !rawTags.includes('crm') && !POLICE_CRIME_PATTERNS.test(cleanText) && allowed.has('action_aventure')) {
       return 'action_aventure';
     }
 

@@ -30121,7 +30121,7 @@ const CATALOG_DATA = [
     "note_recence": 9.3,
     "note_globale": 7,
     "categories": [
-      "action_aventure"
+      "drame_emotion"
     ],
     "badge": "10",
     "is_eligible": true,
@@ -30745,7 +30745,7 @@ const CATALOG_DATA = [
     "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
-      "action_aventure"
+      "thriller_policier"
     ],
     "raw_genres": [
       "crm",
@@ -43392,7 +43392,7 @@ const CATALOG_DATA = [
     "note_globale": 8,
     "etoiles": 5,
     "categories": [
-      "action_aventure"
+      "thriller_policier"
     ],
     "raw_genres": [
       "cmy",
