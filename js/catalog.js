@@ -18,11 +18,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/331279332/s592/maldoror.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 35min",
@@ -51,7 +49,7 @@ const CATALOG_DATA = [
     "id": "la-legende-dochi",
     "titre": "La Légende d'Ochi",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 14, N° 6",
     "annee": 2025,
@@ -64,12 +62,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/la-legende-dochi.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 36min",
     "expiration": {
@@ -78,13 +76,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "le-mohican",
     "titre": "Le Mohican",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 11, N° 5",
     "annee": 2024,
@@ -97,12 +98,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/le-mohican.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 27min",
     "expiration": {
@@ -111,13 +112,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "u-are-the-universe",
     "titre": "U Are the Universe",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 15, N° 4",
     "annee": 2024,
@@ -130,12 +134,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/u-are-the-universe.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 37min",
     "expiration": {
@@ -144,54 +148,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-tm1492557",
-    "titre": "Heretic",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ligne 8, N° 4",
-    "annee": 2024,
-    "note_avis": 7,
-    "note_recence": 9.5,
-    "note_globale": 8.3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322792094/s592/heretic.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ Frisson",
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_frisson.png",
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 51min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-26",
-      "packageExpirations": {
-        "aoc": "2026-09-26"
-      }
     },
     "package_slugs": [
       "aoc"
-    ],
-    "runtime_minutes": 111,
-    "etoiles": 5,
-    "raw_genres": [
-      "hrr",
-      "trl"
-    ],
-    "synopsis": "Deux jeunes missionnaires mormones se rendent chez M. Reed, un homme excentrique, pour prêcher et tenter de le convertir. Ce dernier va cependant s'avérer bien plus dangereux qu'elles n'auraient pu l'imaginer."
+    ]
   },
   {
     "id": "jw-tm1587742",
@@ -212,11 +172,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/338305950/s592/reflet-dans-un-diamant-mort.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 27min",
@@ -260,11 +218,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/330216689/s592/the-things-you-kill.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 55min",
@@ -307,11 +263,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/263846833/s592/goliath-2022.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 01min",
@@ -339,7 +293,7 @@ const CATALOG_DATA = [
     "id": "le-clan-des-betes",
     "titre": "Le Clan des bêtes",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 16, N° 1",
     "annee": 2024,
@@ -352,12 +306,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "assets/posters/le-clan-des-betes.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 46min",
     "expiration": {
@@ -366,7 +320,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1532820",
@@ -387,11 +344,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/321502692/s592/mads.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 28min",
@@ -421,8 +376,6 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ Frisson",
-      "OCS",
       "Ciné+ OCS"
     ],
     "section": "Films",
@@ -439,8 +392,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/331888576/s592/haut-les-mains.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 24min",
@@ -483,11 +434,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/336383799/s592/que-ma-volonte-soit-faite.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 35min",
@@ -530,11 +479,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/328425354/s592/les-arenes-2025.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 34min",
@@ -577,11 +524,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/331505260/s592/kuraudo.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 04min",
@@ -627,11 +572,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/321722037/s592/the-balconettes.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 44min",
@@ -675,11 +618,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/338243557/s592/the-ugly-stepsister.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 49min",
@@ -723,11 +664,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/331876879/s592/magma.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 25min",
@@ -769,11 +708,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/332391138/s592/belladone.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 31min",
@@ -802,7 +739,7 @@ const CATALOG_DATA = [
     "id": "brule-le-sang",
     "titre": "Brûle le sang",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 13, N° 3",
     "annee": 2024,
@@ -815,12 +752,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "assets/posters/brule-le-sang.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 49min",
     "expiration": {
@@ -829,13 +766,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "else",
     "titre": "Else",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 13, N° 5",
     "annee": 2024,
@@ -848,12 +788,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/else.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 40min",
     "expiration": {
@@ -862,7 +802,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1412203",
@@ -883,11 +826,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/331551752/s592/bonhoeffer-pastor-spy-assassin.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 12min",
@@ -932,11 +873,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/312595687/s592/moi-vivant-vous-ne-serez-jamais-morts.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 46min",
@@ -980,11 +919,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/330205641/s592/coka-chica.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 38min",
@@ -1010,54 +947,6 @@ const CATALOG_DATA = [
     "synopsis": "Sarah, Jessica et Chanel, trois amies inséparables issues de la banlieue parisienne, sont venues faire les mules dans une île des Caraïbes pour ramener de la drogue en France et enfin ouvrir leur business de bar à ongles. Mais le voyage est bouleversé lorsque, après s'être fait arrêtée à l'aéroport, Jessica disparaît totalement des radars."
   },
   {
-    "id": "jw-tm1481590",
-    "titre": "Animale",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ligne 12, N° 3",
-    "annee": 2024,
-    "note_avis": 5.7,
-    "note_recence": 9.5,
-    "note_globale": 7.6,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/326322553/s592/animale.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ Frisson",
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_frisson.png",
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 38min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-26",
-      "packageExpirations": {
-        "aoc": "2026-09-26"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 98,
-    "etoiles": 4,
-    "raw_genres": [
-      "drm",
-      "fnt",
-      "hrr"
-    ],
-    "synopsis": "Nejma s’entraine dur pour réaliser son rêve et remporter la prochaine course camarguaise, un concours où l’on défie les taureaux dans l’arène. Mais alors que la saison bat son plein, des disparitions suspectes inquiètent les habitants. Très vite la rumeur se propage : une bête sauvage rôde…"
-  },
-  {
     "id": "jw-tm1561485",
     "titre": "Other",
     "type": "film",
@@ -1076,11 +965,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/331551274/s592/other.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 35min",
@@ -1110,7 +997,7 @@ const CATALOG_DATA = [
     "id": "guillaume-tell",
     "titre": "Guillaume Tell",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 3, N° 2",
     "annee": 2024,
@@ -1123,12 +1010,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "assets/posters/guillaume-tell.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 13min",
     "expiration": {
@@ -1137,13 +1024,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "resurrection",
     "titre": "Resurrection",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 10, N° 3",
     "annee": 2022,
@@ -1156,12 +1046,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "assets/posters/resurrection.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 43min",
     "expiration": {
@@ -1170,13 +1060,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "marae",
     "titre": "Maraé",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 13, N° 6",
     "annee": 2024,
@@ -1189,12 +1082,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "assets/posters/marae.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 25min",
     "expiration": {
@@ -1203,7 +1096,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm314783",
@@ -1224,11 +1120,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/12402174/s592/corporate.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 35min",
@@ -1257,7 +1151,7 @@ const CATALOG_DATA = [
     "id": "sans-pitie",
     "titre": "Sans pitié",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 11, N° 2",
     "annee": 2025,
@@ -1270,12 +1164,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "assets/posters/sans-pitie.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 34min",
     "expiration": {
@@ -1284,13 +1178,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "looper",
     "titre": "Looper",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 4, N° 5",
     "annee": 2012,
@@ -1303,12 +1200,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/looper.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 50min",
     "expiration": {
@@ -1317,7 +1214,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm123172",
@@ -1338,11 +1238,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/8794177/s592/snowden.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 15min",
@@ -1386,11 +1284,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/36910482/s592/le-fidele.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 10min",
@@ -1436,11 +1332,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/321816556/s592/the-last-breath.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 36min",
@@ -1483,11 +1377,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/185099522/s592/source-code.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 33min",
@@ -1533,11 +1425,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/177339133/s592/ni-le-ciel-ni-la-terre.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 40min",
@@ -1568,7 +1458,7 @@ const CATALOG_DATA = [
     "id": "prisonniere",
     "titre": "Prisonnière",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Téléfilms",
     "position": "Téléfilms — N° 2",
     "annee": 2022,
@@ -1581,12 +1471,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "assets/posters/prisonniere.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 20min",
     "expiration": {
@@ -1595,7 +1485,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm101914",
@@ -1616,11 +1509,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/177869500/s592/fighter.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 56min",
@@ -1649,7 +1540,7 @@ const CATALOG_DATA = [
     "id": "jeune-jolie",
     "titre": "Jeune & jolie",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 2, N° 6",
     "annee": 2013,
@@ -1662,12 +1553,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "assets/posters/jeune-jolie.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 34min",
     "expiration": {
@@ -1676,7 +1567,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm139528",
@@ -1697,11 +1591,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/11571920/s592/slow-west.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 24min",
@@ -1747,11 +1639,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/60568766/s592/ares.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 20min",
@@ -1781,7 +1671,7 @@ const CATALOG_DATA = [
     "id": "burn-out",
     "titre": "Burn Out",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 9, N° 2",
     "annee": 2017,
@@ -1794,12 +1684,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/burn-out.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 43min",
     "expiration": {
@@ -1808,13 +1698,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "chanson-douce",
     "titre": "Chanson douce",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 6, N° 3",
     "annee": 2019,
@@ -1827,12 +1720,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/chanson-douce.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 40min",
     "expiration": {
@@ -1841,7 +1734,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm305296",
@@ -1862,11 +1758,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/111080988/s592/sang-froid.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 59min",
@@ -1912,11 +1806,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/301926173/s592/lannee-du-requin.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 27min",
@@ -1961,11 +1853,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/153947247/s592/watchmen-les-gardiens.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 43min",
@@ -1995,7 +1885,7 @@ const CATALOG_DATA = [
     "id": "under-the-skin",
     "titre": "Under the Skin",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 7, N° 4",
     "annee": 2013,
@@ -2008,12 +1898,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "assets/posters/under-the-skin.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 48min",
     "expiration": {
@@ -2022,13 +1912,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "the-two-faces-of-january",
     "titre": "The Two Faces of January",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 14, N° 5",
     "annee": 2014,
@@ -2041,12 +1934,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/the-two-faces-of-january.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 37min",
     "expiration": {
@@ -2055,7 +1948,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm316702",
@@ -2076,11 +1972,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/41270737/s592/mon-garcon.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 27min",
@@ -2124,11 +2018,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/80381149/s592/otages-a-entebbe.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 46min",
@@ -2173,11 +2065,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/319969998/s592/les-lyonnais.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 42min",
@@ -2209,7 +2099,7 @@ const CATALOG_DATA = [
     "id": "la-proie",
     "titre": "La Proie",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 12, N° 6",
     "annee": 2011,
@@ -2222,12 +2112,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "assets/posters/la-proie.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 42min",
     "expiration": {
@@ -2236,7 +2126,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm163919",
@@ -2257,11 +2150,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/8953934/s592/la-taupe.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 07min",
@@ -2304,11 +2195,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/86674543/s592/volontaire.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 41min",
@@ -2351,11 +2240,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/344386218/s592/pour-elle.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 36min",
@@ -2400,11 +2287,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/9868431/s592/attack-the-block.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 28min",
@@ -2450,11 +2335,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/228978809/s592/les-apaches.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 40min",
@@ -2497,11 +2380,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/178770099/s592/gibraltar.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 56min",
@@ -2545,11 +2426,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/97749140/s592/robocop-2014.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 01min",
@@ -2594,11 +2473,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/10615263/s592/rocky-balboa.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 42min",
@@ -2627,7 +2504,7 @@ const CATALOG_DATA = [
     "id": "the-machinist",
     "titre": "The Machinist",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 8, N° 2",
     "annee": 2004,
@@ -2640,12 +2517,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "assets/posters/the-machinist.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 42min",
     "expiration": {
@@ -2654,7 +2531,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm24554",
@@ -2675,11 +2555,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/319585102/s592/la-raison-du-plus-faible.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 56min",
@@ -2711,8 +2589,6 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ Festival",
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "section": "Films",
@@ -2729,8 +2605,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/89601771/s592/hors-la-loi.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 13min",
@@ -2775,11 +2649,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/311632362/s592/aux-yeux-de-tous.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 20min",
@@ -2822,11 +2694,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/76879226/s592/mr-73.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 05min",
@@ -2871,11 +2741,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/321844476/s592/destination-finale-5.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 31min",
@@ -2904,7 +2772,7 @@ const CATALOG_DATA = [
     "id": "l-avocat",
     "titre": "L'Avocat",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 12, N° 5",
     "annee": 2011,
@@ -2917,12 +2785,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/l-avocat.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 42min",
     "expiration": {
@@ -2931,7 +2799,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm145426",
@@ -2952,11 +2823,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/178567683/s592/96-heures.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 36min",
@@ -2984,7 +2853,7 @@ const CATALOG_DATA = [
     "id": "fight-club",
     "titre": "Fight Club",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 14, N° 4",
     "annee": 1999,
@@ -2997,12 +2866,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": false,
     "poster": "assets/posters/fight-club.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 19min",
     "expiration": {
@@ -3011,13 +2880,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "man-on-fire",
     "titre": "Man on Fire",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 4, N° 1",
     "annee": 2004,
@@ -3030,12 +2902,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": false,
     "poster": "assets/posters/man-on-fire.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 26min",
     "expiration": {
@@ -3044,7 +2916,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm164082",
@@ -3065,11 +2940,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/171158418/s592/le-moine.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 41min",
@@ -3098,7 +2971,7 @@ const CATALOG_DATA = [
     "id": "les-rivieres-pourpres",
     "titre": "Les Rivières pourpres",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 7, N° 3",
     "annee": 2000,
@@ -3111,12 +2984,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": false,
     "poster": "assets/posters/les-rivieres-pourpres.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 45min",
     "expiration": {
@@ -3125,13 +2998,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "le-pacte-des-loups",
     "titre": "Le Pacte des loups",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 1, N° 5",
     "annee": 2001,
@@ -3144,12 +3020,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": false,
     "poster": "assets/posters/le-pacte-des-loups.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 31min",
     "expiration": {
@@ -3158,13 +3034,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "la-fleur-du-mal",
     "titre": "La Fleur du mal",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 15, N° 2",
     "annee": 2003,
@@ -3177,12 +3056,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/la-fleur-du-mal.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 44min",
     "expiration": {
@@ -3191,13 +3070,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "destination-finale-3",
     "titre": "Destination finale 3",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 6, N° 1",
     "annee": 2006,
@@ -3210,12 +3092,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": false,
     "poster": "assets/posters/destination-finale-3.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 33min",
     "expiration": {
@@ -3224,13 +3106,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "destination-finale",
     "titre": "Destination finale",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 4, N° 4",
     "annee": 2000,
@@ -3243,12 +3128,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": false,
     "poster": "assets/posters/destination-finale.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 38min",
     "expiration": {
@@ -3257,13 +3142,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "destination-finale-2",
     "titre": "Destination finale 2",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 5, N° 1",
     "annee": 2003,
@@ -3276,12 +3164,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": false,
     "poster": "assets/posters/destination-finale-2.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 30min",
     "expiration": {
@@ -3290,13 +3178,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "l-empire-des-loups",
     "titre": "L'Empire des loups",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 5, N° 4",
     "annee": 2005,
@@ -3309,12 +3200,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": false,
     "poster": "assets/posters/l-empire-des-loups.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 08min",
     "expiration": {
@@ -3323,13 +3214,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "open-water-en-eaux-profondes",
     "titre": "Open Water : En eaux profondes",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 9, N° 5",
     "annee": 2003,
@@ -3342,12 +3236,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": false,
     "poster": "assets/posters/open-water-en-eaux-profondes.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 20min",
     "expiration": {
@@ -3356,13 +3250,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "s1m0ne",
     "titre": "S1m0ne",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 5, N° 3",
     "annee": 2002,
@@ -3375,12 +3272,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/s1m0ne.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 55min",
     "expiration": {
@@ -3389,13 +3286,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "destination-finale-4",
     "titre": "Destination finale 4",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 1, N° 3",
     "annee": 2009,
@@ -3408,12 +3308,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": false,
     "poster": "assets/posters/destination-finale-4.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 21min",
     "expiration": {
@@ -3422,13 +3322,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "l-arme-fatale-4",
     "titre": "L'Arme fatale 4",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 2, N° 2",
     "annee": 1998,
@@ -3441,12 +3344,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": false,
     "poster": "assets/posters/l-arme-fatale-4.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 07min",
     "expiration": {
@@ -3455,13 +3358,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "terminator",
     "titre": "Terminator",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 3, N° 6",
     "annee": 1984,
@@ -3474,12 +3380,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": false,
     "poster": "assets/posters/terminator.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 48min",
     "expiration": {
@@ -3488,13 +3394,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "basic-instinct",
     "titre": "Basic Instinct",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 3, N° 1",
     "annee": 1992,
@@ -3507,12 +3416,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": false,
     "poster": "assets/posters/basic-instinct.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 10min",
     "expiration": {
@@ -3521,13 +3430,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "l-arme-fatale",
     "titre": "L'Arme fatale",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 3, N° 5",
     "annee": 1987,
@@ -3540,12 +3452,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": false,
     "poster": "assets/posters/l-arme-fatale.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 49min",
     "expiration": {
@@ -3554,13 +3466,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "l-arme-fatale-2",
     "titre": "L'Arme fatale 2",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 2, N° 4",
     "annee": 1989,
@@ -3573,12 +3488,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": false,
     "poster": "assets/posters/l-arme-fatale-2.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 54min",
     "expiration": {
@@ -3587,13 +3502,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "l-arme-fatale-3",
     "titre": "L'Arme fatale 3",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 1, N° 6",
     "annee": 1992,
@@ -3606,12 +3524,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": false,
     "poster": "assets/posters/l-arme-fatale-3.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 58min",
     "expiration": {
@@ -3620,13 +3538,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "copycat",
     "titre": "Copycat",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 3, N° 4",
     "annee": 1995,
@@ -3639,12 +3560,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": false,
     "poster": "assets/posters/copycat.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 04min",
     "expiration": {
@@ -3653,13 +3574,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "2001-l-odyssee-de-lespace",
     "titre": "2001 : L'Odyssée de l'espace",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 6, N° 4",
     "annee": 1968,
@@ -3672,12 +3596,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/2001-l-odyssee-de-lespace.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 36min",
     "expiration": {
@@ -3686,13 +3610,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "rocky",
     "titre": "Rocky",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 5, N° 5",
     "annee": 1976,
@@ -3705,12 +3632,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/rocky.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 59min",
     "expiration": {
@@ -3719,13 +3646,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "rocky-iv",
     "titre": "Rocky IV",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 3, N° 3",
     "annee": 1985,
@@ -3738,12 +3668,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/rocky-iv.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 31min",
     "expiration": {
@@ -3752,13 +3682,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "rocky-ii",
     "titre": "Rocky II",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 6, N° 2",
     "annee": 1979,
@@ -3771,12 +3704,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/rocky-ii.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 59min",
     "expiration": {
@@ -3785,13 +3718,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "rocky-iii",
     "titre": "Rocky III",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 4, N° 2",
     "annee": 1982,
@@ -3804,12 +3740,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/rocky-iii.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 39min",
     "expiration": {
@@ -3818,13 +3754,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "running-man",
     "titre": "Running Man",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 1, N° 2",
     "annee": 1987,
@@ -3837,12 +3776,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": false,
     "poster": "assets/posters/running-man.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 41min",
     "expiration": {
@@ -3851,13 +3790,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "rocky-v",
     "titre": "Rocky V",
     "type": "film",
-    "chaine": "Ciné+ Frisson",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ligne 5, N° 6",
     "annee": 1990,
@@ -3870,12 +3812,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/rocky-v.jpg",
-    "logo_chaine": "assets/logos/cine_frisson.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Frisson"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_frisson.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 44min",
     "expiration": {
@@ -3884,7 +3826,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1472286",
@@ -3905,11 +3850,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/316628398/s592/vingt-dieux-2025.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 32min",
@@ -3937,10 +3880,9 @@ const CATALOG_DATA = [
     "id": "lattachement",
     "titre": "L'Attachement",
     "type": "film",
-    "chaine": "Ciné+ Emotion & OCS",
+    "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ Emotion",
-      "OCS"
+      "Ciné+ OCS"
     ],
     "section": "Films",
     "position": "Films • Ciné+ Emotion & OCS",
@@ -3954,10 +3896,9 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/poster_ocs_lattachement.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 46min",
     "expiration": {
@@ -3966,7 +3907,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1406900",
@@ -3987,11 +3931,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/322412164/s592/we-live-in-time.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 48min",
@@ -4019,10 +3961,9 @@ const CATALOG_DATA = [
     "id": "bicyclette",
     "titre": "À bicyclette !",
     "type": "film",
-    "chaine": "Ciné+ Emotion & OCS",
+    "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ Emotion",
-      "OCS"
+      "Ciné+ OCS"
     ],
     "section": "Films",
     "position": "Films • Ciné+ Emotion & OCS",
@@ -4036,10 +3977,9 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/poster_ocs_a_bicyclette.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 30min",
     "expiration": {
@@ -4048,7 +3988,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1515245",
@@ -4069,11 +4012,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/321857791/s592/mon-inseparable.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 34min",
@@ -4115,11 +4056,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/333582063/s592/reading-lolita-in-tehran.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 47min",
@@ -4146,7 +4085,7 @@ const CATALOG_DATA = [
     "id": "jane-austen-a-gache-ma-vie",
     "titre": "Jane Austen a gâché ma vie",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2024,
@@ -4159,12 +4098,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/jane-austen-a-gache-ma-vie.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 38min",
     "expiration": {
@@ -4173,7 +4112,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1471440",
@@ -4181,8 +4123,6 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ Emotion",
-      "OCS",
       "Ciné+ OCS"
     ],
     "section": "Films",
@@ -4199,8 +4139,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/326069373/s592/bridget-jones-mad-about-the-boy.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 04min",
@@ -4244,11 +4182,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/341550852/s592/sarah-bernhardt-la-divine.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 38min",
@@ -4276,10 +4212,9 @@ const CATALOG_DATA = [
     "id": "onira",
     "titre": "On ira",
     "type": "film",
-    "chaine": "Ciné+ Emotion & OCS",
+    "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ Emotion",
-      "OCS"
+      "Ciné+ OCS"
     ],
     "section": "Films",
     "position": "Films • Ciné+ Emotion & OCS",
@@ -4293,10 +4228,9 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/poster_ocs_on_ira.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 37min",
     "expiration": {
@@ -4305,7 +4239,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm897852",
@@ -4326,11 +4263,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/206849944/s592/les-choses-quon-dit-les-choses-quon-fait.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 02min",
@@ -4360,10 +4295,9 @@ const CATALOG_DATA = [
     "id": "lapetitecuisine",
     "titre": "La Petite Cuisine de Mehdi",
     "type": "film",
-    "chaine": "Ciné+ Emotion & OCS",
+    "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ Emotion",
-      "OCS"
+      "Ciné+ OCS"
     ],
     "section": "Films",
     "position": "Films • Ciné+ Emotion & OCS",
@@ -4377,10 +4311,9 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/poster_ocs_la_petite_cuisine_de_mehdi.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 44min",
     "expiration": {
@@ -4389,13 +4322,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "la-fille-dun-grand-amour",
     "titre": "La Fille d'un grand amour",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2024,
@@ -4408,12 +4344,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/la-fille-dun-grand-amour.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 34min",
     "expiration": {
@@ -4422,13 +4358,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "patients",
     "titre": "Patients",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2017,
@@ -4441,12 +4380,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/patients.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 50min",
     "expiration": {
@@ -4455,7 +4394,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm244376",
@@ -4476,11 +4418,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/40696204/s592/moi-tonya.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 00min",
@@ -4524,11 +4464,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/104804577/s592/mademoiselle-de-joncquieres.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 50min",
@@ -4559,8 +4497,6 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ Emotion",
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "section": "Films",
@@ -4577,8 +4513,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/164747559/s592/la-vie-scolaire.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 51min",
@@ -4623,11 +4557,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/85716850/s592/en-liberte.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 48min",
@@ -4661,8 +4593,6 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ Emotion",
-      "OCS",
       "Ciné+ OCS"
     ],
     "section": "Films",
@@ -4679,8 +4609,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/300545917/s592/la-beaute-du-geste-2021.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 36min",
@@ -4723,11 +4651,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/324980358/s592/jamais-sans-mon-psy-2024-0.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 31min",
@@ -4770,11 +4696,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/241918459/s592/les-combattants.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 38min",
@@ -4819,11 +4743,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/97549675/s592/colette.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 51min",
@@ -4868,11 +4790,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/238705545/s592/la-belle-saison.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 45min",
@@ -4916,11 +4836,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/309857689/s592/lhermine.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 38min",
@@ -4951,7 +4869,7 @@ const CATALOG_DATA = [
     "id": "love-friendship",
     "titre": "Love & Friendship",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2016,
@@ -4964,12 +4882,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/love-friendship.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 32min",
     "expiration": {
@@ -4978,7 +4896,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm430255",
@@ -4999,11 +4920,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/103602301/s592/lhomme-fidele.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 15min",
@@ -5048,11 +4967,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/141565891/s592/la-lutte-des-classes.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 43min",
@@ -5097,11 +5014,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/302625186/s592/happiness-therapy.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 02min",
@@ -5145,11 +5060,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/148924868/s592/jirai-ou-tu-iras.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 40min",
@@ -5193,11 +5106,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/144025584/s592/en-mai-fais-ce-quil-te-plait.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 54min",
@@ -5241,11 +5152,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/253517486/s592/le-stratege.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 13min",
@@ -5288,11 +5197,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/297036135/s592/alceste-a-bicyclette.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 44min",
@@ -5336,11 +5243,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/28160621/s592/les-noces-rebelles.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 59min",
@@ -5383,11 +5288,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/207486417/s592/tout-ce-qui-brille.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 40min",
@@ -5430,11 +5333,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/122497045/s592/poulet-aux-prunes.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 32min",
@@ -5478,11 +5379,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/178533532/s592/last-days-of-summer.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 51min",
@@ -5527,11 +5426,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/169409109/s592/la-ritournelle.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 38min",
@@ -5561,7 +5458,7 @@ const CATALOG_DATA = [
     "id": "orgueil-prejuges",
     "titre": "Orgueil & Préjugés",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2005,
@@ -5574,12 +5471,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/orgueil-prejuges.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 07min",
     "expiration": {
@@ -5588,7 +5485,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm162516",
@@ -5609,11 +5509,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/8657946/s592/my-week-with-marilyn.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 39min",
@@ -5656,11 +5554,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/169553372/s592/les-saveurs-du-palais.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 34min",
@@ -5689,7 +5585,7 @@ const CATALOG_DATA = [
     "id": "perfect-mothers",
     "titre": "Perfect Mothers",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2013,
@@ -5702,12 +5598,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/perfect-mothers.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 51min",
     "expiration": {
@@ -5716,7 +5612,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm155722",
@@ -5737,11 +5636,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/243626694/s592/gemma-bovery.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 39min",
@@ -5786,11 +5683,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/147575099/s592/beaux-parents.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 23min",
@@ -5833,11 +5728,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/90391925/s592/reviens-moi.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 03min",
@@ -5866,7 +5759,7 @@ const CATALOG_DATA = [
     "id": "belles-familles",
     "titre": "Belles Familles",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2015,
@@ -5879,12 +5772,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/belles-familles.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 53min",
     "expiration": {
@@ -5893,7 +5786,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm358369",
@@ -5914,11 +5810,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/56321599/s592/la-fete-des-meres.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 41min",
@@ -5962,11 +5856,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/175287463/s592/lost-in-translation.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 42min",
@@ -5996,7 +5888,7 @@ const CATALOG_DATA = [
     "id": "twilight-chapitre-5-revelation-2e-partie",
     "titre": "Twilight, chapitre 5 : Révélation, 2e partie",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2012,
@@ -6009,12 +5901,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/twilight-chapitre-5-revelation-2e-partie.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 55min",
     "expiration": {
@@ -6023,7 +5915,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm159310",
@@ -6044,11 +5939,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/175485381/s592/coach-carter.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 16min",
@@ -6092,11 +5985,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/205711538/s592/hors-du-temps.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 47min",
@@ -6142,11 +6033,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/203443343/s592/coup-de-foudre-a-austenland.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 37min",
@@ -6174,7 +6063,7 @@ const CATALOG_DATA = [
     "id": "je-ne-vois-que-toi",
     "titre": "Je ne vois que toi",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2016,
@@ -6187,12 +6076,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "assets/posters/je-ne-vois-que-toi.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 49min",
     "expiration": {
@@ -6201,13 +6090,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "prete-moi-ta-main",
     "titre": "Prête-moi ta main",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2006,
@@ -6220,12 +6112,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/prete-moi-ta-main.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 30min",
     "expiration": {
@@ -6234,7 +6126,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm79793",
@@ -6255,11 +6150,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/312152833/s592/jane.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 00min",
@@ -6303,11 +6196,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/309931943/s592/fauteuils-dorchestre.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 46min",
@@ -6337,7 +6228,7 @@ const CATALOG_DATA = [
     "id": "lol-laughing-out-loud",
     "titre": "LOL (Laughing Out Loud)",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2008,
@@ -6350,12 +6241,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/lol-laughing-out-loud.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 47min",
     "expiration": {
@@ -6364,13 +6255,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "twilight-chapitre-1-fascination",
     "titre": "Twilight, chapitre 1 : Fascination",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2008,
@@ -6383,12 +6277,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/twilight-chapitre-1-fascination.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 02min",
     "expiration": {
@@ -6397,7 +6291,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm134258",
@@ -6418,11 +6315,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/179478830/s592/non-ma-fille-tu-niras-pas-danser.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 45min",
@@ -6466,11 +6361,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/317440422/s592/damour-et-deau-fraiche.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 25min",
@@ -6514,11 +6407,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/341794252/s592/last-night.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 33min",
@@ -6547,7 +6438,7 @@ const CATALOG_DATA = [
     "id": "twilight-chapitre-3-hesitation",
     "titre": "Twilight, chapitre 3 : Hésitation",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2010,
@@ -6560,12 +6451,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/twilight-chapitre-3-hesitation.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 04min",
     "expiration": {
@@ -6574,13 +6465,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "twilight-chapitre-4-revelation-1re-partie",
     "titre": "Twilight, chapitre 4 : Révélation, 1re partie",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2011,
@@ -6593,12 +6487,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/twilight-chapitre-4-revelation-1re-partie.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 52min",
     "expiration": {
@@ -6607,7 +6501,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm70640",
@@ -6628,11 +6525,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/9641347/s592/lettre-ouverte-a-jane-austen.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 46min",
@@ -6663,8 +6558,6 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ Emotion",
-      "OCS",
       "Ciné+ OCS"
     ],
     "section": "Films",
@@ -6681,8 +6574,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/332310461/s592/la-vie-devant-moi-2025.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 33min",
@@ -6711,7 +6602,7 @@ const CATALOG_DATA = [
     "id": "un-barrage-contre-le-pacifique",
     "titre": "Un barrage contre le Pacifique",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2008,
@@ -6724,12 +6615,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/un-barrage-contre-le-pacifique.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 55min",
     "expiration": {
@@ -6738,7 +6629,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm170404",
@@ -6759,11 +6653,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/322847355/s592/mon-pire-cauchemar.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 43min",
@@ -6793,7 +6685,7 @@ const CATALOG_DATA = [
     "id": "sex-therapy",
     "titre": "Sex Therapy",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2012,
@@ -6806,12 +6698,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/sex-therapy.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 52min",
     "expiration": {
@@ -6820,13 +6712,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "american-beauty",
     "titre": "American Beauty",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 1999,
@@ -6839,12 +6734,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": false,
     "poster": "assets/posters/american-beauty.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 02min",
     "expiration": {
@@ -6853,13 +6748,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "8-femmes",
     "titre": "8 Femmes",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2002,
@@ -6872,12 +6770,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": false,
     "poster": "assets/posters/8-femmes.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 43min",
     "expiration": {
@@ -6886,13 +6784,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jeux-denfants",
     "titre": "Jeux d'enfants",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2003,
@@ -6905,12 +6806,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": false,
     "poster": "assets/posters/jeux-denfants.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 33min",
     "expiration": {
@@ -6919,13 +6820,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "podium",
     "titre": "Podium",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2004,
@@ -6938,12 +6842,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/podium.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 35min",
     "expiration": {
@@ -6952,7 +6856,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm178233",
@@ -6973,11 +6880,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/238527386/s592/la-grande-boucle.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 38min",
@@ -7006,7 +6911,7 @@ const CATALOG_DATA = [
     "id": "pour-un-garcon",
     "titre": "Pour un garçon",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2002,
@@ -7019,12 +6924,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/pour-un-garcon.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 45min",
     "expiration": {
@@ -7033,13 +6938,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "twilight-chapitre-2-tentation",
     "titre": "Twilight, chapitre 2 : Tentation",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2009,
@@ -7052,12 +6960,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": false,
     "poster": "assets/posters/twilight-chapitre-2-tentation.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 11min",
     "expiration": {
@@ -7066,7 +6974,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm140773",
@@ -7087,11 +6998,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/262209434/s592/jusqua-toi.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 20min",
@@ -7120,7 +7029,7 @@ const CATALOG_DATA = [
     "id": "laissez-passer",
     "titre": "Laissez-passer",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2002,
@@ -7133,12 +7042,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/laissez-passer.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 45min",
     "expiration": {
@@ -7147,13 +7056,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "nos-enfants-cheris",
     "titre": "Nos enfants chéris",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2003,
@@ -7166,12 +7078,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/nos-enfants-cheris.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 26min",
     "expiration": {
@@ -7180,7 +7092,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm145156",
@@ -7201,11 +7116,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/180684119/s592/sex-tape.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 34min",
@@ -7233,7 +7146,7 @@ const CATALOG_DATA = [
     "id": "les-vestiges-du-jour",
     "titre": "Les Vestiges du jour",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 1993,
@@ -7246,12 +7159,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/les-vestiges-du-jour.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 08min",
     "expiration": {
@@ -7260,13 +7173,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "raison-et-sentiments",
     "titre": "Raison et sentiments",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 1995,
@@ -7279,12 +7195,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/raison-et-sentiments.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 16min",
     "expiration": {
@@ -7293,13 +7209,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "mansfield-park",
     "titre": "Mansfield Park",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 1999,
@@ -7312,12 +7231,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/mansfield-park.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 52min",
     "expiration": {
@@ -7326,13 +7245,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "le-prix-a-payer",
     "titre": "Le Prix à payer",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2007,
@@ -7345,12 +7267,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/le-prix-a-payer.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 35min",
     "expiration": {
@@ -7359,13 +7281,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "4-mariages-et-1-enterrement",
     "titre": "4 Mariages et 1 enterrement",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 1994,
@@ -7378,12 +7303,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/4-mariages-et-1-enterrement.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 57min",
     "expiration": {
@@ -7392,13 +7317,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "la-reine-margot",
     "titre": "La Reine Margot",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 1994,
@@ -7411,12 +7339,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": false,
     "poster": "assets/posters/la-reine-margot.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 38min",
     "expiration": {
@@ -7425,13 +7353,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "l-amour-sans-preavis",
     "titre": "L'Amour sans préavis",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2002,
@@ -7444,12 +7375,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/l-amour-sans-preavis.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 41min",
     "expiration": {
@@ -7458,13 +7389,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "emma",
     "titre": "Emma",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 1996,
@@ -7477,12 +7411,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/emma.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 01min",
     "expiration": {
@@ -7491,13 +7425,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "demain-on-se-marie",
     "titre": "Demain on se marie",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 1998,
@@ -7510,12 +7447,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/demain-on-se-marie.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 35min",
     "expiration": {
@@ -7524,13 +7461,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "les-remplacants",
     "titre": "Les Remplaçants",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2000,
@@ -7543,12 +7483,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/les-remplacants.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 58min",
     "expiration": {
@@ -7557,13 +7497,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "quand-harry-rencontre-sally",
     "titre": "Quand Harry rencontre Sally",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 1989,
@@ -7576,12 +7519,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/quand-harry-rencontre-sally.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 36min",
     "expiration": {
@@ -7590,13 +7533,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "un-vent-de-folie",
     "titre": "Un vent de folie",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 1999,
@@ -7609,12 +7555,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/un-vent-de-folie.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 45min",
     "expiration": {
@@ -7623,13 +7569,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "barnie-et-ses-petites-contrarietes",
     "titre": "Barnie et ses petites contrariétés",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2001,
@@ -7642,12 +7591,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": false,
     "poster": "assets/posters/barnie-et-ses-petites-contrarietes.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 25min",
     "expiration": {
@@ -7656,13 +7605,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "la-crise",
     "titre": "La Crise",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 1992,
@@ -7675,12 +7627,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/la-crise.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 35min",
     "expiration": {
@@ -7689,13 +7641,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "un-automne-a-new-york",
     "titre": "Un automne à New York",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2000,
@@ -7708,12 +7663,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/un-automne-a-new-york.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 37min",
     "expiration": {
@@ -7722,13 +7677,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "40-jours-et-40-nuits",
     "titre": "40 jours et 40 nuits",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 2002,
@@ -7741,12 +7699,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": false,
     "poster": "assets/posters/40-jours-et-40-nuits.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 36min",
     "expiration": {
@@ -7755,13 +7713,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "valmont",
     "titre": "Valmont",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 1989,
@@ -7774,12 +7735,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/valmont.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 17min",
     "expiration": {
@@ -7788,13 +7749,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "rendez-vous-au-paradis",
     "titre": "Rendez-vous au paradis",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 1991,
@@ -7807,12 +7771,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/rendez-vous-au-paradis.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 51min",
     "expiration": {
@@ -7821,13 +7785,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "maurice",
     "titre": "Maurice",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 1987,
@@ -7840,12 +7807,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": false,
     "poster": "assets/posters/maurice.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 20min",
     "expiration": {
@@ -7854,13 +7821,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "officier-et-gentleman",
     "titre": "Officier et Gentleman",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 1982,
@@ -7873,12 +7843,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": false,
     "poster": "assets/posters/officier-et-gentleman.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 04min",
     "expiration": {
@@ -7887,13 +7857,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "risky-business",
     "titre": "Risky Business",
     "type": "film",
-    "chaine": "Ciné+ Emotion",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Emotion",
     "annee": 1983,
@@ -7906,12 +7879,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/risky-business.jpg",
-    "logo_chaine": "assets/logos/cine_emotion.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Emotion"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_emotion.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 38min",
     "expiration": {
@@ -7920,16 +7893,18 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "lepanache",
     "titre": "Le Panache",
     "type": "film",
-    "chaine": "Ciné+ Family & OCS",
+    "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ Family",
-      "OCS"
+      "Ciné+ OCS"
     ],
     "section": "Films",
     "position": "Films • Ciné+ Family & OCS",
@@ -7943,10 +7918,9 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/poster_ocs_le_panache.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_family.png",
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 33min",
     "expiration": {
@@ -7955,13 +7929,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "le-secret-des-mesanges",
     "titre": "Le Secret des mésanges",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2024,
@@ -7974,12 +7951,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/le-secret-des-mesanges.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 16min",
     "expiration": {
@@ -7988,7 +7965,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1425480",
@@ -8009,11 +7989,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/325960528/s592/mlle-bottine.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 51min",
@@ -8043,7 +8021,7 @@ const CATALOG_DATA = [
     "id": "une-nuit-au-zoo",
     "titre": "Une nuit au zoo",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2024,
@@ -8056,12 +8034,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/une-nuit-au-zoo.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 31min",
     "expiration": {
@@ -8070,7 +8048,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1143503",
@@ -8091,11 +8072,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/283916550/s592/les-vedettes.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 41min",
@@ -8137,11 +8116,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/336789444/s592/monster-summer-2024.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 37min",
@@ -8184,11 +8161,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/345984364/s592/super-charlie.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 18min",
@@ -8219,7 +8194,7 @@ const CATALOG_DATA = [
     "id": "la-traversee-de-madison",
     "titre": "La Course de Madison",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2021,
@@ -8232,12 +8207,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/la-traversee-de-madison.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 27min",
     "expiration": {
@@ -8246,7 +8221,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1537335",
@@ -8254,8 +8232,6 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ Family",
-      "OCS",
       "Ciné+ OCS"
     ],
     "section": "Films",
@@ -8272,8 +8248,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/321347938/s592/un-noel-en-famille-2024.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_family.png",
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 33min",
@@ -8316,11 +8290,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/66238857/s592/lecole-buissonniere.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 56min",
@@ -8366,11 +8338,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/87604228/s592/mia-et-le-lion-blanc.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 38min",
@@ -8414,11 +8384,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/256287060/s592/mon-pere-est-une-saucisse.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 20min",
@@ -8462,11 +8430,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/311496406/s592/the-railway-children-return.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 38min",
@@ -8509,11 +8475,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/302406451/s592/lyle-lyle-crocodile.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 46min",
@@ -8559,11 +8523,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/346442010/s592/le-brigand-briquambroque.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 46min",
@@ -8594,7 +8556,7 @@ const CATALOG_DATA = [
     "id": "mes-racines-damour",
     "titre": "Mes racines d'amour",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2022,
@@ -8607,12 +8569,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/mes-racines-damour.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "24min",
     "expiration": {
@@ -8621,7 +8583,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1253009",
@@ -8642,11 +8607,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/301465080/s592/hotel-sinestra.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 25min",
@@ -8690,11 +8653,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/88180947/s592/microbe-et-gasoil.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 43min",
@@ -8739,11 +8700,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/168085179/s592/venise-nest-pas-en-italie.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 35min",
@@ -8773,7 +8732,7 @@ const CATALOG_DATA = [
     "id": "persepolis",
     "titre": "Persepolis",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2007,
@@ -8786,12 +8745,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/persepolis.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 35min",
     "expiration": {
@@ -8800,7 +8759,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm170890",
@@ -8821,11 +8783,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/249449471/s592/super-8.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 52min",
@@ -8869,11 +8829,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/186277383/s592/les-beaux-gosses.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 30min",
@@ -8903,7 +8861,7 @@ const CATALOG_DATA = [
     "id": "le-noel-magique-de-jill-et-joy-telefilm",
     "titre": "Le Noël magique de Jill et Joy",
     "type": "telefilm",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Téléfilms",
     "position": "Films — Ciné+ Family",
     "annee": 2015,
@@ -8916,12 +8874,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/le-noel-magique-de-jill-et-joy.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 21min",
     "expiration": {
@@ -8930,7 +8888,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm145303",
@@ -8951,11 +8912,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/240950794/s592/bliss.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 51min",
@@ -8985,8 +8944,6 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ Family",
-      "SCIFI",
       "Ciné+ OCS",
       "Universal+"
     ],
@@ -9004,8 +8961,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/176292918/s592/albator-corsaire-de-lespace.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_family.png",
-      "assets/logos/scifi.png",
       "assets/logos/cine_ocs.svg",
       "assets/logos/universal_plus.svg"
     ],
@@ -9053,11 +9008,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/324950790/s592/les-gamins.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 35min",
@@ -9101,11 +9054,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/261001423/s592/adventureland-un-job-dete-a-eviter.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 47min",
@@ -9149,11 +9100,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/250584605/s592/s-o-s-fantomes-3.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 56min",
@@ -9183,7 +9132,7 @@ const CATALOG_DATA = [
     "id": "drole-de-prof-4",
     "titre": "Drôle de prof 4",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2016,
@@ -9196,12 +9145,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/drole-de-prof-4.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 15min",
     "expiration": {
@@ -9210,13 +9159,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "the-karate-kid",
     "titre": "The Karate Kid",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2010,
@@ -9229,12 +9181,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/the-karate-kid.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 19min",
     "expiration": {
@@ -9243,13 +9195,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "drole-de-prof-telefilm",
     "titre": "Drôle de prof !",
     "type": "telefilm",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Téléfilms",
     "position": "Films — Ciné+ Family",
     "annee": 2012,
@@ -9262,12 +9217,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/drole-de-prof.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 21min",
     "expiration": {
@@ -9276,13 +9231,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "drole-de-prof-2-au-camping-telefilm",
     "titre": "Drôle de prof 2 : Au camping",
     "type": "telefilm",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Téléfilms",
     "position": "Films — Ciné+ Family",
     "annee": 2013,
@@ -9295,12 +9253,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/drole-de-prof-2-au-camping.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 21min",
     "expiration": {
@@ -9309,13 +9267,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "drole-de-prof-3-sur-les-planches-telefilm",
     "titre": "Drôle de prof 3 : Sur les planches",
     "type": "telefilm",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Téléfilms",
     "position": "Films — Ciné+ Family",
     "annee": 2014,
@@ -9328,12 +9289,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/drole-de-prof-3-sur-les-planches.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 20min",
     "expiration": {
@@ -9342,7 +9303,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm152243",
@@ -9363,11 +9327,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/322107955/s592/du-goudron-et-des-plumes.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 32min",
@@ -9412,11 +9374,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/52194722/s592/fatal.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 35min",
@@ -9445,7 +9405,7 @@ const CATALOG_DATA = [
     "id": "neuilly-sa-mere",
     "titre": "Neuilly sa mère !",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2009,
@@ -9458,12 +9418,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/neuilly-sa-mere.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 30min",
     "expiration": {
@@ -9472,13 +9432,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "billy-elliot",
     "titre": "Billy Elliot",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2000,
@@ -9491,12 +9454,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/billy-elliot.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 50min",
     "expiration": {
@@ -9505,13 +9468,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "chicken-run",
     "titre": "Chicken Run",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2000,
@@ -9524,12 +9490,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/chicken-run.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 25min",
     "expiration": {
@@ -9538,7 +9504,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm129774",
@@ -9559,11 +9528,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/249930336/s592/school-of-rock.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 50min",
@@ -9593,7 +9560,7 @@ const CATALOG_DATA = [
     "id": "penelope",
     "titre": "Penelope",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2006,
@@ -9606,12 +9573,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/penelope.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 41min",
     "expiration": {
@@ -9620,7 +9587,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm87478",
@@ -9641,11 +9611,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/265089184/s592/la-machine-a-demonter-le-temps.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 40min",
@@ -9688,11 +9656,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/244238031/s592/the-spongebob-squarepants-movie.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 27min",
@@ -9723,7 +9689,7 @@ const CATALOG_DATA = [
     "id": "associes-contre-le-crime",
     "titre": "Associés contre le crime...",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2012,
@@ -9736,12 +9702,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/associes-contre-le-crime.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 44min",
     "expiration": {
@@ -9750,7 +9716,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm78919",
@@ -9771,11 +9740,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/151403553/s592/les-vacances-de-mr-bean.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 30min",
@@ -9804,7 +9771,7 @@ const CATALOG_DATA = [
     "id": "rush-hour-3",
     "titre": "Rush Hour 3",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2007,
@@ -9817,12 +9784,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": false,
     "poster": "assets/posters/rush-hour-3.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 31min",
     "expiration": {
@@ -9831,13 +9798,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "les-gorilles",
     "titre": "Les Gorilles",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2015,
@@ -9850,12 +9820,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": false,
     "poster": "assets/posters/les-gorilles.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 21min",
     "expiration": {
@@ -9864,13 +9834,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "rush-hour",
     "titre": "Rush Hour",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 1998,
@@ -9883,12 +9856,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": false,
     "poster": "assets/posters/rush-hour.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 35min",
     "expiration": {
@@ -9897,13 +9870,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "rush-hour-2",
     "titre": "Rush Hour 2",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2001,
@@ -9916,12 +9892,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": false,
     "poster": "assets/posters/rush-hour-2.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 30min",
     "expiration": {
@@ -9930,13 +9906,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "barbershop",
     "titre": "Barbershop",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2002,
@@ -9949,12 +9928,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/barbershop.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 42min",
     "expiration": {
@@ -9963,13 +9942,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "barbershop-2",
     "titre": "Barbershop 2",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2004,
@@ -9982,12 +9964,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/barbershop-2.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 46min",
     "expiration": {
@@ -9996,13 +9978,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "le-pere-noel-est-une-ordure",
     "titre": "Le père Noël est une ordure",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 1982,
@@ -10015,12 +10000,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/le-pere-noel-est-une-ordure.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 30min",
     "expiration": {
@@ -10029,13 +10014,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "le-ballon-dor",
     "titre": "Le Ballon d'or",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 1994,
@@ -10048,12 +10036,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/le-ballon-dor.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 30min",
     "expiration": {
@@ -10062,13 +10050,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "papy-fait-de-la-resistance",
     "titre": "Papy fait de la résistance",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 1983,
@@ -10081,12 +10072,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/papy-fait-de-la-resistance.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 45min",
     "expiration": {
@@ -10095,13 +10086,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "l-operation-corned-beef",
     "titre": "L'Opération Corned-Beef",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 1991,
@@ -10114,12 +10108,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/l-operation-corned-beef.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 45min",
     "expiration": {
@@ -10128,13 +10122,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "le-prince-nezha-triomphe-du-roi-dragon",
     "titre": "Le Prince Nezha triomphe du roi Dragon",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 1979,
@@ -10147,12 +10144,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/le-prince-nezha-triomphe-du-roi-dragon.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "58min",
     "expiration": {
@@ -10161,13 +10158,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "la-soif-de-lor",
     "titre": "La Soif de l'or",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 1993,
@@ -10180,12 +10180,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/la-soif-de-lor.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 26min",
     "expiration": {
@@ -10194,13 +10194,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "absolument-fabuleux",
     "titre": "Absolument fabuleux",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2001,
@@ -10213,12 +10216,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/absolument-fabuleux.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 45min",
     "expiration": {
@@ -10227,13 +10230,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "hibernatus",
     "titre": "Hibernatus",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 1969,
@@ -10246,12 +10252,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/hibernatus.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 18min",
     "expiration": {
@@ -10260,13 +10266,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "l-avare",
     "titre": "L'Avare",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 1980,
@@ -10279,12 +10288,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/l-avare.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 05min",
     "expiration": {
@@ -10293,13 +10302,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "l-enfant-sacre-du-tibet",
     "titre": "L'Enfant sacré du Tibet",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 1986,
@@ -10312,12 +10324,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/l-enfant-sacre-du-tibet.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 30min",
     "expiration": {
@@ -10326,13 +10338,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "les-enfants-du-chemin-de-fer",
     "titre": "Les Enfants du chemin de fer",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 1970,
@@ -10345,12 +10360,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/les-enfants-du-chemin-de-fer.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 44min",
     "expiration": {
@@ -10359,7 +10374,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1515031",
@@ -10367,8 +10385,6 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ Festival",
-      "OCS",
       "Ciné+ OCS"
     ],
     "section": "Films",
@@ -10385,8 +10401,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/324394171/s592/je-suis-encore-la.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 18min",
@@ -10414,7 +10428,7 @@ const CATALOG_DATA = [
     "id": "la-plus-precieuse-des-marchandises",
     "titre": "La Plus Précieuse des marchandises",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -10427,12 +10441,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/la-plus-precieuse-des-marchandises.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 21min",
     "expiration": {
@@ -10441,13 +10455,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jouer-avec-le-feu",
     "titre": "Jouer avec le feu",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -10460,12 +10477,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/jouer-avec-le-feu.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 58min",
     "expiration": {
@@ -10474,7 +10491,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1471341",
@@ -10495,11 +10515,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/330620650/s592/bird-2024.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 59min",
@@ -10526,7 +10544,7 @@ const CATALOG_DATA = [
     "id": "black-dog",
     "titre": "Black Dog",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -10539,12 +10557,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/black-dog.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 50min",
     "expiration": {
@@ -10553,7 +10571,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1472770",
@@ -10574,11 +10595,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/346166884/s592/everybody-loves-touda.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 42min",
@@ -10621,11 +10640,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/332560527/s592/slow.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 43min",
@@ -10668,11 +10685,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/334612862/s592/lettres-siciliennes.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 02min",
@@ -10701,7 +10716,7 @@ const CATALOG_DATA = [
     "id": "toxic",
     "titre": "Toxic",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -10714,12 +10729,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "assets/posters/toxic.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 02min",
     "expiration": {
@@ -10728,13 +10743,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "marco-lenigme-dune-vie",
     "titre": "Marco, l'énigme d'une vie",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -10747,12 +10765,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/marco-lenigme-dune-vie.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 25min",
     "expiration": {
@@ -10761,13 +10779,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "diamant-brut",
     "titre": "Diamant brut",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -10780,12 +10801,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/diamant-brut.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 43min",
     "expiration": {
@@ -10794,7 +10815,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1425173",
@@ -10815,11 +10839,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/310404209/s592/comme-le-feu.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 35min",
@@ -10846,7 +10868,7 @@ const CATALOG_DATA = [
     "id": "simon-de-la-montana",
     "titre": "Simón de la montaña",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -10859,12 +10881,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/simon-de-la-montana.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 38min",
     "expiration": {
@@ -10873,7 +10895,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1545807",
@@ -10894,11 +10919,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/328368359/s592/marmaille.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 34min",
@@ -10940,11 +10963,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/321840594/s592/elskling.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 41min",
@@ -10972,7 +10993,7 @@ const CATALOG_DATA = [
     "id": "la-mer-au-loin",
     "titre": "La Mer au loin",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -10985,12 +11006,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/la-mer-au-loin.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 57min",
     "expiration": {
@@ -10999,13 +11020,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "hiver-a-sokcho",
     "titre": "Hiver à Sokcho",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11018,12 +11042,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/hiver-a-sokcho.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 44min",
     "expiration": {
@@ -11032,13 +11056,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "kontinental-25",
     "titre": "Kontinental '25",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2025,
@@ -11051,12 +11078,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/kontinental-25.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 49min",
     "expiration": {
@@ -11065,7 +11092,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1501132",
@@ -11086,11 +11116,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/340495752/s592/pierce.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 49min",
@@ -11119,7 +11147,7 @@ const CATALOG_DATA = [
     "id": "limonov-la-ballade",
     "titre": "Limonov, la ballade",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11132,12 +11160,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/limonov-la-ballade.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 18min",
     "expiration": {
@@ -11146,13 +11174,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "reves-amour-desir-partie-1",
     "titre": "Rêves, amour, désir (Partie 1)",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11165,12 +11196,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/reves-amour-desir-partie-1.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 58min",
     "expiration": {
@@ -11179,13 +11210,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "reves-amour-desir-partie-2",
     "titre": "Rêves, amour, désir (Partie 2)",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11198,12 +11232,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/reves-amour-desir-partie-2.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 59min",
     "expiration": {
@@ -11212,13 +11246,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "mexico-86",
     "titre": "Mexico 86",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11231,12 +11268,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/mexico-86.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 33min",
     "expiration": {
@@ -11245,13 +11282,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "reves-amour-desir-partie-3",
     "titre": "Rêves, amour, désir (Partie 3)",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11264,12 +11304,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/reves-amour-desir-partie-3.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 50min",
     "expiration": {
@@ -11278,13 +11318,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "la-pie-voleuse",
     "titre": "La Pie voleuse",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11297,12 +11340,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/la-pie-voleuse.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 41min",
     "expiration": {
@@ -11311,13 +11354,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "les-tempetes",
     "titre": "Les Tempêtes",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11330,12 +11376,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/les-tempetes.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 24min",
     "expiration": {
@@ -11344,7 +11390,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1106609",
@@ -11365,11 +11414,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/345730708/s592/the-shameless.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 54min",
@@ -11398,7 +11445,7 @@ const CATALOG_DATA = [
     "id": "une-enfance-allemande",
     "titre": "Une enfance allemande",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11411,12 +11458,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/une-enfance-allemande.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 52min",
     "expiration": {
@@ -11425,13 +11472,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "lady-nazca",
     "titre": "Lady Nazca",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11444,12 +11494,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/lady-nazca.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 39min",
     "expiration": {
@@ -11458,13 +11508,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "la-lumiere-ne-meurt-jamais",
     "titre": "La lumière ne meurt jamais",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11477,12 +11530,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/la-lumiere-ne-meurt-jamais.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 48min",
     "expiration": {
@@ -11491,13 +11544,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "left-handed-girl",
     "titre": "Left-Handed Girl",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11510,12 +11566,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/left-handed-girl.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 48min",
     "expiration": {
@@ -11524,13 +11580,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "le-rire-et-le-couteau",
     "titre": "Le Rire et le couteau",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11543,12 +11602,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "assets/posters/le-rire-et-le-couteau.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "3h 31min",
     "expiration": {
@@ -11557,13 +11616,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "a-feu-doux",
     "titre": "À feu doux",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11576,12 +11638,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/a-feu-doux.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 30min",
     "expiration": {
@@ -11590,13 +11652,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "les-lumieres-de-new-york",
     "titre": "Les Lumières de New York",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11609,12 +11674,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/les-lumieres-de-new-york.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 43min",
     "expiration": {
@@ -11623,13 +11688,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "le-maitre-du-kabuki",
     "titre": "Le Maître du kabuki",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11642,12 +11710,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/le-maitre-du-kabuki.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 54min",
     "expiration": {
@@ -11656,13 +11724,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "l-amour-quil-nous-reste",
     "titre": "L'Amour qu'il nous reste",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11675,12 +11746,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/l-amour-quil-nous-reste.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 49min",
     "expiration": {
@@ -11689,7 +11760,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1515207",
@@ -11710,11 +11784,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/331989788/s592/il-tempo-che-ci-vuole.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 50min",
@@ -11741,7 +11813,7 @@ const CATALOG_DATA = [
     "id": "en-boucle",
     "titre": "En boucle",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11754,12 +11826,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/en-boucle.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 26min",
     "expiration": {
@@ -11768,13 +11840,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "les-regles-de-lart",
     "titre": "Les Règles de l'art",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11787,12 +11862,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/les-regles-de-lart.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 34min",
     "expiration": {
@@ -11801,13 +11876,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "l-aventura",
     "titre": "L'Aventura",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11820,12 +11898,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/l-aventura.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 40min",
     "expiration": {
@@ -11834,7 +11912,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1504526",
@@ -11855,11 +11936,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/345803953/s592/escape-from-the-21st-century.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 38min",
@@ -11889,7 +11968,7 @@ const CATALOG_DATA = [
     "id": "gangs-de-taiwan",
     "titre": "Găngs de Taïwan",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11902,12 +11981,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "assets/posters/gangs-de-taiwan.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 15min",
     "expiration": {
@@ -11916,13 +11995,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "un-poete",
     "titre": "Un poète",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11935,12 +12017,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/un-poete.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 00min",
     "expiration": {
@@ -11949,13 +12031,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "koute-vwa",
     "titre": "Kouté vwa",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -11968,12 +12053,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/koute-vwa.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 17min",
     "expiration": {
@@ -11982,13 +12067,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "cordes-sensibles",
     "titre": "Cordes sensibles",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -12001,12 +12089,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/cordes-sensibles.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "18min",
     "expiration": {
@@ -12015,7 +12103,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1470861",
@@ -12036,11 +12127,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/345489295/s592/the-astronaut-lovers.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 55min",
@@ -12084,11 +12173,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/268346919/s592/madres-paralelas.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 00min",
@@ -12115,7 +12202,7 @@ const CATALOG_DATA = [
     "id": "egoist",
     "titre": "Egoist",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2022,
@@ -12128,12 +12215,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/egoist.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 00min",
     "expiration": {
@@ -12142,13 +12229,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "chroniques-dhaifa",
     "titre": "Chroniques d'Haïfa",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2023,
@@ -12161,12 +12251,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/chroniques-dhaifa.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 04min",
     "expiration": {
@@ -12175,13 +12265,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "le-systeme-victoria",
     "titre": "Le Système Victoria",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -12194,12 +12287,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "assets/posters/le-systeme-victoria.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 41min",
     "expiration": {
@@ -12208,13 +12301,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "laurent-dans-le-vent",
     "titre": "Laurent dans le vent",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -12227,12 +12323,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/laurent-dans-le-vent.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 50min",
     "expiration": {
@@ -12241,13 +12337,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "amour-apocalypse",
     "titre": "Amour Apocalypse",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -12260,12 +12359,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/amour-apocalypse.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 40min",
     "expiration": {
@@ -12274,13 +12373,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "le-rendez-vous-de-lete",
     "titre": "Le Rendez-vous de l'été",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -12293,12 +12395,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/le-rendez-vous-de-lete.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 17min",
     "expiration": {
@@ -12307,13 +12409,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "yokai-le-monde-des-esprits",
     "titre": "Yokaï, le monde des esprits",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -12326,12 +12431,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/yokai-le-monde-des-esprits.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 45min",
     "expiration": {
@@ -12340,13 +12445,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "bonjour-lasile",
     "titre": "Bonjour l'asile",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -12359,12 +12467,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/bonjour-lasile.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 47min",
     "expiration": {
@@ -12373,13 +12481,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "miroirs-no-3",
     "titre": "Miroirs No. 3",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -12392,12 +12503,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/miroirs-no-3.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 26min",
     "expiration": {
@@ -12406,13 +12517,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "la-femme-qui-en-savait-trop",
     "titre": "La Femme qui en savait trop",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -12425,12 +12539,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/la-femme-qui-en-savait-trop.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 30min",
     "expiration": {
@@ -12439,13 +12553,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "woman-and-child",
     "titre": "Woman and Child",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -12458,12 +12575,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/woman-and-child.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 11min",
     "expiration": {
@@ -12472,13 +12589,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "le-fantome-utile",
     "titre": "Le Fantôme utile",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -12491,12 +12611,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/le-fantome-utile.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 10min",
     "expiration": {
@@ -12505,7 +12625,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1519016",
@@ -12526,11 +12649,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/330503534/s592/le-beau-role-2024.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 24min",
@@ -12558,7 +12679,7 @@ const CATALOG_DATA = [
     "id": "l-effacement",
     "titre": "L'Effacement",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -12571,12 +12692,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "assets/posters/l-effacement.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 33min",
     "expiration": {
@@ -12585,13 +12706,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "sorry-baby",
     "titre": "Sorry, Baby",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -12604,12 +12728,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/sorry-baby.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 44min",
     "expiration": {
@@ -12618,13 +12742,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "invention",
     "titre": "Invention",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -12637,12 +12764,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/invention.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 12min",
     "expiration": {
@@ -12651,13 +12778,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "mademoiselle",
     "titre": "Mademoiselle",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2016,
@@ -12670,12 +12800,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "assets/posters/mademoiselle.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 25min",
     "expiration": {
@@ -12684,7 +12814,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm306170",
@@ -12705,11 +12838,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/78797149/s592/cold-war.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 24min",
@@ -12754,11 +12885,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/121440630/s592/amanda.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 47min",
@@ -12786,7 +12915,7 @@ const CATALOG_DATA = [
     "id": "a-labordage-telefilm",
     "titre": "À l'abordage",
     "type": "telefilm",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Téléfilms",
     "position": "Films — Ciné+ Festival",
     "annee": 2020,
@@ -12799,12 +12928,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/a-labordage.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 35min",
     "expiration": {
@@ -12813,13 +12942,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "vera",
     "titre": "Vera",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2022,
@@ -12832,12 +12964,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/vera.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 17min",
     "expiration": {
@@ -12846,13 +12978,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "vade-retro",
     "titre": "Vade retro",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -12865,12 +13000,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "assets/posters/vade-retro.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 35min",
     "expiration": {
@@ -12879,60 +13014,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-tm1496579",
-    "titre": "Rabia",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Festival",
-    "annee": 2024,
-    "note_avis": 6.2,
-    "note_recence": 9.5,
-    "note_globale": 7.9,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/327306116/s592/rabia-2024.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ Festival",
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_festival.png",
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 35min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-26",
-      "packageExpirations": {
-        "aoc": "2026-09-26"
-      }
     },
     "package_slugs": [
       "aoc"
-    ],
-    "runtime_minutes": 95,
-    "etoiles": 4,
-    "raw_genres": [
-      "drm",
-      "trl"
-    ],
-    "synopsis": "Poussée par les promesses d’une nouvelle vie, Jessica, une française de 19 ans, part pour la Syrie rejoindre Daech. Arrivée à Raqqa, elle intègre une maison de futures épouses de combattants et se retrouve vite prisonnière de Madame, la charismatique Directrice qui tient les lieux d’une main de fer. Inspiré de faits réels."
+    ]
   },
   {
     "id": "duel-a-monte-carlo-del-norte",
     "titre": "Duel à Monte Carlo del Norte",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -12945,12 +13036,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/duel-a-monte-carlo-del-norte.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 20min",
     "expiration": {
@@ -12959,13 +13050,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "bonne-mere",
     "titre": "Bonne mère",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2021,
@@ -12978,12 +13072,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/bonne-mere.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 39min",
     "expiration": {
@@ -12992,13 +13086,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "oui",
     "titre": "Oui",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
@@ -13011,12 +13108,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "assets/posters/oui.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 30min",
     "expiration": {
@@ -13025,13 +13122,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "mourir-a-ibiza",
     "titre": "Mourir à Ibiza",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2022,
@@ -13044,12 +13144,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/mourir-a-ibiza.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 48min",
     "expiration": {
@@ -13058,7 +13158,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm322143",
@@ -13079,11 +13182,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/250633785/s592/une-vie-violente.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 47min",
@@ -13127,11 +13228,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/78808778/s592/la-villa.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 47min",
@@ -13175,11 +13274,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/176323478/s592/her.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 06min",
@@ -13208,7 +13305,7 @@ const CATALOG_DATA = [
     "id": "les-ogres",
     "titre": "Les Ogres",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2015,
@@ -13221,12 +13318,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/les-ogres.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 24min",
     "expiration": {
@@ -13235,13 +13332,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "l-economie-du-couple",
     "titre": "L'Économie du couple",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2016,
@@ -13254,12 +13354,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/l-economie-du-couple.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 40min",
     "expiration": {
@@ -13268,7 +13368,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm359324",
@@ -13289,11 +13392,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/310293816/s592/une-pluie-sans-fin.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 00min",
@@ -13321,7 +13422,7 @@ const CATALOG_DATA = [
     "id": "genese",
     "titre": "Genèse",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2018,
@@ -13334,12 +13435,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "assets/posters/genese.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 10min",
     "expiration": {
@@ -13348,7 +13449,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1124675",
@@ -13369,11 +13473,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/302125011/s592/babysitter-2022.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 28min",
@@ -13416,11 +13518,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/79252703/s592/mon-roi.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 05min",
@@ -13465,11 +13565,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/88176093/s592/macbeth-2015.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 53min",
@@ -13513,11 +13611,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/250045744/s592/jackie.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 40min",
@@ -13545,7 +13641,7 @@ const CATALOG_DATA = [
     "id": "les-echos-du-passe",
     "titre": "Les Échos du passé",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2021,
@@ -13558,12 +13654,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "assets/posters/les-echos-du-passe.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 29min",
     "expiration": {
@@ -13572,7 +13668,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm141182",
@@ -13593,11 +13692,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/93753142/s592/a-most-violent-year.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 05min",
@@ -13641,11 +13738,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/86978170/s592/foxcatcher.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 14min",
@@ -13690,11 +13785,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/344037061/s592/le-gamin-au-velo.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 27min",
@@ -13737,11 +13830,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/197757201/s592/ce-sentiment-de-lete.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 47min",
@@ -13784,11 +13875,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/8811706/s592/voir-du-pays.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 42min",
@@ -13817,7 +13906,7 @@ const CATALOG_DATA = [
     "id": "shame",
     "titre": "Shame",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2011,
@@ -13830,12 +13919,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "assets/posters/shame.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 42min",
     "expiration": {
@@ -13844,7 +13933,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm162719",
@@ -13865,11 +13957,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/303435356/s592/les-neiges-du-kilimandjaro-2011.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 47min",
@@ -13914,11 +14004,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/180858172/s592/fish-tank.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 03min",
@@ -13945,7 +14033,7 @@ const CATALOG_DATA = [
     "id": "la-vie-tres-privee-de-monsieur-sim",
     "titre": "La Vie très privée de Monsieur Sim",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2015,
@@ -13958,12 +14046,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/la-vie-tres-privee-de-monsieur-sim.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 42min",
     "expiration": {
@@ -13972,13 +14060,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "place-publique",
     "titre": "Place publique",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2018,
@@ -13991,12 +14082,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/place-publique.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 38min",
     "expiration": {
@@ -14005,13 +14096,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "memories-of-murder",
     "titre": "Memories of Murder",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2003,
@@ -14024,12 +14118,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "assets/posters/memories-of-murder.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 09min",
     "expiration": {
@@ -14038,7 +14132,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm49126",
@@ -14059,11 +14156,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/113678390/s592/hunger.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 36min",
@@ -14109,11 +14204,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/344202889/s592/tokyo-fiancee.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 40min",
@@ -14158,11 +14251,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/89685870/s592/burn-after-reading.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 36min",
@@ -14192,7 +14283,7 @@ const CATALOG_DATA = [
     "id": "prince-of-broadway",
     "titre": "Prince of Broadway",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2008,
@@ -14205,12 +14296,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/prince-of-broadway.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 42min",
     "expiration": {
@@ -14219,7 +14310,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm182141",
@@ -14240,11 +14334,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/8811460/s592/17-filles.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 27min",
@@ -14287,11 +14379,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/11505090/s592/memory-lane-mikhael-hers.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 38min",
@@ -14319,7 +14409,7 @@ const CATALOG_DATA = [
     "id": "ricky",
     "titre": "Ricky",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2009,
@@ -14332,12 +14422,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/ricky.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 30min",
     "expiration": {
@@ -14346,13 +14436,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "la-pianiste",
     "titre": "La Pianiste",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2001,
@@ -14365,12 +14458,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "assets/posters/la-pianiste.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 05min",
     "expiration": {
@@ -14379,13 +14472,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "holy-lola",
     "titre": "Holy Lola",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2004,
@@ -14398,12 +14494,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/holy-lola.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 10min",
     "expiration": {
@@ -14412,13 +14508,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "ghost-in-the-shell",
     "titre": "Ghost in the Shell",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 1995,
@@ -14431,12 +14530,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": false,
     "poster": "assets/posters/ghost-in-the-shell.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 22min",
     "expiration": {
@@ -14445,13 +14544,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "je-rentre-a-la-maison",
     "titre": "Je rentre à la maison",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 2001,
@@ -14464,12 +14566,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/je-rentre-a-la-maison.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 30min",
     "expiration": {
@@ -14478,13 +14580,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "malcolm-x",
     "titre": "Malcolm X",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 1992,
@@ -14497,12 +14602,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": false,
     "poster": "assets/posters/malcolm-x.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "3h 22min",
     "expiration": {
@@ -14511,13 +14616,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "panic-sur-florida-beach",
     "titre": "Panic sur Florida Beach",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 1993,
@@ -14530,12 +14638,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/panic-sur-florida-beach.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 39min",
     "expiration": {
@@ -14544,13 +14652,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "raging-bull",
     "titre": "Raging Bull",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 1980,
@@ -14563,12 +14674,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": false,
     "poster": "assets/posters/raging-bull.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 10min",
     "expiration": {
@@ -14577,13 +14688,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "a-scene-at-the-sea",
     "titre": "A Scene at the Sea",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 1991,
@@ -14596,12 +14710,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/a-scene-at-the-sea.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 41min",
     "expiration": {
@@ -14610,13 +14724,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "sexe-mensonges-et-video",
     "titre": "Sexe, mensonges et vidéo",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 1989,
@@ -14629,12 +14746,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": false,
     "poster": "assets/posters/sexe-mensonges-et-video.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 40min",
     "expiration": {
@@ -14643,13 +14760,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "kika",
     "titre": "Kika",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 1993,
@@ -14662,12 +14782,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": false,
     "poster": "assets/posters/kika.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 54min",
     "expiration": {
@@ -14676,13 +14796,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "l-uf-de-lange",
     "titre": "L'Œuf de l'ange",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 1985,
@@ -14695,12 +14818,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/l-uf-de-lange.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 11min",
     "expiration": {
@@ -14709,13 +14832,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "colors",
     "titre": "Colors",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 1988,
@@ -14728,12 +14854,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": false,
     "poster": "assets/posters/colors.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 00min",
     "expiration": {
@@ -14742,13 +14868,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "une-etrange-affaire",
     "titre": "Une étrange affaire",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 1981,
@@ -14761,12 +14890,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/une-etrange-affaire.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 50min",
     "expiration": {
@@ -14775,13 +14904,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "detective",
     "titre": "Détective",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 1985,
@@ -14794,12 +14926,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/detective.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 38min",
     "expiration": {
@@ -14808,13 +14940,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "caligula-et-messaline",
     "titre": "Caligula et Messaline",
     "type": "film",
-    "chaine": "Ciné+ Festival",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Festival",
     "annee": 1981,
@@ -14827,12 +14962,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": false,
     "poster": "assets/posters/caligula-et-messaline.jpg",
-    "logo_chaine": "assets/logos/cine_festival.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Festival"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_festival.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 41min",
     "expiration": {
@@ -14841,7 +14976,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm453584",
@@ -14860,11 +14998,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 50min",
@@ -14889,52 +15025,6 @@ const CATALOG_DATA = [
     "synopsis": "Ethan Hunt se rend à Londres avec son équipe dans l'espoir de remonter la piste du mystérieux Gabriel, qu'il a affronté deux mois auparavant à bord de l'Orient-Express et qui détient la clé contrôlant l’intelligence artificielle toute puissante surnommée l'Entité. Adulée par les uns, redoutée par les autres, l’Entité se distingue par sa capacité à prédire toutes les éventualités possibles. Elle connaît parfaitement les forces et faiblesses d’Ethan et de son équipe. Gabriel compte l'utiliser pour mettre en œuvre son plan ultime : annihiler Ethan et son équipe, s’emparer de tous les systèmes de défense planétaires et déclencher la Troisième Guerre mondiale."
   },
   {
-    "id": "jw-tm1471586",
-    "titre": "En fanfare",
-    "type": "film",
-    "categories": [
-      "comedie"
-    ],
-    "annee": 2024,
-    "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "poster": "https://images.justwatch.com/poster/321213107/s592/en-fanfare.jpg",
-    "note_avis": 7.4,
-    "note_recence": 9.5,
-    "note_globale": 8.5,
-    "is_eligible": true,
-    "chaines": [
-      "OCS",
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/ocs.png",
-      "assets/logos/cine_ocs.svg"
-    ],
-    "badge": null,
-    "duree": "1h 42min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-26",
-      "packageExpirations": {
-        "aoc": "2026-09-26"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 102,
-    "etoiles": 5,
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "msc"
-    ],
-    "synopsis": "Thibaut est un chef d’orchestre de renommée internationale qui parcourt le monde. Lorsqu’il apprend qu’il a été adopté, il découvre l’existence d’un frère, Jimmy, employé de cantine scolaire et qui joue du trombone dans une fanfare du nord de la France. En apparence tout les sépare, sauf l’amour de la musique. Détectant les capacités musicales exceptionnelles de son frère, Thibaut se donne pour mission de réparer l’injustice du destin. Jimmy se prend alors à rêver d’une autre vie…"
-  },
-  {
     "id": "jw-tm1459469",
     "titre": "5 septembre",
     "type": "film",
@@ -14951,11 +15041,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 34min",
@@ -14996,11 +15084,9 @@ const CATALOG_DATA = [
     "note_globale": 8.3,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -15044,11 +15130,9 @@ const CATALOG_DATA = [
     "note_globale": 8.2,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": "12",
@@ -15088,11 +15172,9 @@ const CATALOG_DATA = [
     "note_globale": 8.5,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -15134,11 +15216,9 @@ const CATALOG_DATA = [
     "note_globale": 8.2,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -15181,11 +15261,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 45min",
@@ -15225,11 +15303,9 @@ const CATALOG_DATA = [
     "note_globale": 8.1,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -15269,11 +15345,9 @@ const CATALOG_DATA = [
     "note_globale": 7.9,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -15314,11 +15388,9 @@ const CATALOG_DATA = [
     "note_globale": 8.1,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": "12",
@@ -15360,11 +15432,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 56min",
@@ -15406,11 +15476,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 06min",
@@ -15452,11 +15520,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 03min",
@@ -15496,11 +15562,9 @@ const CATALOG_DATA = [
     "note_globale": 8,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -15542,11 +15606,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 17min",
@@ -15586,11 +15648,9 @@ const CATALOG_DATA = [
     "note_globale": 7.9,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -15631,11 +15691,9 @@ const CATALOG_DATA = [
     "note_globale": 7.8,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -15678,11 +15736,9 @@ const CATALOG_DATA = [
     "note_globale": 8.5,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -15725,11 +15781,9 @@ const CATALOG_DATA = [
     "note_globale": 8.1,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -15770,11 +15824,9 @@ const CATALOG_DATA = [
     "note_globale": 8,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -15807,18 +15859,18 @@ const CATALOG_DATA = [
       "drame_emotion"
     ],
     "annee": 2025,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_oxana.jpg",
     "note_avis": 6.4,
     "note_recence": 9.7,
     "note_globale": 8.1,
     "is_eligible": true,
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "12",
     "duree": "1h 43min",
@@ -15828,7 +15880,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1621855",
@@ -15846,11 +15901,9 @@ const CATALOG_DATA = [
     "note_globale": 8.3,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": "12",
@@ -15882,18 +15935,18 @@ const CATALOG_DATA = [
       "drame_emotion"
     ],
     "annee": 2025,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_promis_le_ciel.jpg",
     "note_avis": 6.4,
     "note_recence": 9.7,
     "note_globale": 8.1,
     "is_eligible": true,
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 32min",
@@ -15903,7 +15956,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1530728",
@@ -15921,11 +15977,9 @@ const CATALOG_DATA = [
     "note_globale": 7.4,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -15965,11 +16019,9 @@ const CATALOG_DATA = [
     "note_globale": 8.3,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -16010,11 +16062,9 @@ const CATALOG_DATA = [
     "note_globale": 7.8,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -16047,18 +16097,18 @@ const CATALOG_DATA = [
       "drame_emotion"
     ],
     "annee": 2025,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_la_reparation.jpg",
     "note_avis": 6.4,
     "note_recence": 9.7,
     "note_globale": 8.1,
     "is_eligible": true,
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 44min",
@@ -16068,7 +16118,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1486490",
@@ -16086,11 +16139,9 @@ const CATALOG_DATA = [
     "note_globale": 8.1,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -16131,11 +16182,9 @@ const CATALOG_DATA = [
     "note_globale": 7.8,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -16178,11 +16227,9 @@ const CATALOG_DATA = [
     "note_globale": 7.9,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -16227,11 +16274,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 04min",
@@ -16272,11 +16317,9 @@ const CATALOG_DATA = [
     "note_globale": 7.7,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -16317,11 +16360,9 @@ const CATALOG_DATA = [
     "note_globale": 7.7,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -16362,11 +16403,9 @@ const CATALOG_DATA = [
     "note_globale": 7.2,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -16398,18 +16437,18 @@ const CATALOG_DATA = [
       "comedie"
     ],
     "annee": 2025,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_aimons_nous_vivants.jpg",
     "note_avis": 6.2,
     "note_recence": 9.7,
     "note_globale": 7.9,
     "is_eligible": true,
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
     "duree": "1h 30min",
@@ -16419,7 +16458,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1561453",
@@ -16437,11 +16479,9 @@ const CATALOG_DATA = [
     "note_globale": 7.6,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -16481,11 +16521,9 @@ const CATALOG_DATA = [
     "note_globale": 8.2,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -16527,11 +16565,9 @@ const CATALOG_DATA = [
     "note_globale": 7.7,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -16572,11 +16608,9 @@ const CATALOG_DATA = [
     "note_globale": 8.3,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -16610,18 +16644,18 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 2025,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_la_proie_des_ombres.jpg",
     "note_avis": 6.2,
     "note_recence": 9.7,
     "note_globale": 7.9,
     "is_eligible": true,
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "12",
     "duree": "1h 41min",
@@ -16631,7 +16665,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1611991",
@@ -16649,11 +16686,9 @@ const CATALOG_DATA = [
     "note_globale": 8.2,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -16694,11 +16729,9 @@ const CATALOG_DATA = [
     "note_globale": 8.4,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -16738,11 +16771,9 @@ const CATALOG_DATA = [
     "note_globale": 8,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -16784,11 +16815,9 @@ const CATALOG_DATA = [
     "note_globale": 8.4,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -16828,11 +16857,9 @@ const CATALOG_DATA = [
     "note_globale": 8.3,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -16872,11 +16899,9 @@ const CATALOG_DATA = [
     "note_globale": 7.8,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -16909,18 +16934,18 @@ const CATALOG_DATA = [
       "drame_emotion"
     ],
     "annee": 2018,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_a_star_is_born.jpg",
     "note_avis": 8,
     "note_recence": 7.7,
     "note_globale": 7.8,
     "is_eligible": true,
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
     "duree": "2h 15min",
@@ -16930,7 +16955,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm897251",
@@ -16949,11 +16977,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 41min",
@@ -16993,11 +17019,9 @@ const CATALOG_DATA = [
     "note_globale": 7.9,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -17030,18 +17054,18 @@ const CATALOG_DATA = [
       "comedie"
     ],
     "annee": 2021,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_kaamelott_premier_volet.jpg",
     "note_avis": 7.2,
     "note_recence": 8.3,
     "note_globale": 7.8,
     "is_eligible": true,
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
     "duree": "2h 00min",
@@ -17051,7 +17075,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1076533",
@@ -17070,11 +17097,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 50min",
@@ -17114,11 +17139,9 @@ const CATALOG_DATA = [
     "note_globale": 7.8,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -17158,11 +17181,9 @@ const CATALOG_DATA = [
     "note_globale": 7.1,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -17202,11 +17223,9 @@ const CATALOG_DATA = [
     "note_globale": 7.4,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -17246,11 +17265,9 @@ const CATALOG_DATA = [
     "note_globale": 7.4,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -17290,11 +17307,9 @@ const CATALOG_DATA = [
     "note_globale": 7.7,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -17334,11 +17349,9 @@ const CATALOG_DATA = [
     "note_globale": 7.7,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -17371,18 +17384,18 @@ const CATALOG_DATA = [
       "comedie"
     ],
     "annee": 2025,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_papamobile.jpg",
     "note_avis": 6,
     "note_recence": 9.7,
     "note_globale": 7.8,
     "is_eligible": true,
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
     "duree": "1h 26min",
@@ -17392,7 +17405,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "ocs_68_cadeaux",
@@ -17402,18 +17418,18 @@ const CATALOG_DATA = [
       "comedie"
     ],
     "annee": 2025,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_cadeaux.jpg",
     "note_avis": 6,
     "note_recence": 9.7,
     "note_globale": 7.8,
     "is_eligible": true,
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
     "duree": "1h 23min",
@@ -17423,7 +17439,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "ocs_69_legranddplaceme",
@@ -17433,18 +17452,18 @@ const CATALOG_DATA = [
       "comedie"
     ],
     "annee": 2025,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_le_grand_deplacement.jpg",
     "note_avis": 6,
     "note_recence": 9.7,
     "note_globale": 7.8,
     "is_eligible": true,
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
     "duree": "1h 23min",
@@ -17454,7 +17473,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1574167",
@@ -17472,11 +17494,9 @@ const CATALOG_DATA = [
     "note_globale": 7.5,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -17510,8 +17530,8 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2025,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_blood_star.jpg",
     "note_avis": 6,
     "note_recence": 9.7,
@@ -17519,10 +17539,10 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 26min",
     "expiration": {
@@ -17531,7 +17551,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm371923",
@@ -17550,11 +17573,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 56min",
@@ -17596,11 +17617,9 @@ const CATALOG_DATA = [
     "note_globale": 7.9,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -17644,11 +17663,9 @@ const CATALOG_DATA = [
     "note_globale": 7.6,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
@@ -17682,18 +17699,18 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 2024,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_six_jours.jpg",
     "note_avis": 6,
     "note_recence": 9.3,
     "note_globale": 7.7,
     "is_eligible": true,
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 41min",
@@ -17703,7 +17720,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm466528",
@@ -17721,11 +17741,9 @@ const CATALOG_DATA = [
     "note_globale": 7.4,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -17767,11 +17785,9 @@ const CATALOG_DATA = [
     "note_globale": 7.3,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -17814,11 +17830,9 @@ const CATALOG_DATA = [
     "note_globale": 7.4,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -17852,8 +17866,8 @@ const CATALOG_DATA = [
       "drame_emotion"
     ],
     "annee": 2022,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_the_son.jpg",
     "note_avis": 6.6,
     "note_recence": 8.7,
@@ -17861,10 +17875,10 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "10",
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 38min",
     "expiration": {
@@ -17873,7 +17887,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "ocs_81_birthdaygirl",
@@ -17883,18 +17900,18 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 2023,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_birthday_girl.jpg",
     "note_avis": 6.2,
     "note_recence": 9,
     "note_globale": 7.6,
     "is_eligible": true,
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 35min",
@@ -17904,7 +17921,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1467237",
@@ -17922,11 +17942,9 @@ const CATALOG_DATA = [
     "note_globale": 7.1,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -17966,11 +17984,9 @@ const CATALOG_DATA = [
     "note_globale": 7,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -18003,18 +18019,18 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2024,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_toutes_pour_une.jpg",
     "note_avis": 5.6,
     "note_recence": 9.3,
     "note_globale": 7.5,
     "is_eligible": true,
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "12",
     "duree": "1h 36min",
@@ -18024,51 +18040,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-tm1502666",
-    "titre": "Les Boules de Noël",
-    "type": "film",
-    "categories": [
-      "comedie"
-    ],
-    "annee": 2024,
-    "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "poster": "https://images.justwatch.com/poster/322519480/s592/les-boules-de-noel.jpg",
-    "note_avis": 4.2,
-    "note_recence": 9.5,
-    "note_globale": 6.9,
-    "is_eligible": true,
-    "chaines": [
-      "OCS",
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/ocs.png",
-      "assets/logos/cine_ocs.svg"
-    ],
-    "badge": null,
-    "duree": "1h 30min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-26",
-      "packageExpirations": {
-        "aoc": "2026-09-26"
-      }
     },
     "package_slugs": [
       "aoc"
-    ],
-    "runtime_minutes": 90,
-    "etoiles": 3,
-    "raw_genres": [
-      "cmy"
-    ],
-    "synopsis": "Pour la famille de Nathalie et Antonin, chaque année, le réveillon de Noël vire au cauchemar. Convaincue qu’elle est victime d’une malédiction, Nathalie prend une décision radicale : cette année on ne le fêtera pas ! Mais c’est sans compter sur Antonin et ses enfants qui décident de reprendre les choses en mains en invitant Nicole, la sœur de Nathalie qu’elle a perdue de vue. Entre les rivalités latentes et les frustrations accumulées, ce réveillon va devenir le plus cruel et le plus explosif de tous !"
+    ]
   },
   {
     "id": "jw-tm1497303",
@@ -18086,11 +18061,9 @@ const CATALOG_DATA = [
     "note_globale": 7.5,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -18130,11 +18103,9 @@ const CATALOG_DATA = [
     "note_globale": 7.2,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -18179,11 +18150,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 08min",
@@ -18225,11 +18194,9 @@ const CATALOG_DATA = [
     "note_globale": 7.5,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -18263,18 +18230,18 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2016,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_the_lost_city_of_z.jpg",
     "note_avis": 7.4,
     "note_recence": 7.3,
     "note_globale": 7.3,
     "is_eligible": true,
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
     "duree": "2h 20min",
@@ -18284,7 +18251,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm238375",
@@ -18302,11 +18272,9 @@ const CATALOG_DATA = [
     "note_globale": 7.4,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": "12",
@@ -18349,11 +18317,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 00min",
@@ -18395,11 +18361,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 24min",
@@ -18443,11 +18407,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 00min",
@@ -18489,11 +18451,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 55min",
@@ -18526,18 +18486,18 @@ const CATALOG_DATA = [
       "comedie"
     ],
     "annee": 2021,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_oss_117_alerte_rouge_en_afrique_noire.jpg",
     "note_avis": 6.2,
     "note_recence": 8.3,
     "note_globale": 7.2,
     "is_eligible": true,
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 56min",
@@ -18547,7 +18507,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1186806",
@@ -18566,11 +18529,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 33min",
@@ -18612,11 +18573,9 @@ const CATALOG_DATA = [
     "note_globale": 7.3,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -18658,11 +18617,9 @@ const CATALOG_DATA = [
     "note_globale": 6.7,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -18704,11 +18661,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 25min",
@@ -18748,11 +18703,9 @@ const CATALOG_DATA = [
     "note_globale": 7.3,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -18795,11 +18748,9 @@ const CATALOG_DATA = [
     "note_globale": 7.1,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -18841,11 +18792,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 40min",
@@ -18884,11 +18833,9 @@ const CATALOG_DATA = [
     "note_globale": 7.1,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -18932,11 +18879,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 48min",
@@ -18976,11 +18921,9 @@ const CATALOG_DATA = [
     "note_globale": 6.7,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -19021,11 +18964,9 @@ const CATALOG_DATA = [
     "note_globale": 6.5,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -19067,11 +19008,9 @@ const CATALOG_DATA = [
     "note_globale": 6.5,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -19115,11 +19054,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 33min",
@@ -19159,11 +19096,9 @@ const CATALOG_DATA = [
     "note_globale": 6.8,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -19205,11 +19140,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 12min",
@@ -19250,11 +19183,9 @@ const CATALOG_DATA = [
     "note_globale": 7,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -19299,11 +19230,9 @@ const CATALOG_DATA = [
     "note_globale": 7.4,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -19346,11 +19275,9 @@ const CATALOG_DATA = [
     "note_globale": 6.2,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -19394,11 +19321,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 44min",
@@ -19431,18 +19356,18 @@ const CATALOG_DATA = [
       "drame_emotion"
     ],
     "annee": 2008,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_les_bureaux_de_dieu.jpg",
     "note_avis": 7,
     "note_recence": 5.7,
     "note_globale": 6.3,
     "is_eligible": true,
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "2h 00min",
@@ -19452,7 +19377,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "ocs_118_lenvahisseur",
@@ -19462,8 +19390,8 @@ const CATALOG_DATA = [
       "drame_emotion"
     ],
     "annee": 2011,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_lenvahisseur.jpg",
     "note_avis": 6.4,
     "note_recence": 6.2,
@@ -19471,10 +19399,10 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 35min",
     "expiration": {
@@ -19483,7 +19411,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm167643",
@@ -19502,11 +19433,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 42min",
@@ -19545,11 +19474,9 @@ const CATALOG_DATA = [
     "note_globale": 6.1,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -19592,11 +19519,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 06min",
@@ -19636,11 +19561,9 @@ const CATALOG_DATA = [
     "note_globale": 6.3,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -19682,11 +19605,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 26min",
@@ -19718,18 +19639,18 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 2010,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_un_balcon_sur_la_mer.jpg",
     "note_avis": 6.2,
     "note_recence": 6,
     "note_globale": 6.1,
     "is_eligible": true,
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
     "duree": "1h 45min",
@@ -19739,7 +19660,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm38774",
@@ -19757,11 +19681,9 @@ const CATALOG_DATA = [
     "note_globale": 6,
     "is_eligible": true,
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
@@ -19794,18 +19716,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2001,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_ai_intelligence_artificielle.jpg",
     "note_avis": 7.8,
     "note_recence": 4.2,
     "note_globale": 6,
     "is_eligible": true,
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
     "duree": "2h 26min",
@@ -19815,7 +19737,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "ocs_1_demauvaisefoi",
@@ -19825,8 +19750,8 @@ const CATALOG_DATA = [
       "comedie"
     ],
     "annee": 2006,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_de_mauvaise_foi.jpg",
     "note_avis": 6.6,
     "note_recence": 5.3,
@@ -19834,10 +19759,10 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Globale (5.9 < 6)",
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
     "duree": "1h 28min",
@@ -19847,7 +19772,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "ocs_2_livressedupouvo",
@@ -19857,8 +19785,8 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 2006,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_livresse_du_pouvoir.jpg",
     "note_avis": 6.6,
     "note_recence": 5.3,
@@ -19866,10 +19794,10 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Globale (5.9 < 6)",
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
     "duree": "1h 50min",
@@ -19879,7 +19807,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "ocs_3_stars80lefilm",
@@ -19889,8 +19820,8 @@ const CATALOG_DATA = [
       "comedie"
     ],
     "annee": 2012,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_stars_80_le_film.jpg",
     "note_avis": 5.4,
     "note_recence": 6.4,
@@ -19898,10 +19829,10 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Globale (5.9 < 6)",
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
     "duree": "1h 52min",
@@ -19911,7 +19842,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "ocs_4_cliente",
@@ -19921,8 +19855,8 @@ const CATALOG_DATA = [
       "drame_emotion"
     ],
     "annee": 2008,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_cliente.jpg",
     "note_avis": 6,
     "note_recence": 5.7,
@@ -19930,10 +19864,10 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Globale (5.8 < 6)",
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
     "duree": "1h 45min",
@@ -19943,7 +19877,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "ocs_5_oceanstwelve",
@@ -19953,8 +19890,8 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 2004,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_oceans_twelve.jpg",
     "note_avis": 6.6,
     "note_recence": 4.8,
@@ -19962,10 +19899,10 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Globale (5.7 < 6)",
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
     "duree": "2h 05min",
@@ -19975,7 +19912,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "ocs_6_uneliaisonporno",
@@ -19985,8 +19925,8 @@ const CATALOG_DATA = [
       "drame_emotion"
     ],
     "annee": 1999,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_une_liaison_pornographique.jpg",
     "note_avis": 7,
     "note_recence": 3.9,
@@ -19995,10 +19935,10 @@ const CATALOG_DATA = [
     "badge": "10",
     "exclusion": "Récence (3.9 < 4), Globale",
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 20min",
     "expiration": {
@@ -20007,7 +19947,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "ocs_7_ledernierchteau",
@@ -20017,8 +19960,8 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2001,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_le_dernier_chateau.jpg",
     "note_avis": 6.8,
     "note_recence": 4.2,
@@ -20027,10 +19970,10 @@ const CATALOG_DATA = [
     "badge": "16",
     "exclusion": "Globale (5.5 < 6)",
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 12min",
     "expiration": {
@@ -20039,7 +19982,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "ocs_8_missionimpossib",
@@ -20049,8 +19995,8 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 1996,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_mission_impossible.jpg",
     "note_avis": 7.6,
     "note_recence": 3.3,
@@ -20058,10 +20004,10 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Récence (3.3 < 4), Globale",
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 50min",
@@ -20071,7 +20017,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "ocs_9_missionimpossib",
@@ -20081,8 +20030,8 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2000,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_mission_impossible_2.jpg",
     "note_avis": 6.2,
     "note_recence": 4,
@@ -20090,10 +20039,10 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Globale (5.1 < 6)",
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "2h 03min",
@@ -20103,7 +20052,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "ocs_10_novocane",
@@ -20113,8 +20065,8 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 2001,
-    "chaine": "OCS",
-    "logo_chaine": "assets/logos/ocs.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_ocs_novocaine.jpg",
     "note_avis": 5.8,
     "note_recence": 4.2,
@@ -20123,10 +20075,10 @@ const CATALOG_DATA = [
     "badge": "16",
     "exclusion": "Globale (5.0 < 6)",
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 35min",
     "expiration": {
@@ -20135,7 +20087,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1372859",
@@ -20153,11 +20108,9 @@ const CATALOG_DATA = [
     "note_globale": 7.4,
     "is_eligible": true,
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "badge": null,
@@ -20199,11 +20152,9 @@ const CATALOG_DATA = [
     "note_globale": 7.1,
     "is_eligible": true,
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "badge": null,
@@ -20247,11 +20198,9 @@ const CATALOG_DATA = [
     "note_globale": 7.1,
     "is_eligible": true,
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "badge": null,
@@ -20291,11 +20240,9 @@ const CATALOG_DATA = [
     "note_globale": 7.1,
     "is_eligible": true,
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "badge": null,
@@ -20337,11 +20284,9 @@ const CATALOG_DATA = [
     "note_globale": 7.1,
     "is_eligible": true,
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "badge": "12",
@@ -20385,11 +20330,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "1h 44min",
@@ -20430,11 +20373,9 @@ const CATALOG_DATA = [
     "note_globale": 6.9,
     "is_eligible": true,
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "badge": "10",
@@ -20476,11 +20417,9 @@ const CATALOG_DATA = [
     "note_globale": 6.7,
     "is_eligible": true,
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "badge": "12",
@@ -20514,18 +20453,18 @@ const CATALOG_DATA = [
       "horreur_epouvante"
     ],
     "annee": 2023,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_piper.jpg",
     "note_avis": 4.5,
     "note_recence": 9,
     "note_globale": 6.8,
     "is_eligible": true,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "12",
     "duree": "1h 45min",
@@ -20535,7 +20474,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm984217",
@@ -20553,11 +20495,9 @@ const CATALOG_DATA = [
     "note_globale": 6.8,
     "is_eligible": true,
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "badge": "12",
@@ -20586,10 +20526,9 @@ const CATALOG_DATA = [
     "id": "29_assassin",
     "titre": "Assassin",
     "type": "film",
-    "chaine": "Action & SCIFI",
+    "chaine": "Action Max",
     "chaines": [
-      "Action",
-      "SCIFI"
+      "Action Max"
     ],
     "section": "Films",
     "position": "Films • Action & SCIFI",
@@ -20605,8 +20544,7 @@ const CATALOG_DATA = [
     "poster": "assets/posters/poster_action_assassin.jpg",
     "logo_chaine": "assets/logos/action.png",
     "logos_chaine": [
-      "assets/logos/action.png",
-      "assets/logos/scifi.png"
+      "assets/logos/action.png"
     ],
     "duree": "1h 28min",
     "expiration": {
@@ -20615,7 +20553,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "scifi_13_limpermablemagi",
@@ -20625,18 +20566,18 @@ const CATALOG_DATA = [
       "animation_famille"
     ],
     "annee": 2014,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_limpermeable_magique.jpg",
     "note_avis": 6.2,
     "note_recence": 6.8,
     "note_globale": 6.5,
     "is_eligible": true,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 30min",
@@ -20646,7 +20587,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm350171",
@@ -20664,11 +20608,9 @@ const CATALOG_DATA = [
     "note_globale": 6.3,
     "is_eligible": true,
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "badge": "12",
@@ -20702,18 +20644,18 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2019,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_le_mystere_du_livre_sacre.jpg",
     "note_avis": 5,
     "note_recence": 7.9,
     "note_globale": 6.5,
     "is_eligible": true,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 33min",
@@ -20723,7 +20665,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_16_godsofthedeep",
@@ -20733,18 +20678,18 @@ const CATALOG_DATA = [
       "horreur_epouvante"
     ],
     "annee": 2023,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_gods_of_the_deep.jpg",
     "note_avis": 4.1,
     "note_recence": 9,
     "note_globale": 6.5,
     "is_eligible": true,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 20min",
@@ -20754,7 +20699,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_17_thetwisters",
@@ -20764,18 +20712,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2024,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_the_twisters.jpg",
     "note_avis": 3.6,
     "note_recence": 9.3,
     "note_globale": 6.5,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 23min",
@@ -20785,7 +20733,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_18_enlvementdevils",
@@ -20795,18 +20746,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2017,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_enlevement_devils_gate.jpg",
     "note_avis": 5.3,
     "note_recence": 7.5,
     "note_globale": 6.4,
     "is_eligible": true,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "12",
     "duree": "1h 34min",
@@ -20816,7 +20767,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_19_laguerredesmond",
@@ -20826,18 +20780,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2023,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_la_guerre_des_mondes_linvasion.jpg",
     "note_avis": 3.8,
     "note_recence": 9,
     "note_globale": 6.4,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 27min",
@@ -20847,7 +20801,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_20_continentalspli",
@@ -20857,18 +20814,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2024,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_continental_split.jpg",
     "note_avis": 3.4,
     "note_recence": 9.3,
     "note_globale": 6.4,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 28min",
@@ -20878,7 +20835,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_21_fireislandlagra",
@@ -20888,18 +20848,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2023,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_fire_island_la_grande_eruption.jpg",
     "note_avis": 3.6,
     "note_recence": 9,
     "note_globale": 6.3,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 25min",
@@ -20909,7 +20869,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_22_icestormtemptep",
@@ -20919,18 +20882,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2023,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_ice_storm_tempete_polaire.jpg",
     "note_avis": 3.6,
     "note_recence": 9,
     "note_globale": 6.3,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 22min",
@@ -20940,7 +20903,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_23_thelastwavelasu",
@@ -20950,18 +20916,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2023,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_the_last_wave_la_submersion_finale.jpg",
     "note_avis": 3.6,
     "note_recence": 9,
     "note_globale": 6.3,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 23min",
@@ -20971,7 +20937,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm65446",
@@ -20989,11 +20958,9 @@ const CATALOG_DATA = [
     "note_globale": 6.2,
     "is_eligible": true,
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "badge": null,
@@ -21026,8 +20993,8 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2009,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_battlestar_galactica_le_plan.jpg",
     "note_avis": 6.5,
     "note_recence": 5.9,
@@ -21035,10 +21002,10 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "10",
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 52min",
     "expiration": {
@@ -21047,7 +21014,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_26_hautesfrquences",
@@ -21057,18 +21027,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2020,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_hautes_frequences.jpg",
     "note_avis": 4.4,
     "note_recence": 8,
     "note_globale": 6.2,
     "is_eligible": true,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "12",
     "duree": "1h 26min",
@@ -21078,7 +21048,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_27_apevsmechaape",
@@ -21088,18 +21061,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2023,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_ape_vs_mecha_ape.jpg",
     "note_avis": 3.5,
     "note_recence": 9,
     "note_globale": 6.2,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 20min",
@@ -21109,7 +21082,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_28_doomsdaymeteor",
@@ -21119,18 +21095,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2023,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_doomsday_meteor.jpg",
     "note_avis": 3.5,
     "note_recence": 9,
     "note_globale": 6.2,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 26min",
@@ -21140,7 +21116,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_29_stormchasers",
@@ -21150,18 +21129,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2023,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_storm_chasers.jpg",
     "note_avis": 3.5,
     "note_recence": 9,
     "note_globale": 6.2,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 40min",
@@ -21171,7 +21150,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_30_arcticarmageddo",
@@ -21181,18 +21163,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2023,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_arctic_armageddon.jpg",
     "note_avis": 3.4,
     "note_recence": 9,
     "note_globale": 6.2,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 22min",
@@ -21202,7 +21184,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_31_meg2rising",
@@ -21212,18 +21197,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2023,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_meg_2_rising.jpg",
     "note_avis": 3.4,
     "note_recence": 9,
     "note_globale": 6.2,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 22min",
@@ -21233,7 +21218,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_32_dcdown",
@@ -21243,18 +21231,18 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2023,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_dc_down.jpg",
     "note_avis": 3.3,
     "note_recence": 9,
     "note_globale": 6.2,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 30min",
@@ -21264,7 +21252,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_33_earthquakeunder",
@@ -21274,18 +21265,18 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2024,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_earthquake_underground.jpg",
     "note_avis": 3.2,
     "note_recence": 9.3,
     "note_globale": 6.2,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "12",
     "duree": "1h 22min",
@@ -21295,7 +21286,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_34_2025armageddon",
@@ -21305,18 +21299,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2022,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_2025_armageddon.jpg",
     "note_avis": 3.5,
     "note_recence": 8.7,
     "note_globale": 6.1,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 30min",
@@ -21326,7 +21320,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_35_battleforpandor",
@@ -21336,18 +21333,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2022,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_battle_for_pandora.jpg",
     "note_avis": 3.4,
     "note_recence": 8.7,
     "note_globale": 6,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 24min",
@@ -21357,7 +21354,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_36_infestation",
@@ -21367,8 +21367,8 @@ const CATALOG_DATA = [
       "horreur_epouvante"
     ],
     "annee": 2009,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_infestation.jpg",
     "note_avis": 5.9,
     "note_recence": 5.9,
@@ -21376,10 +21376,10 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "badge": "12",
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 31min",
     "expiration": {
@@ -21388,7 +21388,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm167082",
@@ -21406,11 +21409,9 @@ const CATALOG_DATA = [
     "note_globale": 7.4,
     "is_eligible": true,
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "badge": null,
@@ -21443,18 +21444,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2018,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_iron_arm.jpg",
     "note_avis": 4.1,
     "note_recence": 7.7,
     "note_globale": 5.9,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 48min",
@@ -21464,7 +21465,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_39_arthurmerlinkni",
@@ -21474,18 +21478,18 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2020,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_arthur_merlin_knights_of_camelot.jpg",
     "note_avis": 3.8,
     "note_recence": 8,
     "note_globale": 5.9,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 30min",
@@ -21495,7 +21499,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_40_robotapocalypse",
@@ -21505,18 +21512,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2021,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_robot_apocalypse.jpg",
     "note_avis": 3.5,
     "note_recence": 8.3,
     "note_globale": 5.9,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 27min",
@@ -21526,7 +21533,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_41_planetdune",
@@ -21536,18 +21546,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2021,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_planet_dune.jpg",
     "note_avis": 3.4,
     "note_recence": 8.3,
     "note_globale": 5.9,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 26min",
@@ -21557,7 +21567,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_42_attackontitan",
@@ -21567,18 +21580,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2022,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_attack_on_titan.jpg",
     "note_avis": 3.2,
     "note_recence": 8.7,
     "note_globale": 5.9,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 33min",
@@ -21588,7 +21601,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_43_jurassicdominat",
@@ -21598,18 +21614,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2022,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_jurassic_domination.jpg",
     "note_avis": 3.1,
     "note_recence": 8.7,
     "note_globale": 5.9,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "12",
     "duree": "1h 30min",
@@ -21619,7 +21635,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_44_lamenaceandromd",
@@ -21629,8 +21648,8 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2008,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_la_menace_andromede_partie_1.jpg",
     "note_avis": 6,
     "note_recence": 5.7,
@@ -21638,10 +21657,10 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "badge": "12",
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 28min",
     "expiration": {
@@ -21650,7 +21669,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_45_lamenaceandromd",
@@ -21660,8 +21682,8 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2008,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_la_menace_andromede_partie_2.jpg",
     "note_avis": 6,
     "note_recence": 5.7,
@@ -21669,10 +21691,10 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "badge": "12",
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 29min",
     "expiration": {
@@ -21681,7 +21703,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm45815",
@@ -21699,11 +21724,9 @@ const CATALOG_DATA = [
     "note_globale": 6.1,
     "is_eligible": true,
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "badge": null,
@@ -21739,8 +21762,8 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2015,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_flight_42.jpg",
     "note_avis": 4.5,
     "note_recence": 7.1,
@@ -21748,10 +21771,10 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "badge": "10",
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 25min",
     "expiration": {
@@ -21760,7 +21783,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_48_takingearth",
@@ -21770,8 +21796,8 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2017,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_taking_earth.jpg",
     "note_avis": 4,
     "note_recence": 7.5,
@@ -21779,10 +21805,10 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "badge": "10",
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 40min",
     "expiration": {
@@ -21791,7 +21817,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_49_tombinvader",
@@ -21801,18 +21830,18 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2018,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_tomb_invader.jpg",
     "note_avis": 3.8,
     "note_recence": 7.7,
     "note_globale": 5.8,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 23min",
@@ -21822,7 +21851,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_50_megaquake",
@@ -21832,18 +21864,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2019,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_megaquake.jpg",
     "note_avis": 3.7,
     "note_recence": 7.9,
     "note_globale": 5.8,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 27min",
@@ -21853,7 +21885,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_51_dinosaurworld",
@@ -21863,18 +21898,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2020,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_dinosaur_world.jpg",
     "note_avis": 3.6,
     "note_recence": 8,
     "note_globale": 5.8,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 15min",
@@ -21884,7 +21919,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_52_megrising",
@@ -21894,8 +21932,8 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2021,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_meg_rising.jpg",
     "note_avis": 3.3,
     "note_recence": 8.3,
@@ -21903,10 +21941,10 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "badge": "12",
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 23min",
     "expiration": {
@@ -21915,7 +21953,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_53_megaboa",
@@ -21925,8 +21966,8 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2021,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_megaboa.jpg",
     "note_avis": 3.2,
     "note_recence": 8.3,
@@ -21934,10 +21975,10 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "badge": "12",
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 27min",
     "expiration": {
@@ -21946,7 +21987,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_54_lesaventuresdef",
@@ -21956,18 +22000,18 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2006,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_les_aventures_de_flynn_carson_le_tresor_du_roi_salomon.jpg",
     "note_avis": 6,
     "note_recence": 5.3,
     "note_globale": 5.7,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
     "duree": "1h 35min",
@@ -21977,7 +22021,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_55_aliensiege",
@@ -21987,18 +22034,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2018,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_alien_siege.jpg",
     "note_avis": 3.3,
     "note_recence": 7.7,
     "note_globale": 5.5,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "12",
     "duree": "1h 25min",
@@ -22008,7 +22055,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_56_lacryptedudrago",
@@ -22018,18 +22068,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2013,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_la_crypte_du_dragon.jpg",
     "note_avis": 4.2,
     "note_recence": 6.6,
     "note_globale": 5.4,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 29min",
@@ -22039,7 +22089,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_57_mutantlegacy",
@@ -22049,8 +22102,8 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2014,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_mutant_legacy.jpg",
     "note_avis": 4,
     "note_recence": 6.8,
@@ -22058,10 +22111,10 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "badge": "12",
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 30min",
     "expiration": {
@@ -22070,7 +22123,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_58_immorteladvitam",
@@ -22080,18 +22136,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2004,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_immortel_ad_vitam.jpg",
     "note_avis": 5.8,
     "note_recence": 4.8,
     "note_globale": 5.3,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 42min",
@@ -22101,7 +22157,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_59_supericyclone",
@@ -22111,18 +22170,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2014,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_super_icyclone.jpg",
     "note_avis": 3.6,
     "note_recence": 6.8,
     "note_globale": 5.2,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 26min",
@@ -22132,7 +22191,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_60_alienapocalypse",
@@ -22142,18 +22204,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2005,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_alien_apocalypse.jpg",
     "note_avis": 4.4,
     "note_recence": 5.1,
     "note_globale": 4.8,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 25min",
@@ -22163,7 +22225,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "scifi_61_lesrescapsdumon",
@@ -22173,18 +22238,18 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2009,
-    "chaine": "SCIFI",
-    "logo_chaine": "assets/logos/scifi.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_scifi_les_rescapes_du_monde_perdu.jpg",
     "note_avis": 3.7,
     "note_recence": 5.9,
     "note_globale": 4.8,
     "is_eligible": false,
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 28min",
@@ -22194,7 +22259,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "13eme_1_fauxsemblants",
@@ -22204,8 +22272,8 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 2020,
-    "chaine": "13ème RUE",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_13eme_faux_semblants.jpg",
     "note_avis": 6.2,
     "note_recence": 8,
@@ -22213,10 +22281,10 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "10",
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 30min",
     "expiration": {
@@ -22225,7 +22293,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm1299445",
@@ -22244,11 +22315,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "13ème RUE",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "1h 31min",
@@ -22291,12 +22360,10 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "13ème RUE",
       "Ciné+ OCS",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png",
       "assets/logos/cine_ocs.svg",
       "assets/logos/universal_plus.svg"
     ],
@@ -22332,18 +22399,18 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2024,
-    "chaine": "13ème RUE",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_13eme_get_fast.jpg",
     "note_avis": 4.6,
     "note_recence": 9.3,
     "note_globale": 7,
     "is_eligible": true,
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 28min",
@@ -22353,7 +22420,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "13eme_5_auseuildelamort",
@@ -22363,8 +22433,8 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2022,
-    "chaine": "13ème RUE",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_13eme_au_seuil_de_la_mort_as_good_as_dead.jpg",
     "note_avis": 5.2,
     "note_recence": 8.7,
@@ -22372,10 +22442,10 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 28min",
     "expiration": {
@@ -22384,7 +22454,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm315348",
@@ -22403,11 +22476,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "13ème RUE",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "1h 36min",
@@ -22439,18 +22510,18 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2024,
-    "chaine": "13ème RUE",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_13eme_gunner.jpg",
     "note_avis": 4.2,
     "note_recence": 9.3,
     "note_globale": 6.8,
     "is_eligible": true,
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "12",
     "duree": "1h 30min",
@@ -22460,7 +22531,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "13eme_8_thestolengirl",
@@ -22470,8 +22544,8 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 2025,
-    "chaine": "13ème RUE",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_13eme_the_stolen_girl.jpg",
     "note_avis": 4.6,
     "note_recence": 9.7,
@@ -22479,10 +22553,10 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "10",
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 34min",
     "expiration": {
@@ -22491,7 +22565,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm196292",
@@ -22510,11 +22587,9 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "13ème RUE",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "1h 32min",
@@ -22547,8 +22622,8 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 2020,
-    "chaine": "13ème RUE",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_13eme_the_housekeeper.jpg",
     "note_avis": 4.4,
     "note_recence": 8,
@@ -22556,10 +22631,10 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "10",
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 38min",
     "expiration": {
@@ -22568,7 +22643,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "13eme_11_theoutsider",
@@ -22578,18 +22656,18 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 2019,
-    "chaine": "13ème RUE",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_13eme_the_outsider.jpg",
     "note_avis": 4.4,
     "note_recence": 7.9,
     "note_globale": 6.2,
     "is_eligible": true,
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "2h 00min",
@@ -22599,7 +22677,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "13eme_1_preparetodie",
@@ -22609,8 +22690,8 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2023,
-    "chaine": "13ème RUE",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_13eme_prepare_to_die.jpg",
     "note_avis": 3.8,
     "note_recence": 9,
@@ -22618,10 +22699,10 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Avis (3.8 < 4)",
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "10",
     "duree": "1h 33min",
@@ -22631,7 +22712,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "13eme_2_fusionthecore",
@@ -22641,8 +22725,8 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2003,
-    "chaine": "13ème RUE",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "chaine": "Ciné+ OCS",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "assets/posters/poster_13eme_fusion_the_core.jpg",
     "note_avis": 6,
     "note_recence": 4.6,
@@ -22651,10 +22735,10 @@ const CATALOG_DATA = [
     "badge": "12",
     "exclusion": "Globale (5.3 < 6)",
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "2h 14min",
     "expiration": {
@@ -22663,7 +22747,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "action_1_lombredemesyeux",
@@ -22673,7 +22760,7 @@ const CATALOG_DATA = [
       "drame_emotion"
     ],
     "annee": 2005,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_a_lombre_de_mes_yeux.jpg",
     "note_avis": 4.8,
@@ -22682,7 +22769,7 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Globale (5.0 < 6)",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -22695,7 +22782,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "jw-tm1088788",
@@ -22714,13 +22804,12 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "Action",
       "Ciné+ OCS",
       "Action Max"
     ],
     "logos_chaine": [
-      "assets/logos/action.png",
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/action.png"
     ],
     "duree": "1h 38min",
     "expiration": {
@@ -22751,7 +22840,7 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 2020,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_run_hide_fight.jpg",
     "note_avis": 6.6,
@@ -22760,7 +22849,7 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -22772,7 +22861,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "jw-tm1255330",
@@ -22790,7 +22882,6 @@ const CATALOG_DATA = [
     "note_globale": 7.6,
     "is_eligible": true,
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -22827,7 +22918,7 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 2017,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_the_whiskey_bandit.jpg",
     "note_avis": 7,
@@ -22835,7 +22926,7 @@ const CATALOG_DATA = [
     "note_globale": 7.2,
     "is_eligible": true,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -22848,7 +22939,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "jw-tm244173",
@@ -22867,7 +22961,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -22913,7 +23006,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -22959,7 +23051,6 @@ const CATALOG_DATA = [
     "note_globale": 7.3,
     "is_eligible": true,
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -23004,7 +23095,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "16",
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -23040,7 +23130,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2011,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_the_raid.jpg",
     "note_avis": 8,
@@ -23049,7 +23139,7 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "16",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -23061,7 +23151,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_11_startrek",
@@ -23071,7 +23164,7 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2009,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_star_trek.jpg",
     "note_avis": 8,
@@ -23080,7 +23173,7 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -23092,7 +23185,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_12_voyagesenrivire",
@@ -23102,7 +23198,7 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 2018,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_voyages_en_rivieres.jpg",
     "note_avis": 6.2,
@@ -23110,7 +23206,7 @@ const CATALOG_DATA = [
     "note_globale": 7,
     "is_eligible": true,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -23123,7 +23219,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_13_kontiki",
@@ -23133,7 +23232,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2012,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_kon_tiki.jpg",
     "note_avis": 7.4,
@@ -23141,7 +23240,7 @@ const CATALOG_DATA = [
     "note_globale": 6.9,
     "is_eligible": true,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -23154,7 +23253,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_14_22jumpstreet",
@@ -23164,7 +23266,7 @@ const CATALOG_DATA = [
       "comedie"
     ],
     "annee": 2014,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_22_jump_street.jpg",
     "note_avis": 7,
@@ -23173,7 +23275,7 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "10",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -23185,7 +23287,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_15_21jumpstreet",
@@ -23195,7 +23300,7 @@ const CATALOG_DATA = [
       "comedie"
     ],
     "annee": 2012,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_21_jump_street.jpg",
     "note_avis": 7.2,
@@ -23204,7 +23309,7 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "10",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -23216,7 +23321,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_16_blackbutterfly",
@@ -23226,7 +23334,7 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 2017,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_black_butterfly.jpg",
     "note_avis": 6.2,
@@ -23235,7 +23343,7 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "10",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -23247,7 +23355,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_17_huracn",
@@ -23257,7 +23368,7 @@ const CATALOG_DATA = [
       "drame_emotion"
     ],
     "annee": 2019,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_huracan.jpg",
     "note_avis": 5.8,
@@ -23265,7 +23376,7 @@ const CATALOG_DATA = [
     "note_globale": 6.8,
     "is_eligible": true,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -23278,7 +23389,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "jw-tm288010",
@@ -23297,7 +23411,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -23340,7 +23453,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "10",
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -23374,7 +23486,7 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 2020,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_braquage_de_sang_cut_throat_city.jpg",
     "note_avis": 5.6,
@@ -23382,7 +23494,7 @@ const CATALOG_DATA = [
     "note_globale": 6.8,
     "is_eligible": true,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -23395,7 +23507,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_21_americanfighter",
@@ -23405,7 +23520,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2019,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_american_fighter.jpg",
     "note_avis": 5.6,
@@ -23413,7 +23528,7 @@ const CATALOG_DATA = [
     "note_globale": 6.8,
     "is_eligible": true,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -23426,7 +23541,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "jw-tm141858",
@@ -23445,7 +23563,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -23483,7 +23600,7 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 2019,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_running_with_the_devil.jpg",
     "note_avis": 5.4,
@@ -23492,7 +23609,7 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -23504,7 +23621,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_24_droidwarmonster",
@@ -23514,7 +23634,7 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2020,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_droid_war_monsters_of_man.jpg",
     "note_avis": 5.4,
@@ -23522,7 +23642,7 @@ const CATALOG_DATA = [
     "note_globale": 6.7,
     "is_eligible": true,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -23535,7 +23655,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "jw-tm1029522",
@@ -23554,7 +23677,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "10",
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -23589,7 +23711,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2023,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_traquees_far_haven.jpg",
     "note_avis": 4.4,
@@ -23597,7 +23719,7 @@ const CATALOG_DATA = [
     "note_globale": 6.7,
     "is_eligible": true,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -23610,7 +23732,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "jw-tm428276",
@@ -23628,7 +23753,6 @@ const CATALOG_DATA = [
     "note_globale": 6.9,
     "is_eligible": true,
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -23665,7 +23789,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2023,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_paradox_effect.jpg",
     "note_avis": 4.2,
@@ -23673,7 +23797,7 @@ const CATALOG_DATA = [
     "note_globale": 6.6,
     "is_eligible": true,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -23686,53 +23810,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-tm54029",
-    "titre": "Winter in Wartime",
-    "type": "film",
-    "categories": [
-      "drame_emotion"
-    ],
-    "annee": 2008,
-    "chaine": "Action Max",
-    "logo_chaine": "assets/logos/action.png",
-    "poster": "https://images.justwatch.com/poster/340376732/s592/winter-in-wartime.jpg",
-    "note_avis": 7,
-    "note_recence": 5.8,
-    "note_globale": 6.4,
-    "is_eligible": true,
-    "chaines": [
-      "Action",
-      "Action Max"
-    ],
-    "logos_chaine": [
-      "assets/logos/action.png"
-    ],
-    "badge": null,
-    "duree": "1h 43min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-26",
-      "packageExpirations": {
-        "aca": "2026-09-26"
-      }
     },
     "package_slugs": [
       "aca"
-    ],
-    "runtime_minutes": 103,
-    "etoiles": 3,
-    "raw_genres": [
-      "drm",
-      "hst",
-      "war",
-      "eur"
-    ],
-    "synopsis": "Pendant la Deuxième Guerre mondiale, Michiel, âgé de 14 ans, rentre dans la Résistance, contre l’avis de son père, après avoir apporté son aide à un soldat britannique blessé. Au risque de sa vie et de celle des membres de sa famille, il va tout faire pour sauver ce soldat mais la présence de ce dernier va provoquer une suite d’événements inattendus..."
+    ]
   },
   {
     "id": "action_31_soushauteprotec",
@@ -23742,7 +23823,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2012,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_sous_haute_protection_safe.jpg",
     "note_avis": 6.6,
@@ -23751,7 +23832,7 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -23763,7 +23844,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_32_middleman",
@@ -23773,7 +23857,7 @@ const CATALOG_DATA = [
       "drame_emotion"
     ],
     "annee": 2016,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_middleman.jpg",
     "note_avis": 5.8,
@@ -23781,7 +23865,7 @@ const CATALOG_DATA = [
     "note_globale": 6.5,
     "is_eligible": true,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -23794,7 +23878,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "jw-tm244280",
@@ -23812,7 +23899,6 @@ const CATALOG_DATA = [
     "note_globale": 6.8,
     "is_eligible": true,
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -23850,7 +23936,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2017,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_acts_of_vengeance.jpg",
     "note_avis": 5.6,
@@ -23859,7 +23945,7 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -23871,7 +23957,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "jw-tm353742",
@@ -23890,13 +23979,12 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "10",
     "chaines": [
-      "Action",
       "Ciné+ OCS",
       "Action Max"
     ],
     "logos_chaine": [
-      "assets/logos/action.png",
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/action.png"
     ],
     "duree": "1h 33min",
     "expiration": {
@@ -23938,7 +24026,6 @@ const CATALOG_DATA = [
     "note_globale": 6.3,
     "is_eligible": true,
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -23975,7 +24062,7 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 2021,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_the_yacht.jpg",
     "note_avis": 4.6,
@@ -23983,7 +24070,7 @@ const CATALOG_DATA = [
     "note_globale": 6.5,
     "is_eligible": true,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -23996,7 +24083,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "jw-tm1215900",
@@ -24015,7 +24105,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "16",
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -24051,7 +24140,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2010,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_ip_man_la_legende_est_nee.jpg",
     "note_avis": 6.8,
@@ -24059,7 +24148,7 @@ const CATALOG_DATA = [
     "note_globale": 6.4,
     "is_eligible": true,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -24072,7 +24161,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "jw-tm166714",
@@ -24091,7 +24183,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -24135,7 +24226,6 @@ const CATALOG_DATA = [
     "note_globale": 6.8,
     "is_eligible": true,
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -24173,7 +24263,7 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 2016,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_manipulations.jpg",
     "note_avis": 5.4,
@@ -24182,7 +24272,7 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "10",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -24194,7 +24284,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_43_ussindianapolis",
@@ -24204,7 +24297,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2016,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_uss_indianapolis_men_of_courage.jpg",
     "note_avis": 5.4,
@@ -24212,7 +24305,7 @@ const CATALOG_DATA = [
     "note_globale": 6.3,
     "is_eligible": true,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -24225,7 +24318,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_44_lavengeancedans",
@@ -24235,7 +24331,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2017,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_la_vengeance_dans_le_corps.jpg",
     "note_avis": 5.2,
@@ -24244,7 +24340,7 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "10",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -24256,7 +24352,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_45_insurrection",
@@ -24266,7 +24365,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2020,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_insurrection.jpg",
     "note_avis": 4.6,
@@ -24274,7 +24373,7 @@ const CATALOG_DATA = [
     "note_globale": 6.3,
     "is_eligible": true,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -24287,7 +24386,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "jw-tm858091",
@@ -24306,7 +24408,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "10",
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -24351,7 +24452,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "12",
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -24387,7 +24487,7 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 2006,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_miami_vice_deux_flics_a_miami.jpg",
     "note_avis": 7,
@@ -24396,7 +24496,7 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": null,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -24408,7 +24508,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "jw-tm71598",
@@ -24426,7 +24529,6 @@ const CATALOG_DATA = [
     "note_globale": 6.6,
     "is_eligible": true,
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -24472,7 +24574,6 @@ const CATALOG_DATA = [
     "note_globale": 6.3,
     "is_eligible": true,
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -24510,7 +24611,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2017,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_sky_hunter.jpg",
     "note_avis": 4.8,
@@ -24518,7 +24619,7 @@ const CATALOG_DATA = [
     "note_globale": 6.2,
     "is_eligible": true,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -24531,7 +24632,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_52_sangdacierbleed",
@@ -24541,7 +24645,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2017,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_sang_dacier_bleeding_steel.jpg",
     "note_avis": 4.8,
@@ -24549,7 +24653,7 @@ const CATALOG_DATA = [
     "note_globale": 6.2,
     "is_eligible": true,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -24562,7 +24666,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "jw-tm315397",
@@ -24580,7 +24687,6 @@ const CATALOG_DATA = [
     "note_globale": 6.4,
     "is_eligible": true,
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -24624,13 +24730,12 @@ const CATALOG_DATA = [
     "note_globale": 7.2,
     "is_eligible": true,
     "chaines": [
-      "Action",
       "Ciné+ OCS",
       "Action Max"
     ],
     "logos_chaine": [
-      "assets/logos/action.png",
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/action.png"
     ],
     "badge": "12",
     "duree": "1h 38min",
@@ -24674,7 +24779,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "10",
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -24717,7 +24821,6 @@ const CATALOG_DATA = [
     "note_globale": 6.6,
     "is_eligible": true,
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -24754,7 +24857,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2020,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_cagefighter_worlds_collide.jpg",
     "note_avis": 4.4,
@@ -24762,7 +24865,7 @@ const CATALOG_DATA = [
     "note_globale": 6.2,
     "is_eligible": true,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -24775,7 +24878,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_58_guardiansofthet",
@@ -24785,7 +24891,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2018,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_guardians_of_the_tomb.jpg",
     "note_avis": 4.4,
@@ -24793,7 +24899,7 @@ const CATALOG_DATA = [
     "note_globale": 6.1,
     "is_eligible": true,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -24806,7 +24912,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_59_killmode",
@@ -24816,7 +24925,7 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2020,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_kill_mode.jpg",
     "note_avis": 4.2,
@@ -24824,7 +24933,7 @@ const CATALOG_DATA = [
     "note_globale": 6.1,
     "is_eligible": true,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -24837,7 +24946,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_60_gijoeconspirati",
@@ -24847,7 +24959,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2013,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_gi_joe_conspiration.jpg",
     "note_avis": 5.4,
@@ -24856,7 +24968,7 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "badge": "10",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -24868,7 +24980,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_61_braquagelamrica",
@@ -24878,7 +24993,7 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 2014,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_braquage_a_lamericaine.jpg",
     "note_avis": 5.2,
@@ -24886,7 +25001,7 @@ const CATALOG_DATA = [
     "note_globale": 6,
     "is_eligible": true,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -24899,7 +25014,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_62_gunshy",
@@ -24909,7 +25027,7 @@ const CATALOG_DATA = [
       "comedie"
     ],
     "annee": 2017,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_gun_shy.jpg",
     "note_avis": 4.4,
@@ -24917,7 +25035,7 @@ const CATALOG_DATA = [
     "note_globale": 6,
     "is_eligible": true,
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -24930,7 +25048,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "jw-tm471635",
@@ -24948,7 +25069,6 @@ const CATALOG_DATA = [
     "note_globale": 6.2,
     "is_eligible": true,
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -24985,7 +25105,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2021,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_vanquish.jpg",
     "note_avis": 3.4,
@@ -24995,7 +25115,7 @@ const CATALOG_DATA = [
     "badge": "16",
     "exclusion": "Avis (3.4 < 4), Globale (5.9 <",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -25007,7 +25127,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_2_gijoelerveilduc",
@@ -25017,7 +25140,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2009,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_gi_joe_le_reveil_du_cobra.jpg",
     "note_avis": 5.6,
@@ -25027,7 +25150,7 @@ const CATALOG_DATA = [
     "badge": null,
     "exclusion": "Globale (5.8 < 6)",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -25039,7 +25162,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "jw-tm152893",
@@ -25059,7 +25185,6 @@ const CATALOG_DATA = [
     "badge": null,
     "exclusion": "Globale (5.8 < 6)",
     "chaines": [
-      "Action",
       "Action Max"
     ],
     "logos_chaine": [
@@ -25095,7 +25220,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2015,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_riot_enfer_carceral.jpg",
     "note_avis": 4.6,
@@ -25104,7 +25229,7 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Globale (5.8 < 6)",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -25117,7 +25242,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_5_tolrancezro",
@@ -25127,7 +25255,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2004,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_tolerance_zero.jpg",
     "note_avis": 6.4,
@@ -25136,7 +25264,7 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Globale (5.6 < 6)",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -25149,7 +25277,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_6_missionvasion",
@@ -25159,7 +25290,7 @@ const CATALOG_DATA = [
       "drame_emotion"
     ],
     "annee": 2002,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_mission_evasion.jpg",
     "note_avis": 6.6,
@@ -25168,7 +25299,7 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Globale (5.5 < 6)",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -25181,7 +25312,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_7_trigonalfightfo",
@@ -25191,7 +25325,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2018,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_trigonal_fight_for_justice.jpg",
     "note_avis": 3.4,
@@ -25200,7 +25334,7 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Avis (3.4 < 4), Globale (5.5 <",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -25213,7 +25347,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_8_lalgendedescrne",
@@ -25223,7 +25360,7 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 2014,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_la_legende_des_cranes_de_cristal.jpg",
     "note_avis": 3.8,
@@ -25232,7 +25369,7 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Avis (3.8 < 4), Globale (5.3 <",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -25245,7 +25382,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_9_leprixdusang",
@@ -25255,7 +25395,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2008,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_le_prix_du_sang.jpg",
     "note_avis": 4.8,
@@ -25264,7 +25404,7 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Globale (5.2 < 6)",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -25277,7 +25417,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_10_jeufatal",
@@ -25287,7 +25430,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2008,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_jeu_fatal.jpg",
     "note_avis": 4.6,
@@ -25296,7 +25439,7 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Globale (5.2 < 6)",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -25309,7 +25452,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_11_banlieueinterdi",
@@ -25319,7 +25465,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2010,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_banlieue_interdite.jpg",
     "note_avis": 4.2,
@@ -25328,7 +25474,7 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Globale (5.1 < 6)",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -25341,7 +25487,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_12_crimesensrie",
@@ -25351,7 +25500,7 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 1999,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_crimes_en_serie.jpg",
     "note_avis": 6,
@@ -25360,7 +25509,7 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Récence (3.9 < 4), Globale",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -25373,7 +25522,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_13_americanoutlaws",
@@ -25383,7 +25535,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2001,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_american_outlaws.jpg",
     "note_avis": 5.4,
@@ -25393,7 +25545,7 @@ const CATALOG_DATA = [
     "badge": null,
     "exclusion": "Globale (4.8 < 6)",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -25405,7 +25557,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_14_airforce2",
@@ -25415,7 +25570,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 2006,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_air_force_2.jpg",
     "note_avis": 4.2,
@@ -25424,7 +25579,7 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Globale (4.8 < 6)",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -25437,7 +25592,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_15_wildbill",
@@ -25447,7 +25605,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 1995,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_wild_bill.jpg",
     "note_avis": 6.2,
@@ -25456,7 +25614,7 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Récence (3.1 < 4), Globale",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -25469,7 +25627,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_16_lvaddalcatraz",
@@ -25479,7 +25640,7 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 1979,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_levade_dalcatraz.jpg",
     "note_avis": 8,
@@ -25489,7 +25650,7 @@ const CATALOG_DATA = [
     "badge": null,
     "exclusion": "Récence (0.9 < 4), Globale",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -25501,7 +25662,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_17_roadhouse",
@@ -25511,7 +25675,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 1989,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_road_house.jpg",
     "note_avis": 7,
@@ -25521,7 +25685,7 @@ const CATALOG_DATA = [
     "badge": "10",
     "exclusion": "Récence (1.9 < 4), Globale",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -25533,7 +25697,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_18_labatailledemid",
@@ -25543,7 +25710,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 1976,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_la_bataille_de_midway.jpg",
     "note_avis": 6.8,
@@ -25552,7 +25719,7 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Récence (0.6 < 4), Globale",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -25565,7 +25732,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_19_labatailledangl",
@@ -25575,7 +25745,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 1969,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_la_bataille_dangleterre.jpg",
     "note_avis": 7.2,
@@ -25584,7 +25754,7 @@ const CATALOG_DATA = [
     "is_eligible": false,
     "exclusion": "Récence (0.1 < 4), Globale",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -25597,7 +25767,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_20_ostermanweekend",
@@ -25607,7 +25780,7 @@ const CATALOG_DATA = [
       "thriller_policier"
     ],
     "annee": 1983,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_osterman_weekend.jpg",
     "note_avis": 6,
@@ -25617,7 +25790,7 @@ const CATALOG_DATA = [
     "badge": "10",
     "exclusion": "Récence (1.3 < 4), Globale",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -25629,7 +25802,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_21_blastfighterlex",
@@ -25639,7 +25815,7 @@ const CATALOG_DATA = [
       "action_aventure"
     ],
     "annee": 1984,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_blastfighter_lexecuteur.jpg",
     "note_avis": 5.6,
@@ -25649,7 +25825,7 @@ const CATALOG_DATA = [
     "badge": "12",
     "exclusion": "Récence (1.4 < 4), Globale",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -25661,7 +25837,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "action_22_highlanderleret",
@@ -25671,7 +25850,7 @@ const CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "annee": 1991,
-    "chaine": "Action",
+    "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
     "poster": "assets/posters/poster_action_highlander_le_retour.jpg",
     "note_avis": 3.8,
@@ -25681,7 +25860,7 @@ const CATALOG_DATA = [
     "badge": "10",
     "exclusion": "Avis (3.8 < 4), Récence (2.2 <",
     "chaines": [
-      "Action"
+      "Action Max"
     ],
     "logos_chaine": [
       "assets/logos/action.png"
@@ -25693,7 +25872,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aca"
+    ]
   },
   {
     "id": "jw-tm1248245",
@@ -25714,11 +25896,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/323320183/s592/sonic-the-hedgehog-3.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 50min",
@@ -25749,7 +25929,7 @@ const CATALOG_DATA = [
     "id": "maya-donne-moi-un-titre-film",
     "titre": "Maya, donne-moi un titre",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2024,
@@ -25762,12 +25942,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/maya-donne-moi-un-titre.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 01min",
     "expiration": {
@@ -25776,13 +25956,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "diplodocus-film",
     "titre": "Diplodocus",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2024,
@@ -25795,12 +25978,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/diplodocus.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 33min",
     "expiration": {
@@ -25809,7 +25992,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm207719",
@@ -25830,11 +26016,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/188185379/s592/la-tortue-rouge.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 21min",
@@ -25866,7 +26050,7 @@ const CATALOG_DATA = [
     "id": "heidi-et-le-lynx-des-montagnes-film",
     "titre": "Heidi et le lynx des montagnes",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2024,
@@ -25879,12 +26063,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/heidi-et-le-lynx-des-montagnes.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 19min",
     "expiration": {
@@ -25893,13 +26077,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "tafiti-voyage-a-travers-le-desert-film",
     "titre": "Tafiti : Voyage à travers le désert",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2024,
@@ -25912,12 +26099,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/tafiti-voyage-a-travers-le-desert.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 20min",
     "expiration": {
@@ -25926,13 +26113,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "olivia-film",
     "titre": "Olivia",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2024,
@@ -25945,12 +26135,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/olivia.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 11min",
     "expiration": {
@@ -25959,7 +26149,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm143992",
@@ -25980,11 +26173,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/150681789/s592/le-petit-prince.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 48min",
@@ -26033,11 +26224,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/211573521/s592/les-blagues-de-toto.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 24min",
@@ -26080,11 +26269,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/10619167/s592/bigfoot-junior.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 32min",
@@ -26130,11 +26317,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/322821124/s592/swallows-and-amazons.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 37min",
@@ -26179,11 +26364,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/34260465/s592/robinson-crusoe.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 30min",
@@ -26229,11 +26412,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/80270152/s592/mr-frog.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 23min",
@@ -26263,7 +26444,7 @@ const CATALOG_DATA = [
     "id": "operation-casse-noisette-2-film",
     "titre": "Opération Casse-noisette 2",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2017,
@@ -26276,12 +26457,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/operation-casse-noisette-2.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 31min",
     "expiration": {
@@ -26290,7 +26471,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-tm154797",
@@ -26311,11 +26495,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/31584310/s592/operation-casse-noisette.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 25min",
@@ -26361,11 +26543,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/309279884/s592/alvin-et-les-chipmunks-a-fond-la-caisse.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 32min",
@@ -26397,7 +26577,7 @@ const CATALOG_DATA = [
     "id": "alvin-et-les-chipmunks-3-film",
     "titre": "Alvin et les Chipmunks 3",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2011,
@@ -26410,12 +26590,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/alvin-et-les-chipmunks-3.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 27min",
     "expiration": {
@@ -26424,13 +26604,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "alvin-et-les-chipmunks-2-film",
     "titre": "Alvin et les Chipmunks 2",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2009,
@@ -26443,12 +26626,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/alvin-et-les-chipmunks-2.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 30min",
     "expiration": {
@@ -26457,13 +26640,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "alvin-et-les-chipmunks-film",
     "titre": "Alvin et les Chipmunks",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 2007,
@@ -26476,12 +26662,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/alvin-et-les-chipmunks.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 30min",
     "expiration": {
@@ -26490,13 +26676,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "les-voyages-de-gulliver-film",
     "titre": "Les Voyages de Gulliver",
     "type": "film",
-    "chaine": "Ciné+ Family",
+    "chaine": "Ciné+ OCS",
     "section": "Films",
     "position": "Films — Ciné+ Family",
     "annee": 1939,
@@ -26509,12 +26698,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/les-voyages-de-gulliver.jpg",
-    "logo_chaine": "assets/logos/cine_family.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ Family"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_family.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 16min",
     "expiration": {
@@ -26523,7 +26712,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-ts282248",
@@ -26544,11 +26736,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/306350704/s592/resident-alien.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "44 min/ép.",
@@ -26577,7 +26767,7 @@ const CATALOG_DATA = [
     "id": "the-librarians-l-heritage-de-flynn-carson-serie",
     "titre": "The Librarians : L'Héritage de Flynn Carson",
     "type": "serie",
-    "chaine": "SCIFI",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries — SCIFI",
     "annee": 2024,
@@ -26590,12 +26780,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/the-librarians-l-heritage-de-flynn-carson.jpg",
-    "logo_chaine": "assets/logos/scifi.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "44min",
     "expiration": {
@@ -26604,7 +26794,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-ts364655",
@@ -26625,11 +26818,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/320293659/s592/arcadia.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "46 min/ép.",
@@ -26657,7 +26848,7 @@ const CATALOG_DATA = [
     "id": "les-chroniques-de-spiderwick-serie",
     "titre": "Les Chroniques de Spiderwick",
     "type": "serie",
-    "chaine": "SCIFI",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries — SCIFI",
     "annee": 2024,
@@ -26670,12 +26861,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/les-chroniques-de-spiderwick.jpg",
-    "logo_chaine": "assets/logos/scifi.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "46min",
     "expiration": {
@@ -26684,7 +26875,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-ts341648",
@@ -26692,8 +26886,6 @@ const CATALOG_DATA = [
     "type": "serie",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "OCS",
-      "SCIFI",
       "Ciné+ OCS"
     ],
     "section": "Séries",
@@ -26710,8 +26902,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/302903963/s592/the-lazarus-project-2022.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/ocs.png",
-      "assets/logos/scifi.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "44 min/ép.",
@@ -26742,7 +26932,7 @@ const CATALOG_DATA = [
     "id": "revival-serie",
     "titre": "Revival",
     "type": "serie",
-    "chaine": "SCIFI",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries — SCIFI",
     "annee": 2024,
@@ -26755,12 +26945,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "assets/posters/revival.jpg",
-    "logo_chaine": "assets/logos/scifi.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "44min",
     "expiration": {
@@ -26769,7 +26959,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-ts419701",
@@ -26790,11 +26983,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/311577152/s592/domino-day.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "43 min/ép.",
@@ -26823,7 +27014,7 @@ const CATALOG_DATA = [
     "id": "la-guerre-des-royaumes-serie",
     "titre": "La Guerre des royaumes",
     "type": "serie",
-    "chaine": "SCIFI",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries — SCIFI",
     "annee": 2023,
@@ -26836,12 +27027,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/la-guerre-des-royaumes.jpg",
-    "logo_chaine": "assets/logos/scifi.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "46min",
     "expiration": {
@@ -26850,7 +27041,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-ts251372",
@@ -26871,11 +27065,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/270393625/s592/surrealestate.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "42 min/ép.",
@@ -26905,7 +27097,7 @@ const CATALOG_DATA = [
     "id": "wreck-serie",
     "titre": "Wreck",
     "type": "serie",
-    "chaine": "SCIFI",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries — SCIFI",
     "annee": 2022,
@@ -26918,12 +27110,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "assets/posters/wreck.jpg",
-    "logo_chaine": "assets/logos/scifi.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "46min",
     "expiration": {
@@ -26932,7 +27124,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-ts408573",
@@ -26953,11 +27148,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/323292152/s592/generation-z.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "46 min/ép.",
@@ -27000,11 +27193,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/350977660/s592/the-ministry-of-time.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "68 min/ép.",
@@ -27048,11 +27239,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/332515549/s592/brave-new-world.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "44 min/ép.",
@@ -27096,11 +27285,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/46451309/s592/timeless.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "45 min/ép.",
@@ -27144,11 +27331,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/298710176/s592/the-magicians.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "44 min/ép.",
@@ -27192,11 +27377,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/321851541/s592/reginald-the-vampire.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "43 min/ép.",
@@ -27239,11 +27422,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/348700590/s592/the-ark.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "43 min/ép.",
@@ -27287,11 +27468,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/177737631/s592/les-chroniques-de-shannara.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "41 min/ép.",
@@ -27337,11 +27516,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/49637074/s592/grimm.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "47 min/ép.",
@@ -27389,11 +27566,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/88941736/s592/midnight-texas.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "42 min/ép.",
@@ -27437,11 +27612,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/331775335/s592/the-librarians.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "43 min/ép.",
@@ -27486,11 +27659,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/321975374/s592/childhoods-end-les-enfants-dicare.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "81 min/ép.",
@@ -27534,11 +27705,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/83258443/s592/powers.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "43 min/ép.",
@@ -27584,11 +27753,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/159744834/s592/battlestar-galactica.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "49 min/ép.",
@@ -27632,11 +27799,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/293327370/s592/heroes.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "43 min/ép.",
@@ -27680,11 +27845,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/302382771/s592/warehouse-13.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "44 min/ép.",
@@ -27715,7 +27878,7 @@ const CATALOG_DATA = [
     "id": "spides-we-come-in-peace-serie",
     "titre": "Spides (We Come in Peace)",
     "type": "serie",
-    "chaine": "SCIFI",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries — SCIFI",
     "annee": 2020,
@@ -27728,12 +27891,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/spides-we-come-in-peace.jpg",
-    "logo_chaine": "assets/logos/scifi.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 00min",
     "expiration": {
@@ -27742,13 +27905,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "stargate-atlantis-serie",
     "titre": "Stargate Atlantis",
     "type": "serie",
-    "chaine": "SCIFI",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries — SCIFI",
     "annee": 2004,
@@ -27761,12 +27927,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/stargate-atlantis.jpg",
-    "logo_chaine": "assets/logos/scifi.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "43min",
     "expiration": {
@@ -27775,7 +27941,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-ts21672",
@@ -27796,11 +27965,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/293310325/s592/heroes-reborn.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "SCIFI",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "43 min/ép.",
@@ -27828,7 +27995,7 @@ const CATALOG_DATA = [
     "id": "alerte-tsunamis-tsunami-the-aftermath-serie",
     "titre": "Alerte tsunamis (Tsunami: The Aftermath)",
     "type": "serie",
-    "chaine": "SCIFI",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries — SCIFI",
     "annee": 2006,
@@ -27841,12 +28008,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": false,
     "poster": "assets/posters/alerte-tsunamis-tsunami-the-aftermath.jpg",
-    "logo_chaine": "assets/logos/scifi.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 28min",
     "expiration": {
@@ -27855,13 +28022,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "code-quantum-quantum-leap-serie",
     "titre": "Code Quantum (Quantum Leap)",
     "type": "serie",
-    "chaine": "SCIFI",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries — SCIFI",
     "annee": 1989,
@@ -27874,12 +28044,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": false,
     "poster": "assets/posters/code-quantum-quantum-leap.jpg",
-    "logo_chaine": "assets/logos/scifi.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "SCIFI"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/scifi.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "53min",
     "expiration": {
@@ -27888,7 +28058,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-ts403754",
@@ -27909,11 +28082,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/308890678/s592/follow.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "13ème RUE",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "40 min/ép.",
@@ -27955,11 +28126,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/311544406/s592/wild-cards.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "13ème RUE",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "42 min/ép.",
@@ -27989,7 +28158,7 @@ const CATALOG_DATA = [
     "id": "patience-serie",
     "titre": "Patience",
     "type": "serie",
-    "chaine": "13ème RUE",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • 13ème RUE",
     "annee": 2024,
@@ -28002,12 +28171,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/patience.jpg",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "48min",
     "expiration": {
@@ -28016,7 +28185,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-ts391377",
@@ -28037,11 +28209,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/348762404/s592/toronto-section-criminelle.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "13ème RUE",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "44 min/ép.",
@@ -28086,11 +28256,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/313014137/s592/new-york-crime-organise.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "13ème RUE",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "42 min/ép.",
@@ -28135,11 +28303,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/243050141/s592/grace.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "13ème RUE",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "89 min/ép.",
@@ -28167,7 +28333,7 @@ const CATALOG_DATA = [
     "id": "professor-t-serie",
     "titre": "Professor T",
     "type": "serie",
-    "chaine": "13ème RUE",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • 13ème RUE",
     "annee": 2021,
@@ -28180,12 +28346,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/professor-t.jpg",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "46min",
     "expiration": {
@@ -28194,7 +28360,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-ts328439",
@@ -28215,11 +28384,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/340527320/s592/harry-wild.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "13ème RUE",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "45 min/ép.",
@@ -28249,7 +28416,7 @@ const CATALOG_DATA = [
     "id": "knok-serie",
     "titre": "Knok",
     "type": "serie",
-    "chaine": "13ème RUE",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • 13ème RUE",
     "annee": 2023,
@@ -28262,12 +28429,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/knok.jpg",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "43min",
     "expiration": {
@@ -28276,13 +28443,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "allegeance-serie",
     "titre": "Allégeance",
     "type": "serie",
-    "chaine": "13ème RUE",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • 13ème RUE",
     "annee": 2024,
@@ -28295,12 +28465,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/allegeance.jpg",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "44min",
     "expiration": {
@@ -28309,13 +28479,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "factice-serie",
     "titre": "Factice",
     "type": "serie",
-    "chaine": "13ème RUE",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • 13ème RUE",
     "annee": 2024,
@@ -28328,12 +28501,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/factice.jpg",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "41min",
     "expiration": {
@@ -28342,13 +28515,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "new-york-police-judiciaire-2022-serie",
     "titre": "New York, police judiciaire (2022)",
     "type": "serie",
-    "chaine": "13ème RUE",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • 13ème RUE",
     "annee": 2022,
@@ -28361,12 +28537,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/new-york-police-judiciaire-2022.jpg",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "42min",
     "expiration": {
@@ -28375,13 +28551,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "in-flight-serie",
     "titre": "In Flight",
     "type": "serie",
-    "chaine": "13ème RUE",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • 13ème RUE",
     "annee": 2024,
@@ -28394,12 +28573,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "assets/posters/in-flight.jpg",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "46min",
     "expiration": {
@@ -28408,7 +28587,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-ts234938",
@@ -28429,11 +28611,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/320919897/s592/family-law.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "13ème RUE",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "43 min/ép.",
@@ -28463,7 +28643,7 @@ const CATALOG_DATA = [
     "id": "les-enquetes-de-pearl-nolan-serie",
     "titre": "Les Enquêtes de Pearl Nolan",
     "type": "serie",
-    "chaine": "13ème RUE",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • 13ème RUE",
     "annee": 2021,
@@ -28476,12 +28656,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/les-enquetes-de-pearl-nolan.jpg",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "48min",
     "expiration": {
@@ -28490,7 +28670,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-ts345743",
@@ -28511,11 +28694,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/301738382/s592/cuisine-interne.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "13ème RUE",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "41 min/ép.",
@@ -28555,11 +28736,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/208662554/s592/le-voyageur.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "13ème RUE",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "91 min/ép.",
@@ -28603,11 +28782,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/323290962/s592/my-life-is-murder.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "13ème RUE",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "44 min/ép.",
@@ -28635,7 +28812,7 @@ const CATALOG_DATA = [
     "id": "chicago-p-d-serie",
     "titre": "Chicago P.D.",
     "type": "serie",
-    "chaine": "13ème RUE",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • 13ème RUE",
     "annee": 2014,
@@ -28648,12 +28825,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/chicago-p-d.jpg",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "44min",
     "expiration": {
@@ -28662,7 +28839,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-ts89453",
@@ -28683,11 +28863,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/347339448/s592/hudson-et-rex.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "13ème RUE",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "42 min/ép.",
@@ -28715,7 +28893,7 @@ const CATALOG_DATA = [
     "id": "trauma-serie",
     "titre": "Trauma",
     "type": "serie",
-    "chaine": "13ème RUE",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • 13ème RUE",
     "annee": 2019,
@@ -28728,12 +28906,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/trauma.jpg",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "45min",
     "expiration": {
@@ -28742,7 +28920,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-ts344169",
@@ -28763,11 +28944,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/326187647/s592/almost-paradise.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "13ème RUE",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "44 min/ép.",
@@ -28811,11 +28990,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/282105101/s592/marion-2022.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "13ème RUE",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "42 min/ép.",
@@ -28841,7 +29018,7 @@ const CATALOG_DATA = [
     "id": "j-ai-tue-mon-mari-serie",
     "titre": "J'ai tué mon mari",
     "type": "serie",
-    "chaine": "13ème RUE",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • 13ème RUE",
     "annee": 2021,
@@ -28854,12 +29031,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/j-ai-tue-mon-mari.jpg",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "45min",
     "expiration": {
@@ -28868,13 +29045,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "les-petits-meurtres-d-agatha-christie-serie",
     "titre": "Les Petits Meurtres d'Agatha Christie",
     "type": "serie",
-    "chaine": "13ème RUE",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • 13ème RUE",
     "annee": 2009,
@@ -28887,12 +29067,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/les-petits-meurtres-d-agatha-christie.jpg",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 30min",
     "expiration": {
@@ -28901,13 +29081,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "motive-serie",
     "titre": "Motive",
     "type": "serie",
-    "chaine": "13ème RUE",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • 13ème RUE",
     "annee": 2013,
@@ -28920,12 +29103,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/motive.jpg",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "44min",
     "expiration": {
@@ -28934,7 +29117,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-ts11846",
@@ -28955,11 +29141,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/270392445/s592/candice-renoir.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "13ème RUE",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "53 min/ép.",
@@ -28989,7 +29173,7 @@ const CATALOG_DATA = [
     "id": "aurora-teagarden-serie",
     "titre": "Aurora Teagarden",
     "type": "serie",
-    "chaine": "13ème RUE",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • 13ème RUE",
     "annee": 2015,
@@ -29002,12 +29186,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/aurora-teagarden.jpg",
-    "logo_chaine": "assets/logos/13eme_rue.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "13ème RUE"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 24min",
     "expiration": {
@@ -29016,7 +29200,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-ts76577",
@@ -29037,11 +29224,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/30000665/s592/le-sang-de-la-vigne.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
-      "13ème RUE",
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/13eme_rue.png",
       "assets/logos/universal_plus.svg"
     ],
     "duree": "92 min/ép.",
@@ -29085,11 +29270,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/301234738/s592/la-nuit-ou-laurier-gaudreault-sest-reveille.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "59 min/ép.",
@@ -29130,11 +29313,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/341603922/s592/the-narrow-road-to-the-deep-north.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "43 min/ép.",
@@ -29163,7 +29344,7 @@ const CATALOG_DATA = [
     "id": "les-sartori-une-histoire-italienne-la-storia-serie",
     "titre": "Les Sartori : Une histoire italienne (La Storia)",
     "type": "serie",
-    "chaine": "OCS",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • OCS",
     "annee": 2024,
@@ -29176,12 +29357,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "assets/posters/les-sartori-une-histoire-italienne-la-storia.jpg",
-    "logo_chaine": "assets/logos/ocs.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "50min",
     "expiration": {
@@ -29190,7 +29371,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-ts372993",
@@ -29211,11 +29395,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/321726869/s592/joan.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "47 min/ép.",
@@ -29256,11 +29438,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/332271589/s592/aspergirl.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "20 min/ép.",
@@ -29301,11 +29481,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/338473116/s592/spartacus-house-of-ashur.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "58 min/ép.",
@@ -29346,11 +29524,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/335509057/s592/twisted-metal.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "31 min/ép.",
@@ -29383,7 +29559,7 @@ const CATALOG_DATA = [
     "id": "monsieur-spade-serie",
     "titre": "Monsieur Spade",
     "type": "serie",
-    "chaine": "OCS",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • OCS",
     "annee": 2024,
@@ -29396,12 +29572,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/monsieur-spade.jpg",
-    "logo_chaine": "assets/logos/ocs.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "56min",
     "expiration": {
@@ -29410,7 +29586,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-ts310736",
@@ -29431,11 +29610,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/301125968/s592/marie-antoinette-2022.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "53 min/ép.",
@@ -29479,11 +29656,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/305454437/s592/the-walking-dead-dead-city.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "48 min/ép.",
@@ -29527,11 +29702,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/317049489/s592/archie.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "46 min/ép.",
@@ -29573,11 +29746,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/304154059/s592/funny-woman.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "47 min/ép.",
@@ -29602,7 +29773,7 @@ const CATALOG_DATA = [
     "id": "pecheresses-serie",
     "titre": "Pécheresses",
     "type": "serie",
-    "chaine": "OCS",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • OCS",
     "annee": 2024,
@@ -29615,12 +29786,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/pecheresses.jpg",
-    "logo_chaine": "assets/logos/ocs.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "26min",
     "expiration": {
@@ -29629,13 +29800,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "extra-serie",
     "titre": "Extra.",
     "type": "serie",
-    "chaine": "OCS",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • OCS",
     "annee": 2023,
@@ -29648,12 +29822,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/extra.jpg",
-    "logo_chaine": "assets/logos/ocs.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "13min",
     "expiration": {
@@ -29662,13 +29836,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "la-famille-rose-serie",
     "titre": "La Famille Rose",
     "type": "serie",
-    "chaine": "OCS",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • OCS",
     "annee": 2024,
@@ -29681,12 +29858,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "assets/posters/la-famille-rose.jpg",
-    "logo_chaine": "assets/logos/ocs.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "39min",
     "expiration": {
@@ -29695,7 +29872,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-ts329600",
@@ -29716,11 +29896,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/315984614/s592/hotel-cocaine.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "51 min/ép.",
@@ -29747,7 +29925,7 @@ const CATALOG_DATA = [
     "id": "deep-serie",
     "titre": "Deep",
     "type": "serie",
-    "chaine": "OCS",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • OCS",
     "annee": 2026,
@@ -29760,12 +29938,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "assets/posters/deep.jpg",
-    "logo_chaine": "assets/logos/ocs.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "26min",
     "expiration": {
@@ -29774,7 +29952,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-ts346531",
@@ -29795,11 +29976,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/302552922/s592/el-inmortal-gangs-of-madrid.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "47 min/ép.",
@@ -29826,7 +30005,7 @@ const CATALOG_DATA = [
     "id": "extra-lucide-serie",
     "titre": "Extra Lucide",
     "type": "serie",
-    "chaine": "OCS",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • OCS",
     "annee": 2023,
@@ -29839,12 +30018,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "assets/posters/extra-lucide.jpg",
-    "logo_chaine": "assets/logos/ocs.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "30min",
     "expiration": {
@@ -29853,13 +30032,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "au-pair-serie",
     "titre": "Au Pair",
     "type": "serie",
-    "chaine": "OCS",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • OCS",
     "annee": 2024,
@@ -29872,12 +30054,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "assets/posters/au-pair.jpg",
-    "logo_chaine": "assets/logos/ocs.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "45min",
     "expiration": {
@@ -29886,13 +30068,16 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "orphan-black-echoes-serie",
     "titre": "Orphan Black: Echoes",
     "type": "serie",
-    "chaine": "OCS",
+    "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • OCS",
     "annee": 2023,
@@ -29905,12 +30090,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "assets/posters/orphan-black-echoes.jpg",
-    "logo_chaine": "assets/logos/ocs.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "46min",
     "expiration": {
@@ -29919,7 +30104,10 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "package_slugs": [
+      "aoc"
+    ]
   },
   {
     "id": "jw-ts284263",
@@ -29940,11 +30128,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/302948038/s592/django.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "OCS",
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/ocs.png",
       "assets/logos/cine_ocs.svg"
     ],
     "duree": "52 min/ép.",
@@ -34296,10 +34482,10 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/191777384/s592/acts-of-vengeance.jpg",
     "synopsis": "Un avocat fait vœu de silence jusqu'à ce qu'il découvre qui a tué sa femme et sa fille et qu'il se venge.",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 155,
-      "expirationDate": "2027-02-28",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
@@ -40005,48 +40191,6 @@ const CATALOG_DATA = [
     }
   },
   {
-    "id": "jw-tm1625670",
-    "titre": "En première ligne, le reporter au cinéma",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2025,
-    "duree": "52min",
-    "runtime_minutes": 52,
-    "note_avis": 8,
-    "note_recence": 9.8,
-    "note_globale": 8.9,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/330110913/s592/en-premiere-ligne-le-reporter-au-cinema.jpg",
-    "synopsis": "A l'heure où le journalisme subit une crise de confiance de la part du public, où il se précarise, où la notion de vérité se voit contestée par les fake news, le reporter ne quitte pas pour autant les écrans de cinéma. Josephine Lebard interroge la façon dont le cinéma donne à voir le journaliste, et, en creux, la vitalité des démocraties, à travers de nombreux témoignages, analyses et extraits de films.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-26",
-      "packageExpirations": {
-        "aoc": "2026-09-26"
-      }
-    }
-  },
-  {
     "id": "jw-tm1594094",
     "titre": "Continental ’25",
     "type": "film",
@@ -44467,50 +44611,6 @@ const CATALOG_DATA = [
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
-      }
-    }
-  },
-  {
-    "id": "jw-tm72625",
-    "titre": "Drôle de prof",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2012,
-    "duree": "1h 21min",
-    "runtime_minutes": 81,
-    "note_avis": 6.7,
-    "note_recence": 6.8,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fml",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/307170233/s592/mees-kees.jpg",
-    "synopsis": "L’arrivée de Sub. Sam, comme le surnomment rapidement les enfants, n’aurait pas pu tomber à un meilleur moment pour Tobias. C’est parce que Tobias est intelligent, de nature enjouée et très drôle, mais Mademoiselle Sanne ne s’en rendait pas compte. Elle ne voyait que les problèmes. C’est vrai, son père est mort et sa mère passe ses journées au lit, mais Tobias ne veut pas y penser à l’école. Et avec le nouveau maître, il n’y est plus obligé…",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-26",
-      "packageExpirations": {
-        "aoc": "2026-09-26"
       }
     }
   },
@@ -54887,6 +54987,353 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
+    }
+  },
+  {
+    "id": "jw-tm1492557",
+    "titre": "Heretic",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2024,
+    "duree": "1h 51min",
+    "runtime_minutes": 111,
+    "note_avis": 7,
+    "note_recence": 9.5,
+    "note_globale": 8.3,
+    "etoiles": 5,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/322792094/s592/heretic.jpg",
+    "synopsis": "Deux jeunes missionnaires mormones se rendent chez M. Reed, un homme excentrique, pour prêcher et tenter de le convertir. Ce dernier va cependant s'avérer bien plus dangereux qu'elles n'auraient pu l'imaginer.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-26",
+      "packageExpirations": {
+        "aoc": "2026-09-26"
+      }
+    }
+  },
+  {
+    "id": "jw-tm1471586",
+    "titre": "En fanfare",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2024,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 7.4,
+    "note_recence": 9.5,
+    "note_globale": 8.5,
+    "etoiles": 5,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "msc"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/321213107/s592/en-fanfare.jpg",
+    "synopsis": "Thibaut est un chef d’orchestre de renommée internationale qui parcourt le monde. Lorsqu’il apprend qu’il a été adopté, il découvre l’existence d’un frère, Jimmy, employé de cantine scolaire et qui joue du trombone dans une fanfare du nord de la France. En apparence tout les sépare, sauf l’amour de la musique. Détectant les capacités musicales exceptionnelles de son frère, Thibaut se donne pour mission de réparer l’injustice du destin. Jimmy se prend alors à rêver d’une autre vie…",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-26",
+      "packageExpirations": {
+        "aoc": "2026-09-26"
+      }
+    }
+  },
+  {
+    "id": "jw-tm1496579",
+    "titre": "Rabia",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2024,
+    "duree": "1h 35min",
+    "runtime_minutes": 95,
+    "note_avis": 6.2,
+    "note_recence": 9.5,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/327306116/s592/rabia-2024.jpg",
+    "synopsis": "Poussée par les promesses d’une nouvelle vie, Jessica, une française de 19 ans, part pour la Syrie rejoindre Daech. Arrivée à Raqqa, elle intègre une maison de futures épouses de combattants et se retrouve vite prisonnière de Madame, la charismatique Directrice qui tient les lieux d’une main de fer. Inspiré de faits réels.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-26",
+      "packageExpirations": {
+        "aoc": "2026-09-26"
+      }
+    }
+  },
+  {
+    "id": "jw-tm1502666",
+    "titre": "Les Boules de Noël",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2024,
+    "duree": "1h 30min",
+    "runtime_minutes": 90,
+    "note_avis": 4.2,
+    "note_recence": 9.5,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/322519480/s592/les-boules-de-noel.jpg",
+    "synopsis": "Pour la famille de Nathalie et Antonin, chaque année, le réveillon de Noël vire au cauchemar. Convaincue qu’elle est victime d’une malédiction, Nathalie prend une décision radicale : cette année on ne le fêtera pas ! Mais c’est sans compter sur Antonin et ses enfants qui décident de reprendre les choses en mains en invitant Nicole, la sœur de Nathalie qu’elle a perdue de vue. Entre les rivalités latentes et les frustrations accumulées, ce réveillon va devenir le plus cruel et le plus explosif de tous !",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-26",
+      "packageExpirations": {
+        "aoc": "2026-09-26"
+      }
+    }
+  },
+  {
+    "id": "jw-tm1625670",
+    "titre": "En première ligne, le reporter au cinéma",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2025,
+    "duree": "52min",
+    "runtime_minutes": 52,
+    "note_avis": 8,
+    "note_recence": 9.8,
+    "note_globale": 8.9,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/330110913/s592/en-premiere-ligne-le-reporter-au-cinema.jpg",
+    "synopsis": "A l'heure où le journalisme subit une crise de confiance de la part du public, où il se précarise, où la notion de vérité se voit contestée par les fake news, le reporter ne quitte pas pour autant les écrans de cinéma. Josephine Lebard interroge la façon dont le cinéma donne à voir le journaliste, et, en creux, la vitalité des démocraties, à travers de nombreux témoignages, analyses et extraits de films.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-26",
+      "packageExpirations": {
+        "aoc": "2026-09-26"
+      }
+    }
+  },
+  {
+    "id": "jw-tm1481590",
+    "titre": "Animale",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2024,
+    "duree": "1h 38min",
+    "runtime_minutes": 98,
+    "note_avis": 5.7,
+    "note_recence": 9.5,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "fnt",
+      "hrr"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/326322553/s592/animale.jpg",
+    "synopsis": "Nejma s’entraine dur pour réaliser son rêve et remporter la prochaine course camarguaise, un concours où l’on défie les taureaux dans l’arène. Mais alors que la saison bat son plein, des disparitions suspectes inquiètent les habitants. Très vite la rumeur se propage : une bête sauvage rôde…",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-26",
+      "packageExpirations": {
+        "aoc": "2026-09-26"
+      }
+    }
+  },
+  {
+    "id": "jw-tm72625",
+    "titre": "Drôle de prof",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2012,
+    "duree": "1h 21min",
+    "runtime_minutes": 81,
+    "note_avis": 6.7,
+    "note_recence": 6.8,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "fml",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/307170233/s592/mees-kees.jpg",
+    "synopsis": "L’arrivée de Sub. Sam, comme le surnomment rapidement les enfants, n’aurait pas pu tomber à un meilleur moment pour Tobias. C’est parce que Tobias est intelligent, de nature enjouée et très drôle, mais Mademoiselle Sanne ne s’en rendait pas compte. Elle ne voyait que les problèmes. C’est vrai, son père est mort et sa mère passe ses journées au lit, mais Tobias ne veut pas y penser à l’école. Et avec le nouveau maître, il n’y est plus obligé…",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-26",
+      "packageExpirations": {
+        "aoc": "2026-09-26"
+      }
+    }
+  },
+  {
+    "id": "jw-tm54029",
+    "titre": "Winter in Wartime",
+    "type": "film",
+    "chaine": "Action Max",
+    "chaines": [
+      "Action Max"
+    ],
+    "logo_chaine": "assets/logos/action.png",
+    "logos_chaine": [
+      "assets/logos/action.png"
+    ],
+    "package_slugs": [
+      "aca"
+    ],
+    "annee": 2008,
+    "duree": "1h 43min",
+    "runtime_minutes": 103,
+    "note_avis": 7,
+    "note_recence": 5.8,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "hst",
+      "war",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/340376732/s592/winter-in-wartime.jpg",
+    "synopsis": "Pendant la Deuxième Guerre mondiale, Michiel, âgé de 14 ans, rentre dans la Résistance, contre l’avis de son père, après avoir apporté son aide à un soldat britannique blessé. Au risque de sa vie et de celle des membres de sa famille, il va tout faire pour sauver ce soldat mais la présence de ce dernier va provoquer une suite d’événements inattendus...",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-26",
+      "packageExpirations": {
+        "aca": "2026-09-26"
+      }
     }
   }
 ];

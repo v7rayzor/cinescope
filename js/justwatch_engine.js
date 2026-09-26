@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v10';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v10';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v10';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v10';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v11';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v11';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v11';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v11';
 
   // Configuration des bouquets et packages JustWatch France avec logos officiels
   const PACKAGES_CONFIG = {
@@ -371,7 +371,13 @@ const JustWatchEngine = (function () {
     }
 
     const pkgExps = item.expiration.packageExpirations || {};
-    const activePkgs = (item.package_slugs || []).slice();
+    let activePkgs = (item.package_slugs || []).filter(k => PACKAGES_CONFIG[k]);
+    if (activePkgs.length === 0) {
+      const chaineLower = ((item.chaine || '') + ' ' + (item.chaines || []).join(' ')).toLowerCase();
+      if (chaineLower.includes('action')) activePkgs.push('aca');
+      else if (chaineLower.includes('universal') || chaineLower.includes('syfy') || chaineLower.includes('13eme')) activePkgs.push('auc');
+      else activePkgs.push('aoc');
+    }
     const now = new Date();
 
     // 1. Filtrer et retirer les bouquets dont la date individuelle est dépassée
@@ -394,13 +400,13 @@ const JustWatchEngine = (function () {
       return item;
     }
 
-    // Mettre à jour les chaînes et logos restants
+    // Mettre à jour les chaînes et logos restants strictement selon PACKAGES_CONFIG
     if (remainingPkgs.length > 0) {
       item.package_slugs = remainingPkgs;
-      item.chaines = remainingPkgs.map(k => PACKAGES_CONFIG[k]?.name).filter(Boolean);
-      item.logos_chaine = remainingPkgs.map(k => PACKAGES_CONFIG[k]?.logo).filter(Boolean);
-      item.chaine = PACKAGES_CONFIG[remainingPkgs[0]]?.name || item.chaine;
-      item.logo_chaine = PACKAGES_CONFIG[remainingPkgs[0]]?.logo || item.logo_chaine;
+      item.chaines = remainingPkgs.map(k => PACKAGES_CONFIG[k].name);
+      item.logos_chaine = remainingPkgs.map(k => PACKAGES_CONFIG[k].logo);
+      item.chaine = PACKAGES_CONFIG[remainingPkgs[0]]?.name || PACKAGES_CONFIG.aoc.name;
+      item.logo_chaine = PACKAGES_CONFIG[remainingPkgs[0]]?.logo || PACKAGES_CONFIG.aoc.logo;
     }
 
     // 2. Calculer la date la plus lointaine parmi les bouquets encore actifs
@@ -570,9 +576,21 @@ const JustWatchEngine = (function () {
 
   // Fusionner deux fiches du même film (ex: présent à la fois sur Ciné+ OCS et Universal+)
   function mergeTwoItems(base, incoming) {
-    const allChaines = Array.from(new Set([...(base.chaines || [base.chaine]), ...(incoming.chaines || [incoming.chaine])].filter(Boolean)));
-    const allLogos = Array.from(new Set([...(base.logos_chaine || [base.logo_chaine]), ...(incoming.logos_chaine || [incoming.logo_chaine])].filter(Boolean)));
-    const allPkgs = Array.from(new Set([...(base.package_slugs || []), ...(incoming.package_slugs || [])].filter(Boolean)));
+    const getPkgs = (it) => {
+      let pkgs = (it.package_slugs || []).filter(k => PACKAGES_CONFIG[k]);
+      if (pkgs.length === 0) {
+        const chaineLower = ((it.chaine || '') + ' ' + (it.chaines || []).join(' ')).toLowerCase();
+        if (chaineLower.includes('action')) pkgs.push('aca');
+        else if (chaineLower.includes('universal') || chaineLower.includes('syfy') || chaineLower.includes('13eme')) pkgs.push('auc');
+        else pkgs.push('aoc');
+      }
+      return pkgs;
+    };
+
+    const allPkgs = Array.from(new Set([...getPkgs(base), ...getPkgs(incoming)]));
+    const allChaines = allPkgs.map(k => PACKAGES_CONFIG[k].name);
+    const allLogos = allPkgs.map(k => PACKAGES_CONFIG[k].logo);
+    const primaryPkg = PACKAGES_CONFIG[allPkgs[0]] || PACKAGES_CONFIG.aoc;
 
     // Fusionner les dates d'expiration par bouquet
     const mergedPackageExpirations = {
@@ -625,7 +643,9 @@ const JustWatchEngine = (function () {
     return {
       ...base,
       ...incoming,
+      chaine: primaryPkg.name,
       chaines: allChaines,
+      logo_chaine: primaryPkg.logo,
       logos_chaine: allLogos,
       package_slugs: allPkgs,
       expiration: mergedExpiration,

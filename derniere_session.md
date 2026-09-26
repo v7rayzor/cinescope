@@ -136,9 +136,9 @@ Pour respecter scrupuleusement la **Règle Fondamentale (1 film / série = 1 seu
 ---
 
 ## 8. Gestion du Cache PWA & Versions
-* **Clefs de stockage LocalStorage** : `cinescope_streaming_catalog_v10` et `cinescope_streaming_last_sync_v10` dans [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js).
-* **Versions des assets HTML** : Passées à `?v=8.17` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
-* **Service Worker** : Nom de cache actualisé à `cinescope-v8.17-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
+* **Clefs de stockage LocalStorage** : `cinescope_streaming_catalog_v11` et `cinescope_streaming_last_sync_v11` dans [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js).
+* **Versions des assets HTML** : Passées à `?v=8.18` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
+* **Service Worker** : Nom de cache actualisé à `cinescope-v8.18-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
 
 ---
 
@@ -164,7 +164,12 @@ Pour respecter scrupuleusement la **Règle Fondamentale (1 film / série = 1 seu
    * Lorsque l'utilisateur clique sur **« Actualiser »** sur le site en ligne, l'application recharge instantanément les dernières données publiées, recalcule les décomptes d'expiration (`daysLeft`) pour le jour J et affiche le statut **`🟢 Synchro : Aujourd'hui à HHhMM`**.
    * Disparition totale de l'erreur `🔴 Échec de connexion`.
 
-3. **Audit de Conformité Réalisé (1 341 œuvres qualifiées)** :
+3. **Unification et Normalisation Stricte des Logos Officiels** :
+   * Dérivation stricte et exclusive des logos et chaînes depuis les 3 bouquets SVOD officiels (`Ciné+ OCS`, `Action Max`, `Universal+`).
+   * Élimination complète de tous les doublons de logos résiduels d'anciens canaux linéaires (`Ciné+ Frisson`, `Ciné+ Festival`, `OCS Max`, etc.).
+   * Chaque œuvre porte exclusivement le(s) logo(s) vectoriel(s) HD officiel(s) de son/ses bouquet(s) réel(s).
+
+4. **Audit de Conformité Réalisé (1 341 œuvres qualifiées)** :
    * Strictement 1 catégorie par œuvre : **1 341 / 1 341 (100% conforme, 0 anomalie)**.
    * Catégories valides : **1 341 / 1 341**.
    * Titres expirés : **0**.
