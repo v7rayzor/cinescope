@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" width="240" height="200">
+  <!-- Fond noir discret -->
+  <rect width="240" height="200" rx="16" fill="#000000" />
+
+  <!-- Cercle unique Universal (diamètre 130, centré en 120, 100) avec découpe pour le texte et le + -->
+  <!-- Arc supérieur du cercle -->
+  <path d="M 52,90 A 68,68 0 1,1 188,90" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+  <!-- Arc inférieur gauche du cercle -->
+  <path d="M 52,112 A 68,68 0 0,0 128,168" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Texte UNIVERSAL centré au milieu du cercle -->
+  <text x="120" y="106" font-family="'Outfit', 'Plus Jakarta Sans', 'Arial Black', sans-serif" font-size="28" font-weight="900" fill="#ffffff" letter-spacing="1" text-anchor="middle">UNIVERSAL</text>
+
+  <!-- Symbole + en bas à droite -->
+  <text x="160" y="148" font-family="'Outfit', 'Plus Jakarta Sans', 'Arial Black', sans-serif" font-size="44" font-weight="900" fill="#ffffff" text-anchor="middle">+</text>
+</svg>

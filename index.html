@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=2.3">
+  <link rel="stylesheet" href="css/style.css?v=8.1">
 </head>
 <body>
   <!-- Header / Navigation principale -->
@@ -48,12 +48,61 @@
           <span class="tab-badge" id="seriesCount">0</span>
         </button>
       </nav>
+
+      <!-- Contrôle de synchronisation temps réel JustWatch -->
+      <div class="header-sync-group" id="headerSyncGroup">
+        <div class="sync-info" id="syncInfoBox" title="État de la synchronisation JustWatch">
+          <span class="sync-dot" id="syncDot"></span>
+          <span class="sync-status-text" id="syncStatusText">Synchronisé</span>
+        </div>
+        <button class="sync-refresh-btn" id="syncRefreshBtn" title="Actualiser les flux JustWatch en direct" aria-label="Actualiser les flux">
+          <svg class="refresh-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/>
+          </svg>
+          <span class="refresh-label">Actualiser</span>
+        </button>
+      </div>
     </div>
   </header>
 
   <main class="main-content">
-    <!-- Bulle Unifiée de Tous les Filtres (Catégories / Genre, Étoiles, Durée) -->
+    <!-- Bulle Unifiée de Tous les Filtres (Catégories / Genre, Étoiles, Bouquets, Durée) -->
     <section class="filters-unified-bubble" id="filtersUnifiedBubble">
+      <!-- Ligne 0 : Filtre des Bouquets Streaming -->
+      <div class="bouquets-bar-section" id="bouquetsBarSection">
+        <div class="bouquets-wrapper" id="bouquetsNav">
+          <span class="bouquets-title">
+            <span class="bouquets-icon">📡</span>
+            <span class="bouquets-label">Bouquets :</span>
+          </span>
+          <div class="bouquets-chips-group">
+            <button class="bouquet-btn active" data-package="all" id="pkgAll">
+              <span class="pkg-icon">✨</span>
+              <span class="pkg-name">Tous les bouquets</span>
+              <span class="pkg-count" id="countPkgAll">0</span>
+            </button>
+            <button class="bouquet-btn" data-package="aoc" id="pkgOcs">
+              <img src="assets/logos/cine_ocs.svg" alt="Ciné+ OCS" class="pkg-logo-img">
+              <span class="pkg-name">Ciné+ OCS</span>
+              <span class="pkg-count" id="countPkgOcs">0</span>
+            </button>
+            <button class="bouquet-btn" data-package="aca" id="pkgAction">
+              <img src="assets/logos/action.png" alt="Action Max" class="pkg-logo-img">
+              <span class="pkg-name">Action Max</span>
+              <span class="pkg-count" id="countPkgAction">0</span>
+            </button>
+            <button class="bouquet-btn" data-package="auc" id="pkgUniversal">
+              <img src="assets/logos/universal_plus.svg" alt="Universal+" class="pkg-logo-img">
+              <span class="pkg-name">Universal+</span>
+              <span class="pkg-count" id="countPkgUniversal">0</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ligne de séparation horizontale -->
+      <div class="filters-bubble-divider" aria-hidden="true"></div>
+
       <!-- Ligne 1 : Catégories (Desktop) / Sélecteur Genre (Mobile) -->
       <div class="categories-bar-section" id="categoriesBarSection">
         <!-- Carousel de catégories (Desktop / Tablette) -->
@@ -271,6 +320,11 @@
               <span class="info-value" id="modalDuration">-</span>
             </div>
 
+            <div class="info-row" id="modalExpiryRow">
+              <span class="info-label">⏳ Disponibilité</span>
+              <span class="info-value modal-expiry-val" id="modalExpiry">Disponible</span>
+            </div>
+
             <div class="info-row">
               <span class="info-label">🏷️ Catégories</span>
               <div class="modal-categories-chips" id="modalCategories"></div>
@@ -278,8 +332,13 @@
 
             <div class="info-row">
               <span class="info-label">⭐ Note</span>
-              <span class="info-value highlight-rating" id="modalRating">8.0 / 10</span>
+              <span class="info-value highlight-rating" id="modalRating"><span>8.0 / 10</span><span class="modal-stars-pure">★★★★★</span></span>
             </div>
+          </div>
+
+          <div class="modal-synopsis-section" id="modalSynopsisSection">
+            <h3 class="modal-synopsis-title">Synopsis</h3>
+            <p class="modal-synopsis-text" id="modalSynopsis"></p>
           </div>
         </div>
       </div>
@@ -288,13 +347,15 @@
 
   <footer class="main-footer">
     <div class="footer-content">
-      <p id="footerDate">Mise à jour le 13 septembre 2026</p>
+      <p id="footerDate">Flux JustWatch synchronisé</p>
     </div>
   </footer>
 
   <!-- Scripts -->
-  <script src="js/catalog.js?v=2.3"></script>
-  <script src="js/app.js?v=2.4"></script>
+  <script src="js/catalog.js?v=8.16"></script>
+  <script src="js/nlp_model.js?v=8.16"></script>
+  <script src="js/justwatch_engine.js?v=8.16"></script>
+  <script src="js/app.js?v=8.16"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {

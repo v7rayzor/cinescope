@@ -44,6 +44,13 @@ html {
   scrollbar-gutter: stable;
 }
 
+/* Échelle par défaut sur PC : correspond visuellement au confort d'un zoom 80% */
+@media (min-width: 1024px) {
+  html {
+    font-size: 80%; /* 12.8px de base */
+  }
+}
+
 body {
   font-family: var(--font-main);
   background-color: var(--bg-primary);
@@ -609,12 +616,21 @@ body.modal-open {
 .modal-csa-badge {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
+.modal-csa-badge-img,
 .modal-csa-img {
-  width: 24px;
-  height: 24px;
-  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.6));
+  width: 26px;
+  height: 26px;
+  min-width: 26px;
+  min-height: 26px;
+  border-radius: 50%;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.6));
 }
 
 /* Channel Logo - Bottom Right */
@@ -928,13 +944,22 @@ body.modal-open {
   font-weight: 700;
   background: rgba(234, 179, 8, 0.15);
   border: 1px solid rgba(234, 179, 8, 0.35);
-  padding: 0.25rem 0.75rem;
+  padding: 0.28rem 0.85rem;
   border-radius: var(--radius-full);
   align-self: center;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.4rem;
+  gap: 0.75rem;
+}
+
+.modal-stars-pure {
+  color: #fbbf24;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  filter: drop-shadow(0 0 5px rgba(251, 191, 36, 0.45));
+  display: inline-flex;
+  align-items: center;
 }
 
 .modal-stars-tag {
@@ -1661,3 +1686,295 @@ body.modal-open {
     padding: 0.06rem 0.28rem;
   }
 }
+
+/* ==========================================================================
+   Styles JustWatch Temps Réel : Synchronisation, Bouquets & Compte à Rebours
+   ========================================================================== */
+
+/* Groupe de Synchronisation dans le Header */
+.header-sync-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.sync-info {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.35rem 0.75rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-full);
+  font-size: 0.76rem;
+  color: var(--text-secondary);
+}
+
+.sync-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #10b981;
+  box-shadow: 0 0 8px #10b981;
+  transition: var(--transition-smooth);
+}
+
+.sync-dot.is-syncing {
+  background-color: #f59e0b;
+  box-shadow: 0 0 8px #f59e0b;
+  animation: pulseSync 1s infinite alternate;
+}
+
+.sync-dot.is-error {
+  background-color: #ef4444;
+  box-shadow: 0 0 8px #ef4444;
+}
+
+@keyframes pulseSync {
+  from { opacity: 0.4; transform: scale(0.85); }
+  to { opacity: 1; transform: scale(1.2); }
+}
+
+.sync-status-text {
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.sync-refresh-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.45rem 0.95rem;
+  background: linear-gradient(135deg, rgba(255, 51, 75, 0.15), rgba(255, 51, 75, 0.05));
+  border: 1px solid rgba(255, 51, 75, 0.4);
+  border-radius: var(--radius-full);
+  color: #fff;
+  font-family: var(--font-main);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  user-select: none;
+}
+
+.sync-refresh-btn:hover {
+  background: linear-gradient(135deg, rgba(255, 51, 75, 0.3), rgba(255, 51, 75, 0.15));
+  border-color: var(--accent-red);
+  box-shadow: 0 0 16px var(--accent-red-glow);
+  transform: translateY(-1px);
+}
+
+.sync-refresh-btn:active {
+  transform: translateY(0);
+}
+
+.refresh-icon {
+  width: 15px;
+  height: 15px;
+  transition: transform 0.4s ease;
+}
+
+.sync-refresh-btn.is-refreshing .refresh-icon {
+  animation: spinRefresh 0.8s linear infinite;
+}
+
+@keyframes spinRefresh {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Barre de Filtre des Bouquets */
+.bouquets-bar-section {
+  padding: 0.35rem 0.5rem;
+}
+
+.bouquets-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.bouquets-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+}
+
+.bouquets-chips-group {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.bouquet-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.35rem 0.85rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-full);
+  color: var(--text-secondary);
+  font-family: var(--font-main);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.bouquet-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-primary);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.bouquet-btn.active {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.25), rgba(59, 130, 246, 0.1));
+  border-color: rgba(59, 130, 246, 0.6);
+  color: #fff;
+  box-shadow: 0 0 14px rgba(59, 130, 246, 0.25);
+}
+
+.pkg-logo-img {
+  width: auto;
+  height: 18px;
+  max-width: 38px;
+  object-fit: contain;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.pkg-count {
+  font-size: 0.72rem;
+  padding: 0.08rem 0.42rem;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-muted);
+}
+
+.bouquet-btn.active .pkg-count {
+  background: rgba(59, 130, 246, 0.3);
+  color: #fff;
+}
+
+/* Badges de Compte à Rebours de Fin de Droits sur les Cartes */
+.card-expiry-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 4;
+  padding: 0.25rem 0.55rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+.card-expiry-badge.expiry-urgent {
+  background: rgba(239, 68, 68, 0.9);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 12px rgba(239, 68, 68, 0.6);
+  animation: pulseUrgent 1.8s infinite alternate;
+}
+
+@keyframes pulseUrgent {
+  from { opacity: 0.9; }
+  to { opacity: 1; transform: scale(1.03); }
+}
+
+.card-expiry-badge.expiry-warning {
+  background: rgba(245, 158, 11, 0.9);
+  color: #1a1002;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 10px rgba(245, 158, 11, 0.4);
+}
+
+.card-expiry-badge.expiry-info {
+  background: rgba(15, 23, 42, 0.85);
+  color: #93c5fd;
+  border: 1px solid rgba(147, 197, 253, 0.3);
+}
+
+.card-expiry-badge.expiry-available {
+  background: rgba(16, 185, 129, 0.2);
+  color: #6ee7b7;
+  border: 1px solid rgba(16, 185, 129, 0.35);
+}
+
+/* Modale : Extensions Synopsis et Détail des Notes */
+.modal-ratings-container {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.modal-rating-details {
+  font-size: 0.76rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.modal-expiry-val {
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+.modal-synopsis-section {
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-subtle);
+  width: 100%;
+}
+
+.modal-synopsis-title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  margin-bottom: 0.4rem;
+}
+
+.modal-synopsis-text {
+  font-size: 0.86rem;
+  line-height: 1.6;
+  color: var(--text-primary);
+  opacity: 0.9;
+}
+
+/* Restauration de l'Affichage Mobile Épuré Exact */
+@media (max-width: 768px) {
+  .header-container {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header-sync-group {
+    display: none !important;
+  }
+
+  .bouquets-bar-section {
+    display: none !important;
+  }
+
+  .filters-unified-bubble > .filters-bubble-divider:first-of-type {
+    display: none !important;
+  }
+}
+

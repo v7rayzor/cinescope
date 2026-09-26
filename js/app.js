@@ -1,8 +1,9 @@
 /**
- * Application CinéScope - Logique de navigation, filtrage strict et tirage aléatoire
+ * Application CinéScope - Logique de navigation, streaming temps réel JustWatch V2
+ * Tri prioritaire par fin de droits, logos officiels, échelle PC calibrée et synchro hybride.
  */
 
-// Définition des 7 catégories et leurs descriptions exactes
+// Définition des 7 catégories officielles CinéScope
 const CATEGORIES_INFO = {
   all: {
     icon: "✨",
@@ -46,14 +47,15 @@ const CATEGORIES_INFO = {
   }
 };
 
-// État de l'application
-// État de l'application
+// État global de l'application
 const AppState = {
-  activeType: 'film',       // 'film' ou 'serie'
-  activeCategory: 'all',    // 'all' ou l'une des 7 catégories
-  activeStars: 'all',       // 'all', '3', '4', '5'
-  isAutoStars: true,        // true tant que l'utilisateur n'a pas forcé manuellement un choix
-  catalog: typeof CATALOG_DATA !== 'undefined' ? CATALOG_DATA : []
+  activeType: 'film',          // 'film' ou 'serie'
+  activeCategory: 'all',       // 'all' ou l'une des 7 catégories
+  activeStars: 'all',          // 'all', '4', '5'
+  activeBouquet: 'all',        // 'all', 'aoc' (OCS), 'aca' (Action), 'auc' (Universal+)
+  isAutoStars: true,           // true tant que l'utilisateur n'a pas forcé manuellement un choix
+  isSyncing: false,
+  catalog: []
 };
 
 // Obtenir le score pertinent d'une œuvre (note_globale ou note_avis)
@@ -72,23 +74,18 @@ function matchesStars(item, starTier) {
 
 // Déterminer automatiquement le palier d'étoiles par défaut pour cibler entre 30 et 50 films
 function getAutoStarTier(categoryEligibleItems) {
-  // Pour "Tous les films" (catalogue global), afficher par défaut toutes les étoiles sans restriction
   if (AppState.activeCategory === 'all') {
     return 'all';
   }
 
   const total = categoryEligibleItems.length;
-  // Si le total est déjà ≤ 50, afficher tous les films de la catégorie
   if (total <= 50) {
     return 'all';
   }
 
-  // Calcul des effectifs par palier
   const count4 = categoryEligibleItems.filter(item => matchesStars(item, '4')).length;
   const count5 = categoryEligibleItems.filter(item => matchesStars(item, '5')).length;
 
-  // Si le palier 4+ dépasse largement 50 films (ex: Drame avec 149 films),
-  // on augmente l'exigence au palier 5 pour s'approcher au plus près de la cible (30-50 films)
   if (count4 > 80 && count5 >= 20) {
     return '5';
   }
@@ -97,7 +94,6 @@ function getAutoStarTier(categoryEligibleItems) {
     return '5';
   }
 
-  // Sinon, le palier 4+ permet d'approcher la cible (ex: Thriller avec 39 films, Comédie avec 72 films)
   if (count4 >= 15) {
     return '4';
   }
@@ -105,7 +101,7 @@ function getAutoStarTier(categoryEligibleItems) {
   return 'all';
 }
 
-// Générateur de clé de jour (ex: "2026-09-19")
+// Générateur de clé de jour (ex: "2026-09-23")
 function getDailySeed() {
   const d = new Date();
   const year = d.getFullYear();
@@ -114,7 +110,7 @@ function getDailySeed() {
   return `${year}-${month}-${day}`;
 }
 
-// Fonction de hachage 32-bit pour calculer un score pseudo-aléatoire déterministe par item et par jour
+// Hachage 32-bit pour ordre déterministe par jour
 function getDailyItemHash(item, dailySeed) {
   const key = `${item.id || item.titre || ''}_${dailySeed}`;
   let h1 = 0xdeadbeef, h2 = 0x41c6ce57;
@@ -130,7 +126,6 @@ function getDailyItemHash(item, dailySeed) {
   return 4294967296 * (2097151 & h2) + (h1 >>> 0);
 }
 
-// Cache des scores du jour pour garantir des performances optimales
 const _dailyScoresCache = new Map();
 let _currentCachedSeed = '';
 
@@ -149,24 +144,43 @@ function getDailyScore(item) {
   return score;
 }
 
-// Mélange quotidien : 1 tirage aléatoire unique et stable par jour ("1 jour 1 aléatoire")
-// L'ordre reste parfaitement identique sur toute la journée lors des rafraîchissements ou filtrages,
-// et se renouvelle automatiquement chaque jour à minuit.
-function shuffleArray(array) {
-  return [...array].sort((a, b) => getDailyScore(a) - getDailyScore(b));
+// Tri intelligent CinéScope :
+// 1. Priorité aux films avec date d'expiration (le plus proche de quitter le catalogue en premier)
+// 2. Films sans date d'expiration ordonnés par tirage aléatoire quotidien stable.
+function sortCatalogItems(items) {
+  const withExpiry = [];
+  const withoutExpiry = [];
+
+  for (const it of items) {
+    if (it.expiration && it.expiration.daysLeft !== null && it.expiration.daysLeft >= 0) {
+      withExpiry.push(it);
+    } else {
+      withoutExpiry.push(it);
+    }
+  }
+
+  // 1. Tri par ordre croissant de jours restants (ex: 0j > 1j > 2j > 5j > 15j)
+  withExpiry.sort((a, b) => {
+    const diff = a.expiration.daysLeft - b.expiration.daysLeft;
+    if (diff !== 0) return diff;
+    return getDailyScore(a) - getDailyScore(b);
+  });
+
+  // 2. Tri aléatoire quotidien pour les films sans date
+  withoutExpiry.sort((a, b) => getDailyScore(a) - getDailyScore(b));
+
+  return [...withExpiry, ...withoutExpiry];
 }
 
-// Préchargement proactif de toutes les affiches et logos pour affichage instantané sans délai
+// Préchargement proactif des affiches HD et logos
 function preloadAllCatalogImages() {
   if (!AppState.catalog || !AppState.catalog.length) return;
 
-  // 1. Badges officiels CSA / PEGI
   ['10', '12', '16', '18'].forEach(b => {
     const img = new Image();
     img.src = `assets/logos/pegi_${b}.png`;
   });
 
-  // 2. Extraire toutes les URLs uniques (affiches et logos)
   const priorityUrls = new Set();
   const secondaryUrls = new Set();
 
@@ -178,14 +192,12 @@ function preloadAllCatalogImages() {
     }
   };
 
-  // Priorité 1 : éléments éligibles de la sélection courante
   const eligible = getCategoryEligibleItems();
   eligible.forEach(item => {
     if (item.poster) priorityUrls.add(item.poster);
     addLogos(item, priorityUrls);
   });
 
-  // Priorité 2 : reste de l'ensemble du catalogue
   AppState.catalog.forEach(item => {
     if (item.poster && !priorityUrls.has(item.poster)) secondaryUrls.add(item.poster);
     addLogos(item, secondaryUrls);
@@ -194,7 +206,7 @@ function preloadAllCatalogImages() {
   const fullQueue = [...Array.from(priorityUrls), ...Array.from(secondaryUrls)];
   const total = fullQueue.length;
   let cursor = 0;
-  const maxConcurrency = 16; // 16 chargements parallèles en arrière-plan
+  const maxConcurrency = 16;
   let activeLoads = 0;
 
   function processQueue() {
@@ -215,19 +227,132 @@ function preloadAllCatalogImages() {
 }
 
 // Initialisation au chargement de la page
-document.addEventListener('DOMContentLoaded', () => {
-  initCounts();
+document.addEventListener('DOMContentLoaded', async () => {
   initNavigation();
+  initBouquetsNavigation();
   initStarsNavigation();
   initDurationFilter();
   initModal();
+  initSyncControls();
+
+  // Chargement initial depuis la mémoire locale permanente
+  const cached = JustWatchEngine.getCachedCatalog();
+  if (cached && cached.length > 0) {
+    AppState.catalog = cached;
+    refreshApplicationUI();
+  } else if (typeof CATALOG_DATA !== 'undefined' && CATALOG_DATA.length > 0) {
+    AppState.catalog = CATALOG_DATA;
+    refreshApplicationUI();
+  }
+
+  // Vérification de synchronisation automatique :
+  // - Complète intégrale si catalogue < 300 titres ou > 30 jours
+  // - Ou quotidienne 50 nouveautés si > 24h
+  const needsFull = JustWatchEngine.shouldAutoFullSync() || !cached || cached.length < 300;
+  const needsDaily = JustWatchEngine.shouldAutoRefresh();
+
+  if (needsFull) {
+    console.log('[CinéScope] Lancement synchronisation complète (catalogue intégral)...');
+    await performLiveSync(true, true);
+  } else if (needsDaily) {
+    console.log('[CinéScope] Lancement synchronisation quotidienne (50 nouveautés)...');
+    await performLiveSync(true, false);
+  }
+});
+
+// Rafraîchir l'ensemble de l'interface
+function refreshApplicationUI() {
+  initCounts();
+  initBouquetsCounts();
   updateMobileGenreDisplay(AppState.activeCategory);
   updateCategoryAutoStar();
   renderCatalog();
   preloadAllCatalogImages();
-});
+  updateFooterDate();
+}
 
-// Calcul des compteurs totaux pour les badges
+// Contrôles de synchronisation JustWatch
+function initSyncControls() {
+  const refreshBtn = document.getElementById('syncRefreshBtn');
+  const syncStatusText = document.getElementById('syncStatusText');
+  const syncDot = document.getElementById('syncDot');
+
+  updateSyncStatusDisplay();
+
+  if (refreshBtn) {
+    refreshBtn.addEventListener('click', async (e) => {
+      if (AppState.isSyncing) return;
+      // Clic normal -> Synchro quotidienne rapide (50 nouveautés)
+      // Clic avec Shift -> Force la synchro complète (mensuelle)
+      const isFull = e.shiftKey;
+      await performLiveSync(false, isFull);
+    });
+  }
+}
+
+function updateSyncStatusDisplay() {
+  const syncStatusText = document.getElementById('syncStatusText');
+  const syncDot = document.getElementById('syncDot');
+  if (!syncStatusText || !syncDot) return;
+
+  const lastDate = JustWatchEngine.getLastSyncDate();
+  if (lastDate) {
+    const isToday = new Date().toDateString() === lastDate.toDateString();
+    const hours = lastDate.getHours().toString().padStart(2, '0');
+    const minutes = lastDate.getMinutes().toString().padStart(2, '0');
+    syncStatusText.textContent = isToday ? `Synchro : Aujourd'hui à ${hours}h${minutes}` : `Synchro : ${lastDate.toLocaleDateString('fr-FR')}`;
+    syncDot.className = 'sync-dot';
+  } else {
+    syncStatusText.textContent = 'Non synchronisé';
+  }
+}
+
+async function performLiveSync(isSilent = false, isFullSync = false) {
+  AppState.isSyncing = true;
+  const refreshBtn = document.getElementById('syncRefreshBtn');
+  const syncDot = document.getElementById('syncDot');
+  const syncStatusText = document.getElementById('syncStatusText');
+
+  if (refreshBtn) refreshBtn.classList.add('is-refreshing');
+  if (syncDot) syncDot.className = 'sync-dot is-syncing';
+  if (syncStatusText) {
+    syncStatusText.textContent = isFullSync ? 'Synchro complète en cours...' : 'Actualisation des nouveautés...';
+  }
+
+  try {
+    const freshData = await JustWatchEngine.fetchJustWatchData(isFullSync);
+    if (freshData && freshData.length > 0) {
+      AppState.catalog = freshData;
+      refreshApplicationUI();
+      if (syncDot) syncDot.className = 'sync-dot';
+      updateSyncStatusDisplay();
+    } else {
+      throw new Error('Aucune donnée valide reçue');
+    }
+  } catch (err) {
+    console.error('[CinéScope Sync Error]:', err);
+    if (syncDot) syncDot.className = 'sync-dot is-error';
+    if (syncStatusText) syncStatusText.textContent = 'Échec de connexion';
+  } finally {
+    AppState.isSyncing = false;
+    if (refreshBtn) refreshBtn.classList.remove('is-refreshing');
+  }
+}
+
+function updateFooterDate() {
+  const footerDate = document.getElementById('footerDate');
+  if (footerDate) {
+    const last = JustWatchEngine.getLastSyncDate();
+    const count = AppState.catalog.length;
+    if (last) {
+      footerDate.textContent = `Flux JustWatch connecté — ${count} œuvres qualifiées (Dernière synchro : ${last.toLocaleString('fr-FR')})`;
+    } else {
+      footerDate.textContent = `Flux JustWatch connecté — ${count} œuvres qualifiées`;
+    }
+  }
+}
+
+// Calcul des compteurs totaux pour les types de médias
 function initCounts() {
   const eligibleFilms = AppState.catalog.filter(item => (item.type === 'film' || item.type === 'telefilm') && item.is_eligible);
   const eligibleSeries = AppState.catalog.filter(item => item.type === 'serie' && item.is_eligible);
@@ -239,118 +364,146 @@ function initCounts() {
   if (seriesBadge) seriesBadge.textContent = eligibleSeries.length;
 }
 
-// Gestion des onglets et catégories
+// Calcul des compteurs de bouquets
+function initBouquetsCounts() {
+  const eligibleTypeItems = AppState.catalog.filter(item => {
+    if (!item.is_eligible) return false;
+    return AppState.activeType === 'film' 
+      ? (item.type === 'film' || item.type === 'telefilm')
+      : (item.type === 'serie');
+  });
+
+  const countAll = eligibleTypeItems.length;
+  const countOcs = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('aoc')).length;
+  const countAction = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('aca')).length;
+  const countUniversal = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('auc')).length;
+
+  const elAll = document.getElementById('countPkgAll');
+  const elOcs = document.getElementById('countPkgOcs');
+  const elAction = document.getElementById('countPkgAction');
+  const elUniv = document.getElementById('countPkgUniversal');
+
+  if (elAll) elAll.textContent = countAll;
+  if (elOcs) elOcs.textContent = countOcs;
+  if (elAction) elAction.textContent = countAction;
+  if (elUniv) elUniv.textContent = countUniversal;
+}
+
+// Navigation par bouquets
+function initBouquetsNavigation() {
+  const bouquetBtns = document.querySelectorAll('.bouquet-btn');
+  bouquetBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      bouquetBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      AppState.activeBouquet = btn.dataset.package;
+      updateCategoryAutoStar();
+      renderCatalog();
+    });
+  });
+}
+
+// Navigation par type et catégories
 function initNavigation() {
-  // Navigation Type (Films / Séries)
   const mediaTabs = document.querySelectorAll('.nav-tab');
   mediaTabs.forEach(tab => {
     tab.addEventListener('click', () => {
       mediaTabs.forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
       AppState.activeType = tab.dataset.type;
-      updateMobileGenreDisplay(AppState.activeCategory);
+      initBouquetsCounts();
       updateCategoryAutoStar();
       renderCatalog();
     });
   });
 
-  // Navigation 7 Catégories (Desktop / Tablette)
   const catButtons = document.querySelectorAll('.category-btn');
   catButtons.forEach(btn => {
     btn.addEventListener('click', () => {
-      catButtons.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      AppState.activeCategory = btn.dataset.category;
-      
-      // Synchroniser le menu déroulant et badge mobile
-      updateMobileGenreDisplay(btn.dataset.category);
-
-      // Lors du changement de catégorie, on recalcule le palier par défaut (30-50 films)
-      AppState.isAutoStars = true;
-      updateCategoryAutoStar();
-      renderCatalog();
+      const targetCat = btn.dataset.category;
+      setCategory(targetCat);
     });
   });
 
-  // Navigation Menu Déroulant Genre Personnalisé (Mobile)
   const dropdownBtn = document.getElementById('genreDropdownBtn');
   const dropdownMenu = document.getElementById('genreDropdownMenu');
   const genreOptions = document.querySelectorAll('.genre-option');
 
   if (dropdownBtn && dropdownMenu) {
-    // Ouvrir / Fermer au clic
     dropdownBtn.addEventListener('click', (e) => {
       e.stopPropagation();
-      const isOpen = dropdownMenu.classList.toggle('open');
-      dropdownBtn.classList.toggle('open', isOpen);
-      dropdownBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      const isOpen = dropdownMenu.classList.contains('open');
+      if (isOpen) {
+        closeGenreDropdown();
+      } else {
+        openGenreDropdown();
+      }
     });
 
-    // Sélectionner une option
-    genreOptions.forEach(opt => {
-      opt.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const selectedCategory = opt.dataset.category;
-        AppState.activeCategory = selectedCategory;
-
-        // Synchroniser les boutons du carousel desktop
-        catButtons.forEach(b => {
-          b.classList.toggle('active', b.dataset.category === selectedCategory);
-        });
-
-        // Synchroniser le menu déroulant personnalisé et le badge
-        updateMobileGenreDisplay(selectedCategory);
-
-        // Fermer le menu
-        dropdownMenu.classList.remove('open');
-        dropdownBtn.classList.remove('open');
-        dropdownBtn.setAttribute('aria-expanded', 'false');
-
-        // Recalculer le palier automatique et rafraîchir
-        AppState.isAutoStars = true;
-        updateCategoryAutoStar();
-        renderCatalog();
-      });
-    });
-
-    // Fermer si clic en dehors
     document.addEventListener('click', (e) => {
       if (!dropdownBtn.contains(e.target) && !dropdownMenu.contains(e.target)) {
-        dropdownMenu.classList.remove('open');
-        dropdownBtn.classList.remove('open');
-        dropdownBtn.setAttribute('aria-expanded', 'false');
+        closeGenreDropdown();
       }
     });
 
-    // Fermer si touche Échap
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') {
-        dropdownMenu.classList.remove('open');
-        dropdownBtn.classList.remove('open');
-        dropdownBtn.setAttribute('aria-expanded', 'false');
-      }
+    genreOptions.forEach(opt => {
+      opt.addEventListener('click', () => {
+        const targetCat = opt.dataset.category;
+        setCategory(targetCat);
+        closeGenreDropdown();
+      });
     });
   }
 }
 
-// Synchronisation de l'affichage du genre sélectionné sur mobile
-function updateMobileGenreDisplay(categoryKey) {
-  const badgeIcon = document.getElementById('selectedGenreIcon');
-  const badgeText = document.getElementById('selectedGenreText');
-  const genreOptions = document.querySelectorAll('.genre-option');
-
-  genreOptions.forEach(opt => {
-    const isSelected = opt.dataset.category === categoryKey;
-    opt.classList.toggle('active', isSelected);
-    opt.setAttribute('aria-selected', isSelected ? 'true' : 'false');
-  });
-
-  const catInfo = CATEGORIES_INFO[categoryKey] || CATEGORIES_INFO.all;
-  if (badgeIcon) badgeIcon.textContent = catInfo.icon || '✨';
-  if (badgeText) badgeText.textContent = catInfo.title || 'Tous les titres';
+function openGenreDropdown() {
+  const dropdownBtn = document.getElementById('genreDropdownBtn');
+  const dropdownMenu = document.getElementById('genreDropdownMenu');
+  if (!dropdownMenu || !dropdownBtn) return;
+  dropdownMenu.classList.add('open');
+  dropdownBtn.classList.add('open');
+  dropdownBtn.setAttribute('aria-expanded', 'true');
 }
 
-// Initialisation de la navigation par étoiles
+function closeGenreDropdown() {
+  const dropdownBtn = document.getElementById('genreDropdownBtn');
+  const dropdownMenu = document.getElementById('genreDropdownMenu');
+  if (!dropdownMenu || !dropdownBtn) return;
+  dropdownMenu.classList.remove('open');
+  dropdownBtn.classList.remove('open');
+  dropdownBtn.setAttribute('aria-expanded', 'false');
+}
+
+function setCategory(targetCat) {
+  AppState.activeCategory = targetCat;
+  AppState.isAutoStars = true;
+
+  const catButtons = document.querySelectorAll('.category-btn');
+  catButtons.forEach(b => {
+    b.classList.toggle('active', b.dataset.category === targetCat);
+  });
+
+  const genreOptions = document.querySelectorAll('.genre-option');
+  genreOptions.forEach(o => {
+    const isSelected = o.dataset.category === targetCat;
+    o.classList.toggle('active', isSelected);
+    o.setAttribute('aria-selected', isSelected ? 'true' : 'false');
+  });
+
+  updateMobileGenreDisplay(targetCat);
+  updateCategoryAutoStar();
+  renderCatalog();
+}
+
+function updateMobileGenreDisplay(categoryKey) {
+  const info = CATEGORIES_INFO[categoryKey] || CATEGORIES_INFO.all;
+  const iconEl = document.getElementById('selectedGenreIcon');
+  const textEl = document.getElementById('selectedGenreText');
+  if (iconEl) iconEl.textContent = info.icon;
+  if (textEl) textEl.textContent = info.title;
+}
+
+// Filtre des étoiles
 function initStarsNavigation() {
   const starButtons = document.querySelectorAll('.star-btn');
   starButtons.forEach(btn => {
@@ -358,90 +511,41 @@ function initStarsNavigation() {
       starButtons.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       AppState.activeStars = btn.dataset.stars;
-      AppState.isAutoStars = false; // choix manuel de l'utilisateur
+      AppState.isAutoStars = false;
       renderCatalog();
     });
   });
 }
 
-// Parser une durée ("1h 45min", "2h 00min", "45min", "1h", etc.) en nombre total de minutes
-function parseDurationMinutes(dureeStr) {
-  if (!dureeStr || typeof dureeStr !== 'string') return null;
-  const str = dureeStr.trim().toLowerCase();
+// Filtre de Durée
+function parseDurationMinutes(durationStr) {
+  if (!durationStr || typeof durationStr !== 'string') return null;
+  const match = durationStr.match(/(?:(\d+)\s*h)?\s*(?:(\d+)\s*min)?/i);
+  if (!match) return null;
+  const hours = parseInt(match[1] || '0', 10);
+  const minutes = parseInt(match[2] || '0', 10);
+  if (hours === 0 && minutes === 0) return null;
+  return hours * 60 + minutes;
+}
 
-  const hMatch = str.match(/(\d+)\s*h/);
-  const mMatch = str.match(/(\d+)\s*min/);
-
-  const hours = hMatch ? parseInt(hMatch[1], 10) : 0;
-  const minutes = mMatch ? parseInt(mMatch[1], 10) : 0;
-
-  if (!hMatch && !mMatch) {
-    const numMatch = str.match(/^\d+$/);
-    if (numMatch) return parseInt(numMatch[0], 10);
+function getDurationMinMinutes() {
+  const h = parseInt(document.getElementById('durationMinH')?.value || '0', 10) || 0;
+  const m = parseInt(document.getElementById('durationMinM')?.value || '0', 10) || 0;
+  if (h === 0 && m === 0 && !document.getElementById('durationMinH')?.value && !document.getElementById('durationMinM')?.value) {
     return null;
   }
-
-  return (hours * 60) + minutes;
+  return h * 60 + m;
 }
 
-// Obtenir la durée minimale en minutes selon les inputs "Plus de"
-function getDurationMinMinutes() {
-  const hInput = document.getElementById('durationMinH');
-  const mInput = document.getElementById('durationMinM');
-  if (!hInput || !mInput) return null;
-
-  const hVal = hInput.value.trim();
-  const mVal = mInput.value.trim();
-
-  if (hVal === '' && mVal === '') return null;
-
-  const h = hVal !== '' ? Math.max(0, parseInt(hVal, 10) || 0) : 0;
-  const m = mVal !== '' ? Math.max(0, Math.min(59, parseInt(mVal, 10) || 0)) : 0;
-
-  return (h * 60) + m;
-}
-
-// Obtenir la durée maximale en minutes selon les inputs "Moins de"
 function getDurationMaxMinutes() {
-  const hInput = document.getElementById('durationMaxH');
-  const mInput = document.getElementById('durationMaxM');
-  if (!hInput || !mInput) return null;
-
-  const hVal = hInput.value.trim();
-  const mVal = mInput.value.trim();
-
-  if (hVal === '' && mVal === '') return null;
-
-  const h = hVal !== '' ? Math.max(0, parseInt(hVal, 10) || 0) : 0;
-  const m = mVal !== '' ? Math.max(0, Math.min(59, parseInt(mVal, 10) || 0)) : 0;
-
-  return (h * 60) + m;
-}
-
-// Validation et auto-complétion du groupe d'heures et minutes (ex: 1h 5 -> 1h 05, 1h -> 1h 00, 45min -> 0h 45)
-function validateAndFormatDurationGroup(hInput, mInput) {
-  if (!hInput || !mInput) return;
-
-  const hRaw = hInput.value.trim().replace(/\D/g, '');
-  const mRaw = mInput.value.trim().replace(/\D/g, '');
-
-  // Si les deux champs sont vides, laisser vide
-  if (hRaw === '' && mRaw === '') {
-    hInput.value = '';
-    mInput.value = '';
-    return;
+  const h = parseInt(document.getElementById('durationMaxH')?.value || '0', 10) || 0;
+  const m = parseInt(document.getElementById('durationMaxM')?.value || '0', 10) || 0;
+  if (h === 0 && m === 0 && !document.getElementById('durationMaxH')?.value && !document.getElementById('durationMaxM')?.value) {
+    return null;
   }
-
-  // Si au moins un champ est renseigné, formater proprement les deux
-  const hNum = hRaw !== '' ? Math.max(0, parseInt(hRaw, 10)) : 0;
-  let mNum = mRaw !== '' ? Math.max(0, parseInt(mRaw, 10)) : 0;
-  if (mNum > 59) mNum = 59;
-
-  hInput.value = String(hNum);
-  mInput.value = String(mNum).padStart(2, '0');
+  return h * 60 + m;
 }
 
-// Initialisation des écouteurs du filtre de durée
 function initDurationFilter() {
   const minH = document.getElementById('durationMinH');
   const minM = document.getElementById('durationMinM');
@@ -450,13 +554,27 @@ function initDurationFilter() {
   const resetBtn = document.getElementById('durationResetBtn');
 
   const updateResetBtnVisibility = () => {
-    const hasValue = (minH && minH.value !== '') ||
-                     (minM && minM.value !== '') ||
-                     (maxH && maxH.value !== '') ||
-                     (maxM && maxM.value !== '');
-    if (resetBtn) {
-      resetBtn.classList.toggle('visible', hasValue);
+    const hasValue = (minH?.value || minM?.value || maxH?.value || maxM?.value);
+    if (resetBtn) resetBtn.classList.toggle('visible', !!hasValue);
+  };
+
+  const validateAndFormatDurationGroup = (hInput, mInput) => {
+    let hVal = parseInt(hInput.value, 10);
+    let mVal = parseInt(mInput.value, 10);
+    if (isNaN(hVal) && isNaN(mVal)) {
+      hInput.value = '';
+      mInput.value = '';
+      return;
     }
+    if (isNaN(hVal)) hVal = 0;
+    if (isNaN(mVal)) mVal = 0;
+    if (mVal >= 60) {
+      hVal += Math.floor(mVal / 60);
+      mVal = mVal % 60;
+    }
+    if (hVal > 9) hVal = 9;
+    hInput.value = hVal.toString();
+    mInput.value = mVal.toString().padStart(2, '0');
   };
 
   const onDurationInput = () => {
@@ -465,47 +583,31 @@ function initDurationFilter() {
     renderCatalog();
   };
 
-  // Configuration des deux groupes (Min et Max)
   const setupGroup = (hInput, mInput) => {
     if (!hInput || !mInput) return;
-
-    const handleBlur = () => {
+    const handleBlur = (e) => {
       setTimeout(() => {
         const active = document.activeElement;
-        // Si le focus est encore dans l'autre input du même groupe (ex: passage de h à min), attendre
-        if (active === hInput || active === mInput) {
-          return;
+        if (active !== hInput && active !== mInput) {
+          if (hInput.value !== '' || mInput.value !== '') {
+            validateAndFormatDurationGroup(hInput, mInput);
+            updateResetBtnVisibility();
+            updateCategoryAutoStar();
+            renderCatalog();
+          }
         }
-
-        // Le focus a complètement quitté le groupe : validation et complétion automatique
-        validateAndFormatDurationGroup(hInput, mInput);
-        updateResetBtnVisibility();
-        updateCategoryAutoStar();
-        renderCatalog();
-      }, 60);
+      }, 50);
     };
 
-    // Configuration du champ Heures
     hInput.addEventListener('input', () => {
       const clean = hInput.value.replace(/\D/g, '');
-      if (clean !== hInput.value) {
-        hInput.value = clean;
-      }
+      if (clean !== hInput.value) hInput.value = clean;
       onDurationInput();
-
-      // Dès qu'un chiffre d'heure est saisi, basculer directement sur les minutes
-      if (hInput.value.length >= 1) {
-        mInput.focus();
-        mInput.select();
-      }
+      if (hInput.value.length >= 1) mInput.focus();
     });
 
-    hInput.addEventListener('focus', () => {
-      hInput.select();
-    });
-
+    hInput.addEventListener('focus', () => hInput.select());
     hInput.addEventListener('blur', handleBlur);
-
     hInput.addEventListener('keydown', (e) => {
       if (e.key === 'Enter') {
         validateAndFormatDurationGroup(hInput, mInput);
@@ -516,21 +618,14 @@ function initDurationFilter() {
       }
     });
 
-    // Configuration du champ Minutes
     mInput.addEventListener('input', () => {
       const clean = mInput.value.replace(/\D/g, '');
-      if (clean !== mInput.value) {
-        mInput.value = clean;
-      }
+      if (clean !== mInput.value) mInput.value = clean;
       onDurationInput();
     });
 
-    mInput.addEventListener('focus', () => {
-      mInput.select();
-    });
-
+    mInput.addEventListener('focus', () => mInput.select());
     mInput.addEventListener('blur', handleBlur);
-
     mInput.addEventListener('keydown', (e) => {
       if (e.key === 'Enter') {
         validateAndFormatDurationGroup(hInput, mInput);
@@ -539,7 +634,6 @@ function initDurationFilter() {
         updateCategoryAutoStar();
         renderCatalog();
       } else if (e.key === 'Backspace' && mInput.value === '') {
-        // Revenir en arrière sur l'heure si les minutes sont déjà vides
         hInput.focus();
         hInput.select();
       }
@@ -562,7 +656,7 @@ function initDurationFilter() {
   }
 }
 
-// Obtenir tous les items éligibles selon le type, la catégorie et la plage de durée
+// Items éligibles avant filtre d'étoiles
 function getFilteredItemsBeforeStars() {
   let items = getCategoryEligibleItems();
   const minMin = getDurationMinMinutes();
@@ -581,20 +675,14 @@ function getFilteredItemsBeforeStars() {
   return items;
 }
 
-// Mise à jour du palier d'étoiles automatique pour la catégorie courante
 function updateCategoryAutoStar() {
-  // Récupérer les items éligibles de la sélection (catégorie + filtre durée éventuel)
   const categoryEligible = getFilteredItemsBeforeStars();
-
-  // Mise à jour des compteurs sur les boutons d'étoiles
   updateStarButtonsCounts(categoryEligible);
 
-  // Si en mode automatique, sélectionner le palier ciblant 30 à 50 films
   if (AppState.isAutoStars) {
     const autoTier = getAutoStarTier(categoryEligible);
     AppState.activeStars = autoTier;
     
-    // Mettre à jour l'UI des boutons
     const starButtons = document.querySelectorAll('.star-btn');
     starButtons.forEach(btn => {
       btn.classList.toggle('active', btn.dataset.stars === autoTier);
@@ -602,23 +690,33 @@ function updateCategoryAutoStar() {
   }
 }
 
-// Obtenir tous les items éligibles selon le type et la catégorie courante
 function getCategoryEligibleItems() {
   return AppState.catalog.filter(item => {
     if (!item.is_eligible) return false;
+    
+    // Filtre Type
     if (AppState.activeType === 'film') {
       if (item.type !== 'film' && item.type !== 'telefilm') return false;
     } else {
       if (item.type !== AppState.activeType) return false;
     }
+
+    // Filtre Bouquet
+    if (AppState.activeBouquet !== 'all') {
+      if (!item.package_slugs || !item.package_slugs.includes(AppState.activeBouquet)) {
+        return false;
+      }
+    }
+
+    // Filtre Catégorie
     if (AppState.activeCategory !== 'all') {
       if (!item.categories || !item.categories.includes(AppState.activeCategory)) return false;
     }
+
     return true;
   });
 }
 
-// Mise à jour des compteurs individuels sur chaque bouton d'étoiles
 function updateStarButtonsCounts(items) {
   const cAll = items.length;
   const c4 = items.filter(it => matchesStars(it, '4')).length;
@@ -633,7 +731,7 @@ function updateStarButtonsCounts(items) {
   if (el5) el5.textContent = c5;
 }
 
-// Rendu du catalogue aléatoire
+// Rendu du catalogue
 function renderCatalog() {
   const grid = document.getElementById('postersGrid');
   const emptyState = document.getElementById('emptyState');
@@ -641,7 +739,6 @@ function renderCatalog() {
   const descEl = document.getElementById('currentCategoryDesc');
   const countEl = document.getElementById('displayedCount');
 
-  // Mise à jour de l'en-tête de catégorie (propre, sans suffixes d'exigence ou de note)
   const catInfo = CATEGORIES_INFO[AppState.activeCategory] || CATEGORIES_INFO.all;
   if (titleEl) {
     const mediaLabel = AppState.activeType === 'film' ? 'Films' : 'Séries';
@@ -654,22 +751,15 @@ function renderCatalog() {
     descEl.style.display = catInfo.desc ? 'block' : 'none';
   }
 
-  // 1. Récupérer les items filtrés par catégorie et par durée
   let items = getFilteredItemsBeforeStars();
-
-  // 2. Mettre à jour les compteurs des étoiles
   updateStarButtonsCounts(items);
-
-  // 3. Filtrer selon le palier d'étoiles actif
   items = items.filter(item => matchesStars(item, AppState.activeStars));
 
-  // 4. Mélanger aléatoirement (Fisher-Yates) à chaque rendu / refresh
-  const shuffledItems = shuffleArray(items);
+  // Tri intelligent : Fins de droits en tête par ordre d'urgence, puis aléatoire quotidien
+  const sortedItems = sortCatalogItems(items);
+  if (countEl) countEl.textContent = sortedItems.length;
 
-  if (countEl) countEl.textContent = shuffledItems.length;
-
-  // Affichage
-  if (shuffledItems.length === 0) {
+  if (sortedItems.length === 0) {
     grid.innerHTML = '';
     emptyState.classList.remove('hidden');
     return;
@@ -678,7 +768,7 @@ function renderCatalog() {
   emptyState.classList.add('hidden');
   grid.innerHTML = '';
 
-  shuffledItems.forEach(item => {
+  sortedItems.forEach(item => {
     const card = document.createElement('div');
     card.className = 'poster-card';
     card.setAttribute('role', 'button');
@@ -686,12 +776,18 @@ function renderCatalog() {
     card.setAttribute('aria-label', `Voir les détails de ${item.titre}`);
     card.title = item.titre;
 
-    // Badge officiel CSA / PEGI (-10, -12, -16, -18)
+    // Badge CSA / PEGI
     const badgeHtml = item.badge 
       ? `<div class="csa-badge-container"><img class="csa-badge-img" src="assets/logos/pegi_${item.badge}.png" alt="-${item.badge}"></div>` 
       : '';
 
-    // Logos officiels des chaînes en bas à droite (côte à côte si multi-chaîne, ordre alphabétique)
+    // Badge de compte à rebours d'expiration : UNIQUEMENT si une date d'expiration existe
+    let expiryHtml = '';
+    if (item.expiration && item.expiration.label && item.expiration.status !== 'none' && item.expiration.status !== 'available') {
+      expiryHtml = `<div class="card-expiry-badge expiry-${item.expiration.status}">${item.expiration.label}</div>`;
+    }
+
+    // Logos des chaînes
     const logosList = item.logos_chaine && item.logos_chaine.length 
       ? item.logos_chaine 
       : (item.logo_chaine ? [item.logo_chaine] : []);
@@ -712,6 +808,7 @@ function renderCatalog() {
     card.innerHTML = `
       <div class="poster-img-container">
         <img class="poster-img" src="${item.poster}" alt="Affiche ${item.titre}" decoding="async">
+        ${expiryHtml}
         ${badgeHtml}
         <div class="channel-logo-container ${logosList.length > 1 ? 'has-multiple-logos' : ''}">
           ${channelLogoHtml}
@@ -719,7 +816,6 @@ function renderCatalog() {
       </div>
     `;
 
-    // Clic pour ouvrir la modale
     card.addEventListener('click', () => openModal(item));
     card.addEventListener('keydown', (e) => {
       if (e.key === 'Enter' || e.key === ' ') {
@@ -732,7 +828,7 @@ function renderCatalog() {
   });
 }
 
-// Modale de détails au clic
+// Modale de détails
 let savedScrollY = 0;
 
 function initModal() {
@@ -745,30 +841,20 @@ function initModal() {
     document.body.classList.remove('modal-open');
     document.documentElement.classList.remove('modal-open');
     
-    // Restaurer immédiatement la position exacte de défilement où se trouvait l'utilisateur
     window.scrollTo({
       top: savedScrollY,
       left: 0,
       behavior: 'instant'
     });
-    // Sécurité supplémentaire pour les navigateurs asynchrones / mobiles
     requestAnimationFrame(() => {
       window.scrollTo(0, savedScrollY);
     });
   };
 
   closeBtn.addEventListener('click', closeModal);
-
   modal.addEventListener('click', (e) => {
     if (e.target === modal) closeModal();
   });
-
-  // Empêcher le défilement de la page arrière-plan au toucher sur le fond
-  modal.addEventListener('touchmove', (e) => {
-    if (e.target === modal) {
-      e.preventDefault();
-    }
-  }, { passive: false });
 
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && modal.classList.contains('open')) {
@@ -778,102 +864,92 @@ function initModal() {
 }
 
 function openModal(item) {
-  // Enregistrer immédiatement la position exacte de scroll avant d'afficher la modale
   savedScrollY = window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0;
 
   const modal = document.getElementById('movieModal');
   const poster = document.getElementById('modalPoster');
   const title = document.getElementById('modalTitle');
-  const year = document.getElementById('modalYear');
   const typeBadge = document.getElementById('modalTypeBadge');
-  const modalCsaBadge = document.getElementById('modalCsaBadge');
+  const csaBadge = document.getElementById('modalCsaBadge');
+  const year = document.getElementById('modalYear');
   const channel = document.getElementById('modalChannel');
-  const categoriesContainer = document.getElementById('modalCategories');
-  const ratingEl = document.getElementById('modalRating');
-
+  const duration = document.getElementById('modalDuration');
   const durationRow = document.getElementById('modalDurationRow');
   const durationLabel = document.getElementById('modalDurationLabel');
-  const durationVal = document.getElementById('modalDuration');
+  const categories = document.getElementById('modalCategories');
+  const rating = document.getElementById('modalRating');
+  const ratingDetails = document.getElementById('modalRatingDetails');
+  const expiry = document.getElementById('modalExpiry');
+  const expiryRow = document.getElementById('modalExpiryRow');
+  const synopsis = document.getElementById('modalSynopsis');
 
   poster.src = item.poster;
   poster.alt = item.titre;
   title.textContent = item.titre;
-  year.textContent = item.annee;
-  
-  // Le type reste 'Film' ou 'Série'
-  typeBadge.textContent = item.type === 'film' ? 'Film' : 'Série';
+  typeBadge.textContent = item.type === 'serie' ? 'Série' : 'Film';
+  year.textContent = item.annee || '-';
 
-  // Affichage de la durée au milieu uniquement (garantir le format Xh YYmin, même si 00)
-  const formattedDuree = (item.duree || '').replace(/^(\d+)h$/i, '$1h 00min');
-  if (formattedDuree) {
-    if (durationRow) {
+  if (item.badge) {
+    csaBadge.innerHTML = `<img class="modal-csa-badge-img" src="assets/logos/pegi_${item.badge}.png" alt="-${item.badge}">`;
+    csaBadge.style.display = 'inline-flex';
+  } else {
+    csaBadge.innerHTML = '';
+    csaBadge.style.display = 'none';
+  }
+
+  const chainesDisplay = item.chaines && item.chaines.length ? item.chaines.join(' • ') : (item.chaine || '-');
+  channel.textContent = chainesDisplay;
+
+  if (durationRow && duration) {
+    if (item.duree) {
       durationRow.style.display = 'flex';
-      if (durationLabel) {
-        durationLabel.textContent = item.type === 'serie' ? '⏱️ Durée moyenne' : '⏱️ Durée';
-      }
-      if (durationVal) durationVal.textContent = formattedDuree;
-    }
-  } else {
-    if (durationRow) durationRow.style.display = 'none';
-  }
-  
-  // Badge CSA dans la modale
-  if (modalCsaBadge) {
-    if (item.badge) {
-      modalCsaBadge.innerHTML = `<img class="csa-badge-img modal-csa-img" src="assets/logos/pegi_${item.badge}.png" alt="-${item.badge}">`;
-      modalCsaBadge.style.display = 'inline-flex';
+      duration.textContent = item.duree;
+      if (durationLabel) durationLabel.textContent = item.type === 'serie' ? '⏱️ Épisode' : '⏱️ Durée';
     } else {
-      modalCsaBadge.innerHTML = '';
-      modalCsaBadge.style.display = 'none';
+      durationRow.style.display = 'none';
     }
   }
-  
-  // Chaîne avec logo(s) (côte à côte si plusieurs chaînes)
-  const logosList = item.logos_chaine && item.logos_chaine.length 
-    ? item.logos_chaine 
-    : (item.logo_chaine ? [item.logo_chaine] : []);
-  const chainesList = item.chaines && item.chaines.length 
-    ? item.chaines 
-    : (item.chaine ? [item.chaine] : []);
 
-  if (logosList.length > 0) {
-    channel.innerHTML = `
-      <div class="modal-channel-logos">
-        ${logosList.map((logoUrl, i) => `<img class="modal-channel-logo" src="${logoUrl}" alt="${chainesList[i] || ''}" title="${chainesList[i] || ''}">`).join('')}
-      </div>
-    `;
-  } else {
-    channel.innerHTML = `<span class="channel-name-tag">${chainesList.join(' • ')}</span>`;
+  // Disponibilité / Expiration
+  if (expiryRow && expiry) {
+    if (item.expiration && item.expiration.label && item.expiration.status !== 'none' && item.expiration.status !== 'available') {
+      expiryRow.style.display = 'flex';
+      expiry.textContent = item.expiration.label;
+      expiry.className = `info-value modal-expiry-val expiry-${item.expiration.status}`;
+    } else {
+      expiryRow.style.display = 'none';
+    }
   }
-  
-  // Catégories chips (au milieu)
-  categoriesContainer.innerHTML = '';
-  if (item.categories && item.categories.length > 0) {
+
+  // Catégorie unique
+  categories.innerHTML = '';
+  if (item.categories && item.categories.length) {
     item.categories.forEach(catKey => {
-      const catObj = CATEGORIES_INFO[catKey];
-      if (catObj) {
+      const cat = CATEGORIES_INFO[catKey];
+      if (cat) {
         const chip = document.createElement('span');
-        chip.className = 'category-chip';
-        chip.textContent = catObj.title;
-        categoriesContainer.appendChild(chip);
+        chip.className = 'modal-cat-chip';
+        chip.textContent = `${cat.icon} ${cat.title}`;
+        categories.appendChild(chip);
       }
     });
   }
 
-  // Note globale (en 3e) avec étoiles
-  if (ratingEl) {
-    const score = Number(item.note_globale || item.note_avis || 0);
-    let starsSymbol = '★★★';
-    if (score >= 8.0) starsSymbol = '★★★★★';
-    else if (score >= 7.0) starsSymbol = '★★★★';
-    
-    const displayRating = (item.note_globale !== undefined && item.note_globale !== null)
-      ? Number(item.note_globale).toFixed(1)
-      : (item.note_avis !== undefined && item.note_avis !== null ? Number(item.note_avis).toFixed(1) : '-');
-    ratingEl.innerHTML = `${displayRating} / 10 <span class="modal-stars-tag">${starsSymbol}</span>`;
+  // Note + Étoiles dans la capsule dorée (ex: 8.0 / 10 ★★★★★)
+  if (rating) {
+    const scoreVal = item.note_globale || item.note_avis || '-';
+    const numScore = Number(scoreVal) || 0;
+    const starCount = item.etoiles || (numScore >= 8 ? 5 : (numScore >= 7 ? 4 : 3));
+    rating.innerHTML = `<span>${scoreVal} / 10</span><span class="modal-stars-pure">${'★'.repeat(starCount)}</span>`;
   }
 
-  document.body.classList.add('modal-open');
+  // Synopsis
+  if (synopsis) {
+    synopsis.textContent = item.synopsis || 'Aucun résumé disponible pour ce titre.';
+  }
+
   modal.classList.add('open');
   modal.setAttribute('aria-hidden', 'false');
+  document.body.classList.add('modal-open');
+  document.documentElement.classList.add('modal-open');
 }
