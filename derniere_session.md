@@ -204,3 +204,24 @@ Pour respecter scrupuleusement la **Règle Fondamentale (1 film / série = 1 seu
    * Synchro quotidienne (50 nouveautés) déclenchée uniquement après 24h ou au changement de date calendaire.
    * Synchro mensuelle intégrale déclenchée uniquement après 30 jours.
 
+---
+
+## 11. Purge des Anciennes Fiches Manuelles & Élimination Complète des Doublons (v8.21 / v13)
+
+### A. Problématique Résolue
+* Présence de doublons dans le catalogue publié (ex: 2 entrées pour *Extra.* dans Comédie, présence simultanée de *La Famille Rose* dans Comédie et Horreur).
+* **Cause** : Coexistence résiduelle de 395 fiches historiques créées manuellement (identifiants textuels) avec les 946 fiches officielles issues du flux JustWatch (`jw-...`).
+
+### B. Actions Réalisées
+1. **Nettoyage Intégral du Code Publié (`js/catalog.js`)** :
+   * Suppression totale des 395 anciennes fiches manuelles.
+   * Conservation stricte des **946 œuvres officielles JustWatch qualifiées** (Ciné+ OCS, Universal+, Action Max).
+   * Vérification unitaire : 0 doublon résiduel (*Extra.* est unique dans `comedie`, *La Famille Rose* est unique dans `horreur_epouvante`).
+2. **Incrémentation de la Clé de Cache LocalStorage (`v13`)** :
+   * Mise à jour de `STORAGE_KEY_CATALOG`, `STORAGE_KEY_SYNC`, `STORAGE_KEY_FULL_SYNC` et `STORAGE_KEY_AUTOSYNC` vers `_v13` dans [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js).
+   * Purge automatique des anciens catalogues en cache contenant les fiches historiques dès le chargement du site.
+3. **Incrémentation des Versions PWA & Cache-Busters (`v8.21`)** :
+   * Mise à jour de `CACHE_NAME` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js) (`cinescope-v8.21-streaming`).
+   * Mise à jour des balises `<script>` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html) (`?v=8.21`).
+
+

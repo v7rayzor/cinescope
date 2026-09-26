@@ -241,7 +241,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     AppState.catalog = cached;
   } else if (typeof CATALOG_DATA !== 'undefined' && CATALOG_DATA.length > 0) {
     AppState.catalog = CATALOG_DATA;
-    // Si aucune date n'est enregistrée mais que le catalogue officiel est présent, initialiser la date de base
+    JustWatchEngine.saveCatalogToCache(CATALOG_DATA);
     if (!JustWatchEngine.getLastSyncDate()) {
       JustWatchEngine.saveFullSyncDate();
     }
