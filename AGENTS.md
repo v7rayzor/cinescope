@@ -40,3 +40,14 @@ Une œuvre est éligible (`is_eligible: true`) si et seulement si elle respecte 
 - Toutes les affiches du catalogue (`assets/posters/`) doivent être **STRICTEMENT des images haute définition (HD)** officielles de l'œuvre (provenant de TMDb, Allociné, Unifrance, Apple TV ou des distributeurs officiels).
 - **Il est FORMELLEMENT INTERDIT d'utiliser des captures d'écran de captures d'écran**, des découpes de l'interface Molotov ou des images basse résolution/floues comme affiches.
 - Les captures d'écran présentes dans le dossier `Site/` servent **exclusivement de repère visuel de référence** (pour identifier les acteurs, l'affiche de diffusion et le badge d'âge CSA/PEGI), mais le fichier final dans `assets/posters/` doit toujours être le poster officiel original en haute définition.
+
+---
+
+## 5. Règle Documentaire : Alimentation Obligatoire de `derniere_session.md` en Fin de Session
+- À la fin de chaque session de travail ou cycle de développement, l'agent doit **SYSTÉMATIQUEMENT et OBLIGATOIREMENT** mettre à jour le fichier [`derniere_session.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/derniere_session.md) à la racine du projet.
+- Ce fichier doit contenir :
+  1. Le récapitulatif détaillé et exhaustif des fonctionnalités ajoutées, corrigées ou refondues.
+  2. Les règles métier, formules mathématiques et arbitrages algorithmiques mis en place.
+  3. L'état exact du catalogue, les statistiques de conformité et les décisions techniques clés.
+  4. L'historique des versions de cache PWA et des clés de stockage pour assurer une traçabilité parfaite.
+
