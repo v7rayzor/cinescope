@@ -136,9 +136,9 @@ Pour respecter scrupuleusement la **Règle Fondamentale (1 film / série = 1 seu
 ---
 
 ## 8. Gestion du Cache PWA & Versions
-* **Clefs de stockage LocalStorage** : `cinescope_streaming_catalog_v11` et `cinescope_streaming_last_sync_v11` dans [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js).
-* **Versions des assets HTML** : Passées à `?v=8.19` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
-* **Service Worker** : Nom de cache actualisé à `cinescope-v8.19-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
+* **Clefs de stockage LocalStorage** : `cinescope_streaming_catalog_v12`, `cinescope_streaming_last_sync_v12` et `cinescope_streaming_last_full_sync_v12` dans [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js).
+* **Versions des assets HTML** : Passées à `?v=8.20` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
+* **Service Worker** : Nom de cache actualisé à `cinescope-v8.20-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
 
 ---
 
@@ -184,4 +184,23 @@ Pour respecter scrupuleusement la **Règle Fondamentale (1 film / série = 1 seu
      * `action_aventure` : 110
      * `animation_famille` : 91
      * `horreur_epouvante` : 73
+
+---
+
+## 10. Correction de la Resynchronisation au Démarrage & Sécurisation LocalStorage
+
+### A. Problématique Résolue
+* Une synchronisation s'exécutait systématiquement à chaque visite/rafraîchissement au lieu de respecter la périodicité (1 fois par jour pour 50 nouveautés, 1 fois par mois pour le catalogue complet).
+* **Causes identifiées** :
+  1. La condition au démarrage `!cached` forçait une resynchronisation complète même lorsque `CATALOG_DATA` (1 341 œuvres) était déjà présent en mémoire.
+  2. Le volume du catalogue (~1,5 Mo / 2,4 Mo UTF-16) dépassait le quota `LocalStorage` (5 Mo partagé), empêchant l'enregistrement de l'horodatage de synchronisation `STORAGE_KEY_SYNC` situé dans le même bloc.
+  3. Présence résiduelle d'anciennes clés de cache non purgées.
+
+### B. Mesures Appliquées
+1. **Démarrage instantané sur `CATALOG_DATA`** : Le catalogue officiel embarqué est immédiatement affiché sans déclencher de resynchronisation inutile.
+2. **Sauvegarde prioritaire et indépendante des métadonnées** : Les horodatages `STORAGE_KEY_SYNC` et `STORAGE_KEY_FULL_SYNC` (quelques octets) sont systématiquement enregistrés avant tout traitement lourd.
+3. **Purge proactive automatique des anciennes versions (`cleanLegacyLocalStorage`)** : Suppression des clés obsolètes (`v1` à `v11`) pour garantir un espace de stockage propre.
+4. **Respect strict des règles d'actualisation** :
+   * Synchro quotidienne (50 nouveautés) déclenchée uniquement après 24h ou au changement de date calendaire.
+   * Synchro mensuelle intégrale déclenchée uniquement après 30 jours.
 

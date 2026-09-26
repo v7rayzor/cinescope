@@ -235,20 +235,26 @@ document.addEventListener('DOMContentLoaded', async () => {
   initModal();
   initSyncControls();
 
-  // Chargement initial depuis la mémoire locale permanente
+  // Chargement initial depuis la mémoire locale permanente ou le catalogue officiel
   const cached = JustWatchEngine.getCachedCatalog();
   if (cached && cached.length > 0) {
     AppState.catalog = cached;
-    refreshApplicationUI();
   } else if (typeof CATALOG_DATA !== 'undefined' && CATALOG_DATA.length > 0) {
     AppState.catalog = CATALOG_DATA;
-    refreshApplicationUI();
+    // Si aucune date n'est enregistrée mais que le catalogue officiel est présent, initialiser la date de base
+    if (!JustWatchEngine.getLastSyncDate()) {
+      JustWatchEngine.saveFullSyncDate();
+    }
   }
 
+  refreshApplicationUI();
+  updateSyncStatusDisplay();
+
   // Vérification de synchronisation automatique :
-  // - Complète intégrale si catalogue < 300 titres ou > 30 jours
-  // - Ou quotidienne 50 nouveautés si > 24h
-  const needsFull = JustWatchEngine.shouldAutoFullSync() || !cached || cached.length < 300;
+  // - Complète intégrale UNIQUEMENT si catalogue < 300 titres ou > 30 jours
+  // - Quotidienne (50 nouveautés) UNIQUEMENT si > 24h ou nouveau jour
+  const currentCount = AppState.catalog.length;
+  const needsFull = JustWatchEngine.shouldAutoFullSync() || currentCount < 300;
   const needsDaily = JustWatchEngine.shouldAutoRefresh();
 
   if (needsFull) {

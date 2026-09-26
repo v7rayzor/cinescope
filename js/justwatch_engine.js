@@ -4,10 +4,33 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v11';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v11';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v11';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v11';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v12';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v12';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v12';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v12';
+
+  // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
+  function cleanLegacyLocalStorage() {
+    try {
+      if (typeof localStorage === 'undefined') return;
+      const keysToKeep = [
+        STORAGE_KEY_CATALOG,
+        STORAGE_KEY_SYNC,
+        STORAGE_KEY_FULL_SYNC,
+        STORAGE_KEY_AUTOSYNC
+      ];
+      const allKeys = Object.keys(localStorage);
+      for (const key of allKeys) {
+        if (key.startsWith('cinescope_streaming_') && !keysToKeep.includes(key)) {
+          localStorage.removeItem(key);
+        }
+      }
+    } catch (e) {
+      console.warn('[JustWatchEngine] Nettoyage ancien stockage :', e);
+    }
+  }
+
+  cleanLegacyLocalStorage();
 
   // Configuration des bouquets et packages JustWatch France avec logos officiels
   const PACKAGES_CONFIG = {
@@ -887,20 +910,29 @@ const JustWatchEngine = (function () {
   }
 
   function saveCatalogToCache(items) {
+    // 1. Toujours enregistrer la date de synchro en premier (quelques octets, infaillible)
     try {
       if (typeof localStorage !== 'undefined') {
-        localStorage.setItem(STORAGE_KEY_CATALOG, JSON.stringify(items));
         localStorage.setItem(STORAGE_KEY_SYNC, new Date().toISOString());
       }
+    } catch (e) { }
+
+    // 2. Tenter d'enregistrer le catalogue dans le localStorage (protégé contre QuotaExceededError)
+    try {
+      if (typeof localStorage !== 'undefined' && Array.isArray(items) && items.length > 0) {
+        localStorage.setItem(STORAGE_KEY_CATALOG, JSON.stringify(items));
+      }
     } catch (e) {
-      console.error('[JustWatchEngine] Erreur écriture cache local :', e);
+      console.warn('[JustWatchEngine] Quota localStorage dépassé (catalogue maintenu en mémoire vive) :', e.message);
     }
   }
 
   function saveFullSyncDate() {
     try {
       if (typeof localStorage !== 'undefined') {
-        localStorage.setItem(STORAGE_KEY_FULL_SYNC, new Date().toISOString());
+        const nowIso = new Date().toISOString();
+        localStorage.setItem(STORAGE_KEY_FULL_SYNC, nowIso);
+        localStorage.setItem(STORAGE_KEY_SYNC, nowIso);
       }
     } catch (e) { }
   }
@@ -942,16 +974,16 @@ const JustWatchEngine = (function () {
   function shouldAutoRefresh() {
     if (!isAutoSyncEnabled()) return false;
     const last = getLastSyncDate();
-    if (!last) return true;
+    if (!last) return false;
     const now = new Date();
     const diffHours = (now.getTime() - last.getTime()) / (1000 * 60 * 60);
-    return diffHours >= 24 || now.getDate() !== last.getDate();
+    return diffHours >= 24 || now.toDateString() !== last.toDateString();
   }
 
   // Vérifie si une synchro mensuelle complète s'impose (> 30 jours)
   function shouldAutoFullSync() {
     const lastFull = getLastFullSyncDate();
-    if (!lastFull) return true;
+    if (!lastFull) return false;
     const now = new Date();
     const diffDays = (now.getTime() - lastFull.getTime()) / (1000 * 60 * 60 * 24);
     return diffDays >= 30;
@@ -971,13 +1003,15 @@ const JustWatchEngine = (function () {
     mergeCatalog,
     getCachedCatalog,
     saveCatalogToCache,
+    saveFullSyncDate,
     getLastSyncDate,
     getLastFullSyncDate,
     isAutoSyncEnabled,
     setAutoSyncEnabled,
     getAllowedCategories,
     shouldAutoRefresh,
-    shouldAutoFullSync
+    shouldAutoFullSync,
+    cleanLegacyLocalStorage
   };
 })();
 
