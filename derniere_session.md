@@ -224,4 +224,19 @@ Pour respecter scrupuleusement la **Règle Fondamentale (1 film / série = 1 seu
    * Mise à jour de `CACHE_NAME` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js) (`cinescope-v8.21-streaming`).
    * Mise à jour des balises `<script>` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html) (`?v=8.21`).
 
+### C. État Final du Catalogue & Audit de Conformité
+* **Total œuvres qualifiées en ligne** : **946 œuvres** (802 films & téléfilms, 144 séries).
+* **Règle 1 (1 seule catégorie unique stricte)** : **946 / 946 (100% conforme, 0 anomalie)**.
+* **Doublons résiduels** : **0 (0%)**.
+* **Répartition par catégorie officielle** :
+  * `drame_emotion` : 365 œuvres (38.6%)
+  * `thriller_policier` : 173 œuvres (18.3%)
+  * `comedie` : 162 œuvres (17.1%)
+  * `animation_famille` : 70 œuvres (7.4%)
+  * `horreur_epouvante` : 64 œuvres (6.8%)
+  * `scifi_fantastique` : 63 œuvres (6.7%)
+  * `action_aventure` : 49 œuvres (5.2%)
+* **Dépôt Git** : Branche `main` synchronisée et à jour avec `origin/main` (`commit d69038d`).
+
+
 
