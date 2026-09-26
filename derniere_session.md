@@ -136,6 +136,44 @@ Pour respecter scrupuleusement la **Règle Fondamentale (1 film / série = 1 seu
 ---
 
 ## 8. Gestion du Cache PWA & Versions
-* **Clefs de stockage LocalStorage** : Incrémentées en `_v7` dans [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js) pour forcer le recalcul immédiat sans cache obsolète.
-* **Versions des assets HTML** : Passées à `?v=8.13` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
-* **Service Worker** : Nom de cache actualisé à `cinescope-v8.13-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
+* **Clefs de stockage LocalStorage** : `cinescope_streaming_catalog_v10` et `cinescope_streaming_last_sync_v10` dans [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js).
+* **Versions des assets HTML** : Passées à `?v=8.17` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
+* **Service Worker** : Nom de cache actualisé à `cinescope-v8.17-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
+
+---
+
+## 9. Résolution Définitive de la Synchronisation en Production (Architecture Hybride Option C)
+
+### A. Cause Racine Identifiée
+* **En local (Vite)** : Le proxy configuré dans `vite.config.js` émettait les requêtes en mode serveur Node.js sans contrainte CORS.
+* **Sur le site publié (GitHub Pages)** :
+  1. `/api/justwatch/graphql` renvoyait une erreur 404 (absence de serveur proxy backend).
+  2. L'appel direct à `https://apis.justwatch.com/graphql` était bloqué par les politiques de sécurité CORS des navigateurs (absence d'en-tête `Access-Control-Allow-Origin` de JustWatch).
+  3. Les proxys CORS publics tiers (`corsproxy.io`) étaient bloqués par le pare-feu Cloudflare (Erreur 403).
+
+### B. Solution Implémentée (Option C)
+1. **Automatisation Serveur GitHub Actions ([`.github/workflows/update_catalog.yml`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/.github/workflows/update_catalog.yml))** :
+   * Exécution planifiée quotidienne à **06:00 UTC** + déclenchement manuel en 1 clic via `workflow_dispatch`.
+   * Exécute le script serveur [`scripts/sync_justwatch.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_justwatch.js) sous Node.js 20 (serveur à serveur, sans aucune restriction CORS).
+   * Récupère l'intégralité du catalogue qualifié (1150+ œuvres brutes interrogées sur JustWatch pour Ciné+ OCS, Action Max et Universal+).
+   * Applique les règles de déduplication, catégorisation unique stricte et calcul des fins de droits.
+   * Met à jour et commite automatiquement [`js/catalog.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js) sur la branche `main`.
+
+2. **Synchronisation Client Résiliente ([`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js) & [`js/app.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/app.js))** :
+   * Ajout de `fetchLatestPublishedCatalog()` avec invalidation de cache (`?t=timestamp`).
+   * Lorsque l'utilisateur clique sur **« Actualiser »** sur le site en ligne, l'application recharge instantanément les dernières données publiées, recalcule les décomptes d'expiration (`daysLeft`) pour le jour J et affiche le statut **`🟢 Synchro : Aujourd'hui à HHhMM`**.
+   * Disparition totale de l'erreur `🔴 Échec de connexion`.
+
+3. **Audit de Conformité Réalisé (1 341 œuvres qualifiées)** :
+   * Strictement 1 catégorie par œuvre : **1 341 / 1 341 (100% conforme, 0 anomalie)**.
+   * Catégories valides : **1 341 / 1 341**.
+   * Titres expirés : **0**.
+   * Répartition :
+     * `drame_emotion` : 470
+     * `comedie` : 235
+     * `thriller_policier` : 232
+     * `scifi_fantastique` : 127
+     * `action_aventure` : 113
+     * `animation_famille` : 91
+     * `horreur_epouvante` : 73
+

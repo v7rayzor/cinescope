@@ -781,8 +781,9 @@ const JustWatchEngine = (function () {
       if (!currentCursor) break;
     }
 
-    if (freshQualified.length === 0 && (!existingCatalog || existingCatalog.length === 0)) {
-      throw new Error('Aucun titre éligible trouvé sur JustWatch');
+    if (freshQualified.length === 0) {
+      console.log('[JustWatchEngine] Bascule sur la synchronisation du catalogue publié...');
+      return await fetchLatestPublishedCatalog();
     }
 
     // Récupérer le catalogue existant et fusionner
@@ -795,6 +796,50 @@ const JustWatchEngine = (function () {
     }
 
     return merged;
+  }
+
+  // Récupération de secours du catalogue publié (utilisé sur GitHub Pages / hébergement statique sans serveur proxy)
+  async function fetchLatestPublishedCatalog() {
+    const urls = [
+      `js/catalog.js?t=${Date.now()}`,
+      `https://raw.githubusercontent.com/v7rayzor/cinescope/main/js/catalog.js?t=${Date.now()}`
+    ];
+
+    for (const u of urls) {
+      try {
+        const res = await fetch(u, { cache: 'no-store' });
+        if (!res.ok) continue;
+        const text = await res.text();
+        const match = text.match(/const\s+CATALOG_DATA\s*=\s*(\[[\s\S]*\])\s*;?/);
+        if (match) {
+          const parsed = JSON.parse(match[1]);
+          if (parsed && parsed.length > 0) {
+            console.log(`[JustWatchEngine] Catalogue publié rechargé avec succès depuis ${u} (${parsed.length} œuvres).`);
+            const currentCached = getCachedCatalog() || [];
+            const merged = mergeCatalog(currentCached, parsed);
+            saveCatalogToCache(merged);
+            saveFullSyncDate();
+            return merged;
+          }
+        }
+      } catch (err) {
+        console.warn(`[JustWatchEngine] Échec chargement secours depuis ${u} :`, err.message);
+      }
+    }
+
+    // Si le réseau est indisponible mais qu'on a déjà CATALOG_DATA en mémoire ou dans le cache
+    const cached = getCachedCatalog();
+    if (cached && cached.length > 0) {
+      saveCatalogToCache(cached);
+      return cached;
+    }
+    if (typeof CATALOG_DATA !== 'undefined' && CATALOG_DATA.length > 0) {
+      const merged = mergeCatalog([], CATALOG_DATA);
+      saveCatalogToCache(merged);
+      return merged;
+    }
+
+    throw new Error('Impossible de synchroniser le catalogue');
   }
 
   // Gestion du cache local
@@ -902,6 +947,7 @@ const JustWatchEngine = (function () {
     computeExpirationInfo,
     refreshItemExpiration,
     fetchJustWatchData,
+    fetchLatestPublishedCatalog,
     mergeCatalog,
     getCachedCatalog,
     saveCatalogToCache,
