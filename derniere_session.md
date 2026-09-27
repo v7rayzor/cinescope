@@ -224,19 +224,58 @@ Pour respecter scrupuleusement la **Règle Fondamentale (1 film / série = 1 seu
    * Mise à jour de `CACHE_NAME` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js) (`cinescope-v8.21-streaming`).
    * Mise à jour des balises `<script>` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html) (`?v=8.21`).
 
-### C. État Final du Catalogue & Audit de Conformité
-* **Total œuvres qualifiées en ligne** : **946 œuvres** (802 films & téléfilms, 144 séries).
-* **Règle 1 (1 seule catégorie unique stricte)** : **946 / 946 (100% conforme, 0 anomalie)**.
-* **Doublons résiduels** : **0 (0%)**.
-* **Répartition par catégorie officielle** :
+---
+
+## 12. Calibrage Sémantique de la Catégorie Horreur & Règle des Signalétiques d'Âge (v8.22 / v14)
+
+### A. Contexte & Problématique Résolue
+* Dans la catégorie **Horreur & Épouvante**, la présence d'œuvres Tout Public (sans pastille d'âge) de type comédies burlesques de vampires (*Reginald the Vampire*), parodies animalières (*Monster on a Plane*), satires (*La Famille Rose*) ou aventures fantastiques familiales (*Monster Summer*, *The Creeps*, *T.I.M.*) créait une disparité visuelle et sémantique avec les véritables slashers sombres et œuvres horrifiques matures (*Wreck* -18, *The Ugly Stepsister* -16, *Black Friday !* -12).
+
+### B. Arbitrages & Règles Algorithmiques Déterminées
+1. **Comédies & Hybrides Tout Public sans Pastille d'Âge $\rightarrow$ Exclues d'Horreur** :
+   * Toute œuvre portant le tag `cmy` (Comédie) combiné à `hrr` (Horreur) **SANS pastille d'âge (-10, -12, -16, -18)** et sans motif horrifique strict est formellement exclue d'Horreur et reclassée en **`comedie`** ou **`scifi_fantastique`** (*Reginald the Vampire*, *Monster on a Plane*, *The Creeps*, *La Famille Rose*).
+   * *Rappel* : Les comédies horrifiques matures AVEC pastille d'âge (*Wreck* -18, *The Ugly Stepsister* -16, *Black Friday !* -12, *Accident domestique* -12) restent bien protégées et ancrées dans **`horreur_epouvante`**.
+
+2. **Aventures Fantastiques / SF / Mystères Tout Public sans Pastille $\rightarrow$ Reclassés** :
+   * Les œuvres sans pastille d'âge orientées fantastique/SF ou intrigues de survie sans horreur pure basculent dans leur genre naturel :
+     * *Monster Summer* $\rightarrow$ **`scifi_fantastique`** (aventure fantastique ados).
+     * *T.I.M.* $\rightarrow$ **`scifi_fantastique`** (thriller technologique / IA robotique).
+     * *Revival* $\rightarrow$ **`thriller_policier`** (enquête policière criminelle / surnaturel).
+     * *Fear the Night*, *La Proie des Ombres*, *Moso* $\rightarrow$ **`thriller_policier`** (survie / action criminelle).
+
+3. **Protection & Sanctuaire de l'Horreur Pure** :
+   * Les véritables œuvres d'horreur pure (gore, possession démoniaque, exorcisme, body horror, vampirisme sombre, monstres mutants) sont sanctuarisées dans **`horreur_epouvante`** même lorsque le flux API n'a pas transmis le badge CSA (*Else*, *Blood*, *La Chose derrière la porte*, *J'ai vu le visage du diable*, *Pussy Cake*, *Mange*).
+
+### C. Récapitulatif des Reclassements Appliqués
+* *Monster Summer* (TP) : `horreur_epouvante` $\rightarrow$ **`scifi_fantastique`**
+* *T.I.M.* (TP) : `horreur_epouvante` $\rightarrow$ **`scifi_fantastique`**
+* *Reginald the Vampire* (TP) : `horreur_epouvante` $\rightarrow$ **`comedie`**
+* *Revival* (TP) : `horreur_epouvante` $\rightarrow$ **`thriller_policier`**
+* *The Creeps* (TP) : `horreur_epouvante` $\rightarrow$ **`scifi_fantastique`**
+* *Fear the Night* (TP) : `horreur_epouvante` $\rightarrow$ **`thriller_policier`**
+* *La Proie des Ombres* (TP) : `horreur_epouvante` $\rightarrow$ **`thriller_policier`**
+* *Moso* (TP) : `horreur_epouvante` $\rightarrow$ **`thriller_policier`**
+* *Monster on a Plane* (TP) : `horreur_epouvante` $\rightarrow$ **`comedie`**
+* *La Famille Rose* (TP) : `horreur_epouvante` $\rightarrow$ **`comedie`**
+
+### D. Versions & Traçabilité Technique
+* **Clés LocalStorage** : Incrémentées vers `_v14` (`cinescope_streaming_catalog_v14`, `cinescope_streaming_last_sync_v14`, `cinescope_streaming_last_full_sync_v14`, `cinescope_streaming_autosync_v14`).
+* **Service Worker PWA** : Cache mis à jour à `cinescope-v8.22-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
+* **Balises Scripts HTML** : Versions passées à `?v=8.22` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
+
+### E. Audit Final de Conformité (946 œuvres)
+* **Strictement 1 catégorie unique** : **946 / 946 (100% conforme, 0 anomalie)**
+* **Catégories valides** : **946 / 946 (100%)**
+* **Titres expirés** : **0**
+* **Répartition finale des catégories** :
   * `drame_emotion` : 365 œuvres (38.6%)
-  * `thriller_policier` : 173 œuvres (18.3%)
-  * `comedie` : 162 œuvres (17.1%)
+  * `thriller_policier` : 177 œuvres (18.7%)
+  * `comedie` : 165 œuvres (17.4%)
   * `animation_famille` : 70 œuvres (7.4%)
-  * `horreur_epouvante` : 64 œuvres (6.8%)
-  * `scifi_fantastique` : 63 œuvres (6.7%)
+  * `scifi_fantastique` : 66 œuvres (7.0%)
+  * `horreur_epouvante` : 54 œuvres (5.7%)
   * `action_aventure` : 49 œuvres (5.2%)
-* **Dépôt Git** : Branche `main` synchronisée et à jour avec `origin/main` (`commit d69038d`).
+
 
 
 

@@ -4581,7 +4581,7 @@ const CATALOG_DATA = [
     "note_recence": 9.5,
     "note_globale": 7.6,
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "badge": null,
     "is_eligible": true,
@@ -11472,7 +11472,7 @@ const CATALOG_DATA = [
     "titre": "T.I.M.",
     "type": "film",
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "annee": 2023,
     "chaine": "Universal+",
@@ -14371,7 +14371,7 @@ const CATALOG_DATA = [
     "note_recence": 9.1,
     "note_globale": 7.6,
     "categories": [
-      "horreur_epouvante"
+      "comedie"
     ],
     "badge": null,
     "is_eligible": true,
@@ -20802,7 +20802,7 @@ const CATALOG_DATA = [
     "note_globale": 8.2,
     "etoiles": 5,
     "categories": [
-      "horreur_epouvante"
+      "thriller_policier"
     ],
     "raw_genres": [
       "act",
@@ -21413,7 +21413,7 @@ const CATALOG_DATA = [
     "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "act",
@@ -23274,7 +23274,7 @@ const CATALOG_DATA = [
     "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "thriller_policier"
     ],
     "raw_genres": [
       "act",
@@ -24134,7 +24134,7 @@ const CATALOG_DATA = [
     "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
-      "horreur_epouvante"
+      "thriller_policier"
     ],
     "raw_genres": [
       "hrr",
@@ -26625,7 +26625,7 @@ const CATALOG_DATA = [
     "note_globale": 8,
     "etoiles": 5,
     "categories": [
-      "horreur_epouvante"
+      "thriller_policier"
     ],
     "raw_genres": [
       "hrr",
@@ -27534,7 +27534,7 @@ const CATALOG_DATA = [
     "note_globale": 7,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -30192,7 +30192,7 @@ const CATALOG_DATA = [
     "note_globale": 8.6,
     "etoiles": 5,
     "categories": [
-      "horreur_epouvante"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -41321,3 +41321,10 @@ const CATALOG_DATA = [
     }
   }
 ];
+
+if (typeof window !== "undefined") {
+  window.CATALOG_DATA = CATALOG_DATA;
+}
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = CATALOG_DATA;
+}
