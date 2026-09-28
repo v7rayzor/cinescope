@@ -22,7 +22,7 @@ jobs:
           node-version: 20
 
       - name: Synchroniser le catalogue JustWatch
-        run: node scripts/sync_justwatch.js
+        run: node scripts/sync_justwatch.cjs
 
       - name: Valider et publier les mises à jour
         run: |

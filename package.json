@@ -2,13 +2,15 @@
   "name": "cinescope-filmographie",
   "version": "1.0.0",
   "description": "Filmothèque personnelle et guide streaming",
+  "type": "module",
   "main": "index.html",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "sync": "node scripts/sync_justwatch.js",
-    "build:catalog": "node scripts/sync_justwatch.js"
+    "sync": "node scripts/sync_justwatch.cjs",
+    "build:catalog": "node scripts/sync_justwatch.cjs",
+    "verify": "node scripts/verify_compliance.cjs"
   },
   "devDependencies": {
     "vite": "^5.4.0"

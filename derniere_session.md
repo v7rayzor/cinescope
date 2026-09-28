@@ -276,6 +276,11 @@ Pour respecter scrupuleusement la **Règle Fondamentale (1 film / série = 1 seu
   * `horreur_epouvante` : 54 œuvres (5.7%)
   * `action_aventure` : 49 œuvres (5.2%)
 
+---
 
-
-
+## 10. Modernisation des Modules (ESM) & Résolution du Déprécié Vite
+* **Passage à `"type": "module"`** dans [`package.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/package.json) pour aligner l'architecture Node.js avec les standards ESM de Vite 5+.
+* **Élimination complète de l'avertissement** `The CJS build of Vite's Node API is deprecated`.
+* **Isolation propre des scripts Node.js** :
+  * [`scripts/sync_justwatch.cjs`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_justwatch.cjs) et [`scripts/verify_compliance.cjs`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/verify_compliance.cjs) utilisent l'extension `.cjs` pour garantir leur fonctionnement natif avec `require()` sous Node 20+.
+  * Mise à jour du workflow GitHub Actions [`.github/workflows/update_catalog.yml`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/.github/workflows/update_catalog.yml) pour cibler `.cjs`.
