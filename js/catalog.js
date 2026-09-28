@@ -17893,48 +17893,6 @@ const CATALOG_DATA = [
     }
   },
   {
-    "id": "jw-ts42189",
-    "titre": "Below Deck Mediterranean",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2016,
-    "duree": "45 min/ép.",
-    "runtime_minutes": 45,
-    "note_avis": 7.6,
-    "note_recence": 7.7,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "rly"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/308540594/s592/below-deck-mediterranean.jpg",
-    "synopsis": "Suivez les membres de l'équipage qui vivent et travaillent à bord d'un méga-yacht de 150 pieds alors qu'il entreprend une saison de charter en Méditerranée. Fournir un service inégalé à des clients fortunés et intransigeants est d'autant plus difficile que l'équipe doit faire face à toutes sortes de situations, depuis les triangles amoureux jusqu'au fait de voir des membres de l'équipage franchir de manière choquante les limites avec les clients.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 68,
-      "expirationDate": "2026-12-04",
-      "packageExpirations": {
-        "auc": "2026-12-04"
-      }
-    }
-  },
-  {
     "id": "jw-ts390561",
     "titre": "The Librarians : L'Héritage de Flynn Carson",
     "type": "serie",
@@ -18194,90 +18152,6 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-ts10803",
-    "titre": "Below Deck : La vie à bord",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2013,
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 7.5,
-    "note_recence": 7,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "rly"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/215332197/s592/below-deck.jpg",
-    "synopsis": "Le jeune équipage d'un yacht de croisière de luxe navigue sur des eaux troublées par l'amour, les exigences des passagers et bien d'autres remous dramatiques.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
-      "expirationDate": "2026-12-05",
-      "packageExpirations": {
-        "auc": "2026-12-05"
-      }
-    }
-  },
-  {
-    "id": "jw-ts22195",
-    "titre": "Les Real Housewives de Beverly Hills",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2010,
-    "duree": "44 min/ép.",
-    "runtime_minutes": 44,
-    "note_avis": 5.7,
-    "note_recence": 6.3,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "rly"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/339112397/s592/the-real-housewives-of-beverly-hills.jpg",
-    "synopsis": "Une série de téléréalité qui suit certaines des femmes les plus riches du pays alors qu'elles apprécient le style de vie somptueux que seule Beverly Hills peut offrir.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
-      "expirationDate": "2026-12-05",
-      "packageExpirations": {
-        "auc": "2026-12-05"
-      }
     }
   },
   {
@@ -21480,49 +21354,6 @@ const CATALOG_DATA = [
     }
   },
   {
-    "id": "jw-ts289225",
-    "titre": "Below Deck  : Down Under (Australie)",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2022,
-    "duree": "44 min/ép.",
-    "runtime_minutes": 44,
-    "note_avis": 7.7,
-    "note_recence": 9.1,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "drm",
-      "rly"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341543124/s592/below-deck-down-under.jpg",
-    "synopsis": "Avec pour toile de fond les îles tropicales de Whitsunday et la célèbre Grande Barrière de Corail au nord-est de l'Australie, cette série explore les dynamiques complexes et souvent explosives de l'équipage et d'un groupe tournant d'invités exigeants sur le M/Y Thalassa.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
-      "expirationDate": "2026-12-05",
-      "packageExpirations": {
-        "auc": "2026-12-05"
-      }
-    }
-  },
-  {
     "id": "jw-tm1191847",
     "titre": "Emmett Till",
     "type": "film",
@@ -23768,46 +23599,6 @@ const CATALOG_DATA = [
       "packageExpirations": {
         "aoc": "2026-10-31"
       }
-    }
-  },
-  {
-    "id": "jw-ts35175",
-    "titre": "Chirurgie à tout prix",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2014,
-    "duree": "42 min/ép.",
-    "runtime_minutes": 42,
-    "note_avis": 6.9,
-    "note_recence": 7.2,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "rly"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/324769961/s592/botched.jpg",
-    "synopsis": "Dans un monde où notre culture est obsédée par la jeunesse et la beauté, certaines personnes recourent à la chirurgie plastique pour obtenir un certain look et revenir en arrière. Avec le magazine hebdomadaire qui couvre un public assoiffé de perfection, certains peuvent pousser cette quête à l'extrême et les résultats de trop de chirurgie plastique peuvent être désastreux. Pour la première fois à la télévision, le côté laid de la beauté sera mis au microscope, révélant la fascination entourant la beauté et la chirurgie plastique ... les résultats vous choqueront. Dans ce nouvel épisode de huit, série d'une heure, les chirurgiens plasticiens hautement accomplis, le Dr Terry Dubrow et le Dr Paul Nassif, travailleront avec ces victimes de travaux cosmétiques malheureux pour tenter d'annuler et de corriger leurs résultats.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     }
   },
   {
@@ -27945,48 +27736,6 @@ const CATALOG_DATA = [
     }
   },
   {
-    "id": "jw-ts354345",
-    "titre": "Southern Hospitality",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2022,
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 5.2,
-    "note_recence": 9.1,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "rly"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/343122250/s592/southern-hospitality-2022.jpg",
-    "synopsis": "Bravo « Southern Hospitality » suit la vie de Leva Bonaparte, la puissante patronne de « Southern Charm », et de son personnel au Republic Garden & Lounge, la boîte de nuit la plus branchée de Charleston, en Caroline du Sud.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
-      "expirationDate": "2026-12-05",
-      "packageExpirations": {
-        "auc": "2026-12-05"
-      }
-    }
-  },
-  {
     "id": "jw-tm851073",
     "titre": "À l'abordage !",
     "type": "film",
@@ -29864,48 +29613,6 @@ const CATALOG_DATA = [
     }
   },
   {
-    "id": "jw-ts484580",
-    "titre": "Chirurgie à tout prix : Retour au Naturel ?",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2025,
-    "duree": "42 min/ép.",
-    "runtime_minutes": 42,
-    "note_avis": 5.1,
-    "note_recence": 9.8,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "rly"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/332429077/s592/botched-presents-plastic-surgery-rewind.jpg",
-    "synopsis": "E! Cette télé-réalité sur la chirurgie plastique a un goût différent… parce que pour la toute première fois, nous la faisons à l’envers.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
-      "expirationDate": "2026-12-05",
-      "packageExpirations": {
-        "auc": "2026-12-05"
-      }
-    }
-  },
-  {
     "id": "jw-tm1393841",
     "titre": "Noir comme neige : Morts au Sommet",
     "type": "film",
@@ -29947,48 +29654,6 @@ const CATALOG_DATA = [
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
-      }
-    }
-  },
-  {
-    "id": "jw-ts192442",
-    "titre": "Below Deck : Sailing Yacht",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2020,
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 7.4,
-    "note_recence": 8.6,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "rly"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/263562560/s592/below-deck-sailing-yacht.jpg",
-    "synopsis": "Le capitaine Glenn Shephard et son équipage ont mis les voiles dans un yacht à voile de luxe pour explorer les eaux bleues cristallines de la mer Ionienne. La physionomie de travailler sur un voilier apporte de nouveaux défis à ces jeunes…",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
-      "expirationDate": "2026-10-31",
-      "packageExpirations": {
-        "auc": "2026-10-31"
       }
     }
   },
@@ -30471,49 +30136,6 @@ const CATALOG_DATA = [
     }
   },
   {
-    "id": "jw-ts421186",
-    "titre": "Love Undercover",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2024,
-    "duree": "56 min/ép.",
-    "runtime_minutes": 56,
-    "note_avis": 6.1,
-    "note_recence": 9.5,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "drm",
-      "rly"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320594884/s592/love-undercover.jpg",
-    "synopsis": "Les athlètes professionnels ont tout : une fortune immense, des fans dévoués, une vie de luxe. Mais la gloire et l’argent peuvent empêcher de trouver le véritable amour. Cinq stars internationales du football débarquent incognito aux États-Unis pour trouver l’amour pour ce qu’ils sont, et non pour ce qu’ils possèdent.\n",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
-      "expirationDate": "2026-12-05",
-      "packageExpirations": {
-        "auc": "2026-12-05"
-      }
-    }
-  },
-  {
     "id": "jw-tm1023757",
     "titre": "Satanic panic",
     "type": "film",
@@ -30553,48 +30175,6 @@ const CATALOG_DATA = [
       "expirationDate": "2027-01-12",
       "packageExpirations": {
         "aoc": "2027-01-12"
-      }
-    }
-  },
-  {
-    "id": "jw-ts455539",
-    "titre": "Carbone Footprint",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2025,
-    "duree": "42 min/ép.",
-    "runtime_minutes": 42,
-    "note_avis": 5.3,
-    "note_recence": 9.8,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "rly"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354621698/s592/the-real-housewives-of-london.jpg",
-    "synopsis": "Six femmes glamour en quête d'ambition, d'amitié et de drames dans les quartiers les plus huppés de la ville.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
-      "expirationDate": "2026-12-05",
-      "packageExpirations": {
-        "auc": "2026-12-05"
       }
     }
   },
@@ -30850,48 +30430,6 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-ts475522",
-    "titre": "Next Gen NYC",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2025,
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 5,
-    "note_recence": 9.8,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "rly"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/346660803/s592/next-gen-nyc.jpg",
-    "synopsis": "« Next Gen NYC » suit un groupe d'amis, tous plus ou moins habitués aux feux des projecteurs, naviguant tant bien que mal vers l'âge adulte entre brunchs, ruptures et décisions impulsives.\n",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
-      "expirationDate": "2026-12-05",
-      "packageExpirations": {
-        "auc": "2026-12-05"
-      }
     }
   },
   {
@@ -31534,49 +31072,6 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-ts468001",
-    "titre": "Denise Richards & Her Wild Things",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2025,
-    "duree": "22 min/ép.",
-    "runtime_minutes": 22,
-    "note_avis": 6.1,
-    "note_recence": 9.8,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "doc",
-      "rly"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/327013933/s592/denise-richards-and-her-wild-things.jpg",
-    "synopsis": "Icône hollywoodienne, Denise Richards tente de trouver un équilibre entre sa carrière d'actrice, son rôle d'épouse et de mère, tout en vivant sous le regard constant du public.\n",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
-      "expirationDate": "2026-12-05",
-      "packageExpirations": {
-        "auc": "2026-12-05"
-      }
     }
   },
   {
@@ -34694,48 +34189,6 @@ const CATALOG_DATA = [
     }
   },
   {
-    "id": "jw-ts416789",
-    "titre": "Couple to Throuple",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2024,
-    "duree": "57 min/ép.",
-    "runtime_minutes": 57,
-    "note_avis": 5.6,
-    "note_recence": 9.5,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "rly"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/312126156/s592/couple-to-throuple.jpg",
-    "synopsis": "Quatre couples novices en matière de non-monogamie passent un mois dans une station balnéaire tropicale, où ils expérimentent librement l'introduction d'une troisième personne dans leur relation.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
-      "expirationDate": "2026-12-05",
-      "packageExpirations": {
-        "auc": "2026-12-05"
-      }
-    }
-  },
-  {
     "id": "jw-tm1359843",
     "titre": "On the Go",
     "type": "film",
@@ -35072,48 +34525,6 @@ const CATALOG_DATA = [
       "expirationDate": "2026-09-30",
       "packageExpirations": {
         "auc": "2026-09-30"
-      }
-    }
-  },
-  {
-    "id": "jw-ts318539",
-    "titre": "Les Real Housewives de Dubai",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2022,
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 4.3,
-    "note_recence": 9.1,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "rly"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/305034262/s592/the-real-housewives-of-dubai.jpg",
-    "synopsis": "\"The Real Housewives of Dubai\" suit un groupe de femmes somptueuses, leurs relations, leurs carrières et leurs styles de vie extrêmement riches et luxueux aux Emirats arabes unis. Avec le désert paradisiaque de Dubaï pour cadre, le terrain de jeu des milliardaires est connu pour son opulence démesurée, son architecte moderne époustouflante et sa vie nocturne animée.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
-      "expirationDate": "2026-12-05",
-      "packageExpirations": {
-        "auc": "2026-12-05"
       }
     }
   },
@@ -35884,46 +35295,6 @@ const CATALOG_DATA = [
     }
   },
   {
-    "id": "jw-ts41640",
-    "titre": "Tyler Henry : Le Médium d'Hollywood",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2016,
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 5.7,
-    "note_recence": 7.7,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "rly"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/141998903/s592/hollywood-medium-with-tyler-henry.jpg",
-    "synopsis": "E! Tyler est un jeune voyant de 19 ans, ouvertement gay, originaire de Hanford, une petite ville religieuse et socialement conservatrice du nord de la Californie. Grâce à son « intuition médicale », Tyler ne se contente pas de lire l'esprit des défunts et de voir l'avenir, il est aussi capable de prédire les futurs soucis de santé de ses clients. À Hollywood, Tyler commence à naviguer sa nouvelle…",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    }
-  },
-  {
     "id": "jw-tm356017",
     "titre": "Retour à Bollène",
     "type": "film",
@@ -36259,49 +35630,6 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-ts482344",
-    "titre": "Nelly & Ashanti",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2025,
-    "duree": "30 min/ép.",
-    "runtime_minutes": 30,
-    "note_avis": 7.2,
-    "note_recence": 9.8,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "doc",
-      "rly"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/332020567/s592/nelly-et-ashanti-we-belong-together.jpg",
-    "synopsis": "Un couple ravive sa romance tout en gérant mariage, parentalité et carrières. Ensemble, ils affrontent les défis, montrant que l’amour mérite une seconde chance.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
-      "expirationDate": "2026-12-05",
-      "packageExpirations": {
-        "auc": "2026-12-05"
-      }
     }
   },
   {
@@ -37583,46 +36911,6 @@ const CATALOG_DATA = [
     }
   },
   {
-    "id": "jw-ts42053",
-    "titre": "Chirurgie à tout prix : L'espoir à domicile",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2016,
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 7.5,
-    "note_recence": 7.7,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "rly"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/238569111/s592/botched-by-nature.jpg",
-    "synopsis": "Le célèbre duo de médecins Dr Nassif et Dr Dubrow sillonnent le pays pour changer la vie de ceux qui ont été mal lotis par la génétique ou un incident traumatique.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    }
-  },
-  {
     "id": "jw-ts227490",
     "titre": "Cléopâtre dans l'Espace",
     "type": "serie",
@@ -37824,46 +37112,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/344568312/s592/baby-jane.jpg",
     "synopsis": "Jonna, 19 ans, en quête d'aventure, déménage à Helsinki et rencontre Piki, une trentenaire aussi séduisante que mystérieuse. Débute alors une histoire passionnelle, mais Piki se révèle être submergée par de terribles crises d'angoisses. Jane sera prête à tout pour la sauver et ensemble, elles vont se lancer dans une entreprise douteuse pour exploiter la faiblesse des hommes.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-ts37163",
-    "titre": "WAGs LA",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2015,
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 4.6,
-    "note_recence": 7.5,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "rly"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/204003710/s592/wags.jpg",
-    "synopsis": "E! Elles sont les petites amies ou les femmes de célèbres athlètes professionnels : on les appelle les WAGS (wives and girlfriends of sports stars) ! Natalie et Olivia, les cousines célèbres d'Instagram, offensent leur concurrente et ex-Diva de la WWE, Barbie Blank. Une rivalité est née.",
     "expiration": {
       "status": "none",
       "label": null,
@@ -38636,49 +37884,6 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-ts475968",
-    "titre": "Love Hotel",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2025,
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 6.2,
-    "note_recence": 9.8,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "rma",
-      "rly"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/331239400/s592/bravos-love-hotel.jpg",
-    "synopsis": "Les vedettes de Real Housewives, Shannon Beador, Gizelle Bryant, Ashley Darby et Luann de Lesseps, séjournent au Grand Velas Hotel de Los Cabos à la recherche de l'amour parmi des célibataires prometteurs.\n",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
-      "expirationDate": "2026-12-05",
-      "packageExpirations": {
-        "auc": "2026-12-05"
-      }
     }
   },
   {
@@ -40111,47 +39316,6 @@ const CATALOG_DATA = [
     }
   },
   {
-    "id": "jw-ts103265",
-    "titre": "Dating #NoFilter",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2019,
-    "duree": "21 min/ép.",
-    "runtime_minutes": 21,
-    "note_avis": 7.5,
-    "note_recence": 8.4,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "rly"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/259076271/s592/no-filter.jpg",
-    "synopsis": "Bravo Enfin un avis honnête sur les rencards modernes. Dans chaque épisode, des comédiens suivent des célibataires et commentent sans filtre.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    }
-  },
-  {
     "id": "jw-tm1202686",
     "titre": "La Belle Affaire",
     "type": "film",
@@ -40192,47 +39356,6 @@ const CATALOG_DATA = [
       "packageExpirations": {
         "auc": "2026-09-30"
       }
-    }
-  },
-  {
-    "id": "jw-ts77925",
-    "titre": "WAGs Atlanta",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2018,
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 5.2,
-    "note_recence": 8.2,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "drm",
-      "rly"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/40342493/s592/wags-atlanta.jpg",
-    "synopsis": "Bravo WAGS déménage à Atlanta pour nous emmener dans les coulisses de la vie incroyable et glamour des femmes et petite-amies de stars du monde sportif.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     }
   },
   {
@@ -40429,46 +39552,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/279513882/s592/patrick-dewaere-mon-heros.jpg",
     "synopsis": "En 1974, avec \" Les Valseuses \", le public découvre une future icône du cinéma français aux côtés de Gérard Depardieu et Miou-Miou : Patrick Dewaere. A travers son éternelle jeunesse, sa fougue, ses révoltes, mais aussi sa fragilité et ses blessures, Patrick Dewaere incarne toute une génération. Véritable James Dean au destin fulgurant, il se suicide en 1982 à l'âge de 35 ans. Pour la première fois, sa fille Lola Dewaere raconte, avec émotion et pudeur, ce père disparu trop tôt. Elle révèle le vrai Patrick Dewaere et répond enfin aux questions qui entourent le mystère de sa mort.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-ts42340",
-    "titre": "WAGS Miami",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2016,
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 6,
-    "note_recence": 7.7,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "rly"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/16357210/s592/wags-miami.jpg",
-    "synopsis": "Bravo WAGs Miami est un spin-off de la franchise WAGs Los Angeles, qui suit la vie professionnelle et privée des femmes et petites amies de célébrités du monde du sport.",
     "expiration": {
       "status": "none",
       "label": null,
@@ -41321,10 +40404,3 @@ const CATALOG_DATA = [
     }
   }
 ];
-
-if (typeof window !== "undefined") {
-  window.CATALOG_DATA = CATALOG_DATA;
-}
-if (typeof module !== "undefined" && module.exports) {
-  module.exports = CATALOG_DATA;
-}

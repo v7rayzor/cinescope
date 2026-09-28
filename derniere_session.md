@@ -284,3 +284,42 @@ Pour respecter scrupuleusement la **Règle Fondamentale (1 film / série = 1 seu
 * **Isolation propre des scripts Node.js** :
   * [`scripts/sync_justwatch.cjs`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_justwatch.cjs) et [`scripts/verify_compliance.cjs`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/verify_compliance.cjs) utilisent l'extension `.cjs` pour garantir leur fonctionnement natif avec `require()` sous Node 20+.
   * Mise à jour du workflow GitHub Actions [`.github/workflows/update_catalog.yml`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/.github/workflows/update_catalog.yml) pour cibler `.cjs`.
+
+---
+
+## 11. Éradication Complète de la Télé-Réalité & Verrouillage à la Source
+
+### A. Contexte & Audit Préalable
+* **Constat** : Présence de 22 émissions de télé-réalité / docu-soaps américaines (franchises *Below Deck*, *The Real Housewives*, *Botched / Chirurgie à tout prix*, *WAGS*, *Southern Hospitality*, *Love Undercover*...) initialement assimilées en `comedie`.
+* **Vérification d'Origine** : **100% de ces programmes provenaient exclusivement de l'offre Universal+ (`auc`)**, plus précisément des chaînes de divertissement *E! Entertainment* et *Bravo*. Aucune émission de télé-réalité n'était présente sur *Ciné+ OCS* ni *Action Max*.
+
+### B. Modifications & Verrouillage Algorithmique
+1. **Exclusion Stricte dans le Moteur Temps Réel ([`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js))** :
+   * **`processTitleNode()`** : Rejet automatique immédiat (`return null`) dès qu'un tag normalisé contient `rly` (Télé-réalité).
+   * **`mergeCatalog()`** : Exclusion stricte à la fusion et au chargement des nouveautés si `raw_genres.includes('rly')`.
+   * **`getCachedCatalog()`** : Filtre proactif empêchant tout rechargement d'œuvres `rly` depuis un cache résiduel.
+   * **`computeCategory()` & `getAllowedCategories()`** : Suppression des règles d'arbitrage `rly` devenues obsolètes.
+2. **Purge du Fichier de Référence ([`js/catalog.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js))** :
+   * Suppression formelle des 22 entrées de télé-réalité.
+   * Le catalogue passe de **945 à 923 œuvres qualifiées** (801 films et 122 séries).
+
+### C. Traçabilité des Caches & Versions
+* **LocalStorage** : Incrémenté en `_v15` (`cinescope_streaming_catalog_v15`, `cinescope_streaming_last_sync_v15`, `cinescope_streaming_last_full_sync_v15`, `cinescope_streaming_autosync_v15`).
+* **Service Worker PWA** : Cache actualisé à `cinescope-v8.23-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
+* **HTML Script Tags** : Passés à `?v=8.23` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
+
+### D. Audit Final de Conformité (923 œuvres)
+* **Strictement 1 catégorie unique** : **923 / 923 (100% conforme, 0 anomalie)**
+* **Catégories valides** : **923 / 923 (100%)**
+* **Titres expirés** : **0**
+* **Films éligibles** : **801**
+* **Séries éligibles** : **122**
+* **Répartition finale des catégories** :
+  * `drame_emotion` : 367 œuvres (39.8%)
+  * `thriller_policier` : 177 œuvres (19.2%)
+  * `comedie` : 141 œuvres (15.3%) *(assainie de toute télé-réalité)*
+  * `animation_famille` : 71 œuvres (7.7%)
+  * `scifi_fantastique` : 66 œuvres (7.2%)
+  * `horreur_epouvante` : 52 œuvres (5.6%)
+  * `action_aventure` : 49 œuvres (5.3%)
+

@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v14';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v14';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v14';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v14';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v15';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v15';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v15';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v15';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -117,13 +117,13 @@ const JustWatchEngine = (function () {
     if (tags.includes('crm') || tags.includes('trl')) allowed.add('thriller_policier');
     if (tags.includes('act') || tags.includes('wsn') || tags.includes('war')) allowed.add('action_aventure');
     
-    // Télé-réalité (rly) ou comédie sans limite d'âge hybride
-    if (tags.includes('rly') || ((tags.includes('cmy') || tags.includes('rly')) && !isHybridWithAge)) {
+    // Comédie autorisée sans limite d'âge hybride
+    if (tags.includes('cmy') && !isHybridWithAge) {
       allowed.add('comedie');
     }
     
-    // Drame autorisé si tag drame/docu/romance/histoire/guerre/sport (hors télé-réalité pure) OU si pas d'autre catégorie
-    if (!tags.includes('rly') && (tags.includes('drm') || tags.includes('rma') || tags.includes('doc') || (tags.includes('hst') && !tags.includes('cmy')) || (tags.includes('war') && !tags.includes('cmy')) || (tags.includes('spt') && !tags.includes('cmy')) || allowed.size === 0)) {
+    // Drame autorisé si tag drame/docu/romance/histoire/guerre/sport OU si pas d'autre catégorie
+    if (tags.includes('drm') || tags.includes('rma') || tags.includes('doc') || (tags.includes('hst') && !tags.includes('cmy')) || (tags.includes('war') && !tags.includes('cmy')) || (tags.includes('spt') && !tags.includes('cmy')) || allowed.size === 0) {
       allowed.add('drame_emotion');
     }
 
@@ -180,10 +180,6 @@ const JustWatchEngine = (function () {
 
     const allowed = getAllowedCategories(rawTags, cleanText, isHybridWithAge, isMatureFamily, isComedyWithoutAge);
 
-    // 0. Règle Télé-réalité (rly) : Toujours en Comédie / Divertissement
-    if (rawTags.includes('rly')) {
-      if (allowed.has('comedie')) return 'comedie';
-    }
 
     // 1. Règle souveraine Animation / Dessin animé (si autorisée) : 'ani' ou motif explicite d'animation
     if (!isMatureFamily && (rawTags.includes('ani') || ANIMATION_PATTERNS.test(cleanText))) {
@@ -251,7 +247,6 @@ const JustWatchEngine = (function () {
 
     // Comédie (exclue si hybride avec limite d'âge)
     if (rawTags.includes('cmy') && !isHybridWithAge) scores[5] += 55;
-    if (rawTags.includes('rly')) scores[5] += 70;
 
     // Drame & Romance
     if (rawTags.includes('drm')) scores[6] += 35;
@@ -500,6 +495,10 @@ const JustWatchEngine = (function () {
     // Condition 0 : Au moins un genre valide renseigné (sinon exclu)
     if (!c.genres || !Array.isArray(c.genres) || c.genres.length === 0) return null;
 
+    // Condition 0bis : Exclusion stricte de la télé-réalité (rly)
+    const rawGenres = (c.genres || []).map(normalizeTag).filter(Boolean);
+    if (rawGenres.includes('rly')) return null;
+
     // Condition 2 : Note Récence >= 4.0 / 10 (KO automatique < 2000)
     const noteRecence = computeNoteRecence(year);
     if (noteRecence < 4.0) return null;
@@ -691,6 +690,9 @@ const JustWatchEngine = (function () {
 
     // 1. Charger l'existant en recalculant les jours restants, les catégories et éliminant les doublons
     for (const it of existingCatalog) {
+      if (it.raw_genres && it.raw_genres.includes('rly')) {
+        continue;
+      }
       const refreshed = refreshItemExpiration({ ...it });
       if (refreshed.expiration && refreshed.expiration.status === 'expired') {
         continue;
@@ -709,6 +711,9 @@ const JustWatchEngine = (function () {
 
     // 2. Fusionner les nouveautés fraîches sans aucun doublon
     for (const fresh of freshItems) {
+      if (fresh.raw_genres && fresh.raw_genres.includes('rly')) {
+        continue;
+      }
       const key = getDeduplicationKey(fresh) || fresh.id;
       if (map.has(key)) {
         const existing = map.get(key);
@@ -902,6 +907,7 @@ const JustWatchEngine = (function () {
         if (raw) {
           const parsed = JSON.parse(raw);
           return parsed
+            .filter(it => !it.raw_genres || !it.raw_genres.includes('rly'))
             .map(it => {
               const refreshed = refreshItemExpiration(it);
               if (refreshed.raw_genres && refreshed.raw_genres.length > 0) {
