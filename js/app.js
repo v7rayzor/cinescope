@@ -53,10 +53,21 @@ const AppState = {
   activeCategory: 'all',       // 'all' ou l'une des 7 catégories
   activeStars: 'all',          // 'all', '4', '5'
   activeBouquet: 'all',        // 'all', 'aoc' (OCS), 'aca' (Action), 'auc' (Universal+)
+  isExclusiveOnly: false,      // true pour exclure Prime Video et TNT
   isAutoStars: true,           // true tant que l'utilisateur n'a pas forcé manuellement un choix
   isSyncing: false,
   catalog: []
 };
+
+// Vérifier si une œuvre est disponible sur Prime Video ou la TNT
+function isItemExcludedByPrimeOrTnt(item) {
+  if (!item) return false;
+  if (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.isItemOnPrimeOrTnt === 'function') {
+    return JustWatchEngine.isItemOnPrimeOrTnt(item);
+  }
+  if (item.on_prime === true || item.on_tnt === true) return true;
+  return false;
+}
 
 // Obtenir le score pertinent d'une œuvre (note_globale ou note_avis)
 function getItemScore(item) {
@@ -383,30 +394,49 @@ function initBouquetsCounts() {
   const countOcs = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('aoc')).length;
   const countAction = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('aca')).length;
   const countUniversal = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('auc')).length;
+  
+  // Scope du filtre d'exclusion selon le bouquet actif
+  const currentScope = (AppState.activeBouquet && AppState.activeBouquet !== 'all')
+    ? eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes(AppState.activeBouquet))
+    : eligibleTypeItems;
+  const countExclusive = currentScope.filter(i => !isItemExcludedByPrimeOrTnt(i)).length;
 
   const elAll = document.getElementById('countPkgAll');
   const elOcs = document.getElementById('countPkgOcs');
   const elAction = document.getElementById('countPkgAction');
   const elUniv = document.getElementById('countPkgUniversal');
+  const elExclusive = document.getElementById('countPkgExclusive');
 
   if (elAll) elAll.textContent = countAll;
   if (elOcs) elOcs.textContent = countOcs;
   if (elAction) elAction.textContent = countAction;
   if (elUniv) elUniv.textContent = countUniversal;
+  if (elExclusive) elExclusive.textContent = countExclusive;
 }
 
-// Navigation par bouquets
+// Navigation par bouquets & Filtre d'exclusion Prime/TNT
 function initBouquetsNavigation() {
-  const bouquetBtns = document.querySelectorAll('.bouquet-btn');
+  const bouquetBtns = document.querySelectorAll('.bouquets-chips-group .bouquet-btn:not(.bouquet-btn-exclusive)');
   bouquetBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       bouquetBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
-      AppState.activeBouquet = btn.dataset.package;
+      AppState.activeBouquet = btn.dataset.package || 'all';
+      initBouquetsCounts();
       updateCategoryAutoStar();
       renderCatalog();
     });
   });
+
+  const exclusiveBtn = document.getElementById('pkgExclusive');
+  if (exclusiveBtn) {
+    exclusiveBtn.addEventListener('click', () => {
+      AppState.isExclusiveOnly = !AppState.isExclusiveOnly;
+      exclusiveBtn.classList.toggle('active', AppState.isExclusiveOnly);
+      updateCategoryAutoStar();
+      renderCatalog();
+    });
+  }
 }
 
 // Navigation par type et catégories
@@ -708,8 +738,15 @@ function getCategoryEligibleItems() {
     }
 
     // Filtre Bouquet
-    if (AppState.activeBouquet !== 'all') {
+    if (AppState.activeBouquet && AppState.activeBouquet !== 'all') {
       if (!item.package_slugs || !item.package_slugs.includes(AppState.activeBouquet)) {
+        return false;
+      }
+    }
+
+    // Filtre d'Exclusion Stricte (Hors Prime Video & Hors TNT)
+    if (AppState.isExclusiveOnly) {
+      if (isItemExcludedByPrimeOrTnt(item)) {
         return false;
       }
     }

@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v15';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v15';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v15';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v15';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v17';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v17';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v17';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v17';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -52,6 +52,114 @@ const JustWatchEngine = (function () {
   };
 
   const PACKAGE_SLUGS = ['aoc', 'aca', 'auc'];
+
+  // Motifs d'identification des œuvres et séries incluses ou diffusées sur Prime Video
+  const KNOWN_PRIME_PATTERNS = [
+    /\bgrimm\b/i,
+    /\bchicago fire\b/i,
+    /\bchicago p\.?d\.?\b/i,
+    /\bchicago med\b/i,
+    /\bthe magicians\b/i,
+    /\bfargo\b/i,
+    /\bbattlestar galactica\b/i,
+    /\bheroes\b/i,
+    /\bheroes reborn\b/i,
+    /\bspartacus\b/i,
+    /\bspartacus: house of ashur\b/i,
+    /\bminist[eè]re du temps\b/i,
+    /\bflynn carson\b/i,
+    /\bwarehouse 13\b/i,
+    /\bburn after reading\b/i,
+    /\bcomancheria\b/i,
+    /\bamerican gangster\b/i,
+    /\bmr wolff\b/i,
+    /\bocean'?s 8\b/i,
+    /\bofficial secrets\b/i,
+    /\btout ce qui brille\b/i,
+    /\bles lyonnais\b/i,
+    /\bmr 73\b/i,
+    /\balbator\b/i,
+    /\bs\.?o\.?s\.? fant[oô]mes\b/i,
+    /\bdark web: cicada\b/i,
+    /\bkickboxer : vengeance\b/i,
+    /\btriple threat\b/i,
+    /\bfinal score\b/i,
+    /\b64 minutes chrono\b/i,
+    /\bbullet head\b/i,
+    /\bescape the field\b/i,
+    /\bcorrective measures\b/i,
+    /\bthere are no saints\b/i,
+    /\ble virtuose\b/i,
+    /\bsous haute surveillance\b/i,
+    /\bthe minute you wake up dead\b/i,
+    /\brubikon\b/i,
+    /\bthe secret kingdom\b/i,
+    /\bibiza\b/i,
+    /\bhounds of war\b/i,
+    /\b7 minutes\b/i
+  ];
+
+  function isKnownPrimeTitle(title) {
+    if (!title || typeof title !== 'string') return false;
+    return KNOWN_PRIME_PATTERNS.some(regex => regex.test(title));
+  }
+
+  // Motifs d'identification des œuvres et séries diffusées sur la TNT (France TV, TF1, M6, etc.)
+  const KNOWN_TNT_PATTERNS = [
+    /\bprofesseur t\b/i,
+    /\bwhitstable pearl\b/i,
+    /\bpearl nolan\b/i,
+    /\bharry wild\b/i,
+    /\bsang de la vigne\b/i,
+    /\bcandice renoir\b/i,
+    /\bvoyageur\b/i,
+    /\bcapitaine marleau\b/i,
+    /\bastrid et rapha[eë]lle\b/i,
+    /\bpetits meurtres d['’]agatha christie\b/i,
+    /\balex hugo\b/i,
+    /\bcassandre\b/i,
+    /\bcrimes parfaits\b/i,
+    /\bmeurtres [aà] \b/i,
+    /\bhudson & rex\b/i,
+    /\bmotive\b/i,
+    /\bnew york, crime organis[eé]\b/i,
+    /\bmanipulations\b/i,
+    /\bminist[eè]re du temps\b/i,
+    /\bflynn carson\b/i,
+    /\btomb invader\b/i,
+    /\bprepare to die\b/i,
+    /\bmeg rising\b/i,
+    /\bsecrets de famille\b/i,
+    /\bbolt from the blue\b/i,
+    /\btokarev\b/i,
+    /\bl'attaque de la pom-pom girl g[eé]ante\b/i,
+    /\bl'ombre de la loi\b/i,
+    /\bthe poison rose\b/i,
+    /\bcontinental split\b/i
+  ];
+
+  function isKnownTntTitle(title) {
+    if (!title || typeof title !== 'string') return false;
+    return KNOWN_TNT_PATTERNS.some(regex => regex.test(title));
+  }
+
+  function isItemOnPrime(item) {
+    if (!item) return false;
+    if (item.on_prime === true) return true;
+    if (isKnownPrimeTitle(item.titre)) return true;
+    return false;
+  }
+
+  function isItemOnTnt(item) {
+    if (!item) return false;
+    if (item.on_tnt === true) return true;
+    if (isKnownTntTitle(item.titre)) return true;
+    return false;
+  }
+
+  function isItemOnPrimeOrTnt(item) {
+    return isItemOnPrime(item) || isItemOnTnt(item);
+  }
 
   // Barème de récence : 2000 = 4.0, 2026 = 10.0
   function computeNoteRecence(year) {
@@ -566,6 +674,9 @@ const JustWatchEngine = (function () {
 
     const expiration = computeExpirationInfo(offers);
 
+    const onPrime = offers.some(o => (o.package?.shortName === 'prv' || o.package?.shortName === 'pva') && o.monetizationType === 'FLATRATE') || isKnownPrimeTitle(c.title);
+    const onTnt = offers.some(o => ['fpt', 'tf1', 'myt', '6pt', 'art', 'plt', 'ptv', 'plc', 'pxp', 'wki', 'rmc', 'bfm'].includes(o.package?.shortName) && ['ADS', 'FREE', 'FLATRATE'].includes(o.monetizationType)) || isKnownTntTitle(c.title);
+
     return {
       id: `jw-${node.id || node.objectId}`,
       titre: c.title || 'Titre inconnu',
@@ -588,7 +699,9 @@ const JustWatchEngine = (function () {
       is_eligible: true,
       poster: posterUrl,
       synopsis: c.shortDescription || '',
-      expiration: expiration
+      expiration: expiration,
+      on_prime: onPrime,
+      on_tnt: onTnt
     };
   }
 
@@ -671,6 +784,9 @@ const JustWatchEngine = (function () {
       }
     }
 
+    const onPrime = Boolean(base.on_prime || incoming.on_prime || isKnownPrimeTitle(base.titre) || isKnownPrimeTitle(incoming.titre));
+    const onTnt = Boolean(base.on_tnt || incoming.on_tnt || isKnownTntTitle(base.titre) || isKnownTntTitle(incoming.titre));
+
     return {
       ...base,
       ...incoming,
@@ -680,7 +796,9 @@ const JustWatchEngine = (function () {
       logos_chaine: allLogos,
       package_slugs: allPkgs,
       expiration: mergedExpiration,
-      poster: incoming.poster || base.poster
+      poster: incoming.poster || base.poster,
+      on_prime: onPrime,
+      on_tnt: onTnt
     };
   }
 
@@ -700,6 +818,8 @@ const JustWatchEngine = (function () {
       if (refreshed.raw_genres && refreshed.raw_genres.length > 0) {
         refreshed.categories = [computeCategory(refreshed.raw_genres, refreshed.type === 'serie', refreshed.titre, refreshed.synopsis, refreshed.badge, refreshed.annee, refreshed.package_slugs)];
       }
+      refreshed.on_prime = Boolean(refreshed.on_prime || isKnownPrimeTitle(refreshed.titre));
+      refreshed.on_tnt = Boolean(refreshed.on_tnt || isKnownTntTitle(refreshed.titre));
       const key = getDeduplicationKey(refreshed) || refreshed.id;
       if (map.has(key)) {
         const existing = map.get(key);
@@ -913,6 +1033,8 @@ const JustWatchEngine = (function () {
               if (refreshed.raw_genres && refreshed.raw_genres.length > 0) {
                 refreshed.categories = [computeCategory(refreshed.raw_genres, refreshed.type === 'serie', refreshed.titre, refreshed.synopsis, refreshed.badge, refreshed.annee)];
               }
+              refreshed.on_prime = Boolean(refreshed.on_prime || isKnownPrimeTitle(refreshed.titre));
+              refreshed.on_tnt = Boolean(refreshed.on_tnt || isKnownTntTitle(refreshed.titre));
               return refreshed;
             })
             .filter(it => !it.expiration || it.expiration.status !== 'expired');
@@ -1026,7 +1148,12 @@ const JustWatchEngine = (function () {
     getAllowedCategories,
     shouldAutoRefresh,
     shouldAutoFullSync,
-    cleanLegacyLocalStorage
+    cleanLegacyLocalStorage,
+    isKnownPrimeTitle,
+    isKnownTntTitle,
+    isItemOnPrime,
+    isItemOnTnt,
+    isItemOnPrimeOrTnt
   };
 })();
 

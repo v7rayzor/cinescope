@@ -51,3 +51,14 @@ Une œuvre est éligible (`is_eligible: true`) si et seulement si elle respecte 
   3. L'état exact du catalogue, les statistiques de conformité et les décisions techniques clés.
   4. L'historique des versions de cache PWA et des clés de stockage pour assurer une traçabilité parfaite.
 
+---
+
+## 6. Règle de Recommandation pour les Amis
+- Lors de toute demande de recommandation, conseil ou sélection de films / séries à proposer aux amis de l'utilisateur, l'agent doit **SYSTÉMATIQUEMENT se référer au fichier [`profils_amis.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/profils_amis.md)**.
+- L'agent doit scrupuleusement appliquer :
+  1. **Les règles d'exclusion impératives** : Zéro TNT / Chaînes gratuites (France TV, TF1, M6...), Zéro abonnement standard Prime Video, et pour les séries diffusées sur l'ancien bouquet SFR (Syfy, 13ème RUE), exigence d'avoir **au moins une saison inédite diffusée à partir de 2024**.
+  2. **Les exigences de profil** :
+     - **Profil Ami (Homme)** : Action, Survie, Anticipation (1er degré strict, physique, aucun grotesque/second degré).
+     - **Profil Amie (Femme)** : Enquête, Déduction, Tandem (Cérébral, cosy crime, esprit Poirot/Castle, élégance britannique, zéro rediffusion France 3).
+  3. **L'audit des rejets et les programmations validées** déjà répertoriées.
+

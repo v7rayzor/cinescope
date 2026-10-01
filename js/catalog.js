@@ -27,7 +27,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 48,
+      "daysLeft": 45,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -43,7 +43,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Belgique,1995. La disparition inquiétante de deux jeunes filles bouleverse la population et déclenche une frénésie médiatique sans précédent. Paul Chartier, jeune gendarme idéaliste, rejoint l'opération secrète « Maldoror » dédiée à la surveillance d'un suspect récidiviste. Confronté aux dysfonctionnements du système policier, il se lance seul dans une chasse à l’homme qui le fera sombrer dans l’obsession."
+    "synopsis": "Belgique,1995. La disparition inquiétante de deux jeunes filles bouleverse la population et déclenche une frénésie médiatique sans précédent. Paul Chartier, jeune gendarme idéaliste, rejoint l'opération secrète « Maldoror » dédiée à la surveillance d'un suspect récidiviste. Confronté aux dysfonctionnements du système policier, il se lance seul dans une chasse à l’homme qui le fera sombrer dans l’obsession.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1587742",
@@ -73,7 +75,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/11",
-      "daysLeft": 58,
+      "daysLeft": 55,
       "expirationDate": "2026-11-24",
       "packageExpirations": {
         "aoc": "2026-11-24"
@@ -89,7 +91,9 @@ const CATALOG_DATA = [
       "trl",
       "scf"
     ],
-    "synopsis": "Suite à la disparition soudaine de sa voisine de chambre, un ancien agent secret, reclus dans un palace de la Côte d’Azur, s’imagine que ses ennemis jurés refont surface. Surtout la redoutable Serpentik, qu’il n’a jamais réussi à démasquer. Oscillant entre présent et passé, il remonte le film de sa vie, au risque de découvrir qu’il n’y tenait pas forcément le meilleur rôle. Et que les diamants sont loin d’être éternels…"
+    "synopsis": "Suite à la disparition soudaine de sa voisine de chambre, un ancien agent secret, reclus dans un palace de la Côte d’Azur, s’imagine que ses ennemis jurés refont surface. Surtout la redoutable Serpentik, qu’il n’a jamais réussi à démasquer. Oscillant entre présent et passé, il remonte le film de sa vie, au risque de découvrir qu’il n’y tenait pas forcément le meilleur rôle. Et que les diamants sont loin d’être éternels…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1573608",
@@ -119,7 +123,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/10",
-      "daysLeft": 25,
+      "daysLeft": 22,
       "expirationDate": "2026-10-22",
       "packageExpirations": {
         "aoc": "2026-10-22"
@@ -134,7 +138,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Après plusieurs années aux Etats-Unis, Ali retourne s'installer en Turquie avec sa femme. Dans sa ville natale, il retrouve sa famille qui vit un enfer sous le joug terrible de son père. Aussi, lorsque sa mère décède dans des circonstances suspectes, Ali soupçonne-t-il rapidement son père. Aidé par un mystérieux rôdeur qu'il engage comme jardinier, le jeune homme mène une quête vengeresse qui va le confronter au pire des secrets…"
+    "synopsis": "Après plusieurs années aux Etats-Unis, Ali retourne s'installer en Turquie avec sa femme. Dans sa ville natale, il retrouve sa famille qui vit un enfer sous le joug terrible de son père. Aussi, lorsque sa mère décède dans des circonstances suspectes, Ali soupçonne-t-il rapidement son père. Aidé par un mystérieux rôdeur qu'il engage comme jardinier, le jeune homme mène une quête vengeresse qui va le confronter au pire des secrets…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1114145",
@@ -164,7 +170,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/12",
-      "daysLeft": 91,
+      "daysLeft": 88,
       "expirationDate": "2026-12-27",
       "packageExpirations": {
         "aoc": "2026-12-27"
@@ -179,7 +185,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "France, professeure de sport le jour, ouvrière la nuit, milite activement contre l’usage des pesticides. Patrick, obscur et solitaire avocat parisien, est spécialiste en droit environnemental. Mathias, lobbyiste brillant et homme pressé, défend les intérêts d’un géant de l’agrochimie. Suite à l’acte radical d’une anonyme, ces trois destins, qui n’auraient jamais dû se croiser, vont se bousculer, s’entrechoquer et s’embraser."
+    "synopsis": "France, professeure de sport le jour, ouvrière la nuit, milite activement contre l’usage des pesticides. Patrick, obscur et solitaire avocat parisien, est spécialiste en droit environnemental. Mathias, lobbyiste brillant et homme pressé, défend les intérêts d’un géant de l’agrochimie. Suite à l’acte radical d’une anonyme, ces trois destins, qui n’auraient jamais dû se croiser, vont se bousculer, s’entrechoquer et s’embraser.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1532820",
@@ -208,8 +216,8 @@ const CATALOG_DATA = [
     "duree": "1h 28min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 9 j",
-      "daysLeft": 9,
+      "label": "⏳ Expire dans 6 j",
+      "daysLeft": 6,
       "expirationDate": "2026-10-06",
       "packageExpirations": {
         "aoc": "2026-10-06"
@@ -224,7 +232,9 @@ const CATALOG_DATA = [
       "hrr",
       "trl"
     ],
-    "synopsis": "Un adolescent s'arrête chez son dealer pour tester une nouvelle drogue avant de partir faire la fête. Sur le chemin du retour, il récupère une femme blessée et la soirée prend une tournure surréaliste."
+    "synopsis": "Un adolescent s'arrête chez son dealer pour tester une nouvelle drogue avant de partir faire la fête. Sur le chemin du retour, il récupère une femme blessée et la soirée prend une tournure surréaliste.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1535068",
@@ -254,7 +264,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 75,
+      "daysLeft": 72,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
@@ -269,7 +279,9 @@ const CATALOG_DATA = [
       "cmy",
       "crm"
     ],
-    "synopsis": "Les crimes contre la nature les scandalisent, les injustices faites aux femmes les révoltent : les Green Panthères, des Robins des bois d’aujourd'hui, se lancent dans le cambriolage engagé contre les pollueurs et les harceleurs.  Mais pour ouvrir le coffre de leur rêve, il leur faudra s’associer à Bernard, un cambrioleur vieillissant pas très à jour sur l’éco-féminisme..."
+    "synopsis": "Les crimes contre la nature les scandalisent, les injustices faites aux femmes les révoltent : les Green Panthères, des Robins des bois d’aujourd'hui, se lancent dans le cambriolage engagé contre les pollueurs et les harceleurs.  Mais pour ouvrir le coffre de leur rêve, il leur faudra s’associer à Bernard, un cambrioleur vieillissant pas très à jour sur l’éco-féminisme...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1629241",
@@ -299,7 +311,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/12",
-      "daysLeft": 88,
+      "daysLeft": 85,
       "expirationDate": "2026-12-24",
       "packageExpirations": {
         "aoc": "2026-12-24"
@@ -314,7 +326,9 @@ const CATALOG_DATA = [
       "drm",
       "hrr"
     ],
-    "synopsis": "La jeune Nawojka, qui vit avec son père et ses frères dans la ferme familiale, cache un terrible secret : un pouvoir monstrueux, qu'elle pense hérité de sa défunte mère, s'éveille chaque fois qu'elle éprouve du désir. Lorsque Sandra, une femme libre et sulfureuse originaire du coin, revient au village, Nawojka est fascinée et ses pouvoirs se manifestent sans qu’elle ne puisse plus rien contrôler."
+    "synopsis": "La jeune Nawojka, qui vit avec son père et ses frères dans la ferme familiale, cache un terrible secret : un pouvoir monstrueux, qu'elle pense hérité de sa défunte mère, s'éveille chaque fois qu'elle éprouve du désir. Lorsque Sandra, une femme libre et sulfureuse originaire du coin, revient au village, Nawojka est fascinée et ses pouvoirs se manifestent sans qu’elle ne puisse plus rien contrôler.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1575795",
@@ -344,7 +358,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 55,
+      "daysLeft": 52,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
@@ -359,7 +373,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "À tout juste 18 ans, Brahim, jeune footballeur prometteur, est représenté par son agent et cousin Mehdi. Il s’apprête à réaliser son rêve : signer son premier contrat professionnel à Lyon. Mais l'arrivée d'un puissant agent étranger rebat les cartes. Dans cet univers où tous les coups sont permis, même la loyauté a un prix."
+    "synopsis": "À tout juste 18 ans, Brahim, jeune footballeur prometteur, est représenté par son agent et cousin Mehdi. Il s’apprête à réaliser son rêve : signer son premier contrat professionnel à Lyon. Mais l'arrivée d'un puissant agent étranger rebat les cartes. Dans cet univers où tous les coups sont permis, même la loyauté a un prix.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1507724",
@@ -389,7 +405,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/11",
-      "daysLeft": 37,
+      "daysLeft": 34,
       "expirationDate": "2026-11-03",
       "packageExpirations": {
         "aoc": "2026-11-03"
@@ -407,7 +423,9 @@ const CATALOG_DATA = [
       "hrr",
       "trl"
     ],
-    "synopsis": "Ryosuke plaque tout pour vivre de la revente en ligne. Mais bientôt, certains clients menaçants resserrent l’étau autour de lui sans qu’il en comprenne les raisons. Son rêve d’indépendance vole en éclats. Dans un Japon hyperconnecté, fuir est impossible. Surtout quand on ignore les règles du jeu."
+    "synopsis": "Ryosuke plaque tout pour vivre de la revente en ligne. Mais bientôt, certains clients menaçants resserrent l’étau autour de lui sans qu’il en comprenne les raisons. Son rêve d’indépendance vole en éclats. Dans un Japon hyperconnecté, fuir est impossible. Surtout quand on ignore les règles du jeu.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1570415",
@@ -436,8 +454,8 @@ const CATALOG_DATA = [
     "duree": "1h 44min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 13 j",
-      "daysLeft": 13,
+      "label": "⏳ Expire dans 10 j",
+      "daysLeft": 10,
       "expirationDate": "2026-10-10",
       "packageExpirations": {
         "aoc": "2026-10-10"
@@ -453,7 +471,9 @@ const CATALOG_DATA = [
       "fnt",
       "hrr"
     ],
-    "synopsis": "Trois femmes dans un appartement à Marseille en pleine canicule. En face, leur mystérieux voisin, objet de tous les fantasmes. Elles se retrouvent coincées dans une affaire terrifiante et délirante, avec comme seule quête, leur liberté."
+    "synopsis": "Trois femmes dans un appartement à Marseille en pleine canicule. En face, leur mystérieux voisin, objet de tous les fantasmes. Elles se retrouvent coincées dans une affaire terrifiante et délirante, avec comme seule quête, leur liberté.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1489402",
@@ -483,7 +503,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/12",
-      "daysLeft": 65,
+      "daysLeft": 62,
       "expirationDate": "2026-12-01",
       "packageExpirations": {
         "aoc": "2026-12-01"
@@ -499,7 +519,9 @@ const CATALOG_DATA = [
       "drm",
       "hrr"
     ],
-    "synopsis": "Elvira en a assez de vivre dans l'ombre de sa belle demi-sœur Agnès. Elle est prête à tout pour attirer l'attention du prince Julian, le célibataire le plus convoité du royaume. Au prix de sang, de sueur et de larmes, Elvira ne recule devant rien pour conquérir le cœur du prince."
+    "synopsis": "Elvira en a assez de vivre dans l'ombre de sa belle demi-sœur Agnès. Elle est prête à tout pour attirer l'attention du prince Julian, le célibataire le plus convoité du royaume. Au prix de sang, de sueur et de larmes, Elvira ne recule devant rien pour conquérir le cœur du prince.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1528556",
@@ -529,7 +551,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 68,
+      "daysLeft": 65,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
@@ -543,7 +565,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "drm"
     ],
-    "synopsis": "Katia Reiter dirige l’Observatoire Volcanologique de Guadeloupe depuis une dizaine d'années. Elle forme un duo de choc avec Aimé, jeune Guadeloupéen auquel elle transmet sa passion du métier. Alors qu’elle se prépare pour une nouvelle mission à l’autre bout du monde, la menace d’une éruption majeure de la Soufrière se profile. L’ile est aux abois et Katia va devoir assurer la sécurité de la population..."
+    "synopsis": "Katia Reiter dirige l’Observatoire Volcanologique de Guadeloupe depuis une dizaine d'années. Elle forme un duo de choc avec Aimé, jeune Guadeloupéen auquel elle transmet sa passion du métier. Alors qu’elle se prépare pour une nouvelle mission à l’autre bout du monde, la menace d’une éruption majeure de la Soufrière se profile. L’ile est aux abois et Katia va devoir assurer la sécurité de la population...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1596615",
@@ -573,7 +597,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/01",
-      "daysLeft": 100,
+      "daysLeft": 97,
       "expirationDate": "2027-01-05",
       "packageExpirations": {
         "aoc": "2027-01-05"
@@ -589,54 +613,9 @@ const CATALOG_DATA = [
       "drm",
       "scf"
     ],
-    "synopsis": "Dans un futur proche… Sur une île coupée du monde, Gaëlle, 30 ans, prend soin d’un petit groupe de personnes âgées. L’arrivée d’un voilier fait revenir joie et vie sur l’île. Pourtant Gaëlle doute des intentions des voyageurs car les anciens se mettent à mourir un par un."
-  },
-  {
-    "id": "jw-tm1412203",
-    "titre": "L'Espion de Dieu",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ligne 8, N° 5",
-    "annee": 2024,
-    "note_avis": 6.2,
-    "note_recence": 9.5,
-    "note_globale": 7.9,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/331551752/s592/bonhoeffer-pastor-spy-assassin.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "2h 12min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 132,
-    "etoiles": 4,
-    "raw_genres": [
-      "drm",
-      "hst",
-      "trl",
-      "war"
-    ],
-    "synopsis": "Dans les années 1940, un pasteur allemand rejoint les rangs de la résistance en s'opposant publiquement au régime nazi. Marqué dans l'enfance par la mort de son grand frère, un soldat emporté dans la Grande Guerre, Dietrich Bonhoeffer poursuit des études de théologie aux États-Unis pendant la Grande Dépression et constate les iniquités sociales qui affligent le peuple afro-américain. De retour en Allemagne, il tente de mettre en garde ses contemporains contre les dérives du nazisme."
+    "synopsis": "Dans un futur proche… Sur une île coupée du monde, Gaëlle, 30 ans, prend soin d’un petit groupe de personnes âgées. L’arrivée d’un voilier fait revenir joie et vie sur l’île. Pourtant Gaëlle doute des intentions des voyageurs car les anciens se mettent à mourir un par un.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1458340",
@@ -666,7 +645,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/11",
-      "daysLeft": 60,
+      "daysLeft": 57,
       "expirationDate": "2026-11-26",
       "packageExpirations": {
         "aoc": "2026-11-26"
@@ -682,7 +661,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Rochebrune est au bord du chaos. Johnny, leader du mouvement de protestation de la ville, a disparu après avoir braqué un fourgon. Lorsque Paul Ligre apprend la nouvelle, il revient dans la ville qui l’a vu grandir pour retrouver son ami d’enfance avant la police. Seulement, l’enquête d’Anna Werner la mène inéluctablement vers le secret qui unit Paul et Johnny…"
+    "synopsis": "Rochebrune est au bord du chaos. Johnny, leader du mouvement de protestation de la ville, a disparu après avoir braqué un fourgon. Lorsque Paul Ligre apprend la nouvelle, il revient dans la ville qui l’a vu grandir pour retrouver son ami d’enfance avant la police. Seulement, l’enquête d’Anna Werner la mène inéluctablement vers le secret qui unit Paul et Johnny…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1617353",
@@ -696,7 +677,7 @@ const CATALOG_DATA = [
     "note_recence": 9.8,
     "note_globale": 7.7,
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "badge": "12",
     "is_eligible": true,
@@ -708,11 +689,11 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_ocs.svg"
     ],
-    "duree": "1h 38min",
+    "duree": "1h 40min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/12",
-      "daysLeft": 79,
+      "daysLeft": 76,
       "expirationDate": "2026-12-15",
       "packageExpirations": {
         "aoc": "2026-12-15"
@@ -721,14 +702,15 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 98,
+    "runtime_minutes": 100,
     "etoiles": 4,
     "raw_genres": [
       "act",
-      "crm",
       "trl"
     ],
-    "synopsis": "Sarah, Jessica et Chanel, trois amies inséparables issues de la banlieue parisienne, sont venues faire les mules dans une île des Caraïbes pour ramener de la drogue en France et enfin ouvrir leur business de bar à ongles. Mais le voyage est bouleversé lorsque, après s'être fait arrêtée à l'aéroport, Jessica disparaît totalement des radars."
+    "synopsis": "Sarah, Jessica et Chanel, trois amies inséparables issues de la banlieue parisienne, sont venues faire les mules dans une île des Caraïbes pour ramener de la drogue en France et enfin ouvrir leur business de bar à ongles. Mais le voyage est bouleversé lorsque, après s'être fait arrêtée à l'aéroport, Jessica disparaît totalement des radars.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1561485",
@@ -757,8 +739,8 @@ const CATALOG_DATA = [
     "duree": "1h 35min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 11 j",
-      "daysLeft": 11,
+      "label": "⏳ Expire dans 8 j",
+      "daysLeft": 8,
       "expirationDate": "2026-10-08",
       "packageExpirations": {
         "aoc": "2026-10-08"
@@ -775,7 +757,9 @@ const CATALOG_DATA = [
       "trl",
       "scf"
     ],
-    "synopsis": "Lorsque sa mère meurt brutalement, Alice, qui avait rompu tous les ponts depuis des années, se voit contrainte de rentrer chez elle pour régler les démarches funéraires. Elle renoue, malgré elle, avec une jeunesse traumatique quand elle revient dans cette maison où rien, pas même sa chambre d’adolescente, ne semble avoir changé... si ce n’est cet étrange système de vidéosurveillance très sophistiqué, ou cette ombre qui rôde alentour. Le passé ne s’enfouit pas si facilement, surtout quand il est aussi monstrueux."
+    "synopsis": "Lorsque sa mère meurt brutalement, Alice, qui avait rompu tous les ponts depuis des années, se voit contrainte de rentrer chez elle pour régler les démarches funéraires. Elle renoue, malgré elle, avec une jeunesse traumatique quand elle revient dans cette maison où rien, pas même sa chambre d’adolescente, ne semble avoir changé... si ce n’est cet étrange système de vidéosurveillance très sophistiqué, ou cette ombre qui rôde alentour. Le passé ne s’enfouit pas si facilement, surtout quand il est aussi monstrueux.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm314783",
@@ -805,7 +789,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/10",
-      "daysLeft": 31,
+      "daysLeft": 28,
       "expirationDate": "2026-10-28",
       "packageExpirations": {
         "aoc": "2026-10-28"
@@ -821,7 +805,9 @@ const CATALOG_DATA = [
       "trl",
       "eur"
     ],
-    "synopsis": "Émilie Tesson-Hansen est une jeune et brillante responsable des Ressources Humaines, une « killeuse ». Suite à un drame dans son entreprise, une enquête est ouverte. Elle se retrouve en première ligne. Elle doit faire face à la pression de l’inspectrice du travail, mais aussi à sa hiérarchie qui menace de se retourner contre elle. Émilie est bien décidée à sauver sa peau. Jusqu’où restera-t-elle corporate ?"
+    "synopsis": "Émilie Tesson-Hansen est une jeune et brillante responsable des Ressources Humaines, une « killeuse ». Suite à un drame dans son entreprise, une enquête est ouverte. Elle se retrouve en première ligne. Elle doit faire face à la pression de l’inspectrice du travail, mais aussi à sa hiérarchie qui menace de se retourner contre elle. Émilie est bien décidée à sauver sa peau. Jusqu’où restera-t-elle corporate ?",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm123172",
@@ -849,9 +835,9 @@ const CATALOG_DATA = [
     ],
     "duree": "2h 15min",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
+      "status": "urgent",
+      "label": "⏳ Expire demain",
+      "daysLeft": 1,
       "expirationDate": "2026-10-01",
       "packageExpirations": {
         "aoc": "2026-10-01"
@@ -865,57 +851,12 @@ const CATALOG_DATA = [
     "raw_genres": [
       "crm",
       "drm",
+      "hst",
       "trl"
     ],
-    "synopsis": "Patriote idéaliste et enthousiaste, le jeune Edward Snowden semble réaliser son rêve quand il rejoint les équipes de la CIA puis de la NSA. Il découvre alors au cœur des Services de Renseignements américains l'ampleur insoupçonnée de la cyber-surveillance. Violant la Constitution, soutenue par de grandes entreprises, la NSA collecte des montagnes de données et piste toutes les formes de télécommunications à un niveau planétaire.  Choqué par cette intrusion systématique dans nos vies privées, Snowden décide de rassembler des preuves et de tout divulguer. Devenu lanceur d'alerte, il sacrifiera sa liberté et sa vie privée.  En juin 2013, deux journalistes prennent le risque de le rencontrer dans une chambre d'hôtel à Hong Kong. Une course contre la montre s'engage pour analyser les preuves irréfutables présentées par Snowden avant leur publication.  Les révélations qui vont être faites dans cette pièce seront au cœur du plus grand scandale d'espionnage de l'histoire des États-Unis."
-  },
-  {
-    "id": "jw-tm314240",
-    "titre": "Le Fidèle",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ligne 10, N° 2",
-    "annee": 2017,
-    "note_avis": 6.3,
-    "note_recence": 7.9,
-    "note_globale": 7.1,
-    "categories": [
-      "thriller_policier"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/36910482/s592/le-fidele.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "2h 10min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 130,
-    "etoiles": 4,
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "rma",
-      "eur"
-    ],
-    "synopsis": "Lorsque Gino rencontre Bénédicte, c’est la passion. Totale. Incandescente. Mais Gino a un secret. De ceux qui mettent votre vie et votre entourage en danger. Alors Gino et Bénédicte vont devoir se battre envers et contre tous, contre la raison et contre leurs propres failles, pour pouvoir rester fidèles à leur amour."
+    "synopsis": "Patriote idéaliste et enthousiaste, le jeune Edward Snowden semble réaliser son rêve quand il rejoint les équipes de la CIA puis de la NSA. Il découvre alors au cœur des Services de Renseignements américains l'ampleur insoupçonnée de la cyber-surveillance. Violant la Constitution, soutenue par de grandes entreprises, la NSA collecte des montagnes de données et piste toutes les formes de télécommunications à un niveau planétaire.  Choqué par cette intrusion systématique dans nos vies privées, Snowden décide de rassembler des preuves et de tout divulguer. Devenu lanceur d'alerte, il sacrifiera sa liberté et sa vie privée.  En juin 2013, deux journalistes prennent le risque de le rencontrer dans une chambre d'hôtel à Hong Kong. Une course contre la montre s'engage pour analyser les preuves irréfutables présentées par Snowden avant leur publication.  Les révélations qui vont être faites dans cette pièce seront au cœur du plus grand scandale d'espionnage de l'histoire des États-Unis.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1434514",
@@ -945,7 +886,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -960,7 +901,9 @@ const CATALOG_DATA = [
       "hrr",
       "trl"
     ],
-    "synopsis": "Cinq amis se retrouvent pour profiter d'un week-end de fête sur une magnifique île des Caraïbes. Lors d'une excursion de plongée sous-marine au milieu d'une épave de bateau de la Seconde Guerre mondiale, ce qu'ils découvrent dépasse leurs pires craintes : des grands requins blancs rôdent. Le groupe se retrouve pris au piège avec peu de réserve en oxygène. Ils vont devoir affronter ces prédateurs jusqu'à leur dernier souffle."
+    "synopsis": "Cinq amis se retrouvent pour profiter d'un week-end de fête sur une magnifique île des Caraïbes. Lors d'une excursion de plongée sous-marine au milieu d'une épave de bateau de la Seconde Guerre mondiale, ce qu'ils découvrent dépasse leurs pires craintes : des grands requins blancs rôdent. Le groupe se retrouve pris au piège avec peu de réserve en oxygène. Ils vont devoir affronter ces prédateurs jusqu'à leur dernier souffle.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm170839",
@@ -990,7 +933,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/11",
-      "daysLeft": 53,
+      "daysLeft": 50,
       "expirationDate": "2026-11-19",
       "packageExpirations": {
         "aoc": "2026-11-19"
@@ -1008,55 +951,9 @@ const CATALOG_DATA = [
       "scf",
       "eur"
     ],
-    "synopsis": "Colter Stevens se réveille en sursaut dans un train à destination de Chicago. Amnésique, il n’a aucun souvenir d’être monté dedans. Pire encore, les passagers du train se comportent avec lui avec familiarité alors qu’il ne les a jamais vus. Désorienté, il cherche à comprendre ce qui se passe mais une bombe explose tuant tout le monde à bord. Colter se réveille alors dans un caisson étrange et découvre qu’il participe à un procédé expérimental permettant de se projeter dans le corps d’une personne et de revivre les 8 dernières minutes de sa vie. Sa mission: revivre sans cesse les quelques minutes précédant l’explosion afin d’identifier et d’arrêter les auteurs de l’attentat. À chaque échec, les chances de pouvoir revenir dans le passé s’amenuisent..."
-  },
-  {
-    "id": "jw-tm223179",
-    "titre": "Ni le ciel ni la terre",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ligne 11, N° 4",
-    "annee": 2015,
-    "note_avis": 6.3,
-    "note_recence": 7.5,
-    "note_globale": 6.9,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/177339133/s592/ni-le-ciel-ni-la-terre.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 40min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 100,
-    "etoiles": 3,
-    "raw_genres": [
-      "drm",
-      "fnt",
-      "trl",
-      "war",
-      "eur"
-    ],
-    "synopsis": "Afghanistan 2014.  A l’approche du retrait des troupes, le capitaine Antarès Bonassieu et sa section sont affectés à une mission de contrôle et de surveillance dans une vallée reculée du Wakhan, frontalière du Pakistan.  Malgré la détermination d’Antarès et de ses hommes, le contrôle de ce secteur supposé calme va progressivement leur échapper.  Une nuit, des soldats se mettent à disparaître mystérieusement dans la vallée."
+    "synopsis": "Colter Stevens se réveille en sursaut dans un train à destination de Chicago. Amnésique, il n’a aucun souvenir d’être monté dedans. Pire encore, les passagers du train se comportent avec lui avec familiarité alors qu’il ne les a jamais vus. Désorienté, il cherche à comprendre ce qui se passe mais une bombe explose tuant tout le monde à bord. Colter se réveille alors dans un caisson étrange et découvre qu’il participe à un procédé expérimental permettant de se projeter dans le corps d’une personne et de revivre les 8 dernières minutes de sa vie. Sa mission: revivre sans cesse les quelques minutes précédant l’explosion afin d’identifier et d’arrêter les auteurs de l’attentat. À chaque échec, les chances de pouvoir revenir dans le passé s’amenuisent...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm101914",
@@ -1082,11 +979,11 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_ocs.svg"
     ],
-    "duree": "1h 56min",
+    "duree": "1h 55min",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 14/10",
-      "daysLeft": 17,
+      "status": "warning",
+      "label": "⏳ Expire dans 14 j",
+      "daysLeft": 14,
       "expirationDate": "2026-10-14",
       "packageExpirations": {
         "aoc": "2026-10-14"
@@ -1095,62 +992,16 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 116,
+    "runtime_minutes": 115,
     "etoiles": 4,
     "raw_genres": [
       "act",
       "drm",
       "spt"
     ],
-    "synopsis": "Micky Ward est un jeune boxeur dont la carrière stagne. Il va rencontrer Charlene, une femme au caractère bien trempé, qui va l'aider à s'affranchir de l'influence négative de sa mère, qui gère maladroitement sa carrière, et de ses sœurs envahissantes. Son demi-frère Dicky Eklund, lui, a connu la gloire sur le ring, il y a bien longtemps. C'était avant qu'il ne sombre dans la drogue, avant son séjour en prison. Entre le sportif en quête d'un second souffle et l'ex-toxico, il y a longtemps que le courant ne passe plus. Trop de non-dits, d'échecs et de souffrances. Pourtant, parfois, les hommes changent, et Micky et Dicky vont peut-être avoir ensemble, la chance de réussir ce qu'ils ont raté chacun de leur côté…"
-  },
-  {
-    "id": "jw-tm139528",
-    "titre": "Slow West",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ligne 11, N° 6",
-    "annee": 2015,
-    "note_avis": 6.9,
-    "note_recence": 7.5,
-    "note_globale": 7.2,
-    "categories": [
-      "action_aventure"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/11571920/s592/slow-west.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 24min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 84,
-    "etoiles": 4,
-    "raw_genres": [
-      "act",
-      "drm",
-      "trl",
-      "rma",
-      "wsn"
-    ],
-    "synopsis": "A la fin du XIXe siècle, Rose Ross, une jeune Écossaise, est obligée de fuir en Amérique avec son père après que ce dernier, au cours d'une dispute, a tué lord Cavendish, un personnage influent. Jay Cavendish, le neveu du lord, un tout jeune homme amoureux de Rose depuis toujours, décide de partir pour la retrouver dans l'Ouest américain. Il découvre alors un monde beaucoup plus dangereux qu'il ne l'avait imaginé. Il est sauvé de la mort par un mystérieux voyageur, Silas Selleck, qui le prend sous son aile. Quand Silas apprend à l'insu de Jay que la tête du père de Rose est mise à prix, il est tenté par l'affaire"
+    "synopsis": "Micky Ward est un jeune boxeur dont la carrière stagne. Il va rencontrer Charlene, une femme au caractère bien trempé, qui va l'aider à s'affranchir de l'influence négative de sa mère, qui gère maladroitement sa carrière, et de ses sœurs envahissantes. Son demi-frère Dicky Eklund, lui, a connu la gloire sur le ring, il y a bien longtemps. C'était avant qu'il ne sombre dans la drogue, avant son séjour en prison. Entre le sportif en quête d'un second souffle et l'ex-toxico, il y a longtemps que le courant ne passe plus. Trop de non-dits, d'échecs et de souffrances. Pourtant, parfois, les hommes changent, et Micky et Dicky vont peut-être avoir ensemble, la chance de réussir ce qu'ils ont raté chacun de leur côté…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm245724",
@@ -1180,7 +1031,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/11",
-      "daysLeft": 39,
+      "daysLeft": 36,
       "expirationDate": "2026-11-05",
       "packageExpirations": {
         "aoc": "2026-11-05"
@@ -1197,7 +1048,9 @@ const CATALOG_DATA = [
       "scf",
       "eur"
     ],
-    "synopsis": "Dans un futur proche, l'ordre mondial a changé. Avec ses 10 millions de chômeurs, la France fait désormais partie des pays pauvres. La population oscille entre révolte et résignation et trouve un exutoire dans des combats télévisés ultra violents où les participants sont dopés en toute légalité et où tous les coups sont permis. Reda, dit Arès, est un ancien combattant qui vit de petits boulots de gros bras pour la police. Tout va changer lorsque sa sœur se fait arrêter et qu'il doit tout mettre en œuvre pour les sauver : elle et ses filles."
+    "synopsis": "Dans un futur proche, l'ordre mondial a changé. Avec ses 10 millions de chômeurs, la France fait désormais partie des pays pauvres. La population oscille entre révolte et résignation et trouve un exutoire dans des combats télévisés ultra violents où les participants sont dopés en toute légalité et où tous les coups sont permis. Reda, dit Arès, est un ancien combattant qui vit de petits boulots de gros bras pour la police. Tout va changer lorsque sa sœur se fait arrêter et qu'il doit tout mettre en œuvre pour les sauver : elle et ses filles.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm305296",
@@ -1227,7 +1080,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -1245,7 +1098,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Bienvenue à Kehoe, luxueuse station de ski du Colorado. La police locale n’y est pas franchement très sollicitée jusqu’au jour où le fils d’un conducteur de chasse-neige, Nels Coxman, est assassiné sur ordre de Viking, un baron de la drogue. Armé d’une rage implacable et d’une artillerie lourde, Nels entreprend de démanteler le cartel de Viking. Sa quête de justice va rapidement se transformer en une vengeance sans pitié. Alors que les associés de Viking « disparaissent » les uns après les autres, Nels passe d’un citoyen modèle à un justicier au sang-froid, qui ne laisse rien - ni personne - se mettre en travers de son chemin."
+    "synopsis": "Bienvenue à Kehoe, luxueuse station de ski du Colorado. La police locale n’y est pas franchement très sollicitée jusqu’au jour où le fils d’un conducteur de chasse-neige, Nels Coxman, est assassiné sur ordre de Viking, un baron de la drogue. Armé d’une rage implacable et d’une artillerie lourde, Nels entreprend de démanteler le cartel de Viking. Sa quête de justice va rapidement se transformer en une vengeance sans pitié. Alors que les associés de Viking « disparaissent » les uns après les autres, Nels passe d’un citoyen modèle à un justicier au sang-froid, qui ne laisse rien - ni personne - se mettre en travers de son chemin.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1114357",
@@ -1275,7 +1130,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -1292,100 +1147,9 @@ const CATALOG_DATA = [
       "drm",
       "hrr"
     ],
-    "synopsis": "Maja, gendarme maritime à la pointe du Cap-Ferret, en Gironde, voit se réaliser son pire cauchemar : prendre sa retraite anticipée ! Thierry, son mari, a déjà prévu la place de camping et le mobil home. Mais la disparition d’un vacancier met toute la côte en alerte : un requin rôde dans la baie ! Aidée de ses jeunes collègues Eugénie et Blaise, elle saute sur l’occasion pour s’offrir une dernière mission…"
-  },
-  {
-    "id": "jw-tm145677",
-    "titre": "Watchmen : Les Gardiens",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ligne 5, N° 2",
-    "annee": 2009,
-    "note_avis": 7.6,
-    "note_recence": 6.1,
-    "note_globale": 6.9,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/153947247/s592/watchmen-les-gardiens.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "2h 43min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 163,
-    "etoiles": 3,
-    "raw_genres": [
-      "act",
-      "drm",
-      "trl",
-      "scf"
-    ],
-    "synopsis": "Aventure à la fois complexe et mystérieuse sur plusieurs niveaux, \"Watchmen: Les Gardiens\" se passe dans une Amérique alternative de 1985 où les super-héros font partie du quotidien et où l'Horloge de l'Apocalypse - symbole de la tension entre les États-Unis et l'Union Soviétique - indique en permanence minuit moins cinq. Lorsque l'un de ses anciens collègues est assassiné, Rorschach, un justicier masqué un peu à plat mais non moins déterminé, va découvrir un complot qui menace de tuer et de discréditer tous les super-héros du passé et du présent. Alors qu'il reprend contact avec son ancienne légion de justiciers - un groupe hétéroclite de super-héros retraités, seul l'un d'entre-eux possède de véritables pouvoirs - Rorschach entrevoit un complot inquiétant et de grande envergure lié à leur passé commun et qui aura des conséquences catastrophiques pour le futur. Leur mission est de protéger l'humanité... Mais qui veille sur ces gardiens ?"
-  },
-  {
-    "id": "jw-tm316702",
-    "titre": "Mon garçon",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ligne 4, N° 3",
-    "annee": 2017,
-    "note_avis": 5.8,
-    "note_recence": 7.9,
-    "note_globale": 6.9,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/41270737/s592/mon-garcon.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 27min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 87,
-    "etoiles": 3,
-    "raw_genres": [
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "synopsis": "Passionné par son métier, Julien voyage énormément à l’étranger. Ce manque de présence a fait exploser son couple quelques années auparavant. Lors d’une escale en France, il découvre sur son répondeur un message de son ex femme en larmes : leur petit garçon de sept ans a disparu lors d’un bivouac en montagne avec sa classe. Julien se précipite à sa recherche et rien ne pourra l’arrêter."
+    "synopsis": "Maja, gendarme maritime à la pointe du Cap-Ferret, en Gironde, voit se réaliser son pire cauchemar : prendre sa retraite anticipée ! Thierry, son mari, a déjà prévu la place de camping et le mobil home. Mais la disparition d’un vacancier met toute la côte en alerte : un requin rôde dans la baie ! Aidée de ses jeunes collègues Eugénie et Blaise, elle saute sur l’occasion pour s’offrir une dernière mission…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm318592",
@@ -1414,8 +1178,8 @@ const CATALOG_DATA = [
     "duree": "1h 46min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 10 j",
-      "daysLeft": 10,
+      "label": "⏳ Expire dans 7 j",
+      "daysLeft": 7,
       "expirationDate": "2026-10-07",
       "packageExpirations": {
         "aoc": "2026-10-07"
@@ -1432,7 +1196,9 @@ const CATALOG_DATA = [
       "hst",
       "trl"
     ],
-    "synopsis": "Une nouvelle adaptation du raid d'Entebbe, au cours duquel deux Palestiniens et deux Allemands ont pris un avion en otage et l'ont détourné vers Entebbe (Ouganda). Sur place, ils ont demandé la libération de douzaines de Palestiniens et de prisonniers pro-Palestiniens."
+    "synopsis": "Une nouvelle adaptation du raid d'Entebbe, au cours duquel deux Palestiniens et deux Allemands ont pris un avion en otage et l'ont détourné vers Entebbe (Ouganda). Sur place, ils ont demandé la libération de douzaines de Palestiniens et de prisonniers pro-Palestiniens.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm164056",
@@ -1462,7 +1228,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -1481,52 +1247,9 @@ const CATALOG_DATA = [
       "trl",
       "eur"
     ],
-    "synopsis": "De sa jeunesse passée dans la misère d’un camp de gitans, Edmond VIDAL, dit MOMON, a retenu le sens de la famille, une loyauté sans faille, et la fierté de ses origines. Il a surtout conservé l’amitié de Serge SUTTEL. L’ami d’enfance avec qui il a découvert la prison à cause d’un stupide vol de cerises. Avec lui, inexorablement il a plongé dans le Grand Banditisme, et connu l’apogée du GANG DES LYONNAIS, l’équipe qu’ils ont formée ensemble et qui a fait d’eux les plus célèbres braqueurs du début des années soixante-dix. Leur irrésistible ascension prend fin en 1974, lors d’une arrestation spectaculaire. Aujourd’hui à l’approche de la soixantaine, MOMON tente d’oublier cette période de sa vie. A l’inverse de Serge SUTTEL, qui malgré le temps n’a rien renié de son itinéraire..."
-  },
-  {
-    "id": "jw-tm163919",
-    "titre": "La Taupe",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ligne 7, N° 6",
-    "annee": 2011,
-    "note_avis": 7,
-    "note_recence": 6.5,
-    "note_globale": 6.8,
-    "categories": [
-      "thriller_policier"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/8953934/s592/la-taupe.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "2h 07min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 127,
-    "etoiles": 3,
-    "raw_genres": [
-      "drm",
-      "trl"
-    ],
-    "synopsis": "George Smiley (Gary Oldman), récemment pensionné du MI6, fait de son mieux pour mener sa vie en dehors des services secrets. Lorsqu’un agent disgracié refait surface avec des informations concernant une taupe au sein du service, Smiley revient. Chargé de découvrir lequel de ses anciens collègues l’a trahi ainsi que son pays, Smiley concentre ses recherches sur quatre suspects tous expérimentés et talentueux. Mais les histoires du passé, les rivalités et amitiés lui rendent la tâche difficile."
+    "synopsis": "De sa jeunesse passée dans la misère d’un camp de gitans, Edmond VIDAL, dit MOMON, a retenu le sens de la famille, une loyauté sans faille, et la fierté de ses origines. Il a surtout conservé l’amitié de Serge SUTTEL. L’ami d’enfance avec qui il a découvert la prison à cause d’un stupide vol de cerises. Avec lui, inexorablement il a plongé dans le Grand Banditisme, et connu l’apogée du GANG DES LYONNAIS, l’équipe qu’ils ont formée ensemble et qui a fait d’eux les plus célèbres braqueurs du début des années soixante-dix. Leur irrésistible ascension prend fin en 1974, lors d’une arrestation spectaculaire. Aujourd’hui à l’approche de la soixantaine, MOMON tente d’oublier cette période de sa vie. A l’inverse de Serge SUTTEL, qui malgré le temps n’a rien renié de son itinéraire...",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm352079",
@@ -1556,7 +1279,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -1571,7 +1294,9 @@ const CATALOG_DATA = [
       "drm",
       "eur"
     ],
-    "synopsis": "Laure a 23 ans. Elle se cherche. C’est dans la Marine Nationale qu’elle va trouver un cadre, une structure, des repères. Solide et persévérante, elle va faire son apprentissage et découvrir sa voie."
+    "synopsis": "Laure a 23 ans. Elle se cherche. C’est dans la Marine Nationale qu’elle va trouver un cadre, une structure, des repères. Solide et persévérante, elle va faire son apprentissage et découvrir sa voie.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm49769",
@@ -1601,7 +1326,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -1618,146 +1343,9 @@ const CATALOG_DATA = [
       "trl",
       "eur"
     ],
-    "synopsis": "Lisa et Julien sont mariés et mènent une vie heureuse et sans histoire avec leur fils Oscar. Mais leur vie bascule quand un matin la police vient arrêter Lisa pour meurtre. Elle est condamnée à 20 ans de prison. Persuadé de l'innocence de sa femme, Julien décide d'agir. Jusqu'où sera-t-il prêt à aller \"pour elle\" ?"
-  },
-  {
-    "id": "jw-tm182230",
-    "titre": "Attack the Block",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ligne 10, N° 6",
-    "annee": 2011,
-    "note_avis": 6.6,
-    "note_recence": 6.5,
-    "note_globale": 6.6,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9868431/s592/attack-the-block.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 28min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 88,
-    "etoiles": 3,
-    "raw_genres": [
-      "act",
-      "cmy",
-      "trl",
-      "scf",
-      "eur"
-    ],
-    "synopsis": "Un gang d’adolescents fait face à une invasion de féroces extraterrestres. Leur affrontement transforme une cité de Londres en une cour de récréation futuriste, un immeuble en une forteresse assiégée et des zonards en héros…"
-  },
-  {
-    "id": "jw-tm186791",
-    "titre": "Les Apaches",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ligne 16, N° 5",
-    "annee": 2013,
-    "note_avis": 5.9,
-    "note_recence": 7,
-    "note_globale": 6.5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/228978809/s592/les-apaches.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 40min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 100,
-    "etoiles": 3,
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "synopsis": "Corse / Extrême Sud / L’été.  Pendant que des milliers de touristes envahissent les plages, les campings et les clubs, cinq adolescents de Porto-Vecchio trainent. Un soir, l'un d'eux conduit les quatre autres dans une luxueuse villa inoccupée... La bande y passe clandestinement la nuit. Avant de partir, ils volent quelques objets sans valeur et deux fusils de collection. Quand la propriétaire de la maison débarque de Paris, elle se plaint du cambriolage à un petit caïd local de sa connaissance…"
-  },
-  {
-    "id": "jw-tm182575",
-    "titre": "Gibraltar",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ligne 8, N° 6",
-    "annee": 2013,
-    "note_avis": 6.3,
-    "note_recence": 7,
-    "note_globale": 6.7,
-    "categories": [
-      "thriller_policier"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/178770099/s592/gibraltar.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 56min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 116,
-    "etoiles": 3,
-    "raw_genres": [
-      "crm",
-      "trl",
-      "eur"
-    ],
-    "synopsis": "Toujours mentir. Jamais trahir. Afin de mettre sa famille à l’abri du besoin, Marc Duval, un français expatrié à Gibraltar, devient agent d’infiltration pour le compte des douanes françaises. De petits trafics en cargaisons troubles, il gagne progressivement la confiance de Claudio Lanfredi, un puissant importateur de cocaïne associé aux cartels Colombiens. Cette immersion en eau profonde dans l’univers des narcotrafiquants lui fait courir des risques de plus en plus importants. Mais à mesure que Marc gravit les échelons du cartel, il découvre aussi le luxe et l’argent facile... En permanence sur le fil du rasoir, seuls ses mensonges le maintiennent encore en vie. Lorsque les douanes anglaises rentrent dans la partie pour arrêter Lanfredi, le jeu devient encore plus dangereux et sa famille risque d’en payer le prix."
+    "synopsis": "Lisa et Julien sont mariés et mènent une vie heureuse et sans histoire avec leur fils Oscar. Mais leur vie bascule quand un matin la police vient arrêter Lisa pour meurtre. Elle est condamnée à 20 ans de prison. Persuadé de l'innocence de sa femme, Julien décide d'agir. Jusqu'où sera-t-il prêt à aller \"pour elle\" ?",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm147429",
@@ -1787,7 +1375,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/11",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-11-25",
       "packageExpirations": {
         "aoc": "2026-11-25"
@@ -1804,53 +1392,9 @@ const CATALOG_DATA = [
       "trl",
       "scf"
     ],
-    "synopsis": "Les services de police inventent une nouvelle arme infaillible, Robocop, mi‐homme, mi‐robot, policier électronique de chair et d’acier qui a pour mission de sauvegarder la tranquillité de la ville. Mais ce cyborg a aussi une âme…"
-  },
-  {
-    "id": "jw-tm36060",
-    "titre": "Rocky Balboa",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ligne 11, N° 1",
-    "annee": 2006,
-    "note_avis": 7.1,
-    "note_recence": 5.4,
-    "note_globale": 6.3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/10615263/s592/rocky-balboa.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 42min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 102,
-    "etoiles": 3,
-    "raw_genres": [
-      "act",
-      "drm",
-      "spt"
-    ],
-    "synopsis": "Rocky Balboa, le légendaire boxeur, a depuis longtemps quitté le ring. De ses succès, il ne reste plus que des histoires qu'il raconte aux clients de son restaurant. La mort de son épouse lui pèse chaque jour et son fils ne vient jamais le voir. Le champion d'aujourd'hui s'appelle Mason Dixon, et tout le monde s'accorde à le définir comme un tueur sans élégance ni cœur. Alors que les promoteurs lui cherchent désespérément un adversaire à sa taille, la légende de Rocky refait surface. L'idée d'opposer deux écoles, deux époques et deux titans aussi différents enflamme tout le monde. Pour Balboa, c'est l'occasion de ranimer les braises d'une passion qui ne l'a jamais quitté. L'esprit d'un champion ne meurt jamais..."
+    "synopsis": "Les services de police inventent une nouvelle arme infaillible, Robocop, mi‐homme, mi‐robot, policier électronique de chair et d’acier qui a pour mission de sauvegarder la tranquillité de la ville. Mais ce cyborg a aussi une âme…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm24554",
@@ -1880,7 +1424,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -1897,7 +1441,9 @@ const CATALOG_DATA = [
       "trl",
       "eur"
     ],
-    "synopsis": "L'histoire se passe à Liège, Belgique, aujourd'hui. C'est l'histoire de quatre hommes, d'une femme et d'un enfant que le destin va réunir. C'est une histoire qui commence dans la chaleur. La chaleur de l'été, la chaleur d'un café où les hommes se retrouvent pour jouer aux cartes. C'est une histoire de pudeur où on ne dit son mal que quand il est trop tard. C'est une histoire où l'argent manque ici, est trop visible là. C'est l'histoire de gens qui n'en peuvent plus, usés, brisés, vidés par leur travail. C'est l'histoire d'hommes qui vont prendre des armes pour aller chercher l'argent là où il est, dans la poche d'autres car ils pensent qu'ils en ont le droit ! Une histoire sans bons et sans méchants. Une histoire de forts et de faibles. Où chacun a ses raisons, où chacun choisit son camp. C'est une histoire où certains mourront pendant que d'autres survivront mais dont personne ne sortira indemne."
+    "synopsis": "L'histoire se passe à Liège, Belgique, aujourd'hui. C'est l'histoire de quatre hommes, d'une femme et d'un enfant que le destin va réunir. C'est une histoire qui commence dans la chaleur. La chaleur de l'été, la chaleur d'un café où les hommes se retrouvent pour jouer aux cartes. C'est une histoire de pudeur où on ne dit son mal que quand il est trop tard. C'est une histoire où l'argent manque ici, est trop visible là. C'est l'histoire de gens qui n'en peuvent plus, usés, brisés, vidés par leur travail. C'est l'histoire d'hommes qui vont prendre des armes pour aller chercher l'argent là où il est, dans la poche d'autres car ils pensent qu'ils en ont le droit ! Une histoire sans bons et sans méchants. Une histoire de forts et de faibles. Où chacun a ses raisons, où chacun choisit son camp. C'est une histoire où certains mourront pendant que d'autres survivront mais dont personne ne sortira indemne.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm94522",
@@ -1926,8 +1472,8 @@ const CATALOG_DATA = [
     "duree": "2h 13min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 12 j",
-      "daysLeft": 12,
+      "label": "⏳ Expire dans 9 j",
+      "daysLeft": 9,
       "expirationDate": "2026-10-09",
       "packageExpirations": {
         "aoc": "2026-10-09"
@@ -1944,52 +1490,9 @@ const CATALOG_DATA = [
       "war",
       "eur"
     ],
-    "synopsis": "Chassés de leur terre algérienne, trois frères et leur mère sont séparés. Messaoud s’engage en Indochine. À Paris, Abdelkader prend la tête du mouvement pour l’indépendance de l’Algérie et Saïd fait fortune dans les bouges et les clubs de boxe de Pigalle. Leur destin, scellé autour de l’amour d’une mère, se mêlera inexorablement à celui d’une nation en lutte pour sa liberté..."
-  },
-  {
-    "id": "jw-tm65130",
-    "titre": "Aux yeux de tous",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ligne 12, N° 1",
-    "annee": 2012,
-    "note_avis": 6,
-    "note_recence": 6.8,
-    "note_globale": 6.4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/311632362/s592/aux-yeux-de-tous.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 20min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 80,
-    "etoiles": 3,
-    "raw_genres": [
-      "trl",
-      "eur"
-    ],
-    "synopsis": "673'000 caméras de surveillance et des millions de webcams en France. Un hacker anonyme a piraté toutes les caméras de Paris et observe la ville à son insu. Petits délits et moments d'intimité volés, il voit tout. Jusqu’au jour où un attentat dévaste la gare d’Austerlitz. La police se met sur la piste d’un groupe satellite d’Al-Qaïda. Le hacker réussit, lui, à trouver les images de l’explosion et découvre que c’est un jeune couple qui a posé la bombe. À l’aide des caméras de la ville, il décide de traquer les coupables. Sans le savoir il va mettre le doigt dans un terrible engrenage."
+    "synopsis": "Chassés de leur terre algérienne, trois frères et leur mère sont séparés. Messaoud s’engage en Indochine. À Paris, Abdelkader prend la tête du mouvement pour l’indépendance de l’Algérie et Saïd fait fortune dans les bouges et les clubs de boxe de Pigalle. Leur destin, scellé autour de l’amour d’une mère, se mêlera inexorablement à celui d’une nation en lutte pour sa liberté...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm31922",
@@ -2019,7 +1522,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -2036,7 +1539,9 @@ const CATALOG_DATA = [
       "trl",
       "eur"
     ],
-    "synopsis": "Un tueur en série ensanglante Marseille. Louis Schneider, flic au SRPJ, mène l'enquête malgré l'alcool et les fantômes de son passé. Le passé resurgit aussi pour Justine. Vingt-cinq ans plus tôt, ses parents ont été sauvagement assassinés par Charles Subra. Schneider l’avait alors arrêté. Mais aujourd’hui, par le jeu des remises de peine et pour bonne conduite, Subra sort de prison. Cette libération anticipée va alors réunir Schneider et Justine, deux êtres qui tentent de survivre au drame de leur vie..."
+    "synopsis": "Un tueur en série ensanglante Marseille. Louis Schneider, flic au SRPJ, mène l'enquête malgré l'alcool et les fantômes de son passé. Le passé resurgit aussi pour Justine. Vingt-cinq ans plus tôt, ses parents ont été sauvagement assassinés par Charles Subra. Schneider l’avait alors arrêté. Mais aujourd’hui, par le jeu des remises de peine et pour bonne conduite, Subra sort de prison. Cette libération anticipée va alors réunir Schneider et Justine, deux êtres qui tentent de survivre au drame de leur vie...",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm172716",
@@ -2066,7 +1571,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -2082,98 +1587,9 @@ const CATALOG_DATA = [
       "trl",
       "eur"
     ],
-    "synopsis": "Dans ce cinquième épisode, la Mort est toujours aussi omniprésente et se déchaîne après qu’un homme est victime d’une terrible prémonition, laquelle permet de sauver ses collègues de l’effondrement d’un pont suspendu. Ce groupe d’âmes innocentes n’était pas supposé survivre, et, dans une course terrifiante contre le temps, ces malheureux tentent frénétiquement de trouver le moyen d’échapper au sinistre agenda de la Mort."
-  },
-  {
-    "id": "jw-tm145426",
-    "titre": "96 heures",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ligne 9, N° 1",
-    "annee": 2014,
-    "note_avis": 5.7,
-    "note_recence": 7.2,
-    "note_globale": 6.5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/178567683/s592/96-heures.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 36min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 96,
-    "etoiles": 3,
-    "raw_genres": [
-      "trl",
-      "eur"
-    ],
-    "synopsis": "Marion Reynaud, qui prépare son concours d'inspecteur, voue une admiration sans borne à son supérieur, Gabriel Carré, un commissaire respecté. Kancel, un dangereux caïd, réussit à s'évader tandis que sa bande enlève Gabriel sous les yeux de sa femme Françoise. Celui-ci est séquestré au sous-sol d'une immense villa. Kancel veut arracher à Gabriel le nom de celui qui l'a dénoncé trois ans plus tôt. Alors que celui-ci refuse de lui donner la moindre information, une bataille psychologique commence entre les deux hommes..."
-  },
-  {
-    "id": "jw-tm164082",
-    "titre": "Le Moine",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ligne 12, N° 4",
-    "annee": 2011,
-    "note_avis": 5.8,
-    "note_recence": 6.5,
-    "note_globale": 6.2,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/171158418/s592/le-moine.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 41min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 101,
-    "etoiles": 3,
-    "raw_genres": [
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "synopsis": "Adaptation du célèbre roman gothique de Matthew G.Lewis, publié en 1796, « Le Moine » raconte le destin tragique de Frère Ambrosio dans l’Espagne catholique du XVIIe siècle. Abandonné à la naissance aux portes du couvent des Capucins, Ambrosio est élevé par les frères. Devenu un prédicateur admiré pour sa ferveur et redouté pour son intransigeance , il se croit à l’abri de toute tentation. L’arrivée d’un mystérieux novice va ébranler ses certitudes et le mener sur le chemin du péché."
+    "synopsis": "Dans ce cinquième épisode, la Mort est toujours aussi omniprésente et se déchaîne après qu’un homme est victime d’une terrible prémonition, laquelle permet de sauver ses collègues de l’effondrement d’un pont suspendu. Ce groupe d’âmes innocentes n’était pas supposé survivre, et, dans une course terrifiante contre le temps, ces malheureux tentent frénétiquement de trouver le moyen d’échapper au sinistre agenda de la Mort.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1472286",
@@ -2202,8 +1618,8 @@ const CATALOG_DATA = [
     "duree": "1h 32min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 13 j",
-      "daysLeft": 13,
+      "label": "⏳ Expire dans 10 j",
+      "daysLeft": 10,
       "expirationDate": "2026-10-10",
       "packageExpirations": {
         "aoc": "2026-10-10"
@@ -2218,7 +1634,9 @@ const CATALOG_DATA = [
       "cmy",
       "drm"
     ],
-    "synopsis": "Totone, 18 ans, passe le plus clair de son temps à boire des bières et écumer les bals du Jura avec sa bande de potes. Mais la réalité le rattrape : il doit s’occuper de sa petite sœur de 7 ans et trouver un moyen de gagner sa vie. Il se met alors en tête de fabriquer le meilleur comté de la région, celui avec lequel il remporterait la médaille d'or du concours agricole et 30 000 euros."
+    "synopsis": "Totone, 18 ans, passe le plus clair de son temps à boire des bières et écumer les bals du Jura avec sa bande de potes. Mais la réalité le rattrape : il doit s’occuper de sa petite sœur de 7 ans et trouver un moyen de gagner sa vie. Il se met alors en tête de fabriquer le meilleur comté de la région, celui avec lequel il remporterait la médaille d'or du concours agricole et 30 000 euros.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1406900",
@@ -2248,7 +1666,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -2263,7 +1681,9 @@ const CATALOG_DATA = [
       "drm",
       "rma"
     ],
-    "synopsis": "Almut et Tobias voient leur vie à jamais bouleversée lorsqu'une rencontre accidentelle les réunit. Une romance profondément émouvante sur les instants qui nous changent, et ceux qui nous construisent."
+    "synopsis": "Almut et Tobias voient leur vie à jamais bouleversée lorsqu'une rencontre accidentelle les réunit. Une romance profondément émouvante sur les instants qui nous changent, et ceux qui nous construisent.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1515245",
@@ -2293,7 +1713,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/10",
-      "daysLeft": 27,
+      "daysLeft": 24,
       "expirationDate": "2026-10-24",
       "packageExpirations": {
         "aoc": "2026-10-24"
@@ -2307,7 +1727,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "drm"
     ],
-    "synopsis": "Mona vit avec son fils trentenaire, Joël, qui est \"en retard\". Il travaille dans un établissement spécialisé, un ESAT, et aime passionnément sa collègue Océane, elle aussi en situation de handicap. Alors que Mona ignore tout de cette relation, elle apprend qu’Océane est enceinte. La relation fusionnelle entre mère et fils vacille."
+    "synopsis": "Mona vit avec son fils trentenaire, Joël, qui est \"en retard\". Il travaille dans un établissement spécialisé, un ESAT, et aime passionnément sa collègue Océane, elle aussi en situation de handicap. Alors que Mona ignore tout de cette relation, elle apprend qu’Océane est enceinte. La relation fusionnelle entre mère et fils vacille.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1382978",
@@ -2337,7 +1759,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/11",
-      "daysLeft": 49,
+      "daysLeft": 46,
       "expirationDate": "2026-11-15",
       "packageExpirations": {
         "aoc": "2026-11-15"
@@ -2351,7 +1773,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "drm"
     ],
-    "synopsis": "Azar Nafisi, professeure à l’université de Téhéran, réunit secrètement sept de ses étudiantes pour lire des classiques de la littérature occidentale interdits par le régime. Alors que les fondamentalistes sont au pouvoir, ces femmes se retrouvent, retirent leur voile et discutent de leurs espoirs, de leurs amours et de leur place dans une société de plus en plus oppressive. Pour elles, lire Lolita à Téhéran, c’est célébrer le pouvoir libérateur de la littérature."
+    "synopsis": "Azar Nafisi, professeure à l’université de Téhéran, réunit secrètement sept de ses étudiantes pour lire des classiques de la littérature occidentale interdits par le régime. Alors que les fondamentalistes sont au pouvoir, ces femmes se retrouvent, retirent leur voile et discutent de leurs espoirs, de leurs amours et de leur place dans une société de plus en plus oppressive. Pour elles, lire Lolita à Téhéran, c’est célébrer le pouvoir libérateur de la littérature.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1471440",
@@ -2381,7 +1805,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 75,
+      "daysLeft": 72,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
@@ -2397,7 +1821,9 @@ const CATALOG_DATA = [
       "drm",
       "rma"
     ],
-    "synopsis": "Bridget Jones a cinquante-deux ans et deux enfants. Après le décès de Mark Darcy, avec qui elle a vécu dix ans de bonheur, elle est à nouveau en quête de l'homme idéal. Mais ce n'est pas si facile de se remettre sur le marché du célibat. Les mésaventures de Bridget n'ont rien perdu de leur piquant."
+    "synopsis": "Bridget Jones a cinquante-deux ans et deux enfants. Après le décès de Mark Darcy, avec qui elle a vécu dix ans de bonheur, elle est à nouveau en quête de l'homme idéal. Mais ce n'est pas si facile de se remettre sur le marché du célibat. Les mésaventures de Bridget n'ont rien perdu de leur piquant.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1486094",
@@ -2427,7 +1853,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/10",
-      "daysLeft": 20,
+      "daysLeft": 17,
       "expirationDate": "2026-10-17",
       "packageExpirations": {
         "aoc": "2026-10-17"
@@ -2442,54 +1868,9 @@ const CATALOG_DATA = [
       "drm",
       "rma"
     ],
-    "synopsis": "Paris 1896. Sarah Bernhardt est au sommet de sa gloire. Icône de son époque et première star mondiale, la comédienne est aussi une amoureuse libre et moderne qui défie les conventions. Découvrez la femme derrière la légende."
-  },
-  {
-    "id": "jw-tm897852",
-    "titre": "Les choses qu'on dit, les choses qu'on fait",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Emotion",
-    "annee": 2020,
-    "note_avis": 6.9,
-    "note_recence": 8.6,
-    "note_globale": 7.8,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/206849944/s592/les-choses-quon-dit-les-choses-quon-fait.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "2h 02min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 122,
-    "etoiles": 4,
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "synopsis": "Daphné, enceinte de trois mois, est en vacances à la campagne avec son compagnon François. Il doit s’absenter pour son travail et elle se retrouve seule pour accueillir Maxime, son cousin qu’elle n’avait jamais rencontré. Pendant quatre jours, tandis qu'ils attendent le retour de François, Daphné et Maxime font petit à petit connaissance et se confient des récits de plus en plus intimes sur leurs histoires d'amour présentes et passées..."
+    "synopsis": "Paris 1896. Sarah Bernhardt est au sommet de sa gloire. Icône de son époque et première star mondiale, la comédienne est aussi une amoureuse libre et moderne qui défie les conventions. Découvrez la femme derrière la légende.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm244376",
@@ -2519,7 +1900,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/10",
-      "daysLeft": 30,
+      "daysLeft": 27,
       "expirationDate": "2026-10-27",
       "packageExpirations": {
         "aoc": "2026-10-27"
@@ -2535,7 +1916,9 @@ const CATALOG_DATA = [
       "drm",
       "spt"
     ],
-    "synopsis": "Le parcours de la sportive controversée Tonya Harding, championne de patinage artistique dans les années 80‐90, première femme à réussir un triple axel dans une compétition majeure, mais surtout connue aujourd’hui pour sa célèbre rivalité avec la patineuse Nancy Kerrigan aux JO de 1994 et sa tentative avec son mari de nuire à sa rivale."
+    "synopsis": "Le parcours de la sportive controversée Tonya Harding, championne de patinage artistique dans les années 80‐90, première femme à réussir un triple axel dans une compétition majeure, mais surtout connue aujourd’hui pour sa célèbre rivalité avec la patineuse Nancy Kerrigan aux JO de 1994 et sa tentative avec son mari de nuire à sa rivale.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm407775",
@@ -2565,7 +1948,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/10",
-      "daysLeft": 21,
+      "daysLeft": 18,
       "expirationDate": "2026-10-18",
       "packageExpirations": {
         "aoc": "2026-10-18"
@@ -2581,7 +1964,9 @@ const CATALOG_DATA = [
       "rma",
       "eur"
     ],
-    "synopsis": "Madame de la Pommeraye, jeune veuve retirée du monde, cède à la cour du marquis des Arcis, libertin notoire. Après quelques années d’un bonheur sans faille, elle découvre que le marquis s’est lassé de leur union. Follement amoureuse et terriblement blessée, elle décide de se venger de lui avec la complicité de Mademoiselle de Joncquières et de sa mère…"
+    "synopsis": "Madame de la Pommeraye, jeune veuve retirée du monde, cède à la cour du marquis des Arcis, libertin notoire. Après quelques années d’un bonheur sans faille, elle découvre que le marquis s’est lassé de leur union. Follement amoureuse et terriblement blessée, elle décide de se venger de lui avec la complicité de Mademoiselle de Joncquières et de sa mère…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm496648",
@@ -2611,7 +1996,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -2628,7 +2013,9 @@ const CATALOG_DATA = [
       "fml",
       "eur"
     ],
-    "synopsis": "Une année au cœur de l’école de la république de la vie… et de la démerde! Samia, jeune CPE novice, débarque de son Ardèche natale dans un collège réputé difficile de la ville de Saint-Denis. Elle y découvre les problèmes récurrents de discipline, la réalité sociale pesant sur le quartier, mais aussi l’incroyable vitalité et l’humour, tant des élèves que de son équipe de surveillants. Parmi eux, il y a Moussa, le Grand du quartier et Dylan le chambreur. Samia s'adapte et prend bientôt plaisir à canaliser la fougue des plus perturbateurs. Sa situation personnelle compliquée la rapproche naturellement de Yanis, ado vif et intelligent, dont elle a flairé le potentiel. Même si Yanis semble renoncer à toute ambition en se cachant derrière son insolence, Samia va investir toute son énergie à le détourner d’un échec scolaire annoncé et tenter de l’amener à se projeter dans un avenir meilleur…"
+    "synopsis": "Une année au cœur de l’école de la république de la vie… et de la démerde! Samia, jeune CPE novice, débarque de son Ardèche natale dans un collège réputé difficile de la ville de Saint-Denis. Elle y découvre les problèmes récurrents de discipline, la réalité sociale pesant sur le quartier, mais aussi l’incroyable vitalité et l’humour, tant des élèves que de son équipe de surveillants. Parmi eux, il y a Moussa, le Grand du quartier et Dylan le chambreur. Samia s'adapte et prend bientôt plaisir à canaliser la fougue des plus perturbateurs. Sa situation personnelle compliquée la rapproche naturellement de Yanis, ado vif et intelligent, dont elle a flairé le potentiel. Même si Yanis semble renoncer à toute ambition en se cachant derrière son insolence, Samia va investir toute son énergie à le détourner d’un échec scolaire annoncé et tenter de l’amener à se projeter dans un avenir meilleur…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm410289",
@@ -2658,7 +2045,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -2677,7 +2064,9 @@ const CATALOG_DATA = [
       "rma",
       "eur"
     ],
-    "synopsis": "Yvonne, jeune inspectrice de police, découvre que son mari, le capitaine Santi, héros local tombé au combat, n’était pas le flic courageux et intègre qu’elle croyait, mais un véritable ripou. Déterminée à réparer les torts commis par ce dernier, elle va croiser le chemin d’Antoine, injustement incarcéré par Santi pendant huit longues années. Une rencontre inattendue et folle qui va dynamiter leurs vies à tous les deux."
+    "synopsis": "Yvonne, jeune inspectrice de police, découvre que son mari, le capitaine Santi, héros local tombé au combat, n’était pas le flic courageux et intègre qu’elle croyait, mais un véritable ripou. Déterminée à réparer les torts commis par ce dernier, elle va croiser le chemin d’Antoine, injustement incarcéré par Santi pendant huit longues années. Une rencontre inattendue et folle qui va dynamiter leurs vies à tous les deux.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm914405",
@@ -2707,7 +2096,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 20/10",
-      "daysLeft": 23,
+      "daysLeft": 20,
       "expirationDate": "2026-10-20",
       "packageExpirations": {
         "aoc": "2026-10-20"
@@ -2722,7 +2111,9 @@ const CATALOG_DATA = [
       "cmy",
       "drm"
     ],
-    "synopsis": "Première d’atelier au sein de la Maison Dior, Esther participe à sa dernière collection de Haute Couture avant de prendre sa retraite. Un jour, elle se fait voler son sac dans le métro par Jade, 20 ans. Mais celle-ci, prise de remord, décide de lui restituer son bien. Séduite malgré elle par l’audace de la jeune fille et convaincue qu’elle a un don, Esther lui offre la chance d’intégrer les ateliers de la Maison Dior comme apprentie. L’occasion de transmettre à Jade un métier exercé depuis toujours pour la beauté du geste..."
+    "synopsis": "Première d’atelier au sein de la Maison Dior, Esther participe à sa dernière collection de Haute Couture avant de prendre sa retraite. Un jour, elle se fait voler son sac dans le métro par Jade, 20 ans. Mais celle-ci, prise de remord, décide de lui restituer son bien. Séduite malgré elle par l’audace de la jeune fille et convaincue qu’elle a un don, Esther lui offre la chance d’intégrer les ateliers de la Maison Dior comme apprentie. L’occasion de transmettre à Jade un métier exercé depuis toujours pour la beauté du geste...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1573431",
@@ -2751,8 +2142,8 @@ const CATALOG_DATA = [
     "duree": "1h 31min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 13 j",
-      "daysLeft": 13,
+      "label": "⏳ Expire dans 10 j",
+      "daysLeft": 10,
       "expirationDate": "2026-10-10",
       "packageExpirations": {
         "aoc": "2026-10-10"
@@ -2764,10 +2155,11 @@ const CATALOG_DATA = [
     "runtime_minutes": 91,
     "etoiles": 4,
     "raw_genres": [
-      "cmy",
-      "fml"
+      "cmy"
     ],
-    "synopsis": "Le Docteur Béranger est un célèbre psychanalyste à qui tout réussit. Sa vie serait parfaite s’il n’y avait pas ce patient très angoissé et extrêmement collant : Damien Leroy. Pour enfin s’en débarrasser, il lui fait croire que le seul moyen de guérir est de trouver le grand amour. Mais alors qu’il s’apprête à fêter ses 30 ans de mariage, sa fille Alice lui annonce qu’elle a enfin trouvé l’homme de sa vie qui n’est autre que… Damien. La fête va virer au cauchemar."
+    "synopsis": "Le Docteur Béranger est un célèbre psychanalyste à qui tout réussit. Sa vie serait parfaite s’il n’y avait pas ce patient très angoissé et extrêmement collant : Damien Leroy. Pour enfin s’en débarrasser, il lui fait croire que le seul moyen de guérir est de trouver le grand amour. Mais alors qu’il s’apprête à fêter ses 30 ans de mariage, sa fille Alice lui annonce qu’elle a enfin trouvé l’homme de sa vie qui n’est autre que… Damien. La fête va virer au cauchemar.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm149946",
@@ -2797,7 +2189,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/10",
-      "daysLeft": 25,
+      "daysLeft": 22,
       "expirationDate": "2026-10-22",
       "packageExpirations": {
         "aoc": "2026-10-22"
@@ -2814,7 +2206,9 @@ const CATALOG_DATA = [
       "rma",
       "eur"
     ],
-    "synopsis": "Entre ses potes et l’entreprise familiale, l’été d'Arnaud s’annonce tranquille…  Tranquille jusqu'à sa rencontre avec Madeleine, aussi belle que cassante, bloc de muscles tendus et de prophéties catastrophiques. Il ne s’attend à rien ; elle se prépare au pire.  Jusqu'où la suivre alors qu'elle ne lui a rien demandé ?  C’est une histoire d’amour. Ou une histoire de survie. Ou les deux."
+    "synopsis": "Entre ses potes et l’entreprise familiale, l’été d'Arnaud s’annonce tranquille…  Tranquille jusqu'à sa rencontre avec Madeleine, aussi belle que cassante, bloc de muscles tendus et de prophéties catastrophiques. Il ne s’attend à rien ; elle se prépare au pire.  Jusqu'où la suivre alors qu'elle ne lui a rien demandé ?  C’est une histoire d’amour. Ou une histoire de survie. Ou les deux.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm361759",
@@ -2844,7 +2238,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -2861,7 +2255,9 @@ const CATALOG_DATA = [
       "rma",
       "eur"
     ],
-    "synopsis": "1893, malgré leurs 14 ans d'écart, Gabrielle Sidonie Colette, jeune fille à l'esprit rebelle, épouse Willy, écrivain aussi égocentrique que séducteur. Grâce à ses relations, elle découvre le milieu artistique parisien qui stimule sa propre créativité. Sachant repérer les talents mieux que quiconque, Willy autorise Colette à écrire – à condition qu'il signe ses romans à sa place. Suite au triomphe de la série des Claudine, il ne tarde d'ailleurs pas à devenir célèbre. Pourtant, tandis que les infidélités de Willy pèsent sur le couple, Colette souffre de plus en plus de ne pas être reconnue pour son œuvre…"
+    "synopsis": "1893, malgré leurs 14 ans d'écart, Gabrielle Sidonie Colette, jeune fille à l'esprit rebelle, épouse Willy, écrivain aussi égocentrique que séducteur. Grâce à ses relations, elle découvre le milieu artistique parisien qui stimule sa propre créativité. Sachant repérer les talents mieux que quiconque, Willy autorise Colette à écrire – à condition qu'il signe ses romans à sa place. Suite au triomphe de la série des Claudine, il ne tarde d'ailleurs pas à devenir célèbre. Pourtant, tandis que les infidélités de Willy pèsent sur le couple, Colette souffre de plus en plus de ne pas être reconnue pour son œuvre…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm201446",
@@ -2891,7 +2287,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -2907,7 +2303,9 @@ const CATALOG_DATA = [
       "rma",
       "eur"
     ],
-    "synopsis": "1971. Delphine, fille de paysans, monte à Paris pour s’émanciper du carcan familial et gagner son indépendance financière. Carole est parisienne. En couple avec Manuel, elle vit activement les débuts du féminisme. Lorsque Delphine et Carole se rencontrent, leur histoire d’amour fait basculer leurs vies."
+    "synopsis": "1971. Delphine, fille de paysans, monte à Paris pour s’émanciper du carcan familial et gagner son indépendance financière. Carole est parisienne. En couple avec Manuel, elle vit activement les débuts du féminisme. Lorsque Delphine et Carole se rencontrent, leur histoire d’amour fait basculer leurs vies.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm217910",
@@ -2935,9 +2333,9 @@ const CATALOG_DATA = [
     ],
     "duree": "1h 38min",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 6 j",
-      "daysLeft": 6,
+      "status": "urgent",
+      "label": "⏳ Expire dans 3 j",
+      "daysLeft": 3,
       "expirationDate": "2026-10-03",
       "packageExpirations": {
         "aoc": "2026-10-03"
@@ -2955,7 +2353,9 @@ const CATALOG_DATA = [
       "rma",
       "eur"
     ],
-    "synopsis": "Xavier Racine est un président de cour d’assises redouté. Aussi dur avec lui qu’avec les autres, on l’appelle « le Président à deux chiffres ». Avec lui, on en prend toujours pour plus de dix ans. Tout bascule le jour où Racine retrouve Birgit Lorensen-Coteret. Elle fait partie du jury qui va devoir juger un homme accusé d’homicide. Six ans auparavant, Racine a aimé cette femme. Presque en secret. Peut-être la seule femme qu’il ait jamais aimée."
+    "synopsis": "Xavier Racine est un président de cour d’assises redouté. Aussi dur avec lui qu’avec les autres, on l’appelle « le Président à deux chiffres ». Avec lui, on en prend toujours pour plus de dix ans. Tout bascule le jour où Racine retrouve Birgit Lorensen-Coteret. Elle fait partie du jury qui va devoir juger un homme accusé d’homicide. Six ans auparavant, Racine a aimé cette femme. Presque en secret. Peut-être la seule femme qu’il ait jamais aimée.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm430255",
@@ -2985,7 +2385,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -3002,7 +2402,9 @@ const CATALOG_DATA = [
       "rma",
       "eur"
     ],
-    "synopsis": "Abel et Marianne sont séparés depuis 10 ans.  Alors qu’ils se retrouvent, Abel décide de reconquérir Marianne.  Mais les choses ont changé : Marianne a un fils, Joseph, et sa tante, la jeune Ève, a grandi.  Et ils ont des secrets à révéler…."
+    "synopsis": "Abel et Marianne sont séparés depuis 10 ans.  Alors qu’ils se retrouvent, Abel décide de reconquérir Marianne.  Mais les choses ont changé : Marianne a un fils, Joseph, et sa tante, la jeune Ève, a grandi.  Et ils ont des secrets à révéler….",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm449587",
@@ -3031,8 +2433,8 @@ const CATALOG_DATA = [
     "duree": "1h 43min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 14 j",
-      "daysLeft": 14,
+      "label": "⏳ Expire dans 11 j",
+      "daysLeft": 11,
       "expirationDate": "2026-10-11",
       "packageExpirations": {
         "aoc": "2026-10-11"
@@ -3049,7 +2451,9 @@ const CATALOG_DATA = [
       "fml",
       "eur"
     ],
-    "synopsis": "Comme chacun sait, les enfants ne font aucune différence entre les classes sociales, les couleurs de peau ou les religions. Mais alors pourquoi Corentin, le fils de 9 ans de Paul et Sofia, n’a-t-il à l’école de Bagnolet que des amis qui lui ressemblent? Et quand ses amis partent tous dans une école privée parisienne, ses parents prennent peur. Désormais, Corentin est le seul dans sa classe. Mais le seul quoi ?"
+    "synopsis": "Comme chacun sait, les enfants ne font aucune différence entre les classes sociales, les couleurs de peau ou les religions. Mais alors pourquoi Corentin, le fils de 9 ans de Paul et Sofia, n’a-t-il à l’école de Bagnolet que des amis qui lui ressemblent? Et quand ses amis partent tous dans une école privée parisienne, ses parents prennent peur. Désormais, Corentin est le seul dans sa classe. Mais le seul quoi ?",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm59428",
@@ -3079,7 +2483,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 20/10",
-      "daysLeft": 23,
+      "daysLeft": 20,
       "expirationDate": "2026-10-20",
       "packageExpirations": {
         "aoc": "2026-10-20"
@@ -3095,7 +2499,9 @@ const CATALOG_DATA = [
       "drm",
       "rma"
     ],
-    "synopsis": "La vie réserve parfois quelques surprises… Pat Solatano a tout perdu : sa maison, son travail et sa femme. Il se retrouve même dans l'obligation d'emménager chez ses parents.  Malgré tout, Pat affiche un optimisme à toute épreuve et est déterminé à se reconstruire et à renouer avec son ex-femme. Rapidement, il rencontre Tiffany, une jolie jeune femme ayant eu un parcours mouvementé. Tiffany se propose d'aider Pat à reconquérir sa femme, à condition qu'il lui rende un service en retour. Un lien inattendu commence à se former entre eux et, ensemble, ils vont essayer de reprendre en main leurs vies respectives."
+    "synopsis": "La vie réserve parfois quelques surprises… Pat Solatano a tout perdu : sa maison, son travail et sa femme. Il se retrouve même dans l'obligation d'emménager chez ses parents.  Malgré tout, Pat affiche un optimisme à toute épreuve et est déterminé à se reconstruire et à renouer avec son ex-femme. Rapidement, il rencontre Tiffany, une jolie jeune femme ayant eu un parcours mouvementé. Tiffany se propose d'aider Pat à reconquérir sa femme, à condition qu'il lui rende un service en retour. Un lien inattendu commence à se former entre eux et, ensemble, ils vont essayer de reprendre en main leurs vies respectives.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm464524",
@@ -3124,8 +2530,8 @@ const CATALOG_DATA = [
     "duree": "1h 40min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 14 j",
-      "daysLeft": 14,
+      "label": "⏳ Expire dans 11 j",
+      "daysLeft": 11,
       "expirationDate": "2026-10-11",
       "packageExpirations": {
         "aoc": "2026-10-11"
@@ -3141,53 +2547,9 @@ const CATALOG_DATA = [
       "drm",
       "eur"
     ],
-    "synopsis": "Vali et Mina sont deux sœurs que tout oppose, éloignées par les épreuves de la vie. L’une est chanteuse, rêveuse et émotive. L’autre est thérapeute, distante et rationnelle. Leur père aimant finit par trouver l’occasion rêvée pour les rassembler le temps d’un week-end et tenter de les réconcilier : Vali a décroché une audition à Paris et c’est Mina qui va devoir l’y emmener malgré son mépris pour la passion de sa sœur.  C’est une histoire de retrouvailles, une histoire d’amour entre deux sœurs, l’histoire d’une famille qui s’aime mais qui ne sait plus se le dire."
-  },
-  {
-    "id": "jw-tm217084",
-    "titre": "En mai, fais ce qu'il te plaît",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Emotion",
-    "annee": 2015,
-    "note_avis": 6.7,
-    "note_recence": 7.5,
-    "note_globale": 7.1,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/144025584/s592/en-mai-fais-ce-quil-te-plait.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 54min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 114,
-    "etoiles": 4,
-    "raw_genres": [
-      "drm",
-      "war",
-      "eur"
-    ],
-    "synopsis": "Mai 1940. Pour fuir l'invasion allemande, les habitants d'un petit village du nord de la France partent sur les routes, comme des millions de Français. Ils emmènent avec eux dans cet exode un enfant allemand, dont le père opposant au régime nazi est emprisonné à Arras pour avoir menti sur sa nationalité. Libéré dans le chaos, celui-ci se lance à la recherche de son fils, accompagné par un soldat écossais cherchant à regagner l'Angleterre..."
+    "synopsis": "Vali et Mina sont deux sœurs que tout oppose, éloignées par les épreuves de la vie. L’une est chanteuse, rêveuse et émotive. L’autre est thérapeute, distante et rationnelle. Leur père aimant finit par trouver l’occasion rêvée pour les rassembler le temps d’un week-end et tenter de les réconcilier : Vali a décroché une audition à Paris et c’est Mina qui va devoir l’y emmener malgré son mépris pour la passion de sa sœur.  C’est une histoire de retrouvailles, une histoire d’amour entre deux sœurs, l’histoire d’une famille qui s’aime mais qui ne sait plus se le dire.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm171801",
@@ -3213,11 +2575,11 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_ocs.svg"
     ],
-    "duree": "2h 13min",
+    "duree": "2h 20min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -3226,59 +2588,15 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 133,
+    "runtime_minutes": 140,
     "etoiles": 4,
     "raw_genres": [
       "drm",
       "spt"
     ],
-    "synopsis": "Voici l’histoire vraie de Billy Beane, un ancien joueur de baseball prometteur qui, à défaut d’avoir réussi sur le terrain, décida de tenter sa chance en dirigeant une équipe comme personne ne l’avait fait auparavant… Alors que la saison 2002 se profile, Billy Beane, le manager général des Oakland Athletics, est confronté à une situation difficile : sa petite équipe a encore perdu ses meilleurs joueurs, attirés par les grands clubs et leurs gros salaires. Bien décidé à gagner malgré tout, il cherche des solutions qui ne coûtent rien et auxquelles personne n’aurait pensé avant… Il va s’appuyer sur des théories statistiques et engager Peter Brand, un économiste amateur de chiffres issu de Yale. Ensemble, contre tous les principes, ils reconsidèrent la valeur de chaque joueur sur la base des statistiques et réunissent une brochette de laissés-pour-compte oubliés par l’establishment du baseball."
-  },
-  {
-    "id": "jw-tm168220",
-    "titre": "Alceste à bicyclette",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Emotion",
-    "annee": 2013,
-    "note_avis": 6.6,
-    "note_recence": 7,
-    "note_globale": 6.8,
-    "categories": [
-      "comedie"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/297036135/s592/alceste-a-bicyclette.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 44min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 104,
-    "etoiles": 3,
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "synopsis": "Au sommet de sa carrière d’acteur, Serge Tanneur a quitté une fois pour toutes le monde du spectacle. Trop de colère, trop de lassitude. La fatigue d’un métier où tout le monde trahit tout le monde. Désormais, Serge vit en ermite dans une maison délabrée sur l’Île de Ré… Trois ans plus tard, Gauthier Valence, un acteur de télévision adulé des foules, abonné aux rôles de héros au grand cœur, débarque sur l’île. Il vient retrouver Serge pour lui proposer de jouer «Le Misanthrope» de Molière. Serge n’est-il pas devenu une pure incarnation du personnage d’Alceste? Serge refuse tout net et confirme qu’il ne reviendra jamais sur scène. Pourtant, quelque chose en lui ne demande qu’à céder..."
+    "synopsis": "Voici l’histoire vraie de Billy Beane, un ancien joueur de baseball prometteur qui, à défaut d’avoir réussi sur le terrain, décida de tenter sa chance en dirigeant une équipe comme personne ne l’avait fait auparavant… Alors que la saison 2002 se profile, Billy Beane, le manager général des Oakland Athletics, est confronté à une situation difficile : sa petite équipe a encore perdu ses meilleurs joueurs, attirés par les grands clubs et leurs gros salaires. Bien décidé à gagner malgré tout, il cherche des solutions qui ne coûtent rien et auxquelles personne n’aurait pensé avant… Il va s’appuyer sur des théories statistiques et engager Peter Brand, un économiste amateur de chiffres issu de Yale. Ensemble, contre tous les principes, ils reconsidèrent la valeur de chaque joueur sur la base des statistiques et réunissent une brochette de laissés-pour-compte oubliés par l’establishment du baseball.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm27526",
@@ -3308,7 +2626,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/12",
-      "daysLeft": 66,
+      "daysLeft": 63,
       "expirationDate": "2026-12-02",
       "packageExpirations": {
         "aoc": "2026-12-02"
@@ -3323,7 +2641,9 @@ const CATALOG_DATA = [
       "drm",
       "rma"
     ],
-    "synopsis": "Dans l'Amérique des années 50, Frank et April Wheeler se considèrent comme des êtres à part, des gens spéciaux, différents des autres. Ils ont toujours voulu fonder leur existence sur des idéaux élevés. Lorsqu'ils emménagent dans leur nouvelle maison sur Revolutionary Road, ils proclament fièrement leur indépendance. Jamais ils ne se conformeront à l'inertie banlieusarde qui les entoure, jamais ils ne se feront piéger par les conventions sociales. Pourtant, malgré leur charme et leur insolence, les Wheeler deviennent exactement ce qu'ils ne voulaient pas : un homme coincé dans un emploi sans intérêt ; une ménagère qui rêve de passion et d'une existence trépidante. Une famille américaine ordinaire ayant perdu ses rêves et ses illusions. Décidée à changer de vie, April imagine un plan audacieux pour tout recommencer, quitter leur petite routine confortable dans le Connecticut pour aller vivre à Paris..."
+    "synopsis": "Dans l'Amérique des années 50, Frank et April Wheeler se considèrent comme des êtres à part, des gens spéciaux, différents des autres. Ils ont toujours voulu fonder leur existence sur des idéaux élevés. Lorsqu'ils emménagent dans leur nouvelle maison sur Revolutionary Road, ils proclament fièrement leur indépendance. Jamais ils ne se conformeront à l'inertie banlieusarde qui les entoure, jamais ils ne se feront piéger par les conventions sociales. Pourtant, malgré leur charme et leur insolence, les Wheeler deviennent exactement ce qu'ils ne voulaient pas : un homme coincé dans un emploi sans intérêt ; une ménagère qui rêve de passion et d'une existence trépidante. Une famille américaine ordinaire ayant perdu ses rêves et ses illusions. Décidée à changer de vie, April imagine un plan audacieux pour tout recommencer, quitter leur petite routine confortable dans le Connecticut pour aller vivre à Paris...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm102244",
@@ -3351,9 +2671,9 @@ const CATALOG_DATA = [
     ],
     "duree": "1h 40min",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 14/10",
-      "daysLeft": 17,
+      "status": "warning",
+      "label": "⏳ Expire dans 14 j",
+      "daysLeft": 14,
       "expirationDate": "2026-10-14",
       "packageExpirations": {
         "aoc": "2026-10-14"
@@ -3368,7 +2688,9 @@ const CATALOG_DATA = [
       "cmy",
       "eur"
     ],
-    "synopsis": "Ely et Lila sont comme deux soeurs. Elles se connaissent depuis l'enfance, partagent tout et rêvent ensemble d'une autre vie. Elles vivent dans la même banlieue, à dix minutes de Paris.Aujourd'hui, Ely et Lila ne veulent plus être à dix minutes de leurs vies. De petites embrouilles en gros mensonges, elles vont tout faire pour essayer de pénétrer un monde qui n'est pas le leur où tout leur semble possible.Mais tout ce qui brille..."
+    "synopsis": "Ely et Lila sont comme deux soeurs. Elles se connaissent depuis l'enfance, partagent tout et rêvent ensemble d'une autre vie. Elles vivent dans la même banlieue, à dix minutes de Paris.Aujourd'hui, Ely et Lila ne veulent plus être à dix minutes de leurs vies. De petites embrouilles en gros mensonges, elles vont tout faire pour essayer de pénétrer un monde qui n'est pas le leur où tout leur semble possible.Mais tout ce qui brille...",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm177250",
@@ -3398,7 +2720,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/10",
-      "daysLeft": 25,
+      "daysLeft": 22,
       "expirationDate": "2026-10-22",
       "packageExpirations": {
         "aoc": "2026-10-22"
@@ -3414,7 +2736,9 @@ const CATALOG_DATA = [
       "drm",
       "eur"
     ],
-    "synopsis": "Dans le Téhéran des années 50, Nasser Ali Khan, célèbre musicien, se meurt depuis que son violon est brisé. Depuis son lit, il se repasse le film de sa vie, discute avec Azraël, l'Ange de la Mort, imagine l'avenir de ses enfants..., revit la magnifique histoire d'amour qui a nourri son génie, sa musique."
+    "synopsis": "Dans le Téhéran des années 50, Nasser Ali Khan, célèbre musicien, se meurt depuis que son violon est brisé. Depuis son lit, il se repasse le film de sa vie, discute avec Azraël, l'Ange de la Mort, imagine l'avenir de ses enfants..., revit la magnifique histoire d'amour qui a nourri son génie, sa musique.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm182062",
@@ -3444,7 +2768,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/11",
-      "daysLeft": 58,
+      "daysLeft": 55,
       "expirationDate": "2026-11-24",
       "packageExpirations": {
         "aoc": "2026-11-24"
@@ -3461,54 +2785,9 @@ const CATALOG_DATA = [
       "trl",
       "rma"
     ],
-    "synopsis": "À Holton Mills, dans le New Hampshire, Henry, un adolescent solitaire de 13 ans, passe son été devant la télévision à fantasmer sur une fille de sa classe. Mais le jour précédant la Fête du Travail, Henry vient en aide à un mystérieux homme…"
-  },
-  {
-    "id": "jw-tm155480",
-    "titre": "La Ritournelle",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Emotion",
-    "annee": 2014,
-    "note_avis": 6.4,
-    "note_recence": 7.2,
-    "note_globale": 6.8,
-    "categories": [
-      "comedie"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/169409109/s592/la-ritournelle.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 38min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 98,
-    "etoiles": 3,
-    "raw_genres": [
-      "cmy",
-      "doc",
-      "drm",
-      "eur"
-    ],
-    "synopsis": "Brigitte et Xavier sont éleveurs bovins en Normandie. Elle est rêveuse, la tête dans les étoiles. Lui, les pieds ancrés dans la terre, vit surtout pour son métier. Avec le départ des enfants, la routine de leur couple pèse de plus en plus à Brigitte. Un jour, sur un coup de folie, elle prend la clef des champs. Destination : Paris. Xavier réalise alors qu’il est peut-être en train de la perdre. Parviendront-ils à se retrouver ? Et comment se réinventer, après toutes ces années ? La reconquête emprunte parfois des chemins de traverse..."
+    "synopsis": "À Holton Mills, dans le New Hampshire, Henry, un adolescent solitaire de 13 ans, passe son été devant la télévision à fantasmer sur une fille de sa classe. Mais le jour précédant la Fête du Travail, Henry vient en aide à un mystérieux homme…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm162516",
@@ -3538,7 +2817,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -3553,7 +2832,9 @@ const CATALOG_DATA = [
       "drm",
       "rma"
     ],
-    "synopsis": "Au début de l’été 1956, Marilyn Monroe se rend en Angleterre pour la première fois. En pleine lune de miel avec le célèbre dramaturge Arthur Miller, elle est venue tourner LE PRINCE ET LA DANSEUSE, le film qui restera célèbre pour l’avoir réunie à l’écran avec Sir Laurence Olivier, véritable légende du théâtre et du cinéma britanniques, qui en est aussi le metteur en scène. Ce même été, Colin Clark, 23 ans, met pour la première fois le pied sur un plateau de cinéma. Tout juste diplômé d’Oxford, le jeune homme rêve de devenir cinéaste et a réussi à décrocher un job d’obscur assistant sur le plateau. Quarante ans plus tard, Clark racontera ce qu’il a vécu au fil des six mois de ce tournage mouvementé dans son livre, « The Prince, the Showgirl and Me ». Mais il manque une semaine dans son récit… Son second livre, « Une semaine avec Marilyn », relate la semaine magique qu’il a passée, seul, avec la plus grande star de cinéma du monde."
+    "synopsis": "Au début de l’été 1956, Marilyn Monroe se rend en Angleterre pour la première fois. En pleine lune de miel avec le célèbre dramaturge Arthur Miller, elle est venue tourner LE PRINCE ET LA DANSEUSE, le film qui restera célèbre pour l’avoir réunie à l’écran avec Sir Laurence Olivier, véritable légende du théâtre et du cinéma britanniques, qui en est aussi le metteur en scène. Ce même été, Colin Clark, 23 ans, met pour la première fois le pied sur un plateau de cinéma. Tout juste diplômé d’Oxford, le jeune homme rêve de devenir cinéaste et a réussi à décrocher un job d’obscur assistant sur le plateau. Quarante ans plus tard, Clark racontera ce qu’il a vécu au fil des six mois de ce tournage mouvementé dans son livre, « The Prince, the Showgirl and Me ». Mais il manque une semaine dans son récit… Son second livre, « Une semaine avec Marilyn », relate la semaine magique qu’il a passée, seul, avec la plus grande star de cinéma du monde.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm33166",
@@ -3583,7 +2864,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/11",
-      "daysLeft": 37,
+      "daysLeft": 34,
       "expirationDate": "2026-11-03",
       "packageExpirations": {
         "aoc": "2026-11-03"
@@ -3599,7 +2880,9 @@ const CATALOG_DATA = [
       "drm",
       "eur"
     ],
-    "synopsis": "Rien ne destinait Hortense Laborie à devenir la cuisinière personnelle du Président de la République. Lorsqu'elle est appelée, depuis son Périgord, à rejoindre le Palais de l'Élysée, elle ne mesure pas les obstacles qu'elle va rencontrer dans les coulisses du pouvoir. Mais l'authenticité de sa cuisine ne tardera pas à séduire le Président..."
+    "synopsis": "Rien ne destinait Hortense Laborie à devenir la cuisinière personnelle du Président de la République. Lorsqu'elle est appelée, depuis son Périgord, à rejoindre le Palais de l'Élysée, elle ne mesure pas les obstacles qu'elle va rencontrer dans les coulisses du pouvoir. Mais l'authenticité de sa cuisine ne tardera pas à séduire le Président...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm155722",
@@ -3629,7 +2912,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/12",
-      "daysLeft": 67,
+      "daysLeft": 64,
       "expirationDate": "2026-12-03",
       "packageExpirations": {
         "aoc": "2026-12-03"
@@ -3646,7 +2929,9 @@ const CATALOG_DATA = [
       "rma",
       "eur"
     ],
-    "synopsis": "Martin, ancien bobo parisien installé dans un village normand, un boulanger passionné de Gustave Flaubert voit s'installer, Gemma et Charles Bovery, un couple d'Anglais dans une fermette du voisinage, aux comportements similaires au roman Madame Bovary, de Flaubert. Pour le créateur qui sommeille en Martin, l'occasion est trop belle de pétrir - outre sa farine quotidienne - le destin de personnages en chair et en os. Mais la jolie Gemma n'a pas lu ses classiques, et entend bien vivre sa propre vie..."
+    "synopsis": "Martin, ancien bobo parisien installé dans un village normand, un boulanger passionné de Gustave Flaubert voit s'installer, Gemma et Charles Bovery, un couple d'Anglais dans une fermette du voisinage, aux comportements similaires au roman Madame Bovary, de Flaubert. Pour le créateur qui sommeille en Martin, l'occasion est trop belle de pétrir - outre sa farine quotidienne - le destin de personnages en chair et en os. Mais la jolie Gemma n'a pas lu ses classiques, et entend bien vivre sa propre vie...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm467281",
@@ -3676,7 +2961,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/11",
-      "daysLeft": 52,
+      "daysLeft": 49,
       "expirationDate": "2026-11-18",
       "packageExpirations": {
         "aoc": "2026-11-18"
@@ -3691,7 +2976,9 @@ const CATALOG_DATA = [
       "cmy",
       "eur"
     ],
-    "synopsis": "Coline et André sont en parfaite harmonie avec leur fille, Garance, et leur gendre Harold. Mais Garance se sépare d’Harold et ordonne à ses parents de ne plus jamais le revoir. Les beaux-parents ne peuvent s’y résoudre : elle l’a largué, mais pas eux ! Ils devront mener une double vie pour continuer à voir leur gendre adoré, en cachette de leur fille, qui ne va pas les lâcher…"
+    "synopsis": "Coline et André sont en parfaite harmonie avec leur fille, Garance, et leur gendre Harold. Mais Garance se sépare d’Harold et ordonne à ses parents de ne plus jamais le revoir. Les beaux-parents ne peuvent s’y résoudre : elle l’a largué, mais pas eux ! Ils devront mener une double vie pour continuer à voir leur gendre adoré, en cachette de leur fille, qui ne va pas les lâcher…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm75465",
@@ -3721,7 +3008,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/10",
-      "daysLeft": 29,
+      "daysLeft": 26,
       "expirationDate": "2026-10-26",
       "packageExpirations": {
         "aoc": "2026-10-26"
@@ -3737,7 +3024,9 @@ const CATALOG_DATA = [
       "rma",
       "war"
     ],
-    "synopsis": "Août 1935. Malgré la canicule qui frappe l'Angleterre, la famille Tallis mène une vie insouciante à l'abri dans sa gigantesque demeure victorienne. La jeune Briony a trouvé sa vocation, elle sera romancière. Mais quand du haut de ses treize ans, elle surprend sa sœur aînée Cecilia dans les bras de Robbie, fils de domestique, sa réaction naïve face aux désirs des adultes va provoquer une tragédie et marquer à jamais le destin du jeune homme."
+    "synopsis": "Août 1935. Malgré la canicule qui frappe l'Angleterre, la famille Tallis mène une vie insouciante à l'abri dans sa gigantesque demeure victorienne. La jeune Briony a trouvé sa vocation, elle sera romancière. Mais quand du haut de ses treize ans, elle surprend sa sœur aînée Cecilia dans les bras de Robbie, fils de domestique, sa réaction naïve face aux désirs des adultes va provoquer une tragédie et marquer à jamais le destin du jeune homme.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm358369",
@@ -3767,7 +3056,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -3783,7 +3072,9 @@ const CATALOG_DATA = [
       "drm",
       "eur"
     ],
-    "synopsis": "Elles sont Présidente de la République, nounou, boulangère, comédienne, prof, fleuriste, journaliste, sans emploi, pédiatre. Elles sont possessives, bienveillantes, maladroites, absentes, omniprésentes, débordées, culpabilisantes, indulgentes, aimantes, fragiles, en pleine possession de leurs moyens ou perdant la tête. Bien vivantes ou déjà un souvenir ... Fils ou fille, nous restons quoiqu'il arrive leur enfant avec l'envie qu'elles nous lâchent et la peur qu'elles nous quittent. Et puis nous devenons maman ... et ça va être notre fête !"
+    "synopsis": "Elles sont Présidente de la République, nounou, boulangère, comédienne, prof, fleuriste, journaliste, sans emploi, pédiatre. Elles sont possessives, bienveillantes, maladroites, absentes, omniprésentes, débordées, culpabilisantes, indulgentes, aimantes, fragiles, en pleine possession de leurs moyens ou perdant la tête. Bien vivantes ou déjà un souvenir ... Fils ou fille, nous restons quoiqu'il arrive leur enfant avec l'envie qu'elles nous lâchent et la peur qu'elles nous quittent. Et puis nous devenons maman ... et ça va être notre fête !",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm134211",
@@ -3811,9 +3102,9 @@ const CATALOG_DATA = [
     ],
     "duree": "1h 42min",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 5 j",
-      "daysLeft": 5,
+      "status": "urgent",
+      "label": "⏳ Expire dans 2 j",
+      "daysLeft": 2,
       "expirationDate": "2026-10-02",
       "packageExpirations": {
         "aoc": "2026-10-02"
@@ -3830,7 +3121,9 @@ const CATALOG_DATA = [
       "rma",
       "eur"
     ],
-    "synopsis": "Bob Harris, acteur sur le déclin, se rend à Tokyo pour tourner un spot publicitaire. Il a conscience qu'il se trompe - il devrait être chez lui avec sa famille, jouer au théâtre ou encore chercher un rôle dans un film -, mais il a besoin d'argent. Du haut de son hôtel de luxe, il contemple la ville, mais ne voit rien. Il est ailleurs, détaché de tout, incapable de s'intégrer à la réalité qui l'entoure, incapable également de dormir à cause du décalage horaire. Dans ce même établissement, Charlotte, une jeune Américaine fraîchement diplômée, accompagne son mari, photographe de mode. Ce dernier semble s'intéresser davantage à son travail qu'à sa femme. Se sentant délaissée, Charlotte cherche un peu d'attention. Elle va en trouver auprès de Bob…"
+    "synopsis": "Bob Harris, acteur sur le déclin, se rend à Tokyo pour tourner un spot publicitaire. Il a conscience qu'il se trompe - il devrait être chez lui avec sa famille, jouer au théâtre ou encore chercher un rôle dans un film -, mais il a besoin d'argent. Du haut de son hôtel de luxe, il contemple la ville, mais ne voit rien. Il est ailleurs, détaché de tout, incapable de s'intégrer à la réalité qui l'entoure, incapable également de dormir à cause du décalage horaire. Dans ce même établissement, Charlotte, une jeune Américaine fraîchement diplômée, accompagne son mari, photographe de mode. Ce dernier semble s'intéresser davantage à son travail qu'à sa femme. Se sentant délaissée, Charlotte cherche un peu d'attention. Elle va en trouver auprès de Bob…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm159310",
@@ -3860,7 +3153,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/11",
-      "daysLeft": 50,
+      "daysLeft": 47,
       "expirationDate": "2026-11-16",
       "packageExpirations": {
         "aoc": "2026-11-16"
@@ -3876,7 +3169,9 @@ const CATALOG_DATA = [
       "hst",
       "spt"
     ],
-    "synopsis": "L'histoire vraie de Ken Carter, l'entraîneur de basket d'une équipe de lycée, qui devint célèbre en 1999 après avoir renvoyé ses joueurs à leurs chères études, déclarant forfait deux matchs de suite alors que l'équipe était invaincue, parce que ces derniers n'avaient pas obtenu des résultats scolaires suffisants."
+    "synopsis": "L'histoire vraie de Ken Carter, l'entraîneur de basket d'une équipe de lycée, qui devint célèbre en 1999 après avoir renvoyé ses joueurs à leurs chères études, déclarant forfait deux matchs de suite alors que l'équipe était invaincue, parce que ces derniers n'avaient pas obtenu des résultats scolaires suffisants.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm148548",
@@ -3906,7 +3201,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/11",
-      "daysLeft": 35,
+      "daysLeft": 32,
       "expirationDate": "2026-11-01",
       "packageExpirations": {
         "aoc": "2026-11-01"
@@ -3924,7 +3219,9 @@ const CATALOG_DATA = [
       "scf",
       "eur"
     ],
-    "synopsis": "Clare aime Henry depuis toujours. Elle est convaincue qu'ils sont destinés l'un à l'autre, même si elle ne sait jamais quand ils seront séparés... Henry est en effet un voyageur du temps. Il souffre d'une anomalie génétique très rare qui l'oblige à vivre selon un déroulement du temps différent : il va et vient à travers les années sans le moindre contrôle sur ce phénomène. Même si les voyages d'Henry les séparent sans prévenir, même s'ils ignorent lorsqu'ils se retrouveront, Clare tente désespérément de faire sa vie avec celui qu'elle aime par-dessus tout..."
+    "synopsis": "Clare aime Henry depuis toujours. Elle est convaincue qu'ils sont destinés l'un à l'autre, même si elle ne sait jamais quand ils seront séparés... Henry est en effet un voyageur du temps. Il souffre d'une anomalie génétique très rare qui l'oblige à vivre selon un déroulement du temps différent : il va et vient à travers les années sans le moindre contrôle sur ce phénomène. Même si les voyages d'Henry les séparent sans prévenir, même s'ils ignorent lorsqu'ils se retrouveront, Clare tente désespérément de faire sa vie avec celui qu'elle aime par-dessus tout...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm170004",
@@ -3954,7 +3251,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -3969,7 +3266,9 @@ const CATALOG_DATA = [
       "cmy",
       "rma"
     ],
-    "synopsis": "Obsédée par la mini-série de la BBC \"Orgueil et préjugés\", une jeune femme se rend dans le parc d'attraction consacré à Jane Austen afin de trouver l’homme idéal."
+    "synopsis": "Obsédée par la mini-série de la BBC \"Orgueil et préjugés\", une jeune femme se rend dans le parc d'attraction consacré à Jane Austen afin de trouver l’homme idéal.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm79793",
@@ -3999,7 +3298,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -4015,7 +3314,9 @@ const CATALOG_DATA = [
       "rma",
       "eur"
     ],
-    "synopsis": "Un portrait de la célèbre écrivain britannique Jane Austen, à travers son histoire d'amour vécue, à l'aube de ses vingt ans, avec Tom Lefroy..."
+    "synopsis": "Un portrait de la célèbre écrivain britannique Jane Austen, à travers son histoire d'amour vécue, à l'aube de ses vingt ans, avec Tom Lefroy...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm28739",
@@ -4045,7 +3346,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -4062,53 +3363,9 @@ const CATALOG_DATA = [
       "rma",
       "eur"
     ],
-    "synopsis": "Une actrice populaire mais rêvant de cinéma intimiste, un pianiste surdoué qui rêve de jouer devant un public ignorant et naïf, un collectionneur qui vend en un soir toute l'œuvre de sa vie, une jeune provinciale qui tente sa chance à Paris car sa grand-mère lui a dit : « Je n'avais pas les moyens de vivre dans le luxe, alors j'ai décidé d'y travailler. »  Tous ces personnages et leurs compagnons vont se croiser et se retrouver le temps d'une soirée au Café des Théâtres, où ils viendront soigner leur névrose devant un café ou un « tartare frites »."
-  },
-  {
-    "id": "jw-tm134258",
-    "titre": "Non Ma Fille, Tu N'iras Pas Danser",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Emotion",
-    "annee": 2009,
-    "note_avis": 6,
-    "note_recence": 6.1,
-    "note_globale": 6.1,
-    "categories": [
-      "comedie"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/179478830/s592/non-ma-fille-tu-niras-pas-danser.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 45min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 105,
-    "etoiles": 3,
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "synopsis": "Depuis qu’elle s’est séparée de Nigel, Léna traverse la vie comme elle peut avec ses deux enfants. Elle triomphe avec vaillance des obstacles semés sur leur route. Mais il lui reste à affronter le pire : l’implacable bonté de sa famille qui a décidé de faire son bonheur."
+    "synopsis": "Une actrice populaire mais rêvant de cinéma intimiste, un pianiste surdoué qui rêve de jouer devant un public ignorant et naïf, un collectionneur qui vend en un soir toute l'œuvre de sa vie, une jeune provinciale qui tente sa chance à Paris car sa grand-mère lui a dit : « Je n'avais pas les moyens de vivre dans le luxe, alors j'ai décidé d'y travailler. »  Tous ces personnages et leurs compagnons vont se croiser et se retrouver le temps d'une soirée au Café des Théâtres, où ils viendront soigner leur névrose devant un café ou un « tartare frites ».",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm99647",
@@ -4138,7 +3395,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 23/10",
-      "daysLeft": 26,
+      "daysLeft": 23,
       "expirationDate": "2026-10-23",
       "packageExpirations": {
         "aoc": "2026-10-23"
@@ -4154,7 +3411,9 @@ const CATALOG_DATA = [
       "rma",
       "eur"
     ],
-    "synopsis": "Julie Bataille, 23 ans, Bac +5, les petits boulots, elle n’en veut plus. Elle cherche un vrai travail. Lors d’un entretien d’embauche, elle croise Ben, qui lui a choisi de vivre au jour le jour d’expédients et de petits trafics. Il lui propose de venir passer l’été dans le Sud avec lui. Julie refuse, puis un jour, sur un coup de tête, plaque tout et part le rejoindre."
+    "synopsis": "Julie Bataille, 23 ans, Bac +5, les petits boulots, elle n’en veut plus. Elle cherche un vrai travail. Lors d’un entretien d’embauche, elle croise Ben, qui lui a choisi de vivre au jour le jour d’expédients et de petits trafics. Il lui propose de venir passer l’été dans le Sud avec lui. Julie refuse, puis un jour, sur un coup de tête, plaque tout et part le rejoindre.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm97583",
@@ -4184,7 +3443,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -4200,7 +3459,9 @@ const CATALOG_DATA = [
       "rma",
       "eur"
     ],
-    "synopsis": "Joanna et Michael vivent à New York. Aucun nuage, aucun doute n’est jamais venu assombrir leur union, jusqu’à ce que chacun d’eux soit tenté, la même nuit… Pendant que Michael est en déplacement professionnel avec Laura, jeune femme aussi attirante qu’énigmatique, Joanna recroise Alex, l’autre grand amour de sa vie. Les 36 heures qui suivent vont obliger chacun à faire des choix…"
+    "synopsis": "Joanna et Michael vivent à New York. Aucun nuage, aucun doute n’est jamais venu assombrir leur union, jusqu’à ce que chacun d’eux soit tenté, la même nuit… Pendant que Michael est en déplacement professionnel avec Laura, jeune femme aussi attirante qu’énigmatique, Joanna recroise Alex, l’autre grand amour de sa vie. Les 36 heures qui suivent vont obliger chacun à faire des choix…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm70640",
@@ -4226,11 +3487,11 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_ocs.svg"
     ],
-    "duree": "1h 46min",
+    "duree": "1h 44min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -4239,14 +3500,16 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 106,
+    "runtime_minutes": 104,
     "etoiles": 3,
     "raw_genres": [
       "cmy",
       "drm",
       "rma"
     ],
-    "synopsis": "Bernadette, une quinquagénaire six fois divorcée, a l'idée de fonder un club de lecture quand elle rencontre Prudie, une jeune enseignante de français très élégante et mariée, lors d'un festival de cinéma sur Jane Austen. Le concept est que chacun des six membres accueille à tour de rôle le groupe une fois par mois, pour discuter entre eux des six romans d'Austen. Les autres membres du club sont Sylvia, une femme au foyer quadragénaire récemment séparée de son mari Daniel, avocat et coureur, après plus de vingt ans de mariage ; sa fille lesbienne de 20 ans Allegra ; Jocelyn, une célibataire heureuse de l'être, obsédée par la maîtrise de soi et éleveuse de chiens de Rhodésie, qui est amie avec Sylvia depuis l'enfance ; et Grigg, un fan de science-fiction que Jocelyn a invité à les rejoindre dans l'espoir que Sylvia et lui formeront un couple assorti."
+    "synopsis": "Bernadette, une quinquagénaire six fois divorcée, a l'idée de fonder un club de lecture quand elle rencontre Prudie, une jeune enseignante de français très élégante et mariée, lors d'un festival de cinéma sur Jane Austen. Le concept est que chacun des six membres accueille à tour de rôle le groupe une fois par mois, pour discuter entre eux des six romans d'Austen. Les autres membres du club sont Sylvia, une femme au foyer quadragénaire récemment séparée de son mari Daniel, avocat et coureur, après plus de vingt ans de mariage ; sa fille lesbienne de 20 ans Allegra ; Jocelyn, une célibataire heureuse de l'être, obsédée par la maîtrise de soi et éleveuse de chiens de Rhodésie, qui est amie avec Sylvia depuis l'enfance ; et Grigg, un fan de science-fiction que Jocelyn a invité à les rejoindre dans l'espoir que Sylvia et lui formeront un couple assorti.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1582523",
@@ -4276,7 +3539,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/12",
-      "daysLeft": 89,
+      "daysLeft": 86,
       "expirationDate": "2026-12-25",
       "packageExpirations": {
         "aoc": "2026-12-25"
@@ -4292,54 +3555,9 @@ const CATALOG_DATA = [
       "hst",
       "war"
     ],
-    "synopsis": "En 1942, Tauba, une adolescente pleine d’énergie, échappe de justesse avec ses parents à la rafle du Vel d’Hiv. Un couple, les Dinanceau, leur propose de les cacher provisoirement dans un minuscule débarras de leur immeuble, sous les toits de Paris, le temps que les choses se calment. Malheureusement, ce qui devait être temporaire s’éternise, et la famille s’enfonce dans le silence et l’immobilité. Mais Tauba est une battante, et rien ne l’empêchera de bousculer son destin."
-  },
-  {
-    "id": "jw-tm170404",
-    "titre": "Mon pire cauchemar",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Emotion",
-    "annee": 2011,
-    "note_avis": 6,
-    "note_recence": 6.5,
-    "note_globale": 6.3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322847355/s592/mon-pire-cauchemar.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 43min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 103,
-    "etoiles": 3,
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "synopsis": "Elle habite avec son fils et son mari en face du Luxembourg... Il habite seul avec son fils à l’arrière d’une camionnette. Elle dirige une prestigieuse fondation d’art contemporain... Il vit de petits boulots et d’allocations. Elle a bac + 7... Il a failli faire 7 ans de prison. Elle tutoie le ministre de la culture... Il tutoie toutes les bouteilles d’alcool qu’il rencontre. Elle aime le débat d’idées... Il aime le sexe avec des inconnues à forte poitrine. Ils ne se ressemblent pas du tout... et se supportent encore moins. D’ailleurs, ils n’auraient jamais dû se rencontrer. Mais leurs enfants, eux, sont inséparables... Ils finiront par comprendre pourquoi..."
+    "synopsis": "En 1942, Tauba, une adolescente pleine d’énergie, échappe de justesse avec ses parents à la rafle du Vel d’Hiv. Un couple, les Dinanceau, leur propose de les cacher provisoirement dans un minuscule débarras de leur immeuble, sous les toits de Paris, le temps que les choses se calment. Malheureusement, ce qui devait être temporaire s’éternise, et la famille s’enfonce dans le silence et l’immobilité. Mais Tauba est une battante, et rien ne l’empêchera de bousculer son destin.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm178233",
@@ -4369,7 +3587,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/11",
-      "daysLeft": 39,
+      "daysLeft": 36,
       "expirationDate": "2026-11-05",
       "packageExpirations": {
         "aoc": "2026-11-05"
@@ -4385,7 +3603,9 @@ const CATALOG_DATA = [
       "spt",
       "eur"
     ],
-    "synopsis": "François est un passionné du Tour de France.  Licencié par son patron et quitté par sa femme, il part faire la Grande Boucle avec un jour d’avance sur les pros. D’abord seul, il est vite rejoint par d’autres, inspirés par son défi. Les obstacles sont nombreux mais la rumeur de son exploit se répand. Les médias s’enflamment, les passants l’acclament, le Maillot Jaune du Tour enrage. François doit être stoppé !"
+    "synopsis": "François est un passionné du Tour de France.  Licencié par son patron et quitté par sa femme, il part faire la Grande Boucle avec un jour d’avance sur les pros. D’abord seul, il est vite rejoint par d’autres, inspirés par son défi. Les obstacles sont nombreux mais la rumeur de son exploit se répand. Les médias s’enflamment, les passants l’acclament, le Maillot Jaune du Tour enrage. François doit être stoppé !",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm140773",
@@ -4415,7 +3635,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/10",
-      "daysLeft": 30,
+      "daysLeft": 27,
       "expirationDate": "2026-10-27",
       "packageExpirations": {
         "aoc": "2026-10-27"
@@ -4431,7 +3651,9 @@ const CATALOG_DATA = [
       "rma",
       "eur"
     ],
-    "synopsis": "Chloé, 26 ans, vit seule à Paris, entre une voisine envahissante, une collègue mesquine, un loueur de DVD un peu donneur de leçons... Une vie qui n'est pas à la hauteur de ses espérances...Jack, la trentaine, Américain largué par sa copine, gagne un séjour à Paris.Chloé va alors, par un heureux hasard, récupérer la valise de Jack, celle que lui a légué son père et à laquelle il tient plus que tout. Et tomber amoureuse de son contenu...Chloé aime Jack, même si elle ne l'a jamais vu, même si elle ne sait rien de lui. Elle se persuade qu'il est l'homme de sa vie, qu'ils sont faits l'un pour l'autre, et elle va tout faire pour le retrouver..."
+    "synopsis": "Chloé, 26 ans, vit seule à Paris, entre une voisine envahissante, une collègue mesquine, un loueur de DVD un peu donneur de leçons... Une vie qui n'est pas à la hauteur de ses espérances...Jack, la trentaine, Américain largué par sa copine, gagne un séjour à Paris.Chloé va alors, par un heureux hasard, récupérer la valise de Jack, celle que lui a légué son père et à laquelle il tient plus que tout. Et tomber amoureuse de son contenu...Chloé aime Jack, même si elle ne l'a jamais vu, même si elle ne sait rien de lui. Elle se persuade qu'il est l'homme de sa vie, qu'ils sont faits l'un pour l'autre, et elle va tout faire pour le retrouver...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm145156",
@@ -4460,8 +3682,8 @@ const CATALOG_DATA = [
     "duree": "1h 34min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 9 j",
-      "daysLeft": 9,
+      "label": "⏳ Expire dans 6 j",
+      "daysLeft": 6,
       "expirationDate": "2026-10-06",
       "packageExpirations": {
         "aoc": "2026-10-06"
@@ -4476,7 +3698,9 @@ const CATALOG_DATA = [
       "cmy",
       "rma"
     ],
-    "synopsis": "Jay et Annie s’aiment, mais dix ans de mariage et deux enfants ont un peu érodé leur passion. Pour ranimer la flamme, ils décident de filmer leurs ébats lors d’une séance épique. L’idée semble bonne… jusqu’à ce qu’ils s’aperçoivent que la vidéo a été envoyée par erreur à tout leur entourage, familial et professionnel ! Pris de panique, ils sont prêts à tout pour faire disparaître le film à scandale chez chacun des destinataires. Ils jouent leur réputation, leur carrière, leur mariage et leur santé mentale…"
+    "synopsis": "Jay et Annie s’aiment, mais dix ans de mariage et deux enfants ont un peu érodé leur passion. Pour ranimer la flamme, ils décident de filmer leurs ébats lors d’une séance épique. L’idée semble bonne… jusqu’à ce qu’ils s’aperçoivent que la vidéo a été envoyée par erreur à tout leur entourage, familial et professionnel ! Pris de panique, ils sont prêts à tout pour faire disparaître le film à scandale chez chacun des destinataires. Ils jouent leur réputation, leur carrière, leur mariage et leur santé mentale…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1425480",
@@ -4506,7 +3730,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/01",
-      "daysLeft": 112,
+      "daysLeft": 109,
       "expirationDate": "2027-01-17",
       "packageExpirations": {
         "aoc": "2027-01-17"
@@ -4523,51 +3747,9 @@ const CATALOG_DATA = [
       "fml",
       "msc"
     ],
-    "synopsis": "Philippe, un compositeur d'opéra en panne d'inspiration, se voit forcé d'héberger sa nièce Simone, une orpheline rebelle et excentrique dont la meilleure amie est une moufette. Malgré leurs personnalités diamétralement opposées, Philippe et Simone découvrent rapidement qu'ils pourraient avoir besoin l'un de l'autre plus qu'ils ne l'auraient initialement cru."
-  },
-  {
-    "id": "jw-tm1143503",
-    "titre": "Les Vedettes",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Family",
-    "annee": 2022,
-    "note_avis": 6.2,
-    "note_recence": 9.1,
-    "note_globale": 7.7,
-    "categories": [
-      "comedie"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/283916550/s592/les-vedettes.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 41min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 101,
-    "etoiles": 4,
-    "raw_genres": [
-      "cmy"
-    ],
-    "synopsis": "Daniel, un chanteur raté, va perdre son logement et son poste au SAV d'un magasin d'électroménager. Lorsqu'il découvre que Stéphane, un collègue naïf et prétentieux, connaît le montant de tous les appareils en rayon, il décide de se servir de lui pour participer au jeu TV \"Le Prix à tout Prix\", remporter 100 000 € et se retrouver enfin sous le feu des projecteurs. Alors oui tout les oppose, non ça ne sera pas de tout repos, mais Daniel et Stéphane sont pleins de ressources."
+    "synopsis": "Philippe, un compositeur d'opéra en panne d'inspiration, se voit forcé d'héberger sa nièce Simone, une orpheline rebelle et excentrique dont la meilleure amie est une moufette. Malgré leurs personnalités diamétralement opposées, Philippe et Simone découvrent rapidement qu'ils pourraient avoir besoin l'un de l'autre plus qu'ils ne l'auraient initialement cru.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1506831",
@@ -4597,7 +3779,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/11",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-11-25",
       "packageExpirations": {
         "aoc": "2026-11-25"
@@ -4612,7 +3794,9 @@ const CATALOG_DATA = [
       "fnt",
       "hrr"
     ],
-    "synopsis": "Noah et ses amis pensaient profiter tranquillement de leurs vacances... jusqu'à ce qu'une force mystérieuse vienne bouleverser leur été. Ensemble, et avec l'aide d'un ancien détective de police au caractère bien trempé, ils se lancent dans une quête incroyable pour sauver leur île et percer un secret qui dépasse tout ce qu'ils pouvaient imaginer."
+    "synopsis": "Noah et ses amis pensaient profiter tranquillement de leurs vacances... jusqu'à ce qu'une force mystérieuse vienne bouleverser leur été. Ensemble, et avec l'aide d'un ancien détective de police au caractère bien trempé, ils se lancent dans une quête incroyable pour sauver leur île et percer un secret qui dépasse tout ce qu'ils pouvaient imaginer.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1447045",
@@ -4642,7 +3826,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/10",
-      "daysLeft": 32,
+      "daysLeft": 29,
       "expirationDate": "2026-10-29",
       "packageExpirations": {
         "aoc": "2026-10-29"
@@ -4660,7 +3844,9 @@ const CATALOG_DATA = [
       "fnt",
       "fml"
     ],
-    "synopsis": "Will âgé de 10 ans, a toujours rêvé de devenir un super-héros et de lutter contre le crime aux côtés de son père, policier. Mais, son rêve est brutalement remis en cause à la naissance de son petit frère Charlie. Non seulement ce nourrisson attire toute l’attention de la famille et au-delà, mais Will découvre que Charlie a des super-pouvoirs… Lorsqu’un super-vilain et un scientifique dérangé mettent en œuvre un plan diabolique, Charlie, coaché par son grand frère, va alors endosser le costume de super-héros pour sauver le monde !… Y parviendront-ils ?"
+    "synopsis": "Will âgé de 10 ans, a toujours rêvé de devenir un super-héros et de lutter contre le crime aux côtés de son père, policier. Mais, son rêve est brutalement remis en cause à la naissance de son petit frère Charlie. Non seulement ce nourrisson attire toute l’attention de la famille et au-delà, mais Will découvre que Charlie a des super-pouvoirs… Lorsqu’un super-vilain et un scientifique dérangé mettent en œuvre un plan diabolique, Charlie, coaché par son grand frère, va alors endosser le costume de super-héros pour sauver le monde !… Y parviendront-ils ?",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1537335",
@@ -4690,7 +3876,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/10",
-      "daysLeft": 20,
+      "daysLeft": 17,
       "expirationDate": "2026-10-17",
       "packageExpirations": {
         "aoc": "2026-10-17"
@@ -4705,7 +3891,9 @@ const CATALOG_DATA = [
       "cmy",
       "fml"
     ],
-    "synopsis": "Carole, maire d'une petite ville, s'implique à fond dans les festivités de Noël de sa commune pendant qu'Alain, son mari moderne et dévoué, s'occupe d'organiser le réveillon. Mais lorsque les enfants arrivent, le rêve d'un Noël serein s'effondre et le couple subit une attaque en règle de toutes les traditions familiales."
+    "synopsis": "Carole, maire d'une petite ville, s'implique à fond dans les festivités de Noël de sa commune pendant qu'Alain, son mari moderne et dévoué, s'occupe d'organiser le réveillon. Mais lorsque les enfants arrivent, le rêve d'un Noël serein s'effondre et le couple subit une attaque en règle de toutes les traditions familiales.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm316630",
@@ -4735,7 +3923,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/10",
-      "daysLeft": 18,
+      "daysLeft": 15,
       "expirationDate": "2026-10-15",
       "packageExpirations": {
         "aoc": "2026-10-15"
@@ -4753,7 +3941,9 @@ const CATALOG_DATA = [
       "fml",
       "eur"
     ],
-    "synopsis": "Paris 1930. Paul n’a toujours eu qu’un seul et même horizon: les hauts murs de l’orphelinat, sévère bâtisse de la banlieue ouvrière parisienne. Confié à une joyeuse dame de la campagne, Célestine et à son mari, Borel, le garde-chasse un peu raide d’un vaste domaine en Sologne, l’enfant des villes, récalcitrant et buté, arrive dans un monde mystérieux et inquiétant, celui d’une région souveraine et sauvage.  L’immense forêt, les étangs embrumés, les landes et les champs, tout ici appartient au Comte de la Fresnaye, un veuf taciturne qui vit solitaire dans son manoir. Le Comte tolère les braconniers sur le domaine, mais Borel les traque sans relâche et s’acharne sur le plus rusé et insaisissable d’entre eux, Totoche. Au cœur de la féérique Sologne, aux côtés du braconnier, grand amoureux de la nature, Paul va faire l’apprentissage de la vie mais aussi celui de la forêt et de ses secrets. Un secret encore plus lourd pèse sur le domaine, car Paul n’est pas venu là par hasard …"
+    "synopsis": "Paris 1930. Paul n’a toujours eu qu’un seul et même horizon: les hauts murs de l’orphelinat, sévère bâtisse de la banlieue ouvrière parisienne. Confié à une joyeuse dame de la campagne, Célestine et à son mari, Borel, le garde-chasse un peu raide d’un vaste domaine en Sologne, l’enfant des villes, récalcitrant et buté, arrive dans un monde mystérieux et inquiétant, celui d’une région souveraine et sauvage.  L’immense forêt, les étangs embrumés, les landes et les champs, tout ici appartient au Comte de la Fresnaye, un veuf taciturne qui vit solitaire dans son manoir. Le Comte tolère les braconniers sur le domaine, mais Borel les traque sans relâche et s’acharne sur le plus rusé et insaisissable d’entre eux, Totoche. Au cœur de la féérique Sologne, aux côtés du braconnier, grand amoureux de la nature, Paul va faire l’apprentissage de la vie mais aussi celui de la forêt et de ses secrets. Un secret encore plus lourd pèse sur le domaine, car Paul n’est pas venu là par hasard …",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm367470",
@@ -4783,7 +3973,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 95,
+      "daysLeft": 92,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -4799,7 +3989,9 @@ const CATALOG_DATA = [
       "fml",
       "eur"
     ],
-    "synopsis": "Mia a 11 ans quand elle noue une relation hors du commun avec Charlie, un lionceau blanc né dans la ferme d'élevage de félins de ses parents en Afrique du Sud. Pendant trois ans, ils vont grandir ensemble et vivre une amitié fusionnelle. Quand Mia atteint l'âge de 14 ans et que Charlie est devenu un magnifique lion adulte, elle découvre l’insoutenable vérité: son père a décidé de le vendre à des chasseurs de trophées. Désespérée, Mia n’a pas d’autre choix que de fuir avec Charlie pour le sauver."
+    "synopsis": "Mia a 11 ans quand elle noue une relation hors du commun avec Charlie, un lionceau blanc né dans la ferme d'élevage de félins de ses parents en Afrique du Sud. Pendant trois ans, ils vont grandir ensemble et vivre une amitié fusionnelle. Quand Mia atteint l'âge de 14 ans et que Charlie est devenu un magnifique lion adulte, elle découvre l’insoutenable vérité: son père a décidé de le vendre à des chasseurs de trophées. Désespérée, Mia n’a pas d’autre choix que de fuir avec Charlie pour le sauver.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1028338",
@@ -4829,7 +4021,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -4845,52 +4037,9 @@ const CATALOG_DATA = [
       "drm",
       "fml"
     ],
-    "synopsis": "Un père quitte son emploi malheureux dans une banque pour poursuivre une carrière d'acteur."
-  },
-  {
-    "id": "jw-tm1040725",
-    "titre": "Les Aventures des enfants du chemin de fer",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Family",
-    "annee": 2022,
-    "note_avis": 5.6,
-    "note_recence": 9.1,
-    "note_globale": 7.4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/311496406/s592/the-railway-children-return.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 38min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 98,
-    "etoiles": 4,
-    "raw_genres": [
-      "drm",
-      "fml"
-    ],
-    "synopsis": "En 1944, en Angleterre, alors que la Seconde Guerre mondiale fait rage, le pays est soumis à des bombardements. Des enfants sont évacués de Manchester vers le village d'Oakworth, dans le West Riding du Yorkshire. Ils se lient d'amitié avec un soldat de l'armée américaine qui est loin de chez lui."
+    "synopsis": "Un père quitte son emploi malheureux dans une banque pour poursuivre une carrière d'acteur.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1060775",
@@ -4920,7 +4069,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 95,
+      "daysLeft": 92,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -4938,7 +4087,9 @@ const CATALOG_DATA = [
       "fml",
       "msc"
     ],
-    "synopsis": "Quand la famille Primm déménage à New York, leur jeune fils Josh peine à s'adapter à sa nouvelle école et à ses nouveaux camarades. Tout cela change quand il découvre Enzo - un crocodile chanteur qui aime les bains et le caviar – et qui vit dans le grenier de sa nouvelle maison. Enzo et Josh deviennent rapidement amis, mais lorsque l'existence de l’insolite crocodile est menacée par leur diabolique voisin, M. Grumps, les Primm s'allient avec Hector P. Valenti, le propriétaire d’Enzo, afin de prouver au monde qu’une famille peut toujours s’improviser, et qu'il n'y a aucun mal à intégrer un grand reptile mélomane, doté d'une personnalité haute en couleur et d’une incroyable voix."
+    "synopsis": "Quand la famille Primm déménage à New York, leur jeune fils Josh peine à s'adapter à sa nouvelle école et à ses nouveaux camarades. Tout cela change quand il découvre Enzo - un crocodile chanteur qui aime les bains et le caviar – et qui vit dans le grenier de sa nouvelle maison. Enzo et Josh deviennent rapidement amis, mais lorsque l'existence de l’insolite crocodile est menacée par leur diabolique voisin, M. Grumps, les Primm s'allient avec Hector P. Valenti, le propriétaire d’Enzo, afin de prouver au monde qu’une famille peut toujours s’improviser, et qu'il n'y a aucun mal à intégrer un grand reptile mélomane, doté d'une personnalité haute en couleur et d’une incroyable voix.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1219349",
@@ -4968,7 +4119,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -4986,7 +4137,9 @@ const CATALOG_DATA = [
       "fnt",
       "fml"
     ],
-    "synopsis": "Gaspard et son ami Petit Pierre jouent dans le garage lorsqu'ils s'aperçoivent que le brigand Briquambroque a volé le précieux moulin à café de grand-mère. Alors qu'ils se lancent à sa recherche et essayent de lui tendre un piège dans la forêt, les deux garçons se font capturer par le brigand qui les livre bientôt au grand méchant magicien."
+    "synopsis": "Gaspard et son ami Petit Pierre jouent dans le garage lorsqu'ils s'aperçoivent que le brigand Briquambroque a volé le précieux moulin à café de grand-mère. Alors qu'ils se lancent à sa recherche et essayent de lui tendre un piège dans la forêt, les deux garçons se font capturer par le brigand qui les livre bientôt au grand méchant magicien.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1253009",
@@ -5016,7 +4169,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/01",
-      "daysLeft": 102,
+      "daysLeft": 99,
       "expirationDate": "2027-01-07",
       "packageExpirations": {
         "aoc": "2027-01-07"
@@ -5032,7 +4185,9 @@ const CATALOG_DATA = [
       "fnt",
       "fml"
     ],
-    "synopsis": "Durant les vacances de Noël, Ava, 11 ans, souhaite que ses parents surprotecteurs s'en aillent. Le lendemain matin, tous les adultes ont soudainement disparu. Les enfants peuvent enfin faire ce qu'ils veulent !"
+    "synopsis": "Durant les vacances de Noël, Ava, 11 ans, souhaite que ses parents surprotecteurs s'en aillent. Le lendemain matin, tous les adultes ont soudainement disparu. Les enfants peuvent enfin faire ce qu'ils veulent !",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm207603",
@@ -5061,8 +4216,8 @@ const CATALOG_DATA = [
     "duree": "1h 43min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 13 j",
-      "daysLeft": 13,
+      "label": "⏳ Expire dans 10 j",
+      "daysLeft": 10,
       "expirationDate": "2026-10-10",
       "packageExpirations": {
         "aoc": "2026-10-10"
@@ -5079,7 +4234,9 @@ const CATALOG_DATA = [
       "drm",
       "eur"
     ],
-    "synopsis": "Les aventures débridées de deux ados un peu à la marge : le petit \"Microbe\" et l'inventif \"Gasoil\". Alors que les grandes vacances approchent, les deux amis n'ont aucune envie de passer deux mois avec leur famille. A l'aide d'un moteur de tondeuse et de planches de bois, ils décident donc de fabriquer leur propre \"voiture\" et de partir à l'aventure sur les routes de France..."
+    "synopsis": "Les aventures débridées de deux ados un peu à la marge : le petit \"Microbe\" et l'inventif \"Gasoil\". Alors que les grandes vacances approchent, les deux amis n'ont aucune envie de passer deux mois avec leur famille. A l'aide d'un moteur de tondeuse et de planches de bois, ils décident donc de fabriquer leur propre \"voiture\" et de partir à l'aventure sur les routes de France...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm449719",
@@ -5109,7 +4266,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/01",
-      "daysLeft": 103,
+      "daysLeft": 100,
       "expirationDate": "2027-01-08",
       "packageExpirations": {
         "aoc": "2027-01-08"
@@ -5126,7 +4283,9 @@ const CATALOG_DATA = [
       "fml",
       "eur"
     ],
-    "synopsis": "Émile, 14 ans, traverse comme il peut son adolescence dans une petite ville de la région parisienne, entre un père représentant de commerce, fantasque et doux dingue, et une mère pas tellement plus saine d’esprit, qui teint les cheveux en blond de son fils tous les mois, parce que, paraît-il, il est plus beau comme ça. Persuadé de la pertinence de cette décoloration capillaire, Émile en a néanmoins terriblement honte, tout comme il a honte de vivre dans une caravane sur le terrain où Bernard et Annie, ses parents, doivent faire bâtir leur maison… le jour où ils obtiendront le permis de construire. Quand Pauline, la fille du lycée dont il est amoureux, invite Émile à Venise pour un concert à la Fenice, Bernard décide que toute la famille va l’accompagner avec la caravane, pour un voyage aussi rocambolesque qu’initiatique."
+    "synopsis": "Émile, 14 ans, traverse comme il peut son adolescence dans une petite ville de la région parisienne, entre un père représentant de commerce, fantasque et doux dingue, et une mère pas tellement plus saine d’esprit, qui teint les cheveux en blond de son fils tous les mois, parce que, paraît-il, il est plus beau comme ça. Persuadé de la pertinence de cette décoloration capillaire, Émile en a néanmoins terriblement honte, tout comme il a honte de vivre dans une caravane sur le terrain où Bernard et Annie, ses parents, doivent faire bâtir leur maison… le jour où ils obtiendront le permis de construire. Quand Pauline, la fille du lycée dont il est amoureux, invite Émile à Venise pour un concert à la Fenice, Bernard décide que toute la famille va l’accompagner avec la caravane, pour un voyage aussi rocambolesque qu’initiatique.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm170890",
@@ -5156,7 +4315,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/01",
-      "daysLeft": 97,
+      "daysLeft": 94,
       "expirationDate": "2027-01-02",
       "packageExpirations": {
         "aoc": "2027-01-02"
@@ -5172,54 +4331,9 @@ const CATALOG_DATA = [
       "trl",
       "scf"
     ],
-    "synopsis": "Été 1979, une petite ville de l’Ohio. Alors qu'ils tournent un film en super 8, un groupe d’adolescents est témoin d'une spectaculaire catastrophe ferroviaire. Ils ne tardent pas à comprendre qu'il ne s'agit pas d'un accident. Peu après, des disparitions étonnantes et des événements inexplicables se produisent en ville, et la police tente de découvrir la vérité… Une vérité qu’aucun d’entre eux n’aurait pu imaginer."
-  },
-  {
-    "id": "jw-tm151310",
-    "titre": "Les beaux gosses",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Family",
-    "annee": 2009,
-    "note_avis": 6.4,
-    "note_recence": 6.1,
-    "note_globale": 6.3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/186277383/s592/les-beaux-gosses.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 30min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 90,
-    "etoiles": 3,
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "synopsis": "Hervé et Camel, adolescents de 14 ans scolarisés dans le même collège, ne pensent qu'à une chose : les filles. C'est leur unique sujet de conversation. Malheureusement, les deux amis, desservis par un physique ingrat, multiplient les échecs. Alors ils se contentent de se masturber devant de vieux catalogues. Mais un jour, tout change pour Hervé, qui vit seul avec une mère intrusive et déprimée. En effet, il réalise qu'Aurore, la plus jolie fille de la classe, a le béguin pour lui. Encouragé par Camel, Hervé tente de se rapprocher d'elle. Il compte profiter d'une fête, organisée par la grande soeur d'Aurore, pour arriver à ses fins…"
+    "synopsis": "Été 1979, une petite ville de l’Ohio. Alors qu'ils tournent un film en super 8, un groupe d’adolescents est témoin d'une spectaculaire catastrophe ferroviaire. Ils ne tardent pas à comprendre qu'il ne s'agit pas d'un accident. Peu après, des disparitions étonnantes et des événements inexplicables se produisent en ville, et la police tente de découvrir la vérité… Une vérité qu’aucun d’entre eux n’aurait pu imaginer.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm145303",
@@ -5249,7 +4363,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/10",
-      "daysLeft": 32,
+      "daysLeft": 29,
       "expirationDate": "2026-10-29",
       "packageExpirations": {
         "aoc": "2026-10-29"
@@ -5264,16 +4378,18 @@ const CATALOG_DATA = [
       "drm",
       "spt"
     ],
-    "synopsis": "Par tous les moyens, Bliss Cavendar veut échapper à sa petite ville perdue du Texas et à sa mère qui est convaincue que sa seule chance de réussir dans la vie est de gagner les concours de beauté locaux. Bliss rêve d'autre chose... Lorsqu'elle se rend en cachette dans la grande ville d'Austin avec sa meilleure amie Pash, Bliss découvre un univers qu'elle n'aurait jamais imaginé : le roller derby. Associant girl power et punk-rock, cette discipline permet à chaque fille de laisser libre cours à sa personnalité..."
+    "synopsis": "Par tous les moyens, Bliss Cavendar veut échapper à sa petite ville perdue du Texas et à sa mère qui est convaincue que sa seule chance de réussir dans la vie est de gagner les concours de beauté locaux. Bliss rêve d'autre chose... Lorsqu'elle se rend en cachette dans la grande ville d'Austin avec sa meilleure amie Pash, Bliss découvre un univers qu'elle n'aurait jamais imaginé : le roller derby. Associant girl power et punk-rock, cette discipline permet à chaque fille de laisser libre cours à sa personnalité...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm175783",
     "titre": "Albator - Corsaire de l’espace",
     "type": "film",
-    "chaine": "Ciné+ OCS",
+    "chaine": "Universal+",
     "chaines": [
-      "Ciné+ OCS",
-      "Universal+"
+      "Universal+",
+      "Ciné+ OCS"
     ],
     "section": "Films",
     "position": "Films • Ciné+ Family & SCIFI",
@@ -5287,16 +4403,16 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/176292918/s592/albator-corsaire-de-lespace.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/universal_plus.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.svg",
+      "assets/logos/cine_ocs.svg"
     ],
     "duree": "1h 55min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "aoc": "2026-09-30",
@@ -5304,8 +4420,8 @@ const CATALOG_DATA = [
       }
     },
     "package_slugs": [
-      "aoc",
-      "auc"
+      "auc",
+      "aoc"
     ],
     "runtime_minutes": 115,
     "etoiles": 3,
@@ -5315,7 +4431,9 @@ const CATALOG_DATA = [
       "drm",
       "scf"
     ],
-    "synopsis": "Albator était jadis un officier de l’armée. À bord de son vaisseau l’Arcadia, il a provoqué le soulèvement des forces alliées avant de disparaître du système solaire. Devenu une véritable légende après un siècle d’errance, son but reste mystérieux et lorsque son vaisseau réapparaît tel un vaisseau fantôme, de nombreuses questions resurgissent. Pourquoi Albator est‐il devenu un pirate ? Pourquoi l’homme à la profonde cicatrice s’est‐il révolté contre le gouvernement ? Que va‐t‐il faire à présent ?"
+    "synopsis": "Albator était jadis un officier de l’armée. À bord de son vaisseau l’Arcadia, il a provoqué le soulèvement des forces alliées avant de disparaître du système solaire. Devenu une véritable légende après un siècle d’errance, son but reste mystérieux et lorsque son vaisseau réapparaît tel un vaisseau fantôme, de nombreuses questions resurgissent. Pourquoi Albator est‐il devenu un pirate ? Pourquoi l’homme à la profonde cicatrice s’est‐il révolté contre le gouvernement ? Que va‐t‐il faire à présent ?",
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm186578",
@@ -5345,7 +4463,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/12",
-      "daysLeft": 93,
+      "daysLeft": 90,
       "expirationDate": "2026-12-29",
       "packageExpirations": {
         "aoc": "2026-12-29"
@@ -5361,7 +4479,9 @@ const CATALOG_DATA = [
       "cmy",
       "eur"
     ],
-    "synopsis": "Thomas est un jeune homme qui rêve de faire carrière dans la musique, mais il n'a pas de réel talent. Gilbert quant à lui est le futur beau-père de Thomas, marié à Suzanne, une bobo, depuis 30 ans et père de Lola, la fiancée de Thomas. Lassé de sa vie de couple plan-plan, Gilbert décide de partir refaire sa vie, entraînant Thomas avec lui pour lui éviter de sombrer dans la même routine matrimoniale. Ils se lancent alors dans une nouvelle vie de gamins pleine de péripéties, persuadés que la liberté est ailleurs, sans les soucis du quotidien, mais aussi de s'en créer d'autres. Mais à quel prix retrouve t-on ses rêves d’ado ?…"
+    "synopsis": "Thomas est un jeune homme qui rêve de faire carrière dans la musique, mais il n'a pas de réel talent. Gilbert quant à lui est le futur beau-père de Thomas, marié à Suzanne, une bobo, depuis 30 ans et père de Lola, la fiancée de Thomas. Lassé de sa vie de couple plan-plan, Gilbert décide de partir refaire sa vie, entraînant Thomas avec lui pour lui éviter de sombrer dans la même routine matrimoniale. Ils se lancent alors dans une nouvelle vie de gamins pleine de péripéties, persuadés que la liberté est ailleurs, sans les soucis du quotidien, mais aussi de s'en créer d'autres. Mais à quel prix retrouve t-on ses rêves d’ado ?…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm144685",
@@ -5391,7 +4511,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -5407,7 +4527,9 @@ const CATALOG_DATA = [
       "drm",
       "rma"
     ],
-    "synopsis": "1987. A peine diplômé de l'université, un jeune homme réalise qu'il n'aura pas les moyens de se payer son tour de l'Europe. Obligé de travailler dans le parc d'attractions local, il se rend finalement compte qu'il y a partout des expériences à vivre..."
+    "synopsis": "1987. A peine diplômé de l'université, un jeune homme réalise qu'il n'aura pas les moyens de se payer son tour de l'Europe. Obligé de travailler dans le parc d'attractions local, il se rend finalement compte qu'il y a partout des expériences à vivre...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm197031",
@@ -5437,7 +4559,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/12",
-      "daysLeft": 86,
+      "daysLeft": 83,
       "expirationDate": "2026-12-22",
       "packageExpirations": {
         "aoc": "2026-12-22"
@@ -5454,54 +4576,9 @@ const CATALOG_DATA = [
       "fnt",
       "scf"
     ],
-    "synopsis": "Erin est une scientifique qui croit aux phénomènes paranormaux. Mais afin de continuer à enseigner, elle doit faire disparaître toutes traces d’un livre rédigé sur les fantômes. Elle se rend dans les bureaux de sa coauteure Abby qui, en compagnie de sa brillante collègue Jillian, a fabriqué une technologie pour repérer les esprits. C’est à ce moment qu’elles apprennent qu’un manoir est peut‐être hanté. En se rendant sur les lieux, les trois femmes découvrent une étrange apparition qui les pousse à poursuivre les recherches…"
-  },
-  {
-    "id": "jw-tm152243",
-    "titre": "Du goudron et des plumes",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Family",
-    "annee": 2014,
-    "note_avis": 5.9,
-    "note_recence": 7.2,
-    "note_globale": 6.6,
-    "categories": [
-      "comedie"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322107955/s592/du-goudron-et-des-plumes.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 32min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 92,
-    "etoiles": 3,
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "fml",
-      "eur"
-    ],
-    "synopsis": "L'été arrive à Montauban, avec les vacances, les barbecues… et le \"Triathlon de l’été\", compétition populaire télédiffusée. Christian, divorcé et commercial aux petites combines, n'a d’autre joie que sa fille de 12 ans"
+    "synopsis": "Erin est une scientifique qui croit aux phénomènes paranormaux. Mais afin de continuer à enseigner, elle doit faire disparaître toutes traces d’un livre rédigé sur les fantômes. Elle se rend dans les bureaux de sa coauteure Abby qui, en compagnie de sa brillante collègue Jillian, a fabriqué une technologie pour repérer les esprits. C’est à ce moment qu’elles apprennent qu’un manoir est peut‐être hanté. En se rendant sur les lieux, les trois femmes découvrent une étrange apparition qui les pousse à poursuivre les recherches…",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm103568",
@@ -5531,7 +4608,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -5547,54 +4624,9 @@ const CATALOG_DATA = [
       "msc",
       "eur"
     ],
-    "synopsis": "Fatal... c'est Fatal Bazooka, un rappeur bling-bling et hardcore. Fatal est désormais une énorme star. Des millions de fans, des dizaines de tubes, 4 Music Awards de la Musique du meilleur artiste de l'année, une ligne de vêtements, un magazine et prochainement l'ouverture de son propre parc d'attraction : Fataland. Il est le N°1 incontesté. En apparence tout va bien... mais en réalité, Fatal ne sait plus où il va, parce qu'il ne sait plus d'où il vient : depuis ses débuts, il fait croire qu'il a grandi dans le ghetto... alors qu'en fait, il est né dans un petit village de Savoie, en plein coeur des Alpes. Mais on ne peut pas être un \"gansta\" quand on est un fils de bergers de Savoie, alors Fatal a préféré cacher ses origines et oublier son passé..."
-  },
-  {
-    "id": "jw-tm129774",
-    "titre": "Rock Academy",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Family",
-    "annee": 2003,
-    "note_avis": 7.2,
-    "note_recence": 4.7,
-    "note_globale": 6,
-    "categories": [
-      "comedie"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/249930336/s592/school-of-rock.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 49min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 109,
-    "etoiles": 3,
-    "raw_genres": [
-      "cmy",
-      "fml",
-      "msc",
-      "eur"
-    ],
-    "synopsis": "Un musicien se fait virer de son groupe de rock et trouve, dans la foulée, un emploi de prof de musique dans une école privée stricte. Là, devant un parterre de tubas, de clairons, de pianos et de harpes, il décide de revoir l'approche de la musique de ses élèves. Leur filant des Gibson en V, des claviers, des caisses claires et des charleys, il leur enseigne la musique des amplis. Le gros son des rockers. Et \" leur donne le pouvoir de casser les règles \"."
+    "synopsis": "Fatal... c'est Fatal Bazooka, un rappeur bling-bling et hardcore. Fatal est désormais une énorme star. Des millions de fans, des dizaines de tubes, 4 Music Awards de la Musique du meilleur artiste de l'année, une ligne de vêtements, un magazine et prochainement l'ouverture de son propre parc d'attraction : Fataland. Il est le N°1 incontesté. En apparence tout va bien... mais en réalité, Fatal ne sait plus où il va, parce qu'il ne sait plus d'où il vient : depuis ses débuts, il fait croire qu'il a grandi dans le ghetto... alors qu'en fait, il est né dans un petit village de Savoie, en plein coeur des Alpes. Mais on ne peut pas être un \"gansta\" quand on est un fils de bergers de Savoie, alors Fatal a préféré cacher ses origines et oublier son passé...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm87478",
@@ -5608,7 +4640,7 @@ const CATALOG_DATA = [
     "note_recence": 6.3,
     "note_globale": 6.4,
     "categories": [
-      "comedie"
+      "scifi_fantastique"
     ],
     "badge": null,
     "is_eligible": true,
@@ -5620,11 +4652,11 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_ocs.svg"
     ],
-    "duree": "1h 40min",
+    "duree": "1h 41min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/10",
-      "daysLeft": 21,
+      "daysLeft": 18,
       "expirationDate": "2026-10-18",
       "packageExpirations": {
         "aoc": "2026-10-18"
@@ -5633,13 +4665,16 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 100,
+    "runtime_minutes": 101,
     "etoiles": 3,
     "raw_genres": [
+      "act",
       "cmy",
       "scf"
     ],
-    "synopsis": "Adam, Nick et Lou sont trois amis de longue date qui ont une existence des moins heureuses. Un jour, quand Lou, éméché, tente de se suicider, Adam et Nick, accompagnés de Jacob, le neveu du premier, partent de façon impulsive à Kodiak Valley Ski Resort, là où les trois amis passèrent le weekend le plus mémorable de leur adolescence. Les quatre protagonistes passent la nuit dans un jacuzzi en buvant de l'alcool à gogo. Mais, le lendemain, ils se réveillent et découvrent qu'ils sont projetés en 1986."
+    "synopsis": "Adam, Nick et Lou sont trois amis de longue date qui ont une existence des moins heureuses. Un jour, quand Lou, éméché, tente de se suicider, Adam et Nick, accompagnés de Jacob, le neveu du premier, partent de façon impulsive à Kodiak Valley Ski Resort, là où les trois amis passèrent le weekend le plus mémorable de leur adolescence. Les quatre protagonistes passent la nuit dans un jacuzzi en buvant de l'alcool à gogo. Mais, le lendemain, ils se réveillent et découvrent qu'ils sont projetés en 1986.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm79916",
@@ -5669,7 +4704,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/12",
-      "daysLeft": 82,
+      "daysLeft": 79,
       "expirationDate": "2026-12-18",
       "packageExpirations": {
         "aoc": "2026-12-18"
@@ -5687,7 +4722,9 @@ const CATALOG_DATA = [
       "fnt",
       "fml"
     ],
-    "synopsis": "À Bikini Bottom, quelqu'un a volé la couronne du roi Neptune, et le patron de Bob l'éponge, M. Krabs, figure en tête des suspects. Convaincus de son innocence, Bob et Patrick partent pour Shell City avec l'intention de le disculper et de restituer sa couronne à Neptune."
+    "synopsis": "À Bikini Bottom, quelqu'un a volé la couronne du roi Neptune, et le patron de Bob l'éponge, M. Krabs, figure en tête des suspects. Convaincus de son innocence, Bob et Patrick partent pour Shell City avec l'intention de le disculper et de restituer sa couronne à Neptune.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm78919",
@@ -5717,7 +4754,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/11",
-      "daysLeft": 49,
+      "daysLeft": 46,
       "expirationDate": "2026-11-15",
       "packageExpirations": {
         "aoc": "2026-11-15"
@@ -5733,7 +4770,9 @@ const CATALOG_DATA = [
       "fml",
       "eur"
     ],
-    "synopsis": "Mr. Bean a gagné une semaine de vacances sur la Côte d'Azur, et une caméra vidéo. Il quitte son Angleterre natale pour la France. Arrivé à Paris, il demande à un autre passager de le filmer en train de monter à bord du train pour Cannes. L'homme est en fait le réalisateur russe Emil Duchevsky, qui se rend à Cannes pour faire partie du jury du Festival du Film. Dans la confusion du départ, Duchevsky rate le train, et Mr. Bean se retrouve à bord avec Stepan, son fils de dix ans, qui ne parle pas un mot d'anglais. Pour Mr. Bean et Stepan commence alors un périple vers le sud de la France plein de surprises, de rencontres et d'aventures toutes plus délirantes les unes que les autres..."
+    "synopsis": "Mr. Bean a gagné une semaine de vacances sur la Côte d'Azur, et une caméra vidéo. Il quitte son Angleterre natale pour la France. Arrivé à Paris, il demande à un autre passager de le filmer en train de monter à bord du train pour Cannes. L'homme est en fait le réalisateur russe Emil Duchevsky, qui se rend à Cannes pour faire partie du jury du Festival du Film. Dans la confusion du départ, Duchevsky rate le train, et Mr. Bean se retrouve à bord avec Stepan, son fils de dix ans, qui ne parle pas un mot d'anglais. Pour Mr. Bean et Stepan commence alors un périple vers le sud de la France plein de surprises, de rencontres et d'aventures toutes plus délirantes les unes que les autres...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1515031",
@@ -5763,7 +4802,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 48,
+      "daysLeft": 45,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -5778,7 +4817,9 @@ const CATALOG_DATA = [
       "drm",
       "hst"
     ],
-    "synopsis": "Rio, 1971, sous la dictature militaire. La grande maison des Paiva, près de la plage, est un havre de vie, de paroles partagées, de jeux, de rencontres. Jusqu’au jour où des hommes du régime viennent arrêter Rubens, le père de famille, qui disparaît sans laisser de traces. Sa femme Eunice et ses cinq enfants mèneront alors un combat acharné pour la recherche de la vérité..."
+    "synopsis": "Rio, 1971, sous la dictature militaire. La grande maison des Paiva, près de la plage, est un havre de vie, de paroles partagées, de jeux, de rencontres. Jusqu’au jour où des hommes du régime viennent arrêter Rubens, le père de famille, qui disparaît sans laisser de traces. Sa femme Eunice et ses cinq enfants mèneront alors un combat acharné pour la recherche de la vérité...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1471341",
@@ -5808,7 +4849,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -5822,7 +4863,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "drm"
     ],
-    "synopsis": "À 12 ans, Bailey vit avec son frère Hunter et son père Bug, qui les élève seul dans un squat au nord du Kent. Bug n’a pas beaucoup de temps à leur consacrer et Bailey, qui approche de la puberté, cherche de l’attention et de l’aventure ailleurs."
+    "synopsis": "À 12 ans, Bailey vit avec son frère Hunter et son père Bug, qui les élève seul dans un squat au nord du Kent. Bug n’a pas beaucoup de temps à leur consacrer et Bailey, qui approche de la puberté, cherche de l’attention et de l’aventure ailleurs.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1472770",
@@ -5852,7 +4895,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/10",
-      "daysLeft": 20,
+      "daysLeft": 17,
       "expirationDate": "2026-10-17",
       "packageExpirations": {
         "aoc": "2026-10-17"
@@ -5867,7 +4910,9 @@ const CATALOG_DATA = [
       "drm",
       "msc"
     ],
-    "synopsis": "Touda rêve de devenir une Cheikha, une artiste traditionnelle marocaine, qui chante sans pudeur ni censure des textes de résistance, d’amour et d'émancipation, transmis depuis des générations. Se produisant tous les soirs dans les bars de sa petite ville de province sous le regard des hommes, Touda nourrit l’espoir d'un avenir meilleur pour elle et son fils. Maltraitée et humiliée, elle décide de tout quitter pour les lumières de Casablanca…"
+    "synopsis": "Touda rêve de devenir une Cheikha, une artiste traditionnelle marocaine, qui chante sans pudeur ni censure des textes de résistance, d’amour et d'émancipation, transmis depuis des générations. Se produisant tous les soirs dans les bars de sa petite ville de province sous le regard des hommes, Touda nourrit l’espoir d'un avenir meilleur pour elle et son fils. Maltraitée et humiliée, elle décide de tout quitter pour les lumières de Casablanca…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1284483",
@@ -5897,7 +4942,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 75,
+      "daysLeft": 72,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
@@ -5912,7 +4957,9 @@ const CATALOG_DATA = [
       "drm",
       "rma"
     ],
-    "synopsis": "Elena, une danseuse épanouie, fait la rencontre de Dovydas, un interprète en langue des signes. Leur connexion est immédiate. Alors que leur lien s'approfondit, Dovydas confie à Elena, qu'il ne ressent aucun désir sexuel pour elle, ni pour personne : il est asexuel. Ensemble, ils tentent de bâtir une nouvelle forme d’intimité."
+    "synopsis": "Elena, une danseuse épanouie, fait la rencontre de Dovydas, un interprète en langue des signes. Leur connexion est immédiate. Alors que leur lien s'approfondit, Dovydas confie à Elena, qu'il ne ressent aucun désir sexuel pour elle, ni pour personne : il est asexuel. Ensemble, ils tentent de bâtir une nouvelle forme d’intimité.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1514425",
@@ -5942,7 +4989,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/11",
-      "daysLeft": 61,
+      "daysLeft": 58,
       "expirationDate": "2026-11-27",
       "packageExpirations": {
         "aoc": "2026-11-27"
@@ -5958,7 +5005,9 @@ const CATALOG_DATA = [
       "drm",
       "hst"
     ],
-    "synopsis": "Sicile, au début des années 2000. Après plusieurs années de prison pour collusion avec la mafia, Catello, homme politique aguerri, a tout perdu. Lorsque les services secrets italiens sollicitent son aide pour capturer son filleul Matteo, le dernier chef mafieux en cavale, Catello saisit l'occasion pour se remettre en selle. Homme rusé aux cent masques, illusionniste infatigable qui transforme la vérité en mensonge et le mensonge en vérité, Catello entame une correspondance improbable et singulière avec le fugitif, cherchant à profiter de son vide affectif. Un pari qui, avec l'un des criminels les plus recherchés au monde, comporte un certain risque... Librement inspiré de faits réels .Les personnages du film sont cependant le fruit de l'imagination des auteurs. La réalité est un point de départ, pas une destination."
+    "synopsis": "Sicile, au début des années 2000. Après plusieurs années de prison pour collusion avec la mafia, Catello, homme politique aguerri, a tout perdu. Lorsque les services secrets italiens sollicitent son aide pour capturer son filleul Matteo, le dernier chef mafieux en cavale, Catello saisit l'occasion pour se remettre en selle. Homme rusé aux cent masques, illusionniste infatigable qui transforme la vérité en mensonge et le mensonge en vérité, Catello entame une correspondance improbable et singulière avec le fugitif, cherchant à profiter de son vide affectif. Un pari qui, avec l'un des criminels les plus recherchés au monde, comporte un certain risque... Librement inspiré de faits réels .Les personnages du film sont cependant le fruit de l'imagination des auteurs. La réalité est un point de départ, pas une destination.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1425173",
@@ -5987,8 +5036,8 @@ const CATALOG_DATA = [
     "duree": "2h 35min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 10 j",
-      "daysLeft": 10,
+      "label": "⏳ Expire dans 7 j",
+      "daysLeft": 7,
       "expirationDate": "2026-10-07",
       "packageExpirations": {
         "aoc": "2026-10-07"
@@ -6002,7 +5051,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "drm"
     ],
-    "synopsis": "Jeff est invité par son ami Max à séjourner dans le grand domaine isolé au fond des bois où vit l’illustre réalisateur Blake Cadieux. Les attentes sont grandes. Il rencontre un artiste qu’il admire, en plus de passer quelques jours en compagnie d’Aliocha, la sœur aînée de son ami, dont il est secrètement amoureux. La forêt hostile et sauvage, comme la vaste maison, deviennent des territoires où se confrontent une jeunesse en quête d’idéal et de liberté face aux égos blessés des adultes."
+    "synopsis": "Jeff est invité par son ami Max à séjourner dans le grand domaine isolé au fond des bois où vit l’illustre réalisateur Blake Cadieux. Les attentes sont grandes. Il rencontre un artiste qu’il admire, en plus de passer quelques jours en compagnie d’Aliocha, la sœur aînée de son ami, dont il est secrètement amoureux. La forêt hostile et sauvage, comme la vaste maison, deviennent des territoires où se confrontent une jeunesse en quête d’idéal et de liberté face aux égos blessés des adultes.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1545807",
@@ -6030,9 +5081,9 @@ const CATALOG_DATA = [
     ],
     "duree": "1h 34min",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 6 j",
-      "daysLeft": 6,
+      "status": "urgent",
+      "label": "⏳ Expire dans 3 j",
+      "daysLeft": 3,
       "expirationDate": "2026-10-03",
       "packageExpirations": {
         "aoc": "2026-10-03"
@@ -6046,7 +5097,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "drm"
     ],
-    "synopsis": "Thomas, un adolescent réunionnais de 15 ans, n’aspire qu’à remporter un concours de breakdance et partir pour la métropole. Mais quand sa mère le met brutalement à la rue ainsi que sa sœur Audrey, leur monde s’effondre. Placés chez leur père inconnu et livrés à eux-mêmes, ils doivent surmonter l’abandon et se reconstruire."
+    "synopsis": "Thomas, un adolescent réunionnais de 15 ans, n’aspire qu’à remporter un concours de breakdance et partir pour la métropole. Mais quand sa mère le met brutalement à la rue ainsi que sa sœur Audrey, leur monde s’effondre. Placés chez leur père inconnu et livrés à eux-mêmes, ils doivent surmonter l’abandon et se reconstruire.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1466382",
@@ -6076,7 +5129,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/11",
-      "daysLeft": 51,
+      "daysLeft": 48,
       "expirationDate": "2026-11-17",
       "packageExpirations": {
         "aoc": "2026-11-17"
@@ -6091,7 +5144,9 @@ const CATALOG_DATA = [
       "drm",
       "rma"
     ],
-    "synopsis": "Maria, 40 ans, jongle entre ses quatre enfants et une carrière exigeante tandis que son second mari, Sigmund, voyage de plus en plus pour son travail. Un soir, ils se disputent violemment et Sigmund finit par annoncer qu'il veut divorcer."
+    "synopsis": "Maria, 40 ans, jongle entre ses quatre enfants et une carrière exigeante tandis que son second mari, Sigmund, voyage de plus en plus pour son travail. Un soir, ils se disputent violemment et Sigmund finit par annoncer qu'il veut divorcer.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1501132",
@@ -6121,7 +5176,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -6137,7 +5192,9 @@ const CATALOG_DATA = [
       "trl",
       "spt"
     ],
-    "synopsis": "Jie, un jeune talent prometteur de l’escrime, renoue avec son frère aîné Han, récemment libéré après sept ans de prison pour la mort accidentelle d’un adversaire lors d’une compétition. En secret, Han soutient Jie dans son entraînement, l’aidant à viser une qualification aux championnats nationaux. Mais une dispute éclate, et Jie commence à douter de l’innocence de son frère."
+    "synopsis": "Jie, un jeune talent prometteur de l’escrime, renoue avec son frère aîné Han, récemment libéré après sept ans de prison pour la mort accidentelle d’un adversaire lors d’une compétition. En secret, Han soutient Jie dans son entraînement, l’aidant à viser une qualification aux championnats nationaux. Mais une dispute éclate, et Jie commence à douter de l’innocence de son frère.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1106609",
@@ -6165,9 +5222,9 @@ const CATALOG_DATA = [
     ],
     "duree": "1h 54min",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 13/10",
-      "daysLeft": 16,
+      "status": "warning",
+      "label": "⏳ Expire dans 13 j",
+      "daysLeft": 13,
       "expirationDate": "2026-10-13",
       "packageExpirations": {
         "aoc": "2026-10-13"
@@ -6183,7 +5240,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Dans la nuit, Nadira fuit Dehli après avoir poignardé un policier. Elle se cache dans une communauté de prostituées du nord de l’Inde où elle rencontre Devika, une jeune fille que sa mère veut marier de force. Ensemble, au péril de leur vie, elles décident de se rebeller contre l’institution religieuse et les traditions archaïques pour conquérir leur liberté."
+    "synopsis": "Dans la nuit, Nadira fuit Dehli après avoir poignardé un policier. Elle se cache dans une communauté de prostituées du nord de l’Inde où elle rencontre Devika, une jeune fille que sa mère veut marier de force. Ensemble, au péril de leur vie, elles décident de se rebeller contre l’institution religieuse et les traditions archaïques pour conquérir leur liberté.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1515207",
@@ -6213,7 +5272,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 75,
+      "daysLeft": 72,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
@@ -6227,7 +5286,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "drm"
     ],
-    "synopsis": "Un père et sa fille habitent les mondes de l’enfance. Il lui parle avec respect et sérieux, comme à une grande personne, il l’entraine dans des univers magiques débordants de vie et d’humanité. Il est le grand cinéaste de l’enfance et travaille sur Pinocchio. Un jour, la petite fille devient une jeune femme et l’enchantement disparait. Elle comprend que la rupture avec l’enfance est inéluctable et a le sentiment qu’elle ne sera plus jamais à la hauteur de son père. Alors elle commence à lui mentir et se laisse aller, jusqu’au bord du gouffre. Le père ne fera pas semblant de ne pas voir. Il sera là pour elle, tout le temps qu’il faut."
+    "synopsis": "Un père et sa fille habitent les mondes de l’enfance. Il lui parle avec respect et sérieux, comme à une grande personne, il l’entraine dans des univers magiques débordants de vie et d’humanité. Il est le grand cinéaste de l’enfance et travaille sur Pinocchio. Un jour, la petite fille devient une jeune femme et l’enchantement disparait. Elle comprend que la rupture avec l’enfance est inéluctable et a le sentiment qu’elle ne sera plus jamais à la hauteur de son père. Alors elle commence à lui mentir et se laisse aller, jusqu’au bord du gouffre. Le père ne fera pas semblant de ne pas voir. Il sera là pour elle, tout le temps qu’il faut.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1504526",
@@ -6257,7 +5318,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -6274,7 +5335,9 @@ const CATALOG_DATA = [
       "drm",
       "scf"
     ],
-    "synopsis": "En 1999, après une bagarre, trois adolescents se retrouvent accidentellement exposés à une mystérieuse substance. Ils découvrent alors qu’un simple éternuement suffit à les faire voyager dans le temps.  Propulsés vingt ans plus tard, ils se retrouvent chargés d’une mission capitale : sauver le monde."
+    "synopsis": "En 1999, après une bagarre, trois adolescents se retrouvent accidentellement exposés à une mystérieuse substance. Ils découvrent alors qu’un simple éternuement suffit à les faire voyager dans le temps.  Propulsés vingt ans plus tard, ils se retrouvent chargés d’une mission capitale : sauver le monde.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1470861",
@@ -6304,7 +5367,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/12",
-      "daysLeft": 65,
+      "daysLeft": 62,
       "expirationDate": "2026-12-01",
       "packageExpirations": {
         "aoc": "2026-12-01"
@@ -6320,51 +5383,9 @@ const CATALOG_DATA = [
       "drm",
       "rma"
     ],
-    "synopsis": "Pedro rentre d’Espagne dans son pays natal l’Argentine pour revoir ses proches. Mais les retrouvailles avec un ami d’enfance, le séduisant Maxi, prennent une tournure inattendue à mesure que leur relation devient de plus en plus ambigüe. Bien que Maxi soit hétérosexuel, la montée du désir entre eux ne cesse de croître tandis qu’ils cherchent à le cacher, et peut-être à l’accepter ?"
-  },
-  {
-    "id": "jw-tm1066000",
-    "titre": "Madres Paralelas",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Festival",
-    "annee": 2021,
-    "note_avis": 7.1,
-    "note_recence": 8.8,
-    "note_globale": 8,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/268346919/s592/madres-paralelas.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "2h 00min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 120,
-    "etoiles": 5,
-    "raw_genres": [
-      "drm"
-    ],
-    "synopsis": "Deux femmes, Janis et Ana, se rencontrent dans une chambre d'hôpital sur le point d’accoucher. Elles sont toutes les deux célibataires et sont tombées enceintes par accident. Janis, d'âge mûr, n'a aucun regret et durant les heures qui précèdent l'accouchement, elle est folle de joie. Ana en revanche, est une adolescente effrayée, pleine de remords et traumatisée. Janis essaie de lui remonter le moral alors qu'elles marchent telles des somnambules dans le couloir de l'hôpital. Les quelques mots qu'elles échangent pendant ces heures vont créer un lien très étroit entre elles, que le hasard se chargera de compliquer d'une manière qui changera leur vie à toutes les deux."
+    "synopsis": "Pedro rentre d’Espagne dans son pays natal l’Argentine pour revoir ses proches. Mais les retrouvailles avec un ami d’enfance, le séduisant Maxi, prennent une tournure inattendue à mesure que leur relation devient de plus en plus ambigüe. Bien que Maxi soit hétérosexuel, la montée du désir entre eux ne cesse de croître tandis qu’ils cherchent à le cacher, et peut-être à l’accepter ?",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1519016",
@@ -6394,7 +5415,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/10",
-      "daysLeft": 20,
+      "daysLeft": 17,
       "expirationDate": "2026-10-17",
       "packageExpirations": {
         "aoc": "2026-10-17"
@@ -6409,54 +5430,9 @@ const CATALOG_DATA = [
       "cmy",
       "rma"
     ],
-    "synopsis": "Depuis des années, Henri et Nora partagent tout : ils s’aiment et elle met en scène les pièces dans lesquelles il joue. Quand Henri décroche pour la première fois un rôle au cinéma, la création de leur nouveau spectacle prend l’eau et leur couple explose. Est-il possible de s’aimer sans s’appartenir complètement ?"
-  },
-  {
-    "id": "jw-tm306170",
-    "titre": "Cold War",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Festival",
-    "annee": 2018,
-    "note_avis": 7.5,
-    "note_recence": 8.2,
-    "note_globale": 7.9,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/78797149/s592/cold-war.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 24min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 84,
-    "etoiles": 4,
-    "raw_genres": [
-      "drm",
-      "msc",
-      "rma",
-      "eur"
-    ],
-    "synopsis": "Pendant la guerre froide, entre la Pologne stalinienne et le Paris bohème des années 1950, un musicien épris de liberté et une jeune chanteuse passionnée vivent un amour impossible dans une époque impossible."
+    "synopsis": "Depuis des années, Henri et Nora partagent tout : ils s’aiment et elle met en scène les pièces dans lesquelles il joue. Quand Henri décroche pour la première fois un rôle au cinéma, la création de leur nouveau spectacle prend l’eau et leur couple explose. Est-il possible de s’aimer sans s’appartenir complètement ?",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm418500",
@@ -6484,9 +5460,9 @@ const CATALOG_DATA = [
     ],
     "duree": "1h 47min",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 14/10",
-      "daysLeft": 17,
+      "status": "warning",
+      "label": "⏳ Expire dans 14 j",
+      "daysLeft": 14,
       "expirationDate": "2026-10-14",
       "packageExpirations": {
         "aoc": "2026-10-14"
@@ -6501,7 +5477,9 @@ const CATALOG_DATA = [
       "drm",
       "eur"
     ],
-    "synopsis": "Paris, de nos jours. David, la vingtaine, vit au présent. Il jongle entre différents petits boulots et recule, pour un temps encore, l'heure de choix plus engageants. Solitaire et rêveur, il tombe sous le charme de Léna, une voisine fraîchement débarquée. Le cours tranquille des choses vole en éclat quand sa sœur aînée meurt brutalement dans un attentat. Il se retrouve alors en charge de sa jeune nièce de sept ans, Amanda."
+    "synopsis": "Paris, de nos jours. David, la vingtaine, vit au présent. Il jongle entre différents petits boulots et recule, pour un temps encore, l'heure de choix plus engageants. Solitaire et rêveur, il tombe sous le charme de Léna, une voisine fraîchement débarquée. Le cours tranquille des choses vole en éclat quand sa sœur aînée meurt brutalement dans un attentat. Il se retrouve alors en charge de sa jeune nièce de sept ans, Amanda.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm322143",
@@ -6530,8 +5508,8 @@ const CATALOG_DATA = [
     "duree": "1h 47min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 12 j",
-      "daysLeft": 12,
+      "label": "⏳ Expire dans 9 j",
+      "daysLeft": 9,
       "expirationDate": "2026-10-09",
       "packageExpirations": {
         "aoc": "2026-10-09"
@@ -6547,144 +5525,9 @@ const CATALOG_DATA = [
       "trl",
       "eur"
     ],
-    "synopsis": "Malgré la menace de mort qui pèse sur sa tête, Stéphane décide de retourner en Corse pour assister à l'enterrement de Christophe, son ami d'enfance et compagnon de lutte, assassiné la veille. C’est l’occasion pour lui de se rappeler les évènements qui l’ont vu passer, petit bourgeois cultivé de Bastia, de la délinquance au radicalisme politique et du radicalisme politique à la clandestinité."
-  },
-  {
-    "id": "jw-tm336600",
-    "titre": "La Villa",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Festival",
-    "annee": 2017,
-    "note_avis": 6.5,
-    "note_recence": 7.9,
-    "note_globale": 7.2,
-    "categories": [
-      "comedie"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/78808778/s592/la-villa.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 47min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 107,
-    "etoiles": 4,
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "synopsis": "A quelques encablures de l’Estaque, le père d'Angèle, d'Armand et de Joseph vient d'être frappé par une attaque et est voué désormais à une vie végétative. Après des années de silence, Angèle est de retour dans le foyer familial, à son corps défendant car elle a un compte à régler avec la famille..."
-  },
-  {
-    "id": "jw-tm169422",
-    "titre": "Her",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Festival",
-    "annee": 2013,
-    "note_avis": 7.9,
-    "note_recence": 7,
-    "note_globale": 7.5,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176323478/s592/her.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "2h 06min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 126,
-    "etoiles": 4,
-    "raw_genres": [
-      "drm",
-      "rma",
-      "scf"
-    ],
-    "synopsis": "Los Angeles, dans un futur proche. Theodore Twombly, un homme sensible au caractère complexe, est inconsolable suite à une rupture difficile. Il fait alors l'acquisition d'un programme informatique ultramoderne, capable de s'adapter à la personnalité de chaque utilisateur. En lançant le système, il fait la connaissance de 'Samantha', une voix féminine intelligente, intuitive et étonnamment drôle. Les besoins et les désirs de Samantha grandissent et évoluent, tout comme ceux de Theodore, et peu à peu, ils tombent amoureux…"
-  },
-  {
-    "id": "jw-tm359324",
-    "titre": "Une pluie sans fin",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Festival",
-    "annee": 2017,
-    "note_avis": 6.5,
-    "note_recence": 7.9,
-    "note_globale": 7.2,
-    "categories": [
-      "thriller_policier"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/310293816/s592/une-pluie-sans-fin.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "2h 00min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 120,
-    "etoiles": 4,
-    "raw_genres": [
-      "crm",
-      "trl"
-    ],
-    "synopsis": "1997, à quelques mois de la rétrocession de Hong Kong à la Chine, Yu Guowei, le chef de la sécurité d’une vieille usine dans le Sud du pays, enquête sur une série de meurtres commis sur des jeunes femmes. Alors que la police piétine, cette enquête va très vite devenir une véritable obsession pour Yu… puis sa raison de vivre."
+    "synopsis": "Malgré la menace de mort qui pèse sur sa tête, Stéphane décide de retourner en Corse pour assister à l'enterrement de Christophe, son ami d'enfance et compagnon de lutte, assassiné la veille. C’est l’occasion pour lui de se rappeler les évènements qui l’ont vu passer, petit bourgeois cultivé de Bastia, de la délinquance au radicalisme politique et du radicalisme politique à la clandestinité.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1124675",
@@ -6714,7 +5557,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -6729,7 +5572,9 @@ const CATALOG_DATA = [
       "cmy",
       "drm"
     ],
-    "synopsis": "Suite à une blague sexiste devenue virale, Cédric, jeune papa, est suspendu par son employeur. Pour se racheter, il va avec l'aide de son frère Jean-Michel, s'interroger sur les fondements de sa misogynie à travers l’écriture d’un livre. De son côté, sa femme Nadine en proie à une dépression décide d'écourter son congé maternité. L’arrivée dans leur vie d’une baby-sitter au charme espiègle et envouteur, va chambouler leur existence."
+    "synopsis": "Suite à une blague sexiste devenue virale, Cédric, jeune papa, est suspendu par son employeur. Pour se racheter, il va avec l'aide de son frère Jean-Michel, s'interroger sur les fondements de sa misogynie à travers l’écriture d’un livre. De son côté, sa femme Nadine en proie à une dépression décide d'écourter son congé maternité. L’arrivée dans leur vie d’une baby-sitter au charme espiègle et envouteur, va chambouler leur existence.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm201216",
@@ -6759,7 +5604,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/10",
-      "daysLeft": 29,
+      "daysLeft": 26,
       "expirationDate": "2026-10-26",
       "packageExpirations": {
         "aoc": "2026-10-26"
@@ -6776,7 +5621,9 @@ const CATALOG_DATA = [
       "rma",
       "eur"
     ],
-    "synopsis": "Tony est admise dans un centre de rééducation après une grave chute de ski. Dépendante du personnel médical et des antidouleurs, elle prend le temps de se remémorer l’histoire tumultueuse qu’elle a vécue avec Georgio. Pourquoi se sont-ils aimés ? Qui est réellement l’homme qu’elle a adoré ? Comment a-t-elle pu se soumettre à cette passion étouffante et destructrice ? Pour Tony c’est une difficile reconstruction qui commence désormais, un travail corporel qui lui permettra peut-être de définitivement se libérer…"
+    "synopsis": "Tony est admise dans un centre de rééducation après une grave chute de ski. Dépendante du personnel médical et des antidouleurs, elle prend le temps de se remémorer l’histoire tumultueuse qu’elle a vécue avec Georgio. Pourquoi se sont-ils aimés ? Qui est réellement l’homme qu’elle a adoré ? Comment a-t-elle pu se soumettre à cette passion étouffante et destructrice ? Pour Tony c’est une difficile reconstruction qui commence désormais, un travail corporel qui lui permettra peut-être de définitivement se libérer…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm139879",
@@ -6806,7 +5653,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 23/10",
-      "daysLeft": 26,
+      "daysLeft": 23,
       "expirationDate": "2026-10-23",
       "packageExpirations": {
         "aoc": "2026-10-23"
@@ -6822,7 +5669,9 @@ const CATALOG_DATA = [
       "hst",
       "war"
     ],
-    "synopsis": "11ème siècle : Écosse. Macbeth, chef des armées, sort victorieux de la guerre qui fait rage dans tout le pays. Sur son chemin, trois sorcières lui prédisent qu’il deviendra roi. Comme envoûtés par la prophétie, Macbeth et son épouse montent alors un plan machiavélique pour régner sur le trône, jusqu’à en perdre la raison."
+    "synopsis": "11ème siècle : Écosse. Macbeth, chef des armées, sort victorieux de la guerre qui fait rage dans tout le pays. Sur son chemin, trois sorcières lui prédisent qu’il deviendra roi. Comme envoûtés par la prophétie, Macbeth et son épouse montent alors un plan machiavélique pour régner sur le trône, jusqu’à en perdre la raison.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm244428",
@@ -6852,7 +5701,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/12",
-      "daysLeft": 65,
+      "daysLeft": 62,
       "expirationDate": "2026-12-01",
       "packageExpirations": {
         "aoc": "2026-12-01"
@@ -6867,53 +5716,9 @@ const CATALOG_DATA = [
       "drm",
       "eur"
     ],
-    "synopsis": "22 Novembre 1963 : John F. Kennedy, 35ème président des États-Unis, vient d’être assassiné à Dallas.  Confrontée à la violence de son deuil, sa veuve, Jacqueline Bouvier Kennedy, First Lady admirée pour son élégance et sa culture, tente d’en surmonter le traumatisme, décidée à mettre en lumière l’héritage politique du président et à célébrer l’homme qu’il fut."
-  },
-  {
-    "id": "jw-tm141182",
-    "titre": "A Most Violent Year",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Festival",
-    "annee": 2014,
-    "note_avis": 6.9,
-    "note_recence": 7.2,
-    "note_globale": 7.1,
-    "categories": [
-      "thriller_policier"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/93753142/s592/a-most-violent-year.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "2h 05min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 125,
-    "etoiles": 4,
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "synopsis": "New York, 1981. L'année la plus violente qu'ait connu la ville. Le destin d'un immigré qui tente de se faire une place dans le business du pétrole. Son ambition se heurte à la corruption, la violence galopante et à la dépravation de l'époque qui menacent de détruire tout ce que lui et sa famille ont construit."
+    "synopsis": "22 Novembre 1963 : John F. Kennedy, 35ème président des États-Unis, vient d’être assassiné à Dallas.  Confrontée à la violence de son deuil, sa veuve, Jacqueline Bouvier Kennedy, First Lady admirée pour son élégance et sa culture, tente d’en surmonter le traumatisme, décidée à mettre en lumière l’héritage politique du président et à célébrer l’homme qu’il fut.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm160300",
@@ -6943,7 +5748,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -6959,7 +5764,9 @@ const CATALOG_DATA = [
       "hst",
       "spt"
     ],
-    "synopsis": "Inspiré d’une histoire vraie, Foxcatcher raconte l’histoire tragique et fascinante de la relation improbable entre un milliardaire excentrique et deux champions de lutte.  Lorsque le médaillé d’or olympique Mark Schultz est invité par le riche héritier John du Pont à emménager dans sa magnifique propriété familiale pour aider à mettre en place un camp d’entraînement haut de gamme, dans l’optique des JO de Séoul de 1988, Schultz saute sur l’occasion : il espère pouvoir concentrer toute son attention sur son entraînement et ne plus souffrir d’être constamment éclipsé par son frère, Dave. Obnubilé par d’obscurs besoins, du Pont entend bien profiter de son soutien à Schultz et de son opportunité de « coacher » des lutteurs de réputation mondiale pour obtenir – enfin – le respect de ses pairs et, surtout, de sa mère qui le juge très durement."
+    "synopsis": "Inspiré d’une histoire vraie, Foxcatcher raconte l’histoire tragique et fascinante de la relation improbable entre un milliardaire excentrique et deux champions de lutte.  Lorsque le médaillé d’or olympique Mark Schultz est invité par le riche héritier John du Pont à emménager dans sa magnifique propriété familiale pour aider à mettre en place un camp d’entraînement haut de gamme, dans l’optique des JO de Séoul de 1988, Schultz saute sur l’occasion : il espère pouvoir concentrer toute son attention sur son entraînement et ne plus souffrir d’être constamment éclipsé par son frère, Dave. Obnubilé par d’obscurs besoins, du Pont entend bien profiter de son soutien à Schultz et de son opportunité de « coacher » des lutteurs de réputation mondiale pour obtenir – enfin – le respect de ses pairs et, surtout, de sa mère qui le juge très durement.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm185167",
@@ -6989,7 +5796,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -7004,7 +5811,9 @@ const CATALOG_DATA = [
       "drm",
       "eur"
     ],
-    "synopsis": "Cyril, bientôt 12 ans, n'a qu'une idée en tête : retrouver son père qui l'a placé provisoirement dans un foyer pour enfants. Il rencontre par hasard Samantha, qui tient un salon de coiffure et qui accepte de l'accueillir chez elle pendant les week-ends. Mais Cyril ne voit pas encore l'amour que Samantha lui porte, cet amour dont il a pourtant besoin pour apaiser sa colère…"
+    "synopsis": "Cyril, bientôt 12 ans, n'a qu'une idée en tête : retrouver son père qui l'a placé provisoirement dans un foyer pour enfants. Il rencontre par hasard Samantha, qui tient un salon de coiffure et qui accepte de l'accueillir chez elle pendant les week-ends. Mais Cyril ne voit pas encore l'amour que Samantha lui porte, cet amour dont il a pourtant besoin pour apaiser sa colère…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm230408",
@@ -7034,7 +5843,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 13/11",
-      "daysLeft": 47,
+      "daysLeft": 44,
       "expirationDate": "2026-11-13",
       "packageExpirations": {
         "aoc": "2026-11-13"
@@ -7049,192 +5858,9 @@ const CATALOG_DATA = [
       "drm",
       "eur"
     ],
-    "synopsis": "Au milieu de l'été, Sasha, 30 ans, décède soudainement. Alors qu'ils se connaissent peu, son compagnon Lawrence et sa sœur Zoé se rapprochent. Ils partagent comme ils peuvent la peine et le poids de l'absence, entre Berlin, Paris et New York. Trois étés, trois villes, le temps de leur retour à la lumière, portés par le souvenir de celle qu'ils ont aimée."
-  },
-  {
-    "id": "jw-tm244518",
-    "titre": "Voir du pays",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Festival",
-    "annee": 2016,
-    "note_avis": 6.2,
-    "note_recence": 7.7,
-    "note_globale": 7,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/8811706/s592/voir-du-pays.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 42min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 102,
-    "etoiles": 4,
-    "raw_genres": [
-      "drm",
-      "war",
-      "eur"
-    ],
-    "synopsis": "Deux jeunes militaires, Aurore et Marine, reviennent d’Afghanistan. Avec leur section, elles vont passer trois jours à Chypre, dans un hôtel cinq étoiles, au milieu des touristes en vacances, pour ce que l’armée appelle un sas de décompression, où on va les aider à « oublier la guerre ». Mais on ne se libère pas de la violence si facilement…"
-  },
-  {
-    "id": "jw-tm162719",
-    "titre": "Les Neiges du Kilimandjaro",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Festival",
-    "annee": 2011,
-    "note_avis": 7.2,
-    "note_recence": 6.5,
-    "note_globale": 6.9,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/303435356/s592/les-neiges-du-kilimandjaro-2011.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 47min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 107,
-    "etoiles": 3,
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "synopsis": "Bien qu’ayant perdu son travail, Michel vit heureux avec Marie-Claire. Ces deux-là s’aiment depuis trente ans. Leurs enfants et leurs petits-enfants les comblent. Ils ont des amis très proches. Ils sont fiers de leurs combats syndicaux et politiques. Leurs consciences sont aussi transparentes que leurs regards. Ce bonheur va voler en éclats avec leur porte-fenêtre devant deux jeunes hommes armés et masqués qui les frappent, les attachent, leur arrachent leurs alliances, et s’enfuient avec leurs cartes de crédit… Leur désarroi sera d’autant plus violent lorsqu’ils apprennent que cette brutale agression a été organisée par l’un des jeunes ouvriers licenciés avec Michel."
-  },
-  {
-    "id": "jw-tm144569",
-    "titre": "Fish Tank",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Festival",
-    "annee": 2009,
-    "note_avis": 7.3,
-    "note_recence": 6.1,
-    "note_globale": 6.7,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/180858172/s592/fish-tank.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "2h 03min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 123,
-    "etoiles": 3,
-    "raw_genres": [
-      "drm"
-    ],
-    "synopsis": "A 15 ans, Mia est une adolescente rebelle avec une unique passion: la danse hip hop. Un jour d'été, sa mère rentre à la maison avec un nouvel amant, Connor, qui s'installe chez elles. Est-ce enfin une promesse de bonheur ou bien un leurre ?"
-  },
-  {
-    "id": "jw-tm49126",
-    "titre": "Hunger",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Festival",
-    "annee": 2008,
-    "note_avis": 7.5,
-    "note_recence": 5.8,
-    "note_globale": 6.7,
-    "categories": [
-      "thriller_policier"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/113678390/s592/hunger.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 36min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 96,
-    "etoiles": 3,
-    "raw_genres": [
-      "crm",
-      "drm",
-      "hst",
-      "trl",
-      "eur"
-    ],
-    "synopsis": "Prison de Maze, Irlande du Nord, 1981. Raymond Lohan est surveillant, affecté au sinistre Quartier H, celui des prisonniers politiques de l'IRA qui ont entamé le \"Blanket and No-Wash Protest\" pour témoigner leur colère.Le jeune Davey Gillen, qui vient d'être incarcéré, refuse de porter l'uniforme car il ne se considère pas comme un criminel de droit commun. Rejoignant le mouvement du Blanket Protest, il partage une cellule répugnante avec Gerry Campbell, autre détenu politique, qui lui montre comment communiquer avec l'extérieur grâce au leader Bobby Sands.Lorsque la direction de la prison propose aux détenus des vêtements civils, une émeute éclate. La violence fait tache d'huile et plus aucun gardien de prison n'est désormais en sécurité. Raymond Lohan est abattu d'une balle dans la tête."
+    "synopsis": "Au milieu de l'été, Sasha, 30 ans, décède soudainement. Alors qu'ils se connaissent peu, son compagnon Lawrence et sa sœur Zoé se rapprochent. Ils partagent comme ils peuvent la peine et le poids de l'absence, entre Berlin, Paris et New York. Trois étés, trois villes, le temps de leur retour à la lumière, portés par le souvenir de celle qu'ils ont aimée.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm152940",
@@ -7264,7 +5890,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/11",
-      "daysLeft": 40,
+      "daysLeft": 37,
       "expirationDate": "2026-11-06",
       "packageExpirations": {
         "aoc": "2026-11-06"
@@ -7281,7 +5907,9 @@ const CATALOG_DATA = [
       "rma",
       "eur"
     ],
-    "synopsis": "La tête pleine de rêves, Amélie, 20 ans, revient dans le Japon de son enfance. Elle propose des cours particuliers de français et rencontre Rinri, son premier et unique élève, un jeune Japonais qui devient bientôt son amant. A travers les surprises, bonheurs et déboires de ce choc culturel drôle et poétique, nous découvrons une Amélie toute en spontanéité et tendresse, qui allie la grâce d'un ikebana à l'espièglerie d'un personnage de manga."
+    "synopsis": "La tête pleine de rêves, Amélie, 20 ans, revient dans le Japon de son enfance. Elle propose des cours particuliers de français et rencontre Rinri, son premier et unique élève, un jeune Japonais qui devient bientôt son amant. A travers les surprises, bonheurs et déboires de ce choc culturel drôle et poétique, nous découvrons une Amélie toute en spontanéité et tendresse, qui allie la grâce d'un ikebana à l'espièglerie d'un personnage de manga.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm45399",
@@ -7311,7 +5939,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/10",
-      "daysLeft": 30,
+      "daysLeft": 27,
       "expirationDate": "2026-10-27",
       "packageExpirations": {
         "aoc": "2026-10-27"
@@ -7328,52 +5956,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Osborne Cox est un analyste à la CIA en difficulté. Sa femme, Katie, s'adonne peu à la compassion. Harry Pfarrer est un marshal fédéral assez porté sur le sexe. Linda Litzke et Chad Feldheimer sont employés du club de remise en forme Hardbodies Fitness. Et ils vont découvrir un CD appartenant à Osborne Cox, ce qui ne rassure pas le directeur de la salle de sport, Ted Treffon, qui est amoureux de Linda. Tout ce petit monde va se trouver mêlé pour des aventures trépidantes au cœur de quelques maux de la société américaine…"
-  },
-  {
-    "id": "jw-tm182141",
-    "titre": "17 filles",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Festival",
-    "annee": 2011,
-    "note_avis": 6.6,
-    "note_recence": 6.5,
-    "note_globale": 6.6,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/8811460/s592/17-filles.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 27min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 87,
-    "etoiles": 3,
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "synopsis": "Dans une petite ville au bord de l'océan, un groupe d'adolescentes décident de tomber enceintes en même temps. Les adultes n'y comprennent rien, pas plus que les garçons. Pourquoi ces filles, toutes scolarisées dans le même lycée, ont-elles décidé de faire un enfant ?  Ce film est inspiré d'un fait divers survenu en 2008."
+    "synopsis": "Osborne Cox est un analyste à la CIA en difficulté. Sa femme, Katie, s'adonne peu à la compassion. Harry Pfarrer est un marshal fédéral assez porté sur le sexe. Linda Litzke et Chad Feldheimer sont employés du club de remise en forme Hardbodies Fitness. Et ils vont découvrir un CD appartenant à Osborne Cox, ce qui ne rassure pas le directeur de la salle de sport, Ted Treffon, qui est amoureux de Linda. Tout ce petit monde va se trouver mêlé pour des aventures trépidantes au cœur de quelques maux de la société américaine…",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm105060",
@@ -7403,7 +5988,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/10",
-      "daysLeft": 33,
+      "daysLeft": 30,
       "expirationDate": "2026-10-30",
       "packageExpirations": {
         "aoc": "2026-10-30"
@@ -7418,7 +6003,9 @@ const CATALOG_DATA = [
       "drm",
       "eur"
     ],
-    "synopsis": "Août, Hauts de Seine, dans la banlieue Sud-Ouest de Paris, sept amis de 25 ans se retrouvent plus ou moins \"fortuitement\" à passer quelques jours dans cette ville qui les a vus grandir. Chacun a ses raisons d'être là : certains y vivent encore, d'autres y reviennent pour des raisons familiales, d'autres y cherchent des traces d'une adolescence tenace, d'autres pensent peut-être échapper au désoeuvrement ou y trouver l'amour... Pendant une semaine, nous les suivons de manière isolée et en groupe. Au détour des rues désertées de cette ville fantôme, alors que les journées filent sous le bleu profond du ciel d'août, chacun porte en lui l'intuition que ces moments partagés sont peut-être les derniers..."
+    "synopsis": "Août, Hauts de Seine, dans la banlieue Sud-Ouest de Paris, sept amis de 25 ans se retrouvent plus ou moins \"fortuitement\" à passer quelques jours dans cette ville qui les a vus grandir. Chacun a ses raisons d'être là : certains y vivent encore, d'autres y reviennent pour des raisons familiales, d'autres y cherchent des traces d'une adolescence tenace, d'autres pensent peut-être échapper au désoeuvrement ou y trouver l'amour... Pendant une semaine, nous les suivons de manière isolée et en groupe. Au détour des rues désertées de cette ville fantôme, alors que les journées filent sous le bleu profond du ciel d'août, chacun porte en lui l'intuition que ces moments partagés sont peut-être les derniers...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm453584",
@@ -7442,11 +6029,11 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_ocs.svg"
     ],
-    "duree": "2h 50min",
+    "duree": "2h 49min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/11",
-      "daysLeft": 43,
+      "daysLeft": 40,
       "expirationDate": "2026-11-09",
       "packageExpirations": {
         "aoc": "2026-11-09"
@@ -7455,13 +6042,15 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 170,
+    "runtime_minutes": 169,
     "etoiles": 5,
     "raw_genres": [
       "act",
       "trl"
     ],
-    "synopsis": "Ethan Hunt se rend à Londres avec son équipe dans l'espoir de remonter la piste du mystérieux Gabriel, qu'il a affronté deux mois auparavant à bord de l'Orient-Express et qui détient la clé contrôlant l’intelligence artificielle toute puissante surnommée l'Entité. Adulée par les uns, redoutée par les autres, l’Entité se distingue par sa capacité à prédire toutes les éventualités possibles. Elle connaît parfaitement les forces et faiblesses d’Ethan et de son équipe. Gabriel compte l'utiliser pour mettre en œuvre son plan ultime : annihiler Ethan et son équipe, s’emparer de tous les systèmes de défense planétaires et déclencher la Troisième Guerre mondiale."
+    "synopsis": "Ethan Hunt se rend à Londres avec son équipe dans l'espoir de remonter la piste du mystérieux Gabriel, qu'il a affronté deux mois auparavant à bord de l'Orient-Express et qui détient la clé contrôlant l’intelligence artificielle toute puissante surnommée l'Entité. Adulée par les uns, redoutée par les autres, l’Entité se distingue par sa capacité à prédire toutes les éventualités possibles. Elle connaît parfaitement les forces et faiblesses d’Ethan et de son équipe. Gabriel compte l'utiliser pour mettre en œuvre son plan ultime : annihiler Ethan et son équipe, s’emparer de tous les systèmes de défense planétaires et déclencher la Troisième Guerre mondiale.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1459469",
@@ -7489,7 +6078,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 68,
+      "daysLeft": 65,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
@@ -7505,53 +6094,9 @@ const CATALOG_DATA = [
       "hst",
       "trl"
     ],
-    "synopsis": "Le film se déroule lors des Jeux Olympiques de Munich de 1972 : l'équipe de télévision américaine se voit contrainte d'interrompre subitement la diffusion des compétitions, pour couvrir la prise d'otage en direct d'athlètes israéliens. Un évènement suivi à l'époque par environ un milliard de personnes dans le monde entier. Au cœur de l'histoire, l'ambitieux jeune producteur Geoff veut faire ses preuves et va se retrouver confronté aux dilemmes de l'information en continu et de la moralité."
-  },
-  {
-    "id": "jw-tm1159326",
-    "titre": "Le Maître et Marguerite",
-    "type": "film",
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "annee": 2024,
-    "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "poster": "https://images.justwatch.com/poster/320141846/s592/master-i-margarita.jpg",
-    "note_avis": 7.1,
-    "note_recence": 9.5,
-    "note_globale": 8.3,
-    "is_eligible": true,
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "badge": null,
-    "duree": "2h 37min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 157,
-    "etoiles": 5,
-    "raw_genres": [
-      "drm",
-      "fnt",
-      "hrr",
-      "trl",
-      "rma"
-    ],
-    "synopsis": "Dans un Moscou futuriste des années 1930, cette adaptation du roman de Boulgakov suit un écrivain célèbre, déchu après la censure de sa pièce sur Ponce Pilate. Rejeté, il rencontre Marguerite, une femme mariée qui devient sa muse et l'inspire à écrire un nouveau roman. Dans son récit, Satan visite Moscou et y provoque des événements surnaturels. Marguerite, transformée en sorcière, retrouve son amant après la mort, dans un ballet macabre entre réalité et magie."
+    "synopsis": "Le film se déroule lors des Jeux Olympiques de Munich de 1972 : l'équipe de télévision américaine se voit contrainte d'interrompre subitement la diffusion des compétitions, pour couvrir la prise d'otage en direct d'athlètes israéliens. Un évènement suivi à l'époque par environ un milliard de personnes dans le monde entier. Au cœur de l'histoire, l'ambitieux jeune producteur Geoff veut faire ses preuves et va se retrouver confronté aux dilemmes de l'information en continu et de la moralité.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1499459",
@@ -7579,7 +6124,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/11",
-      "daysLeft": 41,
+      "daysLeft": 38,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "aoc": "2026-11-07"
@@ -7593,7 +6138,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "drm"
     ],
-    "synopsis": "Une mère très imparfaite et une fille rancunière se sont séparées par un grand malentendu. Entre les deux, une autre femme, Ingrid, l'amie de la mère, est la dépositaire de leur douleur et de leur amertume. Martha, la mère, est reporter de guerre et Ingrid est une romancière autofictionnelle."
+    "synopsis": "Une mère très imparfaite et une fille rancunière se sont séparées par un grand malentendu. Entre les deux, une autre femme, Ingrid, l'amie de la mère, est la dépositaire de leur douleur et de leur amertume. Martha, la mère, est reporter de guerre et Ingrid est une romancière autofictionnelle.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1354880",
@@ -7621,7 +6168,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 55,
+      "daysLeft": 52,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
@@ -7637,7 +6184,9 @@ const CATALOG_DATA = [
       "fnt",
       "msc"
     ],
-    "synopsis": "Dans le nord de l’Angleterre, le jeune Robbie grandit fasciné par les rêves de gloire de son père qui ne tarde pas à quitter le foyer pour vivre sa passion. Porté par l’amour de sa grand-mère, c’est pourtant Robbie qui va devenir un véritable showman et une star mondiale. Désormais icône internationale, il devra affronter les défis que le succès, la célébrité et la vie elle-même lui réservent."
+    "synopsis": "Dans le nord de l’Angleterre, le jeune Robbie grandit fasciné par les rêves de gloire de son père qui ne tarde pas à quitter le foyer pour vivre sa passion. Porté par l’amour de sa grand-mère, c’est pourtant Robbie qui va devenir un véritable showman et une star mondiale. Désormais icône internationale, il devra affronter les défis que le succès, la célébrité et la vie elle-même lui réservent.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1355255",
@@ -7665,7 +6214,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/11",
-      "daysLeft": 35,
+      "daysLeft": 32,
       "expirationDate": "2026-11-01",
       "packageExpirations": {
         "aoc": "2026-11-01"
@@ -7681,7 +6230,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "En pleine représentation de la pièce « Le Cocu », un très mauvais boulevard, Yannick se lève et interrompt le spectacle pour reprendre la soirée en main."
+    "synopsis": "En pleine représentation de la pièce « Le Cocu », un très mauvais boulevard, Yannick se lève et interrompt le spectacle pour reprendre la soirée en main.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1274881",
@@ -7707,9 +6258,9 @@ const CATALOG_DATA = [
     ],
     "duree": "1h 45min",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 14/10",
-      "daysLeft": 17,
+      "status": "warning",
+      "label": "⏳ Expire dans 14 j",
+      "daysLeft": 14,
       "expirationDate": "2026-10-14",
       "packageExpirations": {
         "aoc": "2026-10-14"
@@ -7724,7 +6275,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Quand Blanche croise le chemin de Grégoire, elle pense rencontrer celui qu’elle cherche. Les liens qui les unissent se tissent rapidement et leur histoire se construit dans l’emportement. Le couple déménage, Blanche s’éloigne de sa famille, de sa sœur jumelle, s’ouvre à une nouvelle vie. Mais fil après fil, elle se retrouve sous l’emprise d’un homme possessif et dangereux."
+    "synopsis": "Quand Blanche croise le chemin de Grégoire, elle pense rencontrer celui qu’elle cherche. Les liens qui les unissent se tissent rapidement et leur histoire se construit dans l’emportement. Le couple déménage, Blanche s’éloigne de sa famille, de sa sœur jumelle, s’ouvre à une nouvelle vie. Mais fil après fil, elle se retrouve sous l’emprise d’un homme possessif et dangereux.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1523749",
@@ -7752,7 +6305,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 75,
+      "daysLeft": 72,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
@@ -7766,7 +6319,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "drm"
     ],
-    "synopsis": "Dans un dialogue amical et passionné, le docteur Augustin Masset et l’écrivain Fabrice Toussaint se confrontent pour l’un à la fin de vie de ses patients et pour l’autre à sa propre fatalité. Emportés par un tourbillon de visites et de rencontres, tous deux démarrent un voyage sensible entre rires et larmes : une aventure humaine au cœur de notre vie à tous."
+    "synopsis": "Dans un dialogue amical et passionné, le docteur Augustin Masset et l’écrivain Fabrice Toussaint se confrontent pour l’un à la fin de vie de ses patients et pour l’autre à sa propre fatalité. Emportés par un tourbillon de visites et de rencontres, tous deux démarrent un voyage sensible entre rires et larmes : une aventure humaine au cœur de notre vie à tous.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1649488",
@@ -7794,7 +6349,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 48,
+      "daysLeft": 45,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -7809,7 +6364,9 @@ const CATALOG_DATA = [
       "drm",
       "hst"
     ],
-    "synopsis": "À la fin de la Première Guerre mondiale, alors que l’Italie enterre son soldat inconnu, la grande Eleonora Duse arrive au terme d’une carrière légendaire. Mais malgré son âge et une santé fragile, celle que beaucoup considèrent comme la plus grande actrice de son époque, décide de remonter sur scène. Les récriminations de sa fille, la relation complexe avec le grand poète D’Annunzio, la montée du fascisme et l’arrivée au pouvoir de Mussolini, rien n’arrêtera Duse « la divine »."
+    "synopsis": "À la fin de la Première Guerre mondiale, alors que l’Italie enterre son soldat inconnu, la grande Eleonora Duse arrive au terme d’une carrière légendaire. Mais malgré son âge et une santé fragile, celle que beaucoup considèrent comme la plus grande actrice de son époque, décide de remonter sur scène. Les récriminations de sa fille, la relation complexe avec le grand poète D’Annunzio, la montée du fascisme et l’arrivée au pouvoir de Mussolini, rien n’arrêtera Duse « la divine ».",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1614987",
@@ -7837,7 +6394,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/01",
-      "daysLeft": 109,
+      "daysLeft": 106,
       "expirationDate": "2027-01-14",
       "packageExpirations": {
         "aoc": "2027-01-14"
@@ -7852,7 +6409,9 @@ const CATALOG_DATA = [
       "drm",
       "rma"
     ],
-    "synopsis": "Ayant grandi dans un environnement ravagé par la violence et l’alcool, la jeune Lidia peine à trouver sa voie. Elle parvient à fuir sa famille et entre à l’université, où elle trouve refuge dans la littérature. Peu à peu, les mots lui offrent une liberté inattendue…"
+    "synopsis": "Ayant grandi dans un environnement ravagé par la violence et l’alcool, la jeune Lidia peine à trouver sa voie. Elle parvient à fuir sa famille et entre à l’université, où elle trouve refuge dans la littérature. Peu à peu, les mots lui offrent une liberté inattendue…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1491686",
@@ -7880,7 +6439,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 48,
+      "daysLeft": 45,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -7896,7 +6455,9 @@ const CATALOG_DATA = [
       "hst",
       "war"
     ],
-    "synopsis": "Liban, 1982. Pour respecter la promesse faite à un vieil ami, Georges se rend à Beyrouth pour un projet aussi utopique que risqué : mettre en scène Antigone afin de voler un moment de paix au cœur d’un conflit fratricide. Les personnages seront interprétés par des acteurs venant des différents camps politiques et religieux."
+    "synopsis": "Liban, 1982. Pour respecter la promesse faite à un vieil ami, Georges se rend à Beyrouth pour un projet aussi utopique que risqué : mettre en scène Antigone afin de voler un moment de paix au cœur d’un conflit fratricide. Les personnages seront interprétés par des acteurs venant des différents camps politiques et religieux.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1040743",
@@ -7924,7 +6485,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/10",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-10-25",
       "packageExpirations": {
         "aoc": "2026-10-25"
@@ -7940,7 +6501,9 @@ const CATALOG_DATA = [
       "trl",
       "rma"
     ],
-    "synopsis": "Kya est une petite fille abandonnée qui a grandi seule dans les dangereux marécages de Caroline du Nord. Pendant des années, les rumeurs les plus folles ont couru sur la « fille des marais » de Barkley Cove, isolant encore davantage la sensible et résiliente Kya de la communauté. Sa rencontre avec deux jeunes hommes de la ville ouvre à Kya un monde nouveau et effrayant ; mais lorsque l'un d'eux est retrouvé mort, toute la communauté la considère immédiatement comme la principale suspect. À mesure que la vérité sur les évènements se dessine, les réponses menacent de révéler les nombreux secrets enfouis dans les marécages."
+    "synopsis": "Kya est une petite fille abandonnée qui a grandi seule dans les dangereux marécages de Caroline du Nord. Pendant des années, les rumeurs les plus folles ont couru sur la « fille des marais » de Barkley Cove, isolant encore davantage la sensible et résiliente Kya de la communauté. Sa rencontre avec deux jeunes hommes de la ville ouvre à Kya un monde nouveau et effrayant ; mais lorsque l'un d'eux est retrouvé mort, toute la communauté la considère immédiatement comme la principale suspect. À mesure que la vérité sur les évènements se dessine, les réponses menacent de révéler les nombreux secrets enfouis dans les marécages.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1125206",
@@ -7968,7 +6531,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 95,
+      "daysLeft": 92,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -7983,7 +6546,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Dans une luxueuse villa en bord de mer, une jeune femme modeste retrouve une étrange famille : un père inconnu et très riche, son épouse fantasque, sa fille, une femme d’affaires ambitieuse, une ado rebelle ainsi qu’une inquiétante servante.  Quelqu’un ment.  Entre suspicions et mensonges, le mystère s’installe et le mal se répand…"
+    "synopsis": "Dans une luxueuse villa en bord de mer, une jeune femme modeste retrouve une étrange famille : un père inconnu et très riche, son épouse fantasque, sa fille, une femme d’affaires ambitieuse, une ado rebelle ainsi qu’une inquiétante servante.  Quelqu’un ment.  Entre suspicions et mensonges, le mystère s’installe et le mal se répand…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1431001",
@@ -8011,7 +6576,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/10",
-      "daysLeft": 19,
+      "daysLeft": 16,
       "expirationDate": "2026-10-16",
       "packageExpirations": {
         "aoc": "2026-10-16"
@@ -8026,7 +6591,9 @@ const CATALOG_DATA = [
       "cmy",
       "drm"
     ],
-    "synopsis": "Florence veut présenter David, l'homme dont elle est follement amoureuse, à son père Guillaume. Mais David n'est pas attiré par Florence et souhaite s'en débarrasser en la jetant dans les bras de son ami Willy.  Les quatre personnages se retrouvent dans un restaurant au milieu de nulle part."
+    "synopsis": "Florence veut présenter David, l'homme dont elle est follement amoureuse, à son père Guillaume. Mais David n'est pas attiré par Florence et souhaite s'en débarrasser en la jetant dans les bras de son ami Willy.  Les quatre personnages se retrouvent dans un restaurant au milieu de nulle part.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1480763",
@@ -8054,7 +6621,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 13/11",
-      "daysLeft": 47,
+      "daysLeft": 44,
       "expirationDate": "2026-11-13",
       "packageExpirations": {
         "aoc": "2026-11-13"
@@ -8069,50 +6636,9 @@ const CATALOG_DATA = [
       "drm",
       "fnt"
     ],
-    "synopsis": "La vie de Parthénope de sa naissance dans les années 1950 à nos jours. Une épopée féminine dépourvue d’héroïsme mais éprise de liberté, de Naples, et d’amour. Les amours vraies, indicibles ou sans lendemain qui vous condamnent à la douleur mais qui vous font recommencer. Le parfait été à Capri d’une jeunesse insouciante malgré un horizon sans issue. Autour de Parthénope, les napolitains."
-  },
-  {
-    "id": "jw-tm1621852",
-    "titre": "Fuori",
-    "type": "film",
-    "categories": [
-      "drame_emotion"
-    ],
-    "annee": 2025,
-    "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "poster": "https://images.justwatch.com/poster/344086386/s592/fuori.jpg",
-    "note_avis": 6,
-    "note_recence": 9.8,
-    "note_globale": 7.9,
-    "is_eligible": true,
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "badge": null,
-    "duree": "1h 57min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 2 j",
-      "daysLeft": 2,
-      "expirationDate": "2026-09-29",
-      "packageExpirations": {
-        "aoc": "2026-09-29"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 117,
-    "etoiles": 4,
-    "raw_genres": [
-      "drm",
-      "hst"
-    ],
-    "synopsis": "Rome. Années 80. Goliarda Sapienza travaille depuis 10 ans sur ce qui sera son chef-d'œuvre \"L'Art de la joie\". Mais son manuscrit est rejeté par toutes les maisons d'édition. Désespérée, Sapienza commet un vol qui lui coûte sa réputation et sa position sociale. Incarcérée dans la plus grande prison pour femmes d'Italie, elle va y rencontrer voleuses, junkies, prostituées mais aussi des politiques. Après sa libération, elle continue à rencontrer ces femmes et développe avec l'une d'entre elle une relation qui lui redonnera le désir de vivre et d'écrire."
+    "synopsis": "La vie de Parthénope de sa naissance dans les années 1950 à nos jours. Une épopée féminine dépourvue d’héroïsme mais éprise de liberté, de Naples, et d’amour. Les amours vraies, indicibles ou sans lendemain qui vous condamnent à la douleur mais qui vous font recommencer. Le parfait été à Capri d’une jeunesse insouciante malgré un horizon sans issue. Autour de Parthénope, les napolitains.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1541236",
@@ -8140,7 +6666,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 48,
+      "daysLeft": 45,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -8157,7 +6683,9 @@ const CATALOG_DATA = [
       "drm",
       "scf"
     ],
-    "synopsis": "Paul, un homme ordinaire, qui partage sa vie entre son entreprise de construction navale, sa femme Élise, et leur fille Mia. Lors d’une sortie en mer, Paul se retrouve confronté à un étrange phénomène météorologique inexpliqué. Dès lors, Paul rétrécit inexorablement, sans que la science ne puisse lui expliquer pourquoi ni lui être d’aucun secours. Quand, par accident, il se retrouve prisonnier dans sa propre cave, et alors qu’il ne mesure plus que quelques centimètres, il va devoir se battre pour survivre dans cet environnement banal devenu hostile. Paul va se retrouver confronté à lui-même, à sa force vitale, celle qui le pousse à continuer à vivre et avancer vers le mystère."
+    "synopsis": "Paul, un homme ordinaire, qui partage sa vie entre son entreprise de construction navale, sa femme Élise, et leur fille Mia. Lors d’une sortie en mer, Paul se retrouve confronté à un étrange phénomène météorologique inexpliqué. Dès lors, Paul rétrécit inexorablement, sans que la science ne puisse lui expliquer pourquoi ni lui être d’aucun secours. Quand, par accident, il se retrouve prisonnier dans sa propre cave, et alors qu’il ne mesure plus que quelques centimètres, il va devoir se battre pour survivre dans cet environnement banal devenu hostile. Paul va se retrouver confronté à lui-même, à sa force vitale, celle qui le pousse à continuer à vivre et avancer vers le mystère.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1622508",
@@ -8185,7 +6713,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/12",
-      "daysLeft": 66,
+      "daysLeft": 63,
       "expirationDate": "2026-12-02",
       "packageExpirations": {
         "aoc": "2026-12-02"
@@ -8202,7 +6730,9 @@ const CATALOG_DATA = [
       "hst",
       "trl"
     ],
-    "synopsis": "Union Soviétique, 1937. Des milliers de lettres de détenus accusés à tort par le régime sont brûlées dans une cellule de prison. Contre toute attente, l’une d’entre elles arrive à destination, sur le bureau du procureur local fraîchement nommé, Alexander Kornev. Il se démène pour rencontrer le prisonnier, victime d’agents de la police secrète, la NKVD. Bolchévique chevronné et intègre, le jeune procureur croit à un dysfonctionnement. Sa quête de justice le conduira jusqu’au bureau du procureur-général à Moscou. A l’heure des grandes purges staliniennes, c’est la plongée d’un homme dans un régime totalitaire qui ne dit pas son nom."
+    "synopsis": "Union Soviétique, 1937. Des milliers de lettres de détenus accusés à tort par le régime sont brûlées dans une cellule de prison. Contre toute attente, l’une d’entre elles arrive à destination, sur le bureau du procureur local fraîchement nommé, Alexander Kornev. Il se démène pour rencontrer le prisonnier, victime d’agents de la police secrète, la NKVD. Bolchévique chevronné et intègre, le jeune procureur croit à un dysfonctionnement. Sa quête de justice le conduira jusqu’au bureau du procureur-général à Moscou. A l’heure des grandes purges staliniennes, c’est la plongée d’un homme dans un régime totalitaire qui ne dit pas son nom.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1676774",
@@ -8230,7 +6760,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/12",
-      "daysLeft": 92,
+      "daysLeft": 89,
       "expirationDate": "2026-12-28",
       "packageExpirations": {
         "aoc": "2026-12-28"
@@ -8245,7 +6775,9 @@ const CATALOG_DATA = [
       "drm",
       "hst"
     ],
-    "synopsis": "1815. Jean Valjean sort du bagne, brisé, rejeté de tous. Errant sans but, il trouve refuge chez un homme d’Église, sa sœur et leur servante. Face à cette main tendue, Jean Valjean vacille et, dans cette nuit suspendue, devra choisir qui il veut devenir."
+    "synopsis": "1815. Jean Valjean sort du bagne, brisé, rejeté de tous. Errant sans but, il trouve refuge chez un homme d’Église, sa sœur et leur servante. Face à cette main tendue, Jean Valjean vacille et, dans cette nuit suspendue, devra choisir qui il veut devenir.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1557119",
@@ -8273,7 +6805,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 20/10",
-      "daysLeft": 23,
+      "daysLeft": 20,
       "expirationDate": "2026-10-20",
       "packageExpirations": {
         "aoc": "2026-10-20"
@@ -8288,7 +6820,9 @@ const CATALOG_DATA = [
       "cmy",
       "drm"
     ],
-    "synopsis": "A la suite d’un accident de voiture, Suzanne perd la garde de ses trois enfants. Elle n’a plus le choix et doit se soigner dans un centre pour alcooliques. A peine arrivée, elle y rencontre Alice et Diane, deux femmes au caractère bien trempé… Denis, éducateur sportif, va tenter de les réunir autour du même objectif : participer au rallye des Dunes dans le désert marocain. Il devra s’armer de beaucoup de patience et de pédagogie pour préparer cette improbable équipage à atteindre son objectif."
+    "synopsis": "A la suite d’un accident de voiture, Suzanne perd la garde de ses trois enfants. Elle n’a plus le choix et doit se soigner dans un centre pour alcooliques. A peine arrivée, elle y rencontre Alice et Diane, deux femmes au caractère bien trempé… Denis, éducateur sportif, va tenter de les réunir autour du même objectif : participer au rallye des Dunes dans le désert marocain. Il devra s’armer de beaucoup de patience et de pédagogie pour préparer cette improbable équipage à atteindre son objectif.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1621855",
@@ -8316,7 +6850,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 20/10",
-      "daysLeft": 23,
+      "daysLeft": 20,
       "expirationDate": "2026-10-20",
       "packageExpirations": {
         "aoc": "2026-10-20"
@@ -8330,7 +6864,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "drm"
     ],
-    "synopsis": "À Londres, Mike vit dans la rue, il va de petits boulots en larcins, jusqu'au jour où il se fait incarcérer. À sa sortie de prison, aidé par les services sociaux, il tente de reprendre sa vie en main en combattant ses vieux démons."
+    "synopsis": "À Londres, Mike vit dans la rue, il va de petits boulots en larcins, jusqu'au jour où il se fait incarcérer. À sa sortie de prison, aidé par les services sociaux, il tente de reprendre sa vie en main en combattant ses vieux démons.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1530728",
@@ -8358,7 +6894,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 48,
+      "daysLeft": 45,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -8372,7 +6908,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "drm"
     ],
-    "synopsis": "Sarah et Antoine sont au bord de la rupture, fragilisés par un quotidien surchargé, entre le travail et leurs deux enfants. Un jour, Simon, l’aîné, confie à sa mère entendre des voix. Si Antoine peine à prendre la mesure du problème, Sarah décide de soutenir son fils. Jusqu’où sera-t-elle prête à aller par amour ?"
+    "synopsis": "Sarah et Antoine sont au bord de la rupture, fragilisés par un quotidien surchargé, entre le travail et leurs deux enfants. Un jour, Simon, l’aîné, confie à sa mère entendre des voix. Si Antoine peine à prendre la mesure du problème, Sarah décide de soutenir son fils. Jusqu’où sera-t-elle prête à aller par amour ?",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1622500",
@@ -8400,7 +6938,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 78,
+      "daysLeft": 75,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "aoc": "2026-12-14"
@@ -8415,7 +6953,9 @@ const CATALOG_DATA = [
       "drm",
       "rma"
     ],
-    "synopsis": "Fatima, 17 ans, est la petite dernière. Elle vit en banlieue avec ses sœurs, dans une famille joyeuse et aimante. Bonne élève, elle intègre une fac de philosophie à Paris et découvre un tout nouveau monde. Alors que débute sa vie de jeune femme, elle s’émancipe de sa famille et ses traditions. Fatima se met alors à questionner son identité. Comment concilier sa foi avec ses désirs naissants ?"
+    "synopsis": "Fatima, 17 ans, est la petite dernière. Elle vit en banlieue avec ses sœurs, dans une famille joyeuse et aimante. Bonne élève, elle intègre une fac de philosophie à Paris et découvre un tout nouveau monde. Alors que débute sa vie de jeune femme, elle s’émancipe de sa famille et ses traditions. Fatima se met alors à questionner son identité. Comment concilier sa foi avec ses désirs naissants ?",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1587740",
@@ -8443,7 +6983,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/12",
-      "daysLeft": 67,
+      "daysLeft": 64,
       "expirationDate": "2026-12-03",
       "packageExpirations": {
         "aoc": "2026-12-03"
@@ -8458,7 +6998,9 @@ const CATALOG_DATA = [
       "cmy",
       "drm"
     ],
-    "synopsis": "Christophe, 9 ans, vit les événements de mai 68, planqué chez ses grands-parents, dans l’appartement familial à Paris, entouré de ses oncles et de son arrière-grand-mère. Tous bivouaquent autour d’une mystérieuse cache, qui révèlera peu à peu ses secrets…"
+    "synopsis": "Christophe, 9 ans, vit les événements de mai 68, planqué chez ses grands-parents, dans l’appartement familial à Paris, entouré de ses oncles et de son arrière-grand-mère. Tous bivouaquent autour d’une mystérieuse cache, qui révèlera peu à peu ses secrets…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1486490",
@@ -8486,7 +7028,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/12",
-      "daysLeft": 73,
+      "daysLeft": 70,
       "expirationDate": "2026-12-09",
       "packageExpirations": {
         "aoc": "2026-12-09"
@@ -8501,7 +7043,9 @@ const CATALOG_DATA = [
       "cmy",
       "msc"
     ],
-    "synopsis": "Yvonne Nguyen, jeune femme d’origine vietnamienne, rêve d’une carrière dans la comédie musicale au grand dam de sa mère qui préférerait la voir reprendre son restaurant en banlieue. L’intimité de la cuisine, entre plats familiaux et recettes traditionnelles, leur permettra-t-elle enfin de communiquer, se comprendre et s’accepter ?"
+    "synopsis": "Yvonne Nguyen, jeune femme d’origine vietnamienne, rêve d’une carrière dans la comédie musicale au grand dam de sa mère qui préférerait la voir reprendre son restaurant en banlieue. L’intimité de la cuisine, entre plats familiaux et recettes traditionnelles, leur permettra-t-elle enfin de communiquer, se comprendre et s’accepter ?",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm243734",
@@ -8529,7 +7073,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -8546,7 +7090,9 @@ const CATALOG_DATA = [
       "trl",
       "eur"
     ],
-    "synopsis": "Pendant les 12 années qu'elle dura, l'Affaire Dreyfus déchira la France, provoquant un véritable séisme dans le monde entier. Dans cet immense scandale, le plus grand sans doute de la fin du XIXe siècle, se mêlent erreur judiciaire, déni de justice et antisémitisme. L'affaire est racontée du point de vue du Colonel Picquart qui, une fois nommé à la tête du contre-espionnage, va découvrir que les preuves contre le Capitaine Alfred Dreyfus avaient été fabriquées. À partir de cet instant et au péril de sa carrière puis de sa vie, il n'aura de cesse d'identifier les vrais coupables et de réhabiliter Alfred Dreyfus."
+    "synopsis": "Pendant les 12 années qu'elle dura, l'Affaire Dreyfus déchira la France, provoquant un véritable séisme dans le monde entier. Dans cet immense scandale, le plus grand sans doute de la fin du XIXe siècle, se mêlent erreur judiciaire, déni de justice et antisémitisme. L'affaire est racontée du point de vue du Colonel Picquart qui, une fois nommé à la tête du contre-espionnage, va découvrir que les preuves contre le Capitaine Alfred Dreyfus avaient été fabriquées. À partir de cet instant et au péril de sa carrière puis de sa vie, il n'aura de cesse d'identifier les vrais coupables et de réhabiliter Alfred Dreyfus.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm469231",
@@ -8574,7 +7120,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -8592,7 +7138,9 @@ const CATALOG_DATA = [
       "rma",
       "eur"
     ],
-    "synopsis": "Victor, un sexagénaire désabusé, voit sa vie bouleversée le jour où Antoine, un brillant entrepreneur, lui propose une attraction d’un genre nouveau: mélangeant artifices théâtraux et reconstitution historique, cette entreprise propose à ses clients de replonger dans l’époque de leur choix. Victor choisit alors de revivre la semaine la plus marquante de sa vie: celle où, 40 ans plus tôt, il rencontra le grand amour..."
+    "synopsis": "Victor, un sexagénaire désabusé, voit sa vie bouleversée le jour où Antoine, un brillant entrepreneur, lui propose une attraction d’un genre nouveau: mélangeant artifices théâtraux et reconstitution historique, cette entreprise propose à ses clients de replonger dans l’époque de leur choix. Victor choisit alors de revivre la semaine la plus marquante de sa vie: celle où, 40 ans plus tôt, il rencontra le grand amour...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1517399",
@@ -8620,7 +7168,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 68,
+      "daysLeft": 65,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
@@ -8636,7 +7184,9 @@ const CATALOG_DATA = [
       "hst",
       "msc"
     ],
-    "synopsis": "Paris, automne 1977. Après quatre ans d'absence, la cantatrice Maria Callas envisage un retour sur scène. Et ce, malgré sa voix déclinante, aggravée par sa prise excessive de médicaments et son refus de s'alimenter. Refusant obstinément de voir un médecin, la diva gréco-américaine préfère accorder une entrevue à un aspirant cinéaste. L'entretien donne ainsi l'occasion à Maria de revisiter les moments charnières de sa vie. À commencer par son adolescence en Grèce occupée, alors que sa mère entremetteuse l'obligeait à chanter pour des officiers SS. Jusqu'à son histoire d'amour avec l'armateur Aristote Onassis, qui se soldera par le départ de ce dernier avec la veuve du président américain John F. Kennedy."
+    "synopsis": "Paris, automne 1977. Après quatre ans d'absence, la cantatrice Maria Callas envisage un retour sur scène. Et ce, malgré sa voix déclinante, aggravée par sa prise excessive de médicaments et son refus de s'alimenter. Refusant obstinément de voir un médecin, la diva gréco-américaine préfère accorder une entrevue à un aspirant cinéaste. L'entretien donne ainsi l'occasion à Maria de revisiter les moments charnières de sa vie. À commencer par son adolescence en Grèce occupée, alors que sa mère entremetteuse l'obligeait à chanter pour des officiers SS. Jusqu'à son histoire d'amour avec l'armateur Aristote Onassis, qui se soldera par le départ de ce dernier avec la veuve du président américain John F. Kennedy.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm854098",
@@ -8664,7 +7214,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/10",
-      "daysLeft": 30,
+      "daysLeft": 27,
       "expirationDate": "2026-10-27",
       "packageExpirations": {
         "aoc": "2026-10-27"
@@ -8679,7 +7229,9 @@ const CATALOG_DATA = [
       "cmy",
       "drm"
     ],
-    "synopsis": "Lorsque Suze Trappet apprend à 43 ans qu'elle est sérieusement malade, elle décide de partir à la recherche de l'enfant qu'elle a été forcée d'abandonner quand elle avait 15 ans. Sa quête administrative va lui faire croiser JB, quinquagénaire en plein burn out, et M. Blin, archiviste aveugle d'un enthousiasme impressionnant.  À eux trois, ils se lancent dans une quête aussi spectaculaire qu'improbable."
+    "synopsis": "Lorsque Suze Trappet apprend à 43 ans qu'elle est sérieusement malade, elle décide de partir à la recherche de l'enfant qu'elle a été forcée d'abandonner quand elle avait 15 ans. Sa quête administrative va lui faire croiser JB, quinquagénaire en plein burn out, et M. Blin, archiviste aveugle d'un enthousiasme impressionnant.  À eux trois, ils se lancent dans une quête aussi spectaculaire qu'improbable.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1334396",
@@ -8707,7 +7259,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/12",
-      "daysLeft": 76,
+      "daysLeft": 73,
       "expirationDate": "2026-12-12",
       "packageExpirations": {
         "aoc": "2026-12-12"
@@ -8722,7 +7274,9 @@ const CATALOG_DATA = [
       "cmy",
       "drm"
     ],
-    "synopsis": "Marc s'enfuit avec toute son équipe dans un petit village des Cévennes pour finir son film chez sa tante Denise. Sur place, sa créativité se manifeste par un million d'idées qui le plongent dans un drôle de chaos. Marc se lance alors dans l’écriture du Livre des Solutions, un guide de conseils pratiques qui pourrait bien être la solution à tous ses problèmes…"
+    "synopsis": "Marc s'enfuit avec toute son équipe dans un petit village des Cévennes pour finir son film chez sa tante Denise. Sur place, sa créativité se manifeste par un million d'idées qui le plongent dans un drôle de chaos. Marc se lance alors dans l’écriture du Livre des Solutions, un guide de conseils pratiques qui pourrait bien être la solution à tous ses problèmes…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1497308",
@@ -8750,7 +7304,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/11",
-      "daysLeft": 63,
+      "daysLeft": 60,
       "expirationDate": "2026-11-29",
       "packageExpirations": {
         "aoc": "2026-11-29"
@@ -8764,7 +7318,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "cmy"
     ],
-    "synopsis": "Yann n’a qu’un seul rêve dans la vie : voyager. Alors, quand il entend dire que le fameux guide du Routard recrute des gens pour faire le tour du monde, il se présente immédiatement à l’entretien et se fait embaucher. Sa première mission : Marrakech, 40 adresses à vérifier en 5 jours. Mais Yann a oublié de mentionner un petit détail lors de son entretien : il n’a jamais voyagé de sa vie. Ce qui lui semblait être au premier abord le \"meilleur job du monde\" va se révéler beaucoup moins idyllique que prévu…"
+    "synopsis": "Yann n’a qu’un seul rêve dans la vie : voyager. Alors, quand il entend dire que le fameux guide du Routard recrute des gens pour faire le tour du monde, il se présente immédiatement à l’entretien et se fait embaucher. Sa première mission : Marrakech, 40 adresses à vérifier en 5 jours. Mais Yann a oublié de mentionner un petit détail lors de son entretien : il n’a jamais voyagé de sa vie. Ce qui lui semblait être au premier abord le \"meilleur job du monde\" va se révéler beaucoup moins idyllique que prévu…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1561453",
@@ -8777,7 +7333,7 @@ const CATALOG_DATA = [
     "chaine": "Ciné+ OCS",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/326922177/s592/le-secret-de-kheops.jpg",
-    "note_avis": 5.4,
+    "note_avis": 5.3,
     "note_recence": 9.8,
     "note_globale": 7.6,
     "is_eligible": true,
@@ -8792,7 +7348,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/01",
-      "daysLeft": 99,
+      "daysLeft": 96,
       "expirationDate": "2027-01-04",
       "packageExpirations": {
         "aoc": "2027-01-04"
@@ -8806,14 +7362,16 @@ const CATALOG_DATA = [
     "raw_genres": [
       "cmy"
     ],
-    "synopsis": "Le trésor du pharaon Khéops a-t-il été découvert pendant la campagne d’Égypte de Napoléon, ramené en France, puis caché à Paris ? Christian Robinson, archéologue flamboyant aux méthodes peu orthodoxes, en est persuadé depuis la découverte d’une mystérieuse inscription lors de nouvelles fouilles au Caire. Bien décidé à déchiffrer les indices laissés par Dominique Vivant Denon, le premier directeur du Louvre, Christian Robinson embarque dans son aventure sa fille et son petit-fils. Cette quête du trésor de Khéops, à Paris, est aussi l’histoire de leur réconciliation."
+    "synopsis": "Le trésor du pharaon Khéops a-t-il été découvert pendant la campagne d’Égypte de Napoléon, ramené en France, puis caché à Paris ? Christian Robinson, archéologue flamboyant aux méthodes peu orthodoxes, en est persuadé depuis la découverte d’une mystérieuse inscription lors de nouvelles fouilles au Caire. Bien décidé à déchiffrer les indices laissés par Dominique Vivant Denon, le premier directeur du Louvre, Christian Robinson embarque dans son aventure sa fille et son petit-fils. Cette quête du trésor de Khéops, à Paris, est aussi l’histoire de leur réconciliation.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1495401",
     "titre": "L'Amour c'est surcoté",
     "type": "film",
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
@@ -8830,11 +7388,11 @@ const CATALOG_DATA = [
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
-    "duree": "1h 37min",
+    "duree": "1h 38min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/11",
-      "daysLeft": 56,
+      "daysLeft": 53,
       "expirationDate": "2026-11-22",
       "packageExpirations": {
         "aoc": "2026-11-22"
@@ -8843,14 +7401,15 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 97,
+    "runtime_minutes": 98,
     "etoiles": 5,
     "raw_genres": [
       "cmy",
-      "drm",
       "rma"
     ],
-    "synopsis": "Diagnostiqué “nul avec les meufs” depuis son plus jeune âge, Anis mène une existence charnelle placée sous le signe du calme plat. Trois ans jour pour jour après la perte d’Isma, son meilleur ami et mentor, il prend son courage à deux mains et se décide enfin à sortir faire de nouvelles rencontres. Sauf qu’en abordant Madeleine, Anis ignore que débute une grande aventure. Un truc inattendu."
+    "synopsis": "Diagnostiqué “nul avec les meufs” depuis son plus jeune âge, Anis mène une existence charnelle placée sous le signe du calme plat. Trois ans jour pour jour après la perte d’Isma, son meilleur ami et mentor, il prend son courage à deux mains et se décide enfin à sortir faire de nouvelles rencontres. Sauf qu’en abordant Madeleine, Anis ignore que débute une grande aventure. Un truc inattendu.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1587315",
@@ -8878,7 +7437,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/12",
-      "daysLeft": 67,
+      "daysLeft": 64,
       "expirationDate": "2026-12-03",
       "packageExpirations": {
         "aoc": "2026-12-03"
@@ -8893,7 +7452,9 @@ const CATALOG_DATA = [
       "cmy",
       "drm"
     ],
-    "synopsis": "Simone, une flic aux idées conservatrices, est infiltrée dans un collectif féministe qu'elle suspecte de complicité de meurtre. À leur contact, Simone s’ouvre progressivement à leurs idées. Mais lorsqu’elle est soupçonnée par le groupe d'être une taupe, elle se sert du premier venu pour se couvrir."
+    "synopsis": "Simone, une flic aux idées conservatrices, est infiltrée dans un collectif féministe qu'elle suspecte de complicité de meurtre. À leur contact, Simone s’ouvre progressivement à leurs idées. Mais lorsqu’elle est soupçonnée par le groupe d'être une taupe, elle se sert du premier venu pour se couvrir.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1583419",
@@ -8920,8 +7481,8 @@ const CATALOG_DATA = [
     "duree": "1h 42min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 14 j",
-      "daysLeft": 14,
+      "label": "⏳ Expire dans 11 j",
+      "daysLeft": 11,
       "expirationDate": "2026-10-11",
       "packageExpirations": {
         "aoc": "2026-10-11"
@@ -8937,7 +7498,9 @@ const CATALOG_DATA = [
       "drm",
       "msc"
     ],
-    "synopsis": "Astrid Carlson parvient enfin à réaliser le rêve de son père : réunir quatre Stradivarius pour un concert unique attendu par les mélomanes du monde entier. Mais Lise, George, Peter et Apolline, les quatre virtuoses recrutés pour l’occasion, sont incapables de jouer ensemble. Les crises d’égo se succèdent au rythme des répétitions. Sans solution, Astrid se résout à aller chercher le seul qui, à ses yeux, peut encore sauver l’événement : Charlie Beaumont, le compositeur de la partition."
+    "synopsis": "Astrid Carlson parvient enfin à réaliser le rêve de son père : réunir quatre Stradivarius pour un concert unique attendu par les mélomanes du monde entier. Mais Lise, George, Peter et Apolline, les quatre virtuoses recrutés pour l’occasion, sont incapables de jouer ensemble. Les crises d’égo se succèdent au rythme des répétitions. Sans solution, Astrid se résout à aller chercher le seul qui, à ses yeux, peut encore sauver l’événement : Charlie Beaumont, le compositeur de la partition.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1611991",
@@ -8965,7 +7528,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/11",
-      "daysLeft": 37,
+      "daysLeft": 34,
       "expirationDate": "2026-11-03",
       "packageExpirations": {
         "aoc": "2026-11-03"
@@ -8980,7 +7543,9 @@ const CATALOG_DATA = [
       "cmy",
       "drm"
     ],
-    "synopsis": "Mélanie, avocate, atteinte d’une maladie incurable, a décidé qu’il était temps de profiter de la vie ! Elle embarque Benjamin, son ami de toujours, dans un périple vers l’Espagne pour explorer enfin leur sensualité dans une maison close. Les voici à bord d’un van délabré, conduit par Lucas, un chauffeur bourru sorti de prison la veille. Contrairement à Mélanie, Benjamin ne semble pas pressé d’arriver et fait d’ailleurs tout pour prolonger cet improbable voyage à ses côtés…"
+    "synopsis": "Mélanie, avocate, atteinte d’une maladie incurable, a décidé qu’il était temps de profiter de la vie ! Elle embarque Benjamin, son ami de toujours, dans un périple vers l’Espagne pour explorer enfin leur sensualité dans une maison close. Les voici à bord d’un van délabré, conduit par Lucas, un chauffeur bourru sorti de prison la veille. Contrairement à Mélanie, Benjamin ne semble pas pressé d’arriver et fait d’ailleurs tout pour prolonger cet improbable voyage à ses côtés…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1621837",
@@ -9008,7 +7573,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/10",
-      "daysLeft": 21,
+      "daysLeft": 18,
       "expirationDate": "2026-10-18",
       "packageExpirations": {
         "aoc": "2026-10-18"
@@ -9022,7 +7587,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "drm"
     ],
-    "synopsis": "Jessica, Perla, Julie, Ariane et Naïma sont hébergées dans une maison maternelle qui les aide dans leur vie de jeune mère. Cinq adolescentes qui ont l’espoir de parvenir à une vie meilleure pour elles-mêmes et pour leur enfant."
+    "synopsis": "Jessica, Perla, Julie, Ariane et Naïma sont hébergées dans une maison maternelle qui les aide dans leur vie de jeune mère. Cinq adolescentes qui ont l’espoir de parvenir à une vie meilleure pour elles-mêmes et pour leur enfant.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1530998",
@@ -9050,7 +7617,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/12",
-      "daysLeft": 91,
+      "daysLeft": 88,
       "expirationDate": "2026-12-27",
       "packageExpirations": {
         "aoc": "2026-12-27"
@@ -9066,7 +7633,9 @@ const CATALOG_DATA = [
       "drm",
       "fml"
     ],
-    "synopsis": "Mikado et Laetitia font l'école à la maison à Nuage et Zéphir tout en vivant dans un van.  Suite à une panne, la famille doit passer l'été dans une maison, une situation qui remet en question leur mode de vie alternatif.\n"
+    "synopsis": "Mikado et Laetitia font l'école à la maison à Nuage et Zéphir tout en vivant dans un van.  Suite à une panne, la famille doit passer l'été dans une maison, une situation qui remet en question leur mode de vie alternatif.\n",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1629228",
@@ -9094,7 +7663,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/12",
-      "daysLeft": 71,
+      "daysLeft": 68,
       "expirationDate": "2026-12-07",
       "packageExpirations": {
         "aoc": "2026-12-07"
@@ -9108,7 +7677,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "drm"
     ],
-    "synopsis": "Dans trois jours, Nino devra affronter une grande épreuve. D’ici là, les médecins lui ont confié deux missions. Deux impératifs qui vont mener le jeune homme à travers Paris, le pousser à refaire corps avec les autres et avec lui-même."
+    "synopsis": "Dans trois jours, Nino devra affronter une grande épreuve. D’ici là, les médecins lui ont confié deux missions. Deux impératifs qui vont mener le jeune homme à travers Paris, le pousser à refaire corps avec les autres et avec lui-même.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1573550",
@@ -9132,11 +7703,11 @@ const CATALOG_DATA = [
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
-    "duree": "1h 36min",
+    "duree": "1h 35min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -9145,12 +7716,14 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 96,
+    "runtime_minutes": 95,
     "etoiles": 5,
     "raw_genres": [
       "drm"
     ],
-    "synopsis": "Dans l’Ouest américain, dévasté par des incendies ravageurs, Dusty voit son ranch anéanti par les flammes. Il trouve refuge dans un camp de fortune et commence lentement à redonner du sens à sa vie. Entouré de personnes qui, comme lui, ont tout perdu, des liens inattendus se tissent. Porté par l’espoir de renouer avec sa fille et son ex-femme, il retrouve peu à peu la volonté de tout reconstruire."
+    "synopsis": "Dans l’Ouest américain, dévasté par des incendies ravageurs, Dusty voit son ranch anéanti par les flammes. Il trouve refuge dans un camp de fortune et commence lentement à redonner du sens à sa vie. Entouré de personnes qui, comme lui, ont tout perdu, des liens inattendus se tissent. Porté par l’espoir de renouer avec sa fille et son ex-femme, il retrouve peu à peu la volonté de tout reconstruire.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm239721",
@@ -9178,7 +7751,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/10",
-      "daysLeft": 18,
+      "daysLeft": 15,
       "expirationDate": "2026-10-15",
       "packageExpirations": {
         "aoc": "2026-10-15"
@@ -9193,7 +7766,9 @@ const CATALOG_DATA = [
       "cmy",
       "drm"
     ],
-    "synopsis": "Dans les forêts reculées du nord-ouest des États-Unis, vivant isolé de la société, un père dévoué a consacré sa vie tout entière à faire de ses six jeunes enfants d’extraordinaires adultes. Mais quand le destin frappe sa famille, ils doivent abandonner ce paradis qu’il avait créé pour eux. La découverte du monde extérieur va l’obliger à questionner ses méthodes d’éducation et remettre en cause tout ce qu’il leur a appris."
+    "synopsis": "Dans les forêts reculées du nord-ouest des États-Unis, vivant isolé de la société, un père dévoué a consacré sa vie tout entière à faire de ses six jeunes enfants d’extraordinaires adultes. Mais quand le destin frappe sa famille, ils doivent abandonner ce paradis qu’il avait créé pour eux. La découverte du monde extérieur va l’obliger à questionner ses méthodes d’éducation et remettre en cause tout ce qu’il leur a appris.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm897251",
@@ -9221,7 +7796,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -9236,7 +7811,9 @@ const CATALOG_DATA = [
       "drm",
       "rma"
     ],
-    "synopsis": "L’été de ses 16 ans, Alexis, lors d’une sortie en mer sur la côte normande, est sauvé héroïquement du naufrage par David, 18 ans. Alexis vient de rencontrer l’ami de ses rêves. Mais le rêve durera-t-il plus qu'un été ? L’été 85…"
+    "synopsis": "L’été de ses 16 ans, Alexis, lors d’une sortie en mer sur la côte normande, est sauvé héroïquement du naufrage par David, 18 ans. Alexis vient de rencontrer l’ami de ses rêves. Mais le rêve durera-t-il plus qu'un été ? L’été 85…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1132086",
@@ -9279,7 +7856,9 @@ const CATALOG_DATA = [
       "msc",
       "rma"
     ],
-    "synopsis": "Le bac en poche, Julien a quitté sa ville natale pour se construire une vie plus grande à la capitale, laissant ses souvenirs derrière lui. Et puis un jour, il faut revenir, et ce jour-là ses souvenirs lui sautent au visage, entre deux paquets de Pépitos."
+    "synopsis": "Le bac en poche, Julien a quitté sa ville natale pour se construire une vie plus grande à la capitale, laissant ses souvenirs derrière lui. Et puis un jour, il faut revenir, et ce jour-là ses souvenirs lui sautent au visage, entre deux paquets de Pépitos.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1076533",
@@ -9307,7 +7886,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -9322,7 +7901,9 @@ const CATALOG_DATA = [
       "cmy",
       "hrr"
     ],
-    "synopsis": "Un tournage de film de zombies dans un bâtiment désaffecté. Entre techniciens blasés et acteurs pas vraiment concernés, seul le réalisateur semble investi de l’énergie nécessaire pour donner vie à un énième film d'horreur à petit budget. L’irruption d’authentiques morts-vivants va perturber le tournage."
+    "synopsis": "Un tournage de film de zombies dans un bâtiment désaffecté. Entre techniciens blasés et acteurs pas vraiment concernés, seul le réalisateur semble investi de l’énergie nécessaire pour donner vie à un énième film d'horreur à petit budget. L’irruption d’authentiques morts-vivants va perturber le tournage.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1179953",
@@ -9350,7 +7931,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/11",
-      "daysLeft": 49,
+      "daysLeft": 46,
       "expirationDate": "2026-11-15",
       "packageExpirations": {
         "aoc": "2026-11-15"
@@ -9364,7 +7945,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "cmy"
     ],
-    "synopsis": "Angèle, jeune femme ivoirienne d’une trentaine d’années, s’en est toujours sortie grâce à sa tchatche et à son culot. Pour échapper à une bande de dangereux malfrats, elle décide de se faire engager comme nounou dans un quartier chic parisien, par Hélène maman célibataire du petit Arthur, 8 ans. En découvrant les conditions de travail des autres nounous, Angèle se met en tête de les défendre grâce à un jeune avocat qui ne tarde pas à tomber sous son charme."
+    "synopsis": "Angèle, jeune femme ivoirienne d’une trentaine d’années, s’en est toujours sortie grâce à sa tchatche et à son culot. Pour échapper à une bande de dangereux malfrats, elle décide de se faire engager comme nounou dans un quartier chic parisien, par Hélène maman célibataire du petit Arthur, 8 ans. En découvrant les conditions de travail des autres nounous, Angèle se met en tête de les défendre grâce à un jeune avocat qui ne tarde pas à tomber sous son charme.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1577179",
@@ -9392,7 +7975,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/12",
-      "daysLeft": 80,
+      "daysLeft": 77,
       "expirationDate": "2026-12-16",
       "packageExpirations": {
         "aoc": "2026-12-16"
@@ -9406,7 +7989,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "cmy"
     ],
-    "synopsis": "Ouvrier dans une imprimerie, Patrick est un vétéran de la lutte contre le patronat. C’est un leader syndical respecté de tous, un maestro des piquets de grève, qui porte haut les couleurs de la fraternité ouvrière et du combat contre les trop riches… Mais Patrick vient d’hériter de cent millions… Pour tout le monde - sa femme Suzanne, ses enfants, et même ses collègues - c’est l’occasion inespérée de changer de vie. Tout le monde… sauf Patrick, désormais syndicaliste multimillionnaire, mais qui n’a aucune intention de bouleverser son quotidien, et encore moins de renoncer à ses idéaux…"
+    "synopsis": "Ouvrier dans une imprimerie, Patrick est un vétéran de la lutte contre le patronat. C’est un leader syndical respecté de tous, un maestro des piquets de grève, qui porte haut les couleurs de la fraternité ouvrière et du combat contre les trop riches… Mais Patrick vient d’hériter de cent millions… Pour tout le monde - sa femme Suzanne, ses enfants, et même ses collègues - c’est l’occasion inespérée de changer de vie. Tout le monde… sauf Patrick, désormais syndicaliste multimillionnaire, mais qui n’a aucune intention de bouleverser son quotidien, et encore moins de renoncer à ses idéaux…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1497312",
@@ -9434,7 +8019,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/12",
-      "daysLeft": 65,
+      "daysLeft": 62,
       "expirationDate": "2026-12-01",
       "packageExpirations": {
         "aoc": "2026-12-01"
@@ -9448,7 +8033,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "cmy"
     ],
-    "synopsis": "Sœur Lucie, religieuse dévouée, décide de fuir son couvent au bout de 20 ans pour retrouver son amour de jeunesse.  C'est pour elle le début d'une aventure extraordinaire qui mettra sa foi à l'épreuve et la confrontera au monde d’aujourd’hui plein de surprises et de tentations."
+    "synopsis": "Sœur Lucie, religieuse dévouée, décide de fuir son couvent au bout de 20 ans pour retrouver son amour de jeunesse.  C'est pour elle le début d'une aventure extraordinaire qui mettra sa foi à l'épreuve et la confrontera au monde d’aujourd’hui plein de surprises et de tentations.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1489580",
@@ -9476,7 +8063,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/01",
-      "daysLeft": 106,
+      "daysLeft": 103,
       "expirationDate": "2027-01-11",
       "packageExpirations": {
         "aoc": "2027-01-11"
@@ -9490,7 +8077,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "cmy"
     ],
-    "synopsis": "Le jour où Redouane va obtenir sa promotion et enfin passer contremaître, il apprend que l'usine de matelas où il travaille est délocalisée en Inde. Bien décidé à conserver sa promotion, il accepte de partir tout en ayant la garantie d'être payé double et emmène avec lui Marguerite, sa compagne. Une fois sur place, il découvre que son patron l'a dupé, il sera bien payé double mais en roupies. Furieux, il décide de se venger en enseignant aux équipes le meilleur des droits sociaux français."
+    "synopsis": "Le jour où Redouane va obtenir sa promotion et enfin passer contremaître, il apprend que l'usine de matelas où il travaille est délocalisée en Inde. Bien décidé à conserver sa promotion, il accepte de partir tout en ayant la garantie d'être payé double et emmène avec lui Marguerite, sa compagne. Une fois sur place, il découvre que son patron l'a dupé, il sera bien payé double mais en roupies. Furieux, il décide de se venger en enseignant aux équipes le meilleur des droits sociaux français.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1582831",
@@ -9518,7 +8107,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/11",
-      "daysLeft": 44,
+      "daysLeft": 41,
       "expirationDate": "2026-11-10",
       "packageExpirations": {
         "aoc": "2026-11-10"
@@ -9532,7 +8121,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "cmy"
     ],
-    "synopsis": "Suite à une erreur de réservation, deux familles que tout oppose, ainsi qu’un éditeur un peu snob et l’influenceuse qu’il souhaite publier, sont contraints de partager une sublime maison de vacances. Le choc des cultures est immédiat, entre habitudes incompatibles et personnalités bien affirmées. Pourtant, malgré les tensions et les quiproquos, ces vacances forcées prennent une tournure inattendue et se révèlent une aventure pleine de surprises et d’éclats de rire."
+    "synopsis": "Suite à une erreur de réservation, deux familles que tout oppose, ainsi qu’un éditeur un peu snob et l’influenceuse qu’il souhaite publier, sont contraints de partager une sublime maison de vacances. Le choc des cultures est immédiat, entre habitudes incompatibles et personnalités bien affirmées. Pourtant, malgré les tensions et les quiproquos, ces vacances forcées prennent une tournure inattendue et se révèlent une aventure pleine de surprises et d’éclats de rire.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1631095",
@@ -9560,7 +8151,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/12",
-      "daysLeft": 73,
+      "daysLeft": 70,
       "expirationDate": "2026-12-09",
       "packageExpirations": {
         "aoc": "2026-12-09"
@@ -9575,7 +8166,9 @@ const CATALOG_DATA = [
       "cmy",
       "rma"
     ],
-    "synopsis": "À 55 ans, Gaby, biologiste, perd son job… et gagne une idée folle : avoir un enfant ! Avec sa mère fantasque et un fichier de donneurs, elle traque le sperme parfait, tandis que Pierre, 56 ans, tente de rajeunir à tout prix pour séduire. Mais l’amour pourrait bien prouver que tout reste… est toujours possible !"
+    "synopsis": "À 55 ans, Gaby, biologiste, perd son job… et gagne une idée folle : avoir un enfant ! Avec sa mère fantasque et un fichier de donneurs, elle traque le sperme parfait, tandis que Pierre, 56 ans, tente de rajeunir à tout prix pour séduire. Mais l’amour pourrait bien prouver que tout reste… est toujours possible !",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1574167",
@@ -9599,11 +8192,11 @@ const CATALOG_DATA = [
       "assets/logos/cine_ocs.svg"
     ],
     "badge": null,
-    "duree": "1h 29min",
+    "duree": "1h 32min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/12",
-      "daysLeft": 66,
+      "daysLeft": 63,
       "expirationDate": "2026-12-02",
       "packageExpirations": {
         "aoc": "2026-12-02"
@@ -9612,14 +8205,16 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 89,
+    "runtime_minutes": 92,
     "etoiles": 4,
     "raw_genres": [
       "cmy",
       "crm",
       "fnt"
     ],
-    "synopsis": "Prosper, chauffeur Uber à côté de ses pompes, prend comme passager un homme mourant qui vient de se faire tirer dessus. Paniqué, Prosper se débarrasse du cadavre tout en lui volant sa paire de bottines en croco. En les portant, Prosper se retrouve habité par l'esprit de l'homme assassiné."
+    "synopsis": "Prosper, chauffeur Uber à côté de ses pompes, prend comme passager un homme mourant qui vient de se faire tirer dessus. Paniqué, Prosper se débarrasse du cadavre tout en lui volant sa paire de bottines en croco. En les portant, Prosper se retrouve habité par l'esprit de l'homme assassiné.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm371923",
@@ -9647,7 +8242,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/12",
-      "daysLeft": 89,
+      "daysLeft": 86,
       "expirationDate": "2026-12-25",
       "packageExpirations": {
         "aoc": "2026-12-25"
@@ -9664,7 +8259,9 @@ const CATALOG_DATA = [
       "trl",
       "eur"
     ],
-    "synopsis": "À plus de 80 ans, Earl Stone est aux abois. Il est non seulement fauché et seul, mais son entreprise risque d'être saisie. Il accepte alors un boulot qui – en apparence – ne lui demande que de faire le chauffeur. Sauf que, sans le savoir, il s'est engagé à être passeur de drogue pour un cartel mexicain. Extrêmement performant, il transporte des cargaisons de plus en plus importantes. Ce qui pousse les chefs du cartel, toujours méfiants, à lui imposer un \"supérieur\" chargé de le surveiller. Mais ils ne sont pas les seuls à s'intéresser à lui: l'agent de la DEA Colin Bates est plus qu'intrigué par cette nouvelle \"mule\". Entre la police, les hommes de main du cartel et les fantômes du passé menaçant de le rattraper, Earl est désormais lancé dans une vertigineuse course contre la montre..."
+    "synopsis": "À plus de 80 ans, Earl Stone est aux abois. Il est non seulement fauché et seul, mais son entreprise risque d'être saisie. Il accepte alors un boulot qui – en apparence – ne lui demande que de faire le chauffeur. Sauf que, sans le savoir, il s'est engagé à être passeur de drogue pour un cartel mexicain. Extrêmement performant, il transporte des cargaisons de plus en plus importantes. Ce qui pousse les chefs du cartel, toujours méfiants, à lui imposer un \"supérieur\" chargé de le surveiller. Mais ils ne sont pas les seuls à s'intéresser à lui: l'agent de la DEA Colin Bates est plus qu'intrigué par cette nouvelle \"mule\". Entre la police, les hommes de main du cartel et les fantômes du passé menaçant de le rattraper, Earl est désormais lancé dans une vertigineuse course contre la montre...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm239927",
@@ -9692,7 +8289,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -9710,7 +8307,9 @@ const CATALOG_DATA = [
       "trl",
       "war"
     ],
-    "synopsis": "2003 : les États-Unis et l’Angleterre souhaitent intervenir en Irak.  Katharine Gun, employée des renseignements britanniques, reçoit une note de la NSA : les États-Unis sollicitent l'aide de la Grande-Bretagne pour rassembler des informations compromettantes sur certains membres du Conseil de sécurité de l’ONU et les obliger à voter en faveur de l’invasion. Gun prend alors la décision de divulguer le mémo à la presse afin d’empêcher la guerre.  En choisissant d’exposer cette vaste conspiration politique, la lanceuse d’alerte va tout risquer : sa vie, sa famille, sa liberté…"
+    "synopsis": "2003 : les États-Unis et l’Angleterre souhaitent intervenir en Irak.  Katharine Gun, employée des renseignements britanniques, reçoit une note de la NSA : les États-Unis sollicitent l'aide de la Grande-Bretagne pour rassembler des informations compromettantes sur certains membres du Conseil de sécurité de l’ONU et les obliger à voter en faveur de l’invasion. Gun prend alors la décision de divulguer le mémo à la presse afin d’empêcher la guerre.  En choisissant d’exposer cette vaste conspiration politique, la lanceuse d’alerte va tout risquer : sa vie, sa famille, sa liberté…",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1075695",
@@ -9738,7 +8337,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/11",
-      "daysLeft": 53,
+      "daysLeft": 50,
       "expirationDate": "2026-11-19",
       "packageExpirations": {
         "aoc": "2026-11-19"
@@ -9754,7 +8353,9 @@ const CATALOG_DATA = [
       "drm",
       "rma"
     ],
-    "synopsis": "Camille et Georges dansent tout le temps sur leur chanson préférée Mr Bojangles. Chez eux, il n'y a de place que pour le plaisir, la fantaisie et les amis. Jusqu'au jour où la mère va trop loin, contraignant Georges et leur fils Gary à tout faire pour éviter l'inéluctable coûte que coûte."
+    "synopsis": "Camille et Georges dansent tout le temps sur leur chanson préférée Mr Bojangles. Chez eux, il n'y a de place que pour le plaisir, la fantaisie et les amis. Jusqu'au jour où la mère va trop loin, contraignant Georges et leur fils Gary à tout faire pour éviter l'inéluctable coûte que coûte.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm466528",
@@ -9782,7 +8383,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -9798,7 +8399,9 @@ const CATALOG_DATA = [
       "drm",
       "eur"
     ],
-    "synopsis": "Le maire de Lyon, qui est au bout du rouleau. Il n'a plus une seule idée. Après trente ans de vie politique, il se sent complètement vide. Pour remédier à ce problème, ses équipes décident de lui adjoindre une jeune et brillante philosophe… Un dialogue se noue, qui rapproche Alice et le maire et ébranle leurs certitudes. Peu à peu, une question se pose : la pensée et la pratique politique sont-elles compatibles ?"
+    "synopsis": "Le maire de Lyon, qui est au bout du rouleau. Il n'a plus une seule idée. Après trente ans de vie politique, il se sent complètement vide. Pour remédier à ce problème, ses équipes décident de lui adjoindre une jeune et brillante philosophe… Un dialogue se noue, qui rapproche Alice et le maire et ébranle leurs certitudes. Peu à peu, une question se pose : la pensée et la pratique politique sont-elles compatibles ?",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm469990",
@@ -9825,8 +8428,8 @@ const CATALOG_DATA = [
     "duree": "1h 42min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 12 j",
-      "daysLeft": 12,
+      "label": "⏳ Expire dans 9 j",
+      "daysLeft": 9,
       "expirationDate": "2026-10-09",
       "packageExpirations": {
         "aoc": "2026-10-09"
@@ -9843,7 +8446,9 @@ const CATALOG_DATA = [
       "rma",
       "eur"
     ],
-    "synopsis": "Suite à l'infidélité de Rémi, Lila qui l'aimait plus que tout vit difficilement la rupture. Un jour, il lui annonce qu'il part seul en Bolivie pour se retrouver face à lui-même et essayer de comprendre ses erreurs. Là-bas, il lui laisse entendre que leur histoire n'est pas finie. Entre discussions, réconforts et encouragement à la folie amoureuse, Lila s'égare."
+    "synopsis": "Suite à l'infidélité de Rémi, Lila qui l'aimait plus que tout vit difficilement la rupture. Un jour, il lui annonce qu'il part seul en Bolivie pour se retrouver face à lui-même et essayer de comprendre ses erreurs. Là-bas, il lui laisse entendre que leur histoire n'est pas finie. Entre discussions, réconforts et encouragement à la folie amoureuse, Lila s'égare.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm847287",
@@ -9871,7 +8476,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/10",
-      "daysLeft": 24,
+      "daysLeft": 21,
       "expirationDate": "2026-10-21",
       "packageExpirations": {
         "aoc": "2026-10-21"
@@ -9887,7 +8492,9 @@ const CATALOG_DATA = [
       "drm",
       "msc"
     ],
-    "synopsis": "Tralala, la quarantaine, chanteur dans les rues de Paris, croise un soir une jeune femme qui lui adresse un seul message avant de disparaitre : \"Surtout ne soyez pas vous-même\". Tralala a t-il rêvé ? Il quitte la capitale et finit par retrouver à Lourdes celle dont il est déjà amoureux. Elle ne se souvient plus de lui. Mais une émouvante sexagénaire croit reconnaître en Tralala son propre fils, Pat, disparu vingt ans avant aux États-Unis. Tralala décide d’endosser le \"rôle\". Il va se découvrir une nouvelle famille et trouver le génie qu’il n’a jamais eu."
+    "synopsis": "Tralala, la quarantaine, chanteur dans les rues de Paris, croise un soir une jeune femme qui lui adresse un seul message avant de disparaitre : \"Surtout ne soyez pas vous-même\". Tralala a t-il rêvé ? Il quitte la capitale et finit par retrouver à Lourdes celle dont il est déjà amoureux. Elle ne se souvient plus de lui. Mais une émouvante sexagénaire croit reconnaître en Tralala son propre fils, Pat, disparu vingt ans avant aux États-Unis. Tralala décide d’endosser le \"rôle\". Il va se découvrir une nouvelle famille et trouver le génie qu’il n’a jamais eu.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1467237",
@@ -9915,7 +8522,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 68,
+      "daysLeft": 65,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
@@ -9929,7 +8536,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "cmy"
     ],
-    "synopsis": "Les Tuche mènent à nouveau une vie paisible à Bouzolles. Mais lorsque Jiji, le petit fils de Jeff et Cathy, est sélectionné pour un stage de football à Arsenal, c’est l’occasion rêvée pour toute la famille d’aller découvrir l’Angleterre et d’y rencontrer la famille royale. Celle-ci ne s’imagine pas encore que le nom Tuche restera à jamais gravé dans l’histoire de la perfide Albion."
+    "synopsis": "Les Tuche mènent à nouveau une vie paisible à Bouzolles. Mais lorsque Jiji, le petit fils de Jeff et Cathy, est sélectionné pour un stage de football à Arsenal, c’est l’occasion rêvée pour toute la famille d’aller découvrir l’Angleterre et d’y rencontrer la famille royale. Celle-ci ne s’imagine pas encore que le nom Tuche restera à jamais gravé dans l’histoire de la perfide Albion.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm818688",
@@ -9957,7 +8566,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/10",
-      "daysLeft": 27,
+      "daysLeft": 24,
       "expirationDate": "2026-10-24",
       "packageExpirations": {
         "aoc": "2026-10-24"
@@ -9972,7 +8581,9 @@ const CATALOG_DATA = [
       "cmy",
       "eur"
     ],
-    "synopsis": "Dans une région qui fut le fleuron de l'industrie minière, deux chômeurs de longue durée, ont l'idée de construire un parc d'attraction « artisanal » sur une ancienne mine de charbon désaffectée. En sauvant la mine et sa mémoire, ils vont retrouver force et dignité."
+    "synopsis": "Dans une région qui fut le fleuron de l'industrie minière, deux chômeurs de longue durée, ont l'idée de construire un parc d'attraction « artisanal » sur une ancienne mine de charbon désaffectée. En sauvant la mine et sa mémoire, ils vont retrouver force et dignité.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1497303",
@@ -10000,7 +8611,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/11",
-      "daysLeft": 36,
+      "daysLeft": 33,
       "expirationDate": "2026-11-02",
       "packageExpirations": {
         "aoc": "2026-11-02"
@@ -10014,53 +8625,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "cmy"
     ],
-    "synopsis": "Quand Maria Bodin, fermière autoritaire et revêche, et son fils Christian, apprennent qu'une usine de fromage industrielle s'apprête à s'installer dans leur petit village, ils sont prêts à tout pour défendre leur fromagerie artisanale.."
-  },
-  {
-    "id": "jw-tm174707",
-    "titre": "The Artist",
-    "type": "film",
-    "categories": [
-      "drame_emotion"
-    ],
-    "annee": 2011,
-    "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "poster": "https://images.justwatch.com/poster/176287643/s592/the-artist.jpg",
-    "note_avis": 7.9,
-    "note_recence": 6.5,
-    "note_globale": 7.2,
-    "is_eligible": true,
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "badge": null,
-    "duree": "1h 40min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 100,
-    "etoiles": 4,
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "trl",
-      "rma",
-      "eur"
-    ],
-    "synopsis": "Hollywood 1927. George Valentin est une vedette du cinéma muet à qui tout sourit. L’arrivée des films parlants va le faire sombrer dans l’oubli. Peppy Miller, jeune figurante, va elle, être propulsée au firmament des stars."
+    "synopsis": "Quand Maria Bodin, fermière autoritaire et revêche, et son fils Christian, apprennent qu'une usine de fromage industrielle s'apprête à s'installer dans leur petit village, ils sont prêts à tout pour défendre leur fromagerie artisanale..",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm204161",
@@ -10088,7 +8655,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/12",
-      "daysLeft": 74,
+      "daysLeft": 71,
       "expirationDate": "2026-12-10",
       "packageExpirations": {
         "aoc": "2026-12-10"
@@ -10105,7 +8672,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Petit génie des mathématiques, Christian Wolff est plus à l’aise avec les chiffres qu’avec les gens. Expert‐comptable dans le civil, il travaille en réalité pour plusieurs organisations mafieuses parmi les plus dangereuses au monde. Lorsque la brigade anti‐criminalité du ministère des Finances s’intéresse d’un peu trop près à ses affaires, Christian cherche à faire diversion : il accepte de vérifier les comptes d’une entreprise de robotique ayant pignon sur rue. Problème : la comptable de la société a décelé un détournement de fonds de plusieurs millions de dollars. Tandis que Christian épluche les comptes et découvre les rouages de l’escroquerie, les cadavres s’accumulent…"
+    "synopsis": "Petit génie des mathématiques, Christian Wolff est plus à l’aise avec les chiffres qu’avec les gens. Expert‐comptable dans le civil, il travaille en réalité pour plusieurs organisations mafieuses parmi les plus dangereuses au monde. Lorsque la brigade anti‐criminalité du ministère des Finances s’intéresse d’un peu trop près à ses affaires, Christian cherche à faire diversion : il accepte de vérifier les comptes d’une entreprise de robotique ayant pignon sur rue. Problème : la comptable de la société a décelé un détournement de fonds de plusieurs millions de dollars. Tandis que Christian épluche les comptes et découvre les rouages de l’escroquerie, les cadavres s’accumulent…",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm238715",
@@ -10132,8 +8701,8 @@ const CATALOG_DATA = [
     "duree": "1h 55min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 7 j",
-      "daysLeft": 7,
+      "label": "⏳ Expire dans 4 j",
+      "daysLeft": 4,
       "expirationDate": "2026-10-04",
       "packageExpirations": {
         "aoc": "2026-10-04"
@@ -10149,51 +8718,9 @@ const CATALOG_DATA = [
       "drm",
       "eur"
     ],
-    "synopsis": "Samuel vit sa vie sans attaches ni responsabilités, au bord de la mer sous le soleil du sud de la France, près des gens qu’il aime et avec qui il travaille sans trop se fatiguer. Jusqu’à ce qu’une de ses anciennes conquêtes lui laisse sur les bras un bébé de quelques mois, Gloria: sa fille! Incapable de s’occuper d’un bébé et bien décidé à rendre l’enfant à sa mère, Samuel se précipite à Londres pour tenter de la retrouver, sans succès. 8 ans plus tard, alors que Samuel et Gloria ont fait leur vie à Londres et sont devenus inséparables, la mère de Gloria revient dans leur vie pour récupérer sa fille…"
-  },
-  {
-    "id": "jw-tm238375",
-    "titre": "Dalida",
-    "type": "film",
-    "categories": [
-      "drame_emotion"
-    ],
-    "annee": 2017,
-    "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "poster": "https://images.justwatch.com/poster/9627035/s592/dalida.jpg",
-    "note_avis": 6.9,
-    "note_recence": 7.9,
-    "note_globale": 7.4,
-    "is_eligible": true,
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "badge": "12",
-    "duree": "2h 04min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 124,
-    "etoiles": 4,
-    "raw_genres": [
-      "drm",
-      "msc",
-      "eur"
-    ],
-    "synopsis": "De sa naissance au Caire en 1933 à son premier Olympia en 1956, de son mariage avec Lucien Morisse, patron de la jeune radio Europe n°1 aux soirées disco, de ses voyages initiatiques en Inde au succès mondiale de «Gigi l’Amoroso» en 1974, le film Dalida est le portrait intime d’une femme absolue, complexe et solaire… Une femme moderne a une époque qui l’était moins ... Malgré sa disparition tragique en 1987 Dalida continue à rayonner de sa présence éternelle."
+    "synopsis": "Samuel vit sa vie sans attaches ni responsabilités, au bord de la mer sous le soleil du sud de la France, près des gens qu’il aime et avec qui il travaille sans trop se fatiguer. Jusqu’à ce qu’une de ses anciennes conquêtes lui laisse sur les bras un bébé de quelques mois, Gloria: sa fille! Incapable de s’occuper d’un bébé et bien décidé à rendre l’enfant à sa mère, Samuel se précipite à Londres pour tenter de la retrouver, sans succès. 8 ans plus tard, alors que Samuel et Gloria ont fait leur vie à Londres et sont devenus inséparables, la mère de Gloria revient dans leur vie pour récupérer sa fille…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm60292",
@@ -10221,7 +8748,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 95,
+      "daysLeft": 92,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -10237,53 +8764,9 @@ const CATALOG_DATA = [
       "hst",
       "trl"
     ],
-    "synopsis": "Le 4 novembre 1979, au summum de la révolution iranienne, des militants envahissent l’ambassade américaine de Téhéran, et prennent cinquante-deux Américains en otage. Mais au milieu du chaos, six Américains réussissent à s’échapper et à se réfugier au domicile de l’ambassadeur canadien. Sachant qu’ils seront inévitablement découverts et probablement tués, un spécialiste de \"l’exfiltration\" de la CIA du nom de Tony Mendez monte un plan risqué visant à les faire sortir du pays. Un plan si incroyable qu’il ne pourrait exister qu’au cinéma."
-  },
-  {
-    "id": "jw-tm214019",
-    "titre": "13 Hours",
-    "type": "film",
-    "categories": [
-      "action_aventure"
-    ],
-    "annee": 2016,
-    "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "poster": "https://images.justwatch.com/poster/8810836/s592/13-hours.jpg",
-    "note_avis": 7.3,
-    "note_recence": 7.7,
-    "note_globale": 7.5,
-    "is_eligible": true,
-    "badge": "12",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "2h 24min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 144,
-    "etoiles": 4,
-    "raw_genres": [
-      "act",
-      "drm",
-      "hst",
-      "trl",
-      "war"
-    ],
-    "synopsis": "L'histoire vraie des événements survenus le 11 septembre 2012, lorsque des terroristes ont attaqué un camp des Missions Spéciales de l'Armée Américaine et une agence de la CIA voisine à Benghazi, en Libye. Une attaque repoussée par six opérateurs de sécurité, qui ont lutté pendant 13 heures."
+    "synopsis": "Le 4 novembre 1979, au summum de la révolution iranienne, des militants envahissent l’ambassade américaine de Téhéran, et prennent cinquante-deux Américains en otage. Mais au milieu du chaos, six Américains réussissent à s’échapper et à se réfugier au domicile de l’ambassadeur canadien. Sachant qu’ils seront inévitablement découverts et probablement tués, un spécialiste de \"l’exfiltration\" de la CIA du nom de Tony Mendez monte un plan risqué visant à les faire sortir du pays. Un plan si incroyable qu’il ne pourrait exister qu’au cinéma.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm233313",
@@ -10311,7 +8794,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -10327,7 +8810,9 @@ const CATALOG_DATA = [
       "rma",
       "eur"
     ],
-    "synopsis": "Gabrielle a grandi dans la petite bourgeoisie agricole où son rêve d’une passion absolue fait scandale. A une époque où l’on destine d’abord les femmes au mariage, elle dérange, on la croit folle. Ses parents la donnent à José, un ouvrier saisonnier, chargé de faire d’elle une femme respectable. Gabrielle dit ne pas l’aimer, se voit enterrée vivante. Lorsqu’on l’envoie en cure thermale pour soigner ses calculs rénaux, son mal de pierres, un lieutenant blessé dans la guerre d’Indochine, André Sauvage, fait renaître en elle cette urgence d’aimer. Ils fuiront ensemble, elle se le jure, et il semble répondre à son désir. Cette fois on ne lui prendra pas ce qu’elle nomme « la chose principale ». Gabrielle veut aller au bout de son rêve."
+    "synopsis": "Gabrielle a grandi dans la petite bourgeoisie agricole où son rêve d’une passion absolue fait scandale. A une époque où l’on destine d’abord les femmes au mariage, elle dérange, on la croit folle. Ses parents la donnent à José, un ouvrier saisonnier, chargé de faire d’elle une femme respectable. Gabrielle dit ne pas l’aimer, se voit enterrée vivante. Lorsqu’on l’envoie en cure thermale pour soigner ses calculs rénaux, son mal de pierres, un lieutenant blessé dans la guerre d’Indochine, André Sauvage, fait renaître en elle cette urgence d’aimer. Ils fuiront ensemble, elle se le jure, et il semble répondre à son désir. Cette fois on ne lui prendra pas ce qu’elle nomme « la chose principale ». Gabrielle veut aller au bout de son rêve.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm244634",
@@ -10355,7 +8840,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/12",
-      "daysLeft": 72,
+      "daysLeft": 69,
       "expirationDate": "2026-12-08",
       "packageExpirations": {
         "aoc": "2026-12-08"
@@ -10371,7 +8856,9 @@ const CATALOG_DATA = [
       "trl",
       "eur"
     ],
-    "synopsis": "L'agent Lorraine Broughton est une des meilleures espionne du Service de renseignement de Sa Majesté; à la fois sensuelle et sauvage et prête à déployer toutes ses compétences pour rester en vie durant sa mission impossible. Envoyée seule à Berlin dans le but de livrer un dossier de la plus haute importance dans cette ville au climat instable, elle s'associe avec David Percival, le chef de station local, et commence alors un jeu d’espions des plus meurtriers."
+    "synopsis": "L'agent Lorraine Broughton est une des meilleures espionne du Service de renseignement de Sa Majesté; à la fois sensuelle et sauvage et prête à déployer toutes ses compétences pour rester en vie durant sa mission impossible. Envoyée seule à Berlin dans le but de livrer un dossier de la plus haute importance dans cette ville au climat instable, elle s'associe avec David Percival, le chef de station local, et commence alors un jeu d’espions des plus meurtriers.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1186806",
@@ -10399,7 +8886,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/12",
-      "daysLeft": 67,
+      "daysLeft": 64,
       "expirationDate": "2026-12-03",
       "packageExpirations": {
         "aoc": "2026-12-03"
@@ -10416,7 +8903,9 @@ const CATALOG_DATA = [
       "trl",
       "scf"
     ],
-    "synopsis": "Le détective Danny Rourke est dévasté par la disparition de sa fille. Amené à reprendre du service, on le charge d'enquêter sur une série de braquages invraisemblables perpétués par un mystérieux individu. Persuadé que cet homme détient la clé pour retrouver sa fille, Rourke demande de l’aide à Diana Cruz, une puissante médium étrangement liée à l’affaire, qui vient remettre en question toutes les certitudes de la réalité du monde qui l’entoure. Il découvre ainsi que le contrôle n'est qu'illusion."
+    "synopsis": "Le détective Danny Rourke est dévasté par la disparition de sa fille. Amené à reprendre du service, on le charge d'enquêter sur une série de braquages invraisemblables perpétués par un mystérieux individu. Persuadé que cet homme détient la clé pour retrouver sa fille, Rourke demande de l’aide à Diana Cruz, une puissante médium étrangement liée à l’affaire, qui vient remettre en question toutes les certitudes de la réalité du monde qui l’entoure. Il découvre ainsi que le contrôle n'est qu'illusion.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm914447",
@@ -10443,8 +8932,8 @@ const CATALOG_DATA = [
     "duree": "1h 34min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 10 j",
-      "daysLeft": 10,
+      "label": "⏳ Expire dans 7 j",
+      "daysLeft": 7,
       "expirationDate": "2026-10-07",
       "packageExpirations": {
         "aoc": "2026-10-07"
@@ -10460,7 +8949,9 @@ const CATALOG_DATA = [
       "drm",
       "rma"
     ],
-    "synopsis": "Robert, artiste bohème londonien, revient en Italie avec son fils afin de vendre au plus vite la maison dont il a hérité de sa défunte épouse."
+    "synopsis": "Robert, artiste bohème londonien, revient en Italie avec son fils afin de vendre au plus vite la maison dont il a hérité de sa défunte épouse.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm861271",
@@ -10487,8 +8978,8 @@ const CATALOG_DATA = [
     "duree": "1h 30min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 13 j",
-      "daysLeft": 13,
+      "label": "⏳ Expire dans 10 j",
+      "daysLeft": 10,
       "expirationDate": "2026-10-10",
       "packageExpirations": {
         "aoc": "2026-10-10"
@@ -10503,50 +8994,9 @@ const CATALOG_DATA = [
       "cmy",
       "eur"
     ],
-    "synopsis": "Pour s’en sortir financièrement, Willy et son pote Tony, endettés de naissance, ont une idée de génie : voler un chien de la brigade des stups. Mais, les choses ne se passent pas tout à fait comme ils l’avaient prévu. La seule solution : s’associer avec Caro, une flic totalement corrompue."
-  },
-  {
-    "id": "jw-tm144315",
-    "titre": "Babysitting",
-    "type": "film",
-    "categories": [
-      "comedie"
-    ],
-    "annee": 2014,
-    "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "poster": "https://images.justwatch.com/poster/315324364/s592/babysitting.jpg",
-    "note_avis": 6.8,
-    "note_recence": 7.2,
-    "note_globale": 7,
-    "is_eligible": true,
-    "badge": null,
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 25min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 85,
-    "etoiles": 4,
-    "raw_genres": [
-      "cmy",
-      "eur"
-    ],
-    "synopsis": "Faute de baby-sitter pour le week-end, Marc Schaudel confie son fils Remy à Franck, son employé, \"un type sérieux\" selon lui. Sauf que Franck a 30 ans ce soir et que Rémy est un sale gosse capricieux. Au petit matin, Marc et sa femme Claire sont réveillés par un appel de la police. Rémy et Franck ont disparu ! Au milieu de leur maison saccagée, la police a retrouvé une caméra. Marc et Claire découvrent, hallucinés, les images tournées pendant la soirée."
+    "synopsis": "Pour s’en sortir financièrement, Willy et son pote Tony, endettés de naissance, ont une idée de génie : voler un chien de la brigade des stups. Mais, les choses ne se passent pas tout à fait comme ils l’avaient prévu. La seule solution : s’associer avec Caro, une flic totalement corrompue.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm266647",
@@ -10574,7 +9024,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -10591,7 +9041,9 @@ const CATALOG_DATA = [
       "crm",
       "trl"
     ],
-    "synopsis": "La sœur de Danny Ocean rassemble les talents d'une dizaine de ses consœurs pour mettre la main sur un collier très convoité et ainsi confondre un bijoutier crapuleux."
+    "synopsis": "La sœur de Danny Ocean rassemble les talents d'une dizaine de ses consœurs pour mettre la main sur un collier très convoité et ainsi confondre un bijoutier crapuleux.",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm184546",
@@ -10619,7 +9071,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -10634,49 +9086,9 @@ const CATALOG_DATA = [
       "crm",
       "trl"
     ],
-    "synopsis": "« Les Quatre Cavaliers », un groupe de brillants magiciens et illusionnistes, vient de donner deux spectacles de magie époustouflants: le premier en braquant une banque sur un autre continent, le deuxième en transférant la fortune d’un banquier véreux sur les comptes en banque du public. Deux agents spéciaux du FBI et d’Interpol sont déterminés à les arrêter avant qu’ils ne mettent à exécution leur promesse de réaliser des braquages encore plus audacieux. Ils font appel à Thaddeus, spécialiste reconnu pour expliquer les tours de magie les plus sophistiqués. Alors que la pression s’intensifie, et que le monde entier attend le spectaculaire tour final des Cavaliers, la course contre la montre commence."
-  },
-  {
-    "id": "jw-tm137072",
-    "titre": "Very Bad Trip",
-    "type": "film",
-    "categories": [
-      "comedie"
-    ],
-    "annee": 2009,
-    "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "poster": "https://images.justwatch.com/poster/210177673/s592/very-bad-trip.jpg",
-    "note_avis": 7.7,
-    "note_recence": 6.1,
-    "note_globale": 6.9,
-    "is_eligible": true,
-    "badge": "12",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 40min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 100,
-    "etoiles": 3,
-    "raw_genres": [
-      "cmy"
-    ],
-    "synopsis": "Ils avaient prévu un enterrement de vie de garçon à Las Vegas qu’ils n’oublieraient jamais. Maintenant, ils ont vraiment besoin de se souvenir de ce qu’il s’est passé. À qui est ce bébé dans le placard de leur suite au Caesar Palace ? Comment un tigre est‐il arrivé jusque dans leur salle de bain ? Pourquoi manque‐t‐il une dent à l’un d’entre eux ? Et, surtout, où est le marié ? ! Mais ce qu’ils ont fait la nuit précédente n’est rien en comparaison des combines scandaleuses qu’ils doivent mettre en œuvre pour tenter de rassembler les pièces du puzzle qui constituent leur nuit passée – à partir d’indices franchement brumeux…"
+    "synopsis": "« Les Quatre Cavaliers », un groupe de brillants magiciens et illusionnistes, vient de donner deux spectacles de magie époustouflants: le premier en braquant une banque sur un autre continent, le deuxième en transférant la fortune d’un banquier véreux sur les comptes en banque du public. Deux agents spéciaux du FBI et d’Interpol sont déterminés à les arrêter avant qu’ils ne mettent à exécution leur promesse de réaliser des braquages encore plus audacieux. Ils font appel à Thaddeus, spécialiste reconnu pour expliquer les tours de magie les plus sophistiqués. Alors que la pression s’intensifie, et que le monde entier attend le spectaculaire tour final des Cavaliers, la course contre la montre commence.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm123158",
@@ -10704,7 +9116,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -10721,7 +9133,9 @@ const CATALOG_DATA = [
       "crm",
       "trl"
     ],
-    "synopsis": "Un an après avoir surpassé le FBI et acquis l’admiration du grand public grâce à leurs tours exceptionnels, Les 4 Cavaliers reviennent ! Pour leur retour sur le devant de la scène, ils vont dénoncer les méthodes peu orthodoxe d’un magnat de la technologie à la tête d’une vaste organisation criminelle. Ils ignorent que cet homme d’affaire, Walter Marbry a une longueur d’avance sur eux, et les conduit dans un piège : il veut que les magiciens braquent l’un des systèmes informatiques les plus sécurisés du monde. Pour sortir de ce chantage et déjouer les plans de ce syndicat du crime, ils vont devoir élaborer le braquage le plus spectaculaire jamais conçu."
+    "synopsis": "Un an après avoir surpassé le FBI et acquis l’admiration du grand public grâce à leurs tours exceptionnels, Les 4 Cavaliers reviennent ! Pour leur retour sur le devant de la scène, ils vont dénoncer les méthodes peu orthodoxe d’un magnat de la technologie à la tête d’une vaste organisation criminelle. Ils ignorent que cet homme d’affaire, Walter Marbry a une longueur d’avance sur eux, et les conduit dans un piège : il veut que les magiciens braquent l’un des systèmes informatiques les plus sécurisés du monde. Pour sortir de ce chantage et déjouer les plans de ce syndicat du crime, ils vont devoir élaborer le braquage le plus spectaculaire jamais conçu.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm298080",
@@ -10749,7 +9163,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -10764,7 +9178,9 @@ const CATALOG_DATA = [
       "act",
       "scf"
     ],
-    "synopsis": "Primatologue de profession, David Okoye a plus de mal à nouer des liens avec ses semblables qu'avec les singes. Pas étonnant qu'il se soit pris d'affection pour George, adorable gorille d'une intelligence hors du commun, dont il s'occupe depuis sa naissance. Mais suite à une expérience génétique catastrophique, George se métamorphose en monstre incontrôlable. Et il n'est pas le seul puisque d'autres animaux se transforment en prédateurs enragés aux quatre coins du pays, détruisant tout sur leur passage. Okoye décide alors de travailler d'arrache-pied avec une généticienne pour mettre au point un antidote. Pourront-ils à temps empêcher la planète d'être ravagée ?"
+    "synopsis": "Primatologue de profession, David Okoye a plus de mal à nouer des liens avec ses semblables qu'avec les singes. Pas étonnant qu'il se soit pris d'affection pour George, adorable gorille d'une intelligence hors du commun, dont il s'occupe depuis sa naissance. Mais suite à une expérience génétique catastrophique, George se métamorphose en monstre incontrôlable. Et il n'est pas le seul puisque d'autres animaux se transforment en prédateurs enragés aux quatre coins du pays, détruisant tout sur leur passage. Okoye décide alors de travailler d'arrache-pied avec une généticienne pour mettre au point un antidote. Pourront-ils à temps empêcher la planète d'être ravagée ?",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm20959",
@@ -10792,7 +9208,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 55,
+      "daysLeft": 52,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
@@ -10807,7 +9223,9 @@ const CATALOG_DATA = [
       "drm",
       "eur"
     ],
-    "synopsis": "Représentant de commerce, Chris Gardner a du mal à gagner sa vie. Il jongle pour s'en sortir, mais sa compagne supporte de moins en moins leur précarité. Elle finit par quitter Chris et leur petit garçon de cinq ans, Christopher. Désormais seul responsable de son fils, Chris se démène pour décrocher un job, sans succès. Lorsqu'il obtient finalement un stage dans une prestigieuse firme de courtage, il se donne à fond."
+    "synopsis": "Représentant de commerce, Chris Gardner a du mal à gagner sa vie. Il jongle pour s'en sortir, mais sa compagne supporte de moins en moins leur précarité. Elle finit par quitter Chris et leur petit garçon de cinq ans, Christopher. Désormais seul responsable de son fils, Chris se démène pour décrocher un job, sans succès. Lorsqu'il obtient finalement un stage dans une prestigieuse firme de courtage, il se donne à fond.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm96315",
@@ -10835,7 +9253,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/10",
-      "daysLeft": 31,
+      "daysLeft": 28,
       "expirationDate": "2026-10-28",
       "packageExpirations": {
         "aoc": "2026-10-28"
@@ -10851,7 +9269,9 @@ const CATALOG_DATA = [
       "rma",
       "eur"
     ],
-    "synopsis": "Votre fille sort avec un sale type ? Votre sœur s’est enlisée dans une relation passionnelle destructrice ? Aujourd’hui, il existe une solution radicale, elle s’appelle Alex. Son métier : briseur de couples professionnel. Sa méthode : la séduction. Sa mission : transformer n’importe quel petit ami en ex. Mais Alex a une éthique, il ne s’attaque qu’aux couples dont la femme est malheureuse. Alors pourquoi accepter de briser un couple épanoui de riches trentenaires qui se marie dans une semaine ?"
+    "synopsis": "Votre fille sort avec un sale type ? Votre sœur s’est enlisée dans une relation passionnelle destructrice ? Aujourd’hui, il existe une solution radicale, elle s’appelle Alex. Son métier : briseur de couples professionnel. Sa méthode : la séduction. Sa mission : transformer n’importe quel petit ami en ex. Mais Alex a une éthique, il ne s’attaque qu’aux couples dont la femme est malheureuse. Alors pourquoi accepter de briser un couple épanoui de riches trentenaires qui se marie dans une semaine ?",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm137377",
@@ -10879,7 +9299,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -10896,50 +9316,9 @@ const CATALOG_DATA = [
       "crm",
       "eur"
     ],
-    "synopsis": "Douze ans après Le Caire, OSS 117 est de retour pour une nouvelle mission à l’autre bout du monde. Lancé sur les traces d’un microfilm compromettant pour l’État français, le plus célèbre de nos agents va devoir faire équipe avec la plus séduisante des lieutenants‐colonels du Mossad pour capturer un nazi maître chanteur. Des plages ensoleillées de Rio aux luxuriantes forêts amazoniennes, des plus profondes grottes secrètes au sommet du Christ du Corcovado, c’est une nouvelle aventure qui commence. Quel que soit le danger, quel que soit l’enjeu, on peut toujours compter sur Hubert Bonisseur de la Bath pour s’en sortir…"
-  },
-  {
-    "id": "jw-tm218226",
-    "titre": "Babysitting 2",
-    "type": "film",
-    "categories": [
-      "comedie"
-    ],
-    "annee": 2015,
-    "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "poster": "https://images.justwatch.com/poster/263018073/s592/babysitting-2.jpg",
-    "note_avis": 6.4,
-    "note_recence": 7.5,
-    "note_globale": 7,
-    "is_eligible": true,
-    "badge": null,
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 33min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 93,
-    "etoiles": 4,
-    "raw_genres": [
-      "cmy",
-      "eur"
-    ],
-    "synopsis": "Franck, Sonia, Sam, Ernest, Alex et Estelle s’envolent pour le Brésil. Ils se rendent en vacances à l’hôtel d’Alain, le père de Sonia. Franck va profiter de ce voyage entre amis pour la demander en mariage. A l’hôtel, ils sont accueillis par Alain et Yolande, la grand-mère acariâtre de Sonia. Les garçons organisent une excursion dans la jungle avec un guide chevronné. Alain leur confie Yolande de peur qu’elle ne trouble le processus de remise du « label éco VWF ». Le soir, les garçons ne sont pas revenus. Ils ont disparu avec la grand-mère et le guide. Le lendemain matin, la caméra GoPro avec laquelle ils étaient partis est retrouvée…"
+    "synopsis": "Douze ans après Le Caire, OSS 117 est de retour pour une nouvelle mission à l’autre bout du monde. Lancé sur les traces d’un microfilm compromettant pour l’État français, le plus célèbre de nos agents va devoir faire équipe avec la plus séduisante des lieutenants‐colonels du Mossad pour capturer un nazi maître chanteur. Des plages ensoleillées de Rio aux luxuriantes forêts amazoniennes, des plus profondes grottes secrètes au sommet du Christ du Corcovado, c’est une nouvelle aventure qui commence. Quel que soit le danger, quel que soit l’enjeu, on peut toujours compter sur Hubert Bonisseur de la Bath pour s’en sortir…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm867409",
@@ -10967,7 +9346,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -10982,51 +9361,9 @@ const CATALOG_DATA = [
       "cmy",
       "eur"
     ],
-    "synopsis": "Catherine et Yann sont en couple et amoureux depuis de nombreuses années. Mais depuis que Yann a quitté son boulot, il s’est pris de passion pour les bonsaïs. Une passion dévorante qui prend beaucoup de place aux yeux de Catherine, qui se sent quelque peu délaissée. La situation ne va pas s’arranger lorsque leur fille Anna, et son copain Thomas, viennent s’installer chez eux suite à une galère d’appartement. La cohabitation s’avère plus que difficile pour les deux couples que tout oppose…"
-  },
-  {
-    "id": "jw-tm163262",
-    "titre": "White House Down",
-    "type": "film",
-    "categories": [
-      "thriller_policier"
-    ],
-    "annee": 2013,
-    "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "poster": "https://images.justwatch.com/poster/176913581/s592/white-house-down.jpg",
-    "note_avis": 6.3,
-    "note_recence": 7,
-    "note_globale": 6.7,
-    "is_eligible": true,
-    "badge": null,
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "2h 12min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 132,
-    "etoiles": 3,
-    "raw_genres": [
-      "act",
-      "drm",
-      "trl"
-    ],
-    "synopsis": "Membre de la police du Capitole, John Cale vient de se voir refuser le job dont il rêvait : assurer la protection du président des États-Unis. Espérant éviter à sa fille une déception lorsqu’il lui apprendra la nouvelle, il l’emmène visiter la Maison-Blanche. C’est à ce moment qu’un groupe paramilitaire lourdement armé attaque le bâtiment. Alors que le gouvernement américain sombre dans le chaos, Cale va tenter de sauver sa fille, le président, et le pays tout entier…"
+    "synopsis": "Catherine et Yann sont en couple et amoureux depuis de nombreuses années. Mais depuis que Yann a quitté son boulot, il s’est pris de passion pour les bonsaïs. Une passion dévorante qui prend beaucoup de place aux yeux de Catherine, qui se sent quelque peu délaissée. La situation ne va pas s’arranger lorsque leur fille Anna, et son copain Thomas, viennent s’installer chez eux suite à une galère d’appartement. La cohabitation s’avère plus que difficile pour les deux couples que tout oppose…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm416618",
@@ -11054,7 +9391,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/10",
-      "daysLeft": 31,
+      "daysLeft": 28,
       "expirationDate": "2026-10-28",
       "packageExpirations": {
         "aoc": "2026-10-28"
@@ -11073,7 +9410,9 @@ const CATALOG_DATA = [
       "fml",
       "eur"
     ],
-    "synopsis": "Sofia, 8 ans, vit seule avec son père. Tous les soirs, il lui invente une histoire pour l’endormir. Ses récits extraordinaires prennent vie dans un monde imaginaire où l’héroïne est toujours la princesse Sofia, et son père, le Prince courageux. Mais trois ans plus tard, quand Sofia rentre au collège, elle n’a plus besoin de ces histoires. Désarmé, son père va devoir accepter que sa fille grandisse et s’éloigne de lui. Dans leur Monde imaginaire, le Prince va alors devoir affronter la plus épique de toutes ses aventures pour conserver une place dans l’histoire."
+    "synopsis": "Sofia, 8 ans, vit seule avec son père. Tous les soirs, il lui invente une histoire pour l’endormir. Ses récits extraordinaires prennent vie dans un monde imaginaire où l’héroïne est toujours la princesse Sofia, et son père, le Prince courageux. Mais trois ans plus tard, quand Sofia rentre au collège, elle n’a plus besoin de ces histoires. Désarmé, son père va devoir accepter que sa fille grandisse et s’éloigne de lui. Dans leur Monde imaginaire, le Prince va alors devoir affronter la plus épique de toutes ses aventures pour conserver une place dans l’histoire.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1241295",
@@ -11101,7 +9440,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/11",
-      "daysLeft": 39,
+      "daysLeft": 36,
       "expirationDate": "2026-11-05",
       "packageExpirations": {
         "aoc": "2026-11-05"
@@ -11118,7 +9457,9 @@ const CATALOG_DATA = [
       "hst",
       "war"
     ],
-    "synopsis": "1793. Voilà trois ans que Charette, ancien officier de la Marine Royale, s’est retiré chez lui en Vendée. Dans le pays, la colère des paysans gronde : ils font appel au jeune retraité pour prendre le commandement de la rébellion. En quelques mois, le marin désœuvré devient un chef charismatique et un fin stratège, entraînant à sa suite paysans, déserteurs, femmes, vieillards et enfants, dont il fait une armée redoutable car insaisissable. Le combat pour la liberté ne fait que commencer..."
+    "synopsis": "1793. Voilà trois ans que Charette, ancien officier de la Marine Royale, s’est retiré chez lui en Vendée. Dans le pays, la colère des paysans gronde : ils font appel au jeune retraité pour prendre le commandement de la rébellion. En quelques mois, le marin désœuvré devient un chef charismatique et un fin stratège, entraînant à sa suite paysans, déserteurs, femmes, vieillards et enfants, dont il fait une armée redoutable car insaisissable. Le combat pour la liberté ne fait que commencer...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm41037",
@@ -11146,7 +9487,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -11163,93 +9504,9 @@ const CATALOG_DATA = [
       "crm",
       "eur"
     ],
-    "synopsis": "Égypte, 1955, le Caire est un véritable nid d’espions. Tout le monde se méfie de tout le monde, tout le monde complote contre tout le monde : Anglais, Français, Soviétiques, la famille du Roi déchu Farouk qui veut retrouver son trône, les Aigles de Khéops, secte religieuse qui veut prendre le pouvoir. Le Président de la République Française, Monsieur René Coty, envoie son arme maîtresse mettre de l’ordre dans cette pétaudière au bord du chaos : Hubert Bonisseur de la Bath, dit OSS 117."
-  },
-  {
-    "id": "jw-tm174540",
-    "titre": "Munich",
-    "type": "film",
-    "categories": [
-      "drame_emotion"
-    ],
-    "annee": 2005,
-    "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "poster": "https://images.justwatch.com/poster/300799738/s592/munich.jpg",
-    "note_avis": 7.5,
-    "note_recence": 5.2,
-    "note_globale": 6.4,
-    "is_eligible": true,
-    "badge": null,
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "2h 44min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 164,
-    "etoiles": 3,
-    "raw_genres": [
-      "drm",
-      "hst",
-      "trl"
-    ],
-    "synopsis": "Jeux Olympiques de Munich, 5 septembre 1972. Un commando de terroristes palestiniens prend en otages puis exécute 11 membres de l'équipe sportive israélienne, sous l'œil des téléspectateurs du monde entier. Inspiré de faits réels, Munich retrace le parcours de 5 agents israéliens chargés de traquer les 11 palestiniens considérés comme les commanditaires de l'attentat. Pour mener à bien cette mission, les 5 hommes devront renoncer du jour au lendemain à leur identité, et s’exposer à tout moment à la vengeance de leurs cibles."
-  },
-  {
-    "id": "jw-tm167643",
-    "titre": "Very Bad Trip 2",
-    "type": "film",
-    "categories": [
-      "comedie"
-    ],
-    "annee": 2011,
-    "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "poster": "https://images.justwatch.com/poster/316355605/s592/very-bad-trip-2.jpg",
-    "note_avis": 6.5,
-    "note_recence": 6.5,
-    "note_globale": 6.5,
-    "is_eligible": true,
-    "badge": "12",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 42min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 102,
-    "etoiles": 3,
-    "raw_genres": [
-      "cmy"
-    ],
-    "synopsis": "Phil, Stu, Alan et Doug s’offrent un voyage exotique en Thaïlande, à l’occasion du mariage de Stu. Après l’inoubliable soirée d’enterrement de sa vie de garçon à Las Vegas, Stu ne veut rien laisser au hasard et opte pour un brunch léger, sans risque, avant la cérémonie. Mais les choses ne se passent pas toujours comme prévu. Ce qui s'est passé à Las Vegas est imaginable à Las Vegas, mais ce qui se passe à Bangkok dépasse l’imagination..."
+    "synopsis": "Égypte, 1955, le Caire est un véritable nid d’espions. Tout le monde se méfie de tout le monde, tout le monde complote contre tout le monde : Anglais, Français, Soviétiques, la famille du Roi déchu Farouk qui veut retrouver son trône, les Aigles de Khéops, secte religieuse qui veut prendre le pouvoir. Le Président de la République Française, Monsieur René Coty, envoie son arme maîtresse mettre de l’ordre dans cette pétaudière au bord du chaos : Hubert Bonisseur de la Bath, dit OSS 117.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm183122",
@@ -11277,7 +9534,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -11293,7 +9550,9 @@ const CATALOG_DATA = [
       "drm",
       "eur"
     ],
-    "synopsis": "À sa sortie de l'École de Police, Antoine monte à Paris pour intégrer la 2ème division de Police Judiciaire. Caroline Vaudieu, de retour dans le service après avoir vaincu son alcoolisme, choisit le petit lieutenant pour son groupe crim'. Plein d'enthousiasme, Antoine fait son apprentissage du métier aux côtés de ses hommes. Vaudieu s'attache rapidement à ce jeune homme, de l'âge qu'aurait eu son fils disparu..."
+    "synopsis": "À sa sortie de l'École de Police, Antoine monte à Paris pour intégrer la 2ème division de Police Judiciaire. Caroline Vaudieu, de retour dans le service après avoir vaincu son alcoolisme, choisit le petit lieutenant pour son groupe crim'. Plein d'enthousiasme, Antoine fait son apprentissage du métier aux côtés de ses hommes. Vaudieu s'attache rapidement à ce jeune homme, de l'âge qu'aurait eu son fils disparu...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm22457",
@@ -11319,9 +9578,9 @@ const CATALOG_DATA = [
     ],
     "duree": "2h 06min",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 14/10",
-      "daysLeft": 17,
+      "status": "warning",
+      "label": "⏳ Expire dans 14 j",
+      "daysLeft": 14,
       "expirationDate": "2026-10-14",
       "packageExpirations": {
         "aoc": "2026-10-14"
@@ -11336,7 +9595,9 @@ const CATALOG_DATA = [
       "act",
       "trl"
     ],
-    "synopsis": "Ethan Hunt a quitté Mission Impossible. Il forme désormais les futurs agents du gouvernement américain. Un poste qui devrait enfin lui permettre de mener une existence tranquille auprès de sa femme Julia. Mais quand Lindsey, l'une de ses élèves, est kidnappée à Berlin par Owen Davian, un trafiquant d'armes, Ethan se sent obligé de lui porter secours et repart, sans hésiter, en mission pour la libérer."
+    "synopsis": "Ethan Hunt a quitté Mission Impossible. Il forme désormais les futurs agents du gouvernement américain. Un poste qui devrait enfin lui permettre de mener une existence tranquille auprès de sa femme Julia. Mais quand Lindsey, l'une de ses élèves, est kidnappée à Berlin par Owen Davian, un trafiquant d'armes, Ethan se sent obligé de lui porter secours et repart, sans hésiter, en mission pour la libérer.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm82525",
@@ -11364,7 +9625,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -11379,7 +9640,9 @@ const CATALOG_DATA = [
       "crm",
       "trl"
     ],
-    "synopsis": "Willy Bank n'aurait pas dû s'attaquer à un ami de Danny Ocean... Pour avoir trahi Reuben Tishkoff, Willy Bank, propriétaire sans scrupule d'un casino flambant neuf, va être sévèrement attaqué par toute l'équipe de Danny Ocean. Celle-ci n'aura plus qu'un objectif: infliger à Bank un châtiment exemplaire le soir de l'inauguration de son nouveau casino. Mais cette fois la chance ne leur suffira pas pour faire sauter The Bank..."
+    "synopsis": "Willy Bank n'aurait pas dû s'attaquer à un ami de Danny Ocean... Pour avoir trahi Reuben Tishkoff, Willy Bank, propriétaire sans scrupule d'un casino flambant neuf, va être sévèrement attaqué par toute l'équipe de Danny Ocean. Celle-ci n'aura plus qu'un objectif: infliger à Bank un châtiment exemplaire le soir de l'inauguration de son nouveau casino. Mais cette fois la chance ne leur suffira pas pour faire sauter The Bank...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm464555",
@@ -11407,7 +9670,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/10",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-10-25",
       "packageExpirations": {
         "aoc": "2026-10-25"
@@ -11422,7 +9685,9 @@ const CATALOG_DATA = [
       "cmy",
       "eur"
     ],
-    "synopsis": "Philippe et Carole, tous deux divorcés, viennent de se rencontrer. Très amoureux, Philippe est prêt à tout pour se mettre les deux ados de Carole dans la poche. Il propose un deal au fils aîné : s'il a son bac, c'est lui qui choisit leur lieu de vacances. Et ce sera Ibiza ! Mais pour Philippe, plutôt habitué à de paisibles vacances dans la Baie de Somme, c'est un véritable choc."
+    "synopsis": "Philippe et Carole, tous deux divorcés, viennent de se rencontrer. Très amoureux, Philippe est prêt à tout pour se mettre les deux ados de Carole dans la poche. Il propose un deal au fils aîné : s'il a son bac, c'est lui qui choisit leur lieu de vacances. Et ce sera Ibiza ! Mais pour Philippe, plutôt habitué à de paisibles vacances dans la Baie de Somme, c'est un véritable choc.",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm38774",
@@ -11450,7 +9715,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -11465,7 +9730,9 @@ const CATALOG_DATA = [
       "crm",
       "trl"
     ],
-    "synopsis": "A peine sorti de prison, Danny Ocean n'a qu'une idée en tête : organiser le casse du siècle en cambriolant les trois plus grands casinos de Las Vegas. Pour cela il réunit une équipe de malfrats spécialistes dans des domaines aussi variés que les explosifs, l'informatique, le bluff..."
+    "synopsis": "A peine sorti de prison, Danny Ocean n'a qu'une idée en tête : organiser le casse du siècle en cambriolant les trois plus grands casinos de Las Vegas. Pour cela il réunit une équipe de malfrats spécialistes dans des domaines aussi variés que les explosifs, l'informatique, le bluff...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1372859",
@@ -11493,7 +9760,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -11509,7 +9776,9 @@ const CATALOG_DATA = [
       "trl",
       "scf"
     ],
-    "synopsis": "Abi, jeune ingénieure, s'installe à la campagne avec son mari pour travailler sur le dernier produit de sa société, une intelligence artificielle humanoïde appelée TIM. Programmé pour ne servir qu'elle, TIM développe peu à peu une obsession pour Abi, et semble déterminé à remplacer son mari."
+    "synopsis": "Abi, jeune ingénieure, s'installe à la campagne avec son mari pour travailler sur le dernier produit de sa société, une intelligence artificielle humanoïde appelée TIM. Programmé pour ne servir qu'elle, TIM développe peu à peu une obsession pour Abi, et semble déterminé à remplacer son mari.",
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm351325",
@@ -11537,7 +9806,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "auc": "2026-11-30"
@@ -11555,7 +9824,9 @@ const CATALOG_DATA = [
       "scf",
       "eur"
     ],
-    "synopsis": "Le jour où une étrange brume mortelle submerge Paris, des survivants trouvent refuge dans les derniers étages des immeubles et sur les toits de la capitale. Sans informations, sans électricité, sans eau ni nourriture, une petite famille tente de survivre à cette catastrophe... Mais les heures passent et un constat s'impose : les secours ne viendront pas et il faudra, pour espérer s’en sortir, tenter sa chance dans la brume…"
+    "synopsis": "Le jour où une étrange brume mortelle submerge Paris, des survivants trouvent refuge dans les derniers étages des immeubles et sur les toits de la capitale. Sans informations, sans électricité, sans eau ni nourriture, une petite famille tente de survivre à cette catastrophe... Mais les heures passent et un constat s'impose : les secours ne viendront pas et il faudra, pour espérer s’en sortir, tenter sa chance dans la brume…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1320087",
@@ -11597,7 +9868,9 @@ const CATALOG_DATA = [
       "fnt",
       "fml"
     ],
-    "synopsis": "Dans leur ancien manoir familial, Peter et Vérité vont découvrir, caché sous le plancher de leur chambre, un royaume magique peuplé d’une civilisation de créatures. Cette civilisation est menacée par un ennemi légendaire. Embarqués dans une quête périlleuse afin de retrouver cinq trésors mythiques, ils devront faire face à des défis et des obstacles qui mettront leur bravoure à l’épreuve."
+    "synopsis": "Dans leur ancien manoir familial, Peter et Vérité vont découvrir, caché sous le plancher de leur chambre, un royaume magique peuplé d’une civilisation de créatures. Cette civilisation est menacée par un ennemi légendaire. Embarqués dans une quête périlleuse afin de retrouver cinq trésors mythiques, ils devront faire face à des défis et des obstacles qui mettront leur bravoure à l’épreuve.",
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm1217805",
@@ -11625,7 +9898,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -11641,7 +9914,9 @@ const CATALOG_DATA = [
       "trl",
       "scf"
     ],
-    "synopsis": "En 2056, de puissants groupes ont remplacé les gouvernements mondiaux. Les ressources sur la Terre sont épuisées. Stationnés sur la station spatiale «Rubikon», la soldate Hannah et les scientifiques Gavin et Dimitri travaillent à un projet d’algues qui pourrait aider l’humanité tout entière. Lorsque la Terre se retrouve soudain enveloppée dans un brouillard toxique et mystérieux, l’équipe perd tout contact avec le contrôle au sol. Dès lors, tiraillés entre divers commanditaires et des valeurs morales divergentes, ils devront prendre une décision: doivent-ils quitter la station et risquer leur vie pour sauver celle des autres ?"
+    "synopsis": "En 2056, de puissants groupes ont remplacé les gouvernements mondiaux. Les ressources sur la Terre sont épuisées. Stationnés sur la station spatiale «Rubikon», la soldate Hannah et les scientifiques Gavin et Dimitri travaillent à un projet d’algues qui pourrait aider l’humanité tout entière. Lorsque la Terre se retrouve soudain enveloppée dans un brouillard toxique et mystérieux, l’équipe perd tout contact avec le contrôle au sol. Dès lors, tiraillés entre divers commanditaires et des valeurs morales divergentes, ils devront prendre une décision: doivent-ils quitter la station et risquer leur vie pour sauver celle des autres ?",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm327126",
@@ -11669,7 +9944,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "auc": "2027-02-28"
@@ -11686,7 +9961,9 @@ const CATALOG_DATA = [
       "trl",
       "scf"
     ],
-    "synopsis": "Liam se réveille d'un accident de voiture sans souvenir de qui il est. Alors qu'il se rend en ville pour chercher de l'aide, il ne trouve que des cadavres, tous avec d'étranges yeux pâles. La première évaluation de Liam est qu'un virus est présent dans l'air, mais il découvre bientôt l'horrible vérité: toute personne qui se trouve dans un rayon de 50 pieds de lui meurt instantanément."
+    "synopsis": "Liam se réveille d'un accident de voiture sans souvenir de qui il est. Alors qu'il se rend en ville pour chercher de l'aide, il ne trouve que des cadavres, tous avec d'étranges yeux pâles. La première évaluation de Liam est qu'un virus est présent dans l'air, mais il découvre bientôt l'horrible vérité: toute personne qui se trouve dans un rayon de 50 pieds de lui meurt instantanément.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm996866",
@@ -11714,7 +9991,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -11730,51 +10007,9 @@ const CATALOG_DATA = [
       "cmy",
       "trl"
     ],
-    "synopsis": "Connor, un hacker de génie, découvre Cicada 3301, une mystérieuse chasse au trésor en ligne menée par une organisation secrète. Épaulé par un expert en art et une bibliothécaire, Connor se précipite dans une quête d'indices dans le monde réel pour mettre la main sur le trésor. Mais il n'est pas seul : de dangereux agents de la NSA, également sur la piste de Cicada, se lancent à la poursuite de Connor."
-  },
-  {
-    "id": "jw-tm918698",
-    "titre": "The Deal",
-    "type": "film",
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "annee": 2022,
-    "chaine": "Universal+",
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "poster": "https://images.justwatch.com/poster/307340795/s592/the-deal-2022.jpg",
-    "note_avis": 4.7,
-    "note_recence": 9.1,
-    "note_globale": 6.9,
-    "is_eligible": true,
-    "chaines": [
-      "Universal+"
-    ],
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "badge": "10",
-    "duree": "1h 32min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "auc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "auc"
-    ],
-    "runtime_minutes": 92,
-    "etoiles": 3,
-    "raw_genres": [
-      "drm",
-      "trl",
-      "scf"
-    ],
-    "synopsis": "Une pandémie sans précédent a ravagé l’humanité. Pour combattre la crise, une organisation totalitaire, le Bureau, a enfermé les survivants à l’intérieur d’une cité sans âme, où chaque individu est encouragé à signer le « Deal ». Acceptez-le et vous recevrez emploi, logement et soins médicaux pendant vingt ans, après quoi vous devrez mourir et laisser votre place. Tala Bayani a accepté le Deal quand elle avait 20 ans, et qu’elle était enceinte et seule. Depuis, elle fait tout pour que sa fille Analyn n’ait pas à faire le même choix qu’elle. Cinq jours seulement avant la mort programmée de Tala, Analyn reçoit un diagnostique médical inattendu. Tala va devoir se battre pour que sa fille échappe à l’asservissement imposé par le Bureau, avant que son temps ne soit écoulé."
+    "synopsis": "Connor, un hacker de génie, découvre Cicada 3301, une mystérieuse chasse au trésor en ligne menée par une organisation secrète. Épaulé par un expert en art et une bibliothécaire, Connor se précipite dans une quête d'indices dans le monde réel pour mettre la main sur le trésor. Mais il n'est pas seul : de dangereux agents de la NSA, également sur la piste de Cicada, se lancent à la poursuite de Connor.",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1197793",
@@ -11818,7 +10053,9 @@ const CATALOG_DATA = [
       "trl",
       "scf"
     ],
-    "synopsis": "Basé sur le comic book CORRECTIVE MEASURES de Grant Chastain. Au sein de la prison ultra-sécurisée de San Tiburon, un virus menace de transformer les mutants les plus dangereux pour la société en monstres dotés de super pouvoirs. Bientôt, les tensions entre les détenus et le personnel s'exacerbent, menant à l’anarchie et au chaos."
+    "synopsis": "Basé sur le comic book CORRECTIVE MEASURES de Grant Chastain. Au sein de la prison ultra-sécurisée de San Tiburon, un virus menace de transformer les mutants les plus dangereux pour la société en monstres dotés de super pouvoirs. Bientôt, les tensions entre les détenus et le personnel s'exacerbent, menant à l’anarchie et au chaos.",
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm984217",
@@ -11846,7 +10083,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "auc": "2027-02-28"
@@ -11861,7 +10098,9 @@ const CATALOG_DATA = [
       "hrr",
       "trl"
     ],
-    "synopsis": "Six étrangers se réveillent désorientés et coincés dans un champ de maïs. Ils ne vont pas tarder à comprendre que quelque chose de mystérieux les chasse. Armés seulement d'objets apparemment anodins (une boussole, une gourde, un revolver à une seule balle), ils doivent s'allier pour s'échapper du champ et ne pas mourir."
+    "synopsis": "Six étrangers se réveillent désorientés et coincés dans un champ de maïs. Ils ne vont pas tarder à comprendre que quelque chose de mystérieux les chasse. Armés seulement d'objets apparemment anodins (une boussole, une gourde, un revolver à une seule balle), ils doivent s'allier pour s'échapper du champ et ne pas mourir.",
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm350171",
@@ -11905,7 +10144,9 @@ const CATALOG_DATA = [
       "rma",
       "scf"
     ],
-    "synopsis": "Helen tente de faire face à la mort récente de son mari, un scientifique qui s'est suicidé alors qu'il était sur le point de réussir l'invention d'une machine à voyager dans le temps. Un jour, elle reçoit un appel téléphonique et une voix ressemblant étrangement à la sienne l'avertit qu'elle est en danger. Est-il possible qu'Helen ait voyagé dans le temps ? Et qu'est-ce qui a pu la pousser à faire une telle chose ?"
+    "synopsis": "Helen tente de faire face à la mort récente de son mari, un scientifique qui s'est suicidé alors qu'il était sur le point de réussir l'invention d'une machine à voyager dans le temps. Un jour, elle reçoit un appel téléphonique et une voix ressemblant étrangement à la sienne l'avertit qu'elle est en danger. Est-il possible qu'Helen ait voyagé dans le temps ? Et qu'est-ce qui a pu la pousser à faire une telle chose ?",
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm65446",
@@ -11933,7 +10174,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "auc": "2026-10-31"
@@ -11948,7 +10189,9 @@ const CATALOG_DATA = [
       "act",
       "fnt"
     ],
-    "synopsis": "Fan de kung-fu et de cinéma hong-kongais, Jason Tripitika, 17 ans, rêve souvent du Roi Singe. Il découvre un jour, dans une boutique de Chinatown tenue par le vieux Hop, une longue canne - un \"bo\" - ornée d'un singe en bronze qui ressemble à celui du personnage de ses rêves. Quelque temps après, une bande de malfaiteurs oblige Jason à s'introduire dans la boutique pour la dévaliser. Hop est abattu d'une balle, mais il a juste le temps de confier la canne à Jason et de lui faire promettre de la restituer à son propriétaire. Paniqué, le garçon s'enfuit et, serrant la canne contre lui, tombe du toit. Quand il reprend connaissance, il se retrouve plongé dans la Chine ancienne, toujours en possession de la canne. Alors qu'il est attaqué par les guerriers de Jade, Lu Yan, un ivrogne, vient à son secours et réussit en quelques mouvements de kung-fu à le débarrasser des agresseurs."
+    "synopsis": "Fan de kung-fu et de cinéma hong-kongais, Jason Tripitika, 17 ans, rêve souvent du Roi Singe. Il découvre un jour, dans une boutique de Chinatown tenue par le vieux Hop, une longue canne - un \"bo\" - ornée d'un singe en bronze qui ressemble à celui du personnage de ses rêves. Quelque temps après, une bande de malfaiteurs oblige Jason à s'introduire dans la boutique pour la dévaliser. Hop est abattu d'une balle, mais il a juste le temps de confier la canne à Jason et de lui faire promettre de la restituer à son propriétaire. Paniqué, le garçon s'enfuit et, serrant la canne contre lui, tombe du toit. Quand il reprend connaissance, il se retrouve plongé dans la Chine ancienne, toujours en possession de la canne. Alors qu'il est attaqué par les guerriers de Jade, Lu Yan, un ivrogne, vient à son secours et réussit en quelques mouvements de kung-fu à le débarrasser des agresseurs.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm167082",
@@ -11991,7 +10234,9 @@ const CATALOG_DATA = [
       "fnt",
       "scf"
     ],
-    "synopsis": "Carter et Jordyn Flynn ne sont pas des parents ordinaires : ils parcourent le monde, protégeant les artefacts de contes de fées les plus puissants afin qu'ils ne tombent pas entre de mauvaises mains. Alors que les Flynn prennent leur travail très au sérieux , ils sont tout aussi préoccupés par le bien-être de leurs deux fils, Paxton et Tripp, qui ne se doutent pas un instant de la véritable activité de leurs parents.  Lorsque ces derniers disparaissent au cours d'une de leurs missions, les garçons découvrent toute la vérité et, avec l'aide de Dylan, l'assistante des Flynn, ils partent à la recherche de leurs parents, en tentant à leur tour de protéger un objet magique extrêmement puissant : le miroir de Blanche-Neige..."
+    "synopsis": "Carter et Jordyn Flynn ne sont pas des parents ordinaires : ils parcourent le monde, protégeant les artefacts de contes de fées les plus puissants afin qu'ils ne tombent pas entre de mauvaises mains. Alors que les Flynn prennent leur travail très au sérieux , ils sont tout aussi préoccupés par le bien-être de leurs deux fils, Paxton et Tripp, qui ne se doutent pas un instant de la véritable activité de leurs parents.  Lorsque ces derniers disparaissent au cours d'une de leurs missions, les garçons découvrent toute la vérité et, avec l'aide de Dylan, l'assistante des Flynn, ils partent à la recherche de leurs parents, en tentant à leur tour de protéger un objet magique extrêmement puissant : le miroir de Blanche-Neige...",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm45815",
@@ -12037,7 +10282,9 @@ const CATALOG_DATA = [
       "rma",
       "scf"
     ],
-    "synopsis": "De retour à New York après sa dernière aventure, Flynn essaie tant bien que mal de reprendre le cours normal de sa vie. Mais hanté par d'étranges rêves, il s'envole pour la Nouvelle-Orléans pour découvrir l'existence d'une conspiration menée par le plus célèbre des vampires : le Prince Vlad Dracul !"
+    "synopsis": "De retour à New York après sa dernière aventure, Flynn essaie tant bien que mal de reprendre le cours normal de sa vie. Mais hanté par d'étranges rêves, il s'envole pour la Nouvelle-Orléans pour découvrir l'existence d'une conspiration menée par le plus célèbre des vampires : le Prince Vlad Dracul !",
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm1299445",
@@ -12065,7 +10312,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -12082,7 +10329,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Un serrurier tout juste sorti de prison se retrouve entraîné dans un monde de policiers corrompus et de criminels sans pitié, mettant du même coup en péril l'avenir qu'il espérait construire avec son ex-petite amie détective et leur fille."
+    "synopsis": "Un serrurier tout juste sorti de prison se retrouve entraîné dans un monde de policiers corrompus et de criminels sans pitié, mettant du même coup en péril l'avenir qu'il espérait construire avec son ex-petite amie détective et leur fille.",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm147835",
@@ -12112,7 +10361,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28",
@@ -12130,7 +10379,9 @@ const CATALOG_DATA = [
       "crm",
       "trl"
     ],
-    "synopsis": "Cherchant à recommencer sa vie, un ancien tueur à gages surnommé le Jésuite est incapable d'échapper aux péchés de son passé. Avec des ennemis des deux côtés de la loi, il n'a nulle part où se tourner lorsque son seul fils est kidnappé par un impitoyable chef de cartel. Il n'arrêtera à rien pour sauver son garçon..."
+    "synopsis": "Cherchant à recommencer sa vie, un ancien tueur à gages surnommé le Jésuite est incapable d'échapper aux péchés de son passé. Avec des ennemis des deux côtés de la loi, il n'a nulle part où se tourner lorsque son seul fils est kidnappé par un impitoyable chef de cartel. Il n'arrêtera à rien pour sauver son garçon...",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm315348",
@@ -12158,7 +10409,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -12173,7 +10424,9 @@ const CATALOG_DATA = [
       "act",
       "trl"
     ],
-    "synopsis": "Un groupe mafieux met la tête de la fille d’un millionnaire à prix. Elle devient la cible d’un groupe de tueurs à gages d’élites. Un petit groupe de mercenaires fera tout pour protèger la jeune fille."
+    "synopsis": "Un groupe mafieux met la tête de la fille d’un millionnaire à prix. Elle devient la cible d’un groupe de tueurs à gages d’élites. Un petit groupe de mercenaires fera tout pour protèger la jeune fille.",
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm196292",
@@ -12201,7 +10454,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -12217,7 +10470,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Après avoir contracté une dette auprès d’un dangereux baron de la drogue, trois jeunes hommes désespérés décident de commettre un braquage pour réunir l’argent qui leur manque. Ce qui s’annonçait comme un plan simple et efficace (entre et sortir de la banque en sept minutes) dérape bien vite… Chaque minute qui passe révèle les secrets inavoués de chacun. En sortiront-ils indemnes ?"
+    "synopsis": "Après avoir contracté une dette auprès d’un dangereux baron de la drogue, trois jeunes hommes désespérés décident de commettre un braquage pour réunir l’argent qui leur manque. Ce qui s’annonçait comme un plan simple et efficace (entre et sortir de la banque en sept minutes) dérape bien vite… Chaque minute qui passe révèle les secrets inavoués de chacun. En sortiront-ils indemnes ?",
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm1088788",
@@ -12262,7 +10517,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "trl"
     ],
-    "synopsis": "Après le succès retentissant de son premier roman Inexorable, Marcel Bellmer n’a jamais vraiment réussi à renouer avec le succès. Des années plus tard et au sortir d’une dépression qui l’a terrassé, il emménage avec sa femme et éditrice Jeanne Drahi, sa fille Lucie et leur chien Ulysse dans la riche propriété de son beau-père tout juste décédé. Dans ce temple de l’érudition où se sont succédé les grands écrivains du XXème Siècle, Marcel sent qu’il est rattrapé par ses démons. C’est alors que Gloria, étrangement fascinée par les Bellmer, se fait engager comme femme de ménage. Jeune et fougueuse, elle se rapproche de Marcel, ils s’attirent. Alors que Marcel sent revenir en lui le feu qui lui avait inspiré Inexorable, il glisse inexorablement dans un piège qui pourrait bien le mener à sa perte."
+    "synopsis": "Après le succès retentissant de son premier roman Inexorable, Marcel Bellmer n’a jamais vraiment réussi à renouer avec le succès. Des années plus tard et au sortir d’une dépression qui l’a terrassé, il emménage avec sa femme et éditrice Jeanne Drahi, sa fille Lucie et leur chien Ulysse dans la riche propriété de son beau-père tout juste décédé. Dans ce temple de l’érudition où se sont succédé les grands écrivains du XXème Siècle, Marcel sent qu’il est rattrapé par ses démons. C’est alors que Gloria, étrangement fascinée par les Bellmer, se fait engager comme femme de ménage. Jeune et fougueuse, elle se rapproche de Marcel, ils s’attirent. Alors que Marcel sent revenir en lui le feu qui lui avait inspiré Inexorable, il glisse inexorablement dans un piège qui pourrait bien le mener à sa perte.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1255330",
@@ -12289,8 +10546,8 @@ const CATALOG_DATA = [
     "duree": "1h 38min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 10 j",
-      "daysLeft": 10,
+      "label": "⏳ Expire dans 7 j",
+      "daysLeft": 7,
       "expirationDate": "2026-10-07",
       "packageExpirations": {
         "aca": "2026-10-07"
@@ -12306,7 +10563,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Sous contrôle judiciaire, Yann (Jérémy Laheurte) rêve d’une nouvelle vie loin de la banlieue. Pour rembourser une dette,  il accepte de convoyer jusqu’en Espagne, Dara (Tracy Gotoas) une jeune nigériane prisonnière d’un réseau de prostitution dirigé par Sumaï (Bosh). Alors que Yann est recherché de toutes parts, Dara va tenter d’échapper à son geôlier pour retrouver sa liberté…"
+    "synopsis": "Sous contrôle judiciaire, Yann (Jérémy Laheurte) rêve d’une nouvelle vie loin de la banlieue. Pour rembourser une dette,  il accepte de convoyer jusqu’en Espagne, Dara (Tracy Gotoas) une jeune nigériane prisonnière d’un réseau de prostitution dirigé par Sumaï (Bosh). Alors que Yann est recherché de toutes parts, Dara va tenter d’échapper à son geôlier pour retrouver sa liberté…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm244173",
@@ -12334,7 +10593,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -12351,7 +10610,9 @@ const CATALOG_DATA = [
       "trl",
       "eur"
     ],
-    "synopsis": "Un groupe d'amis baroudeurs fait un périple dans la jungle bolivienne dans le but de trouver une tribu isolée du monde. Aidés d'un pseudo-aventurier appelé Karl, ils vont parcourir une partie des lieux alors encore inexplorée."
+    "synopsis": "Un groupe d'amis baroudeurs fait un périple dans la jungle bolivienne dans le but de trouver une tribu isolée du monde. Aidés d'un pseudo-aventurier appelé Karl, ils vont parcourir une partie des lieux alors encore inexplorée.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm448696",
@@ -12379,7 +10640,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -12397,7 +10658,9 @@ const CATALOG_DATA = [
       "war",
       "eur"
     ],
-    "synopsis": "Inspiré de faits réels. 1976 à Djibouti, dernière colonie française. Des terroristes prennent en otage un bus d’enfants de militaires français et s’enlisent à une centaine de mètres de la frontière avec la Somalie. La France envoie sur place pour débloquer la situation une unité de tireurs d'élite de la Gendarmerie. Cette équipe, aussi hétéroclite qu’indisciplinée, va mener une opération à haut risque qui marquera la naissance du GIGN."
+    "synopsis": "Inspiré de faits réels. 1976 à Djibouti, dernière colonie française. Des terroristes prennent en otage un bus d’enfants de militaires français et s’enlisent à une centaine de mètres de la frontière avec la Somalie. La France envoie sur place pour débloquer la situation une unité de tireurs d'élite de la Gendarmerie. Cette équipe, aussi hétéroclite qu’indisciplinée, va mener une opération à haut risque qui marquera la naissance du GIGN.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm983260",
@@ -12425,7 +10688,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -12440,7 +10703,9 @@ const CATALOG_DATA = [
       "drm",
       "spt"
     ],
-    "synopsis": "Nick Newell, un combattant manchot du MMA, a une chance rare de se battre pour le championnat des poids légers. Il s'efforce de gagner pour lui-même et pour toutes les personnes dans le monde qui ont des difficultés physiques."
+    "synopsis": "Nick Newell, un combattant manchot du MMA, a une chance rare de se battre pour le championnat des poids légers. Il s'efforce de gagner pour lui-même et pour toutes les personnes dans le monde qui ont des difficultés physiques.",
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm1325452",
@@ -12468,7 +10733,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -12484,7 +10749,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Ryder et son équipe d’élite, les Hounds, devront affronter une mission des plus périlleuses en Libye où la guerre bat son plein. Ils devront se faufiler entre les mailles du danger et ne pourront compter que sur leurs aptitudes au combat et leur mental d’acier. Plongez dans ce thriller qui vous tiendra en haleine, où la loyauté et le courage seront mis à rude épreuve."
+    "synopsis": "Ryder et son équipe d’élite, les Hounds, devront affronter une mission des plus périlleuses en Libye où la guerre bat son plein. Ils devront se faufiler entre les mailles du danger et ne pourront compter que sur leurs aptitudes au combat et leur mental d’acier. Plongez dans ce thriller qui vous tiendra en haleine, où la loyauté et le courage seront mis à rude épreuve.",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm288010",
@@ -12526,7 +10793,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Alors qu'il assiste à un match de football, Michael Knox, un ancien militaire, reçoit un appel : les 35 000 personnes présentes au stade sont prises en otages. Le secteur a été piégé. Si Knox n'élimine pas un des spectateurs, un certain Dimitri, les terroristes feront tout exploser. Ils tueront aussi la nièce de Knox qu'ils ont kidnappée..."
+    "synopsis": "Alors qu'il assiste à un match de football, Michael Knox, un ancien militaire, reçoit un appel : les 35 000 personnes présentes au stade sont prises en otages. Le secteur a été piégé. Si Knox n'élimine pas un des spectateurs, un certain Dimitri, les terroristes feront tout exploser. Ils tueront aussi la nièce de Knox qu'ils ont kidnappée...",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm408010",
@@ -12568,7 +10837,9 @@ const CATALOG_DATA = [
       "drm",
       "scf"
     ],
-    "synopsis": "Après la chute du vaisseau extraterrestre, il a fallu trois ans. La catastrophe a changé la vie de la jeune fille de Chertanovo et a changé à jamais notre vision de l'univers. Il semble que ce fut le plus grand test pour nous tous. Mais l'humanité ne sait pas encore que très bientôt elle devra faire l'expérience d'une nouvelle rencontre."
+    "synopsis": "Après la chute du vaisseau extraterrestre, il a fallu trois ans. La catastrophe a changé la vie de la jeune fille de Chertanovo et a changé à jamais notre vision de l'univers. Il semble que ce fut le plus grand test pour nous tous. Mais l'humanité ne sait pas encore que très bientôt elle devra faire l'expérience d'une nouvelle rencontre.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm141858",
@@ -12596,7 +10867,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -12614,7 +10885,9 @@ const CATALOG_DATA = [
       "trl",
       "eur"
     ],
-    "synopsis": "Hiver 1952, Moscou. Leo Demidov est un brillant agent de la police secrète soviétique, promis à un grand avenir au sein du Parti. Lorsque le corps d'un enfant est retrouvé sur une voie ferrée, il est chargé de classer l'affaire. Il s'agit d'un accident, Staline ayant décrété que le crime ne pouvait exister dans le parfait État communiste. Mais peu à peu, le doute s'installe dans l'esprit de Leo et il découvre que d'autres enfants ont été victimes « d'accidents » similaires. Tombé en disgrâce, soupçonné de trahison, Leo est contraint à l'exil avec sa femme, Raissa. Prenant tous les risques, Leo et Raissa vont se lancer dans la traque de ce tueur en série invisible, qui fera d'eux des ennemis du peuple..."
+    "synopsis": "Hiver 1952, Moscou. Leo Demidov est un brillant agent de la police secrète soviétique, promis à un grand avenir au sein du Parti. Lorsque le corps d'un enfant est retrouvé sur une voie ferrée, il est chargé de classer l'affaire. Il s'agit d'un accident, Staline ayant décrété que le crime ne pouvait exister dans le parfait État communiste. Mais peu à peu, le doute s'installe dans l'esprit de Leo et il découvre que d'autres enfants ont été victimes « d'accidents » similaires. Tombé en disgrâce, soupçonné de trahison, Leo est contraint à l'exil avec sa femme, Raissa. Prenant tous les risques, Leo et Raissa vont se lancer dans la traque de ce tueur en série invisible, qui fera d'eux des ennemis du peuple...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1029522",
@@ -12657,7 +10930,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Un assassin professionnel doit retrouver et tuer sa dernière cible afin d'honorer une dette envers son mentor. Contrairement à ses autres « travaux », pour cette mission, le tueur à gages a peu d'informations, il sait seulement qu'elle se trouvera dans un restaurant. N'importe quel client peut donc être sa proie..."
+    "synopsis": "Un assassin professionnel doit retrouver et tuer sa dernière cible afin d'honorer une dette envers son mentor. Contrairement à ses autres « travaux », pour cette mission, le tueur à gages a peu d'informations, il sait seulement qu'elle se trouvera dans un restaurant. N'importe quel client peut donc être sa proie...",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm428276",
@@ -12685,7 +10960,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -12701,7 +10976,9 @@ const CATALOG_DATA = [
       "war",
       "eur"
     ],
-    "synopsis": "1940 : un escadron d’élite de l’armée de l’air polonaise est envoyé au Royaume-Uni. Ces quelques pilotes se battront avec bravoure, loin de leur pays, afin de protéger les lignes alliés contre les attaque de l’armée allemande."
+    "synopsis": "1940 : un escadron d’élite de l’armée de l’air polonaise est envoyé au Royaume-Uni. Ces quelques pilotes se battront avec bravoure, loin de leur pays, afin de protéger les lignes alliés contre les attaque de l’armée allemande.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm244280",
@@ -12729,7 +11006,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -12746,7 +11023,9 @@ const CATALOG_DATA = [
       "rma",
       "scf"
     ],
-    "synopsis": "Victime d'un incident, un vaisseau spatial extraterrestre est pris en chasse par des avions russes, qui parviennent finalement à l'abattre. Le vaisseau s'écrase dans la banlieue de Moscou et les survivants, bien que pacifiques, sont traqués et parqués par l'armée moscovite. Une écolière parvient à sauver et à cacher l'un des extraterrestres. Et bientôt, toute la population commence à émettre des doutes sur les motivations des aliens et la nécessité de les enfermer."
+    "synopsis": "Victime d'un incident, un vaisseau spatial extraterrestre est pris en chasse par des avions russes, qui parviennent finalement à l'abattre. Le vaisseau s'écrase dans la banlieue de Moscou et les survivants, bien que pacifiques, sont traqués et parqués par l'armée moscovite. Une écolière parvient à sauver et à cacher l'un des extraterrestres. Et bientôt, toute la population commence à émettre des doutes sur les motivations des aliens et la nécessité de les enfermer.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm353742",
@@ -12794,7 +11073,9 @@ const CATALOG_DATA = [
       "trl",
       "eur"
     ],
-    "synopsis": "Violente et percutante, avec Adrien Brody, John Malkovich et Antonio Banderas, casting trois étoiles, ce thriller revisite le film de braquage avec originalité, c'est un vrai plaisir. Après un braquage, trois voleurs se retrouvent coincés dans un entrepôt abandonné mais dans ces lieux rôde un redoutable chien de combat qui va les traquer."
+    "synopsis": "Violente et percutante, avec Adrien Brody, John Malkovich et Antonio Banderas, casting trois étoiles, ce thriller revisite le film de braquage avec originalité, c'est un vrai plaisir. Après un braquage, trois voleurs se retrouvent coincés dans un entrepôt abandonné mais dans ces lieux rôde un redoutable chien de combat qui va les traquer.",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm355903",
@@ -12822,7 +11103,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -12838,7 +11119,9 @@ const CATALOG_DATA = [
       "crm",
       "trl"
     ],
-    "synopsis": "Bipolaire, une artiste se remet de la perte de son enfant. Assaillie de souvenirs et sujette à des phobies, elle est placée pour sa propre sécurité dans un appartement ultra-moderne à la technologie de pointe. Mais des choses étranges se passent et la jeune femme soupçonne la présence d'un fantôme."
+    "synopsis": "Bipolaire, une artiste se remet de la perte de son enfant. Assaillie de souvenirs et sujette à des phobies, elle est placée pour sa propre sécurité dans un appartement ultra-moderne à la technologie de pointe. Mais des choses étranges se passent et la jeune femme soupçonne la présence d'un fantôme.",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1215900",
@@ -12866,7 +11149,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -12882,7 +11165,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Après qu'un courtier en bourse véreux d'une petite ville ait commencé à sortir avec une serveuse timide, un meurtre choquant a lieu et l'un d'eux pourrait être responsable. Lorsque la rumeur se répand qu'il y a de l'argent derrière ce meurtre, tous les criminels de la ville veulent leur part de l'argent."
+    "synopsis": "Après qu'un courtier en bourse véreux d'une petite ville ait commencé à sortir avec une serveuse timide, un meurtre choquant a lieu et l'un d'eux pourrait être responsable. Lorsque la rumeur se répand qu'il y a de l'argent derrière ce meurtre, tous les criminels de la ville veulent leur part de l'argent.",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm166714",
@@ -12910,7 +11195,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -12926,7 +11211,9 @@ const CATALOG_DATA = [
       "fnt",
       "hrr"
     ],
-    "synopsis": "Quinze années après leur captivité dans la maison de pain d'épices, Hansel et Gretel laissent libre court à leur soif de vengeance. Adultes, les deux frères et soeurs sont devenus d'impitoyables et sanglants chasseurs de prime, spécialisés dans la traque des sorcières du monde entier. Le duo a été recruté par le maire d'Augsburg, Englemann, pour débarrasser la ville de Muriel, une sorcière diabolique régnant sur la forêt voisine. Cette dernière a enlevé plusieurs enfants du village et projette de les sacrifier lors d'une cérémonie qui doit se dérouler durant la nuit de la Lune du sang. A l'approche du moment fatidique, Hansel et Gretel sont rattrapés par un autre ennemi, bien plus dangereux encore que la sorcière : leur propre passé..."
+    "synopsis": "Quinze années après leur captivité dans la maison de pain d'épices, Hansel et Gretel laissent libre court à leur soif de vengeance. Adultes, les deux frères et soeurs sont devenus d'impitoyables et sanglants chasseurs de prime, spécialisés dans la traque des sorcières du monde entier. Le duo a été recruté par le maire d'Augsburg, Englemann, pour débarrasser la ville de Muriel, une sorcière diabolique régnant sur la forêt voisine. Cette dernière a enlevé plusieurs enfants du village et projette de les sacrifier lors d'une cérémonie qui doit se dérouler durant la nuit de la Lune du sang. A l'approche du moment fatidique, Hansel et Gretel sont rattrapés par un autre ennemi, bien plus dangereux encore que la sorcière : leur propre passé...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm233435",
@@ -12954,7 +11241,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -12971,7 +11258,9 @@ const CATALOG_DATA = [
       "fml",
       "war"
     ],
-    "synopsis": "En 1941, le Japon fait avancer la guerre jusqu’à l’Asie du Sud. La ligne de chemin de fer entre Tianjin et Nanjing devient stratégique. Le cheminot Ma Yuan dirige une équipe de résistants, mettant à profit leur connaissance du réseau ferroviaire pour faire dérailler les machines de guerre japonaises. Les Chinois nomment ces héros hors du commun les « Railroad Tigers ». Quand les forces japonaises envoient des renforts à Shandong, Ma Yuan se lance dans sa plus périlleuse mission : faire sauter un pont ultra-sécurisé, ce qui ralentirait considérablement la progression japonaise…"
+    "synopsis": "En 1941, le Japon fait avancer la guerre jusqu’à l’Asie du Sud. La ligne de chemin de fer entre Tianjin et Nanjing devient stratégique. Le cheminot Ma Yuan dirige une équipe de résistants, mettant à profit leur connaissance du réseau ferroviaire pour faire dérailler les machines de guerre japonaises. Les Chinois nomment ces héros hors du commun les « Railroad Tigers ». Quand les forces japonaises envoient des renforts à Shandong, Ma Yuan se lance dans sa plus périlleuse mission : faire sauter un pont ultra-sécurisé, ce qui ralentirait considérablement la progression japonaise…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm858091",
@@ -12999,7 +11288,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -13015,7 +11304,9 @@ const CATALOG_DATA = [
       "drm",
       "war"
     ],
-    "synopsis": "Dans le paysage glacé et déchiré par la guerre de la Pologne occupée pendant la Seconde Guerre mondiale, une équipe de commandos alliés est envoyée en mission mortelle derrière les lignes ennemies pour extraire un spécialiste des fusées des mains des nazis."
+    "synopsis": "Dans le paysage glacé et déchiré par la guerre de la Pologne occupée pendant la Seconde Guerre mondiale, une équipe de commandos alliés est envoyée en mission mortelle derrière les lignes ennemies pour extraire un spécialiste des fusées des mains des nazis.",
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm927756",
@@ -13043,7 +11334,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -13059,7 +11350,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Une membre des Marines, après avoir vécu des événements traumatisants, est de retour chez elle. Devenue concierge d'un immeuble new-yorkais, elle va se retrouver confrontée à des mercenaires bien décidés à mettre la main sur une précieuse oeuvre d'art."
+    "synopsis": "Une membre des Marines, après avoir vécu des événements traumatisants, est de retour chez elle. Devenue concierge d'un immeuble new-yorkais, elle va se retrouver confrontée à des mercenaires bien décidés à mettre la main sur une précieuse oeuvre d'art.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm71598",
@@ -13087,7 +11380,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -13104,7 +11397,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Des enfants pourris gâtés, issus de familles aisées, sont envoyés dans une pension très stricte, dans l'espoir que cette éducation leur remettra les idées en place. Arrivés sur place, ils se retrouvent bientôt pris en otages par des criminels ayant assiégé l'école. Leurs kidnappeurs demandent alors une rançon exorbitante. Leur seul espoir : s'en sortir par leurs propres moyens..."
+    "synopsis": "Des enfants pourris gâtés, issus de familles aisées, sont envoyés dans une pension très stricte, dans l'espoir que cette éducation leur remettra les idées en place. Arrivés sur place, ils se retrouvent bientôt pris en otages par des criminels ayant assiégé l'école. Leurs kidnappeurs demandent alors une rançon exorbitante. Leur seul espoir : s'en sortir par leurs propres moyens...",
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm197589",
@@ -13132,7 +11427,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -13149,7 +11444,9 @@ const CATALOG_DATA = [
       "drm",
       "spt"
     ],
-    "synopsis": "Kurt Sloan est bien décidé à venger la mort de son frère Eric, tué par un champion de boxe thaïlandaise. Pour cela, il est entraîné par un maître en arts martiaux."
+    "synopsis": "Kurt Sloan est bien décidé à venger la mort de son frère Eric, tué par un champion de boxe thaïlandaise. Pour cela, il est entraîné par un maître en arts martiaux.",
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm315397",
@@ -13177,7 +11474,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -13192,7 +11489,9 @@ const CATALOG_DATA = [
       "act",
       "trl"
     ],
-    "synopsis": "Stratton, agent du MI6, s’infiltre avec son coéquipier Marty dans un laboratoire iranien pour intercepter le vol de molécules chimiques mortelles. Mais à leur arrivée, celles-ci ont déjà disparu et la mission tourne mal… De retour à Londres, Stratton et son équipe se lancent dans une course contre la montre pour stopper la cellule terroriste qui projette d’utiliser l’arme biochimique sur une capitale."
+    "synopsis": "Stratton, agent du MI6, s’infiltre avec son coéquipier Marty dans un laboratoire iranien pour intercepter le vol de molécules chimiques mortelles. Mais à leur arrivée, celles-ci ont déjà disparu et la mission tourne mal… De retour à Londres, Stratton et son équipe se lancent dans une course contre la montre pour stopper la cellule terroriste qui projette d’utiliser l’arme biochimique sur une capitale.",
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm842965",
@@ -13210,19 +11509,17 @@ const CATALOG_DATA = [
     "note_globale": 7.2,
     "is_eligible": true,
     "chaines": [
-      "Ciné+ OCS",
-      "Action Max"
+      "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
-      "assets/logos/action.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "badge": "12",
     "duree": "1h 38min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28",
@@ -13230,8 +11527,7 @@ const CATALOG_DATA = [
       }
     },
     "package_slugs": [
-      "aoc",
-      "aca"
+      "aoc"
     ],
     "runtime_minutes": 98,
     "etoiles": 4,
@@ -13240,7 +11536,9 @@ const CATALOG_DATA = [
       "crm",
       "trl"
     ],
-    "synopsis": "L'agent Frank Penny n'a plus que 64 minutes pour sauver la fille du chef de la police, détenue par ses ravisseurs dans un réservoir dont le niveau d'eau monte inexorablement. Alors qu'un malfaiteur psychopathe s'est lancé à ses trousses, Frank va faire équipe avec Ava Brooks, star des réseaux sociaux, dans l'espoir que la diffusion en live de leur enquête permette d'éviter le pire."
+    "synopsis": "L'agent Frank Penny n'a plus que 64 minutes pour sauver la fille du chef de la police, détenue par ses ravisseurs dans un réservoir dont le niveau d'eau monte inexorablement. Alors qu'un malfaiteur psychopathe s'est lancé à ses trousses, Frank va faire équipe avec Ava Brooks, star des réseaux sociaux, dans l'espoir que la diffusion en live de leur enquête permette d'éviter le pire.",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm918825",
@@ -13268,7 +11566,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -13283,7 +11581,9 @@ const CATALOG_DATA = [
       "act",
       "trl"
     ],
-    "synopsis": "Après avoir arraché des prisonniers des mains de leurs ravisseurs, des mercenaires prennent la fuite à travers la savane. Pourchassés par ceux qu'ils viennent d'attaquer, ils vont devoir faire face à un danger tout aussi mortel..."
+    "synopsis": "Après avoir arraché des prisonniers des mains de leurs ravisseurs, des mercenaires prennent la fuite à travers la savane. Pourchassés par ceux qu'ils viennent d'attaquer, ils vont devoir faire face à un danger tout aussi mortel...",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm419425",
@@ -13311,7 +11611,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -13327,7 +11627,9 @@ const CATALOG_DATA = [
       "trl",
       "eur"
     ],
-    "synopsis": "Carson Phillips, ancien quarterback devenu détective privé à Los Angeles, se rend à Galveston au Texas sur la demande d’une cliente sans nouvelles de sa tante. Il accepte à contrecoeur car aller à Galveston c’est pour lui un pèlerinage douloureux. C’est là qu’il y a vingt ans, il a abandonné la femme qu’il aimait ainsi que sa carrière de footballeur. Carson va alors percer un à un tous les secrets cette ville sur fond de corruption, de trafic de drogue et de matchs truqués."
+    "synopsis": "Carson Phillips, ancien quarterback devenu détective privé à Los Angeles, se rend à Galveston au Texas sur la demande d’une cliente sans nouvelles de sa tante. Il accepte à contrecoeur car aller à Galveston c’est pour lui un pèlerinage douloureux. C’est là qu’il y a vingt ans, il a abandonné la femme qu’il aimait ainsi que sa carrière de footballeur. Carson va alors percer un à un tous les secrets cette ville sur fond de corruption, de trafic de drogue et de matchs truqués.",
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm471635",
@@ -13355,7 +11657,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -13371,7 +11673,9 @@ const CATALOG_DATA = [
       "crm",
       "trl"
     ],
-    "synopsis": "Pour chaque vie, il y a une mort. Et pour chaque personne, il y a une envie que seulement peu assouvisse : écouter la voix obscure qui nous dit d'éteindre la vie d'une autre personne. Vous pouvez marcher dans la rue et effleurer l'épaule d'un inconnu avant d'échanger un sourire poli, sans vous douter que ce même inconnu s'imagine en train de contempler votre corps ensanglanté au moment de votre dernier souffle. Il y a un endroit pour ces personnes. Ils ont tous tué, ils y ont tous pensé, certains veulent arrêter, d'autres veulent parler quand les derniers auraient besoin d'écouter."
+    "synopsis": "Pour chaque vie, il y a une mort. Et pour chaque personne, il y a une envie que seulement peu assouvisse : écouter la voix obscure qui nous dit d'éteindre la vie d'une autre personne. Vous pouvez marcher dans la rue et effleurer l'épaule d'un inconnu avant d'échanger un sourire poli, sans vous douter que ce même inconnu s'imagine en train de contempler votre corps ensanglanté au moment de votre dernier souffle. Il y a un endroit pour ces personnes. Ils ont tous tué, ils y ont tous pensé, certains veulent arrêter, d'autres veulent parler quand les derniers auraient besoin d'écouter.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm152893",
@@ -13400,7 +11704,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -13416,7 +11720,9 @@ const CATALOG_DATA = [
       "trl",
       "eur"
     ],
-    "synopsis": "Paul Maguire est un homme d'affaires respectable et un père aimant qui mène une vie paisible, jusqu'au jour où son passé violent revient le hanter. Lorsque sa fille se fait kidnapper, Paul réunit son ancienne équipe pour l'aider à la retrouver... par tous les moyens nécessaires. Sa quête de justice le mène sur la voie sombre et sanglante de la vengeance, de la trahison et des secrets enfouis depuis longtemps."
+    "synopsis": "Paul Maguire est un homme d'affaires respectable et un père aimant qui mène une vie paisible, jusqu'au jour où son passé violent revient le hanter. Lorsque sa fille se fait kidnapper, Paul réunit son ancienne équipe pour l'aider à la retrouver... par tous les moyens nécessaires. Sa quête de justice le mène sur la voie sombre et sanglante de la vengeance, de la trahison et des secrets enfouis depuis longtemps.",
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm1248245",
@@ -13446,7 +11752,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/10",
-      "daysLeft": 27,
+      "daysLeft": 24,
       "expirationDate": "2026-10-24",
       "packageExpirations": {
         "aoc": "2026-10-24"
@@ -13464,7 +11770,9 @@ const CATALOG_DATA = [
       "fml",
       "scf"
     ],
-    "synopsis": "Sonic, Knuckles et Tails sont à nouveau réunis face à un puissant nouvel adversaire, Shadow, un mystérieux vilain doté de pouvoirs comme ils n'en ont encore jamais vu. Leurs habiletés étant toutes surclassées, l'Équipe Sonic doit tenter une alliance improbable dans l'espoir d'arrêter Shadow et de protéger la planète."
+    "synopsis": "Sonic, Knuckles et Tails sont à nouveau réunis face à un puissant nouvel adversaire, Shadow, un mystérieux vilain doté de pouvoirs comme ils n'en ont encore jamais vu. Leurs habiletés étant toutes surclassées, l'Équipe Sonic doit tenter une alliance improbable dans l'espoir d'arrêter Shadow et de protéger la planète.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm207719",
@@ -13494,7 +11802,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -13513,7 +11821,9 @@ const CATALOG_DATA = [
       "rma",
       "eur"
     ],
-    "synopsis": "À travers l’histoire d’un naufragé sur une île déserte tropicale peuplée de tortues, de crabes et d’oiseaux, La Tortue rouge raconte les grandes étapes de la vie d’un être humain."
+    "synopsis": "À travers l’histoire d’un naufragé sur une île déserte tropicale peuplée de tortues, de crabes et d’oiseaux, La Tortue rouge raconte les grandes étapes de la vie d’un être humain.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm143992",
@@ -13543,7 +11853,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -13564,7 +11874,9 @@ const CATALOG_DATA = [
       "scf",
       "eur"
     ],
-    "synopsis": "C’est l’histoire d’une histoire. C’est l’histoire d’une petite fille, intrépide et curieuse, qui vit dans un monde d’adultes. C’est l’histoire d’un aviateur, excentrique et facétieux, qui n’a jamais vraiment grandi. C’est l’histoire du Petit Prince qui va les réunir dans une aventure extraordinaire."
+    "synopsis": "C’est l’histoire d’une histoire. C’est l’histoire d’une petite fille, intrépide et curieuse, qui vit dans un monde d’adultes. C’est l’histoire d’un aviateur, excentrique et facétieux, qui n’a jamais vraiment grandi. C’est l’histoire du Petit Prince qui va les réunir dans une aventure extraordinaire.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm854286",
@@ -13594,7 +11906,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 95,
+      "daysLeft": 92,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -13609,7 +11921,9 @@ const CATALOG_DATA = [
       "cmy",
       "fml"
     ],
-    "synopsis": "A l’école, Toto est bien plus doué pour faire rire ses copains qu’écouter les leçons de la maîtresse. Avec ses parents aussi, les blagues de Toto se transforment souvent en catastrophes… La dernière en date ? La chute d’une sculpture pendant un évènement organisé par le patron de son père. Mais cette fois-ci, Toto assure qu’il est innocent et refuse d’être accusé d’une bêtise que pour une fois, il n’a pas faite ! Avec ses meilleurs amis, il va mener l’enquête."
+    "synopsis": "A l’école, Toto est bien plus doué pour faire rire ses copains qu’écouter les leçons de la maîtresse. Avec ses parents aussi, les blagues de Toto se transforment souvent en catastrophes… La dernière en date ? La chute d’une sculpture pendant un évènement organisé par le patron de son père. Mais cette fois-ci, Toto assure qu’il est innocent et refuse d’être accusé d’une bêtise que pour une fois, il n’a pas faite ! Avec ses meilleurs amis, il va mener l’enquête.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm319784",
@@ -13639,7 +11953,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/11",
-      "daysLeft": 61,
+      "daysLeft": 58,
       "expirationDate": "2026-11-27",
       "packageExpirations": {
         "aoc": "2026-11-27"
@@ -13657,7 +11971,9 @@ const CATALOG_DATA = [
       "fml",
       "eur"
     ],
-    "synopsis": "Adam, un adolescent rêveur et solitaire, doté de pouvoirs surnaturels, décide de partir à la recherche de son père, disparu depuis des années dans des circonstances plus que mystérieuses. Son enquête le mène rapidement à la rencontre d’une créature tout aussi magique que légendaire : Le Bigfoot ! Commence alors pour eux deux une aventure extraordinaire au cœur de la forêt peuplée d’adorables animaux, sans savoir qu’une dangereuse organisation est sur leurs traces et prête à tout pour mettre la main sur le Bigfoot."
+    "synopsis": "Adam, un adolescent rêveur et solitaire, doté de pouvoirs surnaturels, décide de partir à la recherche de son père, disparu depuis des années dans des circonstances plus que mystérieuses. Son enquête le mène rapidement à la rencontre d’une créature tout aussi magique que légendaire : Le Bigfoot ! Commence alors pour eux deux une aventure extraordinaire au cœur de la forêt peuplée d’adorables animaux, sans savoir qu’une dangereuse organisation est sur leurs traces et prête à tout pour mettre la main sur le Bigfoot.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm241259",
@@ -13687,7 +12003,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -13704,7 +12020,9 @@ const CATALOG_DATA = [
       "fml",
       "war"
     ],
-    "synopsis": "Dans l'Angleterre des années 1930, Madame Walker et ses enfants rejoignent le Lake District, au nord du pays, où la famille passe régulièrement ses vacances. À peine arrivés, John, Roger, Tatty et Susan n'ont qu'une idée en tête : partir à la découverte de l'île mystérieuse située au milieu du lac. Après les mises en garde de rigueur, les enfants embarquent à bord du voilier l'Hirondelle, bardés de vivres, et mettent le cap sur l'île."
+    "synopsis": "Dans l'Angleterre des années 1930, Madame Walker et ses enfants rejoignent le Lake District, au nord du pays, où la famille passe régulièrement ses vacances. À peine arrivés, John, Roger, Tatty et Susan n'ont qu'une idée en tête : partir à la découverte de l'île mystérieuse située au milieu du lac. Après les mises en garde de rigueur, les enfants embarquent à bord du voilier l'Hirondelle, bardés de vivres, et mettent le cap sur l'île.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm229933",
@@ -13734,7 +12052,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/10",
-      "daysLeft": 22,
+      "daysLeft": 19,
       "expirationDate": "2026-10-19",
       "packageExpirations": {
         "aoc": "2026-10-19"
@@ -13746,60 +12064,14 @@ const CATALOG_DATA = [
     "runtime_minutes": 90,
     "etoiles": 3,
     "raw_genres": [
-      "act",
       "ani",
       "cmy",
       "fml",
       "eur"
     ],
-    "synopsis": "Mardi, un jeune perroquet, vit sur une île paradisiaque avec d’autres animaux. Il rêve de quitter son île pour découvrir le reste du monde. Après une violente tempête, Mardi et ses amis font la découverte d’une étrange créature sur la plage : Robinson Crusoé. Les animaux de l’île vont devoir apprivoiser ce nouvel arrivant ! C’est pour Mardi l’occasion de vivre une extraordinaire aventure et peut‐être de quitter son île !"
-  },
-  {
-    "id": "jw-tm245260",
-    "titre": "Monsieur Grenouille",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Family",
-    "annee": 2016,
-    "note_avis": 6.3,
-    "note_recence": 7.7,
-    "note_globale": 7,
-    "categories": [
-      "animation_famille"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/80270152/s592/mr-frog.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 23min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 83,
-    "etoiles": 4,
-    "raw_genres": [
-      "cmy",
-      "fnt",
-      "fml",
-      "eur"
-    ],
-    "synopsis": "Élevée par une mère débordée par son travail de vétérinaire, la petite Sita vit entourée d'animaux. Elle aime beaucoup monsieur Frans, son instituteur. Lors d'un exposé de Sita sur les grenouilles, Frans se sent mal et quitte la salle, sa main devenant verte. Sita se persuade alors que Frans se transforme parfois en grenouille. Elle tente de convaincre ses camarades d'école. Un jour, Frans se transforme en classe."
+    "synopsis": "Mardi, un jeune perroquet, vit sur une île paradisiaque avec d’autres animaux. Il rêve de quitter son île pour découvrir le reste du monde. Après une violente tempête, Mardi et ses amis font la découverte d’une étrange créature sur la plage : Robinson Crusoé. Les animaux de l’île vont devoir apprivoiser ce nouvel arrivant ! C’est pour Mardi l’occasion de vivre une extraordinaire aventure et peut‐être de quitter son île !",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm154797",
@@ -13829,7 +12101,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 95,
+      "daysLeft": 92,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -13847,7 +12119,9 @@ const CATALOG_DATA = [
       "crm",
       "fml"
     ],
-    "synopsis": "Roublard, un écureuil égocentrique banni de son parc, projette de cambrioler une boutique de noix. Cependant, les autres animaux du parc doivent constituer des réserves pour l'hiver et n'ont pas l'intention de le laisser rafler la mise. Ils se voient contraints de travailler ensemble et mettent au point un plan rocambolesque pour organiser le vol du siècle. Évidemment, rien ne va se passer comme prévu…"
+    "synopsis": "Roublard, un écureuil égocentrique banni de son parc, projette de cambrioler une boutique de noix. Cependant, les autres animaux du parc doivent constituer des réserves pour l'hiver et n'ont pas l'intention de le laisser rafler la mise. Ils se voient contraints de travailler ensemble et mettent au point un plan rocambolesque pour organiser le vol du siècle. Évidemment, rien ne va se passer comme prévu…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1832",
@@ -13877,7 +12151,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -13896,7 +12170,9 @@ const CATALOG_DATA = [
       "fml",
       "msc"
     ],
-    "synopsis": "Après une série de malentendus, Alvin, Simon et Théodore comprennent que Dave va demander sa petite amie en mariage à Miami et risque de les abandonner. Ils ont trois jours pour le retrouver et empêcher ce mariage. Ils se lancent alors dans un road trip à travers l'Amérique : aventure, musique et grosses bêtises."
+    "synopsis": "Après une série de malentendus, Alvin, Simon et Théodore comprennent que Dave va demander sa petite amie en mariage à Miami et risque de les abandonner. Ils ont trois jours pour le retrouver et empêcher ce mariage. Ils se lancent alors dans un road trip à travers l'Amérique : aventure, musique et grosses bêtises.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts282248",
@@ -13926,7 +12202,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/10",
-      "daysLeft": 33,
+      "daysLeft": 30,
       "expirationDate": "2026-10-30",
       "packageExpirations": {
         "auc": "2026-10-30"
@@ -13942,7 +12218,9 @@ const CATALOG_DATA = [
       "drm",
       "scf"
     ],
-    "synopsis": "Un extraterrestre s'écrase sur Terre et assume l'identité d'un médecin local dans une petite ville du Colorado. Alors qu'il se familiarise avec les humains, il est impliqué dans une enquête pour meurtre, ce qui l'amène à se demander si l'humanité mérite d'être sauvée."
+    "synopsis": "Un extraterrestre s'écrase sur Terre et assume l'identité d'un médecin local dans une petite ville du Colorado. Alors qu'il se familiarise avec les humains, il est impliqué dans une enquête pour meurtre, ce qui l'amène à se demander si l'humanité mérite d'être sauvée.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts364655",
@@ -13972,7 +12250,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 94,
+      "daysLeft": 91,
       "expirationDate": "2026-12-30",
       "packageExpirations": {
         "auc": "2026-12-30"
@@ -13987,7 +12265,9 @@ const CATALOG_DATA = [
       "drm",
       "scf"
     ],
-    "synopsis": "Après une catastrophe majeure, une nouvelle société a émergé : Arcadia. Dans ce nouveau système, des points déterminent ce qui est faisable dans la société mais également les droits dont disposent chacun en tant que citoyen. Et plus le score est élevé plus la vie est belle."
+    "synopsis": "Après une catastrophe majeure, une nouvelle société a émergé : Arcadia. Dans ce nouveau système, des points déterminent ce qui est faisable dans la société mais également les droits dont disposent chacun en tant que citoyen. Et plus le score est élevé plus la vie est belle.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts341648",
@@ -14017,7 +12297,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/01",
-      "daysLeft": 100,
+      "daysLeft": 97,
       "expirationDate": "2027-01-05",
       "packageExpirations": {
         "aoc": "2027-01-05"
@@ -14035,7 +12315,9 @@ const CATALOG_DATA = [
       "trl",
       "scf"
     ],
-    "synopsis": "Après avoir assisté à la fin du monde, George remonte le temps pour sauver la femme qu'il aime. Le jeune homme est aussitôt recruté par une organisation qui exploite ce pouvoir afin de prévenir les catastrophes mondiales."
+    "synopsis": "Après avoir assisté à la fin du monde, George remonte le temps pour sauver la femme qu'il aime. Le jeune homme est aussitôt recruté par une organisation qui exploite ce pouvoir afin de prévenir les catastrophes mondiales.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts419701",
@@ -14065,7 +12347,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -14081,7 +12363,9 @@ const CATALOG_DATA = [
       "fnt",
       "scf"
     ],
-    "synopsis": "Suivez Domino, une jeune sorcière puissante, hantée par son besoin de se nourrir de l'énergie d'autrui.\r\n"
+    "synopsis": "Suivez Domino, une jeune sorcière puissante, hantée par son besoin de se nourrir de l'énergie d'autrui.\r\n",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts251372",
@@ -14111,7 +12395,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 95,
+      "daysLeft": 92,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "auc": "2026-12-31"
@@ -14128,7 +12412,9 @@ const CATALOG_DATA = [
       "trl",
       "scf"
     ],
-    "synopsis": "Luke Roman est à la tête d'une agence immobilière spécialisée dans les propriétés \"métaphysiques\", également appelées \"maisons hantées\". Luke peut non seulement sentir la présence qui habite la maison, mais il peut aussi négocier avec elle."
+    "synopsis": "Luke Roman est à la tête d'une agence immobilière spécialisée dans les propriétés \"métaphysiques\", également appelées \"maisons hantées\". Luke peut non seulement sentir la présence qui habite la maison, mais il peut aussi négocier avec elle.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts408573",
@@ -14173,7 +12459,9 @@ const CATALOG_DATA = [
       "hrr",
       "scf"
     ],
-    "synopsis": "À Dambury, une fuite chimique près d'une maison de retraite déclenche une apocalypse menée par des retraités avides de chair fraîche.  Un groupe d'adolescents se retrouve pris au piège de ce virus lorsqu'une des grands-mères du groupe est infectée et passe à l'attaque.\n"
+    "synopsis": "À Dambury, une fuite chimique près d'une maison de retraite déclenche une apocalypse menée par des retraités avides de chair fraîche.  Un groupe d'adolescents se retrouve pris au piège de ce virus lorsqu'une des grands-mères du groupe est infectée et passe à l'attaque.\n",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts4840",
@@ -14219,7 +12507,9 @@ const CATALOG_DATA = [
       "fnt",
       "scf"
     ],
-    "synopsis": "Le Ministère du Temps est une institution secrète qui s’assure que l'histoire de l'Espagne ne change pas, tout en protégeant le présent. Leurs patrouilles voyagent à travers le temps pour empêcher tout intrus du passé d’utiliser à leur avantage l’histoire. Sur leur chemin, ils croiseront des célébrités comme Dali, Bunuel ou Picasso, mais nos protagonistes voudront aussi voyager dans le temps pour découvrir ce qui est arrivé à leurs proches, même si cela signifie un petit arrangement avec les règles du Ministère."
+    "synopsis": "Le Ministère du Temps est une institution secrète qui s’assure que l'histoire de l'Espagne ne change pas, tout en protégeant le présent. Leurs patrouilles voyagent à travers le temps pour empêcher tout intrus du passé d’utiliser à leur avantage l’histoire. Sur leur chemin, ils croiseront des célébrités comme Dali, Bunuel ou Picasso, mais nos protagonistes voudront aussi voyager dans le temps pour découvrir ce qui est arrivé à leurs proches, même si cela signifie un petit arrangement avec les règles du Ministère.",
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-ts245478",
@@ -14245,11 +12535,11 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/universal_plus.svg"
     ],
-    "duree": "44 min/ép.",
+    "duree": "31 min/ép.",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 94,
+      "daysLeft": 91,
       "expirationDate": "2026-12-30",
       "packageExpirations": {
         "auc": "2026-12-30"
@@ -14258,14 +12548,16 @@ const CATALOG_DATA = [
     "package_slugs": [
       "auc"
     ],
-    "runtime_minutes": 44,
+    "runtime_minutes": 31,
     "etoiles": 4,
     "raw_genres": [
       "cmy",
       "drm",
       "scf"
     ],
-    "synopsis": "Dans une utopie où la paix et la stabilité règnent grâce à l'interdiction de la monogamie, de la vie privée, de l'argent, de la famille et de l'histoire, les membres du collectif commencent à remettre en question les règles."
+    "synopsis": "Dans une utopie où la paix et la stabilité règnent grâce à l'interdiction de la monogamie, de la vie privée, de l'argent, de la famille et de l'histoire, les membres du collectif commencent à remettre en question les règles.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts41974",
@@ -14295,7 +12587,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -14311,7 +12603,9 @@ const CATALOG_DATA = [
       "drm",
       "scf"
     ],
-    "synopsis": "Un criminel mystérieux vole une machine à voyager dans le temps top-secrète. Il veut détruire les États-Unis en modifiant le passé. Le seul espoir est dans une petite équipe formée d’un scientifique, d’un soldat, et d’une historienne. Ils doivent utiliser un prototype de la machine pour poursuivre le fugitif, mais faire attention à ne pas changer l’histoire à leur tour."
+    "synopsis": "Un criminel mystérieux vole une machine à voyager dans le temps top-secrète. Il veut détruire les États-Unis en modifiant le passé. Le seul espoir est dans une petite équipe formée d’un scientifique, d’un soldat, et d’une historienne. Ils doivent utiliser un prototype de la machine pour poursuivre le fugitif, mais faire attention à ne pas changer l’histoire à leur tour.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts38199",
@@ -14341,7 +12635,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -14357,7 +12651,9 @@ const CATALOG_DATA = [
       "fnt",
       "scf"
     ],
-    "synopsis": "Bientôt diplômé, Quentin Coldwater a du mal à se projeter dans son avenir en laissant de côté la magie qui le passionne depuis sa tendre enfance. A sa grande surprise, le jeune homme est admis à Brakebills, une école secrète qui forme les futurs magiciens. Il y fait la connaissance d'Alice, Penny, Margo et Eliot , avec lesquels il entretient des relations tantôt complices et souvent conflictuelles. Ensemble, ils vont pourtant devoir faire face à de grands dangers, des forces maléfiques venues de contrées insoupçonnées. Pendant ce temps, Julia, la meilleure amie de Quentin, qui a échoué aux tests d'admission de Brakebills, suit son propre chemin. Un chemin obscur et dangereux qui pourrait la mener à sa perte…"
+    "synopsis": "Bientôt diplômé, Quentin Coldwater a du mal à se projeter dans son avenir en laissant de côté la magie qui le passionne depuis sa tendre enfance. A sa grande surprise, le jeune homme est admis à Brakebills, une école secrète qui forme les futurs magiciens. Il y fait la connaissance d'Alice, Penny, Margo et Eliot , avec lesquels il entretient des relations tantôt complices et souvent conflictuelles. Ensemble, ils vont pourtant devoir faire face à de grands dangers, des forces maléfiques venues de contrées insoupçonnées. Pendant ce temps, Julia, la meilleure amie de Quentin, qui a échoué aux tests d'admission de Brakebills, suit son propre chemin. Un chemin obscur et dangereux qui pourrait la mener à sa perte…",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-ts322312",
@@ -14387,7 +12683,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "auc": "2027-01-31"
@@ -14402,7 +12698,9 @@ const CATALOG_DATA = [
       "cmy",
       "hrr"
     ],
-    "synopsis": "Dans un monde peuplé de vampires beaux, en forme et vaniteux. Reginald Baskin ne correspond pas à cette norme. Bientôt, il devra surmonter toutes sortes d'obstacles - la fille qu'il aime mais avec laquelle il ne peut pas être, un directeur tyrannique au travail et le chef des vampires qui veut sa mort. Heureusement, Reginald découvre qu'il possède lui-même quelques pouvoirs méconnus."
+    "synopsis": "Dans un monde peuplé de vampires beaux, en forme et vaniteux. Reginald Baskin ne correspond pas à cette norme. Bientôt, il devra surmonter toutes sortes d'obstacles - la fille qu'il aime mais avec laquelle il ne peut pas être, un directeur tyrannique au travail et le chef des vampires qui veut sa mort. Heureusement, Reginald découvre qu'il possède lui-même quelques pouvoirs méconnus.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts5306",
@@ -14432,7 +12730,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -14448,7 +12746,9 @@ const CATALOG_DATA = [
       "trl",
       "scf"
     ],
-    "synopsis": "100 ans dans le futur quand des missions de colonisation ont commencé pour assurer la survie de la race humaine. La première de ces missions, à bord d’un vaisseau spatial connu sous le nom d’Ark One, est victime d’un événement catastrophique qui provoque des destructions massives et des morts. Il leur reste plus d’une année avant d’atteindre leur nouveau foyer. En manque de ressources, l’équipage restant doit se montrer encore plus exemplaire que jamais pour arriver à leur destination finale."
+    "synopsis": "100 ans dans le futur quand des missions de colonisation ont commencé pour assurer la survie de la race humaine. La première de ces missions, à bord d’un vaisseau spatial connu sous le nom d’Ark One, est victime d’un événement catastrophique qui provoque des destructions massives et des morts. Il leur reste plus d’une année avant d’atteindre leur nouveau foyer. En manque de ressources, l’équipage restant doit se montrer encore plus exemplaire que jamais pour arriver à leur destination finale.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts37810",
@@ -14478,7 +12778,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 95,
+      "daysLeft": 92,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "auc": "2026-12-31"
@@ -14496,7 +12796,9 @@ const CATALOG_DATA = [
       "hrr",
       "scf"
     ],
-    "synopsis": "Des millions d'années après l'extinction de la civilisation que nous connaissons, les Quatre Terres sont menacées par la mort imminente de l'Arbre protecteur Ellcrys qui renferme des forces terribles et obscures. A chaque feuille tombée, les démons se réveillent de l'au-delà. La princesse Amberle, le demi-elfe et la solitaire Eretria commencent alors leur quête contre les forces du Mal."
+    "synopsis": "Des millions d'années après l'extinction de la civilisation que nous connaissons, les Quatre Terres sont menacées par la mort imminente de l'Arbre protecteur Ellcrys qui renferme des forces terribles et obscures. A chaque feuille tombée, les démons se réveillent de l'au-delà. La princesse Amberle, le demi-elfe et la solitaire Eretria commencent alors leur quête contre les forces du Mal.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts20606",
@@ -14526,7 +12828,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 95,
+      "daysLeft": 92,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "auc": "2026-12-31"
@@ -14546,7 +12848,9 @@ const CATALOG_DATA = [
       "trl",
       "scf"
     ],
-    "synopsis": "Lorsque Nick Burkhardt, un détective spécialisé dans les homicides, reçoit la visite de sa tante malade, toutes les choses étranges qu'il a vues jusqu'alors prennent sens. En effet, sa tante l'informe que tous deux sont chasseurs de \"Grimms\" et qu'ils sont chargés de protéger l'humanité contre les créatures surnaturelles. Nick fouille dans le passé de sa tante et découvre qu'il a la même responsabilité que ses ancêtres et qu'il est étroitement lié à la mythologie des Frères Grimm. Alors que Burkhardt tente de dissimuler les dangers de sa nouvelle mission à sa fiancée et à son collègue, il s'embourbe dans les vieilles rivalités de l'univers des frères Grimm."
+    "synopsis": "Lorsque Nick Burkhardt, un détective spécialisé dans les homicides, reçoit la visite de sa tante malade, toutes les choses étranges qu'il a vues jusqu'alors prennent sens. En effet, sa tante l'informe que tous deux sont chasseurs de \"Grimms\" et qu'ils sont chargés de protéger l'humanité contre les créatures surnaturelles. Nick fouille dans le passé de sa tante et découvre qu'il a la même responsabilité que ses ancêtres et qu'il est étroitement lié à la mythologie des Frères Grimm. Alors que Burkhardt tente de dissimuler les dangers de sa nouvelle mission à sa fiancée et à son collègue, il s'embourbe dans les vieilles rivalités de l'univers des frères Grimm.",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-ts42421",
@@ -14576,7 +12880,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -14592,7 +12896,9 @@ const CATALOG_DATA = [
       "fnt",
       "scf"
     ],
-    "synopsis": "Au fin fond du Texas, dans une petite ville tranquille, votre voisin pourrait être un vampire, une sorcière, un loup-garou... Les habitants tentent de combattre les pressions extérieures des gangs de motards, des policiers suspicieux et de leur propre passé."
+    "synopsis": "Au fin fond du Texas, dans une petite ville tranquille, votre voisin pourrait être un vampire, une sorcière, un loup-garou... Les habitants tentent de combattre les pressions extérieures des gangs de motards, des policiers suspicieux et de leur propre passé.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts20309",
@@ -14622,7 +12928,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 95,
+      "daysLeft": 92,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "auc": "2026-12-31"
@@ -14639,7 +12945,9 @@ const CATALOG_DATA = [
       "drm",
       "fnt"
     ],
-    "synopsis": "Flynn Carson est le bibliothécaire depuis maintenant dix ans. Il doit résoudre des mystères impossibles, retrouver des artefacts très puissants et affronter des forces surnaturelles dont celle de la confrérie du serpent, son principal ennemi. Pour l'aider, la Bibliothèque lui a choisi un gardien, le colonel Eve Baird, militaire à l'OTAN. L'équipe se voit très vite complétée par trois \"bibliothécaires en herbe\" : Jacob Stone, un génie en histoire et architecture, au QI de 190, Cassandra Cillian, une mathématicienne dotée d'une mémoire photographique qui est atteinte d'une tumeur au cerveau et Ezekiel Jones, un voleur et spécialiste en technologie avancée."
+    "synopsis": "Flynn Carson est le bibliothécaire depuis maintenant dix ans. Il doit résoudre des mystères impossibles, retrouver des artefacts très puissants et affronter des forces surnaturelles dont celle de la confrérie du serpent, son principal ennemi. Pour l'aider, la Bibliothèque lui a choisi un gardien, le colonel Eve Baird, militaire à l'OTAN. L'équipe se voit très vite complétée par trois \"bibliothécaires en herbe\" : Jacob Stone, un génie en histoire et architecture, au QI de 190, Cassandra Cillian, une mathématicienne dotée d'une mémoire photographique qui est atteinte d'une tumeur au cerveau et Ezekiel Jones, un voleur et spécialiste en technologie avancée.",
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-ts37028",
@@ -14669,7 +12977,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -14685,55 +12993,9 @@ const CATALOG_DATA = [
       "trl",
       "scf"
     ],
-    "synopsis": "En 2016, l'espace aérien terrien est envahi de vaisseaux extraterrestres. Ces aliens, qui préfèrent rester dans l'ombre, assurent être venus en paix pour aider les humains à évoluer et atteindre leur âge d'or. Ils choisissent un modeste fermier de l'Amérique profonde pour servir d'intermédiaire entre leur peuple et les hommes. Pour prouver leur bonne foi, ils mettent fin aux guerres, aux maladies et à la famine. Cette intrusion n'est pas forcément bien vécue par l'ensemble de la population terrienne. Certains ont du mal à faire confiance et s'interrogent : quelle peut bien être la motivation de ces étrangers ? Qu'attendent-ils en retour ? Et quand révèleront-ils leur vrai visage ?"
-  },
-  {
-    "id": "jw-ts35148",
-    "titre": "Powers",
-    "type": "serie",
-    "chaine": "Universal+",
-    "section": "Séries",
-    "position": "Séries — SCIFI",
-    "annee": 2015,
-    "note_avis": 6.6,
-    "note_recence": 7.5,
-    "note_globale": 7.1,
-    "categories": [
-      "thriller_policier"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/83258443/s592/powers.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "chaines": [
-      "Universal+"
-    ],
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "duree": "43 min/ép.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "auc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "auc"
-    ],
-    "runtime_minutes": 43,
-    "etoiles": 4,
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl",
-      "scf"
-    ],
-    "synopsis": "Les inspecteurs Christian Walker et Deena Pilgrim enquêtent sur des affaires impliquant des personnes ayant des capacités surhumaines mais ne possédant aucune particularité physique permettant de les dissocier des autres individus ordinaires. Ils font tous deux partie de la division spéciale, intitulée Powers, créée pour ce genre d'enquête."
+    "synopsis": "En 2016, l'espace aérien terrien est envahi de vaisseaux extraterrestres. Ces aliens, qui préfèrent rester dans l'ombre, assurent être venus en paix pour aider les humains à évoluer et atteindre leur âge d'or. Ils choisissent un modeste fermier de l'Amérique profonde pour servir d'intermédiaire entre leur peuple et les hommes. Pour prouver leur bonne foi, ils mettent fin aux guerres, aux maladies et à la famine. Cette intrusion n'est pas forcément bien vécue par l'ensemble de la population terrienne. Certains ont du mal à faire confiance et s'interrogent : quelle peut bien être la motivation de ces étrangers ? Qu'attendent-ils en retour ? Et quand révèleront-ils leur vrai visage ?",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts6683",
@@ -14763,7 +13025,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -14779,7 +13041,9 @@ const CATALOG_DATA = [
       "drm",
       "scf"
     ],
-    "synopsis": "Puissants robots, les Cylons règnent en maître sur l'univers. À bord du dernier vaisseau de guerre, le Galactica, des humains tentent de survivre en entreprenant le voyage de la dernière chance : trouver une légendaire planète appelée la Terre."
+    "synopsis": "Puissants robots, les Cylons règnent en maître sur l'univers. À bord du dernier vaisseau de guerre, le Galactica, des humains tentent de survivre en entreprenant le voyage de la dernière chance : trouver une légendaire planète appelée la Terre.",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-ts20598",
@@ -14825,7 +13089,9 @@ const CATALOG_DATA = [
       "trl",
       "scf"
     ],
-    "synopsis": "Partout dans le monde, un certain nombre d'individus, en apparence ordinaires, se révèlent dotés de capacités hors du commun. Ils ne savent pas ce qui leur arrive, ni les répercussions que tout cela pourrait avoir."
+    "synopsis": "Partout dans le monde, un certain nombre d'individus, en apparence ordinaires, se révèlent dotés de capacités hors du commun. Ils ne savent pas ce qui leur arrive, ni les répercussions que tout cela pourrait avoir.",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-ts21861",
@@ -14873,7 +13139,9 @@ const CATALOG_DATA = [
       "trl",
       "scf"
     ],
-    "synopsis": "Après avoir sauvé la vie du président des États-Unis, deux agents du FBI sont nommés à un nouveau poste baptisé « Warehouse 13 », un service qui abrite les objets surnaturels que le gouvernement américain a collectés à travers les siècles. Le duo se voit confier la mission de récupérer d'éventuels nouveaux artefacts susceptibles de mettre en danger des individus."
+    "synopsis": "Après avoir sauvé la vie du président des États-Unis, deux agents du FBI sont nommés à un nouveau poste baptisé « Warehouse 13 », un service qui abrite les objets surnaturels que le gouvernement américain a collectés à travers les siècles. Le duo se voit confier la mission de récupérer d'éventuels nouveaux artefacts susceptibles de mettre en danger des individus.",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-ts21672",
@@ -14918,7 +13186,9 @@ const CATALOG_DATA = [
       "trl",
       "scf"
     ],
-    "synopsis": "Heroes Reborn débute 5 ans après la fin de la saison 4 de Heroes, à Odessa au Texas, juste après une attaque terroriste dévastatrice. Le rêve de paix est rompu et les « Heroes », ces humains évolués possédant d'extraordinaires capacités, sont accusés d'avoir déclenché cet événement tragique. Ils sont alors forcés de sa cacher ou de fuir aux côtés des plus malintentionnés."
+    "synopsis": "Heroes Reborn débute 5 ans après la fin de la saison 4 de Heroes, à Odessa au Texas, juste après une attaque terroriste dévastatrice. Le rêve de paix est rompu et les « Heroes », ces humains évolués possédant d'extraordinaires capacités, sont accusés d'avoir déclenché cet événement tragique. Ils sont alors forcés de sa cacher ou de fuir aux côtés des plus malintentionnés.",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-ts403754",
@@ -14962,7 +13232,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Léna, 28 ans, community manager, vient d'intégrer le département communication de la Préfecture de police de Paris qui cherche à moderniser son image. Au même moment, un tueur en série sévit dans la capitale. La commissaire Agathe Ruffin est en charge de l'enquête. Le tueur utilise les réseaux sociaux pour déstabiliser la police, attirant ainsi l'attention de Léna. Grisée par l'adréaline, elle s'embarque alors dans un jeu dangereux en acceptant de communiquer avec lui. Léna saura-t-elle se libérer de l'emprise de ce tueur énigmatique avant que la toile qu'il tisse ne se referme sur elle ?"
+    "synopsis": "Léna, 28 ans, community manager, vient d'intégrer le département communication de la Préfecture de police de Paris qui cherche à moderniser son image. Au même moment, un tueur en série sévit dans la capitale. La commissaire Agathe Ruffin est en charge de l'enquête. Le tueur utilise les réseaux sociaux pour déstabiliser la police, attirant ainsi l'attention de Léna. Grisée par l'adréaline, elle s'embarque alors dans un jeu dangereux en acceptant de communiquer avec lui. Léna saura-t-elle se libérer de l'emprise de ce tueur énigmatique avant que la toile qu'il tisse ne se referme sur elle ?",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts414407",
@@ -14992,7 +13264,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -15009,7 +13281,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Le détective rétrogradé Ellis et l'habile escroc Max saisissent tous les deux une seconde chance de rédemption en travaillant ensemble pour résoudre des crimes."
+    "synopsis": "Le détective rétrogradé Ellis et l'habile escroc Max saisissent tous les deux une seconde chance de rédemption en travaillant ensemble pour résoudre des crimes.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts391377",
@@ -15039,7 +13313,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -15056,7 +13330,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Faites la connaissance des lieutenants Henry Graff et Frankie Bateman, deux flics d'élite qui forment une équipe hors du commun. Graff est un homme aux multiples talents à l'esprit toujours en ébullition, passionné de psychocriminologie. Bateman est exceptionnellement intuitive. Elle est pragmatique et empathique et sait s'adapter aux personnes à qui elle a affaire. Ensemble ces deux…"
+    "synopsis": "Faites la connaissance des lieutenants Henry Graff et Frankie Bateman, deux flics d'élite qui forment une équipe hors du commun. Graff est un homme aux multiples talents à l'esprit toujours en ébullition, passionné de psychocriminologie. Bateman est exceptionnellement intuitive. Elle est pragmatique et empathique et sait s'adapter aux personnes à qui elle a affaire. Ensemble ces deux…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts251399",
@@ -15086,7 +13362,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/10",
-      "daysLeft": 30,
+      "daysLeft": 27,
       "expirationDate": "2026-10-27",
       "packageExpirations": {
         "auc": "2026-10-27"
@@ -15103,7 +13379,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Après 10 ans d'absence  et un drame personnel, Elliot  Stabler réintègre la police de New York  dans une nouvelle unité chargée de démanteler de l'intérieur les groupes mafieux de la Grosse Pomme."
+    "synopsis": "Après 10 ans d'absence  et un drame personnel, Elliot  Stabler réintègre la police de New York  dans une nouvelle unité chargée de démanteler de l'intérieur les groupes mafieux de la Grosse Pomme.",
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-ts286379",
@@ -15133,7 +13411,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -15148,7 +13426,9 @@ const CATALOG_DATA = [
       "crm",
       "drm"
     ],
-    "synopsis": "Roy Grace est au plus bas après la disparition de sa femme six ans plus tôt. Alors qu’il passe son temps à enquêter sur des affaires non résolues dans sa ville natale de Brighton, ses supérieurs ne sont pas très satisfaits par ses méthodes peu orthodoxes. Cependant, la demande d’aide de Glen Branson, un collègue détective lui redonne espoir. Alors que sa carrière est sur la corde raide et qu’il risque de perdre le travail qu’il aime tant, il est chargé d’une affaire de disparition qui se transforme en une course contre la montre pleine de rebondissements."
+    "synopsis": "Roy Grace est au plus bas après la disparition de sa femme six ans plus tôt. Alors qu’il passe son temps à enquêter sur des affaires non résolues dans sa ville natale de Brighton, ses supérieurs ne sont pas très satisfaits par ses méthodes peu orthodoxes. Cependant, la demande d’aide de Glen Branson, un collègue détective lui redonne espoir. Alors que sa carrière est sur la corde raide et qu’il risque de perdre le travail qu’il aime tant, il est chargé d’une affaire de disparition qui se transforme en une course contre la montre pleine de rebondissements.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts328439",
@@ -15174,11 +13454,11 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/universal_plus.svg"
     ],
-    "duree": "45 min/ép.",
+    "duree": "46 min/ép.",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "auc": "2026-10-31"
@@ -15187,7 +13467,7 @@ const CATALOG_DATA = [
     "package_slugs": [
       "auc"
     ],
-    "runtime_minutes": 45,
+    "runtime_minutes": 46,
     "etoiles": 5,
     "raw_genres": [
       "cmy",
@@ -15195,7 +13475,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Harriet Harry Wild, une professeure de littérature, a du mal à s'adapter à la retraite. Elle accepte à contrecoeur de rester au domicile de son fils Charlie, un détective de police, après avoir été agressée et avoir besoin de temps pour récupérer. Charlie rejette l'aide d'Harry lorsqu'elle remarque un indice frappant dans l'affaire de meurtre sur laquelle il enquête, alors elle décide de résoudre le crime elle-même avec l'aide d'une source inattendue le voleur, Fergus. Harry et Fergus deviennent partenaires dans de nouveaux mystères, au grand dam de Charlie."
+    "synopsis": "Harriet Harry Wild, une professeure de littérature, a du mal à s'adapter à la retraite. Elle accepte à contrecoeur de rester au domicile de son fils Charlie, un détective de police, après avoir été agressée et avoir besoin de temps pour récupérer. Charlie rejette l'aide d'Harry lorsqu'elle remarque un indice frappant dans l'affaire de meurtre sur laquelle il enquête, alors elle décide de résoudre le crime elle-même avec l'aide d'une source inattendue le voleur, Fergus. Harry et Fergus deviennent partenaires dans de nouveaux mystères, au grand dam de Charlie.",
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-ts234938",
@@ -15225,7 +13507,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 78,
+      "daysLeft": 75,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "auc": "2026-12-14"
@@ -15242,7 +13524,9 @@ const CATALOG_DATA = [
       "drm",
       "fml"
     ],
-    "synopsis": "Abigail Bianchi, une avocate, sait blâmer les autres, en particulier lorsqu'il s'agit de ses propres problèmes. Après que le mari d'Abby l'ait chassée de la maison familiale à cause de sa consommation d'alcool, elle fait une bêtise et se présente ivre au tribunal. Elle est suspendue, condamnée à une amende et ne peut exercer à nouveau le droit que si elle trouve un avocat expérimenté qui accepte de l'engager et de le guider pendant une période d'essai d'un an. Harry Svensson, qui dirige le meilleur cabinet de droit de la famille de la ville, accepte le poste. Il se trouve également que c'est le père d'Abby. Elle doit ainsi essayer de remettre sa vie en désordre sur les rails, tout en travaillant sous l'homme qu'elle a passé sa vie à détester."
+    "synopsis": "Abigail Bianchi, une avocate, sait blâmer les autres, en particulier lorsqu'il s'agit de ses propres problèmes. Après que le mari d'Abby l'ait chassée de la maison familiale à cause de sa consommation d'alcool, elle fait une bêtise et se présente ivre au tribunal. Elle est suspendue, condamnée à une amende et ne peut exercer à nouveau le droit que si elle trouve un avocat expérimenté qui accepte de l'engager et de le guider pendant une période d'essai d'un an. Harry Svensson, qui dirige le meilleur cabinet de droit de la famille de la ville, accepte le poste. Il se trouve également que c'est le père d'Abby. Elle doit ainsi essayer de remettre sa vie en désordre sur les rails, tout en travaillant sous l'homme qu'elle a passé sa vie à détester.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts345743",
@@ -15284,7 +13568,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "drm"
     ],
-    "synopsis": "Adriana, une jeune cheffe franco-sénégalaise inspirée et ambitieuse, rêve d'étoiles au Michelin. Jusqu'au jour où elle se retrouve associée malgré elle à Jeff et Angèle Rubens, un frère et une sœur qui dirigent un cercle de jeu clandestin. Ayant fait main basse sur le restaurant, ils perçoivent le potentiel du lieu et du talent d'Adriana et créent dans l'arrière-salle une partie de poker qui devient vite mythique. Le restaurant devient alors le centre de leur business et de leur empire naissant. Témoin puis complice involontaire des activités criminelles de ses nouveaux associés, Adriana lutte par tous les moyens pour reprendre le contrôle de sa vie et de son restaurant, le Ballast."
+    "synopsis": "Adriana, une jeune cheffe franco-sénégalaise inspirée et ambitieuse, rêve d'étoiles au Michelin. Jusqu'au jour où elle se retrouve associée malgré elle à Jeff et Angèle Rubens, un frère et une sœur qui dirigent un cercle de jeu clandestin. Ayant fait main basse sur le restaurant, ils perçoivent le potentiel du lieu et du talent d'Adriana et créent dans l'arrière-salle une partie de poker qui devient vite mythique. Le restaurant devient alors le centre de leur business et de leur empire naissant. Témoin puis complice involontaire des activités criminelles de ses nouveaux associés, Adriana lutte par tous les moyens pour reprendre le contrôle de sa vie et de son restaurant, le Ballast.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts227451",
@@ -15314,7 +13600,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -15330,7 +13616,9 @@ const CATALOG_DATA = [
       "doc",
       "drm"
     ],
-    "synopsis": "Chaque année en France, 310 homicides restent non élucidés, laissant des familles brisées par un deuil impossible...Le système judiciaire national est implacable : pas de résultat, pas de budget pour poursuivre l'enquête..."
+    "synopsis": "Chaque année en France, 310 homicides restent non élucidés, laissant des familles brisées par un deuil impossible...Le système judiciaire national est implacable : pas de résultat, pas de budget pour poursuivre l'enquête...",
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-ts216019",
@@ -15356,7 +13644,7 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/universal_plus.svg"
     ],
-    "duree": "44 min/ép.",
+    "duree": "43 min/ép.",
     "expiration": {
       "status": "none",
       "label": null,
@@ -15367,7 +13655,7 @@ const CATALOG_DATA = [
     "package_slugs": [
       "auc"
     ],
-    "runtime_minutes": 44,
+    "runtime_minutes": 43,
     "etoiles": 5,
     "raw_genres": [
       "cmy",
@@ -15375,7 +13663,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Une ballerine a été tuée d'une flèche dans une prestigieuse académie de ballet; la liste des suspects est étonnamment longue; tandis que Madison enquête au club de tir, Alexa se fait passer pour la mère d'une danseuse afin de découvrir la vérité."
+    "synopsis": "Une ballerine a été tuée d'une flèche dans une prestigieuse académie de ballet; la liste des suspects est étonnamment longue; tandis que Madison enquête au club de tir, Alexa se fait passer pour la mère d'une danseuse afin de découvrir la vérité.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts89453",
@@ -15405,7 +13695,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -15420,7 +13710,9 @@ const CATALOG_DATA = [
       "crm",
       "drm"
     ],
-    "synopsis": "À Saint-Jean, capitale de la province de Terre-Neuve, un vaillant détective de la police forme une équipe de choc avec un berger allemand spécialement dressé. Grâce à l'odorat et l'ouïe de Rex, ils vont résoudre de nombreuses enquêtes ensemble."
+    "synopsis": "À Saint-Jean, capitale de la province de Terre-Neuve, un vaillant détective de la police forme une équipe de choc avec un berger allemand spécialement dressé. Grâce à l'odorat et l'ouïe de Rex, ils vont résoudre de nombreuses enquêtes ensemble.",
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-ts344169",
@@ -15450,7 +13742,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 94,
+      "daysLeft": 91,
       "expirationDate": "2026-12-30",
       "packageExpirations": {
         "auc": "2026-12-30"
@@ -15466,7 +13758,9 @@ const CATALOG_DATA = [
       "crm",
       "drm"
     ],
-    "synopsis": "Alex Walker, un des meilleurs agents de la DEA, a été contraint de prendre une retraite anticipée. La trahison de son partenaire et son hypertension l'ont amené à s'expatrier sur une petite île de l'archipel des Philippines où il est le gérant d'une boutique de souvenirs dans un hôtel de luxe. Si le cadre idyllique séduit les riches et les puissants, il attire aussi l'élite des criminels venus des quatre coins du monde. Malgré tous ses efforts pour mener une vie tranquille, Alex n'a pas son pareil pour se retrouver dans les situations les plus périlleuses. Et il aime ça !"
+    "synopsis": "Alex Walker, un des meilleurs agents de la DEA, a été contraint de prendre une retraite anticipée. La trahison de son partenaire et son hypertension l'ont amené à s'expatrier sur une petite île de l'archipel des Philippines où il est le gérant d'une boutique de souvenirs dans un hôtel de luxe. Si le cadre idyllique séduit les riches et les puissants, il attire aussi l'élite des criminels venus des quatre coins du monde. Malgré tous ses efforts pour mener une vie tranquille, Alex n'a pas son pareil pour se retrouver dans les situations les plus périlleuses. Et il aime ça !",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts402718",
@@ -15509,100 +13803,9 @@ const CATALOG_DATA = [
       "crm",
       "drm"
     ],
-    "synopsis": "Edwige Marion est en charge de la brigade ferroviaire, gare du Nord, à Paris. Elle enquête sur les affaires criminelles les plus sombres, tout en cherchant à concilier ses responsabilités de mère et son rôle de flic."
-  },
-  {
-    "id": "jw-ts11846",
-    "titre": "Candice Renoir",
-    "type": "serie",
-    "chaine": "Universal+",
-    "section": "Séries",
-    "position": "Séries • 13ème RUE",
-    "annee": 2013,
-    "note_avis": 7.6,
-    "note_recence": 7,
-    "note_globale": 7.3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/270392445/s592/candice-renoir.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "chaines": [
-      "Universal+"
-    ],
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "duree": "53 min/ép.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire demain",
-      "daysLeft": 1,
-      "expirationDate": "2026-09-28",
-      "packageExpirations": {
-        "auc": "2026-09-28"
-      }
-    },
-    "package_slugs": [
-      "auc"
-    ],
-    "runtime_minutes": 53,
-    "etoiles": 4,
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "drm",
-      "eur"
-    ],
-    "synopsis": "Candice Renoir, mère de quatre enfants, reprend son métier de policière à la BSU de Sète (Hérault) après avoir arrêté pendant dix ans à la suite d'une mise en disponibilité. Pas facile d'être maman, et commandant de police, d'autant plus que Candice a du mal à se faire accepter de ses collègues (elle ne s'entend d'ailleurs pas du tout avec le commissaire Yasmine Attia, sa première supérieure, et encore avec le commissaire Sylvie Leclerc, sa deuxième supérieure) et qu'elle est un peu dépassée par les nouvelles technologies."
-  },
-  {
-    "id": "jw-ts76577",
-    "titre": "Le Sang de la vigne",
-    "type": "serie",
-    "chaine": "Universal+",
-    "section": "Séries",
-    "position": "Séries • 13ème RUE",
-    "annee": 2011,
-    "note_avis": 7.1,
-    "note_recence": 6.5,
-    "note_globale": 6.8,
-    "categories": [
-      "thriller_policier"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/30000665/s592/le-sang-de-la-vigne.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "chaines": [
-      "Universal+"
-    ],
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "duree": "92 min/ép.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "auc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "auc"
-    ],
-    "runtime_minutes": 92,
-    "etoiles": 3,
-    "raw_genres": [
-      "crm",
-      "drm",
-      "eur"
-    ],
-    "synopsis": "Cette série met en scène les investigations menées par l'éminent œnologue français Benjamin Lebel, sa compagne France Pelletier et ses assistants Mathilde et Silvère, à la suite de meurtres commis dans le milieu viticole."
+    "synopsis": "Edwige Marion est en charge de la brigade ferroviaire, gare du Nord, à Paris. Elle enquête sur les affaires criminelles les plus sombres, tout en cherchant à concilier ses responsabilités de mère et son rôle de flic.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts268947",
@@ -15645,53 +13848,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Au début des années 1990, Mireille, son frère Julien et leur meilleur ami Laurier forment un trio inséparable. Les garçons viennent de remporter le championnat provincial de baseball et Mireille rêve de brûler les planches. Qui sait ce que l’avenir leur réserve ? Pourtant, une nuit d’octobre, en 1991, leurs destins sont à jamais bouleversés par un terrible incident et leurs routes se séparent. Adaptation de la pièce de théâtre éponyme de Michel Marc Bouchard."
-  },
-  {
-    "id": "jw-ts230557",
-    "titre": "The Narrow Road to the Deep North",
-    "type": "serie",
-    "chaine": "Ciné+ OCS",
-    "section": "Séries",
-    "position": "Séries • OCS",
-    "annee": 2025,
-    "note_avis": 7.2,
-    "note_recence": 9.8,
-    "note_globale": 8.5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341603922/s592/the-narrow-road-to-the-deep-north.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "43 min/ép.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 43,
-    "etoiles": 5,
-    "raw_genres": [
-      "drm",
-      "rma",
-      "war"
-    ],
-    "synopsis": "En 1989, en Australie, Dorrigo Evans, chirurgien renommé et héros de guerre, se prépare à prononcer un discours lors de la sortie d’un ouvrage consacré à la Seconde Guerre mondiale. Cet événement ravive les souvenirs de son passé : en 1943, alors qu’il était médecin militaire fait prisonnier par les Japonais, il fut contraint de travailler sur la ligne de chemin de fer reliant la Thaïlande à la Birmanie. Dans l’enfer de la jungle, entre violence, maladie et perte, il trouva la force de survivre grâce au souvenir de son amour interdit avec Amy Mulvaney, la femme de son oncle."
+    "synopsis": "Au début des années 1990, Mireille, son frère Julien et leur meilleur ami Laurier forment un trio inséparable. Les garçons viennent de remporter le championnat provincial de baseball et Mireille rêve de brûler les planches. Qui sait ce que l’avenir leur réserve ? Pourtant, une nuit d’octobre, en 1991, leurs destins sont à jamais bouleversés par un terrible incident et leurs routes se séparent. Adaptation de la pièce de théâtre éponyme de Michel Marc Bouchard.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts372993",
@@ -15734,7 +13893,9 @@ const CATALOG_DATA = [
       "crm",
       "drm"
     ],
-    "synopsis": "Dans le Londres des années 1980, Joan Hannington fuit son mariage désastreux avec un homme violent. Aspirant à une vie meilleure pour elle et sa fille Kelly, Joan se transforme, grâce à son intelligence, son charme et son talent pour l'imitation, en voleuse de bijoux hors-pair. Flirtant avec le danger, elle voit son quotidien rythmé par des hauts et des bas…"
+    "synopsis": "Dans le Londres des années 1980, Joan Hannington fuit son mariage désastreux avec un homme violent. Aspirant à une vie meilleure pour elle et sa fille Kelly, Joan se transforme, grâce à son intelligence, son charme et son talent pour l'imitation, en voleuse de bijoux hors-pair. Flirtant avec le danger, elle voit son quotidien rythmé par des hauts et des bas…",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts364497",
@@ -15777,7 +13938,9 @@ const CATALOG_DATA = [
       "cmy",
       "drm"
     ],
-    "synopsis": "Louison, 38 ans, mère célibataire récemment séparée, découvre qu’elle présente un trouble du spectre de l’autisme lorsqu’on diagnostique son fils Guilhem, 11 ans, qui a blessé un camarade de classe le jour de la rentrée. À peine se sent-elle libérée par cette révélation qu’une enquête sociale démarre pour savoir si elle doit conserver la garde de son enfant. Louison décide alors d’apparaître la plus \"normale\" possible aux yeux de l’enquêteur social. Mais ni elle, ni sa famille ne sait vraiment ce qu’être normal signifie."
+    "synopsis": "Louison, 38 ans, mère célibataire récemment séparée, découvre qu’elle présente un trouble du spectre de l’autisme lorsqu’on diagnostique son fils Guilhem, 11 ans, qui a blessé un camarade de classe le jour de la rentrée. À peine se sent-elle libérée par cette révélation qu’une enquête sociale démarre pour savoir si elle doit conserver la garde de son enfant. Louison décide alors d’apparaître la plus \"normale\" possible aux yeux de l’enquêteur social. Mais ni elle, ni sa famille ne sait vraiment ce qu’être normal signifie.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts413259",
@@ -15820,7 +13983,9 @@ const CATALOG_DATA = [
       "act",
       "drm"
     ],
-    "synopsis": "Et si Ashur… n'était pas mort sur le Vésuve ? Et si on lui avait offert la formation des gladiateurs qui appartenait autrefois à Batiatus en échange de son aide aux Romains pour tuer Spartacus et mettre fin à la rébellion des esclaves ?"
+    "synopsis": "Et si Ashur… n'était pas mort sur le Vésuve ? Et si on lui avait offert la formation des gladiateurs qui appartenait autrefois à Batiatus en échange de son aide aux Romains pour tuer Spartacus et mettre fin à la rébellion des esclaves ?",
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-ts309849",
@@ -15850,7 +14015,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/03",
-      "daysLeft": 168,
+      "daysLeft": 165,
       "expirationDate": "2027-03-14",
       "packageExpirations": {
         "aoc": "2027-03-14"
@@ -15870,53 +14035,9 @@ const CATALOG_DATA = [
       "scf",
       "spt"
     ],
-    "synopsis": "Un homme peut voir son mode de vie s'améliorer s’il accepte de livrer un colis en traversant une contrée sauvage et désolée. Seulement sur le trajet, il faudra compter sur le terrifiant Sweet Tooth et son camion, qui viendront perturber le parcours pour donner lieu à des combats entre véhicules."
-  },
-  {
-    "id": "jw-ts310736",
-    "titre": "Marie-Antoinette",
-    "type": "serie",
-    "chaine": "Ciné+ OCS",
-    "section": "Séries",
-    "position": "Séries • OCS",
-    "annee": 2022,
-    "note_avis": 7.3,
-    "note_recence": 9.1,
-    "note_globale": 8.2,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/301125968/s592/marie-antoinette-2022.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "53 min/ép.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 53,
-    "etoiles": 5,
-    "raw_genres": [
-      "drm",
-      "hst",
-      "war"
-    ],
-    "synopsis": "Marie-Antoinette est âgée d’à peine 14 ans quand elle quitte l’Autriche et sa mère pour épouser le dauphin en France. C’est encore une jeune enfant têtue et dissipée qui doit se plier aux règles françaises, nombreuses et compliquées. La jeune princesse souffre rapidement de ne pouvoir vivre sa vie comme elle l’entend. Elle est constamment sous pression pour perpétuer la lignée des Bourbons. Une mission plus compliquée que prévue : même si la relation entre Marie-Antoinette et Louis XVI s’améliore au fil du temps, sept années leur seront nécessaires pour consommer leur mariage."
+    "synopsis": "Un homme peut voir son mode de vie s'améliorer s’il accepte de livrer un colis en traversant une contrée sauvage et désolée. Seulement sur le trajet, il faudra compter sur le terrifiant Sweet Tooth et son camion, qui viendront perturber le parcours pour donner lieu à des combats entre véhicules.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts341651",
@@ -15962,7 +14083,9 @@ const CATALOG_DATA = [
       "trl",
       "scf"
     ],
-    "synopsis": "Quelques années après les évènements survenus au Commonwealth, Maggie et Negan se rendent dans un Manhattan post-apocalyptique coupé depuis longtemps du continent. La ville en ruine est peuplée de morts et d'habitants qui ont fait de New York, un monde anarchique empli de terreur."
+    "synopsis": "Quelques années après les évènements survenus au Commonwealth, Maggie et Negan se rendent dans un Manhattan post-apocalyptique coupé depuis longtemps du continent. La ville en ruine est peuplée de morts et d'habitants qui ont fait de New York, un monde anarchique empli de terreur.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts362915",
@@ -15992,7 +14115,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -16006,7 +14129,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "drm"
     ],
-    "synopsis": "En 1986, dans l'Illinois, Cary Grant, venu à la rencontre de son public, se remémore son enfance en Angleterre. En 1911, à Bristol, l'acteur, de son vrai nom Archie Leach, grandit entre les disputes de ses parents. La grande pauvreté dans laquelle vit sa famille, la mort de son frère John, l'internement de sa mère puis son placement chez sa grand-mère sont des épreuves qui forgent son caractère..."
+    "synopsis": "En 1986, dans l'Illinois, Cary Grant, venu à la rencontre de son public, se remémore son enfance en Angleterre. En 1911, à Bristol, l'acteur, de son vrai nom Archie Leach, grandit entre les disputes de ses parents. La grande pauvreté dans laquelle vit sa famille, la mort de son frère John, l'internement de sa mère puis son placement chez sa grand-mère sont des épreuves qui forgent son caractère...",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts308621",
@@ -16048,7 +14173,9 @@ const CATALOG_DATA = [
     "raw_genres": [
       "cmy"
     ],
-    "synopsis": "Une jeune femme de Blackpool trouve sa voix dans le monde dominé par les hommes de la comédie des années 1960 et, ce faisant, prend d'assaut Londres."
+    "synopsis": "Une jeune femme de Blackpool trouve sa voix dans le monde dominé par les hommes de la comédie des années 1960 et, ce faisant, prend d'assaut Londres.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts329600",
@@ -16092,7 +14219,9 @@ const CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "synopsis": "Roman Compte, un exilé cubain, est le directeur du tristement célèbre Mutiny Hotel, le centre de la scène de la cocaïne à Miami de la fin des années 1970 et du début des années 1980. Hôtel et discothèque, The Mutiny est le lieu de prédilection des gros joueurs, des narcos, des mannequins et des célébrités."
+    "synopsis": "Roman Compte, un exilé cubain, est le directeur du tristement célèbre Mutiny Hotel, le centre de la scène de la cocaïne à Miami de la fin des années 1970 et du début des années 1980. Hôtel et discothèque, The Mutiny est le lieu de prédilection des gros joueurs, des narcos, des mannequins et des célébrités.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts346531",
@@ -16118,7 +14247,7 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_ocs.svg"
     ],
-    "duree": "47 min/ép.",
+    "duree": "49 min/ép.",
     "expiration": {
       "status": "none",
       "label": null,
@@ -16129,14 +14258,16 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 47,
+    "runtime_minutes": 49,
     "etoiles": 5,
     "raw_genres": [
       "crm",
       "drm",
       "trl"
     ],
-    "synopsis": "Dans les années 90, un gang qui contrôle le trafic de cocaïne et le milieu de la nuit madrilène, fait couler beaucoup d'encre : \"Les Miami\". Son nom effraye chaque personne qui l'entend."
+    "synopsis": "Dans les années 90, un gang qui contrôle le trafic de cocaïne et le milieu de la nuit madrilène, fait couler beaucoup d'encre : \"Les Miami\". Son nom effraye chaque personne qui l'entend.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts284263",
@@ -16166,7 +14297,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/01",
-      "daysLeft": 101,
+      "daysLeft": 98,
       "expirationDate": "2027-01-06",
       "packageExpirations": {
         "aoc": "2027-01-06"
@@ -16181,7 +14312,9 @@ const CATALOG_DATA = [
       "drm",
       "wsn"
     ],
-    "synopsis": "Far West, dans les années 1860 - 1870. Hanté par le meurtre de sa famille huit ans plus tôt, Django continue de chercher sa fille, s’accrochant à l’espoir qu'elle ait pu survivre au massacre. Il est abasourdi de la retrouver à New Babylon, sur le point d'épouser John. Convaincu que la ville est menacée, Django est inflexible : il ne prendra pas le risque de perdre sa fille une nouvelle fois."
+    "synopsis": "Far West, dans les années 1860 - 1870. Hanté par le meurtre de sa famille huit ans plus tôt, Django continue de chercher sa fille, s’accrochant à l’espoir qu'elle ait pu survivre au massacre. Il est abasourdi de la retrouver à New Babylon, sur le point d'épouser John. Convaincu que la ville est menacée, Django est inflexible : il ne prendra pas le risque de perdre sa fille une nouvelle fois.",
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm414396",
@@ -16199,19 +14332,18 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2020,
-    "duree": "2h 00min",
-    "runtime_minutes": 120,
+    "duree": "1h 59min",
+    "runtime_minutes": 119,
     "note_avis": 6.4,
     "note_recence": 8.6,
     "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
-      "scifi_fantastique"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
-      "trl",
-      "scf"
+      "trl"
     ],
     "badge": "12",
     "is_eligible": true,
@@ -16220,12 +14352,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/11",
-      "daysLeft": 51,
+      "daysLeft": 48,
       "expirationDate": "2026-11-17",
       "packageExpirations": {
         "aoc": "2026-11-17"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts3630",
@@ -16263,12 +14397,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-ts8345",
@@ -16307,12 +14443,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm19246",
@@ -16337,9 +14475,10 @@ const CATALOG_DATA = [
     "note_globale": 6.2,
     "etoiles": 3,
     "categories": [
-      "drame_emotion"
+      "thriller_policier"
     ],
     "raw_genres": [
+      "crm",
       "drm"
     ],
     "badge": "16",
@@ -16352,7 +14491,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm28136",
@@ -16392,12 +14533,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/12",
-      "daysLeft": 93,
+      "daysLeft": 90,
       "expirationDate": "2026-12-29",
       "packageExpirations": {
         "aoc": "2026-12-29"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm173412",
@@ -16415,8 +14558,8 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2005,
-    "duree": "2h 07min",
-    "runtime_minutes": 127,
+    "duree": "2h 08min",
+    "runtime_minutes": 128,
     "note_avis": 7.8,
     "note_recence": 5.2,
     "note_globale": 6.5,
@@ -16435,55 +14578,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/10",
-      "daysLeft": 25,
+      "daysLeft": 22,
       "expirationDate": "2026-10-22",
       "packageExpirations": {
         "aoc": "2026-10-22"
       }
-    }
-  },
-  {
-    "id": "jw-tm76066",
-    "titre": "Into the Wild",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2007,
-    "duree": "2h 28min",
-    "runtime_minutes": 148,
-    "note_avis": 8,
-    "note_recence": 5.6,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/323576808/s592/into-the-wild.jpg",
-    "synopsis": "Tout juste diplômé de l'université, Christopher McCandless, 22 ans, est promis à un brillant avenir. Pourtant, tournant le dos à l'existence confortable et sans surprise qui l'attend, le jeune homme décide de prendre la route en laissant tout derrière lui. Des champs de blé du Dakota aux flots tumultueux du Colorado, en passant par les communautés hippies de Californie, Christopher va rencontrer des personnages hauts en couleur. Chacun, à sa manière, va façonner sa vision de la vie et des autres. Au bout de son voyage, Christopher atteindra son but ultime en s'aventurant seul dans les étendues sauvages de l'Alaska pour vivre en totale communion avec la nature.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm166118",
@@ -16501,8 +14603,8 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2013,
-    "duree": "2h 07min",
-    "runtime_minutes": 127,
+    "duree": "2h 06min",
+    "runtime_minutes": 126,
     "note_avis": 7.1,
     "note_recence": 7,
     "note_globale": 7.1,
@@ -16524,12 +14626,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/11",
-      "daysLeft": 43,
+      "daysLeft": 40,
       "expirationDate": "2026-11-09",
       "packageExpirations": {
         "aoc": "2026-11-09"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm35465",
@@ -16569,12 +14673,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/11",
-      "daysLeft": 46,
+      "daysLeft": 43,
       "expirationDate": "2026-11-12",
       "packageExpirations": {
         "aoc": "2026-11-12"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts21527",
@@ -16616,51 +14722,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-tm28346",
-    "titre": "Tonnerre sous les tropiques",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2008,
-    "duree": "1h 47min",
-    "runtime_minutes": 107,
-    "note_avis": 7.1,
-    "note_recence": 5.8,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "war"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176297291/s592/tonnerre-sous-les-tropiques.jpg",
-    "synopsis": "Retrouvez Ben Stiller, Jack Black et Robert Downey Jr. dans une comédie explosive ! Quand trois des plus grandes stars hollywoodiennes débarquent dans la jungle vietnamienne pour tourner un film de guerre, elles sont vite rattrapées par la réalité…",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1591341",
@@ -16699,12 +14763,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/11",
-      "daysLeft": 35,
+      "daysLeft": 32,
       "expirationDate": "2026-11-01",
       "packageExpirations": {
         "aoc": "2026-11-01"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1421287",
@@ -16744,12 +14810,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/12",
-      "daysLeft": 79,
+      "daysLeft": 76,
       "expirationDate": "2026-12-15",
       "packageExpirations": {
         "aoc": "2026-12-15"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm243100",
@@ -16787,14 +14855,16 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/176945949/s592/comancheria.jpg",
     "synopsis": "Deux frères, l'un ancien détenu, l'autre père de famille divorcé, organisent un braquage de banque. À leurs trousses, deux Texas Rangers déterminés à les faire tomber.",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 6 j",
-      "daysLeft": 6,
+      "status": "urgent",
+      "label": "⏳ Expire dans 3 j",
+      "daysLeft": 3,
       "expirationDate": "2026-10-03",
       "packageExpirations": {
         "aoc": "2026-10-03"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm838266",
@@ -16832,12 +14902,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/11",
-      "daysLeft": 53,
+      "daysLeft": 50,
       "expirationDate": "2026-11-19",
       "packageExpirations": {
         "aoc": "2026-11-19"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1199158",
@@ -16880,7 +14952,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1570880",
@@ -16920,57 +14994,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/01",
-      "daysLeft": 98,
+      "daysLeft": 95,
       "expirationDate": "2027-01-03",
       "packageExpirations": {
         "aoc": "2027-01-03"
       }
-    }
-  },
-  {
-    "id": "jw-tm159220",
-    "titre": "Under the Skin",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2014,
-    "duree": "1h 48min",
-    "runtime_minutes": 108,
-    "note_avis": 6.3,
-    "note_recence": 7.2,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "hrr",
-      "trl",
-      "scf"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/257930226/s592/under-the-skin.jpg",
-    "synopsis": "Une extraterrestre prend des hommes en autostop, puis les envoûte, de ses yeux, de sa bouche et de son corps de rêve. Attirés dans un couloir noir, ces derniers poursuivent cette beauté fatale alors que telle une araignée tissant sa toile, elle les tue les uns après les autres pour le compte de son espèce…",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm84751",
@@ -17009,12 +15040,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/01",
-      "daysLeft": 109,
+      "daysLeft": 106,
       "expirationDate": "2027-01-14",
       "packageExpirations": {
         "aoc": "2027-01-14"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1613259",
@@ -17051,12 +15084,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/12",
-      "daysLeft": 79,
+      "daysLeft": 76,
       "expirationDate": "2026-12-15",
       "packageExpirations": {
         "aoc": "2026-12-15"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm36606",
@@ -17096,12 +15131,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/12",
-      "daysLeft": 76,
+      "daysLeft": 73,
       "expirationDate": "2026-12-12",
       "packageExpirations": {
         "aoc": "2026-12-12"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1480657",
@@ -17140,12 +15177,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 75,
+      "daysLeft": 72,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts429685",
@@ -17184,12 +15223,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm220942",
@@ -17228,12 +15269,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts463482",
@@ -17271,12 +15314,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm57430",
@@ -17314,12 +15359,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1573555",
@@ -17357,12 +15404,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/10",
-      "daysLeft": 25,
+      "daysLeft": 22,
       "expirationDate": "2026-10-22",
       "packageExpirations": {
         "aoc": "2026-10-22"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm373969",
@@ -17400,12 +15449,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm81493",
@@ -17445,12 +15496,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm949929",
@@ -17488,12 +15541,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm143928",
@@ -17535,12 +15590,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm67682",
@@ -17558,8 +15615,8 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2012,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
+    "duree": "1h 37min",
+    "runtime_minutes": 97,
     "note_avis": 6,
     "note_recence": 6.8,
     "note_globale": 6.4,
@@ -17579,12 +15636,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1131320",
@@ -17622,12 +15681,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 48,
+      "daysLeft": 45,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm855028",
@@ -17668,12 +15729,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/11",
-      "daysLeft": 44,
+      "daysLeft": 41,
       "expirationDate": "2026-11-10",
       "packageExpirations": {
         "aoc": "2026-11-10"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm163491",
@@ -17712,12 +15775,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aca": "2026-10-31"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1230271",
@@ -17757,7 +15822,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm177735",
@@ -17795,12 +15862,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/11",
-      "daysLeft": 46,
+      "daysLeft": 43,
       "expirationDate": "2026-11-12",
       "packageExpirations": {
         "aoc": "2026-11-12"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1624180",
@@ -17840,57 +15909,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 13/11",
-      "daysLeft": 47,
+      "daysLeft": 44,
       "expirationDate": "2026-11-13",
       "packageExpirations": {
         "aoc": "2026-11-13"
       }
-    }
-  },
-  {
-    "id": "jw-tm50018",
-    "titre": "Looper : les tueurs du temps",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2012,
-    "duree": "1h 58min",
-    "runtime_minutes": 118,
-    "note_avis": 7.4,
-    "note_recence": 6.8,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "trl",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/230063842/s592/looper.jpg",
-    "synopsis": "Dans un futur proche, la Mafia a mis au point un système infaillible pour faire disparaître tous les témoins gênants. Elle expédie ses victimes dans le passé, à notre époque, où des tueurs d’un genre nouveau (les « Loopers ») les éliminent.  Un jour, l’un d’entre eux, Joe, découvre que la victime qu’il doit exécuter n’est autre que… lui-même, avec 30 ans de plus. La machine si bien huilée déraille…",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts390561",
@@ -17932,7 +15958,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm131138",
@@ -17975,7 +16003,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts81331",
@@ -18020,7 +16050,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1422180",
@@ -18060,57 +16092,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
-  },
-  {
-    "id": "jw-tm32967",
-    "titre": "Penelope",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2007,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 6.7,
-    "note_recence": 5.6,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fnt",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/319643034/s592/penelope.jpg",
-    "synopsis": "Une sorcière a jeté un sort sur la première fille qui nait dans la famille Wilhern : Pénélope. Pour y échapper, elle devra épouser un garçon issu de la noblesse. Pénélope est une romantique. Elle décide de fuir loin de sa famille et d'affronter le Monde. Elle découvrira que le mauvais sort, il faut l'ignorer et s'accepter telle qu'elle est.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm1171582",
@@ -18152,50 +16141,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-tm232812",
-    "titre": "Les ogres",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2016,
-    "duree": "2h 18min",
-    "runtime_minutes": 138,
-    "note_avis": 6.9,
-    "note_recence": 7.7,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9874333/s592/les-ogres.jpg",
-    "synopsis": "Ils vont de ville en ville, un chapiteau sur le dos, leur spectacle en bandoulière. Dans nos vies ils apportent le rêve et le désordre. Ce sont des ogres, des géants, ils en ont mangé du théâtre et des kilomètres. Mais l’arrivée imminente d’un bébé et le retour d’une ancienne amante vont raviver des blessures que l’on croyait oubliées. Alors que la fête commence !",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1636983",
@@ -18233,12 +16181,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 75,
+      "daysLeft": 72,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1573540",
@@ -18276,12 +16226,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/11",
-      "daysLeft": 38,
+      "daysLeft": 35,
       "expirationDate": "2026-11-04",
       "packageExpirations": {
         "aoc": "2026-11-04"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1613945",
@@ -18319,12 +16271,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/11",
-      "daysLeft": 41,
+      "daysLeft": 38,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "aoc": "2026-11-07"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1671263",
@@ -18362,12 +16316,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/01",
-      "daysLeft": 106,
+      "daysLeft": 103,
       "expirationDate": "2027-01-11",
       "packageExpirations": {
         "aoc": "2027-01-11"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm174054",
@@ -18408,7 +16364,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm1354988",
@@ -18447,12 +16405,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 95,
+      "daysLeft": 92,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1483750",
@@ -18491,12 +16451,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm208924",
@@ -18533,12 +16495,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1280371",
@@ -18581,7 +16545,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1438678",
@@ -18621,7 +16587,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1606015",
@@ -18660,12 +16628,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/11",
-      "daysLeft": 42,
+      "daysLeft": 39,
       "expirationDate": "2026-11-08",
       "packageExpirations": {
         "aoc": "2026-11-08"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm144054",
@@ -18704,12 +16674,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 68,
+      "daysLeft": 65,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1629225",
@@ -18747,12 +16719,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/12",
-      "daysLeft": 83,
+      "daysLeft": 80,
       "expirationDate": "2026-12-19",
       "packageExpirations": {
         "aoc": "2026-12-19"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts466772",
@@ -18770,8 +16744,8 @@ const CATALOG_DATA = [
       "auc"
     ],
     "annee": 2025,
-    "duree": "44 min/ép.",
-    "runtime_minutes": 44,
+    "duree": "45 min/ép.",
+    "runtime_minutes": 45,
     "note_avis": 4.8,
     "note_recence": 9.8,
     "note_globale": 7.3,
@@ -18791,12 +16765,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm169496",
@@ -18833,12 +16809,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1561456",
@@ -18876,12 +16854,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/11",
-      "daysLeft": 35,
+      "daysLeft": 32,
       "expirationDate": "2026-11-01",
       "packageExpirations": {
         "aoc": "2026-11-01"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1064422",
@@ -18918,12 +16898,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1478838",
@@ -18965,7 +16947,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm167066",
@@ -19005,12 +16989,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1515296",
@@ -19047,12 +17033,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/11",
-      "daysLeft": 58,
+      "daysLeft": 55,
       "expirationDate": "2026-11-24",
       "packageExpirations": {
         "aoc": "2026-11-24"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1336615",
@@ -19091,12 +17079,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm225476",
@@ -19138,7 +17128,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1650093",
@@ -19180,7 +17172,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm107102",
@@ -19219,55 +17213,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/11",
-      "daysLeft": 38,
+      "daysLeft": 35,
       "expirationDate": "2026-11-04",
       "packageExpirations": {
         "aoc": "2026-11-04"
       }
-    }
-  },
-  {
-    "id": "jw-tm166238",
-    "titre": "Very Bad Trip 3",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2013,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 5.9,
-    "note_recence": 7,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/210080936/s592/very-bad-trip-3.jpg",
-    "synopsis": "Suite au décès du père d’Alan, la bande décide de le forcer à soigner ses problèmes mentaux. Mais comme d’habitude, rien ne se passe comme prévu. Une fois arrivés à l’hôpital, les hommes se font attaquer et Doug est kidnappé. La rançon ? Retrouver Mr. Chow en échange de la vie de Doug…",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1579406",
@@ -19304,12 +17257,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 55,
+      "daysLeft": 52,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1605610",
@@ -19348,12 +17303,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/01",
-      "daysLeft": 98,
+      "daysLeft": 95,
       "expirationDate": "2027-01-03",
       "packageExpirations": {
         "aoc": "2027-01-03"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm153143",
@@ -19393,7 +17350,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm427335",
@@ -19436,7 +17395,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1628760",
@@ -19473,13 +17434,15 @@ const CATALOG_DATA = [
     "synopsis": "Óscar Restrepo, poète en manque de reconnaissance, mène une existence solitaire marquée par les désillusions. Sa rencontre avec Yurlady, une adolescente d’un milieu populaire possédant un véritable talent d’écriture, va bouleverser le cours de sa vie. Il l’exhorte à se présenter à un concours national de poésie. Mais les choses ne se passent pas comme prévues…",
     "expiration": {
       "status": "info",
-      "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
-      "expirationDate": "2026-12-05",
+      "label": "📅 Jusqu'au 09/12",
+      "daysLeft": 70,
+      "expirationDate": "2026-12-09",
       "packageExpirations": {
-        "aoc": "2026-12-05"
+        "aoc": "2026-12-09"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm922498",
@@ -19519,12 +17482,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm423140",
@@ -19563,12 +17528,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1629154",
@@ -19606,56 +17573,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/12",
-      "daysLeft": 80,
+      "daysLeft": 77,
       "expirationDate": "2026-12-16",
       "packageExpirations": {
         "aoc": "2026-12-16"
       }
-    }
-  },
-  {
-    "id": "jw-tm71148",
-    "titre": "Sex Therapy",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2013,
-    "duree": "1h 52min",
-    "runtime_minutes": 112,
-    "note_avis": 6.4,
-    "note_recence": 7,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/10085788/s592/sex-therapy.jpg",
-    "synopsis": "A New York, de nos jours, Adam vient de rencontrer Phoebe, qui pourrait bien être la femme de sa vie. Cependant un seul obstacle s'oppose à cette idylle : Adam est atteint d'une syndrome, et pas des moindres : il est accro au sexe. Il soigne sa dépendance au sein d'un groupe de parole composé d'autres addicts.  Parmi eux, Mike, son parrain et mentor, Neil, qui vient tout juste de les rejoindre, et Dede, une jeune femme très libre et décomplexée... Réussiront-ils tous à soigner leurs dépendances et leurs troubles obsessionnels ?",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm348731",
@@ -19695,12 +17620,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/11",
-      "daysLeft": 35,
+      "daysLeft": 32,
       "expirationDate": "2026-11-01",
       "packageExpirations": {
         "aoc": "2026-11-01"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm102403",
@@ -19738,14 +17665,16 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/308820081/s592/karate-kid.jpg",
     "synopsis": "Lorsque la carrière de sa mère l'entraîne à Pékin en Chine, le jeune Dre Parker doit faire face à des changements radicaux. Au bout de quelques jours, il se retrouve mêlé à une altercation au sein de son école, impliquant Cheng, l'un des garçons les plus doués en kung-fu et qui lui fait définitivement perdre le respect de ses camarades de classe. Témoin de cet affrontement, M. Han, professeur de kung-fu à la retraite, embauché par les Parker comme chauffeur et assistant, décide d'aider Dre à regagner le respect de son entourage.",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 14/10",
-      "daysLeft": 17,
+      "status": "warning",
+      "label": "⏳ Expire dans 14 j",
+      "daysLeft": 14,
       "expirationDate": "2026-10-14",
       "packageExpirations": {
         "aoc": "2026-10-14"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm144497",
@@ -19786,7 +17715,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1660393",
@@ -19822,14 +17753,16 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/343118450/s592/la-petite-cuisine-de-mehdi.jpg",
     "synopsis": "Mehdi est sur un fil. Il joue le rôle du fils algérien parfait devant sa mère Fatima, tout en lui cachant sa relation avec Léa ainsi que sa passion pour la gastronomie française. Il est chef dans un bistrot qu’il s’apprête à racheter avec Léa. Mais celle-ci n’en peut plus de ses cachoteries et exige de rencontrer Fatima. Au pied du mur, Mehdi va trouver la pire des solutions.",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 5 j",
-      "daysLeft": 5,
+      "status": "urgent",
+      "label": "⏳ Expire dans 2 j",
+      "daysLeft": 2,
       "expirationDate": "2026-10-02",
       "packageExpirations": {
         "aoc": "2026-10-02"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm78774",
@@ -19871,7 +17804,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm164263",
@@ -19913,7 +17848,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm46907",
@@ -19954,7 +17891,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1623201",
@@ -19991,12 +17930,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/11",
-      "daysLeft": 41,
+      "daysLeft": 38,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "aoc": "2026-11-07"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm36005",
@@ -20038,7 +17979,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm25175",
@@ -20083,7 +18026,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts9630",
@@ -20129,7 +18074,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm243870",
@@ -20167,13 +18114,15 @@ const CATALOG_DATA = [
     "synopsis": "Après avoir perdu la vue dans un accident de voiture qui a coûté la vie à ses parents, Gina est devenue totalement dépendante de James – une dépendance qui semble nourrir leur amour passionnel. Jusqu’au jour où la jeune femme recouvre partiellement la vue grâce à une greffe de la cornée. Soudain, elle découvre le monde et affirme une volonté d’indépendance qui déstabilise profondément James. Le couple résistera-t-il à ce nouvel équilibre ?",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 14 j",
-      "daysLeft": 14,
+      "label": "⏳ Expire dans 11 j",
+      "daysLeft": 11,
       "expirationDate": "2026-10-11",
       "packageExpirations": {
         "aoc": "2026-10-11"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm2883888",
@@ -20193,9 +18142,9 @@ const CATALOG_DATA = [
     "annee": 2026,
     "duree": "59min",
     "runtime_minutes": 59,
-    "note_avis": 6.9,
+    "note_avis": 6.8,
     "note_recence": 10,
-    "note_globale": 8.5,
+    "note_globale": 8.4,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -20213,7 +18162,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm78592",
@@ -20255,7 +18206,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1465677",
@@ -20295,12 +18248,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/11",
-      "daysLeft": 44,
+      "daysLeft": 41,
       "expirationDate": "2026-11-10",
       "packageExpirations": {
         "aoc": "2026-11-10"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts299854",
@@ -20339,12 +18294,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm348003",
@@ -20392,7 +18349,9 @@ const CATALOG_DATA = [
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1348573",
@@ -20431,12 +18390,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 55,
+      "daysLeft": 52,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1543436",
@@ -20474,12 +18435,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/11",
-      "daysLeft": 41,
+      "daysLeft": 38,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "aoc": "2026-11-07"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm148237",
@@ -20515,17 +18478,19 @@ const CATALOG_DATA = [
     ],
     "badge": "16",
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/241134252/s592/battlestar-galactica-the-plan.jpg",
+    "poster": "https://images.justwatch.com/poster/354999075/s592/battlestar-galactica-the-plan.jpg",
     "synopsis": "Les événements majeurs de la série Battlestar Galactica revisités d'après le point de vue des Cylons. Créés par l'Homme, ils se sont rebellés. Déterminés à prendre leur revanche, ils ont un plan dont le point de départ est la destruction des colonies...",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1515086",
@@ -20563,12 +18528,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/12",
-      "daysLeft": 93,
+      "daysLeft": 90,
       "expirationDate": "2026-12-29",
       "packageExpirations": {
         "aoc": "2026-12-29"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts343184",
@@ -20609,7 +18576,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm107093",
@@ -20651,7 +18620,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-ts434037",
@@ -20669,8 +18640,8 @@ const CATALOG_DATA = [
       "auc"
     ],
     "annee": 2025,
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
+    "duree": "44 min/ép.",
+    "runtime_minutes": 44,
     "note_avis": 6.5,
     "note_recence": 9.8,
     "note_globale": 8.2,
@@ -20696,7 +18667,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1627628",
@@ -20733,12 +18706,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/10",
-      "daysLeft": 32,
+      "daysLeft": 29,
       "expirationDate": "2026-10-29",
       "packageExpirations": {
         "aoc": "2026-10-29"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm842404",
@@ -20777,56 +18752,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/01",
-      "daysLeft": 107,
+      "daysLeft": 104,
       "expirationDate": "2027-01-12",
       "packageExpirations": {
         "aoc": "2027-01-12"
       }
-    }
-  },
-  {
-    "id": "jw-tm1441251",
-    "titre": "Le Cauchemar de Peter Pan",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2025,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 4.8,
-    "note_recence": 9.8,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "fnt",
-      "hrr",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354889122/s592/le-cauchemar-du-pays-imaginaire-de-peter-pan-2025.jpg",
-    "synopsis": "Wendy Darling part à la recherche de son petit frère Michael, enlevé par un Peter Pan malveillant. Au cours de son périple, elle rencontre une Fée Clochette déchue, qui la guide à travers le dangereux Pays imaginaire. Wendy devra affronter ses propres peurs pour sauver son frère et échapper à l'emprise de Peter Pan.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1175081",
@@ -20868,7 +18801,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm827835",
@@ -20907,12 +18842,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm169758",
@@ -20954,7 +18891,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1624064",
@@ -20991,12 +18930,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/11",
-      "daysLeft": 62,
+      "daysLeft": 59,
       "expirationDate": "2026-11-28",
       "packageExpirations": {
         "aoc": "2026-11-28"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts501803",
@@ -21036,12 +18977,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1496573",
@@ -21080,12 +19023,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 55,
+      "daysLeft": 52,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm26945",
@@ -21126,12 +19071,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/02",
-      "daysLeft": 132,
+      "daysLeft": 129,
       "expirationDate": "2027-02-06",
       "packageExpirations": {
         "aoc": "2027-02-06"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm201436",
@@ -21173,7 +19120,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1432643",
@@ -21212,12 +19161,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/12",
-      "daysLeft": 72,
+      "daysLeft": 69,
       "expirationDate": "2026-12-08",
       "packageExpirations": {
         "aoc": "2026-12-08"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1522667",
@@ -21257,12 +19208,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1614260",
@@ -21302,12 +19255,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 23/01",
-      "daysLeft": 118,
+      "daysLeft": 115,
       "expirationDate": "2027-01-23",
       "packageExpirations": {
         "aoc": "2027-01-23"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1656330",
@@ -21327,9 +19282,9 @@ const CATALOG_DATA = [
     "annee": 2025,
     "duree": "1h 30min",
     "runtime_minutes": 90,
-    "note_avis": 6.9,
+    "note_avis": 6.8,
     "note_recence": 9.8,
-    "note_globale": 8.4,
+    "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -21346,12 +19301,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/10",
-      "daysLeft": 33,
+      "daysLeft": 30,
       "expirationDate": "2026-10-30",
       "packageExpirations": {
         "aoc": "2026-10-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1191847",
@@ -21393,7 +19350,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm312632",
@@ -21433,12 +19392,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/12",
-      "daysLeft": 80,
+      "daysLeft": 77,
       "expirationDate": "2026-12-16",
       "packageExpirations": {
         "aoc": "2026-12-16"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm336975",
@@ -21479,7 +19440,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm327990",
@@ -21518,12 +19481,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/11",
-      "daysLeft": 42,
+      "daysLeft": 39,
       "expirationDate": "2026-11-08",
       "packageExpirations": {
         "aoc": "2026-11-08"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1047264",
@@ -21560,12 +19525,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1308443",
@@ -21603,12 +19570,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1481770",
@@ -21646,12 +19615,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/10",
-      "daysLeft": 32,
+      "daysLeft": 29,
       "expirationDate": "2026-10-29",
       "packageExpirations": {
         "aoc": "2026-10-29"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1647841",
@@ -21690,12 +19661,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/12",
-      "daysLeft": 80,
+      "daysLeft": 77,
       "expirationDate": "2026-12-16",
       "packageExpirations": {
         "aoc": "2026-12-16"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts84289",
@@ -21740,7 +19713,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1373317",
@@ -21777,12 +19752,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/11",
-      "daysLeft": 37,
+      "daysLeft": 34,
       "expirationDate": "2026-11-03",
       "packageExpirations": {
         "aoc": "2026-11-03"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1506814",
@@ -21821,12 +19798,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 75,
+      "daysLeft": 72,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm925023",
@@ -21868,7 +19847,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm171672",
@@ -21910,7 +19891,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm139880",
@@ -21953,7 +19936,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm1376360",
@@ -21995,7 +19980,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1300389",
@@ -22032,12 +20019,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 13/12",
-      "daysLeft": 77,
+      "daysLeft": 74,
       "expirationDate": "2026-12-13",
       "packageExpirations": {
         "aoc": "2026-12-13"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1669521",
@@ -22057,9 +20046,9 @@ const CATALOG_DATA = [
     "annee": 2026,
     "duree": "1h 50min",
     "runtime_minutes": 110,
-    "note_avis": 7.5,
+    "note_avis": 7.4,
     "note_recence": 10,
-    "note_globale": 8.8,
+    "note_globale": 8.7,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -22076,12 +20065,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/11",
-      "daysLeft": 40,
+      "daysLeft": 37,
       "expirationDate": "2026-11-06",
       "packageExpirations": {
         "aoc": "2026-11-06"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm244229",
@@ -22121,12 +20112,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1651114",
@@ -22165,12 +20158,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm1259917",
@@ -22209,12 +20204,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm244732",
@@ -22253,12 +20250,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/11",
-      "daysLeft": 44,
+      "daysLeft": 41,
       "expirationDate": "2026-11-10",
       "packageExpirations": {
         "aoc": "2026-11-10"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm158409",
@@ -22299,7 +20298,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1519599",
@@ -22337,12 +20338,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/12",
-      "daysLeft": 89,
+      "daysLeft": 86,
       "expirationDate": "2026-12-25",
       "packageExpirations": {
         "aoc": "2026-12-25"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm1167017",
@@ -22379,12 +20382,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/03",
-      "daysLeft": 170,
+      "daysLeft": 167,
       "expirationDate": "2027-03-16",
       "packageExpirations": {
         "aoc": "2027-03-16"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1043778",
@@ -22423,12 +20428,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm173843",
@@ -22469,7 +20476,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1623389",
@@ -22510,12 +20519,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/12",
-      "daysLeft": 81,
+      "daysLeft": 78,
       "expirationDate": "2026-12-17",
       "packageExpirations": {
         "aoc": "2026-12-17"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts20121",
@@ -22554,12 +20565,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 95,
+      "daysLeft": 92,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "auc": "2026-12-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm1486086",
@@ -22596,12 +20609,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1047994",
@@ -22626,13 +20641,12 @@ const CATALOG_DATA = [
     "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "thriller_policier"
     ],
     "raw_genres": [
       "cmy",
       "crm",
-      "drm",
-      "hrr"
+      "drm"
     ],
     "badge": "12",
     "is_eligible": true,
@@ -22641,12 +20655,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm823034",
@@ -22688,7 +20704,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm170374",
@@ -22728,12 +20746,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts317683",
@@ -22777,7 +20797,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm318513",
@@ -22820,7 +20842,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1517395",
@@ -22857,57 +20881,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 55,
+      "daysLeft": 52,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
       }
-    }
-  },
-  {
-    "id": "jw-ts368811",
-    "titre": "Wreck : Croisière sanglante",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2022,
-    "duree": "46 min/ép.",
-    "runtime_minutes": 46,
-    "note_avis": 6.5,
-    "note_recence": 9.1,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "hrr",
-      "trl"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/313307324/s592/wreck.jpg",
-    "synopsis": "Pour retrouver sa sœur disparue, Jamie, 20 ans, infiltre l'équipage d'un navire de croisière.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "auc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts413949",
@@ -22948,7 +20929,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1594220",
@@ -22986,12 +20969,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/11",
-      "daysLeft": 44,
+      "daysLeft": 41,
       "expirationDate": "2026-11-10",
       "packageExpirations": {
         "aoc": "2026-11-10"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1141821",
@@ -23029,12 +21014,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts284726",
@@ -23052,8 +21039,8 @@ const CATALOG_DATA = [
       "auc"
     ],
     "annee": 2020,
-    "duree": "21 min/ép.",
-    "runtime_minutes": 21,
+    "duree": "19 min/ép.",
+    "runtime_minutes": 19,
     "note_avis": 5.8,
     "note_recence": 8.6,
     "note_globale": 7.2,
@@ -23080,7 +21067,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1352915",
@@ -23119,12 +21108,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts96540",
@@ -23142,8 +21133,8 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2022,
-    "duree": "46 min/ép.",
-    "runtime_minutes": 46,
+    "duree": "47 min/ép.",
+    "runtime_minutes": 47,
     "note_avis": 6,
     "note_recence": 9.1,
     "note_globale": 7.6,
@@ -23161,12 +21152,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 95,
+      "daysLeft": 92,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts215012",
@@ -23212,7 +21205,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm309232",
@@ -23250,12 +21245,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/10",
-      "daysLeft": 33,
+      "daysLeft": 30,
       "expirationDate": "2026-10-30",
       "packageExpirations": {
         "aoc": "2026-10-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm163859",
@@ -23296,7 +21293,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1276217",
@@ -23336,12 +21335,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/11",
-      "daysLeft": 53,
+      "daysLeft": 50,
       "expirationDate": "2026-11-19",
       "packageExpirations": {
         "aoc": "2026-11-19"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm94640",
@@ -23380,12 +21381,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/03",
-      "daysLeft": 170,
+      "daysLeft": 167,
       "expirationDate": "2027-03-16",
       "packageExpirations": {
         "aoc": "2027-03-16"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts424903",
@@ -23403,8 +21406,8 @@ const CATALOG_DATA = [
       "auc"
     ],
     "annee": 2024,
-    "duree": "45 min/ép.",
-    "runtime_minutes": 45,
+    "duree": "44 min/ép.",
+    "runtime_minutes": 44,
     "note_avis": 5.9,
     "note_recence": 9.5,
     "note_globale": 7.7,
@@ -23427,7 +21430,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm316222",
@@ -23468,7 +21473,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1575723",
@@ -23507,12 +21514,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/11",
-      "daysLeft": 60,
+      "daysLeft": 57,
       "expirationDate": "2026-11-26",
       "packageExpirations": {
         "aoc": "2026-11-26"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1432644",
@@ -23550,12 +21559,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/12",
-      "daysLeft": 79,
+      "daysLeft": 76,
       "expirationDate": "2026-12-15",
       "packageExpirations": {
         "aoc": "2026-12-15"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm233312",
@@ -23594,12 +21605,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1657092",
@@ -23636,13 +21649,15 @@ const CATALOG_DATA = [
     "synopsis": "Violette a 8 ans, du caractère à revendre et un nouveau tuteur ! En effet, depuis la mort de ses parents, elle doit vivre chez son oncle Régis, agent d’entretien au château de Versailles. Lui, c’est un géant bourru, elle une petite fille têtue qui refuse de lui parler et fugue dès qu’elle peut ! Mais dans les coulisses dorées du Roi Soleil ces deux solitaires vont peu à peu s’apprivoiser , apprendre à se connaître, et se découvrir une nouvelle famille...",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 7 j",
-      "daysLeft": 7,
+      "label": "⏳ Expire dans 4 j",
+      "daysLeft": 4,
       "expirationDate": "2026-10-04",
       "packageExpirations": {
         "aoc": "2026-10-04"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1522048",
@@ -23683,12 +21698,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/12",
-      "daysLeft": 91,
+      "daysLeft": 88,
       "expirationDate": "2026-12-27",
       "packageExpirations": {
         "aoc": "2026-12-27"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1625406",
@@ -23727,12 +21744,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/12",
-      "daysLeft": 88,
+      "daysLeft": 85,
       "expirationDate": "2026-12-24",
       "packageExpirations": {
         "aoc": "2026-12-24"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts269094",
@@ -23750,8 +21769,8 @@ const CATALOG_DATA = [
       "auc"
     ],
     "annee": 2021,
-    "duree": "46 min/ép.",
-    "runtime_minutes": 46,
+    "duree": "47 min/ép.",
+    "runtime_minutes": 47,
     "note_avis": 7.1,
     "note_recence": 8.8,
     "note_globale": 8,
@@ -23773,7 +21792,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm1309487",
@@ -23811,12 +21832,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/10",
-      "daysLeft": 27,
+      "daysLeft": 24,
       "expirationDate": "2026-10-24",
       "packageExpirations": {
         "aoc": "2026-10-24"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm462920",
@@ -23857,7 +21880,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm156923",
@@ -23895,55 +21920,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/12",
-      "daysLeft": 72,
+      "daysLeft": 69,
       "expirationDate": "2026-12-08",
       "packageExpirations": {
         "aoc": "2026-12-08"
       }
-    }
-  },
-  {
-    "id": "jw-tm1389663",
-    "titre": "La Proie des Ombres",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2024,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 6.7,
-    "note_recence": 9.5,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "hrr",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/324508114/s592/what-you-wish-for.jpg",
-    "synopsis": "Chef cuisinier de talent, Ryan fuit d'importantes dettes de jeu en rendant visite à Jack, un ancien condisciple installé désormais en Amérique latine. Peu après son arrivée, Ryan retrouve son ami pendu. Il décide d'usurper l'identité du défunt pour régler ses créanciers qui menacent de s'en prendre à sa mère. En rencontrant Imogen, la cheffe de Jack, Ryan réalise que ce dernier avait accepté un engagement horrible. Il doit cependant s'y plier s'il ne veut pas être démasqué...",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1483266",
@@ -23983,7 +21967,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts506897",
@@ -24024,7 +22010,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1395496",
@@ -24063,12 +22051,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/11",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-11-25",
       "packageExpirations": {
         "aoc": "2026-11-25"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm422681",
@@ -24108,12 +22098,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/10",
-      "daysLeft": 20,
+      "daysLeft": 17,
       "expirationDate": "2026-10-17",
       "packageExpirations": {
         "aca": "2026-10-17"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts188766",
@@ -24152,12 +22144,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1636210",
@@ -24195,12 +22189,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/11",
-      "daysLeft": 60,
+      "daysLeft": 57,
       "expirationDate": "2026-11-26",
       "packageExpirations": {
         "aoc": "2026-11-26"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1027760",
@@ -24242,7 +22238,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1904037",
@@ -24282,7 +22280,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1663879",
@@ -24319,12 +22319,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/12",
-      "daysLeft": 67,
+      "daysLeft": 64,
       "expirationDate": "2026-12-03",
       "packageExpirations": {
         "aoc": "2026-12-03"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1279412",
@@ -24362,12 +22364,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "auc": "2027-02-28"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1607161",
@@ -24404,12 +22408,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "aoc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm897480",
@@ -24450,7 +22456,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm163563",
@@ -24490,57 +22498,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
-  },
-  {
-    "id": "jw-ts383893",
-    "titre": "Slip",
-    "type": "serie",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2023,
-    "duree": "27 min/ép.",
-    "runtime_minutes": 27,
-    "note_avis": 6.5,
-    "note_recence": 9.3,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "fnt",
-      "scf"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/304427223/s592/slip.jpg",
-    "synopsis": "Slip suit Mae à travers un voyage surréaliste dans des univers parallèles, mariée à différentes personnes, essayant de retrouver son partenaire et, finalement, elle-même.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm471876",
@@ -24579,12 +22544,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm173051",
@@ -24625,7 +22592,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm142392",
@@ -24667,7 +22636,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1518995",
@@ -24704,12 +22675,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm841808",
@@ -24747,12 +22720,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/10",
-      "daysLeft": 22,
+      "daysLeft": 19,
       "expirationDate": "2026-10-19",
       "packageExpirations": {
         "aca": "2026-10-19"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm27007",
@@ -24790,12 +22765,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/10",
-      "daysLeft": 27,
+      "daysLeft": 24,
       "expirationDate": "2026-10-24",
       "packageExpirations": {
         "aca": "2026-10-24"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1400239",
@@ -24834,55 +22811,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/11",
-      "daysLeft": 37,
+      "daysLeft": 34,
       "expirationDate": "2026-11-03",
       "packageExpirations": {
         "aoc": "2026-11-03"
       }
-    }
-  },
-  {
-    "id": "jw-tm1514718",
-    "titre": "Ce nouvel an qui n'est jamais arrivé",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2024,
-    "duree": "2h 18min",
-    "runtime_minutes": 138,
-    "note_avis": 8,
-    "note_recence": 9.5,
-    "note_globale": 8.8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/327069214/s592/the-new-year-that-never-came.jpg",
-    "synopsis": "Six histoires interconnectées qui explorent la Roumanie alors que la révolution de 1989 commence à poindre.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 2 j",
-      "daysLeft": 2,
-      "expirationDate": "2026-09-29",
-      "packageExpirations": {
-        "aoc": "2026-09-29"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm54228",
@@ -24921,12 +22857,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/03",
-      "daysLeft": 170,
+      "daysLeft": 167,
       "expirationDate": "2027-03-16",
       "packageExpirations": {
         "aoc": "2027-03-16"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1222539",
@@ -24967,51 +22905,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-tm1218475",
-    "titre": "Soldat Collins",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2024,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 5.5,
-    "note_recence": 9.5,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "war"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321799885/s592/before-dawn-2024.jpg",
-    "synopsis": "Janvier 1915. La Grande Guerre fait rage. Jim Collins, jeune éleveur de l’outback australien, abandonne la ferme familiale pour rejoindre la ligne de front à l’autre bout du monde. Plein d’espoir et d’ambition, le soldat Collins se retrouve confronté à la brutalité des tranchées où rester en vie est un combat de tous les instants.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1513417",
@@ -25048,12 +22944,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/11",
-      "daysLeft": 41,
+      "daysLeft": 38,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "aoc": "2026-11-07"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1364408",
@@ -25094,7 +22992,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1627847",
@@ -25131,12 +23031,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/12",
-      "daysLeft": 72,
+      "daysLeft": 69,
       "expirationDate": "2026-12-08",
       "packageExpirations": {
         "aoc": "2026-12-08"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm462379",
@@ -25175,12 +23077,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1141791",
@@ -25220,7 +23124,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1515009",
@@ -25262,12 +23168,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm332885",
@@ -25308,7 +23216,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1623907",
@@ -25347,12 +23257,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/12",
-      "daysLeft": 76,
+      "daysLeft": 73,
       "expirationDate": "2026-12-12",
       "packageExpirations": {
         "aoc": "2026-12-12"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1510090",
@@ -25390,12 +23302,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/10",
-      "daysLeft": 32,
+      "daysLeft": 29,
       "expirationDate": "2026-10-29",
       "packageExpirations": {
         "aoc": "2026-10-29"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm211939",
@@ -25436,12 +23350,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-ts225559",
@@ -25481,7 +23397,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm167266",
@@ -25520,12 +23438,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm885805",
@@ -25567,13 +23487,15 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28",
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm458279",
@@ -25615,7 +23537,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm814977",
@@ -25655,12 +23579,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/11",
-      "daysLeft": 46,
+      "daysLeft": 43,
       "expirationDate": "2026-11-12",
       "packageExpirations": {
         "aoc": "2026-11-12"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm344336",
@@ -25699,12 +23625,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm322303",
@@ -25743,12 +23671,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "auc": "2026-10-31"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-ts272563",
@@ -25789,7 +23719,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm161266",
@@ -25830,7 +23762,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm238664",
@@ -25869,12 +23803,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/01",
-      "daysLeft": 107,
+      "daysLeft": 104,
       "expirationDate": "2027-01-12",
       "packageExpirations": {
         "aoc": "2027-01-12"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm235793",
@@ -25913,12 +23849,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts462941",
@@ -25958,12 +23896,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1594094",
@@ -26001,12 +23941,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/12",
-      "daysLeft": 91,
+      "daysLeft": 88,
       "expirationDate": "2026-12-27",
       "packageExpirations": {
         "aoc": "2026-12-27"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts81283",
@@ -26047,7 +23989,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm365456",
@@ -26083,14 +24027,16 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/324388362/s592/limonov-the-ballad-of-eddie.jpg",
     "synopsis": "Militant révolutionnaire, dandy, voyou, majordome ou sans abri, il fut tout à la fois un poète enragé et belliqueux, un agitateur politique et le romancier de sa propre grandeur. La vie d’Edouard Limonov, telle une traînée de soufre, est une ballade à travers les rues agitées de Moscou et les gratte-ciels de New-York, des ruelles de Paris au cœur des geôles de Sibérie pendant la seconde moitié du XXe siècle.",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 6 j",
-      "daysLeft": 6,
+      "status": "urgent",
+      "label": "⏳ Expire dans 3 j",
+      "daysLeft": 3,
       "expirationDate": "2026-10-03",
       "packageExpirations": {
         "aoc": "2026-10-03"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1222840",
@@ -26129,12 +24075,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "auc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm406111",
@@ -26172,12 +24120,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm1513413",
@@ -26214,12 +24164,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 55,
+      "daysLeft": 52,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm324533",
@@ -26258,12 +24210,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm863627",
@@ -26303,7 +24257,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1350010",
@@ -26343,12 +24299,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/12",
-      "daysLeft": 90,
+      "daysLeft": 87,
       "expirationDate": "2026-12-26",
       "packageExpirations": {
         "aoc": "2026-12-26"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1514072",
@@ -26386,12 +24344,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 68,
+      "daysLeft": 65,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1666078",
@@ -26432,7 +24392,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1482961",
@@ -26474,12 +24436,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/11",
-      "daysLeft": 62,
+      "daysLeft": 59,
       "expirationDate": "2026-11-28",
       "packageExpirations": {
         "aoc": "2026-11-28"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm48494",
@@ -26518,12 +24482,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm404961",
@@ -26565,7 +24531,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm228888",
@@ -26607,7 +24575,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm1537373",
@@ -26647,7 +24617,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm365481",
@@ -26686,56 +24658,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
-  },
-  {
-    "id": "jw-tm80630",
-    "titre": "Les Chansons d'amour",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2007,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 7,
-    "note_recence": 5.6,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/179359245/s592/les-chansons-damour.jpg",
-    "synopsis": "Par amour, Julie accepte de faire ménage à trois avec la collègue de son petit ami Ismaël. Mais cette situation finit par devenir pesante pour la jeune femme qui aimerait être à nouveau seule avec lui. Lorsqu'un incident vient mettre fin au trio amoureux, tout devient bancal, surtout dans la vie d'Ismaël qui essaie difficilement de gérer sa confusion des sentiments, entre légèreté et désespoir.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1435546",
@@ -26772,12 +24702,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1432754",
@@ -26816,12 +24748,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/12",
-      "daysLeft": 65,
+      "daysLeft": 62,
       "expirationDate": "2026-12-01",
       "packageExpirations": {
         "aoc": "2026-12-01"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1528655",
@@ -26859,12 +24793,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/10",
-      "daysLeft": 24,
+      "daysLeft": 21,
       "expirationDate": "2026-10-21",
       "packageExpirations": {
         "aoc": "2026-10-21"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm814064",
@@ -26905,7 +24841,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm145726",
@@ -26947,7 +24885,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-ts289938",
@@ -26989,52 +24929,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-tm1376291",
-    "titre": "Guillaume Tell",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2025,
-    "duree": "2h 14min",
-    "runtime_minutes": 134,
-    "note_avis": 5.7,
-    "note_recence": 9.8,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "hst",
-      "war"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/336046455/s592/william-tell.jpg",
-    "synopsis": "En Suisse, au début du XIVe siècle. Guillaume Tell, ancien croisé, a opté pour une vie paisible avec sa famille au coeur des Alpes. Mais lorsque les soldats autrichiens imposent les lois oppressives des Habsbourg aux villageois suisses et exigent leur allégeance, Tell refuse de plier et forme la résistance...",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts3799",
@@ -27078,7 +24975,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm77612",
@@ -27118,12 +25017,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts314104",
@@ -27155,7 +25056,8 @@ const CATALOG_DATA = [
       "ani",
       "cmy",
       "fnt",
-      "fml"
+      "fml",
+      "scf"
     ],
     "badge": "10",
     "is_eligible": true,
@@ -27167,7 +25069,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1525929",
@@ -27206,13 +25110,15 @@ const CATALOG_DATA = [
     "synopsis": "Bobbie traverse seule le désert lorsqu'elle est entraînée dans un jeu du chat et de la souris avec un shérif psychopathe. La poursuite s'intensifie jusqu'à devenir insoutenable. La jeune femme va devoir tout tenter pour prendre l’avantage, et survivre.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 13 j",
-      "daysLeft": 13,
+      "label": "⏳ Expire dans 10 j",
+      "daysLeft": 10,
       "expirationDate": "2026-10-10",
       "packageExpirations": {
         "aoc": "2026-10-10"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1629068",
@@ -27251,12 +25157,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 68,
+      "daysLeft": 65,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1491172",
@@ -27295,12 +25203,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1475619",
@@ -27338,12 +25248,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/01",
-      "daysLeft": 112,
+      "daysLeft": 109,
       "expirationDate": "2027-01-17",
       "packageExpirations": {
         "aoc": "2027-01-17"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1629245",
@@ -27382,12 +25294,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "aoc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm185900",
@@ -27426,12 +25340,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 95,
+      "daysLeft": 92,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1510902",
@@ -27467,14 +25383,16 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/327836332/s592/mexico-86.jpg",
     "synopsis": "1986. Maria, militante révolutionnaire guatémaltèque, est depuis des années exilée à Mexico où elle poursuit son action politique. Alors que son fils de 11 ans vient vivre avec elle, elle devra faire un choix cornélien entre son rôle de mère ou d’activiste.",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 12/10",
-      "daysLeft": 15,
+      "status": "warning",
+      "label": "⏳ Expire dans 12 j",
+      "daysLeft": 12,
       "expirationDate": "2026-10-12",
       "packageExpirations": {
         "aoc": "2026-10-12"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1087522",
@@ -27513,12 +25431,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-ts407627",
@@ -27558,7 +25478,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm432365",
@@ -27596,12 +25518,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1526993",
@@ -27640,12 +25564,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm1623204",
@@ -27683,12 +25609,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/12",
-      "daysLeft": 65,
+      "daysLeft": 62,
       "expirationDate": "2026-12-01",
       "packageExpirations": {
         "aoc": "2026-12-01"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm153242",
@@ -27728,12 +25656,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 94,
+      "daysLeft": 91,
       "expirationDate": "2026-12-30",
       "packageExpirations": {
         "aoc": "2026-12-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm851073",
@@ -27771,13 +25701,15 @@ const CATALOG_DATA = [
     "synopsis": "Paris, un soir au mois d'août. Un garçon rencontre une fille. Ils ont le même âge, mais n'appartiennent pas au même monde. Félix travaille, Alma part en vacances le lendemain. Qu'à cela ne tienne. Félix décide de rejoindre Alma à l'autre bout de la France. Par surprise. Il embarque son ami Chérif, parce qu'à deux c'est plus drôle. Et comme ils n'ont pas de voiture, ils font le voyage avec Édouard. Évidemment, rien ne se passe comme prévu. Peut-il en être autrement quand on prend ses rêves pour la réalité ?",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 10 j",
-      "daysLeft": 10,
+      "label": "⏳ Expire dans 7 j",
+      "daysLeft": 7,
       "expirationDate": "2026-10-07",
       "packageExpirations": {
         "aoc": "2026-10-07"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm458871",
@@ -27820,51 +25752,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-tm410390",
-    "titre": "Donbass",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2018,
-    "duree": "2h 02min",
-    "runtime_minutes": 122,
-    "note_avis": 6.6,
-    "note_recence": 8.2,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "war",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/167253074/s592/donbass.jpg",
-    "synopsis": "Dans le Donbass, région de l'est de l'Ukraine, une guerre hybride mêle conflit armé ouvert, crimes et saccages perpétrés par des gangs séparatistes.  Dans le Donbass, la guerre s'appelle la paix, la propagande est érigée en vérité et la haine prétend être l'amour. Un périple à travers le Donbass, c’est un enchainement d’aventures folles, dans lesquelles le grotesque et le tragique se mêlent comme la vie et la mort.  Ce n’est pas un conte sur une région, un pays ou un système politique mais sur un monde perdu dans l’après-vérité et les fausses identités. Cela concerne chacun d’entre nous.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm225275",
@@ -27882,8 +25772,8 @@ const CATALOG_DATA = [
       "aca"
     ],
     "annee": 2015,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
+    "duree": "1h 27min",
+    "runtime_minutes": 87,
     "note_avis": 5.1,
     "note_recence": 7.5,
     "note_globale": 6.3,
@@ -27904,7 +25794,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm472195",
@@ -27946,7 +25838,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1321699",
@@ -27986,7 +25880,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm140856",
@@ -28024,12 +25920,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm244913",
@@ -28067,12 +25965,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm316916",
@@ -28113,7 +26013,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm431526",
@@ -28152,12 +26054,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1395822",
@@ -28196,12 +26100,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm140531",
@@ -28239,12 +26145,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1011252",
@@ -28283,12 +26191,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1291419",
@@ -28329,7 +26239,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm1261809",
@@ -28367,56 +26279,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/11",
-      "daysLeft": 40,
+      "daysLeft": 37,
       "expirationDate": "2026-11-06",
       "packageExpirations": {
         "aoc": "2026-11-06"
       }
-    }
-  },
-  {
-    "id": "jw-tm1574169",
-    "titre": "Les Règles de l'art",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2025,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 5.5,
-    "note_recence": 9.8,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/335495275/s592/les-regles-de-lart-2025.jpg",
-    "synopsis": "Yonathan, expert en montres de luxe au quotidien monotone, voit sa vie basculer lorsqu’il s’associe à Éric, receleur et escroc. Fasciné par le train de vie d'Éric, Yonathan perd toute mesure. Tout s’accélère quand, pour répondre à une commande d'Éric, Jo, cambrioleur de génie, vole cinq chefs-d’œuvre au Musée d’Art Moderne de Paris en 2010.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 2 j",
-      "daysLeft": 2,
-      "expirationDate": "2026-09-29",
-      "packageExpirations": {
-        "aoc": "2026-09-29"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1553496",
@@ -28454,13 +26324,15 @@ const CATALOG_DATA = [
     "synopsis": "En 1930, Antoine de Saint-Exupéry est pilote de l’Aéropostale en Argentine. Quand Henri Guillaumet, son meilleur ami et le meilleur pilote, disparaît dans la Cordillère des Andes, Saint-Ex décide malgré tout de partir à sa recherche. Cette quête impossible l'oblige à se dépasser, en faisant de sa capacité à rêver sa plus grande force.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 13 j",
-      "daysLeft": 13,
+      "label": "⏳ Expire dans 10 j",
+      "daysLeft": 10,
       "expirationDate": "2026-10-10",
       "packageExpirations": {
         "aoc": "2026-10-10"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1239547",
@@ -28501,7 +26373,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm70538",
@@ -28539,12 +26413,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1530736",
@@ -28583,12 +26459,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/11",
-      "daysLeft": 41,
+      "daysLeft": 38,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "aoc": "2026-11-07"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm240065",
@@ -28631,7 +26509,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm283334",
@@ -28672,50 +26552,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-tm1097562",
-    "titre": "Mange",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2021,
-    "duree": "35min",
-    "runtime_minutes": 35,
-    "note_avis": 6.5,
-    "note_recence": 8.8,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "hrr"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/250515390/s592/mange.jpg",
-    "synopsis": "Jill est Escort girl. Lorsqu’elle rencontre Alex qui la paye pour la regarder manger, c’est son propre désir qui se transforme et vire à l’obsession. MANGE est une plongée dans les méandres d’un plaisir transgressif et insatiable.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1629248",
@@ -28752,12 +26591,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "aoc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm246532",
@@ -28796,12 +26637,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm24970",
@@ -28840,56 +26683,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
-  },
-  {
-    "id": "jw-tm156070",
-    "titre": "Two Faces of January",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2014,
-    "duree": "1h 36min",
-    "runtime_minutes": 96,
-    "note_avis": 6.2,
-    "note_recence": 7.2,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "trl",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/304679026/s592/the-two-faces-of-january.jpg",
-    "synopsis": "1962. L’Américain Rydal (Oscar Isaac) vivote comme guide touristique à Athènes. Lorsqu’il rencontre le couple séduisant et mystérieux formé par Colette (Kirsten Dunst) et Chester MacFarland, il est immédiatement fasciné par son style de vie raffiné, empreint de luxe et de légèreté. Jusqu’au soir où Chester le somme de déplacer le corps inanimé d’un homme et qu’il se trouve ainsi attiré dans un engrenage fatal semé de meurtres et d’intrigues. S’ensuit un passionnant jeu du chat et de la souris jusque dans les ruelles étriquées du bazar d’Istanbul.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm843243",
@@ -28931,7 +26732,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm83064",
@@ -28969,12 +26772,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm462031",
@@ -29016,7 +26821,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1220658",
@@ -29057,7 +26864,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1507276",
@@ -29095,12 +26904,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-ts221469",
@@ -29143,7 +26954,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm49266",
@@ -29183,12 +26996,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm132531",
@@ -29230,7 +27045,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm354124",
@@ -29270,7 +27087,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm270997",
@@ -29311,12 +27130,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts453589",
@@ -29357,7 +27178,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm425649",
@@ -29397,7 +27220,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1515293",
@@ -29434,12 +27259,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/12",
-      "daysLeft": 66,
+      "daysLeft": 63,
       "expirationDate": "2026-12-02",
       "packageExpirations": {
         "aoc": "2026-12-02"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1333218",
@@ -29457,8 +27284,8 @@ const CATALOG_DATA = [
       "auc"
     ],
     "annee": 2015,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
+    "duree": "1h 34min",
+    "runtime_minutes": 94,
     "note_avis": 6.1,
     "note_recence": 7.5,
     "note_globale": 6.8,
@@ -29477,12 +27304,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm863411",
@@ -29520,12 +27349,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "auc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm1001486",
@@ -29563,12 +27394,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 95,
+      "daysLeft": 92,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "auc": "2026-12-31"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm1506824",
@@ -29604,13 +27437,15 @@ const CATALOG_DATA = [
     "synopsis": "Réda vit chez ses parents dans un quartier bourgeois d'Alger, et occupe un poste dans la plus grande entreprise d’hydrocarbures du pays que dirige son père, Youcef, un homme charismatique et autoritaire. Mais sous ce vernis de réussite apparent, Réda dissimule un mal-être profond : il vit dans l’ombre de son père et ne sait pas lui dire non. Son frère Fayçal mène au contraire une rébellion ouverte contre Youcef, et finit par quitter définitivement le domicile familial, laissant Réda face à sa solitude et sa frustration. Un jour le père meurt et un événement inattendu se produit : le reflet de Réda disparaît du miroir.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 9 j",
-      "daysLeft": 9,
+      "label": "⏳ Expire dans 6 j",
+      "daysLeft": 6,
       "expirationDate": "2026-10-06",
       "packageExpirations": {
         "aoc": "2026-10-06"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1393841",
@@ -29650,12 +27485,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm135757",
@@ -29696,12 +27533,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/12",
-      "daysLeft": 82,
+      "daysLeft": 79,
       "expirationDate": "2026-12-18",
       "packageExpirations": {
         "aoc": "2026-12-18"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm152862",
@@ -29743,7 +27582,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm175261",
@@ -29783,12 +27624,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm180793",
@@ -29827,12 +27670,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts452847",
@@ -29852,9 +27697,9 @@ const CATALOG_DATA = [
     "annee": 2025,
     "duree": "41 min/ép.",
     "runtime_minutes": 41,
-    "note_avis": 7.4,
+    "note_avis": 7.5,
     "note_recence": 9.8,
-    "note_globale": 8.6,
+    "note_globale": 8.7,
     "etoiles": 5,
     "categories": [
       "comedie"
@@ -29874,7 +27719,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts77852",
@@ -29892,8 +27739,8 @@ const CATALOG_DATA = [
       "auc"
     ],
     "annee": 2018,
-    "duree": "21 min/ép.",
-    "runtime_minutes": 21,
+    "duree": "19 min/ép.",
+    "runtime_minutes": 19,
     "note_avis": 6,
     "note_recence": 8.2,
     "note_globale": 7.1,
@@ -29918,7 +27765,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm614274",
@@ -29959,7 +27808,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1515277",
@@ -29996,12 +27847,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/11",
-      "daysLeft": 62,
+      "daysLeft": 59,
       "expirationDate": "2026-11-28",
       "packageExpirations": {
         "aoc": "2026-11-28"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm478828",
@@ -30041,12 +27894,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts307587",
@@ -30090,7 +27945,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm821959",
@@ -30128,12 +27985,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1023757",
@@ -30171,12 +28030,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/01",
-      "daysLeft": 107,
+      "daysLeft": 104,
       "expirationDate": "2027-01-12",
       "packageExpirations": {
         "aoc": "2027-01-12"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1516738",
@@ -30216,12 +28077,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-ts274585",
@@ -30241,10 +28104,10 @@ const CATALOG_DATA = [
     "annee": 2021,
     "duree": "25 min/ép.",
     "runtime_minutes": 25,
-    "note_avis": 7.1,
+    "note_avis": 6.8,
     "note_recence": 8.8,
-    "note_globale": 8,
-    "etoiles": 5,
+    "note_globale": 7.8,
+    "etoiles": 4,
     "categories": [
       "comedie"
     ],
@@ -30261,7 +28124,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm649",
@@ -30302,7 +28167,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm285109",
@@ -30343,7 +28210,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm370408",
@@ -30384,12 +28253,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm931336",
@@ -30430,7 +28301,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm444031",
@@ -30471,7 +28344,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm235391",
@@ -30489,8 +28364,8 @@ const CATALOG_DATA = [
       "aca"
     ],
     "annee": 2016,
-    "duree": "2h 08min",
-    "runtime_minutes": 128,
+    "duree": "2h 11min",
+    "runtime_minutes": 131,
     "note_avis": 5.3,
     "note_recence": 7.7,
     "note_globale": 6.5,
@@ -30512,12 +28387,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm375735",
@@ -30558,7 +28435,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm132523",
@@ -30576,8 +28455,8 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2009,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
+    "duree": "1h 29min",
+    "runtime_minutes": 89,
     "note_avis": 8,
     "note_recence": 6.1,
     "note_globale": 7.1,
@@ -30587,6 +28466,7 @@ const CATALOG_DATA = [
     ],
     "raw_genres": [
       "drm",
+      "hst",
       "rma"
     ],
     "badge": null,
@@ -30599,7 +28479,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-ts39018",
@@ -30640,7 +28522,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm373195",
@@ -30681,12 +28565,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "auc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-ts9260",
@@ -30728,7 +28614,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts260128",
@@ -30768,7 +28656,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1137717",
@@ -30805,12 +28695,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1266390",
@@ -30852,7 +28744,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1415146",
@@ -30893,12 +28787,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/11",
-      "daysLeft": 53,
+      "daysLeft": 50,
       "expirationDate": "2026-11-19",
       "packageExpirations": {
         "aoc": "2026-11-19"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts369079",
@@ -30938,7 +28834,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1402404",
@@ -30979,12 +28877,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/11",
-      "daysLeft": 39,
+      "daysLeft": 36,
       "expirationDate": "2026-11-05",
       "packageExpirations": {
         "aoc": "2026-11-05"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm318043",
@@ -31023,12 +28923,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm358770",
@@ -31072,7 +28974,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1541317",
@@ -31110,12 +29014,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/12",
-      "daysLeft": 89,
+      "daysLeft": 86,
       "expirationDate": "2026-12-25",
       "packageExpirations": {
         "aoc": "2026-12-25"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm185697",
@@ -31153,12 +29059,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm135032",
@@ -31195,12 +29103,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1046026",
@@ -31243,7 +29153,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1198263",
@@ -31285,7 +29197,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1307188",
@@ -31324,12 +29238,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1239395",
@@ -31367,12 +29283,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm182393",
@@ -31414,7 +29332,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm509042",
@@ -31459,7 +29379,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm434917",
@@ -31501,7 +29423,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm493756",
@@ -31543,94 +29467,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-tm448562",
-    "titre": "45 jours loin de toi",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2018,
-    "duree": "1h 36min",
-    "runtime_minutes": 96,
-    "note_avis": 6.3,
-    "note_recence": 8.2,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/242879750/s592/45-days-away-from-you.jpg",
-    "synopsis": "\"Après une rupture difficile avec celui qui était son partenaire depuis 8 ans, Rafael, le cœur brisé, décide de partir afin de mieux se retrouver. En Angleterre, il rencontre Julia, puis Fábio au Portugal et Mayara en Argentine. Ces trois nouveaux amis prennent une place spéciale et lui permettent de rebondir. Une « désintox sentimentale », c’est ainsi que Julia, une de ses amies, qualifie le voyage entrepris par Rafael pour soigner son cœur brisé. En fait de désintoxication, c’est dans un tourbillon d’émotions qu’il se trouve entraîné et dans lequel on le suit avec un plaisir infini. Rafael Gomes brosse une galerie de personnages attachants et met en scène à merveille la difficulté de s’accorder aux autres. Un film charmant à la légèreté mélancolique, où la variété de sentiments doux-amers nous renvoie forcément un petit reflet de nous-mêmes.\"",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
-  },
-  {
-    "id": "jw-tm210050",
-    "titre": "Barbershop: A Fresh Cut",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2016,
-    "duree": "1h 51min",
-    "runtime_minutes": 111,
-    "note_avis": 5.9,
-    "note_recence": 7.7,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/307284153/s592/barbershop-the-next-cut.jpg",
-    "synopsis": "Dix ans se sont écoulés depuis notre dernier rendez-vous au salon de Calvin. Lui et son équipe sont toujours là, mais le salon a subi des changements majeurs. Le plus grand d'entre eux : notre sanctuaire principalement masculin devient désormais mixte.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-ts359832",
@@ -31671,7 +29510,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm464646",
@@ -31711,7 +29552,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm153030",
@@ -31749,12 +29592,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm70415",
@@ -31798,7 +29643,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm179415",
@@ -31839,7 +29686,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1285941",
@@ -31876,12 +29725,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts24091",
@@ -31924,7 +29775,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm452416",
@@ -31963,12 +29816,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm816479",
@@ -32007,12 +29862,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm374579",
@@ -32055,7 +29912,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm458404",
@@ -32094,13 +29953,15 @@ const CATALOG_DATA = [
     "synopsis": "Ce drame familial historique raconte un pan de la vie d’une petite fille juive allemande, dont l’existence heureuse et insouciante est bouleversée par la montée au pouvoir d’Hitler à Berlin en 1933. Âgée de 9 ans, intuitive et sensible, elle pressent la catastrophe à venir en se réfugiant dans son univers d’enfant. Lorsqu’elle doit partir à l’étranger rejoindre secrètement son père, auteur de théâtre inscrit sur la liste noire, elle comprend que sa vie ne sera plus jamais la même. Lors de son périple, elle apprend l’exil et la perte de ses racines. En adaptant le roman pour enfants à succès, semi-autobiographique, de Judith Kerr, la cinéaste oscarisée Caroline Link signe un film émouvant sur la famille et l’enfance.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 14 j",
-      "daysLeft": 14,
+      "label": "⏳ Expire dans 11 j",
+      "daysLeft": 11,
       "expirationDate": "2026-10-11",
       "packageExpirations": {
         "aoc": "2026-10-11"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-ts82372",
@@ -32145,7 +30006,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1283320",
@@ -32183,12 +30046,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/10",
-      "daysLeft": 22,
+      "daysLeft": 19,
       "expirationDate": "2026-10-19",
       "packageExpirations": {
         "aoc": "2026-10-19"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm325101",
@@ -32228,12 +30093,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm138916",
@@ -32271,12 +30138,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/10",
-      "daysLeft": 22,
+      "daysLeft": 19,
       "expirationDate": "2026-10-19",
       "packageExpirations": {
         "aoc": "2026-10-19"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm362942",
@@ -32315,12 +30184,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1408348",
@@ -32358,12 +30229,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm827771",
@@ -32383,9 +30256,9 @@ const CATALOG_DATA = [
     "annee": 2026,
     "duree": "1h 15min",
     "runtime_minutes": 75,
-    "note_avis": 5.3,
+    "note_avis": 5.2,
     "note_recence": 10,
-    "note_globale": 7.7,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -32405,7 +30278,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm230656",
@@ -32444,12 +30319,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm183547",
@@ -32493,7 +30370,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm458612",
@@ -32534,7 +30413,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1360059",
@@ -32576,7 +30457,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts321138",
@@ -32615,12 +30498,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm851116",
@@ -32661,7 +30546,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm998340",
@@ -32681,7 +30568,7 @@ const CATALOG_DATA = [
     "annee": 2021,
     "duree": "1h 24min",
     "runtime_minutes": 84,
-    "note_avis": 6.9,
+    "note_avis": 7,
     "note_recence": 8.8,
     "note_globale": 7.9,
     "etoiles": 4,
@@ -32702,7 +30589,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1324541",
@@ -32743,7 +30632,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm48301",
@@ -32780,12 +30671,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/10",
-      "daysLeft": 33,
+      "daysLeft": 30,
       "expirationDate": "2026-10-30",
       "packageExpirations": {
         "aoc": "2026-10-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm925617",
@@ -32824,12 +30717,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm898867",
@@ -32871,7 +30766,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm158870",
@@ -32913,7 +30810,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm226295",
@@ -32955,7 +30854,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm305661",
@@ -32997,7 +30898,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1261297",
@@ -33036,12 +30939,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm205870",
@@ -33085,7 +30990,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1031459",
@@ -33124,12 +31031,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/01",
-      "daysLeft": 107,
+      "daysLeft": 104,
       "expirationDate": "2027-01-12",
       "packageExpirations": {
         "aoc": "2027-01-12"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1530993",
@@ -33167,12 +31076,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/11",
-      "daysLeft": 51,
+      "daysLeft": 48,
       "expirationDate": "2026-11-17",
       "packageExpirations": {
         "aoc": "2026-11-17"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm132192",
@@ -33211,12 +31122,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1133844",
@@ -33254,12 +31167,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/01",
-      "daysLeft": 107,
+      "daysLeft": 104,
       "expirationDate": "2027-01-12",
       "packageExpirations": {
         "aoc": "2027-01-12"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1080220",
@@ -33277,8 +31192,8 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2024,
-    "duree": "1h 37min",
-    "runtime_minutes": 97,
+    "duree": "1h 39min",
+    "runtime_minutes": 99,
     "note_avis": 6.1,
     "note_recence": 9.5,
     "note_globale": 7.8,
@@ -33298,12 +31213,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 95,
+      "daysLeft": 92,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm372828",
@@ -33344,7 +31261,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm464676",
@@ -33384,7 +31303,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm849278",
@@ -33424,7 +31345,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm859442",
@@ -33465,7 +31388,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm878808",
@@ -33507,7 +31432,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm285059",
@@ -33547,12 +31474,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 95,
+      "daysLeft": 92,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "auc": "2026-12-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm1081615",
@@ -33593,7 +31522,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm97591",
@@ -33634,7 +31565,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1331228",
@@ -33675,7 +31608,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts56674",
@@ -33719,7 +31654,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm407694",
@@ -33761,7 +31698,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1272023",
@@ -33799,12 +31738,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm931412",
@@ -33841,12 +31782,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1589265",
@@ -33883,12 +31826,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 78,
+      "daysLeft": 75,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "aoc": "2026-12-14"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts78691",
@@ -33906,8 +31851,8 @@ const CATALOG_DATA = [
       "auc"
     ],
     "annee": 2018,
-    "duree": "46 min/ép.",
-    "runtime_minutes": 46,
+    "duree": "45 min/ép.",
+    "runtime_minutes": 45,
     "note_avis": 5.9,
     "note_recence": 8.2,
     "note_globale": 7.1,
@@ -33929,7 +31874,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1445866",
@@ -33970,7 +31917,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1373132",
@@ -33988,8 +31937,8 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2024,
-    "duree": "2h 01min",
-    "runtime_minutes": 121,
+    "duree": "2h 12min",
+    "runtime_minutes": 132,
     "note_avis": 6.8,
     "note_recence": 9.5,
     "note_globale": 8.2,
@@ -34008,12 +31957,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm311918",
@@ -34049,14 +32000,16 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/244074458/s592/la-tueuse-cameleon.jpg",
     "synopsis": "Comment une femme peut-elle être morte depuis des mois et vivre encore ? Se rendre à son travail chaque jour et occuper son logement ? C'est ce que doit découvrir le lieutenant Corel et qui la stupéfie : une criminelle tue des femmes au même profil de solitaire anonyme exerçant des boulots transparents après être devenue leur confidente et amie, et prend leur place dans leur existence sans que personne ne s'en rende compte !",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 12/10",
-      "daysLeft": 15,
+      "status": "warning",
+      "label": "⏳ Expire dans 12 j",
+      "daysLeft": 12,
       "expirationDate": "2026-10-12",
       "packageExpirations": {
         "auc": "2026-10-12"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1131943",
@@ -34096,12 +32049,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/11",
-      "daysLeft": 53,
+      "daysLeft": 50,
       "expirationDate": "2026-11-19",
       "packageExpirations": {
         "aoc": "2026-11-19"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm436249",
@@ -34145,7 +32100,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm465573",
@@ -34186,7 +32143,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1359843",
@@ -34227,7 +32186,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1369470",
@@ -34267,7 +32228,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm984155",
@@ -34305,12 +32268,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm147787",
@@ -34350,12 +32315,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm464674",
@@ -34395,7 +32362,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-ts42155",
@@ -34439,7 +32408,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1466048",
@@ -34477,56 +32448,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/11",
-      "daysLeft": 44,
+      "daysLeft": 41,
       "expirationDate": "2026-11-10",
       "packageExpirations": {
         "aoc": "2026-11-10"
       }
-    }
-  },
-  {
-    "id": "jw-tm1205067",
-    "titre": "Blowback",
-    "type": "film",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2022,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 4.3,
-    "note_recence": 9.1,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306856918/s592/blowback.jpg",
-    "synopsis": "Après avoir planifié le casse « parfait », Nick Mullins est trahi par sa petite amie et son chef d'équipe, Jack. Laissé pour mort, Nick survit et se tourne vers les personnes qu'il a essayé de voler pour l'aider à se venger. Alors que la police et le FBI se rapprochent, il traque ses cibles et les exécute sans remords, une par une. S'il reste en vie assez longtemps, il pourra obtenir sa revanche.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "auc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1518660",
@@ -34564,12 +32493,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/01",
-      "daysLeft": 99,
+      "daysLeft": 96,
       "expirationDate": "2027-01-04",
       "packageExpirations": {
         "aoc": "2027-01-04"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1381005",
@@ -34611,50 +32542,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-tm234615",
-    "titre": "Le Noël Magique de Jill et Joy",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2015,
-    "duree": "1h 21min",
-    "runtime_minutes": 81,
-    "note_avis": 5.7,
-    "note_recence": 7.5,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "fml",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/139171161/s592/jill-and-joys-winter.jpg",
-    "synopsis": "Un soir de décembre, Jill et Joy, deux fillettes de neuf ans, ont la surprise de voir une petite voiture, à peine plus grande qu'une boîte à chaussures, se garer devant leur maison. Une famille de Lilliputiens en sort : les McPetit qui viennent de perdre leur maison. Jill et Joy les accueillent alors à bras ouverts et acceptent de prendre soin d'eux jusqu'à ce qu'ils trouvent un nouveau logement.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1262459",
@@ -34696,7 +32586,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts317708",
@@ -34737,7 +32629,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm847003",
@@ -34779,51 +32673,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-tm950660",
-    "titre": "Blindfire",
-    "type": "film",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2020,
-    "duree": "1h 23min",
-    "runtime_minutes": 83,
-    "note_avis": 4.9,
-    "note_recence": 8.6,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/249724746/s592/blindfire.jpg",
-    "synopsis": "Appelé pour une violente dispute domestique, Will Bishop, officier de police, tue un suspect afro-américain, dont il apprend après l'innocence. Soupçonnant un coup monté, le policier décide de traquer le responsable et interroge le racisme qui l'a mené à cette situation.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "auc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm320212",
@@ -34861,12 +32713,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm351934",
@@ -34908,7 +32762,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts105601",
@@ -34953,7 +32809,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1334475",
@@ -34993,7 +32851,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm59486",
@@ -35031,12 +32891,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm270527",
@@ -35075,12 +32937,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm157214",
@@ -35123,7 +32987,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-ts286241",
@@ -35165,7 +33031,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm198002",
@@ -35207,7 +33075,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-ts394175",
@@ -35245,12 +33115,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 95,
+      "daysLeft": 92,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm460629",
@@ -35292,7 +33164,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm356017",
@@ -35328,14 +33202,16 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/64205474/s592/retour-a-bollene.jpg",
     "synopsis": "Nassim, 30 ans, vit à Abu Dhabi avec sa fiancée américaine. Après plusieurs années d’absence, il revient avec elle à Bollène, dans le Sud-Est de la France, où il a grandi. Nassim doit alors faire face à son passé, à sa ville sinistrée, désormais gouvernée par la Ligue du Sud, à sa famille avec laquelle il entretient des relations complexes et à ce père à qui il n’adresse plus la parole...",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 13/10",
-      "daysLeft": 16,
+      "status": "warning",
+      "label": "⏳ Expire dans 13 j",
+      "daysLeft": 13,
       "expirationDate": "2026-10-13",
       "packageExpirations": {
         "aoc": "2026-10-13"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm267289",
@@ -35377,7 +33253,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm150357",
@@ -35418,7 +33296,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm364594",
@@ -35459,7 +33339,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm149501",
@@ -35500,7 +33382,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1273819",
@@ -35539,12 +33423,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm356937",
@@ -35585,12 +33471,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1541312",
@@ -35630,7 +33518,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts80975",
@@ -35672,7 +33562,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm169830",
@@ -35714,7 +33606,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1393445",
@@ -35754,7 +33648,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts36127",
@@ -35798,7 +33694,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1070911",
@@ -35840,7 +33738,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm271360",
@@ -35879,12 +33779,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/10",
-      "daysLeft": 18,
+      "daysLeft": 15,
       "expirationDate": "2026-10-15",
       "packageExpirations": {
         "aca": "2026-10-15"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm420339",
@@ -35926,7 +33828,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1443243",
@@ -35966,7 +33870,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1510749",
@@ -36004,12 +33910,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/12",
-      "daysLeft": 79,
+      "daysLeft": 76,
       "expirationDate": "2026-12-15",
       "packageExpirations": {
         "aoc": "2026-12-15"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm469196",
@@ -36050,7 +33958,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm25209",
@@ -36089,12 +33999,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-ts200630",
@@ -36135,7 +34047,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm998431",
@@ -36175,7 +34089,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm201572",
@@ -36214,12 +34130,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm663",
@@ -36260,7 +34178,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1243880",
@@ -36302,50 +34222,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-tm306606",
-    "titre": "Nos étoiles",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2017,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
-    "note_avis": 6,
-    "note_recence": 7.9,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/348085892/s592/paths.jpg",
-    "synopsis": "Andreas et Martin ont tous deux la quarantaine. Ils vivent ensemble, l’un d’entre eux ayant un enfant d’une précédente union avec une femme. Alors que l’atelier de menuiserie d’Andreas semble regagner en activité et que Martin est moins souvent en déplacement, leur relation semble pourtant battre de l’aile. Et leur voyage annuel sur les rives de la mer Baltique ne va rien arranger…",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts393179",
@@ -36386,7 +34265,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts358323",
@@ -36424,12 +34305,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1316502",
@@ -36466,12 +34349,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts310222",
@@ -36513,7 +34398,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts82160",
@@ -36556,7 +34443,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm408969",
@@ -36598,7 +34487,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm463390",
@@ -36616,8 +34507,8 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2019,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
+    "duree": "1h 30min",
+    "runtime_minutes": 90,
     "note_avis": 5.2,
     "note_recence": 8.4,
     "note_globale": 6.8,
@@ -36630,7 +34521,8 @@ const CATALOG_DATA = [
       "ani",
       "cmy",
       "fnt",
-      "fml"
+      "fml",
+      "scf"
     ],
     "badge": null,
     "is_eligible": true,
@@ -36639,12 +34531,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm63920",
@@ -36683,12 +34577,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm160538",
@@ -36727,12 +34623,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/03",
-      "daysLeft": 170,
+      "daysLeft": 167,
       "expirationDate": "2027-03-16",
       "packageExpirations": {
         "aoc": "2027-03-16"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm177586",
@@ -36772,12 +34670,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm147919",
@@ -36817,12 +34717,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1508008",
@@ -36859,12 +34761,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/11",
-      "daysLeft": 37,
+      "daysLeft": 34,
       "expirationDate": "2026-11-03",
       "packageExpirations": {
         "aoc": "2026-11-03"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm176270",
@@ -36903,12 +34807,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts227490",
@@ -36952,7 +34858,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts318540",
@@ -36992,7 +34900,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts431432",
@@ -37034,7 +34944,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1444956",
@@ -37071,12 +34983,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/10",
-      "daysLeft": 27,
+      "daysLeft": 24,
       "expirationDate": "2026-10-24",
       "packageExpirations": {
         "aoc": "2026-10-24"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm406990",
@@ -37118,7 +35032,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1310618",
@@ -37157,55 +35073,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
-  },
-  {
-    "id": "jw-tm1203339",
-    "titre": "L'Ombre de Goya",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2022,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 6.8,
-    "note_recence": 9.1,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "hst"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302179950/s592/lombre-de-goya-par-jean-claude-carriere.jpg",
-    "synopsis": "L'écrivain français Jean-Claude Carrière (1931-2021) retrace la vie et l'œuvre du peintre espagnol Francisco de Goya (1746-1828).",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm824481",
@@ -37244,12 +35119,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1292012",
@@ -37289,7 +35166,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1251705",
@@ -37330,7 +35209,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm178281",
@@ -37368,12 +35249,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/10",
-      "daysLeft": 24,
+      "daysLeft": 21,
       "expirationDate": "2026-10-21",
       "packageExpirations": {
         "aca": "2026-10-21"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1528617",
@@ -37393,14 +35276,16 @@ const CATALOG_DATA = [
     "annee": 2024,
     "duree": "1h 30min",
     "runtime_minutes": 90,
-    "note_avis": 5.2,
+    "note_avis": 5.1,
     "note_recence": 9.5,
-    "note_globale": 7.4,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "animation_famille"
     ],
     "raw_genres": [
+      "act",
+      "cmy",
       "fnt",
       "fml"
     ],
@@ -37411,12 +35296,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "auc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": true
   },
   {
     "id": "jw-tm137090",
@@ -37458,7 +35345,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1118959",
@@ -37497,12 +35386,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1190547",
@@ -37540,12 +35431,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "auc": "2027-02-28"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts440556",
@@ -37565,9 +35458,9 @@ const CATALOG_DATA = [
     "annee": 2025,
     "duree": "21 min/ép.",
     "runtime_minutes": 21,
-    "note_avis": 5.9,
+    "note_avis": 5.8,
     "note_recence": 9.8,
-    "note_globale": 7.9,
+    "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -37587,7 +35480,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts35141",
@@ -37630,7 +35525,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1400222",
@@ -37669,12 +35566,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 94,
+      "daysLeft": 91,
       "expirationDate": "2026-12-30",
       "packageExpirations": {
         "aoc": "2026-12-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts71649",
@@ -37715,7 +35614,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts82612",
@@ -37758,7 +35659,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts402602",
@@ -37800,7 +35703,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1286219",
@@ -37844,7 +35749,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1366021",
@@ -37884,7 +35791,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm39816",
@@ -37924,7 +35833,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1300496",
@@ -37966,51 +35877,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-tm306821",
-    "titre": "Underwater",
-    "type": "film",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2016,
-    "duree": "18min",
-    "runtime_minutes": 18,
-    "note_avis": 5.6,
-    "note_recence": 7.7,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/324689602/s592/underwater-2016.jpg",
-    "synopsis": "Jeanne Clairsen, oreille d'or dans la marine, est appelée par le Commissaire Delattre, afin qu'elle perce tous les bruits qui apporteraient la preuve qu'une nouvelle victime est bien détenue chez le suspect qu'ils ont mis sur écoute.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "auc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1340748",
@@ -38050,7 +35919,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1656860",
@@ -38088,12 +35959,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/11",
-      "daysLeft": 60,
+      "daysLeft": 57,
       "expirationDate": "2026-11-26",
       "packageExpirations": {
         "aoc": "2026-11-26"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1068354",
@@ -38135,7 +36008,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1657091",
@@ -38172,55 +36047,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/12",
-      "daysLeft": 67,
+      "daysLeft": 64,
       "expirationDate": "2026-12-03",
       "packageExpirations": {
         "aoc": "2026-12-03"
       }
-    }
-  },
-  {
-    "id": "jw-tm1333622",
-    "titre": "Le Fruit Défendu",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2024,
-    "duree": "1h 49min",
-    "runtime_minutes": 109,
-    "note_avis": 6.4,
-    "note_recence": 9.5,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/313126078/s592/liuben.jpg",
-    "synopsis": "Victor retourne dans sa maison d'enfance en Bulgarie pour les funérailles de son grand-père et décide d'y rester pour l'été.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1333140",
@@ -38262,7 +36096,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm315559",
@@ -38303,7 +36139,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1166773",
@@ -38340,12 +36178,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/02",
-      "daysLeft": 130,
+      "daysLeft": 127,
       "expirationDate": "2027-02-04",
       "packageExpirations": {
         "aoc": "2027-02-04"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm917578",
@@ -38383,12 +36223,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1546750",
@@ -38426,12 +36268,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts364774",
@@ -38472,7 +36316,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1664955",
@@ -38512,7 +36358,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1239625",
@@ -38552,7 +36400,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm462003",
@@ -38590,12 +36440,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1203675",
@@ -38634,12 +36486,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 126,
+      "daysLeft": 123,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1369447",
@@ -38677,12 +36531,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 95,
+      "daysLeft": 92,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1236111",
@@ -38720,13 +36576,15 @@ const CATALOG_DATA = [
     "synopsis": "Dans les derniers jours de l'été, Léna arrive à Arles et attend Marius, un ancien petit ami avec lequel elle a renoué.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 14 j",
-      "daysLeft": 14,
+      "label": "⏳ Expire dans 11 j",
+      "daysLeft": 11,
       "expirationDate": "2026-10-11",
       "packageExpirations": {
         "aoc": "2026-10-11"
       }
-    }
+    },
+    "on_prime": true,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1433974",
@@ -38768,7 +36626,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm987617",
@@ -38807,12 +36667,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 154,
+      "daysLeft": 151,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": true
   },
   {
     "id": "jw-tm1649294",
@@ -38852,7 +36714,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1043216",
@@ -38889,12 +36753,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/01",
-      "daysLeft": 96,
+      "daysLeft": 93,
       "expirationDate": "2027-01-01",
       "packageExpirations": {
         "aoc": "2027-01-01"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1469567",
@@ -38914,9 +36780,9 @@ const CATALOG_DATA = [
     "annee": 2024,
     "duree": "1h 34min",
     "runtime_minutes": 94,
-    "note_avis": 5.2,
+    "note_avis": 5.1,
     "note_recence": 9.5,
-    "note_globale": 7.4,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -38934,7 +36800,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm928559",
@@ -38975,7 +36843,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1149433",
@@ -39012,12 +36882,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/11",
-      "daysLeft": 38,
+      "daysLeft": 35,
       "expirationDate": "2026-11-04",
       "packageExpirations": {
         "aoc": "2026-11-04"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm410039",
@@ -39059,7 +36931,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm812970",
@@ -39098,12 +36972,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1026007",
@@ -39123,7 +36999,7 @@ const CATALOG_DATA = [
     "annee": 2021,
     "duree": "1h 18min",
     "runtime_minutes": 78,
-    "note_avis": 5.3,
+    "note_avis": 5.4,
     "note_recence": 8.8,
     "note_globale": 7.1,
     "etoiles": 4,
@@ -39144,52 +37020,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-tm357194",
-    "titre": "Frontières",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2017,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 6.9,
-    "note_recence": 7.9,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/285169215/s592/frontieres.jpg",
-    "synopsis": "Adjara, Emma et Sali se rendent à Lagos. Les trois femmes se rencontrent dans un bus sur le trajet Bamako, Cotonou via Ouagadougou. Le voyage est un parcours de combattants. Elles subissent des pannes de voitures, affrontent des coupeurs de routes et sont témoins de vols entre passagers. Mais leur pire cauchemar reste le franchissement des frontières.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1325115",
@@ -39229,7 +37062,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1466347",
@@ -39268,12 +37103,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 69,
+      "daysLeft": 66,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1264494",
@@ -39313,50 +37150,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
-  },
-  {
-    "id": "jw-tm1202686",
-    "titre": "La Belle Affaire",
-    "type": "film",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2018,
-    "duree": "23min",
-    "runtime_minutes": 23,
-    "note_avis": 5.4,
-    "note_recence": 8.2,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/343632193/s592/la-belle-affaire.jpg",
-    "synopsis": "À la frontière suisse, une détective est chargée d’enquêter sur une femme dont les allées et venues inquiètent son mari. La nuit tombe, la filature commence, et le trouble apparaît…",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "auc": "2026-09-30"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm852053",
@@ -39396,7 +37192,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1366446",
@@ -39433,12 +37231,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 64,
+      "daysLeft": 61,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1228719",
@@ -39478,7 +37278,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1017422",
@@ -39518,7 +37320,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1203331",
@@ -39558,7 +37362,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1664662",
@@ -39598,7 +37404,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1607171",
@@ -39638,12 +37446,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/11",
-      "daysLeft": 51,
+      "daysLeft": 48,
       "expirationDate": "2026-11-17",
       "packageExpirations": {
         "aoc": "2026-11-17"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm917591",
@@ -39678,14 +37488,16 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/343639317/s592/troc-mort.jpg",
     "synopsis": "Deux croque-morts, à l’issue d’un braquage, se retrouvent dépossédés du cercueil et du corps dont ils avaient la charge pour trouver à leur place le butin des malfaiteurs. Cette brochette de bras cassés va devoir organiser un échange.",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 14/10",
-      "daysLeft": 17,
+      "status": "warning",
+      "label": "⏳ Expire dans 14 j",
+      "daysLeft": 14,
       "expirationDate": "2026-10-14",
       "packageExpirations": {
         "auc": "2026-10-14"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1120954",
@@ -39725,7 +37537,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm468605",
@@ -39766,7 +37580,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm880261",
@@ -39806,7 +37622,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1068646",
@@ -39846,7 +37664,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm422864",
@@ -39890,7 +37710,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1594991",
@@ -39930,7 +37752,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1059212",
@@ -39970,7 +37794,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1853006",
@@ -40008,12 +37834,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/11",
-      "daysLeft": 62,
+      "daysLeft": 59,
       "expirationDate": "2026-11-28",
       "packageExpirations": {
         "aoc": "2026-11-28"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-ts455110",
@@ -40053,7 +37881,9 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm166064",
@@ -40092,12 +37922,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/11",
-      "daysLeft": 60,
+      "daysLeft": 57,
       "expirationDate": "2026-11-26",
       "packageExpirations": {
         "aoc": "2026-11-26"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm84441",
@@ -40135,12 +37967,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 34,
+      "daysLeft": 31,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1561519",
@@ -40177,57 +38011,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/11",
-      "daysLeft": 43,
+      "daysLeft": 40,
       "expirationDate": "2026-11-09",
       "packageExpirations": {
         "aoc": "2026-11-09"
       }
-    }
-  },
-  {
-    "id": "jw-tm305899",
-    "titre": "It Comes at Night",
-    "type": "film",
-    "chaine": "Action Max",
-    "chaines": [
-      "Action Max"
-    ],
-    "logo_chaine": "assets/logos/action.png",
-    "logos_chaine": [
-      "assets/logos/action.png"
-    ],
-    "package_slugs": [
-      "aca"
-    ],
-    "annee": 2017,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 6.2,
-    "note_recence": 7.9,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "hrr",
-      "trl",
-      "scf"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/8897420/s592/it-comes-at-night.jpg",
-    "synopsis": "Alors que le monde est en proie à une menace terrifiante, un homme vit reclus dans sa propriété, totalement isolée, avec sa femme et son fils. Quand une famille aux abois cherche refuge dans sa propre maison, le fragile équilibre qu'il a mis en place est soudain bouleversé.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-27",
-      "packageExpirations": {
-        "aca": "2026-09-27"
-      }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1522274",
@@ -40265,12 +38056,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/12",
-      "daysLeft": 82,
+      "daysLeft": 79,
       "expirationDate": "2026-12-18",
       "packageExpirations": {
         "aoc": "2026-12-18"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1439288",
@@ -40306,14 +38099,16 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/330528318/s592/marco-the-invented-truth.jpg",
     "synopsis": "Marco, La Verdad Inventada est l’histoire d’un homme au grand charisme qui, pendant des années, a été le porte-parole de l’association espagnole des victimes de l’Holocauste. Il a élaboré, face aux média, au sein de sa propre association et même dans sa propre famille, un récit complexe : il prétend être un survivant des camps de concentration, ce qui s’avère être un mensonge éhonté.",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 13/10",
-      "daysLeft": 16,
+      "status": "warning",
+      "label": "⏳ Expire dans 13 j",
+      "daysLeft": 13,
       "expirationDate": "2026-10-13",
       "packageExpirations": {
         "aoc": "2026-10-13"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm270987",
@@ -40355,12 +38150,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 13/11",
-      "daysLeft": 47,
+      "daysLeft": 44,
       "expirationDate": "2026-11-13",
       "packageExpirations": {
         "aoc": "2026-11-13"
       }
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
   },
   {
     "id": "jw-tm1300247",
@@ -40401,6 +38198,4249 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm885567",
+    "titre": "Illusions perdues",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2021,
+    "duree": "2h 29min",
+    "runtime_minutes": 149,
+    "note_avis": 7.4,
+    "note_recence": 8.8,
+    "note_globale": 8.1,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "hst",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/250041518/s592/comedie-humaine.jpg",
+    "synopsis": "Lucien est un jeune poète inconnu dans la France du XIXème siècle. Il a de grandes espérances et veut se forger un destin. Il quitte l'imprimerie familiale de sa province natale pour tenter sa chance à Paris, au bras de sa protectrice. Bientôt livré à lui-même dans la ville fabuleuse, le jeune homme va découvrir les coulisses d'un monde voué à la loi du profit et des faux-semblants. Une comédie humaine où tout s'achète et se vend, la littérature comme la presse, la politique comme les sentiments, les réputations comme les âmes. Il va aimer, il va souffrir, et survivre à ses illusions.",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 06/12",
+      "daysLeft": 67,
+      "expirationDate": "2026-12-06",
+      "packageExpirations": {
+        "aoc": "2026-12-06"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm48811",
+    "titre": "Une Nouvelle Chance",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2012,
+    "duree": "1h 51min",
+    "runtime_minutes": 111,
+    "note_avis": 6.8,
+    "note_recence": 6.8,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma",
+      "spt"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/242374083/s592/une-nouvelle-chance.jpg",
+    "synopsis": "Un découvreur de talents spécialisé dans le baseball voit sa vie basculer avec la perte progressive de sa vue. Il décide pourtant de faire un dernier voyage à Atlanta, accompagné de sa fille, à la recherche d'un talent prometteur.",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 30/11",
+      "daysLeft": 61,
+      "expirationDate": "2026-11-30",
+      "packageExpirations": {
+        "aoc": "2026-11-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm210043",
+    "titre": "L'Exécuteur",
+    "type": "film",
+    "chaine": "Action Max",
+    "chaines": [
+      "Action Max"
+    ],
+    "logo_chaine": "assets/logos/action.png",
+    "logos_chaine": [
+      "assets/logos/action.png"
+    ],
+    "package_slugs": [
+      "aca"
+    ],
+    "annee": 2017,
+    "duree": "2h 01min",
+    "runtime_minutes": 121,
+    "note_avis": 7.3,
+    "note_recence": 7.9,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/11877665/s592/lexecuteur.jpg",
+    "synopsis": "Un gangster récemment sorti de prison est forcé par ses anciens complices à organiser un nouvel acte criminel.",
+    "expiration": {
+      "status": "warning",
+      "label": "⏳ Expire dans 6 j",
+      "daysLeft": 6,
+      "expirationDate": "2026-10-06",
+      "packageExpirations": {
+        "aca": "2026-10-06"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1498507",
+    "titre": "Un monde merveilleux",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2025,
+    "duree": "1h 18min",
+    "runtime_minutes": 78,
+    "note_avis": 5.7,
+    "note_recence": 9.8,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/335131035/s592/un-monde-merveilleux.jpg",
+    "synopsis": "Dans un futur un peu trop proche où les humains dépendent des robots, Max, une ancienne prof réfractaire à la technologie, vivote avec sa fille grâce à des petites combines. Elle a un plan : kidnapper un robot dernier cri pour le revendre en pièces détachées. Mais tout dérape. Flanquée de ce robot qui l’exaspère, elle s’embarque dans une course-poursuite pour retrouver sa fille et prouver qu’il reste un peu d’humanité dans ce monde.",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 17/11",
+      "daysLeft": 48,
+      "expirationDate": "2026-11-17",
+      "packageExpirations": {
+        "aoc": "2026-11-17"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts421817",
+    "titre": "The Copenhagen Test",
+    "type": "serie",
+    "chaine": "Universal+",
+    "chaines": [
+      "Universal+"
+    ],
+    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logos_chaine": [
+      "assets/logos/universal_plus.svg"
+    ],
+    "package_slugs": [
+      "auc"
+    ],
+    "annee": 2025,
+    "duree": "52 min/ép.",
+    "runtime_minutes": 52,
+    "note_avis": 7.1,
+    "note_recence": 9.8,
+    "note_globale": 8.5,
+    "etoiles": 5,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "act",
+      "fnt",
+      "trl",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/340365898/s592/the-copenhagen-test.jpg",
+    "synopsis": "Alexander Hale, un analyste du renseignement américain, se rend compte que son cerveau a été piraté, donnant aux auteurs l'accès à tout ce qu'il voit et entend. Il lui faut se montrer vigilant en permanence dans l'espoir de débusquer les responsables...",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 05/12",
+      "daysLeft": 66,
+      "expirationDate": "2026-12-05",
+      "packageExpirations": {
+        "auc": "2026-12-05"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1368952",
+    "titre": "Le Mystérieux regard du flamant rose",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2025,
+    "duree": "1h 48min",
+    "runtime_minutes": 108,
+    "note_avis": 6.8,
+    "note_recence": 9.8,
+    "note_globale": 8.3,
+    "etoiles": 5,
+    "categories": [
+      "action_aventure"
+    ],
+    "raw_genres": [
+      "drm",
+      "hst",
+      "wsn"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/341139258/s592/le-mysterieux-regard-du-flamant-rose.jpg",
+    "synopsis": "Début des années 1980, dans le désert chilien. Lidia, 11 ans, grandit au sein d’une famille queer flamboyante et aimante, qui a trouvé refuge dans un cabaret, aux abords d’une ville minière rude et poussiéreuse. Quand une mystérieuse maladie mortelle commence à se propager – une rumeur affirme qu’elle se transmet par un simple regard, lorsqu’un homme tombe amoureux d’un autre – la communauté devient rapidement la cible des peurs et fantasmes collectifs. Dans ce western moderne, Lidia se lance dans une quête de vengeance dans un monde rongé par la haine et l’intolérance. Sa famille devient son unique refuge, et l’amour, peut-être, le plus grand des dangers.",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 18/11",
+      "daysLeft": 49,
+      "expirationDate": "2026-11-18",
+      "packageExpirations": {
+        "aoc": "2026-11-18"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1624813",
+    "titre": "Indomptables",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2025,
+    "duree": "1h 21min",
+    "runtime_minutes": 81,
+    "note_avis": 6.3,
+    "note_recence": 9.8,
+    "note_globale": 8.1,
+    "etoiles": 5,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "cmy",
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/336084668/s592/indomptables.jpg",
+    "synopsis": "À Yaoundé, le commissaire Billong enquête sur le meurtre d'un officier de police. Dans la rue comme au sein de sa famille, il peine à maintenir l’ordre. Homme de principe et de tradition, il approche du point de rupture.",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 10/12",
+      "daysLeft": 71,
+      "expirationDate": "2026-12-10",
+      "packageExpirations": {
+        "aoc": "2026-12-10"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm110716",
+    "titre": "Sympathy for Mister Vengeance",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2002,
+    "duree": "2h 09min",
+    "runtime_minutes": 129,
+    "note_avis": 7.5,
+    "note_recence": 4.5,
+    "note_globale": 6,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "act",
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/308791237/s592/sympathy-for-mr-vengeance-2002.jpg",
+    "synopsis": "Ryu est un ouvrier sourd et muet, dont la sœur est en attente d'une opération chirurgicale. Son patron, Dongjin, est divorcé et père d'une petite fille. Young-Mi, la fiancée de Ryu, est une activiste gauchiste. Lorsque Ryu perd son emploi et voit diminuer les chances d'opération de sa sœur, elle lui propose de kidnapper la fille de Dongjin. La rançon obtenue servirait à pouvoir soigner la sœur de Ryu. Mais le plan parfait tourne à la catastrophe…",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 30/11",
+      "daysLeft": 61,
+      "expirationDate": "2026-11-30",
+      "packageExpirations": {
+        "aoc": "2026-11-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1330850",
+    "titre": "Dead Shot",
+    "type": "film",
+    "chaine": "Action Max",
+    "chaines": [
+      "Action Max"
+    ],
+    "logo_chaine": "assets/logos/action.png",
+    "logos_chaine": [
+      "assets/logos/action.png"
+    ],
+    "package_slugs": [
+      "aca"
+    ],
+    "annee": 2023,
+    "duree": "1h 32min",
+    "runtime_minutes": 92,
+    "note_avis": 5.6,
+    "note_recence": 9.3,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "action_aventure"
+    ],
+    "raw_genres": [
+      "act",
+      "trl",
+      "war"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/306391252/s592/borderland-2023.jpg",
+    "synopsis": "Michael, un paramilitaire irlandais à la retraite, est témoin de l'assassinat de sa femme enceinte par le sergent britannique Tempest. Blessé et présumé mort, il s'échappe et se venge dans le Londres des années 1970. Brut et plein de suspense, le film est un thriller alimenté par l'adrénaline qui laissera le public peser le véritable coût de la vengeance.",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 29/10",
+      "daysLeft": 29,
+      "expirationDate": "2026-10-29",
+      "packageExpirations": {
+        "aca": "2026-10-29"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1621852",
+    "titre": "Fuori",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2025,
+    "duree": "1h 57min",
+    "runtime_minutes": 117,
+    "note_avis": 6,
+    "note_recence": 9.8,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "hst"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/344086386/s592/fuori.jpg",
+    "synopsis": "Rome. Années 80. Goliarda Sapienza travaille depuis 10 ans sur ce qui sera son chef-d'œuvre \"L'Art de la joie\". Mais son manuscrit est rejeté par toutes les maisons d'édition. Désespérée, Sapienza commet un vol qui lui coûte sa réputation et sa position sociale. Incarcérée dans la plus grande prison pour femmes d'Italie, elle va y rencontrer voleuses, junkies, prostituées mais aussi des politiques. Après sa libération, elle continue à rencontrer ces femmes et développe avec l'une d'entre elle une relation qui lui redonnera le désir de vivre et d'écrire.",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 19/11",
+      "daysLeft": 50,
+      "expirationDate": "2026-11-19",
+      "packageExpirations": {
+        "aoc": "2026-11-19"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm64395",
+    "titre": "Un bonheur n'arrive jamais seul",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2012,
+    "duree": "1h 50min",
+    "runtime_minutes": 110,
+    "note_avis": 6.5,
+    "note_recence": 6.8,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "rma",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/239553965/s592/un-bonheur-narrive-jamais-seul.jpg",
+    "synopsis": "Sacha aime ses amis, son piano, la fête. La nuit, il joue dans un club de jazz et séduit des jolies filles. Il vit dans l’instant, pour le plaisir. Sans réveil-matin, sans alliance, sans impôt. Charlotte a trois enfants, deux ex-maris et une carrière professionnelle à gérer. Elle n’a aucune place pour une histoire d’amour. Tout les oppose. Ils n’ont rien à faire ensemble…  Ils sont faits l’un pour l’autre.",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 14/11",
+      "daysLeft": 45,
+      "expirationDate": "2026-11-14",
+      "packageExpirations": {
+        "aoc": "2026-11-14"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1411396",
+    "titre": "Menace en eaux profondes",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2024,
+    "duree": "1h 26min",
+    "runtime_minutes": 86,
+    "note_avis": 4.1,
+    "note_recence": 9.5,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/318826410/s592/something-in-the-water.jpg",
+    "synopsis": "Lizzie s'apprête à se marier sous les tropiques. Elle y convie ses meilleures amies Cam, Ruth mais aussi Meg et Kayla, autrefois en couple et en froid depuis leur séparation. Juste avant la cérémonie, Cam organise une excursion en mer à la découverte d'îlots paradisiaques environnants. Elles embarquent à bord d'un petit canot à moteur, sans se douter que ces eaux turquoise sont infestées de requins.",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 20/11",
+      "daysLeft": 51,
+      "expirationDate": "2026-11-20",
+      "packageExpirations": {
+        "aoc": "2026-11-20"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm139063",
+    "titre": "Piégés",
+    "type": "film",
+    "chaine": "Action Max",
+    "chaines": [
+      "Action Max"
+    ],
+    "logo_chaine": "assets/logos/action.png",
+    "logos_chaine": [
+      "assets/logos/action.png"
+    ],
+    "package_slugs": [
+      "aca"
+    ],
+    "annee": 2015,
+    "duree": "1h 34min",
+    "runtime_minutes": 94,
+    "note_avis": 5.3,
+    "note_recence": 7.5,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "act",
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/243440830/s592/pieges.jpg",
+    "synopsis": "Dans une petite ville d'Alaska, le Shérif-adjoint Beckett et son frère Rowan commencent à s'inquiéter lorsque des corps sauvagement décapités sont retrouvés dans les bois. Beckett, craignant pour sa femme partie en forêt, se lance immédiatement à sa recherche avec l'aide de son frère. Mais l'expédition tourne vite au cauchemar lorsque leur route croise celle d'un redoutable prédateur...",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 28/10",
+      "daysLeft": 28,
+      "expirationDate": "2026-10-28",
+      "packageExpirations": {
+        "aca": "2026-10-28"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": true
+  },
+  {
+    "id": "jw-tm169422",
+    "titre": "Her",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2013,
+    "duree": "2h 06min",
+    "runtime_minutes": 126,
+    "note_avis": 7.9,
+    "note_recence": 7,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/176323478/s592/her.jpg",
+    "synopsis": "Los Angeles, dans un futur proche. Theodore Twombly, un homme sensible au caractère complexe, est inconsolable suite à une rupture difficile. Il fait alors l'acquisition d'un programme informatique ultramoderne, capable de s'adapter à la personnalité de chaque utilisateur. En lançant le système, il fait la connaissance de 'Samantha', une voix féminine intelligente, intuitive et étonnamment drôle. Les besoins et les désirs de Samantha grandissent et évoluent, tout comme ceux de Theodore, et peu à peu, ils tombent amoureux…",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm76066",
+    "titre": "Into the Wild",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2007,
+    "duree": "2h 28min",
+    "runtime_minutes": 148,
+    "note_avis": 8,
+    "note_recence": 5.6,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "act",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/323576808/s592/into-the-wild.jpg",
+    "synopsis": "Tout juste diplômé de l'université, Christopher McCandless, 22 ans, est promis à un brillant avenir. Pourtant, tournant le dos à l'existence confortable et sans surprise qui l'attend, le jeune homme décide de prendre la route en laissant tout derrière lui. Des champs de blé du Dakota aux flots tumultueux du Colorado, en passant par les communautés hippies de Californie, Christopher va rencontrer des personnages hauts en couleur. Chacun, à sa manière, va façonner sa vision de la vie et des autres. Au bout de son voyage, Christopher atteindra son but ultime en s'aventurant seul dans les étendues sauvages de l'Alaska pour vivre en totale communion avec la nature.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm28346",
+    "titre": "Tonnerre sous les tropiques",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2008,
+    "duree": "1h 47min",
+    "runtime_minutes": 107,
+    "note_avis": 7.1,
+    "note_recence": 5.8,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "action_aventure"
+    ],
+    "raw_genres": [
+      "act",
+      "cmy",
+      "war"
+    ],
+    "badge": "18",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/176297291/s592/tonnerre-sous-les-tropiques.jpg",
+    "synopsis": "Retrouvez Ben Stiller, Jack Black et Robert Downey Jr. dans une comédie explosive ! Quand trois des plus grandes stars hollywoodiennes débarquent dans la jungle vietnamienne pour tourner un film de guerre, elles sont vite rattrapées par la réalité…",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm174540",
+    "titre": "Munich",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2005,
+    "duree": "2h 44min",
+    "runtime_minutes": 164,
+    "note_avis": 7.5,
+    "note_recence": 5.2,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "hst",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/300799738/s592/munich.jpg",
+    "synopsis": "Jeux Olympiques de Munich, 5 septembre 1972. Un commando de terroristes palestiniens prend en otages puis exécute 11 membres de l'équipe sportive israélienne, sous l'œil des téléspectateurs du monde entier. Inspiré de faits réels, Munich retrace le parcours de 5 agents israéliens chargés de traquer les 11 palestiniens considérés comme les commanditaires de l'attentat. Pour mener à bien cette mission, les 5 hommes devront renoncer du jour au lendemain à leur identité, et s’exposer à tout moment à la vengeance de leurs cibles.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm137072",
+    "titre": "Very Bad Trip",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2009,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 7.7,
+    "note_recence": 6.1,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/210177673/s592/very-bad-trip.jpg",
+    "synopsis": "Ils avaient prévu un enterrement de vie de garçon à Las Vegas qu’ils n’oublieraient jamais. Maintenant, ils ont vraiment besoin de se souvenir de ce qu’il s’est passé. À qui est ce bébé dans le placard de leur suite au Caesar Palace ? Comment un tigre est‐il arrivé jusque dans leur salle de bain ? Pourquoi manque‐t‐il une dent à l’un d’entre eux ? Et, surtout, où est le marié ? ! Mais ce qu’ils ont fait la nuit précédente n’est rien en comparaison des combines scandaleuses qu’ils doivent mettre en œuvre pour tenter de rassembler les pièces du puzzle qui constituent leur nuit passée – à partir d’indices franchement brumeux…",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm144315",
+    "titre": "Babysitting",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2014,
+    "duree": "1h 25min",
+    "runtime_minutes": 85,
+    "note_avis": 6.8,
+    "note_recence": 7.2,
+    "note_globale": 7,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/315324364/s592/babysitting.jpg",
+    "synopsis": "Faute de baby-sitter pour le week-end, Marc Schaudel confie son fils Remy à Franck, son employé, \"un type sérieux\" selon lui. Sauf que Franck a 30 ans ce soir et que Rémy est un sale gosse capricieux. Au petit matin, Marc et sa femme Claire sont réveillés par un appel de la police. Rémy et Franck ont disparu ! Au milieu de leur maison saccagée, la police a retrouvé une caméra. Marc et Claire découvrent, hallucinés, les images tournées pendant la soirée.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm145677",
+    "titre": "Watchmen : Les Gardiens",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2009,
+    "duree": "2h 43min",
+    "runtime_minutes": 163,
+    "note_avis": 7.6,
+    "note_recence": 6.1,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "act",
+      "drm",
+      "trl",
+      "scf"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/153947247/s592/watchmen-les-gardiens.jpg",
+    "synopsis": "Aventure à la fois complexe et mystérieuse sur plusieurs niveaux, \"Watchmen: Les Gardiens\" se passe dans une Amérique alternative de 1985 où les super-héros font partie du quotidien et où l'Horloge de l'Apocalypse - symbole de la tension entre les États-Unis et l'Union Soviétique - indique en permanence minuit moins cinq. Lorsque l'un de ses anciens collègues est assassiné, Rorschach, un justicier masqué un peu à plat mais non moins déterminé, va découvrir un complot qui menace de tuer et de discréditer tous les super-héros du passé et du présent. Alors qu'il reprend contact avec son ancienne légion de justiciers - un groupe hétéroclite de super-héros retraités, seul l'un d'entre-eux possède de véritables pouvoirs - Rorschach entrevoit un complot inquiétant et de grande envergure lié à leur passé commun et qui aura des conséquences catastrophiques pour le futur. Leur mission est de protéger l'humanité... Mais qui veille sur ces gardiens ?",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm159220",
+    "titre": "Under the Skin",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2014,
+    "duree": "1h 48min",
+    "runtime_minutes": 108,
+    "note_avis": 6.3,
+    "note_recence": 7.2,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl",
+      "scf"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/257930226/s592/under-the-skin.jpg",
+    "synopsis": "Une extraterrestre prend des hommes en autostop, puis les envoûte, de ses yeux, de sa bouche et de son corps de rêve. Attirés dans un couloir noir, ces derniers poursuivent cette beauté fatale alors que telle une araignée tissant sa toile, elle les tue les uns après les autres pour le compte de son espèce…",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts11846",
+    "titre": "Candice Renoir",
+    "type": "serie",
+    "chaine": "Universal+",
+    "chaines": [
+      "Universal+"
+    ],
+    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logos_chaine": [
+      "assets/logos/universal_plus.svg"
+    ],
+    "package_slugs": [
+      "auc"
+    ],
+    "annee": 2013,
+    "duree": "53 min/ép.",
+    "runtime_minutes": 53,
+    "note_avis": 7.6,
+    "note_recence": 7,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "cmy",
+      "crm",
+      "drm",
+      "eur"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/270392445/s592/candice-renoir.jpg",
+    "synopsis": "Candice Renoir, mère de quatre enfants, reprend son métier de policière à la BSU de Sète (Hérault) après avoir arrêté pendant dix ans à la suite d'une mise en disponibilité. Pas facile d'être maman, et commandant de police, d'autant plus que Candice a du mal à se faire accepter de ses collègues (elle ne s'entend d'ailleurs pas du tout avec le commissaire Yasmine Attia, sa première supérieure, et encore avec le commissaire Sylvie Leclerc, sa deuxième supérieure) et qu'elle est un peu dépassée par les nouvelles technologies.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "auc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": true
+  },
+  {
+    "id": "jw-tm163919",
+    "titre": "La Taupe",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2011,
+    "duree": "2h 07min",
+    "runtime_minutes": 127,
+    "note_avis": 7,
+    "note_recence": 6.5,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/8953934/s592/la-taupe.jpg",
+    "synopsis": "George Smiley (Gary Oldman), récemment pensionné du MI6, fait de son mieux pour mener sa vie en dehors des services secrets. Lorsqu’un agent disgracié refait surface avec des informations concernant une taupe au sein du service, Smiley revient. Chargé de découvrir lequel de ses anciens collègues l’a trahi ainsi que son pays, Smiley concentre ses recherches sur quatre suspects tous expérimentés et talentueux. Mais les histoires du passé, les rivalités et amitiés lui rendent la tâche difficile.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm129774",
+    "titre": "Rock Academy",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2003,
+    "duree": "1h 49min",
+    "runtime_minutes": 109,
+    "note_avis": 7.2,
+    "note_recence": 4.7,
+    "note_globale": 6,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "fml",
+      "msc",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/249930336/s592/school-of-rock.jpg",
+    "synopsis": "Un musicien se fait virer de son groupe de rock et trouve, dans la foulée, un emploi de prof de musique dans une école privée stricte. Là, devant un parterre de tubas, de clairons, de pianos et de harpes, il décide de revoir l'approche de la musique de ses élèves. Leur filant des Gibson en V, des claviers, des caisses claires et des charleys, il leur enseigne la musique des amplis. Le gros son des rockers. Et \" leur donne le pouvoir de casser les règles \".",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm214019",
+    "titre": "13 Hours",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2016,
+    "duree": "2h 24min",
+    "runtime_minutes": 144,
+    "note_avis": 7.3,
+    "note_recence": 7.7,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "action_aventure"
+    ],
+    "raw_genres": [
+      "act",
+      "drm",
+      "hst",
+      "trl",
+      "war"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/8810836/s592/13-hours.jpg",
+    "synopsis": "L'histoire vraie des événements survenus le 11 septembre 2012, lorsque des terroristes ont attaqué un camp des Missions Spéciales de l'Armée Américaine et une agence de la CIA voisine à Benghazi, en Libye. Une attaque repoussée par six opérateurs de sécurité, qui ont lutté pendant 13 heures.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm218226",
+    "titre": "Babysitting 2",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2015,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 6.4,
+    "note_recence": 7.5,
+    "note_globale": 7,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/263018073/s592/babysitting-2.jpg",
+    "synopsis": "Franck, Sonia, Sam, Ernest, Alex et Estelle s’envolent pour le Brésil. Ils se rendent en vacances à l’hôtel d’Alain, le père de Sonia. Franck va profiter de ce voyage entre amis pour la demander en mariage. A l’hôtel, ils sont accueillis par Alain et Yolande, la grand-mère acariâtre de Sonia. Les garçons organisent une excursion dans la jungle avec un guide chevronné. Alain leur confie Yolande de peur qu’elle ne trouble le processus de remise du « label éco VWF ». Le soir, les garçons ne sont pas revenus. Ils ont disparu avec la grand-mère et le guide. Le lendemain matin, la caméra GoPro avec laquelle ils étaient partis est retrouvée…",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm50018",
+    "titre": "Looper : les tueurs du temps",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2012,
+    "duree": "1h 58min",
+    "runtime_minutes": 118,
+    "note_avis": 7.4,
+    "note_recence": 6.8,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "act",
+      "drm",
+      "trl",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/230063842/s592/looper.jpg",
+    "synopsis": "Dans un futur proche, la Mafia a mis au point un système infaillible pour faire disparaître tous les témoins gênants. Elle expédie ses victimes dans le passé, à notre époque, où des tueurs d’un genre nouveau (les « Loopers ») les éliminent.  Un jour, l’un d’entre eux, Joe, découvre que la victime qu’il doit exécuter n’est autre que… lui-même, avec 30 ans de plus. La machine si bien huilée déraille…",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm167643",
+    "titre": "Very Bad Trip 2",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2011,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 6.5,
+    "note_recence": 6.5,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/316355605/s592/very-bad-trip-2.jpg",
+    "synopsis": "Phil, Stu, Alan et Doug s’offrent un voyage exotique en Thaïlande, à l’occasion du mariage de Stu. Après l’inoubliable soirée d’enterrement de sa vie de garçon à Las Vegas, Stu ne veut rien laisser au hasard et opte pour un brunch léger, sans risque, avant la cérémonie. Mais les choses ne se passent pas toujours comme prévu. Ce qui s'est passé à Las Vegas est imaginable à Las Vegas, mais ce qui se passe à Bangkok dépasse l’imagination...",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1143503",
+    "titre": "Les Vedettes",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2022,
+    "duree": "1h 41min",
+    "runtime_minutes": 101,
+    "note_avis": 6.2,
+    "note_recence": 9.1,
+    "note_globale": 7.7,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/283916550/s592/les-vedettes.jpg",
+    "synopsis": "Daniel, un chanteur raté, va perdre son logement et son poste au SAV d'un magasin d'électroménager. Lorsqu'il découvre que Stéphane, un collègue naïf et prétentieux, connaît le montant de tous les appareils en rayon, il décide de se servir de lui pour participer au jeu TV \"Le Prix à tout Prix\", remporter 100 000 € et se retrouver enfin sous le feu des projecteurs. Alors oui tout les oppose, non ça ne sera pas de tout repos, mais Daniel et Stéphane sont pleins de ressources.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm32967",
+    "titre": "Penelope",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2007,
+    "duree": "1h 44min",
+    "runtime_minutes": 104,
+    "note_avis": 6.7,
+    "note_recence": 5.6,
+    "note_globale": 6.2,
+    "etoiles": 3,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "cmy",
+      "fnt",
+      "rma",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/319643034/s592/penelope.jpg",
+    "synopsis": "Une sorcière a jeté un sort sur la première fille qui nait dans la famille Wilhern : Pénélope. Pour y échapper, elle devra épouser un garçon issu de la noblesse. Pénélope est une romantique. Elle décide de fuir loin de sa famille et d'affronter le Monde. Elle découvrira que le mauvais sort, il faut l'ignorer et s'accepter telle qu'elle est.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm174707",
+    "titre": "The Artist",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2011,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 7.9,
+    "note_recence": 6.5,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "trl",
+      "rma",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/176287643/s592/the-artist.jpg",
+    "synopsis": "Hollywood 1927. George Valentin est une vedette du cinéma muet à qui tout sourit. L’arrivée des films parlants va le faire sombrer dans l’oubli. Peppy Miller, jeune figurante, va elle, être propulsée au firmament des stars.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm232812",
+    "titre": "Les ogres",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2016,
+    "duree": "2h 18min",
+    "runtime_minutes": 138,
+    "note_avis": 6.9,
+    "note_recence": 7.7,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/9874333/s592/les-ogres.jpg",
+    "synopsis": "Ils vont de ville en ville, un chapiteau sur le dos, leur spectacle en bandoulière. Dans nos vies ils apportent le rêve et le désordre. Ce sont des ogres, des géants, ils en ont mangé du théâtre et des kilomètres. Mais l’arrivée imminente d’un bébé et le retour d’une ancienne amante vont raviver des blessures que l’on croyait oubliées. Alors que la fête commence !",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm163262",
+    "titre": "White House Down",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2013,
+    "duree": "2h 12min",
+    "runtime_minutes": 132,
+    "note_avis": 6.3,
+    "note_recence": 7,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "act",
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/176913581/s592/white-house-down.jpg",
+    "synopsis": "Membre de la police du Capitole, John Cale vient de se voir refuser le job dont il rêvait : assurer la protection du président des États-Unis. Espérant éviter à sa fille une déception lorsqu’il lui apprendra la nouvelle, il l’emmène visiter la Maison-Blanche. C’est à ce moment qu’un groupe paramilitaire lourdement armé attaque le bâtiment. Alors que le gouvernement américain sombre dans le chaos, Cale va tenter de sauver sa fille, le président, et le pays tout entier…",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm306170",
+    "titre": "Cold War",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2018,
+    "duree": "1h 24min",
+    "runtime_minutes": 84,
+    "note_avis": 7.5,
+    "note_recence": 8.2,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "msc",
+      "rma",
+      "eur"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/78797149/s592/cold-war.jpg",
+    "synopsis": "Pendant la guerre froide, entre la Pologne stalinienne et le Paris bohème des années 1950, un musicien épris de liberté et une jeune chanteuse passionnée vivent un amour impossible dans une époque impossible.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm166238",
+    "titre": "Very Bad Trip 3",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2013,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 5.9,
+    "note_recence": 7,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "cmy",
+      "crm"
+    ],
+    "badge": "18",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/210080936/s592/very-bad-trip-3.jpg",
+    "synopsis": "Suite au décès du père d’Alan, la bande décide de le forcer à soigner ses problèmes mentaux. Mais comme d’habitude, rien ne se passe comme prévu. Une fois arrivés à l’hôpital, les hommes se font attaquer et Doug est kidnappé. La rançon ? Retrouver Mr. Chow en échange de la vie de Doug…",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm49126",
+    "titre": "Hunger",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2008,
+    "duree": "1h 36min",
+    "runtime_minutes": 96,
+    "note_avis": 7.5,
+    "note_recence": 5.8,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "hst",
+      "trl",
+      "eur"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/113678390/s592/hunger.jpg",
+    "synopsis": "Prison de Maze, Irlande du Nord, 1981. Raymond Lohan est surveillant, affecté au sinistre Quartier H, celui des prisonniers politiques de l'IRA qui ont entamé le \"Blanket and No-Wash Protest\" pour témoigner leur colère.Le jeune Davey Gillen, qui vient d'être incarcéré, refuse de porter l'uniforme car il ne se considère pas comme un criminel de droit commun. Rejoignant le mouvement du Blanket Protest, il partage une cellule répugnante avec Gerry Campbell, autre détenu politique, qui lui montre comment communiquer avec l'extérieur grâce au leader Bobby Sands.Lorsque la direction de la prison propose aux détenus des vêtements civils, une émeute éclate. La violence fait tache d'huile et plus aucun gardien de prison n'est désormais en sécurité. Raymond Lohan est abattu d'une balle dans la tête.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm71148",
+    "titre": "Sex Therapy",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2013,
+    "duree": "1h 52min",
+    "runtime_minutes": 112,
+    "note_avis": 6.4,
+    "note_recence": 7,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/10085788/s592/sex-therapy.jpg",
+    "synopsis": "A New York, de nos jours, Adam vient de rencontrer Phoebe, qui pourrait bien être la femme de sa vie. Cependant un seul obstacle s'oppose à cette idylle : Adam est atteint d'une syndrome, et pas des moindres : il est accro au sexe. Il soigne sa dépendance au sein d'un groupe de parole composé d'autres addicts.  Parmi eux, Mike, son parrain et mentor, Neil, qui vient tout juste de les rejoindre, et Dede, une jeune femme très libre et décomplexée... Réussiront-ils tous à soigner leurs dépendances et leurs troubles obsessionnels ?",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1376291",
+    "titre": "Guillaume Tell",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2025,
+    "duree": "2h 14min",
+    "runtime_minutes": 134,
+    "note_avis": 5.7,
+    "note_recence": 9.8,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "act",
+      "drm",
+      "hst",
+      "war"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/336046455/s592/william-tell.jpg",
+    "synopsis": "En Suisse, au début du XIVe siècle. Guillaume Tell, ancien croisé, a opté pour une vie paisible avec sa famille au coeur des Alpes. Mais lorsque les soldats autrichiens imposent les lois oppressives des Habsbourg aux villageois suisses et exigent leur allégeance, Tell refuse de plier et forme la résistance...",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts230557",
+    "titre": "The Narrow Road to the Deep North",
+    "type": "serie",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2025,
+    "duree": "43 min/ép.",
+    "runtime_minutes": 43,
+    "note_avis": 7.2,
+    "note_recence": 9.8,
+    "note_globale": 8.5,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma",
+      "war"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/341603922/s592/the-narrow-road-to-the-deep-north.jpg",
+    "synopsis": "En 1989, en Australie, Dorrigo Evans, chirurgien renommé et héros de guerre, se prépare à prononcer un discours lors de la sortie d’un ouvrage consacré à la Seconde Guerre mondiale. Cet événement ravive les souvenirs de son passé : en 1943, alors qu’il était médecin militaire fait prisonnier par les Japonais, il fut contraint de travailler sur la ligne de chemin de fer reliant la Thaïlande à la Birmanie. Dans l’enfer de la jungle, entre violence, maladie et perte, il trouva la force de survivre grâce au souvenir de son amour interdit avec Amy Mulvaney, la femme de son oncle.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1412203",
+    "titre": "L'Espion de Dieu",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2024,
+    "duree": "2h 12min",
+    "runtime_minutes": 132,
+    "note_avis": 6.2,
+    "note_recence": 9.5,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "hst",
+      "trl",
+      "war"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/331551752/s592/bonhoeffer-pastor-spy-assassin.jpg",
+    "synopsis": "Dans les années 1940, un pasteur allemand rejoint les rangs de la résistance en s'opposant publiquement au régime nazi. Marqué dans l'enfance par la mort de son grand frère, un soldat emporté dans la Grande Guerre, Dietrich Bonhoeffer poursuit des études de théologie aux États-Unis pendant la Grande Dépression et constate les iniquités sociales qui affligent le peuple afro-américain. De retour en Allemagne, il tente de mettre en garde ses contemporains contre les dérives du nazisme.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm314240",
+    "titre": "Le Fidèle",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2017,
+    "duree": "2h 10min",
+    "runtime_minutes": 130,
+    "note_avis": 6.3,
+    "note_recence": 7.9,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "trl",
+      "rma",
+      "eur"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/36910482/s592/le-fidele.jpg",
+    "synopsis": "Lorsque Gino rencontre Bénédicte, c’est la passion. Totale. Incandescente. Mais Gino a un secret. De ceux qui mettent votre vie et votre entourage en danger. Alors Gino et Bénédicte vont devoir se battre envers et contre tous, contre la raison et contre leurs propres failles, pour pouvoir rester fidèles à leur amour.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts310736",
+    "titre": "Marie-Antoinette",
+    "type": "serie",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2022,
+    "duree": "53 min/ép.",
+    "runtime_minutes": 53,
+    "note_avis": 7.3,
+    "note_recence": 9.1,
+    "note_globale": 8.2,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "hst",
+      "war"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/301125968/s592/marie-antoinette-2022.jpg",
+    "synopsis": "Marie-Antoinette est âgée d’à peine 14 ans quand elle quitte l’Autriche et sa mère pour épouser le dauphin en France. C’est encore une jeune enfant têtue et dissipée qui doit se plier aux règles françaises, nombreuses et compliquées. La jeune princesse souffre rapidement de ne pouvoir vivre sa vie comme elle l’entend. Elle est constamment sous pression pour perpétuer la lignée des Bourbons. Une mission plus compliquée que prévue : même si la relation entre Marie-Antoinette et Louis XVI s’améliore au fil du temps, sept années leur seront nécessaires pour consommer leur mariage.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm151310",
+    "titre": "Les beaux gosses",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2009,
+    "duree": "1h 30min",
+    "runtime_minutes": 90,
+    "note_avis": 6.4,
+    "note_recence": 6.1,
+    "note_globale": 6.3,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "rma",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/186277383/s592/les-beaux-gosses.jpg",
+    "synopsis": "Hervé et Camel, adolescents de 14 ans scolarisés dans le même collège, ne pensent qu'à une chose : les filles. C'est leur unique sujet de conversation. Malheureusement, les deux amis, desservis par un physique ingrat, multiplient les échecs. Alors ils se contentent de se masturber devant de vieux catalogues. Mais un jour, tout change pour Hervé, qui vit seul avec une mère intrusive et déprimée. En effet, il réalise qu'Aurore, la plus jolie fille de la classe, a le béguin pour lui. Encouragé par Camel, Hervé tente de se rapprocher d'elle. Il compte profiter d'une fête, organisée par la grande soeur d'Aurore, pour arriver à ses fins…",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm36060",
+    "titre": "Rocky Balboa",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2006,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 7.1,
+    "note_recence": 5.4,
+    "note_globale": 6.3,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "act",
+      "drm",
+      "spt"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/10615263/s592/rocky-balboa.jpg",
+    "synopsis": "Rocky Balboa, le légendaire boxeur, a depuis longtemps quitté le ring. De ses succès, il ne reste plus que des histoires qu'il raconte aux clients de son restaurant. La mort de son épouse lui pèse chaque jour et son fils ne vient jamais le voir. Le champion d'aujourd'hui s'appelle Mason Dixon, et tout le monde s'accorde à le définir comme un tueur sans élégance ni cœur. Alors que les promoteurs lui cherchent désespérément un adversaire à sa taille, la légende de Rocky refait surface. L'idée d'opposer deux écoles, deux époques et deux titans aussi différents enflamme tout le monde. Pour Balboa, c'est l'occasion de ranimer les braises d'une passion qui ne l'a jamais quitté. L'esprit d'un champion ne meurt jamais...",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1066000",
+    "titre": "Madres Paralelas",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2021,
+    "duree": "2h 03min",
+    "runtime_minutes": 123,
+    "note_avis": 7.1,
+    "note_recence": 8.8,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/268346919/s592/madres-paralelas.jpg",
+    "synopsis": "Deux femmes, Janis et Ana, se rencontrent dans une chambre d'hôpital sur le point d’accoucher. Elles sont toutes les deux célibataires et sont tombées enceintes par accident. Janis, d'âge mûr, n'a aucun regret et durant les heures qui précèdent l'accouchement, elle est folle de joie. Ana en revanche, est une adolescente effrayée, pleine de remords et traumatisée. Janis essaie de lui remonter le moral alors qu'elles marchent telles des somnambules dans le couloir de l'hôpital. Les quelques mots qu'elles échangent pendant ces heures vont créer un lien très étroit entre elles, que le hasard se chargera de compliquer d'une manière qui changera leur vie à toutes les deux.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm238375",
+    "titre": "Dalida",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2017,
+    "duree": "2h 04min",
+    "runtime_minutes": 124,
+    "note_avis": 6.9,
+    "note_recence": 7.9,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "msc",
+      "eur"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/9627035/s592/dalida.jpg",
+    "synopsis": "De sa naissance au Caire en 1933 à son premier Olympia en 1956, de son mariage avec Lucien Morisse, patron de la jeune radio Europe n°1 aux soirées disco, de ses voyages initiatiques en Inde au succès mondiale de «Gigi l’Amoroso» en 1974, le film Dalida est le portrait intime d’une femme absolue, complexe et solaire… Une femme moderne a une époque qui l’était moins ... Malgré sa disparition tragique en 1987 Dalida continue à rayonner de sa présence éternelle.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1441251",
+    "titre": "Le Cauchemar de Peter Pan",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2025,
+    "duree": "1h 29min",
+    "runtime_minutes": 89,
+    "note_avis": 4.8,
+    "note_recence": 9.8,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "fnt",
+      "hrr",
+      "trl"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/354889122/s592/le-cauchemar-du-pays-imaginaire-de-peter-pan-2025.jpg",
+    "synopsis": "Wendy Darling part à la recherche de son petit frère Michael, enlevé par un Peter Pan malveillant. Au cours de son périple, elle rencontre une Fée Clochette déchue, qui la guide à travers le dangereux Pays imaginaire. Wendy devra affronter ses propres peurs pour sauver son frère et échapper à l'emprise de Peter Pan.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": true
+  },
+  {
+    "id": "jw-tm170404",
+    "titre": "Mon pire cauchemar",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2011,
+    "duree": "1h 43min",
+    "runtime_minutes": 103,
+    "note_avis": 6,
+    "note_recence": 6.5,
+    "note_globale": 6.3,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "rma",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/322847355/s592/mon-pire-cauchemar.jpg",
+    "synopsis": "Elle habite avec son fils et son mari en face du Luxembourg... Il habite seul avec son fils à l’arrière d’une camionnette. Elle dirige une prestigieuse fondation d’art contemporain... Il vit de petits boulots et d’allocations. Elle a bac + 7... Il a failli faire 7 ans de prison. Elle tutoie le ministre de la culture... Il tutoie toutes les bouteilles d’alcool qu’il rencontre. Elle aime le débat d’idées... Il aime le sexe avec des inconnues à forte poitrine. Ils ne se ressemblent pas du tout... et se supportent encore moins. D’ailleurs, ils n’auraient jamais dû se rencontrer. Mais leurs enfants, eux, sont inséparables... Ils finiront par comprendre pourquoi...",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm897852",
+    "titre": "Les choses qu'on dit, les choses qu'on fait",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2020,
+    "duree": "2h 02min",
+    "runtime_minutes": 122,
+    "note_avis": 6.9,
+    "note_recence": 8.6,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "rma",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/206849944/s592/les-choses-quon-dit-les-choses-quon-fait.jpg",
+    "synopsis": "Daphné, enceinte de trois mois, est en vacances à la campagne avec son compagnon François. Il doit s’absenter pour son travail et elle se retrouve seule pour accueillir Maxime, son cousin qu’elle n’avait jamais rencontré. Pendant quatre jours, tandis qu'ils attendent le retour de François, Daphné et Maxime font petit à petit connaissance et se confient des récits de plus en plus intimes sur leurs histoires d'amour présentes et passées...",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts368811",
+    "titre": "Wreck : Croisière sanglante",
+    "type": "serie",
+    "chaine": "Universal+",
+    "chaines": [
+      "Universal+"
+    ],
+    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logos_chaine": [
+      "assets/logos/universal_plus.svg"
+    ],
+    "package_slugs": [
+      "auc"
+    ],
+    "annee": 2022,
+    "duree": "46 min/ép.",
+    "runtime_minutes": 46,
+    "note_avis": 6.5,
+    "note_recence": 9.1,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": "18",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/313307324/s592/wreck.jpg",
+    "synopsis": "Pour retrouver sa sœur disparue, Jamie, 20 ans, infiltre l'équipage d'un navire de croisière.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "auc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm182230",
+    "titre": "Attack the Block",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2011,
+    "duree": "1h 28min",
+    "runtime_minutes": 88,
+    "note_avis": 6.6,
+    "note_recence": 6.5,
+    "note_globale": 6.6,
+    "etoiles": 3,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "act",
+      "cmy",
+      "trl",
+      "scf",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/9868431/s592/attack-the-block.jpg",
+    "synopsis": "Un gang d’adolescents fait face à une invasion de féroces extraterrestres. Leur affrontement transforme une cité de Londres en une cour de récréation futuriste, un immeuble en une forteresse assiégée et des zonards en héros…",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm144569",
+    "titre": "Fish Tank",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2009,
+    "duree": "2h 03min",
+    "runtime_minutes": 123,
+    "note_avis": 7.3,
+    "note_recence": 6.1,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/180858172/s592/fish-tank.jpg",
+    "synopsis": "A 15 ans, Mia est une adolescente rebelle avec une unique passion: la danse hip hop. Un jour d'été, sa mère rentre à la maison avec un nouvel amant, Connor, qui s'installe chez elles. Est-ce enfin une promesse de bonheur ou bien un leurre ?",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1389663",
+    "titre": "La Proie des Ombres",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2024,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 6.7,
+    "note_recence": 9.5,
+    "note_globale": 8.1,
+    "etoiles": 5,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/324508114/s592/what-you-wish-for.jpg",
+    "synopsis": "Chef cuisinier de talent, Ryan fuit d'importantes dettes de jeu en rendant visite à Jack, un ancien condisciple installé désormais en Amérique latine. Peu après son arrivée, Ryan retrouve son ami pendu. Il décide d'usurper l'identité du défunt pour régler ses créanciers qui menacent de s'en prendre à sa mère. En rencontrant Imogen, la cheffe de Jack, Ryan réalise que ce dernier avait accepté un engagement horrible. Il doit cependant s'y plier s'il ne veut pas être démasqué...",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm141182",
+    "titre": "A Most Violent Year",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2014,
+    "duree": "2h 05min",
+    "runtime_minutes": 125,
+    "note_avis": 6.9,
+    "note_recence": 7.2,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/93753142/s592/a-most-violent-year.jpg",
+    "synopsis": "New York, 1981. L'année la plus violente qu'ait connu la ville. Le destin d'un immigré qui tente de se faire une place dans le business du pétrole. Son ambition se heurte à la corruption, la violence galopante et à la dépravation de l'époque qui menacent de détruire tout ce que lui et sa famille ont construit.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm182575",
+    "titre": "Gibraltar",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2013,
+    "duree": "1h 56min",
+    "runtime_minutes": 116,
+    "note_avis": 6.3,
+    "note_recence": 7,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "trl",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/178770099/s592/gibraltar.jpg",
+    "synopsis": "Toujours mentir. Jamais trahir. Afin de mettre sa famille à l’abri du besoin, Marc Duval, un français expatrié à Gibraltar, devient agent d’infiltration pour le compte des douanes françaises. De petits trafics en cargaisons troubles, il gagne progressivement la confiance de Claudio Lanfredi, un puissant importateur de cocaïne associé aux cartels Colombiens. Cette immersion en eau profonde dans l’univers des narcotrafiquants lui fait courir des risques de plus en plus importants. Mais à mesure que Marc gravit les échelons du cartel, il découvre aussi le luxe et l’argent facile... En permanence sur le fil du rasoir, seuls ses mensonges le maintiennent encore en vie. Lorsque les douanes anglaises rentrent dans la partie pour arrêter Lanfredi, le jeu devient encore plus dangereux et sa famille risque d’en payer le prix.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts383893",
+    "titre": "Slip",
+    "type": "serie",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2023,
+    "duree": "27 min/ép.",
+    "runtime_minutes": 27,
+    "note_avis": 6.5,
+    "note_recence": 9.3,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "fnt",
+      "scf"
+    ],
+    "badge": "18",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/304427223/s592/slip.jpg",
+    "synopsis": "Slip suit Mae à travers un voyage surréaliste dans des univers parallèles, mariée à différentes personnes, essayant de retrouver son partenaire et, finalement, elle-même.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1218475",
+    "titre": "Soldat Collins",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2024,
+    "duree": "1h 35min",
+    "runtime_minutes": 95,
+    "note_avis": 5.5,
+    "note_recence": 9.5,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "hst",
+      "war"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/321799885/s592/before-dawn-2024.jpg",
+    "synopsis": "Janvier 1915. La Grande Guerre fait rage. Jim Collins, jeune éleveur de l’outback australien, abandonne la ferme familiale pour rejoindre la ligne de front à l’autre bout du monde. Plein d’espoir et d’ambition, le soldat Collins se retrouve confronté à la brutalité des tranchées où rester en vie est un combat de tous les instants.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm316702",
+    "titre": "Mon garçon",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2017,
+    "duree": "1h 27min",
+    "runtime_minutes": 87,
+    "note_avis": 5.8,
+    "note_recence": 7.9,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/41270737/s592/mon-garcon.jpg",
+    "synopsis": "Passionné par son métier, Julien voyage énormément à l’étranger. Ce manque de présence a fait exploser son couple quelques années auparavant. Lors d’une escale en France, il découvre sur son répondeur un message de son ex femme en larmes : leur petit garçon de sept ans a disparu lors d’un bivouac en montagne avec sa classe. Julien se précipite à sa recherche et rien ne pourra l’arrêter.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm139528",
+    "titre": "Slow West",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2015,
+    "duree": "1h 24min",
+    "runtime_minutes": 84,
+    "note_avis": 6.9,
+    "note_recence": 7.5,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "action_aventure"
+    ],
+    "raw_genres": [
+      "act",
+      "drm",
+      "trl",
+      "rma",
+      "wsn"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/11571920/s592/slow-west.jpg",
+    "synopsis": "A la fin du XIXe siècle, Rose Ross, une jeune Écossaise, est obligée de fuir en Amérique avec son père après que ce dernier, au cours d'une dispute, a tué lord Cavendish, un personnage influent. Jay Cavendish, le neveu du lord, un tout jeune homme amoureux de Rose depuis toujours, décide de partir pour la retrouver dans l'Ouest américain. Il découvre alors un monde beaucoup plus dangereux qu'il ne l'avait imaginé. Il est sauvé de la mort par un mystérieux voyageur, Silas Selleck, qui le prend sous son aile. Quand Silas apprend à l'insu de Jay que la tête du père de Rose est mise à prix, il est tenté par l'affaire",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm80630",
+    "titre": "Les Chansons d'amour",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2007,
+    "duree": "1h 30min",
+    "runtime_minutes": 90,
+    "note_avis": 7,
+    "note_recence": 5.6,
+    "note_globale": 6.3,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma",
+      "eur"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/179359245/s592/les-chansons-damour.jpg",
+    "synopsis": "Par amour, Julie accepte de faire ménage à trois avec la collègue de son petit ami Ismaël. Mais cette situation finit par devenir pesante pour la jeune femme qui aimerait être à nouveau seule avec lui. Lorsqu'un incident vient mettre fin au trio amoureux, tout devient bancal, surtout dans la vie d'Ismaël qui essaie difficilement de gérer sa confusion des sentiments, entre légèreté et désespoir.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": true
+  },
+  {
+    "id": "jw-tm1159326",
+    "titre": "Le Maître et Marguerite",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2024,
+    "duree": "2h 37min",
+    "runtime_minutes": 157,
+    "note_avis": 7.1,
+    "note_recence": 9.5,
+    "note_globale": 8.3,
+    "etoiles": 5,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "fnt",
+      "hrr",
+      "trl",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/320141846/s592/master-i-margarita.jpg",
+    "synopsis": "Dans un Moscou futuriste des années 1930, cette adaptation du roman de Boulgakov suit un écrivain célèbre, déchu après la censure de sa pièce sur Ponce Pilate. Rejeté, il rencontre Marguerite, une femme mariée qui devient sa muse et l'inspire à écrire un nouveau roman. Dans son récit, Satan visite Moscou et y provoque des événements surnaturels. Marguerite, transformée en sorcière, retrouve son amant après la mort, dans un ballet macabre entre réalité et magie.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts76577",
+    "titre": "Le Sang de la vigne",
+    "type": "serie",
+    "chaine": "Universal+",
+    "chaines": [
+      "Universal+"
+    ],
+    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logos_chaine": [
+      "assets/logos/universal_plus.svg"
+    ],
+    "package_slugs": [
+      "auc"
+    ],
+    "annee": 2011,
+    "duree": "92 min/ép.",
+    "runtime_minutes": 92,
+    "note_avis": 7.1,
+    "note_recence": 6.5,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "eur"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/30000665/s592/le-sang-de-la-vigne.jpg",
+    "synopsis": "Cette série met en scène les investigations menées par l'éminent œnologue français Benjamin Lebel, sa compagne France Pelletier et ses assistants Mathilde et Silvère, à la suite de meurtres commis dans le milieu viticole.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "auc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": true
+  },
+  {
+    "id": "jw-tm918698",
+    "titre": "The Deal",
+    "type": "film",
+    "chaine": "Universal+",
+    "chaines": [
+      "Universal+"
+    ],
+    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logos_chaine": [
+      "assets/logos/universal_plus.svg"
+    ],
+    "package_slugs": [
+      "auc"
+    ],
+    "annee": 2022,
+    "duree": "1h 32min",
+    "runtime_minutes": 92,
+    "note_avis": 4.7,
+    "note_recence": 9.1,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl",
+      "scf"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/307340795/s592/the-deal-2022.jpg",
+    "synopsis": "Une pandémie sans précédent a ravagé l’humanité. Pour combattre la crise, une organisation totalitaire, le Bureau, a enfermé les survivants à l’intérieur d’une cité sans âme, où chaque individu est encouragé à signer le « Deal ». Acceptez-le et vous recevrez emploi, logement et soins médicaux pendant vingt ans, après quoi vous devrez mourir et laisser votre place. Tala Bayani a accepté le Deal quand elle avait 20 ans, et qu’elle était enceinte et seule. Depuis, elle fait tout pour que sa fille Analyn n’ait pas à faire le même choix qu’elle. Cinq jours seulement avant la mort programmée de Tala, Analyn reçoit un diagnostique médical inattendu. Tala va devoir se battre pour que sa fille échappe à l’asservissement imposé par le Bureau, avant que son temps ne soit écoulé.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "auc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm410390",
+    "titre": "Donbass",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2018,
+    "duree": "2h 02min",
+    "runtime_minutes": 122,
+    "note_avis": 6.6,
+    "note_recence": 8.2,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "war",
+      "eur"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/167253074/s592/donbass.jpg",
+    "synopsis": "Dans le Donbass, région de l'est de l'Ukraine, une guerre hybride mêle conflit armé ouvert, crimes et saccages perpétrés par des gangs séparatistes.  Dans le Donbass, la guerre s'appelle la paix, la propagande est érigée en vérité et la haine prétend être l'amour. Un périple à travers le Donbass, c’est un enchainement d’aventures folles, dans lesquelles le grotesque et le tragique se mêlent comme la vie et la mort.  Ce n’est pas un conte sur une région, un pays ou un système politique mais sur un monde perdu dans l’après-vérité et les fausses identités. Cela concerne chacun d’entre nous.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1097562",
+    "titre": "Mange",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2021,
+    "duree": "35min",
+    "runtime_minutes": 35,
+    "note_avis": 6.5,
+    "note_recence": 8.8,
+    "note_globale": 7.7,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/250515390/s592/mange.jpg",
+    "synopsis": "Jill est Escort girl. Lorsqu’elle rencontre Alex qui la paye pour la regarder manger, c’est son propre désir qui se transforme et vire à l’obsession. MANGE est une plongée dans les méandres d’un plaisir transgressif et insatiable.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm156070",
+    "titre": "Two Faces of January",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2014,
+    "duree": "1h 36min",
+    "runtime_minutes": 96,
+    "note_avis": 6.2,
+    "note_recence": 7.2,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "trl",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/304679026/s592/the-two-faces-of-january.jpg",
+    "synopsis": "1962. L’Américain Rydal (Oscar Isaac) vivote comme guide touristique à Athènes. Lorsqu’il rencontre le couple séduisant et mystérieux formé par Colette (Kirsten Dunst) et Chester MacFarland, il est immédiatement fasciné par son style de vie raffiné, empreint de luxe et de légèreté. Jusqu’au soir où Chester le somme de déplacer le corps inanimé d’un homme et qu’il se trouve ainsi attiré dans un engrenage fatal semé de meurtres et d’intrigues. S’ensuit un passionnant jeu du chat et de la souris jusque dans les ruelles étriquées du bazar d’Istanbul.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm359324",
+    "titre": "Une pluie sans fin",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2017,
+    "duree": "2h 00min",
+    "runtime_minutes": 120,
+    "note_avis": 6.5,
+    "note_recence": 7.9,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/310293816/s592/une-pluie-sans-fin.jpg",
+    "synopsis": "1997, à quelques mois de la rétrocession de Hong Kong à la Chine, Yu Guowei, le chef de la sécurité d’une vieille usine dans le Sud du pays, enquête sur une série de meurtres commis sur des jeunes femmes. Alors que la police piétine, cette enquête va très vite devenir une véritable obsession pour Yu… puis sa raison de vivre.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": true
+  },
+  {
+    "id": "jw-tm168220",
+    "titre": "Alceste à bicyclette",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2013,
+    "duree": "1h 44min",
+    "runtime_minutes": 104,
+    "note_avis": 6.6,
+    "note_recence": 7,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/297036135/s592/alceste-a-bicyclette.jpg",
+    "synopsis": "Au sommet de sa carrière d’acteur, Serge Tanneur a quitté une fois pour toutes le monde du spectacle. Trop de colère, trop de lassitude. La fatigue d’un métier où tout le monde trahit tout le monde. Désormais, Serge vit en ermite dans une maison délabrée sur l’Île de Ré… Trois ans plus tard, Gauthier Valence, un acteur de télévision adulé des foules, abonné aux rôles de héros au grand cœur, débarque sur l’île. Il vient retrouver Serge pour lui proposer de jouer «Le Misanthrope» de Molière. Serge n’est-il pas devenu une pure incarnation du personnage d’Alceste? Serge refuse tout net et confirme qu’il ne reviendra jamais sur scène. Pourtant, quelque chose en lui ne demande qu’à céder...",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm448562",
+    "titre": "45 jours loin de toi",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2018,
+    "duree": "1h 36min",
+    "runtime_minutes": 96,
+    "note_avis": 6.3,
+    "note_recence": 8.2,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "rma"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/242879750/s592/45-days-away-from-you.jpg",
+    "synopsis": "\"Après une rupture difficile avec celui qui était son partenaire depuis 8 ans, Rafael, le cœur brisé, décide de partir afin de mieux se retrouver. En Angleterre, il rencontre Julia, puis Fábio au Portugal et Mayara en Argentine. Ces trois nouveaux amis prennent une place spéciale et lui permettent de rebondir. Une « désintox sentimentale », c’est ainsi que Julia, une de ses amies, qualifie le voyage entrepris par Rafael pour soigner son cœur brisé. En fait de désintoxication, c’est dans un tourbillon d’émotions qu’il se trouve entraîné et dans lequel on le suit avec un plaisir infini. Rafael Gomes brosse une galerie de personnages attachants et met en scène à merveille la difficulté de s’accorder aux autres. Un film charmant à la légèreté mélancolique, où la variété de sentiments doux-amers nous renvoie forcément un petit reflet de nous-mêmes.\"",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm210050",
+    "titre": "Barbershop: A Fresh Cut",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2016,
+    "duree": "1h 51min",
+    "runtime_minutes": 111,
+    "note_avis": 5.9,
+    "note_recence": 7.7,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/307284153/s592/barbershop-the-next-cut.jpg",
+    "synopsis": "Dix ans se sont écoulés depuis notre dernier rendez-vous au salon de Calvin. Lui et son équipe sont toujours là, mais le salon a subi des changements majeurs. Le plus grand d'entre eux : notre sanctuaire principalement masculin devient désormais mixte.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm164082",
+    "titre": "Le Moine",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2011,
+    "duree": "1h 41min",
+    "runtime_minutes": 101,
+    "note_avis": 5.8,
+    "note_recence": 6.5,
+    "note_globale": 6.2,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/171158418/s592/le-moine.jpg",
+    "synopsis": "Adaptation du célèbre roman gothique de Matthew G.Lewis, publié en 1796, « Le Moine » raconte le destin tragique de Frère Ambrosio dans l’Espagne catholique du XVIIe siècle. Abandonné à la naissance aux portes du couvent des Capucins, Ambrosio est élevé par les frères. Devenu un prédicateur admiré pour sa ferveur et redouté pour son intransigeance , il se croit à l’abri de toute tentation. L’arrivée d’un mystérieux novice va ébranler ses certitudes et le mener sur le chemin du péché.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm217084",
+    "titre": "En mai, fais ce qu'il te plaît",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2015,
+    "duree": "1h 54min",
+    "runtime_minutes": 114,
+    "note_avis": 6.7,
+    "note_recence": 7.5,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "war",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/144025584/s592/en-mai-fais-ce-quil-te-plait.jpg",
+    "synopsis": "Mai 1940. Pour fuir l'invasion allemande, les habitants d'un petit village du nord de la France partent sur les routes, comme des millions de Français. Ils emmènent avec eux dans cet exode un enfant allemand, dont le père opposant au régime nazi est emprisonné à Arras pour avoir menti sur sa nationalité. Libéré dans le chaos, celui-ci se lance à la recherche de son fils, accompagné par un soldat écossais cherchant à regagner l'Angleterre...",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm182141",
+    "titre": "17 filles",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2011,
+    "duree": "1h 27min",
+    "runtime_minutes": 87,
+    "note_avis": 6.6,
+    "note_recence": 6.5,
+    "note_globale": 6.6,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/8811460/s592/17-filles.jpg",
+    "synopsis": "Dans une petite ville au bord de l'océan, un groupe d'adolescentes décident de tomber enceintes en même temps. Les adultes n'y comprennent rien, pas plus que les garçons. Pourquoi ces filles, toutes scolarisées dans le même lycée, ont-elles décidé de faire un enfant ?  Ce film est inspiré d'un fait divers survenu en 2008.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm336600",
+    "titre": "La Villa",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2017,
+    "duree": "1h 47min",
+    "runtime_minutes": 107,
+    "note_avis": 6.5,
+    "note_recence": 7.9,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/78808778/s592/la-villa.jpg",
+    "synopsis": "A quelques encablures de l’Estaque, le père d'Angèle, d'Armand et de Joseph vient d'être frappé par une attaque et est voué désormais à une vie végétative. Après des années de silence, Angèle est de retour dans le foyer familial, à son corps défendant car elle a un compte à régler avec la famille...",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm162719",
+    "titre": "Les Neiges du Kilimandjaro",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2011,
+    "duree": "1h 47min",
+    "runtime_minutes": 107,
+    "note_avis": 7.2,
+    "note_recence": 6.5,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "rma",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/303435356/s592/les-neiges-du-kilimandjaro-2011.jpg",
+    "synopsis": "Bien qu’ayant perdu son travail, Michel vit heureux avec Marie-Claire. Ces deux-là s’aiment depuis trente ans. Leurs enfants et leurs petits-enfants les comblent. Ils ont des amis très proches. Ils sont fiers de leurs combats syndicaux et politiques. Leurs consciences sont aussi transparentes que leurs regards. Ce bonheur va voler en éclats avec leur porte-fenêtre devant deux jeunes hommes armés et masqués qui les frappent, les attachent, leur arrachent leurs alliances, et s’enfuient avec leurs cartes de crédit… Leur désarroi sera d’autant plus violent lorsqu’ils apprennent que cette brutale agression a été organisée par l’un des jeunes ouvriers licenciés avec Michel.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm186791",
+    "titre": "Les Apaches",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2013,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 5.9,
+    "note_recence": 7,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "eur"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/228978809/s592/les-apaches.jpg",
+    "synopsis": "Corse / Extrême Sud / L’été.  Pendant que des milliers de touristes envahissent les plages, les campings et les clubs, cinq adolescents de Porto-Vecchio trainent. Un soir, l'un d'eux conduit les quatre autres dans une luxueuse villa inoccupée... La bande y passe clandestinement la nuit. Avant de partir, ils volent quelques objets sans valeur et deux fusils de collection. Quand la propriétaire de la maison débarque de Paris, elle se plaint du cambriolage à un petit caïd local de sa connaissance…",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm223179",
+    "titre": "Ni le ciel ni la terre",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2015,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 6.3,
+    "note_recence": 7.5,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "fnt",
+      "trl",
+      "war",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/177339133/s592/ni-le-ciel-ni-la-terre.jpg",
+    "synopsis": "Afghanistan 2014.  A l’approche du retrait des troupes, le capitaine Antarès Bonassieu et sa section sont affectés à une mission de contrôle et de surveillance dans une vallée reculée du Wakhan, frontalière du Pakistan.  Malgré la détermination d’Antarès et de ses hommes, le contrôle de ce secteur supposé calme va progressivement leur échapper.  Une nuit, des soldats se mettent à disparaître mystérieusement dans la vallée.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm155480",
+    "titre": "La Ritournelle",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2014,
+    "duree": "1h 38min",
+    "runtime_minutes": 98,
+    "note_avis": 6.4,
+    "note_recence": 7.2,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "doc",
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/169409109/s592/la-ritournelle.jpg",
+    "synopsis": "Brigitte et Xavier sont éleveurs bovins en Normandie. Elle est rêveuse, la tête dans les étoiles. Lui, les pieds ancrés dans la terre, vit surtout pour son métier. Avec le départ des enfants, la routine de leur couple pèse de plus en plus à Brigitte. Un jour, sur un coup de folie, elle prend la clef des champs. Destination : Paris. Xavier réalise alors qu’il est peut-être en train de la perdre. Parviendront-ils à se retrouver ? Et comment se réinventer, après toutes ces années ? La reconquête emprunte parfois des chemins de traverse...",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm234615",
+    "titre": "Le Noël Magique de Jill et Joy",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2015,
+    "duree": "1h 21min",
+    "runtime_minutes": 81,
+    "note_avis": 5.7,
+    "note_recence": 7.5,
+    "note_globale": 6.6,
+    "etoiles": 3,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "fml",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/139171161/s592/jill-and-joys-winter.jpg",
+    "synopsis": "Un soir de décembre, Jill et Joy, deux fillettes de neuf ans, ont la surprise de voir une petite voiture, à peine plus grande qu'une boîte à chaussures, se garer devant leur maison. Une famille de Lilliputiens en sort : les McPetit qui viennent de perdre leur maison. Jill et Joy les accueillent alors à bras ouverts et acceptent de prendre soin d'eux jusqu'à ce qu'ils trouvent un nouveau logement.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1205067",
+    "titre": "Blowback",
+    "type": "film",
+    "chaine": "Universal+",
+    "chaines": [
+      "Universal+"
+    ],
+    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logos_chaine": [
+      "assets/logos/universal_plus.svg"
+    ],
+    "package_slugs": [
+      "auc"
+    ],
+    "annee": 2022,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 4.3,
+    "note_recence": 9.1,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "act",
+      "crm",
+      "trl"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/306856918/s592/blowback.jpg",
+    "synopsis": "Après avoir planifié le casse « parfait », Nick Mullins est trahi par sa petite amie et son chef d'équipe, Jack. Laissé pour mort, Nick survit et se tourne vers les personnes qu'il a essayé de voler pour l'aider à se venger. Alors que la police et le FBI se rapprochent, il traque ses cibles et les exécute sans remords, une par une. S'il reste en vie assez longtemps, il pourra obtenir sa revanche.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "auc": "2026-09-30"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": true
+  },
+  {
+    "id": "jw-tm65130",
+    "titre": "Aux yeux de tous",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2012,
+    "duree": "1h 20min",
+    "runtime_minutes": 80,
+    "note_avis": 6,
+    "note_recence": 6.8,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/311632362/s592/aux-yeux-de-tous.jpg",
+    "synopsis": "673'000 caméras de surveillance et des millions de webcams en France. Un hacker anonyme a piraté toutes les caméras de Paris et observe la ville à son insu. Petits délits et moments d'intimité volés, il voit tout. Jusqu’au jour où un attentat dévaste la gare d’Austerlitz. La police se met sur la piste d’un groupe satellite d’Al-Qaïda. Le hacker réussit, lui, à trouver les images de l’explosion et découvre que c’est un jeune couple qui a posé la bombe. À l’aide des caméras de la ville, il décide de traquer les coupables. Sans le savoir il va mettre le doigt dans un terrible engrenage.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm950660",
+    "titre": "Blindfire",
+    "type": "film",
+    "chaine": "Universal+",
+    "chaines": [
+      "Universal+"
+    ],
+    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logos_chaine": [
+      "assets/logos/universal_plus.svg"
+    ],
+    "package_slugs": [
+      "auc"
+    ],
+    "annee": 2020,
+    "duree": "1h 23min",
+    "runtime_minutes": 83,
+    "note_avis": 4.9,
+    "note_recence": 8.6,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/249724746/s592/blindfire.jpg",
+    "synopsis": "Appelé pour une violente dispute domestique, Will Bishop, officier de police, tue un suspect afro-américain, dont il apprend après l'innocence. Soupçonnant un coup monté, le policier décide de traquer le responsable et interroge le racisme qui l'a mené à cette situation.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "auc": "2026-09-30"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": true
+  },
+  {
+    "id": "jw-tm145426",
+    "titre": "96 heures",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2014,
+    "duree": "1h 36min",
+    "runtime_minutes": 96,
+    "note_avis": 5.7,
+    "note_recence": 7.2,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "trl",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/178567683/s592/96-heures.jpg",
+    "synopsis": "Marion Reynaud, qui prépare son concours d'inspecteur, voue une admiration sans borne à son supérieur, Gabriel Carré, un commissaire respecté. Kancel, un dangereux caïd, réussit à s'évader tandis que sa bande enlève Gabriel sous les yeux de sa femme Françoise. Celui-ci est séquestré au sous-sol d'une immense villa. Kancel veut arracher à Gabriel le nom de celui qui l'a dénoncé trois ans plus tôt. Alors que celui-ci refuse de lui donner la moindre information, une bataille psychologique commence entre les deux hommes...",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm134258",
+    "titre": "Non Ma Fille, Tu N'iras Pas Danser",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2009,
+    "duree": "1h 45min",
+    "runtime_minutes": 105,
+    "note_avis": 6,
+    "note_recence": 6.1,
+    "note_globale": 6.1,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/179478830/s592/non-ma-fille-tu-niras-pas-danser.jpg",
+    "synopsis": "Depuis qu’elle s’est séparée de Nigel, Léna traverse la vie comme elle peut avec ses deux enfants. Elle triomphe avec vaillance des obstacles semés sur leur route. Mais il lui reste à affronter le pire : l’implacable bonté de sa famille qui a décidé de faire son bonheur.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm306606",
+    "titre": "Nos étoiles",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2017,
+    "duree": "1h 45min",
+    "runtime_minutes": 105,
+    "note_avis": 6,
+    "note_recence": 7.9,
+    "note_globale": 7,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/348085892/s592/paths.jpg",
+    "synopsis": "Andreas et Martin ont tous deux la quarantaine. Ils vivent ensemble, l’un d’entre eux ayant un enfant d’une précédente union avec une femme. Alors que l’atelier de menuiserie d’Andreas semble regagner en activité et que Martin est moins souvent en déplacement, leur relation semble pourtant battre de l’aile. Et leur voyage annuel sur les rives de la mer Baltique ne va rien arranger…",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm245260",
+    "titre": "Monsieur Grenouille",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2016,
+    "duree": "1h 23min",
+    "runtime_minutes": 83,
+    "note_avis": 6.3,
+    "note_recence": 7.7,
+    "note_globale": 7,
+    "etoiles": 4,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "cmy",
+      "fnt",
+      "fml",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/80270152/s592/mr-frog.jpg",
+    "synopsis": "Élevée par une mère débordée par son travail de vétérinaire, la petite Sita vit entourée d'animaux. Elle aime beaucoup monsieur Frans, son instituteur. Lors d'un exposé de Sita sur les grenouilles, Frans se sent mal et quitte la salle, sa main devenant verte. Sita se persuade alors que Frans se transforme parfois en grenouille. Elle tente de convaincre ses camarades d'école. Un jour, Frans se transforme en classe.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm244518",
+    "titre": "Voir du pays",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2016,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 6.2,
+    "note_recence": 7.7,
+    "note_globale": 7,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "war",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/8811706/s592/voir-du-pays.jpg",
+    "synopsis": "Deux jeunes militaires, Aurore et Marine, reviennent d’Afghanistan. Avec leur section, elles vont passer trois jours à Chypre, dans un hôtel cinq étoiles, au milieu des touristes en vacances, pour ce que l’armée appelle un sas de décompression, où on va les aider à « oublier la guerre ». Mais on ne se libère pas de la violence si facilement…",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1203339",
+    "titre": "L'Ombre de Goya",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2022,
+    "duree": "1h 30min",
+    "runtime_minutes": 90,
+    "note_avis": 6.8,
+    "note_recence": 9.1,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "hst"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/302179950/s592/lombre-de-goya-par-jean-claude-carriere.jpg",
+    "synopsis": "L'écrivain français Jean-Claude Carrière (1931-2021) retrace la vie et l'œuvre du peintre espagnol Francisco de Goya (1746-1828).",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm152243",
+    "titre": "Du goudron et des plumes",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2014,
+    "duree": "1h 32min",
+    "runtime_minutes": 92,
+    "note_avis": 5.9,
+    "note_recence": 7.2,
+    "note_globale": 6.6,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "fml",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/322107955/s592/du-goudron-et-des-plumes.jpg",
+    "synopsis": "L'été arrive à Montauban, avec les vacances, les barbecues… et le \"Triathlon de l’été\", compétition populaire télédiffusée. Christian, divorcé et commercial aux petites combines, n'a d’autre joie que sa fille de 12 ans",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1040725",
+    "titre": "Les Aventures des enfants du chemin de fer",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2022,
+    "duree": "1h 38min",
+    "runtime_minutes": 98,
+    "note_avis": 5.6,
+    "note_recence": 9.1,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "fml"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/311496406/s592/the-railway-children-return.jpg",
+    "synopsis": "En 1944, en Angleterre, alors que la Seconde Guerre mondiale fait rage, le pays est soumis à des bombardements. Des enfants sont évacués de Manchester vers le village d'Oakworth, dans le West Riding du Yorkshire. Ils se lient d'amitié avec un soldat de l'armée américaine qui est loin de chez lui.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1333622",
+    "titre": "Le Fruit Défendu",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2024,
+    "duree": "1h 49min",
+    "runtime_minutes": 109,
+    "note_avis": 6.4,
+    "note_recence": 9.5,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/313126078/s592/liuben.jpg",
+    "synopsis": "Victor retourne dans sa maison d'enfance en Bulgarie pour les funérailles de son grand-père et décide d'y rester pour l'été.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm357194",
+    "titre": "Frontières",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2017,
+    "duree": "1h 31min",
+    "runtime_minutes": 91,
+    "note_avis": 6.9,
+    "note_recence": 7.9,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "action_aventure"
+    ],
+    "raw_genres": [
+      "act",
+      "cmy",
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/285169215/s592/frontieres.jpg",
+    "synopsis": "Adjara, Emma et Sali se rendent à Lagos. Les trois femmes se rencontrent dans un bus sur le trajet Bamako, Cotonou via Ouagadougou. Le voyage est un parcours de combattants. Elles subissent des pannes de voitures, affrontent des coupeurs de routes et sont témoins de vols entre passagers. Mais leur pire cauchemar reste le franchissement des frontières.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-09-30",
+      "packageExpirations": {
+        "aoc": "2026-09-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
   }
 ];

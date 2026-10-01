@@ -323,3 +323,94 @@ Pour respecter scrupuleusement la **Règle Fondamentale (1 film / série = 1 seu
   * `horreur_epouvante` : 52 œuvres (5.6%)
   * `action_aventure` : 49 œuvres (5.3%)
 
+---
+
+## 12. Création des Profils de Recommandation Amis & Profil Utilisateur ([`profils_amis.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/profils_amis.md))
+
+### A. Synthèse de la Curation & Profils ([`profils_amis.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/profils_amis.md))
+* **Règles d'Exclusion Impératives** :
+  1. **Zéro TNT / Chaînes Claires** : Rejet strict des œuvres déjà diffusées sur les chaînes gratuites (France 2, France 3, TF1, M6, W9, TMC, RMC...).
+  2. **Zéro Prime Video** : Exclusion systématique de tout titre accessible dans l'abonnement standard Amazon Prime Video.
+  3. **Période & Fraîcheur (Bouquet SFR - Syfy / 13ème RUE)** : Si la série est issue de l'ancien bouquet SFR, obligation d'avoir **au moins une saison inédite diffusée à partir de 2024** (ex: *My Life Is Murder* S4 fin 2024, *Almost Paradise* S2, *Grace* S4).
+* **🧙‍♂️ Profil Utilisateur (Moi - Aventure Fantastique, Mystère Temporel & Paranormal Feutré)** :
+  * **Positionnement** : À l'intersection des deux profils d'amis (imaginaire et fantastique riche sans kitsch + esprit d'enquête, matière grise et tandems d'époque).
+  * **Références socles** : *Domino Day* (sorcellerie urbaine, secrets), *The Librarians : L'Héritage de Flynn Carson / The Next Chapter* (artefacts magiques, mythologie), *Le Ministère du Temps* (missions historiques, continuum), *Midnight, Texas* (communauté refuge).
+  * **Aversions & Rejets formels** : Zéro vulgarité / grossièretés appuyées ; Zéro armes réelles lourdes / films de guerre / fusillades de mitraillettes.
+  * **Sélections validées & Pistes** : *Timeless* (Universal+, voyage temporel & histoire), *The Spiderwick Chronicles* (Universal+, féerie & grimoire), *Revival* (Universal+, surnaturel feutré), *Brave New World* (Universal+, SF cérébrale).
+* **👤 Profil Ami (Masculin - Action, Survie & Anticipation / Comédie d'action)** :
+  * **Exigence** : Premier degré et efficacité pour l'action/SF ; ouverture aux comédies d'action grand public et rythmées (*30 jours max*).
+  * **Références** : *The Walking Dead* (déjà vu), *Reacher*, *Under the Dome*, *9-1-1*, *30 jours max*.
+  * **Nuance d'humour** : Rejet de l'univers post-apo kitsch/déjanté (*Twisted Metal*), mais apprécie l'action policière comique et accessible.
+  * **Contraintes & Déjà vus** : *SurrealEstate* (déjà vu), *The Lazarus Project* (saison 2 seule présente).
+  * **Sélection validée** : *The Copenhagen Test* (05/12), *Orphan Black: Echoes* (30/11), *Almost Paradise* (30/12), *Revival* (Pérenne).
+* **👩 Profil Amie (Féminin - Enquête, Déduction & Tandem)** :
+  * **Exigence** : Cérébral & Rythme (matière grise, énigmes, observation, réparties complices).
+  * **Références** : *Hercule Poirot*, *Castle*, mystère paranormal feutré (*Ghost Whisperer*).
+  * **Rejet & Déjà vus** : *SurrealEstate* (déjà vu), Rediffusions du dimanche soir France 3 (*Harry Wild*, *Professeur T*, *Whitstable Pearl*).
+  * **Sélection validée** : *Wild Cards* (Inédit 2024, 13ème Rue), *Grace* (Exclusivité payante, 13ème Rue).
+
+### B. Ajout de la Règle 6 dans [`AGENTS.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/AGENTS.md)
+* Ajout formel de la directive imposant à l'agent de consulter systématiquement [`profils_amis.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/profils_amis.md) lors de toute demande de recommandation pour les amis et l'utilisateur afin d'appliquer scrupuleusement les règles d'exclusion et les affinités de chaque profil.
+
+---
+
+## 13. Bouton Toggle & Filtre Exclusif « Hors Prime & TNT » (Desktop PC Uniquement)
+
+### A. Objectif & Règle Métier
+* Répondre aux critères stricts de valorisation des bouquets payants (Ciné+ OCS, Universal+, Action Max) en permettant à l'utilisateur de filtrer en un seul clic toutes les œuvres **qui ne sont ni incluses dans Amazon Prime Video, ni diffusées / disponibles sur la TNT**.
+* **Implémentation en Toggle Combinable** : Le bouton fonctionne comme un interrupteur on/off indépendant situé dans la barre des bouquets. L'utilisateur peut ainsi l'activer sur « Tous les bouquets » ou en combinaison avec n'importe quel bouquet sélectionné (*Universal+*, *Ciné+ OCS*, *Action Max*).
+* **Affichage Desktop (PC) Strict** : La section est naturellement masquée sur mobile (`display: none !important` via `@media (max-width: 768px)`), préservant ainsi l'ergonomie mobile compacte sans aucune régression.
+
+### B. Détection Algorithmique Multi-Sources Infaillible
+1. **Amazon Prime Video (Point 1)** :
+   * Détection des offres actives JustWatch sous les packages `prv` (Prime Video) et `pva` (Prime Video avec publicités) ayant `monetizationType: 'FLATRATE'`.
+   * Motifs de détection sémantique formelle (`KNOWN_PRIME_PATTERNS`) : *Grimm*, *The Magicians*, *Chicago Fire*, *Chicago P.D.*, *Chicago Med*, *Fargo*, *Battlestar Galactica*, *Heroes*, *Heroes Reborn*, *Spartacus*, *Warehouse 13*, *Burn After Reading*, *Comancheria*, *American Gangster*, *Mr Wolff*, *Ocean's 8*, *Official Secrets*, *Tout ce qui brille*, *Les Lyonnais*, *MR 73*, *Albator*, *S.O.S. Fantômes*, etc.
+2. **Chaînes de la TNT & Replay Gratuit (Point 2)** :
+   * Détection des offres gratuites/AVOD/Replay sous les packages JustWatch TNT : `fpt` (France TV), `tf1` / `myt` (TF1+), `6pt` (6play / M6+), `art` (Arte), `plt` / `ptv` / `plc` / `pxp` / `wki` (Pluto / AVOD), `rmc`, `bfm` avec `ADS`, `FREE` ou `FLATRATE`.
+   * Détection sémantique formelle des séries et fictions emblématiques de la TNT (`KNOWN_TNT_PATTERNS` / `profils_amis.md`) : *Professeur T*, *Whitstable Pearl / Pearl Nolan*, *Harry Wild*, *Le Sang de la vigne*, *Candice Renoir*, *Le Voyageur*, *Capitaine Marleau*, *Astrid et Raphaëlle*, *Les petits meurtres d'Agatha Christie*, *Alex Hugo*, *Cassandre*, *Crimes parfaits*, *Hudson & Rex*, *Motive*, *New York, crime organisé*, *Manipulations*, etc.
+
+### C. Intégration UI & Réactivité
+* **Bouton dédié dans les Bouquets** : `<button class="bouquet-btn bouquet-btn-exclusive" id="pkgExclusive">` séparé par un séparateur fin, avec icône `🛡️`, libellé `Hors Prime & TNT` et compteur dynamique `countPkgExclusive`.
+* **Style visuel distinctif** : Teinte émeraude subtile (`#34d399` / `rgba(16, 185, 129, ...)`) avec halo lumineux lorsqu'il est actif.
+* **Compteurs synchronisés** :
+  * **Global Films** : **628** œuvres exclusives hors Prime et TNT (sur 807 films qualifiés).
+  * **Global Séries** : **99** séries exclusives hors Prime et TNT (sur 122 séries qualifiées).
+  * **Universal+ Séries Exclusives** : **60** séries conservées (*Almost Paradise*, *Revival*, *Wild Cards*, *Grace*, *Resident Alien*, *Arcadia*, *Generation Z*, *Timeless*...).
+* **Isolation locale** : Modifications conservées strictement en local sans publication distante.
+
+### D. Versions & Traçabilité
+* **LocalStorage** : Clés incrémentées vers `_v17` dans [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js).
+* **Service Worker PWA** : Cache actualisé à `cinescope-v8.25-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
+* **Balises HTML Scripts** : Passées à `?v=8.25` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
+
+---
+
+## 14. Enrichissement & Précision des Profils de Recommandation ([`profils_amis.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/profils_amis.md))
+
+### A. Profil Utilisateur (Moi)
+* **Cœur Émotionnel & Romance Intégrée** : Ajout du critère clé valorisant les intrigues où une romance sincère, complice et protectrice sert d'ancrage émotionnel face au mystère ou au danger.
+* **Nouvelles Références Socles** :
+  * *Boy 7* : Référence clé pour l'anticipation amnésique sublimée par la romance et la confiance mutuelle du duo face au système.
+  * *Bull* : Psychologie comportementale, matière grise, stratégie et esprit d'équipe.
+  * *Under the Dome* : Mystère fantastique de communauté sous cloche, suspense et secrets inexpliqués.
+  * *Extra-Lucide* : Télépathie et don paranormal intimiste, réflexion sur les pensées secrètes et complicité humaine sans violence (Coup de cœur OCS Signature).
+  * *Pécheresses* : Comédie d'émancipation en internat catholique, sororité complice et ton vif en formats courts de 26 min (Coup de cœur OCS Signature).
+  * *Midnight, Texas* : Communauté paranormale refuge, mystère feutré — **En cours de visionnage (Validé)**.
+  * *Toutouyoutou* : Comédie d'espionnage rétro et sororité complice en 26 min — **En cours de visionnage (OCS Signature)**.
+* **Nouvelle Aversion Formelle** :
+  * 🚫 *Zéro panique de masse / Hécatombe de cadavres* : Rejet des récits catastrophes anxiogènes, de l'hystérie collective ou des films de contagion gores.
+* **Nouvelles Sélections Validées au Catalogue** :
+  * ***LT-21*** *(Ciné+ OCS • 8 x 26 min)* — Affinité **85-90%** : Virus d'amnésie sans morts ni panique de masse, centré sur le couple de médecins.
+  * ***Desde el mañana*** *(Universal+ • 2024)* — Affinité **85%** : Mystère temporel feutré, visions du futur et tandem protecteur.
+  * ***Aspergirl*** *(Ciné+ OCS • 2023 • 26 min)* — Affinité **85%** : Duo mère/fils complice, tendresse, autodérision et singularité humaine.
+  * ***Jeune et golri*** *(Ciné+ OCS • 2021 • 25 min)* — Affinité **80-85%** : Émotion, humour d'auteur et romance touchante.
+
+### B. Profil Ami (Masculin)
+* **Consolidation Référence** : *Under the Dome* (survie et communauté sous cloche).
+* **Nouvelle Sélection Validée** : ***Arcadia*** *(Universal+ • 2023)* — Affinité **85%** (dystopie sous dôme, contrôle social et tension 1er degré).
+
+### C. Profil Amie (Féminin)
+* **Nouvelle Référence Socle** : *Bull* (procès, matière grise, psychologie et réparties).
+* **Nouvelles Sélections Validées** :
+  * ***Family Law*** *(Universal+ • 2021-2024)* — Affinité **85-90%** (affaires judiciaires intenses, psychologie, éloquence et cabinet d'avocats familial).
+  * ***Toronto: Section Criminelle*** *(Universal+ • Inédit 2024)* (profiling et interrogatoires cérébraux).

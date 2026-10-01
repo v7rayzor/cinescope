@@ -6,7 +6,14 @@
 const fs = require('fs');
 const path = require('path');
 
-const JustWatchEngine = require('../js/justwatch_engine.js');
+function loadJustWatchEngine() {
+  const code = fs.readFileSync(path.join(__dirname, '..', 'js', 'justwatch_engine.js'), 'utf8');
+  const context = { console, localStorage: {}, window: {} };
+  const fn = new Function('window', 'module', 'exports', code + '\nreturn window.JustWatchEngine || (module && module.exports);');
+  const mod = { exports: {} };
+  return fn(context.window, mod, mod.exports);
+}
+const JustWatchEngine = loadJustWatchEngine();
 
 const GRAPHQL_ENDPOINT = 'https://apis.justwatch.com/graphql';
 const CATALOG_FILE_PATH = path.join(__dirname, '..', 'js', 'catalog.js');
