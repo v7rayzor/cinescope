@@ -27,7 +27,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 45,
+      "daysLeft": 43,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -75,7 +75,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/11",
-      "daysLeft": 55,
+      "daysLeft": 53,
       "expirationDate": "2026-11-24",
       "packageExpirations": {
         "aoc": "2026-11-24"
@@ -123,7 +123,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/10",
-      "daysLeft": 22,
+      "daysLeft": 20,
       "expirationDate": "2026-10-22",
       "packageExpirations": {
         "aoc": "2026-10-22"
@@ -170,7 +170,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/12",
-      "daysLeft": 88,
+      "daysLeft": 86,
       "expirationDate": "2026-12-27",
       "packageExpirations": {
         "aoc": "2026-12-27"
@@ -216,8 +216,8 @@ const CATALOG_DATA = [
     "duree": "1h 28min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 6 j",
-      "daysLeft": 6,
+      "label": "⏳ Expire dans 4 j",
+      "daysLeft": 4,
       "expirationDate": "2026-10-06",
       "packageExpirations": {
         "aoc": "2026-10-06"
@@ -264,7 +264,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 72,
+      "daysLeft": 70,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
@@ -311,7 +311,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/12",
-      "daysLeft": 85,
+      "daysLeft": 83,
       "expirationDate": "2026-12-24",
       "packageExpirations": {
         "aoc": "2026-12-24"
@@ -358,7 +358,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 52,
+      "daysLeft": 50,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
@@ -405,7 +405,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/11",
-      "daysLeft": 34,
+      "daysLeft": 32,
       "expirationDate": "2026-11-03",
       "packageExpirations": {
         "aoc": "2026-11-03"
@@ -454,8 +454,8 @@ const CATALOG_DATA = [
     "duree": "1h 44min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 10 j",
-      "daysLeft": 10,
+      "label": "⏳ Expire dans 8 j",
+      "daysLeft": 8,
       "expirationDate": "2026-10-10",
       "packageExpirations": {
         "aoc": "2026-10-10"
@@ -503,7 +503,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/12",
-      "daysLeft": 62,
+      "daysLeft": 60,
       "expirationDate": "2026-12-01",
       "packageExpirations": {
         "aoc": "2026-12-01"
@@ -551,7 +551,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 65,
+      "daysLeft": 63,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
@@ -597,7 +597,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/01",
-      "daysLeft": 97,
+      "daysLeft": 95,
       "expirationDate": "2027-01-05",
       "packageExpirations": {
         "aoc": "2027-01-05"
@@ -645,7 +645,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/11",
-      "daysLeft": 57,
+      "daysLeft": 55,
       "expirationDate": "2026-11-26",
       "packageExpirations": {
         "aoc": "2026-11-26"
@@ -693,7 +693,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/12",
-      "daysLeft": 76,
+      "daysLeft": 74,
       "expirationDate": "2026-12-15",
       "packageExpirations": {
         "aoc": "2026-12-15"
@@ -739,8 +739,8 @@ const CATALOG_DATA = [
     "duree": "1h 35min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 8 j",
-      "daysLeft": 8,
+      "label": "⏳ Expire dans 6 j",
+      "daysLeft": 6,
       "expirationDate": "2026-10-08",
       "packageExpirations": {
         "aoc": "2026-10-08"
@@ -789,7 +789,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/10",
-      "daysLeft": 28,
+      "daysLeft": 26,
       "expirationDate": "2026-10-28",
       "packageExpirations": {
         "aoc": "2026-10-28"
@@ -806,55 +806,6 @@ const CATALOG_DATA = [
       "eur"
     ],
     "synopsis": "Émilie Tesson-Hansen est une jeune et brillante responsable des Ressources Humaines, une « killeuse ». Suite à un drame dans son entreprise, une enquête est ouverte. Elle se retrouve en première ligne. Elle doit faire face à la pression de l’inspectrice du travail, mais aussi à sa hiérarchie qui menace de se retourner contre elle. Émilie est bien décidée à sauver sa peau. Jusqu’où restera-t-elle corporate ?",
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm123172",
-    "titre": "Snowden",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ligne 12, N° 2",
-    "annee": 2016,
-    "note_avis": 7.3,
-    "note_recence": 7.7,
-    "note_globale": 7.5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/8794177/s592/snowden.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "2h 15min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire demain",
-      "daysLeft": 1,
-      "expirationDate": "2026-10-01",
-      "packageExpirations": {
-        "aoc": "2026-10-01"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 135,
-    "etoiles": 4,
-    "raw_genres": [
-      "crm",
-      "drm",
-      "hst",
-      "trl"
-    ],
-    "synopsis": "Patriote idéaliste et enthousiaste, le jeune Edward Snowden semble réaliser son rêve quand il rejoint les équipes de la CIA puis de la NSA. Il découvre alors au cœur des Services de Renseignements américains l'ampleur insoupçonnée de la cyber-surveillance. Violant la Constitution, soutenue par de grandes entreprises, la NSA collecte des montagnes de données et piste toutes les formes de télécommunications à un niveau planétaire.  Choqué par cette intrusion systématique dans nos vies privées, Snowden décide de rassembler des preuves et de tout divulguer. Devenu lanceur d'alerte, il sacrifiera sa liberté et sa vie privée.  En juin 2013, deux journalistes prennent le risque de le rencontrer dans une chambre d'hôtel à Hong Kong. Une course contre la montre s'engage pour analyser les preuves irréfutables présentées par Snowden avant leur publication.  Les révélations qui vont être faites dans cette pièce seront au cœur du plus grand scandale d'espionnage de l'histoire des États-Unis.",
     "on_prime": false,
     "on_tnt": false
   },
@@ -886,7 +837,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -933,7 +884,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/11",
-      "daysLeft": 50,
+      "daysLeft": 48,
       "expirationDate": "2026-11-19",
       "packageExpirations": {
         "aoc": "2026-11-19"
@@ -979,11 +930,11 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_ocs.svg"
     ],
-    "duree": "1h 55min",
+    "duree": "1h 56min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 14 j",
-      "daysLeft": 14,
+      "label": "⏳ Expire dans 12 j",
+      "daysLeft": 12,
       "expirationDate": "2026-10-14",
       "packageExpirations": {
         "aoc": "2026-10-14"
@@ -992,7 +943,7 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 115,
+    "runtime_minutes": 116,
     "etoiles": 4,
     "raw_genres": [
       "act",
@@ -1031,7 +982,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/11",
-      "daysLeft": 36,
+      "daysLeft": 34,
       "expirationDate": "2026-11-05",
       "packageExpirations": {
         "aoc": "2026-11-05"
@@ -1076,11 +1027,11 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_ocs.svg"
     ],
-    "duree": "1h 59min",
+    "duree": "1h 51min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -1089,7 +1040,7 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 119,
+    "runtime_minutes": 111,
     "etoiles": 4,
     "raw_genres": [
       "act",
@@ -1130,7 +1081,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -1178,8 +1129,8 @@ const CATALOG_DATA = [
     "duree": "1h 46min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 7 j",
-      "daysLeft": 7,
+      "label": "⏳ Expire dans 5 j",
+      "daysLeft": 5,
       "expirationDate": "2026-10-07",
       "packageExpirations": {
         "aoc": "2026-10-07"
@@ -1228,7 +1179,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -1279,7 +1230,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -1326,7 +1277,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -1375,7 +1326,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/11",
-      "daysLeft": 56,
+      "daysLeft": 54,
       "expirationDate": "2026-11-25",
       "packageExpirations": {
         "aoc": "2026-11-25"
@@ -1424,7 +1375,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -1472,8 +1423,8 @@ const CATALOG_DATA = [
     "duree": "2h 13min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 9 j",
-      "daysLeft": 9,
+      "label": "⏳ Expire dans 7 j",
+      "daysLeft": 7,
       "expirationDate": "2026-10-09",
       "packageExpirations": {
         "aoc": "2026-10-09"
@@ -1522,7 +1473,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -1567,11 +1518,11 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_ocs.svg"
     ],
-    "duree": "1h 31min",
+    "duree": "1h 35min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -1580,7 +1531,7 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 91,
+    "runtime_minutes": 95,
     "etoiles": 3,
     "raw_genres": [
       "hrr",
@@ -1618,8 +1569,8 @@ const CATALOG_DATA = [
     "duree": "1h 32min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 10 j",
-      "daysLeft": 10,
+      "label": "⏳ Expire dans 8 j",
+      "daysLeft": 8,
       "expirationDate": "2026-10-10",
       "packageExpirations": {
         "aoc": "2026-10-10"
@@ -1666,7 +1617,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -1713,7 +1664,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/10",
-      "daysLeft": 24,
+      "daysLeft": 22,
       "expirationDate": "2026-10-24",
       "packageExpirations": {
         "aoc": "2026-10-24"
@@ -1759,7 +1710,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/11",
-      "daysLeft": 46,
+      "daysLeft": 44,
       "expirationDate": "2026-11-15",
       "packageExpirations": {
         "aoc": "2026-11-15"
@@ -1805,7 +1756,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 72,
+      "daysLeft": 70,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
@@ -1853,7 +1804,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/10",
-      "daysLeft": 17,
+      "daysLeft": 15,
       "expirationDate": "2026-10-17",
       "packageExpirations": {
         "aoc": "2026-10-17"
@@ -1900,7 +1851,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/10",
-      "daysLeft": 27,
+      "daysLeft": 25,
       "expirationDate": "2026-10-27",
       "packageExpirations": {
         "aoc": "2026-10-27"
@@ -1948,7 +1899,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/10",
-      "daysLeft": 18,
+      "daysLeft": 16,
       "expirationDate": "2026-10-18",
       "packageExpirations": {
         "aoc": "2026-10-18"
@@ -1996,7 +1947,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -2045,7 +1996,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -2096,7 +2047,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 20/10",
-      "daysLeft": 20,
+      "daysLeft": 18,
       "expirationDate": "2026-10-20",
       "packageExpirations": {
         "aoc": "2026-10-20"
@@ -2142,8 +2093,8 @@ const CATALOG_DATA = [
     "duree": "1h 31min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 10 j",
-      "daysLeft": 10,
+      "label": "⏳ Expire dans 8 j",
+      "daysLeft": 8,
       "expirationDate": "2026-10-10",
       "packageExpirations": {
         "aoc": "2026-10-10"
@@ -2189,7 +2140,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/10",
-      "daysLeft": 22,
+      "daysLeft": 20,
       "expirationDate": "2026-10-22",
       "packageExpirations": {
         "aoc": "2026-10-22"
@@ -2238,7 +2189,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -2287,7 +2238,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -2334,8 +2285,8 @@ const CATALOG_DATA = [
     "duree": "1h 38min",
     "expiration": {
       "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
+      "label": "⏳ Expire demain",
+      "daysLeft": 1,
       "expirationDate": "2026-10-03",
       "packageExpirations": {
         "aoc": "2026-10-03"
@@ -2385,7 +2336,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -2433,8 +2384,8 @@ const CATALOG_DATA = [
     "duree": "1h 43min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 11 j",
-      "daysLeft": 11,
+      "label": "⏳ Expire dans 9 j",
+      "daysLeft": 9,
       "expirationDate": "2026-10-11",
       "packageExpirations": {
         "aoc": "2026-10-11"
@@ -2483,7 +2434,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 20/10",
-      "daysLeft": 20,
+      "daysLeft": 18,
       "expirationDate": "2026-10-20",
       "packageExpirations": {
         "aoc": "2026-10-20"
@@ -2530,8 +2481,8 @@ const CATALOG_DATA = [
     "duree": "1h 40min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 11 j",
-      "daysLeft": 11,
+      "label": "⏳ Expire dans 9 j",
+      "daysLeft": 9,
       "expirationDate": "2026-10-11",
       "packageExpirations": {
         "aoc": "2026-10-11"
@@ -2575,11 +2526,11 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_ocs.svg"
     ],
-    "duree": "2h 20min",
+    "duree": "2h 13min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -2588,7 +2539,7 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 140,
+    "runtime_minutes": 133,
     "etoiles": 4,
     "raw_genres": [
       "drm",
@@ -2626,7 +2577,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/12",
-      "daysLeft": 63,
+      "daysLeft": 61,
       "expirationDate": "2026-12-02",
       "packageExpirations": {
         "aoc": "2026-12-02"
@@ -2672,8 +2623,8 @@ const CATALOG_DATA = [
     "duree": "1h 40min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 14 j",
-      "daysLeft": 14,
+      "label": "⏳ Expire dans 12 j",
+      "daysLeft": 12,
       "expirationDate": "2026-10-14",
       "packageExpirations": {
         "aoc": "2026-10-14"
@@ -2720,7 +2671,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/10",
-      "daysLeft": 22,
+      "daysLeft": 20,
       "expirationDate": "2026-10-22",
       "packageExpirations": {
         "aoc": "2026-10-22"
@@ -2768,7 +2719,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/11",
-      "daysLeft": 55,
+      "daysLeft": 53,
       "expirationDate": "2026-11-24",
       "packageExpirations": {
         "aoc": "2026-11-24"
@@ -2817,7 +2768,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -2864,7 +2815,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/11",
-      "daysLeft": 34,
+      "daysLeft": 32,
       "expirationDate": "2026-11-03",
       "packageExpirations": {
         "aoc": "2026-11-03"
@@ -2912,7 +2863,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/12",
-      "daysLeft": 64,
+      "daysLeft": 62,
       "expirationDate": "2026-12-03",
       "packageExpirations": {
         "aoc": "2026-12-03"
@@ -2961,7 +2912,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/11",
-      "daysLeft": 49,
+      "daysLeft": 47,
       "expirationDate": "2026-11-18",
       "packageExpirations": {
         "aoc": "2026-11-18"
@@ -3004,11 +2955,11 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_ocs.svg"
     ],
-    "duree": "2h 03min",
+    "duree": "2h 00min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/10",
-      "daysLeft": 26,
+      "daysLeft": 24,
       "expirationDate": "2026-10-26",
       "packageExpirations": {
         "aoc": "2026-10-26"
@@ -3017,7 +2968,7 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 123,
+    "runtime_minutes": 120,
     "etoiles": 3,
     "raw_genres": [
       "drm",
@@ -3056,7 +3007,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -3073,55 +3024,6 @@ const CATALOG_DATA = [
       "eur"
     ],
     "synopsis": "Elles sont Présidente de la République, nounou, boulangère, comédienne, prof, fleuriste, journaliste, sans emploi, pédiatre. Elles sont possessives, bienveillantes, maladroites, absentes, omniprésentes, débordées, culpabilisantes, indulgentes, aimantes, fragiles, en pleine possession de leurs moyens ou perdant la tête. Bien vivantes ou déjà un souvenir ... Fils ou fille, nous restons quoiqu'il arrive leur enfant avec l'envie qu'elles nous lâchent et la peur qu'elles nous quittent. Et puis nous devenons maman ... et ça va être notre fête !",
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm134211",
-    "titre": "Lost in Translation",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Emotion",
-    "annee": 2003,
-    "note_avis": 7.7,
-    "note_recence": 4.7,
-    "note_globale": 6.2,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/175287463/s592/lost-in-translation.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 42min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 2 j",
-      "daysLeft": 2,
-      "expirationDate": "2026-10-02",
-      "packageExpirations": {
-        "aoc": "2026-10-02"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 102,
-    "etoiles": 3,
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "synopsis": "Bob Harris, acteur sur le déclin, se rend à Tokyo pour tourner un spot publicitaire. Il a conscience qu'il se trompe - il devrait être chez lui avec sa famille, jouer au théâtre ou encore chercher un rôle dans un film -, mais il a besoin d'argent. Du haut de son hôtel de luxe, il contemple la ville, mais ne voit rien. Il est ailleurs, détaché de tout, incapable de s'intégrer à la réalité qui l'entoure, incapable également de dormir à cause du décalage horaire. Dans ce même établissement, Charlotte, une jeune Américaine fraîchement diplômée, accompagne son mari, photographe de mode. Ce dernier semble s'intéresser davantage à son travail qu'à sa femme. Se sentant délaissée, Charlotte cherche un peu d'attention. Elle va en trouver auprès de Bob…",
     "on_prime": false,
     "on_tnt": false
   },
@@ -3153,7 +3055,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/11",
-      "daysLeft": 47,
+      "daysLeft": 45,
       "expirationDate": "2026-11-16",
       "packageExpirations": {
         "aoc": "2026-11-16"
@@ -3201,7 +3103,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/11",
-      "daysLeft": 32,
+      "daysLeft": 30,
       "expirationDate": "2026-11-01",
       "packageExpirations": {
         "aoc": "2026-11-01"
@@ -3251,7 +3153,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -3298,7 +3200,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -3346,7 +3248,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -3395,7 +3297,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 23/10",
-      "daysLeft": 23,
+      "daysLeft": 21,
       "expirationDate": "2026-10-23",
       "packageExpirations": {
         "aoc": "2026-10-23"
@@ -3443,7 +3345,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -3491,7 +3393,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -3539,7 +3441,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/12",
-      "daysLeft": 86,
+      "daysLeft": 84,
       "expirationDate": "2026-12-25",
       "packageExpirations": {
         "aoc": "2026-12-25"
@@ -3587,7 +3489,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/11",
-      "daysLeft": 36,
+      "daysLeft": 34,
       "expirationDate": "2026-11-05",
       "packageExpirations": {
         "aoc": "2026-11-05"
@@ -3635,7 +3537,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/10",
-      "daysLeft": 27,
+      "daysLeft": 25,
       "expirationDate": "2026-10-27",
       "packageExpirations": {
         "aoc": "2026-10-27"
@@ -3682,8 +3584,8 @@ const CATALOG_DATA = [
     "duree": "1h 34min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 6 j",
-      "daysLeft": 6,
+      "label": "⏳ Expire dans 4 j",
+      "daysLeft": 4,
       "expirationDate": "2026-10-06",
       "packageExpirations": {
         "aoc": "2026-10-06"
@@ -3730,7 +3632,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/01",
-      "daysLeft": 109,
+      "daysLeft": 107,
       "expirationDate": "2027-01-17",
       "packageExpirations": {
         "aoc": "2027-01-17"
@@ -3779,7 +3681,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/11",
-      "daysLeft": 56,
+      "daysLeft": 54,
       "expirationDate": "2026-11-25",
       "packageExpirations": {
         "aoc": "2026-11-25"
@@ -3826,7 +3728,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/10",
-      "daysLeft": 29,
+      "daysLeft": 27,
       "expirationDate": "2026-10-29",
       "packageExpirations": {
         "aoc": "2026-10-29"
@@ -3876,7 +3778,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/10",
-      "daysLeft": 17,
+      "daysLeft": 15,
       "expirationDate": "2026-10-17",
       "packageExpirations": {
         "aoc": "2026-10-17"
@@ -3921,9 +3823,9 @@ const CATALOG_DATA = [
     ],
     "duree": "1h 56min",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 15/10",
-      "daysLeft": 15,
+      "status": "warning",
+      "label": "⏳ Expire dans 13 j",
+      "daysLeft": 13,
       "expirationDate": "2026-10-15",
       "packageExpirations": {
         "aoc": "2026-10-15"
@@ -3973,7 +3875,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 92,
+      "daysLeft": 90,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -4021,7 +3923,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -4069,7 +3971,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 92,
+      "daysLeft": 90,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -4119,7 +4021,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -4169,7 +4071,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/01",
-      "daysLeft": 99,
+      "daysLeft": 97,
       "expirationDate": "2027-01-07",
       "packageExpirations": {
         "aoc": "2027-01-07"
@@ -4216,8 +4118,8 @@ const CATALOG_DATA = [
     "duree": "1h 43min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 10 j",
-      "daysLeft": 10,
+      "label": "⏳ Expire dans 8 j",
+      "daysLeft": 8,
       "expirationDate": "2026-10-10",
       "packageExpirations": {
         "aoc": "2026-10-10"
@@ -4266,7 +4168,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/01",
-      "daysLeft": 100,
+      "daysLeft": 98,
       "expirationDate": "2027-01-08",
       "packageExpirations": {
         "aoc": "2027-01-08"
@@ -4315,7 +4217,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/01",
-      "daysLeft": 94,
+      "daysLeft": 92,
       "expirationDate": "2027-01-02",
       "packageExpirations": {
         "aoc": "2027-01-02"
@@ -4363,7 +4265,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/10",
-      "daysLeft": 29,
+      "daysLeft": 27,
       "expirationDate": "2026-10-29",
       "packageExpirations": {
         "aoc": "2026-10-29"
@@ -4388,8 +4290,7 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Universal+",
     "chaines": [
-      "Universal+",
-      "Ciné+ OCS"
+      "Universal+"
     ],
     "section": "Films",
     "position": "Films • Ciné+ Family & SCIFI",
@@ -4405,14 +4306,13 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/176292918/s592/albator-corsaire-de-lespace.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/universal_plus.svg"
     ],
     "duree": "1h 55min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "aoc": "2026-09-30",
@@ -4420,8 +4320,7 @@ const CATALOG_DATA = [
       }
     },
     "package_slugs": [
-      "auc",
-      "aoc"
+      "auc"
     ],
     "runtime_minutes": 115,
     "etoiles": 3,
@@ -4463,7 +4362,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/12",
-      "daysLeft": 90,
+      "daysLeft": 88,
       "expirationDate": "2026-12-29",
       "packageExpirations": {
         "aoc": "2026-12-29"
@@ -4511,7 +4410,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -4559,7 +4458,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/12",
-      "daysLeft": 83,
+      "daysLeft": 81,
       "expirationDate": "2026-12-22",
       "packageExpirations": {
         "aoc": "2026-12-22"
@@ -4608,7 +4507,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -4656,7 +4555,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/10",
-      "daysLeft": 18,
+      "daysLeft": 16,
       "expirationDate": "2026-10-18",
       "packageExpirations": {
         "aoc": "2026-10-18"
@@ -4704,7 +4603,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/12",
-      "daysLeft": 79,
+      "daysLeft": 77,
       "expirationDate": "2026-12-18",
       "packageExpirations": {
         "aoc": "2026-12-18"
@@ -4723,7 +4622,7 @@ const CATALOG_DATA = [
       "fml"
     ],
     "synopsis": "À Bikini Bottom, quelqu'un a volé la couronne du roi Neptune, et le patron de Bob l'éponge, M. Krabs, figure en tête des suspects. Convaincus de son innocence, Bob et Patrick partent pour Shell City avec l'intention de le disculper et de restituer sa couronne à Neptune.",
-    "on_prime": false,
+    "on_prime": true,
     "on_tnt": false
   },
   {
@@ -4754,7 +4653,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/11",
-      "daysLeft": 46,
+      "daysLeft": 44,
       "expirationDate": "2026-11-15",
       "packageExpirations": {
         "aoc": "2026-11-15"
@@ -4798,11 +4697,11 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_ocs.svg"
     ],
-    "duree": "2h 18min",
+    "duree": "2h 17min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 45,
+      "daysLeft": 43,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -4811,13 +4710,13 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 138,
+    "runtime_minutes": 137,
     "etoiles": 5,
     "raw_genres": [
       "drm",
       "hst"
     ],
-    "synopsis": "Rio, 1971, sous la dictature militaire. La grande maison des Paiva, près de la plage, est un havre de vie, de paroles partagées, de jeux, de rencontres. Jusqu’au jour où des hommes du régime viennent arrêter Rubens, le père de famille, qui disparaît sans laisser de traces. Sa femme Eunice et ses cinq enfants mèneront alors un combat acharné pour la recherche de la vérité...",
+    "synopsis": "Rio, 1970, sous la dictature militaire. La grande maison des Paiva, près de la plage, est un havre de vie, de paroles partagées, de jeux, de rencontres. Jusqu’au jour où des hommes du régime viennent arrêter Rubens, le père de famille, qui disparaît sans laisser de traces. Sa femme Eunice et ses cinq enfants mèneront alors un combat acharné pour la recherche de la vérité...",
     "on_prime": false,
     "on_tnt": false
   },
@@ -4849,7 +4748,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -4895,7 +4794,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/10",
-      "daysLeft": 17,
+      "daysLeft": 15,
       "expirationDate": "2026-10-17",
       "packageExpirations": {
         "aoc": "2026-10-17"
@@ -4942,7 +4841,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 72,
+      "daysLeft": 70,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
@@ -4989,7 +4888,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/11",
-      "daysLeft": 58,
+      "daysLeft": 56,
       "expirationDate": "2026-11-27",
       "packageExpirations": {
         "aoc": "2026-11-27"
@@ -5036,8 +4935,8 @@ const CATALOG_DATA = [
     "duree": "2h 35min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 7 j",
-      "daysLeft": 7,
+      "label": "⏳ Expire dans 5 j",
+      "daysLeft": 5,
       "expirationDate": "2026-10-07",
       "packageExpirations": {
         "aoc": "2026-10-07"
@@ -5082,8 +4981,8 @@ const CATALOG_DATA = [
     "duree": "1h 34min",
     "expiration": {
       "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
+      "label": "⏳ Expire demain",
+      "daysLeft": 1,
       "expirationDate": "2026-10-03",
       "packageExpirations": {
         "aoc": "2026-10-03"
@@ -5129,7 +5028,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/11",
-      "daysLeft": 48,
+      "daysLeft": 46,
       "expirationDate": "2026-11-17",
       "packageExpirations": {
         "aoc": "2026-11-17"
@@ -5176,7 +5075,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -5223,8 +5122,8 @@ const CATALOG_DATA = [
     "duree": "1h 54min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 13 j",
-      "daysLeft": 13,
+      "label": "⏳ Expire dans 11 j",
+      "daysLeft": 11,
       "expirationDate": "2026-10-13",
       "packageExpirations": {
         "aoc": "2026-10-13"
@@ -5272,7 +5171,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 72,
+      "daysLeft": 70,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
@@ -5318,7 +5217,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -5367,7 +5266,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/12",
-      "daysLeft": 62,
+      "daysLeft": 60,
       "expirationDate": "2026-12-01",
       "packageExpirations": {
         "aoc": "2026-12-01"
@@ -5415,7 +5314,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/10",
-      "daysLeft": 17,
+      "daysLeft": 15,
       "expirationDate": "2026-10-17",
       "packageExpirations": {
         "aoc": "2026-10-17"
@@ -5461,8 +5360,8 @@ const CATALOG_DATA = [
     "duree": "1h 47min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 14 j",
-      "daysLeft": 14,
+      "label": "⏳ Expire dans 12 j",
+      "daysLeft": 12,
       "expirationDate": "2026-10-14",
       "packageExpirations": {
         "aoc": "2026-10-14"
@@ -5508,8 +5407,8 @@ const CATALOG_DATA = [
     "duree": "1h 47min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 9 j",
-      "daysLeft": 9,
+      "label": "⏳ Expire dans 7 j",
+      "daysLeft": 7,
       "expirationDate": "2026-10-09",
       "packageExpirations": {
         "aoc": "2026-10-09"
@@ -5557,7 +5456,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -5604,7 +5503,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/10",
-      "daysLeft": 26,
+      "daysLeft": 24,
       "expirationDate": "2026-10-26",
       "packageExpirations": {
         "aoc": "2026-10-26"
@@ -5653,7 +5552,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 23/10",
-      "daysLeft": 23,
+      "daysLeft": 21,
       "expirationDate": "2026-10-23",
       "packageExpirations": {
         "aoc": "2026-10-23"
@@ -5701,7 +5600,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/12",
-      "daysLeft": 62,
+      "daysLeft": 60,
       "expirationDate": "2026-12-01",
       "packageExpirations": {
         "aoc": "2026-12-01"
@@ -5748,7 +5647,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -5762,6 +5661,7 @@ const CATALOG_DATA = [
     "raw_genres": [
       "drm",
       "hst",
+      "trl",
       "spt"
     ],
     "synopsis": "Inspiré d’une histoire vraie, Foxcatcher raconte l’histoire tragique et fascinante de la relation improbable entre un milliardaire excentrique et deux champions de lutte.  Lorsque le médaillé d’or olympique Mark Schultz est invité par le riche héritier John du Pont à emménager dans sa magnifique propriété familiale pour aider à mettre en place un camp d’entraînement haut de gamme, dans l’optique des JO de Séoul de 1988, Schultz saute sur l’occasion : il espère pouvoir concentrer toute son attention sur son entraînement et ne plus souffrir d’être constamment éclipsé par son frère, Dave. Obnubilé par d’obscurs besoins, du Pont entend bien profiter de son soutien à Schultz et de son opportunité de « coacher » des lutteurs de réputation mondiale pour obtenir – enfin – le respect de ses pairs et, surtout, de sa mère qui le juge très durement.",
@@ -5796,7 +5696,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -5839,11 +5739,11 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_ocs.svg"
     ],
-    "duree": "1h 47min",
+    "duree": "1h 46min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 13/11",
-      "daysLeft": 44,
+      "daysLeft": 42,
       "expirationDate": "2026-11-13",
       "packageExpirations": {
         "aoc": "2026-11-13"
@@ -5852,7 +5752,7 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 107,
+    "runtime_minutes": 106,
     "etoiles": 4,
     "raw_genres": [
       "drm",
@@ -5890,7 +5790,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/11",
-      "daysLeft": 37,
+      "daysLeft": 35,
       "expirationDate": "2026-11-06",
       "packageExpirations": {
         "aoc": "2026-11-06"
@@ -5939,7 +5839,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/10",
-      "daysLeft": 27,
+      "daysLeft": 25,
       "expirationDate": "2026-10-27",
       "packageExpirations": {
         "aoc": "2026-10-27"
@@ -5988,7 +5888,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/10",
-      "daysLeft": 30,
+      "daysLeft": 28,
       "expirationDate": "2026-10-30",
       "packageExpirations": {
         "aoc": "2026-10-30"
@@ -6029,11 +5929,11 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_ocs.svg"
     ],
-    "duree": "2h 49min",
+    "duree": "2h 50min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/11",
-      "daysLeft": 40,
+      "daysLeft": 38,
       "expirationDate": "2026-11-09",
       "packageExpirations": {
         "aoc": "2026-11-09"
@@ -6042,7 +5942,7 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 169,
+    "runtime_minutes": 170,
     "etoiles": 5,
     "raw_genres": [
       "act",
@@ -6078,7 +5978,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 65,
+      "daysLeft": 63,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
@@ -6124,7 +6024,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/11",
-      "daysLeft": 38,
+      "daysLeft": 36,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "aoc": "2026-11-07"
@@ -6168,7 +6068,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 52,
+      "daysLeft": 50,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
@@ -6214,7 +6114,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/11",
-      "daysLeft": 32,
+      "daysLeft": 30,
       "expirationDate": "2026-11-01",
       "packageExpirations": {
         "aoc": "2026-11-01"
@@ -6259,8 +6159,8 @@ const CATALOG_DATA = [
     "duree": "1h 45min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 14 j",
-      "daysLeft": 14,
+      "label": "⏳ Expire dans 12 j",
+      "daysLeft": 12,
       "expirationDate": "2026-10-14",
       "packageExpirations": {
         "aoc": "2026-10-14"
@@ -6305,7 +6205,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 72,
+      "daysLeft": 70,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
@@ -6349,7 +6249,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 45,
+      "daysLeft": 43,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -6394,7 +6294,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/01",
-      "daysLeft": 106,
+      "daysLeft": 104,
       "expirationDate": "2027-01-14",
       "packageExpirations": {
         "aoc": "2027-01-14"
@@ -6439,7 +6339,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 45,
+      "daysLeft": 43,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -6485,7 +6385,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/10",
-      "daysLeft": 25,
+      "daysLeft": 23,
       "expirationDate": "2026-10-25",
       "packageExpirations": {
         "aoc": "2026-10-25"
@@ -6531,7 +6431,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 92,
+      "daysLeft": 90,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -6574,9 +6474,9 @@ const CATALOG_DATA = [
     "badge": null,
     "duree": "1h 20min",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 16/10",
-      "daysLeft": 16,
+      "status": "warning",
+      "label": "⏳ Expire dans 14 j",
+      "daysLeft": 14,
       "expirationDate": "2026-10-16",
       "packageExpirations": {
         "aoc": "2026-10-16"
@@ -6621,7 +6521,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 13/11",
-      "daysLeft": 44,
+      "daysLeft": 42,
       "expirationDate": "2026-11-13",
       "packageExpirations": {
         "aoc": "2026-11-13"
@@ -6666,7 +6566,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 45,
+      "daysLeft": 43,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -6713,7 +6613,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/12",
-      "daysLeft": 63,
+      "daysLeft": 61,
       "expirationDate": "2026-12-02",
       "packageExpirations": {
         "aoc": "2026-12-02"
@@ -6760,7 +6660,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/12",
-      "daysLeft": 89,
+      "daysLeft": 87,
       "expirationDate": "2026-12-28",
       "packageExpirations": {
         "aoc": "2026-12-28"
@@ -6805,7 +6705,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 20/10",
-      "daysLeft": 20,
+      "daysLeft": 18,
       "expirationDate": "2026-10-20",
       "packageExpirations": {
         "aoc": "2026-10-20"
@@ -6850,7 +6750,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 20/10",
-      "daysLeft": 20,
+      "daysLeft": 18,
       "expirationDate": "2026-10-20",
       "packageExpirations": {
         "aoc": "2026-10-20"
@@ -6894,7 +6794,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 45,
+      "daysLeft": 43,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -6938,7 +6838,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 75,
+      "daysLeft": 73,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "aoc": "2026-12-14"
@@ -6983,7 +6883,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/12",
-      "daysLeft": 64,
+      "daysLeft": 62,
       "expirationDate": "2026-12-03",
       "packageExpirations": {
         "aoc": "2026-12-03"
@@ -7028,7 +6928,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/12",
-      "daysLeft": 70,
+      "daysLeft": 68,
       "expirationDate": "2026-12-09",
       "packageExpirations": {
         "aoc": "2026-12-09"
@@ -7073,7 +6973,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -7120,7 +7020,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -7168,7 +7068,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 65,
+      "daysLeft": 63,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
@@ -7214,7 +7114,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/10",
-      "daysLeft": 27,
+      "daysLeft": 25,
       "expirationDate": "2026-10-27",
       "packageExpirations": {
         "aoc": "2026-10-27"
@@ -7259,7 +7159,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/12",
-      "daysLeft": 73,
+      "daysLeft": 71,
       "expirationDate": "2026-12-12",
       "packageExpirations": {
         "aoc": "2026-12-12"
@@ -7304,7 +7204,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/11",
-      "daysLeft": 60,
+      "daysLeft": 58,
       "expirationDate": "2026-11-29",
       "packageExpirations": {
         "aoc": "2026-11-29"
@@ -7348,7 +7248,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/01",
-      "daysLeft": 96,
+      "daysLeft": 94,
       "expirationDate": "2027-01-04",
       "packageExpirations": {
         "aoc": "2027-01-04"
@@ -7392,7 +7292,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/11",
-      "daysLeft": 53,
+      "daysLeft": 51,
       "expirationDate": "2026-11-22",
       "packageExpirations": {
         "aoc": "2026-11-22"
@@ -7437,7 +7337,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/12",
-      "daysLeft": 64,
+      "daysLeft": 62,
       "expirationDate": "2026-12-03",
       "packageExpirations": {
         "aoc": "2026-12-03"
@@ -7481,8 +7381,8 @@ const CATALOG_DATA = [
     "duree": "1h 42min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 11 j",
-      "daysLeft": 11,
+      "label": "⏳ Expire dans 9 j",
+      "daysLeft": 9,
       "expirationDate": "2026-10-11",
       "packageExpirations": {
         "aoc": "2026-10-11"
@@ -7528,7 +7428,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/11",
-      "daysLeft": 34,
+      "daysLeft": 32,
       "expirationDate": "2026-11-03",
       "packageExpirations": {
         "aoc": "2026-11-03"
@@ -7573,7 +7473,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/10",
-      "daysLeft": 18,
+      "daysLeft": 16,
       "expirationDate": "2026-10-18",
       "packageExpirations": {
         "aoc": "2026-10-18"
@@ -7617,7 +7517,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/12",
-      "daysLeft": 88,
+      "daysLeft": 86,
       "expirationDate": "2026-12-27",
       "packageExpirations": {
         "aoc": "2026-12-27"
@@ -7663,7 +7563,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/12",
-      "daysLeft": 68,
+      "daysLeft": 66,
       "expirationDate": "2026-12-07",
       "packageExpirations": {
         "aoc": "2026-12-07"
@@ -7707,7 +7607,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -7749,9 +7649,9 @@ const CATALOG_DATA = [
     "badge": null,
     "duree": "1h 59min",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 15/10",
-      "daysLeft": 15,
+      "status": "warning",
+      "label": "⏳ Expire dans 13 j",
+      "daysLeft": 13,
       "expirationDate": "2026-10-15",
       "packageExpirations": {
         "aoc": "2026-10-15"
@@ -7796,7 +7696,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -7886,7 +7786,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -7931,7 +7831,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/11",
-      "daysLeft": 46,
+      "daysLeft": 44,
       "expirationDate": "2026-11-15",
       "packageExpirations": {
         "aoc": "2026-11-15"
@@ -7975,7 +7875,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/12",
-      "daysLeft": 77,
+      "daysLeft": 75,
       "expirationDate": "2026-12-16",
       "packageExpirations": {
         "aoc": "2026-12-16"
@@ -8019,7 +7919,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/12",
-      "daysLeft": 62,
+      "daysLeft": 60,
       "expirationDate": "2026-12-01",
       "packageExpirations": {
         "aoc": "2026-12-01"
@@ -8063,7 +7963,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/01",
-      "daysLeft": 103,
+      "daysLeft": 101,
       "expirationDate": "2027-01-11",
       "packageExpirations": {
         "aoc": "2027-01-11"
@@ -8107,7 +8007,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/11",
-      "daysLeft": 41,
+      "daysLeft": 39,
       "expirationDate": "2026-11-10",
       "packageExpirations": {
         "aoc": "2026-11-10"
@@ -8151,7 +8051,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/12",
-      "daysLeft": 70,
+      "daysLeft": 68,
       "expirationDate": "2026-12-09",
       "packageExpirations": {
         "aoc": "2026-12-09"
@@ -8196,7 +8096,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/12",
-      "daysLeft": 63,
+      "daysLeft": 61,
       "expirationDate": "2026-12-02",
       "packageExpirations": {
         "aoc": "2026-12-02"
@@ -8242,7 +8142,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/12",
-      "daysLeft": 86,
+      "daysLeft": 84,
       "expirationDate": "2026-12-25",
       "packageExpirations": {
         "aoc": "2026-12-25"
@@ -8289,7 +8189,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -8337,7 +8237,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/11",
-      "daysLeft": 50,
+      "daysLeft": 48,
       "expirationDate": "2026-11-19",
       "packageExpirations": {
         "aoc": "2026-11-19"
@@ -8383,7 +8283,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -8428,8 +8328,8 @@ const CATALOG_DATA = [
     "duree": "1h 42min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 9 j",
-      "daysLeft": 9,
+      "label": "⏳ Expire dans 7 j",
+      "daysLeft": 7,
       "expirationDate": "2026-10-09",
       "packageExpirations": {
         "aoc": "2026-10-09"
@@ -8476,7 +8376,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/10",
-      "daysLeft": 21,
+      "daysLeft": 19,
       "expirationDate": "2026-10-21",
       "packageExpirations": {
         "aoc": "2026-10-21"
@@ -8522,7 +8422,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 65,
+      "daysLeft": 63,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
@@ -8566,7 +8466,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/10",
-      "daysLeft": 24,
+      "daysLeft": 22,
       "expirationDate": "2026-10-24",
       "packageExpirations": {
         "aoc": "2026-10-24"
@@ -8611,7 +8511,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/11",
-      "daysLeft": 33,
+      "daysLeft": 31,
       "expirationDate": "2026-11-02",
       "packageExpirations": {
         "aoc": "2026-11-02"
@@ -8655,7 +8555,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/12",
-      "daysLeft": 71,
+      "daysLeft": 69,
       "expirationDate": "2026-12-10",
       "packageExpirations": {
         "aoc": "2026-12-10"
@@ -8700,9 +8600,9 @@ const CATALOG_DATA = [
     "badge": null,
     "duree": "1h 55min",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
+      "status": "urgent",
+      "label": "⏳ Expire dans 2 j",
+      "daysLeft": 2,
       "expirationDate": "2026-10-04",
       "packageExpirations": {
         "aoc": "2026-10-04"
@@ -8748,7 +8648,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 92,
+      "daysLeft": 90,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -8794,7 +8694,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -8840,7 +8740,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/12",
-      "daysLeft": 69,
+      "daysLeft": 67,
       "expirationDate": "2026-12-08",
       "packageExpirations": {
         "aoc": "2026-12-08"
@@ -8886,7 +8786,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/12",
-      "daysLeft": 64,
+      "daysLeft": 62,
       "expirationDate": "2026-12-03",
       "packageExpirations": {
         "aoc": "2026-12-03"
@@ -8932,8 +8832,8 @@ const CATALOG_DATA = [
     "duree": "1h 34min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 7 j",
-      "daysLeft": 7,
+      "label": "⏳ Expire dans 5 j",
+      "daysLeft": 5,
       "expirationDate": "2026-10-07",
       "packageExpirations": {
         "aoc": "2026-10-07"
@@ -8978,8 +8878,8 @@ const CATALOG_DATA = [
     "duree": "1h 30min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 10 j",
-      "daysLeft": 10,
+      "label": "⏳ Expire dans 8 j",
+      "daysLeft": 8,
       "expirationDate": "2026-10-10",
       "packageExpirations": {
         "aoc": "2026-10-10"
@@ -8995,7 +8895,7 @@ const CATALOG_DATA = [
       "eur"
     ],
     "synopsis": "Pour s’en sortir financièrement, Willy et son pote Tony, endettés de naissance, ont une idée de génie : voler un chien de la brigade des stups. Mais, les choses ne se passent pas tout à fait comme ils l’avaient prévu. La seule solution : s’associer avec Caro, une flic totalement corrompue.",
-    "on_prime": false,
+    "on_prime": true,
     "on_tnt": false
   },
   {
@@ -9024,7 +8924,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -9071,7 +8971,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -9116,7 +9016,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -9163,7 +9063,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -9208,7 +9108,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 52,
+      "daysLeft": 50,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
@@ -9253,7 +9153,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/10",
-      "daysLeft": 28,
+      "daysLeft": 26,
       "expirationDate": "2026-10-28",
       "packageExpirations": {
         "aoc": "2026-10-28"
@@ -9299,7 +9199,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -9346,7 +9246,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -9391,7 +9291,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/10",
-      "daysLeft": 28,
+      "daysLeft": 26,
       "expirationDate": "2026-10-28",
       "packageExpirations": {
         "aoc": "2026-10-28"
@@ -9440,7 +9340,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/11",
-      "daysLeft": 36,
+      "daysLeft": 34,
       "expirationDate": "2026-11-05",
       "packageExpirations": {
         "aoc": "2026-11-05"
@@ -9487,7 +9387,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -9534,7 +9434,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -9579,8 +9479,8 @@ const CATALOG_DATA = [
     "duree": "2h 06min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 14 j",
-      "daysLeft": 14,
+      "label": "⏳ Expire dans 12 j",
+      "daysLeft": 12,
       "expirationDate": "2026-10-14",
       "packageExpirations": {
         "aoc": "2026-10-14"
@@ -9625,7 +9525,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -9670,7 +9570,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/10",
-      "daysLeft": 25,
+      "daysLeft": 23,
       "expirationDate": "2026-10-25",
       "packageExpirations": {
         "aoc": "2026-10-25"
@@ -9715,7 +9615,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -9760,7 +9660,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -9806,7 +9706,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "auc": "2026-11-30"
@@ -9898,7 +9798,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -9944,7 +9844,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "auc": "2027-02-28"
@@ -9991,7 +9891,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -10083,7 +9983,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "auc": "2027-02-28"
@@ -10174,7 +10074,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "auc": "2026-10-31"
@@ -10260,7 +10160,7 @@ const CATALOG_DATA = [
       "assets/logos/universal_plus.svg"
     ],
     "badge": null,
-    "duree": "1h 30min",
+    "duree": "1h 35min",
     "expiration": {
       "status": "none",
       "label": null,
@@ -10271,7 +10171,7 @@ const CATALOG_DATA = [
     "package_slugs": [
       "auc"
     ],
-    "runtime_minutes": 90,
+    "runtime_minutes": 95,
     "etoiles": 3,
     "raw_genres": [
       "act",
@@ -10312,7 +10212,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -10361,7 +10261,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28",
@@ -10409,7 +10309,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -10454,7 +10354,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -10546,8 +10446,8 @@ const CATALOG_DATA = [
     "duree": "1h 38min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 7 j",
-      "daysLeft": 7,
+      "label": "⏳ Expire dans 5 j",
+      "daysLeft": 5,
       "expirationDate": "2026-10-07",
       "packageExpirations": {
         "aca": "2026-10-07"
@@ -10593,7 +10493,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -10640,7 +10540,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -10688,7 +10588,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -10733,7 +10633,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -10867,7 +10767,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -10960,7 +10860,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -11006,7 +10906,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -11103,7 +11003,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -11149,7 +11049,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -11195,7 +11095,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -11241,7 +11141,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -11288,7 +11188,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -11334,7 +11234,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -11380,7 +11280,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -11427,7 +11327,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -11474,7 +11374,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -11519,7 +11419,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28",
@@ -11566,7 +11466,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -11611,7 +11511,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -11657,7 +11557,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -11704,7 +11604,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -11752,7 +11652,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/10",
-      "daysLeft": 24,
+      "daysLeft": 22,
       "expirationDate": "2026-10-24",
       "packageExpirations": {
         "aoc": "2026-10-24"
@@ -11802,7 +11702,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -11849,11 +11749,11 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_ocs.svg"
     ],
-    "duree": "1h 48min",
+    "duree": "1h 46min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -11862,10 +11762,9 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 108,
+    "runtime_minutes": 106,
     "etoiles": 4,
     "raw_genres": [
-      "act",
       "ani",
       "cmy",
       "drm",
@@ -11906,7 +11805,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 92,
+      "daysLeft": 90,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -11953,7 +11852,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/11",
-      "daysLeft": 58,
+      "daysLeft": 56,
       "expirationDate": "2026-11-27",
       "packageExpirations": {
         "aoc": "2026-11-27"
@@ -12003,7 +11902,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -12052,7 +11951,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/10",
-      "daysLeft": 19,
+      "daysLeft": 17,
       "expirationDate": "2026-10-19",
       "packageExpirations": {
         "aoc": "2026-10-19"
@@ -12101,7 +12000,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 92,
+      "daysLeft": 90,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -12151,7 +12050,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -12202,7 +12101,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/10",
-      "daysLeft": 30,
+      "daysLeft": 28,
       "expirationDate": "2026-10-30",
       "packageExpirations": {
         "auc": "2026-10-30"
@@ -12250,7 +12149,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 91,
+      "daysLeft": 89,
       "expirationDate": "2026-12-30",
       "packageExpirations": {
         "auc": "2026-12-30"
@@ -12297,7 +12196,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/01",
-      "daysLeft": 97,
+      "daysLeft": 95,
       "expirationDate": "2027-01-05",
       "packageExpirations": {
         "aoc": "2027-01-05"
@@ -12347,7 +12246,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -12395,7 +12294,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 92,
+      "daysLeft": 90,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "auc": "2026-12-31"
@@ -12535,11 +12434,11 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/universal_plus.svg"
     ],
-    "duree": "31 min/ép.",
+    "duree": "24 min/ép.",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 91,
+      "daysLeft": 89,
       "expirationDate": "2026-12-30",
       "packageExpirations": {
         "auc": "2026-12-30"
@@ -12548,7 +12447,7 @@ const CATALOG_DATA = [
     "package_slugs": [
       "auc"
     ],
-    "runtime_minutes": 31,
+    "runtime_minutes": 24,
     "etoiles": 4,
     "raw_genres": [
       "cmy",
@@ -12587,7 +12486,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -12635,7 +12534,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -12683,7 +12582,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "auc": "2027-01-31"
@@ -12730,7 +12629,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -12766,7 +12665,7 @@ const CATALOG_DATA = [
     ],
     "badge": "16",
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/177737631/s592/les-chroniques-de-shannara.jpg",
+    "poster": "https://images.justwatch.com/poster/355069307/s592/les-chroniques-de-shannara.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "chaines": [
       "Universal+"
@@ -12778,7 +12677,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 92,
+      "daysLeft": 90,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "auc": "2026-12-31"
@@ -12828,7 +12727,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 92,
+      "daysLeft": 90,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "auc": "2026-12-31"
@@ -12880,7 +12779,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -12928,7 +12827,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 92,
+      "daysLeft": 90,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "auc": "2026-12-31"
@@ -12977,7 +12876,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -13025,7 +12924,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -13264,7 +13163,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -13313,7 +13212,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -13362,7 +13261,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/10",
-      "daysLeft": 27,
+      "daysLeft": 25,
       "expirationDate": "2026-10-27",
       "packageExpirations": {
         "auc": "2026-10-27"
@@ -13411,7 +13310,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -13458,7 +13357,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "auc": "2026-10-31"
@@ -13507,7 +13406,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 75,
+      "daysLeft": 73,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "auc": "2026-12-14"
@@ -13600,7 +13499,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -13695,7 +13594,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -13742,7 +13641,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 91,
+      "daysLeft": 89,
       "expirationDate": "2026-12-30",
       "packageExpirations": {
         "auc": "2026-12-30"
@@ -14015,7 +13914,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/03",
-      "daysLeft": 165,
+      "daysLeft": 163,
       "expirationDate": "2027-03-14",
       "packageExpirations": {
         "aoc": "2027-03-14"
@@ -14115,7 +14014,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -14297,7 +14196,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/01",
-      "daysLeft": 98,
+      "daysLeft": 96,
       "expirationDate": "2027-01-06",
       "packageExpirations": {
         "aoc": "2027-01-06"
@@ -14352,7 +14251,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/11",
-      "daysLeft": 48,
+      "daysLeft": 46,
       "expirationDate": "2026-11-17",
       "packageExpirations": {
         "aoc": "2026-11-17"
@@ -14397,7 +14296,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -14443,7 +14342,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -14533,7 +14432,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/12",
-      "daysLeft": 90,
+      "daysLeft": 88,
       "expirationDate": "2026-12-29",
       "packageExpirations": {
         "aoc": "2026-12-29"
@@ -14578,7 +14477,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/10",
-      "daysLeft": 22,
+      "daysLeft": 20,
       "expirationDate": "2026-10-22",
       "packageExpirations": {
         "aoc": "2026-10-22"
@@ -14626,7 +14525,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/11",
-      "daysLeft": 40,
+      "daysLeft": 38,
       "expirationDate": "2026-11-09",
       "packageExpirations": {
         "aoc": "2026-11-09"
@@ -14673,7 +14572,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/11",
-      "daysLeft": 43,
+      "daysLeft": 41,
       "expirationDate": "2026-11-12",
       "packageExpirations": {
         "aoc": "2026-11-12"
@@ -14763,7 +14662,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/11",
-      "daysLeft": 32,
+      "daysLeft": 30,
       "expirationDate": "2026-11-01",
       "packageExpirations": {
         "aoc": "2026-11-01"
@@ -14810,7 +14709,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/12",
-      "daysLeft": 76,
+      "daysLeft": 74,
       "expirationDate": "2026-12-15",
       "packageExpirations": {
         "aoc": "2026-12-15"
@@ -14856,8 +14755,8 @@ const CATALOG_DATA = [
     "synopsis": "Deux frères, l'un ancien détenu, l'autre père de famille divorcé, organisent un braquage de banque. À leurs trousses, deux Texas Rangers déterminés à les faire tomber.",
     "expiration": {
       "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
+      "label": "⏳ Expire demain",
+      "daysLeft": 1,
       "expirationDate": "2026-10-03",
       "packageExpirations": {
         "aoc": "2026-10-03"
@@ -14902,7 +14801,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/11",
-      "daysLeft": 50,
+      "daysLeft": 48,
       "expirationDate": "2026-11-19",
       "packageExpirations": {
         "aoc": "2026-11-19"
@@ -14994,7 +14893,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/01",
-      "daysLeft": 95,
+      "daysLeft": 93,
       "expirationDate": "2027-01-03",
       "packageExpirations": {
         "aoc": "2027-01-03"
@@ -15040,7 +14939,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/01",
-      "daysLeft": 106,
+      "daysLeft": 104,
       "expirationDate": "2027-01-14",
       "packageExpirations": {
         "aoc": "2027-01-14"
@@ -15084,7 +14983,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/12",
-      "daysLeft": 76,
+      "daysLeft": 74,
       "expirationDate": "2026-12-15",
       "packageExpirations": {
         "aoc": "2026-12-15"
@@ -15131,7 +15030,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/12",
-      "daysLeft": 73,
+      "daysLeft": 71,
       "expirationDate": "2026-12-12",
       "packageExpirations": {
         "aoc": "2026-12-12"
@@ -15177,7 +15076,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 72,
+      "daysLeft": 70,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
@@ -15223,7 +15122,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -15269,7 +15168,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -15314,7 +15213,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -15359,7 +15258,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -15404,7 +15303,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/10",
-      "daysLeft": 22,
+      "daysLeft": 20,
       "expirationDate": "2026-10-22",
       "packageExpirations": {
         "aoc": "2026-10-22"
@@ -15449,7 +15348,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -15496,7 +15395,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -15541,7 +15440,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -15590,7 +15489,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -15636,7 +15535,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -15681,7 +15580,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 45,
+      "daysLeft": 43,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -15729,7 +15628,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/11",
-      "daysLeft": 41,
+      "daysLeft": 39,
       "expirationDate": "2026-11-10",
       "packageExpirations": {
         "aoc": "2026-11-10"
@@ -15775,7 +15674,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aca": "2026-10-31"
@@ -15862,7 +15761,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/11",
-      "daysLeft": 43,
+      "daysLeft": 41,
       "expirationDate": "2026-11-12",
       "packageExpirations": {
         "aoc": "2026-11-12"
@@ -15909,7 +15808,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 13/11",
-      "daysLeft": 44,
+      "daysLeft": 42,
       "expirationDate": "2026-11-13",
       "packageExpirations": {
         "aoc": "2026-11-13"
@@ -15934,8 +15833,8 @@ const CATALOG_DATA = [
       "auc"
     ],
     "annee": 2025,
-    "duree": "42 min/ép.",
-    "runtime_minutes": 42,
+    "duree": "43 min/ép.",
+    "runtime_minutes": 43,
     "note_avis": 6.3,
     "note_recence": 9.8,
     "note_globale": 8.1,
@@ -16092,7 +15991,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -16181,7 +16080,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 72,
+      "daysLeft": 70,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
@@ -16226,7 +16125,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/11",
-      "daysLeft": 35,
+      "daysLeft": 33,
       "expirationDate": "2026-11-04",
       "packageExpirations": {
         "aoc": "2026-11-04"
@@ -16271,7 +16170,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/11",
-      "daysLeft": 38,
+      "daysLeft": 36,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "aoc": "2026-11-07"
@@ -16316,7 +16215,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/01",
-      "daysLeft": 103,
+      "daysLeft": 101,
       "expirationDate": "2027-01-11",
       "packageExpirations": {
         "aoc": "2027-01-11"
@@ -16405,7 +16304,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 92,
+      "daysLeft": 90,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -16451,7 +16350,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -16476,8 +16375,8 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2016,
-    "duree": "1h 39min",
-    "runtime_minutes": 99,
+    "duree": "1h 37min",
+    "runtime_minutes": 97,
     "note_avis": 6.8,
     "note_recence": 7.7,
     "note_globale": 7.3,
@@ -16495,7 +16394,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -16628,7 +16527,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/11",
-      "daysLeft": 39,
+      "daysLeft": 37,
       "expirationDate": "2026-11-08",
       "packageExpirations": {
         "aoc": "2026-11-08"
@@ -16674,7 +16573,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 65,
+      "daysLeft": 63,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
@@ -16719,7 +16618,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/12",
-      "daysLeft": 80,
+      "daysLeft": 78,
       "expirationDate": "2026-12-19",
       "packageExpirations": {
         "aoc": "2026-12-19"
@@ -16765,7 +16664,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -16809,7 +16708,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -16854,7 +16753,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/11",
-      "daysLeft": 32,
+      "daysLeft": 30,
       "expirationDate": "2026-11-01",
       "packageExpirations": {
         "aoc": "2026-11-01"
@@ -16898,7 +16797,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -16989,7 +16888,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -17033,7 +16932,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/11",
-      "daysLeft": 55,
+      "daysLeft": 53,
       "expirationDate": "2026-11-24",
       "packageExpirations": {
         "aoc": "2026-11-24"
@@ -17079,7 +16978,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -17111,10 +17010,11 @@ const CATALOG_DATA = [
     "note_globale": 6.8,
     "etoiles": 3,
     "categories": [
-      "drame_emotion"
+      "thriller_policier"
     ],
     "raw_genres": [
       "act",
+      "crm",
       "drm",
       "trl"
     ],
@@ -17213,7 +17113,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/11",
-      "daysLeft": 35,
+      "daysLeft": 33,
       "expirationDate": "2026-11-04",
       "packageExpirations": {
         "aoc": "2026-11-04"
@@ -17257,7 +17157,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 52,
+      "daysLeft": 50,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
@@ -17303,7 +17203,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/01",
-      "daysLeft": 95,
+      "daysLeft": 93,
       "expirationDate": "2027-01-03",
       "packageExpirations": {
         "aoc": "2027-01-03"
@@ -17435,7 +17335,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/12",
-      "daysLeft": 70,
+      "daysLeft": 68,
       "expirationDate": "2026-12-09",
       "packageExpirations": {
         "aoc": "2026-12-09"
@@ -17482,7 +17382,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -17528,7 +17428,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -17553,8 +17453,8 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2025,
-    "duree": "2h 29min",
-    "runtime_minutes": 149,
+    "duree": "2h 32min",
+    "runtime_minutes": 152,
     "note_avis": 6.4,
     "note_recence": 9.8,
     "note_globale": 8.1,
@@ -17573,7 +17473,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/12",
-      "daysLeft": 77,
+      "daysLeft": 75,
       "expirationDate": "2026-12-16",
       "packageExpirations": {
         "aoc": "2026-12-16"
@@ -17620,7 +17520,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/11",
-      "daysLeft": 32,
+      "daysLeft": 30,
       "expirationDate": "2026-11-01",
       "packageExpirations": {
         "aoc": "2026-11-01"
@@ -17666,8 +17566,8 @@ const CATALOG_DATA = [
     "synopsis": "Lorsque la carrière de sa mère l'entraîne à Pékin en Chine, le jeune Dre Parker doit faire face à des changements radicaux. Au bout de quelques jours, il se retrouve mêlé à une altercation au sein de son école, impliquant Cheng, l'un des garçons les plus doués en kung-fu et qui lui fait définitivement perdre le respect de ses camarades de classe. Témoin de cet affrontement, M. Han, professeur de kung-fu à la retraite, embauché par les Parker comme chauffeur et assistant, décide d'aider Dre à regagner le respect de son entourage.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 14 j",
-      "daysLeft": 14,
+      "label": "⏳ Expire dans 12 j",
+      "daysLeft": 12,
       "expirationDate": "2026-10-14",
       "packageExpirations": {
         "aoc": "2026-10-14"
@@ -17715,51 +17615,6 @@ const CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1660393",
-    "titre": "La Petite cuisine de Mehdi",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2025,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 6,
-    "note_recence": 9.8,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/343118450/s592/la-petite-cuisine-de-mehdi.jpg",
-    "synopsis": "Mehdi est sur un fil. Il joue le rôle du fils algérien parfait devant sa mère Fatima, tout en lui cachant sa relation avec Léa ainsi que sa passion pour la gastronomie française. Il est chef dans un bistrot qu’il s’apprête à racheter avec Léa. Mais celle-ci n’en peut plus de ses cachoteries et exige de rencontrer Fatima. Au pied du mur, Mehdi va trouver la pire des solutions.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 2 j",
-      "daysLeft": 2,
-      "expirationDate": "2026-10-02",
-      "packageExpirations": {
-        "aoc": "2026-10-02"
-      }
     },
     "on_prime": false,
     "on_tnt": false
@@ -17824,8 +17679,8 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2011,
-    "duree": "1h 19min",
-    "runtime_minutes": 79,
+    "duree": "1h 20min",
+    "runtime_minutes": 80,
     "note_avis": 7.1,
     "note_recence": 6.5,
     "note_globale": 6.8,
@@ -17930,7 +17785,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/11",
-      "daysLeft": 38,
+      "daysLeft": 36,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "aoc": "2026-11-07"
@@ -17955,8 +17810,8 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2012,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
+    "duree": "1h 26min",
+    "runtime_minutes": 86,
     "note_avis": 8.2,
     "note_recence": 6.8,
     "note_globale": 7.5,
@@ -18114,8 +17969,8 @@ const CATALOG_DATA = [
     "synopsis": "Après avoir perdu la vue dans un accident de voiture qui a coûté la vie à ses parents, Gina est devenue totalement dépendante de James – une dépendance qui semble nourrir leur amour passionnel. Jusqu’au jour où la jeune femme recouvre partiellement la vue grâce à une greffe de la cornée. Soudain, elle découvre le monde et affirme une volonté d’indépendance qui déstabilise profondément James. Le couple résistera-t-il à ce nouvel équilibre ?",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 11 j",
-      "daysLeft": 11,
+      "label": "⏳ Expire dans 9 j",
+      "daysLeft": 9,
       "expirationDate": "2026-10-11",
       "packageExpirations": {
         "aoc": "2026-10-11"
@@ -18248,7 +18103,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/11",
-      "daysLeft": 41,
+      "daysLeft": 39,
       "expirationDate": "2026-11-10",
       "packageExpirations": {
         "aoc": "2026-11-10"
@@ -18294,7 +18149,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -18390,7 +18245,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 52,
+      "daysLeft": 50,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
@@ -18435,7 +18290,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/11",
-      "daysLeft": 38,
+      "daysLeft": 36,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "aoc": "2026-11-07"
@@ -18483,7 +18338,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -18528,7 +18383,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/12",
-      "daysLeft": 90,
+      "daysLeft": 88,
       "expirationDate": "2026-12-29",
       "packageExpirations": {
         "aoc": "2026-12-29"
@@ -18706,7 +18561,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/10",
-      "daysLeft": 29,
+      "daysLeft": 27,
       "expirationDate": "2026-10-29",
       "packageExpirations": {
         "aoc": "2026-10-29"
@@ -18752,7 +18607,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/01",
-      "daysLeft": 104,
+      "daysLeft": 102,
       "expirationDate": "2027-01-12",
       "packageExpirations": {
         "aoc": "2027-01-12"
@@ -18842,7 +18697,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -18930,7 +18785,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/11",
-      "daysLeft": 59,
+      "daysLeft": 57,
       "expirationDate": "2026-11-28",
       "packageExpirations": {
         "aoc": "2026-11-28"
@@ -18977,7 +18832,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -19023,7 +18878,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 52,
+      "daysLeft": 50,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
@@ -19071,7 +18926,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/02",
-      "daysLeft": 129,
+      "daysLeft": 127,
       "expirationDate": "2027-02-06",
       "packageExpirations": {
         "aoc": "2027-02-06"
@@ -19161,7 +19016,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/12",
-      "daysLeft": 69,
+      "daysLeft": 67,
       "expirationDate": "2026-12-08",
       "packageExpirations": {
         "aoc": "2026-12-08"
@@ -19208,7 +19063,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -19255,7 +19110,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 23/01",
-      "daysLeft": 115,
+      "daysLeft": 113,
       "expirationDate": "2027-01-23",
       "packageExpirations": {
         "aoc": "2027-01-23"
@@ -19301,7 +19156,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/10",
-      "daysLeft": 30,
+      "daysLeft": 28,
       "expirationDate": "2026-10-30",
       "packageExpirations": {
         "aoc": "2026-10-30"
@@ -19392,7 +19247,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/12",
-      "daysLeft": 77,
+      "daysLeft": 75,
       "expirationDate": "2026-12-16",
       "packageExpirations": {
         "aoc": "2026-12-16"
@@ -19424,9 +19279,10 @@ const CATALOG_DATA = [
     "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
-      "drame_emotion"
+      "action_aventure"
     ],
     "raw_genres": [
+      "act",
       "drm",
       "war"
     ],
@@ -19481,7 +19337,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/11",
-      "daysLeft": 39,
+      "daysLeft": 37,
       "expirationDate": "2026-11-08",
       "packageExpirations": {
         "aoc": "2026-11-08"
@@ -19525,7 +19381,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -19570,7 +19426,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -19615,7 +19471,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/10",
-      "daysLeft": 29,
+      "daysLeft": 27,
       "expirationDate": "2026-10-29",
       "packageExpirations": {
         "aoc": "2026-10-29"
@@ -19661,7 +19517,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/12",
-      "daysLeft": 77,
+      "daysLeft": 75,
       "expirationDate": "2026-12-16",
       "packageExpirations": {
         "aoc": "2026-12-16"
@@ -19752,7 +19608,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/11",
-      "daysLeft": 34,
+      "daysLeft": 32,
       "expirationDate": "2026-11-03",
       "packageExpirations": {
         "aoc": "2026-11-03"
@@ -19798,7 +19654,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 72,
+      "daysLeft": 70,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
@@ -20019,7 +19875,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 13/12",
-      "daysLeft": 74,
+      "daysLeft": 72,
       "expirationDate": "2026-12-13",
       "packageExpirations": {
         "aoc": "2026-12-13"
@@ -20065,7 +19921,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/11",
-      "daysLeft": 37,
+      "daysLeft": 35,
       "expirationDate": "2026-11-06",
       "packageExpirations": {
         "aoc": "2026-11-06"
@@ -20112,7 +19968,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -20158,13 +20014,13 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
     },
-    "on_prime": false,
+    "on_prime": true,
     "on_tnt": true
   },
   {
@@ -20204,7 +20060,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -20250,7 +20106,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/11",
-      "daysLeft": 41,
+      "daysLeft": 39,
       "expirationDate": "2026-11-10",
       "packageExpirations": {
         "aoc": "2026-11-10"
@@ -20338,7 +20194,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/12",
-      "daysLeft": 86,
+      "daysLeft": 84,
       "expirationDate": "2026-12-25",
       "packageExpirations": {
         "aoc": "2026-12-25"
@@ -20382,7 +20238,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/03",
-      "daysLeft": 167,
+      "daysLeft": 165,
       "expirationDate": "2027-03-16",
       "packageExpirations": {
         "aoc": "2027-03-16"
@@ -20428,7 +20284,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -20519,7 +20375,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/12",
-      "daysLeft": 78,
+      "daysLeft": 76,
       "expirationDate": "2026-12-17",
       "packageExpirations": {
         "aoc": "2026-12-17"
@@ -20565,7 +20421,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 92,
+      "daysLeft": 90,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "auc": "2026-12-31"
@@ -20609,7 +20465,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -20655,7 +20511,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -20746,7 +20602,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -20881,7 +20737,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 52,
+      "daysLeft": 50,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
@@ -20969,7 +20825,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/11",
-      "daysLeft": 41,
+      "daysLeft": 39,
       "expirationDate": "2026-11-10",
       "packageExpirations": {
         "aoc": "2026-11-10"
@@ -21014,7 +20870,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -21108,7 +20964,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -21133,8 +20989,8 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2022,
-    "duree": "47 min/ép.",
-    "runtime_minutes": 47,
+    "duree": "46 min/ép.",
+    "runtime_minutes": 46,
     "note_avis": 6,
     "note_recence": 9.1,
     "note_globale": 7.6,
@@ -21152,7 +21008,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 92,
+      "daysLeft": 90,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -21245,7 +21101,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/10",
-      "daysLeft": 30,
+      "daysLeft": 28,
       "expirationDate": "2026-10-30",
       "packageExpirations": {
         "aoc": "2026-10-30"
@@ -21335,7 +21191,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/11",
-      "daysLeft": 50,
+      "daysLeft": 48,
       "expirationDate": "2026-11-19",
       "packageExpirations": {
         "aoc": "2026-11-19"
@@ -21381,7 +21237,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/03",
-      "daysLeft": 167,
+      "daysLeft": 165,
       "expirationDate": "2027-03-16",
       "packageExpirations": {
         "aoc": "2027-03-16"
@@ -21406,8 +21262,8 @@ const CATALOG_DATA = [
       "auc"
     ],
     "annee": 2024,
-    "duree": "44 min/ép.",
-    "runtime_minutes": 44,
+    "duree": "43 min/ép.",
+    "runtime_minutes": 43,
     "note_avis": 5.9,
     "note_recence": 9.5,
     "note_globale": 7.7,
@@ -21514,7 +21370,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/11",
-      "daysLeft": 57,
+      "daysLeft": 55,
       "expirationDate": "2026-11-26",
       "packageExpirations": {
         "aoc": "2026-11-26"
@@ -21559,7 +21415,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/12",
-      "daysLeft": 76,
+      "daysLeft": 74,
       "expirationDate": "2026-12-15",
       "packageExpirations": {
         "aoc": "2026-12-15"
@@ -21605,7 +21461,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -21648,9 +21504,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/335067426/s592/la-vie-de-chateau-mon-enfance-a-versailles.jpg",
     "synopsis": "Violette a 8 ans, du caractère à revendre et un nouveau tuteur ! En effet, depuis la mort de ses parents, elle doit vivre chez son oncle Régis, agent d’entretien au château de Versailles. Lui, c’est un géant bourru, elle une petite fille têtue qui refuse de lui parler et fugue dès qu’elle peut ! Mais dans les coulisses dorées du Roi Soleil ces deux solitaires vont peu à peu s’apprivoiser , apprendre à se connaître, et se découvrir une nouvelle famille...",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
+      "status": "urgent",
+      "label": "⏳ Expire dans 2 j",
+      "daysLeft": 2,
       "expirationDate": "2026-10-04",
       "packageExpirations": {
         "aoc": "2026-10-04"
@@ -21698,7 +21554,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/12",
-      "daysLeft": 88,
+      "daysLeft": 86,
       "expirationDate": "2026-12-27",
       "packageExpirations": {
         "aoc": "2026-12-27"
@@ -21744,7 +21600,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/12",
-      "daysLeft": 85,
+      "daysLeft": 83,
       "expirationDate": "2026-12-24",
       "packageExpirations": {
         "aoc": "2026-12-24"
@@ -21832,7 +21688,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/10",
-      "daysLeft": 24,
+      "daysLeft": 22,
       "expirationDate": "2026-10-24",
       "packageExpirations": {
         "aoc": "2026-10-24"
@@ -21920,7 +21776,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/12",
-      "daysLeft": 69,
+      "daysLeft": 67,
       "expirationDate": "2026-12-08",
       "packageExpirations": {
         "aoc": "2026-12-08"
@@ -21947,7 +21803,7 @@ const CATALOG_DATA = [
     "annee": 2025,
     "duree": "1h 06min",
     "runtime_minutes": 66,
-    "note_avis": 6.6,
+    "note_avis": 6.5,
     "note_recence": 9.8,
     "note_globale": 8.2,
     "etoiles": 5,
@@ -22051,7 +21907,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/11",
-      "daysLeft": 56,
+      "daysLeft": 54,
       "expirationDate": "2026-11-25",
       "packageExpirations": {
         "aoc": "2026-11-25"
@@ -22098,7 +21954,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/10",
-      "daysLeft": 17,
+      "daysLeft": 15,
       "expirationDate": "2026-10-17",
       "packageExpirations": {
         "aca": "2026-10-17"
@@ -22144,7 +22000,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -22189,7 +22045,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/11",
-      "daysLeft": 57,
+      "daysLeft": 55,
       "expirationDate": "2026-11-26",
       "packageExpirations": {
         "aoc": "2026-11-26"
@@ -22319,7 +22175,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/12",
-      "daysLeft": 64,
+      "daysLeft": 62,
       "expirationDate": "2026-12-03",
       "packageExpirations": {
         "aoc": "2026-12-03"
@@ -22364,7 +22220,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "auc": "2027-02-28"
@@ -22408,7 +22264,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "aoc": "2026-12-05"
@@ -22498,7 +22354,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -22544,7 +22400,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -22675,7 +22531,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -22720,7 +22576,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/10",
-      "daysLeft": 19,
+      "daysLeft": 17,
       "expirationDate": "2026-10-19",
       "packageExpirations": {
         "aca": "2026-10-19"
@@ -22765,7 +22621,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/10",
-      "daysLeft": 24,
+      "daysLeft": 22,
       "expirationDate": "2026-10-24",
       "packageExpirations": {
         "aca": "2026-10-24"
@@ -22811,7 +22667,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/11",
-      "daysLeft": 34,
+      "daysLeft": 32,
       "expirationDate": "2026-11-03",
       "packageExpirations": {
         "aoc": "2026-11-03"
@@ -22857,7 +22713,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/03",
-      "daysLeft": 167,
+      "daysLeft": 165,
       "expirationDate": "2027-03-16",
       "packageExpirations": {
         "aoc": "2027-03-16"
@@ -22944,7 +22800,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/11",
-      "daysLeft": 38,
+      "daysLeft": 36,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "aoc": "2026-11-07"
@@ -23031,7 +22887,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/12",
-      "daysLeft": 69,
+      "daysLeft": 67,
       "expirationDate": "2026-12-08",
       "packageExpirations": {
         "aoc": "2026-12-08"
@@ -23077,7 +22933,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -23168,7 +23024,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -23257,7 +23113,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/12",
-      "daysLeft": 73,
+      "daysLeft": 71,
       "expirationDate": "2026-12-12",
       "packageExpirations": {
         "aoc": "2026-12-12"
@@ -23302,7 +23158,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/10",
-      "daysLeft": 29,
+      "daysLeft": 27,
       "expirationDate": "2026-10-29",
       "packageExpirations": {
         "aoc": "2026-10-29"
@@ -23350,7 +23206,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -23438,7 +23294,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -23487,7 +23343,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28",
@@ -23579,7 +23435,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/11",
-      "daysLeft": 43,
+      "daysLeft": 41,
       "expirationDate": "2026-11-12",
       "packageExpirations": {
         "aoc": "2026-11-12"
@@ -23625,7 +23481,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -23671,7 +23527,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "auc": "2026-10-31"
@@ -23803,7 +23659,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/01",
-      "daysLeft": 104,
+      "daysLeft": 102,
       "expirationDate": "2027-01-12",
       "packageExpirations": {
         "aoc": "2027-01-12"
@@ -23849,7 +23705,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -23896,7 +23752,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -23941,7 +23797,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/12",
-      "daysLeft": 88,
+      "daysLeft": 86,
       "expirationDate": "2026-12-27",
       "packageExpirations": {
         "aoc": "2026-12-27"
@@ -24028,8 +23884,8 @@ const CATALOG_DATA = [
     "synopsis": "Militant révolutionnaire, dandy, voyou, majordome ou sans abri, il fut tout à la fois un poète enragé et belliqueux, un agitateur politique et le romancier de sa propre grandeur. La vie d’Edouard Limonov, telle une traînée de soufre, est une ballade à travers les rues agitées de Moscou et les gratte-ciels de New-York, des ruelles de Paris au cœur des geôles de Sibérie pendant la seconde moitié du XXe siècle.",
     "expiration": {
       "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
+      "label": "⏳ Expire demain",
+      "daysLeft": 1,
       "expirationDate": "2026-10-03",
       "packageExpirations": {
         "aoc": "2026-10-03"
@@ -24075,7 +23931,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "auc": "2027-01-31"
@@ -24120,7 +23976,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -24164,7 +24020,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 52,
+      "daysLeft": 50,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
@@ -24210,7 +24066,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -24299,7 +24155,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/12",
-      "daysLeft": 87,
+      "daysLeft": 85,
       "expirationDate": "2026-12-26",
       "packageExpirations": {
         "aoc": "2026-12-26"
@@ -24344,7 +24200,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 65,
+      "daysLeft": 63,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
@@ -24436,7 +24292,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/11",
-      "daysLeft": 59,
+      "daysLeft": 57,
       "expirationDate": "2026-11-28",
       "packageExpirations": {
         "aoc": "2026-11-28"
@@ -24482,7 +24338,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -24658,7 +24514,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -24702,7 +24558,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -24748,7 +24604,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/12",
-      "daysLeft": 62,
+      "daysLeft": 60,
       "expirationDate": "2026-12-01",
       "packageExpirations": {
         "aoc": "2026-12-01"
@@ -24793,7 +24649,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/10",
-      "daysLeft": 21,
+      "daysLeft": 19,
       "expirationDate": "2026-10-21",
       "packageExpirations": {
         "aoc": "2026-10-21"
@@ -25017,7 +24873,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -25110,8 +24966,8 @@ const CATALOG_DATA = [
     "synopsis": "Bobbie traverse seule le désert lorsqu'elle est entraînée dans un jeu du chat et de la souris avec un shérif psychopathe. La poursuite s'intensifie jusqu'à devenir insoutenable. La jeune femme va devoir tout tenter pour prendre l’avantage, et survivre.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 10 j",
-      "daysLeft": 10,
+      "label": "⏳ Expire dans 8 j",
+      "daysLeft": 8,
       "expirationDate": "2026-10-10",
       "packageExpirations": {
         "aoc": "2026-10-10"
@@ -25157,7 +25013,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 65,
+      "daysLeft": 63,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
@@ -25203,7 +25059,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -25248,7 +25104,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/01",
-      "daysLeft": 109,
+      "daysLeft": 107,
       "expirationDate": "2027-01-17",
       "packageExpirations": {
         "aoc": "2027-01-17"
@@ -25294,7 +25150,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "aoc": "2026-12-05"
@@ -25340,7 +25196,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 92,
+      "daysLeft": 90,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -25384,8 +25240,8 @@ const CATALOG_DATA = [
     "synopsis": "1986. Maria, militante révolutionnaire guatémaltèque, est depuis des années exilée à Mexico où elle poursuit son action politique. Alors que son fils de 11 ans vient vivre avec elle, elle devra faire un choix cornélien entre son rôle de mère ou d’activiste.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 12 j",
-      "daysLeft": 12,
+      "label": "⏳ Expire dans 10 j",
+      "daysLeft": 10,
       "expirationDate": "2026-10-12",
       "packageExpirations": {
         "aoc": "2026-10-12"
@@ -25431,7 +25287,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -25518,7 +25374,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -25564,7 +25420,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -25609,7 +25465,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/12",
-      "daysLeft": 62,
+      "daysLeft": 60,
       "expirationDate": "2026-12-01",
       "packageExpirations": {
         "aoc": "2026-12-01"
@@ -25656,7 +25512,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 91,
+      "daysLeft": 89,
       "expirationDate": "2026-12-30",
       "packageExpirations": {
         "aoc": "2026-12-30"
@@ -25701,8 +25557,8 @@ const CATALOG_DATA = [
     "synopsis": "Paris, un soir au mois d'août. Un garçon rencontre une fille. Ils ont le même âge, mais n'appartiennent pas au même monde. Félix travaille, Alma part en vacances le lendemain. Qu'à cela ne tienne. Félix décide de rejoindre Alma à l'autre bout de la France. Par surprise. Il embarque son ami Chérif, parce qu'à deux c'est plus drôle. Et comme ils n'ont pas de voiture, ils font le voyage avec Édouard. Évidemment, rien ne se passe comme prévu. Peut-il en être autrement quand on prend ses rêves pour la réalité ?",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 7 j",
-      "daysLeft": 7,
+      "label": "⏳ Expire dans 5 j",
+      "daysLeft": 5,
       "expirationDate": "2026-10-07",
       "packageExpirations": {
         "aoc": "2026-10-07"
@@ -25920,7 +25776,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -25965,7 +25821,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -26054,7 +25910,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -26100,7 +25956,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -26145,7 +26001,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -26191,7 +26047,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -26279,7 +26135,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/11",
-      "daysLeft": 37,
+      "daysLeft": 35,
       "expirationDate": "2026-11-06",
       "packageExpirations": {
         "aoc": "2026-11-06"
@@ -26324,8 +26180,8 @@ const CATALOG_DATA = [
     "synopsis": "En 1930, Antoine de Saint-Exupéry est pilote de l’Aéropostale en Argentine. Quand Henri Guillaumet, son meilleur ami et le meilleur pilote, disparaît dans la Cordillère des Andes, Saint-Ex décide malgré tout de partir à sa recherche. Cette quête impossible l'oblige à se dépasser, en faisant de sa capacité à rêver sa plus grande force.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 10 j",
-      "daysLeft": 10,
+      "label": "⏳ Expire dans 8 j",
+      "daysLeft": 8,
       "expirationDate": "2026-10-10",
       "packageExpirations": {
         "aoc": "2026-10-10"
@@ -26413,7 +26269,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -26459,7 +26315,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/11",
-      "daysLeft": 38,
+      "daysLeft": 36,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "aoc": "2026-11-07"
@@ -26591,7 +26447,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "aoc": "2026-12-05"
@@ -26637,7 +26493,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -26683,7 +26539,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -26772,7 +26628,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -26904,13 +26760,13 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
       }
     },
-    "on_prime": false,
+    "on_prime": true,
     "on_tnt": true
   },
   {
@@ -26996,7 +26852,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -27130,7 +26986,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -27155,8 +27011,8 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2025,
-    "duree": "44 min/ép.",
-    "runtime_minutes": 44,
+    "duree": "45 min/ép.",
+    "runtime_minutes": 45,
     "note_avis": 5.7,
     "note_recence": 9.8,
     "note_globale": 7.8,
@@ -27259,7 +27115,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/12",
-      "daysLeft": 63,
+      "daysLeft": 61,
       "expirationDate": "2026-12-02",
       "packageExpirations": {
         "aoc": "2026-12-02"
@@ -27304,7 +27160,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -27349,7 +27205,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "auc": "2026-11-30"
@@ -27394,7 +27250,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 92,
+      "daysLeft": 90,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "auc": "2026-12-31"
@@ -27437,8 +27293,8 @@ const CATALOG_DATA = [
     "synopsis": "Réda vit chez ses parents dans un quartier bourgeois d'Alger, et occupe un poste dans la plus grande entreprise d’hydrocarbures du pays que dirige son père, Youcef, un homme charismatique et autoritaire. Mais sous ce vernis de réussite apparent, Réda dissimule un mal-être profond : il vit dans l’ombre de son père et ne sait pas lui dire non. Son frère Fayçal mène au contraire une rébellion ouverte contre Youcef, et finit par quitter définitivement le domicile familial, laissant Réda face à sa solitude et sa frustration. Un jour le père meurt et un événement inattendu se produit : le reflet de Réda disparaît du miroir.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 6 j",
-      "daysLeft": 6,
+      "label": "⏳ Expire dans 4 j",
+      "daysLeft": 4,
       "expirationDate": "2026-10-06",
       "packageExpirations": {
         "aoc": "2026-10-06"
@@ -27485,7 +27341,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -27510,8 +27366,8 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2015,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
+    "duree": "1h 30min",
+    "runtime_minutes": 90,
     "note_avis": 6,
     "note_recence": 7.5,
     "note_globale": 6.8,
@@ -27520,7 +27376,6 @@ const CATALOG_DATA = [
       "animation_famille"
     ],
     "raw_genres": [
-      "act",
       "ani",
       "cmy",
       "fnt",
@@ -27533,7 +27388,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/12",
-      "daysLeft": 79,
+      "daysLeft": 77,
       "expirationDate": "2026-12-18",
       "packageExpirations": {
         "aoc": "2026-12-18"
@@ -27624,7 +27479,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -27670,7 +27525,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -27739,8 +27594,8 @@ const CATALOG_DATA = [
       "auc"
     ],
     "annee": 2018,
-    "duree": "19 min/ép.",
-    "runtime_minutes": 19,
+    "duree": "17 min/ép.",
+    "runtime_minutes": 17,
     "note_avis": 6,
     "note_recence": 8.2,
     "note_globale": 7.1,
@@ -27847,7 +27702,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/11",
-      "daysLeft": 59,
+      "daysLeft": 57,
       "expirationDate": "2026-11-28",
       "packageExpirations": {
         "aoc": "2026-11-28"
@@ -27894,7 +27749,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -27985,7 +27840,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -28030,7 +27885,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/01",
-      "daysLeft": 104,
+      "daysLeft": 102,
       "expirationDate": "2027-01-12",
       "packageExpirations": {
         "aoc": "2027-01-12"
@@ -28077,7 +27932,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -28253,7 +28108,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -28387,7 +28242,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -28499,8 +28354,8 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2016,
-    "duree": "23 min/ép.",
-    "runtime_minutes": 23,
+    "duree": "24 min/ép.",
+    "runtime_minutes": 24,
     "note_avis": 7.5,
     "note_recence": 7.7,
     "note_globale": 7.6,
@@ -28565,7 +28420,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "auc": "2027-01-31"
@@ -28695,7 +28550,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -28787,7 +28642,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/11",
-      "daysLeft": 50,
+      "daysLeft": 48,
       "expirationDate": "2026-11-19",
       "packageExpirations": {
         "aoc": "2026-11-19"
@@ -28877,7 +28732,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/11",
-      "daysLeft": 36,
+      "daysLeft": 34,
       "expirationDate": "2026-11-05",
       "packageExpirations": {
         "aoc": "2026-11-05"
@@ -28923,7 +28778,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -29014,7 +28869,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/12",
-      "daysLeft": 86,
+      "daysLeft": 84,
       "expirationDate": "2026-12-25",
       "packageExpirations": {
         "aoc": "2026-12-25"
@@ -29059,7 +28914,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -29103,7 +28958,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -29238,7 +29093,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -29283,7 +29138,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -29592,7 +29447,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -29725,7 +29580,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -29816,7 +29671,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -29862,7 +29717,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -29953,8 +29808,8 @@ const CATALOG_DATA = [
     "synopsis": "Ce drame familial historique raconte un pan de la vie d’une petite fille juive allemande, dont l’existence heureuse et insouciante est bouleversée par la montée au pouvoir d’Hitler à Berlin en 1933. Âgée de 9 ans, intuitive et sensible, elle pressent la catastrophe à venir en se réfugiant dans son univers d’enfant. Lorsqu’elle doit partir à l’étranger rejoindre secrètement son père, auteur de théâtre inscrit sur la liste noire, elle comprend que sa vie ne sera plus jamais la même. Lors de son périple, elle apprend l’exil et la perte de ses racines. En adaptant le roman pour enfants à succès, semi-autobiographique, de Judith Kerr, la cinéaste oscarisée Caroline Link signe un film émouvant sur la famille et l’enfance.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 11 j",
-      "daysLeft": 11,
+      "label": "⏳ Expire dans 9 j",
+      "daysLeft": 9,
       "expirationDate": "2026-10-11",
       "packageExpirations": {
         "aoc": "2026-10-11"
@@ -30046,7 +29901,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/10",
-      "daysLeft": 19,
+      "daysLeft": 17,
       "expirationDate": "2026-10-19",
       "packageExpirations": {
         "aoc": "2026-10-19"
@@ -30093,7 +29948,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -30138,7 +29993,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/10",
-      "daysLeft": 19,
+      "daysLeft": 17,
       "expirationDate": "2026-10-19",
       "packageExpirations": {
         "aoc": "2026-10-19"
@@ -30184,7 +30039,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -30229,7 +30084,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -30319,7 +30174,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -30498,7 +30353,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -30671,7 +30526,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/10",
-      "daysLeft": 30,
+      "daysLeft": 28,
       "expirationDate": "2026-10-30",
       "packageExpirations": {
         "aoc": "2026-10-30"
@@ -30717,7 +30572,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -30939,7 +30794,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -31031,7 +30886,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/01",
-      "daysLeft": 104,
+      "daysLeft": 102,
       "expirationDate": "2027-01-12",
       "packageExpirations": {
         "aoc": "2027-01-12"
@@ -31076,7 +30931,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/11",
-      "daysLeft": 48,
+      "daysLeft": 46,
       "expirationDate": "2026-11-17",
       "packageExpirations": {
         "aoc": "2026-11-17"
@@ -31122,7 +30977,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -31158,6 +31013,7 @@ const CATALOG_DATA = [
     ],
     "raw_genres": [
       "hrr",
+      "msc",
       "scf"
     ],
     "badge": null,
@@ -31167,7 +31023,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/01",
-      "daysLeft": 104,
+      "daysLeft": 102,
       "expirationDate": "2027-01-12",
       "packageExpirations": {
         "aoc": "2027-01-12"
@@ -31213,7 +31069,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 92,
+      "daysLeft": 90,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -31383,11 +31239,13 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/245621800/s592/aurora-teagarden-13-le-bijou-de-la-reine.jpg",
     "synopsis": "Lors d'une soirée caritative pour laquelle le musée d'histoire de Seattle a prêté deux pièces de sa collection, un vol est commis. Le principal suspect est retrouvé mort. Aurora, Sally et les membres du club des amateurs de meurtres mènent alors l'enquête en parallèle de celle de la police. Cette affaire complique la demande en mariage de Nick à Aurora.",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 30/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-30",
+      "packageExpirations": {
+        "auc": "2027-03-30"
+      }
     },
     "on_prime": false,
     "on_tnt": false
@@ -31474,7 +31332,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 92,
+      "daysLeft": 90,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "auc": "2026-12-31"
@@ -31738,7 +31596,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -31782,7 +31640,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -31826,7 +31684,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 75,
+      "daysLeft": 73,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "aoc": "2026-12-14"
@@ -31957,7 +31815,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -32001,8 +31859,8 @@ const CATALOG_DATA = [
     "synopsis": "Comment une femme peut-elle être morte depuis des mois et vivre encore ? Se rendre à son travail chaque jour et occuper son logement ? C'est ce que doit découvrir le lieutenant Corel et qui la stupéfie : une criminelle tue des femmes au même profil de solitaire anonyme exerçant des boulots transparents après être devenue leur confidente et amie, et prend leur place dans leur existence sans que personne ne s'en rende compte !",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 12 j",
-      "daysLeft": 12,
+      "label": "⏳ Expire dans 10 j",
+      "daysLeft": 10,
       "expirationDate": "2026-10-12",
       "packageExpirations": {
         "auc": "2026-10-12"
@@ -32049,7 +31907,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/11",
-      "daysLeft": 50,
+      "daysLeft": 48,
       "expirationDate": "2026-11-19",
       "packageExpirations": {
         "aoc": "2026-11-19"
@@ -32268,7 +32126,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -32315,7 +32173,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -32382,8 +32240,8 @@ const CATALOG_DATA = [
       "auc"
     ],
     "annee": 2016,
-    "duree": "20 min/ép.",
-    "runtime_minutes": 20,
+    "duree": "19 min/ép.",
+    "runtime_minutes": 19,
     "note_avis": 6.3,
     "note_recence": 7.7,
     "note_globale": 7,
@@ -32448,7 +32306,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/11",
-      "daysLeft": 41,
+      "daysLeft": 39,
       "expirationDate": "2026-11-10",
       "packageExpirations": {
         "aoc": "2026-11-10"
@@ -32493,7 +32351,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/01",
-      "daysLeft": 96,
+      "daysLeft": 94,
       "expirationDate": "2027-01-04",
       "packageExpirations": {
         "aoc": "2027-01-04"
@@ -32713,7 +32571,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -32782,8 +32640,8 @@ const CATALOG_DATA = [
       "auc"
     ],
     "annee": 2019,
-    "duree": "23 min/ép.",
-    "runtime_minutes": 23,
+    "duree": "20 min/ép.",
+    "runtime_minutes": 20,
     "note_avis": 7.5,
     "note_recence": 8.4,
     "note_globale": 8,
@@ -32891,7 +32749,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -32937,7 +32795,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -33115,7 +32973,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 92,
+      "daysLeft": 90,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -33203,8 +33061,8 @@ const CATALOG_DATA = [
     "synopsis": "Nassim, 30 ans, vit à Abu Dhabi avec sa fiancée américaine. Après plusieurs années d’absence, il revient avec elle à Bollène, dans le Sud-Est de la France, où il a grandi. Nassim doit alors faire face à son passé, à sa ville sinistrée, désormais gouvernée par la Ligue du Sud, à sa famille avec laquelle il entretient des relations complexes et à ce père à qui il n’adresse plus la parole...",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 13 j",
-      "daysLeft": 13,
+      "label": "⏳ Expire dans 11 j",
+      "daysLeft": 11,
       "expirationDate": "2026-10-13",
       "packageExpirations": {
         "aoc": "2026-10-13"
@@ -33423,7 +33281,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -33471,7 +33329,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -33538,8 +33396,8 @@ const CATALOG_DATA = [
       "auc"
     ],
     "annee": 2018,
-    "duree": "23 min/ép.",
-    "runtime_minutes": 23,
+    "duree": "24 min/ép.",
+    "runtime_minutes": 24,
     "note_avis": 6.1,
     "note_recence": 8.2,
     "note_globale": 7.2,
@@ -33777,9 +33635,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/300725601/s592/racers.jpg",
     "synopsis": "Lorsque Roy Gundersen libéré de prison après deux ans pour participer à une course de rue illégale, il est déterminé à reprendre sa vie sur la bonne voie. Il a atteint le fond, en faillite, et pour tenter d'améliorer sa vie et être un bon modèle pour sa fille Nina, il commence à travailler à une station d'essence. Lorsque la petite amie enceinte de Roy organise une fête « de prison », certains de ses anciens ennemis de la course montre et le défie de faire partie d'une nouvelle course. De Fosnavåg, puis par la Suède et la Finlande avant qu'elle ne se termine à Mourmansk. Roy refuse. Il essaie de rester sur le terrain et préfèrent passer leur temps avec Nina que des courses en cours d'exécution. Mais quand Roy découvre que Nina sera impliqué dans sur sa tête avec son petit ami Charlie, il doit essayer de l'arrêter. Il devient sauvage et difficile; sur les montagnes, les routes glissantes et des lacs glacés.",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 15/10",
-      "daysLeft": 15,
+      "status": "warning",
+      "label": "⏳ Expire dans 13 j",
+      "daysLeft": 13,
       "expirationDate": "2026-10-15",
       "packageExpirations": {
         "aca": "2026-10-15"
@@ -33910,7 +33768,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/12",
-      "daysLeft": 76,
+      "daysLeft": 74,
       "expirationDate": "2026-12-15",
       "packageExpirations": {
         "aoc": "2026-12-15"
@@ -33999,7 +33857,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -34130,7 +33988,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -34305,7 +34163,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -34349,7 +34207,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -34507,8 +34365,8 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2019,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
+    "duree": "1h 28min",
+    "runtime_minutes": 88,
     "note_avis": 5.2,
     "note_recence": 8.4,
     "note_globale": 6.8,
@@ -34531,7 +34389,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -34577,7 +34435,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -34623,7 +34481,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/03",
-      "daysLeft": 167,
+      "daysLeft": 165,
       "expirationDate": "2027-03-16",
       "packageExpirations": {
         "aoc": "2027-03-16"
@@ -34670,7 +34528,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -34717,7 +34575,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -34761,7 +34619,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/11",
-      "daysLeft": 34,
+      "daysLeft": 32,
       "expirationDate": "2026-11-03",
       "packageExpirations": {
         "aoc": "2026-11-03"
@@ -34807,7 +34665,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -34983,7 +34841,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/10",
-      "daysLeft": 24,
+      "daysLeft": 22,
       "expirationDate": "2026-10-24",
       "packageExpirations": {
         "aoc": "2026-10-24"
@@ -35073,7 +34931,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -35119,7 +34977,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -35249,7 +35107,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/10",
-      "daysLeft": 21,
+      "daysLeft": 19,
       "expirationDate": "2026-10-21",
       "packageExpirations": {
         "aca": "2026-10-21"
@@ -35296,7 +35154,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "auc": "2026-11-30"
@@ -35386,7 +35244,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -35431,7 +35289,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "auc": "2027-02-28"
@@ -35566,7 +35424,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 91,
+      "daysLeft": 89,
       "expirationDate": "2026-12-30",
       "packageExpirations": {
         "aoc": "2026-12-30"
@@ -35679,8 +35537,8 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2026,
-    "duree": "51 min/ép.",
-    "runtime_minutes": 51,
+    "duree": "50 min/ép.",
+    "runtime_minutes": 50,
     "note_avis": 8,
     "note_recence": 10,
     "note_globale": 9,
@@ -35959,7 +35817,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/11",
-      "daysLeft": 57,
+      "daysLeft": 55,
       "expirationDate": "2026-11-26",
       "packageExpirations": {
         "aoc": "2026-11-26"
@@ -36047,7 +35905,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/12",
-      "daysLeft": 64,
+      "daysLeft": 62,
       "expirationDate": "2026-12-03",
       "packageExpirations": {
         "aoc": "2026-12-03"
@@ -36178,7 +36036,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/02",
-      "daysLeft": 127,
+      "daysLeft": 125,
       "expirationDate": "2027-02-04",
       "packageExpirations": {
         "aoc": "2027-02-04"
@@ -36223,7 +36081,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -36268,7 +36126,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -36440,7 +36298,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -36486,7 +36344,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 123,
+      "daysLeft": 121,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -36531,7 +36389,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 92,
+      "daysLeft": 90,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -36576,8 +36434,8 @@ const CATALOG_DATA = [
     "synopsis": "Dans les derniers jours de l'été, Léna arrive à Arles et attend Marius, un ancien petit ami avec lequel elle a renoué.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 11 j",
-      "daysLeft": 11,
+      "label": "⏳ Expire dans 9 j",
+      "daysLeft": 9,
       "expirationDate": "2026-10-11",
       "packageExpirations": {
         "aoc": "2026-10-11"
@@ -36667,7 +36525,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 151,
+      "daysLeft": 149,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -36753,7 +36611,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/01",
-      "daysLeft": 93,
+      "daysLeft": 91,
       "expirationDate": "2027-01-01",
       "packageExpirations": {
         "aoc": "2027-01-01"
@@ -36882,7 +36740,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/11",
-      "daysLeft": 35,
+      "daysLeft": 33,
       "expirationDate": "2026-11-04",
       "packageExpirations": {
         "aoc": "2026-11-04"
@@ -36972,7 +36830,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -37103,7 +36961,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -37231,7 +37089,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -37446,7 +37304,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/11",
-      "daysLeft": 48,
+      "daysLeft": 46,
       "expirationDate": "2026-11-17",
       "packageExpirations": {
         "aoc": "2026-11-17"
@@ -37489,8 +37347,8 @@ const CATALOG_DATA = [
     "synopsis": "Deux croque-morts, à l’issue d’un braquage, se retrouvent dépossédés du cercueil et du corps dont ils avaient la charge pour trouver à leur place le butin des malfaiteurs. Cette brochette de bras cassés va devoir organiser un échange.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 14 j",
-      "daysLeft": 14,
+      "label": "⏳ Expire dans 12 j",
+      "daysLeft": 12,
       "expirationDate": "2026-10-14",
       "packageExpirations": {
         "auc": "2026-10-14"
@@ -37834,7 +37692,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/11",
-      "daysLeft": 59,
+      "daysLeft": 57,
       "expirationDate": "2026-11-28",
       "packageExpirations": {
         "aoc": "2026-11-28"
@@ -37922,7 +37780,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/11",
-      "daysLeft": 57,
+      "daysLeft": 55,
       "expirationDate": "2026-11-26",
       "packageExpirations": {
         "aoc": "2026-11-26"
@@ -37967,7 +37825,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 31,
+      "daysLeft": 29,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -38011,7 +37869,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/11",
-      "daysLeft": 40,
+      "daysLeft": 38,
       "expirationDate": "2026-11-09",
       "packageExpirations": {
         "aoc": "2026-11-09"
@@ -38056,7 +37914,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/12",
-      "daysLeft": 79,
+      "daysLeft": 77,
       "expirationDate": "2026-12-18",
       "packageExpirations": {
         "aoc": "2026-12-18"
@@ -38100,8 +37958,8 @@ const CATALOG_DATA = [
     "synopsis": "Marco, La Verdad Inventada est l’histoire d’un homme au grand charisme qui, pendant des années, a été le porte-parole de l’association espagnole des victimes de l’Holocauste. Il a élaboré, face aux média, au sein de sa propre association et même dans sa propre famille, un récit complexe : il prétend être un survivant des camps de concentration, ce qui s’avère être un mensonge éhonté.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 13 j",
-      "daysLeft": 13,
+      "label": "⏳ Expire dans 11 j",
+      "daysLeft": 11,
       "expirationDate": "2026-10-13",
       "packageExpirations": {
         "aoc": "2026-10-13"
@@ -38150,7 +38008,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 13/11",
-      "daysLeft": 44,
+      "daysLeft": 42,
       "expirationDate": "2026-11-13",
       "packageExpirations": {
         "aoc": "2026-11-13"
@@ -38239,7 +38097,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/12",
-      "daysLeft": 67,
+      "daysLeft": 65,
       "expirationDate": "2026-12-06",
       "packageExpirations": {
         "aoc": "2026-12-06"
@@ -38285,7 +38143,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -38330,8 +38188,8 @@ const CATALOG_DATA = [
     "synopsis": "Un gangster récemment sorti de prison est forcé par ses anciens complices à organiser un nouvel acte criminel.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 6 j",
-      "daysLeft": 6,
+      "label": "⏳ Expire dans 4 j",
+      "daysLeft": 4,
       "expirationDate": "2026-10-06",
       "packageExpirations": {
         "aca": "2026-10-06"
@@ -38377,7 +38235,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/11",
-      "daysLeft": 48,
+      "daysLeft": 46,
       "expirationDate": "2026-11-17",
       "packageExpirations": {
         "aoc": "2026-11-17"
@@ -38424,7 +38282,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 66,
+      "daysLeft": 64,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -38470,7 +38328,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/11",
-      "daysLeft": 49,
+      "daysLeft": 47,
       "expirationDate": "2026-11-18",
       "packageExpirations": {
         "aoc": "2026-11-18"
@@ -38517,7 +38375,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/12",
-      "daysLeft": 71,
+      "daysLeft": 69,
       "expirationDate": "2026-12-10",
       "packageExpirations": {
         "aoc": "2026-12-10"
@@ -38564,7 +38422,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 61,
+      "daysLeft": 59,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -38610,7 +38468,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/10",
-      "daysLeft": 29,
+      "daysLeft": 27,
       "expirationDate": "2026-10-29",
       "packageExpirations": {
         "aca": "2026-10-29"
@@ -38655,7 +38513,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/11",
-      "daysLeft": 50,
+      "daysLeft": 48,
       "expirationDate": "2026-11-19",
       "packageExpirations": {
         "aoc": "2026-11-19"
@@ -38701,7 +38559,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 45,
+      "daysLeft": 43,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -38747,7 +38605,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 20/11",
-      "daysLeft": 51,
+      "daysLeft": 49,
       "expirationDate": "2026-11-20",
       "packageExpirations": {
         "aoc": "2026-11-20"
@@ -38793,7 +38651,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/10",
-      "daysLeft": 28,
+      "daysLeft": 26,
       "expirationDate": "2026-10-28",
       "packageExpirations": {
         "aca": "2026-10-28"
@@ -38803,8 +38661,8 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm169422",
-    "titre": "Her",
+    "id": "jw-tm136559",
+    "titre": "Old Boy",
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
@@ -38817,178 +38675,41 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "annee": 2013,
-    "duree": "2h 06min",
-    "runtime_minutes": 126,
-    "note_avis": 7.9,
-    "note_recence": 7,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176323478/s592/her.jpg",
-    "synopsis": "Los Angeles, dans un futur proche. Theodore Twombly, un homme sensible au caractère complexe, est inconsolable suite à une rupture difficile. Il fait alors l'acquisition d'un programme informatique ultramoderne, capable de s'adapter à la personnalité de chaque utilisateur. En lançant le système, il fait la connaissance de 'Samantha', une voix féminine intelligente, intuitive et étonnamment drôle. Les besoins et les désirs de Samantha grandissent et évoluent, tout comme ceux de Theodore, et peu à peu, ils tombent amoureux…",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm76066",
-    "titre": "Into the Wild",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2007,
-    "duree": "2h 28min",
-    "runtime_minutes": 148,
-    "note_avis": 8,
-    "note_recence": 5.6,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/323576808/s592/into-the-wild.jpg",
-    "synopsis": "Tout juste diplômé de l'université, Christopher McCandless, 22 ans, est promis à un brillant avenir. Pourtant, tournant le dos à l'existence confortable et sans surprise qui l'attend, le jeune homme décide de prendre la route en laissant tout derrière lui. Des champs de blé du Dakota aux flots tumultueux du Colorado, en passant par les communautés hippies de Californie, Christopher va rencontrer des personnages hauts en couleur. Chacun, à sa manière, va façonner sa vision de la vie et des autres. Au bout de son voyage, Christopher atteindra son but ultime en s'aventurant seul dans les étendues sauvages de l'Alaska pour vivre en totale communion avec la nature.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm28346",
-    "titre": "Tonnerre sous les tropiques",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2008,
-    "duree": "1h 47min",
-    "runtime_minutes": 107,
-    "note_avis": 7.1,
-    "note_recence": 5.8,
+    "annee": 2003,
+    "duree": "2h 00min",
+    "runtime_minutes": 120,
+    "note_avis": 8.3,
+    "note_recence": 4.7,
     "note_globale": 6.5,
     "etoiles": 3,
     "categories": [
-      "action_aventure"
+      "thriller_policier"
     ],
     "raw_genres": [
       "act",
-      "cmy",
-      "war"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176297291/s592/tonnerre-sous-les-tropiques.jpg",
-    "synopsis": "Retrouvez Ben Stiller, Jack Black et Robert Downey Jr. dans une comédie explosive ! Quand trois des plus grandes stars hollywoodiennes débarquent dans la jungle vietnamienne pour tourner un film de guerre, elles sont vite rattrapées par la réalité…",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm174540",
-    "titre": "Munich",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2005,
-    "duree": "2h 44min",
-    "runtime_minutes": 164,
-    "note_avis": 7.5,
-    "note_recence": 5.2,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
       "drm",
-      "hst",
       "trl"
     ],
-    "badge": null,
+    "badge": "16",
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300799738/s592/munich.jpg",
-    "synopsis": "Jeux Olympiques de Munich, 5 septembre 1972. Un commando de terroristes palestiniens prend en otages puis exécute 11 membres de l'équipe sportive israélienne, sous l'œil des téléspectateurs du monde entier. Inspiré de faits réels, Munich retrace le parcours de 5 agents israéliens chargés de traquer les 11 palestiniens considérés comme les commanditaires de l'attentat. Pour mener à bien cette mission, les 5 hommes devront renoncer du jour au lendemain à leur identité, et s’exposer à tout moment à la vengeance de leurs cibles.",
+    "poster": "https://images.justwatch.com/poster/8721843/s592/old-boy-2003.jpg",
+    "synopsis": "À la fin des années 80, Oh Dae-Soo, père de famille sans histoire, est enlevé un jour devant chez lui. Séquestré pendant plusieurs années dans une cellule privée, son seul lien avec l'extérieur est une télévision. Par le biais de cette télévision, il apprend le meurtre de sa femme, meurtre dont il est le principal suspect. Au désespoir d'être séquestré sans raison apparente succède alors chez le héros une rage intérieure vengeresse qui lui permet de survivre. Il est relâché 15 ans plus tard, toujours sans explication. Oh Dae-Soo est alors contacté par celui qui semble être le responsable de ses malheurs, qui lui propose de découvrir qui l'a enlevé et pourquoi. Le cauchemar continue pour le héros.",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
+      "status": "info",
+      "label": "📅 Jusqu'au 30/11",
+      "daysLeft": 59,
+      "expirationDate": "2026-11-30",
       "packageExpirations": {
-        "aoc": "2026-09-30"
+        "aoc": "2026-11-30"
       }
     },
     "on_prime": false,
     "on_tnt": false
   },
   {
-    "id": "jw-tm137072",
-    "titre": "Very Bad Trip",
-    "type": "film",
+    "id": "jw-ts222345",
+    "titre": "La Flamme",
+    "type": "serie",
     "chaine": "Ciné+ OCS",
     "chaines": [
       "Ciné+ OCS"
@@ -39000,38 +38721,269 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "annee": 2009,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 7.7,
-    "note_recence": 6.1,
-    "note_globale": 6.9,
-    "etoiles": 3,
+    "annee": 2020,
+    "duree": "31 min/ép.",
+    "runtime_minutes": 31,
+    "note_avis": 7.2,
+    "note_recence": 8.6,
+    "note_globale": 7.9,
+    "etoiles": 4,
     "categories": [
       "comedie"
     ],
     "raw_genres": [
       "cmy"
     ],
-    "badge": "12",
+    "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/210177673/s592/very-bad-trip.jpg",
-    "synopsis": "Ils avaient prévu un enterrement de vie de garçon à Las Vegas qu’ils n’oublieraient jamais. Maintenant, ils ont vraiment besoin de se souvenir de ce qu’il s’est passé. À qui est ce bébé dans le placard de leur suite au Caesar Palace ? Comment un tigre est‐il arrivé jusque dans leur salle de bain ? Pourquoi manque‐t‐il une dent à l’un d’entre eux ? Et, surtout, où est le marié ? ! Mais ce qu’ils ont fait la nuit précédente n’est rien en comparaison des combines scandaleuses qu’ils doivent mettre en œuvre pour tenter de rassembler les pièces du puzzle qui constituent leur nuit passée – à partir d’indices franchement brumeux…",
+    "poster": "https://images.justwatch.com/poster/238423957/s592/la-flamme.jpg",
+    "synopsis": "La vie lui a tout donné… sauf une co-pilote. Pendant neuf semaines dans une sublime villa, treize femmes vont s’affronter pour séduire Marc, pilote de ligne, et tenter d’allumer en lui… La Flamme ! Alors, armez les toboggans, vérifiez la porte opposée… Marc va emmener ses prétendantes au septième ciel !",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
+      "status": "info",
+      "label": "📅 Jusqu'au 17/01",
+      "daysLeft": 107,
+      "expirationDate": "2027-01-17",
       "packageExpirations": {
-        "aoc": "2026-09-30"
+        "aoc": "2027-01-17"
       }
     },
     "on_prime": false,
     "on_tnt": false
   },
   {
-    "id": "jw-tm144315",
-    "titre": "Babysitting",
+    "id": "jw-tm1501899",
+    "titre": "Life of Chuck",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2025,
+    "duree": "1h 50min",
+    "runtime_minutes": 110,
+    "note_avis": 7.3,
+    "note_recence": 9.8,
+    "note_globale": 8.6,
+    "etoiles": 5,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "drm",
+      "fnt",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/331760981/s592/the-life-of-chuck.jpg",
+    "synopsis": "Basé sur la nouvelle de Stephen King, qui raconte trois chapitres de la vie d'un homme ordinaire nommé Charles Krantz en commençant par sa mort d'une tumeur cérébrale à 39 ans et en terminant par son enfance dans une maison prétendument hantée.",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 20/11",
+      "daysLeft": 49,
+      "expirationDate": "2026-11-20",
+      "packageExpirations": {
+        "aoc": "2026-11-20"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm134211",
+    "titre": "Lost in Translation",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2003,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 7.7,
+    "note_recence": 4.7,
+    "note_globale": 6.2,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "rma",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/175287463/s592/lost-in-translation.jpg",
+    "synopsis": "Bob Harris, acteur sur le déclin, se rend à Tokyo pour tourner un spot publicitaire. Il a conscience qu'il se trompe - il devrait être chez lui avec sa famille, jouer au théâtre ou encore chercher un rôle dans un film -, mais il a besoin d'argent. Du haut de son hôtel de luxe, il contemple la ville, mais ne voit rien. Il est ailleurs, détaché de tout, incapable de s'intégrer à la réalité qui l'entoure, incapable également de dormir à cause du décalage horaire. Dans ce même établissement, Charlotte, une jeune Américaine fraîchement diplômée, accompagne son mari, photographe de mode. Ce dernier semble s'intéresser davantage à son travail qu'à sa femme. Se sentant délaissée, Charlotte cherche un peu d'attention. Elle va en trouver auprès de Bob…",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-10-02",
+      "packageExpirations": {
+        "aoc": "2026-10-02"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1881",
+    "titre": "Batman v Superman : L'Aube de la Justice",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2016,
+    "duree": "2h 33min",
+    "runtime_minutes": 153,
+    "note_avis": 6.5,
+    "note_recence": 7.7,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "act",
+      "fnt",
+      "scf"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/249825141/s592/batman-v-superman-laube-de-la-justice.jpg",
+    "synopsis": "Craignant que Superman n’abuse de sa toute‐puissance, le Chevalier noir décide de l’affronter : le monde a‐t‐il davantage besoin d’un super‐héros aux pouvoirs sans limite ou d’un justicier à la force redoutable mais d’origine humaine ? Pendant ce temps‐là, une terrible menace se profile à l’horizon…",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 31/10",
+      "daysLeft": 29,
+      "expirationDate": "2026-10-31",
+      "packageExpirations": {
+        "aoc": "2026-10-31"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm973372",
+    "titre": "Nope",
+    "type": "film",
+    "chaine": "Universal+",
+    "chaines": [
+      "Universal+"
+    ],
+    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logos_chaine": [
+      "assets/logos/universal_plus.svg"
+    ],
+    "package_slugs": [
+      "auc"
+    ],
+    "annee": 2022,
+    "duree": "2h 10min",
+    "runtime_minutes": 130,
+    "note_avis": 6.8,
+    "note_recence": 9.1,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl",
+      "scf"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/266051129/s592/nope.jpg",
+    "synopsis": "Dans une ferme reculée en Californie, Otis « O.J. » Haywood et sa sœur travaillent ensemble dans leur écurie pour un réalisateur respecté. Mais, après la mort soudaine et étrange de leur père, tué par un objet tombé du ciel, le duo est aidé par Angel, employé dans une société de caméras de surveillance, où ils vont découvrir la présence d’une force mystérieuse et meurtrière présente dans le ciel.",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 05/12",
+      "daysLeft": 64,
+      "expirationDate": "2026-12-05",
+      "packageExpirations": {
+        "auc": "2026-12-05"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm299698",
+    "titre": "The Suicide Squad",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2021,
+    "duree": "2h 12min",
+    "runtime_minutes": 132,
+    "note_avis": 7.2,
+    "note_recence": 8.8,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "action_aventure"
+    ],
+    "raw_genres": [
+      "act",
+      "cmy",
+      "scf"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/249540656/s592/the-suicide-squad.jpg",
+    "synopsis": "Bienvenue en enfer - aka Belle Reve, la prison dotée du taux de mortalité le plus élevé des États-Unis d'Amérique. Là où sont détenus les pires super-vilains, qui feront tout pour en sortir - y compris rejoindre la super secrète et la super louche Task Force X. La mission mortelle du jour ? Assemblez une belle collection d'escrocs, et notamment Bloodsport, Peacemaker, Captain Boomerang, Ratcatcher 2, Savant, King Shark, Blackguard, Javelin et la psychopathe préférée de tous : Harley Quinn. Armez-les lourdement et jetez-les (littéralement) sur l'île lointaine et bourrée d'ennemis de Corto Maltese. Traversant une jungle qui grouille d'adversaires et de guerilleros à chaque tournant, l'Escouade est lancée dans une mission de recherche et de destruction, avec le seul Colonel Rick Flag pour les encadrer sur le terrain et la technologie du gouvernement dans leurs oreilles, afin qu'Amanda Waller puisse suivre le moindre de leurs mouvements.",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 10/12",
+      "daysLeft": 69,
+      "expirationDate": "2026-12-10",
+      "packageExpirations": {
+        "aoc": "2026-12-10"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm151077",
+    "titre": "Birdman",
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
@@ -39045,38 +38997,38 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2014,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 6.8,
+    "duree": "2h 00min",
+    "runtime_minutes": 120,
+    "note_avis": 7.7,
     "note_recence": 7.2,
-    "note_globale": 7,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "comedie"
     ],
     "raw_genres": [
       "cmy",
-      "eur"
+      "drm"
     ],
     "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/315324364/s592/babysitting.jpg",
-    "synopsis": "Faute de baby-sitter pour le week-end, Marc Schaudel confie son fils Remy à Franck, son employé, \"un type sérieux\" selon lui. Sauf que Franck a 30 ans ce soir et que Rémy est un sale gosse capricieux. Au petit matin, Marc et sa femme Claire sont réveillés par un appel de la police. Rémy et Franck ont disparu ! Au milieu de leur maison saccagée, la police a retrouvé une caméra. Marc et Claire découvrent, hallucinés, les images tournées pendant la soirée.",
+    "poster": "https://images.justwatch.com/poster/9817611/s592/birdman.jpg",
+    "synopsis": "À l’époque où il incarnait un célèbre super‐héros, Riggan Thomson était mondialement connu. Mais de cette célébrité il ne reste plus grand‐chose, et il tente aujourd’hui de monter une pièce de théâtre à Broadway dans l’espoir de renouer avec sa gloire perdue. Durant les quelques jours qui précèdent la Première, il va devoir tout affronter: sa famille et ses proches, son passé, ses rêves et son ego. S’il s’en sort, le rideau a une chance de s’ouvrir.",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
+      "status": "info",
+      "label": "📅 Jusqu'au 14/11",
+      "daysLeft": 43,
+      "expirationDate": "2026-11-14",
       "packageExpirations": {
-        "aoc": "2026-09-30"
+        "aoc": "2026-11-14"
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
-    "id": "jw-tm145677",
-    "titre": "Watchmen : Les Gardiens",
+    "id": "jw-tm53839",
+    "titre": "LOL (Laughing Out Loud)",
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
@@ -39090,40 +39042,40 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2009,
-    "duree": "2h 43min",
-    "runtime_minutes": 163,
-    "note_avis": 7.6,
+    "duree": "1h 43min",
+    "runtime_minutes": 103,
+    "note_avis": 6.3,
     "note_recence": 6.1,
-    "note_globale": 6.9,
+    "note_globale": 6.2,
     "etoiles": 3,
     "categories": [
-      "scifi_fantastique"
+      "drame_emotion"
     ],
     "raw_genres": [
-      "act",
+      "cmy",
       "drm",
-      "trl",
-      "scf"
+      "rma",
+      "eur"
     ],
     "badge": "12",
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/153947247/s592/watchmen-les-gardiens.jpg",
-    "synopsis": "Aventure à la fois complexe et mystérieuse sur plusieurs niveaux, \"Watchmen: Les Gardiens\" se passe dans une Amérique alternative de 1985 où les super-héros font partie du quotidien et où l'Horloge de l'Apocalypse - symbole de la tension entre les États-Unis et l'Union Soviétique - indique en permanence minuit moins cinq. Lorsque l'un de ses anciens collègues est assassiné, Rorschach, un justicier masqué un peu à plat mais non moins déterminé, va découvrir un complot qui menace de tuer et de discréditer tous les super-héros du passé et du présent. Alors qu'il reprend contact avec son ancienne légion de justiciers - un groupe hétéroclite de super-héros retraités, seul l'un d'entre-eux possède de véritables pouvoirs - Rorschach entrevoit un complot inquiétant et de grande envergure lié à leur passé commun et qui aura des conséquences catastrophiques pour le futur. Leur mission est de protéger l'humanité... Mais qui veille sur ces gardiens ?",
+    "poster": "https://images.justwatch.com/poster/41320230/s592/lol-laughing-out-loud.jpg",
+    "synopsis": "LOL ? Ça veut dire Laughing Out Loud - mort de rire - en langage internet ou par SMS. C'est aussi comme ça que les amis de Lola l'appellent. Pourtant, le jour de sa rentrée, Lola n'a pas le cœur à rire. Arthur, son copain, la provoque en lui disant qu'il l'a trompée pendant l'été. Et sa bande de potes a le don pour tout compliquer. Tout comme sa mère, Anne, avec qui le dialogue est devenu impossible, et pas seulement parce qu'elle ignore ce que LOL signifie. Que ses parents aient divorcé est une chose. Qu'Anne traite son ado comme une enfant en lui mentant sur l'essentiel, par exemple sur le fait qu'elle revoit son ex en cachette ou qu'elle se fait draguer par un flic, en est une autre. De son côté, Anne se demande ce qui a bien pu arriver à sa douce petite fille. De la fusion à la confusion, les relations mères-filles bouillonnent d'amour et de LOL.",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
+      "status": "info",
+      "label": "📅 Jusqu'au 02/11",
+      "daysLeft": 31,
+      "expirationDate": "2026-11-02",
       "packageExpirations": {
-        "aoc": "2026-09-30"
+        "aoc": "2026-11-02"
       }
     },
     "on_prime": false,
     "on_tnt": false
   },
   {
-    "id": "jw-tm159220",
-    "titre": "Under the Skin",
+    "id": "jw-tm1587533",
+    "titre": "It Feeds",
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
@@ -39136,36 +39088,31 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "annee": 2014,
-    "duree": "1h 48min",
-    "runtime_minutes": 108,
-    "note_avis": 6.3,
-    "note_recence": 7.2,
-    "note_globale": 6.8,
-    "etoiles": 3,
+    "annee": 2025,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 5.6,
+    "note_recence": 9.8,
+    "note_globale": 7.7,
+    "etoiles": 4,
     "categories": [
       "horreur_epouvante"
     ],
     "raw_genres": [
-      "drm",
-      "hrr",
-      "trl",
-      "scf"
+      "hrr"
     ],
-    "badge": "16",
+    "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/257930226/s592/under-the-skin.jpg",
-    "synopsis": "Une extraterrestre prend des hommes en autostop, puis les envoûte, de ses yeux, de sa bouche et de son corps de rêve. Attirés dans un couloir noir, ces derniers poursuivent cette beauté fatale alors que telle une araignée tissant sa toile, elle les tue les uns après les autres pour le compte de son espèce…",
+    "poster": "https://images.justwatch.com/poster/335636453/s592/it-feeds.jpg",
+    "synopsis": "Lorsqu’une jeune fille complètement paniquée frappe à sa porte en affirmant qu’une entité maléfique se nourrit d’elle, Cynthia Winstone une psychiatre reconnue pour ses dons de clairvoyance, va tout mettre en œuvre pour l’aider à affronter ce terrible démon avant qu’il ne la dévore totalement…",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
     },
-    "on_prime": false,
+    "on_prime": true,
     "on_tnt": false
   },
   {
@@ -39207,17 +39154,17 @@ const CATALOG_DATA = [
       "status": "urgent",
       "label": "⏳ Expire aujourd'hui",
       "daysLeft": 0,
-      "expirationDate": "2026-09-30",
+      "expirationDate": "2026-10-02",
       "packageExpirations": {
-        "auc": "2026-09-30"
+        "auc": "2026-10-02"
       }
     },
     "on_prime": false,
     "on_tnt": true
   },
   {
-    "id": "jw-tm163919",
-    "titre": "La Taupe",
+    "id": "jw-tm813757",
+    "titre": "Mandibules",
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
@@ -39230,314 +39177,84 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "annee": 2011,
-    "duree": "2h 07min",
-    "runtime_minutes": 127,
-    "note_avis": 7,
-    "note_recence": 6.5,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/8953934/s592/la-taupe.jpg",
-    "synopsis": "George Smiley (Gary Oldman), récemment pensionné du MI6, fait de son mieux pour mener sa vie en dehors des services secrets. Lorsqu’un agent disgracié refait surface avec des informations concernant une taupe au sein du service, Smiley revient. Chargé de découvrir lequel de ses anciens collègues l’a trahi ainsi que son pays, Smiley concentre ses recherches sur quatre suspects tous expérimentés et talentueux. Mais les histoires du passé, les rivalités et amitiés lui rendent la tâche difficile.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm129774",
-    "titre": "Rock Academy",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2003,
-    "duree": "1h 49min",
-    "runtime_minutes": 109,
-    "note_avis": 7.2,
-    "note_recence": 4.7,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fml",
-      "msc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/249930336/s592/school-of-rock.jpg",
-    "synopsis": "Un musicien se fait virer de son groupe de rock et trouve, dans la foulée, un emploi de prof de musique dans une école privée stricte. Là, devant un parterre de tubas, de clairons, de pianos et de harpes, il décide de revoir l'approche de la musique de ses élèves. Leur filant des Gibson en V, des claviers, des caisses claires et des charleys, il leur enseigne la musique des amplis. Le gros son des rockers. Et \" leur donne le pouvoir de casser les règles \".",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm214019",
-    "titre": "13 Hours",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2016,
-    "duree": "2h 24min",
-    "runtime_minutes": 144,
-    "note_avis": 7.3,
-    "note_recence": 7.7,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "hst",
-      "trl",
-      "war"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/8810836/s592/13-hours.jpg",
-    "synopsis": "L'histoire vraie des événements survenus le 11 septembre 2012, lorsque des terroristes ont attaqué un camp des Missions Spéciales de l'Armée Américaine et une agence de la CIA voisine à Benghazi, en Libye. Une attaque repoussée par six opérateurs de sécurité, qui ont lutté pendant 13 heures.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm218226",
-    "titre": "Babysitting 2",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2015,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 6.4,
-    "note_recence": 7.5,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/263018073/s592/babysitting-2.jpg",
-    "synopsis": "Franck, Sonia, Sam, Ernest, Alex et Estelle s’envolent pour le Brésil. Ils se rendent en vacances à l’hôtel d’Alain, le père de Sonia. Franck va profiter de ce voyage entre amis pour la demander en mariage. A l’hôtel, ils sont accueillis par Alain et Yolande, la grand-mère acariâtre de Sonia. Les garçons organisent une excursion dans la jungle avec un guide chevronné. Alain leur confie Yolande de peur qu’elle ne trouble le processus de remise du « label éco VWF ». Le soir, les garçons ne sont pas revenus. Ils ont disparu avec la grand-mère et le guide. Le lendemain matin, la caméra GoPro avec laquelle ils étaient partis est retrouvée…",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm50018",
-    "titre": "Looper : les tueurs du temps",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2012,
-    "duree": "1h 58min",
-    "runtime_minutes": 118,
-    "note_avis": 7.4,
-    "note_recence": 6.8,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "trl",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/230063842/s592/looper.jpg",
-    "synopsis": "Dans un futur proche, la Mafia a mis au point un système infaillible pour faire disparaître tous les témoins gênants. Elle expédie ses victimes dans le passé, à notre époque, où des tueurs d’un genre nouveau (les « Loopers ») les éliminent.  Un jour, l’un d’entre eux, Joe, découvre que la victime qu’il doit exécuter n’est autre que… lui-même, avec 30 ans de plus. La machine si bien huilée déraille…",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm167643",
-    "titre": "Very Bad Trip 2",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2011,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 6.5,
-    "note_recence": 6.5,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/316355605/s592/very-bad-trip-2.jpg",
-    "synopsis": "Phil, Stu, Alan et Doug s’offrent un voyage exotique en Thaïlande, à l’occasion du mariage de Stu. Après l’inoubliable soirée d’enterrement de sa vie de garçon à Las Vegas, Stu ne veut rien laisser au hasard et opte pour un brunch léger, sans risque, avant la cérémonie. Mais les choses ne se passent pas toujours comme prévu. Ce qui s'est passé à Las Vegas est imaginable à Las Vegas, mais ce qui se passe à Bangkok dépasse l’imagination...",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1143503",
-    "titre": "Les Vedettes",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2022,
-    "duree": "1h 41min",
-    "runtime_minutes": 101,
-    "note_avis": 6.2,
-    "note_recence": 9.1,
+    "annee": 2021,
+    "duree": "1h 17min",
+    "runtime_minutes": 77,
+    "note_avis": 6.6,
+    "note_recence": 8.8,
     "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
-      "comedie"
+      "scifi_fantastique"
     ],
     "raw_genres": [
-      "cmy"
+      "cmy",
+      "fnt",
+      "eur"
     ],
     "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/283916550/s592/les-vedettes.jpg",
-    "synopsis": "Daniel, un chanteur raté, va perdre son logement et son poste au SAV d'un magasin d'électroménager. Lorsqu'il découvre que Stéphane, un collègue naïf et prétentieux, connaît le montant de tous les appareils en rayon, il décide de se servir de lui pour participer au jeu TV \"Le Prix à tout Prix\", remporter 100 000 € et se retrouver enfin sous le feu des projecteurs. Alors oui tout les oppose, non ça ne sera pas de tout repos, mais Daniel et Stéphane sont pleins de ressources.",
+    "poster": "https://images.justwatch.com/poster/260342811/s592/mandibules.jpg",
+    "synopsis": "Jean-Gab et Manu, deux amis simples d'esprit, trouvent une mouche géante coincée dans le coffre d'une voiture et se mettent en tête de la dresser pour gagner de l'argent avec.",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm165083",
+    "titre": "Lady Vengeance",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2005,
+    "duree": "1h 55min",
+    "runtime_minutes": 115,
+    "note_avis": 7.5,
+    "note_recence": 5.2,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/312429862/s592/lady-vengeance.jpg",
+    "synopsis": "Geum-ja, une belle jeune fille, devient un personnage public lorsqu'elle est accusée de l'enlèvement et du meurtre d'un garçon de 5 ans. Ce crime atroce obsède les médias. Geum-ja passe aux aveux et est condamnée à une longue peine de prison. Elle va consacrer ses 13 ans d'enfermement à la préparation méticuleuse de sa vengeance contre son ancien professeur Mr. Baek…",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 30/11",
+      "daysLeft": 59,
+      "expirationDate": "2026-11-30",
       "packageExpirations": {
-        "aoc": "2026-09-30"
+        "aoc": "2026-11-30"
       }
     },
     "on_prime": false,
     "on_tnt": false
   },
   {
-    "id": "jw-tm32967",
-    "titre": "Penelope",
+    "id": "jw-tm79689",
+    "titre": "30 jours de nuit",
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
@@ -39551,365 +39268,265 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2007,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 6.7,
+    "duree": "1h 53min",
+    "runtime_minutes": 113,
+    "note_avis": 6.6,
     "note_recence": 5.6,
-    "note_globale": 6.2,
+    "note_globale": 6.1,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/175724477/s592/30-jours-de-nuit.jpg",
+    "synopsis": "Alaska, de nos jours. Au coeur de l'hiver, les habitants de la paisible ville de Barrow s'apprêtent à passer, comme tous les ans, un mois sans soleil. À la suite d'une série d'évènements étranges, Eben et Stella, les deux shérifs locaux, vont découvrir l'invraisemblable vérité. Un gang de vampires a investi la ville pour l'éradiquer de tous ses habitants. Eben, Stella et un petit groupe de survivants vont alors tenter de survivre jusqu'à l'aube...",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1038333",
+    "titre": "Black Phone",
+    "type": "film",
+    "chaine": "Universal+",
+    "chaines": [
+      "Universal+"
+    ],
+    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logos_chaine": [
+      "assets/logos/universal_plus.svg"
+    ],
+    "package_slugs": [
+      "auc"
+    ],
+    "annee": 2022,
+    "duree": "1h 43min",
+    "runtime_minutes": 103,
+    "note_avis": 6.9,
+    "note_recence": 9.1,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/292162244/s592/the-black-phone.jpg",
+    "synopsis": "Finney Shaw, un adolescent de 13 ans, timide mais intelligent, est enlevé par un tueur sadique qui l’enferme dans un sous-sol insonorisé où s’époumoner n’est pas d’une grande utilité. Quand un téléphone accroché au mur, pourtant hors d’usage, se met à sonner, Finney va découvrir qu’il est en contact avec les voix des précédentes victimes de son ravisseur. Ils sont aussi morts que bien résolus à ce que leur triste sort ne devienne pas celui de Finney.",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 05/12",
+      "daysLeft": 64,
+      "expirationDate": "2026-12-05",
+      "packageExpirations": {
+        "auc": "2026-12-05"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm123152",
+    "titre": "Power Rangers",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2017,
+    "duree": "2h 04min",
+    "runtime_minutes": 124,
+    "note_avis": 5.9,
+    "note_recence": 7.9,
+    "note_globale": 6.9,
     "etoiles": 3,
     "categories": [
       "scifi_fantastique"
     ],
     "raw_genres": [
-      "cmy",
-      "fnt",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/319643034/s592/penelope.jpg",
-    "synopsis": "Une sorcière a jeté un sort sur la première fille qui nait dans la famille Wilhern : Pénélope. Pour y échapper, elle devra épouser un garçon issu de la noblesse. Pénélope est une romantique. Elle décide de fuir loin de sa famille et d'affronter le Monde. Elle découvrira que le mauvais sort, il faut l'ignorer et s'accepter telle qu'elle est.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm174707",
-    "titre": "The Artist",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2011,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 7.9,
-    "note_recence": 6.5,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "trl",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176287643/s592/the-artist.jpg",
-    "synopsis": "Hollywood 1927. George Valentin est une vedette du cinéma muet à qui tout sourit. L’arrivée des films parlants va le faire sombrer dans l’oubli. Peppy Miller, jeune figurante, va elle, être propulsée au firmament des stars.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm232812",
-    "titre": "Les ogres",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2016,
-    "duree": "2h 18min",
-    "runtime_minutes": 138,
-    "note_avis": 6.9,
-    "note_recence": 7.7,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9874333/s592/les-ogres.jpg",
-    "synopsis": "Ils vont de ville en ville, un chapiteau sur le dos, leur spectacle en bandoulière. Dans nos vies ils apportent le rêve et le désordre. Ce sont des ogres, des géants, ils en ont mangé du théâtre et des kilomètres. Mais l’arrivée imminente d’un bébé et le retour d’une ancienne amante vont raviver des blessures que l’on croyait oubliées. Alors que la fête commence !",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm163262",
-    "titre": "White House Down",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2013,
-    "duree": "2h 12min",
-    "runtime_minutes": 132,
-    "note_avis": 6.3,
-    "note_recence": 7,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
       "act",
-      "drm",
-      "trl"
+      "fnt",
+      "scf"
     ],
     "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176913581/s592/white-house-down.jpg",
-    "synopsis": "Membre de la police du Capitole, John Cale vient de se voir refuser le job dont il rêvait : assurer la protection du président des États-Unis. Espérant éviter à sa fille une déception lorsqu’il lui apprendra la nouvelle, il l’emmène visiter la Maison-Blanche. C’est à ce moment qu’un groupe paramilitaire lourdement armé attaque le bâtiment. Alors que le gouvernement américain sombre dans le chaos, Cale va tenter de sauver sa fille, le président, et le pays tout entier…",
+    "poster": "https://images.justwatch.com/poster/8537134/s592/sabans-power-rangers.jpg",
+    "synopsis": "Cinq adolescents ordinaires doivent devenir extraordinaires quand ils apprennent que leur petite ville de Angel Grove, et le monde,  est sur le point d'être détruite par des extraterrestres. Choisis par le destin, ils découvrent rapidement qu'ils sont les seuls à pouvoir sauver la planète. Mais, pour ce faire, ils devront surmonter leurs problèmes personnels et, avant qu'il ne soit trop tard, s'allier afin de devenir les Power Rangers.",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
+      "status": "info",
+      "label": "📅 Jusqu'au 12/12",
+      "daysLeft": 71,
+      "expirationDate": "2026-12-12",
       "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm306170",
-    "titre": "Cold War",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2018,
-    "duree": "1h 24min",
-    "runtime_minutes": 84,
-    "note_avis": 7.5,
-    "note_recence": 8.2,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "msc",
-      "rma",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/78797149/s592/cold-war.jpg",
-    "synopsis": "Pendant la guerre froide, entre la Pologne stalinienne et le Paris bohème des années 1950, un musicien épris de liberté et une jeune chanteuse passionnée vivent un amour impossible dans une époque impossible.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm166238",
-    "titre": "Very Bad Trip 3",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2013,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 5.9,
-    "note_recence": 7,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/210080936/s592/very-bad-trip-3.jpg",
-    "synopsis": "Suite au décès du père d’Alan, la bande décide de le forcer à soigner ses problèmes mentaux. Mais comme d’habitude, rien ne se passe comme prévu. Une fois arrivés à l’hôpital, les hommes se font attaquer et Doug est kidnappé. La rançon ? Retrouver Mr. Chow en échange de la vie de Doug…",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm49126",
-    "titre": "Hunger",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2008,
-    "duree": "1h 36min",
-    "runtime_minutes": 96,
-    "note_avis": 7.5,
-    "note_recence": 5.8,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "hst",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/113678390/s592/hunger.jpg",
-    "synopsis": "Prison de Maze, Irlande du Nord, 1981. Raymond Lohan est surveillant, affecté au sinistre Quartier H, celui des prisonniers politiques de l'IRA qui ont entamé le \"Blanket and No-Wash Protest\" pour témoigner leur colère.Le jeune Davey Gillen, qui vient d'être incarcéré, refuse de porter l'uniforme car il ne se considère pas comme un criminel de droit commun. Rejoignant le mouvement du Blanket Protest, il partage une cellule répugnante avec Gerry Campbell, autre détenu politique, qui lui montre comment communiquer avec l'extérieur grâce au leader Bobby Sands.Lorsque la direction de la prison propose aux détenus des vêtements civils, une émeute éclate. La violence fait tache d'huile et plus aucun gardien de prison n'est désormais en sécurité. Raymond Lohan est abattu d'une balle dans la tête.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm71148",
-    "titre": "Sex Therapy",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2013,
-    "duree": "1h 52min",
-    "runtime_minutes": 112,
-    "note_avis": 6.4,
-    "note_recence": 7,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/10085788/s592/sex-therapy.jpg",
-    "synopsis": "A New York, de nos jours, Adam vient de rencontrer Phoebe, qui pourrait bien être la femme de sa vie. Cependant un seul obstacle s'oppose à cette idylle : Adam est atteint d'une syndrome, et pas des moindres : il est accro au sexe. Il soigne sa dépendance au sein d'un groupe de parole composé d'autres addicts.  Parmi eux, Mike, son parrain et mentor, Neil, qui vient tout juste de les rejoindre, et Dede, une jeune femme très libre et décomplexée... Réussiront-ils tous à soigner leurs dépendances et leurs troubles obsessionnels ?",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
+        "aoc": "2026-12-12"
       }
     },
     "on_prime": true,
     "on_tnt": false
   },
   {
-    "id": "jw-tm1376291",
-    "titre": "Guillaume Tell",
+    "id": "jw-tm428148",
+    "titre": "Five Nights at Freddy's",
+    "type": "film",
+    "chaine": "Universal+",
+    "chaines": [
+      "Universal+"
+    ],
+    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logos_chaine": [
+      "assets/logos/universal_plus.svg"
+    ],
+    "package_slugs": [
+      "auc"
+    ],
+    "annee": 2023,
+    "duree": "1h 50min",
+    "runtime_minutes": 110,
+    "note_avis": 5.4,
+    "note_recence": 9.3,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/309134082/s592/five-nights-at-freddys.jpg",
+    "synopsis": "Mike, jeune homme perturbé, est toujours hanté par la disparition, de son frère dix ans auparavant. Afin de ne pas perdre la garde de sa sœur Abby, il accepte un poste de gardien de nuit dans un restaurant désaffecté, Freddy Fazbear’s Pizzeria. Mais il ne tarde pas à être confronté, la nuit, à des phénomènes surnaturels inexplicables, et bascule dans un univers cauchemardesque…",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 05/12",
+      "daysLeft": 64,
+      "expirationDate": "2026-12-05",
+      "packageExpirations": {
+        "auc": "2026-12-05"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm305414",
+    "titre": "Mortal Engines",
+    "type": "film",
+    "chaine": "Universal+",
+    "chaines": [
+      "Universal+"
+    ],
+    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logos_chaine": [
+      "assets/logos/universal_plus.svg"
+    ],
+    "package_slugs": [
+      "auc"
+    ],
+    "annee": 2018,
+    "duree": "2h 08min",
+    "runtime_minutes": 128,
+    "note_avis": 6.1,
+    "note_recence": 8.2,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "act",
+      "fnt",
+      "trl",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/141962340/s592/mortal-engines.jpg",
+    "synopsis": "Des centaines d’années après qu’un événement apocalyptique a détruit la Terre, l’humanité s’est adaptée pour survivre en trouvant un nouveau mode de vie. Ainsi, de gigantesques villes mobiles errent sur Terre prenant sans pitié le pouvoir sur d’autres villes mobiles plus petites. Tom Natsworthy - originaire du niveau inférieur de la grande ville mobile de Londres – se bat pour sa propre survie après sa mauvaise rencontre avec la dangereuse fugitive Hester Shaw. Deux personnages que tout oppose, qui n’étaient pas destinés à se croiser, vont alors former une alliance hors du commun, destinée à bouleverser le futur.",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 05/12",
+      "daysLeft": 64,
+      "expirationDate": "2026-12-05",
+      "packageExpirations": {
+        "auc": "2026-12-05"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm376",
+    "titre": "Pacific Rim : Uprising",
+    "type": "film",
+    "chaine": "Universal+",
+    "chaines": [
+      "Universal+"
+    ],
+    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logos_chaine": [
+      "assets/logos/universal_plus.svg"
+    ],
+    "package_slugs": [
+      "auc"
+    ],
+    "annee": 2018,
+    "duree": "1h 51min",
+    "runtime_minutes": 111,
+    "note_avis": 5.6,
+    "note_recence": 8.2,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "act",
+      "fnt",
+      "scf"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/62419147/s592/pacific-rim-uprising.jpg",
+    "synopsis": "Le conflit planétaire qui oppose les Kaiju, créatures extraterrestres, aux Jaegers, robots géants pilotés par des humains, n’était que la première vague d’une attaque massive contre l’Humanité.  Jake Pentecost, un jeune pilote de Jaeger prometteur dont le célèbre père a sacrifié sa vie pour sauver l’Humanité des monstrueux Kaiju a depuis abandonné son entraînement et s’est retrouvé pris dans l’engrenage du milieu criminel.",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 05/12",
+      "daysLeft": 64,
+      "expirationDate": "2026-12-05",
+      "packageExpirations": {
+        "auc": "2026-12-05"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1660393",
+    "titre": "La Petite cuisine de Mehdi",
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
@@ -39923,78 +39540,30 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2025,
-    "duree": "2h 14min",
-    "runtime_minutes": 134,
-    "note_avis": 5.7,
+    "duree": "1h 44min",
+    "runtime_minutes": 104,
+    "note_avis": 6,
     "note_recence": 9.8,
-    "note_globale": 7.8,
+    "note_globale": 7.9,
     "etoiles": 4,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
-      "act",
-      "drm",
-      "hst",
-      "war"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/336046455/s592/william-tell.jpg",
-    "synopsis": "En Suisse, au début du XIVe siècle. Guillaume Tell, ancien croisé, a opté pour une vie paisible avec sa famille au coeur des Alpes. Mais lorsque les soldats autrichiens imposent les lois oppressives des Habsbourg aux villageois suisses et exigent leur allégeance, Tell refuse de plier et forme la résistance...",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts230557",
-    "titre": "The Narrow Road to the Deep North",
-    "type": "serie",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2025,
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 7.2,
-    "note_recence": 9.8,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma",
-      "war"
+      "cmy",
+      "drm"
     ],
     "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341603922/s592/the-narrow-road-to-the-deep-north.jpg",
-    "synopsis": "En 1989, en Australie, Dorrigo Evans, chirurgien renommé et héros de guerre, se prépare à prononcer un discours lors de la sortie d’un ouvrage consacré à la Seconde Guerre mondiale. Cet événement ravive les souvenirs de son passé : en 1943, alors qu’il était médecin militaire fait prisonnier par les Japonais, il fut contraint de travailler sur la ligne de chemin de fer reliant la Thaïlande à la Birmanie. Dans l’enfer de la jungle, entre violence, maladie et perte, il trouva la force de survivre grâce au souvenir de son amour interdit avec Amy Mulvaney, la femme de son oncle.",
+    "poster": "https://images.justwatch.com/poster/343118450/s592/la-petite-cuisine-de-mehdi.jpg",
+    "synopsis": "Mehdi est sur un fil. Il joue le rôle du fils algérien parfait devant sa mère Fatima, tout en lui cachant sa relation avec Léa ainsi que sa passion pour la gastronomie française. Il est chef dans un bistrot qu’il s’apprête à racheter avec Léa. Mais celle-ci n’en peut plus de ses cachoteries et exige de rencontrer Fatima. Au pied du mur, Mehdi va trouver la pire des solutions.",
     "expiration": {
       "status": "urgent",
       "label": "⏳ Expire aujourd'hui",
       "daysLeft": 0,
-      "expirationDate": "2026-09-30",
+      "expirationDate": "2026-10-02",
       "packageExpirations": {
-        "aoc": "2026-09-30"
+        "aoc": "2026-10-02"
       }
     },
     "on_prime": false,
@@ -40036,60 +39605,12 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/331551752/s592/bonhoeffer-pastor-spy-assassin.jpg",
     "synopsis": "Dans les années 1940, un pasteur allemand rejoint les rangs de la résistance en s'opposant publiquement au régime nazi. Marqué dans l'enfance par la mort de son grand frère, un soldat emporté dans la Grande Guerre, Dietrich Bonhoeffer poursuit des études de théologie aux États-Unis pendant la Grande Dépression et constate les iniquités sociales qui affligent le peuple afro-américain. De retour en Allemagne, il tente de mettre en garde ses contemporains contre les dérives du nazisme.",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
+      "status": "info",
+      "label": "📅 Jusqu'au 21/11",
+      "daysLeft": 50,
+      "expirationDate": "2026-11-21",
       "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm314240",
-    "titre": "Le Fidèle",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2017,
-    "duree": "2h 10min",
-    "runtime_minutes": 130,
-    "note_avis": 6.3,
-    "note_recence": 7.9,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "rma",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/36910482/s592/le-fidele.jpg",
-    "synopsis": "Lorsque Gino rencontre Bénédicte, c’est la passion. Totale. Incandescente. Mais Gino a un secret. De ceux qui mettent votre vie et votre entourage en danger. Alors Gino et Bénédicte vont devoir se battre envers et contre tous, contre la raison et contre leurs propres failles, pour pouvoir rester fidèles à leur amour.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
+        "aoc": "2026-11-21"
       }
     },
     "on_prime": false,
@@ -40130,344 +39651,21 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/301125968/s592/marie-antoinette-2022.jpg",
     "synopsis": "Marie-Antoinette est âgée d’à peine 14 ans quand elle quitte l’Autriche et sa mère pour épouser le dauphin en France. C’est encore une jeune enfant têtue et dissipée qui doit se plier aux règles françaises, nombreuses et compliquées. La jeune princesse souffre rapidement de ne pouvoir vivre sa vie comme elle l’entend. Elle est constamment sous pression pour perpétuer la lignée des Bourbons. Une mission plus compliquée que prévue : même si la relation entre Marie-Antoinette et Louis XVI s’améliore au fil du temps, sept années leur seront nécessaires pour consommer leur mariage.",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
+      "status": "info",
+      "label": "📅 Jusqu'au 31/10",
+      "daysLeft": 29,
+      "expirationDate": "2026-10-31",
       "packageExpirations": {
-        "aoc": "2026-09-30"
+        "aoc": "2026-10-31"
       }
     },
     "on_prime": false,
     "on_tnt": false
   },
   {
-    "id": "jw-tm151310",
-    "titre": "Les beaux gosses",
+    "id": "jw-tm1275386",
+    "titre": "Renfield",
     "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2009,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 6.4,
-    "note_recence": 6.1,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/186277383/s592/les-beaux-gosses.jpg",
-    "synopsis": "Hervé et Camel, adolescents de 14 ans scolarisés dans le même collège, ne pensent qu'à une chose : les filles. C'est leur unique sujet de conversation. Malheureusement, les deux amis, desservis par un physique ingrat, multiplient les échecs. Alors ils se contentent de se masturber devant de vieux catalogues. Mais un jour, tout change pour Hervé, qui vit seul avec une mère intrusive et déprimée. En effet, il réalise qu'Aurore, la plus jolie fille de la classe, a le béguin pour lui. Encouragé par Camel, Hervé tente de se rapprocher d'elle. Il compte profiter d'une fête, organisée par la grande soeur d'Aurore, pour arriver à ses fins…",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm36060",
-    "titre": "Rocky Balboa",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2006,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 7.1,
-    "note_recence": 5.4,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/10615263/s592/rocky-balboa.jpg",
-    "synopsis": "Rocky Balboa, le légendaire boxeur, a depuis longtemps quitté le ring. De ses succès, il ne reste plus que des histoires qu'il raconte aux clients de son restaurant. La mort de son épouse lui pèse chaque jour et son fils ne vient jamais le voir. Le champion d'aujourd'hui s'appelle Mason Dixon, et tout le monde s'accorde à le définir comme un tueur sans élégance ni cœur. Alors que les promoteurs lui cherchent désespérément un adversaire à sa taille, la légende de Rocky refait surface. L'idée d'opposer deux écoles, deux époques et deux titans aussi différents enflamme tout le monde. Pour Balboa, c'est l'occasion de ranimer les braises d'une passion qui ne l'a jamais quitté. L'esprit d'un champion ne meurt jamais...",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1066000",
-    "titre": "Madres Paralelas",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2021,
-    "duree": "2h 03min",
-    "runtime_minutes": 123,
-    "note_avis": 7.1,
-    "note_recence": 8.8,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/268346919/s592/madres-paralelas.jpg",
-    "synopsis": "Deux femmes, Janis et Ana, se rencontrent dans une chambre d'hôpital sur le point d’accoucher. Elles sont toutes les deux célibataires et sont tombées enceintes par accident. Janis, d'âge mûr, n'a aucun regret et durant les heures qui précèdent l'accouchement, elle est folle de joie. Ana en revanche, est une adolescente effrayée, pleine de remords et traumatisée. Janis essaie de lui remonter le moral alors qu'elles marchent telles des somnambules dans le couloir de l'hôpital. Les quelques mots qu'elles échangent pendant ces heures vont créer un lien très étroit entre elles, que le hasard se chargera de compliquer d'une manière qui changera leur vie à toutes les deux.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm238375",
-    "titre": "Dalida",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2017,
-    "duree": "2h 04min",
-    "runtime_minutes": 124,
-    "note_avis": 6.9,
-    "note_recence": 7.9,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "msc",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9627035/s592/dalida.jpg",
-    "synopsis": "De sa naissance au Caire en 1933 à son premier Olympia en 1956, de son mariage avec Lucien Morisse, patron de la jeune radio Europe n°1 aux soirées disco, de ses voyages initiatiques en Inde au succès mondiale de «Gigi l’Amoroso» en 1974, le film Dalida est le portrait intime d’une femme absolue, complexe et solaire… Une femme moderne a une époque qui l’était moins ... Malgré sa disparition tragique en 1987 Dalida continue à rayonner de sa présence éternelle.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1441251",
-    "titre": "Le Cauchemar de Peter Pan",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2025,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 4.8,
-    "note_recence": 9.8,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "fnt",
-      "hrr",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354889122/s592/le-cauchemar-du-pays-imaginaire-de-peter-pan-2025.jpg",
-    "synopsis": "Wendy Darling part à la recherche de son petit frère Michael, enlevé par un Peter Pan malveillant. Au cours de son périple, elle rencontre une Fée Clochette déchue, qui la guide à travers le dangereux Pays imaginaire. Wendy devra affronter ses propres peurs pour sauver son frère et échapper à l'emprise de Peter Pan.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm170404",
-    "titre": "Mon pire cauchemar",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2011,
-    "duree": "1h 43min",
-    "runtime_minutes": 103,
-    "note_avis": 6,
-    "note_recence": 6.5,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322847355/s592/mon-pire-cauchemar.jpg",
-    "synopsis": "Elle habite avec son fils et son mari en face du Luxembourg... Il habite seul avec son fils à l’arrière d’une camionnette. Elle dirige une prestigieuse fondation d’art contemporain... Il vit de petits boulots et d’allocations. Elle a bac + 7... Il a failli faire 7 ans de prison. Elle tutoie le ministre de la culture... Il tutoie toutes les bouteilles d’alcool qu’il rencontre. Elle aime le débat d’idées... Il aime le sexe avec des inconnues à forte poitrine. Ils ne se ressemblent pas du tout... et se supportent encore moins. D’ailleurs, ils n’auraient jamais dû se rencontrer. Mais leurs enfants, eux, sont inséparables... Ils finiront par comprendre pourquoi...",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm897852",
-    "titre": "Les choses qu'on dit, les choses qu'on fait",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2020,
-    "duree": "2h 02min",
-    "runtime_minutes": 122,
-    "note_avis": 6.9,
-    "note_recence": 8.6,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/206849944/s592/les-choses-quon-dit-les-choses-quon-fait.jpg",
-    "synopsis": "Daphné, enceinte de trois mois, est en vacances à la campagne avec son compagnon François. Il doit s’absenter pour son travail et elle se retrouve seule pour accueillir Maxime, son cousin qu’elle n’avait jamais rencontré. Pendant quatre jours, tandis qu'ils attendent le retour de François, Daphné et Maxime font petit à petit connaissance et se confient des récits de plus en plus intimes sur leurs histoires d'amour présentes et passées...",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts368811",
-    "titre": "Wreck : Croisière sanglante",
-    "type": "serie",
     "chaine": "Universal+",
     "chaines": [
       "Universal+"
@@ -40479,457 +39677,87 @@ const CATALOG_DATA = [
     "package_slugs": [
       "auc"
     ],
-    "annee": 2022,
-    "duree": "46 min/ép.",
-    "runtime_minutes": 46,
-    "note_avis": 6.5,
-    "note_recence": 9.1,
-    "note_globale": 7.8,
+    "annee": 2023,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 6.4,
+    "note_recence": 9.3,
+    "note_globale": 7.9,
     "etoiles": 4,
     "categories": [
       "horreur_epouvante"
     ],
     "raw_genres": [
+      "act",
       "cmy",
-      "drm",
-      "hrr",
-      "trl"
+      "fnt",
+      "hrr"
     ],
-    "badge": "18",
+    "badge": "12",
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/313307324/s592/wreck.jpg",
-    "synopsis": "Pour retrouver sa sœur disparue, Jamie, 20 ans, infiltre l'équipage d'un navire de croisière.",
+    "poster": "https://images.justwatch.com/poster/305193485/s592/renfield.jpg",
+    "synopsis": "Le mal ne saurait survivre une éternité sans un petit coup de pouce. \n Dans cette version moderne du mythe de Dracula, Renfield est l’assistant torturé du maître le plus narcissique qui ait jamais existé : Dracula. Renfield est contraint par son maître de lui procurer des proies et de pourvoir à toutes ses requêtes, mêmes les plus dégradantes. Mais après des siècles de servitude, il est enfin prêt à s’affranchir de l’ombre du Prince des ténèbres. À la seule condition qu’il arrive à mettre un terme à la dépendance mutuelle qui les unit.",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
+      "status": "info",
+      "label": "📅 Jusqu'au 05/12",
+      "daysLeft": 64,
+      "expirationDate": "2026-12-05",
       "packageExpirations": {
-        "auc": "2026-09-30"
+        "auc": "2026-12-05"
       }
     },
     "on_prime": false,
     "on_tnt": false
   },
   {
-    "id": "jw-tm182230",
-    "titre": "Attack the Block",
+    "id": "jw-tm232748",
+    "titre": "xXx : Reactivated",
     "type": "film",
-    "chaine": "Ciné+ OCS",
+    "chaine": "Action Max",
     "chaines": [
-      "Ciné+ OCS"
+      "Action Max"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/action.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/action.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aca"
     ],
-    "annee": 2011,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 6.6,
-    "note_recence": 6.5,
+    "annee": 2017,
+    "duree": "1h 47min",
+    "runtime_minutes": 107,
+    "note_avis": 5.2,
+    "note_recence": 7.9,
     "note_globale": 6.6,
     "etoiles": 3,
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "raw_genres": [
       "act",
-      "cmy",
-      "trl",
-      "scf",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9868431/s592/attack-the-block.jpg",
-    "synopsis": "Un gang d’adolescents fait face à une invasion de féroces extraterrestres. Leur affrontement transforme une cité de Londres en une cour de récréation futuriste, un immeuble en une forteresse assiégée et des zonards en héros…",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm144569",
-    "titre": "Fish Tank",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2009,
-    "duree": "2h 03min",
-    "runtime_minutes": 123,
-    "note_avis": 7.3,
-    "note_recence": 6.1,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/180858172/s592/fish-tank.jpg",
-    "synopsis": "A 15 ans, Mia est une adolescente rebelle avec une unique passion: la danse hip hop. Un jour d'été, sa mère rentre à la maison avec un nouvel amant, Connor, qui s'installe chez elles. Est-ce enfin une promesse de bonheur ou bien un leurre ?",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1389663",
-    "titre": "La Proie des Ombres",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2024,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 6.7,
-    "note_recence": 9.5,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "hrr",
+      "crm",
       "trl"
     ],
     "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/324508114/s592/what-you-wish-for.jpg",
-    "synopsis": "Chef cuisinier de talent, Ryan fuit d'importantes dettes de jeu en rendant visite à Jack, un ancien condisciple installé désormais en Amérique latine. Peu après son arrivée, Ryan retrouve son ami pendu. Il décide d'usurper l'identité du défunt pour régler ses créanciers qui menacent de s'en prendre à sa mère. En rencontrant Imogen, la cheffe de Jack, Ryan réalise que ce dernier avait accepté un engagement horrible. Il doit cependant s'y plier s'il ne veut pas être démasqué...",
+    "poster": "https://images.justwatch.com/poster/187488831/s592/xxx-reactivated.jpg",
+    "synopsis": "Xander Cage, sportif de l’extrême devenu agent d'élite, sort de l’exil qu’il s’était imposé, pour affronter le redoutable guerrier Alpha Xiang et son équipe. Il entre dans une course impitoyable afin de récupérer une arme de destruction massive connue sous le nom de Boîte de Pandore. Recrutant une toute nouvelle équipe d’experts accros à l'adrénaline, Xander se retrouve au cœur d’une conspiration menaçant les gouvernements les plus puissants du monde.",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
+      "status": "warning",
+      "label": "⏳ Expire dans 5 j",
+      "daysLeft": 5,
+      "expirationDate": "2026-10-07",
       "packageExpirations": {
-        "aoc": "2026-09-30"
+        "aca": "2026-10-07"
       }
     },
     "on_prime": false,
     "on_tnt": false
   },
   {
-    "id": "jw-tm141182",
-    "titre": "A Most Violent Year",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2014,
-    "duree": "2h 05min",
-    "runtime_minutes": 125,
-    "note_avis": 6.9,
-    "note_recence": 7.2,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/93753142/s592/a-most-violent-year.jpg",
-    "synopsis": "New York, 1981. L'année la plus violente qu'ait connu la ville. Le destin d'un immigré qui tente de se faire une place dans le business du pétrole. Son ambition se heurte à la corruption, la violence galopante et à la dépravation de l'époque qui menacent de détruire tout ce que lui et sa famille ont construit.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm182575",
-    "titre": "Gibraltar",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2013,
-    "duree": "1h 56min",
-    "runtime_minutes": 116,
-    "note_avis": 6.3,
-    "note_recence": 7,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/178770099/s592/gibraltar.jpg",
-    "synopsis": "Toujours mentir. Jamais trahir. Afin de mettre sa famille à l’abri du besoin, Marc Duval, un français expatrié à Gibraltar, devient agent d’infiltration pour le compte des douanes françaises. De petits trafics en cargaisons troubles, il gagne progressivement la confiance de Claudio Lanfredi, un puissant importateur de cocaïne associé aux cartels Colombiens. Cette immersion en eau profonde dans l’univers des narcotrafiquants lui fait courir des risques de plus en plus importants. Mais à mesure que Marc gravit les échelons du cartel, il découvre aussi le luxe et l’argent facile... En permanence sur le fil du rasoir, seuls ses mensonges le maintiennent encore en vie. Lorsque les douanes anglaises rentrent dans la partie pour arrêter Lanfredi, le jeu devient encore plus dangereux et sa famille risque d’en payer le prix.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts383893",
-    "titre": "Slip",
-    "type": "serie",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2023,
-    "duree": "27 min/ép.",
-    "runtime_minutes": 27,
-    "note_avis": 6.5,
-    "note_recence": 9.3,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "fnt",
-      "scf"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/304427223/s592/slip.jpg",
-    "synopsis": "Slip suit Mae à travers un voyage surréaliste dans des univers parallèles, mariée à différentes personnes, essayant de retrouver son partenaire et, finalement, elle-même.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1218475",
-    "titre": "Soldat Collins",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2024,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 5.5,
-    "note_recence": 9.5,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "war"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321799885/s592/before-dawn-2024.jpg",
-    "synopsis": "Janvier 1915. La Grande Guerre fait rage. Jim Collins, jeune éleveur de l’outback australien, abandonne la ferme familiale pour rejoindre la ligne de front à l’autre bout du monde. Plein d’espoir et d’ambition, le soldat Collins se retrouve confronté à la brutalité des tranchées où rester en vie est un combat de tous les instants.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm316702",
-    "titre": "Mon garçon",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2017,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 5.8,
-    "note_recence": 7.9,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/41270737/s592/mon-garcon.jpg",
-    "synopsis": "Passionné par son métier, Julien voyage énormément à l’étranger. Ce manque de présence a fait exploser son couple quelques années auparavant. Lors d’une escale en France, il découvre sur son répondeur un message de son ex femme en larmes : leur petit garçon de sept ans a disparu lors d’un bivouac en montagne avec sa classe. Julien se précipite à sa recherche et rien ne pourra l’arrêter.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm139528",
-    "titre": "Slow West",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2015,
-    "duree": "1h 24min",
-    "runtime_minutes": 84,
-    "note_avis": 6.9,
-    "note_recence": 7.5,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "trl",
-      "rma",
-      "wsn"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/11571920/s592/slow-west.jpg",
-    "synopsis": "A la fin du XIXe siècle, Rose Ross, une jeune Écossaise, est obligée de fuir en Amérique avec son père après que ce dernier, au cours d'une dispute, a tué lord Cavendish, un personnage influent. Jay Cavendish, le neveu du lord, un tout jeune homme amoureux de Rose depuis toujours, décide de partir pour la retrouver dans l'Ouest américain. Il découvre alors un monde beaucoup plus dangereux qu'il ne l'avait imaginé. Il est sauvé de la mort par un mystérieux voyageur, Silas Selleck, qui le prend sous son aile. Quand Silas apprend à l'insu de Jay que la tête du père de Rose est mise à prix, il est tenté par l'affaire",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm80630",
-    "titre": "Les Chansons d'amour",
+    "id": "jw-tm79696",
+    "titre": "Le Come-back",
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
@@ -40943,39 +39771,81 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2007,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 7,
+    "duree": "1h 44min",
+    "runtime_minutes": 104,
+    "note_avis": 6.5,
     "note_recence": 5.6,
-    "note_globale": 6.3,
+    "note_globale": 6.1,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
     "raw_genres": [
-      "drm",
-      "rma",
-      "eur"
+      "cmy",
+      "msc",
+      "rma"
     ],
-    "badge": "12",
+    "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/179359245/s592/les-chansons-damour.jpg",
-    "synopsis": "Par amour, Julie accepte de faire ménage à trois avec la collègue de son petit ami Ismaël. Mais cette situation finit par devenir pesante pour la jeune femme qui aimerait être à nouveau seule avec lui. Lorsqu'un incident vient mettre fin au trio amoureux, tout devient bancal, surtout dans la vie d'Ismaël qui essaie difficilement de gérer sa confusion des sentiments, entre légèreté et désespoir.",
+    "poster": "https://images.justwatch.com/poster/311661211/s592/le-come-back.jpg",
+    "synopsis": "Le chanteur pop Alex Fletcher a connu la gloire dans les années 80, avant d'en être réduit à hanter les podiums des parcs de loisirs, foires agricoles et autres temples de la chansonnette rétro. Ce talentueux musicien, que chacun croit fini, se voit cependant offrir un come-back de la dernière chance lorsque la jeune diva Cora Corman l'invite à écrire et enregistrer en duo avec elle une chanson de son prochain album. L'ennui est qu'Alex n'a rien composé depuis dix ans, qu'il n'a jamais été parolier... et qu'il doit livrer son chef-d’œuvre dans la semaine ! C'est alors qu'entre en scène la fantasque et craquante Sophie Fisher, dont le verbe haut en couleur, aussi inventif qu'imagé, ravit notre artiste. Celle-ci hésite à collaborer avec un personnage aussi léger qu'Alex, mais la musique, qui sait si bien adoucir les mœurs, a aussi le don d'enflammer les cœurs...",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
+      "status": "info",
+      "label": "📅 Jusqu'au 14/11",
+      "daysLeft": 43,
+      "expirationDate": "2026-11-14",
       "packageExpirations": {
-        "aoc": "2026-09-30"
+        "aoc": "2026-11-14"
       }
     },
-    "on_prime": true,
-    "on_tnt": true
+    "on_prime": false,
+    "on_tnt": false
   },
   {
-    "id": "jw-tm1159326",
-    "titre": "Le Maître et Marguerite",
+    "id": "jw-ts110467",
+    "titre": "Un Entretien",
+    "type": "serie",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2018,
+    "duree": "6 min/ép.",
+    "runtime_minutes": 6,
+    "note_avis": 7.5,
+    "note_recence": 8.2,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/320550573/s592/un-entretien.jpg",
+    "synopsis": "Une succession d'entretiens, menés par un directeur des ressources humaines, déclenchent chez lui des pensées intérieures plus ou moins déconcertantes.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm350086",
+    "titre": "Un jour de pluie à New York",
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
@@ -40988,34 +39858,31 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "annee": 2024,
-    "duree": "2h 37min",
-    "runtime_minutes": 157,
-    "note_avis": 7.1,
-    "note_recence": 9.5,
-    "note_globale": 8.3,
-    "etoiles": 5,
+    "annee": 2019,
+    "duree": "1h 32min",
+    "runtime_minutes": 92,
+    "note_avis": 6.4,
+    "note_recence": 8.4,
+    "note_globale": 7.4,
+    "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "comedie"
     ],
     "raw_genres": [
-      "drm",
-      "fnt",
-      "hrr",
-      "trl",
+      "cmy",
       "rma"
     ],
     "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320141846/s592/master-i-margarita.jpg",
-    "synopsis": "Dans un Moscou futuriste des années 1930, cette adaptation du roman de Boulgakov suit un écrivain célèbre, déchu après la censure de sa pièce sur Ponce Pilate. Rejeté, il rencontre Marguerite, une femme mariée qui devient sa muse et l'inspire à écrire un nouveau roman. Dans son récit, Satan visite Moscou et y provoque des événements surnaturels. Marguerite, transformée en sorcière, retrouve son amant après la mort, dans un ballet macabre entre réalité et magie.",
+    "poster": "https://images.justwatch.com/poster/172306074/s592/un-jour-de-pluie-a-new-york.jpg",
+    "synopsis": "Deux étudiants, Gatsby et Ashleigh, envisagent de passer un week-end en amoureux à New York. Mais leur projet tourne court, aussi vite que la pluie succède au beau temps… Bientôt séparés, chacun des deux tourtereaux enchaîne les rencontres fortuites et les situations insolites.",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
+      "status": "info",
+      "label": "📅 Jusqu'au 21/11",
+      "daysLeft": 50,
+      "expirationDate": "2026-11-21",
       "packageExpirations": {
-        "aoc": "2026-09-30"
+        "aoc": "2026-11-21"
       }
     },
     "on_prime": false,
@@ -41059,537 +39926,35 @@ const CATALOG_DATA = [
       "status": "urgent",
       "label": "⏳ Expire aujourd'hui",
       "daysLeft": 0,
-      "expirationDate": "2026-09-30",
+      "expirationDate": "2026-10-02",
       "packageExpirations": {
-        "auc": "2026-09-30"
+        "auc": "2026-10-02"
       }
     },
     "on_prime": false,
     "on_tnt": true
   },
   {
-    "id": "jw-tm918698",
-    "titre": "The Deal",
+    "id": "jw-tm1247754",
+    "titre": "La Scala",
     "type": "film",
-    "chaine": "Universal+",
+    "chaine": "Ciné+ OCS",
     "chaines": [
-      "Universal+"
+      "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/cine_ocs.svg"
     ],
     "package_slugs": [
-      "auc"
+      "aoc"
     ],
     "annee": 2022,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 4.7,
-    "note_recence": 9.1,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "scf"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/307340795/s592/the-deal-2022.jpg",
-    "synopsis": "Une pandémie sans précédent a ravagé l’humanité. Pour combattre la crise, une organisation totalitaire, le Bureau, a enfermé les survivants à l’intérieur d’une cité sans âme, où chaque individu est encouragé à signer le « Deal ». Acceptez-le et vous recevrez emploi, logement et soins médicaux pendant vingt ans, après quoi vous devrez mourir et laisser votre place. Tala Bayani a accepté le Deal quand elle avait 20 ans, et qu’elle était enceinte et seule. Depuis, elle fait tout pour que sa fille Analyn n’ait pas à faire le même choix qu’elle. Cinq jours seulement avant la mort programmée de Tala, Analyn reçoit un diagnostique médical inattendu. Tala va devoir se battre pour que sa fille échappe à l’asservissement imposé par le Bureau, avant que son temps ne soit écoulé.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "auc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm410390",
-    "titre": "Donbass",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2018,
-    "duree": "2h 02min",
-    "runtime_minutes": 122,
-    "note_avis": 6.6,
-    "note_recence": 8.2,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "war",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/167253074/s592/donbass.jpg",
-    "synopsis": "Dans le Donbass, région de l'est de l'Ukraine, une guerre hybride mêle conflit armé ouvert, crimes et saccages perpétrés par des gangs séparatistes.  Dans le Donbass, la guerre s'appelle la paix, la propagande est érigée en vérité et la haine prétend être l'amour. Un périple à travers le Donbass, c’est un enchainement d’aventures folles, dans lesquelles le grotesque et le tragique se mêlent comme la vie et la mort.  Ce n’est pas un conte sur une région, un pays ou un système politique mais sur un monde perdu dans l’après-vérité et les fausses identités. Cela concerne chacun d’entre nous.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1097562",
-    "titre": "Mange",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2021,
-    "duree": "35min",
-    "runtime_minutes": 35,
-    "note_avis": 6.5,
-    "note_recence": 8.8,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "hrr"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/250515390/s592/mange.jpg",
-    "synopsis": "Jill est Escort girl. Lorsqu’elle rencontre Alex qui la paye pour la regarder manger, c’est son propre désir qui se transforme et vire à l’obsession. MANGE est une plongée dans les méandres d’un plaisir transgressif et insatiable.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm156070",
-    "titre": "Two Faces of January",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2014,
-    "duree": "1h 36min",
-    "runtime_minutes": 96,
-    "note_avis": 6.2,
-    "note_recence": 7.2,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "trl",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/304679026/s592/the-two-faces-of-january.jpg",
-    "synopsis": "1962. L’Américain Rydal (Oscar Isaac) vivote comme guide touristique à Athènes. Lorsqu’il rencontre le couple séduisant et mystérieux formé par Colette (Kirsten Dunst) et Chester MacFarland, il est immédiatement fasciné par son style de vie raffiné, empreint de luxe et de légèreté. Jusqu’au soir où Chester le somme de déplacer le corps inanimé d’un homme et qu’il se trouve ainsi attiré dans un engrenage fatal semé de meurtres et d’intrigues. S’ensuit un passionnant jeu du chat et de la souris jusque dans les ruelles étriquées du bazar d’Istanbul.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm359324",
-    "titre": "Une pluie sans fin",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2017,
-    "duree": "2h 00min",
-    "runtime_minutes": 120,
-    "note_avis": 6.5,
-    "note_recence": 7.9,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/310293816/s592/une-pluie-sans-fin.jpg",
-    "synopsis": "1997, à quelques mois de la rétrocession de Hong Kong à la Chine, Yu Guowei, le chef de la sécurité d’une vieille usine dans le Sud du pays, enquête sur une série de meurtres commis sur des jeunes femmes. Alors que la police piétine, cette enquête va très vite devenir une véritable obsession pour Yu… puis sa raison de vivre.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm168220",
-    "titre": "Alceste à bicyclette",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2013,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 6.6,
-    "note_recence": 7,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/297036135/s592/alceste-a-bicyclette.jpg",
-    "synopsis": "Au sommet de sa carrière d’acteur, Serge Tanneur a quitté une fois pour toutes le monde du spectacle. Trop de colère, trop de lassitude. La fatigue d’un métier où tout le monde trahit tout le monde. Désormais, Serge vit en ermite dans une maison délabrée sur l’Île de Ré… Trois ans plus tard, Gauthier Valence, un acteur de télévision adulé des foules, abonné aux rôles de héros au grand cœur, débarque sur l’île. Il vient retrouver Serge pour lui proposer de jouer «Le Misanthrope» de Molière. Serge n’est-il pas devenu une pure incarnation du personnage d’Alceste? Serge refuse tout net et confirme qu’il ne reviendra jamais sur scène. Pourtant, quelque chose en lui ne demande qu’à céder...",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm448562",
-    "titre": "45 jours loin de toi",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2018,
-    "duree": "1h 36min",
-    "runtime_minutes": 96,
-    "note_avis": 6.3,
-    "note_recence": 8.2,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/242879750/s592/45-days-away-from-you.jpg",
-    "synopsis": "\"Après une rupture difficile avec celui qui était son partenaire depuis 8 ans, Rafael, le cœur brisé, décide de partir afin de mieux se retrouver. En Angleterre, il rencontre Julia, puis Fábio au Portugal et Mayara en Argentine. Ces trois nouveaux amis prennent une place spéciale et lui permettent de rebondir. Une « désintox sentimentale », c’est ainsi que Julia, une de ses amies, qualifie le voyage entrepris par Rafael pour soigner son cœur brisé. En fait de désintoxication, c’est dans un tourbillon d’émotions qu’il se trouve entraîné et dans lequel on le suit avec un plaisir infini. Rafael Gomes brosse une galerie de personnages attachants et met en scène à merveille la difficulté de s’accorder aux autres. Un film charmant à la légèreté mélancolique, où la variété de sentiments doux-amers nous renvoie forcément un petit reflet de nous-mêmes.\"",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm210050",
-    "titre": "Barbershop: A Fresh Cut",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2016,
-    "duree": "1h 51min",
-    "runtime_minutes": 111,
-    "note_avis": 5.9,
-    "note_recence": 7.7,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/307284153/s592/barbershop-the-next-cut.jpg",
-    "synopsis": "Dix ans se sont écoulés depuis notre dernier rendez-vous au salon de Calvin. Lui et son équipe sont toujours là, mais le salon a subi des changements majeurs. Le plus grand d'entre eux : notre sanctuaire principalement masculin devient désormais mixte.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm164082",
-    "titre": "Le Moine",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2011,
-    "duree": "1h 41min",
-    "runtime_minutes": 101,
-    "note_avis": 5.8,
-    "note_recence": 6.5,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/171158418/s592/le-moine.jpg",
-    "synopsis": "Adaptation du célèbre roman gothique de Matthew G.Lewis, publié en 1796, « Le Moine » raconte le destin tragique de Frère Ambrosio dans l’Espagne catholique du XVIIe siècle. Abandonné à la naissance aux portes du couvent des Capucins, Ambrosio est élevé par les frères. Devenu un prédicateur admiré pour sa ferveur et redouté pour son intransigeance , il se croit à l’abri de toute tentation. L’arrivée d’un mystérieux novice va ébranler ses certitudes et le mener sur le chemin du péché.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm217084",
-    "titre": "En mai, fais ce qu'il te plaît",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2015,
-    "duree": "1h 54min",
-    "runtime_minutes": 114,
-    "note_avis": 6.7,
-    "note_recence": 7.5,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "war",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/144025584/s592/en-mai-fais-ce-quil-te-plait.jpg",
-    "synopsis": "Mai 1940. Pour fuir l'invasion allemande, les habitants d'un petit village du nord de la France partent sur les routes, comme des millions de Français. Ils emmènent avec eux dans cet exode un enfant allemand, dont le père opposant au régime nazi est emprisonné à Arras pour avoir menti sur sa nationalité. Libéré dans le chaos, celui-ci se lance à la recherche de son fils, accompagné par un soldat écossais cherchant à regagner l'Angleterre...",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm182141",
-    "titre": "17 filles",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2011,
     "duree": "1h 27min",
     "runtime_minutes": 87,
-    "note_avis": 6.6,
-    "note_recence": 6.5,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/8811460/s592/17-filles.jpg",
-    "synopsis": "Dans une petite ville au bord de l'océan, un groupe d'adolescentes décident de tomber enceintes en même temps. Les adultes n'y comprennent rien, pas plus que les garçons. Pourquoi ces filles, toutes scolarisées dans le même lycée, ont-elles décidé de faire un enfant ?  Ce film est inspiré d'un fait divers survenu en 2008.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm336600",
-    "titre": "La Villa",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2017,
-    "duree": "1h 47min",
-    "runtime_minutes": 107,
-    "note_avis": 6.5,
-    "note_recence": 7.9,
-    "note_globale": 7.2,
+    "note_avis": 5.9,
+    "note_recence": 9.1,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -41597,27 +39962,27 @@ const CATALOG_DATA = [
     "raw_genres": [
       "cmy",
       "drm",
-      "eur"
+      "msc"
     ],
     "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/78808778/s592/la-villa.jpg",
-    "synopsis": "A quelques encablures de l’Estaque, le père d'Angèle, d'Armand et de Joseph vient d'être frappé par une attaque et est voué désormais à une vie végétative. Après des années de silence, Angèle est de retour dans le foyer familial, à son corps défendant car elle a un compte à régler avec la famille...",
+    "poster": "https://images.justwatch.com/poster/320382336/s592/la-scala.jpg",
+    "synopsis": "Chez les Dumar, on est chefs d’orchestre de père en fils : François achève une longue et brillante carrière internationale tandis que Denis vient de remporter une énième Victoire de la Musique Classique. Quand François apprend qu’il a été choisi pour diriger la Scala, son rêve ultime, son graal, il n’en croit pas ses oreilles. D’abord comblé pour son père, Denis déchante vite lorsqu’il découvre qu’en réalité c’est lui qui a été choisi pour aller à Milan.",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
+      "status": "warning",
+      "label": "⏳ Expire dans 4 j",
+      "daysLeft": 4,
+      "expirationDate": "2026-10-06",
       "packageExpirations": {
-        "aoc": "2026-09-30"
+        "aoc": "2026-10-06"
       }
     },
     "on_prime": false,
     "on_tnt": false
   },
   {
-    "id": "jw-tm162719",
-    "titre": "Les Neiges du Kilimandjaro",
+    "id": "jw-tm1506815",
+    "titre": "Mariana's Room",
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
@@ -41630,33 +39995,31 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "annee": 2011,
-    "duree": "1h 47min",
-    "runtime_minutes": 107,
-    "note_avis": 7.2,
-    "note_recence": 6.5,
-    "note_globale": 6.9,
-    "etoiles": 3,
+    "annee": 2025,
+    "duree": "2h 10min",
+    "runtime_minutes": 130,
+    "note_avis": 6.6,
+    "note_recence": 9.8,
+    "note_globale": 8.2,
+    "etoiles": 5,
     "categories": [
       "drame_emotion"
     ],
     "raw_genres": [
-      "cmy",
       "drm",
-      "rma",
-      "eur"
+      "hst"
     ],
     "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/303435356/s592/les-neiges-du-kilimandjaro-2011.jpg",
-    "synopsis": "Bien qu’ayant perdu son travail, Michel vit heureux avec Marie-Claire. Ces deux-là s’aiment depuis trente ans. Leurs enfants et leurs petits-enfants les comblent. Ils ont des amis très proches. Ils sont fiers de leurs combats syndicaux et politiques. Leurs consciences sont aussi transparentes que leurs regards. Ce bonheur va voler en éclats avec leur porte-fenêtre devant deux jeunes hommes armés et masqués qui les frappent, les attachent, leur arrachent leurs alliances, et s’enfuient avec leurs cartes de crédit… Leur désarroi sera d’autant plus violent lorsqu’ils apprennent que cette brutale agression a été organisée par l’un des jeunes ouvriers licenciés avec Michel.",
+    "poster": "https://images.justwatch.com/poster/328107574/s592/marianas-room.jpg",
+    "synopsis": "1943, Ukraine, Hugo a 12 ans. Pour le sauver de la déportation, sa mère le confie à son amie d’enfance Mariana, une prostituée qui vit dans une maison close à la sortie de la ville. Caché dans le placard de la chambre de Mariana, toute son existence est suspendue aux bruits qui l’entourent et aux scènes qu’il devine à travers la cloison... D'après La Chambre de Mariana d' Aharon Appelfeld.",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
+      "status": "info",
+      "label": "📅 Jusqu'au 24/11",
+      "daysLeft": 53,
+      "expirationDate": "2026-11-24",
       "packageExpirations": {
-        "aoc": "2026-09-30"
+        "aoc": "2026-11-24"
       }
     },
     "on_prime": false,
@@ -41696,20 +40059,20 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/228978809/s592/les-apaches.jpg",
     "synopsis": "Corse / Extrême Sud / L’été.  Pendant que des milliers de touristes envahissent les plages, les campings et les clubs, cinq adolescents de Porto-Vecchio trainent. Un soir, l'un d'eux conduit les quatre autres dans une luxueuse villa inoccupée... La bande y passe clandestinement la nuit. Avant de partir, ils volent quelques objets sans valeur et deux fusils de collection. Quand la propriétaire de la maison débarque de Paris, elle se plaint du cambriolage à un petit caïd local de sa connaissance…",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
+      "status": "info",
+      "label": "📅 Jusqu'au 31/10",
+      "daysLeft": 29,
+      "expirationDate": "2026-10-31",
       "packageExpirations": {
-        "aoc": "2026-09-30"
+        "aoc": "2026-10-31"
       }
     },
     "on_prime": false,
     "on_tnt": false
   },
   {
-    "id": "jw-tm223179",
-    "titre": "Ni le ciel ni la terre",
+    "id": "jw-tm464517",
+    "titre": "Petit vampire",
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
@@ -41721,456 +40084,42 @@ const CATALOG_DATA = [
     ],
     "package_slugs": [
       "aoc"
-    ],
-    "annee": 2015,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 6.3,
-    "note_recence": 7.5,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "fnt",
-      "trl",
-      "war",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/177339133/s592/ni-le-ciel-ni-la-terre.jpg",
-    "synopsis": "Afghanistan 2014.  A l’approche du retrait des troupes, le capitaine Antarès Bonassieu et sa section sont affectés à une mission de contrôle et de surveillance dans une vallée reculée du Wakhan, frontalière du Pakistan.  Malgré la détermination d’Antarès et de ses hommes, le contrôle de ce secteur supposé calme va progressivement leur échapper.  Une nuit, des soldats se mettent à disparaître mystérieusement dans la vallée.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm155480",
-    "titre": "La Ritournelle",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2014,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 6.4,
-    "note_recence": 7.2,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "doc",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/169409109/s592/la-ritournelle.jpg",
-    "synopsis": "Brigitte et Xavier sont éleveurs bovins en Normandie. Elle est rêveuse, la tête dans les étoiles. Lui, les pieds ancrés dans la terre, vit surtout pour son métier. Avec le départ des enfants, la routine de leur couple pèse de plus en plus à Brigitte. Un jour, sur un coup de folie, elle prend la clef des champs. Destination : Paris. Xavier réalise alors qu’il est peut-être en train de la perdre. Parviendront-ils à se retrouver ? Et comment se réinventer, après toutes ces années ? La reconquête emprunte parfois des chemins de traverse...",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm234615",
-    "titre": "Le Noël Magique de Jill et Joy",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2015,
-    "duree": "1h 21min",
-    "runtime_minutes": 81,
-    "note_avis": 5.7,
-    "note_recence": 7.5,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "fml",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/139171161/s592/jill-and-joys-winter.jpg",
-    "synopsis": "Un soir de décembre, Jill et Joy, deux fillettes de neuf ans, ont la surprise de voir une petite voiture, à peine plus grande qu'une boîte à chaussures, se garer devant leur maison. Une famille de Lilliputiens en sort : les McPetit qui viennent de perdre leur maison. Jill et Joy les accueillent alors à bras ouverts et acceptent de prendre soin d'eux jusqu'à ce qu'ils trouvent un nouveau logement.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1205067",
-    "titre": "Blowback",
-    "type": "film",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2022,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 4.3,
-    "note_recence": 9.1,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306856918/s592/blowback.jpg",
-    "synopsis": "Après avoir planifié le casse « parfait », Nick Mullins est trahi par sa petite amie et son chef d'équipe, Jack. Laissé pour mort, Nick survit et se tourne vers les personnes qu'il a essayé de voler pour l'aider à se venger. Alors que la police et le FBI se rapprochent, il traque ses cibles et les exécute sans remords, une par une. S'il reste en vie assez longtemps, il pourra obtenir sa revanche.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "auc": "2026-09-30"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm65130",
-    "titre": "Aux yeux de tous",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2012,
-    "duree": "1h 20min",
-    "runtime_minutes": 80,
-    "note_avis": 6,
-    "note_recence": 6.8,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/311632362/s592/aux-yeux-de-tous.jpg",
-    "synopsis": "673'000 caméras de surveillance et des millions de webcams en France. Un hacker anonyme a piraté toutes les caméras de Paris et observe la ville à son insu. Petits délits et moments d'intimité volés, il voit tout. Jusqu’au jour où un attentat dévaste la gare d’Austerlitz. La police se met sur la piste d’un groupe satellite d’Al-Qaïda. Le hacker réussit, lui, à trouver les images de l’explosion et découvre que c’est un jeune couple qui a posé la bombe. À l’aide des caméras de la ville, il décide de traquer les coupables. Sans le savoir il va mettre le doigt dans un terrible engrenage.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm950660",
-    "titre": "Blindfire",
-    "type": "film",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
     ],
     "annee": 2020,
-    "duree": "1h 23min",
-    "runtime_minutes": 83,
-    "note_avis": 4.9,
+    "duree": "1h 22min",
+    "runtime_minutes": 82,
+    "note_avis": 6.4,
     "note_recence": 8.6,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/249724746/s592/blindfire.jpg",
-    "synopsis": "Appelé pour une violente dispute domestique, Will Bishop, officier de police, tue un suspect afro-américain, dont il apprend après l'innocence. Soupçonnant un coup monté, le policier décide de traquer le responsable et interroge le racisme qui l'a mené à cette situation.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "auc": "2026-09-30"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm145426",
-    "titre": "96 heures",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2014,
-    "duree": "1h 36min",
-    "runtime_minutes": 96,
-    "note_avis": 5.7,
-    "note_recence": 7.2,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/178567683/s592/96-heures.jpg",
-    "synopsis": "Marion Reynaud, qui prépare son concours d'inspecteur, voue une admiration sans borne à son supérieur, Gabriel Carré, un commissaire respecté. Kancel, un dangereux caïd, réussit à s'évader tandis que sa bande enlève Gabriel sous les yeux de sa femme Françoise. Celui-ci est séquestré au sous-sol d'une immense villa. Kancel veut arracher à Gabriel le nom de celui qui l'a dénoncé trois ans plus tôt. Alors que celui-ci refuse de lui donner la moindre information, une bataille psychologique commence entre les deux hommes...",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm134258",
-    "titre": "Non Ma Fille, Tu N'iras Pas Danser",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2009,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
-    "note_avis": 6,
-    "note_recence": 6.1,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/179478830/s592/non-ma-fille-tu-niras-pas-danser.jpg",
-    "synopsis": "Depuis qu’elle s’est séparée de Nigel, Léna traverse la vie comme elle peut avec ses deux enfants. Elle triomphe avec vaillance des obstacles semés sur leur route. Mais il lui reste à affronter le pire : l’implacable bonté de sa famille qui a décidé de faire son bonheur.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm306606",
-    "titre": "Nos étoiles",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2017,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
-    "note_avis": 6,
-    "note_recence": 7.9,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/348085892/s592/paths.jpg",
-    "synopsis": "Andreas et Martin ont tous deux la quarantaine. Ils vivent ensemble, l’un d’entre eux ayant un enfant d’une précédente union avec une femme. Alors que l’atelier de menuiserie d’Andreas semble regagner en activité et que Martin est moins souvent en déplacement, leur relation semble pourtant battre de l’aile. Et leur voyage annuel sur les rives de la mer Baltique ne va rien arranger…",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm245260",
-    "titre": "Monsieur Grenouille",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2016,
-    "duree": "1h 23min",
-    "runtime_minutes": 83,
-    "note_avis": 6.3,
-    "note_recence": 7.7,
-    "note_globale": 7,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "animation_famille"
     ],
     "raw_genres": [
-      "cmy",
+      "ani",
       "fnt",
-      "fml",
-      "eur"
+      "hrr",
+      "fml"
     ],
     "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/80270152/s592/mr-frog.jpg",
-    "synopsis": "Élevée par une mère débordée par son travail de vétérinaire, la petite Sita vit entourée d'animaux. Elle aime beaucoup monsieur Frans, son instituteur. Lors d'un exposé de Sita sur les grenouilles, Frans se sent mal et quitte la salle, sa main devenant verte. Sita se persuade alors que Frans se transforme parfois en grenouille. Elle tente de convaincre ses camarades d'école. Un jour, Frans se transforme en classe.",
+    "poster": "https://images.justwatch.com/poster/147947742/s592/petit-vampire.jpg",
+    "synopsis": "Petit Vampire vit dans une maison hantée avec une joyeuse bande de monstres, mais il s’ennuie terriblement... Cela fait maintenant 300 ans qu’il a 10 ans, alors les bateaux de pirates, et le cinéclub, ça fait bien longtemps que ça ne l’amuse plus. Son rêve ? Aller à l’école pour se faire des copains. Mais ses parents ne l’entendent pas de cette oreille, le monde extérieur est bien trop dangereux. Accompagné par Fantomate, son fidèle bouledogue, Petit Vampire s’échappe du manoir en cachette, déterminé à rencontrer d’autres enfants. Très vite, il se lie d’amitié avec Michel, un petit garçon aussi malin qu’attachant. Mais leur amitié naissante va attirer l’attention du terrifiant Gibbous, un vieil ennemi qui était sur les traces de Petit Vampire et sa famille depuis des années…",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
+      "status": "info",
+      "label": "📅 Jusqu'au 29/11",
+      "daysLeft": 58,
+      "expirationDate": "2026-11-29",
       "packageExpirations": {
-        "aoc": "2026-09-30"
+        "aoc": "2026-11-29"
       }
     },
     "on_prime": false,
     "on_tnt": false
   },
   {
-    "id": "jw-tm244518",
-    "titre": "Voir du pays",
+    "id": "jw-tm351435",
+    "titre": "Mon meilleur ami",
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
@@ -42183,40 +40132,81 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "annee": 2016,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 6.2,
-    "note_recence": 7.7,
-    "note_globale": 7,
+    "annee": 2018,
+    "duree": "1h 32min",
+    "runtime_minutes": 92,
+    "note_avis": 6.8,
+    "note_recence": 8.2,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/161818124/s592/mon-meilleur-ami-2018.jpg",
+    "synopsis": "Lorenzo est un adolescent agréable et studieux qui vit dans une petite ville de Patagonie. Un jour son père décide d’accueillir sous leur toit Caíto, un jeune garçon frondeur et mystérieux. D’abord méfiant, Lorenzo va peu à peu se rapprocher de Caíto sans soupçonner les conséquences de cette nouvelle amitié… mais Caíto a un secret.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1081530",
+    "titre": "Le champ des possibles",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2021,
+    "duree": "2h 01min",
+    "runtime_minutes": 121,
+    "note_avis": 7,
+    "note_recence": 8.8,
+    "note_globale": 7.9,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
     ],
     "raw_genres": [
       "drm",
-      "war",
-      "eur"
+      "rma"
     ],
     "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/8811706/s592/voir-du-pays.jpg",
-    "synopsis": "Deux jeunes militaires, Aurore et Marine, reviennent d’Afghanistan. Avec leur section, elles vont passer trois jours à Chypre, dans un hôtel cinq étoiles, au milieu des touristes en vacances, pour ce que l’armée appelle un sas de décompression, où on va les aider à « oublier la guerre ». Mais on ne se libère pas de la violence si facilement…",
+    "poster": "https://images.justwatch.com/poster/306652551/s592/private-desert.jpg",
+    "synopsis": "Daniel, 40 ans, a été suspendu de ses fonctions d’agent de police pour avoir agressé une nouvelle recrue. Alors qu’un procès l’attend, le centre de ses pensées réside toujours en une personne très sexy qu’il a connue sur Internet et qu’il n’a encore jamais rencontrée, puisqu’elle vit de l'autre côté du pays. Lorsque celle-ci cesse de répondre à ses SMS, il décide de parcourir des milliers de kilomètres pour la retrouver.",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": false
   },
   {
-    "id": "jw-tm1203339",
-    "titre": "L'Ombre de Goya",
+    "id": "jw-tm832464",
+    "titre": "Je tremble ô Matador",
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
@@ -42229,12 +40219,56 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "annee": 2022,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 6.8,
-    "note_recence": 9.1,
-    "note_globale": 8,
+    "annee": 2020,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 7,
+    "note_recence": 8.6,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "hst",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/273087813/s592/tengo-miedo-torero.jpg",
+    "synopsis": "Chili, 1986, en pleine dictature de Pinochet. Par amour pour un révolutionnaire idéaliste qu’il vient de rencontrer, un travesti sur le déclin accepte de cacher des documents secrets chez lui. Ils s’engagent tous deux dans une opération clandestine à haut risque.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1595274",
+    "titre": "Les Indiens à Hollywood, une tragédie américaine",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2025,
+    "duree": "1h 15min",
+    "runtime_minutes": 75,
+    "note_avis": 7.1,
+    "note_recence": 9.8,
+    "note_globale": 8.5,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -42245,200 +40279,14 @@ const CATALOG_DATA = [
     ],
     "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302179950/s592/lombre-de-goya-par-jean-claude-carriere.jpg",
-    "synopsis": "L'écrivain français Jean-Claude Carrière (1931-2021) retrace la vie et l'œuvre du peintre espagnol Francisco de Goya (1746-1828).",
+    "poster": "https://images.justwatch.com/poster/345583027/s592/les-indiens-a-hollywood-une-tragedie-americaine.jpg",
+    "synopsis": "Une histoire de la représentation des Indiens d'Amérique du Nord dans le cinéma hollywoodien, illustrée de nombreux extraits de films et d'interviews.",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm152243",
-    "titre": "Du goudron et des plumes",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2014,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 5.9,
-    "note_recence": 7.2,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "fml",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322107955/s592/du-goudron-et-des-plumes.jpg",
-    "synopsis": "L'été arrive à Montauban, avec les vacances, les barbecues… et le \"Triathlon de l’été\", compétition populaire télédiffusée. Christian, divorcé et commercial aux petites combines, n'a d’autre joie que sa fille de 12 ans",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1040725",
-    "titre": "Les Aventures des enfants du chemin de fer",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2022,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 5.6,
-    "note_recence": 9.1,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/311496406/s592/the-railway-children-return.jpg",
-    "synopsis": "En 1944, en Angleterre, alors que la Seconde Guerre mondiale fait rage, le pays est soumis à des bombardements. Des enfants sont évacués de Manchester vers le village d'Oakworth, dans le West Riding du Yorkshire. Ils se lient d'amitié avec un soldat de l'armée américaine qui est loin de chez lui.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1333622",
-    "titre": "Le Fruit Défendu",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2024,
-    "duree": "1h 49min",
-    "runtime_minutes": 109,
-    "note_avis": 6.4,
-    "note_recence": 9.5,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/313126078/s592/liuben.jpg",
-    "synopsis": "Victor retourne dans sa maison d'enfance en Bulgarie pour les funérailles de son grand-père et décide d'y rester pour l'été.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm357194",
-    "titre": "Frontières",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2017,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 6.9,
-    "note_recence": 7.9,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/285169215/s592/frontieres.jpg",
-    "synopsis": "Adjara, Emma et Sali se rendent à Lagos. Les trois femmes se rencontrent dans un bus sur le trajet Bamako, Cotonou via Ouagadougou. Le voyage est un parcours de combattants. Elles subissent des pannes de voitures, affrontent des coupeurs de routes et sont témoins de vols entre passagers. Mais leur pire cauchemar reste le franchissement des frontières.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-09-30",
-      "packageExpirations": {
-        "aoc": "2026-09-30"
-      }
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": false
