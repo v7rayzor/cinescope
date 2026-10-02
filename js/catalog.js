@@ -439,7 +439,7 @@ const CATALOG_DATA = [
     "note_recence": 9.5,
     "note_globale": 7.6,
     "categories": [
-      "horreur_epouvante"
+      "comedie"
     ],
     "badge": "12",
     "is_eligible": true,
@@ -1065,7 +1065,7 @@ const CATALOG_DATA = [
     "note_recence": 9.1,
     "note_globale": 6.8,
     "categories": [
-      "horreur_epouvante"
+      "comedie"
     ],
     "badge": "12",
     "is_eligible": true,
@@ -2526,7 +2526,7 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_ocs.svg"
     ],
-    "duree": "2h 13min",
+    "duree": "2h 14min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
@@ -2539,7 +2539,7 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 133,
+    "runtime_minutes": 134,
     "etoiles": 4,
     "raw_genres": [
       "drm",
@@ -4599,7 +4599,7 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_ocs.svg"
     ],
-    "duree": "1h 27min",
+    "duree": "1h 30min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/12",
@@ -4612,10 +4612,9 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 87,
+    "runtime_minutes": 90,
     "etoiles": 3,
     "raw_genres": [
-      "act",
       "ani",
       "cmy",
       "fnt",
@@ -4697,7 +4696,7 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_ocs.svg"
     ],
-    "duree": "2h 17min",
+    "duree": "2h 18min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
@@ -4710,7 +4709,7 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 137,
+    "runtime_minutes": 138,
     "etoiles": 5,
     "raw_genres": [
       "drm",
@@ -6598,9 +6597,9 @@ const CATALOG_DATA = [
     "chaine": "Ciné+ OCS",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/345888842/s592/deux-procureurs.jpg",
-    "note_avis": 7.1,
+    "note_avis": 7,
     "note_recence": 9.8,
-    "note_globale": 8.5,
+    "note_globale": 8.4,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -7765,7 +7764,7 @@ const CATALOG_DATA = [
     "titre": "Coupez !",
     "type": "film",
     "categories": [
-      "horreur_epouvante"
+      "comedie"
     ],
     "annee": 2022,
     "chaine": "Ciné+ OCS",
@@ -12012,7 +12011,6 @@ const CATALOG_DATA = [
     "runtime_minutes": 85,
     "etoiles": 3,
     "raw_genres": [
-      "act",
       "ani",
       "cmy",
       "crm",
@@ -16426,7 +16424,7 @@ const CATALOG_DATA = [
     "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
-      "horreur_epouvante"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -16964,7 +16962,7 @@ const CATALOG_DATA = [
     "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "thriller_policier"
     ],
     "raw_genres": [
       "cmy",
@@ -18593,7 +18591,7 @@ const CATALOG_DATA = [
     "note_globale": 7,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -20895,8 +20893,8 @@ const CATALOG_DATA = [
       "auc"
     ],
     "annee": 2020,
-    "duree": "19 min/ép.",
-    "runtime_minutes": 19,
+    "duree": "18 min/ép.",
+    "runtime_minutes": 18,
     "note_avis": 5.8,
     "note_recence": 8.6,
     "note_globale": 7.2,
@@ -23183,8 +23181,8 @@ const CATALOG_DATA = [
       "auc"
     ],
     "annee": 2015,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
+    "duree": "1h 26min",
+    "runtime_minutes": 86,
     "note_avis": 4.4,
     "note_recence": 7.5,
     "note_globale": 6,
@@ -23645,7 +23643,7 @@ const CATALOG_DATA = [
     "note_globale": 6.2,
     "etoiles": 3,
     "categories": [
-      "horreur_epouvante"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -26660,7 +26658,7 @@ const CATALOG_DATA = [
     "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -29214,7 +29212,7 @@ const CATALOG_DATA = [
     "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "thriller_policier"
     ],
     "raw_genres": [
       "cmy",
@@ -30872,7 +30870,7 @@ const CATALOG_DATA = [
     "note_globale": 6.8,
     "etoiles": 3,
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "cmy",
@@ -33681,11 +33679,13 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/245632886/s592/aurora-teagarden-9-cache-cache-mortel.jpg",
     "synopsis": "Le neveu d'Aurora Teagarden et son colocataire disparaissent mystérieusement, peu après la mort inexpliquée d'une étudiante. Aurora mène l'enquête et prend beaucoup de risques, ce qui énerve le lieutenant Smith et inquiète sa mère. Elle fait bientôt la connaissance d'un séduisant nouveau voisin, professeur de psychologie. Celui-ci va se révéler un allié efficace durant les investigations.",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 180,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "auc": "2027-03-31"
+      }
     },
     "on_prime": true,
     "on_tnt": false
@@ -38797,53 +38797,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm134211",
-    "titre": "Lost in Translation",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2003,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 7.7,
-    "note_recence": 4.7,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/175287463/s592/lost-in-translation.jpg",
-    "synopsis": "Bob Harris, acteur sur le déclin, se rend à Tokyo pour tourner un spot publicitaire. Il a conscience qu'il se trompe - il devrait être chez lui avec sa famille, jouer au théâtre ou encore chercher un rôle dans un film -, mais il a besoin d'argent. Du haut de son hôtel de luxe, il contemple la ville, mais ne voit rien. Il est ailleurs, détaché de tout, incapable de s'intégrer à la réalité qui l'entoure, incapable également de dormir à cause du décalage horaire. Dans ce même établissement, Charlotte, une jeune Américaine fraîchement diplômée, accompagne son mari, photographe de mode. Ce dernier semble s'intéresser davantage à son travail qu'à sa femme. Se sentant délaissée, Charlotte cherche un peu d'attention. Elle va en trouver auprès de Bob…",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-02",
-      "packageExpirations": {
-        "aoc": "2026-10-02"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1881",
     "titre": "Batman v Superman : L'Aube de la Justice",
     "type": "film",
@@ -39114,53 +39067,6 @@ const CATALOG_DATA = [
     },
     "on_prime": true,
     "on_tnt": false
-  },
-  {
-    "id": "jw-ts11846",
-    "titre": "Candice Renoir",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2013,
-    "duree": "53 min/ép.",
-    "runtime_minutes": 53,
-    "note_avis": 7.6,
-    "note_recence": 7,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "drm",
-      "eur"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/270392445/s592/candice-renoir.jpg",
-    "synopsis": "Candice Renoir, mère de quatre enfants, reprend son métier de policière à la BSU de Sète (Hérault) après avoir arrêté pendant dix ans à la suite d'une mise en disponibilité. Pas facile d'être maman, et commandant de police, d'autant plus que Candice a du mal à se faire accepter de ses collègues (elle ne s'entend d'ailleurs pas du tout avec le commissaire Yasmine Attia, sa première supérieure, et encore avec le commissaire Sylvie Leclerc, sa deuxième supérieure) et qu'elle est un peu dépassée par les nouvelles technologies.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-02",
-      "packageExpirations": {
-        "auc": "2026-10-02"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
   },
   {
     "id": "jw-tm813757",
@@ -39525,51 +39431,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1660393",
-    "titre": "La Petite cuisine de Mehdi",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2025,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 6,
-    "note_recence": 9.8,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/343118450/s592/la-petite-cuisine-de-mehdi.jpg",
-    "synopsis": "Mehdi est sur un fil. Il joue le rôle du fils algérien parfait devant sa mère Fatima, tout en lui cachant sa relation avec Léa ainsi que sa passion pour la gastronomie française. Il est chef dans un bistrot qu’il s’apprête à racheter avec Léa. Mais celle-ci n’en peut plus de ses cachoteries et exige de rencontrer Fatima. Au pied du mur, Mehdi va trouver la pire des solutions.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-02",
-      "packageExpirations": {
-        "aoc": "2026-10-02"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1412203",
     "titre": "L'Espion de Dieu",
     "type": "film",
@@ -39685,7 +39546,7 @@ const CATALOG_DATA = [
     "note_globale": 7.9,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "comedie"
     ],
     "raw_genres": [
       "act",
@@ -39887,52 +39748,6 @@ const CATALOG_DATA = [
     },
     "on_prime": false,
     "on_tnt": false
-  },
-  {
-    "id": "jw-ts76577",
-    "titre": "Le Sang de la vigne",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2011,
-    "duree": "92 min/ép.",
-    "runtime_minutes": 92,
-    "note_avis": 7.1,
-    "note_recence": 6.5,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/30000665/s592/le-sang-de-la-vigne.jpg",
-    "synopsis": "Cette série met en scène les investigations menées par l'éminent œnologue français Benjamin Lebel, sa compagne France Pelletier et ses assistants Mathilde et Silvère, à la suite de meurtres commis dans le milieu viticole.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-02",
-      "packageExpirations": {
-        "auc": "2026-10-02"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
   },
   {
     "id": "jw-tm1247754",
@@ -40290,5 +40105,235 @@ const CATALOG_DATA = [
     },
     "on_prime": false,
     "on_tnt": false
+  },
+  {
+    "id": "jw-tm134211",
+    "titre": "Lost in Translation",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2003,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 7.7,
+    "note_recence": 4.7,
+    "note_globale": 6.2,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "rma",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/175287463/s592/lost-in-translation.jpg",
+    "synopsis": "Bob Harris, acteur sur le déclin, se rend à Tokyo pour tourner un spot publicitaire. Il a conscience qu'il se trompe - il devrait être chez lui avec sa famille, jouer au théâtre ou encore chercher un rôle dans un film -, mais il a besoin d'argent. Du haut de son hôtel de luxe, il contemple la ville, mais ne voit rien. Il est ailleurs, détaché de tout, incapable de s'intégrer à la réalité qui l'entoure, incapable également de dormir à cause du décalage horaire. Dans ce même établissement, Charlotte, une jeune Américaine fraîchement diplômée, accompagne son mari, photographe de mode. Ce dernier semble s'intéresser davantage à son travail qu'à sa femme. Se sentant délaissée, Charlotte cherche un peu d'attention. Elle va en trouver auprès de Bob…",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-10-02",
+      "packageExpirations": {
+        "aoc": "2026-10-02"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts11846",
+    "titre": "Candice Renoir",
+    "type": "serie",
+    "chaine": "Universal+",
+    "chaines": [
+      "Universal+"
+    ],
+    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logos_chaine": [
+      "assets/logos/universal_plus.svg"
+    ],
+    "package_slugs": [
+      "auc"
+    ],
+    "annee": 2013,
+    "duree": "53 min/ép.",
+    "runtime_minutes": 53,
+    "note_avis": 7.6,
+    "note_recence": 7,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "cmy",
+      "crm",
+      "drm",
+      "eur"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/270392445/s592/candice-renoir.jpg",
+    "synopsis": "Candice Renoir, mère de quatre enfants, reprend son métier de policière à la BSU de Sète (Hérault) après avoir arrêté pendant dix ans à la suite d'une mise en disponibilité. Pas facile d'être maman, et commandant de police, d'autant plus que Candice a du mal à se faire accepter de ses collègues (elle ne s'entend d'ailleurs pas du tout avec le commissaire Yasmine Attia, sa première supérieure, et encore avec le commissaire Sylvie Leclerc, sa deuxième supérieure) et qu'elle est un peu dépassée par les nouvelles technologies.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire dans 3 j",
+      "daysLeft": 3,
+      "expirationDate": "2026-10-05",
+      "packageExpirations": {
+        "auc": "2026-10-05"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": true
+  },
+  {
+    "id": "jw-tm70179",
+    "titre": "Chambre 1408",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2007,
+    "duree": "1h 44min",
+    "runtime_minutes": 104,
+    "note_avis": 6.8,
+    "note_recence": 5.6,
+    "note_globale": 6.2,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "fnt",
+      "hrr",
+      "trl",
+      "eur"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/35351631/s592/chambre-1408.jpg",
+    "synopsis": "Bien qu'il soit un auteur réputé de romans d'épouvante, Mike Enslin n'a jamais cru aux fantômes et aux esprits. Pour lui, la vie après la mort n'est que pure invention, et il a passé suffisamment de temps dans des maisons hantées et des cimetières pour le vérifier... En travaillant sur son dernier ouvrage, il découvre l'existence d'une chambre, la 1408 du Dolphin Hotel, où se sont produites de nombreuses morts inexpliquées et souvent violentes. Malgré les mises en garde du directeur de l'hôtel, Enslin décide d'y passer une nuit. Face à ce qu'il va vivre, son scepticisme va voler en éclats. Pour lui, la question n'est plus de savoir si le paranormal existe, mais d'espérer survivre à la nuit de tous les cauchemars...",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": true
+  },
+  {
+    "id": "jw-tm1660393",
+    "titre": "La Petite cuisine de Mehdi",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2025,
+    "duree": "1h 44min",
+    "runtime_minutes": 104,
+    "note_avis": 6,
+    "note_recence": 9.8,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/343118450/s592/la-petite-cuisine-de-mehdi.jpg",
+    "synopsis": "Mehdi est sur un fil. Il joue le rôle du fils algérien parfait devant sa mère Fatima, tout en lui cachant sa relation avec Léa ainsi que sa passion pour la gastronomie française. Il est chef dans un bistrot qu’il s’apprête à racheter avec Léa. Mais celle-ci n’en peut plus de ses cachoteries et exige de rencontrer Fatima. Au pied du mur, Mehdi va trouver la pire des solutions.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-10-02",
+      "packageExpirations": {
+        "aoc": "2026-10-02"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts76577",
+    "titre": "Le Sang de la vigne",
+    "type": "serie",
+    "chaine": "Universal+",
+    "chaines": [
+      "Universal+"
+    ],
+    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logos_chaine": [
+      "assets/logos/universal_plus.svg"
+    ],
+    "package_slugs": [
+      "auc"
+    ],
+    "annee": 2011,
+    "duree": "92 min/ép.",
+    "runtime_minutes": 92,
+    "note_avis": 7.1,
+    "note_recence": 6.5,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "eur"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/30000665/s592/le-sang-de-la-vigne.jpg",
+    "synopsis": "Cette série met en scène les investigations menées par l'éminent œnologue français Benjamin Lebel, sa compagne France Pelletier et ses assistants Mathilde et Silvère, à la suite de meurtres commis dans le milieu viticole.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire demain",
+      "daysLeft": 1,
+      "expirationDate": "2026-10-03",
+      "packageExpirations": {
+        "auc": "2026-10-03"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": true
   }
 ];

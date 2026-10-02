@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v17';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v17';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v17';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v17';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v18';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v18';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v18';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v18';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -207,7 +207,7 @@ const JustWatchEngine = (function () {
   const STRICT_HORROR_PATTERNS = /\b(satan|satanique|possession demoniaque|possede par|possedee par|exorcisme|exorciste|pacte avec satan|pacte avec le diable|slasher|gore|body horror|zombie|zombies|mort-vivant|morts-vivants|maison hantee|lieu sacre profane|monstre sanguinaire|lovecraft|terreur nocturne|contagion mortelle|magie noire|boite de pandore|pandore|vampirisme|soif de sang|sang humain)\b/i;
   const SCIFI_PATTERNS = /\b(vaisseau|vaisseaux|extraterrestre|extraterrestres|alien|aliens|astronaute|astronautes|planete deserte|voyage dans le temps|multivers|reincarnation|changement climatique|androide|ia|robot|intelligence artificielle|dystopie|futuriste|mutant|mutants|quatre terres|arborlon|elfe|elfes|druide|druides)\b/i;
   const DRAMA_INTIME_PATTERNS = /\b(traumatisme|traumatise|monde imaginaire|deuil|orphelin|orpheline|harcele|harcelement|skate|skateur|suisse|euthanasie|aide soignant|actrice|showbiz|homosexualite|homosexuel|desir|compagnie miniere|ressources humaines|obsession|biopic|chanteur|chanteuse|robbie williams|sorrentino|naples|parthenope)\b/i;
-  const PARODY_PATTERNS = /\b(oss 117|agent special|parodie|espion malhabile|gaffeur)\b/i;
+  const PARODY_PATTERNS = /\b(oss 117|agent special|parodie|espion malhabile|gaffeur|tournage de film|film dans le film|hazanavicius)\b/i;
   const ANIMATION_PATTERNS = /\b(serie d animation|serie televisee d animation|film d animation|dessin anime|dessins animes|court metrage d animation)\b/i;
 
   // Harnais de Cohérence : Détermine les catégories formellement autorisées pour un ensemble de tags et de contexte
@@ -276,15 +276,19 @@ const JustWatchEngine = (function () {
     // Règle d'or : Vérification de la restriction d'âge (-10, -12, -16, -18)
     const hasAnyAgeLimit = ageCertification && ['10', '12', '16', '18'].some(l => ageCertification.toString().includes(l));
     const isMatureAge = ageCertification && ['12', '16', '18'].some(l => ageCertification.toString().includes(l));
+    const isAdultHorrorAge = ageCertification && ['16', '18'].some(l => ageCertification.toString().includes(l));
     const isStrictHorror = STRICT_HORROR_PATTERNS.test(cleanText);
 
-    // Règle Comédie Hybride avec pastille d'âge (-10, -12, -16, -18) -> exclusion de comedie
+    // Règle Comédie Hybride : exclusion de comédie si pastille adulte (-16/-18) pour l'horreur, ou générale pour autres hybrides
     const otherMeaningfulGenres = rawTags.filter(t => t !== 'cmy' && t !== 'eur' && t !== 'fml' && t !== 'rly');
-    const isHybridWithAge = rawTags.includes('cmy') && otherMeaningfulGenres.length > 0 && hasAnyAgeLimit;
+    const isHybridWithAge = rawTags.includes('cmy') && otherMeaningfulGenres.length > 0 && (
+      rawTags.includes('hrr') ? isAdultHorrorAge : hasAnyAgeLimit
+    );
 
     // Règle Famille / Animation Mature : exclue d'animation_famille si pastille -12, -16, -18 ou série live avec restriction
     const isMatureFamily = isMatureAge || (isSerie && !rawTags.includes('ani') && hasAnyAgeLimit);
-    const isComedyWithoutAge = rawTags.includes('cmy') && !hasAnyAgeLimit && !isStrictHorror;
+    // Comédies d'horreur autorisées en comédie si < -16 (sauf gore strict non parodique)
+    const isComedyWithoutAge = rawTags.includes('cmy') && !isAdultHorrorAge && (!isStrictHorror || PARODY_PATTERNS.test(cleanText) || cleanText.includes('requin') || cleanText.includes('ski'));
 
     const allowed = getAllowedCategories(rawTags, cleanText, isHybridWithAge, isMatureFamily, isComedyWithoutAge);
 
@@ -304,8 +308,8 @@ const JustWatchEngine = (function () {
 
     // 3. Règle Horreur :
     // - Tout film d'horreur ou motif strict horrifique (ex: La Chose derrière la porte, Heretic, It Comes at Night, Walking Dead, Wreck)
-    // - Comédies d'horreur avec pastille d'âge -10/-12/-16/-18 (ex: Black Friday !, The Ugly Stepsister, Accident domestique)
-    // - Comédies d'horreur SANS pastille d'âge -> exclues d'horreur (vont en comedie / fantasy, ex: Reginald, Monster on a Plane, The Creeps, La Famille Rose)
+    // - Comédies d'horreur avec pastille d'âge mature -16/-18 (ex: Wreck, The Ugly Stepsister, The Trip, Satanic Panic)
+    // - Comédies d'horreur avec pastille <= -12 ou Tout Public -> exclues d'horreur (vont en comedie, ex: L'Année du requin, Coupez !, Les femmes au balcon, Reginald, Monster on a Plane)
     // - SF / Mystère / Aventures Tout Public SANS pastille -> vont en SF / Thriller (ex: Monster Summer, T.I.M., Revival)
     if (rawTags.includes('hrr') || isStrictHorror) {
       const isCyberCrime = rawTags.includes('crm') && rawTags.includes('act') && !isStrictHorror;
@@ -366,7 +370,7 @@ const JustWatchEngine = (function () {
     if (ADVENTURE_PATTERNS.test(cleanText) && (!rawTags.includes('cmy') || isHybridWithAge)) scores[4] += 25;
     if (SCIFI_PATTERNS.test(cleanText)) scores[2] += 40;
     if (DRAMA_INTIME_PATTERNS.test(cleanText)) scores[6] += 35;
-    if (PARODY_PATTERNS.test(cleanText) && rawTags.includes('cmy') && !hasAnyAgeLimit) scores[5] += 45;
+    if (PARODY_PATTERNS.test(cleanText) && rawTags.includes('cmy') && !isAdultHorrorAge) scores[5] += 60;
 
     // Arbitrages fins de combinaisons :
     // a) Romance d'auteur / intime / drame réaliste / deuil / passion avec tag fnt accessoire / Biopic musical

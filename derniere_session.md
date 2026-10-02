@@ -414,3 +414,51 @@ Pour respecter scrupuleusement la **Règle Fondamentale (1 film / série = 1 seu
 * **Nouvelles Sélections Validées** :
   * ***Family Law*** *(Universal+ • 2021-2024)* — Affinité **85-90%** (affaires judiciaires intenses, psychologie, éloquence et cabinet d'avocats familial).
   * ***Toronto: Section Criminelle*** *(Universal+ • Inédit 2024)* (profiling et interrogatoires cérébraux).
+
+---
+
+## 15. Arbitrage Comédie vs Horreur & Règle des Signalétiques d'Âge Majeures (v8.26 / v18)
+
+### A. Problématique Initiale
+* Dans la catégorie **Horreur & Épouvante**, la présence d'œuvres parodiques et burlesques comme ***L'Année du requin*** (-12) et ***Coupez !*** (-12) créait une forte distorsion sémantique : ces œuvres ne cherchent pas à effrayer ni à susciter l'angoisse mais jouent sur le rire et la comédie décalée.
+* La cause de ce classement était une règle automatique d'arbitrage qui envoyait systématiquement tout hybride comédie/horreur possédant une pastille d'âge (-12, -16, -18) en `horreur_epouvante`.
+
+### B. Simulation Comparative & Validation du Test 2
+* **Test 1 simulé** (*Pastille interdit Comédie, et si -12 exclusion Comédie & Horreur au profit du 3ᵉ genre*) : Rejeté car il forçait des classements artificiels (*L'Année du requin* en Action, *Coupez !* sans genre d'accueil, *Very Bad Trip* banni de Comédie).
+* **Test 2 validé** (*Interdiction de Comédie réservée aux pastilles adultes -16 et -18*) :
+  1. **Pastilles -16 et -18** : Interdiction stricte d'aller en `comedie`. Les slashers et œuvres gores matures (*Wreck* -18, *The Ugly Stepsister* -16, *The Trip* -16, *Satanic Panic* -18) sont sanctuarisés dans **`horreur_epouvante`** afin de protéger la catégorie Comédie du contenu extrême.
+  2. **Pastilles -10, -12 et Tout Public** : Pleinement autorisées en **`comedie`** pour les œuvres où le ton burlesque, absurde ou comique prédomine.
+
+### C. Reclassements Appliqués (10 œuvres)
+* ***L'Année du requin*** (-12) : `horreur_epouvante` $\rightarrow$ **`comedie`**
+* ***Coupez !*** (-12) : `horreur_epouvante` $\rightarrow$ **`comedie`**
+* ***Les Femmes au balcon*** (-12) : `horreur_epouvante` $\rightarrow$ **`comedie`**
+* ***Accident domestique*** (-12) : `horreur_epouvante` $\rightarrow$ **`comedie`**
+* ***Benny t'aime très fort*** (-12) : `horreur_epouvante` $\rightarrow$ **`comedie`**
+* ***Les Zombies font du Ski*** (-12) : `horreur_epouvante` $\rightarrow$ **`comedie`**
+* ***Come to Daddy*** (-12) : `horreur_epouvante` $\rightarrow$ **`comedie`**
+* ***Un Noël sans fin*** (-12) : `horreur_epouvante` $\rightarrow$ **`thriller_policier`**
+* ***Camarade Dracula*** (-12) : `horreur_epouvante` $\rightarrow$ **`thriller_policier`**
+* ***Black Friday !*** (-12) : `horreur_epouvante` $\rightarrow$ **`scifi_fantastique`**
+
+### D. Versions & Traçabilité Technique
+* **Clés LocalStorage** : Incrémentées vers `_v18` (`cinescope_streaming_catalog_v18`, `cinescope_streaming_last_sync_v18`, `cinescope_streaming_last_full_sync_v18`, `cinescope_streaming_autosync_v18`) dans [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js).
+* **Service Worker PWA** : Cache mis à jour à `cinescope-v8.26-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
+* **Balises Scripts HTML** : Versions passées à `?v=8.26` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
+
+### E. Intégration de Nouveautés & Audit Final de Conformité (884 œuvres)
+* **Intégration validée** : ***It Feeds*** *(2025 • Ciné+ OCS)* directement qualifié et intégré dans **`horreur_epouvante`** (Horreur surnaturelle / entité démoniaque avec Ashley Greene).
+* **Strictement 1 catégorie unique** : **884 / 884 (100% conforme, 0 anomalie)**
+* **Catégories valides** : **884 / 884 (100%)**
+* **Titres expirés** : **0**
+* **Films éligibles** : **763**
+* **Séries éligibles** : **121**
+* **Répartition des catégories** :
+  * `drame_emotion` : 341 œuvres (38.6%)
+  * `thriller_policier` : 166 œuvres (18.8%)
+  * `comedie` : 143 œuvres (16.2%)
+  * `animation_famille` : 70 œuvres (7.9%)
+  * `scifi_fantastique` : 69 œuvres (7.8%)
+  * `action_aventure` : 51 œuvres (5.8%)
+  * `horreur_epouvante` : 44 œuvres (5.0%)
+
