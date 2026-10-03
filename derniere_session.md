@@ -447,18 +447,202 @@ Pour respecter scrupuleusement la **Règle Fondamentale (1 film / série = 1 seu
 * **Balises Scripts HTML** : Versions passées à `?v=8.26` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
 
 ### E. Intégration de Nouveautés & Audit Final de Conformité (884 œuvres)
-* **Intégration validée** : ***It Feeds*** *(2025 • Ciné+ OCS)* directement qualifié et intégré dans **`horreur_epouvante`** (Horreur surnaturelle / entité démoniaque avec Ashley Greene).
-* **Strictement 1 catégorie unique** : **884 / 884 (100% conforme, 0 anomalie)**
-* **Catégories valides** : **884 / 884 (100%)**
+---
+
+## 16. Gestion des Séries Multi-Saisons : Années Début/Fin & Moyenne des Notes des Saisons Disponibles (v8.27 / v19)
+
+### A. Règles Métier & Formules Mathématiques
+1. **Périmètre Stricte des Saisons Disponibles** :
+   * Pour chaque série, seules les saisons disposant d'une offre `FLATRATE` active sur les 3 bouquets cibles (**Ciné+ OCS** `aoc`, **Action Max** `aca`, **Universal+** `auc`) sont retenues pour le calcul des années et des notes.
+   * L'état de production globale (renouvellement, en cours, finie) n'interfère pas : seules les saisons réellement diffusées sur le catalogue comptent.
+2. **Affichage de l'Année** :
+   * **1 seule saison disponible sur le bouquet** (ex: *Chicago Fire* où seule la S14 est sur Universal+, ou *La Flamme* avec la S1) : affichage de l'année unique (ex: `2025`).
+   * **Plusieurs saisons disponibles** (ex: *Spartacus* S1 à S3, *The Walking Dead: Dead City* S1 à S3, *Resident Alien* S1 à S4) : affichage de la plage `[Année début] - [Année fin]` (ex: `2010 - 2013`, `2023 - 2026`, `2021 - 2025`).
+3. **Calcul de la Note Avis (Critique / Public)** :
+   * Extraction des scores (IMDb / TMDb / Rotten Tomatoes) de chaque saison disponible.
+   * $\text{Note Avis Série} = \text{Moyenne arithmétique des notes des saisons disponibles}$.
+4. **Calcul de la Note de Récence** :
+   * $\text{Année Moyenne} = \text{Math.round}\left(\frac{\text{Année début} + \text{Année fin}}{2}\right)$.
+   * $\text{Note Récence} = 4.0 + \left(\frac{\min(\text{Année Moyenne}, 2026) - 2000}{2026 - 2000}\right) \times 6.0$.
+5. **Note Globale Consolidée** :
+   * $\text{Note Globale} = \text{Math.round}\left(\frac{\text{Note Avis} + \text{Note Récence}}{2} \times 10\right) / 10$.
+
+### B. Intégration GraphQL JustWatch & Optimisation de Complexité
+* **Fragment Saisons JustWatch** :
+  ```graphql
+  ... on Show {
+    totalSeasonCount
+    seasons {
+      id
+      objectId
+      content(country: $country, language: "fr") {
+        seasonNumber
+        originalReleaseYear
+        scoring {
+          imdbScore
+          tmdbScore
+          tomatoScore
+        }
+      }
+      offers(country: $country, platform: WEB) {
+        package {
+          shortName
+        }
+        monetizationType
+      }
+    }
+  }
+  ```
+* **Contrôle de Complexité GraphQL** :
+  * Allègement des sous-champs de `Season.offers` au strict nécessaire (`package.shortName`, `monetizationType`).
+  * Calibrage de `pageSize = 40` (maxPages = 40) pour respecter scrupuleusement la limite JustWatch de 350 000 de complexité par requête.
+
+### C. Versions & Traçabilité Technique
+* **LocalStorage** : Clés incrémentées vers `_v19` (`cinescope_streaming_catalog_v19`, `cinescope_streaming_last_sync_v19`, `cinescope_streaming_last_full_sync_v19`, `cinescope_streaming_autosync_v19`) dans [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js).
+* **Service Worker PWA** : Cache mis à jour à `cinescope-v8.27-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
+* **Balises Scripts HTML** : Versions actualisées à `?v=8.27` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
+
+### D. Déduplication Stricte & Fusion 1 Seule Affiche par Série
+* **Correction de la clé de déduplication** : Pour les séries, la déduplication s'appuie en priorité absolue sur l'identifiant JustWatch unique (`item.id`) et sur `${normTitle}_serie` (sans distinction d'année) afin d'éviter qu'un changement d'année entre saisons ne génère deux fiches distinctes.
+* **Résultat** : Chaque série possède **strictement 1 seule affiche / 1 seule carte** dans la grille, regroupant toutes ses saisons disponibles, leur plage d'années et leur note consolidée.
+
+### E. Sélecteur Déroulant de Saison Interactif (Modale)
+* **Composant Dropdown Dédié** : Intégration d'un sélecteur compact (`Saison X ⌄`) dans l'en-tête de la fiche modale des séries.
+* **Rendu dynamique** :
+  * Si 1 saison disponible (ex: *Chicago Fire* Saison 14 ou *Orphan Black* Saison 1) : affiche directement `Saison 14 ⌄` ou `Saison 1 ⌄`.
+  * Si plusieurs saisons (ex: *Resident Alien*) : menu déroulant complet listant chaque saison disponible (`Saison 1`, `Saison 2`, `Saison 3`, `Saison 4`), avec actualisation de l'année au changement de sélection.
+* **Sanctuaire de Calcul Global** : L'éligibilité au catalogue, les filtres d'étoiles et le calcul de récence restent 100% basés sur le cumul consolidé de toutes les saisons disponibles.
+
+### F. Audit Final de Conformité du Catalogue (887 œuvres)
+* **Strictement 1 catégorie unique** : **887 / 887 (100% conforme, 0 anomalie)**
+* **Catégories valides** : **887 / 887 (100%)**
 * **Titres expirés** : **0**
-* **Films éligibles** : **763**
-* **Séries éligibles** : **121**
+* **Films éligibles** : **766**
+* **Séries éligibles** : **121** (1 seule affiche par série, notes et années fusionnées)
 * **Répartition des catégories** :
-  * `drame_emotion` : 341 œuvres (38.6%)
-  * `thriller_policier` : 166 œuvres (18.8%)
-  * `comedie` : 143 œuvres (16.2%)
+  * `drame_emotion` : 342 œuvres (38.6%)
+  * `thriller_policier` : 165 œuvres (18.6%)
+  * `comedie` : 143 œuvres (16.1%)
   * `animation_famille` : 70 œuvres (7.9%)
   * `scifi_fantastique` : 69 œuvres (7.8%)
-  * `action_aventure` : 51 œuvres (5.8%)
-  * `horreur_epouvante` : 44 œuvres (5.0%)
+  * `action_aventure` : 51 œuvres (5.7%)
+  * `horreur_epouvante` : 47 œuvres (5.3%)
+
+---
+
+## 17. Filtre Toggle PC « 🚫 Exclure sans S1 » & Moteur de Recommandations Automatiques par Profils (`Pour Moi`, `Ami`, `Amie`) (v8.28)
+
+### A. Filtre Toggle Dédié PC « 🚫 Exclure sans S1 »
+1. **Comportement & Flexibilité** :
+   - Plutôt qu'une exclusion automatique opaque et rigide, un bouton toggle dédié **`🚫 Exclure sans S1`** (`#pkgExcludeNoS1`) est positionné dans la barre d'outils supérieure (réservé au confort Desktop/PC).
+   - **Badge compteur dynamique** (`#countExcludeNoS1`) : Indique en temps réel le nombre exact de séries tronquées / sans S1 dans le scope sélectionné (13 séries identifiées sur le catalogue).
+   - **Badge d'avertissement visuel sur les cartes** : Pour les séries concernées lorsque le filtre est inactif, un badge clair et informatif apparaît en bas à gauche de la carte : `⚠️ Débute S2` (*The Lazarus Project*, *Almost Paradise*, *Funny Woman*, *Toutouyoutou*, *Reginald the Vampire*, *Jeune et golri*), `⚠️ Débute S3` (*Family Law*, *Whitstable Pearl*), `⚠️ Débute S4` (*New York, crime organisé*, *My Life Is Murder*), `⚠️ Débute S5` (*George le petit curieux*), `⚠️ Débute S6` (*Candice Renoir*) ou `⚠️ Débute S14` (*Chicago Fire*).
+2. **Logique d'Exclusion** :
+   - En un clic sur `🚫 Exclure sans S1`, les séries sans saison 1 complète sont instantanément masquées du catalogue.
+
+### B. Moteur de Recommandations Automatiques Sur-Mesure (`profils_amis.md`)
+Intégration de 3 boutons de profils sur la barre PC, séparés par un diviseur visuel :
+- **`🧙‍♂️ Pour Moi`** (`#profileUserBtn`) : Curation orientée mystère temporel, imaginaire/fantastique, romance protectrice/complice, formats 26 min (*Timeless*, *LT-21*, *Desde el mañana*, *Aspergirl*, *The Spiderwick Chronicles*, *The Librarians*, *Le Ministère du Temps*, *Revival*, *Jeune et golri*, *Brave New World*). **Exclusion stricte de l'animation en séries** (les films d'animation restent autorisés). Zéro boucherie militaire, zéro panique de masse, zéro trash gratuit.
+- **`👤 Ami`** (`#profileAmiBtn`) : Curation 1er degré strict, **rythme soutenu & haute adrénaline** : action physique, survie, anticipation et techno-thrillers (*The Copenhagen Test*, *Arcadia*, *Orphan Black: Echoes*, *Almost Paradise*, *Revival*, *Sentinelles-Ukraine*, *30 jours max*). **Règle mathématique du % d'Action $\ge 11\%$ sur Polars et Comédies** ($\% \text{ Action} = \frac{\text{Score Action}}{\text{Total Points}} \times 100 < 11\% \implies \text{Rejet}$ éliminant automatiquement et de façon pérenne tout polar lent, cosy crime d'époque ou salon statique sans action physique), **exclusion totale de l'animation** (films et séries) et exclusions strictes Prime Video / TNT / *The Lazarus Project*.
+- **`👩 Amie`** (`#profileAmieBtn`) : Curation double facette : d'une part **matière grise, duos complices, enquêtes posées avec temps morts et respirations de dialogue** (*Family Law*, *Wild Cards*, *Grace*, *Toronto: Section Criminelle*, *My Life Is Murder*, *Allegiance*, *Castle*, *Bull* via `thriller_policier`), d'autre part **drames émouvants, romances poignantes et téléfilms de Noël feel-good réconfortants** (via `drame_emotion`). **Règle mathématique du % d'Action $\le 33\%$** ($\% \text{ Action} = \frac{\text{Score Action}}{\text{Total Points}} \times 100 \le 33\%$, excluant toute action lourde / frénétique non-stop au profit d'action modérée de terrain), **exclusion totale de l'animation** et **exclusion totale de la catégorie Comédie** (garantie 0 comédie potache, parodie ou farce conne). Zéro gore/slasher/guerre sanglante, exclusions strictes Prime Video / TNT / rediffusions France 3 (*Harry Wild*, *Professeur T*, *Whitstable Pearl*).
+
+### C. Règles d'Interaction & Ergonomie
+1. **Verrouillage automatique sur « Tous les titres »** :
+   - Au clic sur l'un des profils (`Pour Moi`, `Ami`, `Amie`), la catégorie active est automatiquement basculée sur **« Tous les titres »** (`activeCategory = 'all'`) et les œuvres sont triées par **score d'affinité décroissant**.
+2. **Désactivation automatique au changement de catégorie** :
+   - Si l'utilisateur clique ensuite sur un genre spécifique (*Action*, *Thriller*, *Comédie*...), le filtre de profil se désactive automatiquement pour laisser place à la navigation thématique classique.
+3. **Toggle On/Off intuitif** :
+   - Un second clic sur le profil actif le désactive et rétablit le catalogue complet avec son tri chronologique / aléatoire du jour.
+
+### D. Versions & Traçabilité Technique
+* **Service Worker PWA** : Cache mis à jour à `cinescope-v8.29-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
+* **Balises Assets HTML** : Query params incrémentés à `?v=8.29` (`style.css`, `catalog.js`, `nlp_model.js`, `justwatch_engine.js`, `app.js`) dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
+* **LocalStorage** : Clés incrémentées vers `_v20` (`cinescope_streaming_catalog_v20`, `cinescope_streaming_last_sync_v20`, `cinescope_streaming_last_full_sync_v20`, `cinescope_streaming_autosync_v20`).
+* **Conformité & Intégrité** : 791 œuvres qualifiées (671 films, 120 séries), 100% conformes à la Règle Fondamentale (1 catégorie unique par œuvre).
+
+---
+
+## 18. Badge « 🆕 Nouveauté » (7 jours) sur Affiche & Émergence Naturelle des Nouvelles Saisons
+
+### A. Badge Visuel « 🆕 Nouveauté » (Priorité Affiche 7 Jours)
+1. **Règle d'Affichage** :
+   - Dès qu'un film ou une série arrive dans le catalogue, il porte le badge **`🆕 Nouveauté`** (`.card-expiry-badge.badge-new`) pendant ses **7 premiers jours** de présence (`diffDays <= 7`).
+   - Ce badge prend la place et la priorité visuelle sur l'affiche par rapport au badge de fin de droits habituel.
+2. **Tri Strictement Inchangé** :
+   - Le tri du catalogue n'est aucunement perturbé : la priorité reste accordée aux urgences de fins de droits (`daysLeft`), puis aux scores d'affinité si un profil est actif, puis au tirage aléatoire stable de la journée.
+3. **Design & Animation** :
+   - Dégradé émeraude / cyan dynamique avec halo lumineux et micro-animation de pulsation subtile.
+
+### B. Élimination des Blocages Arbitraires de Séries
+- Les blocages statiques de séries historiques (*The Ark*, *Midnight, Texas*, *SurrealEstate*, *The Lazarus Project*) ont été retirés du code au profit des seuls calculs d'affinité mathématiques.
+- **Bénéfice pérenne** : Toute nouvelle saison ou nouveau titre entrant sur les bouquets payants est immédiatement détecté, évalué et mis en valeur pour les utilisateurs et leurs amis sans aucun risque d'omission.
+
+---
+
+## 19. Calibrage Sévère du Barème de Récence : Fenêtre Glissante de 20 Ans ($2006 = 4.0 / 10$) (v8.29 / v20)
+
+### A. Formule Mathématique Révisée
+* **Ancien Barème** : Borne basse à l'année 2000 ($2000 = 4.0 / 10$).
+* **Nouveau Barème Sévère (20 ans glissants)** :
+  $$\text{minYear} = \text{Année Courante} - 20 \text{ ans} = 2026 - 20 = 2006$$
+  $$\text{Note Récence} = 4.0 + \left( \frac{\min(\text{Année}, 2026) - 2006}{2026 - 2006} \right) \times 6.0$$
+* **Échelle Révisée** :
+  * $\le 2005$ : Note récence $< 4.0$ $\rightarrow$ **Éliminé d'office du catalogue (KO automatique)**.
+  * $2006$ : **$4.0 / 10$**
+  * $2010$ : **$5.2 / 10$**
+  * $2015$ : **$6.7 / 10$**
+  * $2020$ : **$8.2 / 10$**
+  * $2024$ : **$9.4 / 10$**
+  * $2025$ : **$9.7 / 10$**
+  * $2026$ : **$10.0 / 10$**
+
+### B. Audit de Conformité du Catalogue (791 œuvres)
+* **Strictement 1 catégorie unique** : **791 / 791 (100% conforme, 0 anomalie)**
+* **Catégories valides** : **791 / 791 (100%)**
+* **Titres expirés** : **0**
+* **Films éligibles** : **671**
+* **Séries éligibles** : **120**
+* **Répartition des catégories** :
+  * `drame_emotion` : 308 œuvres (38.9%)
+  * `thriller_policier` : 142 œuvres (18.0%)
+  * `comedie` : 125 œuvres (15.8%)
+  * `scifi_fantastique` : 64 œuvres (8.1%)
+  * `animation_famille` : 64 œuvres (8.1%)
+  * `action_aventure` : 46 œuvres (5.8%)
+  * `horreur_epouvante` : 42 œuvres (5.3%)
+
+---
+
+## 20. Profil Combiné « 👫 Duo Amis », Découpage en 2 Lignes Dédiées & Ergonomie Épurée (v8.30 / v20)
+
+### A. Bouton de Recommandation « 👫 Duo Amis » (Intersection Mathématique)
+1. **Concept & Fondement Algorithmique** :
+   - Conçu pour les séances de visionnage partagées entre l'Ami (friand d'adrénaline et de rythme) et l'Amie (orientée psychologie, déduction et respirations).
+   - **Plage d'Action d'Intersection ($11\% \le \% \text{ Action} \le 33\%$)** :
+     - Respecte le seuil minimal de l'Ami ($\ge 11\%$ d'action pour bannir toute lenteur contemplative).
+     - Respecte le plafond maximal de l'Amie ($\le 33\%$ d'action pour préserver les dialogues et éviter l'action frénétique).
+   - **Catégories Partagées** : `thriller_policier` (polars rythmés de terrain, interrogatoires) & `scifi_fantastique` (techno-thrillers, mystères paranormaux sérieux).
+   - **Exclusions Partagées** : 0 animation, 0 comédie potache/farce, 0 slasher/gore, 0 TNT/Prime.
+2. **Formule de Score Combiné** :
+   $$\text{Score Duo} = \frac{\text{Score Ami} + \text{Score Amie}}{2} \quad \text{avec condition : } \text{Score Ami} \ge 50\% \text{ et } \text{Score Amie} \ge 50\%$$
+3. **Sélection Phare** :
+   - *Toronto: Section Criminelle* (83%), *Revival* (83%), *Novocaïne* (80%), *Hypnotic* (73%), *Sang Froid* (60%), *Noir comme neige* (60%).
+
+### B. Réorganisation Ergonomique en 2 Lignes Dédiées
+1. **Ligne 0A (Bouquets Streaming)** :
+   - `[✨ Tous les bouquets]` `[Ciné+ OCS]` `[Action Max]` `[Universal+]`
+2. **Séparateur Horizontal Uniforme** :
+   - Séparateur horizontal visuel identique aux autres étages de filtres (`.filters-bubble-divider.bouquets-divider-line`).
+3. **Ligne 0B (Filtres d'Exclusion & Profils)** :
+   - `[🛡️ Hors Prime & TNT]` `[🚫 Exclure sans S1]` | `[🧙‍♂️ Pour Moi]` `[👤 Ami]` `[👩 Amie]` `[👫 Duo Amis]`
+4. **Suppression des Libellés Textuels Redondants** :
+   - Suppression du label `"Bouquets :"` et de son logo afin d'offrir une barre 100% épurée et immédiate.
+
+### C. Versions & Traçabilité Technique
+* **Service Worker PWA** : Cache mis à jour à `cinescope-v8.30-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
+* **Balises Assets HTML** : Query params incrémentés à `?v=8.30` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
+* **LocalStorage** : Clés alignées sur `_v20`.
+* **Conformité & Intégrité** : 791 œuvres qualifiées (671 films, 120 séries), 100% conformes à la Règle Fondamentale (1 catégorie unique par œuvre).
+
+
 

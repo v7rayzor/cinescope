@@ -1902,6 +1902,114 @@ body.modal-open {
   color: #fff;
 }
 
+.bouquet-btn-no-s1 {
+  border-color: rgba(239, 68, 68, 0.35);
+  background: rgba(239, 68, 68, 0.06);
+  color: #f87171;
+}
+
+.bouquet-btn-no-s1:hover {
+  background: rgba(239, 68, 68, 0.15);
+  border-color: rgba(239, 68, 68, 0.6);
+  color: #fca5a5;
+}
+
+.bouquet-btn-no-s1.active {
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.35), rgba(220, 38, 38, 0.18));
+  border-color: rgba(239, 68, 68, 0.85);
+  color: #fff;
+  box-shadow: 0 0 16px rgba(239, 68, 68, 0.35);
+}
+
+.bouquet-btn-no-s1 .pkg-count {
+  background: rgba(239, 68, 68, 0.18);
+  color: #fecaca;
+}
+
+.bouquet-btn-no-s1.active .pkg-count {
+  background: rgba(239, 68, 68, 0.4);
+  color: #fff;
+}
+
+.card-season-badge {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  z-index: 4;
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.68rem;
+  font-weight: 700;
+  background: rgba(30, 41, 59, 0.88);
+  border: 1px solid rgba(251, 191, 36, 0.4);
+  color: #fbbf24;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+/* Boutons de Profils Recommandés (PC uniquement) */
+.profile-btn {
+  border-color: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-secondary);
+}
+
+.profile-btn:hover {
+  background: rgba(255, 255, 255, 0.09);
+  color: var(--text-primary);
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+.profile-user-btn.active {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.35), rgba(99, 102, 241, 0.18));
+  border-color: rgba(139, 92, 246, 0.85);
+  color: #fff;
+  box-shadow: 0 0 16px rgba(139, 92, 246, 0.35);
+}
+
+.profile-user-btn.active .pkg-count {
+  background: rgba(139, 92, 246, 0.4);
+  color: #fff;
+}
+
+.profile-ami-btn.active {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.35), rgba(217, 119, 6, 0.18));
+  border-color: rgba(245, 158, 11, 0.85);
+  color: #fff;
+  box-shadow: 0 0 16px rgba(245, 158, 11, 0.35);
+}
+
+.profile-ami-btn.active .pkg-count {
+  background: rgba(245, 158, 11, 0.4);
+  color: #fff;
+}
+
+.profile-amie-btn.active {
+  background: linear-gradient(135deg, rgba(236, 72, 153, 0.35), rgba(219, 39, 119, 0.18));
+  border-color: rgba(236, 72, 153, 0.85);
+  color: #fff;
+  box-shadow: 0 0 16px rgba(236, 72, 153, 0.35);
+}
+
+.profile-amie-btn.active .pkg-count {
+  background: rgba(236, 72, 153, 0.4);
+  color: #fff;
+}
+
+.profile-duo-btn.active {
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.4), rgba(236, 72, 153, 0.25));
+  border-color: rgba(168, 85, 247, 0.9);
+  color: #fff;
+  box-shadow: 0 0 16px rgba(168, 85, 247, 0.4);
+}
+
+.profile-duo-btn.active .pkg-count {
+  background: rgba(168, 85, 247, 0.45);
+  color: #fff;
+}
+
 /* Badges de Compte à Rebours de Fin de Droits sur les Cartes */
 .card-expiry-badge {
   position: absolute;
@@ -1951,6 +2059,19 @@ body.modal-open {
   border: 1px solid rgba(16, 185, 129, 0.35);
 }
 
+.card-expiry-badge.badge-new {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.95), rgba(6, 182, 212, 0.95));
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 12px rgba(16, 185, 129, 0.5);
+  animation: pulseNew 2s infinite alternate;
+}
+
+@keyframes pulseNew {
+  from { opacity: 0.92; box-shadow: 0 0 8px rgba(16, 185, 129, 0.4); }
+  to { opacity: 1; transform: scale(1.02); box-shadow: 0 0 14px rgba(6, 182, 212, 0.6); }
+}
+
 /* Modale : Extensions Synopsis et Détail des Notes */
 .modal-ratings-container {
   display: flex;
@@ -1968,6 +2089,49 @@ body.modal-open {
 .modal-expiry-val {
   color: #38bdf8;
   font-weight: 600;
+}
+
+/* Sélecteur Déroulant de Saison Moderne dans l'en-tête de la Modale */
+.modal-season-selector-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.25rem;
+}
+
+.modal-season-select {
+  appearance: none;
+  -webkit-appearance: none;
+  background: #1c202d;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: var(--radius-sm);
+  color: #ffffff;
+  font-family: var(--font-main);
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 0.25rem 1.65rem 0.25rem 0.65rem;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.modal-season-select:hover {
+  background: #252b3d;
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.modal-season-select:focus {
+  border-color: var(--accent-red);
+  box-shadow: 0 0 10px rgba(255, 51, 75, 0.3);
+}
+
+.modal-season-select-chevron {
+  position: absolute;
+  right: 0.5rem;
+  pointer-events: none;
+  font-size: 0.72rem;
+  color: var(--text-secondary);
 }
 
 .modal-synopsis-section {
@@ -2010,7 +2174,7 @@ body.modal-open {
     display: none !important;
   }
 
-  .filters-unified-bubble > .filters-bubble-divider:first-of-type {
+  .filters-bubble-divider.bouquets-divider-line {
     display: none !important;
   }
 }

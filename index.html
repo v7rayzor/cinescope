@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=8.1">
+  <link rel="stylesheet" href="css/style.css?v=8.30">
 </head>
 <body>
   <!-- Header / Navigation principale -->
@@ -68,13 +68,9 @@
   <main class="main-content">
     <!-- Bulle Unifiée de Tous les Filtres (Catégories / Genre, Étoiles, Bouquets, Durée) -->
     <section class="filters-unified-bubble" id="filtersUnifiedBubble">
-      <!-- Ligne 0 : Filtre des Bouquets Streaming -->
+      <!-- Ligne 0A : Bouquets Streaming -->
       <div class="bouquets-bar-section" id="bouquetsBarSection">
         <div class="bouquets-wrapper" id="bouquetsNav">
-          <span class="bouquets-title">
-            <span class="bouquets-icon">📡</span>
-            <span class="bouquets-label">Bouquets :</span>
-          </span>
           <div class="bouquets-chips-group">
             <button class="bouquet-btn active" data-package="all" id="pkgAll">
               <span class="pkg-icon">✨</span>
@@ -96,18 +92,54 @@
               <span class="pkg-name">Universal+</span>
               <span class="pkg-count" id="countPkgUniversal">0</span>
             </button>
-            <div class="bouquets-divider" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ligne de séparation horizontale entre Bouquets et Profils -->
+      <div class="filters-bubble-divider bouquets-divider-line" aria-hidden="true"></div>
+
+      <!-- Ligne 0B : Filtres & Profils -->
+      <div class="bouquets-bar-section" id="profilesBarSection">
+        <div class="bouquets-wrapper" id="profilesNav">
+          <div class="bouquets-chips-group">
             <button class="bouquet-btn bouquet-btn-exclusive" id="pkgExclusive" type="button" title="Activer / Désactiver le filtre d'exclusion (Masquer les œuvres disponibles sur Prime Video et la TNT)">
               <span class="pkg-icon">🛡️</span>
               <span class="pkg-name">Hors Prime & TNT</span>
               <span class="pkg-count" id="countPkgExclusive">0</span>
+            </button>
+            <button class="bouquet-btn bouquet-btn-no-s1" id="pkgExcludeNoS1" type="button" title="Activer / Désactiver l'exclusion des séries dont la Saison 1 n'est pas disponible">
+              <span class="pkg-icon">🚫</span>
+              <span class="pkg-name">Exclure sans S1</span>
+              <span class="pkg-count" id="countExcludeNoS1">0</span>
+            </button>
+            <div class="bouquets-divider" aria-hidden="true"></div>
+            <button class="bouquet-btn profile-btn profile-user-btn" id="profileUserBtn" data-profile="user" type="button" title="Recommandations sur-mesure : Pour Moi (Mystère temporel, imaginaire, romance protectrice, formats 26 min)">
+              <span class="pkg-icon">🧙‍♂️</span>
+              <span class="pkg-name">Pour Moi</span>
+              <span class="pkg-count" id="countProfileUser">0</span>
+            </button>
+            <button class="bouquet-btn profile-btn profile-ami-btn" id="profileAmiBtn" data-profile="ami" type="button" title="Recommandations sur-mesure : Pour mon Ami (Action, Survie, 1er degré, Techno-thriller)">
+              <span class="pkg-icon">👤</span>
+              <span class="pkg-name">Ami</span>
+              <span class="pkg-count" id="countProfileAmi">0</span>
+            </button>
+            <button class="bouquet-btn profile-btn profile-amie-btn" id="profileAmieBtn" data-profile="amie" type="button" title="Recommandations sur-mesure : Pour mon Amie (Enquête, Déduction, Tandem, Matière Grise)">
+              <span class="pkg-icon">👩</span>
+              <span class="pkg-name">Amie</span>
+              <span class="pkg-count" id="countProfileAmie">0</span>
+            </button>
+            <button class="bouquet-btn profile-btn profile-duo-btn" id="profileDuoBtn" data-profile="duo" type="button" title="Recommandations combinées : Pour mon Ami & mon Amie (Duo — Équilibre Action 11-33%, Polars rythmés, Techno-thrillers)">
+              <span class="pkg-icon">👫</span>
+              <span class="pkg-name">Duo Amis</span>
+              <span class="pkg-count" id="countProfileDuo">0</span>
             </button>
           </div>
         </div>
       </div>
 
       <!-- Ligne de séparation horizontale -->
-      <div class="filters-bubble-divider" aria-hidden="true"></div>
+      <div class="filters-bubble-divider bouquets-divider-line" aria-hidden="true"></div>
 
       <!-- Ligne 1 : Catégories (Desktop) / Sélecteur Genre (Mobile) -->
       <div class="categories-bar-section" id="categoriesBarSection">
@@ -311,6 +343,10 @@
             <span class="modal-type-badge" id="modalTypeBadge">Film</span>
             <span class="modal-csa-badge" id="modalCsaBadge"></span>
             <span class="modal-year" id="modalYear">2024</span>
+            <div class="modal-season-selector-wrapper" id="modalSeasonSelectorWrapper" style="display: none;">
+              <select class="modal-season-select" id="modalSeasonSelect" aria-label="Choisir une saison"></select>
+              <span class="modal-season-select-chevron" aria-hidden="true">▾</span>
+            </div>
           </div>
 
           <h2 class="modal-title" id="modalTitle">Titre du Film</h2>
@@ -358,10 +394,10 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="js/catalog.js?v=8.26"></script>
-  <script src="js/nlp_model.js?v=8.26"></script>
-  <script src="js/justwatch_engine.js?v=8.26"></script>
-  <script src="js/app.js?v=8.26"></script>
+  <script src="js/catalog.js?v=8.30"></script>
+  <script src="js/nlp_model.js?v=8.30"></script>
+  <script src="js/justwatch_engine.js?v=8.30"></script>
+  <script src="js/app.js?v=8.30"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {

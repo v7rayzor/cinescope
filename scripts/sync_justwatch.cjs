@@ -46,12 +46,35 @@ const GRAPHQL_QUERY = `
             }
             posterUrl
           }
+          ... on Show {
+            totalSeasonCount
+            seasons {
+              id
+              objectId
+              content(country: $country, language: "fr") {
+                seasonNumber
+                originalReleaseYear
+                scoring {
+                  imdbScore
+                  tmdbScore
+                  tomatoScore
+                }
+              }
+              offers(country: $country, platform: WEB) {
+                package {
+                  shortName
+                }
+                monetizationType
+              }
+            }
+          }
           offers(country: $country, platform: WEB) {
             package {
               clearName
               shortName
             }
             monetizationType
+            availableFrom
             availableTo
             availableToTime
           }
@@ -65,8 +88,8 @@ async function fetchAllJustWatchPages() {
   console.log('🚀 [CinéScope Sync] Démarrage de la synchronisation JustWatch...');
   console.log('📦 Bouquets cibles :', JustWatchEngine.PACKAGE_SLUGS.join(', '));
 
-  const pageSize = 100;
-  const maxPages = 20; // Couvre jusqu'à 2 000 titres
+  const pageSize = 40;
+  const maxPages = 40; // Couvre jusqu'à 1 600 titres
   let currentCursor = null;
   const allFreshQualified = [];
   let totalReceived = 0;

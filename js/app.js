@@ -54,6 +54,8 @@ const AppState = {
   activeStars: 'all',          // 'all', '4', '5'
   activeBouquet: 'all',        // 'all', 'aoc' (OCS), 'aca' (Action), 'auc' (Universal+)
   isExclusiveOnly: false,      // true pour exclure Prime Video et TNT
+  isExcludeNoS1: false,        // true pour exclure les séries sans saison 1 disponible
+  activeProfile: 'none',       // 'none', 'user', 'ami', 'amie'
   isAutoStars: true,           // true tant que l'utilisateur n'a pas forcé manuellement un choix
   isSyncing: false,
   catalog: []
@@ -67,6 +69,284 @@ function isItemExcludedByPrimeOrTnt(item) {
   }
   if (item.on_prime === true || item.on_tnt === true) return true;
   return false;
+}
+
+// Vérifier si une série dispose de la Saison 1 complète
+function hasSeasonOne(item) {
+  if (!item || item.type !== 'serie') return true;
+  if (item.saisons_disponibles && item.saisons_disponibles.length > 0) {
+    return item.saisons_disponibles.some(s => {
+      const sNum = typeof s === 'object' ? s.saison : s;
+      return Number(sNum) === 1;
+    });
+  }
+  if (item.saison && Number(item.saison) > 1) return false;
+  return true;
+}
+
+// Obtenir le premier numéro de saison disponible pour une série
+function getFirstAvailableSeason(item) {
+  if (!item || item.type !== 'serie') return 1;
+  if (item.saisons_disponibles && item.saisons_disponibles.length > 0) {
+    const sNums = item.saisons_disponibles.map(s => typeof s === 'object' ? Number(s.saison) : Number(s)).sort((a, b) => a - b);
+    return sNums[0] || 1;
+  }
+  return Number(item.saison) || 1;
+}
+
+// Vérification des exclusions impératives pour les profils d'amis (Prime, TNT, rediffusions France TV)
+function isItemExcludedForAmis(item) {
+  if (!item) return true;
+  if (isItemExcludedByPrimeOrTnt(item)) return true;
+  const t = (item.titre || '').toLowerCase();
+  // Exclusions TNT / Rediffusions formelles
+  if (t.includes('professeur t') || t.includes('whitstable pearl') || 
+      t.includes('pearl nolan') || t.includes('harry wild') || t.includes('fargo') || 
+      t.includes('patience') || t.includes('le sang de la vigne')) {
+    return true;
+  }
+  return false;
+}
+
+// Détecter si une œuvre est une nouveauté arrivée depuis moins de 7 jours
+function isItemNew(item) {
+  if (!item) return false;
+  if (item.is_new) return true;
+  if (!item.date_ajout) return false;
+  const added = new Date(item.date_ajout);
+  if (isNaN(added.getTime())) return false;
+  const now = new Date();
+  const diffTime = now.getTime() - added.getTime();
+  const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+  return diffDays >= 0 && diffDays <= 7;
+}
+
+// Calcul mathématique précis du pourcentage de composante Action (0 à 100%)
+function getItemActionPercentage(item) {
+  if (!item) return 0;
+  const rawTags = (item.raw_genres || []).map(t => (t || '').toLowerCase().trim());
+  const cleanText = ((item.titre || '') + ' ' + (item.synopsis || ''))
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, ' ');
+
+  let animScore = 0;
+  let horrorScore = 0;
+  let scifiScore = 0;
+  let crimeScore = 0;
+  let actionScore = 0;
+  let comedyScore = 0;
+  let dramaScore = 0;
+
+  if (rawTags.includes('ani')) animScore += 100;
+  if (rawTags.includes('fml')) animScore += 40;
+
+  if (rawTags.includes('hrr')) horrorScore += 60;
+
+  if (rawTags.includes('scf')) scifiScore += 50;
+  if (rawTags.includes('fnt')) scifiScore += 40;
+
+  if (rawTags.includes('crm')) crimeScore += 55;
+  if (rawTags.includes('trl')) crimeScore += 35;
+
+  if (rawTags.includes('act')) actionScore += 50;
+  if (rawTags.includes('war')) actionScore += 30;
+  if (rawTags.includes('wsn')) actionScore += 30;
+
+  if (rawTags.includes('cmy')) comedyScore += 55;
+
+  if (rawTags.includes('drm')) dramaScore += 35;
+  if (rawTags.includes('rma')) dramaScore += 40;
+  if (rawTags.includes('hst')) dramaScore += 25;
+
+  // Signaux contextuels de pondération
+  if (/\b(meurtre|cadavre|crime|criminel|assassin|police|policier|enquete|flic|inspecteur|detective|tueur|braquage|mafia|gang|drogue|cartel|homicide|brigade|gendarme|avocat|proces|temoin|disparition|kidnapping|otage|vol|cambriolage|escroc|tribunal|juge|magistrat)\b/i.test(cleanText)) {
+    crimeScore += 35;
+  }
+  if (/\b(mission|commando|survie|jungle|desert|peril|sauvetage|combattant|guerrier|bataille|mercenaires|fusillade|explosion|artillerie|gladiateur|arts martiaux|kung fu|karate|course poursuite)\b/i.test(cleanText)) {
+    actionScore += 25;
+  }
+  if (/\b(extraterrestre|alien|vaisseau|galaxie|spatial|dystopie|futur|temporel|voyage dans le temps|cyber|ia|intelligence artificielle|robot|androide|clone|mutation|mutant|zombie|apocalypse|post apocalyptique|drome|bouclier)\b/i.test(cleanText)) {
+    scifiScore += 30;
+  }
+  if (/\b(deuil|cancer|maladie|intimite|romance|passion|couple|divorce|separation|pere|mere|fils|fille|famille|noel|romantique|poignant|bouleversant|emouvant|sentiment|solitude|drame)\b/i.test(cleanText)) {
+    dramaScore += 35;
+  }
+
+  const total = animScore + horrorScore + scifiScore + crimeScore + actionScore + comedyScore + dramaScore;
+  if (total <= 0) return 0;
+  return Math.round((actionScore / total) * 100);
+}
+
+// Détecter si une œuvre est un film ou une série d'animation / dessin animé
+function isAnimationItem(item) {
+  if (!item) return false;
+  const cat = (item.categories && item.categories[0]) ? item.categories[0] : '';
+  if (cat === 'animation_famille') return true;
+  const syn = (item.synopsis || '').toLowerCase();
+  if (syn.includes('dessin animé') || syn.includes('série animée') || syn.includes('série d\'animation') || syn.includes('film d\'animation') || syn.includes('anime japonais') || syn.includes('manga animé')) {
+    return true;
+  }
+  return false;
+}
+
+// Calcul d'affinité prédictive sur-mesure pour chaque profil (0 à 100%)
+function computeProfileAffinity(item, profile) {
+  if (!item || !item.is_eligible || !profile || profile === 'none') return 0;
+  const cat = (item.categories && item.categories[0]) ? item.categories[0] : '';
+  const titre = (item.titre || '').toLowerCase();
+  const syn = (item.synopsis || '').toLowerCase();
+  const dur = (item.duree || '').toLowerCase();
+  const note = getItemScore(item);
+
+  // 👤 Profil Ami (Homme) : Action, Survie, 1er degré strict, Rythme soutenu / Adrénaline
+  // (Exclusion formelle : Zéro lenteur/polars bavards sans action, Zéro animation, Zéro TNT/Prime)
+  if (profile === 'ami') {
+    if (isItemExcludedForAmis(item)) return 0;
+    if (isAnimationItem(item) || cat === 'animation_famille' || cat === 'horreur_epouvante') return 0;
+
+    if (cat === 'drame_emotion' && !syn.includes('survie') && !syn.includes('action') && !syn.includes('militaire')) return 0;
+
+    // Règle Mathématique 100% Automatisée :
+    // Dans Thriller & Policier et Comédie, la part d'Action doit être >= 11% (élimine automatiquement tout polar lent, statique ou bavard)
+    const actionPct = getItemActionPercentage(item);
+    if ((cat === 'thriller_policier' || cat === 'comedie') && actionPct < 11) {
+      return 0;
+    }
+
+    // Titres socles calibrés
+    if (titre.includes('the copenhagen test')) return 90;
+    if (titre.includes('reacher')) return 90;
+    if (titre.includes('arcadia')) return 85;
+    if (titre.includes('almost paradise')) return 85;
+    if (titre.includes('orphan black')) return 85;
+    if (titre.includes('revival')) return 85;
+    if (titre.includes('30 jours max')) return 85;
+    if (titre.includes('under the dome')) return 85;
+    if (titre.includes('sentinelles')) return 80;
+
+    let score = 0;
+    if (cat === 'action_aventure') score += 45;
+    if (cat === 'scifi_fantastique' && (syn.includes('survie') || syn.includes('traque') || syn.includes('action') || syn.includes('cyber') || syn.includes('techno') || syn.includes('clone'))) score += 40;
+    if (cat === 'thriller_policier' && (syn.includes('action') || syn.includes('traque') || syn.includes('cartel') || syn.includes('braquage') || syn.includes('flic') || syn.includes('commando') || syn.includes('course') || syn.includes('espion') || syn.includes('poursuite'))) score += 35;
+    if (cat === 'comedie' && (syn.includes('action') || syn.includes('police') || syn.includes('flic') || syn.includes('braquage'))) score += 35;
+
+    if (syn.includes('survie') || syn.includes('traque') || syn.includes('anticipation') || syn.includes('techno') || 
+        syn.includes('dôme') || syn.includes('quarantaine') || syn.includes('clone') || syn.includes('cyber') || 
+        syn.includes('conspiration') || syn.includes('cartel') || syn.includes('mission') || syn.includes('commando') ||
+        syn.includes('flic') || syn.includes('espion') || syn.includes('opération') || syn.includes('braquage') ||
+        syn.includes('course-poursuite')) {
+      score += 25;
+    }
+    if (note >= 8.0) score += 20;
+    else if (note >= 7.0) score += 10;
+    return Math.min(100, score);
+  }
+
+  // 👩 Profil Amie (Femme) : Enquête, Déduction, Tandem, Affaires Judiciaires & Drames / Émotion / Noël
+  // (Exigences : Matière grise, psychologie, besoin de temps morts / respirations, Part d'action <= 33%, zéro comédie, zéro animation)
+  if (profile === 'amie') {
+    if (isItemExcludedForAmis(item)) return 0;
+    if (isAnimationItem(item) || cat === 'animation_famille' || cat === 'comedie' || cat === 'horreur_epouvante' || cat === 'action_aventure') {
+      return 0;
+    }
+
+    // Règle Mathématique : La part d'Action dans l'œuvre ne doit pas dépasser 33%
+    const actionPct = getItemActionPercentage(item);
+    if (actionPct > 33) {
+      return 0;
+    }
+
+    // Titres socles calibrés
+    if (titre.includes('family law')) return 90;
+    if (titre.includes('wild cards')) return 85;
+    if (titre.includes('grace')) return 85;
+    if (titre.includes('toronto: section criminelle') || titre.includes('toronto criminal intent')) return 85;
+    if (titre.includes('castle')) return 90;
+    if (titre.includes('bull')) return 85;
+    if (titre.includes('my life is murder')) return 85;
+    if (titre.includes('allegiance')) return 80;
+    if (titre.includes('revival')) return 80;
+
+    let score = 0;
+    if (cat === 'thriller_policier') score += 40;
+    if (cat === 'drame_emotion') score += 40;
+
+    if (syn.includes('enquête') || syn.includes('déduction') || syn.includes('meurtre') || syn.includes('tandem') || 
+        syn.includes('avocat') || syn.includes('profiling') || syn.includes('judiciaire') || syn.includes('indices') || 
+        syn.includes('noël') || syn.includes('noel') || syn.includes('romance') || syn.includes('amour') || syn.includes('famille') ||
+        syn.includes('émotion') || syn.includes('sentiment') || syn.includes('secret') || syn.includes('passion') || syn.includes('destin') ||
+        syn.includes('psychologie') || syn.includes('dialogue') || syn.includes('complicité')) {
+      score += 25;
+    }
+    if (note >= 8.0) score += 15;
+    else if (note >= 7.0) score += 10;
+    return Math.min(100, score);
+  }
+
+  // 👫 Profil Combiné Duo (Ami & Amie) : Équilibre Parfait Action 11-33%, Polars de terrain & Techno-thrillers
+  if (profile === 'duo') {
+    const sAmi = computeProfileAffinity(item, 'ami');
+    const sAmie = computeProfileAffinity(item, 'amie');
+    if (sAmi < 50 || sAmie < 50) return 0;
+    return Math.round((sAmi + sAmie) / 2);
+  }
+
+  // 🧙‍♂️ Profil Utilisateur (Moi) : Mystère Temporel, Imaginaire / Fantastique, Romance Protectrice, Formats 26 min
+  // (Exclusion formelle : Zéro animation en séries uniquement ; films d'animation autorisés)
+  if (profile === 'user') {
+    if (item.type === 'serie' && (isAnimationItem(item) || cat === 'animation_famille') && !titre.includes('spiderwick')) {
+      return 0;
+    }
+    if (syn.includes('guerre mondiale') && cat === 'action_aventure') return 0;
+    if (cat === 'horreur_epouvante' && (syn.includes('gore') || syn.includes('massacre') || syn.includes('slasher'))) return 0;
+
+    // Titres socles calibrés
+    if (titre.includes('timeless')) return 90;
+    if (titre.includes('lt-21') || titre.includes('lt 21')) return 90;
+    if (titre.includes('le ministère du temps') || titre.includes('ministerio del tiempo')) return 90;
+    if (titre.includes('boy 7')) return 90;
+    if (titre.includes('desde el mañana') || titre.includes('desde el manana')) return 85;
+    if (titre.includes('aspergirl')) return 85;
+    if (titre.includes('the spiderwick chronicles') || titre.includes('chroniques de spiderwick')) return 85;
+    if (titre.includes('the librarians') || titre.includes('flynn carson')) return 85;
+    if (titre.includes('domino day')) return 85;
+    if (titre.includes('extra-lucide') || titre.includes('extra lucide')) return 85;
+    if (titre.includes('pécheresses') || titre.includes('pecheresses')) return 85;
+    if (titre.includes('revival')) return 85;
+    if (titre.includes('jeune et golri')) return 85;
+    if (titre.includes('brave new world')) return 80;
+    if (titre.includes('midnight, texas')) return 80;
+    if (titre.includes('toutouyoutou')) return 80;
+    if (titre.includes('bull')) return 85;
+    if (titre.includes('under the dome')) return 85;
+
+    let score = 0;
+    if (cat === 'scifi_fantastique') score += 40;
+    if (cat === 'thriller_policier') score += 25;
+    if (cat === 'drame_emotion' || cat === 'comedie') score += 25;
+    if (cat === 'animation_famille' && item.type !== 'serie') score += 20;
+
+    if (syn.includes('temps') || syn.includes('temporel') || syn.includes('voyage') || syn.includes('futur') || 
+        syn.includes('magie') || syn.includes('artefact') || syn.includes('mystère') || syn.includes('romance') || 
+        syn.includes('amour') || syn.includes('complicité') || syn.includes('secret') || syn.includes('télépathie') ||
+        syn.includes('vision') || syn.includes('pouvoir') || syn.includes('sorcellerie') || syn.includes('légende') ||
+        syn.includes('amnésie') || syn.includes('protecteur') || syn.includes('protectrice')) {
+      score += 25;
+    }
+    if (dur.includes('25') || dur.includes('26') || dur.includes('30 min')) score += 15;
+    if (note >= 7.5) score += 15;
+    return Math.min(100, score);
+  }
+
+  return 0;
+}
+
+// Vérifier si une œuvre est éligible pour un profil donné (seuil de matching >= 50%)
+function isItemMatchingProfile(item, profile) {
+  if (!profile || profile === 'none') return true;
+  return computeProfileAffinity(item, profile) >= 50;
 }
 
 // Obtenir le score pertinent d'une œuvre (note_globale ou note_avis)
@@ -156,9 +436,23 @@ function getDailyScore(item) {
 }
 
 // Tri intelligent CinéScope :
-// 1. Priorité aux films avec date d'expiration (le plus proche de quitter le catalogue en premier)
-// 2. Films sans date d'expiration ordonnés par tirage aléatoire quotidien stable.
+// 1. Si un profil est actif : priorité au score d'affinité décroissant
+// 2. Priorité aux films avec date d'expiration (le plus proche de quitter le catalogue en premier)
+// 3. Films sans date d'expiration ordonnés par tirage aléatoire quotidien stable.
 function sortCatalogItems(items) {
+  if (AppState.activeProfile && AppState.activeProfile !== 'none') {
+    return [...items].sort((a, b) => {
+      const scoreDiff = computeProfileAffinity(b, AppState.activeProfile) - computeProfileAffinity(a, AppState.activeProfile);
+      if (scoreDiff !== 0) return scoreDiff;
+
+      const aExp = (a.expiration && a.expiration.daysLeft !== null && a.expiration.daysLeft >= 0) ? a.expiration.daysLeft : 9999;
+      const bExp = (b.expiration && b.expiration.daysLeft !== null && b.expiration.daysLeft >= 0) ? b.expiration.daysLeft : 9999;
+      if (aExp !== bExp) return aExp - bExp;
+
+      return getDailyScore(a) - getDailyScore(b);
+    });
+  }
+
   const withExpiry = [];
   const withoutExpiry = [];
 
@@ -381,7 +675,7 @@ function initCounts() {
   if (seriesBadge) seriesBadge.textContent = eligibleSeries.length;
 }
 
-// Calcul des compteurs de bouquets
+// Calcul des compteurs de bouquets & profils
 function initBouquetsCounts() {
   const eligibleTypeItems = AppState.catalog.filter(item => {
     if (!item.is_eligible) return false;
@@ -395,28 +689,49 @@ function initBouquetsCounts() {
   const countAction = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('aca')).length;
   const countUniversal = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('auc')).length;
   
-  // Scope du filtre d'exclusion selon le bouquet actif
+  // Scope du filtre selon le bouquet actif
   const currentScope = (AppState.activeBouquet && AppState.activeBouquet !== 'all')
     ? eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes(AppState.activeBouquet))
     : eligibleTypeItems;
   const countExclusive = currentScope.filter(i => !isItemExcludedByPrimeOrTnt(i)).length;
+
+  // Compteur séries sans S1
+  const countNoS1 = AppState.activeType === 'serie' 
+    ? currentScope.filter(i => !hasSeasonOne(i)).length 
+    : 0;
+
+  // Compteurs des 4 profils
+  const countProfileUser = currentScope.filter(i => isItemMatchingProfile(i, 'user')).length;
+  const countProfileAmi = currentScope.filter(i => isItemMatchingProfile(i, 'ami')).length;
+  const countProfileAmie = currentScope.filter(i => isItemMatchingProfile(i, 'amie')).length;
+  const countProfileDuo = currentScope.filter(i => isItemMatchingProfile(i, 'duo')).length;
 
   const elAll = document.getElementById('countPkgAll');
   const elOcs = document.getElementById('countPkgOcs');
   const elAction = document.getElementById('countPkgAction');
   const elUniv = document.getElementById('countPkgUniversal');
   const elExclusive = document.getElementById('countPkgExclusive');
+  const elExcludeNoS1 = document.getElementById('countExcludeNoS1');
+  const elProfileUser = document.getElementById('countProfileUser');
+  const elProfileAmi = document.getElementById('countProfileAmi');
+  const elProfileAmie = document.getElementById('countProfileAmie');
+  const elProfileDuo = document.getElementById('countProfileDuo');
 
   if (elAll) elAll.textContent = countAll;
   if (elOcs) elOcs.textContent = countOcs;
   if (elAction) elAction.textContent = countAction;
   if (elUniv) elUniv.textContent = countUniversal;
   if (elExclusive) elExclusive.textContent = countExclusive;
+  if (elExcludeNoS1) elExcludeNoS1.textContent = countNoS1;
+  if (elProfileUser) elProfileUser.textContent = countProfileUser;
+  if (elProfileAmi) elProfileAmi.textContent = countProfileAmi;
+  if (elProfileAmie) elProfileAmie.textContent = countProfileAmie;
+  if (elProfileDuo) elProfileDuo.textContent = countProfileDuo;
 }
 
-// Navigation par bouquets & Filtre d'exclusion Prime/TNT
+// Navigation par bouquets, Filtre d'exclusion Prime/TNT, Filtre sans S1 & Profils Amis
 function initBouquetsNavigation() {
-  const bouquetBtns = document.querySelectorAll('.bouquets-chips-group .bouquet-btn:not(.bouquet-btn-exclusive)');
+  const bouquetBtns = document.querySelectorAll('.bouquets-chips-group .bouquet-btn[data-package]');
   bouquetBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       bouquetBtns.forEach(b => b.classList.remove('active'));
@@ -437,6 +752,36 @@ function initBouquetsNavigation() {
       renderCatalog();
     });
   }
+
+  const excludeNoS1Btn = document.getElementById('pkgExcludeNoS1');
+  if (excludeNoS1Btn) {
+    excludeNoS1Btn.addEventListener('click', () => {
+      AppState.isExcludeNoS1 = !AppState.isExcludeNoS1;
+      excludeNoS1Btn.classList.toggle('active', AppState.isExcludeNoS1);
+      updateCategoryAutoStar();
+      renderCatalog();
+    });
+  }
+
+  const profileBtns = document.querySelectorAll('.bouquets-chips-group .profile-btn');
+  profileBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const selectedProfile = btn.dataset.profile;
+      if (AppState.activeProfile === selectedProfile) {
+        // Désactivation au deuxième clic
+        AppState.activeProfile = 'none';
+        btn.classList.remove('active');
+      } else {
+        AppState.activeProfile = selectedProfile;
+        profileBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        // Verrouillage automatique sur 'Tous les titres'
+        setCategory('all');
+      }
+      updateCategoryAutoStar();
+      renderCatalog();
+    });
+  });
 }
 
 // Navigation par type et catégories
@@ -511,6 +856,13 @@ function closeGenreDropdown() {
 }
 
 function setCategory(targetCat) {
+  // Si on clique sur une catégorie spécifique et qu'un profil était actif, désactiver le profil
+  if (targetCat !== 'all' && AppState.activeProfile !== 'none') {
+    AppState.activeProfile = 'none';
+    const profileBtns = document.querySelectorAll('.bouquets-chips-group .profile-btn');
+    profileBtns.forEach(b => b.classList.remove('active'));
+  }
+
   AppState.activeCategory = targetCat;
   AppState.isAutoStars = true;
 
@@ -751,6 +1103,20 @@ function getCategoryEligibleItems() {
       }
     }
 
+    // Filtre d'Exclusion des Séries sans Saison 1
+    if (AppState.isExcludeNoS1) {
+      if (item.type === 'serie' && !hasSeasonOne(item)) {
+        return false;
+      }
+    }
+
+    // Filtre de Profils Recommandés (Moi, Ami, Amie)
+    if (AppState.activeProfile && AppState.activeProfile !== 'none') {
+      if (!isItemMatchingProfile(item, AppState.activeProfile)) {
+        return false;
+      }
+    }
+
     // Filtre Catégorie
     if (AppState.activeCategory !== 'all') {
       if (!item.categories || !item.categories.includes(AppState.activeCategory)) return false;
@@ -785,20 +1151,45 @@ function renderCatalog() {
   const catInfo = CATEGORIES_INFO[AppState.activeCategory] || CATEGORIES_INFO.all;
   if (titleEl) {
     const mediaLabel = AppState.activeType === 'film' ? 'Films' : 'Séries';
-    titleEl.textContent = AppState.activeCategory === 'all' 
-      ? `Tous les ${mediaLabel.toLowerCase()}` 
-      : `${catInfo.title} (${mediaLabel})`;
+    if (AppState.activeProfile && AppState.activeProfile !== 'none') {
+      if (AppState.activeProfile === 'user') {
+        titleEl.textContent = `Recommandations — Pour Moi (${mediaLabel})`;
+      } else if (AppState.activeProfile === 'ami') {
+        titleEl.textContent = `Recommandations — Pour mon Ami (${mediaLabel})`;
+      } else if (AppState.activeProfile === 'amie') {
+        titleEl.textContent = `Recommandations — Pour mon Amie (${mediaLabel})`;
+      } else if (AppState.activeProfile === 'duo') {
+        titleEl.textContent = `Recommandations — Pour Ami & Amie (Duo) (${mediaLabel})`;
+      }
+    } else {
+      titleEl.textContent = AppState.activeCategory === 'all' 
+        ? `Tous les ${mediaLabel.toLowerCase()}` 
+        : `${catInfo.title} (${mediaLabel})`;
+    }
   }
   if (descEl) {
-    descEl.textContent = catInfo.desc || '';
-    descEl.style.display = catInfo.desc ? 'block' : 'none';
+    if (AppState.activeProfile && AppState.activeProfile !== 'none') {
+      if (AppState.activeProfile === 'user') {
+        descEl.textContent = '✨ Sélection sur-mesure : Mystère temporel, imaginaire fantastique, complicité protectrice & formats 26 min.';
+      } else if (AppState.activeProfile === 'ami') {
+        descEl.textContent = '🎯 Sélection 1er degré strict : Action grand spectacle, survie, anticipation & techno-thrillers.';
+      } else if (AppState.activeProfile === 'amie') {
+        descEl.textContent = '🔍 Sélection matière grise & déduction : Polars d\'enquête, duos complices, procès & joutes judiciaires.';
+      } else if (AppState.activeProfile === 'duo') {
+        descEl.textContent = '👫 Sélection commune : Équilibre idéal d\'action (11 à 33%), polars d\'investigation rythmés & techno-thrillers sans comédie potache.';
+      }
+      descEl.style.display = 'block';
+    } else {
+      descEl.textContent = catInfo.desc || '';
+      descEl.style.display = catInfo.desc ? 'block' : 'none';
+    }
   }
 
   let items = getFilteredItemsBeforeStars();
   updateStarButtonsCounts(items);
   items = items.filter(item => matchesStars(item, AppState.activeStars));
 
-  // Tri intelligent : Fins de droits en tête par ordre d'urgence, puis aléatoire quotidien
+  // Tri intelligent : Fins de droits en tête par ordre d'urgence, puis aléatoire quotidien (ou affinité profil si actif)
   const sortedItems = sortCatalogItems(items);
   if (countEl) countEl.textContent = sortedItems.length;
 
@@ -824,10 +1215,20 @@ function renderCatalog() {
       ? `<div class="csa-badge-container"><img class="csa-badge-img" src="assets/logos/pegi_${item.badge}.png" alt="-${item.badge}"></div>` 
       : '';
 
-    // Badge de compte à rebours d'expiration : UNIQUEMENT si une date d'expiration existe
+    // Badge de Nouveauté (7 jours) ou Compte à rebours d'expiration
+    // RÈGLE VISUELLE : Si l'œuvre est arrivée dans le catalogue depuis <= 7 jours, le badge "🆕 Nouveauté" prime sur l'affiche
     let expiryHtml = '';
-    if (item.expiration && item.expiration.label && item.expiration.status !== 'none' && item.expiration.status !== 'available') {
+    if (isItemNew(item)) {
+      expiryHtml = `<div class="card-expiry-badge badge-new" title="Nouveauté ajoutée au catalogue il y a moins de 7 jours">🆕 Nouveauté</div>`;
+    } else if (item.expiration && item.expiration.label && item.expiration.status !== 'none' && item.expiration.status !== 'available') {
       expiryHtml = `<div class="card-expiry-badge expiry-${item.expiration.status}">${item.expiration.label}</div>`;
+    }
+
+    // Badge de Saison disponible (si la série n'a pas la S1 complète)
+    let seasonBadgeHtml = '';
+    if (item.type === 'serie' && !hasSeasonOne(item)) {
+      const firstS = getFirstAvailableSeason(item);
+      seasonBadgeHtml = `<div class="card-season-badge">⚠️ Débute S${firstS}</div>`;
     }
 
     // Logos des chaînes
@@ -853,6 +1254,7 @@ function renderCatalog() {
         <img class="poster-img" src="${item.poster}" alt="Affiche ${item.titre}" decoding="async">
         ${expiryHtml}
         ${badgeHtml}
+        ${seasonBadgeHtml}
         <div class="channel-logo-container ${logosList.length > 1 ? 'has-multiple-logos' : ''}">
           ${channelLogoHtml}
         </div>
@@ -930,7 +1332,43 @@ function openModal(item) {
   poster.alt = item.titre;
   title.textContent = item.titre;
   typeBadge.textContent = item.type === 'serie' ? 'Série' : 'Film';
-  year.textContent = item.annee || '-';
+  if (item.type === 'serie' && item.annee_fin && item.annee_fin !== item.annee) {
+    year.textContent = `${item.annee} - ${item.annee_fin}`;
+  } else {
+    year.textContent = item.annee || '-';
+  }
+
+  // Menu déroulant des saisons disponibles pour les séries
+  const seasonWrapper = document.getElementById('modalSeasonSelectorWrapper');
+  const seasonSelect = document.getElementById('modalSeasonSelect');
+
+  if (item.type === 'serie') {
+    const seasons = (item.saisons_disponibles && item.saisons_disponibles.length > 0)
+      ? item.saisons_disponibles
+      : [{ saison: 1, annee: item.annee, note: item.note_avis }];
+
+    if (seasonWrapper && seasonSelect) {
+      seasonSelect.innerHTML = '';
+      seasons.forEach((s, idx) => {
+        const opt = document.createElement('option');
+        opt.value = idx;
+        opt.textContent = `Saison ${s.saison}`;
+        seasonSelect.appendChild(opt);
+      });
+      seasonWrapper.style.display = 'inline-flex';
+
+      seasonSelect.onchange = (e) => {
+        const selected = seasons[parseInt(e.target.value, 10)];
+        if (selected && selected.annee) {
+          year.textContent = selected.annee;
+        }
+      };
+    }
+  } else {
+    if (seasonWrapper) {
+      seasonWrapper.style.display = 'none';
+    }
+  }
 
   if (item.badge) {
     csaBadge.innerHTML = `<img class="modal-csa-badge-img" src="assets/logos/pegi_${item.badge}.png" alt="-${item.badge}">`;

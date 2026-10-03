@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v18';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v18';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v18';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v18';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v20';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v20';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v20';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v20';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -161,11 +161,13 @@ const JustWatchEngine = (function () {
     return isItemOnPrime(item) || isItemOnTnt(item);
   }
 
-  // Barème de récence : 2000 = 4.0, 2026 = 10.0
+  // Barème de récence : 20 ans glissants (Année - 20 ans = 4.0/10, ex: 2006 = 4.0, 2026 = 10.0)
   function computeNoteRecence(year) {
-    if (!year || year < 2000) return 0;
+    if (!year) return 0;
     const currentMaxYear = 2026;
-    const note = 4.0 + ((Math.min(year, currentMaxYear) - 2000) / (currentMaxYear - 2000)) * 6.0;
+    const minYear = currentMaxYear - 20; // 2006
+    if (year < minYear) return 0;
+    const note = 4.0 + ((Math.min(year, currentMaxYear) - minYear) / (currentMaxYear - minYear)) * 6.0;
     return Math.round(note * 10) / 10;
   }
 
@@ -611,29 +613,98 @@ const JustWatchEngine = (function () {
     const rawGenres = (c.genres || []).map(normalizeTag).filter(Boolean);
     if (rawGenres.includes('rly')) return null;
 
-    // Condition 2 : Note Récence >= 4.0 / 10 (KO automatique < 2000)
-    const noteRecence = computeNoteRecence(year);
-    if (noteRecence < 4.0) return null;
+    const isSerie = node.id && (node.id.startsWith('ts') || node.nodeType === 'SHOW');
+    const typeStr = isSerie ? 'serie' : 'film';
 
-    // Condition 1 : Note Avis >= 4.0 / 10
-    const imdb = c.scoring?.imdbScore || null;
-    const rt = c.scoring?.tomatoScore ? c.scoring.tomatoScore / 10 : null;
-    const tmdb = c.scoring?.tmdbScore || null;
-
+    let anneeDebut = year;
+    let anneeFin = year;
+    let anneeMoyenne = year;
     let noteAvis = null;
-    if (imdb !== null && rt !== null) {
-      noteAvis = (imdb + rt) / 2;
-    } else if (imdb !== null) {
-      noteAvis = imdb;
-    } else if (rt !== null) {
-      noteAvis = rt;
-    } else if (tmdb !== null) {
-      noteAvis = tmdb;
+    let saisonsDisponibles = undefined;
+
+    if (isSerie) {
+      const allSeasons = node.seasons || [];
+      // Filtrer les saisons avec une offre FLATRATE sur nos bouquets cibles (aoc, aca, auc)
+      const availableSeasons = allSeasons.filter(s => {
+        const sOffers = s.offers || [];
+        return sOffers.some(o => 
+          o.monetizationType === 'FLATRATE' && 
+          o.package && 
+          PACKAGE_SLUGS.includes(o.package.shortName)
+        );
+      });
+
+      const seasonsToUse = availableSeasons.length > 0 ? availableSeasons : allSeasons;
+      const seasonYears = seasonsToUse.map(s => s.content?.originalReleaseYear).filter(Boolean);
+
+      anneeDebut = seasonYears.length ? Math.min(...seasonYears) : (year || null);
+      anneeFin = seasonYears.length ? Math.max(...seasonYears) : (year || null);
+      anneeMoyenne = (anneeDebut && anneeFin) ? Math.round((anneeDebut + anneeFin) / 2) : (year || null);
+
+      saisonsDisponibles = seasonsToUse.map(s => {
+        const sc = s.content?.scoring;
+        const sImdb = sc?.imdbScore || null;
+        const sTmdb = sc?.tmdbScore || null;
+        const sRt = sc?.tomatoScore ? sc.tomatoScore / 10 : null;
+        let sScore = null;
+        if (sImdb !== null && sRt !== null) sScore = (sImdb + sRt) / 2;
+        else if (sImdb !== null) sScore = sImdb;
+        else if (sRt !== null) sScore = sRt;
+        else if (sTmdb !== null) sScore = sTmdb;
+        if (sScore !== null) sScore = Math.round(sScore * 10) / 10;
+        return {
+          saison: s.content?.seasonNumber || 1,
+          annee: s.content?.originalReleaseYear || year,
+          note: sScore
+        };
+      }).sort((a, b) => a.saison - b.saison);
+
+      // Calcul de la moyenne des notes de toutes les saisons disponibles
+      const seasonScores = [];
+      for (const s of seasonsToUse) {
+        const sc = s.content?.scoring;
+        const sImdb = sc?.imdbScore || null;
+        const sTmdb = sc?.tmdbScore || null;
+        const sRt = sc?.tomatoScore ? sc.tomatoScore / 10 : null;
+        let sScore = null;
+        if (sImdb !== null && sRt !== null) sScore = (sImdb + sRt) / 2;
+        else if (sImdb !== null) sScore = sImdb;
+        else if (sRt !== null) sScore = sRt;
+        else if (sTmdb !== null) sScore = sTmdb;
+        if (sScore !== null && !isNaN(sScore)) seasonScores.push(sScore);
+      }
+
+      if (seasonScores.length > 0) {
+        noteAvis = seasonScores.reduce((a, b) => a + b, 0) / seasonScores.length;
+      }
+    }
+
+    // Condition 1 : Note Avis >= 4.0 / 10 (fallback sur show/film si pas de note par saison)
+    if (noteAvis === null) {
+      const imdb = c.scoring?.imdbScore || null;
+      const rt = c.scoring?.tomatoScore ? c.scoring.tomatoScore / 10 : null;
+      const tmdb = c.scoring?.tmdbScore || null;
+
+      if (imdb !== null && rt !== null) {
+        noteAvis = (imdb + rt) / 2;
+      } else if (imdb !== null) {
+        noteAvis = imdb;
+      } else if (rt !== null) {
+        noteAvis = rt;
+      } else if (tmdb !== null) {
+        noteAvis = tmdb;
+      }
     }
 
     if (noteAvis === null || isNaN(noteAvis)) return null;
     noteAvis = Math.round(noteAvis * 10) / 10;
     if (noteAvis < 4.0) return null;
+
+    // Condition 2 : Note Récence >= 4.0 / 10 (KO automatique < 2000)
+    // Pour les séries : basée sur l'année moyenne des saisons disponibles
+    const refYearForRecence = isSerie ? anneeMoyenne : year;
+    const noteRecence = computeNoteRecence(refYearForRecence);
+    if (noteRecence < 4.0) return null;
 
     // Condition 3 : Note Globale >= 6.0 / 10
     const noteGlobale = Math.round(((noteAvis + noteRecence) / 2) * 10) / 10;
@@ -659,9 +730,6 @@ const JustWatchEngine = (function () {
     const chainesList = matchedPackages.map(k => PACKAGES_CONFIG[k].name);
     const logosList = matchedPackages.map(k => PACKAGES_CONFIG[k].logo);
 
-    const isSerie = node.id && (node.id.startsWith('ts') || node.nodeType === 'SHOW');
-    const typeStr = isSerie ? 'serie' : 'film';
-
     let posterUrl = 'assets/favicon.png';
     if (c.posterUrl) {
       posterUrl = `https://images.justwatch.com${c.posterUrl.replace('{profile}', 's592').replace('{format}', 'jpg')}`;
@@ -681,6 +749,14 @@ const JustWatchEngine = (function () {
     const onPrime = offers.some(o => (o.package?.shortName === 'prv' || o.package?.shortName === 'pva') && o.monetizationType === 'FLATRATE') || isKnownPrimeTitle(c.title);
     const onTnt = offers.some(o => ['fpt', 'tf1', 'myt', '6pt', 'art', 'plt', 'ptv', 'plc', 'pxp', 'wki', 'rmc', 'bfm'].includes(o.package?.shortName) && ['ADS', 'FREE', 'FLATRATE'].includes(o.monetizationType)) || isKnownTntTitle(c.title);
 
+    // Extraction de la date d'arrivée / nouveauté
+    let dateAjout = null;
+    const offersWithDates = offers.filter(o => o && o.availableFrom);
+    if (offersWithDates.length > 0) {
+      const dates = offersWithDates.map(o => o.availableFrom).sort();
+      dateAjout = dates[0].split('T')[0];
+    }
+
     return {
       id: `jw-${node.id || node.objectId}`,
       titre: c.title || 'Titre inconnu',
@@ -690,35 +766,43 @@ const JustWatchEngine = (function () {
       logo_chaine: primaryPkg.logo,
       logos_chaine: logosList.length > 0 ? logosList : [primaryPkg.logo],
       package_slugs: matchedPackages,
-      annee: year,
+      annee: anneeDebut,
+      annee_fin: (anneeFin && anneeFin !== anneeDebut) ? anneeFin : undefined,
+      annee_moyenne: anneeMoyenne,
+      saisons_disponibles: isSerie ? saisonsDisponibles : undefined,
       duree: formatDuration(c.runtime, isSerie),
       runtime_minutes: c.runtime || 0,
       note_avis: noteAvis,
       note_recence: noteRecence,
       note_globale: noteGlobale,
       etoiles: etoiles,
-      categories: [computeCategory(c.genres, isSerie, c.title, c.shortDescription, c.ageCertification, year, matchedPackages)],
+      categories: [computeCategory(c.genres, isSerie, c.title, c.shortDescription, c.ageCertification, refYearForRecence, matchedPackages)],
       raw_genres: (c.genres || []).map(normalizeTag).filter(Boolean),
       badge: badge,
       is_eligible: true,
       poster: posterUrl,
       synopsis: c.shortDescription || '',
+      date_ajout: dateAjout || undefined,
       expiration: expiration,
       on_prime: onPrime,
       on_tnt: onTnt
     };
   }
 
-  // Clé de déduplication stricte (Titre normalisé sans accents ni ponctuation + Année + Type)
+  // Clé de déduplication stricte (Par ID JustWatch prioritaire, ou Titre normalisé + Type)
   function getDeduplicationKey(item) {
-    if (!item || !item.titre) return '';
+    if (!item) return '';
+    if (item.id) return item.id;
     const normTitle = (item.titre || '')
       .toLowerCase()
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '')
       .replace(/[^a-z0-9]/g, '');
-    const yr = item.annee || '';
     const tp = item.type || 'film';
+    if (tp === 'serie') {
+      return `${normTitle}_serie`;
+    }
+    const yr = item.annee || '';
     return `${normTitle}_${yr}_${tp}`;
   }
 
@@ -799,6 +883,7 @@ const JustWatchEngine = (function () {
       logo_chaine: primaryPkg.logo,
       logos_chaine: allLogos,
       package_slugs: allPkgs,
+      date_ajout: base.date_ajout || incoming.date_ajout || undefined,
       expiration: mergedExpiration,
       poster: incoming.poster || base.poster,
       on_prime: onPrime,
@@ -880,12 +965,35 @@ const JustWatchEngine = (function () {
                 }
                 posterUrl
               }
+              ... on Show {
+                totalSeasonCount
+                seasons {
+                  id
+                  objectId
+                  content(country: $country, language: "fr") {
+                    seasonNumber
+                    originalReleaseYear
+                    scoring {
+                      imdbScore
+                      tmdbScore
+                      tomatoScore
+                    }
+                  }
+                  offers(country: $country, platform: WEB) {
+                    package {
+                      shortName
+                    }
+                    monetizationType
+                  }
+                }
+              }
               offers(country: $country, platform: WEB) {
                 package {
                   clearName
                   shortName
                 }
                 monetizationType
+                availableFrom
                 availableTo
                 availableToTime
               }
@@ -905,8 +1013,8 @@ const JustWatchEngine = (function () {
       reqHeaders['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)';
     }
 
-    const pageSize = isFullSync ? 100 : 50;
-    const maxPages = isFullSync ? 15 : 1;
+    const pageSize = isFullSync ? 40 : 25;
+    const maxPages = isFullSync ? 30 : 1;
 
     const freshQualified = [];
     let currentCursor = null;

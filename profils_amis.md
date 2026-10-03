@@ -56,7 +56,7 @@ Guide de curation et profils de goûts pour les recommandations de films et sér
 ---
 
 ## 👤 Profil Masculin : Action, Survie & Anticipation
-> **Exigence clé** : **Premier degré strict** (Intensité & Réalisme)
+> **Exigence clé** : **Premier degré strict • Rythme soutenu & Adrénaline** (Zéro lenteur)
 
 - **Références socles** :
   - *The Walking Dead* (survie post-apocalyptique — franchise et spin-offs déjà vus)
@@ -64,51 +64,88 @@ Guide de curation et profils de goûts pour les recommandations de films et sér
   - *Under the Dome* (mystère de communauté sous cloche)
   - *9-1-1* (adrénaline rythmée, urgence)
   - *30 jours max* de Tarek Boudali (référence comédie d'action policière rythmée et grand public)
-- **Rapport à l'humour, comédie & tons** :
+- **Rapport au rythme, à l'humour & aux tons** :
+  - **Règle Mathématique du % d'Action ($\ge 11\%$) sur Polars & Comédies** : Élimination 100% automatisée de tout polar ou comédie n'ayant pas un minimum de $11\%$ de composante Action ($\% \text{ Action} = \frac{\text{Score Action}}{\text{Total Points}} \times 100 < 11\% \implies \text{Rejet}$). Cela exclut automatiquement les polars d'époque contemplatifs, cosy crimes et enquêtes de salon (*Hercule Poirot*, *Mister Spade*, *Grace*, *Marion*, *Joan*) au profit d'enquêtes de terrain dynamiques (*Almost Paradise*, *Revival*, *Toronto: Section Criminelle*).
   - Apprécie la **comédie d'action / buddy movie policier** grand public (rythme, action, comique de situation accessible).
-  - *Twisted Metal* : réaction tiède (*« mouais bof »*) due à l'univers post-apo kitsch / jeu vidéo déjanté plutôt qu'à la vulgarité en soi.
-  - Éviter le kitsch grotesque, les space-operas nanardesques ou les univers trop décalés/absurdes.
-- **Séries déjà vues / Contraintes techniques** :
-  - Séries déjà vues : franchise *The Walking Dead*, *The Ark*, *Midnight, Texas*, *SurrealEstate*.
-  - *The Lazarus Project* : seule la saison 2 est présente au catalogue (bloquant sans la saison 1).
+  - Éviter le kitsch grotesque, les space-operas nanardesques ou les univers décalés (*Twisted Metal*).
+  - **Exclusion totale de l'animation** (films et séries).
+- **Gestion des Nouvelles Saisons & Déjà Vus** :
+  - Les séries déjà vues (*The Walking Dead*, *The Ark*, *Midnight, Texas*, *SurrealEstate*) restent pleinement analysées par l'algorithme de recommandation (sans blocage arbitraire) afin de valoriser immédiatement toute **nouvelle saison** ou **nouveauté** qui arriverait sur le catalogue.
 - **Type de SF / Fantastique recherché** :
-  - Science-fiction sérieuse et organique (anticipation génétique, clones, traque technologique).
-  - Fantastique rural pesant et paranoïaque.
+  - Science-fiction sérieuse, organique et musclée (anticipation génétique, clones, traque technologique).
+  - Fantastique rural pesant, paranoïaque et survie (*Revival*, *Sentinelles*).
   - **Pas de space opera kitsch**.
 
 ### Sélections Validées (Homme)
 | Titre | Genre / Style | Plateforme / Échéance | Affinité & Description |
 | :--- | :--- | :--- | :--- |
-| **The Copenhagen Test** | Techno-Thriller SF • Cybersurveillance | Universal+ (Échéance : 05/12) | **85-90%** — Cerveau piraté, traque paranoïaque d'analyste et conspiration à la *Jason Bourne*. 1er degré garanti. |
+| **The Copenhagen Test** | Techno-Thriller SF • Cybersurveillance | Universal+ (Échéance : 05/12) | **90%** — Cerveau piraté, traque paranoïaque d'analyste et conspiration à la *Jason Bourne*. 1er degré garanti. |
 | **Arcadia** | Dystopie & Contrôle Social • Monde sous Dôme | Universal+ (Échéance : 30/12) | **85%** — L'écho direct à *Under the Dome* : société fermée sous scoring citoyen impitoyable, survie et tension familiale 1er degré. |
-| **Orphan Black: Echoes** | Techno-Thriller SF • Traque Urbaine | Universal+ / Ciné+ OCS (Échéance : 30/11) | **80%** — Amnésie, clonage biologique secret et tueurs aux trousses. Action nerveuse, premier degré. |
-| **Almost Paradise** | Action Policière • Bagarre & Cartels | Universal+ / Ciné+ OCS (Échéance : 30/12) | **85-90%** — L'équivalent de *Reacher* : ancien flic d'élite de la DEA démantelant des réseaux au corps-à-corps sous les tropiques. |
+| **Orphan Black: Echoes** | Techno-Thriller SF • Traque Urbaine | Universal+ / Ciné+ OCS (Échéance : 30/11) | **85%** — Amnésie, clonage biologique secret et tueurs aux trousses. Action nerveuse, premier degré. |
+| **Almost Paradise** | Action Policière • Bagarre & Cartels | Universal+ / Ciné+ OCS (Échéance : 30/12) | **85%** — L'équivalent de *Reacher* : ancien flic d'élite de la DEA démantelant des réseaux au corps-à-corps sous les tropiques. |
 | **Revival** | Fantastique Sombre • Survie Rurale (Post-2024) | Universal+ / Ciné+ OCS (Pérenne) | **85%** — Ville rurale sous quarantaine où les morts reviennent vivants et conscients. Traité en polar sérieux. |
+| **Sentinelles-Ukraine** | Action Militaire • Tension & Survie | Ciné+ OCS (Pérenne) | **80%** — Immersion réaliste et intense au cœur d'un commando en zone d'opération. Rythme sans temps mort. |
 
 ---
 
-## 👩 Profil Féminin : Enquête, Déduction & Tandem
-> **Exigence clé** : **Cérébral & Rythme** (Matière Grise & Mystère)
+## 👩 Profil Féminin : Enquête, Déduction, Tandem & Drames / Émotion / Noël
+> **Exigence clé** : **Matière Grise, Duos Complices & Temps Morts • Drames Émouvants & Romances de Noël**
 
 - **Références socles** :
-  - *Hercule Poirot* (matière grise pure, énigmes en chambre close, analyse psychologique)
   - *Castle* (dynamique et complicité flic/civil, répartie vive)
   - *Bull* (joutes judiciaires, psychologie comportementale, tactique et matière grise)
-  - Curiosité mystère / paranormal feutré façon *Ghost Whisperer*.
+  - *Family Law* (cabinet d'avocats, réparties et drames humains)
+  - **Drames & Romances de Noël** (films réconfortants d'hiver style TF1, belles histoires d'amour sincères, drames familiaux touchants).
+- **Rapport au rythme & à l'action** :
+  - **Règle Mathématique du % d'Action ($\le 33\%$)** : Calcul précis du poids des points de la composante Action par rapport au total des genres de l'œuvre ($\% \text{ Action} = \frac{\text{Score Action}}{\text{Total Points}} \times 100 \le 33\%$). L'action pure ou dominante est ainsi mathématiquement exclue au profit d'une action modérée d'enquête ou de terrain.
+  - **Besoin fondamental de respirations et de "temps morts"** : Apprécie les scènes de dialogue calmes, les moments complices autour d'un café, les interrogatoires posés et les joutes verbales.
+  - **Rejet de l'action lourde ou frénétique non-stop** : Rejet des fusillades ininterrompues, des commandos militaires, des mercenaires et des batailles armées permanentes.
 - **Exclusions, Rejets & Déjà Vus** :
   - **Séries déjà vues** : *SurrealEstate*.
+  - **Exclusion totale de la catégorie Comédie** : Élimination formelle de toute comédie potache, parodie ou farce afin de garantir 0 vulgarité ou « comédie conne ».
   - Zéro rediffusions du dimanche soir France 3 (rejet de *Harry Wild*, *Professeur T*, *Whitstable Pearl / Pearl Nolan*, *Le Sang de la vigne*).
   - Éviter le remake direct d'*Astrid et Raphaëlle* (*Patience*).
-- **Type d'enquête recherché** :
-  - Meurtres complexes, observation minutieuse des indices, élégance britannique et duos d'enquêteurs charismatiques.
+  - **Exclusion totale de l'animation** (films et séries) et des slashers/gore/guerre sanglante.
+- **Types de récits recherchés** :
+  - D'un côté : Enquêtes judiciaires posées, déduction, duos charismatiques et psychologie (`thriller_policier`).
+  - De l'autre : Drames poignants, romances de fin d'année, feel-good chaleureux, histoires de famille et émotion sincère (`drame_emotion`).
 
 ### Sélections Validées (Femme)
 | Titre | Genre / Style | Plateforme / Statut | Description |
 | :--- | :--- | :--- | :--- |
-| **Family Law** | Affaires Judiciaires & Psychologie • Esprit Bull | Universal+ (Échéance : 14/12) | **85-90%** — L'équivalent de *Bull* : cabinet d'avocats familial haut en couleur, stratégies psychologiques, éloquence et réparties vives. |
-| **Wild Cards** | Enquête & Complicité • Esprit Castle | 13ème Rue (Inédit 2024) | Duo d'enquête moderne entre un détective méthodique et une arnaqueuse rusée. Enquêtes rythmées, répartie vive, zéro diffusion antérieure. |
-| **Grace** | Polar Anglais Meticuleux • Esprit Poirot | 13ème Rue (Exclusivité payante) | Adaptation des romans de Peter James. Enquêtes cérébrales et psychologiques à Brighton. Touche d'intuition atypique évitant le doublon *Astrid*. |
-| **Toronto: Section Criminelle** | Profiling & Interrogatoires Cérébraux | 13ème Rue / Universal+ (Inédit 2024) | Enquêtes policières basées sur la psychologie des suspects et l'observation minutieuse des failles. |
+| **Family Law** | Affaires Judiciaires & Psychologie • Esprit Bull | Universal+ (Échéance : 14/12) | **90%** — L'équivalent de *Bull* : cabinet d'avocats familial haut en couleur, stratégies psychologiques, éloquence et réparties vives. |
+| **Wild Cards** | Enquête & Complicité • Esprit Castle | 13ème Rue (Inédit 2024) | **85%** — Duo d'enquête moderne entre un détective méthodique et une arnaqueuse rusée. Enquêtes rythmées, répartie vive, zéro diffusion antérieure. |
+| **Grace** | Polar Anglais Meticuleux • Esprit Poirot | 13ème Rue (Exclusivité payante) | **85%** — Adaptation des romans de Peter James. Enquêtes cérébrales et psychologiques à Brighton. Touche d'intuition atypique. |
+| **Toronto: Section Criminelle** | Profiling & Interrogatoires Cérébraux | 13ème Rue / Universal+ (Inédit 2024) | **85%** — Enquêtes policières basées sur la psychologie des suspects et l'observation minutieuse des failles. |
+
+---
+
+## 👫 Profil Combiné (Duo Ami & Amie) : Intersection Mathématique & Consensus
+> **Exigence clé** : **Équilibre d'Action ($11\% \le \% \text{ Action} \le 33\%$) • Polars Rythmés & Suspense de Terrain • Techno-Thrillers Partagés**
+
+- **Principe Fondateur de l'Intersection** :
+  - Trouve mathématiquement le compromis idéal entre la recherche d'adrénaline de l'Ami ($\ge 11\%$ d'action) et le besoin de respiration/psychologie de l'Amie ($\le 33\%$ d'action).
+  - Élimine automatiquement les œuvres trop lentes/contemplatives ($< 11\%$ d'action) ET les œuvres trop frénétiques/militarisées ($> 33\%$ d'action).
+- **Catégories Communes Autorisées** :
+  - `thriller_policier` : Enquêtes de terrain dynamiques, interrogatoires et profiling avec tension active.
+  - `scifi_fantastique` : Techno-thrillers d'anticipation, mystères de communauté rurale sans grotesque.
+- **Exclusions Partagées Strictes** :
+  - 🚫 Zéro Animation (films & séries).
+  - 🚫 Zéro Comédie potache / comédie d'action (exclusion de la catégorie `comedie`).
+  - 🚫 Zéro Slasher / Horreur gore (`horreur_epouvante` exclue).
+  - 🚫 Zéro TNT / Zéro Prime Video.
+- **Formule de Score d'Affinité Duo** :
+  $$\text{Score Duo} = \frac{\text{Score Ami} + \text{Score Amie}}{2} \quad \text{avec condition : } \text{Score Ami} \ge 50\% \text{ et } \text{Score Amie} \ge 50\%$$
+
+### Sélections Validées (Duo Amis)
+| Titre | Genre / Style | Plateforme / Statut | Affinité & Description |
+| :--- | :--- | :--- | :--- |
+| **Toronto: Section Criminelle** | Enquête Psychologique & Tension | Universal+ / 13ème Rue (Inédit 2024) | **83%** — Profiling serré, énigmes criminelles avec dynamisme de terrain. Dialogue ciselé et rythme captivant. |
+| **Revival** | Surnaturel Rural & Polar Sérieux | Universal+ / Ciné+ OCS (Pérenne) | **83%** — Mystère pesant de quarantaine où les morts reviennent. Traitement 1er degré sans excès gore. |
+| **Novocaïne** | Thriller Médical & Machination | Action Max / Ciné+ OCS | **80%** — Piège machiavélique et suspense haletant avec Kevin Bacon. Équilibre parfait tension / cerveau. |
+| **Hypnotic** | Thriller Cérébral & Action | Ciné+ OCS | **73%** — Machination mentale et faux-semblants par Robert Rodriguez avec Ben Affleck. |
+| **Sang Froid** | Polar Nordique & Tension | Action Max | **60%** — Traque méthodique et implacable dans les neiges avec Liam Neeson. |
+| **Noir comme neige** | Polar de Montagne & Enquête | Universal+ / 13ème Rue | **60%** — Enquête criminelle en haute altitude, tension et paysage rude. |
 
 ---
 
