@@ -713,10 +713,15 @@ Intégration de 3 boutons de profils sur la barre PC, séparés par un diviseur 
   - Lorsque le bouton `🚫 Exclure sans S1` est activé, ces 13 séries sont immédiatement et proprement exclues de l'affichage.
   - Lorsqu'il est inactif, le badge d'avertissement `⚠️ Débute SX` apparaît sur chaque carte concernée.
 
-### D. Versions & Traçabilité
-* **Service Worker PWA** : Cache mis à jour à `cinescope-v8.32-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
-* **Balises Assets HTML** : Query params incrémentés à `?v=8.32` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
+### D. Rendu Visuel Vectoriel & Centrage Parfait du Badge de Saison
+- **Intégration d'un SVG Vectoriel Dédié** : Remplacement de l'emoji standard par une icône vectorielle SVG (`season-badge-icon`) de triangle d'avertissement net, proportionné et homogène.
+- **Flexbox & Alignement Millimétré** : Application de `display: inline-flex; align-items: center; justify-content: center; gap: 0.35rem; line-height: 1;` sur `.card-season-badge` pour éliminer tout décalage vertical et garantir un centrage optique parfait sur tous les supports (PC, Mac, mobile).
+
+### E. Versions & Traçabilité
+* **Service Worker PWA** : Cache mis à jour à `cinescope-v8.33-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
+* **Balises Assets HTML** : Query params incrémentés à `?v=8.33` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
 * **LocalStorage** : Clés alignées sur `_v21`.
 * **Conformité & Intégrité** : 888 œuvres qualifiées (768 films, 120 séries), 100% conformes à la Règle Fondamentale (1 catégorie unique par œuvre).
+
 
 

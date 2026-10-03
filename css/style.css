@@ -1936,17 +1936,34 @@ body.modal-open {
   bottom: 8px;
   left: 8px;
   z-index: 4;
-  padding: 0.2rem 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 0.22rem 0.5rem;
   border-radius: var(--radius-sm);
   font-size: 0.68rem;
   font-weight: 700;
-  background: rgba(30, 41, 59, 0.88);
-  border: 1px solid rgba(251, 191, 36, 0.4);
+  line-height: 1;
+  background: rgba(15, 23, 42, 0.92);
+  border: 1px solid rgba(251, 191, 36, 0.45);
   color: #fbbf24;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
   pointer-events: none;
+}
+
+.card-season-badge .season-badge-icon {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  display: block;
+}
+
+.card-season-badge span {
+  display: inline-block;
+  line-height: 1;
 }
 
 /* Boutons de Profils Recommandés (PC uniquement) */
