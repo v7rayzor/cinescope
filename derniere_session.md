@@ -642,7 +642,27 @@ Intégration de 3 boutons de profils sur la barre PC, séparés par un diviseur 
 * **Service Worker PWA** : Cache mis à jour à `cinescope-v8.30-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
 * **Balises Assets HTML** : Query params incrémentés à `?v=8.30` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
 * **LocalStorage** : Clés alignées sur `_v20`.
-* **Conformité & Intégrité** : 791 œuvres qualifiées (671 films, 120 séries), 100% conformes à la Règle Fondamentale (1 catégorie unique par œuvre).
+* **Conformité & Intégrité** : 882 œuvres qualifiées (762 films, 120 séries), 100% conformes à la Règle Fondamentale (1 catégorie unique par œuvre).
 
+---
 
+## 21. Sanctuaire & Garantie Absolue du Tri par Urgence d'Expiration Catalogue (v8.31)
 
+### A. Règle Cardinale de Priorité Absolue
+1. **Toutes les œuvres avec date d'expiration passent TOUJOURS en tête** :
+   - Quel que soit le mode actif (Navigation normale, filtre par Catégorie, ou Profils de recommandation `🧙‍♂️ Pour Moi`, `👤 Ami`, `👩 Amie`, `👫 Duo Amis`), **l'urgence de fin de droits prévaut sur toute autre considération**.
+   - **Tri croissant strict de `daysLeft`** : Les titres expirant dans 0 jour, 1 jour, 2 jours, 3 jours... sont impérativement placés en tête absolue de la grille.
+2. **Gestion des Égalités & Profils** :
+   - Si plusieurs œuvres expirent le même jour (ou ont le même `daysLeft`) : départage par score d'affinité profil décroissant (si un profil est actif), puis par tirage aléatoire stable quotidien.
+3. **Œuvres Sans Date d'Expiration (Pérennes)** :
+   - Viennent immédiatement après l'ensemble des titres expirants.
+   - Ordonnées par score d'affinité profil décroissant (si profil actif), puis tirage aléatoire quotidien.
+
+### B. Précision Multi-Bouquets (`getItemDaysLeft` & `getItemExpirationInfo`)
+- **Adaptation au bouquet sélectionné** : Lorsqu'un bouquet spécifique est filtré (ex: *Universal+*), la date d'expiration prise en compte pour le tri et les badges est précisément celle de ce bouquet (`item.expiration.packageExpirations[bouquet]`), et non la date globale maximale inter-bouquets.
+- **Harmonisation Cartes & Modale** : Les badges sur les cartes et les mentions de disponibilité dans la modale s'alignent automatiquement sur la date précise du bouquet actif.
+
+### C. Versions & Traçabilité
+* **Service Worker PWA** : Cache mis à jour à `cinescope-v8.31-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
+* **Balises Assets HTML** : Query params incrémentés à `?v=8.31` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
+* **Validation & Conformité** : 882 œuvres (762 films, 120 séries), 0 titre expiré restant, 100% conformes.

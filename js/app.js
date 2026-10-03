@@ -435,46 +435,95 @@ function getDailyScore(item) {
   return score;
 }
 
-// Tri intelligent CinéScope :
-// 1. Si un profil est actif : priorité au score d'affinité décroissant
-// 2. Priorité aux films avec date d'expiration (le plus proche de quitter le catalogue en premier)
-// 3. Films sans date d'expiration ordonnés par tirage aléatoire quotidien stable.
-function sortCatalogItems(items) {
-  if (AppState.activeProfile && AppState.activeProfile !== 'none') {
-    return [...items].sort((a, b) => {
-      const scoreDiff = computeProfileAffinity(b, AppState.activeProfile) - computeProfileAffinity(a, AppState.activeProfile);
-      if (scoreDiff !== 0) return scoreDiff;
-
-      const aExp = (a.expiration && a.expiration.daysLeft !== null && a.expiration.daysLeft >= 0) ? a.expiration.daysLeft : 9999;
-      const bExp = (b.expiration && b.expiration.daysLeft !== null && b.expiration.daysLeft >= 0) ? b.expiration.daysLeft : 9999;
-      if (aExp !== bExp) return aExp - bExp;
-
-      return getDailyScore(a) - getDailyScore(b);
-    });
+// Helper pour récupérer le nombre de jours restants (adapté au bouquet filtré si applicable)
+function getItemDaysLeft(item) {
+  if (!item || !item.expiration) return null;
+  
+  if (AppState.activeBouquet && AppState.activeBouquet !== 'all') {
+    const pkgExps = item.expiration.packageExpirations;
+    if (pkgExps && pkgExps[AppState.activeBouquet]) {
+      const d = new Date(pkgExps[AppState.activeBouquet]);
+      if (!isNaN(d.getTime())) {
+        const now = new Date();
+        return Math.ceil((d.getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
+      }
+    }
   }
 
+  return (item.expiration.daysLeft !== null && item.expiration.daysLeft !== undefined)
+    ? item.expiration.daysLeft
+    : null;
+}
+
+// Helper pour récupérer les infos d'expiration (statut, label, etc.) adaptées au bouquet sélectionné
+function getItemExpirationInfo(item) {
+  if (!item || !item.expiration) return { status: 'none', label: null, daysLeft: null };
+  
+  if (AppState.activeBouquet && AppState.activeBouquet !== 'all') {
+    const pkgExps = item.expiration.packageExpirations;
+    if (pkgExps && pkgExps[AppState.activeBouquet]) {
+      const d = new Date(pkgExps[AppState.activeBouquet]);
+      if (!isNaN(d.getTime())) {
+        const now = new Date();
+        const daysLeft = Math.ceil((d.getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
+        if (daysLeft < 0) return { status: 'expired', label: 'Expiré', daysLeft };
+        if (daysLeft === 0) return { status: 'urgent', label: "⏳ Expire aujourd'hui", daysLeft: 0 };
+        if (daysLeft === 1) return { status: 'urgent', label: '⏳ Expire demain', daysLeft: 1 };
+        if (daysLeft <= 3) return { status: 'urgent', label: `⏳ Expire dans ${daysLeft} j`, daysLeft };
+        if (daysLeft <= 14) return { status: 'warning', label: `⏳ Expire dans ${daysLeft} j`, daysLeft };
+        const day = d.getDate().toString().padStart(2, '0');
+        const month = (d.getMonth() + 1).toString().padStart(2, '0');
+        return { status: 'info', label: `📅 Jusqu'au ${day}/${month}`, daysLeft };
+      }
+    }
+  }
+
+  return item.expiration;
+}
+
+// TRI GLOBAL DU CATALOGUE :
+// RÈGLE CARDINALE : Les œuvres avec date d'expiration (urgences de départ) passent TOUJOURS en priorité absolue !
+// 1. Œuvres avec date d'expiration : triées par ordre croissant de jours restants (0j > 1j > 2j > 5j > 15j...)
+//    En cas d'égalité sur daysLeft : score de profil (si profil actif) puis tirage aléatoire quotidien.
+// 2. Œuvres sans date d'expiration (ou pérennes) :
+//    Triées par score d'affinité profil décroissant (si profil actif) puis tirage aléatoire quotidien.
+function sortCatalogItems(items) {
   const withExpiry = [];
   const withoutExpiry = [];
 
   for (const it of items) {
-    if (it.expiration && it.expiration.daysLeft !== null && it.expiration.daysLeft >= 0) {
-      withExpiry.push(it);
+    const dLeft = getItemDaysLeft(it);
+    if (dLeft !== null && dLeft >= 0) {
+      withExpiry.push({ item: it, daysLeft: dLeft });
     } else {
       withoutExpiry.push(it);
     }
   }
 
-  // 1. Tri par ordre croissant de jours restants (ex: 0j > 1j > 2j > 5j > 15j)
+  // 1. Tri des urgences d'expiration (croissant : les plus proches de quitter le catalogue en premier)
   withExpiry.sort((a, b) => {
-    const diff = a.expiration.daysLeft - b.expiration.daysLeft;
+    const diff = a.daysLeft - b.daysLeft;
     if (diff !== 0) return diff;
+
+    if (AppState.activeProfile && AppState.activeProfile !== 'none') {
+      const scoreDiff = computeProfileAffinity(b.item, AppState.activeProfile) - computeProfileAffinity(a.item, AppState.activeProfile);
+      if (scoreDiff !== 0) return scoreDiff;
+    }
+
+    return getDailyScore(a.item) - getDailyScore(b.item);
+  });
+
+  // 2. Tri des œuvres sans date d'expiration
+  withoutExpiry.sort((a, b) => {
+    if (AppState.activeProfile && AppState.activeProfile !== 'none') {
+      const scoreDiff = computeProfileAffinity(b, AppState.activeProfile) - computeProfileAffinity(a, AppState.activeProfile);
+      if (scoreDiff !== 0) return scoreDiff;
+    }
+
     return getDailyScore(a) - getDailyScore(b);
   });
 
-  // 2. Tri aléatoire quotidien pour les films sans date
-  withoutExpiry.sort((a, b) => getDailyScore(a) - getDailyScore(b));
-
-  return [...withExpiry, ...withoutExpiry];
+  return [...withExpiry.map(x => x.item), ...withoutExpiry];
 }
 
 // Préchargement proactif des affiches HD et logos
@@ -1217,11 +1266,12 @@ function renderCatalog() {
 
     // Badge de Nouveauté (7 jours) ou Compte à rebours d'expiration
     // RÈGLE VISUELLE : Si l'œuvre est arrivée dans le catalogue depuis <= 7 jours, le badge "🆕 Nouveauté" prime sur l'affiche
+    const expInfo = getItemExpirationInfo(item);
     let expiryHtml = '';
     if (isItemNew(item)) {
       expiryHtml = `<div class="card-expiry-badge badge-new" title="Nouveauté ajoutée au catalogue il y a moins de 7 jours">🆕 Nouveauté</div>`;
-    } else if (item.expiration && item.expiration.label && item.expiration.status !== 'none' && item.expiration.status !== 'available') {
-      expiryHtml = `<div class="card-expiry-badge expiry-${item.expiration.status}">${item.expiration.label}</div>`;
+    } else if (expInfo && expInfo.label && expInfo.status !== 'none' && expInfo.status !== 'available') {
+      expiryHtml = `<div class="card-expiry-badge expiry-${expInfo.status}">${expInfo.label}</div>`;
     }
 
     // Badge de Saison disponible (si la série n'a pas la S1 complète)
@@ -1392,11 +1442,12 @@ function openModal(item) {
   }
 
   // Disponibilité / Expiration
+  const expInfo = getItemExpirationInfo(item);
   if (expiryRow && expiry) {
-    if (item.expiration && item.expiration.label && item.expiration.status !== 'none' && item.expiration.status !== 'available') {
+    if (expInfo && expInfo.label && expInfo.status !== 'none' && expInfo.status !== 'available') {
       expiryRow.style.display = 'flex';
-      expiry.textContent = item.expiration.label;
-      expiry.className = `info-value modal-expiry-val expiry-${item.expiration.status}`;
+      expiry.textContent = expInfo.label;
+      expiry.className = `info-value modal-expiry-val expiry-${expInfo.status}`;
     } else {
       expiryRow.style.display = 'none';
     }
