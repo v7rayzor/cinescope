@@ -677,3 +677,46 @@ Intégration de 3 boutons de profils sur la barre PC, séparés par un diviseur 
 * **Balises Assets HTML** : Query params incrémentés à `?v=8.31` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
 * **Validation & Conformité** : 882 œuvres (762 films, 120 séries), 0 titre expiré restant, 100% conformes à la Règle Fondamentale (1 catégorie unique par œuvre).
 
+---
+
+## 22. Résolution du Détecteur Saison 1 & Correction du Schéma GraphQL JustWatch (v8.32)
+
+### A. Diagnostic & Cause Racine
+1. **Erreur de validation GraphQL JustWatch (`availableFrom` $\rightarrow$ `availableFromTime`)** :
+   - Dans le script de synchronisation [`scripts/sync_justwatch.cjs`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_justwatch.cjs) et dans [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js), le champ demandé pour la date d'arrivée était `availableFrom`.
+   - L'API GraphQL JustWatch attendait en réalité `availableFromTime` et retournait une erreur de validation `GRAPHQL_VALIDATION_FAILED`, ce qui bloquait les flux réseau.
+2. **Impact sur le catalogue** :
+   - En l'absence de mise à jour des flux, les métadonnées `saisons_disponibles` étaient absentes dans `js/catalog.js`.
+   - La fonction `hasSeasonOne()` retournait `true` par défaut, masquant les avertissements `⚠️ Débute SX` et laissant passer les séries sans saison 1 à travers le filtre d'exclusion.
+
+### B. Correctifs Appliqués
+1. **Requêtes GraphQL** : Remplacement de `availableFrom` par `availableFromTime` dans [`scripts/sync_justwatch.cjs`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_justwatch.cjs) et [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js).
+2. **Sécurisation de la fusion multi-bouquets** : Préservation explicite de `saisons_disponibles` dans `mergeTwoItems()`.
+3. **Synchronisation Complète** : Re-synchronisation totale du catalogue JustWatch : 888 œuvres qualifiées (768 films, 120 séries).
+
+### C. Vérification & Validation Opérationnelle
+- **13 séries sans Saison 1 détectées et signalées avec précision** :
+  - *Almost Paradise* : `saisons_disponibles: [ { saison: 2, annee: 2023, note: 7.5 } ]` $\rightarrow$ **`⚠️ Débute S2`** (Universal+).
+  - *The Lazarus Project* $\rightarrow$ **`⚠️ Débute S2`**
+  - *Reginald the Vampire* $\rightarrow$ **`⚠️ Débute S2`**
+  - *Funny Woman* $\rightarrow$ **`⚠️ Débute S2`**
+  - *Jeune et golri* $\rightarrow$ **`⚠️ Débute S2`**
+  - *Toutouyoutou* $\rightarrow$ **`⚠️ Débute S2`**
+  - *Family Law* $\rightarrow$ **`⚠️ Débute S3`**
+  - *Whitstable Pearl* $\rightarrow$ **`⚠️ Débute S3`**
+  - *New York, crime organisé* $\rightarrow$ **`⚠️ Débute S4`**
+  - *My Life Is Murder* $\rightarrow$ **`⚠️ Débute S4`**
+  - *George le petit curieux* $\rightarrow$ **`⚠️ Débute S5`**
+  - *Candice Renoir* $\rightarrow$ **`⚠️ Débute S6`**
+  - *Chicago Fire* $\rightarrow$ **`⚠️ Débute S14`**
+- **Comportement du Filtre S1 (`#pkgExcludeNoS1`)** :
+  - Lorsque le bouton `🚫 Exclure sans S1` est activé, ces 13 séries sont immédiatement et proprement exclues de l'affichage.
+  - Lorsqu'il est inactif, le badge d'avertissement `⚠️ Débute SX` apparaît sur chaque carte concernée.
+
+### D. Versions & Traçabilité
+* **Service Worker PWA** : Cache mis à jour à `cinescope-v8.32-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
+* **Balises Assets HTML** : Query params incrémentés à `?v=8.32` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
+* **LocalStorage** : Clés alignées sur `_v21`.
+* **Conformité & Intégrité** : 888 œuvres qualifiées (768 films, 120 séries), 100% conformes à la Règle Fondamentale (1 catégorie unique par œuvre).
+
+

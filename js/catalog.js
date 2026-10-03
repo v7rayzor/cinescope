@@ -8,8 +8,8 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 9, N° 3",
     "annee": 2024,
     "note_avis": 6.6,
-    "note_recence": 9.5,
-    "note_globale": 8.1,
+    "note_recence": 9.4,
+    "note_globale": 8,
     "categories": [
       "thriller_policier"
     ],
@@ -45,7 +45,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Belgique,1995. La disparition inquiétante de deux jeunes filles bouleverse la population et déclenche une frénésie médiatique sans précédent. Paul Chartier, jeune gendarme idéaliste, rejoint l'opération secrète « Maldoror » dédiée à la surveillance d'un suspect récidiviste. Confronté aux dysfonctionnements du système policier, il se lance seul dans une chasse à l’homme qui le fera sombrer dans l’obsession.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-01-15"
   },
   {
     "id": "jw-tm1587742",
@@ -56,8 +58,8 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 14, N° 3",
     "annee": 2025,
     "note_avis": 6.1,
-    "note_recence": 9.8,
-    "note_globale": 8,
+    "note_recence": 9.7,
+    "note_globale": 7.9,
     "categories": [
       "scifi_fantastique"
     ],
@@ -85,7 +87,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 87,
-    "etoiles": 5,
+    "etoiles": 4,
     "raw_genres": [
       "act",
       "trl",
@@ -93,7 +95,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Suite à la disparition soudaine de sa voisine de chambre, un ancien agent secret, reclus dans un palace de la Côte d’Azur, s’imagine que ses ennemis jurés refont surface. Surtout la redoutable Serpentik, qu’il n’a jamais réussi à démasquer. Oscillant entre présent et passé, il remonte le film de sa vie, au risque de découvrir qu’il n’y tenait pas forcément le meilleur rôle. Et que les diamants sont loin d’être éternels…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-06-25"
   },
   {
     "id": "jw-tm1573608",
@@ -104,8 +108,8 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 16, N° 4",
     "annee": 2025,
     "note_avis": 6.5,
-    "note_recence": 9.8,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "categories": [
       "drame_emotion"
     ],
@@ -140,7 +144,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Après plusieurs années aux Etats-Unis, Ali retourne s'installer en Turquie avec sa femme. Dans sa ville natale, il retrouve sa famille qui vit un enfer sous le joug terrible de son père. Aussi, lorsque sa mère décède dans des circonstances suspectes, Ali soupçonne-t-il rapidement son père. Aidé par un mystérieux rôdeur qu'il engage comme jardinier, le jeune homme mène une quête vengeresse qui va le confronter au pire des secrets…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-04-25"
   },
   {
     "id": "jw-tm1114145",
@@ -151,8 +157,8 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 11, N° 3",
     "annee": 2022,
     "note_avis": 6.8,
-    "note_recence": 9.1,
-    "note_globale": 8,
+    "note_recence": 8.8,
+    "note_globale": 7.8,
     "categories": [
       "drame_emotion"
     ],
@@ -180,14 +186,16 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 121,
-    "etoiles": 5,
+    "etoiles": 4,
     "raw_genres": [
       "drm",
       "trl"
     ],
     "synopsis": "France, professeure de sport le jour, ouvrière la nuit, milite activement contre l’usage des pesticides. Patrick, obscur et solitaire avocat parisien, est spécialiste en droit environnemental. Mathias, lobbyiste brillant et homme pressé, défend les intérêts d’un géant de l’agrochimie. Suite à l’acte radical d’une anonyme, ces trois destins, qui n’auraient jamais dû se croiser, vont se bousculer, s’entrechoquer et s’embraser.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2022-03-09"
   },
   {
     "id": "jw-tm1532820",
@@ -198,7 +206,7 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 14, N° 1",
     "annee": 2024,
     "note_avis": 6.3,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7.9,
     "categories": [
       "horreur_epouvante"
@@ -234,7 +242,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Un adolescent s'arrête chez son dealer pour tester une nouvelle drogue avant de partir faire la fête. Sur le chemin du retour, il récupère une femme blessée et la soirée prend une tournure surréaliste.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-11-10"
   },
   {
     "id": "jw-tm1535068",
@@ -248,7 +258,7 @@ const CATALOG_DATA = [
     "position": "Films • Ciné+ Frisson & OCS",
     "annee": 2025,
     "note_avis": 4.4,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.1,
     "categories": [
       "thriller_policier"
@@ -281,7 +291,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Les crimes contre la nature les scandalisent, les injustices faites aux femmes les révoltent : les Green Panthères, des Robins des bois d’aujourd'hui, se lancent dans le cambriolage engagé contre les pollueurs et les harceleurs.  Mais pour ouvrir le coffre de leur rêve, il leur faudra s’associer à Bernard, un cambrioleur vieillissant pas très à jour sur l’éco-féminisme...",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-02-12"
   },
   {
     "id": "jw-tm1629241",
@@ -292,7 +304,7 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 13, N° 1",
     "annee": 2025,
     "note_avis": 5.4,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.6,
     "categories": [
       "horreur_epouvante"
@@ -328,7 +340,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "La jeune Nawojka, qui vit avec son père et ses frères dans la ferme familiale, cache un terrible secret : un pouvoir monstrueux, qu'elle pense hérité de sa défunte mère, s'éveille chaque fois qu'elle éprouve du désir. Lorsque Sandra, une femme libre et sulfureuse originaire du coin, revient au village, Nawojka est fascinée et ses pouvoirs se manifestent sans qu’elle ne puisse plus rien contrôler.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2026-02-24"
   },
   {
     "id": "jw-tm1575795",
@@ -339,7 +353,7 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 15, N° 3",
     "annee": 2025,
     "note_avis": 5.4,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.6,
     "categories": [
       "drame_emotion"
@@ -375,7 +389,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "À tout juste 18 ans, Brahim, jeune footballeur prometteur, est représenté par son agent et cousin Mehdi. Il s’apprête à réaliser son rêve : signer son premier contrat professionnel à Lyon. Mais l'arrivée d'un puissant agent étranger rebat les cartes. Dans cet univers où tous les coups sont permis, même la loyauté a un prix.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-05-07"
   },
   {
     "id": "jw-tm1507724",
@@ -386,8 +402,8 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 15, N° 5",
     "annee": 2024,
     "note_avis": 6.4,
-    "note_recence": 9.5,
-    "note_globale": 8,
+    "note_recence": 9.4,
+    "note_globale": 7.9,
     "categories": [
       "thriller_policier"
     ],
@@ -415,7 +431,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 124,
-    "etoiles": 5,
+    "etoiles": 4,
     "raw_genres": [
       "act",
       "crm",
@@ -425,7 +441,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Ryosuke plaque tout pour vivre de la revente en ligne. Mais bientôt, certains clients menaçants resserrent l’étau autour de lui sans qu’il en comprenne les raisons. Son rêve d’indépendance vole en éclats. Dans un Japon hyperconnecté, fuir est impossible. Surtout quand on ignore les règles du jeu.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-06-04"
   },
   {
     "id": "jw-tm1570415",
@@ -436,7 +454,7 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 10, N° 1",
     "annee": 2024,
     "note_avis": 5.7,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7.6,
     "categories": [
       "comedie"
@@ -473,7 +491,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Trois femmes dans un appartement à Marseille en pleine canicule. En face, leur mystérieux voisin, objet de tous les fantasmes. Elles se retrouvent coincées dans une affaire terrifiante et délirante, avec comme seule quête, leur liberté.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-12-11"
   },
   {
     "id": "jw-tm1489402",
@@ -484,7 +504,7 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 16, N° 3",
     "annee": 2025,
     "note_avis": 7,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.4,
     "categories": [
       "horreur_epouvante"
@@ -521,7 +541,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Elvira en a assez de vivre dans l'ombre de sa belle demi-sœur Agnès. Elle est prête à tout pour attirer l'attention du prince Julian, le célibataire le plus convoité du royaume. Au prix de sang, de sueur et de larmes, Elvira ne recule devant rien pour conquérir le cœur du prince.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-10-10"
   },
   {
     "id": "jw-tm1528556",
@@ -532,7 +554,7 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 14, N° 2",
     "annee": 2025,
     "note_avis": 5.6,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.7,
     "categories": [
       "drame_emotion"
@@ -567,7 +589,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Katia Reiter dirige l’Observatoire Volcanologique de Guadeloupe depuis une dizaine d'années. Elle forme un duo de choc avec Aimé, jeune Guadeloupéen auquel elle transmet sa passion du métier. Alors qu’elle se prépare pour une nouvelle mission à l’autre bout du monde, la menace d’une éruption majeure de la Soufrière se profile. L’ile est aux abois et Katia va devoir assurer la sécurité de la population...",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2008-07-02"
   },
   {
     "id": "jw-tm1596615",
@@ -578,7 +602,7 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 16, N° 6",
     "annee": 2025,
     "note_avis": 5,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.4,
     "categories": [
       "scifi_fantastique"
@@ -615,7 +639,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Dans un futur proche… Sur une île coupée du monde, Gaëlle, 30 ans, prend soin d’un petit groupe de personnes âgées. L’arrivée d’un voilier fait revenir joie et vie sur l’île. Pourtant Gaëlle doute des intentions des voyageurs car les anciens se mettent à mourir un par un.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-03-19"
   },
   {
     "id": "jw-tm1458340",
@@ -626,8 +652,8 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 1, N° 1",
     "annee": 2024,
     "note_avis": 5.6,
-    "note_recence": 9.5,
-    "note_globale": 7.6,
+    "note_recence": 9.4,
+    "note_globale": 7.5,
     "categories": [
       "thriller_policier"
     ],
@@ -663,7 +689,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Rochebrune est au bord du chaos. Johnny, leader du mouvement de protestation de la ville, a disparu après avoir braqué un fourgon. Lorsque Paul Ligre apprend la nouvelle, il revient dans la ville qui l’a vu grandir pour retrouver son ami d’enfance avant la police. Seulement, l’enquête d’Anna Werner la mène inéluctablement vers le secret qui unit Paul et Johnny…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-05-08"
   },
   {
     "id": "jw-tm1617353",
@@ -674,7 +702,7 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 8, N° 1",
     "annee": 2025,
     "note_avis": 5.6,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.7,
     "categories": [
       "action_aventure"
@@ -710,7 +738,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Sarah, Jessica et Chanel, trois amies inséparables issues de la banlieue parisienne, sont venues faire les mules dans une île des Caraïbes pour ramener de la drogue en France et enfin ouvrir leur business de bar à ongles. Mais le voyage est bouleversé lorsque, après s'être fait arrêtée à l'aéroport, Jessica disparaît totalement des radars.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-05-07"
   },
   {
     "id": "jw-tm1561485",
@@ -721,7 +751,7 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 10, N° 5",
     "annee": 2025,
     "note_avis": 5,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.4,
     "categories": [
       "horreur_epouvante"
@@ -759,7 +789,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Lorsque sa mère meurt brutalement, Alice, qui avait rompu tous les ponts depuis des années, se voit contrainte de rentrer chez elle pour régler les démarches funéraires. Elle renoue, malgré elle, avec une jeunesse traumatique quand elle revient dans cette maison où rien, pas même sa chambre d’adolescente, ne semble avoir changé... si ce n’est cet étrange système de vidéosurveillance très sophistiqué, ou cette ombre qui rôde alentour. Le passé ne s’enfouit pas si facilement, surtout quand il est aussi monstrueux.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-07-09"
   },
   {
     "id": "jw-tm314783",
@@ -770,8 +802,8 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 6, N° 5",
     "annee": 2017,
     "note_avis": 6.5,
-    "note_recence": 7.9,
-    "note_globale": 7.2,
+    "note_recence": 7.3,
+    "note_globale": 6.9,
     "categories": [
       "drame_emotion"
     ],
@@ -799,7 +831,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 95,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "drm",
       "trl",
@@ -807,7 +839,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Émilie Tesson-Hansen est une jeune et brillante responsable des Ressources Humaines, une « killeuse ». Suite à un drame dans son entreprise, une enquête est ouverte. Elle se retrouve en première ligne. Elle doit faire face à la pression de l’inspectrice du travail, mais aussi à sa hiérarchie qui menace de se retourner contre elle. Émilie est bien décidée à sauver sa peau. Jusqu’où restera-t-elle corporate ?",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2017-04-05"
   },
   {
     "id": "jw-tm1434514",
@@ -818,7 +852,7 @@ const CATALOG_DATA = [
     "position": "Téléfilms — N° 1",
     "annee": 2024,
     "note_avis": 4.7,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7.1,
     "categories": [
       "horreur_epouvante"
@@ -854,7 +888,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Cinq amis se retrouvent pour profiter d'un week-end de fête sur une magnifique île des Caraïbes. Lors d'une excursion de plongée sous-marine au milieu d'une épave de bateau de la Seconde Guerre mondiale, ce qu'ils découvrent dépasse leurs pires craintes : des grands requins blancs rôdent. Le groupe se retrouve pris au piège avec peu de réserve en oxygène. Ils vont devoir affronter ces prédateurs jusqu'à leur dernier souffle.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-11-01"
   },
   {
     "id": "jw-tm170839",
@@ -865,8 +901,8 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 4, N° 6",
     "annee": 2011,
     "note_avis": 7.5,
-    "note_recence": 6.5,
-    "note_globale": 7,
+    "note_recence": 5.5,
+    "note_globale": 6.5,
     "categories": [
       "scifi_fantastique"
     ],
@@ -894,7 +930,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 93,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "act",
       "drm",
@@ -904,7 +940,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Colter Stevens se réveille en sursaut dans un train à destination de Chicago. Amnésique, il n’a aucun souvenir d’être monté dedans. Pire encore, les passagers du train se comportent avec lui avec familiarité alors qu’il ne les a jamais vus. Désorienté, il cherche à comprendre ce qui se passe mais une bombe explose tuant tout le monde à bord. Colter se réveille alors dans un caisson étrange et découvre qu’il participe à un procédé expérimental permettant de se projeter dans le corps d’une personne et de revivre les 8 dernières minutes de sa vie. Sa mission: revivre sans cesse les quelques minutes précédant l’explosion afin d’identifier et d’arrêter les auteurs de l’attentat. À chaque échec, les chances de pouvoir revenir dans le passé s’amenuisent...",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2011,
+    "date_ajout": "2016-02-01"
   },
   {
     "id": "jw-tm101914",
@@ -915,8 +953,8 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 6, N° 6",
     "annee": 2010,
     "note_avis": 7.8,
-    "note_recence": 6.3,
-    "note_globale": 7.1,
+    "note_recence": 5.2,
+    "note_globale": 6.5,
     "categories": [
       "drame_emotion"
     ],
@@ -944,7 +982,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 116,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "act",
       "drm",
@@ -952,7 +990,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Micky Ward est un jeune boxeur dont la carrière stagne. Il va rencontrer Charlene, une femme au caractère bien trempé, qui va l'aider à s'affranchir de l'influence négative de sa mère, qui gère maladroitement sa carrière, et de ses sœurs envahissantes. Son demi-frère Dicky Eklund, lui, a connu la gloire sur le ring, il y a bien longtemps. C'était avant qu'il ne sombre dans la drogue, avant son séjour en prison. Entre le sportif en quête d'un second souffle et l'ex-toxico, il y a longtemps que le courant ne passe plus. Trop de non-dits, d'échecs et de souffrances. Pourtant, parfois, les hommes changent, et Micky et Dicky vont peut-être avoir ensemble, la chance de réussir ce qu'ils ont raté chacun de leur côté…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2010,
+    "date_ajout": "2011-03-09"
   },
   {
     "id": "jw-tm245724",
@@ -963,8 +1003,8 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 7, N° 2",
     "annee": 2016,
     "note_avis": 6.2,
-    "note_recence": 7.7,
-    "note_globale": 7,
+    "note_recence": 7,
+    "note_globale": 6.6,
     "categories": [
       "thriller_policier"
     ],
@@ -992,7 +1032,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 80,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "drm",
       "trl",
@@ -1001,7 +1041,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Dans un futur proche, l'ordre mondial a changé. Avec ses 10 millions de chômeurs, la France fait désormais partie des pays pauvres. La population oscille entre révolte et résignation et trouve un exutoire dans des combats télévisés ultra violents où les participants sont dopés en toute légalité et où tous les coups sont permis. Reda, dit Arès, est un ancien combattant qui vit de petits boulots de gros bras pour la police. Tout va changer lorsque sa sœur se fait arrêter et qu'il doit tout mettre en œuvre pour les sauver : elle et ses filles.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2016-11-23"
   },
   {
     "id": "jw-tm305296",
@@ -1012,8 +1054,8 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 7, N° 1",
     "annee": 2019,
     "note_avis": 6.2,
-    "note_recence": 8.4,
-    "note_globale": 7.3,
+    "note_recence": 7.9,
+    "note_globale": 7.1,
     "categories": [
       "thriller_policier"
     ],
@@ -1051,7 +1093,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Bienvenue à Kehoe, luxueuse station de ski du Colorado. La police locale n’y est pas franchement très sollicitée jusqu’au jour où le fils d’un conducteur de chasse-neige, Nels Coxman, est assassiné sur ordre de Viking, un baron de la drogue. Armé d’une rage implacable et d’une artillerie lourde, Nels entreprend de démanteler le cartel de Viking. Sa quête de justice va rapidement se transformer en une vengeance sans pitié. Alors que les associés de Viking « disparaissent » les uns après les autres, Nels passe d’un citoyen modèle à un justicier au sang-froid, qui ne laisse rien - ni personne - se mettre en travers de son chemin.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-02-27"
   },
   {
     "id": "jw-tm1114357",
@@ -1062,8 +1106,8 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 2, N° 5",
     "annee": 2022,
     "note_avis": 4.5,
-    "note_recence": 9.1,
-    "note_globale": 6.8,
+    "note_recence": 8.8,
+    "note_globale": 6.7,
     "categories": [
       "comedie"
     ],
@@ -1100,7 +1144,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Maja, gendarme maritime à la pointe du Cap-Ferret, en Gironde, voit se réaliser son pire cauchemar : prendre sa retraite anticipée ! Thierry, son mari, a déjà prévu la place de camping et le mobil home. Mais la disparition d’un vacancier met toute la côte en alerte : un requin rôde dans la baie ! Aidée de ses jeunes collègues Eugénie et Blaise, elle saute sur l’occasion pour s’offrir une dernière mission…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2022-08-03"
   },
   {
     "id": "jw-tm318592",
@@ -1111,8 +1157,8 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 8, N° 3",
     "annee": 2018,
     "note_avis": 5.9,
-    "note_recence": 8.2,
-    "note_globale": 7.1,
+    "note_recence": 7.6,
+    "note_globale": 6.8,
     "categories": [
       "action_aventure"
     ],
@@ -1140,7 +1186,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 106,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "act",
       "drm",
@@ -1149,7 +1195,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Une nouvelle adaptation du raid d'Entebbe, au cours duquel deux Palestiniens et deux Allemands ont pris un avion en otage et l'ont détourné vers Entebbe (Ouganda). Sur place, ils ont demandé la libération de douzaines de Palestiniens et de prisonniers pro-Palestiniens.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-05-02"
   },
   {
     "id": "jw-tm164056",
@@ -1160,8 +1208,8 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 1, N° 4",
     "annee": 2011,
     "note_avis": 6.9,
-    "note_recence": 6.5,
-    "note_globale": 6.7,
+    "note_recence": 5.5,
+    "note_globale": 6.2,
     "categories": [
       "thriller_policier"
     ],
@@ -1200,7 +1248,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "De sa jeunesse passée dans la misère d’un camp de gitans, Edmond VIDAL, dit MOMON, a retenu le sens de la famille, une loyauté sans faille, et la fierté de ses origines. Il a surtout conservé l’amitié de Serge SUTTEL. L’ami d’enfance avec qui il a découvert la prison à cause d’un stupide vol de cerises. Avec lui, inexorablement il a plongé dans le Grand Banditisme, et connu l’apogée du GANG DES LYONNAIS, l’équipe qu’ils ont formée ensemble et qui a fait d’eux les plus célèbres braqueurs du début des années soixante-dix. Leur irrésistible ascension prend fin en 1974, lors d’une arrestation spectaculaire. Aujourd’hui à l’approche de la soixantaine, MOMON tente d’oublier cette période de sa vie. A l’inverse de Serge SUTTEL, qui malgré le temps n’a rien renié de son itinéraire...",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2011,
+    "date_ajout": "2011-11-30"
   },
   {
     "id": "jw-tm352079",
@@ -1211,8 +1261,8 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 9, N° 6",
     "annee": 2018,
     "note_avis": 5.7,
-    "note_recence": 8.2,
-    "note_globale": 7,
+    "note_recence": 7.6,
+    "note_globale": 6.7,
     "categories": [
       "drame_emotion"
     ],
@@ -1240,14 +1290,16 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 101,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "drm",
       "eur"
     ],
     "synopsis": "Laure a 23 ans. Elle se cherche. C’est dans la Marine Nationale qu’elle va trouver un cadre, une structure, des repères. Solide et persévérante, elle va faire son apprentissage et découvrir sa voie.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-06-06"
   },
   {
     "id": "jw-tm49769",
@@ -1307,8 +1359,8 @@ const CATALOG_DATA = [
     "position": "Films — Ligne 7, N° 5",
     "annee": 2014,
     "note_avis": 6.1,
-    "note_recence": 7.2,
-    "note_globale": 6.7,
+    "note_recence": 6.4,
+    "note_globale": 6.3,
     "categories": [
       "thriller_policier"
     ],
@@ -1345,7 +1397,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Les services de police inventent une nouvelle arme infaillible, Robocop, mi‐homme, mi‐robot, policier électronique de chair et d’acier qui a pour mission de sauvegarder la tranquillité de la ville. Mais ce cyborg a aussi une âme…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2014,
+    "date_ajout": "2014-02-06"
   },
   {
     "id": "jw-tm24554",
@@ -1551,8 +1605,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2024,
     "note_avis": 7,
-    "note_recence": 9.5,
-    "note_globale": 8.3,
+    "note_recence": 9.4,
+    "note_globale": 8.2,
     "categories": [
       "comedie"
     ],
@@ -1587,7 +1641,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Totone, 18 ans, passe le plus clair de son temps à boire des bières et écumer les bals du Jura avec sa bande de potes. Mais la réalité le rattrape : il doit s’occuper de sa petite sœur de 7 ans et trouver un moyen de gagner sa vie. Il se met alors en tête de fabriquer le meilleur comté de la région, celui avec lequel il remporterait la médaille d'or du concours agricole et 30 000 euros.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-12-11"
   },
   {
     "id": "jw-tm1406900",
@@ -1598,8 +1654,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2024,
     "note_avis": 7,
-    "note_recence": 9.5,
-    "note_globale": 8.3,
+    "note_recence": 9.4,
+    "note_globale": 8.2,
     "categories": [
       "drame_emotion"
     ],
@@ -1634,7 +1690,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Almut et Tobias voient leur vie à jamais bouleversée lorsqu'une rencontre accidentelle les réunit. Une romance profondément émouvante sur les instants qui nous changent, et ceux qui nous construisent.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-01-01"
   },
   {
     "id": "jw-tm1515245",
@@ -1645,7 +1703,7 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2024,
     "note_avis": 6.7,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 8.1,
     "categories": [
       "drame_emotion"
@@ -1680,7 +1738,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Mona vit avec son fils trentenaire, Joël, qui est \"en retard\". Il travaille dans un établissement spécialisé, un ESAT, et aime passionnément sa collègue Océane, elle aussi en situation de handicap. Alors que Mona ignore tout de cette relation, elle apprend qu’Océane est enceinte. La relation fusionnelle entre mère et fils vacille.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-12-25"
   },
   {
     "id": "jw-tm1382978",
@@ -1691,8 +1751,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2024,
     "note_avis": 6.2,
-    "note_recence": 9.5,
-    "note_globale": 7.9,
+    "note_recence": 9.4,
+    "note_globale": 7.8,
     "categories": [
       "drame_emotion"
     ],
@@ -1726,7 +1786,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Azar Nafisi, professeure à l’université de Téhéran, réunit secrètement sept de ses étudiantes pour lire des classiques de la littérature occidentale interdits par le régime. Alors que les fondamentalistes sont au pouvoir, ces femmes se retrouvent, retirent leur voile et discutent de leurs espoirs, de leurs amours et de leur place dans une société de plus en plus oppressive. Pour elles, lire Lolita à Téhéran, c’est célébrer le pouvoir libérateur de la littérature.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-03-26"
   },
   {
     "id": "jw-tm1471440",
@@ -1740,8 +1802,8 @@ const CATALOG_DATA = [
     "position": "Films • Ciné+ Emotion & OCS",
     "annee": 2025,
     "note_avis": 6.5,
-    "note_recence": 9.8,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "categories": [
       "drame_emotion"
     ],
@@ -1774,7 +1836,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Bridget Jones a cinquante-deux ans et deux enfants. Après le décès de Mark Darcy, avec qui elle a vécu dix ans de bonheur, elle est à nouveau en quête de l'homme idéal. Mais ce n'est pas si facile de se remettre sur le marché du célibat. Les mésaventures de Bridget n'ont rien perdu de leur piquant.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-02-12"
   },
   {
     "id": "jw-tm1486094",
@@ -1785,8 +1849,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2024,
     "note_avis": 6.2,
-    "note_recence": 9.5,
-    "note_globale": 7.9,
+    "note_recence": 9.4,
+    "note_globale": 7.8,
     "categories": [
       "drame_emotion"
     ],
@@ -1821,7 +1885,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Paris 1896. Sarah Bernhardt est au sommet de sa gloire. Icône de son époque et première star mondiale, la comédienne est aussi une amoureuse libre et moderne qui défie les conventions. Découvrez la femme derrière la légende.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-12-18"
   },
   {
     "id": "jw-tm244376",
@@ -1832,8 +1898,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2017,
     "note_avis": 7.5,
-    "note_recence": 7.9,
-    "note_globale": 7.7,
+    "note_recence": 7.3,
+    "note_globale": 7.4,
     "categories": [
       "comedie"
     ],
@@ -1869,7 +1935,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Le parcours de la sportive controversée Tonya Harding, championne de patinage artistique dans les années 80‐90, première femme à réussir un triple axel dans une compétition majeure, mais surtout connue aujourd’hui pour sa célèbre rivalité avec la patineuse Nancy Kerrigan aux JO de 1994 et sa tentative avec son mari de nuire à sa rivale.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2018-02-21"
   },
   {
     "id": "jw-tm407775",
@@ -1880,8 +1948,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2018,
     "note_avis": 6.8,
-    "note_recence": 8.2,
-    "note_globale": 7.5,
+    "note_recence": 7.6,
+    "note_globale": 7.2,
     "categories": [
       "drame_emotion"
     ],
@@ -1917,7 +1985,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Madame de la Pommeraye, jeune veuve retirée du monde, cède à la cour du marquis des Arcis, libertin notoire. Après quelques années d’un bonheur sans faille, elle découvre que le marquis s’est lassé de leur union. Follement amoureuse et terriblement blessée, elle décide de se venger de lui avec la complicité de Mademoiselle de Joncquières et de sa mère…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2019-01-11"
   },
   {
     "id": "jw-tm496648",
@@ -1931,8 +2001,8 @@ const CATALOG_DATA = [
     "position": "Films • Ciné+ Emotion & Ciné+ Family",
     "annee": 2019,
     "note_avis": 6.5,
-    "note_recence": 8.4,
-    "note_globale": 7.5,
+    "note_recence": 7.9,
+    "note_globale": 7.2,
     "categories": [
       "comedie"
     ],
@@ -1966,7 +2036,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Une année au cœur de l’école de la république de la vie… et de la démerde! Samia, jeune CPE novice, débarque de son Ardèche natale dans un collège réputé difficile de la ville de Saint-Denis. Elle y découvre les problèmes récurrents de discipline, la réalité sociale pesant sur le quartier, mais aussi l’incroyable vitalité et l’humour, tant des élèves que de son équipe de surveillants. Parmi eux, il y a Moussa, le Grand du quartier et Dylan le chambreur. Samia s'adapte et prend bientôt plaisir à canaliser la fougue des plus perturbateurs. Sa situation personnelle compliquée la rapproche naturellement de Yanis, ado vif et intelligent, dont elle a flairé le potentiel. Même si Yanis semble renoncer à toute ambition en se cachant derrière son insolence, Samia va investir toute son énergie à le détourner d’un échec scolaire annoncé et tenter de l’amener à se projeter dans un avenir meilleur…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-08-28"
   },
   {
     "id": "jw-tm410289",
@@ -1977,8 +2049,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2018,
     "note_avis": 6.2,
-    "note_recence": 8.2,
-    "note_globale": 7.2,
+    "note_recence": 7.6,
+    "note_globale": 6.9,
     "categories": [
       "thriller_policier"
     ],
@@ -2006,7 +2078,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 108,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "cmy",
       "crm",
@@ -2017,7 +2089,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Yvonne, jeune inspectrice de police, découvre que son mari, le capitaine Santi, héros local tombé au combat, n’était pas le flic courageux et intègre qu’elle croyait, mais un véritable ripou. Déterminée à réparer les torts commis par ce dernier, elle va croiser le chemin d’Antoine, injustement incarcéré par Santi pendant huit longues années. Une rencontre inattendue et folle qui va dynamiter leurs vies à tous les deux.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-10-31"
   },
   {
     "id": "jw-tm914405",
@@ -2031,8 +2105,8 @@ const CATALOG_DATA = [
     "position": "Films • Ciné+ Emotion & OCS",
     "annee": 2021,
     "note_avis": 6.2,
-    "note_recence": 8.8,
-    "note_globale": 7.5,
+    "note_recence": 8.5,
+    "note_globale": 7.4,
     "categories": [
       "comedie"
     ],
@@ -2064,7 +2138,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Première d’atelier au sein de la Maison Dior, Esther participe à sa dernière collection de Haute Couture avant de prendre sa retraite. Un jour, elle se fait voler son sac dans le métro par Jade, 20 ans. Mais celle-ci, prise de remord, décide de lui restituer son bien. Séduite malgré elle par l’audace de la jeune fille et convaincue qu’elle a un don, Esther lui offre la chance d’intégrer les ateliers de la Maison Dior comme apprentie. L’occasion de transmettre à Jade un métier exercé depuis toujours pour la beauté du geste...",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2021-11-10"
   },
   {
     "id": "jw-tm1573431",
@@ -2075,8 +2151,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2024,
     "note_avis": 5.4,
-    "note_recence": 9.5,
-    "note_globale": 7.5,
+    "note_recence": 9.4,
+    "note_globale": 7.4,
     "categories": [
       "comedie"
     ],
@@ -2110,7 +2186,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Le Docteur Béranger est un célèbre psychanalyste à qui tout réussit. Sa vie serait parfaite s’il n’y avait pas ce patient très angoissé et extrêmement collant : Damien Leroy. Pour enfin s’en débarrasser, il lui fait croire que le seul moyen de guérir est de trouver le grand amour. Mais alors qu’il s’apprête à fêter ses 30 ans de mariage, sa fille Alice lui annonce qu’elle a enfin trouvé l’homme de sa vie qui n’est autre que… Damien. La fête va virer au cauchemar.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-04-09"
   },
   {
     "id": "jw-tm149946",
@@ -2121,8 +2199,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2014,
     "note_avis": 6.6,
-    "note_recence": 7.2,
-    "note_globale": 6.9,
+    "note_recence": 6.4,
+    "note_globale": 6.5,
     "categories": [
       "comedie"
     ],
@@ -2159,7 +2237,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Entre ses potes et l’entreprise familiale, l’été d'Arnaud s’annonce tranquille…  Tranquille jusqu'à sa rencontre avec Madeleine, aussi belle que cassante, bloc de muscles tendus et de prophéties catastrophiques. Il ne s’attend à rien ; elle se prépare au pire.  Jusqu'où la suivre alors qu'elle ne lui a rien demandé ?  C’est une histoire d’amour. Ou une histoire de survie. Ou les deux.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2014,
+    "date_ajout": "2015-01-07"
   },
   {
     "id": "jw-tm361759",
@@ -2170,8 +2250,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2018,
     "note_avis": 6.7,
-    "note_recence": 8.2,
-    "note_globale": 7.5,
+    "note_recence": 7.6,
+    "note_globale": 7.2,
     "categories": [
       "drame_emotion"
     ],
@@ -2208,7 +2288,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "1893, malgré leurs 14 ans d'écart, Gabrielle Sidonie Colette, jeune fille à l'esprit rebelle, épouse Willy, écrivain aussi égocentrique que séducteur. Grâce à ses relations, elle découvre le milieu artistique parisien qui stimule sa propre créativité. Sachant repérer les talents mieux que quiconque, Willy autorise Colette à écrire – à condition qu'il signe ses romans à sa place. Suite au triomphe de la série des Claudine, il ne tarde d'ailleurs pas à devenir célèbre. Pourtant, tandis que les infidélités de Willy pèsent sur le couple, Colette souffre de plus en plus de ne pas être reconnue pour son œuvre…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2019-01-16"
   },
   {
     "id": "jw-tm201446",
@@ -2219,8 +2301,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2015,
     "note_avis": 6.7,
-    "note_recence": 7.5,
-    "note_globale": 7.1,
+    "note_recence": 6.7,
+    "note_globale": 6.7,
     "categories": [
       "drame_emotion"
     ],
@@ -2248,7 +2330,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 105,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "drm",
       "rma",
@@ -2256,7 +2338,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "1971. Delphine, fille de paysans, monte à Paris pour s’émanciper du carcan familial et gagner son indépendance financière. Carole est parisienne. En couple avec Manuel, elle vit activement les débuts du féminisme. Lorsque Delphine et Carole se rencontrent, leur histoire d’amour fait basculer leurs vies.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2015,
+    "date_ajout": "2015-08-19"
   },
   {
     "id": "jw-tm430255",
@@ -2267,8 +2351,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2018,
     "note_avis": 6.2,
-    "note_recence": 8.2,
-    "note_globale": 7.2,
+    "note_recence": 7.6,
+    "note_globale": 6.9,
     "categories": [
       "drame_emotion"
     ],
@@ -2296,7 +2380,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 75,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "cmy",
       "drm",
@@ -2305,7 +2389,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Abel et Marianne sont séparés depuis 10 ans.  Alors qu’ils se retrouvent, Abel décide de reconquérir Marianne.  Mais les choses ont changé : Marianne a un fils, Joseph, et sa tante, la jeune Ève, a grandi.  Et ils ont des secrets à révéler….",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2019-05-06"
   },
   {
     "id": "jw-tm449587",
@@ -2316,8 +2402,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2019,
     "note_avis": 5.9,
-    "note_recence": 8.4,
-    "note_globale": 7.2,
+    "note_recence": 7.9,
+    "note_globale": 6.9,
     "categories": [
       "comedie"
     ],
@@ -2345,7 +2431,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 103,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "cmy",
       "drm",
@@ -2354,7 +2440,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Comme chacun sait, les enfants ne font aucune différence entre les classes sociales, les couleurs de peau ou les religions. Mais alors pourquoi Corentin, le fils de 9 ans de Paul et Sofia, n’a-t-il à l’école de Bagnolet que des amis qui lui ressemblent? Et quand ses amis partent tous dans une école privée parisienne, ses parents prennent peur. Désormais, Corentin est le seul dans sa classe. Mais le seul quoi ?",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-04-03"
   },
   {
     "id": "jw-tm59428",
@@ -2365,8 +2453,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2012,
     "note_avis": 7.7,
-    "note_recence": 6.8,
-    "note_globale": 7.3,
+    "note_recence": 5.8,
+    "note_globale": 6.8,
     "categories": [
       "drame_emotion"
     ],
@@ -2394,7 +2482,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 122,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "cmy",
       "drm",
@@ -2402,7 +2490,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "La vie réserve parfois quelques surprises… Pat Solatano a tout perdu : sa maison, son travail et sa femme. Il se retrouve même dans l'obligation d'emménager chez ses parents.  Malgré tout, Pat affiche un optimisme à toute épreuve et est déterminé à se reconstruire et à renouer avec son ex-femme. Rapidement, il rencontre Tiffany, une jolie jeune femme ayant eu un parcours mouvementé. Tiffany se propose d'aider Pat à reconquérir sa femme, à condition qu'il lui rende un service en retour. Un lien inattendu commence à se former entre eux et, ensemble, ils vont essayer de reprendre en main leurs vies respectives.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2012,
+    "date_ajout": "2012-08-09"
   },
   {
     "id": "jw-tm464524",
@@ -2413,8 +2503,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2019,
     "note_avis": 5.4,
-    "note_recence": 8.4,
-    "note_globale": 6.9,
+    "note_recence": 7.9,
+    "note_globale": 6.7,
     "categories": [
       "drame_emotion"
     ],
@@ -2450,7 +2540,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Vali et Mina sont deux sœurs que tout oppose, éloignées par les épreuves de la vie. L’une est chanteuse, rêveuse et émotive. L’autre est thérapeute, distante et rationnelle. Leur père aimant finit par trouver l’occasion rêvée pour les rassembler le temps d’un week-end et tenter de les réconcilier : Vali a décroché une audition à Paris et c’est Mina qui va devoir l’y emmener malgré son mépris pour la passion de sa sœur.  C’est une histoire de retrouvailles, une histoire d’amour entre deux sœurs, l’histoire d’une famille qui s’aime mais qui ne sait plus se le dire.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-10-02"
   },
   {
     "id": "jw-tm171801",
@@ -2461,8 +2553,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2011,
     "note_avis": 7.6,
-    "note_recence": 6.5,
-    "note_globale": 7.1,
+    "note_recence": 5.5,
+    "note_globale": 6.6,
     "categories": [
       "drame_emotion"
     ],
@@ -2490,14 +2582,16 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 134,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "drm",
       "spt"
     ],
     "synopsis": "Voici l’histoire vraie de Billy Beane, un ancien joueur de baseball prometteur qui, à défaut d’avoir réussi sur le terrain, décida de tenter sa chance en dirigeant une équipe comme personne ne l’avait fait auparavant… Alors que la saison 2002 se profile, Billy Beane, le manager général des Oakland Athletics, est confronté à une situation difficile : sa petite équipe a encore perdu ses meilleurs joueurs, attirés par les grands clubs et leurs gros salaires. Bien décidé à gagner malgré tout, il cherche des solutions qui ne coûtent rien et auxquelles personne n’aurait pensé avant… Il va s’appuyer sur des théories statistiques et engager Peter Brand, un économiste amateur de chiffres issu de Yale. Ensemble, contre tous les principes, ils reconsidèrent la valeur de chaque joueur sur la base des statistiques et réunissent une brochette de laissés-pour-compte oubliés par l’establishment du baseball.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2011,
+    "date_ajout": "2011-11-16"
   },
   {
     "id": "jw-tm27526",
@@ -2602,8 +2696,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2011,
     "note_avis": 7,
-    "note_recence": 6.5,
-    "note_globale": 6.8,
+    "note_recence": 5.5,
+    "note_globale": 6.3,
     "categories": [
       "comedie"
     ],
@@ -2639,7 +2733,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Dans le Téhéran des années 50, Nasser Ali Khan, célèbre musicien, se meurt depuis que son violon est brisé. Depuis son lit, il se repasse le film de sa vie, discute avec Azraël, l'Ange de la Mort, imagine l'avenir de ses enfants..., revit la magnifique histoire d'amour qui a nourri son génie, sa musique.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2011,
+    "date_ajout": "2012-03-07"
   },
   {
     "id": "jw-tm182062",
@@ -2650,8 +2746,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2013,
     "note_avis": 6.9,
-    "note_recence": 7,
-    "note_globale": 7,
+    "note_recence": 6.1,
+    "note_globale": 6.5,
     "categories": [
       "thriller_policier"
     ],
@@ -2679,7 +2775,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 111,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "crm",
       "drm",
@@ -2688,7 +2784,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "À Holton Mills, dans le New Hampshire, Henry, un adolescent solitaire de 13 ans, passe son été devant la télévision à fantasmer sur une fille de sa classe. Mais le jour précédant la Fête du Travail, Henry vient en aide à un mystérieux homme…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2013,
+    "date_ajout": "2014-01-31"
   },
   {
     "id": "jw-tm162516",
@@ -2699,8 +2797,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2011,
     "note_avis": 6.9,
-    "note_recence": 6.5,
-    "note_globale": 6.7,
+    "note_recence": 5.5,
+    "note_globale": 6.2,
     "categories": [
       "drame_emotion"
     ],
@@ -2735,7 +2833,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Au début de l’été 1956, Marilyn Monroe se rend en Angleterre pour la première fois. En pleine lune de miel avec le célèbre dramaturge Arthur Miller, elle est venue tourner LE PRINCE ET LA DANSEUSE, le film qui restera célèbre pour l’avoir réunie à l’écran avec Sir Laurence Olivier, véritable légende du théâtre et du cinéma britanniques, qui en est aussi le metteur en scène. Ce même été, Colin Clark, 23 ans, met pour la première fois le pied sur un plateau de cinéma. Tout juste diplômé d’Oxford, le jeune homme rêve de devenir cinéaste et a réussi à décrocher un job d’obscur assistant sur le plateau. Quarante ans plus tard, Clark racontera ce qu’il a vécu au fil des six mois de ce tournage mouvementé dans son livre, « The Prince, the Showgirl and Me ». Mais il manque une semaine dans son récit… Son second livre, « Une semaine avec Marilyn », relate la semaine magique qu’il a passée, seul, avec la plus grande star de cinéma du monde.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2011,
+    "date_ajout": "2012-04-04"
   },
   {
     "id": "jw-tm33166",
@@ -2746,8 +2846,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2012,
     "note_avis": 6.4,
-    "note_recence": 6.8,
-    "note_globale": 6.6,
+    "note_recence": 5.8,
+    "note_globale": 6.1,
     "categories": [
       "comedie"
     ],
@@ -2783,7 +2883,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Rien ne destinait Hortense Laborie à devenir la cuisinière personnelle du Président de la République. Lorsqu'elle est appelée, depuis son Périgord, à rejoindre le Palais de l'Élysée, elle ne mesure pas les obstacles qu'elle va rencontrer dans les coulisses du pouvoir. Mais l'authenticité de sa cuisine ne tardera pas à séduire le Président...",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2012,
+    "date_ajout": "2012-09-19"
   },
   {
     "id": "jw-tm155722",
@@ -2794,8 +2896,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2014,
     "note_avis": 6.4,
-    "note_recence": 7.2,
-    "note_globale": 6.8,
+    "note_recence": 6.4,
+    "note_globale": 6.4,
     "categories": [
       "drame_emotion"
     ],
@@ -2832,7 +2934,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Martin, ancien bobo parisien installé dans un village normand, un boulanger passionné de Gustave Flaubert voit s'installer, Gemma et Charles Bovery, un couple d'Anglais dans une fermette du voisinage, aux comportements similaires au roman Madame Bovary, de Flaubert. Pour le créateur qui sommeille en Martin, l'occasion est trop belle de pétrir - outre sa farine quotidienne - le destin de personnages en chair et en os. Mais la jolie Gemma n'a pas lu ses classiques, et entend bien vivre sa propre vie...",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2014,
+    "date_ajout": "2014-09-10"
   },
   {
     "id": "jw-tm467281",
@@ -2843,8 +2947,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2019,
     "note_avis": 5.7,
-    "note_recence": 8.4,
-    "note_globale": 7.1,
+    "note_recence": 7.9,
+    "note_globale": 6.8,
     "categories": [
       "comedie"
     ],
@@ -2872,14 +2976,16 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 83,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "cmy",
       "eur"
     ],
     "synopsis": "Coline et André sont en parfaite harmonie avec leur fille, Garance, et leur gendre Harold. Mais Garance se sépare d’Harold et ordonne à ses parents de ne plus jamais le revoir. Les beaux-parents ne peuvent s’y résoudre : elle l’a largué, mais pas eux ! Ils devront mener une double vie pour continuer à voir leur gendre adoré, en cachette de leur fille, qui ne va pas les lâcher…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-06-19"
   },
   {
     "id": "jw-tm75465",
@@ -2890,8 +2996,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2007,
     "note_avis": 7.8,
-    "note_recence": 5.6,
-    "note_globale": 6.7,
+    "note_recence": 4.3,
+    "note_globale": 6.1,
     "categories": [
       "drame_emotion"
     ],
@@ -2927,7 +3033,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Août 1935. Malgré la canicule qui frappe l'Angleterre, la famille Tallis mène une vie insouciante à l'abri dans sa gigantesque demeure victorienne. La jeune Briony a trouvé sa vocation, elle sera romancière. Mais quand du haut de ses treize ans, elle surprend sa sœur aînée Cecilia dans les bras de Robbie, fils de domestique, sa réaction naïve face aux désirs des adultes va provoquer une tragédie et marquer à jamais le destin du jeune homme.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2007,
+    "date_ajout": "2008-01-11"
   },
   {
     "id": "jw-tm358369",
@@ -2938,8 +3046,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2018,
     "note_avis": 5.3,
-    "note_recence": 8.2,
-    "note_globale": 6.8,
+    "note_recence": 7.6,
+    "note_globale": 6.5,
     "categories": [
       "comedie"
     ],
@@ -2975,7 +3083,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Elles sont Présidente de la République, nounou, boulangère, comédienne, prof, fleuriste, journaliste, sans emploi, pédiatre. Elles sont possessives, bienveillantes, maladroites, absentes, omniprésentes, débordées, culpabilisantes, indulgentes, aimantes, fragiles, en pleine possession de leurs moyens ou perdant la tête. Bien vivantes ou déjà un souvenir ... Fils ou fille, nous restons quoiqu'il arrive leur enfant avec l'envie qu'elles nous lâchent et la peur qu'elles nous quittent. Et puis nous devenons maman ... et ça va être notre fête !",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-05-23"
   },
   {
     "id": "jw-tm159310",
@@ -3034,8 +3144,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2009,
     "note_avis": 7.1,
-    "note_recence": 6.1,
-    "note_globale": 6.6,
+    "note_recence": 4.9,
+    "note_globale": 6,
     "categories": [
       "scifi_fantastique"
     ],
@@ -3073,7 +3183,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Clare aime Henry depuis toujours. Elle est convaincue qu'ils sont destinés l'un à l'autre, même si elle ne sait jamais quand ils seront séparés... Henry est en effet un voyageur du temps. Il souffre d'une anomalie génétique très rare qui l'oblige à vivre selon un déroulement du temps différent : il va et vient à travers les années sans le moindre contrôle sur ce phénomène. Même si les voyages d'Henry les séparent sans prévenir, même s'ils ignorent lorsqu'ils se retrouveront, Clare tente désespérément de faire sa vie avec celui qu'elle aime par-dessus tout...",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2009,
+    "date_ajout": "2026-06-02"
   },
   {
     "id": "jw-tm170004",
@@ -3084,8 +3196,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2013,
     "note_avis": 6.3,
-    "note_recence": 7,
-    "note_globale": 6.7,
+    "note_recence": 6.1,
+    "note_globale": 6.2,
     "categories": [
       "comedie"
     ],
@@ -3120,7 +3232,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Obsédée par la mini-série de la BBC \"Orgueil et préjugés\", une jeune femme se rend dans le parc d'attraction consacré à Jane Austen afin de trouver l’homme idéal.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2013,
+    "date_ajout": "2014-04-09"
   },
   {
     "id": "jw-tm79793",
@@ -3375,8 +3489,8 @@ const CATALOG_DATA = [
     "position": "Films • Ciné+ Emotion & OCS",
     "annee": 2025,
     "note_avis": 5.7,
-    "note_recence": 9.8,
-    "note_globale": 7.8,
+    "note_recence": 9.7,
+    "note_globale": 7.7,
     "categories": [
       "drame_emotion"
     ],
@@ -3409,7 +3523,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "En 1942, Tauba, une adolescente pleine d’énergie, échappe de justesse avec ses parents à la rafle du Vel d’Hiv. Un couple, les Dinanceau, leur propose de les cacher provisoirement dans un minuscule débarras de leur immeuble, sous les toits de Paris, le temps que les choses se calment. Malheureusement, ce qui devait être temporaire s’éternise, et la famille s’enfonce dans le silence et l’immobilité. Mais Tauba est une battante, et rien ne l’empêchera de bousculer son destin.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-02-26"
   },
   {
     "id": "jw-tm178233",
@@ -3420,8 +3536,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Emotion",
     "annee": 2013,
     "note_avis": 6,
-    "note_recence": 7,
-    "note_globale": 6.5,
+    "note_recence": 6.1,
+    "note_globale": 6.1,
     "categories": [
       "comedie"
     ],
@@ -3457,7 +3573,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "François est un passionné du Tour de France.  Licencié par son patron et quitté par sa femme, il part faire la Grande Boucle avec un jour d’avance sur les pros. D’abord seul, il est vite rejoint par d’autres, inspirés par son défi. Les obstacles sont nombreux mais la rumeur de son exploit se répand. Les médias s’enflamment, les passants l’acclament, le Maillot Jaune du Tour enrage. François doit être stoppé !",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2013,
+    "date_ajout": "2013-06-12"
   },
   {
     "id": "jw-tm140773",
@@ -3563,7 +3681,7 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2024,
     "note_avis": 6.9,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 8.2,
     "categories": [
       "drame_emotion"
@@ -3601,7 +3719,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Philippe, un compositeur d'opéra en panne d'inspiration, se voit forcé d'héberger sa nièce Simone, une orpheline rebelle et excentrique dont la meilleure amie est une moufette. Malgré leurs personnalités diamétralement opposées, Philippe et Simone découvrent rapidement qu'ils pourraient avoir besoin l'un de l'autre plus qu'ils ne l'auraient initialement cru.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2026-06-05"
   },
   {
     "id": "jw-tm1506831",
@@ -3612,7 +3732,7 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2024,
     "note_avis": 5.7,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7.6,
     "categories": [
       "scifi_fantastique"
@@ -3648,7 +3768,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Noah et ses amis pensaient profiter tranquillement de leurs vacances... jusqu'à ce qu'une force mystérieuse vienne bouleverser leur été. Ensemble, et avec l'aide d'un ancien détective de police au caractère bien trempé, ils se lancent dans une quête incroyable pour sauver leur île et percer un secret qui dépasse tout ce qu'ils pouvaient imaginer.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2026-01-02"
   },
   {
     "id": "jw-tm1447045",
@@ -3659,8 +3781,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2024,
     "note_avis": 5.6,
-    "note_recence": 9.5,
-    "note_globale": 7.6,
+    "note_recence": 9.4,
+    "note_globale": 7.5,
     "categories": [
       "animation_famille"
     ],
@@ -3697,7 +3819,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Will âgé de 10 ans, a toujours rêvé de devenir un super-héros et de lutter contre le crime aux côtés de son père, policier. Mais, son rêve est brutalement remis en cause à la naissance de son petit frère Charlie. Non seulement ce nourrisson attire toute l’attention de la famille et au-delà, mais Will découvre que Charlie a des super-pouvoirs… Lorsqu’un super-vilain et un scientifique dérangé mettent en œuvre un plan diabolique, Charlie, coaché par son grand frère, va alors endosser le costume de super-héros pour sauver le monde !… Y parviendront-ils ?",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2026-02-18"
   },
   {
     "id": "jw-tm1537335",
@@ -3711,8 +3835,8 @@ const CATALOG_DATA = [
     "position": "Films • Ciné+ Family & OCS",
     "annee": 2024,
     "note_avis": 4,
-    "note_recence": 9.5,
-    "note_globale": 6.8,
+    "note_recence": 9.4,
+    "note_globale": 6.7,
     "categories": [
       "comedie"
     ],
@@ -3744,7 +3868,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Carole, maire d'une petite ville, s'implique à fond dans les festivités de Noël de sa commune pendant qu'Alain, son mari moderne et dévoué, s'occupe d'organiser le réveillon. Mais lorsque les enfants arrivent, le rêve d'un Noël serein s'effondre et le couple subit une attaque en règle de toutes les traditions familiales.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-12-18"
   },
   {
     "id": "jw-tm316630",
@@ -3755,8 +3881,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2017,
     "note_avis": 6.9,
-    "note_recence": 7.9,
-    "note_globale": 7.4,
+    "note_recence": 7.3,
+    "note_globale": 7.1,
     "categories": [
       "comedie"
     ],
@@ -3794,7 +3920,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Paris 1930. Paul n’a toujours eu qu’un seul et même horizon: les hauts murs de l’orphelinat, sévère bâtisse de la banlieue ouvrière parisienne. Confié à une joyeuse dame de la campagne, Célestine et à son mari, Borel, le garde-chasse un peu raide d’un vaste domaine en Sologne, l’enfant des villes, récalcitrant et buté, arrive dans un monde mystérieux et inquiétant, celui d’une région souveraine et sauvage.  L’immense forêt, les étangs embrumés, les landes et les champs, tout ici appartient au Comte de la Fresnaye, un veuf taciturne qui vit solitaire dans son manoir. Le Comte tolère les braconniers sur le domaine, mais Borel les traque sans relâche et s’acharne sur le plus rusé et insaisissable d’entre eux, Totoche. Au cœur de la féérique Sologne, aux côtés du braconnier, grand amoureux de la nature, Paul va faire l’apprentissage de la vie mais aussi celui de la forêt et de ses secrets. Un secret encore plus lourd pèse sur le domaine, car Paul n’est pas venu là par hasard …",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2017-10-11"
   },
   {
     "id": "jw-tm367470",
@@ -3805,8 +3933,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2018,
     "note_avis": 6.5,
-    "note_recence": 8.2,
-    "note_globale": 7.4,
+    "note_recence": 7.6,
+    "note_globale": 7.1,
     "categories": [
       "drame_emotion"
     ],
@@ -3842,7 +3970,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Mia a 11 ans quand elle noue une relation hors du commun avec Charlie, un lionceau blanc né dans la ferme d'élevage de félins de ses parents en Afrique du Sud. Pendant trois ans, ils vont grandir ensemble et vivre une amitié fusionnelle. Quand Mia atteint l'âge de 14 ans et que Charlie est devenu un magnifique lion adulte, elle découvre l’insoutenable vérité: son père a décidé de le vendre à des chasseurs de trophées. Désespérée, Mia n’a pas d’autre choix que de fuir avec Charlie pour le sauver.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-12-26"
   },
   {
     "id": "jw-tm1028338",
@@ -3853,8 +3983,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2021,
     "note_avis": 6.5,
-    "note_recence": 8.8,
-    "note_globale": 7.7,
+    "note_recence": 8.5,
+    "note_globale": 7.5,
     "categories": [
       "comedie"
     ],
@@ -3890,7 +4020,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Un père quitte son emploi malheureux dans une banque pour poursuivre une carrière d'acteur.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2021-10-19"
   },
   {
     "id": "jw-tm1060775",
@@ -3901,8 +4033,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2022,
     "note_avis": 6.1,
-    "note_recence": 9.1,
-    "note_globale": 7.6,
+    "note_recence": 8.8,
+    "note_globale": 7.5,
     "categories": [
       "animation_famille"
     ],
@@ -3940,7 +4072,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Quand la famille Primm déménage à New York, leur jeune fils Josh peine à s'adapter à sa nouvelle école et à ses nouveaux camarades. Tout cela change quand il découvre Enzo - un crocodile chanteur qui aime les bains et le caviar – et qui vit dans le grenier de sa nouvelle maison. Enzo et Josh deviennent rapidement amis, mais lorsque l'existence de l’insolite crocodile est menacée par leur diabolique voisin, M. Grumps, les Primm s'allient avec Hector P. Valenti, le propriétaire d’Enzo, afin de prouver au monde qu’une famille peut toujours s’improviser, et qu'il n'y a aucun mal à intégrer un grand reptile mélomane, doté d'une personnalité haute en couleur et d’une incroyable voix.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2022-11-30"
   },
   {
     "id": "jw-tm1219349",
@@ -3951,8 +4085,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2022,
     "note_avis": 6.1,
-    "note_recence": 9.1,
-    "note_globale": 7.6,
+    "note_recence": 8.8,
+    "note_globale": 7.5,
     "categories": [
       "animation_famille"
     ],
@@ -3990,7 +4124,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Gaspard et son ami Petit Pierre jouent dans le garage lorsqu'ils s'aperçoivent que le brigand Briquambroque a volé le précieux moulin à café de grand-mère. Alors qu'ils se lancent à sa recherche et essayent de lui tendre un piège dans la forêt, les deux garçons se font capturer par le brigand qui les livre bientôt au grand méchant magicien.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2026-05-15"
   },
   {
     "id": "jw-tm1253009",
@@ -4001,8 +4137,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2022,
     "note_avis": 6.1,
-    "note_recence": 9.1,
-    "note_globale": 7.6,
+    "note_recence": 8.8,
+    "note_globale": 7.5,
     "categories": [
       "animation_famille"
     ],
@@ -4038,7 +4174,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Durant les vacances de Noël, Ava, 11 ans, souhaite que ses parents surprotecteurs s'en aillent. Le lendemain matin, tous les adultes ont soudainement disparu. Les enfants peuvent enfin faire ce qu'ils veulent !",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2026-09-08"
   },
   {
     "id": "jw-tm207603",
@@ -4049,8 +4187,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2015,
     "note_avis": 6.7,
-    "note_recence": 7.5,
-    "note_globale": 7.1,
+    "note_recence": 6.7,
+    "note_globale": 6.7,
     "categories": [
       "comedie"
     ],
@@ -4078,7 +4216,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 103,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "act",
       "cmy",
@@ -4087,7 +4225,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Les aventures débridées de deux ados un peu à la marge : le petit \"Microbe\" et l'inventif \"Gasoil\". Alors que les grandes vacances approchent, les deux amis n'ont aucune envie de passer deux mois avec leur famille. A l'aide d'un moteur de tondeuse et de planches de bois, ils décident donc de fabriquer leur propre \"voiture\" et de partir à l'aventure sur les routes de France...",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2015,
+    "date_ajout": "2015-07-08"
   },
   {
     "id": "jw-tm449719",
@@ -4098,8 +4238,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2019,
     "note_avis": 6.2,
-    "note_recence": 8.4,
-    "note_globale": 7.3,
+    "note_recence": 7.9,
+    "note_globale": 7.1,
     "categories": [
       "comedie"
     ],
@@ -4136,7 +4276,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Émile, 14 ans, traverse comme il peut son adolescence dans une petite ville de la région parisienne, entre un père représentant de commerce, fantasque et doux dingue, et une mère pas tellement plus saine d’esprit, qui teint les cheveux en blond de son fils tous les mois, parce que, paraît-il, il est plus beau comme ça. Persuadé de la pertinence de cette décoloration capillaire, Émile en a néanmoins terriblement honte, tout comme il a honte de vivre dans une caravane sur le terrain où Bernard et Annie, ses parents, doivent faire bâtir leur maison… le jour où ils obtiendront le permis de construire. Quand Pauline, la fille du lycée dont il est amoureux, invite Émile à Venise pour un concert à la Fenice, Bernard décide que toute la famille va l’accompagner avec la caravane, pour un voyage aussi rocambolesque qu’initiatique.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-05-29"
   },
   {
     "id": "jw-tm170890",
@@ -4147,8 +4289,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2011,
     "note_avis": 7,
-    "note_recence": 6.5,
-    "note_globale": 6.8,
+    "note_recence": 5.5,
+    "note_globale": 6.3,
     "categories": [
       "thriller_policier"
     ],
@@ -4184,7 +4326,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Été 1979, une petite ville de l’Ohio. Alors qu'ils tournent un film en super 8, un groupe d’adolescents est témoin d'une spectaculaire catastrophe ferroviaire. Ils ne tardent pas à comprendre qu'il ne s'agit pas d'un accident. Peu après, des disparitions étonnantes et des événements inexplicables se produisent en ville, et la police tente de découvrir la vérité… Une vérité qu’aucun d’entre eux n’aurait pu imaginer.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2011,
+    "date_ajout": "2011-06-10"
   },
   {
     "id": "jw-tm145303",
@@ -4245,8 +4389,8 @@ const CATALOG_DATA = [
     "position": "Films • Ciné+ Family & SCIFI",
     "annee": 2013,
     "note_avis": 6.4,
-    "note_recence": 7,
-    "note_globale": 6.7,
+    "note_recence": 6.1,
+    "note_globale": 6.3,
     "categories": [
       "animation_famille"
     ],
@@ -4281,7 +4425,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Albator était jadis un officier de l’armée. À bord de son vaisseau l’Arcadia, il a provoqué le soulèvement des forces alliées avant de disparaître du système solaire. Devenu une véritable légende après un siècle d’errance, son but reste mystérieux et lorsque son vaisseau réapparaît tel un vaisseau fantôme, de nombreuses questions resurgissent. Pourquoi Albator est‐il devenu un pirate ? Pourquoi l’homme à la profonde cicatrice s’est‐il révolté contre le gouvernement ? Que va‐t‐il faire à présent ?",
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2013,
+    "date_ajout": "2013-12-25"
   },
   {
     "id": "jw-tm186578",
@@ -4292,8 +4438,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2013,
     "note_avis": 6.1,
-    "note_recence": 7,
-    "note_globale": 6.6,
+    "note_recence": 6.1,
+    "note_globale": 6.1,
     "categories": [
       "comedie"
     ],
@@ -4329,7 +4475,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Thomas est un jeune homme qui rêve de faire carrière dans la musique, mais il n'a pas de réel talent. Gilbert quant à lui est le futur beau-père de Thomas, marié à Suzanne, une bobo, depuis 30 ans et père de Lola, la fiancée de Thomas. Lassé de sa vie de couple plan-plan, Gilbert décide de partir refaire sa vie, entraînant Thomas avec lui pour lui éviter de sombrer dans la même routine matrimoniale. Ils se lancent alors dans une nouvelle vie de gamins pleine de péripéties, persuadés que la liberté est ailleurs, sans les soucis du quotidien, mais aussi de s'en créer d'autres. Mais à quel prix retrouve t-on ses rêves d’ado ?…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2013,
+    "date_ajout": "2013-04-17"
   },
   {
     "id": "jw-tm144685",
@@ -4388,8 +4536,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2016,
     "note_avis": 6.8,
-    "note_recence": 7.7,
-    "note_globale": 7.3,
+    "note_recence": 7,
+    "note_globale": 6.9,
     "categories": [
       "scifi_fantastique"
     ],
@@ -4417,7 +4565,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 116,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "act",
       "cmy",
@@ -4426,7 +4574,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Erin est une scientifique qui croit aux phénomènes paranormaux. Mais afin de continuer à enseigner, elle doit faire disparaître toutes traces d’un livre rédigé sur les fantômes. Elle se rend dans les bureaux de sa coauteure Abby qui, en compagnie de sa brillante collègue Jillian, a fabriqué une technologie pour repérer les esprits. C’est à ce moment qu’elles apprennent qu’un manoir est peut‐être hanté. En se rendant sur les lieux, les trois femmes découvrent une étrange apparition qui les pousse à poursuivre les recherches…",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2016-08-10"
   },
   {
     "id": "jw-tm103568",
@@ -4633,7 +4783,7 @@ const CATALOG_DATA = [
     "position": "Films • Ciné+ Festival & OCS",
     "annee": 2024,
     "note_avis": 8.1,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 8.8,
     "categories": [
       "drame_emotion"
@@ -4666,7 +4816,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Rio, 1970, sous la dictature militaire. La grande maison des Paiva, près de la plage, est un havre de vie, de paroles partagées, de jeux, de rencontres. Jusqu’au jour où des hommes du régime viennent arrêter Rubens, le père de famille, qui disparaît sans laisser de traces. Sa femme Eunice et ses cinq enfants mèneront alors un combat acharné pour la recherche de la vérité...",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-01-15"
   },
   {
     "id": "jw-tm1471341",
@@ -4677,8 +4829,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
     "note_avis": 7,
-    "note_recence": 9.5,
-    "note_globale": 8.3,
+    "note_recence": 9.4,
+    "note_globale": 8.2,
     "categories": [
       "drame_emotion"
     ],
@@ -4712,7 +4864,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "À 12 ans, Bailey vit avec son frère Hunter et son père Bug, qui les élève seul dans un squat au nord du Kent. Bug n’a pas beaucoup de temps à leur consacrer et Bailey, qui approche de la puberté, cherche de l’attention et de l’aventure ailleurs.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-01-01"
   },
   {
     "id": "jw-tm1472770",
@@ -4723,7 +4877,7 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
     "note_avis": 6.3,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7.9,
     "categories": [
       "drame_emotion"
@@ -4759,7 +4913,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Touda rêve de devenir une Cheikha, une artiste traditionnelle marocaine, qui chante sans pudeur ni censure des textes de résistance, d’amour et d'émancipation, transmis depuis des générations. Se produisant tous les soirs dans les bars de sa petite ville de province sous le regard des hommes, Touda nourrit l’espoir d'un avenir meilleur pour elle et son fils. Maltraitée et humiliée, elle décide de tout quitter pour les lumières de Casablanca…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-12-18"
   },
   {
     "id": "jw-tm1284483",
@@ -4770,8 +4926,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2023,
     "note_avis": 7,
-    "note_recence": 9.3,
-    "note_globale": 8.2,
+    "note_recence": 9.1,
+    "note_globale": 8.1,
     "categories": [
       "drame_emotion"
     ],
@@ -4806,7 +4962,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Elena, une danseuse épanouie, fait la rencontre de Dovydas, un interprète en langue des signes. Leur connexion est immédiate. Alors que leur lien s'approfondit, Dovydas confie à Elena, qu'il ne ressent aucun désir sexuel pour elle, ni pour personne : il est asexuel. Ensemble, ils tentent de bâtir une nouvelle forme d’intimité.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2025-08-06"
   },
   {
     "id": "jw-tm1514425",
@@ -4817,7 +4975,7 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
     "note_avis": 6.1,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7.8,
     "categories": [
       "thriller_policier"
@@ -4854,7 +5012,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Sicile, au début des années 2000. Après plusieurs années de prison pour collusion avec la mafia, Catello, homme politique aguerri, a tout perdu. Lorsque les services secrets italiens sollicitent son aide pour capturer son filleul Matteo, le dernier chef mafieux en cavale, Catello saisit l'occasion pour se remettre en selle. Homme rusé aux cent masques, illusionniste infatigable qui transforme la vérité en mensonge et le mensonge en vérité, Catello entame une correspondance improbable et singulière avec le fugitif, cherchant à profiter de son vide affectif. Un pari qui, avec l'un des criminels les plus recherchés au monde, comporte un certain risque... Librement inspiré de faits réels .Les personnages du film sont cependant le fruit de l'imagination des auteurs. La réalité est un point de départ, pas une destination.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-04-16"
   },
   {
     "id": "jw-tm1425173",
@@ -4865,7 +5025,7 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
     "note_avis": 6.5,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 8,
     "categories": [
       "drame_emotion"
@@ -4900,7 +5060,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Jeff est invité par son ami Max à séjourner dans le grand domaine isolé au fond des bois où vit l’illustre réalisateur Blake Cadieux. Les attentes sont grandes. Il rencontre un artiste qu’il admire, en plus de passer quelques jours en compagnie d’Aliocha, la sœur aînée de son ami, dont il est secrètement amoureux. La forêt hostile et sauvage, comme la vaste maison, deviennent des territoires où se confrontent une jeunesse en quête d’idéal et de liberté face aux égos blessés des adultes.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-12-17"
   },
   {
     "id": "jw-tm1466382",
@@ -4911,7 +5073,7 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
     "note_avis": 7.5,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 8.5,
     "categories": [
       "drame_emotion"
@@ -4947,7 +5109,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Maria, 40 ans, jongle entre ses quatre enfants et une carrière exigeante tandis que son second mari, Sigmund, voyage de plus en plus pour son travail. Un soir, ils se disputent violemment et Sigmund finit par annoncer qu'il veut divorcer.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-06-18"
   },
   {
     "id": "jw-tm1501132",
@@ -4958,8 +5122,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
     "note_avis": 6.4,
-    "note_recence": 9.5,
-    "note_globale": 8,
+    "note_recence": 9.4,
+    "note_globale": 7.9,
     "categories": [
       "drame_emotion"
     ],
@@ -4987,7 +5151,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 109,
-    "etoiles": 5,
+    "etoiles": 4,
     "raw_genres": [
       "drm",
       "trl",
@@ -4995,7 +5159,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Jie, un jeune talent prometteur de l’escrime, renoue avec son frère aîné Han, récemment libéré après sept ans de prison pour la mort accidentelle d’un adversaire lors d’une compétition. En secret, Han soutient Jie dans son entraînement, l’aidant à viser une qualification aux championnats nationaux. Mais une dispute éclate, et Jie commence à douter de l’innocence de son frère.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-12-31"
   },
   {
     "id": "jw-tm1106609",
@@ -5006,8 +5172,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
     "note_avis": 5.6,
-    "note_recence": 9.5,
-    "note_globale": 7.6,
+    "note_recence": 9.4,
+    "note_globale": 7.5,
     "categories": [
       "thriller_policier"
     ],
@@ -5043,7 +5209,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Dans la nuit, Nadira fuit Dehli après avoir poignardé un policier. Elle se cache dans une communauté de prostituées du nord de l’Inde où elle rencontre Devika, une jeune fille que sa mère veut marier de force. Ensemble, au péril de leur vie, elles décident de se rebeller contre l’institution religieuse et les traditions archaïques pour conquérir leur liberté.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-05-14"
   },
   {
     "id": "jw-tm1515207",
@@ -5054,7 +5222,7 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
     "note_avis": 6.9,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 8.2,
     "categories": [
       "drame_emotion"
@@ -5089,7 +5257,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Un père et sa fille habitent les mondes de l’enfance. Il lui parle avec respect et sérieux, comme à une grande personne, il l’entraine dans des univers magiques débordants de vie et d’humanité. Il est le grand cinéaste de l’enfance et travaille sur Pinocchio. Un jour, la petite fille devient une jeune femme et l’enchantement disparait. Elle comprend que la rupture avec l’enfance est inéluctable et a le sentiment qu’elle ne sera plus jamais à la hauteur de son père. Alors elle commence à lui mentir et se laisse aller, jusqu’au bord du gouffre. Le père ne fera pas semblant de ne pas voir. Il sera là pour elle, tout le temps qu’il faut.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-06-11"
   },
   {
     "id": "jw-tm1504526",
@@ -5100,8 +5270,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
     "note_avis": 6.4,
-    "note_recence": 9.5,
-    "note_globale": 8,
+    "note_recence": 9.4,
+    "note_globale": 7.9,
     "categories": [
       "scifi_fantastique"
     ],
@@ -5129,7 +5299,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 98,
-    "etoiles": 5,
+    "etoiles": 4,
     "raw_genres": [
       "act",
       "cmy",
@@ -5138,7 +5308,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "En 1999, après une bagarre, trois adolescents se retrouvent accidentellement exposés à une mystérieuse substance. Ils découvrent alors qu’un simple éternuement suffit à les faire voyager dans le temps.  Propulsés vingt ans plus tard, ils se retrouvent chargés d’une mission capitale : sauver le monde.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-11-30"
   },
   {
     "id": "jw-tm1470861",
@@ -5149,7 +5321,7 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
     "note_avis": 7.1,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 8.3,
     "categories": [
       "drame_emotion"
@@ -5186,7 +5358,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Pedro rentre d’Espagne dans son pays natal l’Argentine pour revoir ses proches. Mais les retrouvailles avec un ami d’enfance, le séduisant Maxi, prennent une tournure inattendue à mesure que leur relation devient de plus en plus ambigüe. Bien que Maxi soit hétérosexuel, la montée du désir entre eux ne cesse de croître tandis qu’ils cherchent à le cacher, et peut-être à l’accepter ?",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-07-02"
   },
   {
     "id": "jw-tm1519016",
@@ -5197,7 +5371,7 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2024,
     "note_avis": 6.3,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7.9,
     "categories": [
       "comedie"
@@ -5233,7 +5407,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Depuis des années, Henri et Nora partagent tout : ils s’aiment et elle met en scène les pièces dans lesquelles il joue. Quand Henri décroche pour la première fois un rôle au cinéma, la création de leur nouveau spectacle prend l’eau et leur couple explose. Est-il possible de s’aimer sans s’appartenir complètement ?",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-12-18"
   },
   {
     "id": "jw-tm418500",
@@ -5244,8 +5420,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2018,
     "note_avis": 7,
-    "note_recence": 8.2,
-    "note_globale": 7.6,
+    "note_recence": 7.6,
+    "note_globale": 7.3,
     "categories": [
       "drame_emotion"
     ],
@@ -5280,7 +5456,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Paris, de nos jours. David, la vingtaine, vit au présent. Il jongle entre différents petits boulots et recule, pour un temps encore, l'heure de choix plus engageants. Solitaire et rêveur, il tombe sous le charme de Léna, une voisine fraîchement débarquée. Le cours tranquille des choses vole en éclat quand sa sœur aînée meurt brutalement dans un attentat. Il se retrouve alors en charge de sa jeune nièce de sept ans, Amanda.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-11-21"
   },
   {
     "id": "jw-tm322143",
@@ -5291,8 +5469,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2017,
     "note_avis": 6.1,
-    "note_recence": 7.9,
-    "note_globale": 7,
+    "note_recence": 7.3,
+    "note_globale": 6.7,
     "categories": [
       "drame_emotion"
     ],
@@ -5320,7 +5498,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 107,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "drm",
       "trl",
@@ -5328,7 +5506,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Malgré la menace de mort qui pèse sur sa tête, Stéphane décide de retourner en Corse pour assister à l'enterrement de Christophe, son ami d'enfance et compagnon de lutte, assassiné la veille. C’est l’occasion pour lui de se rappeler les évènements qui l’ont vu passer, petit bourgeois cultivé de Bastia, de la délinquance au radicalisme politique et du radicalisme politique à la clandestinité.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2017-08-09"
   },
   {
     "id": "jw-tm1124675",
@@ -5339,8 +5519,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2022,
     "note_avis": 6.1,
-    "note_recence": 9.1,
-    "note_globale": 7.6,
+    "note_recence": 8.8,
+    "note_globale": 7.5,
     "categories": [
       "comedie"
     ],
@@ -5375,7 +5555,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Suite à une blague sexiste devenue virale, Cédric, jeune papa, est suspendu par son employeur. Pour se racheter, il va avec l'aide de son frère Jean-Michel, s'interroger sur les fondements de sa misogynie à travers l’écriture d’un livre. De son côté, sa femme Nadine en proie à une dépression décide d'écourter son congé maternité. L’arrivée dans leur vie d’une baby-sitter au charme espiègle et envouteur, va chambouler leur existence.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2022-04-27"
   },
   {
     "id": "jw-tm201216",
@@ -5386,8 +5568,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2015,
     "note_avis": 7.1,
-    "note_recence": 7.5,
-    "note_globale": 7.3,
+    "note_recence": 6.7,
+    "note_globale": 6.9,
     "categories": [
       "drame_emotion"
     ],
@@ -5415,7 +5597,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 125,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "doc",
       "drm",
@@ -5424,7 +5606,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Tony est admise dans un centre de rééducation après une grave chute de ski. Dépendante du personnel médical et des antidouleurs, elle prend le temps de se remémorer l’histoire tumultueuse qu’elle a vécue avec Georgio. Pourquoi se sont-ils aimés ? Qui est réellement l’homme qu’elle a adoré ? Comment a-t-elle pu se soumettre à cette passion étouffante et destructrice ? Pour Tony c’est une difficile reconstruction qui commence désormais, un travail corporel qui lui permettra peut-être de définitivement se libérer…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2015,
+    "date_ajout": "2015-10-21"
   },
   {
     "id": "jw-tm139879",
@@ -5435,8 +5619,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2015,
     "note_avis": 6.6,
-    "note_recence": 7.5,
-    "note_globale": 7.1,
+    "note_recence": 6.7,
+    "note_globale": 6.7,
     "categories": [
       "drame_emotion"
     ],
@@ -5464,7 +5648,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 113,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "drm",
       "hst",
@@ -5472,7 +5656,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "11ème siècle : Écosse. Macbeth, chef des armées, sort victorieux de la guerre qui fait rage dans tout le pays. Sur son chemin, trois sorcières lui prédisent qu’il deviendra roi. Comme envoûtés par la prophétie, Macbeth et son épouse montent alors un plan machiavélique pour régner sur le trône, jusqu’à en perdre la raison.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2015,
+    "date_ajout": "2015-11-18"
   },
   {
     "id": "jw-tm244428",
@@ -5483,8 +5669,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2016,
     "note_avis": 6.6,
-    "note_recence": 7.7,
-    "note_globale": 7.2,
+    "note_recence": 7,
+    "note_globale": 6.8,
     "categories": [
       "drame_emotion"
     ],
@@ -5512,14 +5698,16 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 100,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "drm",
       "eur"
     ],
     "synopsis": "22 Novembre 1963 : John F. Kennedy, 35ème président des États-Unis, vient d’être assassiné à Dallas.  Confrontée à la violence de son deuil, sa veuve, Jacqueline Bouvier Kennedy, First Lady admirée pour son élégance et sa culture, tente d’en surmonter le traumatisme, décidée à mettre en lumière l’héritage politique du président et à célébrer l’homme qu’il fut.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2017-02-01"
   },
   {
     "id": "jw-tm160300",
@@ -5530,8 +5718,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2014,
     "note_avis": 7,
-    "note_recence": 7.2,
-    "note_globale": 7.1,
+    "note_recence": 6.4,
+    "note_globale": 6.7,
     "categories": [
       "drame_emotion"
     ],
@@ -5559,7 +5747,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 134,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "drm",
       "hst",
@@ -5568,7 +5756,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Inspiré d’une histoire vraie, Foxcatcher raconte l’histoire tragique et fascinante de la relation improbable entre un milliardaire excentrique et deux champions de lutte.  Lorsque le médaillé d’or olympique Mark Schultz est invité par le riche héritier John du Pont à emménager dans sa magnifique propriété familiale pour aider à mettre en place un camp d’entraînement haut de gamme, dans l’optique des JO de Séoul de 1988, Schultz saute sur l’occasion : il espère pouvoir concentrer toute son attention sur son entraînement et ne plus souffrir d’être constamment éclipsé par son frère, Dave. Obnubilé par d’obscurs besoins, du Pont entend bien profiter de son soutien à Schultz et de son opportunité de « coacher » des lutteurs de réputation mondiale pour obtenir – enfin – le respect de ses pairs et, surtout, de sa mère qui le juge très durement.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2014,
+    "date_ajout": "2015-01-16"
   },
   {
     "id": "jw-tm185167",
@@ -5579,8 +5769,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2011,
     "note_avis": 7.4,
-    "note_recence": 6.5,
-    "note_globale": 7,
+    "note_recence": 5.5,
+    "note_globale": 6.5,
     "categories": [
       "drame_emotion"
     ],
@@ -5608,14 +5798,16 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 87,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "drm",
       "eur"
     ],
     "synopsis": "Cyril, bientôt 12 ans, n'a qu'une idée en tête : retrouver son père qui l'a placé provisoirement dans un foyer pour enfants. Il rencontre par hasard Samantha, qui tient un salon de coiffure et qui accepte de l'accueillir chez elle pendant les week-ends. Mais Cyril ne voit pas encore l'amour que Samantha lui porte, cet amour dont il a pourtant besoin pour apaiser sa colère…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2011,
+    "date_ajout": "2011-05-18"
   },
   {
     "id": "jw-tm230408",
@@ -5626,8 +5818,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2015,
     "note_avis": 6.6,
-    "note_recence": 7.5,
-    "note_globale": 7.1,
+    "note_recence": 6.7,
+    "note_globale": 6.7,
     "categories": [
       "drame_emotion"
     ],
@@ -5655,14 +5847,16 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 106,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "drm",
       "eur"
     ],
     "synopsis": "Au milieu de l'été, Sasha, 30 ans, décède soudainement. Alors qu'ils se connaissent peu, son compagnon Lawrence et sa sœur Zoé se rapprochent. Ils partagent comme ils peuvent la peine et le poids de l'absence, entre Berlin, Paris et New York. Trois étés, trois villes, le temps de leur retour à la lumière, portés par le souvenir de celle qu'ils ont aimée.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2015,
+    "date_ajout": "2016-06-21"
   },
   {
     "id": "jw-tm152940",
@@ -5673,8 +5867,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Festival",
     "annee": 2014,
     "note_avis": 6.4,
-    "note_recence": 7.2,
-    "note_globale": 6.8,
+    "note_recence": 6.4,
+    "note_globale": 6.4,
     "categories": [
       "drame_emotion"
     ],
@@ -5711,7 +5905,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "La tête pleine de rêves, Amélie, 20 ans, revient dans le Japon de son enfance. Elle propose des cours particuliers de français et rencontre Rinri, son premier et unique élève, un jeune Japonais qui devient bientôt son amant. A travers les surprises, bonheurs et déboires de ce choc culturel drôle et poétique, nous découvrons une Amélie toute en spontanéité et tendresse, qui allie la grâce d'un ikebana à l'espièglerie d'un personnage de manga.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2014,
+    "date_ajout": "2026-09-03"
   },
   {
     "id": "jw-tm45399",
@@ -5821,8 +6017,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/325489727/s592/mission-impossible-8.jpg",
     "note_avis": 7.1,
-    "note_recence": 9.8,
-    "note_globale": 8.5,
+    "note_recence": 9.7,
+    "note_globale": 8.4,
     "is_eligible": true,
     "badge": null,
     "chaines": [
@@ -5852,7 +6048,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Ethan Hunt se rend à Londres avec son équipe dans l'espoir de remonter la piste du mystérieux Gabriel, qu'il a affronté deux mois auparavant à bord de l'Orient-Express et qui détient la clé contrôlant l’intelligence artificielle toute puissante surnommée l'Entité. Adulée par les uns, redoutée par les autres, l’Entité se distingue par sa capacité à prédire toutes les éventualités possibles. Elle connaît parfaitement les forces et faiblesses d’Ethan et de son équipe. Gabriel compte l'utiliser pour mettre en œuvre son plan ultime : annihiler Ethan et son équipe, s’emparer de tous les systèmes de défense planétaires et déclencher la Troisième Guerre mondiale.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-05-23"
   },
   {
     "id": "jw-tm1459469",
@@ -5866,7 +6064,7 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/353803348/s592/september-5.jpg",
     "note_avis": 7.1,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 8.3,
     "is_eligible": true,
     "badge": "12",
@@ -5898,7 +6096,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Le film se déroule lors des Jeux Olympiques de Munich de 1972 : l'équipe de télévision américaine se voit contrainte d'interrompre subitement la diffusion des compétitions, pour couvrir la prise d'otage en direct d'athlètes israéliens. Un évènement suivi à l'époque par environ un milliard de personnes dans le monde entier. Au cœur de l'histoire, l'ambitieux jeune producteur Geoff veut faire ses preuves et va se retrouver confronté aux dilemmes de l'information en continu et de la moralité.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-08-29"
   },
   {
     "id": "jw-tm1499459",
@@ -5912,8 +6112,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/323703747/s592/the-room-next-door.jpg",
     "note_avis": 6.8,
-    "note_recence": 9.5,
-    "note_globale": 8.2,
+    "note_recence": 9.4,
+    "note_globale": 8.1,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -5942,7 +6142,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Une mère très imparfaite et une fille rancunière se sont séparées par un grand malentendu. Entre les deux, une autre femme, Ingrid, l'amie de la mère, est la dépositaire de leur douleur et de leur amertume. Martha, la mère, est reporter de guerre et Ingrid est une romancière autofictionnelle.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-01-08"
   },
   {
     "id": "jw-tm1354880",
@@ -5956,7 +6158,7 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/325203770/s592/better-man.jpg",
     "note_avis": 7.5,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 8.5,
     "is_eligible": true,
     "chaines": [
@@ -5988,7 +6190,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Dans le nord de l’Angleterre, le jeune Robbie grandit fasciné par les rêves de gloire de son père qui ne tarde pas à quitter le foyer pour vivre sa passion. Porté par l’amour de sa grand-mère, c’est pourtant Robbie qui va devenir un véritable showman et une star mondiale. Désormais icône internationale, il devra affronter les défis que le succès, la célébrité et la vie elle-même lui réservent.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-01-10"
   },
   {
     "id": "jw-tm1355255",
@@ -6002,8 +6206,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/312765004/s592/yannick.jpg",
     "note_avis": 7,
-    "note_recence": 9.3,
-    "note_globale": 8.2,
+    "note_recence": 9.1,
+    "note_globale": 8.1,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -6034,7 +6238,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "En pleine représentation de la pièce « Le Cocu », un très mauvais boulevard, Yannick se lève et interrompt le spectacle pour reprendre la soirée en main.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-08-02"
   },
   {
     "id": "jw-tm1274881",
@@ -6048,8 +6254,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/307684769/s592/lamour-et-les-forets.jpg",
     "note_avis": 6.5,
-    "note_recence": 9.3,
-    "note_globale": 7.9,
+    "note_recence": 9.1,
+    "note_globale": 7.8,
     "is_eligible": true,
     "badge": null,
     "chaines": [
@@ -6079,7 +6285,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Quand Blanche croise le chemin de Grégoire, elle pense rencontrer celui qu’elle cherche. Les liens qui les unissent se tissent rapidement et leur histoire se construit dans l’emportement. Le couple déménage, Blanche s’éloigne de sa famille, de sa sœur jumelle, s’ouvre à une nouvelle vie. Mais fil après fil, elle se retrouve sous l’emprise d’un homme possessif et dangereux.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-05-24"
   },
   {
     "id": "jw-tm1523749",
@@ -6093,7 +6301,7 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/331876888/s592/le-dernier-souffle.jpg",
     "note_avis": 6.7,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 8.1,
     "is_eligible": true,
     "chaines": [
@@ -6123,7 +6331,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Dans un dialogue amical et passionné, le docteur Augustin Masset et l’écrivain Fabrice Toussaint se confrontent pour l’un à la fin de vie de ses patients et pour l’autre à sa propre fatalité. Emportés par un tourbillon de visites et de rencontres, tous deux démarrent un voyage sensible entre rires et larmes : une aventure humaine au cœur de notre vie à tous.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-02-12"
   },
   {
     "id": "jw-tm1649488",
@@ -6137,8 +6347,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/346166187/s592/eleonora-duse.jpg",
     "note_avis": 5.9,
-    "note_recence": 9.8,
-    "note_globale": 7.9,
+    "note_recence": 9.7,
+    "note_globale": 7.8,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -6168,7 +6378,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "À la fin de la Première Guerre mondiale, alors que l’Italie enterre son soldat inconnu, la grande Eleonora Duse arrive au terme d’une carrière légendaire. Mais malgré son âge et une santé fragile, celle que beaucoup considèrent comme la plus grande actrice de son époque, décide de remonter sur scène. Les récriminations de sa fille, la relation complexe avec le grand poète D’Annunzio, la montée du fascisme et l’arrivée au pouvoir de Mussolini, rien n’arrêtera Duse « la divine ».",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2026-01-14"
   },
   {
     "id": "jw-tm1614987",
@@ -6182,8 +6394,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/336046915/s592/the-chronology-of-water.jpg",
     "note_avis": 6.3,
-    "note_recence": 9.8,
-    "note_globale": 8.1,
+    "note_recence": 9.7,
+    "note_globale": 8,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -6213,7 +6425,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Ayant grandi dans un environnement ravagé par la violence et l’alcool, la jeune Lidia peine à trouver sa voie. Elle parvient à fuir sa famille et entre à l’université, où elle trouve refuge dans la littérature. Peu à peu, les mots lui offrent une liberté inattendue…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-10-15"
   },
   {
     "id": "jw-tm1491686",
@@ -6227,7 +6441,7 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/322056962/s592/le-quatrieme-mur-2025.jpg",
     "note_avis": 6.2,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8,
     "is_eligible": true,
     "badge": null,
@@ -6259,7 +6473,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Liban, 1982. Pour respecter la promesse faite à un vieil ami, Georges se rend à Beyrouth pour un projet aussi utopique que risqué : mettre en scène Antigone afin de voler un moment de paix au cœur d’un conflit fratricide. Les personnages seront interprétés par des acteurs venant des différents camps politiques et religieux.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-01-15"
   },
   {
     "id": "jw-tm1040743",
@@ -6273,8 +6489,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/300794790/s592/where-the-crawdads-sing.jpg",
     "note_avis": 7.2,
-    "note_recence": 9.1,
-    "note_globale": 8.2,
+    "note_recence": 8.8,
+    "note_globale": 8,
     "is_eligible": true,
     "badge": null,
     "chaines": [
@@ -6283,7 +6499,7 @@ const CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_ocs.svg"
     ],
-    "duree": "2h 05min",
+    "duree": "2h 06min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/10",
@@ -6296,7 +6512,7 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 125,
+    "runtime_minutes": 126,
     "etoiles": 5,
     "raw_genres": [
       "drm",
@@ -6305,7 +6521,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Kya est une petite fille abandonnée qui a grandi seule dans les dangereux marécages de Caroline du Nord. Pendant des années, les rumeurs les plus folles ont couru sur la « fille des marais » de Barkley Cove, isolant encore davantage la sensible et résiliente Kya de la communauté. Sa rencontre avec deux jeunes hommes de la ville ouvre à Kya un monde nouveau et effrayant ; mais lorsque l'un d'eux est retrouvé mort, toute la communauté la considère immédiatement comme la principale suspect. À mesure que la vérité sur les évènements se dessine, les réponses menacent de révéler les nombreux secrets enfouis dans les marécages.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2022-08-17"
   },
   {
     "id": "jw-tm1125206",
@@ -6319,8 +6537,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/302981941/s592/lorigine-du-mal.jpg",
     "note_avis": 6.6,
-    "note_recence": 9.1,
-    "note_globale": 7.9,
+    "note_recence": 8.8,
+    "note_globale": 7.7,
     "is_eligible": true,
     "badge": null,
     "chaines": [
@@ -6350,7 +6568,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Dans une luxueuse villa en bord de mer, une jeune femme modeste retrouve une étrange famille : un père inconnu et très riche, son épouse fantasque, sa fille, une femme d’affaires ambitieuse, une ado rebelle ainsi qu’une inquiétante servante.  Quelqu’un ment.  Entre suspicions et mensonges, le mystère s’installe et le mal se répand…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2022-10-05"
   },
   {
     "id": "jw-tm1431001",
@@ -6364,8 +6584,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/316074048/s592/a-notre-beau-metier.jpg",
     "note_avis": 6.4,
-    "note_recence": 9.5,
-    "note_globale": 8,
+    "note_recence": 9.4,
+    "note_globale": 7.9,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -6388,14 +6608,16 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 80,
-    "etoiles": 5,
+    "etoiles": 4,
     "raw_genres": [
       "cmy",
       "drm"
     ],
     "synopsis": "Florence veut présenter David, l'homme dont elle est follement amoureuse, à son père Guillaume. Mais David n'est pas attiré par Florence et souhaite s'en débarrasser en la jetant dans les bras de son ami Willy.  Les quatre personnages se retrouvent dans un restaurant au milieu de nulle part.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-05-14"
   },
   {
     "id": "jw-tm1480763",
@@ -6409,7 +6631,7 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/325889128/s592/parthenope-2024.jpg",
     "note_avis": 6.5,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 8,
     "is_eligible": true,
     "badge": null,
@@ -6440,7 +6662,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "La vie de Parthénope de sa naissance dans les années 1950 à nos jours. Une épopée féminine dépourvue d’héroïsme mais éprise de liberté, de Naples, et d’amour. Les amours vraies, indicibles ou sans lendemain qui vous condamnent à la douleur mais qui vous font recommencer. Le parfait été à Capri d’une jeunesse insouciante malgré un horizon sans issue. Autour de Parthénope, les napolitains.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-03-12"
   },
   {
     "id": "jw-tm1541236",
@@ -6454,7 +6678,7 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/341608037/s592/lhomme-qui-retrecit-2025.jpg",
     "note_avis": 5.8,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.8,
     "is_eligible": true,
     "chaines": [
@@ -6487,7 +6711,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Paul, un homme ordinaire, qui partage sa vie entre son entreprise de construction navale, sa femme Élise, et leur fille Mia. Lors d’une sortie en mer, Paul se retrouve confronté à un étrange phénomène météorologique inexpliqué. Dès lors, Paul rétrécit inexorablement, sans que la science ne puisse lui expliquer pourquoi ni lui être d’aucun secours. Quand, par accident, il se retrouve prisonnier dans sa propre cave, et alors qu’il ne mesure plus que quelques centimètres, il va devoir se battre pour survivre dans cet environnement banal devenu hostile. Paul va se retrouver confronté à lui-même, à sa force vitale, celle qui le pousse à continuer à vivre et avancer vers le mystère.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-10-22"
   },
   {
     "id": "jw-tm1622508",
@@ -6501,7 +6727,7 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/345888842/s592/deux-procureurs.jpg",
     "note_avis": 7,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.4,
     "is_eligible": true,
     "chaines": [
@@ -6534,7 +6760,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Union Soviétique, 1937. Des milliers de lettres de détenus accusés à tort par le régime sont brûlées dans une cellule de prison. Contre toute attente, l’une d’entre elles arrive à destination, sur le bureau du procureur local fraîchement nommé, Alexander Kornev. Il se démène pour rencontrer le prisonnier, victime d’agents de la police secrète, la NKVD. Bolchévique chevronné et intègre, le jeune procureur croit à un dysfonctionnement. Sa quête de justice le conduira jusqu’au bureau du procureur-général à Moscou. A l’heure des grandes purges staliniennes, c’est la plongée d’un homme dans un régime totalitaire qui ne dit pas son nom.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-11-05"
   },
   {
     "id": "jw-tm1676774",
@@ -6548,8 +6776,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/343223396/s592/jean-valjean-2025.jpg",
     "note_avis": 6.3,
-    "note_recence": 9.8,
-    "note_globale": 8.1,
+    "note_recence": 9.7,
+    "note_globale": 8,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -6579,7 +6807,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "1815. Jean Valjean sort du bagne, brisé, rejeté de tous. Errant sans but, il trouve refuge chez un homme d’Église, sa sœur et leur servante. Face à cette main tendue, Jean Valjean vacille et, dans cette nuit suspendue, devra choisir qui il veut devenir.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-11-19"
   },
   {
     "id": "jw-tm1557119",
@@ -6593,7 +6823,7 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/335202095/s592/des-jours-meilleurs.jpg",
     "note_avis": 6.2,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8,
     "is_eligible": true,
     "chaines": [
@@ -6624,7 +6854,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "A la suite d’un accident de voiture, Suzanne perd la garde de ses trois enfants. Elle n’a plus le choix et doit se soigner dans un centre pour alcooliques. A peine arrivée, elle y rencontre Alice et Diane, deux femmes au caractère bien trempé… Denis, éducateur sportif, va tenter de les réunir autour du même objectif : participer au rallye des Dunes dans le désert marocain. Il devra s’armer de beaucoup de patience et de pédagogie pour préparer cette improbable équipage à atteindre son objectif.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-04-23"
   },
   {
     "id": "jw-tm1621855",
@@ -6638,8 +6870,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/346166055/s592/urchin.jpg",
     "note_avis": 6.7,
-    "note_recence": 9.8,
-    "note_globale": 8.3,
+    "note_recence": 9.7,
+    "note_globale": 8.2,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -6668,7 +6900,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "À Londres, Mike vit dans la rue, il va de petits boulots en larcins, jusqu'au jour où il se fait incarcérer. À sa sortie de prison, aidé par les services sociaux, il tente de reprendre sa vie en main en combattant ses vieux démons.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-02-27"
   },
   {
     "id": "jw-tm1530728",
@@ -6682,7 +6916,7 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/330734142/s592/dans-leau.jpg",
     "note_avis": 5,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.4,
     "is_eligible": true,
     "chaines": [
@@ -6712,7 +6946,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Sarah et Antoine sont au bord de la rupture, fragilisés par un quotidien surchargé, entre le travail et leurs deux enfants. Un jour, Simon, l’aîné, confie à sa mère entendre des voix. Si Antoine peine à prendre la mesure du problème, Sarah décide de soutenir son fils. Jusqu’où sera-t-elle prête à aller par amour ?",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-01-15"
   },
   {
     "id": "jw-tm1622500",
@@ -6726,7 +6962,7 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/346192403/s592/la-petite-derniere.jpg",
     "note_avis": 6.8,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.3,
     "is_eligible": true,
     "chaines": [
@@ -6757,7 +6993,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Fatima, 17 ans, est la petite dernière. Elle vit en banlieue avec ses sœurs, dans une famille joyeuse et aimante. Bonne élève, elle intègre une fac de philosophie à Paris et découvre un tout nouveau monde. Alors que débute sa vie de jeune femme, elle s’émancipe de sa famille et ses traditions. Fatima se met alors à questionner son identité. Comment concilier sa foi avec ses désirs naissants ?",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-10-22"
   },
   {
     "id": "jw-tm1587740",
@@ -6771,7 +7009,7 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/327406490/s592/la-cache.jpg",
     "note_avis": 5.8,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.8,
     "is_eligible": true,
     "chaines": [
@@ -6802,7 +7040,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Christophe, 9 ans, vit les événements de mai 68, planqué chez ses grands-parents, dans l’appartement familial à Paris, entouré de ses oncles et de son arrière-grand-mère. Tous bivouaquent autour d’une mystérieuse cache, qui révèlera peu à peu ses secrets…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-03-19"
   },
   {
     "id": "jw-tm1486490",
@@ -6816,8 +7056,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/332749848/s592/dans-la-cuisine-des-nguyen-2025.jpg",
     "note_avis": 6.3,
-    "note_recence": 9.8,
-    "note_globale": 8.1,
+    "note_recence": 9.7,
+    "note_globale": 8,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -6847,7 +7087,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Yvonne Nguyen, jeune femme d’origine vietnamienne, rêve d’une carrière dans la comédie musicale au grand dam de sa mère qui préférerait la voir reprendre son restaurant en banlieue. L’intimité de la cuisine, entre plats familiaux et recettes traditionnelles, leur permettra-t-elle enfin de communiquer, se comprendre et s’accepter ?",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-03-05"
   },
   {
     "id": "jw-tm243734",
@@ -6861,8 +7103,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/168800812/s592/jaccuse-2019.jpg",
     "note_avis": 7.2,
-    "note_recence": 8.4,
-    "note_globale": 7.8,
+    "note_recence": 7.9,
+    "note_globale": 7.6,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -6894,7 +7136,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Pendant les 12 années qu'elle dura, l'Affaire Dreyfus déchira la France, provoquant un véritable séisme dans le monde entier. Dans cet immense scandale, le plus grand sans doute de la fin du XIXe siècle, se mêlent erreur judiciaire, déni de justice et antisémitisme. L'affaire est racontée du point de vue du Colonel Picquart qui, une fois nommé à la tête du contre-espionnage, va découvrir que les preuves contre le Capitaine Alfred Dreyfus avaient été fabriquées. À partir de cet instant et au péril de sa carrière puis de sa vie, il n'aura de cesse d'identifier les vrais coupables et de réhabiliter Alfred Dreyfus.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-11-13"
   },
   {
     "id": "jw-tm469231",
@@ -6908,8 +7152,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/174776778/s592/la-belle-epoque.jpg",
     "note_avis": 7.4,
-    "note_recence": 8.4,
-    "note_globale": 7.9,
+    "note_recence": 7.9,
+    "note_globale": 7.7,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -6942,7 +7186,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Victor, un sexagénaire désabusé, voit sa vie bouleversée le jour où Antoine, un brillant entrepreneur, lui propose une attraction d’un genre nouveau: mélangeant artifices théâtraux et reconstitution historique, cette entreprise propose à ses clients de replonger dans l’époque de leur choix. Victor choisit alors de revivre la semaine la plus marquante de sa vie: celle où, 40 ans plus tôt, il rencontra le grand amour...",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-11-06"
   },
   {
     "id": "jw-tm1517399",
@@ -6956,8 +7202,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/321612818/s592/maria-2025.jpg",
     "note_avis": 6.4,
-    "note_recence": 9.5,
-    "note_globale": 8,
+    "note_recence": 9.4,
+    "note_globale": 7.9,
     "is_eligible": true,
     "badge": null,
     "chaines": [
@@ -6980,7 +7226,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 124,
-    "etoiles": 5,
+    "etoiles": 4,
     "raw_genres": [
       "drm",
       "hst",
@@ -6988,7 +7234,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Paris, automne 1977. Après quatre ans d'absence, la cantatrice Maria Callas envisage un retour sur scène. Et ce, malgré sa voix déclinante, aggravée par sa prise excessive de médicaments et son refus de s'alimenter. Refusant obstinément de voir un médecin, la diva gréco-américaine préfère accorder une entrevue à un aspirant cinéaste. L'entretien donne ainsi l'occasion à Maria de revisiter les moments charnières de sa vie. À commencer par son adolescence en Grèce occupée, alors que sa mère entremetteuse l'obligeait à chanter pour des officiers SS. Jusqu'à son histoire d'amour avec l'armateur Aristote Onassis, qui se soldera par le départ de ce dernier avec la veuve du président américain John F. Kennedy.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2008-07-02"
   },
   {
     "id": "jw-tm854098",
@@ -7002,8 +7250,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/208454480/s592/adieu-les-cons.jpg",
     "note_avis": 6.7,
-    "note_recence": 8.6,
-    "note_globale": 7.7,
+    "note_recence": 8.2,
+    "note_globale": 7.5,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -7033,7 +7281,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Lorsque Suze Trappet apprend à 43 ans qu'elle est sérieusement malade, elle décide de partir à la recherche de l'enfant qu'elle a été forcée d'abandonner quand elle avait 15 ans. Sa quête administrative va lui faire croiser JB, quinquagénaire en plein burn out, et M. Blin, archiviste aveugle d'un enthousiasme impressionnant.  À eux trois, ils se lancent dans une quête aussi spectaculaire qu'improbable.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2020-10-21"
   },
   {
     "id": "jw-tm1334396",
@@ -7047,8 +7297,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/305444944/s592/le-livre-des-solutions.jpg",
     "note_avis": 6.1,
-    "note_recence": 9.3,
-    "note_globale": 7.7,
+    "note_recence": 9.1,
+    "note_globale": 7.6,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -7078,7 +7328,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Marc s'enfuit avec toute son équipe dans un petit village des Cévennes pour finir son film chez sa tante Denise. Sur place, sa créativité se manifeste par un million d'idées qui le plongent dans un drôle de chaos. Marc se lance alors dans l’écriture du Livre des Solutions, un guide de conseils pratiques qui pourrait bien être la solution à tous ses problèmes…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-09-13"
   },
   {
     "id": "jw-tm1497308",
@@ -7092,8 +7344,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/328933150/s592/le-routard.jpg",
     "note_avis": 4.5,
-    "note_recence": 9.8,
-    "note_globale": 7.2,
+    "note_recence": 9.7,
+    "note_globale": 7.1,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -7122,7 +7374,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Yann n’a qu’un seul rêve dans la vie : voyager. Alors, quand il entend dire que le fameux guide du Routard recrute des gens pour faire le tour du monde, il se présente immédiatement à l’entretien et se fait embaucher. Sa première mission : Marrakech, 40 adresses à vérifier en 5 jours. Mais Yann a oublié de mentionner un petit détail lors de son entretien : il n’a jamais voyagé de sa vie. Ce qui lui semblait être au premier abord le \"meilleur job du monde\" va se révéler beaucoup moins idyllique que prévu…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-04-02"
   },
   {
     "id": "jw-tm1561453",
@@ -7136,8 +7390,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/326922177/s592/le-secret-de-kheops.jpg",
     "note_avis": 5.3,
-    "note_recence": 9.8,
-    "note_globale": 7.6,
+    "note_recence": 9.7,
+    "note_globale": 7.5,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -7167,7 +7421,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Le trésor du pharaon Khéops a-t-il été découvert pendant la campagne d’Égypte de Napoléon, ramené en France, puis caché à Paris ? Christian Robinson, archéologue flamboyant aux méthodes peu orthodoxes, en est persuadé depuis la découverte d’une mystérieuse inscription lors de nouvelles fouilles au Caire. Bien décidé à déchiffrer les indices laissés par Dominique Vivant Denon, le premier directeur du Louvre, Christian Robinson embarque dans son aventure sa fille et son petit-fils. Cette quête du trésor de Khéops, à Paris, est aussi l’histoire de leur réconciliation.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-02-27"
   },
   {
     "id": "jw-tm1495401",
@@ -7181,8 +7437,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/330249764/s592/lamour-cest-surcote.jpg",
     "note_avis": 6.6,
-    "note_recence": 9.8,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -7212,7 +7468,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Diagnostiqué “nul avec les meufs” depuis son plus jeune âge, Anis mène une existence charnelle placée sous le signe du calme plat. Trois ans jour pour jour après la perte d’Isma, son meilleur ami et mentor, il prend son courage à deux mains et se décide enfin à sortir faire de nouvelles rencontres. Sauf qu’en abordant Madeleine, Anis ignore que débute une grande aventure. Un truc inattendu.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-04-23"
   },
   {
     "id": "jw-tm1587315",
@@ -7226,8 +7484,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/324899089/s592/le-melange-des-genres.jpg",
     "note_avis": 5.5,
-    "note_recence": 9.8,
-    "note_globale": 7.7,
+    "note_recence": 9.7,
+    "note_globale": 7.6,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -7257,7 +7515,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Simone, une flic aux idées conservatrices, est infiltrée dans un collectif féministe qu'elle suspecte de complicité de meurtre. À leur contact, Simone s’ouvre progressivement à leurs idées. Mais lorsqu’elle est soupçonnée par le groupe d'être une taupe, elle se sert du premier venu pour se couvrir.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-04-16"
   },
   {
     "id": "jw-tm1583419",
@@ -7271,7 +7531,7 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/335799133/s592/les-musiciens-2025.jpg",
     "note_avis": 6.8,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.3,
     "is_eligible": true,
     "chaines": [
@@ -7303,7 +7563,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Astrid Carlson parvient enfin à réaliser le rêve de son père : réunir quatre Stradivarius pour un concert unique attendu par les mélomanes du monde entier. Mais Lise, George, Peter et Apolline, les quatre virtuoses recrutés pour l’occasion, sont incapables de jouer ensemble. Les crises d’égo se succèdent au rythme des répétitions. Sans solution, Astrid se résout à aller chercher le seul qui, à ses yeux, peut encore sauver l’événement : Charlie Beaumont, le compositeur de la partition.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-05-07"
   },
   {
     "id": "jw-tm1611991",
@@ -7317,8 +7579,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/332206466/s592/une-pointe-damour-2025-1.jpg",
     "note_avis": 6.5,
-    "note_recence": 9.8,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -7348,7 +7610,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Mélanie, avocate, atteinte d’une maladie incurable, a décidé qu’il était temps de profiter de la vie ! Elle embarque Benjamin, son ami de toujours, dans un périple vers l’Espagne pour explorer enfin leur sensualité dans une maison close. Les voici à bord d’un van délabré, conduit par Lucas, un chauffeur bourru sorti de prison la veille. Contrairement à Mélanie, Benjamin ne semble pas pressé d’arriver et fait d’ailleurs tout pour prolonger cet improbable voyage à ses côtés…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-04-30"
   },
   {
     "id": "jw-tm1621837",
@@ -7362,7 +7626,7 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/330391690/s592/jeunes-meres.jpg",
     "note_avis": 7,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.4,
     "is_eligible": true,
     "chaines": [
@@ -7392,7 +7656,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Jessica, Perla, Julie, Ariane et Naïma sont hébergées dans une maison maternelle qui les aide dans leur vie de jeune mère. Cinq adolescentes qui ont l’espoir de parvenir à une vie meilleure pour elles-mêmes et pour leur enfant.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-05-23"
   },
   {
     "id": "jw-tm1530998",
@@ -7406,8 +7672,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/322778925/s592/mikado-2025.jpg",
     "note_avis": 6.1,
-    "note_recence": 9.8,
-    "note_globale": 8,
+    "note_recence": 9.7,
+    "note_globale": 7.9,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -7430,7 +7696,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 94,
-    "etoiles": 5,
+    "etoiles": 4,
     "raw_genres": [
       "cmy",
       "drm",
@@ -7438,7 +7704,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Mikado et Laetitia font l'école à la maison à Nuage et Zéphir tout en vivant dans un van.  Suite à une panne, la famille doit passer l'été dans une maison, une situation qui remet en question leur mode de vie alternatif.\n",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-04-09"
   },
   {
     "id": "jw-tm1629228",
@@ -7452,8 +7720,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/341326228/s592/nino.jpg",
     "note_avis": 6.9,
-    "note_recence": 9.8,
-    "note_globale": 8.4,
+    "note_recence": 9.7,
+    "note_globale": 8.3,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -7482,7 +7750,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Dans trois jours, Nino devra affronter une grande épreuve. D’ici là, les médecins lui ont confié deux missions. Deux impératifs qui vont mener le jeune homme à travers Paris, le pousser à refaire corps avec les autres et avec lui-même.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-09-17"
   },
   {
     "id": "jw-tm1573550",
@@ -7496,7 +7766,7 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/344507997/s592/rebuilding.jpg",
     "note_avis": 6.8,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.3,
     "is_eligible": true,
     "chaines": [
@@ -7526,7 +7796,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Dans l’Ouest américain, dévasté par des incendies ravageurs, Dusty voit son ranch anéanti par les flammes. Il trouve refuge dans un camp de fortune et commence lentement à redonner du sens à sa vie. Entouré de personnes qui, comme lui, ont tout perdu, des liens inattendus se tissent. Porté par l’espoir de renouer avec sa fille et son ex-femme, il retrouve peu à peu la volonté de tout reconstruire.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-12-17"
   },
   {
     "id": "jw-tm239721",
@@ -7540,8 +7812,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/8812073/s592/captain-fantastic.jpg",
     "note_avis": 7.8,
-    "note_recence": 7.7,
-    "note_globale": 7.8,
+    "note_recence": 7,
+    "note_globale": 7.4,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -7571,7 +7843,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Dans les forêts reculées du nord-ouest des États-Unis, vivant isolé de la société, un père dévoué a consacré sa vie tout entière à faire de ses six jeunes enfants d’extraordinaires adultes. Mais quand le destin frappe sa famille, ils doivent abandonner ce paradis qu’il avait créé pour eux. La découverte du monde extérieur va l’obliger à questionner ses méthodes d’éducation et remettre en cause tout ce qu’il leur a appris.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2016-07-29"
   },
   {
     "id": "jw-tm897251",
@@ -7585,8 +7859,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/235103243/s592/ete-85.jpg",
     "note_avis": 6.9,
-    "note_recence": 8.6,
-    "note_globale": 7.8,
+    "note_recence": 8.2,
+    "note_globale": 7.6,
     "is_eligible": true,
     "badge": null,
     "chaines": [
@@ -7616,7 +7890,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "L’été de ses 16 ans, Alexis, lors d’une sortie en mer sur la côte normande, est sauvé héroïquement du naufrage par David, 18 ans. Alexis vient de rencontrer l’ami de ses rêves. Mais le rêve durera-t-il plus qu'un été ? L’été 85…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2020-07-14"
   },
   {
     "id": "jw-tm1132086",
@@ -7630,8 +7906,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/256396730/s592/partir-un-jour.jpg",
     "note_avis": 6.9,
-    "note_recence": 8.8,
-    "note_globale": 7.9,
+    "note_recence": 8.5,
+    "note_globale": 7.7,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -7661,7 +7937,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Le bac en poche, Julien a quitté sa ville natale pour se construire une vie plus grande à la capitale, laissant ses souvenirs derrière lui. Et puis un jour, il faut revenir, et ce jour-là ses souvenirs lui sautent au visage, entre deux paquets de Pépitos.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2023-07-17"
   },
   {
     "id": "jw-tm1076533",
@@ -7675,8 +7953,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/300936719/s592/z-comme-z.jpg",
     "note_avis": 6.3,
-    "note_recence": 9.1,
-    "note_globale": 7.7,
+    "note_recence": 8.8,
+    "note_globale": 7.6,
     "is_eligible": true,
     "badge": "12",
     "chaines": [
@@ -7706,7 +7984,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Un tournage de film de zombies dans un bâtiment désaffecté. Entre techniciens blasés et acteurs pas vraiment concernés, seul le réalisateur semble investi de l’énergie nécessaire pour donner vie à un énième film d'horreur à petit budget. L’irruption d’authentiques morts-vivants va perturber le tournage.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2022-05-17"
   },
   {
     "id": "jw-tm1179953",
@@ -7720,8 +8000,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/313908200/s592/les-femmes-du-square.jpg",
     "note_avis": 6.5,
-    "note_recence": 9.1,
-    "note_globale": 7.8,
+    "note_recence": 8.8,
+    "note_globale": 7.7,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -7750,7 +8030,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Angèle, jeune femme ivoirienne d’une trentaine d’années, s’en est toujours sortie grâce à sa tchatche et à son culot. Pour échapper à une bande de dangereux malfrats, elle décide de se faire engager comme nounou dans un quartier chic parisien, par Hélène maman célibataire du petit Arthur, 8 ans. En découvrant les conditions de travail des autres nounous, Angèle se met en tête de les défendre grâce à un jeune avocat qui ne tarde pas à tomber sous son charme.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2022-11-16"
   },
   {
     "id": "jw-tm1577179",
@@ -7764,8 +8046,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/333274244/s592/100-millions.jpg",
     "note_avis": 4.3,
-    "note_recence": 9.8,
-    "note_globale": 7.1,
+    "note_recence": 9.7,
+    "note_globale": 7,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -7794,7 +8076,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Ouvrier dans une imprimerie, Patrick est un vétéran de la lutte contre le patronat. C’est un leader syndical respecté de tous, un maestro des piquets de grève, qui porte haut les couleurs de la fraternité ouvrière et du combat contre les trop riches… Mais Patrick vient d’hériter de cent millions… Pour tout le monde - sa femme Suzanne, ses enfants, et même ses collègues - c’est l’occasion inespérée de changer de vie. Tout le monde… sauf Patrick, désormais syndicaliste multimillionnaire, mais qui n’a aucune intention de bouleverser son quotidien, et encore moins de renoncer à ses idéaux…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-03-26"
   },
   {
     "id": "jw-tm1497312",
@@ -7808,7 +8092,7 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/334275825/s592/doux-jesus-2025.jpg",
     "note_avis": 5,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.4,
     "is_eligible": true,
     "chaines": [
@@ -7838,7 +8122,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Sœur Lucie, religieuse dévouée, décide de fuir son couvent au bout de 20 ans pour retrouver son amour de jeunesse.  C'est pour elle le début d'une aventure extraordinaire qui mettra sa foi à l'épreuve et la confrontera au monde d’aujourd’hui plein de surprises et de tentations.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-04-09"
   },
   {
     "id": "jw-tm1489580",
@@ -7852,8 +8138,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/340332004/s592/delocalises.jpg",
     "note_avis": 4.9,
-    "note_recence": 9.8,
-    "note_globale": 7.4,
+    "note_recence": 9.7,
+    "note_globale": 7.3,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -7882,7 +8168,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Le jour où Redouane va obtenir sa promotion et enfin passer contremaître, il apprend que l'usine de matelas où il travaille est délocalisée en Inde. Bien décidé à conserver sa promotion, il accepte de partir tout en ayant la garantie d'être payé double et emmène avec lui Marguerite, sa compagne. Une fois sur place, il découvre que son patron l'a dupé, il sera bien payé double mais en roupies. Furieux, il décide de se venger en enseignant aux équipes le meilleur des droits sociaux français.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-03-12"
   },
   {
     "id": "jw-tm1582831",
@@ -7896,8 +8184,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/331917636/s592/vacances-forcees.jpg",
     "note_avis": 5.5,
-    "note_recence": 9.8,
-    "note_globale": 7.7,
+    "note_recence": 9.7,
+    "note_globale": 7.6,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -7926,7 +8214,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Suite à une erreur de réservation, deux familles que tout oppose, ainsi qu’un éditeur un peu snob et l’influenceuse qu’il souhaite publier, sont contraints de partager une sublime maison de vacances. Le choc des cultures est immédiat, entre habitudes incompatibles et personnalités bien affirmées. Pourtant, malgré les tensions et les quiproquos, ces vacances forcées prennent une tournure inattendue et se révèlent une aventure pleine de surprises et d’éclats de rire.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-06-11"
   },
   {
     "id": "jw-tm1631095",
@@ -7940,7 +8230,7 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/340612324/s592/toujours-possible-2025.jpg",
     "note_avis": 5.6,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.7,
     "is_eligible": true,
     "chaines": [
@@ -7971,7 +8261,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "À 55 ans, Gaby, biologiste, perd son job… et gagne une idée folle : avoir un enfant ! Avec sa mère fantasque et un fichier de donneurs, elle traque le sperme parfait, tandis que Pierre, 56 ans, tente de rajeunir à tout prix pour séduire. Mais l’amour pourrait bien prouver que tout reste… est toujours possible !",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-09-10"
   },
   {
     "id": "jw-tm1574167",
@@ -7985,7 +8277,7 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/332634838/s592/prosper-2025-0.jpg",
     "note_avis": 5.2,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.5,
     "is_eligible": true,
     "chaines": [
@@ -8017,7 +8309,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Prosper, chauffeur Uber à côté de ses pompes, prend comme passager un homme mourant qui vient de se faire tirer dessus. Paniqué, Prosper se débarrasse du cadavre tout en lui volant sa paire de bottines en croco. En les portant, Prosper se retrouve habité par l'esprit de l'homme assassiné.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-03-19"
   },
   {
     "id": "jw-tm371923",
@@ -8031,8 +8325,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/111219199/s592/la-mule.jpg",
     "note_avis": 7,
-    "note_recence": 8.2,
-    "note_globale": 7.6,
+    "note_recence": 7.6,
+    "note_globale": 7.3,
     "is_eligible": true,
     "badge": null,
     "chaines": [
@@ -8064,7 +8358,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "À plus de 80 ans, Earl Stone est aux abois. Il est non seulement fauché et seul, mais son entreprise risque d'être saisie. Il accepte alors un boulot qui – en apparence – ne lui demande que de faire le chauffeur. Sauf que, sans le savoir, il s'est engagé à être passeur de drogue pour un cartel mexicain. Extrêmement performant, il transporte des cargaisons de plus en plus importantes. Ce qui pousse les chefs du cartel, toujours méfiants, à lui imposer un \"supérieur\" chargé de le surveiller. Mais ils ne sont pas les seuls à s'intéresser à lui: l'agent de la DEA Colin Bates est plus qu'intrigué par cette nouvelle \"mule\". Entre la police, les hommes de main du cartel et les fantômes du passé menaçant de le rattraper, Earl est désormais lancé dans une vertigineuse course contre la montre...",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2019-01-23"
   },
   {
     "id": "jw-tm239927",
@@ -8078,8 +8374,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/344122932/s592/official-secrets.jpg",
     "note_avis": 7.3,
-    "note_recence": 8.4,
-    "note_globale": 7.9,
+    "note_recence": 7.9,
+    "note_globale": 7.6,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -8112,7 +8408,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "2003 : les États-Unis et l’Angleterre souhaitent intervenir en Irak.  Katharine Gun, employée des renseignements britanniques, reçoit une note de la NSA : les États-Unis sollicitent l'aide de la Grande-Bretagne pour rassembler des informations compromettantes sur certains membres du Conseil de sécurité de l’ONU et les obliger à voter en faveur de l’invasion. Gun prend alors la décision de divulguer le mémo à la presse afin d’empêcher la guerre.  En choisissant d’exposer cette vaste conspiration politique, la lanceuse d’alerte va tout risquer : sa vie, sa famille, sa liberté…",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2020-01-02"
   },
   {
     "id": "jw-tm1075695",
@@ -8126,8 +8424,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/259005694/s592/en-attendant-bojangles.jpg",
     "note_avis": 6.4,
-    "note_recence": 8.8,
-    "note_globale": 7.6,
+    "note_recence": 8.5,
+    "note_globale": 7.5,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -8158,7 +8456,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Camille et Georges dansent tout le temps sur leur chanson préférée Mr Bojangles. Chez eux, il n'y a de place que pour le plaisir, la fantaisie et les amis. Jusqu'au jour où la mère va trop loin, contraignant Georges et leur fils Gary à tout faire pour éviter l'inéluctable coûte que coûte.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2022-01-05"
   },
   {
     "id": "jw-tm466528",
@@ -8172,8 +8472,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/143420308/s592/alice-et-le-maire.jpg",
     "note_avis": 6.4,
-    "note_recence": 8.4,
-    "note_globale": 7.4,
+    "note_recence": 7.9,
+    "note_globale": 7.2,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -8204,7 +8504,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Le maire de Lyon, qui est au bout du rouleau. Il n'a plus une seule idée. Après trente ans de vie politique, il se sent complètement vide. Pour remédier à ce problème, ses équipes décident de lui adjoindre une jeune et brillante philosophe… Un dialogue se noue, qui rapproche Alice et le maire et ébranle leurs certitudes. Peu à peu, une question se pose : la pensée et la pratique politique sont-elles compatibles ?",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-05-18"
   },
   {
     "id": "jw-tm469990",
@@ -8218,8 +8520,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/240829741/s592/you-deserve-a-love.jpg",
     "note_avis": 6.1,
-    "note_recence": 8.4,
-    "note_globale": 7.3,
+    "note_recence": 7.9,
+    "note_globale": 7,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -8251,7 +8553,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Suite à l'infidélité de Rémi, Lila qui l'aimait plus que tout vit difficilement la rupture. Un jour, il lui annonce qu'il part seul en Bolivie pour se retrouver face à lui-même et essayer de comprendre ses erreurs. Là-bas, il lui laisse entendre que leur histoire n'est pas finie. Entre discussions, réconforts et encouragement à la folie amoureuse, Lila s'égare.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-09-11"
   },
   {
     "id": "jw-tm847287",
@@ -8265,8 +8569,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/305934201/s592/tralala.jpg",
     "note_avis": 5.9,
-    "note_recence": 8.8,
-    "note_globale": 7.4,
+    "note_recence": 8.5,
+    "note_globale": 7.2,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -8297,7 +8601,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Tralala, la quarantaine, chanteur dans les rues de Paris, croise un soir une jeune femme qui lui adresse un seul message avant de disparaitre : \"Surtout ne soyez pas vous-même\". Tralala a t-il rêvé ? Il quitte la capitale et finit par retrouver à Lourdes celle dont il est déjà amoureux. Elle ne se souvient plus de lui. Mais une émouvante sexagénaire croit reconnaître en Tralala son propre fils, Pat, disparu vingt ans avant aux États-Unis. Tralala décide d’endosser le \"rôle\". Il va se découvrir une nouvelle famille et trouver le génie qu’il n’a jamais eu.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2021-10-06"
   },
   {
     "id": "jw-tm1467237",
@@ -8311,7 +8617,7 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/324898078/s592/les-tuche-god-save-the-tuche-2025.jpg",
     "note_avis": 4.4,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.1,
     "is_eligible": true,
     "chaines": [
@@ -8341,7 +8647,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Les Tuche mènent à nouveau une vie paisible à Bouzolles. Mais lorsque Jiji, le petit fils de Jeff et Cathy, est sélectionné pour un stage de football à Arsenal, c’est l’occasion rêvée pour toute la famille d’aller découvrir l’Angleterre et d’y rencontrer la famille royale. Celle-ci ne s’imagine pas encore que le nom Tuche restera à jamais gravé dans l’histoire de la perfide Albion.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-02-05"
   },
   {
     "id": "jw-tm818688",
@@ -8355,8 +8663,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/176465969/s592/mine-de-rien.jpg",
     "note_avis": 5.4,
-    "note_recence": 8.6,
-    "note_globale": 7,
+    "note_recence": 8.2,
+    "note_globale": 6.8,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -8379,14 +8687,16 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 85,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "cmy",
       "eur"
     ],
     "synopsis": "Dans une région qui fut le fleuron de l'industrie minière, deux chômeurs de longue durée, ont l'idée de construire un parc d'attraction « artisanal » sur une ancienne mine de charbon désaffectée. En sauvant la mine et sa mémoire, ils vont retrouver force et dignité.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2020-02-26"
   },
   {
     "id": "jw-tm1497303",
@@ -8400,7 +8710,7 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/327439556/s592/les-bodins-partent-en-vrille.jpg",
     "note_avis": 5.2,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.5,
     "is_eligible": true,
     "chaines": [
@@ -8430,7 +8740,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Quand Maria Bodin, fermière autoritaire et revêche, et son fils Christian, apprennent qu'une usine de fromage industrielle s'apprête à s'installer dans leur petit village, ils sont prêts à tout pour défendre leur fromagerie artisanale..",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-03-19"
   },
   {
     "id": "jw-tm204161",
@@ -8444,8 +8756,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/241902267/s592/the-accountant.jpg",
     "note_avis": 7.3,
-    "note_recence": 7.7,
-    "note_globale": 7.5,
+    "note_recence": 7,
+    "note_globale": 7.2,
     "is_eligible": true,
     "badge": null,
     "chaines": [
@@ -8477,7 +8789,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Petit génie des mathématiques, Christian Wolff est plus à l’aise avec les chiffres qu’avec les gens. Expert‐comptable dans le civil, il travaille en réalité pour plusieurs organisations mafieuses parmi les plus dangereuses au monde. Lorsque la brigade anti‐criminalité du ministère des Finances s’intéresse d’un peu trop près à ses affaires, Christian cherche à faire diversion : il accepte de vérifier les comptes d’une entreprise de robotique ayant pignon sur rue. Problème : la comptable de la société a décelé un détournement de fonds de plusieurs millions de dollars. Tandis que Christian épluche les comptes et découvre les rouages de l’escroquerie, les cadavres s’accumulent…",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2016-11-02"
   },
   {
     "id": "jw-tm238715",
@@ -8491,8 +8805,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/210850636/s592/demain-tout-commence.jpg",
     "note_avis": 7.3,
-    "note_recence": 7.7,
-    "note_globale": 7.5,
+    "note_recence": 7,
+    "note_globale": 7.2,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -8523,7 +8837,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Samuel vit sa vie sans attaches ni responsabilités, au bord de la mer sous le soleil du sud de la France, près des gens qu’il aime et avec qui il travaille sans trop se fatiguer. Jusqu’à ce qu’une de ses anciennes conquêtes lui laisse sur les bras un bébé de quelques mois, Gloria: sa fille! Incapable de s’occuper d’un bébé et bien décidé à rendre l’enfant à sa mère, Samuel se précipite à Londres pour tenter de la retrouver, sans succès. 8 ans plus tard, alors que Samuel et Gloria ont fait leur vie à Londres et sont devenus inséparables, la mère de Gloria revient dans leur vie pour récupérer sa fille…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2016-12-07"
   },
   {
     "id": "jw-tm60292",
@@ -8537,8 +8853,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/9916780/s592/argo.jpg",
     "note_avis": 7.7,
-    "note_recence": 6.8,
-    "note_globale": 7.3,
+    "note_recence": 5.8,
+    "note_globale": 6.8,
     "is_eligible": true,
     "badge": null,
     "chaines": [
@@ -8561,7 +8877,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 120,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "drm",
       "hst",
@@ -8569,7 +8885,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Le 4 novembre 1979, au summum de la révolution iranienne, des militants envahissent l’ambassade américaine de Téhéran, et prennent cinquante-deux Américains en otage. Mais au milieu du chaos, six Américains réussissent à s’échapper et à se réfugier au domicile de l’ambassadeur canadien. Sachant qu’ils seront inévitablement découverts et probablement tués, un spécialiste de \"l’exfiltration\" de la CIA du nom de Tony Mendez monte un plan risqué visant à les faire sortir du pays. Un plan si incroyable qu’il ne pourrait exister qu’au cinéma.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2012,
+    "date_ajout": "2012-10-12"
   },
   {
     "id": "jw-tm233313",
@@ -8583,8 +8901,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/346548227/s592/mal-de-pierres.jpg",
     "note_avis": 6.6,
-    "note_recence": 7.7,
-    "note_globale": 7.2,
+    "note_recence": 7,
+    "note_globale": 6.8,
     "is_eligible": true,
     "badge": null,
     "chaines": [
@@ -8607,7 +8925,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 120,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "drm",
       "rma",
@@ -8615,7 +8933,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Gabrielle a grandi dans la petite bourgeoisie agricole où son rêve d’une passion absolue fait scandale. A une époque où l’on destine d’abord les femmes au mariage, elle dérange, on la croit folle. Ses parents la donnent à José, un ouvrier saisonnier, chargé de faire d’elle une femme respectable. Gabrielle dit ne pas l’aimer, se voit enterrée vivante. Lorsqu’on l’envoie en cure thermale pour soigner ses calculs rénaux, son mal de pierres, un lieutenant blessé dans la guerre d’Indochine, André Sauvage, fait renaître en elle cette urgence d’aimer. Ils fuiront ensemble, elle se le jure, et il semble répondre à son désir. Cette fois on ne lui prendra pas ce qu’elle nomme « la chose principale ». Gabrielle veut aller au bout de son rêve.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2016-10-19"
   },
   {
     "id": "jw-tm244634",
@@ -8629,8 +8949,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/35438140/s592/atomic-blonde.jpg",
     "note_avis": 6.7,
-    "note_recence": 7.9,
-    "note_globale": 7.3,
+    "note_recence": 7.3,
+    "note_globale": 7,
     "is_eligible": true,
     "badge": "12",
     "chaines": [
@@ -8661,7 +8981,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "L'agent Lorraine Broughton est une des meilleures espionne du Service de renseignement de Sa Majesté; à la fois sensuelle et sauvage et prête à déployer toutes ses compétences pour rester en vie durant sa mission impossible. Envoyée seule à Berlin dans le but de livrer un dossier de la plus haute importance dans cette ville au climat instable, elle s'associe avec David Percival, le chef de station local, et commence alors un jeu d’espions des plus meurtriers.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2017-07-28"
   },
   {
     "id": "jw-tm1186806",
@@ -8675,8 +8997,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/304949609/s592/hypnotic-2023.jpg",
     "note_avis": 5.5,
-    "note_recence": 9.3,
-    "note_globale": 7.4,
+    "note_recence": 9.1,
+    "note_globale": 7.3,
     "is_eligible": true,
     "badge": "12",
     "chaines": [
@@ -8708,7 +9030,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Le détective Danny Rourke est dévasté par la disparition de sa fille. Amené à reprendre du service, on le charge d'enquêter sur une série de braquages invraisemblables perpétués par un mystérieux individu. Persuadé que cet homme détient la clé pour retrouver sa fille, Rourke demande de l’aide à Diana Cruz, une puissante médium étrangement liée à l’affaire, qui vient remettre en question toutes les certitudes de la réalité du monde qui l’entoure. Il découvre ainsi que le contrôle n'est qu'illusion.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-08-23"
   },
   {
     "id": "jw-tm914447",
@@ -8768,8 +9092,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/168792714/s592/lucky-2020.jpg",
     "note_avis": 4.7,
-    "note_recence": 8.6,
-    "note_globale": 6.7,
+    "note_recence": 8.2,
+    "note_globale": 6.5,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -8799,7 +9123,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Pour s’en sortir financièrement, Willy et son pote Tony, endettés de naissance, ont une idée de génie : voler un chien de la brigade des stups. Mais, les choses ne se passent pas tout à fait comme ils l’avaient prévu. La seule solution : s’associer avec Caro, une flic totalement corrompue.",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2020-02-26"
   },
   {
     "id": "jw-tm266647",
@@ -8813,8 +9139,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/66726884/s592/oceans-eight.jpg",
     "note_avis": 6.3,
-    "note_recence": 8.2,
-    "note_globale": 7.3,
+    "note_recence": 7.6,
+    "note_globale": 7,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -8846,7 +9172,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "La sœur de Danny Ocean rassemble les talents d'une dizaine de ses consœurs pour mettre la main sur un collier très convoité et ainsi confondre un bijoutier crapuleux.",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-06-13"
   },
   {
     "id": "jw-tm184546",
@@ -8860,8 +9188,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/340832378/s592/insaisissables.jpg",
     "note_avis": 7.2,
-    "note_recence": 7,
-    "note_globale": 7.1,
+    "note_recence": 6.1,
+    "note_globale": 6.7,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -8884,14 +9212,16 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 116,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "crm",
       "trl"
     ],
     "synopsis": "« Les Quatre Cavaliers », un groupe de brillants magiciens et illusionnistes, vient de donner deux spectacles de magie époustouflants: le premier en braquant une banque sur un autre continent, le deuxième en transférant la fortune d’un banquier véreux sur les comptes en banque du public. Deux agents spéciaux du FBI et d’Interpol sont déterminés à les arrêter avant qu’ils ne mettent à exécution leur promesse de réaliser des braquages encore plus audacieux. Ils font appel à Thaddeus, spécialiste reconnu pour expliquer les tours de magie les plus sophistiqués. Alors que la pression s’intensifie, et que le monde entier attend le spectaculaire tour final des Cavaliers, la course contre la montre commence.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2013,
+    "date_ajout": "2013-07-31"
   },
   {
     "id": "jw-tm123158",
@@ -8905,8 +9235,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/8750537/s592/insaisissables-2.jpg",
     "note_avis": 6.4,
-    "note_recence": 7.7,
-    "note_globale": 7.1,
+    "note_recence": 7,
+    "note_globale": 6.7,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -8929,7 +9259,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 129,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "act",
       "cmy",
@@ -8938,7 +9268,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Un an après avoir surpassé le FBI et acquis l’admiration du grand public grâce à leurs tours exceptionnels, Les 4 Cavaliers reviennent ! Pour leur retour sur le devant de la scène, ils vont dénoncer les méthodes peu orthodoxe d’un magnat de la technologie à la tête d’une vaste organisation criminelle. Ils ignorent que cet homme d’affaire, Walter Marbry a une longueur d’avance sur eux, et les conduit dans un piège : il veut que les magiciens braquent l’un des systèmes informatiques les plus sécurisés du monde. Pour sortir de ce chantage et déjouer les plans de ce syndicat du crime, ils vont devoir élaborer le braquage le plus spectaculaire jamais conçu.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2016-07-27"
   },
   {
     "id": "jw-tm298080",
@@ -8952,8 +9284,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/59994998/s592/rampage.jpg",
     "note_avis": 6.1,
-    "note_recence": 8.2,
-    "note_globale": 7.2,
+    "note_recence": 7.6,
+    "note_globale": 6.9,
     "is_eligible": true,
     "badge": "12",
     "chaines": [
@@ -8976,14 +9308,16 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 108,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "act",
       "scf"
     ],
     "synopsis": "Primatologue de profession, David Okoye a plus de mal à nouer des liens avec ses semblables qu'avec les singes. Pas étonnant qu'il se soit pris d'affection pour George, adorable gorille d'une intelligence hors du commun, dont il s'occupe depuis sa naissance. Mais suite à une expérience génétique catastrophique, George se métamorphose en monstre incontrôlable. Et il n'est pas le seul puisque d'autres animaux se transforment en prédateurs enragés aux quatre coins du pays, détruisant tout sur leur passage. Okoye décide alors de travailler d'arrache-pied avec une généticienne pour mettre au point un antidote. Pourront-ils à temps empêcher la planète d'être ravagée ?",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-05-02"
   },
   {
     "id": "jw-tm20959",
@@ -8997,8 +9331,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/9030429/s592/a-la-recherche-du-bonheur.jpg",
     "note_avis": 8,
-    "note_recence": 5.4,
-    "note_globale": 6.7,
+    "note_recence": 4,
+    "note_globale": 6,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -9028,7 +9362,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Représentant de commerce, Chris Gardner a du mal à gagner sa vie. Il jongle pour s'en sortir, mais sa compagne supporte de moins en moins leur précarité. Elle finit par quitter Chris et leur petit garçon de cinq ans, Christopher. Désormais seul responsable de son fils, Chris se démène pour décrocher un job, sans succès. Lorsqu'il obtient finalement un stage dans une prestigieuse firme de courtage, il se donne à fond.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2006,
+    "date_ajout": "2007-01-31"
   },
   {
     "id": "jw-tm96315",
@@ -9042,8 +9378,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/169245615/s592/larnacoeur.jpg",
     "note_avis": 6.7,
-    "note_recence": 6.3,
-    "note_globale": 6.5,
+    "note_recence": 5.2,
+    "note_globale": 6,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -9074,7 +9410,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Votre fille sort avec un sale type ? Votre sœur s’est enlisée dans une relation passionnelle destructrice ? Aujourd’hui, il existe une solution radicale, elle s’appelle Alex. Son métier : briseur de couples professionnel. Sa méthode : la séduction. Sa mission : transformer n’importe quel petit ami en ex. Mais Alex a une éthique, il ne s’attaque qu’aux couples dont la femme est malheureuse. Alors pourquoi accepter de briser un couple épanoui de riches trentenaires qui se marie dans une semaine ?",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2010,
+    "date_ajout": "2010-01-01"
   },
   {
     "id": "jw-tm137377",
@@ -9135,8 +9473,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/170655167/s592/chacun-chez-soi-2020-0.jpg",
     "note_avis": 4.8,
-    "note_recence": 8.8,
-    "note_globale": 6.8,
+    "note_recence": 8.5,
+    "note_globale": 6.7,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -9166,7 +9504,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Catherine et Yann sont en couple et amoureux depuis de nombreuses années. Mais depuis que Yann a quitté son boulot, il s’est pris de passion pour les bonsaïs. Une passion dévorante qui prend beaucoup de place aux yeux de Catherine, qui se sent quelque peu délaissée. La situation ne va pas s’arranger lorsque leur fille Anna, et son copain Thomas, viennent s’installer chez eux suite à une galère d’appartement. La cohabitation s’avère plus que difficile pour les deux couples que tout oppose…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2021-06-02"
   },
   {
     "id": "jw-tm416618",
@@ -9180,8 +9520,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/167726927/s592/le-prince-oublie.jpg",
     "note_avis": 5.4,
-    "note_recence": 8.6,
-    "note_globale": 7,
+    "note_recence": 8.2,
+    "note_globale": 6.8,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -9204,7 +9544,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 101,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "act",
       "cmy",
@@ -9215,7 +9555,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Sofia, 8 ans, vit seule avec son père. Tous les soirs, il lui invente une histoire pour l’endormir. Ses récits extraordinaires prennent vie dans un monde imaginaire où l’héroïne est toujours la princesse Sofia, et son père, le Prince courageux. Mais trois ans plus tard, quand Sofia rentre au collège, elle n’a plus besoin de ces histoires. Désarmé, son père va devoir accepter que sa fille grandisse et s’éloigne de lui. Dans leur Monde imaginaire, le Prince va alors devoir affronter la plus épique de toutes ses aventures pour conserver une place dans l’histoire.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2020-02-12"
   },
   {
     "id": "jw-tm1241295",
@@ -9229,8 +9571,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/296062047/s592/vaincre-ou-mourir.jpg",
     "note_avis": 5.4,
-    "note_recence": 9.3,
-    "note_globale": 7.4,
+    "note_recence": 9.1,
+    "note_globale": 7.3,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -9262,7 +9604,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "1793. Voilà trois ans que Charette, ancien officier de la Marine Royale, s’est retiré chez lui en Vendée. Dans le pays, la colère des paysans gronde : ils font appel au jeune retraité pour prendre le commandement de la rébellion. En quelques mois, le marin désœuvré devient un chef charismatique et un fin stratège, entraînant à sa suite paysans, déserteurs, femmes, vieillards et enfants, dont il fait une armée redoutable car insaisissable. Le combat pour la liberté ne fait que commencer...",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-01-25"
   },
   {
     "id": "jw-tm41037",
@@ -9459,8 +9803,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/155680904/s592/ibiza-2019.jpg",
     "note_avis": 5.1,
-    "note_recence": 8.4,
-    "note_globale": 6.8,
+    "note_recence": 7.9,
+    "note_globale": 6.5,
     "is_eligible": true,
     "badge": null,
     "chaines": [
@@ -9490,7 +9834,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Philippe et Carole, tous deux divorcés, viennent de se rencontrer. Très amoureux, Philippe est prêt à tout pour se mettre les deux ados de Carole dans la poche. Il propose un deal au fils aîné : s'il a son bac, c'est lui qui choisit leur lieu de vacances. Et ce sera Ibiza ! Mais pour Philippe, plutôt habitué à de paisibles vacances dans la Baie de Somme, c'est un véritable choc.",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-07-03"
   },
   {
     "id": "jw-tm38774",
@@ -9549,8 +9895,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/universal_plus.svg",
     "poster": "https://images.justwatch.com/poster/310191565/s592/t-i-m.jpg",
     "note_avis": 5.5,
-    "note_recence": 9.3,
-    "note_globale": 7.4,
+    "note_recence": 9.1,
+    "note_globale": 7.3,
     "is_eligible": true,
     "chaines": [
       "Universal+"
@@ -9581,7 +9927,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Abi, jeune ingénieure, s'installe à la campagne avec son mari pour travailler sur le dernier produit de sa société, une intelligence artificielle humanoïde appelée TIM. Programmé pour ne servir qu'elle, TIM développe peu à peu une obsession pour Abi, et semble déterminé à remplacer son mari.",
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2023,
+    "date_ajout": "2026-03-02"
   },
   {
     "id": "jw-tm351325",
@@ -9595,8 +9943,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/universal_plus.svg",
     "poster": "https://images.justwatch.com/poster/87405549/s592/dans-la-brume-2018.jpg",
     "note_avis": 5.9,
-    "note_recence": 8.2,
-    "note_globale": 7.1,
+    "note_recence": 7.6,
+    "note_globale": 6.8,
     "is_eligible": true,
     "chaines": [
       "Universal+"
@@ -9619,7 +9967,7 @@ const CATALOG_DATA = [
       "auc"
     ],
     "runtime_minutes": 90,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "act",
       "drm",
@@ -9629,7 +9977,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Le jour où une étrange brume mortelle submerge Paris, des survivants trouvent refuge dans les derniers étages des immeubles et sur les toits de la capitale. Sans informations, sans électricité, sans eau ni nourriture, une petite famille tente de survivre à cette catastrophe... Mais les heures passent et un constat s'impose : les secours ne viendront pas et il faudra, pour espérer s’en sortir, tenter sa chance dans la brume…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-04-04"
   },
   {
     "id": "jw-tm1320087",
@@ -9643,8 +9993,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/universal_plus.svg",
     "poster": "https://images.justwatch.com/poster/305319458/s592/the-secret-kingdom-2024.jpg",
     "note_avis": 4.9,
-    "note_recence": 9.3,
-    "note_globale": 7.1,
+    "note_recence": 9.1,
+    "note_globale": 7,
     "is_eligible": true,
     "chaines": [
       "Universal+"
@@ -9673,7 +10023,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Dans leur ancien manoir familial, Peter et Vérité vont découvrir, caché sous le plancher de leur chambre, un royaume magique peuplé d’une civilisation de créatures. Cette civilisation est menacée par un ennemi légendaire. Embarqués dans une quête périlleuse afin de retrouver cinq trésors mythiques, ils devront faire face à des défis et des obstacles qui mettront leur bravoure à l’épreuve.",
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-04-27"
   },
   {
     "id": "jw-tm1217805",
@@ -9687,8 +10039,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/universal_plus.svg",
     "poster": "https://images.justwatch.com/poster/317466131/s592/rubikon.jpg",
     "note_avis": 5,
-    "note_recence": 9.1,
-    "note_globale": 7.1,
+    "note_recence": 8.8,
+    "note_globale": 6.9,
     "is_eligible": true,
     "chaines": [
       "Universal+"
@@ -9711,7 +10063,7 @@ const CATALOG_DATA = [
       "auc"
     ],
     "runtime_minutes": 110,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "drm",
       "trl",
@@ -9719,7 +10071,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "En 2056, de puissants groupes ont remplacé les gouvernements mondiaux. Les ressources sur la Terre sont épuisées. Stationnés sur la station spatiale «Rubikon», la soldate Hannah et les scientifiques Gavin et Dimitri travaillent à un projet d’algues qui pourrait aider l’humanité tout entière. Lorsque la Terre se retrouve soudain enveloppée dans un brouillard toxique et mystérieux, l’équipe perd tout contact avec le contrôle au sol. Dès lors, tiraillés entre divers commanditaires et des valeurs morales divergentes, ils devront prendre une décision: doivent-ils quitter la station et risquer leur vie pour sauver celle des autres ?",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2023-03-16"
   },
   {
     "id": "jw-tm327126",
@@ -9733,8 +10087,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/universal_plus.svg",
     "poster": "https://images.justwatch.com/poster/30910908/s592/radius.jpg",
     "note_avis": 6.2,
-    "note_recence": 7.9,
-    "note_globale": 7.1,
+    "note_recence": 7.3,
+    "note_globale": 6.8,
     "is_eligible": true,
     "chaines": [
       "Universal+"
@@ -9757,7 +10111,7 @@ const CATALOG_DATA = [
       "auc"
     ],
     "runtime_minutes": 93,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "drm",
       "hrr",
@@ -9766,7 +10120,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Liam se réveille d'un accident de voiture sans souvenir de qui il est. Alors qu'il se rend en ville pour chercher de l'aide, il ne trouve que des cadavres, tous avec d'étranges yeux pâles. La première évaluation de Liam est qu'un virus est présent dans l'air, mais il découvre bientôt l'horrible vérité: toute personne qui se trouve dans un rayon de 50 pieds de lui meurt instantanément.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2023-05-08"
   },
   {
     "id": "jw-tm996866",
@@ -9780,8 +10136,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/universal_plus.svg",
     "poster": "https://images.justwatch.com/poster/242799766/s592/dark-web-cicada-3301.jpg",
     "note_avis": 5,
-    "note_recence": 8.8,
-    "note_globale": 6.9,
+    "note_recence": 8.5,
+    "note_globale": 6.8,
     "is_eligible": true,
     "badge": null,
     "chaines": [
@@ -9812,7 +10168,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Connor, un hacker de génie, découvre Cicada 3301, une mystérieuse chasse au trésor en ligne menée par une organisation secrète. Épaulé par un expert en art et une bibliothécaire, Connor se précipite dans une quête d'indices dans le monde réel pour mettre la main sur le trésor. Mais il n'est pas seul : de dangereux agents de la NSA, également sur la piste de Cicada, se lancent à la poursuite de Connor.",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2021-08-13"
   },
   {
     "id": "jw-tm1197793",
@@ -9826,8 +10184,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/universal_plus.svg",
     "poster": "https://images.justwatch.com/poster/303914685/s592/corrective-measures.jpg",
     "note_avis": 4.3,
-    "note_recence": 9.1,
-    "note_globale": 6.7,
+    "note_recence": 8.8,
+    "note_globale": 6.6,
     "is_eligible": true,
     "chaines": [
       "Universal+"
@@ -9858,7 +10216,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Basé sur le comic book CORRECTIVE MEASURES de Grant Chastain. Au sein de la prison ultra-sécurisée de San Tiburon, un virus menace de transformer les mutants les plus dangereux pour la société en monstres dotés de super pouvoirs. Bientôt, les tensions entre les détenus et le personnel s'exacerbent, menant à l’anarchie et au chaos.",
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2022,
+    "date_ajout": "2023-03-08"
   },
   {
     "id": "jw-tm984217",
@@ -9872,8 +10232,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/universal_plus.svg",
     "poster": "https://images.justwatch.com/poster/272852331/s592/escape-the-field.jpg",
     "note_avis": 4.5,
-    "note_recence": 9.1,
-    "note_globale": 6.8,
+    "note_recence": 8.8,
+    "note_globale": 6.7,
     "is_eligible": true,
     "chaines": [
       "Universal+"
@@ -9903,7 +10263,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Six étrangers se réveillent désorientés et coincés dans un champ de maïs. Ils ne vont pas tarder à comprendre que quelque chose de mystérieux les chasse. Armés seulement d'objets apparemment anodins (une boussole, une gourde, un revolver à une seule balle), ils doivent s'allier pour s'échapper du champ et ne pas mourir.",
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2022,
+    "date_ajout": "2024-02-21"
   },
   {
     "id": "jw-tm350171",
@@ -9917,8 +10279,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/universal_plus.svg",
     "poster": "https://images.justwatch.com/poster/46610719/s592/curvature.jpg",
     "note_avis": 4.7,
-    "note_recence": 7.9,
-    "note_globale": 6.3,
+    "note_recence": 7.3,
+    "note_globale": 6,
     "is_eligible": true,
     "chaines": [
       "Universal+"
@@ -9949,7 +10311,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Helen tente de faire face à la mort récente de son mari, un scientifique qui s'est suicidé alors qu'il était sur le point de réussir l'invention d'une machine à voyager dans le temps. Un jour, elle reçoit un appel téléphonique et une voix ressemblant étrangement à la sienne l'avertit qu'elle est en danger. Est-il possible qu'Helen ait voyagé dans le temps ? Et qu'est-ce qui a pu la pousser à faire une telle chose ?",
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2017,
+    "date_ajout": "2017-06-30"
   },
   {
     "id": "jw-tm65446",
@@ -10008,8 +10372,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/universal_plus.svg",
     "poster": "https://images.justwatch.com/poster/258588080/s592/lordre-des-gardiens.jpg",
     "note_avis": 7.7,
-    "note_recence": 7,
-    "note_globale": 7.4,
+    "note_recence": 6.1,
+    "note_globale": 6.9,
     "is_eligible": true,
     "chaines": [
       "Universal+"
@@ -10030,7 +10394,7 @@ const CATALOG_DATA = [
       "auc"
     ],
     "runtime_minutes": 85,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "act",
       "drm",
@@ -10039,7 +10403,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Carter et Jordyn Flynn ne sont pas des parents ordinaires : ils parcourent le monde, protégeant les artefacts de contes de fées les plus puissants afin qu'ils ne tombent pas entre de mauvaises mains. Alors que les Flynn prennent leur travail très au sérieux , ils sont tout aussi préoccupés par le bien-être de leurs deux fils, Paxton et Tripp, qui ne se doutent pas un instant de la véritable activité de leurs parents.  Lorsque ces derniers disparaissent au cours d'une de leurs missions, les garçons découvrent toute la vérité et, avec l'aide de Dylan, l'assistante des Flynn, ils partent à la recherche de leurs parents, en tentant à leur tour de protéger un objet magique extrêmement puissant : le miroir de Blanche-Neige...",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2013,
+    "date_ajout": "2024-09-04"
   },
   {
     "id": "jw-tm45815",
@@ -10101,8 +10467,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/universal_plus.svg",
     "poster": "https://images.justwatch.com/poster/305538657/s592/the-locksmith.jpg",
     "note_avis": 4.9,
-    "note_recence": 9.3,
-    "note_globale": 7.1,
+    "note_recence": 9.1,
+    "note_globale": 7,
     "is_eligible": true,
     "badge": "12",
     "chaines": [
@@ -10134,7 +10500,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Un serrurier tout juste sorti de prison se retrouve entraîné dans un monde de policiers corrompus et de criminels sans pitié, mettant du même coup en péril l'avenir qu'il espérait construire avec son ex-petite amie détective et leur fille.",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-02-03"
   },
   {
     "id": "jw-tm147835",
@@ -10148,8 +10516,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/304800990/s592/there-are-no-saints.jpg",
     "note_avis": 4.9,
-    "note_recence": 9.1,
-    "note_globale": 7,
+    "note_recence": 8.8,
+    "note_globale": 6.9,
     "is_eligible": true,
     "badge": "12",
     "chaines": [
@@ -10176,7 +10544,7 @@ const CATALOG_DATA = [
       "auc"
     ],
     "runtime_minutes": 105,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "act",
       "crm",
@@ -10184,7 +10552,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Cherchant à recommencer sa vie, un ancien tueur à gages surnommé le Jésuite est incapable d'échapper aux péchés de son passé. Avec des ennemis des deux côtés de la loi, il n'a nulle part où se tourner lorsque son seul fils est kidnappé par un impitoyable chef de cartel. Il n'arrêtera à rien pour sauver son garçon...",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2023-07-13"
   },
   {
     "id": "jw-tm315348",
@@ -10198,8 +10568,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/universal_plus.svg",
     "poster": "https://images.justwatch.com/poster/120325698/s592/triple-threat.jpg",
     "note_avis": 5.6,
-    "note_recence": 8.4,
-    "note_globale": 7,
+    "note_recence": 7.9,
+    "note_globale": 6.8,
     "is_eligible": true,
     "badge": "12",
     "chaines": [
@@ -10222,14 +10592,16 @@ const CATALOG_DATA = [
       "auc"
     ],
     "runtime_minutes": 96,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "act",
       "trl"
     ],
     "synopsis": "Un groupe mafieux met la tête de la fille d’un millionnaire à prix. Elle devient la cible d’un groupe de tueurs à gages d’élites. Un petit groupe de mercenaires fera tout pour protèger la jeune fille.",
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-11-06"
   },
   {
     "id": "jw-tm196292",
@@ -10289,8 +10661,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/302134366/s592/inexorable.jpg",
     "note_avis": 6.1,
-    "note_recence": 8.8,
-    "note_globale": 7.5,
+    "note_recence": 8.5,
+    "note_globale": 7.3,
     "is_eligible": true,
     "badge": "12",
     "chaines": [
@@ -10303,10 +10675,10 @@ const CATALOG_DATA = [
     ],
     "duree": "1h 38min",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 5 j",
-      "daysLeft": 5,
-      "expirationDate": "2026-10-08",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aca": "2026-10-08"
       }
@@ -10322,7 +10694,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Après le succès retentissant de son premier roman Inexorable, Marcel Bellmer n’a jamais vraiment réussi à renouer avec le succès. Des années plus tard et au sortir d’une dépression qui l’a terrassé, il emménage avec sa femme et éditrice Jeanne Drahi, sa fille Lucie et leur chien Ulysse dans la riche propriété de son beau-père tout juste décédé. Dans ce temple de l’érudition où se sont succédé les grands écrivains du XXème Siècle, Marcel sent qu’il est rattrapé par ses démons. C’est alors que Gloria, étrangement fascinée par les Bellmer, se fait engager comme femme de ménage. Jeune et fougueuse, elle se rapproche de Marcel, ils s’attirent. Alors que Marcel sent revenir en lui le feu qui lui avait inspiré Inexorable, il glisse inexorablement dans un piège qui pourrait bien le mener à sa perte.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2022-04-06"
   },
   {
     "id": "jw-tm1255330",
@@ -10336,8 +10710,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/301197704/s592/du-crepitement-sous-les-neons.jpg",
     "note_avis": 6,
-    "note_recence": 9.1,
-    "note_globale": 7.6,
+    "note_recence": 8.8,
+    "note_globale": 7.4,
     "is_eligible": true,
     "chaines": [
       "Action Max"
@@ -10368,7 +10742,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Sous contrôle judiciaire, Yann (Jérémy Laheurte) rêve d’une nouvelle vie loin de la banlieue. Pour rembourser une dette,  il accepte de convoyer jusqu’en Espagne, Dara (Tracy Gotoas) une jeune nigériane prisonnière d’un réseau de prostitution dirigé par Sumaï (Bosh). Alors que Yann est recherché de toutes parts, Dara va tenter d’échapper à son geôlier pour retrouver sa liberté…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2022-11-16"
   },
   {
     "id": "jw-tm244173",
@@ -10382,8 +10758,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/156915351/s592/jungle.jpg",
     "note_avis": 6.7,
-    "note_recence": 7.9,
-    "note_globale": 7.3,
+    "note_recence": 7.3,
+    "note_globale": 7,
     "is_eligible": true,
     "badge": null,
     "chaines": [
@@ -10415,7 +10791,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Un groupe d'amis baroudeurs fait un périple dans la jungle bolivienne dans le but de trouver une tribu isolée du monde. Aidés d'un pseudo-aventurier appelé Karl, ils vont parcourir une partie des lieux alors encore inexplorée.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2018-01-03"
   },
   {
     "id": "jw-tm448696",
@@ -10429,8 +10807,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/146321667/s592/lintervention.jpg",
     "note_avis": 6.4,
-    "note_recence": 8.4,
-    "note_globale": 7.4,
+    "note_recence": 7.9,
+    "note_globale": 7.2,
     "is_eligible": true,
     "badge": null,
     "chaines": [
@@ -10463,7 +10841,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Inspiré de faits réels. 1976 à Djibouti, dernière colonie française. Des terroristes prennent en otage un bus d’enfants de militaires français et s’enlisent à une centaine de mètres de la frontière avec la Somalie. La France envoie sur place pour débloquer la situation une unité de tireurs d'élite de la Gendarmerie. Cette équipe, aussi hétéroclite qu’indisciplinée, va mener une opération à haut risque qui marquera la naissance du GIGN.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-01-30"
   },
   {
     "id": "jw-tm983260",
@@ -10477,8 +10857,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/249449873/s592/notorious-nick.jpg",
     "note_avis": 5.8,
-    "note_recence": 8.8,
-    "note_globale": 7.3,
+    "note_recence": 8.5,
+    "note_globale": 7.2,
     "is_eligible": true,
     "chaines": [
       "Action Max"
@@ -10508,7 +10888,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Nick Newell, un combattant manchot du MMA, a une chance rare de se battre pour le championnat des poids légers. Il s'efforce de gagner pour lui-même et pour toutes les personnes dans le monde qui ont des difficultés physiques.",
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2021,
+    "date_ajout": "2026-06-30"
   },
   {
     "id": "jw-tm1325452",
@@ -10522,8 +10904,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/323535504/s592/hounds-of-war.jpg",
     "note_avis": 4.6,
-    "note_recence": 9.5,
-    "note_globale": 7.1,
+    "note_recence": 9.4,
+    "note_globale": 7,
     "is_eligible": true,
     "badge": "16",
     "chaines": [
@@ -10554,7 +10936,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Ryder et son équipe d’élite, les Hounds, devront affronter une mission des plus périlleuses en Libye où la guerre bat son plein. Ils devront se faufiler entre les mailles du danger et ne pourront compter que sur leurs aptitudes au combat et leur mental d’acier. Plongez dans ce thriller qui vous tiendra en haleine, où la loyauté et le courage seront mis à rude épreuve.",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-01-16"
   },
   {
     "id": "jw-tm288010",
@@ -10568,8 +10952,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/83561454/s592/final-score.jpg",
     "note_avis": 5.8,
-    "note_recence": 8.2,
-    "note_globale": 7,
+    "note_recence": 7.6,
+    "note_globale": 6.7,
     "is_eligible": true,
     "badge": "12",
     "chaines": [
@@ -10590,7 +10974,7 @@ const CATALOG_DATA = [
       "aca"
     ],
     "runtime_minutes": 104,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "act",
       "drm",
@@ -10598,7 +10982,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Alors qu'il assiste à un match de football, Michael Knox, un ancien militaire, reçoit un appel : les 35 000 personnes présentes au stade sont prises en otages. Le secteur a été piégé. Si Knox n'élimine pas un des spectateurs, un certain Dimitri, les terroristes feront tout exploser. Ils tueront aussi la nièce de Knox qu'ils ont kidnappée...",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2019-04-18"
   },
   {
     "id": "jw-tm408010",
@@ -10612,8 +10998,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/174665872/s592/attraction-2.jpg",
     "note_avis": 5.6,
-    "note_recence": 8.6,
-    "note_globale": 7.1,
+    "note_recence": 8.2,
+    "note_globale": 6.9,
     "is_eligible": true,
     "badge": "10",
     "chaines": [
@@ -10634,7 +11020,7 @@ const CATALOG_DATA = [
       "aca"
     ],
     "runtime_minutes": 129,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "act",
       "drm",
@@ -10642,7 +11028,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Après la chute du vaisseau extraterrestre, il a fallu trois ans. La catastrophe a changé la vie de la jeune fille de Chertanovo et a changé à jamais notre vision de l'univers. Il semble que ce fut le plus grand test pour nous tous. Mais l'humanité ne sait pas encore que très bientôt elle devra faire l'expérience d'une nouvelle rencontre.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2020-09-01"
   },
   {
     "id": "jw-tm141858",
@@ -10656,8 +11044,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/241271110/s592/enfant-44.jpg",
     "note_avis": 6.4,
-    "note_recence": 7.5,
-    "note_globale": 7,
+    "note_recence": 6.7,
+    "note_globale": 6.6,
     "is_eligible": true,
     "badge": "12",
     "chaines": [
@@ -10680,7 +11068,7 @@ const CATALOG_DATA = [
       "aca"
     ],
     "runtime_minutes": 137,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "crm",
       "drm",
@@ -10690,7 +11078,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Hiver 1952, Moscou. Leo Demidov est un brillant agent de la police secrète soviétique, promis à un grand avenir au sein du Parti. Lorsque le corps d'un enfant est retrouvé sur une voie ferrée, il est chargé de classer l'affaire. Il s'agit d'un accident, Staline ayant décrété que le crime ne pouvait exister dans le parfait État communiste. Mais peu à peu, le doute s'installe dans l'esprit de Leo et il découvre que d'autres enfants ont été victimes « d'accidents » similaires. Tombé en disgrâce, soupçonné de trahison, Leo est contraint à l'exil avec sa femme, Raissa. Prenant tous les risques, Leo et Raissa vont se lancer dans la traque de ce tueur en série invisible, qui fera d'eux des ennemis du peuple...",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2015,
+    "date_ajout": "2015-04-15"
   },
   {
     "id": "jw-tm1029522",
@@ -10704,8 +11094,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/268370294/s592/the-virtuoso.jpg",
     "note_avis": 5,
-    "note_recence": 8.8,
-    "note_globale": 6.9,
+    "note_recence": 8.5,
+    "note_globale": 6.8,
     "is_eligible": true,
     "badge": "10",
     "chaines": [
@@ -10735,7 +11125,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Un assassin professionnel doit retrouver et tuer sa dernière cible afin d'honorer une dette envers son mentor. Contrairement à ses autres « travaux », pour cette mission, le tueur à gages a peu d'informations, il sait seulement qu'elle se trouvera dans un restaurant. N'importe quel client peut donc être sa proie...",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2022-05-24"
   },
   {
     "id": "jw-tm428276",
@@ -10749,8 +11141,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/177709905/s592/303-squadron.jpg",
     "note_avis": 5.5,
-    "note_recence": 8.2,
-    "note_globale": 6.9,
+    "note_recence": 7.6,
+    "note_globale": 6.6,
     "is_eligible": true,
     "chaines": [
       "Action Max"
@@ -10781,7 +11173,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "1940 : un escadron d’élite de l’armée de l’air polonaise est envoyé au Royaume-Uni. Ces quelques pilotes se battront avec bravoure, loin de leur pays, afin de protéger les lignes alliés contre les attaque de l’armée allemande.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2019-07-17"
   },
   {
     "id": "jw-tm244280",
@@ -10795,8 +11189,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/35955702/s592/pritiazhenie.jpg",
     "note_avis": 5.6,
-    "note_recence": 7.9,
-    "note_globale": 6.8,
+    "note_recence": 7.3,
+    "note_globale": 6.5,
     "is_eligible": true,
     "chaines": [
       "Action Max"
@@ -10828,7 +11222,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Victime d'un incident, un vaisseau spatial extraterrestre est pris en chasse par des avions russes, qui parviennent finalement à l'abattre. Le vaisseau s'écrase dans la banlieue de Moscou et les survivants, bien que pacifiques, sont traqués et parqués par l'armée moscovite. Une écolière parvient à sauver et à cacher l'un des extraterrestres. Et bientôt, toute la population commence à émettre des doutes sur les motivations des aliens et la nécessité de les enfermer.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2025-09-30"
   },
   {
     "id": "jw-tm353742",
@@ -10842,8 +11238,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/48367302/s592/bullet-head.jpg",
     "note_avis": 5.4,
-    "note_recence": 7.9,
-    "note_globale": 6.7,
+    "note_recence": 7.3,
+    "note_globale": 6.4,
     "is_eligible": true,
     "badge": "10",
     "chaines": [
@@ -10856,10 +11252,10 @@ const CATALOG_DATA = [
     ],
     "duree": "1h 33min",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 148,
-      "expirationDate": "2027-02-28",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
@@ -10878,7 +11274,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Violente et percutante, avec Adrien Brody, John Malkovich et Antonio Banderas, casting trois étoiles, ce thriller revisite le film de braquage avec originalité, c'est un vrai plaisir. Après un braquage, trois voleurs se retrouvent coincés dans un entrepôt abandonné mais dans ces lieux rôde un redoutable chien de combat qui va les traquer.",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2018-06-06"
   },
   {
     "id": "jw-tm355903",
@@ -10892,8 +11290,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/166172207/s592/sous-haute-surveillance.jpg",
     "note_avis": 4.4,
-    "note_recence": 8.2,
-    "note_globale": 6.3,
+    "note_recence": 7.6,
+    "note_globale": 6,
     "is_eligible": true,
     "chaines": [
       "Action Max"
@@ -10924,7 +11322,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Bipolaire, une artiste se remet de la perte de son enfant. Assaillie de souvenirs et sujette à des phobies, elle est placée pour sa propre sécurité dans un appartement ultra-moderne à la technologie de pointe. Mais des choses étranges se passent et la jeune femme soupçonne la présence d'un fantôme.",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-05-31"
   },
   {
     "id": "jw-tm1215900",
@@ -10938,8 +11338,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/341204088/s592/the-minute-you-wake-up-dead.jpg",
     "note_avis": 4.5,
-    "note_recence": 9.1,
-    "note_globale": 6.8,
+    "note_recence": 8.8,
+    "note_globale": 6.7,
     "is_eligible": true,
     "badge": "16",
     "chaines": [
@@ -10970,7 +11370,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Après qu'un courtier en bourse véreux d'une petite ville ait commencé à sortir avec une serveuse timide, un meurtre choquant a lieu et l'un d'eux pourrait être responsable. Lorsque la rumeur se répand qu'il y a de l'argent derrière ce meurtre, tous les criminels de la ville veulent leur part de l'argent.",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2026-01-14"
   },
   {
     "id": "jw-tm166714",
@@ -10984,8 +11386,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/175450537/s592/hansel-and-gretel-witch-hunters.jpg",
     "note_avis": 6.1,
-    "note_recence": 7,
-    "note_globale": 6.6,
+    "note_recence": 6.1,
+    "note_globale": 6.1,
     "is_eligible": true,
     "badge": "12",
     "chaines": [
@@ -11016,7 +11418,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Quinze années après leur captivité dans la maison de pain d'épices, Hansel et Gretel laissent libre court à leur soif de vengeance. Adultes, les deux frères et soeurs sont devenus d'impitoyables et sanglants chasseurs de prime, spécialisés dans la traque des sorcières du monde entier. Le duo a été recruté par le maire d'Augsburg, Englemann, pour débarrasser la ville de Muriel, une sorcière diabolique régnant sur la forêt voisine. Cette dernière a enlevé plusieurs enfants du village et projette de les sacrifier lors d'une cérémonie qui doit se dérouler durant la nuit de la Lune du sang. A l'approche du moment fatidique, Hansel et Gretel sont rattrapés par un autre ennemi, bien plus dangereux encore que la sorcière : leur propre passé...",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2013,
+    "date_ajout": "2013-01-25"
   },
   {
     "id": "jw-tm233435",
@@ -11030,8 +11434,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/178681697/s592/tie-dao-fei-hu.jpg",
     "note_avis": 5.8,
-    "note_recence": 7.7,
-    "note_globale": 6.8,
+    "note_recence": 7,
+    "note_globale": 6.4,
     "is_eligible": true,
     "chaines": [
       "Action Max"
@@ -11063,7 +11467,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "En 1941, le Japon fait avancer la guerre jusqu’à l’Asie du Sud. La ligne de chemin de fer entre Tianjin et Nanjing devient stratégique. Le cheminot Ma Yuan dirige une équipe de résistants, mettant à profit leur connaissance du réseau ferroviaire pour faire dérailler les machines de guerre japonaises. Les Chinois nomment ces héros hors du commun les « Railroad Tigers ». Quand les forces japonaises envoient des renforts à Shandong, Ma Yuan se lance dans sa plus périlleuse mission : faire sauter un pont ultra-sécurisé, ce qui ralentirait considérablement la progression japonaise…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2018-05-03"
   },
   {
     "id": "jw-tm858091",
@@ -11077,8 +11483,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/314751718/s592/enemy-lines.jpg",
     "note_avis": 4.6,
-    "note_recence": 8.6,
-    "note_globale": 6.6,
+    "note_recence": 8.2,
+    "note_globale": 6.4,
     "is_eligible": true,
     "badge": "10",
     "chaines": [
@@ -11109,7 +11515,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Dans le paysage glacé et déchiré par la guerre de la Pologne occupée pendant la Seconde Guerre mondiale, une équipe de commandos alliés est envoyée en mission mortelle derrière les lignes ennemies pour extraire un spécialiste des fusées des mains des nazis.",
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2020,
+    "date_ajout": "2021-10-20"
   },
   {
     "id": "jw-tm927756",
@@ -11123,8 +11531,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/344152398/s592/doorman.jpg",
     "note_avis": 4.7,
-    "note_recence": 8.6,
-    "note_globale": 6.7,
+    "note_recence": 8.2,
+    "note_globale": 6.5,
     "is_eligible": true,
     "badge": "12",
     "chaines": [
@@ -11155,7 +11563,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Une membre des Marines, après avoir vécu des événements traumatisants, est de retour chez elle. Devenue concierge d'un immeuble new-yorkais, elle va se retrouver confrontée à des mercenaires bien décidés à mettre la main sur une précieuse oeuvre d'art.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2020-11-19"
   },
   {
     "id": "jw-tm71598",
@@ -11169,8 +11579,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/248774416/s592/billionaire-ransom.jpg",
     "note_avis": 5.5,
-    "note_recence": 7.7,
-    "note_globale": 6.6,
+    "note_recence": 7,
+    "note_globale": 6.3,
     "is_eligible": true,
     "chaines": [
       "Action Max"
@@ -11202,7 +11612,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Des enfants pourris gâtés, issus de familles aisées, sont envoyés dans une pension très stricte, dans l'espoir que cette éducation leur remettra les idées en place. Arrivés sur place, ils se retrouvent bientôt pris en otages par des criminels ayant assiégé l'école. Leurs kidnappeurs demandent alors une rançon exorbitante. Leur seul espoir : s'en sortir par leurs propres moyens...",
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2016,
+    "date_ajout": "2024-11-06"
   },
   {
     "id": "jw-tm197589",
@@ -11216,8 +11628,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/176178016/s592/kickboxer-vengeance.jpg",
     "note_avis": 4.9,
-    "note_recence": 7.7,
-    "note_globale": 6.3,
+    "note_recence": 7,
+    "note_globale": 6,
     "is_eligible": true,
     "chaines": [
       "Action Max"
@@ -11249,7 +11661,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Kurt Sloan est bien décidé à venger la mort de son frère Eric, tué par un champion de boxe thaïlandaise. Pour cela, il est entraîné par un maître en arts martiaux.",
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2016,
+    "date_ajout": "2024-04-30"
   },
   {
     "id": "jw-tm315397",
@@ -11263,8 +11677,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/8852380/s592/stratton.jpg",
     "note_avis": 4.8,
-    "note_recence": 7.9,
-    "note_globale": 6.4,
+    "note_recence": 7.3,
+    "note_globale": 6.1,
     "is_eligible": true,
     "chaines": [
       "Action Max"
@@ -11294,7 +11708,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Stratton, agent du MI6, s’infiltre avec son coéquipier Marty dans un laboratoire iranien pour intercepter le vol de molécules chimiques mortelles. Mais à leur arrivée, celles-ci ont déjà disparu et la mission tourne mal… De retour à Londres, Stratton et son équipe se lancent dans une course contre la montre pour stopper la cellule terroriste qui projette d’utiliser l’arme biochimique sur une capitale.",
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2017,
+    "date_ajout": "2017-04-05"
   },
   {
     "id": "jw-tm842965",
@@ -11308,8 +11724,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/193796981/s592/ligne-dattaque.jpg",
     "note_avis": 5.9,
-    "note_recence": 8.4,
-    "note_globale": 7.2,
+    "note_recence": 7.9,
+    "note_globale": 6.9,
     "is_eligible": true,
     "chaines": [
       "Ciné+ OCS"
@@ -11333,7 +11749,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 98,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "act",
       "crm",
@@ -11341,7 +11757,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "L'agent Frank Penny n'a plus que 64 minutes pour sauver la fille du chef de la police, détenue par ses ravisseurs dans un réservoir dont le niveau d'eau monte inexorablement. Alors qu'un malfaiteur psychopathe s'est lancé à ses trousses, Frank va faire équipe avec Ava Brooks, star des réseaux sociaux, dans l'espoir que la diffusion en live de leur enquête permette d'éviter le pire.",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2020-03-18"
   },
   {
     "id": "jw-tm918825",
@@ -11355,8 +11773,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/247539151/s592/rogue.jpg",
     "note_avis": 4.2,
-    "note_recence": 8.6,
-    "note_globale": 6.4,
+    "note_recence": 8.2,
+    "note_globale": 6.2,
     "is_eligible": true,
     "badge": "10",
     "chaines": [
@@ -11386,7 +11804,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Après avoir arraché des prisonniers des mains de leurs ravisseurs, des mercenaires prennent la fuite à travers la savane. Pourchassés par ceux qu'ils viennent d'attaquer, ils vont devoir faire face à un danger tout aussi mortel...",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2021-03-03"
   },
   {
     "id": "jw-tm419425",
@@ -11400,8 +11820,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/191653112/s592/the-poison-rose.jpg",
     "note_avis": 4.8,
-    "note_recence": 8.4,
-    "note_globale": 6.6,
+    "note_recence": 7.9,
+    "note_globale": 6.4,
     "is_eligible": true,
     "chaines": [
       "Action Max"
@@ -11432,7 +11852,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Carson Phillips, ancien quarterback devenu détective privé à Los Angeles, se rend à Galveston au Texas sur la demande d’une cliente sans nouvelles de sa tante. Il accepte à contrecoeur car aller à Galveston c’est pour lui un pèlerinage douloureux. C’est là qu’il y a vingt ans, il a abandonné la femme qu’il aimait ainsi que sa carrière de footballeur. Carson va alors percer un à un tous les secrets cette ville sur fond de corruption, de trafic de drogue et de matchs truqués.",
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-12-04"
   },
   {
     "id": "jw-tm471635",
@@ -11446,8 +11868,8 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/action.png",
     "poster": "https://images.justwatch.com/poster/145595640/s592/killers-anonymous.jpg",
     "note_avis": 4,
-    "note_recence": 8.4,
-    "note_globale": 6.2,
+    "note_recence": 7.9,
+    "note_globale": 6,
     "is_eligible": true,
     "chaines": [
       "Action Max"
@@ -11478,7 +11900,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Pour chaque vie, il y a une mort. Et pour chaque personne, il y a une envie que seulement peu assouvisse : écouter la voix obscure qui nous dit d'éteindre la vie d'une autre personne. Vous pouvez marcher dans la rue et effleurer l'épaule d'un inconnu avant d'échanger un sourire poli, sans vous douter que ce même inconnu s'imagine en train de contempler votre corps ensanglanté au moment de votre dernier souffle. Il y a un endroit pour ces personnes. Ils ont tous tué, ils y ont tous pensé, certains veulent arrêter, d'autres veulent parler quand les derniers auraient besoin d'écouter.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2020-03-11"
   },
   {
     "id": "jw-tm152893",
@@ -11536,7 +11960,7 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2024,
     "note_avis": 6.9,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 8.2,
     "categories": [
       "animation_famille"
@@ -11575,7 +11999,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Sonic, Knuckles et Tails sont à nouveau réunis face à un puissant nouvel adversaire, Shadow, un mystérieux vilain doté de pouvoirs comme ils n'en ont encore jamais vu. Leurs habiletés étant toutes surclassées, l'Équipe Sonic doit tenter une alliance improbable dans l'espoir d'arrêter Shadow et de protéger la planète.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-12-20"
   },
   {
     "id": "jw-tm207719",
@@ -11586,8 +12012,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2016,
     "note_avis": 7.5,
-    "note_recence": 7.7,
-    "note_globale": 7.6,
+    "note_recence": 7,
+    "note_globale": 7.3,
     "categories": [
       "animation_famille"
     ],
@@ -11626,7 +12052,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "À travers l’histoire d’un naufragé sur une île déserte tropicale peuplée de tortues, de crabes et d’oiseaux, La Tortue rouge raconte les grandes étapes de la vie d’un être humain.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2016-06-29"
   },
   {
     "id": "jw-tm143992",
@@ -11637,8 +12065,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2015,
     "note_avis": 7.6,
-    "note_recence": 7.5,
-    "note_globale": 7.6,
+    "note_recence": 6.7,
+    "note_globale": 7.2,
     "categories": [
       "animation_famille"
     ],
@@ -11679,7 +12107,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "C’est l’histoire d’une histoire. C’est l’histoire d’une petite fille, intrépide et curieuse, qui vit dans un monde d’adultes. C’est l’histoire d’un aviateur, excentrique et facétieux, qui n’a jamais vraiment grandi. C’est l’histoire du Petit Prince qui va les réunir dans une aventure extraordinaire.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2015,
+    "date_ajout": "2015-11-28"
   },
   {
     "id": "jw-tm854286",
@@ -11690,8 +12120,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2020,
     "note_avis": 4.1,
-    "note_recence": 8.6,
-    "note_globale": 6.4,
+    "note_recence": 8.2,
+    "note_globale": 6.1,
     "categories": [
       "comedie"
     ],
@@ -11726,7 +12156,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "A l’école, Toto est bien plus doué pour faire rire ses copains qu’écouter les leçons de la maîtresse. Avec ses parents aussi, les blagues de Toto se transforment souvent en catastrophes… La dernière en date ? La chute d’une sculpture pendant un évènement organisé par le patron de son père. Mais cette fois-ci, Toto assure qu’il est innocent et refuse d’être accusé d’une bêtise que pour une fois, il n’a pas faite ! Avec ses meilleurs amis, il va mener l’enquête.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2020-08-05"
   },
   {
     "id": "jw-tm319784",
@@ -11737,8 +12169,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2017,
     "note_avis": 6.1,
-    "note_recence": 7.9,
-    "note_globale": 7,
+    "note_recence": 7.3,
+    "note_globale": 6.7,
     "categories": [
       "animation_famille"
     ],
@@ -11766,7 +12198,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 92,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "ani",
       "cmy",
@@ -11776,7 +12208,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Adam, un adolescent rêveur et solitaire, doté de pouvoirs surnaturels, décide de partir à la recherche de son père, disparu depuis des années dans des circonstances plus que mystérieuses. Son enquête le mène rapidement à la rencontre d’une créature tout aussi magique que légendaire : Le Bigfoot ! Commence alors pour eux deux une aventure extraordinaire au cœur de la forêt peuplée d’adorables animaux, sans savoir qu’une dangereuse organisation est sur leurs traces et prête à tout pour mettre la main sur le Bigfoot.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2017-08-16"
   },
   {
     "id": "jw-tm241259",
@@ -11787,8 +12221,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2016,
     "note_avis": 6.2,
-    "note_recence": 7.7,
-    "note_globale": 7,
+    "note_recence": 7,
+    "note_globale": 6.6,
     "categories": [
       "action_aventure"
     ],
@@ -11816,7 +12250,7 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 97,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "act",
       "drm",
@@ -11825,7 +12259,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Dans l'Angleterre des années 1930, Madame Walker et ses enfants rejoignent le Lake District, au nord du pays, où la famille passe régulièrement ses vacances. À peine arrivés, John, Roger, Tatty et Susan n'ont qu'une idée en tête : partir à la découverte de l'île mystérieuse située au milieu du lac. Après les mises en garde de rigueur, les enfants embarquent à bord du voilier l'Hirondelle, bardés de vivres, et mettent le cap sur l'île.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2017-06-01"
   },
   {
     "id": "jw-tm229933",
@@ -11836,8 +12272,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2016,
     "note_avis": 5.4,
-    "note_recence": 7.7,
-    "note_globale": 6.6,
+    "note_recence": 7,
+    "note_globale": 6.2,
     "categories": [
       "animation_famille"
     ],
@@ -11874,7 +12310,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Mardi, un jeune perroquet, vit sur une île paradisiaque avec d’autres animaux. Il rêve de quitter son île pour découvrir le reste du monde. Après une violente tempête, Mardi et ses amis font la découverte d’une étrange créature sur la plage : Robinson Crusoé. Les animaux de l’île vont devoir apprivoiser ce nouvel arrivant ! C’est pour Mardi l’occasion de vivre une extraordinaire aventure et peut‐être de quitter son île !",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2016-04-20"
   },
   {
     "id": "jw-tm154797",
@@ -11885,8 +12323,8 @@ const CATALOG_DATA = [
     "position": "Films — Ciné+ Family",
     "annee": 2014,
     "note_avis": 5.7,
-    "note_recence": 7.2,
-    "note_globale": 6.5,
+    "note_recence": 6.4,
+    "note_globale": 6.1,
     "categories": [
       "animation_famille"
     ],
@@ -11923,7 +12361,9 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Roublard, un écureuil égocentrique banni de son parc, projette de cambrioler une boutique de noix. Cependant, les autres animaux du parc doivent constituer des réserves pour l'hiver et n'ont pas l'intention de le laisser rafler la mise. Ils se voient contraints de travailler ensemble et mettent au point un plan rocambolesque pour organiser le vol du siècle. Évidemment, rien ne va se passer comme prévu…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2014,
+    "date_ajout": "2014-08-06"
   },
   {
     "id": "jw-tm1832",
@@ -11985,8 +12425,8 @@ const CATALOG_DATA = [
     "position": "Séries — SCIFI",
     "annee": 2021,
     "note_avis": 8,
-    "note_recence": 8.8,
-    "note_globale": 8.4,
+    "note_recence": 9.1,
+    "note_globale": 8.6,
     "categories": [
       "scifi_fantastique"
     ],
@@ -12022,7 +12462,32 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Un extraterrestre s'écrase sur Terre et assume l'identité d'un médecin local dans une petite ville du Colorado. Alors qu'il se familiarise avec les humains, il est impliqué dans une enquête pour meurtre, ce qui l'amène à se demander si l'humanité mérite d'être sauvée.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2025,
+    "annee_moyenne": 2023,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2021,
+        "note": 8
+      },
+      {
+        "saison": 2,
+        "annee": 2022,
+        "note": 8
+      },
+      {
+        "saison": 3,
+        "annee": 2024,
+        "note": 8
+      },
+      {
+        "saison": 4,
+        "annee": 2025,
+        "note": 8
+      }
+    ],
+    "date_ajout": "2025-06-13"
   },
   {
     "id": "jw-ts364655",
@@ -12033,7 +12498,7 @@ const CATALOG_DATA = [
     "position": "Séries — SCIFI",
     "annee": 2023,
     "note_avis": 6.4,
-    "note_recence": 9.3,
+    "note_recence": 9.4,
     "note_globale": 7.9,
     "categories": [
       "scifi_fantastique"
@@ -12069,7 +12534,22 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Après une catastrophe majeure, une nouvelle société a émergé : Arcadia. Dans ce nouveau système, des points déterminent ce qui est faisable dans la société mais également les droits dont disposent chacun en tant que citoyen. Et plus le score est élevé plus la vie est belle.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2025,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2023,
+        "note": 6.4
+      },
+      {
+        "saison": 2,
+        "annee": 2025,
+        "note": 6.4
+      }
+    ],
+    "date_ajout": "2025-04-29"
   },
   {
     "id": "jw-ts341648",
@@ -12081,7 +12561,7 @@ const CATALOG_DATA = [
     ],
     "section": "Séries",
     "position": "Séries • OCS & SCIFI",
-    "annee": 2022,
+    "annee": 2023,
     "note_avis": 7.3,
     "note_recence": 9.1,
     "note_globale": 8.2,
@@ -12119,7 +12599,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Après avoir assisté à la fin du monde, George remonte le temps pour sauver la femme qu'il aime. Le jeune homme est aussitôt recruté par une organisation qui exploite ce pouvoir afin de prévenir les catastrophes mondiales.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "saisons_disponibles": [
+      {
+        "saison": 2,
+        "annee": 2023,
+        "note": 7.3
+      }
+    ],
+    "date_ajout": "2024-09-04"
   },
   {
     "id": "jw-ts419701",
@@ -12130,8 +12619,8 @@ const CATALOG_DATA = [
     "position": "Séries — SCIFI",
     "annee": 2024,
     "note_avis": 6.4,
-    "note_recence": 9.5,
-    "note_globale": 8,
+    "note_recence": 9.4,
+    "note_globale": 7.9,
     "categories": [
       "scifi_fantastique"
     ],
@@ -12159,7 +12648,7 @@ const CATALOG_DATA = [
       "auc"
     ],
     "runtime_minutes": 43,
-    "etoiles": 5,
+    "etoiles": 4,
     "raw_genres": [
       "drm",
       "fnt",
@@ -12167,7 +12656,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Suivez Domino, une jeune sorcière puissante, hantée par son besoin de se nourrir de l'énergie d'autrui.\r\n",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2024,
+        "note": 6.4
+      }
+    ],
+    "date_ajout": "2026-02-10"
   },
   {
     "id": "jw-ts251372",
@@ -12176,10 +12674,10 @@ const CATALOG_DATA = [
     "chaine": "Universal+",
     "section": "Séries",
     "position": "Séries — SCIFI",
-    "annee": 2021,
+    "annee": 2022,
     "note_avis": 7.2,
-    "note_recence": 8.8,
-    "note_globale": 8,
+    "note_recence": 9.4,
+    "note_globale": 8.3,
     "categories": [
       "scifi_fantastique"
     ],
@@ -12216,7 +12714,27 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Luke Roman est à la tête d'une agence immobilière spécialisée dans les propriétés \"métaphysiques\", également appelées \"maisons hantées\". Luke peut non seulement sentir la présence qui habite la maison, mais il peut aussi négocier avec elle.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2025,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2022,
+        "note": 7.2
+      },
+      {
+        "saison": 2,
+        "annee": 2023,
+        "note": 7.2
+      },
+      {
+        "saison": 3,
+        "annee": 2025,
+        "note": 7.2
+      }
+    ],
+    "date_ajout": "2024-01-09"
   },
   {
     "id": "jw-ts408573",
@@ -12227,8 +12745,8 @@ const CATALOG_DATA = [
     "position": "Séries — SCIFI",
     "annee": 2024,
     "note_avis": 4.8,
-    "note_recence": 9.5,
-    "note_globale": 7.2,
+    "note_recence": 9.4,
+    "note_globale": 7.1,
     "categories": [
       "scifi_fantastique"
     ],
@@ -12263,7 +12781,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "À Dambury, une fuite chimique près d'une maison de retraite déclenche une apocalypse menée par des retraités avides de chair fraîche.  Un groupe d'adolescents se retrouve pris au piège de ce virus lorsqu'une des grands-mères du groupe est infectée et passe à l'attaque.\n",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2024,
+        "note": 4.8
+      }
+    ],
+    "date_ajout": "2025-10-30"
   },
   {
     "id": "jw-ts4840",
@@ -12274,7 +12801,7 @@ const CATALOG_DATA = [
     "position": "Séries — SCIFI",
     "annee": 2015,
     "note_avis": 8.2,
-    "note_recence": 7.5,
+    "note_recence": 7.6,
     "note_globale": 7.9,
     "categories": [
       "scifi_fantastique"
@@ -12311,7 +12838,32 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Le Ministère du Temps est une institution secrète qui s’assure que l'histoire de l'Espagne ne change pas, tout en protégeant le présent. Leurs patrouilles voyagent à travers le temps pour empêcher tout intrus du passé d’utiliser à leur avantage l’histoire. Sur leur chemin, ils croiseront des célébrités comme Dali, Bunuel ou Picasso, mais nos protagonistes voudront aussi voyager dans le temps pour découvrir ce qui est arrivé à leurs proches, même si cela signifie un petit arrangement avec les règles du Ministère.",
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2020,
+    "annee_moyenne": 2018,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2015,
+        "note": 8.2
+      },
+      {
+        "saison": 2,
+        "annee": 2016,
+        "note": 8.2
+      },
+      {
+        "saison": 3,
+        "annee": 2017,
+        "note": 8.2
+      },
+      {
+        "saison": 4,
+        "annee": 2020,
+        "note": 8.2
+      }
+    ],
+    "date_ajout": "2024-09-08"
   },
   {
     "id": "jw-ts245478",
@@ -12322,8 +12874,8 @@ const CATALOG_DATA = [
     "position": "Séries — SCIFI",
     "annee": 2020,
     "note_avis": 6.6,
-    "note_recence": 8.6,
-    "note_globale": 7.6,
+    "note_recence": 8.2,
+    "note_globale": 7.4,
     "categories": [
       "scifi_fantastique"
     ],
@@ -12359,7 +12911,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Dans une utopie où la paix et la stabilité règnent grâce à l'interdiction de la monogamie, de la vie privée, de l'argent, de la famille et de l'histoire, les membres du collectif commencent à remettre en question les règles.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2020,
+        "note": 6.6
+      }
+    ],
+    "date_ajout": "2024-02-04"
   },
   {
     "id": "jw-ts41974",
@@ -12370,8 +12931,8 @@ const CATALOG_DATA = [
     "position": "Séries — SCIFI",
     "annee": 2016,
     "note_avis": 7.6,
-    "note_recence": 7.7,
-    "note_globale": 7.7,
+    "note_recence": 7.3,
+    "note_globale": 7.5,
     "categories": [
       "scifi_fantastique"
     ],
@@ -12407,7 +12968,22 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Un criminel mystérieux vole une machine à voyager dans le temps top-secrète. Il veut détruire les États-Unis en modifiant le passé. Le seul espoir est dans une petite équipe formée d’un scientifique, d’un soldat, et d’une historienne. Ils doivent utiliser un prototype de la machine pour poursuivre le fugitif, mais faire attention à ne pas changer l’histoire à leur tour.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2018,
+    "annee_moyenne": 2017,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2016,
+        "note": 7.6
+      },
+      {
+        "saison": 2,
+        "annee": 2018,
+        "note": 7.6
+      }
+    ],
+    "date_ajout": "2026-08-01"
   },
   {
     "id": "jw-ts38199",
@@ -12418,7 +12994,7 @@ const CATALOG_DATA = [
     "position": "Séries — SCIFI",
     "annee": 2015,
     "note_avis": 7.6,
-    "note_recence": 7.5,
+    "note_recence": 7.6,
     "note_globale": 7.6,
     "categories": [
       "scifi_fantastique"
@@ -12455,7 +13031,37 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Bientôt diplômé, Quentin Coldwater a du mal à se projeter dans son avenir en laissant de côté la magie qui le passionne depuis sa tendre enfance. A sa grande surprise, le jeune homme est admis à Brakebills, une école secrète qui forme les futurs magiciens. Il y fait la connaissance d'Alice, Penny, Margo et Eliot , avec lesquels il entretient des relations tantôt complices et souvent conflictuelles. Ensemble, ils vont pourtant devoir faire face à de grands dangers, des forces maléfiques venues de contrées insoupçonnées. Pendant ce temps, Julia, la meilleure amie de Quentin, qui a échoué aux tests d'admission de Brakebills, suit son propre chemin. Un chemin obscur et dangereux qui pourrait la mener à sa perte…",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2020,
+    "annee_moyenne": 2018,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2015,
+        "note": 7.6
+      },
+      {
+        "saison": 2,
+        "annee": 2017,
+        "note": 7.6
+      },
+      {
+        "saison": 3,
+        "annee": 2018,
+        "note": 7.6
+      },
+      {
+        "saison": 4,
+        "annee": 2019,
+        "note": 7.6
+      },
+      {
+        "saison": 5,
+        "annee": 2020,
+        "note": 7.6
+      }
+    ],
+    "date_ajout": "2018-02-25"
   },
   {
     "id": "jw-ts322312",
@@ -12464,10 +13070,10 @@ const CATALOG_DATA = [
     "chaine": "Universal+",
     "section": "Séries",
     "position": "Séries — SCIFI",
-    "annee": 2022,
+    "annee": 2024,
     "note_avis": 6,
-    "note_recence": 9.1,
-    "note_globale": 7.6,
+    "note_recence": 9.4,
+    "note_globale": 7.7,
     "categories": [
       "comedie"
     ],
@@ -12502,7 +13108,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Dans un monde peuplé de vampires beaux, en forme et vaniteux. Reginald Baskin ne correspond pas à cette norme. Bientôt, il devra surmonter toutes sortes d'obstacles - la fille qu'il aime mais avec laquelle il ne peut pas être, un directeur tyrannique au travail et le chef des vampires qui veut sa mort. Heureusement, Reginald découvre qu'il possède lui-même quelques pouvoirs méconnus.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 2,
+        "annee": 2024,
+        "note": 6
+      }
+    ],
+    "date_ajout": "2024-10-22"
   },
   {
     "id": "jw-ts5306",
@@ -12513,7 +13128,7 @@ const CATALOG_DATA = [
     "position": "Séries — SCIFI",
     "annee": 2023,
     "note_avis": 5.8,
-    "note_recence": 9.3,
+    "note_recence": 9.4,
     "note_globale": 7.6,
     "categories": [
       "scifi_fantastique"
@@ -12550,7 +13165,22 @@ const CATALOG_DATA = [
     ],
     "synopsis": "100 ans dans le futur quand des missions de colonisation ont commencé pour assurer la survie de la race humaine. La première de ces missions, à bord d’un vaisseau spatial connu sous le nom d’Ark One, est victime d’un événement catastrophique qui provoque des destructions massives et des morts. Il leur reste plus d’une année avant d’atteindre leur nouveau foyer. En manque de ressources, l’équipage restant doit se montrer encore plus exemplaire que jamais pour arriver à leur destination finale.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2024,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2023,
+        "note": 5.8
+      },
+      {
+        "saison": 2,
+        "annee": 2024,
+        "note": 5.8
+      }
+    ],
+    "date_ajout": "2025-01-07"
   },
   {
     "id": "jw-ts37810",
@@ -12561,8 +13191,8 @@ const CATALOG_DATA = [
     "position": "Séries — SCIFI",
     "annee": 2016,
     "note_avis": 7.1,
-    "note_recence": 7.7,
-    "note_globale": 7.4,
+    "note_recence": 7.3,
+    "note_globale": 7.2,
     "categories": [
       "scifi_fantastique"
     ],
@@ -12600,7 +13230,22 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Des millions d'années après l'extinction de la civilisation que nous connaissons, les Quatre Terres sont menacées par la mort imminente de l'Arbre protecteur Ellcrys qui renferme des forces terribles et obscures. A chaque feuille tombée, les démons se réveillent de l'au-delà. La princesse Amberle, le demi-elfe et la solitaire Eretria commencent alors leur quête contre les forces du Mal.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2017,
+    "annee_moyenne": 2017,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2016,
+        "note": 7.1
+      },
+      {
+        "saison": 2,
+        "annee": 2017,
+        "note": 7.1
+      }
+    ],
+    "date_ajout": "2024-03-11"
   },
   {
     "id": "jw-ts20606",
@@ -12611,7 +13256,7 @@ const CATALOG_DATA = [
     "position": "Séries — SCIFI",
     "annee": 2011,
     "note_avis": 7.9,
-    "note_recence": 6.5,
+    "note_recence": 6.4,
     "note_globale": 7.2,
     "categories": [
       "scifi_fantastique"
@@ -12652,7 +13297,42 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Lorsque Nick Burkhardt, un détective spécialisé dans les homicides, reçoit la visite de sa tante malade, toutes les choses étranges qu'il a vues jusqu'alors prennent sens. En effet, sa tante l'informe que tous deux sont chasseurs de \"Grimms\" et qu'ils sont chargés de protéger l'humanité contre les créatures surnaturelles. Nick fouille dans le passé de sa tante et découvre qu'il a la même responsabilité que ses ancêtres et qu'il est étroitement lié à la mythologie des Frères Grimm. Alors que Burkhardt tente de dissimuler les dangers de sa nouvelle mission à sa fiancée et à son collègue, il s'embourbe dans les vieilles rivalités de l'univers des frères Grimm.",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2017,
+    "annee_moyenne": 2014,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2011,
+        "note": 7.9
+      },
+      {
+        "saison": 2,
+        "annee": 2012,
+        "note": 7.9
+      },
+      {
+        "saison": 3,
+        "annee": 2013,
+        "note": 7.9
+      },
+      {
+        "saison": 4,
+        "annee": 2014,
+        "note": 7.9
+      },
+      {
+        "saison": 5,
+        "annee": 2015,
+        "note": 7.9
+      },
+      {
+        "saison": 6,
+        "annee": 2017,
+        "note": 7.9
+      }
+    ],
+    "date_ajout": "2018-02-11"
   },
   {
     "id": "jw-ts42421",
@@ -12663,8 +13343,8 @@ const CATALOG_DATA = [
     "position": "Séries — SCIFI",
     "annee": 2017,
     "note_avis": 7.3,
-    "note_recence": 7.9,
-    "note_globale": 7.6,
+    "note_recence": 7.6,
+    "note_globale": 7.5,
     "categories": [
       "scifi_fantastique"
     ],
@@ -12700,7 +13380,22 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Au fin fond du Texas, dans une petite ville tranquille, votre voisin pourrait être un vampire, une sorcière, un loup-garou... Les habitants tentent de combattre les pressions extérieures des gangs de motards, des policiers suspicieux et de leur propre passé.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2018,
+    "annee_moyenne": 2018,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2017,
+        "note": 7.3
+      },
+      {
+        "saison": 2,
+        "annee": 2018,
+        "note": 7.3
+      }
+    ],
+    "date_ajout": "2018-02-18"
   },
   {
     "id": "jw-ts20309",
@@ -12711,8 +13406,8 @@ const CATALOG_DATA = [
     "position": "Séries — SCIFI",
     "annee": 2014,
     "note_avis": 7.3,
-    "note_recence": 7.2,
-    "note_globale": 7.3,
+    "note_recence": 7,
+    "note_globale": 7.2,
     "categories": [
       "action_aventure"
     ],
@@ -12749,7 +13444,32 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Flynn Carson est le bibliothécaire depuis maintenant dix ans. Il doit résoudre des mystères impossibles, retrouver des artefacts très puissants et affronter des forces surnaturelles dont celle de la confrérie du serpent, son principal ennemi. Pour l'aider, la Bibliothèque lui a choisi un gardien, le colonel Eve Baird, militaire à l'OTAN. L'équipe se voit très vite complétée par trois \"bibliothécaires en herbe\" : Jacob Stone, un génie en histoire et architecture, au QI de 190, Cassandra Cillian, une mathématicienne dotée d'une mémoire photographique qui est atteinte d'une tumeur au cerveau et Ezekiel Jones, un voleur et spécialiste en technologie avancée.",
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2017,
+    "annee_moyenne": 2016,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2014,
+        "note": 7.3
+      },
+      {
+        "saison": 2,
+        "annee": 2015,
+        "note": 7.3
+      },
+      {
+        "saison": 3,
+        "annee": 2016,
+        "note": 7.3
+      },
+      {
+        "saison": 4,
+        "annee": 2017,
+        "note": 7.3
+      }
+    ],
+    "date_ajout": "2024-10-07"
   },
   {
     "id": "jw-ts37028",
@@ -12760,8 +13480,8 @@ const CATALOG_DATA = [
     "position": "Séries — SCIFI",
     "annee": 2015,
     "note_avis": 6.8,
-    "note_recence": 7.5,
-    "note_globale": 7.2,
+    "note_recence": 6.7,
+    "note_globale": 6.8,
     "categories": [
       "scifi_fantastique"
     ],
@@ -12789,7 +13509,7 @@ const CATALOG_DATA = [
       "auc"
     ],
     "runtime_minutes": 81,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "drm",
       "trl",
@@ -12797,7 +13517,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "En 2016, l'espace aérien terrien est envahi de vaisseaux extraterrestres. Ces aliens, qui préfèrent rester dans l'ombre, assurent être venus en paix pour aider les humains à évoluer et atteindre leur âge d'or. Ils choisissent un modeste fermier de l'Amérique profonde pour servir d'intermédiaire entre leur peuple et les hommes. Pour prouver leur bonne foi, ils mettent fin aux guerres, aux maladies et à la famine. Cette intrusion n'est pas forcément bien vécue par l'ensemble de la population terrienne. Certains ont du mal à faire confiance et s'interrogent : quelle peut bien être la motivation de ces étrangers ? Qu'attendent-ils en retour ? Et quand révèleront-ils leur vrai visage ?",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2015,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2015,
+        "note": 6.8
+      }
+    ],
+    "date_ajout": "2026-09-03"
   },
   {
     "id": "jw-ts6683",
@@ -12808,8 +13537,8 @@ const CATALOG_DATA = [
     "position": "Séries — SCIFI",
     "annee": 2004,
     "note_avis": 8.7,
-    "note_recence": 4.9,
-    "note_globale": 6.8,
+    "note_recence": 4,
+    "note_globale": 6.4,
     "categories": [
       "scifi_fantastique"
     ],
@@ -12845,7 +13574,32 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Puissants robots, les Cylons règnent en maître sur l'univers. À bord du dernier vaisseau de guerre, le Galactica, des humains tentent de survivre en entreprenant le voyage de la dernière chance : trouver une légendaire planète appelée la Terre.",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2008,
+    "annee_moyenne": 2006,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2004,
+        "note": 8.7
+      },
+      {
+        "saison": 2,
+        "annee": 2005,
+        "note": 8.7
+      },
+      {
+        "saison": 3,
+        "annee": 2006,
+        "note": 8.7
+      },
+      {
+        "saison": 4,
+        "annee": 2008,
+        "note": 8.7
+      }
+    ],
+    "date_ajout": "2021-04-19"
   },
   {
     "id": "jw-ts20598",
@@ -12856,8 +13610,8 @@ const CATALOG_DATA = [
     "position": "Séries — SCIFI",
     "annee": 2006,
     "note_avis": 7.5,
-    "note_recence": 5.4,
-    "note_globale": 6.5,
+    "note_recence": 4.6,
+    "note_globale": 6.1,
     "categories": [
       "scifi_fantastique"
     ],
@@ -12893,7 +13647,32 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Partout dans le monde, un certain nombre d'individus, en apparence ordinaires, se révèlent dotés de capacités hors du commun. Ils ne savent pas ce qui leur arrive, ni les répercussions que tout cela pourrait avoir.",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2009,
+    "annee_moyenne": 2008,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2006,
+        "note": 7.5
+      },
+      {
+        "saison": 2,
+        "annee": 2007,
+        "note": 7.5
+      },
+      {
+        "saison": 3,
+        "annee": 2008,
+        "note": 7.5
+      },
+      {
+        "saison": 4,
+        "annee": 2009,
+        "note": 7.5
+      }
+    ],
+    "date_ajout": "2018-10-14"
   },
   {
     "id": "jw-ts21861",
@@ -12904,8 +13683,8 @@ const CATALOG_DATA = [
     "position": "Séries — SCIFI",
     "annee": 2009,
     "note_avis": 7.6,
-    "note_recence": 6.1,
-    "note_globale": 6.9,
+    "note_recence": 5.8,
+    "note_globale": 6.7,
     "categories": [
       "scifi_fantastique"
     ],
@@ -12943,7 +13722,37 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Après avoir sauvé la vie du président des États-Unis, deux agents du FBI sont nommés à un nouveau poste baptisé « Warehouse 13 », un service qui abrite les objets surnaturels que le gouvernement américain a collectés à travers les siècles. Le duo se voit confier la mission de récupérer d'éventuels nouveaux artefacts susceptibles de mettre en danger des individus.",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2014,
+    "annee_moyenne": 2012,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2009,
+        "note": 7.6
+      },
+      {
+        "saison": 2,
+        "annee": 2010,
+        "note": 7.6
+      },
+      {
+        "saison": 3,
+        "annee": 2011,
+        "note": 7.6
+      },
+      {
+        "saison": 4,
+        "annee": 2012,
+        "note": 7.6
+      },
+      {
+        "saison": 5,
+        "annee": 2014,
+        "note": 7.6
+      }
+    ],
+    "date_ajout": "2025-09-08"
   },
   {
     "id": "jw-ts21672",
@@ -12954,8 +13763,8 @@ const CATALOG_DATA = [
     "position": "Séries — SCIFI",
     "annee": 2015,
     "note_avis": 6.6,
-    "note_recence": 7.5,
-    "note_globale": 7.1,
+    "note_recence": 6.7,
+    "note_globale": 6.7,
     "categories": [
       "scifi_fantastique"
     ],
@@ -12981,7 +13790,7 @@ const CATALOG_DATA = [
       "auc"
     ],
     "runtime_minutes": 43,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "drm",
       "fnt",
@@ -12990,7 +13799,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Heroes Reborn débute 5 ans après la fin de la saison 4 de Heroes, à Odessa au Texas, juste après une attaque terroriste dévastatrice. Le rêve de paix est rompu et les « Heroes », ces humains évolués possédant d'extraordinaires capacités, sont accusés d'avoir déclenché cet événement tragique. Ils sont alors forcés de sa cacher ou de fuir aux côtés des plus malintentionnés.",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2015,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2015,
+        "note": 6.6
+      }
+    ],
+    "date_ajout": "2024-11-25"
   },
   {
     "id": "jw-ts403754",
@@ -13001,8 +13819,8 @@ const CATALOG_DATA = [
     "position": "Séries • 13ème RUE",
     "annee": 2023,
     "note_avis": 5.8,
-    "note_recence": 9.3,
-    "note_globale": 7.6,
+    "note_recence": 9.1,
+    "note_globale": 7.5,
     "categories": [
       "thriller_policier"
     ],
@@ -13036,7 +13854,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Léna, 28 ans, community manager, vient d'intégrer le département communication de la Préfecture de police de Paris qui cherche à moderniser son image. Au même moment, un tueur en série sévit dans la capitale. La commissaire Agathe Ruffin est en charge de l'enquête. Le tueur utilise les réseaux sociaux pour déstabiliser la police, attirant ainsi l'attention de Léna. Grisée par l'adréaline, elle s'embarque alors dans un jeu dangereux en acceptant de communiquer avec lui. Léna saura-t-elle se libérer de l'emprise de ce tueur énigmatique avant que la toile qu'il tisse ne se referme sur elle ?",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2023,
+        "note": 5.8
+      }
+    ],
+    "date_ajout": "2023-11-26"
   },
   {
     "id": "jw-ts414407",
@@ -13047,8 +13874,8 @@ const CATALOG_DATA = [
     "position": "Séries • 13ème RUE",
     "annee": 2024,
     "note_avis": 7.2,
-    "note_recence": 9.5,
-    "note_globale": 8.4,
+    "note_recence": 9.4,
+    "note_globale": 8.3,
     "categories": [
       "thriller_policier"
     ],
@@ -13085,7 +13912,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Le détective rétrogradé Ellis et l'habile escroc Max saisissent tous les deux une seconde chance de rédemption en travaillant ensemble pour résoudre des crimes.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2024,
+        "note": 7.2
+      }
+    ],
+    "date_ajout": "2025-03-19"
   },
   {
     "id": "jw-ts391377",
@@ -13096,7 +13932,7 @@ const CATALOG_DATA = [
     "position": "Séries • 13ème RUE",
     "annee": 2024,
     "note_avis": 7.3,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 8.4,
     "categories": [
       "thriller_policier"
@@ -13134,7 +13970,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Faites la connaissance des lieutenants Henry Graff et Frankie Bateman, deux flics d'élite qui forment une équipe hors du commun. Graff est un homme aux multiples talents à l'esprit toujours en ébullition, passionné de psychocriminologie. Bateman est exceptionnellement intuitive. Elle est pragmatique et empathique et sait s'adapter aux personnes à qui elle a affaire. Ensemble ces deux…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2024,
+        "note": 7.3
+      }
+    ],
+    "date_ajout": "2026-01-11"
   },
   {
     "id": "jw-ts251399",
@@ -13143,10 +13988,10 @@ const CATALOG_DATA = [
     "chaine": "Universal+",
     "section": "Séries",
     "position": "Séries • 13ème RUE",
-    "annee": 2021,
+    "annee": 2024,
     "note_avis": 7.7,
-    "note_recence": 8.8,
-    "note_globale": 8.3,
+    "note_recence": 9.4,
+    "note_globale": 8.6,
     "categories": [
       "thriller_policier"
     ],
@@ -13183,7 +14028,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Après 10 ans d'absence  et un drame personnel, Elliot  Stabler réintègre la police de New York  dans une nouvelle unité chargée de démanteler de l'intérieur les groupes mafieux de la Grosse Pomme.",
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 4,
+        "annee": 2024,
+        "note": 7.7
+      }
+    ],
+    "date_ajout": "2024-11-25"
   },
   {
     "id": "jw-ts286379",
@@ -13194,8 +14048,8 @@ const CATALOG_DATA = [
     "position": "Séries • 13ème RUE",
     "annee": 2021,
     "note_avis": 7.4,
-    "note_recence": 8.8,
-    "note_globale": 8.1,
+    "note_recence": 9.1,
+    "note_globale": 8.3,
     "categories": [
       "thriller_policier"
     ],
@@ -13230,7 +14084,37 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Roy Grace est au plus bas après la disparition de sa femme six ans plus tôt. Alors qu’il passe son temps à enquêter sur des affaires non résolues dans sa ville natale de Brighton, ses supérieurs ne sont pas très satisfaits par ses méthodes peu orthodoxes. Cependant, la demande d’aide de Glen Branson, un collègue détective lui redonne espoir. Alors que sa carrière est sur la corde raide et qu’il risque de perdre le travail qu’il aime tant, il est chargé d’une affaire de disparition qui se transforme en une course contre la montre pleine de rebondissements.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2025,
+    "annee_moyenne": 2023,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2021,
+        "note": 7.4
+      },
+      {
+        "saison": 2,
+        "annee": 2022,
+        "note": 7.4
+      },
+      {
+        "saison": 3,
+        "annee": 2023,
+        "note": 7.4
+      },
+      {
+        "saison": 4,
+        "annee": 2024,
+        "note": 7.4
+      },
+      {
+        "saison": 5,
+        "annee": 2025,
+        "note": 7.4
+      }
+    ],
+    "date_ajout": "2024-03-03"
   },
   {
     "id": "jw-ts328439",
@@ -13241,8 +14125,8 @@ const CATALOG_DATA = [
     "position": "Séries • 13ème RUE",
     "annee": 2022,
     "note_avis": 7.2,
-    "note_recence": 9.1,
-    "note_globale": 8.2,
+    "note_recence": 9.4,
+    "note_globale": 8.3,
     "categories": [
       "thriller_policier"
     ],
@@ -13279,7 +14163,37 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Harriet Harry Wild, une professeure de littérature, a du mal à s'adapter à la retraite. Elle accepte à contrecoeur de rester au domicile de son fils Charlie, un détective de police, après avoir été agressée et avoir besoin de temps pour récupérer. Charlie rejette l'aide d'Harry lorsqu'elle remarque un indice frappant dans l'affaire de meurtre sur laquelle il enquête, alors elle décide de résoudre le crime elle-même avec l'aide d'une source inattendue le voleur, Fergus. Harry et Fergus deviennent partenaires dans de nouveaux mystères, au grand dam de Charlie.",
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2026,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2022,
+        "note": 7.2
+      },
+      {
+        "saison": 2,
+        "annee": 2023,
+        "note": 7.2
+      },
+      {
+        "saison": 3,
+        "annee": 2024,
+        "note": 7.2
+      },
+      {
+        "saison": 4,
+        "annee": 2025,
+        "note": 7.2
+      },
+      {
+        "saison": 5,
+        "annee": 2026,
+        "note": 7.2
+      }
+    ],
+    "date_ajout": "2024-03-11"
   },
   {
     "id": "jw-ts234938",
@@ -13288,10 +14202,10 @@ const CATALOG_DATA = [
     "chaine": "Universal+",
     "section": "Séries",
     "position": "Séries • 13ème RUE",
-    "annee": 2021,
+    "annee": 2025,
     "note_avis": 7.4,
-    "note_recence": 8.8,
-    "note_globale": 8.1,
+    "note_recence": 9.7,
+    "note_globale": 8.6,
     "categories": [
       "thriller_policier"
     ],
@@ -13328,7 +14242,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Abigail Bianchi, une avocate, sait blâmer les autres, en particulier lorsqu'il s'agit de ses propres problèmes. Après que le mari d'Abby l'ait chassée de la maison familiale à cause de sa consommation d'alcool, elle fait une bêtise et se présente ivre au tribunal. Elle est suspendue, condamnée à une amende et ne peut exercer à nouveau le droit que si elle trouve un avocat expérimenté qui accepte de l'engager et de le guider pendant une période d'essai d'un an. Harry Svensson, qui dirige le meilleur cabinet de droit de la famille de la ville, accepte le poste. Il se trouve également que c'est le père d'Abby. Elle doit ainsi essayer de remettre sa vie en désordre sur les rails, tout en travaillant sous l'homme qu'elle a passé sa vie à détester.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "saisons_disponibles": [
+      {
+        "saison": 3,
+        "annee": 2025,
+        "note": 7.4
+      }
+    ],
+    "date_ajout": "2024-02-05"
   },
   {
     "id": "jw-ts345743",
@@ -13339,8 +14262,8 @@ const CATALOG_DATA = [
     "position": "Séries • 13ème RUE",
     "annee": 2022,
     "note_avis": 5.9,
-    "note_recence": 9.1,
-    "note_globale": 7.5,
+    "note_recence": 8.8,
+    "note_globale": 7.4,
     "categories": [
       "drame_emotion"
     ],
@@ -13372,7 +14295,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Adriana, une jeune cheffe franco-sénégalaise inspirée et ambitieuse, rêve d'étoiles au Michelin. Jusqu'au jour où elle se retrouve associée malgré elle à Jeff et Angèle Rubens, un frère et une sœur qui dirigent un cercle de jeu clandestin. Ayant fait main basse sur le restaurant, ils perçoivent le potentiel du lieu et du talent d'Adriana et créent dans l'arrière-salle une partie de poker qui devient vite mythique. Le restaurant devient alors le centre de leur business et de leur empire naissant. Témoin puis complice involontaire des activités criminelles de ses nouveaux associés, Adriana lutte par tous les moyens pour reprendre le contrôle de sa vie et de son restaurant, le Ballast.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2022,
+        "note": 5.9
+      }
+    ],
+    "date_ajout": "2022-11-07"
   },
   {
     "id": "jw-ts227451",
@@ -13383,8 +14315,8 @@ const CATALOG_DATA = [
     "position": "Séries • 13ème RUE",
     "annee": 2019,
     "note_avis": 7.3,
-    "note_recence": 8.4,
-    "note_globale": 7.9,
+    "note_recence": 7.9,
+    "note_globale": 7.6,
     "categories": [
       "thriller_policier"
     ],
@@ -13420,7 +14352,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Chaque année en France, 310 homicides restent non élucidés, laissant des familles brisées par un deuil impossible...Le système judiciaire national est implacable : pas de résultat, pas de budget pour poursuivre l'enquête...",
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2019,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2019,
+        "note": 7.3
+      }
+    ],
+    "date_ajout": "2025-12-29"
   },
   {
     "id": "jw-ts216019",
@@ -13429,10 +14370,10 @@ const CATALOG_DATA = [
     "chaine": "Universal+",
     "section": "Séries",
     "position": "Séries • 13ème RUE",
-    "annee": 2019,
+    "annee": 2024,
     "note_avis": 7.5,
-    "note_recence": 8.4,
-    "note_globale": 8,
+    "note_recence": 9.4,
+    "note_globale": 8.5,
     "categories": [
       "thriller_policier"
     ],
@@ -13467,7 +14408,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Une ballerine a été tuée d'une flèche dans une prestigieuse académie de ballet; la liste des suspects est étonnamment longue; tandis que Madison enquête au club de tir, Alexa se fait passer pour la mère d'une danseuse afin de découvrir la vérité.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 4,
+        "annee": 2024,
+        "note": 7.5
+      }
+    ],
+    "date_ajout": "2024-11-26"
   },
   {
     "id": "jw-ts89453",
@@ -13478,8 +14428,8 @@ const CATALOG_DATA = [
     "position": "Séries • 13ème RUE",
     "annee": 2019,
     "note_avis": 7.4,
-    "note_recence": 8.4,
-    "note_globale": 7.9,
+    "note_recence": 8.8,
+    "note_globale": 8.1,
     "categories": [
       "thriller_policier"
     ],
@@ -13507,14 +14457,54 @@ const CATALOG_DATA = [
       "auc"
     ],
     "runtime_minutes": 42,
-    "etoiles": 4,
+    "etoiles": 5,
     "raw_genres": [
       "crm",
       "drm"
     ],
     "synopsis": "À Saint-Jean, capitale de la province de Terre-Neuve, un vaillant détective de la police forme une équipe de choc avec un berger allemand spécialement dressé. Grâce à l'odorat et l'ouïe de Rex, ils vont résoudre de nombreuses enquêtes ensemble.",
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2025,
+    "annee_moyenne": 2022,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2019,
+        "note": 7.4
+      },
+      {
+        "saison": 2,
+        "annee": 2019,
+        "note": 7.4
+      },
+      {
+        "saison": 3,
+        "annee": 2021,
+        "note": 7.4
+      },
+      {
+        "saison": 4,
+        "annee": 2021,
+        "note": 7.4
+      },
+      {
+        "saison": 5,
+        "annee": 2022,
+        "note": 7.4
+      },
+      {
+        "saison": 6,
+        "annee": 2023,
+        "note": 7.4
+      },
+      {
+        "saison": 7,
+        "annee": 2025,
+        "note": 7.4
+      }
+    ],
+    "date_ajout": "2024-01-04"
   },
   {
     "id": "jw-ts344169",
@@ -13523,10 +14513,10 @@ const CATALOG_DATA = [
     "chaine": "Universal+",
     "section": "Séries",
     "position": "Séries • 13ème RUE",
-    "annee": 2020,
+    "annee": 2023,
     "note_avis": 7.5,
-    "note_recence": 8.6,
-    "note_globale": 8.1,
+    "note_recence": 9.1,
+    "note_globale": 8.3,
     "categories": [
       "thriller_policier"
     ],
@@ -13562,7 +14552,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Alex Walker, un des meilleurs agents de la DEA, a été contraint de prendre une retraite anticipée. La trahison de son partenaire et son hypertension l'ont amené à s'expatrier sur une petite île de l'archipel des Philippines où il est le gérant d'une boutique de souvenirs dans un hôtel de luxe. Si le cadre idyllique séduit les riches et les puissants, il attire aussi l'élite des criminels venus des quatre coins du monde. Malgré tous ses efforts pour mener une vie tranquille, Alex n'a pas son pareil pour se retrouver dans les situations les plus périlleuses. Et il aime ça !",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "saisons_disponibles": [
+      {
+        "saison": 2,
+        "annee": 2023,
+        "note": 7.5
+      }
+    ],
+    "date_ajout": "2024-01-04"
   },
   {
     "id": "jw-ts402718",
@@ -13573,8 +14572,8 @@ const CATALOG_DATA = [
     "position": "Séries • 13ème RUE",
     "annee": 2022,
     "note_avis": 4.7,
-    "note_recence": 9.1,
-    "note_globale": 6.9,
+    "note_recence": 8.8,
+    "note_globale": 6.8,
     "categories": [
       "thriller_policier"
     ],
@@ -13590,11 +14589,13 @@ const CATALOG_DATA = [
     ],
     "duree": "42 min/ép.",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "auc": "2027-03-31"
+      }
     },
     "package_slugs": [
       "auc"
@@ -13607,7 +14608,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Edwige Marion est en charge de la brigade ferroviaire, gare du Nord, à Paris. Elle enquête sur les affaires criminelles les plus sombres, tout en cherchant à concilier ses responsabilités de mère et son rôle de flic.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2022,
+        "note": 4.7
+      }
+    ],
+    "date_ajout": "2022-11-07"
   },
   {
     "id": "jw-ts268947",
@@ -13618,8 +14628,8 @@ const CATALOG_DATA = [
     "position": "Séries • OCS",
     "annee": 2022,
     "note_avis": 7.5,
-    "note_recence": 9.1,
-    "note_globale": 8.3,
+    "note_recence": 8.8,
+    "note_globale": 8.2,
     "categories": [
       "drame_emotion"
     ],
@@ -13652,7 +14662,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Au début des années 1990, Mireille, son frère Julien et leur meilleur ami Laurier forment un trio inséparable. Les garçons viennent de remporter le championnat provincial de baseball et Mireille rêve de brûler les planches. Qui sait ce que l’avenir leur réserve ? Pourtant, une nuit d’octobre, en 1991, leurs destins sont à jamais bouleversés par un terrible incident et leurs routes se séparent. Adaptation de la pièce de théâtre éponyme de Michel Marc Bouchard.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2022,
+        "note": 7.5
+      }
+    ],
+    "date_ajout": "2025-10-02"
   },
   {
     "id": "jw-ts372993",
@@ -13663,7 +14682,7 @@ const CATALOG_DATA = [
     "position": "Séries • OCS",
     "annee": 2024,
     "note_avis": 6.7,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 8.1,
     "categories": [
       "thriller_policier"
@@ -13697,7 +14716,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Dans le Londres des années 1980, Joan Hannington fuit son mariage désastreux avec un homme violent. Aspirant à une vie meilleure pour elle et sa fille Kelly, Joan se transforme, grâce à son intelligence, son charme et son talent pour l'imitation, en voleuse de bijoux hors-pair. Flirtant avec le danger, elle voit son quotidien rythmé par des hauts et des bas…",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2024,
+        "note": 6.7
+      }
+    ],
+    "date_ajout": "2024-12-12"
   },
   {
     "id": "jw-ts364497",
@@ -13708,8 +14736,8 @@ const CATALOG_DATA = [
     "position": "Séries • OCS",
     "annee": 2023,
     "note_avis": 6.7,
-    "note_recence": 9.3,
-    "note_globale": 8,
+    "note_recence": 9.4,
+    "note_globale": 8.1,
     "categories": [
       "comedie"
     ],
@@ -13725,11 +14753,13 @@ const CATALOG_DATA = [
     ],
     "duree": "20 min/ép.",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "aoc": "2027-03-31"
+      }
     },
     "package_slugs": [
       "aoc"
@@ -13742,7 +14772,22 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Louison, 38 ans, mère célibataire récemment séparée, découvre qu’elle présente un trouble du spectre de l’autisme lorsqu’on diagnostique son fils Guilhem, 11 ans, qui a blessé un camarade de classe le jour de la rentrée. À peine se sent-elle libérée par cette révélation qu’une enquête sociale démarre pour savoir si elle doit conserver la garde de son enfant. Louison décide alors d’apparaître la plus \"normale\" possible aux yeux de l’enquêteur social. Mais ni elle, ni sa famille ne sait vraiment ce qu’être normal signifie.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2025,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2023,
+        "note": 6.7
+      },
+      {
+        "saison": 2,
+        "annee": 2025,
+        "note": 6.7
+      }
+    ],
+    "date_ajout": "2024-07-03"
   },
   {
     "id": "jw-ts413259",
@@ -13753,8 +14798,8 @@ const CATALOG_DATA = [
     "position": "Séries • OCS",
     "annee": 2025,
     "note_avis": 6.6,
-    "note_recence": 9.8,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "categories": [
       "action_aventure"
     ],
@@ -13787,7 +14832,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Et si Ashur… n'était pas mort sur le Vésuve ? Et si on lui avait offert la formation des gladiateurs qui appartenait autrefois à Batiatus en échange de son aide aux Romains pour tuer Spartacus et mettre fin à la rébellion des esclaves ?",
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2025,
+        "note": 6.6
+      }
+    ],
+    "date_ajout": "2025-12-06"
   },
   {
     "id": "jw-ts309849",
@@ -13798,8 +14852,8 @@ const CATALOG_DATA = [
     "position": "Séries • OCS",
     "annee": 2023,
     "note_avis": 7.3,
-    "note_recence": 9.3,
-    "note_globale": 8.3,
+    "note_recence": 9.4,
+    "note_globale": 8.4,
     "categories": [
       "scifi_fantastique"
     ],
@@ -13839,7 +14893,22 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Un homme peut voir son mode de vie s'améliorer s’il accepte de livrer un colis en traversant une contrée sauvage et désolée. Seulement sur le trajet, il faudra compter sur le terrifiant Sweet Tooth et son camion, qui viendront perturber le parcours pour donner lieu à des combats entre véhicules.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2025,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2023,
+        "note": 7.3
+      },
+      {
+        "saison": 2,
+        "annee": 2025,
+        "note": 7.3
+      }
+    ],
+    "date_ajout": "2024-08-06"
   },
   {
     "id": "jw-ts341651",
@@ -13850,8 +14919,8 @@ const CATALOG_DATA = [
     "position": "Séries • OCS",
     "annee": 2023,
     "note_avis": 7,
-    "note_recence": 9.3,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.4,
     "categories": [
       "horreur_epouvante"
     ],
@@ -13887,7 +14956,27 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Quelques années après les évènements survenus au Commonwealth, Maggie et Negan se rendent dans un Manhattan post-apocalyptique coupé depuis longtemps du continent. La ville en ruine est peuplée de morts et d'habitants qui ont fait de New York, un monde anarchique empli de terreur.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2026,
+    "annee_moyenne": 2025,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2023,
+        "note": 7
+      },
+      {
+        "saison": 2,
+        "annee": 2025,
+        "note": 7
+      },
+      {
+        "saison": 3,
+        "annee": 2026,
+        "note": 7
+      }
+    ],
+    "date_ajout": "2024-11-25"
   },
   {
     "id": "jw-ts362915",
@@ -13898,8 +14987,8 @@ const CATALOG_DATA = [
     "position": "Séries • OCS",
     "annee": 2023,
     "note_avis": 7,
-    "note_recence": 9.3,
-    "note_globale": 8.2,
+    "note_recence": 9.1,
+    "note_globale": 8.1,
     "categories": [
       "drame_emotion"
     ],
@@ -13933,7 +15022,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "En 1986, dans l'Illinois, Cary Grant, venu à la rencontre de son public, se remémore son enfance en Angleterre. En 1911, à Bristol, l'acteur, de son vrai nom Archie Leach, grandit entre les disputes de ses parents. La grande pauvreté dans laquelle vit sa famille, la mort de son frère John, l'internement de sa mère puis son placement chez sa grand-mère sont des épreuves qui forgent son caractère...",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2023,
+        "note": 7
+      }
+    ],
+    "date_ajout": "2024-08-13"
   },
   {
     "id": "jw-ts308621",
@@ -13942,10 +15040,10 @@ const CATALOG_DATA = [
     "chaine": "Ciné+ OCS",
     "section": "Séries",
     "position": "Séries • OCS",
-    "annee": 2023,
+    "annee": 2024,
     "note_avis": 7.5,
-    "note_recence": 9.3,
-    "note_globale": 8.4,
+    "note_recence": 9.4,
+    "note_globale": 8.5,
     "categories": [
       "comedie"
     ],
@@ -13977,7 +15075,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Une jeune femme de Blackpool trouve sa voix dans le monde dominé par les hommes de la comédie des années 1960 et, ce faisant, prend d'assaut Londres.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 2,
+        "annee": 2024,
+        "note": 7.5
+      }
+    ],
+    "date_ajout": "2025-02-11"
   },
   {
     "id": "jw-ts329600",
@@ -13988,8 +15095,8 @@ const CATALOG_DATA = [
     "position": "Séries • OCS",
     "annee": 2024,
     "note_avis": 6.8,
-    "note_recence": 9.5,
-    "note_globale": 8.2,
+    "note_recence": 9.4,
+    "note_globale": 8.1,
     "categories": [
       "thriller_policier"
     ],
@@ -14023,7 +15130,16 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Roman Compte, un exilé cubain, est le directeur du tristement célèbre Mutiny Hotel, le centre de la scène de la cocaïne à Miami de la fin des années 1970 et du début des années 1980. Hôtel et discothèque, The Mutiny est le lieu de prédilection des gros joueurs, des narcos, des mannequins et des célébrités.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2024,
+        "note": 6.8
+      }
+    ],
+    "date_ajout": "2024-10-01"
   },
   {
     "id": "jw-ts346531",
@@ -14034,8 +15150,8 @@ const CATALOG_DATA = [
     "position": "Séries • OCS",
     "annee": 2022,
     "note_avis": 7,
-    "note_recence": 9.1,
-    "note_globale": 8.1,
+    "note_recence": 9.4,
+    "note_globale": 8.2,
     "categories": [
       "thriller_policier"
     ],
@@ -14051,11 +15167,13 @@ const CATALOG_DATA = [
     ],
     "duree": "49 min/ép.",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "aoc": "2027-03-31"
+      }
     },
     "package_slugs": [
       "aoc"
@@ -14069,7 +15187,27 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Dans les années 90, un gang qui contrôle le trafic de cocaïne et le milieu de la nuit madrilène, fait couler beaucoup d'encre : \"Les Miami\". Son nom effraye chaque personne qui l'entend.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2026,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2022,
+        "note": 7
+      },
+      {
+        "saison": 2,
+        "annee": 2024,
+        "note": 7
+      },
+      {
+        "saison": 3,
+        "annee": 2026,
+        "note": 7
+      }
+    ],
+    "date_ajout": "2024-06-03"
   },
   {
     "id": "jw-ts284263",
@@ -14080,8 +15218,8 @@ const CATALOG_DATA = [
     "position": "Séries • OCS",
     "annee": 2023,
     "note_avis": 4.7,
-    "note_recence": 9.3,
-    "note_globale": 7,
+    "note_recence": 9.1,
+    "note_globale": 6.9,
     "categories": [
       "drame_emotion"
     ],
@@ -14109,14 +15247,23 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "runtime_minutes": 52,
-    "etoiles": 4,
+    "etoiles": 3,
     "raw_genres": [
       "drm",
       "wsn"
     ],
     "synopsis": "Far West, dans les années 1860 - 1870. Hanté par le meurtre de sa famille huit ans plus tôt, Django continue de chercher sa fille, s’accrochant à l’espoir qu'elle ait pu survivre au massacre. Il est abasourdi de la retrouver à New Babylon, sur le point d'épouser John. Convaincu que la ville est menacée, Django est inflexible : il ne prendra pas le risque de perdre sa fille une nouvelle fois.",
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2023,
+        "note": 4.7
+      }
+    ],
+    "date_ajout": "2026-07-21"
   },
   {
     "id": "jw-tm414396",
@@ -14137,8 +15284,8 @@ const CATALOG_DATA = [
     "duree": "1h 59min",
     "runtime_minutes": 119,
     "note_avis": 6.4,
-    "note_recence": 8.6,
-    "note_globale": 7.5,
+    "note_recence": 8.2,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "action_aventure"
@@ -14161,7 +15308,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2020-08-05"
   },
   {
     "id": "jw-ts3630",
@@ -14178,13 +15327,13 @@ const CATALOG_DATA = [
     "package_slugs": [
       "auc"
     ],
-    "annee": 2012,
+    "annee": 2025,
     "duree": "42 min/ép.",
     "runtime_minutes": 42,
     "note_avis": 8,
-    "note_recence": 6.8,
-    "note_globale": 7.4,
-    "etoiles": 4,
+    "note_recence": 9.7,
+    "note_globale": 8.9,
+    "etoiles": 5,
     "categories": [
       "drame_emotion"
     ],
@@ -14206,7 +15355,16 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "saisons_disponibles": [
+      {
+        "saison": 14,
+        "annee": 2025,
+        "note": 8
+      }
+    ],
+    "date_ajout": "2018-01-11"
   },
   {
     "id": "jw-ts8345",
@@ -14227,8 +15385,8 @@ const CATALOG_DATA = [
     "duree": "52 min/ép.",
     "runtime_minutes": 52,
     "note_avis": 8.8,
-    "note_recence": 7.2,
-    "note_globale": 8,
+    "note_recence": 7.9,
+    "note_globale": 8.4,
     "etoiles": 5,
     "categories": [
       "thriller_policier"
@@ -14252,7 +15410,37 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2023,
+    "annee_moyenne": 2019,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2014,
+        "note": 8.8
+      },
+      {
+        "saison": 2,
+        "annee": 2015,
+        "note": 8.8
+      },
+      {
+        "saison": 3,
+        "annee": 2017,
+        "note": 8.8
+      },
+      {
+        "saison": 4,
+        "annee": 2020,
+        "note": 8.8
+      },
+      {
+        "saison": 5,
+        "annee": 2023,
+        "note": 8.8
+      }
+    ],
+    "date_ajout": "2024-03-26"
   },
   {
     "id": "jw-tm19246",
@@ -14315,8 +15503,8 @@ const CATALOG_DATA = [
     "duree": "1h 49min",
     "runtime_minutes": 109,
     "note_avis": 7.9,
-    "note_recence": 5.4,
-    "note_globale": 6.7,
+    "note_recence": 4,
+    "note_globale": 6,
     "etoiles": 3,
     "categories": [
       "scifi_fantastique"
@@ -14341,7 +15529,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2006,
+    "date_ajout": "2006-12-25"
   },
   {
     "id": "jw-tm173412",
@@ -14407,9 +15597,9 @@ const CATALOG_DATA = [
     "duree": "2h 06min",
     "runtime_minutes": 126,
     "note_avis": 7.1,
-    "note_recence": 7,
-    "note_globale": 7.1,
-    "etoiles": 4,
+    "note_recence": 6.1,
+    "note_globale": 6.6,
+    "etoiles": 3,
     "categories": [
       "scifi_fantastique"
     ],
@@ -14434,7 +15624,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2013,
+    "date_ajout": "2013-10-30"
   },
   {
     "id": "jw-tm35465",
@@ -14502,8 +15694,8 @@ const CATALOG_DATA = [
     "duree": "54 min/ép.",
     "runtime_minutes": 54,
     "note_avis": 8.4,
-    "note_recence": 6.3,
-    "note_globale": 7.4,
+    "note_recence": 5.8,
+    "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
       "action_aventure"
@@ -14525,7 +15717,27 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2013,
+    "annee_moyenne": 2012,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2010,
+        "note": 8.4
+      },
+      {
+        "saison": 2,
+        "annee": 2012,
+        "note": 8.4
+      },
+      {
+        "saison": 3,
+        "annee": 2013,
+        "note": 8.4
+      }
+    ],
+    "date_ajout": "2017-07-01"
   },
   {
     "id": "jw-tm1591341",
@@ -14546,8 +15758,8 @@ const CATALOG_DATA = [
     "duree": "1h 46min",
     "runtime_minutes": 106,
     "note_avis": 6.9,
-    "note_recence": 9.8,
-    "note_globale": 8.4,
+    "note_recence": 9.7,
+    "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -14571,7 +15783,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2026-03-04"
   },
   {
     "id": "jw-tm1421287",
@@ -14592,8 +15806,8 @@ const CATALOG_DATA = [
     "duree": "2h 19min",
     "runtime_minutes": 139,
     "note_avis": 5.7,
-    "note_recence": 9.8,
-    "note_globale": 7.8,
+    "note_recence": 9.7,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "scifi_fantastique"
@@ -14618,7 +15832,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-10-20"
   },
   {
     "id": "jw-tm838266",
@@ -14639,8 +15855,8 @@ const CATALOG_DATA = [
     "duree": "1h 39min",
     "runtime_minutes": 99,
     "note_avis": 6.3,
-    "note_recence": 8.8,
-    "note_globale": 7.6,
+    "note_recence": 8.5,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -14663,7 +15879,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2021-10-13"
   },
   {
     "id": "jw-tm1199158",
@@ -14684,8 +15902,8 @@ const CATALOG_DATA = [
     "duree": "2h 19min",
     "runtime_minutes": 139,
     "note_avis": 7.2,
-    "note_recence": 9.1,
-    "note_globale": 8.2,
+    "note_recence": 8.8,
+    "note_globale": 8,
     "etoiles": 5,
     "categories": [
       "thriller_policier"
@@ -14708,7 +15926,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2022-06-29"
   },
   {
     "id": "jw-tm1570880",
@@ -14729,8 +15949,8 @@ const CATALOG_DATA = [
     "duree": "1h 50min",
     "runtime_minutes": 110,
     "note_avis": 6.5,
-    "note_recence": 9.8,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "thriller_policier"
@@ -14755,7 +15975,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-03-12"
   },
   {
     "id": "jw-tm84751",
@@ -14776,8 +15998,8 @@ const CATALOG_DATA = [
     "duree": "2h 37min",
     "runtime_minutes": 157,
     "note_avis": 7.8,
-    "note_recence": 5.6,
-    "note_globale": 6.7,
+    "note_recence": 4.3,
+    "note_globale": 6.1,
     "etoiles": 3,
     "categories": [
       "thriller_policier"
@@ -14801,7 +16023,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2007,
+    "date_ajout": "2007-11-02"
   },
   {
     "id": "jw-tm1613259",
@@ -14822,7 +16046,7 @@ const CATALOG_DATA = [
     "duree": "1h 33min",
     "runtime_minutes": 93,
     "note_avis": 7.8,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.8,
     "etoiles": 5,
     "categories": [
@@ -14845,7 +16069,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-10-20"
   },
   {
     "id": "jw-tm36606",
@@ -14913,7 +16139,7 @@ const CATALOG_DATA = [
     "duree": "1h 33min",
     "runtime_minutes": 93,
     "note_avis": 7.2,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.5,
     "etoiles": 5,
     "categories": [
@@ -14938,7 +16164,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-12-24"
   },
   {
     "id": "jw-ts429685",
@@ -14959,8 +16187,8 @@ const CATALOG_DATA = [
     "duree": "48 min/ép.",
     "runtime_minutes": 48,
     "note_avis": 6.2,
-    "note_recence": 9.5,
-    "note_globale": 7.9,
+    "note_recence": 9.4,
+    "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -14984,7 +16212,16 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2024,
+        "note": 6.2
+      }
+    ],
+    "date_ajout": "2026-09-01"
   },
   {
     "id": "jw-tm220942",
@@ -15005,8 +16242,8 @@ const CATALOG_DATA = [
     "duree": "2h 21min",
     "runtime_minutes": 141,
     "note_avis": 6.6,
-    "note_recence": 7.9,
-    "note_globale": 7.3,
+    "note_recence": 7.3,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -15031,7 +16268,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2017-03-16"
   },
   {
     "id": "jw-ts463482",
@@ -15052,8 +16291,8 @@ const CATALOG_DATA = [
     "duree": "46 min/ép.",
     "runtime_minutes": 46,
     "note_avis": 7.5,
-    "note_recence": 9.8,
-    "note_globale": 8.7,
+    "note_recence": 9.7,
+    "note_globale": 8.6,
     "etoiles": 5,
     "categories": [
       "thriller_policier"
@@ -15076,7 +16315,16 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2025,
+        "note": 7.5
+      }
+    ],
+    "date_ajout": "2026-09-13"
   },
   {
     "id": "jw-tm57430",
@@ -15097,9 +16345,9 @@ const CATALOG_DATA = [
     "duree": "2h 48min",
     "runtime_minutes": 168,
     "note_avis": 7.6,
-    "note_recence": 6.8,
-    "note_globale": 7.2,
-    "etoiles": 4,
+    "note_recence": 5.8,
+    "note_globale": 6.7,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -15121,7 +16369,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2012,
+    "date_ajout": "2012-07-18"
   },
   {
     "id": "jw-tm1573555",
@@ -15142,8 +16392,8 @@ const CATALOG_DATA = [
     "duree": "1h 43min",
     "runtime_minutes": 103,
     "note_avis": 7.1,
-    "note_recence": 9.8,
-    "note_globale": 8.5,
+    "note_recence": 9.7,
+    "note_globale": 8.4,
     "etoiles": 5,
     "categories": [
       "comedie"
@@ -15166,7 +16416,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-07-23"
   },
   {
     "id": "jw-tm373969",
@@ -15187,8 +16439,8 @@ const CATALOG_DATA = [
     "duree": "1h 52min",
     "runtime_minutes": 112,
     "note_avis": 7.2,
-    "note_recence": 8.2,
-    "note_globale": 7.7,
+    "note_recence": 7.6,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -15211,7 +16463,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-12-05"
   },
   {
     "id": "jw-tm81493",
@@ -15279,8 +16533,8 @@ const CATALOG_DATA = [
     "duree": "1h 57min",
     "runtime_minutes": 117,
     "note_avis": 5.8,
-    "note_recence": 8.8,
-    "note_globale": 7.3,
+    "note_recence": 8.5,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -15303,7 +16557,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2021-08-04"
   },
   {
     "id": "jw-tm143928",
@@ -15324,9 +16580,9 @@ const CATALOG_DATA = [
     "duree": "1h 59min",
     "runtime_minutes": 119,
     "note_avis": 7.1,
-    "note_recence": 7.5,
-    "note_globale": 7.3,
-    "etoiles": 4,
+    "note_recence": 6.7,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "scifi_fantastique"
     ],
@@ -15352,7 +16608,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2015,
+    "date_ajout": "2015-10-28"
   },
   {
     "id": "jw-tm67682",
@@ -15419,8 +16677,8 @@ const CATALOG_DATA = [
     "duree": "2h 38min",
     "runtime_minutes": 158,
     "note_avis": 7.4,
-    "note_recence": 9.1,
-    "note_globale": 8.3,
+    "note_recence": 8.8,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -15443,7 +16701,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2022-10-28"
   },
   {
     "id": "jw-tm855028",
@@ -15464,8 +16724,8 @@ const CATALOG_DATA = [
     "duree": "2h 14min",
     "runtime_minutes": 134,
     "note_avis": 6.2,
-    "note_recence": 9.1,
-    "note_globale": 7.7,
+    "note_recence": 8.8,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -15491,7 +16751,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2022-11-01"
   },
   {
     "id": "jw-tm163491",
@@ -15512,9 +16774,9 @@ const CATALOG_DATA = [
     "duree": "1h 41min",
     "runtime_minutes": 101,
     "note_avis": 7.6,
-    "note_recence": 6.8,
-    "note_globale": 7.2,
-    "etoiles": 4,
+    "note_recence": 5.8,
+    "note_globale": 6.7,
+    "etoiles": 3,
     "categories": [
       "thriller_policier"
     ],
@@ -15537,7 +16799,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2012,
+    "date_ajout": "2012-06-20"
   },
   {
     "id": "jw-tm1230271",
@@ -15558,8 +16822,8 @@ const CATALOG_DATA = [
     "duree": "1h 35min",
     "runtime_minutes": 95,
     "note_avis": 5.4,
-    "note_recence": 9.1,
-    "note_globale": 7.3,
+    "note_recence": 8.8,
+    "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -15579,7 +16843,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2026-05-01"
   },
   {
     "id": "jw-tm177735",
@@ -15645,7 +16911,7 @@ const CATALOG_DATA = [
     "duree": "2h 07min",
     "runtime_minutes": 127,
     "note_avis": 7.2,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.5,
     "etoiles": 5,
     "categories": [
@@ -15670,7 +16936,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-05-22"
   },
   {
     "id": "jw-ts390561",
@@ -15691,8 +16959,8 @@ const CATALOG_DATA = [
     "duree": "43 min/ép.",
     "runtime_minutes": 43,
     "note_avis": 6.3,
-    "note_recence": 9.8,
-    "note_globale": 8.1,
+    "note_recence": 9.7,
+    "note_globale": 8,
     "etoiles": 5,
     "categories": [
       "scifi_fantastique"
@@ -15714,7 +16982,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2025,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2025,
+        "note": 6.3
+      }
+    ],
+    "date_ajout": "2025-09-07"
   },
   {
     "id": "jw-tm131138",
@@ -15780,9 +17057,9 @@ const CATALOG_DATA = [
     "duree": "24 min/ép.",
     "runtime_minutes": 24,
     "note_avis": 8.1,
-    "note_recence": 8.2,
-    "note_globale": 8.1,
-    "etoiles": 5,
+    "note_recence": 7.6,
+    "note_globale": 7.9,
+    "etoiles": 4,
     "categories": [
       "animation_famille"
     ],
@@ -15806,7 +17083,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2018,
+        "note": 8.1
+      }
+    ],
+    "date_ajout": "2026-03-15"
   },
   {
     "id": "jw-tm1422180",
@@ -15827,7 +17113,7 @@ const CATALOG_DATA = [
     "duree": "1h 33min",
     "runtime_minutes": 93,
     "note_avis": 4.1,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 6.8,
     "etoiles": 3,
     "categories": [
@@ -15853,7 +17139,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-09-15"
   },
   {
     "id": "jw-tm1171582",
@@ -15874,8 +17162,8 @@ const CATALOG_DATA = [
     "duree": "2h 14min",
     "runtime_minutes": 134,
     "note_avis": 6.7,
-    "note_recence": 9.1,
-    "note_globale": 7.9,
+    "note_recence": 8.8,
+    "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -15897,7 +17185,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2024-06-19"
   },
   {
     "id": "jw-tm1636983",
@@ -15918,7 +17208,7 @@ const CATALOG_DATA = [
     "duree": "1h 38min",
     "runtime_minutes": 98,
     "note_avis": 6.2,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8,
     "etoiles": 5,
     "categories": [
@@ -15942,7 +17232,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-05-14"
   },
   {
     "id": "jw-tm1573540",
@@ -15963,8 +17255,8 @@ const CATALOG_DATA = [
     "duree": "2h 25min",
     "runtime_minutes": 145,
     "note_avis": 7.9,
-    "note_recence": 9.8,
-    "note_globale": 8.9,
+    "note_recence": 9.7,
+    "note_globale": 8.8,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -15987,7 +17279,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2026-03-11"
   },
   {
     "id": "jw-tm1613945",
@@ -16008,7 +17302,7 @@ const CATALOG_DATA = [
     "duree": "2h 28min",
     "runtime_minutes": 148,
     "note_avis": 7,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.4,
     "etoiles": 5,
     "categories": [
@@ -16032,7 +17326,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2026-01-07"
   },
   {
     "id": "jw-tm1671263",
@@ -16077,7 +17373,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2026,
+    "date_ajout": "2026-01-14"
   },
   {
     "id": "jw-tm174054",
@@ -16141,8 +17439,8 @@ const CATALOG_DATA = [
     "duree": "2h 05min",
     "runtime_minutes": 125,
     "note_avis": 4.1,
-    "note_recence": 9.3,
-    "note_globale": 6.7,
+    "note_recence": 9.1,
+    "note_globale": 6.6,
     "etoiles": 3,
     "categories": [
       "horreur_epouvante"
@@ -16166,7 +17464,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2024-08-29"
   },
   {
     "id": "jw-tm1483750",
@@ -16187,7 +17487,7 @@ const CATALOG_DATA = [
     "duree": "1h 44min",
     "runtime_minutes": 104,
     "note_avis": 7.1,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
@@ -16212,7 +17512,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-04-08"
   },
   {
     "id": "jw-tm208924",
@@ -16233,9 +17535,9 @@ const CATALOG_DATA = [
     "duree": "1h 37min",
     "runtime_minutes": 97,
     "note_avis": 6.8,
-    "note_recence": 7.7,
-    "note_globale": 7.3,
-    "etoiles": 4,
+    "note_recence": 7,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -16256,7 +17558,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2017-02-03"
   },
   {
     "id": "jw-tm1280371",
@@ -16277,7 +17581,7 @@ const CATALOG_DATA = [
     "duree": "1h 29min",
     "runtime_minutes": 89,
     "note_avis": 6.7,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
@@ -16301,7 +17605,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-08-28"
   },
   {
     "id": "jw-tm1438678",
@@ -16322,8 +17628,8 @@ const CATALOG_DATA = [
     "duree": "1h 45min",
     "runtime_minutes": 105,
     "note_avis": 5.2,
-    "note_recence": 9.3,
-    "note_globale": 7.3,
+    "note_recence": 9.1,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "action_aventure"
@@ -16343,7 +17649,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2026-06-01"
   },
   {
     "id": "jw-tm1606015",
@@ -16364,8 +17672,8 @@ const CATALOG_DATA = [
     "duree": "1h 40min",
     "runtime_minutes": 100,
     "note_avis": 6.7,
-    "note_recence": 9.8,
-    "note_globale": 8.3,
+    "note_recence": 9.7,
+    "note_globale": 8.2,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -16389,7 +17697,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-06-11"
   },
   {
     "id": "jw-tm144054",
@@ -16456,7 +17766,7 @@ const CATALOG_DATA = [
     "duree": "1h 44min",
     "runtime_minutes": 104,
     "note_avis": 6.2,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8,
     "etoiles": 5,
     "categories": [
@@ -16480,7 +17790,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2026-02-09"
   },
   {
     "id": "jw-ts466772",
@@ -16501,7 +17813,7 @@ const CATALOG_DATA = [
     "duree": "45 min/ép.",
     "runtime_minutes": 45,
     "note_avis": 4.8,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
@@ -16526,7 +17838,16 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2025,
+        "note": 4.8
+      }
+    ],
+    "date_ajout": "2026-05-12"
   },
   {
     "id": "jw-tm169496",
@@ -16547,9 +17868,9 @@ const CATALOG_DATA = [
     "duree": "2h 03min",
     "runtime_minutes": 123,
     "note_avis": 8.3,
-    "note_recence": 6.5,
-    "note_globale": 7.4,
-    "etoiles": 4,
+    "note_recence": 5.5,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -16570,7 +17891,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2011,
+    "date_ajout": "2011-03-16"
   },
   {
     "id": "jw-tm1561456",
@@ -16591,8 +17914,8 @@ const CATALOG_DATA = [
     "duree": "1h 37min",
     "runtime_minutes": 97,
     "note_avis": 6.6,
-    "note_recence": 9.8,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -16615,7 +17938,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-03-12"
   },
   {
     "id": "jw-tm1064422",
@@ -16636,8 +17961,8 @@ const CATALOG_DATA = [
     "duree": "1h 32min",
     "runtime_minutes": 92,
     "note_avis": 7.8,
-    "note_recence": 8.8,
-    "note_globale": 8.3,
+    "note_recence": 8.5,
+    "note_globale": 8.2,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -16659,7 +17984,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2021-12-15"
   },
   {
     "id": "jw-tm1478838",
@@ -16680,7 +18007,7 @@ const CATALOG_DATA = [
     "duree": "1h 30min",
     "runtime_minutes": 90,
     "note_avis": 5.1,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
@@ -16703,7 +18030,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-09-01"
   },
   {
     "id": "jw-tm167066",
@@ -16771,7 +18100,7 @@ const CATALOG_DATA = [
     "duree": "1h 46min",
     "runtime_minutes": 106,
     "note_avis": 7.2,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.5,
     "etoiles": 5,
     "categories": [
@@ -16794,7 +18123,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-02-19"
   },
   {
     "id": "jw-tm1336615",
@@ -16815,8 +18146,8 @@ const CATALOG_DATA = [
     "duree": "1h 27min",
     "runtime_minutes": 87,
     "note_avis": 5.2,
-    "note_recence": 9.3,
-    "note_globale": 7.3,
+    "note_recence": 9.1,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -16840,7 +18171,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-11-10"
   },
   {
     "id": "jw-tm225476",
@@ -16861,8 +18194,8 @@ const CATALOG_DATA = [
     "duree": "1h 35min",
     "runtime_minutes": 95,
     "note_avis": 6,
-    "note_recence": 7.5,
-    "note_globale": 6.8,
+    "note_recence": 6.7,
+    "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
       "thriller_policier"
@@ -16885,7 +18218,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2015,
+    "date_ajout": "2015-03-25"
   },
   {
     "id": "jw-tm1650093",
@@ -16906,7 +18241,7 @@ const CATALOG_DATA = [
     "duree": "1h 48min",
     "runtime_minutes": 108,
     "note_avis": 4.8,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
@@ -16929,7 +18264,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2026-03-26"
   },
   {
     "id": "jw-tm107102",
@@ -16950,8 +18287,8 @@ const CATALOG_DATA = [
     "duree": "1h 51min",
     "runtime_minutes": 111,
     "note_avis": 7.5,
-    "note_recence": 6.3,
-    "note_globale": 6.9,
+    "note_recence": 5.2,
+    "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -16975,7 +18312,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2010,
+    "date_ajout": "2025-09-09"
   },
   {
     "id": "jw-tm1579406",
@@ -16996,8 +18335,8 @@ const CATALOG_DATA = [
     "duree": "2h 55min",
     "runtime_minutes": 175,
     "note_avis": 7.5,
-    "note_recence": 9.8,
-    "note_globale": 8.7,
+    "note_recence": 9.7,
+    "note_globale": 8.6,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -17019,7 +18358,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-12-24"
   },
   {
     "id": "jw-tm1605610",
@@ -17040,7 +18381,7 @@ const CATALOG_DATA = [
     "duree": "2h 39min",
     "runtime_minutes": 159,
     "note_avis": 7.2,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.5,
     "etoiles": 5,
     "categories": [
@@ -17065,7 +18406,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2026-06-01"
   },
   {
     "id": "jw-tm153143",
@@ -17086,8 +18429,8 @@ const CATALOG_DATA = [
     "duree": "2h 18min",
     "runtime_minutes": 138,
     "note_avis": 8,
-    "note_recence": 7.2,
-    "note_globale": 7.6,
+    "note_recence": 6.4,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -17107,7 +18450,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2014,
+    "date_ajout": "2014-10-08"
   },
   {
     "id": "jw-tm427335",
@@ -17128,8 +18473,8 @@ const CATALOG_DATA = [
     "duree": "1h 45min",
     "runtime_minutes": 105,
     "note_avis": 6.7,
-    "note_recence": 8.4,
-    "note_globale": 7.6,
+    "note_recence": 7.9,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "scifi_fantastique"
@@ -17152,7 +18497,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2020-01-08"
   },
   {
     "id": "jw-tm1628760",
@@ -17173,8 +18520,8 @@ const CATALOG_DATA = [
     "duree": "2h 03min",
     "runtime_minutes": 123,
     "note_avis": 7.9,
-    "note_recence": 9.8,
-    "note_globale": 8.9,
+    "note_recence": 9.7,
+    "note_globale": 8.8,
     "etoiles": 5,
     "categories": [
       "comedie"
@@ -17197,7 +18544,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-10-20"
   },
   {
     "id": "jw-tm922498",
@@ -17218,8 +18567,8 @@ const CATALOG_DATA = [
     "duree": "1h 49min",
     "runtime_minutes": 109,
     "note_avis": 6.3,
-    "note_recence": 8.8,
-    "note_globale": 7.6,
+    "note_recence": 8.5,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -17244,7 +18593,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2021-08-03"
   },
   {
     "id": "jw-tm423140",
@@ -17265,8 +18616,8 @@ const CATALOG_DATA = [
     "duree": "1h 28min",
     "runtime_minutes": 88,
     "note_avis": 6.6,
-    "note_recence": 8.4,
-    "note_globale": 7.5,
+    "note_recence": 7.9,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -17290,7 +18641,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2026-03-01"
   },
   {
     "id": "jw-tm1629154",
@@ -17311,7 +18664,7 @@ const CATALOG_DATA = [
     "duree": "2h 32min",
     "runtime_minutes": 152,
     "note_avis": 6.4,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
@@ -17335,7 +18688,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-09-17"
   },
   {
     "id": "jw-tm348731",
@@ -17356,8 +18711,8 @@ const CATALOG_DATA = [
     "duree": "1h 40min",
     "runtime_minutes": 100,
     "note_avis": 7.4,
-    "note_recence": 8.2,
-    "note_globale": 7.8,
+    "note_recence": 7.6,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -17382,7 +18737,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-08-13"
   },
   {
     "id": "jw-tm102403",
@@ -17450,8 +18807,8 @@ const CATALOG_DATA = [
     "duree": "1h 46min",
     "runtime_minutes": 106,
     "note_avis": 7,
-    "note_recence": 6.1,
-    "note_globale": 6.6,
+    "note_recence": 4.9,
+    "note_globale": 6,
     "etoiles": 3,
     "categories": [
       "comedie"
@@ -17472,7 +18829,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2009,
+    "date_ajout": "2010-01-20"
   },
   {
     "id": "jw-tm78774",
@@ -17537,8 +18896,8 @@ const CATALOG_DATA = [
     "duree": "1h 20min",
     "runtime_minutes": 80,
     "note_avis": 7.1,
-    "note_recence": 6.5,
-    "note_globale": 6.8,
+    "note_recence": 5.5,
+    "note_globale": 6.3,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -17560,7 +18919,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2011,
+    "date_ajout": "2026-05-01"
   },
   {
     "id": "jw-tm46907",
@@ -17624,8 +18985,8 @@ const CATALOG_DATA = [
     "duree": "1h 42min",
     "runtime_minutes": 102,
     "note_avis": 6.6,
-    "note_recence": 9.8,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -17647,7 +19008,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-06-18"
   },
   {
     "id": "jw-tm36005",
@@ -17668,8 +19031,8 @@ const CATALOG_DATA = [
     "duree": "1h 26min",
     "runtime_minutes": 86,
     "note_avis": 8.2,
-    "note_recence": 6.8,
-    "note_globale": 7.5,
+    "note_recence": 5.8,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -17691,7 +19054,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2012,
+    "date_ajout": "2012-12-26"
   },
   {
     "id": "jw-tm25175",
@@ -17759,9 +19124,9 @@ const CATALOG_DATA = [
     "duree": "23 min/ép.",
     "runtime_minutes": 23,
     "note_avis": 7.9,
-    "note_recence": 6.8,
-    "note_globale": 7.4,
-    "etoiles": 4,
+    "note_recence": 5.8,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "animation_famille"
     ],
@@ -17786,7 +19151,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2012,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2012,
+        "note": 7.9
+      }
+    ],
+    "date_ajout": "2024-04-04"
   },
   {
     "id": "jw-tm243870",
@@ -17807,8 +19181,8 @@ const CATALOG_DATA = [
     "duree": "1h 50min",
     "runtime_minutes": 110,
     "note_avis": 5.4,
-    "note_recence": 7.9,
-    "note_globale": 6.7,
+    "note_recence": 7.3,
+    "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -17832,7 +19206,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2017-09-27"
   },
   {
     "id": "jw-tm2883888",
@@ -17874,7 +19250,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2026,
+    "date_ajout": "2026-06-20"
   },
   {
     "id": "jw-tm78592",
@@ -17939,8 +19317,8 @@ const CATALOG_DATA = [
     "duree": "2h 00min",
     "runtime_minutes": 120,
     "note_avis": 5.7,
-    "note_recence": 9.8,
-    "note_globale": 7.8,
+    "note_recence": 9.7,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "horreur_epouvante"
@@ -17965,7 +19343,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-04-30"
   },
   {
     "id": "jw-ts299854",
@@ -17986,8 +19366,8 @@ const CATALOG_DATA = [
     "duree": "47 min/ép.",
     "runtime_minutes": 47,
     "note_avis": 7.4,
-    "note_recence": 8.8,
-    "note_globale": 8.1,
+    "note_recence": 9.4,
+    "note_globale": 8.4,
     "etoiles": 5,
     "categories": [
       "thriller_policier"
@@ -18011,7 +19391,32 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2026,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2021,
+        "note": 7.4
+      },
+      {
+        "saison": 2,
+        "annee": 2022,
+        "note": 7.4
+      },
+      {
+        "saison": 3,
+        "annee": 2024,
+        "note": 7.4
+      },
+      {
+        "saison": 4,
+        "annee": 2026,
+        "note": 7.4
+      }
+    ],
+    "date_ajout": "2023-09-19"
   },
   {
     "id": "jw-tm348003",
@@ -18035,8 +19440,8 @@ const CATALOG_DATA = [
     "duree": "1h 27min",
     "runtime_minutes": 87,
     "note_avis": 5.7,
-    "note_recence": 7.9,
-    "note_globale": 6.8,
+    "note_recence": 7.3,
+    "note_globale": 6.5,
     "etoiles": 3,
     "categories": [
       "action_aventure"
@@ -18052,16 +19457,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/191777384/s592/acts-of-vengeance.jpg",
     "synopsis": "Un avocat fait vœu de silence jusqu'à ce qu'il découvre qui a tué sa femme et sa fille et qu'il se venge.",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 148,
-      "expirationDate": "2027-02-28",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2018-03-14"
   },
   {
     "id": "jw-tm1348573",
@@ -18082,8 +19489,8 @@ const CATALOG_DATA = [
     "duree": "1h 26min",
     "runtime_minutes": 86,
     "note_avis": 6.8,
-    "note_recence": 9.3,
-    "note_globale": 8.1,
+    "note_recence": 9.1,
+    "note_globale": 8,
     "etoiles": 5,
     "categories": [
       "scifi_fantastique"
@@ -18107,7 +19514,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2025-08-13"
   },
   {
     "id": "jw-tm1543436",
@@ -18128,8 +19537,8 @@ const CATALOG_DATA = [
     "duree": "1h 42min",
     "runtime_minutes": 102,
     "note_avis": 6.6,
-    "note_recence": 9.8,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -18152,7 +19561,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-08-18"
   },
   {
     "id": "jw-tm148237",
@@ -18173,8 +19584,8 @@ const CATALOG_DATA = [
     "duree": "1h 52min",
     "runtime_minutes": 112,
     "note_avis": 7,
-    "note_recence": 6.1,
-    "note_globale": 6.6,
+    "note_recence": 4.9,
+    "note_globale": 6,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -18200,7 +19611,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2009,
+    "date_ajout": "2009-01-01"
   },
   {
     "id": "jw-tm1515086",
@@ -18221,7 +19634,7 @@ const CATALOG_DATA = [
     "duree": "1h 46min",
     "runtime_minutes": 106,
     "note_avis": 6.4,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
@@ -18245,7 +19658,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-07-14"
   },
   {
     "id": "jw-ts343184",
@@ -18266,8 +19681,8 @@ const CATALOG_DATA = [
     "duree": "45 min/ép.",
     "runtime_minutes": 45,
     "note_avis": 6.7,
-    "note_recence": 9.1,
-    "note_globale": 7.9,
+    "note_recence": 8.8,
+    "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -18288,7 +19703,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2022,
+        "note": 6.7
+      }
+    ],
+    "date_ajout": "2022-08-28"
   },
   {
     "id": "jw-tm107093",
@@ -18353,8 +19777,8 @@ const CATALOG_DATA = [
     "duree": "44 min/ép.",
     "runtime_minutes": 44,
     "note_avis": 6.5,
-    "note_recence": 9.8,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "thriller_policier"
@@ -18379,7 +19803,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2025,
+        "note": 6.5
+      }
+    ],
+    "date_ajout": "2025-10-02"
   },
   {
     "id": "jw-tm1627628",
@@ -18400,8 +19833,8 @@ const CATALOG_DATA = [
     "duree": "2h 11min",
     "runtime_minutes": 131,
     "note_avis": 5.9,
-    "note_recence": 9.8,
-    "note_globale": 7.9,
+    "note_recence": 9.7,
+    "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -18423,7 +19856,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2026-02-25"
   },
   {
     "id": "jw-tm842404",
@@ -18444,9 +19879,9 @@ const CATALOG_DATA = [
     "duree": "1h 34min",
     "runtime_minutes": 94,
     "note_avis": 5.6,
-    "note_recence": 8.4,
-    "note_globale": 7,
-    "etoiles": 4,
+    "note_recence": 7.9,
+    "note_globale": 6.8,
+    "etoiles": 3,
     "categories": [
       "comedie"
     ],
@@ -18469,7 +19904,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2021-03-26"
   },
   {
     "id": "jw-tm1175081",
@@ -18490,8 +19927,8 @@ const CATALOG_DATA = [
     "duree": "1h 47min",
     "runtime_minutes": 107,
     "note_avis": 5.2,
-    "note_recence": 9.1,
-    "note_globale": 7.2,
+    "note_recence": 8.8,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "action_aventure"
@@ -18513,7 +19950,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2022-06-14"
   },
   {
     "id": "jw-tm827835",
@@ -18534,8 +19973,8 @@ const CATALOG_DATA = [
     "duree": "1h 40min",
     "runtime_minutes": 100,
     "note_avis": 6.2,
-    "note_recence": 8.4,
-    "note_globale": 7.3,
+    "note_recence": 7.9,
+    "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
       "action_aventure"
@@ -18559,7 +19998,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2016-02-01"
   },
   {
     "id": "jw-tm169758",
@@ -18647,7 +20088,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2026,
+    "date_ajout": "2026-01-28"
   },
   {
     "id": "jw-ts501803",
@@ -18668,7 +20111,7 @@ const CATALOG_DATA = [
     "duree": "46 min/ép.",
     "runtime_minutes": 46,
     "note_avis": 6.8,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
@@ -18694,7 +20137,16 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2025,
+        "note": 6.8
+      }
+    ],
+    "date_ajout": "2026-01-06"
   },
   {
     "id": "jw-tm1496573",
@@ -18715,7 +20167,7 @@ const CATALOG_DATA = [
     "duree": "1h 38min",
     "runtime_minutes": 98,
     "note_avis": 6.2,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8,
     "etoiles": 5,
     "categories": [
@@ -18740,7 +20192,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-01-22"
   },
   {
     "id": "jw-tm26945",
@@ -18809,8 +20263,8 @@ const CATALOG_DATA = [
     "duree": "1h 26min",
     "runtime_minutes": 86,
     "note_avis": 6.2,
-    "note_recence": 7.5,
-    "note_globale": 6.9,
+    "note_recence": 6.7,
+    "note_globale": 6.5,
     "etoiles": 3,
     "categories": [
       "comedie"
@@ -18832,7 +20286,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2015,
+    "date_ajout": "2015-03-25"
   },
   {
     "id": "jw-tm1432643",
@@ -18853,7 +20309,7 @@ const CATALOG_DATA = [
     "duree": "2h 00min",
     "runtime_minutes": 120,
     "note_avis": 7.1,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
@@ -18878,7 +20334,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-07-09"
   },
   {
     "id": "jw-tm1522667",
@@ -18899,8 +20357,8 @@ const CATALOG_DATA = [
     "duree": "1h 35min",
     "runtime_minutes": 95,
     "note_avis": 5.7,
-    "note_recence": 9.8,
-    "note_globale": 7.8,
+    "note_recence": 9.7,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -18925,7 +20383,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-01-01"
   },
   {
     "id": "jw-tm1614260",
@@ -18946,8 +20406,8 @@ const CATALOG_DATA = [
     "duree": "1h 36min",
     "runtime_minutes": 96,
     "note_avis": 4.3,
-    "note_recence": 9.8,
-    "note_globale": 7.1,
+    "note_recence": 9.7,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "scifi_fantastique"
@@ -18972,7 +20432,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2026-01-24"
   },
   {
     "id": "jw-tm1656330",
@@ -18993,7 +20455,7 @@ const CATALOG_DATA = [
     "duree": "1h 30min",
     "runtime_minutes": 90,
     "note_avis": 6.8,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
@@ -19018,7 +20480,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-12-10"
   },
   {
     "id": "jw-tm1191847",
@@ -19039,8 +20503,8 @@ const CATALOG_DATA = [
     "duree": "2h 10min",
     "runtime_minutes": 130,
     "note_avis": 7.2,
-    "note_recence": 9.1,
-    "note_globale": 8.2,
+    "note_recence": 8.8,
+    "note_globale": 8,
     "etoiles": 5,
     "categories": [
       "thriller_policier"
@@ -19062,7 +20526,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2022-10-14"
   },
   {
     "id": "jw-tm312632",
@@ -19083,8 +20549,8 @@ const CATALOG_DATA = [
     "duree": "1h 53min",
     "runtime_minutes": 113,
     "note_avis": 6.8,
-    "note_recence": 7.9,
-    "note_globale": 7.4,
+    "note_recence": 7.3,
+    "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -19109,7 +20575,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2017-06-14"
   },
   {
     "id": "jw-tm336975",
@@ -19130,8 +20598,8 @@ const CATALOG_DATA = [
     "duree": "1h 48min",
     "runtime_minutes": 108,
     "note_avis": 6.7,
-    "note_recence": 7.9,
-    "note_globale": 7.3,
+    "note_recence": 7.3,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "action_aventure"
@@ -19153,7 +20621,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2017,
+    "date_ajout": "2016-02-01"
   },
   {
     "id": "jw-tm327990",
@@ -19174,8 +20644,8 @@ const CATALOG_DATA = [
     "duree": "1h 40min",
     "runtime_minutes": 100,
     "note_avis": 6.4,
-    "note_recence": 8.2,
-    "note_globale": 7.3,
+    "note_recence": 7.6,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -19199,7 +20669,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-11-07"
   },
   {
     "id": "jw-tm1047264",
@@ -19220,8 +20692,8 @@ const CATALOG_DATA = [
     "duree": "2h 07min",
     "runtime_minutes": 127,
     "note_avis": 7.5,
-    "note_recence": 8.8,
-    "note_globale": 8.2,
+    "note_recence": 8.5,
+    "note_globale": 8,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -19243,7 +20715,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2021-12-15"
   },
   {
     "id": "jw-tm1308443",
@@ -19264,8 +20738,8 @@ const CATALOG_DATA = [
     "duree": "1h 33min",
     "runtime_minutes": 93,
     "note_avis": 5.2,
-    "note_recence": 9.3,
-    "note_globale": 7.3,
+    "note_recence": 9.1,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -19288,7 +20762,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-04-26"
   },
   {
     "id": "jw-tm1481770",
@@ -19309,8 +20785,8 @@ const CATALOG_DATA = [
     "duree": "2h 00min",
     "runtime_minutes": 120,
     "note_avis": 6.3,
-    "note_recence": 9.8,
-    "note_globale": 8.1,
+    "note_recence": 9.7,
+    "note_globale": 8,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -19333,7 +20809,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-07-30"
   },
   {
     "id": "jw-tm1647841",
@@ -19354,9 +20832,9 @@ const CATALOG_DATA = [
     "duree": "1h 35min",
     "runtime_minutes": 95,
     "note_avis": 6.1,
-    "note_recence": 9.8,
-    "note_globale": 8,
-    "etoiles": 5,
+    "note_recence": 9.7,
+    "note_globale": 7.9,
+    "etoiles": 4,
     "categories": [
       "scifi_fantastique"
     ],
@@ -19379,7 +20857,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2026-06-28"
   },
   {
     "id": "jw-ts84289",
@@ -19400,8 +20880,8 @@ const CATALOG_DATA = [
     "duree": "23 min/ép.",
     "runtime_minutes": 23,
     "note_avis": 7.2,
-    "note_recence": 8.2,
-    "note_globale": 7.7,
+    "note_recence": 7.6,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -19426,7 +20906,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2018,
+        "note": 7.2
+      }
+    ],
+    "date_ajout": "2026-05-03"
   },
   {
     "id": "jw-tm1373317",
@@ -19447,8 +20936,8 @@ const CATALOG_DATA = [
     "duree": "1h 35min",
     "runtime_minutes": 95,
     "note_avis": 7.1,
-    "note_recence": 9.8,
-    "note_globale": 8.5,
+    "note_recence": 9.7,
+    "note_globale": 8.4,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -19470,7 +20959,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-11-17"
   },
   {
     "id": "jw-tm1506814",
@@ -19491,8 +20982,8 @@ const CATALOG_DATA = [
     "duree": "1h 28min",
     "runtime_minutes": 88,
     "note_avis": 6.6,
-    "note_recence": 9.8,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "thriller_policier"
@@ -19516,7 +21007,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-02-12"
   },
   {
     "id": "jw-tm925023",
@@ -19537,8 +21030,8 @@ const CATALOG_DATA = [
     "duree": "1h 55min",
     "runtime_minutes": 115,
     "note_avis": 7.5,
-    "note_recence": 9.3,
-    "note_globale": 8.4,
+    "note_recence": 9.1,
+    "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -19560,7 +21053,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2024-03-20"
   },
   {
     "id": "jw-tm171672",
@@ -19581,8 +21076,8 @@ const CATALOG_DATA = [
     "duree": "1h 47min",
     "runtime_minutes": 107,
     "note_avis": 6.8,
-    "note_recence": 6.5,
-    "note_globale": 6.7,
+    "note_recence": 5.5,
+    "note_globale": 6.2,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -19604,7 +21099,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2011,
+    "date_ajout": "2026-04-20"
   },
   {
     "id": "jw-tm139880",
@@ -19625,8 +21122,8 @@ const CATALOG_DATA = [
     "duree": "1h 34min",
     "runtime_minutes": 94,
     "note_avis": 5.2,
-    "note_recence": 9.1,
-    "note_globale": 7.2,
+    "note_recence": 8.8,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "action_aventure"
@@ -19649,7 +21146,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2022,
+    "date_ajout": "2023-04-24"
   },
   {
     "id": "jw-tm1376360",
@@ -19670,8 +21169,8 @@ const CATALOG_DATA = [
     "duree": "1h 21min",
     "runtime_minutes": 81,
     "note_avis": 4.8,
-    "note_recence": 9.3,
-    "note_globale": 7.1,
+    "note_recence": 9.1,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -19693,7 +21192,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2026-05-01"
   },
   {
     "id": "jw-tm1300389",
@@ -19714,8 +21215,8 @@ const CATALOG_DATA = [
     "duree": "1h 20min",
     "runtime_minutes": 80,
     "note_avis": 5.3,
-    "note_recence": 9.3,
-    "note_globale": 7.3,
+    "note_recence": 9.1,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -19737,7 +21238,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-06-14"
   },
   {
     "id": "jw-tm1669521",
@@ -19783,7 +21286,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2026,
+    "date_ajout": "2026-02-18"
   },
   {
     "id": "jw-tm244229",
@@ -19804,8 +21309,8 @@ const CATALOG_DATA = [
     "duree": "2h 12min",
     "runtime_minutes": 132,
     "note_avis": 6.9,
-    "note_recence": 8.2,
-    "note_globale": 7.6,
+    "note_recence": 7.6,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -19830,7 +21335,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-05-09"
   },
   {
     "id": "jw-tm1651114",
@@ -19851,7 +21358,7 @@ const CATALOG_DATA = [
     "duree": "1h 50min",
     "runtime_minutes": 110,
     "note_avis": 5.4,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
@@ -19876,7 +21383,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-11-30"
   },
   {
     "id": "jw-tm1259917",
@@ -19897,8 +21406,8 @@ const CATALOG_DATA = [
     "duree": "1h 32min",
     "runtime_minutes": 92,
     "note_avis": 5,
-    "note_recence": 9.3,
-    "note_globale": 7.2,
+    "note_recence": 9.1,
+    "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
       "horreur_epouvante"
@@ -19922,7 +21431,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-10-30"
   },
   {
     "id": "jw-tm244732",
@@ -19943,9 +21454,9 @@ const CATALOG_DATA = [
     "duree": "1h 48min",
     "runtime_minutes": 108,
     "note_avis": 6.6,
-    "note_recence": 7.7,
-    "note_globale": 7.2,
-    "etoiles": 4,
+    "note_recence": 7,
+    "note_globale": 6.8,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -19968,7 +21479,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2025-07-22"
   },
   {
     "id": "jw-tm158409",
@@ -19989,9 +21502,9 @@ const CATALOG_DATA = [
     "duree": "1h 57min",
     "runtime_minutes": 117,
     "note_avis": 6.9,
-    "note_recence": 7.2,
-    "note_globale": 7.1,
-    "etoiles": 4,
+    "note_recence": 6.4,
+    "note_globale": 6.7,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -20004,14 +21517,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/11609449/s592/lapotre.jpg",
     "synopsis": "Akim, jeune musulman appelé à devenir imam, voit son identité bouleversée alors qu'il est touché par l'amour du Christ… Dans un chaos familial qui l'oppose à son frère, Akim tentera de se faire accepter par les siens.",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "aoc": "2027-03-31"
+      }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2014,
+    "date_ajout": "2022-03-07"
   },
   {
     "id": "jw-tm1519599",
@@ -20032,8 +21549,8 @@ const CATALOG_DATA = [
     "duree": "1h 28min",
     "runtime_minutes": 88,
     "note_avis": 6.7,
-    "note_recence": 9.8,
-    "note_globale": 8.3,
+    "note_recence": 9.7,
+    "note_globale": 8.2,
     "etoiles": 5,
     "categories": [
       "comedie"
@@ -20056,7 +21573,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-02-26"
   },
   {
     "id": "jw-tm1167017",
@@ -20077,8 +21596,8 @@ const CATALOG_DATA = [
     "duree": "1h 48min",
     "runtime_minutes": 108,
     "note_avis": 5.7,
-    "note_recence": 9.1,
-    "note_globale": 7.4,
+    "note_recence": 8.8,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -20100,7 +21619,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2022-04-06"
   },
   {
     "id": "jw-tm1043778",
@@ -20121,8 +21642,8 @@ const CATALOG_DATA = [
     "duree": "1h 46min",
     "runtime_minutes": 106,
     "note_avis": 7,
-    "note_recence": 8.8,
-    "note_globale": 7.9,
+    "note_recence": 8.5,
+    "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -20146,7 +21667,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2021-11-03"
   },
   {
     "id": "jw-tm173843",
@@ -20167,9 +21690,9 @@ const CATALOG_DATA = [
     "duree": "2h 12min",
     "runtime_minutes": 132,
     "note_avis": 7,
-    "note_recence": 7,
-    "note_globale": 7,
-    "etoiles": 4,
+    "note_recence": 6.1,
+    "note_globale": 6.6,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -20182,14 +21705,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/301450623/s592/la-fille-publique.jpg",
     "synopsis": "Yasmeen est placée dans une famille d’accueil depuis l’âge de trois mois. Dix-sept années s’écoulent et des liens d’amour indéfectibles se tissent avec ses parents et ses frères et sœurs. Alors que Yasmeen est sur le point d’être adoptée, et d’être enfin reconnue officiellement comme un membre de sa famille, une femme se met à la harceler, prétextant qu’elle est sa mère...",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "aoc": "2027-03-31"
+      }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2013,
+    "date_ajout": "2022-03-07"
   },
   {
     "id": "jw-tm1623389",
@@ -20210,8 +21737,8 @@ const CATALOG_DATA = [
     "duree": "2h 10min",
     "runtime_minutes": 130,
     "note_avis": 6.7,
-    "note_recence": 9.8,
-    "note_globale": 8.3,
+    "note_recence": 9.7,
+    "note_globale": 8.2,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -20237,7 +21764,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-12-14"
   },
   {
     "id": "jw-ts20121",
@@ -20258,8 +21787,8 @@ const CATALOG_DATA = [
     "duree": "43 min/ép.",
     "runtime_minutes": 43,
     "note_avis": 7.5,
-    "note_recence": 7,
-    "note_globale": 7.3,
+    "note_recence": 6.7,
+    "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -20283,7 +21812,32 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2016,
+    "annee_moyenne": 2015,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2013,
+        "note": 7.5
+      },
+      {
+        "saison": 2,
+        "annee": 2014,
+        "note": 7.5
+      },
+      {
+        "saison": 3,
+        "annee": 2015,
+        "note": 7.5
+      },
+      {
+        "saison": 4,
+        "annee": 2016,
+        "note": 7.5
+      }
+    ],
+    "date_ajout": "2025-01-13"
   },
   {
     "id": "jw-tm1486086",
@@ -20304,8 +21858,8 @@ const CATALOG_DATA = [
     "duree": "1h 25min",
     "runtime_minutes": 85,
     "note_avis": 5.2,
-    "note_recence": 9.5,
-    "note_globale": 7.4,
+    "note_recence": 9.4,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "horreur_epouvante"
@@ -20327,7 +21881,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-12-13"
   },
   {
     "id": "jw-tm1047994",
@@ -20348,8 +21904,8 @@ const CATALOG_DATA = [
     "duree": "1h 52min",
     "runtime_minutes": 112,
     "note_avis": 6.4,
-    "note_recence": 8.8,
-    "note_globale": 7.6,
+    "note_recence": 8.5,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -20373,7 +21929,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2021-11-17"
   },
   {
     "id": "jw-tm823034",
@@ -20394,8 +21952,8 @@ const CATALOG_DATA = [
     "duree": "1h 44min",
     "runtime_minutes": 104,
     "note_avis": 6.8,
-    "note_recence": 8.6,
-    "note_globale": 7.7,
+    "note_recence": 8.2,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -20417,7 +21975,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2021-07-07"
   },
   {
     "id": "jw-tm170374",
@@ -20438,8 +21998,8 @@ const CATALOG_DATA = [
     "duree": "1h 44min",
     "runtime_minutes": 104,
     "note_avis": 5.9,
-    "note_recence": 7,
-    "note_globale": 6.5,
+    "note_recence": 6.1,
+    "note_globale": 6,
     "etoiles": 3,
     "categories": [
       "thriller_policier"
@@ -20464,7 +22024,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2013,
+    "date_ajout": "2013-12-11"
   },
   {
     "id": "jw-ts317683",
@@ -20485,7 +22047,7 @@ const CATALOG_DATA = [
     "duree": "46 min/ép.",
     "runtime_minutes": 46,
     "note_avis": 5.3,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
@@ -20510,7 +22072,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2024,
+        "note": 5.3
+      }
+    ],
+    "date_ajout": "2025-04-09"
   },
   {
     "id": "jw-tm318513",
@@ -20531,9 +22102,9 @@ const CATALOG_DATA = [
     "duree": "1h 46min",
     "runtime_minutes": 106,
     "note_avis": 6.1,
-    "note_recence": 7.9,
-    "note_globale": 7,
-    "etoiles": 4,
+    "note_recence": 7.3,
+    "note_globale": 6.7,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -20548,14 +22119,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/60117443/s592/chasseuse-de-geants.jpg",
     "synopsis": "Barbara est une adolescente solitaire différente des autres, et en conflit permanent avec son entourage. Ses journées au collège sont rythmées par les allers-retours entre le bureau du proviseur et la psychologue. Aux sources de l’inquiétude des adultes qui veillent sur elle, il y a son obsession pour les Géants, des créatures fantastiques venues d’un autre monde pour semer le chaos. Armée de son marteau légendaire, Barbara s’embarque dans un combat épique pour les empêcher d’envahir le monde…",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "aoc": "2027-03-31"
+      }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2018-06-06"
   },
   {
     "id": "jw-tm1517395",
@@ -20576,8 +22151,8 @@ const CATALOG_DATA = [
     "duree": "1h 50min",
     "runtime_minutes": 110,
     "note_avis": 6.5,
-    "note_recence": 9.8,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -20599,7 +22174,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-01-22"
   },
   {
     "id": "jw-ts413949",
@@ -20620,8 +22197,8 @@ const CATALOG_DATA = [
     "duree": "44 min/ép.",
     "runtime_minutes": 44,
     "note_avis": 6.4,
-    "note_recence": 9.5,
-    "note_globale": 8,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "thriller_policier"
@@ -20642,7 +22219,22 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2025,
+    "annee_moyenne": 2025,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2024,
+        "note": 6.4
+      },
+      {
+        "saison": 2,
+        "annee": 2025,
+        "note": 6.4
+      }
+    ],
+    "date_ajout": "2025-10-05"
   },
   {
     "id": "jw-tm1594220",
@@ -20663,8 +22255,8 @@ const CATALOG_DATA = [
     "duree": "1h 17min",
     "runtime_minutes": 77,
     "note_avis": 6.5,
-    "note_recence": 9.8,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "comedie"
@@ -20687,7 +22279,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-09-10"
   },
   {
     "id": "jw-tm1141821",
@@ -20708,8 +22302,8 @@ const CATALOG_DATA = [
     "duree": "1h 21min",
     "runtime_minutes": 81,
     "note_avis": 7.5,
-    "note_recence": 9.1,
-    "note_globale": 8.3,
+    "note_recence": 8.8,
+    "note_globale": 8.2,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -20732,7 +22326,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2022-02-23"
   },
   {
     "id": "jw-ts284726",
@@ -20753,8 +22349,8 @@ const CATALOG_DATA = [
     "duree": "18 min/ép.",
     "runtime_minutes": 18,
     "note_avis": 5.8,
-    "note_recence": 8.6,
-    "note_globale": 7.2,
+    "note_recence": 8.2,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -20780,7 +22376,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2020,
+        "note": 5.8
+      }
+    ],
+    "date_ajout": "2024-10-01"
   },
   {
     "id": "jw-tm1352915",
@@ -20801,8 +22406,8 @@ const CATALOG_DATA = [
     "duree": "1h 32min",
     "runtime_minutes": 92,
     "note_avis": 4.9,
-    "note_recence": 9.3,
-    "note_globale": 7.1,
+    "note_recence": 9.1,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -20826,7 +22431,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2026-02-01"
   },
   {
     "id": "jw-ts96540",
@@ -20843,12 +22450,12 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "annee": 2022,
+    "annee": 2020,
     "duree": "46 min/ép.",
     "runtime_minutes": 46,
     "note_avis": 6,
-    "note_recence": 9.1,
-    "note_globale": 7.6,
+    "note_recence": 8.2,
+    "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -20870,7 +22477,16 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2020,
+        "note": 6
+      }
+    ],
+    "date_ajout": "2024-09-01"
   },
   {
     "id": "jw-ts215012",
@@ -20891,8 +22507,8 @@ const CATALOG_DATA = [
     "duree": "23 min/ép.",
     "runtime_minutes": 23,
     "note_avis": 8.3,
-    "note_recence": 8.6,
-    "note_globale": 8.5,
+    "note_recence": 8.2,
+    "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
       "animation_famille"
@@ -20918,7 +22534,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2020,
+        "note": 8.3
+      }
+    ],
+    "date_ajout": "2026-07-05"
   },
   {
     "id": "jw-tm309232",
@@ -21027,8 +22652,8 @@ const CATALOG_DATA = [
     "duree": "1h 50min",
     "runtime_minutes": 110,
     "note_avis": 7.2,
-    "note_recence": 9.3,
-    "note_globale": 8.3,
+    "note_recence": 9.1,
+    "note_globale": 8.2,
     "etoiles": 5,
     "categories": [
       "animation_famille"
@@ -21053,7 +22678,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-08-02"
   },
   {
     "id": "jw-tm94640",
@@ -21120,7 +22747,7 @@ const CATALOG_DATA = [
     "duree": "43 min/ép.",
     "runtime_minutes": 43,
     "note_avis": 5.9,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
@@ -21143,7 +22770,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2024,
+        "note": 5.9
+      }
+    ],
+    "date_ajout": "2024-04-12"
   },
   {
     "id": "jw-tm316222",
@@ -21164,8 +22800,8 @@ const CATALOG_DATA = [
     "duree": "2h 00min",
     "runtime_minutes": 120,
     "note_avis": 6.6,
-    "note_recence": 7.9,
-    "note_globale": 7.3,
+    "note_recence": 7.3,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -21179,14 +22815,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/11380138/s592/la-morsure-des-dieux.jpg",
     "synopsis": "Sébastien, grand amoureux de sa terre du Pays-Basque, est seul à s'occuper de la ferme familiale alors que les soucis s'accumulent : crédits insurmontables, baisse de la production, désorganisation du milieu paysan… Sébastien se bat et cherche sa voie, qui prend un tour spirituel au contact de sa nouvelle voisine, Juliette, aussi Catholique que lui est Païen. Mais leur amour est remis en question alors que Sébastien, rattrapé par les difficultés, est sur le point de tout perdre…",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "aoc": "2027-03-31"
+      }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2022-03-07"
   },
   {
     "id": "jw-tm1575723",
@@ -21207,8 +22847,8 @@ const CATALOG_DATA = [
     "duree": "1h 26min",
     "runtime_minutes": 86,
     "note_avis": 6.6,
-    "note_recence": 9.8,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -21232,7 +22872,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-08-27"
   },
   {
     "id": "jw-tm1432644",
@@ -21253,8 +22895,8 @@ const CATALOG_DATA = [
     "duree": "2h 05min",
     "runtime_minutes": 125,
     "note_avis": 6.8,
-    "note_recence": 9.5,
-    "note_globale": 8.2,
+    "note_recence": 9.4,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -21277,7 +22919,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-07-16"
   },
   {
     "id": "jw-tm233312",
@@ -21298,8 +22942,8 @@ const CATALOG_DATA = [
     "duree": "2h 08min",
     "runtime_minutes": 128,
     "note_avis": 7.3,
-    "note_recence": 7.7,
-    "note_globale": 7.5,
+    "note_recence": 7,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -21323,7 +22967,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2016-12-07"
   },
   {
     "id": "jw-tm1657092",
@@ -21344,8 +22990,8 @@ const CATALOG_DATA = [
     "duree": "1h 21min",
     "runtime_minutes": 81,
     "note_avis": 7.1,
-    "note_recence": 9.8,
-    "note_globale": 8.5,
+    "note_recence": 9.7,
+    "note_globale": 8.4,
     "etoiles": 5,
     "categories": [
       "animation_famille"
@@ -21368,7 +23014,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-10-15"
   },
   {
     "id": "jw-tm1522048",
@@ -21389,7 +23037,7 @@ const CATALOG_DATA = [
     "duree": "1h 40min",
     "runtime_minutes": 100,
     "note_avis": 5.4,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
@@ -21416,7 +23064,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-10-01"
   },
   {
     "id": "jw-tm1625406",
@@ -21437,8 +23087,8 @@ const CATALOG_DATA = [
     "duree": "1h 53min",
     "runtime_minutes": 113,
     "note_avis": 7.5,
-    "note_recence": 9.8,
-    "note_globale": 8.7,
+    "note_recence": 9.7,
+    "note_globale": 8.6,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -21462,7 +23112,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-12-31"
   },
   {
     "id": "jw-ts269094",
@@ -21479,12 +23131,12 @@ const CATALOG_DATA = [
     "package_slugs": [
       "auc"
     ],
-    "annee": 2021,
+    "annee": 2024,
     "duree": "47 min/ép.",
     "runtime_minutes": 47,
     "note_avis": 7.1,
-    "note_recence": 8.8,
-    "note_globale": 8,
+    "note_recence": 9.4,
+    "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
       "thriller_policier"
@@ -21505,7 +23157,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 3,
+        "annee": 2024,
+        "note": 7.1
+      }
+    ],
+    "date_ajout": "2025-03-18"
   },
   {
     "id": "jw-tm1309487",
@@ -21526,8 +23187,8 @@ const CATALOG_DATA = [
     "duree": "1h 47min",
     "runtime_minutes": 107,
     "note_avis": 6,
-    "note_recence": 9.5,
-    "note_globale": 7.8,
+    "note_recence": 9.4,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "horreur_epouvante"
@@ -21550,7 +23211,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-05-21"
   },
   {
     "id": "jw-tm462920",
@@ -21571,9 +23234,9 @@ const CATALOG_DATA = [
     "duree": "1h 45min",
     "runtime_minutes": 105,
     "note_avis": 5.6,
-    "note_recence": 8.4,
-    "note_globale": 7,
-    "etoiles": 4,
+    "note_recence": 7.9,
+    "note_globale": 6.8,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -21586,14 +23249,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/321003499/s592/le-corps-sauvage.jpg",
     "synopsis": "À la recherche d’une nouvelle façon de vivre, Diane, 25 ans, s’installe chez son grand-père dans un village bordant une forêt où elle pratique la chasse à l’arc. Le grand-père lui fait découvrir l’univers de la chasse, ses rites et ses traditions, ainsi que son village où chacun vit en harmonie, unis par des valeurs fédératrices. Cette harmonie est bientôt menacée par un groupe d’hommes sans éthique ; mais Diane est décidée à protéger le village et la nature à son corps défendant…",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "aoc": "2027-03-31"
+      }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2022-03-09"
   },
   {
     "id": "jw-tm156923",
@@ -21614,9 +23281,9 @@ const CATALOG_DATA = [
     "duree": "1h 46min",
     "runtime_minutes": 106,
     "note_avis": 6.9,
-    "note_recence": 7.2,
-    "note_globale": 7.1,
-    "etoiles": 4,
+    "note_recence": 6.4,
+    "note_globale": 6.7,
+    "etoiles": 3,
     "categories": [
       "thriller_policier"
     ],
@@ -21638,7 +23305,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2014,
+    "date_ajout": "2014-01-27"
   },
   {
     "id": "jw-tm1483266",
@@ -21659,8 +23328,8 @@ const CATALOG_DATA = [
     "duree": "1h 06min",
     "runtime_minutes": 66,
     "note_avis": 6.5,
-    "note_recence": 9.8,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -21680,7 +23349,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-06-29"
   },
   {
     "id": "jw-ts506897",
@@ -21701,7 +23372,7 @@ const CATALOG_DATA = [
     "duree": "32 min/ép.",
     "runtime_minutes": 32,
     "note_avis": 9,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 9.4,
     "etoiles": 5,
     "categories": [
@@ -21723,7 +23394,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2025,
+        "note": 9
+      }
+    ],
+    "date_ajout": "2025-11-18"
   },
   {
     "id": "jw-tm1395496",
@@ -21744,8 +23424,8 @@ const CATALOG_DATA = [
     "duree": "1h 20min",
     "runtime_minutes": 80,
     "note_avis": 6.5,
-    "note_recence": 9.8,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "animation_famille"
@@ -21769,7 +23449,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-12-17"
   },
   {
     "id": "jw-tm422681",
@@ -21790,8 +23472,8 @@ const CATALOG_DATA = [
     "duree": "1h 59min",
     "runtime_minutes": 119,
     "note_avis": 6.8,
-    "note_recence": 8.4,
-    "note_globale": 7.6,
+    "note_recence": 7.9,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "action_aventure"
@@ -21816,7 +23498,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2020-11-04"
   },
   {
     "id": "jw-ts188766",
@@ -21833,12 +23517,12 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "annee": 2023,
+    "annee": 2022,
     "duree": "45 min/ép.",
     "runtime_minutes": 45,
     "note_avis": 6.4,
-    "note_recence": 9.3,
-    "note_globale": 7.9,
+    "note_recence": 8.8,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "scifi_fantastique"
@@ -21862,7 +23546,16 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2022,
+        "note": 6.4
+      }
+    ],
+    "date_ajout": "2025-03-24"
   },
   {
     "id": "jw-tm1636210",
@@ -21883,8 +23576,8 @@ const CATALOG_DATA = [
     "duree": "2h 12min",
     "runtime_minutes": 132,
     "note_avis": 6.5,
-    "note_recence": 9.8,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -21907,7 +23600,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-02-27"
   },
   {
     "id": "jw-tm1027760",
@@ -21928,8 +23623,8 @@ const CATALOG_DATA = [
     "duree": "1h 11min",
     "runtime_minutes": 71,
     "note_avis": 4.4,
-    "note_recence": 8.8,
-    "note_globale": 6.6,
+    "note_recence": 8.5,
+    "note_globale": 6.5,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -21951,7 +23646,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2023-03-31"
   },
   {
     "id": "jw-tm1904037",
@@ -21972,8 +23669,8 @@ const CATALOG_DATA = [
     "duree": "1h 20min",
     "runtime_minutes": 80,
     "note_avis": 5.1,
-    "note_recence": 9.8,
-    "note_globale": 7.5,
+    "note_recence": 9.7,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -21993,7 +23690,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-11-13"
   },
   {
     "id": "jw-tm1663879",
@@ -22014,8 +23713,8 @@ const CATALOG_DATA = [
     "duree": "1h 55min",
     "runtime_minutes": 115,
     "note_avis": 6.9,
-    "note_recence": 9.8,
-    "note_globale": 8.4,
+    "note_recence": 9.7,
+    "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -22037,7 +23736,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-06-11"
   },
   {
     "id": "jw-tm1279412",
@@ -22058,8 +23759,8 @@ const CATALOG_DATA = [
     "duree": "1h 28min",
     "runtime_minutes": 88,
     "note_avis": 5.5,
-    "note_recence": 9.1,
-    "note_globale": 7.3,
+    "note_recence": 8.8,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -22082,7 +23783,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2024-02-22"
   },
   {
     "id": "jw-tm1607161",
@@ -22103,7 +23806,7 @@ const CATALOG_DATA = [
     "duree": "1h 34min",
     "runtime_minutes": 94,
     "note_avis": 4.2,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7,
     "etoiles": 4,
     "categories": [
@@ -22126,7 +23829,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-05-07"
   },
   {
     "id": "jw-tm897480",
@@ -22147,8 +23852,8 @@ const CATALOG_DATA = [
     "duree": "1h 20min",
     "runtime_minutes": 80,
     "note_avis": 4.9,
-    "note_recence": 8.6,
-    "note_globale": 6.8,
+    "note_recence": 8.2,
+    "note_globale": 6.6,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -22169,7 +23874,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2023-03-23"
   },
   {
     "id": "jw-tm163563",
@@ -22237,8 +23944,8 @@ const CATALOG_DATA = [
     "duree": "51min",
     "runtime_minutes": 51,
     "note_avis": 6.2,
-    "note_recence": 8.6,
-    "note_globale": 7.4,
+    "note_recence": 8.2,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -22262,7 +23969,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2021-01-06"
   },
   {
     "id": "jw-tm173051",
@@ -22326,8 +24035,8 @@ const CATALOG_DATA = [
     "duree": "1h 52min",
     "runtime_minutes": 112,
     "note_avis": 6.2,
-    "note_recence": 7.2,
-    "note_globale": 6.7,
+    "note_recence": 6.4,
+    "note_globale": 6.3,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -22349,7 +24058,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2014,
+    "date_ajout": "2014-05-21"
   },
   {
     "id": "jw-tm1518995",
@@ -22370,8 +24081,8 @@ const CATALOG_DATA = [
     "duree": "1h 40min",
     "runtime_minutes": 100,
     "note_avis": 6.7,
-    "note_recence": 9.8,
-    "note_globale": 8.3,
+    "note_recence": 9.7,
+    "note_globale": 8.2,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -22393,7 +24104,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-08-27"
   },
   {
     "id": "jw-tm841808",
@@ -22414,8 +24127,8 @@ const CATALOG_DATA = [
     "duree": "1h 37min",
     "runtime_minutes": 97,
     "note_avis": 4.7,
-    "note_recence": 8.4,
-    "note_globale": 6.6,
+    "note_recence": 7.9,
+    "note_globale": 6.3,
     "etoiles": 3,
     "categories": [
       "thriller_policier"
@@ -22438,7 +24151,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2019,
+    "date_ajout": "2020-07-22"
   },
   {
     "id": "jw-tm27007",
@@ -22504,8 +24219,8 @@ const CATALOG_DATA = [
     "duree": "1h 37min",
     "runtime_minutes": 97,
     "note_avis": 6.5,
-    "note_recence": 9.8,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "thriller_policier"
@@ -22529,7 +24244,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-04-30"
   },
   {
     "id": "jw-tm54228",
@@ -22596,8 +24313,8 @@ const CATALOG_DATA = [
     "duree": "1h 51min",
     "runtime_minutes": 111,
     "note_avis": 6,
-    "note_recence": 9.3,
-    "note_globale": 7.7,
+    "note_recence": 9.1,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -22618,7 +24335,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2022-01-11"
   },
   {
     "id": "jw-tm1513417",
@@ -22639,7 +24358,7 @@ const CATALOG_DATA = [
     "duree": "1h 44min",
     "runtime_minutes": 104,
     "note_avis": 6.8,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
@@ -22662,7 +24381,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-01-08"
   },
   {
     "id": "jw-tm1364408",
@@ -22683,8 +24404,8 @@ const CATALOG_DATA = [
     "duree": "1h 37min",
     "runtime_minutes": 97,
     "note_avis": 7.2,
-    "note_recence": 9.3,
-    "note_globale": 8.3,
+    "note_recence": 9.1,
+    "note_globale": 8.2,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -22698,14 +24419,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/311237933/s592/aristotle-and-dante-discover-the-secrets-of-the-universe.jpg",
     "synopsis": "Aristote Mendoza et Dante Quintana, deux adolescents mexicains, explorent leur amitié tout en luttant contre l'identité raciale et ethnique, la sexualité et les relations familiales à El Paso, au Texas, en 1987.",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "aoc": "2027-03-31"
+      }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2024-11-13"
   },
   {
     "id": "jw-tm1627847",
@@ -22726,7 +24451,7 @@ const CATALOG_DATA = [
     "duree": "3h 37min",
     "runtime_minutes": 217,
     "note_avis": 7,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.4,
     "etoiles": 5,
     "categories": [
@@ -22749,7 +24474,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-11-30"
   },
   {
     "id": "jw-tm462379",
@@ -22770,8 +24497,8 @@ const CATALOG_DATA = [
     "duree": "1h 57min",
     "runtime_minutes": 117,
     "note_avis": 6.7,
-    "note_recence": 8.4,
-    "note_globale": 7.6,
+    "note_recence": 7.9,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -22795,7 +24522,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-12-04"
   },
   {
     "id": "jw-tm1141791",
@@ -22816,8 +24545,8 @@ const CATALOG_DATA = [
     "duree": "1h 40min",
     "runtime_minutes": 100,
     "note_avis": 6.4,
-    "note_recence": 9.1,
-    "note_globale": 7.8,
+    "note_recence": 8.8,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -22837,7 +24566,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2023-05-17"
   },
   {
     "id": "jw-tm1515009",
@@ -22858,8 +24589,8 @@ const CATALOG_DATA = [
     "duree": "1h 41min",
     "runtime_minutes": 101,
     "note_avis": 7.7,
-    "note_recence": 9.8,
-    "note_globale": 8.8,
+    "note_recence": 9.7,
+    "note_globale": 8.7,
     "etoiles": 5,
     "categories": [
       "scifi_fantastique"
@@ -22886,7 +24617,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-12-20"
   },
   {
     "id": "jw-tm332885",
@@ -22907,9 +24640,9 @@ const CATALOG_DATA = [
     "duree": "1h 57min",
     "runtime_minutes": 117,
     "note_avis": 6.7,
-    "note_recence": 7.5,
-    "note_globale": 7.1,
-    "etoiles": 4,
+    "note_recence": 6.7,
+    "note_globale": 6.7,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -22922,14 +24655,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/56728607/s592/patries.jpg",
     "synopsis": "Sébastien et ses parents viennent d’emménager en banlieue parisienne. A son arrivée, il essaie de se faire accepter par un groupe de jeunes issus de l’immigration Africaine. Malgré le rejet qu'il subit, une amitié complexe se noue avec Pierre, un jeune Camerounais en quête d’identité.",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "aoc": "2027-03-31"
+      }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2015,
+    "date_ajout": "2022-03-07"
   },
   {
     "id": "jw-tm1623907",
@@ -22950,7 +24687,7 @@ const CATALOG_DATA = [
     "duree": "1h 37min",
     "runtime_minutes": 97,
     "note_avis": 6.2,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8,
     "etoiles": 5,
     "categories": [
@@ -22975,7 +24712,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2026-01-21"
   },
   {
     "id": "jw-tm1510090",
@@ -22996,8 +24735,8 @@ const CATALOG_DATA = [
     "duree": "1h 12min",
     "runtime_minutes": 72,
     "note_avis": 5.9,
-    "note_recence": 9.8,
-    "note_globale": 7.9,
+    "note_recence": 9.7,
+    "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -23020,7 +24759,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-10-01"
   },
   {
     "id": "jw-tm211939",
@@ -23089,9 +24830,9 @@ const CATALOG_DATA = [
     "duree": "50 min/ép.",
     "runtime_minutes": 50,
     "note_avis": 7.3,
-    "note_recence": 8.6,
-    "note_globale": 8,
-    "etoiles": 5,
+    "note_recence": 8.5,
+    "note_globale": 7.9,
+    "etoiles": 4,
     "categories": [
       "drame_emotion"
     ],
@@ -23110,7 +24851,22 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2022,
+    "annee_moyenne": 2021,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2020,
+        "note": 7.3
+      },
+      {
+        "saison": 2,
+        "annee": 2022,
+        "note": 7.3
+      }
+    ],
+    "date_ajout": "2020-11-03"
   },
   {
     "id": "jw-tm167266",
@@ -23131,9 +24887,9 @@ const CATALOG_DATA = [
     "duree": "1h 45min",
     "runtime_minutes": 105,
     "note_avis": 6.9,
-    "note_recence": 7.2,
-    "note_globale": 7.1,
-    "etoiles": 4,
+    "note_recence": 6.4,
+    "note_globale": 6.7,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -23156,7 +24912,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2014,
+    "date_ajout": "2014-03-06"
   },
   {
     "id": "jw-tm885805",
@@ -23180,8 +24938,8 @@ const CATALOG_DATA = [
     "duree": "1h 37min",
     "runtime_minutes": 97,
     "note_avis": 5.8,
-    "note_recence": 8.6,
-    "note_globale": 7.2,
+    "note_recence": 8.2,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "action_aventure"
@@ -23206,7 +24964,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2020-10-16"
   },
   {
     "id": "jw-tm458279",
@@ -23227,8 +24987,8 @@ const CATALOG_DATA = [
     "duree": "1h 51min",
     "runtime_minutes": 111,
     "note_avis": 6.3,
-    "note_recence": 8.6,
-    "note_globale": 7.5,
+    "note_recence": 8.2,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -23250,7 +25010,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2020-03-11"
   },
   {
     "id": "jw-tm814977",
@@ -23271,8 +25033,8 @@ const CATALOG_DATA = [
     "duree": "1h 39min",
     "runtime_minutes": 99,
     "note_avis": 6,
-    "note_recence": 8.6,
-    "note_globale": 7.3,
+    "note_recence": 8.2,
+    "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -23297,7 +25059,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2020-10-14"
   },
   {
     "id": "jw-tm344336",
@@ -23318,9 +25082,9 @@ const CATALOG_DATA = [
     "duree": "1h 44min",
     "runtime_minutes": 104,
     "note_avis": 6.2,
-    "note_recence": 8.2,
-    "note_globale": 7.2,
-    "etoiles": 4,
+    "note_recence": 7.6,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "action_aventure"
     ],
@@ -23343,7 +25107,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-01-03"
   },
   {
     "id": "jw-tm322303",
@@ -23364,9 +25130,9 @@ const CATALOG_DATA = [
     "duree": "1h 45min",
     "runtime_minutes": 105,
     "note_avis": 5.8,
-    "note_recence": 8.4,
-    "note_globale": 7.1,
-    "etoiles": 4,
+    "note_recence": 7.9,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "thriller_policier"
     ],
@@ -23389,7 +25155,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-06-20"
   },
   {
     "id": "jw-ts272563",
@@ -23432,7 +25200,22 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2023,
+    "annee_moyenne": 2023,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2022,
+        "note": 7.6
+      },
+      {
+        "saison": 2,
+        "annee": 2023,
+        "note": 7.6
+      }
+    ],
+    "date_ajout": "2024-07-03"
   },
   {
     "id": "jw-tm161266",
@@ -23453,8 +25236,8 @@ const CATALOG_DATA = [
     "duree": "1h 44min",
     "runtime_minutes": 104,
     "note_avis": 6.1,
-    "note_recence": 7.2,
-    "note_globale": 6.7,
+    "note_recence": 6.4,
+    "note_globale": 6.3,
     "etoiles": 3,
     "categories": [
       "comedie"
@@ -23475,7 +25258,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2014,
+    "date_ajout": "2014-10-08"
   },
   {
     "id": "jw-tm238664",
@@ -23542,8 +25327,8 @@ const CATALOG_DATA = [
     "duree": "1h 41min",
     "runtime_minutes": 101,
     "note_avis": 6.1,
-    "note_recence": 7.7,
-    "note_globale": 6.9,
+    "note_recence": 7,
+    "note_globale": 6.6,
     "etoiles": 3,
     "categories": [
       "comedie"
@@ -23567,7 +25352,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2016-03-09"
   },
   {
     "id": "jw-ts462941",
@@ -23588,8 +25375,8 @@ const CATALOG_DATA = [
     "duree": "46 min/ép.",
     "runtime_minutes": 46,
     "note_avis": 6.3,
-    "note_recence": 9.8,
-    "note_globale": 8.1,
+    "note_recence": 9.7,
+    "note_globale": 8,
     "etoiles": 5,
     "categories": [
       "thriller_policier"
@@ -23614,7 +25401,16 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2025,
+        "note": 6.3
+      }
+    ],
+    "date_ajout": "2026-02-15"
   },
   {
     "id": "jw-tm1594094",
@@ -23635,8 +25431,8 @@ const CATALOG_DATA = [
     "duree": "1h 49min",
     "runtime_minutes": 109,
     "note_avis": 6.7,
-    "note_recence": 9.8,
-    "note_globale": 8.3,
+    "note_recence": 9.7,
+    "note_globale": 8.2,
     "etoiles": 5,
     "categories": [
       "comedie"
@@ -23659,7 +25455,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-10-20"
   },
   {
     "id": "jw-ts81283",
@@ -23680,9 +25478,9 @@ const CATALOG_DATA = [
     "duree": "23 min/ép.",
     "runtime_minutes": 23,
     "note_avis": 6.1,
-    "note_recence": 8.2,
-    "note_globale": 7.2,
-    "etoiles": 4,
+    "note_recence": 7.6,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -23702,7 +25500,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2018,
+        "note": 6.1
+      }
+    ],
+    "date_ajout": "2026-05-29"
   },
   {
     "id": "jw-tm1222840",
@@ -23723,7 +25530,7 @@ const CATALOG_DATA = [
     "duree": "1h 52min",
     "runtime_minutes": 112,
     "note_avis": 5.3,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
@@ -23748,7 +25555,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2024,
+    "date_ajout": "2023-09-20"
   },
   {
     "id": "jw-tm406111",
@@ -23769,9 +25578,9 @@ const CATALOG_DATA = [
     "duree": "1h 35min",
     "runtime_minutes": 95,
     "note_avis": 5.9,
-    "note_recence": 8.2,
-    "note_globale": 7.1,
-    "etoiles": 4,
+    "note_recence": 7.6,
+    "note_globale": 6.8,
+    "etoiles": 3,
     "categories": [
       "action_aventure"
     ],
@@ -23793,7 +25602,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2018,
+    "date_ajout": "2020-10-15"
   },
   {
     "id": "jw-tm1513413",
@@ -23814,7 +25625,7 @@ const CATALOG_DATA = [
     "duree": "1h 48min",
     "runtime_minutes": 108,
     "note_avis": 6.2,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8,
     "etoiles": 5,
     "categories": [
@@ -23837,7 +25648,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-04-20"
   },
   {
     "id": "jw-tm324533",
@@ -23858,8 +25671,8 @@ const CATALOG_DATA = [
     "duree": "1h 49min",
     "runtime_minutes": 109,
     "note_avis": 5.2,
-    "note_recence": 7.9,
-    "note_globale": 6.6,
+    "note_recence": 7.3,
+    "note_globale": 6.3,
     "etoiles": 3,
     "categories": [
       "scifi_fantastique"
@@ -23883,7 +25696,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2017,
+    "date_ajout": "2019-08-21"
   },
   {
     "id": "jw-tm863627",
@@ -23904,9 +25719,9 @@ const CATALOG_DATA = [
     "duree": "1h 27min",
     "runtime_minutes": 87,
     "note_avis": 5.3,
-    "note_recence": 8.6,
-    "note_globale": 7,
-    "etoiles": 4,
+    "note_recence": 8.2,
+    "note_globale": 6.8,
+    "etoiles": 3,
     "categories": [
       "thriller_policier"
     ],
@@ -23918,14 +25733,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/172577931/s592/the-silent-party.jpg",
     "synopsis": "La veille de son mariage, Laura décide d'organiser une petite fête. Le lendemain, après l'abus dont elle a été victime au cours de la nuit, elle cherche à se venger. Mais son père et son futur mari ne l'entendent pas de cette oreille...",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "aoc": "2027-03-31"
+      }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2023-08-22"
   },
   {
     "id": "jw-tm1350010",
@@ -23946,8 +25765,8 @@ const CATALOG_DATA = [
     "duree": "1h 20min",
     "runtime_minutes": 80,
     "note_avis": 6.7,
-    "note_recence": 9.8,
-    "note_globale": 8.3,
+    "note_recence": 9.7,
+    "note_globale": 8.2,
     "etoiles": 5,
     "categories": [
       "animation_famille"
@@ -23972,7 +25791,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2026-03-17"
   },
   {
     "id": "jw-tm1514072",
@@ -23993,7 +25814,7 @@ const CATALOG_DATA = [
     "duree": "1h 52min",
     "runtime_minutes": 112,
     "note_avis": 6.2,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8,
     "etoiles": 5,
     "categories": [
@@ -24017,7 +25838,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-02-05"
   },
   {
     "id": "jw-tm1666078",
@@ -24038,9 +25861,9 @@ const CATALOG_DATA = [
     "duree": "1h 24min",
     "runtime_minutes": 84,
     "note_avis": 6.1,
-    "note_recence": 9.8,
-    "note_globale": 8,
-    "etoiles": 5,
+    "note_recence": 9.7,
+    "note_globale": 7.9,
+    "etoiles": 4,
     "categories": [
       "thriller_policier"
     ],
@@ -24060,7 +25883,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-10-03"
   },
   {
     "id": "jw-tm1482961",
@@ -24081,7 +25906,7 @@ const CATALOG_DATA = [
     "duree": "1h 31min",
     "runtime_minutes": 91,
     "note_avis": 6,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.9,
     "etoiles": 4,
     "categories": [
@@ -24109,7 +25934,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-01-29"
   },
   {
     "id": "jw-tm48494",
@@ -24176,9 +26003,9 @@ const CATALOG_DATA = [
     "duree": "2h 26min",
     "runtime_minutes": 146,
     "note_avis": 6.1,
-    "note_recence": 8.2,
-    "note_globale": 7.2,
-    "etoiles": 4,
+    "note_recence": 7.6,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "comedie"
     ],
@@ -24192,14 +26019,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/300564851/s592/jeunesse-aux-coeurs-ardents.jpg",
     "synopsis": "David, 20 ans, habite chez ses parents ; brillants dans ses études et promu à une belle carrière, il accompagne pourtant ses amis, désabusés, dans leurs braquages. Un jour, une de leur victime s’avère être un ancien militaire ayant vécu la guerre d’Indochine : Henri, dit le « Capitaine », qui à 90 ans continue de se battre pour l’honneur et la mémoire des anciens soldats. Fasciné et admiratif, David se rapproche peu à peu du vieil homme : de leur amitié naîtra sa nouvelle vocation…",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "aoc": "2027-03-31"
+      }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2022-03-13"
   },
   {
     "id": "jw-tm228888",
@@ -24220,8 +26051,8 @@ const CATALOG_DATA = [
     "duree": "1h 36min",
     "runtime_minutes": 96,
     "note_avis": 5.8,
-    "note_recence": 7.7,
-    "note_globale": 6.8,
+    "note_recence": 7,
+    "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
       "thriller_policier"
@@ -24243,7 +26074,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2016,
+    "date_ajout": "2018-08-14"
   },
   {
     "id": "jw-tm1537373",
@@ -24264,8 +26097,8 @@ const CATALOG_DATA = [
     "duree": "52min",
     "runtime_minutes": 52,
     "note_avis": 7.2,
-    "note_recence": 9.5,
-    "note_globale": 8.4,
+    "note_recence": 9.4,
+    "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -24285,7 +26118,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-04-27"
   },
   {
     "id": "jw-tm365481",
@@ -24306,9 +26141,9 @@ const CATALOG_DATA = [
     "duree": "1h 43min",
     "runtime_minutes": 103,
     "note_avis": 5.9,
-    "note_recence": 8.2,
-    "note_globale": 7.1,
-    "etoiles": 4,
+    "note_recence": 7.6,
+    "note_globale": 6.8,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -24331,7 +26166,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-09-26"
   },
   {
     "id": "jw-tm1435546",
@@ -24352,7 +26189,7 @@ const CATALOG_DATA = [
     "duree": "1h 32min",
     "runtime_minutes": 92,
     "note_avis": 4.1,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 6.8,
     "etoiles": 3,
     "categories": [
@@ -24375,7 +26212,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-10-03"
   },
   {
     "id": "jw-tm1432754",
@@ -24396,8 +26235,8 @@ const CATALOG_DATA = [
     "duree": "1h 51min",
     "runtime_minutes": 111,
     "note_avis": 7.2,
-    "note_recence": 9.5,
-    "note_globale": 8.4,
+    "note_recence": 9.4,
+    "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -24421,7 +26260,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-07-02"
   },
   {
     "id": "jw-tm1528655",
@@ -24442,7 +26283,7 @@ const CATALOG_DATA = [
     "duree": "1h 31min",
     "runtime_minutes": 91,
     "note_avis": 6.2,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8,
     "etoiles": 5,
     "categories": [
@@ -24466,7 +26307,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-06-30"
   },
   {
     "id": "jw-tm814064",
@@ -24487,8 +26330,8 @@ const CATALOG_DATA = [
     "duree": "1h 22min",
     "runtime_minutes": 82,
     "note_avis": 6,
-    "note_recence": 8.6,
-    "note_globale": 7.3,
+    "note_recence": 8.2,
+    "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -24509,7 +26352,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2021-09-28"
   },
   {
     "id": "jw-tm145726",
@@ -24530,8 +26375,8 @@ const CATALOG_DATA = [
     "duree": "1h 34min",
     "runtime_minutes": 94,
     "note_avis": 6.2,
-    "note_recence": 7.2,
-    "note_globale": 6.7,
+    "note_recence": 6.4,
+    "note_globale": 6.3,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -24553,7 +26398,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2014,
+    "date_ajout": "2015-06-24"
   },
   {
     "id": "jw-ts289938",
@@ -24574,8 +26421,8 @@ const CATALOG_DATA = [
     "duree": "54 min/ép.",
     "runtime_minutes": 54,
     "note_avis": 6.8,
-    "note_recence": 9.5,
-    "note_globale": 8.2,
+    "note_recence": 9.4,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "thriller_policier"
@@ -24597,7 +26444,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2024,
+        "note": 6.8
+      }
+    ],
+    "date_ajout": "2026-07-02"
   },
   {
     "id": "jw-ts3799",
@@ -24618,8 +26474,8 @@ const CATALOG_DATA = [
     "duree": "23 min/ép.",
     "runtime_minutes": 23,
     "note_avis": 7.2,
-    "note_recence": 7.2,
-    "note_globale": 7.2,
+    "note_recence": 6.7,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -24643,7 +26499,22 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2016,
+    "annee_moyenne": 2015,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2014,
+        "note": 7.2
+      },
+      {
+        "saison": 3,
+        "annee": 2016,
+        "note": 7.2
+      }
+    ],
+    "date_ajout": "2019-05-01"
   },
   {
     "id": "jw-tm77612",
@@ -24711,9 +26582,9 @@ const CATALOG_DATA = [
     "duree": "24 min/ép.",
     "runtime_minutes": 24,
     "note_avis": 5.2,
-    "note_recence": 8.8,
-    "note_globale": 7,
-    "etoiles": 4,
+    "note_recence": 8.5,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "animation_famille"
     ],
@@ -24737,7 +26608,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2021,
+        "note": 5.2
+      }
+    ],
+    "date_ajout": "2026-07-06"
   },
   {
     "id": "jw-tm1525929",
@@ -24758,8 +26638,8 @@ const CATALOG_DATA = [
     "duree": "1h 37min",
     "runtime_minutes": 97,
     "note_avis": 6,
-    "note_recence": 9.5,
-    "note_globale": 7.8,
+    "note_recence": 9.4,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -24784,7 +26664,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-12-11"
   },
   {
     "id": "jw-tm1629068",
@@ -24805,7 +26687,7 @@ const CATALOG_DATA = [
     "duree": "1h 49min",
     "runtime_minutes": 109,
     "note_avis": 6.8,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
@@ -24830,7 +26712,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-12-17"
   },
   {
     "id": "jw-tm1491172",
@@ -24851,9 +26735,9 @@ const CATALOG_DATA = [
     "duree": "2h 06min",
     "runtime_minutes": 126,
     "note_avis": 6.4,
-    "note_recence": 9.5,
-    "note_globale": 8,
-    "etoiles": 5,
+    "note_recence": 9.4,
+    "note_globale": 7.9,
+    "etoiles": 4,
     "categories": [
       "action_aventure"
     ],
@@ -24876,7 +26760,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2026-01-05"
   },
   {
     "id": "jw-tm1475619",
@@ -24897,7 +26783,7 @@ const CATALOG_DATA = [
     "duree": "1h 28min",
     "runtime_minutes": 88,
     "note_avis": 4.5,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7,
     "etoiles": 4,
     "categories": [
@@ -24921,7 +26807,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-10-30"
   },
   {
     "id": "jw-tm1629245",
@@ -24942,7 +26830,7 @@ const CATALOG_DATA = [
     "duree": "1h 50min",
     "runtime_minutes": 110,
     "note_avis": 6.2,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8,
     "etoiles": 5,
     "categories": [
@@ -24967,7 +26855,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2026-04-01"
   },
   {
     "id": "jw-tm185900",
@@ -24988,8 +26878,8 @@ const CATALOG_DATA = [
     "duree": "1h 47min",
     "runtime_minutes": 107,
     "note_avis": 6,
-    "note_recence": 7,
-    "note_globale": 6.5,
+    "note_recence": 6.1,
+    "note_globale": 6.1,
     "etoiles": 3,
     "categories": [
       "comedie"
@@ -25013,7 +26903,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2013,
+    "date_ajout": "2013-07-10"
   },
   {
     "id": "jw-tm1510902",
@@ -25034,7 +26926,7 @@ const CATALOG_DATA = [
     "duree": "1h 29min",
     "runtime_minutes": 89,
     "note_avis": 6.2,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8,
     "etoiles": 5,
     "categories": [
@@ -25058,7 +26950,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-08-04"
   },
   {
     "id": "jw-tm1087522",
@@ -25079,9 +26973,9 @@ const CATALOG_DATA = [
     "duree": "1h 45min",
     "runtime_minutes": 105,
     "note_avis": 4.9,
-    "note_recence": 9.1,
-    "note_globale": 7,
-    "etoiles": 4,
+    "note_recence": 8.8,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "action_aventure"
     ],
@@ -25104,7 +26998,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2023-11-16"
   },
   {
     "id": "jw-ts407627",
@@ -25125,8 +27021,8 @@ const CATALOG_DATA = [
     "duree": "25 min/ép.",
     "runtime_minutes": 25,
     "note_avis": 7.6,
-    "note_recence": 9.8,
-    "note_globale": 8.7,
+    "note_recence": 9.7,
+    "note_globale": 8.6,
     "etoiles": 5,
     "categories": [
       "comedie"
@@ -25146,7 +27042,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2025,
+        "note": 7.6
+      }
+    ],
+    "date_ajout": "2025-01-07"
   },
   {
     "id": "jw-tm432365",
@@ -25167,8 +27072,8 @@ const CATALOG_DATA = [
     "duree": "2h 00min",
     "runtime_minutes": 120,
     "note_avis": 6.8,
-    "note_recence": 8.4,
-    "note_globale": 7.6,
+    "note_recence": 7.9,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -25191,7 +27096,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-10-16"
   },
   {
     "id": "jw-tm1526993",
@@ -25212,9 +27119,9 @@ const CATALOG_DATA = [
     "duree": "1h 55min",
     "runtime_minutes": 115,
     "note_avis": 4.4,
-    "note_recence": 9.5,
-    "note_globale": 7,
-    "etoiles": 4,
+    "note_recence": 9.4,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "action_aventure"
     ],
@@ -25237,7 +27144,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-04-15"
   },
   {
     "id": "jw-tm1623204",
@@ -25258,8 +27167,8 @@ const CATALOG_DATA = [
     "duree": "1h 47min",
     "runtime_minutes": 107,
     "note_avis": 5.7,
-    "note_recence": 9.8,
-    "note_globale": 7.8,
+    "note_recence": 9.7,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -25282,7 +27191,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-10-04"
   },
   {
     "id": "jw-tm153242",
@@ -25350,8 +27261,8 @@ const CATALOG_DATA = [
     "duree": "1h 35min",
     "runtime_minutes": 95,
     "note_avis": 7,
-    "note_recence": 8.8,
-    "note_globale": 7.9,
+    "note_recence": 8.5,
+    "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -25375,7 +27286,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2021-07-21"
   },
   {
     "id": "jw-tm458871",
@@ -25396,8 +27309,8 @@ const CATALOG_DATA = [
     "duree": "1h 17min",
     "runtime_minutes": 77,
     "note_avis": 5.1,
-    "note_recence": 8.2,
-    "note_globale": 6.7,
+    "note_recence": 7.6,
+    "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -25420,7 +27333,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2021-03-15"
   },
   {
     "id": "jw-tm225275",
@@ -25483,9 +27398,9 @@ const CATALOG_DATA = [
     "duree": "1h 34min",
     "runtime_minutes": 94,
     "note_avis": 5.8,
-    "note_recence": 8.4,
-    "note_globale": 7.1,
-    "etoiles": 4,
+    "note_recence": 7.9,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -25506,7 +27421,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2022-07-02"
   },
   {
     "id": "jw-tm1321699",
@@ -25527,8 +27444,8 @@ const CATALOG_DATA = [
     "duree": "58min",
     "runtime_minutes": 58,
     "note_avis": 6.8,
-    "note_recence": 9.3,
-    "note_globale": 8.1,
+    "note_recence": 9.1,
+    "note_globale": 8,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -25548,7 +27465,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2026-07-15"
   },
   {
     "id": "jw-tm140856",
@@ -25569,9 +27488,9 @@ const CATALOG_DATA = [
     "duree": "1h 22min",
     "runtime_minutes": 82,
     "note_avis": 7.4,
-    "note_recence": 7,
-    "note_globale": 7.2,
-    "etoiles": 4,
+    "note_recence": 6.1,
+    "note_globale": 6.8,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -25593,7 +27512,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2013,
+    "date_ajout": "2014-02-12"
   },
   {
     "id": "jw-tm244913",
@@ -25614,8 +27535,8 @@ const CATALOG_DATA = [
     "duree": "2h 05min",
     "runtime_minutes": 125,
     "note_avis": 7.7,
-    "note_recence": 7.7,
-    "note_globale": 7.7,
+    "note_recence": 7,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -25638,7 +27559,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2016-11-09"
   },
   {
     "id": "jw-tm316916",
@@ -25659,8 +27582,8 @@ const CATALOG_DATA = [
     "duree": "2h 20min",
     "runtime_minutes": 140,
     "note_avis": 5.1,
-    "note_recence": 7.7,
-    "note_globale": 6.4,
+    "note_recence": 7,
+    "note_globale": 6.1,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -25674,14 +27597,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/321271773/s592/la-chute-des-hommes.jpg",
     "synopsis": "Lucie, jeune femme passionnée de parfumerie, part pour un voyage d’études au Moyen-Orient. Son tragique destin croise celui de Younes, chauffeur de taxi sans le sou qui la livrera aux mains de ravisseurs islamistes, ainsi que celui d’Abou, djihadiste lui aussi originaire de France...",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "aoc": "2027-03-31"
+      }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2022-03-07"
   },
   {
     "id": "jw-tm431526",
@@ -25702,8 +27629,8 @@ const CATALOG_DATA = [
     "duree": "1h 25min",
     "runtime_minutes": 85,
     "note_avis": 6.5,
-    "note_recence": 8.4,
-    "note_globale": 7.5,
+    "note_recence": 7.9,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -25727,7 +27654,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-12-25"
   },
   {
     "id": "jw-tm1395822",
@@ -25748,7 +27677,7 @@ const CATALOG_DATA = [
     "duree": "1h 28min",
     "runtime_minutes": 88,
     "note_avis": 5.9,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
@@ -25773,7 +27702,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-01-24"
   },
   {
     "id": "jw-tm140531",
@@ -25794,8 +27725,8 @@ const CATALOG_DATA = [
     "duree": "1h 40min",
     "runtime_minutes": 100,
     "note_avis": 7.4,
-    "note_recence": 6.1,
-    "note_globale": 6.8,
+    "note_recence": 4.9,
+    "note_globale": 6.2,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -25818,7 +27749,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2009,
+    "date_ajout": "2009-12-03"
   },
   {
     "id": "jw-tm1011252",
@@ -25839,9 +27772,9 @@ const CATALOG_DATA = [
     "duree": "1h 52min",
     "runtime_minutes": 112,
     "note_avis": 7.1,
-    "note_recence": 8.8,
-    "note_globale": 8,
-    "etoiles": 5,
+    "note_recence": 8.5,
+    "note_globale": 7.8,
+    "etoiles": 4,
     "categories": [
       "thriller_policier"
     ],
@@ -25864,7 +27797,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2022-05-11"
   },
   {
     "id": "jw-tm1291419",
@@ -25885,8 +27820,8 @@ const CATALOG_DATA = [
     "duree": "1h 45min",
     "runtime_minutes": 105,
     "note_avis": 5.2,
-    "note_recence": 9.3,
-    "note_globale": 7.3,
+    "note_recence": 9.1,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "horreur_epouvante"
@@ -25907,7 +27842,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2023,
+    "date_ajout": "2024-10-03"
   },
   {
     "id": "jw-tm1261809",
@@ -25928,8 +27865,8 @@ const CATALOG_DATA = [
     "duree": "2h 00min",
     "runtime_minutes": 120,
     "note_avis": 7,
-    "note_recence": 9.3,
-    "note_globale": 8.2,
+    "note_recence": 9.1,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -25952,7 +27889,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2026-02-12"
   },
   {
     "id": "jw-tm1553496",
@@ -25973,8 +27912,8 @@ const CATALOG_DATA = [
     "duree": "1h 38min",
     "runtime_minutes": 98,
     "note_avis": 5.4,
-    "note_recence": 9.5,
-    "note_globale": 7.5,
+    "note_recence": 9.4,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -25998,7 +27937,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-12-11"
   },
   {
     "id": "jw-tm1239547",
@@ -26019,8 +27960,8 @@ const CATALOG_DATA = [
     "duree": "1h 51min",
     "runtime_minutes": 111,
     "note_avis": 6.1,
-    "note_recence": 9.3,
-    "note_globale": 7.7,
+    "note_recence": 9.1,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -26041,7 +27982,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-07-05"
   },
   {
     "id": "jw-tm70538",
@@ -26062,8 +28005,8 @@ const CATALOG_DATA = [
     "duree": "1h 49min",
     "runtime_minutes": 109,
     "note_avis": 7,
-    "note_recence": 6.8,
-    "note_globale": 6.9,
+    "note_recence": 5.8,
+    "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
       "comedie"
@@ -26086,7 +28029,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2012,
+    "date_ajout": "2024-04-14"
   },
   {
     "id": "jw-tm1530736",
@@ -26107,8 +28052,8 @@ const CATALOG_DATA = [
     "duree": "1h 34min",
     "runtime_minutes": 94,
     "note_avis": 5.5,
-    "note_recence": 9.8,
-    "note_globale": 7.7,
+    "note_recence": 9.7,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -26132,7 +28077,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-01-08"
   },
   {
     "id": "jw-tm240065",
@@ -26153,9 +28100,9 @@ const CATALOG_DATA = [
     "duree": "1h 41min",
     "runtime_minutes": 101,
     "note_avis": 6.6,
-    "note_recence": 7.7,
-    "note_globale": 7.2,
-    "etoiles": 4,
+    "note_recence": 7,
+    "note_globale": 6.8,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -26177,7 +28124,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2017-04-26"
   },
   {
     "id": "jw-tm283334",
@@ -26198,9 +28147,9 @@ const CATALOG_DATA = [
     "duree": "1h 39min",
     "runtime_minutes": 99,
     "note_avis": 6.4,
-    "note_recence": 7.9,
-    "note_globale": 7.2,
-    "etoiles": 4,
+    "note_recence": 7.3,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -26220,7 +28169,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2018-01-25"
   },
   {
     "id": "jw-tm1629248",
@@ -26264,7 +28215,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2026,
+    "date_ajout": "2026-01-07"
   },
   {
     "id": "jw-tm246532",
@@ -26285,9 +28238,9 @@ const CATALOG_DATA = [
     "duree": "1h 32min",
     "runtime_minutes": 92,
     "note_avis": 6.6,
-    "note_recence": 7.7,
-    "note_globale": 7.2,
-    "etoiles": 4,
+    "note_recence": 7,
+    "note_globale": 6.8,
+    "etoiles": 3,
     "categories": [
       "comedie"
     ],
@@ -26310,7 +28263,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2016-10-19"
   },
   {
     "id": "jw-tm24970",
@@ -26377,9 +28332,9 @@ const CATALOG_DATA = [
     "duree": "1h 10min",
     "runtime_minutes": 70,
     "note_avis": 7.3,
-    "note_recence": 8.6,
-    "note_globale": 8,
-    "etoiles": 5,
+    "note_recence": 8.2,
+    "note_globale": 7.8,
+    "etoiles": 4,
     "categories": [
       "drame_emotion"
     ],
@@ -26400,7 +28355,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2020-10-14"
   },
   {
     "id": "jw-tm83064",
@@ -26466,8 +28423,8 @@ const CATALOG_DATA = [
     "duree": "1h 35min",
     "runtime_minutes": 95,
     "note_avis": 6,
-    "note_recence": 8.4,
-    "note_globale": 7.2,
+    "note_recence": 7.9,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -26489,7 +28446,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2021-06-23"
   },
   {
     "id": "jw-tm1220658",
@@ -26510,8 +28469,8 @@ const CATALOG_DATA = [
     "duree": "1h 36min",
     "runtime_minutes": 96,
     "note_avis": 5.3,
-    "note_recence": 9.1,
-    "note_globale": 7.2,
+    "note_recence": 8.8,
+    "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
       "horreur_epouvante"
@@ -26525,14 +28484,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/302482319/s592/swallowed.jpg",
     "synopsis": "Benjamin s'apprête à déménager à Los Angeles pour tenter de percer dans le monde du porno gay. Avant son départ, Dom, son meilleur ami, lui propose un petit boulot moyennant quelques billets bien utiles pour se lancer dans sa nouvelle carrière. Mais voilà, pour ce travail Benjamin va devoir transgresser quelques règles…",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "aoc": "2027-03-31"
+      }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2023-06-29"
   },
   {
     "id": "jw-tm1507276",
@@ -26553,8 +28516,8 @@ const CATALOG_DATA = [
     "duree": "1h 29min",
     "runtime_minutes": 89,
     "note_avis": 4.2,
-    "note_recence": 9.5,
-    "note_globale": 6.9,
+    "note_recence": 9.4,
+    "note_globale": 6.8,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -26577,7 +28540,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-05-14"
   },
   {
     "id": "jw-ts221469",
@@ -26598,9 +28563,9 @@ const CATALOG_DATA = [
     "duree": "58 min/ép.",
     "runtime_minutes": 58,
     "note_avis": 7.3,
-    "note_recence": 8.6,
-    "note_globale": 8,
-    "etoiles": 5,
+    "note_recence": 8.2,
+    "note_globale": 7.8,
+    "etoiles": 4,
     "categories": [
       "thriller_policier"
     ],
@@ -26622,7 +28587,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2020,
+        "note": 7.3
+      }
+    ],
+    "date_ajout": "2021-03-23"
   },
   {
     "id": "jw-tm49266",
@@ -26643,8 +28617,8 @@ const CATALOG_DATA = [
     "duree": "25min",
     "runtime_minutes": 25,
     "note_avis": 6.9,
-    "note_recence": 6.8,
-    "note_globale": 6.9,
+    "note_recence": 5.8,
+    "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
       "action_aventure"
@@ -26669,7 +28643,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2012,
+    "date_ajout": "2026-09-01"
   },
   {
     "id": "jw-tm132531",
@@ -26734,8 +28710,8 @@ const CATALOG_DATA = [
     "duree": "1h 30min",
     "runtime_minutes": 90,
     "note_avis": 5.1,
-    "note_recence": 7.9,
-    "note_globale": 6.5,
+    "note_recence": 7.3,
+    "note_globale": 6.2,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -26755,7 +28731,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2024-12-03"
   },
   {
     "id": "jw-tm270997",
@@ -26776,9 +28754,9 @@ const CATALOG_DATA = [
     "duree": "1h 32min",
     "runtime_minutes": 92,
     "note_avis": 6.2,
-    "note_recence": 7.9,
-    "note_globale": 7.1,
-    "etoiles": 4,
+    "note_recence": 7.3,
+    "note_globale": 6.8,
+    "etoiles": 3,
     "categories": [
       "horreur_epouvante"
     ],
@@ -26803,7 +28781,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2026-02-05"
   },
   {
     "id": "jw-ts453589",
@@ -26824,8 +28804,8 @@ const CATALOG_DATA = [
     "duree": "45 min/ép.",
     "runtime_minutes": 45,
     "note_avis": 5.7,
-    "note_recence": 9.8,
-    "note_globale": 7.8,
+    "note_recence": 9.7,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -26846,7 +28826,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2025,
+        "note": 5.7
+      }
+    ],
+    "date_ajout": "2025-09-04"
   },
   {
     "id": "jw-tm425649",
@@ -26867,8 +28856,8 @@ const CATALOG_DATA = [
     "duree": "1h 33min",
     "runtime_minutes": 93,
     "note_avis": 7.2,
-    "note_recence": 8.4,
-    "note_globale": 7.8,
+    "note_recence": 7.9,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -26888,7 +28877,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2020-10-15"
   },
   {
     "id": "jw-tm1515293",
@@ -26909,8 +28900,8 @@ const CATALOG_DATA = [
     "duree": "2h 03min",
     "runtime_minutes": 123,
     "note_avis": 6.5,
-    "note_recence": 9.8,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -26932,7 +28923,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-09-03"
   },
   {
     "id": "jw-tm1333218",
@@ -26953,8 +28946,8 @@ const CATALOG_DATA = [
     "duree": "1h 34min",
     "runtime_minutes": 94,
     "note_avis": 6.1,
-    "note_recence": 7.5,
-    "note_globale": 6.8,
+    "note_recence": 6.7,
+    "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
       "thriller_policier"
@@ -26977,7 +28970,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2015,
+    "date_ajout": "2024-09-30"
   },
   {
     "id": "jw-tm863411",
@@ -26998,8 +28993,8 @@ const CATALOG_DATA = [
     "duree": "1h 29min",
     "runtime_minutes": 89,
     "note_avis": 4.4,
-    "note_recence": 9.1,
-    "note_globale": 6.8,
+    "note_recence": 8.8,
+    "note_globale": 6.6,
     "etoiles": 3,
     "categories": [
       "animation_famille"
@@ -27022,7 +29017,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2022,
+    "date_ajout": "2020-04-22"
   },
   {
     "id": "jw-tm1001486",
@@ -27043,8 +29040,8 @@ const CATALOG_DATA = [
     "duree": "1h 40min",
     "runtime_minutes": 100,
     "note_avis": 4.8,
-    "note_recence": 8.4,
-    "note_globale": 6.6,
+    "note_recence": 7.9,
+    "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
       "scifi_fantastique"
@@ -27067,7 +29064,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2019,
+    "date_ajout": "2022-01-26"
   },
   {
     "id": "jw-tm1506824",
@@ -27088,7 +29087,7 @@ const CATALOG_DATA = [
     "duree": "1h 31min",
     "runtime_minutes": 91,
     "note_avis": 6,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.9,
     "etoiles": 4,
     "categories": [
@@ -27111,7 +29110,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-05-07"
   },
   {
     "id": "jw-tm1393841",
@@ -27132,8 +29133,8 @@ const CATALOG_DATA = [
     "duree": "1h 26min",
     "runtime_minutes": 86,
     "note_avis": 5.7,
-    "note_recence": 9.3,
-    "note_globale": 7.5,
+    "note_recence": 9.1,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -27158,7 +29159,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2026-02-25"
   },
   {
     "id": "jw-tm135757",
@@ -27179,8 +29182,8 @@ const CATALOG_DATA = [
     "duree": "1h 33min",
     "runtime_minutes": 93,
     "note_avis": 6,
-    "note_recence": 7.5,
-    "note_globale": 6.8,
+    "note_recence": 6.7,
+    "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
       "animation_famille"
@@ -27206,7 +29209,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2015,
+    "date_ajout": "2015-02-06"
   },
   {
     "id": "jw-tm152862",
@@ -27271,8 +29276,8 @@ const CATALOG_DATA = [
     "duree": "1h 53min",
     "runtime_minutes": 113,
     "note_avis": 6.5,
-    "note_recence": 6.5,
-    "note_globale": 6.5,
+    "note_recence": 5.5,
+    "note_globale": 6,
     "etoiles": 3,
     "categories": [
       "thriller_policier"
@@ -27297,7 +29302,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2011,
+    "date_ajout": "2012-05-02"
   },
   {
     "id": "jw-tm180793",
@@ -27318,8 +29325,8 @@ const CATALOG_DATA = [
     "duree": "1h 42min",
     "runtime_minutes": 102,
     "note_avis": 5.9,
-    "note_recence": 7.2,
-    "note_globale": 6.6,
+    "note_recence": 6.4,
+    "note_globale": 6.2,
     "etoiles": 3,
     "categories": [
       "horreur_epouvante"
@@ -27343,7 +29350,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2014,
+    "date_ajout": "2018-03-01"
   },
   {
     "id": "jw-ts452847",
@@ -27364,8 +29373,8 @@ const CATALOG_DATA = [
     "duree": "41 min/ép.",
     "runtime_minutes": 41,
     "note_avis": 7.5,
-    "note_recence": 9.8,
-    "note_globale": 8.7,
+    "note_recence": 9.7,
+    "note_globale": 8.6,
     "etoiles": 5,
     "categories": [
       "comedie"
@@ -27387,7 +29396,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2025,
+        "note": 7.5
+      }
+    ],
+    "date_ajout": "2025-10-21"
   },
   {
     "id": "jw-ts77852",
@@ -27408,9 +29426,9 @@ const CATALOG_DATA = [
     "duree": "17 min/ép.",
     "runtime_minutes": 17,
     "note_avis": 6,
-    "note_recence": 8.2,
-    "note_globale": 7.1,
-    "etoiles": 4,
+    "note_recence": 7.6,
+    "note_globale": 6.8,
+    "etoiles": 3,
     "categories": [
       "animation_famille"
     ],
@@ -27433,7 +29451,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2018,
+        "note": 6
+      }
+    ],
+    "date_ajout": "2026-03-15"
   },
   {
     "id": "jw-tm614274",
@@ -27454,8 +29481,8 @@ const CATALOG_DATA = [
     "duree": "1h 44min",
     "runtime_minutes": 104,
     "note_avis": 6.2,
-    "note_recence": 9.3,
-    "note_globale": 7.8,
+    "note_recence": 9.1,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -27476,7 +29503,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2024-11-20"
   },
   {
     "id": "jw-tm1515277",
@@ -27497,8 +29526,8 @@ const CATALOG_DATA = [
     "duree": "1h 30min",
     "runtime_minutes": 90,
     "note_avis": 7.1,
-    "note_recence": 9.8,
-    "note_globale": 8.5,
+    "note_recence": 9.7,
+    "note_globale": 8.4,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -27520,7 +29549,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-11-26"
   },
   {
     "id": "jw-tm478828",
@@ -27541,8 +29572,8 @@ const CATALOG_DATA = [
     "duree": "1h 31min",
     "runtime_minutes": 91,
     "note_avis": 5.1,
-    "note_recence": 8.4,
-    "note_globale": 6.8,
+    "note_recence": 7.9,
+    "note_globale": 6.5,
     "etoiles": 3,
     "categories": [
       "thriller_policier"
@@ -27567,7 +29598,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2026-05-02"
   },
   {
     "id": "jw-ts307587",
@@ -27613,7 +29646,22 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2022,
+    "annee_moyenne": 2022,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2021,
+        "note": 6.8
+      },
+      {
+        "saison": 2,
+        "annee": 2022,
+        "note": 6.8
+      }
+    ],
+    "date_ajout": "2023-12-21"
   },
   {
     "id": "jw-tm821959",
@@ -27634,8 +29682,8 @@ const CATALOG_DATA = [
     "duree": "1h 50min",
     "runtime_minutes": 110,
     "note_avis": 5.7,
-    "note_recence": 8.6,
-    "note_globale": 7.2,
+    "note_recence": 8.2,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -27658,7 +29706,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2020-08-26"
   },
   {
     "id": "jw-tm1023757",
@@ -27679,9 +29729,9 @@ const CATALOG_DATA = [
     "duree": "1h 29min",
     "runtime_minutes": 89,
     "note_avis": 5.6,
-    "note_recence": 8.4,
-    "note_globale": 7,
-    "etoiles": 4,
+    "note_recence": 7.9,
+    "note_globale": 6.8,
+    "etoiles": 3,
     "categories": [
       "horreur_epouvante"
     ],
@@ -27703,7 +29753,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2020-04-20"
   },
   {
     "id": "jw-tm1516738",
@@ -27724,8 +29776,8 @@ const CATALOG_DATA = [
     "duree": "1h 35min",
     "runtime_minutes": 95,
     "note_avis": 4.2,
-    "note_recence": 9.5,
-    "note_globale": 6.9,
+    "note_recence": 9.4,
+    "note_globale": 6.8,
     "etoiles": 3,
     "categories": [
       "thriller_policier"
@@ -27750,7 +29802,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-11-20"
   },
   {
     "id": "jw-ts274585",
@@ -27767,13 +29821,13 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "annee": 2021,
+    "annee": 2023,
     "duree": "25 min/ép.",
     "runtime_minutes": 25,
     "note_avis": 6.8,
-    "note_recence": 8.8,
-    "note_globale": 7.8,
-    "etoiles": 4,
+    "note_recence": 9.1,
+    "note_globale": 8,
+    "etoiles": 5,
     "categories": [
       "comedie"
     ],
@@ -27792,7 +29846,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "saisons_disponibles": [
+      {
+        "saison": 2,
+        "annee": 2023,
+        "note": 6.8
+      }
+    ],
+    "date_ajout": "2024-07-03"
   },
   {
     "id": "jw-tm649",
@@ -27856,9 +29919,9 @@ const CATALOG_DATA = [
     "duree": "1h 36min",
     "runtime_minutes": 96,
     "note_avis": 6.3,
-    "note_recence": 7.9,
-    "note_globale": 7.1,
-    "etoiles": 4,
+    "note_recence": 7.3,
+    "note_globale": 6.8,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -27878,7 +29941,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2017-06-21"
   },
   {
     "id": "jw-tm370408",
@@ -27899,8 +29964,8 @@ const CATALOG_DATA = [
     "duree": "1h 30min",
     "runtime_minutes": 90,
     "note_avis": 4.5,
-    "note_recence": 8.2,
-    "note_globale": 6.4,
+    "note_recence": 7.6,
+    "note_globale": 6.1,
     "etoiles": 3,
     "categories": [
       "horreur_epouvante"
@@ -27926,7 +29991,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-06-06"
   },
   {
     "id": "jw-tm931336",
@@ -27947,8 +30014,8 @@ const CATALOG_DATA = [
     "duree": "1h 18min",
     "runtime_minutes": 78,
     "note_avis": 6.7,
-    "note_recence": 8.6,
-    "note_globale": 7.7,
+    "note_recence": 8.2,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -27969,7 +30036,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2022-09-28"
   },
   {
     "id": "jw-tm444031",
@@ -27987,11 +30056,11 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2020,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
+    "duree": "1h 38min",
+    "runtime_minutes": 98,
     "note_avis": 6.3,
-    "note_recence": 8.6,
-    "note_globale": 7.5,
+    "note_recence": 8.2,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -28012,7 +30081,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2020-05-18"
   },
   {
     "id": "jw-tm235391",
@@ -28033,8 +30104,8 @@ const CATALOG_DATA = [
     "duree": "2h 11min",
     "runtime_minutes": 131,
     "note_avis": 5.3,
-    "note_recence": 7.7,
-    "note_globale": 6.5,
+    "note_recence": 7,
+    "note_globale": 6.2,
     "etoiles": 3,
     "categories": [
       "action_aventure"
@@ -28060,7 +30131,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2016,
+    "date_ajout": "2016-12-15"
   },
   {
     "id": "jw-tm375735",
@@ -28081,8 +30154,8 @@ const CATALOG_DATA = [
     "duree": "1h 33min",
     "runtime_minutes": 93,
     "note_avis": 4.9,
-    "note_recence": 8.2,
-    "note_globale": 6.6,
+    "note_recence": 7.6,
+    "note_globale": 6.3,
     "etoiles": 3,
     "categories": [
       "scifi_fantastique"
@@ -28103,7 +30176,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2026-05-05"
   },
   {
     "id": "jw-tm132523",
@@ -28124,9 +30199,9 @@ const CATALOG_DATA = [
     "duree": "1h 29min",
     "runtime_minutes": 89,
     "note_avis": 8,
-    "note_recence": 6.1,
-    "note_globale": 7.1,
-    "etoiles": 4,
+    "note_recence": 4.9,
+    "note_globale": 6.5,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -28147,7 +30222,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2009,
+    "date_ajout": "2009-04-20"
   },
   {
     "id": "jw-ts39018",
@@ -28168,7 +30245,7 @@ const CATALOG_DATA = [
     "duree": "24 min/ép.",
     "runtime_minutes": 24,
     "note_avis": 7.5,
-    "note_recence": 7.7,
+    "note_recence": 7.6,
     "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
@@ -28190,7 +30267,27 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2019,
+    "annee_moyenne": 2018,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2016,
+        "note": 7.5
+      },
+      {
+        "saison": 2,
+        "annee": 2018,
+        "note": 7.5
+      },
+      {
+        "saison": 3,
+        "annee": 2019,
+        "note": 7.5
+      }
+    ],
+    "date_ajout": "2025-08-05"
   },
   {
     "id": "jw-tm373195",
@@ -28211,8 +30308,8 @@ const CATALOG_DATA = [
     "duree": "1h 36min",
     "runtime_minutes": 96,
     "note_avis": 5.2,
-    "note_recence": 8.2,
-    "note_globale": 6.7,
+    "note_recence": 7.6,
+    "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
       "thriller_policier"
@@ -28238,7 +30335,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2024-02-16"
   },
   {
     "id": "jw-ts9260",
@@ -28255,12 +30354,12 @@ const CATALOG_DATA = [
     "package_slugs": [
       "auc"
     ],
-    "annee": 2006,
+    "annee": 2010,
     "duree": "22 min/ép.",
     "runtime_minutes": 22,
     "note_avis": 7.2,
-    "note_recence": 5.4,
-    "note_globale": 6.3,
+    "note_recence": 5.8,
+    "note_globale": 6.5,
     "etoiles": 3,
     "categories": [
       "animation_famille"
@@ -28282,7 +30381,32 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2014,
+    "annee_moyenne": 2012,
+    "saisons_disponibles": [
+      {
+        "saison": 5,
+        "annee": 2010,
+        "note": 7.2
+      },
+      {
+        "saison": 6,
+        "annee": 2011,
+        "note": 7.2
+      },
+      {
+        "saison": 7,
+        "annee": 2012,
+        "note": 7.2
+      },
+      {
+        "saison": 8,
+        "annee": 2014,
+        "note": 7.2
+      }
+    ],
+    "date_ajout": "2024-11-25"
   },
   {
     "id": "jw-ts260128",
@@ -28324,7 +30448,22 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2022,
+    "annee_moyenne": 2022,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2021,
+        "note": 7.6
+      },
+      {
+        "saison": 2,
+        "annee": 2022,
+        "note": 7.6
+      }
+    ],
+    "date_ajout": "2022-06-01"
   },
   {
     "id": "jw-tm1137717",
@@ -28345,8 +30484,8 @@ const CATALOG_DATA = [
     "duree": "47min",
     "runtime_minutes": 47,
     "note_avis": 6.5,
-    "note_recence": 8.4,
-    "note_globale": 7.5,
+    "note_recence": 7.9,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -28368,7 +30507,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2021-12-06"
   },
   {
     "id": "jw-tm1266390",
@@ -28389,8 +30530,8 @@ const CATALOG_DATA = [
     "duree": "1h 48min",
     "runtime_minutes": 108,
     "note_avis": 5.5,
-    "note_recence": 9.3,
-    "note_globale": 7.4,
+    "note_recence": 9.1,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "horreur_epouvante"
@@ -28412,7 +30553,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-07-14"
   },
   {
     "id": "jw-tm1415146",
@@ -28433,8 +30576,8 @@ const CATALOG_DATA = [
     "duree": "1h 50min",
     "runtime_minutes": 110,
     "note_avis": 6.6,
-    "note_recence": 9.5,
-    "note_globale": 8.1,
+    "note_recence": 9.4,
+    "note_globale": 8,
     "etoiles": 5,
     "categories": [
       "animation_famille"
@@ -28460,7 +30603,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-06-19"
   },
   {
     "id": "jw-ts369079",
@@ -28481,8 +30626,8 @@ const CATALOG_DATA = [
     "duree": "24 min/ép.",
     "runtime_minutes": 24,
     "note_avis": 5.5,
-    "note_recence": 9.3,
-    "note_globale": 7.4,
+    "note_recence": 9.1,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -28502,7 +30647,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2023,
+        "note": 5.5
+      }
+    ],
+    "date_ajout": "2024-07-03"
   },
   {
     "id": "jw-tm1402404",
@@ -28523,7 +30677,7 @@ const CATALOG_DATA = [
     "duree": "1h 38min",
     "runtime_minutes": 98,
     "note_avis": 5.7,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
@@ -28550,7 +30704,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2026-09-20"
   },
   {
     "id": "jw-tm318043",
@@ -28571,9 +30727,9 @@ const CATALOG_DATA = [
     "duree": "1h 33min",
     "runtime_minutes": 93,
     "note_avis": 6.1,
-    "note_recence": 7.9,
-    "note_globale": 7,
-    "etoiles": 4,
+    "note_recence": 7.3,
+    "note_globale": 6.7,
+    "etoiles": 3,
     "categories": [
       "thriller_policier"
     ],
@@ -28596,7 +30752,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2017-10-31"
   },
   {
     "id": "jw-tm358770",
@@ -28617,8 +30775,8 @@ const CATALOG_DATA = [
     "duree": "1h 35min",
     "runtime_minutes": 95,
     "note_avis": 5.3,
-    "note_recence": 8.4,
-    "note_globale": 6.9,
+    "note_recence": 7.9,
+    "note_globale": 6.6,
     "etoiles": 3,
     "categories": [
       "horreur_epouvante"
@@ -28642,7 +30800,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-10-25"
   },
   {
     "id": "jw-tm1541317",
@@ -28663,7 +30823,7 @@ const CATALOG_DATA = [
     "duree": "1h 47min",
     "runtime_minutes": 107,
     "note_avis": 5.6,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
@@ -28687,7 +30847,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-06-04"
   },
   {
     "id": "jw-tm185697",
@@ -28753,9 +30915,9 @@ const CATALOG_DATA = [
     "duree": "1h 59min",
     "runtime_minutes": 119,
     "note_avis": 7.9,
-    "note_recence": 6.1,
-    "note_globale": 7,
-    "etoiles": 4,
+    "note_recence": 4.9,
+    "note_globale": 6.4,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -28776,7 +30938,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2009,
+    "date_ajout": "2012-02-15"
   },
   {
     "id": "jw-tm1046026",
@@ -28797,8 +30961,8 @@ const CATALOG_DATA = [
     "duree": "1h 53min",
     "runtime_minutes": 113,
     "note_avis": 6.9,
-    "note_recence": 8.8,
-    "note_globale": 7.9,
+    "note_recence": 8.5,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "horreur_epouvante"
@@ -28821,7 +30985,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2021-07-30"
   },
   {
     "id": "jw-tm1198263",
@@ -28842,8 +31008,8 @@ const CATALOG_DATA = [
     "duree": "1h 41min",
     "runtime_minutes": 101,
     "note_avis": 5.9,
-    "note_recence": 9.1,
-    "note_globale": 7.5,
+    "note_recence": 8.8,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -28858,14 +31024,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/302182118/s592/blaze-2024.jpg",
     "synopsis": "Blaze, une jeune fille de 12 ans, est témoin d’une violente agression qui la traumatise. Elle se réfugie alors dans son monde imaginaire. Son père, qui l’élève seul, essaie tant bien que mal de l’aider à à affronter sa tristesse et sa colère.",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "aoc": "2027-03-31"
+      }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2026-04-20"
   },
   {
     "id": "jw-tm1307188",
@@ -28886,8 +31056,8 @@ const CATALOG_DATA = [
     "duree": "1h 30min",
     "runtime_minutes": 90,
     "note_avis": 6,
-    "note_recence": 9.3,
-    "note_globale": 7.7,
+    "note_recence": 9.1,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -28911,7 +31081,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-03-22"
   },
   {
     "id": "jw-tm1239395",
@@ -28932,8 +31104,8 @@ const CATALOG_DATA = [
     "duree": "1h 55min",
     "runtime_minutes": 115,
     "note_avis": 6.8,
-    "note_recence": 9.3,
-    "note_globale": 8.1,
+    "note_recence": 9.1,
+    "note_globale": 8,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -28956,7 +31128,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2024-07-15"
   },
   {
     "id": "jw-tm182393",
@@ -29021,8 +31195,8 @@ const CATALOG_DATA = [
     "duree": "1h 35min",
     "runtime_minutes": 95,
     "note_avis": 6.4,
-    "note_recence": 8.4,
-    "note_globale": 7.4,
+    "note_recence": 7.9,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -29040,14 +31214,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/303195377/s592/drakulics-elvtars.jpg",
     "synopsis": "Les vampires sont parmi nous ! Mais pas d'inquiétude, la police secrète hongroise les pourchasse, et au-delà des gadgets d'espion habituels, ils vont jusqu'à utiliser de l'ail pour les repousser.",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "aoc": "2027-03-31"
+      }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2026-04-20"
   },
   {
     "id": "jw-tm434917",
@@ -29068,8 +31246,8 @@ const CATALOG_DATA = [
     "duree": "1h 22min",
     "runtime_minutes": 82,
     "note_avis": 7,
-    "note_recence": 8.2,
-    "note_globale": 7.6,
+    "note_recence": 7.6,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -29091,7 +31269,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-10-16"
   },
   {
     "id": "jw-tm493756",
@@ -29112,9 +31292,9 @@ const CATALOG_DATA = [
     "duree": "51min",
     "runtime_minutes": 51,
     "note_avis": 6,
-    "note_recence": 8.2,
-    "note_globale": 7.1,
-    "etoiles": 4,
+    "note_recence": 7.6,
+    "note_globale": 6.8,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -29135,7 +31315,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2018,
+    "date_ajout": "2025-04-06"
   },
   {
     "id": "jw-ts359832",
@@ -29152,12 +31334,12 @@ const CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "annee": 2022,
+    "annee": 2024,
     "duree": "22 min/ép.",
     "runtime_minutes": 22,
     "note_avis": 6.8,
-    "note_recence": 9.1,
-    "note_globale": 8,
+    "note_recence": 9.4,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "comedie"
@@ -29178,7 +31360,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 2,
+        "annee": 2024,
+        "note": 6.8
+      }
+    ],
+    "date_ajout": "2024-08-25"
   },
   {
     "id": "jw-tm464646",
@@ -29199,8 +31390,8 @@ const CATALOG_DATA = [
     "duree": "1h 24min",
     "runtime_minutes": 84,
     "note_avis": 7,
-    "note_recence": 8.4,
-    "note_globale": 7.7,
+    "note_recence": 7.9,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -29213,14 +31404,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/245619639/s592/aurora-teagarden-12-drame-en-coulisses.jpg",
     "synopsis": "Aurora Teagarden est invitée avec ses proches à participer à une conférence sur les faits divers criminels. Une fois sur place, l'organisatrice Linda Bennett leur propose de participer à la pièce de théâtre qui se jour pour l'évènement. Lors de la représentation, une coupure de courant plonge la salle dans le noir. Lorsque la lumière se rallume, la comédienne principale est retrouvée morte sur scène et Phillip, le cousin d'Aurora, tient l'arme du crime dans la main...",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "auc": "2027-03-31"
+      }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2024-05-07"
   },
   {
     "id": "jw-tm153030",
@@ -29332,9 +31527,9 @@ const CATALOG_DATA = [
     "duree": "1h 42min",
     "runtime_minutes": 102,
     "note_avis": 7.2,
-    "note_recence": 7,
-    "note_globale": 7.1,
-    "etoiles": 4,
+    "note_recence": 6.1,
+    "note_globale": 6.7,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -29354,7 +31549,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2013,
+    "date_ajout": "2020-07-15"
   },
   {
     "id": "jw-tm1285941",
@@ -29375,8 +31572,8 @@ const CATALOG_DATA = [
     "duree": "1h 28min",
     "runtime_minutes": 88,
     "note_avis": 6.3,
-    "note_recence": 9.3,
-    "note_globale": 7.8,
+    "note_recence": 9.1,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -29398,7 +31595,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-08-09"
   },
   {
     "id": "jw-ts24091",
@@ -29419,8 +31618,8 @@ const CATALOG_DATA = [
     "duree": "10 min/ép.",
     "runtime_minutes": 10,
     "note_avis": 7,
-    "note_recence": 6.1,
-    "note_globale": 6.6,
+    "note_recence": 4.9,
+    "note_globale": 6,
     "etoiles": 3,
     "categories": [
       "animation_famille"
@@ -29443,7 +31642,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2009,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2009,
+        "note": 7
+      }
+    ],
+    "date_ajout": "2026-03-21"
   },
   {
     "id": "jw-tm452416",
@@ -29464,8 +31672,8 @@ const CATALOG_DATA = [
     "duree": "1h 55min",
     "runtime_minutes": 115,
     "note_avis": 6.2,
-    "note_recence": 8.4,
-    "note_globale": 7.3,
+    "note_recence": 7.9,
+    "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -29489,7 +31697,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-07-24"
   },
   {
     "id": "jw-tm816479",
@@ -29510,8 +31720,8 @@ const CATALOG_DATA = [
     "duree": "1h 40min",
     "runtime_minutes": 100,
     "note_avis": 5.4,
-    "note_recence": 8.4,
-    "note_globale": 6.9,
+    "note_recence": 7.9,
+    "note_globale": 6.7,
     "etoiles": 3,
     "categories": [
       "thriller_policier"
@@ -29535,7 +31745,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-09-20"
   },
   {
     "id": "jw-tm374579",
@@ -29556,8 +31768,8 @@ const CATALOG_DATA = [
     "duree": "1h 59min",
     "runtime_minutes": 119,
     "note_avis": 7.4,
-    "note_recence": 8.2,
-    "note_globale": 7.8,
+    "note_recence": 7.6,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -29580,7 +31792,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-07-02"
   },
   {
     "id": "jw-tm458404",
@@ -29601,8 +31815,8 @@ const CATALOG_DATA = [
     "duree": "1h 59min",
     "runtime_minutes": 119,
     "note_avis": 7,
-    "note_recence": 8.4,
-    "note_globale": 7.7,
+    "note_recence": 7.9,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -29627,7 +31841,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2021-12-31"
   },
   {
     "id": "jw-ts82372",
@@ -29648,8 +31864,8 @@ const CATALOG_DATA = [
     "duree": "24 min/ép.",
     "runtime_minutes": 24,
     "note_avis": 6.8,
-    "note_recence": 8.2,
-    "note_globale": 7.5,
+    "note_recence": 7.6,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -29674,7 +31890,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2018,
+        "note": 6.8
+      }
+    ],
+    "date_ajout": "2026-03-15"
   },
   {
     "id": "jw-tm1283320",
@@ -29695,8 +31920,8 @@ const CATALOG_DATA = [
     "duree": "1h 43min",
     "runtime_minutes": 103,
     "note_avis": 5.8,
-    "note_recence": 9.3,
-    "note_globale": 7.6,
+    "note_recence": 9.1,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -29719,7 +31944,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-04-26"
   },
   {
     "id": "jw-tm325101",
@@ -29878,8 +32105,8 @@ const CATALOG_DATA = [
     "duree": "1h 33min",
     "runtime_minutes": 93,
     "note_avis": 5.2,
-    "note_recence": 9.3,
-    "note_globale": 7.3,
+    "note_recence": 9.1,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "action_aventure"
@@ -29902,7 +32129,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2023,
+    "date_ajout": "2025-02-12"
   },
   {
     "id": "jw-tm827771",
@@ -29946,7 +32175,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2026,
+    "date_ajout": "2020-05-13"
   },
   {
     "id": "jw-tm230656",
@@ -29967,8 +32198,8 @@ const CATALOG_DATA = [
     "duree": "1h 41min",
     "runtime_minutes": 101,
     "note_avis": 6,
-    "note_recence": 7.7,
-    "note_globale": 6.9,
+    "note_recence": 7,
+    "note_globale": 6.5,
     "etoiles": 3,
     "categories": [
       "comedie"
@@ -29992,7 +32223,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2016-03-02"
   },
   {
     "id": "jw-tm183547",
@@ -30059,8 +32292,8 @@ const CATALOG_DATA = [
     "duree": "1h 48min",
     "runtime_minutes": 108,
     "note_avis": 7.3,
-    "note_recence": 8.4,
-    "note_globale": 7.9,
+    "note_recence": 7.9,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -30081,7 +32314,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-10-15"
   },
   {
     "id": "jw-tm1360059",
@@ -30102,8 +32337,8 @@ const CATALOG_DATA = [
     "duree": "1h 54min",
     "runtime_minutes": 114,
     "note_avis": 7.6,
-    "note_recence": 9.3,
-    "note_globale": 8.5,
+    "note_recence": 9.1,
+    "note_globale": 8.4,
     "etoiles": 5,
     "categories": [
       "animation_famille"
@@ -30125,7 +32360,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2025-01-01"
   },
   {
     "id": "jw-ts321138",
@@ -30146,8 +32383,8 @@ const CATALOG_DATA = [
     "duree": "49 min/ép.",
     "runtime_minutes": 49,
     "note_avis": 6.7,
-    "note_recence": 9.1,
-    "note_globale": 7.9,
+    "note_recence": 8.8,
+    "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -30171,7 +32408,16 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2022,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2022,
+        "note": 6.7
+      }
+    ],
+    "date_ajout": "2026-06-30"
   },
   {
     "id": "jw-tm851116",
@@ -30192,8 +32438,8 @@ const CATALOG_DATA = [
     "duree": "1h 50min",
     "runtime_minutes": 110,
     "note_avis": 6.4,
-    "note_recence": 8.6,
-    "note_globale": 7.5,
+    "note_recence": 8.2,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -30214,7 +32460,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2020-11-12"
   },
   {
     "id": "jw-tm998340",
@@ -30235,8 +32483,8 @@ const CATALOG_DATA = [
     "duree": "1h 24min",
     "runtime_minutes": 84,
     "note_avis": 7,
-    "note_recence": 8.8,
-    "note_globale": 7.9,
+    "note_recence": 8.5,
+    "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -30250,14 +32498,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/249068986/s592/aurora-teagarden-15-tel-est-pris-celui-qui-croyait-prendre.jpg",
     "synopsis": "Une bibliothécaire mène sa propre enquête sur le meurtre d'un client de sa mère agente immobilière.",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "auc": "2027-03-31"
+      }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2024-05-28"
   },
   {
     "id": "jw-tm1324541",
@@ -30278,8 +32530,8 @@ const CATALOG_DATA = [
     "duree": "1h 21min",
     "runtime_minutes": 81,
     "note_avis": 6.3,
-    "note_recence": 9.3,
-    "note_globale": 7.8,
+    "note_recence": 9.1,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -30300,7 +32552,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2024-11-20"
   },
   {
     "id": "jw-tm48301",
@@ -30321,8 +32575,8 @@ const CATALOG_DATA = [
     "duree": "1h 42min",
     "runtime_minutes": 102,
     "note_avis": 7.2,
-    "note_recence": 6.3,
-    "note_globale": 6.8,
+    "note_recence": 5.2,
+    "note_globale": 6.2,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -30344,7 +32598,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2010,
+    "date_ajout": "2026-07-15"
   },
   {
     "id": "jw-tm925617",
@@ -30365,8 +32621,8 @@ const CATALOG_DATA = [
     "duree": "1h 40min",
     "runtime_minutes": 100,
     "note_avis": 6.4,
-    "note_recence": 8.6,
-    "note_globale": 7.5,
+    "note_recence": 8.2,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -30390,7 +32646,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2022-08-17"
   },
   {
     "id": "jw-tm898867",
@@ -30411,8 +32669,8 @@ const CATALOG_DATA = [
     "duree": "1h 41min",
     "runtime_minutes": 101,
     "note_avis": 6.8,
-    "note_recence": 8.8,
-    "note_globale": 7.8,
+    "note_recence": 8.5,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -30434,7 +32692,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2022-09-28"
   },
   {
     "id": "jw-tm158870",
@@ -30455,8 +32715,8 @@ const CATALOG_DATA = [
     "duree": "1h 24min",
     "runtime_minutes": 84,
     "note_avis": 6.6,
-    "note_recence": 7.2,
-    "note_globale": 6.9,
+    "note_recence": 6.4,
+    "note_globale": 6.5,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -30478,7 +32738,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2014,
+    "date_ajout": "2015-12-10"
   },
   {
     "id": "jw-tm226295",
@@ -30499,8 +32761,8 @@ const CATALOG_DATA = [
     "duree": "1h 21min",
     "runtime_minutes": 81,
     "note_avis": 5.9,
-    "note_recence": 7.5,
-    "note_globale": 6.7,
+    "note_recence": 6.7,
+    "note_globale": 6.3,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -30522,7 +32784,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2015,
+    "date_ajout": "2017-08-02"
   },
   {
     "id": "jw-tm305661",
@@ -30543,8 +32807,8 @@ const CATALOG_DATA = [
     "duree": "1h 35min",
     "runtime_minutes": 95,
     "note_avis": 7.4,
-    "note_recence": 7.9,
-    "note_globale": 7.7,
+    "note_recence": 7.3,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -30566,7 +32830,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2018-05-16"
   },
   {
     "id": "jw-tm1261297",
@@ -30587,8 +32853,8 @@ const CATALOG_DATA = [
     "duree": "1h 29min",
     "runtime_minutes": 89,
     "note_avis": 5.6,
-    "note_recence": 9.1,
-    "note_globale": 7.4,
+    "note_recence": 8.8,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -30612,7 +32878,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2026-06-06"
   },
   {
     "id": "jw-tm205870",
@@ -30633,9 +32901,9 @@ const CATALOG_DATA = [
     "duree": "1h 42min",
     "runtime_minutes": 102,
     "note_avis": 6.4,
-    "note_recence": 7.9,
-    "note_globale": 7.2,
-    "etoiles": 4,
+    "note_recence": 7.3,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "thriller_policier"
     ],
@@ -30658,7 +32926,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2017-05-10"
   },
   {
     "id": "jw-tm1031459",
@@ -30679,8 +32949,8 @@ const CATALOG_DATA = [
     "duree": "1h 27min",
     "runtime_minutes": 87,
     "note_avis": 4.7,
-    "note_recence": 8.8,
-    "note_globale": 6.8,
+    "note_recence": 8.5,
+    "note_globale": 6.6,
     "etoiles": 3,
     "categories": [
       "scifi_fantastique"
@@ -30704,7 +32974,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2022-06-30"
   },
   {
     "id": "jw-tm1530993",
@@ -30725,8 +32997,8 @@ const CATALOG_DATA = [
     "duree": "1h 34min",
     "runtime_minutes": 94,
     "note_avis": 5.5,
-    "note_recence": 9.8,
-    "note_globale": 7.7,
+    "note_recence": 9.7,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -30749,7 +33021,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-05-25"
   },
   {
     "id": "jw-tm132192",
@@ -30770,8 +33044,8 @@ const CATALOG_DATA = [
     "duree": "1h 48min",
     "runtime_minutes": 108,
     "note_avis": 7.3,
-    "note_recence": 6.1,
-    "note_globale": 6.7,
+    "note_recence": 4.9,
+    "note_globale": 6.1,
     "etoiles": 3,
     "categories": [
       "comedie"
@@ -30795,7 +33069,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2009,
+    "date_ajout": "2009-12-30"
   },
   {
     "id": "jw-tm1133844",
@@ -30816,8 +33092,8 @@ const CATALOG_DATA = [
     "duree": "1h 22min",
     "runtime_minutes": 82,
     "note_avis": 4.7,
-    "note_recence": 8.8,
-    "note_globale": 6.8,
+    "note_recence": 8.5,
+    "note_globale": 6.6,
     "etoiles": 3,
     "categories": [
       "horreur_epouvante"
@@ -30841,7 +33117,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2024-09-30"
   },
   {
     "id": "jw-tm1080220",
@@ -30862,7 +33140,7 @@ const CATALOG_DATA = [
     "duree": "1h 39min",
     "runtime_minutes": 99,
     "note_avis": 6.1,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
@@ -30887,7 +33165,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-07-07"
   },
   {
     "id": "jw-tm372828",
@@ -30908,9 +33188,9 @@ const CATALOG_DATA = [
     "duree": "1h 24min",
     "runtime_minutes": 84,
     "note_avis": 6.2,
-    "note_recence": 8.2,
-    "note_globale": 7.2,
-    "etoiles": 4,
+    "note_recence": 7.6,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "comedie"
     ],
@@ -30930,7 +33210,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2021-03-15"
   },
   {
     "id": "jw-tm464676",
@@ -30951,8 +33233,8 @@ const CATALOG_DATA = [
     "duree": "1h 24min",
     "runtime_minutes": 84,
     "note_avis": 7,
-    "note_recence": 8.4,
-    "note_globale": 7.7,
+    "note_recence": 7.9,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -30965,14 +33247,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/245622521/s592/aurora-teagarden-11-la-fortune-empoisonnee.jpg",
     "synopsis": "Lors d'un mariage, Aurora Teagarden, bibliothécaire passionnée d'enquêtes policières, et Sally Allison, sa meilleure amie journaliste, découvrent la tante de la mariée morte dans le hall de la salle de cérémonie. Elle a été assassinée et les suspects ne manquent pas. Aurora, aidée par les membres de son club des amateurs de meurtres, mène l'enquête…",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "auc": "2027-03-31"
+      }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2020-04-28"
   },
   {
     "id": "jw-tm849278",
@@ -30993,8 +33279,8 @@ const CATALOG_DATA = [
     "duree": "1h 41min",
     "runtime_minutes": 101,
     "note_avis": 6,
-    "note_recence": 8.6,
-    "note_globale": 7.3,
+    "note_recence": 8.2,
+    "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -31014,7 +33300,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2020-09-24"
   },
   {
     "id": "jw-tm859442",
@@ -31035,8 +33323,8 @@ const CATALOG_DATA = [
     "duree": "1h 25min",
     "runtime_minutes": 85,
     "note_avis": 6.9,
-    "note_recence": 8.6,
-    "note_globale": 7.8,
+    "note_recence": 8.2,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -31059,7 +33347,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2024-05-14"
   },
   {
     "id": "jw-tm878808",
@@ -31080,8 +33370,8 @@ const CATALOG_DATA = [
     "duree": "1h 24min",
     "runtime_minutes": 84,
     "note_avis": 6.9,
-    "note_recence": 8.6,
-    "note_globale": 7.8,
+    "note_recence": 8.2,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -31096,14 +33386,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/245622855/s592/aurora-teagarden-14-quand-le-passe-vous-rattrape.jpg",
     "synopsis": "Un meurtre est commis durant le conventum auquel assistait une bibliothécaire passionnée par les meurtres non résolus. Comme les suspects sont nombreux et qu'il n'y a aucun témoin, cette dernière devra faire preuve de perspicacité pour trouver l'identité de l'assassin.",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "auc": "2027-03-31"
+      }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2024-05-21"
   },
   {
     "id": "jw-tm285059",
@@ -31124,8 +33418,8 @@ const CATALOG_DATA = [
     "duree": "1h 34min",
     "runtime_minutes": 94,
     "note_avis": 5.2,
-    "note_recence": 8.2,
-    "note_globale": 6.7,
+    "note_recence": 7.6,
+    "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
       "horreur_epouvante"
@@ -31150,7 +33444,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-11-08"
   },
   {
     "id": "jw-tm1081615",
@@ -31171,9 +33467,9 @@ const CATALOG_DATA = [
     "duree": "1h 47min",
     "runtime_minutes": 107,
     "note_avis": 7,
-    "note_recence": 9.1,
-    "note_globale": 8.1,
-    "etoiles": 5,
+    "note_recence": 8.8,
+    "note_globale": 7.9,
+    "etoiles": 4,
     "categories": [
       "drame_emotion"
     ],
@@ -31193,7 +33489,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2023-03-29"
   },
   {
     "id": "jw-tm97591",
@@ -31214,8 +33512,8 @@ const CATALOG_DATA = [
     "duree": "1h 19min",
     "runtime_minutes": 79,
     "note_avis": 7,
-    "note_recence": 6.3,
-    "note_globale": 6.7,
+    "note_recence": 5.2,
+    "note_globale": 6.1,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -31236,7 +33534,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2010,
+    "date_ajout": "2010-06-16"
   },
   {
     "id": "jw-tm1331228",
@@ -31257,8 +33557,8 @@ const CATALOG_DATA = [
     "duree": "36min",
     "runtime_minutes": 36,
     "note_avis": 4.9,
-    "note_recence": 9.3,
-    "note_globale": 7.1,
+    "note_recence": 9.1,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "horreur_epouvante"
@@ -31279,7 +33579,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2026-09-06"
   },
   {
     "id": "jw-ts56674",
@@ -31300,8 +33602,8 @@ const CATALOG_DATA = [
     "duree": "23 min/ép.",
     "runtime_minutes": 23,
     "note_avis": 5.8,
-    "note_recence": 7.5,
-    "note_globale": 6.7,
+    "note_recence": 6.7,
+    "note_globale": 6.3,
     "etoiles": 3,
     "categories": [
       "animation_famille"
@@ -31325,7 +33627,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2015,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2015,
+        "note": 5.8
+      }
+    ],
+    "date_ajout": "2019-05-01"
   },
   {
     "id": "jw-tm407694",
@@ -31346,9 +33657,9 @@ const CATALOG_DATA = [
     "duree": "1h 40min",
     "runtime_minutes": 100,
     "note_avis": 5.9,
-    "note_recence": 8.4,
-    "note_globale": 7.2,
-    "etoiles": 4,
+    "note_recence": 7.9,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -31369,7 +33680,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-10-18"
   },
   {
     "id": "jw-tm1272023",
@@ -31390,8 +33703,8 @@ const CATALOG_DATA = [
     "duree": "1h 34min",
     "runtime_minutes": 94,
     "note_avis": 4.7,
-    "note_recence": 9.1,
-    "note_globale": 6.9,
+    "note_recence": 8.8,
+    "note_globale": 6.8,
     "etoiles": 3,
     "categories": [
       "action_aventure"
@@ -31414,7 +33727,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2022,
+    "date_ajout": "2023-01-18"
   },
   {
     "id": "jw-tm931412",
@@ -31435,8 +33750,8 @@ const CATALOG_DATA = [
     "duree": "1h 30min",
     "runtime_minutes": 90,
     "note_avis": 5.8,
-    "note_recence": 8.6,
-    "note_globale": 7.2,
+    "note_recence": 8.2,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -31458,7 +33773,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2026-05-09"
   },
   {
     "id": "jw-tm1589265",
@@ -31479,8 +33796,8 @@ const CATALOG_DATA = [
     "duree": "2h 05min",
     "runtime_minutes": 125,
     "note_avis": 7.1,
-    "note_recence": 9.8,
-    "note_globale": 8.5,
+    "note_recence": 9.7,
+    "note_globale": 8.4,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -31502,7 +33819,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-09-10"
   },
   {
     "id": "jw-ts78691",
@@ -31523,9 +33842,9 @@ const CATALOG_DATA = [
     "duree": "45 min/ép.",
     "runtime_minutes": 45,
     "note_avis": 5.9,
-    "note_recence": 8.2,
-    "note_globale": 7.1,
-    "etoiles": 4,
+    "note_recence": 7.6,
+    "note_globale": 6.8,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -31545,7 +33864,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2018,
+        "note": 5.9
+      }
+    ],
+    "date_ajout": "2022-11-07"
   },
   {
     "id": "jw-tm1445866",
@@ -31566,7 +33894,7 @@ const CATALOG_DATA = [
     "duree": "1h 45min",
     "runtime_minutes": 105,
     "note_avis": 6.1,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
@@ -31588,7 +33916,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-11-07"
   },
   {
     "id": "jw-tm1373132",
@@ -31609,8 +33939,8 @@ const CATALOG_DATA = [
     "duree": "2h 12min",
     "runtime_minutes": 132,
     "note_avis": 6.8,
-    "note_recence": 9.5,
-    "note_globale": 8.2,
+    "note_recence": 9.4,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -31633,7 +33963,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-09-26"
   },
   {
     "id": "jw-tm311918",
@@ -31654,8 +33986,8 @@ const CATALOG_DATA = [
     "duree": "1h 37min",
     "runtime_minutes": 97,
     "note_avis": 5.9,
-    "note_recence": 7.5,
-    "note_globale": 6.7,
+    "note_recence": 6.7,
+    "note_globale": 6.3,
     "etoiles": 3,
     "categories": [
       "thriller_policier"
@@ -31678,7 +34010,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2015,
+    "date_ajout": "2017-02-18"
   },
   {
     "id": "jw-tm1131943",
@@ -31699,9 +34033,9 @@ const CATALOG_DATA = [
     "duree": "1h 51min",
     "runtime_minutes": 111,
     "note_avis": 6.8,
-    "note_recence": 9.1,
-    "note_globale": 8,
-    "etoiles": 5,
+    "note_recence": 8.8,
+    "note_globale": 7.8,
+    "etoiles": 4,
     "categories": [
       "animation_famille"
     ],
@@ -31725,7 +34059,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2022-12-12"
   },
   {
     "id": "jw-tm436249",
@@ -31746,8 +34082,8 @@ const CATALOG_DATA = [
     "duree": "1h 32min",
     "runtime_minutes": 92,
     "note_avis": 6.9,
-    "note_recence": 8.4,
-    "note_globale": 7.7,
+    "note_recence": 7.9,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -31771,7 +34107,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-01-30"
   },
   {
     "id": "jw-tm465573",
@@ -31792,8 +34130,8 @@ const CATALOG_DATA = [
     "duree": "1h 24min",
     "runtime_minutes": 84,
     "note_avis": 6.8,
-    "note_recence": 8.4,
-    "note_globale": 7.6,
+    "note_recence": 7.9,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -31814,7 +34152,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2020-09-23"
   },
   {
     "id": "jw-tm1359843",
@@ -31835,8 +34175,8 @@ const CATALOG_DATA = [
     "duree": "1h 22min",
     "runtime_minutes": 82,
     "note_avis": 5.3,
-    "note_recence": 9.8,
-    "note_globale": 7.6,
+    "note_recence": 9.7,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -31857,7 +34197,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-01-22"
   },
   {
     "id": "jw-tm1369470",
@@ -31878,7 +34220,7 @@ const CATALOG_DATA = [
     "duree": "1h 46min",
     "runtime_minutes": 106,
     "note_avis": 6.7,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
@@ -31899,7 +34241,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-09-26"
   },
   {
     "id": "jw-tm984155",
@@ -31920,8 +34264,8 @@ const CATALOG_DATA = [
     "duree": "1h 29min",
     "runtime_minutes": 89,
     "note_avis": 4.3,
-    "note_recence": 8.8,
-    "note_globale": 6.6,
+    "note_recence": 8.5,
+    "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
       "horreur_epouvante"
@@ -31944,7 +34288,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2021-10-13"
   },
   {
     "id": "jw-tm147787",
@@ -32012,8 +34358,8 @@ const CATALOG_DATA = [
     "duree": "1h 23min",
     "runtime_minutes": 83,
     "note_avis": 7.1,
-    "note_recence": 8.4,
-    "note_globale": 7.8,
+    "note_recence": 7.9,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -32026,14 +34372,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/302729142/s592/aurore-teagarden-10-mysteres-en-serie.jpg",
     "synopsis": "Aurora retrouve son Club des Amateurs de Meurtres entièrement saccagé, avec pour seuls indices une photo d'un ancien meurtre et une étrange citation. Débute aurore Teagarden alors un jeu de pistes littéraire au coeur de la vie d'Aurora et de ses proches, tous victimes du mystérieux criminel... Accompagné de Nick Miller, brillant et séduisant professeur de psychologie, Aurora va tout faire pour résoudre cette affaire...",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "auc": "2027-03-31"
+      }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2020-04-28"
   },
   {
     "id": "jw-ts42155",
@@ -32054,9 +34404,9 @@ const CATALOG_DATA = [
     "duree": "19 min/ép.",
     "runtime_minutes": 19,
     "note_avis": 6.3,
-    "note_recence": 7.7,
-    "note_globale": 7,
-    "etoiles": 4,
+    "note_recence": 7,
+    "note_globale": 6.7,
+    "etoiles": 3,
     "categories": [
       "animation_famille"
     ],
@@ -32079,7 +34429,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2016,
+        "note": 6.3
+      }
+    ],
+    "date_ajout": "2026-03-21"
   },
   {
     "id": "jw-tm1466048",
@@ -32100,8 +34459,8 @@ const CATALOG_DATA = [
     "duree": "1h 24min",
     "runtime_minutes": 84,
     "note_avis": 7.2,
-    "note_recence": 9.5,
-    "note_globale": 8.4,
+    "note_recence": 9.4,
+    "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -32124,7 +34483,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-09-29"
   },
   {
     "id": "jw-tm1518660",
@@ -32145,8 +34506,8 @@ const CATALOG_DATA = [
     "duree": "1h 26min",
     "runtime_minutes": 86,
     "note_avis": 5.7,
-    "note_recence": 9.8,
-    "note_globale": 7.8,
+    "note_recence": 9.7,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -32169,7 +34530,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-03-05"
   },
   {
     "id": "jw-tm1381005",
@@ -32190,8 +34553,8 @@ const CATALOG_DATA = [
     "duree": "1h 42min",
     "runtime_minutes": 102,
     "note_avis": 5.2,
-    "note_recence": 9.5,
-    "note_globale": 7.4,
+    "note_recence": 9.4,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -32213,7 +34576,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2026-06-01"
   },
   {
     "id": "jw-tm1262459",
@@ -32234,8 +34599,8 @@ const CATALOG_DATA = [
     "duree": "54min",
     "runtime_minutes": 54,
     "note_avis": 7.1,
-    "note_recence": 9.1,
-    "note_globale": 8.1,
+    "note_recence": 8.8,
+    "note_globale": 8,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -32257,7 +34622,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2025-03-15"
   },
   {
     "id": "jw-ts317708",
@@ -32278,8 +34645,8 @@ const CATALOG_DATA = [
     "duree": "22 min/ép.",
     "runtime_minutes": 22,
     "note_avis": 7.1,
-    "note_recence": 8.4,
-    "note_globale": 7.8,
+    "note_recence": 8.2,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -32300,7 +34667,22 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2020,
+    "annee_moyenne": 2020,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2019,
+        "note": 7.1
+      },
+      {
+        "saison": 2,
+        "annee": 2020,
+        "note": 7.1
+      }
+    ],
+    "date_ajout": "2026-03-21"
   },
   {
     "id": "jw-tm847003",
@@ -32321,8 +34703,8 @@ const CATALOG_DATA = [
     "duree": "1h 35min",
     "runtime_minutes": 95,
     "note_avis": 6.6,
-    "note_recence": 8.6,
-    "note_globale": 7.6,
+    "note_recence": 8.2,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -32344,7 +34726,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2023-04-05"
   },
   {
     "id": "jw-tm320212",
@@ -32365,8 +34749,8 @@ const CATALOG_DATA = [
     "duree": "1h 28min",
     "runtime_minutes": 88,
     "note_avis": 4.7,
-    "note_recence": 7.9,
-    "note_globale": 6.3,
+    "note_recence": 7.3,
+    "note_globale": 6,
     "etoiles": 3,
     "categories": [
       "action_aventure"
@@ -32389,7 +34773,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2017,
+    "date_ajout": "2018-07-07"
   },
   {
     "id": "jw-tm351934",
@@ -32410,8 +34796,8 @@ const CATALOG_DATA = [
     "duree": "1h 25min",
     "runtime_minutes": 85,
     "note_avis": 6.4,
-    "note_recence": 8.2,
-    "note_globale": 7.3,
+    "note_recence": 7.6,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -32433,7 +34819,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2020-06-10"
   },
   {
     "id": "jw-ts105601",
@@ -32454,9 +34842,9 @@ const CATALOG_DATA = [
     "duree": "20 min/ép.",
     "runtime_minutes": 20,
     "note_avis": 7.5,
-    "note_recence": 8.4,
-    "note_globale": 8,
-    "etoiles": 5,
+    "note_recence": 7.9,
+    "note_globale": 7.7,
+    "etoiles": 4,
     "categories": [
       "animation_famille"
     ],
@@ -32480,7 +34868,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2019,
+        "note": 7.5
+      }
+    ],
+    "date_ajout": "2026-03-15"
   },
   {
     "id": "jw-tm1334475",
@@ -32501,8 +34898,8 @@ const CATALOG_DATA = [
     "duree": "1h 40min",
     "runtime_minutes": 100,
     "note_avis": 6.1,
-    "note_recence": 9.3,
-    "note_globale": 7.7,
+    "note_recence": 9.1,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -32522,7 +34919,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2024-10-15"
   },
   {
     "id": "jw-tm59486",
@@ -32543,9 +34942,9 @@ const CATALOG_DATA = [
     "duree": "1h 45min",
     "runtime_minutes": 105,
     "note_avis": 7.2,
-    "note_recence": 7,
-    "note_globale": 7.1,
-    "etoiles": 4,
+    "note_recence": 6.1,
+    "note_globale": 6.7,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -32567,7 +34966,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2013,
+    "date_ajout": "2013-04-30"
   },
   {
     "id": "jw-tm270527",
@@ -32588,9 +34989,9 @@ const CATALOG_DATA = [
     "duree": "1h 45min",
     "runtime_minutes": 105,
     "note_avis": 6.5,
-    "note_recence": 7.7,
-    "note_globale": 7.1,
-    "etoiles": 4,
+    "note_recence": 7,
+    "note_globale": 6.8,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -32613,7 +35014,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2019-03-21"
   },
   {
     "id": "jw-tm157214",
@@ -32634,9 +35037,9 @@ const CATALOG_DATA = [
     "duree": "1h 42min",
     "runtime_minutes": 102,
     "note_avis": 7.3,
-    "note_recence": 7.2,
-    "note_globale": 7.3,
-    "etoiles": 4,
+    "note_recence": 6.4,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -32658,7 +35061,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2014,
+    "date_ajout": "2015-03-04"
   },
   {
     "id": "jw-ts286241",
@@ -32679,8 +35084,8 @@ const CATALOG_DATA = [
     "duree": "24 min/ép.",
     "runtime_minutes": 24,
     "note_avis": 5.8,
-    "note_recence": 8.6,
-    "note_globale": 7.2,
+    "note_recence": 8.2,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -32702,7 +35107,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2020,
+        "note": 5.8
+      }
+    ],
+    "date_ajout": "2022-12-31"
   },
   {
     "id": "jw-tm198002",
@@ -32767,8 +35181,8 @@ const CATALOG_DATA = [
     "duree": "47 min/ép.",
     "runtime_minutes": 47,
     "note_avis": 7.8,
-    "note_recence": 9.3,
-    "note_globale": 8.6,
+    "note_recence": 9.1,
+    "note_globale": 8.5,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -32791,7 +35205,16 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2023,
+        "note": 7.8
+      }
+    ],
+    "date_ajout": "2024-07-03"
   },
   {
     "id": "jw-tm460629",
@@ -32812,8 +35235,8 @@ const CATALOG_DATA = [
     "duree": "1h 26min",
     "runtime_minutes": 86,
     "note_avis": 4.9,
-    "note_recence": 8.4,
-    "note_globale": 6.7,
+    "note_recence": 7.9,
+    "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
       "thriller_policier"
@@ -32835,7 +35258,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2020-07-02"
   },
   {
     "id": "jw-tm356017",
@@ -32901,8 +35326,8 @@ const CATALOG_DATA = [
     "duree": "1h 23min",
     "runtime_minutes": 83,
     "note_avis": 7,
-    "note_recence": 7.7,
-    "note_globale": 7.4,
+    "note_recence": 7,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -32924,7 +35349,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2017-04-28"
   },
   {
     "id": "jw-tm150357",
@@ -32988,8 +35415,8 @@ const CATALOG_DATA = [
     "duree": "1h 25min",
     "runtime_minutes": 85,
     "note_avis": 6.8,
-    "note_recence": 8.2,
-    "note_globale": 7.5,
+    "note_recence": 7.6,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -33003,14 +35430,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/302728501/s592/aurora-teagarden-7-meurtre-au-cinema.jpg",
     "synopsis": "Une équipe de cinéma investit la petite ville de Lawrenceton pour tourner un film inspiré de la vie d'Aurora Teagarden, écrit par Robin Daniels, un ancien petit ami. Lorsque l'actrice jouant le personnage principal est assassinée dans sa loge, Aurora et ses amis du club des amateurs de meurtre enquêtent pour faire éclater la vérité et innocenter Robin.",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "auc": "2027-03-31"
+      }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2022-07-28"
   },
   {
     "id": "jw-tm149501",
@@ -33031,8 +35462,8 @@ const CATALOG_DATA = [
     "duree": "1h 26min",
     "runtime_minutes": 86,
     "note_avis": 6.4,
-    "note_recence": 7.2,
-    "note_globale": 6.8,
+    "note_recence": 6.4,
+    "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -33053,7 +35484,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2014,
+    "date_ajout": "2014-11-15"
   },
   {
     "id": "jw-tm1273819",
@@ -33074,8 +35507,8 @@ const CATALOG_DATA = [
     "duree": "1h 36min",
     "runtime_minutes": 96,
     "note_avis": 5.8,
-    "note_recence": 9.1,
-    "note_globale": 7.5,
+    "note_recence": 8.8,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -33099,7 +35532,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2026-01-17"
   },
   {
     "id": "jw-tm356937",
@@ -33120,8 +35555,8 @@ const CATALOG_DATA = [
     "duree": "1h 29min",
     "runtime_minutes": 89,
     "note_avis": 5,
-    "note_recence": 8.2,
-    "note_globale": 6.6,
+    "note_recence": 7.6,
+    "note_globale": 6.3,
     "etoiles": 3,
     "categories": [
       "animation_famille"
@@ -33147,7 +35582,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2019-11-07"
   },
   {
     "id": "jw-tm1541312",
@@ -33168,8 +35605,8 @@ const CATALOG_DATA = [
     "duree": "1h 12min",
     "runtime_minutes": 72,
     "note_avis": 7.2,
-    "note_recence": 9.5,
-    "note_globale": 8.4,
+    "note_recence": 9.4,
+    "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -33189,7 +35626,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2015-04-25"
   },
   {
     "id": "jw-ts80975",
@@ -33210,9 +35649,9 @@ const CATALOG_DATA = [
     "duree": "24 min/ép.",
     "runtime_minutes": 24,
     "note_avis": 6.1,
-    "note_recence": 8.2,
-    "note_globale": 7.2,
-    "etoiles": 4,
+    "note_recence": 7.6,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "animation_famille"
     ],
@@ -33233,7 +35672,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2018,
+        "note": 6.1
+      }
+    ],
+    "date_ajout": "2026-03-21"
   },
   {
     "id": "jw-tm169830",
@@ -33254,8 +35702,8 @@ const CATALOG_DATA = [
     "duree": "1h 34min",
     "runtime_minutes": 94,
     "note_avis": 7,
-    "note_recence": 6.5,
-    "note_globale": 6.8,
+    "note_recence": 5.5,
+    "note_globale": 6.3,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -33277,7 +35725,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2011,
+    "date_ajout": "2013-09-04"
   },
   {
     "id": "jw-tm1393445",
@@ -33298,8 +35748,8 @@ const CATALOG_DATA = [
     "duree": "52min",
     "runtime_minutes": 52,
     "note_avis": 5.8,
-    "note_recence": 9.3,
-    "note_globale": 7.6,
+    "note_recence": 9.1,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -33319,7 +35769,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2025-05-18"
   },
   {
     "id": "jw-ts36127",
@@ -33340,8 +35792,8 @@ const CATALOG_DATA = [
     "duree": "19 min/ép.",
     "runtime_minutes": 19,
     "note_avis": 6.5,
-    "note_recence": 7,
-    "note_globale": 6.8,
+    "note_recence": 6.1,
+    "note_globale": 6.3,
     "etoiles": 3,
     "categories": [
       "animation_famille"
@@ -33365,7 +35817,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2013,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2013,
+        "note": 6.5
+      }
+    ],
+    "date_ajout": "2016-08-08"
   },
   {
     "id": "jw-tm1070911",
@@ -33386,8 +35847,8 @@ const CATALOG_DATA = [
     "duree": "1h 40min",
     "runtime_minutes": 100,
     "note_avis": 5.9,
-    "note_recence": 9.1,
-    "note_globale": 7.5,
+    "note_recence": 8.8,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "action_aventure"
@@ -33402,14 +35863,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/302464996/s592/cop-secret.jpg",
     "synopsis": "Lorsque Bússi, le policier le plus coriace d'Islande, est contraint de travailler avec un nouveau partenaire pour résoudre une série de braquages de banques, la pression pour clore l'affaire le plus rapidement possible s'avère trop forte pour lui.",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "aoc": "2027-03-31"
+      }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2026-04-20"
   },
   {
     "id": "jw-tm271360",
@@ -33430,8 +35895,8 @@ const CATALOG_DATA = [
     "duree": "1h 38min",
     "runtime_minutes": 98,
     "note_avis": 5.9,
-    "note_recence": 7.7,
-    "note_globale": 6.8,
+    "note_recence": 7,
+    "note_globale": 6.5,
     "etoiles": 3,
     "categories": [
       "action_aventure"
@@ -33455,7 +35920,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2020-01-02"
   },
   {
     "id": "jw-tm420339",
@@ -33476,8 +35943,8 @@ const CATALOG_DATA = [
     "duree": "1h 23min",
     "runtime_minutes": 83,
     "note_avis": 6.8,
-    "note_recence": 8.2,
-    "note_globale": 7.5,
+    "note_recence": 7.6,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -33501,7 +35968,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2022-07-20"
   },
   {
     "id": "jw-tm1443243",
@@ -33522,8 +35991,8 @@ const CATALOG_DATA = [
     "duree": "21min",
     "runtime_minutes": 21,
     "note_avis": 7.6,
-    "note_recence": 9.5,
-    "note_globale": 8.6,
+    "note_recence": 9.4,
+    "note_globale": 8.5,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -33543,7 +36012,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2026-05-01"
   },
   {
     "id": "jw-tm1510749",
@@ -33564,8 +36035,8 @@ const CATALOG_DATA = [
     "duree": "1h 16min",
     "runtime_minutes": 76,
     "note_avis": 6.7,
-    "note_recence": 9.8,
-    "note_globale": 8.3,
+    "note_recence": 9.7,
+    "note_globale": 8.2,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -33588,7 +36059,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-10-25"
   },
   {
     "id": "jw-tm469196",
@@ -33609,8 +36082,8 @@ const CATALOG_DATA = [
     "duree": "1h 42min",
     "runtime_minutes": 102,
     "note_avis": 6.4,
-    "note_recence": 8.4,
-    "note_globale": 7.4,
+    "note_recence": 7.9,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -33631,7 +36104,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2020-01-08"
   },
   {
     "id": "jw-tm25209",
@@ -33698,8 +36173,8 @@ const CATALOG_DATA = [
     "duree": "27 min/ép.",
     "runtime_minutes": 27,
     "note_avis": 7.4,
-    "note_recence": 9.3,
-    "note_globale": 8.4,
+    "note_recence": 9.1,
+    "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
       "comedie"
@@ -33720,7 +36195,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2023,
+        "note": 7.4
+      }
+    ],
+    "date_ajout": "2024-07-03"
   },
   {
     "id": "jw-tm998431",
@@ -33741,9 +36225,9 @@ const CATALOG_DATA = [
     "duree": "1h 24min",
     "runtime_minutes": 84,
     "note_avis": 7.1,
-    "note_recence": 8.8,
-    "note_globale": 8,
-    "etoiles": 5,
+    "note_recence": 8.5,
+    "note_globale": 7.8,
+    "etoiles": 4,
     "categories": [
       "thriller_policier"
     ],
@@ -33755,14 +36239,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/253432899/s592/aurora-teagarden-les-secrets-oublies.jpg",
     "synopsis": "Lorsqu'on découvre un corps Aurora craint que son père soit suspecté.  Nick et elle doivent élucider cette affaire avant leur mariage.",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "auc": "2027-03-31"
+      }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2024-06-04"
   },
   {
     "id": "jw-tm201572",
@@ -33783,8 +36271,8 @@ const CATALOG_DATA = [
     "duree": "1h 56min",
     "runtime_minutes": 116,
     "note_avis": 5.7,
-    "note_recence": 7.5,
-    "note_globale": 6.6,
+    "note_recence": 6.7,
+    "note_globale": 6.2,
     "etoiles": 3,
     "categories": [
       "thriller_policier"
@@ -33808,7 +36296,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2015,
+    "date_ajout": "2018-05-16"
   },
   {
     "id": "jw-tm663",
@@ -33872,8 +36362,8 @@ const CATALOG_DATA = [
     "duree": "2h 00min",
     "runtime_minutes": 120,
     "note_avis": 6.2,
-    "note_recence": 9.1,
-    "note_globale": 7.7,
+    "note_recence": 8.8,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -33895,7 +36385,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2025-02-19"
   },
   {
     "id": "jw-ts393179",
@@ -33916,8 +36408,8 @@ const CATALOG_DATA = [
     "duree": "38 min/ép.",
     "runtime_minutes": 38,
     "note_avis": 6.8,
-    "note_recence": 9.5,
-    "note_globale": 8.2,
+    "note_recence": 9.4,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -33938,7 +36430,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2024,
+        "note": 6.8
+      }
+    ],
+    "date_ajout": "2025-03-05"
   },
   {
     "id": "jw-ts358323",
@@ -33959,7 +36460,7 @@ const CATALOG_DATA = [
     "duree": "24 min/ép.",
     "runtime_minutes": 24,
     "note_avis": 6.8,
-    "note_recence": 9.3,
+    "note_recence": 9.4,
     "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
@@ -33983,7 +36484,22 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2024,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2023,
+        "note": 6.8
+      },
+      {
+        "saison": 2,
+        "annee": 2024,
+        "note": 6.8
+      }
+    ],
+    "date_ajout": "2024-07-03"
   },
   {
     "id": "jw-tm1316502",
@@ -34004,8 +36520,8 @@ const CATALOG_DATA = [
     "duree": "1h 29min",
     "runtime_minutes": 89,
     "note_avis": 6,
-    "note_recence": 9.3,
-    "note_globale": 7.7,
+    "note_recence": 9.1,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -34027,7 +36543,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2026-05-30"
   },
   {
     "id": "jw-ts310222",
@@ -34092,8 +36610,8 @@ const CATALOG_DATA = [
     "duree": "26 min/ép.",
     "runtime_minutes": 26,
     "note_avis": 6.7,
-    "note_recence": 8.2,
-    "note_globale": 7.5,
+    "note_recence": 7.6,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -34116,7 +36634,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2018,
+        "note": 6.7
+      }
+    ],
+    "date_ajout": "2026-03-15"
   },
   {
     "id": "jw-tm408969",
@@ -34137,8 +36664,8 @@ const CATALOG_DATA = [
     "duree": "1h 24min",
     "runtime_minutes": 84,
     "note_avis": 6.8,
-    "note_recence": 8.2,
-    "note_globale": 7.5,
+    "note_recence": 7.6,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -34153,14 +36680,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/245621956/s592/aurora-teagarden-8-meurtre-cousu-main.jpg",
     "synopsis": "Aurora Teagarden se réjouit de revoir Poppy Wislon, une amie d'enfance qui connaît un succès grandissant sur les réseaux sociaux avec ses vidéos de couture. Sa réussite l'a incitée à lancer un blog avec Cara, sa meilleure amie. Lorsqu'elle retrouve Poppy poignardée dans sa maison, Aurora enquête sans attendre, aidée de sa mère et de son amie journaliste, Sally Allison",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "auc": "2027-03-31"
+      }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2020-04-28"
   },
   {
     "id": "jw-tm463390",
@@ -34181,8 +36712,8 @@ const CATALOG_DATA = [
     "duree": "1h 30min",
     "runtime_minutes": 90,
     "note_avis": 5.2,
-    "note_recence": 8.4,
-    "note_globale": 6.8,
+    "note_recence": 7.9,
+    "note_globale": 6.6,
     "etoiles": 3,
     "categories": [
       "animation_famille"
@@ -34208,7 +36739,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2021-05-19"
   },
   {
     "id": "jw-tm63920",
@@ -34275,8 +36808,8 @@ const CATALOG_DATA = [
     "duree": "1h 27min",
     "runtime_minutes": 87,
     "note_avis": 5.9,
-    "note_recence": 7.2,
-    "note_globale": 6.6,
+    "note_recence": 6.4,
+    "note_globale": 6.2,
     "etoiles": 3,
     "categories": [
       "comedie"
@@ -34300,7 +36833,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2014,
+    "date_ajout": "2014-09-10"
   },
   {
     "id": "jw-tm177586",
@@ -34321,8 +36856,8 @@ const CATALOG_DATA = [
     "duree": "1h 21min",
     "runtime_minutes": 81,
     "note_avis": 6.3,
-    "note_recence": 7,
-    "note_globale": 6.7,
+    "note_recence": 6.1,
+    "note_globale": 6.2,
     "etoiles": 3,
     "categories": [
       "comedie"
@@ -34347,7 +36882,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2013,
+    "date_ajout": "2015-01-01"
   },
   {
     "id": "jw-tm147919",
@@ -34368,8 +36905,8 @@ const CATALOG_DATA = [
     "duree": "1h 20min",
     "runtime_minutes": 80,
     "note_avis": 6.4,
-    "note_recence": 7.2,
-    "note_globale": 6.8,
+    "note_recence": 6.4,
+    "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
       "comedie"
@@ -34394,7 +36931,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2014,
+    "date_ajout": "2015-01-01"
   },
   {
     "id": "jw-tm1508008",
@@ -34415,7 +36954,7 @@ const CATALOG_DATA = [
     "duree": "1h 39min",
     "runtime_minutes": 99,
     "note_avis": 7.8,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.8,
     "etoiles": 5,
     "categories": [
@@ -34438,7 +36977,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-09-07"
   },
   {
     "id": "jw-tm176270",
@@ -34459,8 +37000,8 @@ const CATALOG_DATA = [
     "duree": "1h 32min",
     "runtime_minutes": 92,
     "note_avis": 6,
-    "note_recence": 7,
-    "note_globale": 6.5,
+    "note_recence": 6.1,
+    "note_globale": 6.1,
     "etoiles": 3,
     "categories": [
       "comedie"
@@ -34484,7 +37025,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2013,
+    "date_ajout": "2014-06-11"
   },
   {
     "id": "jw-ts227490",
@@ -34505,8 +37048,8 @@ const CATALOG_DATA = [
     "duree": "26 min/ép.",
     "runtime_minutes": 26,
     "note_avis": 7.1,
-    "note_recence": 8.6,
-    "note_globale": 7.9,
+    "note_recence": 8.2,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -34530,7 +37073,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2020,
+        "note": 7.1
+      }
+    ],
+    "date_ajout": "2026-03-21"
   },
   {
     "id": "jw-ts318540",
@@ -34547,12 +37099,12 @@ const CATALOG_DATA = [
     "package_slugs": [
       "auc"
     ],
-    "annee": 2022,
+    "annee": 2021,
     "duree": "45 min/ép.",
     "runtime_minutes": 45,
     "note_avis": 5.8,
-    "note_recence": 9.1,
-    "note_globale": 7.5,
+    "note_recence": 8.5,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -34572,7 +37124,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2021,
+        "note": 5.8
+      }
+    ],
+    "date_ajout": "2022-11-07"
   },
   {
     "id": "jw-ts431432",
@@ -34593,8 +37154,8 @@ const CATALOG_DATA = [
     "duree": "41 min/ép.",
     "runtime_minutes": 41,
     "note_avis": 6.3,
-    "note_recence": 9.8,
-    "note_globale": 8.1,
+    "note_recence": 9.7,
+    "note_globale": 8,
     "etoiles": 5,
     "categories": [
       "thriller_policier"
@@ -34616,7 +37177,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2025,
+        "note": 6.3
+      }
+    ],
+    "date_ajout": "2025-01-14"
   },
   {
     "id": "jw-tm1444956",
@@ -34637,7 +37207,7 @@ const CATALOG_DATA = [
     "duree": "1h 24min",
     "runtime_minutes": 84,
     "note_avis": 5.3,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
@@ -34660,7 +37230,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-12-25"
   },
   {
     "id": "jw-tm406990",
@@ -34681,8 +37253,8 @@ const CATALOG_DATA = [
     "duree": "1h 34min",
     "runtime_minutes": 94,
     "note_avis": 4.6,
-    "note_recence": 8.4,
-    "note_globale": 6.5,
+    "note_recence": 7.9,
+    "note_globale": 6.3,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -34704,7 +37276,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2020-11-02"
   },
   {
     "id": "jw-tm1310618",
@@ -34725,8 +37299,8 @@ const CATALOG_DATA = [
     "duree": "1h 31min",
     "runtime_minutes": 91,
     "note_avis": 6.8,
-    "note_recence": 9.3,
-    "note_globale": 8.1,
+    "note_recence": 9.1,
+    "note_globale": 8,
     "etoiles": 5,
     "categories": [
       "thriller_policier"
@@ -34750,7 +37324,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2026-05-16"
   },
   {
     "id": "jw-tm824481",
@@ -34771,8 +37347,8 @@ const CATALOG_DATA = [
     "duree": "1h 23min",
     "runtime_minutes": 83,
     "note_avis": 7.3,
-    "note_recence": 8.4,
-    "note_globale": 7.9,
+    "note_recence": 7.9,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -34796,7 +37372,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2021-02-03"
   },
   {
     "id": "jw-tm1292012",
@@ -34817,8 +37395,8 @@ const CATALOG_DATA = [
     "duree": "53min",
     "runtime_minutes": 53,
     "note_avis": 6.4,
-    "note_recence": 9.1,
-    "note_globale": 7.8,
+    "note_recence": 8.8,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -34838,7 +37416,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2025-03-12"
   },
   {
     "id": "jw-tm1251705",
@@ -34859,8 +37439,8 @@ const CATALOG_DATA = [
     "duree": "1h 25min",
     "runtime_minutes": 85,
     "note_avis": 5.3,
-    "note_recence": 9.3,
-    "note_globale": 7.3,
+    "note_recence": 9.1,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -34874,14 +37454,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/309391323/s592/en-plein-feu.jpg",
     "synopsis": "Un feu géant ravage la forêt des Landes. A la suite d’une alerte évacuation, Simon et son père Joseph quittent leur domicile mais se retrouvent rapidement prisonniers de leur véhicule au milieu de ce cauchemar climatique. Le brasier se rapproche. Que faire ? Attendre les secours…? Ou n’est-ce pas en s'enfonçant plus loin encore dans l'immensité terrifiante de la forêt brûlante qu'ils trouveront le moyen de s'en sortir… ?",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "aoc": "2027-03-31"
+      }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-03-08"
   },
   {
     "id": "jw-tm178281",
@@ -34947,7 +37531,7 @@ const CATALOG_DATA = [
     "duree": "1h 30min",
     "runtime_minutes": 90,
     "note_avis": 5.1,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
@@ -34973,7 +37557,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-09-03"
   },
   {
     "id": "jw-tm137090",
@@ -34994,8 +37580,8 @@ const CATALOG_DATA = [
     "duree": "1h 46min",
     "runtime_minutes": 106,
     "note_avis": 6.3,
-    "note_recence": 7.2,
-    "note_globale": 6.8,
+    "note_recence": 6.4,
+    "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -35017,7 +37603,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2014,
+    "date_ajout": "2014-12-03"
   },
   {
     "id": "jw-tm1118959",
@@ -35038,8 +37626,8 @@ const CATALOG_DATA = [
     "duree": "1h 25min",
     "runtime_minutes": 85,
     "note_avis": 5.9,
-    "note_recence": 8.8,
-    "note_globale": 7.4,
+    "note_recence": 8.5,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -35063,7 +37651,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2026-03-07"
   },
   {
     "id": "jw-tm1190547",
@@ -35084,8 +37674,8 @@ const CATALOG_DATA = [
     "duree": "1h 33min",
     "runtime_minutes": 93,
     "note_avis": 6,
-    "note_recence": 9.1,
-    "note_globale": 7.6,
+    "note_recence": 8.8,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "action_aventure"
@@ -35108,7 +37698,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2023-10-28"
   },
   {
     "id": "jw-ts440556",
@@ -35129,7 +37721,7 @@ const CATALOG_DATA = [
     "duree": "21 min/ép.",
     "runtime_minutes": 21,
     "note_avis": 5.8,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
@@ -35152,7 +37744,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2025,
+        "note": 5.8
+      }
+    ],
+    "date_ajout": "2026-09-15"
   },
   {
     "id": "jw-ts35141",
@@ -35173,8 +37774,8 @@ const CATALOG_DATA = [
     "duree": "10 min/ép.",
     "runtime_minutes": 10,
     "note_avis": 6.4,
-    "note_recence": 6.5,
-    "note_globale": 6.5,
+    "note_recence": 5.8,
+    "note_globale": 6.1,
     "etoiles": 3,
     "categories": [
       "animation_famille"
@@ -35197,7 +37798,22 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2012,
+    "annee_moyenne": 2012,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2011,
+        "note": 6.4
+      },
+      {
+        "saison": 2,
+        "annee": 2012,
+        "note": 6.4
+      }
+    ],
+    "date_ajout": "2026-03-21"
   },
   {
     "id": "jw-tm1400222",
@@ -35218,7 +37834,7 @@ const CATALOG_DATA = [
     "duree": "1h 21min",
     "runtime_minutes": 81,
     "note_avis": 6.2,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8,
     "etoiles": 5,
     "categories": [
@@ -35242,7 +37858,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2026-01-21"
   },
   {
     "id": "jw-ts71649",
@@ -35263,9 +37881,9 @@ const CATALOG_DATA = [
     "duree": "13 min/ép.",
     "runtime_minutes": 13,
     "note_avis": 7.6,
-    "note_recence": 6.3,
-    "note_globale": 7,
-    "etoiles": 4,
+    "note_recence": 5.2,
+    "note_globale": 6.4,
+    "etoiles": 3,
     "categories": [
       "animation_famille"
     ],
@@ -35285,7 +37903,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2010,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2010,
+        "note": 7.6
+      }
+    ],
+    "date_ajout": "2026-03-28"
   },
   {
     "id": "jw-ts82612",
@@ -35330,7 +37957,27 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2016,
+    "annee_moyenne": 2012,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2008,
+        "note": 6.4
+      },
+      {
+        "saison": 2,
+        "annee": 2013,
+        "note": 6.4
+      },
+      {
+        "saison": 3,
+        "annee": 2016,
+        "note": 6.4
+      }
+    ],
+    "date_ajout": "2026-03-21"
   },
   {
     "id": "jw-ts402602",
@@ -35374,7 +38021,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2026,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2026,
+        "note": 8
+      }
+    ],
+    "date_ajout": "2026-07-30"
   },
   {
     "id": "jw-tm1286219",
@@ -35395,8 +38051,8 @@ const CATALOG_DATA = [
     "duree": "1h 24min",
     "runtime_minutes": 84,
     "note_avis": 5.1,
-    "note_recence": 9.3,
-    "note_globale": 7.2,
+    "note_recence": 9.1,
+    "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -35419,7 +38075,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-04-12"
   },
   {
     "id": "jw-tm1366021",
@@ -35440,8 +38098,8 @@ const CATALOG_DATA = [
     "duree": "1h 48min",
     "runtime_minutes": 108,
     "note_avis": 6.5,
-    "note_recence": 9.3,
-    "note_globale": 7.9,
+    "note_recence": 9.1,
+    "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -35461,7 +38119,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2024-11-27"
   },
   {
     "id": "jw-tm39816",
@@ -35482,8 +38142,8 @@ const CATALOG_DATA = [
     "duree": "1h 42min",
     "runtime_minutes": 102,
     "note_avis": 6.3,
-    "note_recence": 6.8,
-    "note_globale": 6.6,
+    "note_recence": 5.8,
+    "note_globale": 6.1,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -35503,7 +38163,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2012,
+    "date_ajout": "2015-12-01"
   },
   {
     "id": "jw-tm1300496",
@@ -35524,8 +38186,8 @@ const CATALOG_DATA = [
     "duree": "1h 21min",
     "runtime_minutes": 81,
     "note_avis": 4.3,
-    "note_recence": 9.3,
-    "note_globale": 6.8,
+    "note_recence": 9.1,
+    "note_globale": 6.7,
     "etoiles": 3,
     "categories": [
       "horreur_epouvante"
@@ -35547,7 +38209,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2026-05-01"
   },
   {
     "id": "jw-tm1340748",
@@ -35568,8 +38232,8 @@ const CATALOG_DATA = [
     "duree": "1h 24min",
     "runtime_minutes": 84,
     "note_avis": 6.6,
-    "note_recence": 9.5,
-    "note_globale": 8.1,
+    "note_recence": 9.4,
+    "note_globale": 8,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -35589,7 +38253,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-03-20"
   },
   {
     "id": "jw-tm1656860",
@@ -35610,8 +38276,8 @@ const CATALOG_DATA = [
     "duree": "1h 17min",
     "runtime_minutes": 77,
     "note_avis": 7.1,
-    "note_recence": 9.8,
-    "note_globale": 8.5,
+    "note_recence": 9.7,
+    "note_globale": 8.4,
     "etoiles": 5,
     "categories": [
       "animation_famille"
@@ -35634,7 +38300,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-10-22"
   },
   {
     "id": "jw-tm1068354",
@@ -35655,8 +38323,8 @@ const CATALOG_DATA = [
     "duree": "1h 24min",
     "runtime_minutes": 84,
     "note_avis": 6.8,
-    "note_recence": 8.8,
-    "note_globale": 7.8,
+    "note_recence": 8.5,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -35671,14 +38339,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/255217170/s592/aurora-teagarden-meurtre-au-bord-du-lac.jpg",
     "synopsis": "Aurora et Nick découvrent un corps lors d'une escapade. Quand ils sont sur le point d'apprendre ce qui s'est passé, le danger s'approche.",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "auc": "2027-03-31"
+      }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2024-06-11"
   },
   {
     "id": "jw-tm1657091",
@@ -35699,8 +38371,8 @@ const CATALOG_DATA = [
     "duree": "1h 30min",
     "runtime_minutes": 90,
     "note_avis": 6.7,
-    "note_recence": 9.8,
-    "note_globale": 8.3,
+    "note_recence": 9.7,
+    "note_globale": 8.2,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -35722,7 +38394,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2026-04-06"
   },
   {
     "id": "jw-tm1333140",
@@ -35743,8 +38417,8 @@ const CATALOG_DATA = [
     "duree": "1h 24min",
     "runtime_minutes": 84,
     "note_avis": 6.2,
-    "note_recence": 9.3,
-    "note_globale": 7.8,
+    "note_recence": 9.1,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -35766,7 +38440,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2024-06-25"
   },
   {
     "id": "jw-tm315559",
@@ -35787,8 +38463,8 @@ const CATALOG_DATA = [
     "duree": "1h 45min",
     "runtime_minutes": 105,
     "note_avis": 5.2,
-    "note_recence": 7.7,
-    "note_globale": 6.5,
+    "note_recence": 7,
+    "note_globale": 6.1,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -35809,7 +38485,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2020-03-19"
   },
   {
     "id": "jw-tm1166773",
@@ -35830,9 +38508,9 @@ const CATALOG_DATA = [
     "duree": "1h 00min",
     "runtime_minutes": 60,
     "note_avis": 7.3,
-    "note_recence": 8.8,
-    "note_globale": 8.1,
-    "etoiles": 5,
+    "note_recence": 8.5,
+    "note_globale": 7.9,
+    "etoiles": 4,
     "categories": [
       "drame_emotion"
     ],
@@ -35853,7 +38531,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2025-02-05"
   },
   {
     "id": "jw-tm917578",
@@ -35874,9 +38554,9 @@ const CATALOG_DATA = [
     "duree": "1h 38min",
     "runtime_minutes": 98,
     "note_avis": 5.4,
-    "note_recence": 8.6,
-    "note_globale": 7,
-    "etoiles": 4,
+    "note_recence": 8.2,
+    "note_globale": 6.8,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -35898,7 +38578,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2026-06-30"
   },
   {
     "id": "jw-tm1546750",
@@ -35919,7 +38601,7 @@ const CATALOG_DATA = [
     "duree": "1h 12min",
     "runtime_minutes": 72,
     "note_avis": 6.1,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
@@ -35943,7 +38625,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-11-01"
   },
   {
     "id": "jw-ts364774",
@@ -35964,8 +38648,8 @@ const CATALOG_DATA = [
     "duree": "26 min/ép.",
     "runtime_minutes": 26,
     "note_avis": 5.8,
-    "note_recence": 9.3,
-    "note_globale": 7.6,
+    "note_recence": 9.1,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -35986,7 +38670,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2023,
+        "note": 5.8
+      }
+    ],
+    "date_ajout": "2024-07-03"
   },
   {
     "id": "jw-tm1664955",
@@ -36028,7 +38721,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2026,
+    "date_ajout": "2026-09-01"
   },
   {
     "id": "jw-tm1239625",
@@ -36049,8 +38744,8 @@ const CATALOG_DATA = [
     "duree": "1h 51min",
     "runtime_minutes": 111,
     "note_avis": 6.1,
-    "note_recence": 9.1,
-    "note_globale": 7.6,
+    "note_recence": 8.8,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -36070,7 +38765,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2023-09-04"
   },
   {
     "id": "jw-tm462003",
@@ -36091,8 +38788,8 @@ const CATALOG_DATA = [
     "duree": "1h 43min",
     "runtime_minutes": 103,
     "note_avis": 5.8,
-    "note_recence": 8.6,
-    "note_globale": 7.2,
+    "note_recence": 8.2,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -36115,7 +38812,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2026-06-30"
   },
   {
     "id": "jw-tm1203675",
@@ -36136,8 +38835,8 @@ const CATALOG_DATA = [
     "duree": "1h 12min",
     "runtime_minutes": 72,
     "note_avis": 6.8,
-    "note_recence": 9.3,
-    "note_globale": 8.1,
+    "note_recence": 9.1,
+    "note_globale": 8,
     "etoiles": 5,
     "categories": [
       "animation_famille"
@@ -36161,7 +38860,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-02-01"
   },
   {
     "id": "jw-tm1369447",
@@ -36182,8 +38883,8 @@ const CATALOG_DATA = [
     "duree": "1h 10min",
     "runtime_minutes": 70,
     "note_avis": 8.3,
-    "note_recence": 9.3,
-    "note_globale": 8.8,
+    "note_recence": 9.1,
+    "note_globale": 8.7,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -36206,7 +38907,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2025-04-08"
   },
   {
     "id": "jw-tm1236111",
@@ -36227,8 +38930,8 @@ const CATALOG_DATA = [
     "duree": "1h 48min",
     "runtime_minutes": 108,
     "note_avis": 6.3,
-    "note_recence": 9.1,
-    "note_globale": 7.7,
+    "note_recence": 8.8,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -36252,7 +38955,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2023-05-23"
   },
   {
     "id": "jw-tm1433974",
@@ -36273,7 +38978,7 @@ const CATALOG_DATA = [
     "duree": "1h 27min",
     "runtime_minutes": 87,
     "note_avis": 4.5,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7,
     "etoiles": 4,
     "categories": [
@@ -36296,7 +39001,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-05-12"
   },
   {
     "id": "jw-tm987617",
@@ -36317,8 +39024,8 @@ const CATALOG_DATA = [
     "duree": "1h 45min",
     "runtime_minutes": 105,
     "note_avis": 5.4,
-    "note_recence": 8.8,
-    "note_globale": 7.1,
+    "note_recence": 8.5,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -36342,7 +39049,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2021,
+    "date_ajout": "2026-03-01"
   },
   {
     "id": "jw-tm1649294",
@@ -36363,7 +39072,7 @@ const CATALOG_DATA = [
     "duree": "18min",
     "runtime_minutes": 18,
     "note_avis": 5.5,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
@@ -36384,7 +39093,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2026-08-07"
   },
   {
     "id": "jw-tm1043216",
@@ -36405,8 +39116,8 @@ const CATALOG_DATA = [
     "duree": "53min",
     "runtime_minutes": 53,
     "note_avis": 5.9,
-    "note_recence": 8.8,
-    "note_globale": 7.4,
+    "note_recence": 8.5,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -36428,7 +39139,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2025-04-08"
   },
   {
     "id": "jw-tm1469567",
@@ -36449,7 +39162,7 @@ const CATALOG_DATA = [
     "duree": "1h 34min",
     "runtime_minutes": 94,
     "note_avis": 5.1,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
@@ -36470,7 +39183,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2026-01-12"
   },
   {
     "id": "jw-tm928559",
@@ -36491,8 +39206,8 @@ const CATALOG_DATA = [
     "duree": "1h 12min",
     "runtime_minutes": 72,
     "note_avis": 6.4,
-    "note_recence": 8.8,
-    "note_globale": 7.6,
+    "note_recence": 8.5,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -36513,7 +39228,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2021-08-04"
   },
   {
     "id": "jw-tm1149433",
@@ -36534,8 +39251,8 @@ const CATALOG_DATA = [
     "duree": "31min",
     "runtime_minutes": 31,
     "note_avis": 6.8,
-    "note_recence": 8.8,
-    "note_globale": 7.8,
+    "note_recence": 8.5,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -36557,7 +39274,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2025-11-14"
   },
   {
     "id": "jw-tm410039",
@@ -36578,8 +39297,8 @@ const CATALOG_DATA = [
     "duree": "1h 25min",
     "runtime_minutes": 85,
     "note_avis": 5.3,
-    "note_recence": 8.4,
-    "note_globale": 6.9,
+    "note_recence": 7.9,
+    "note_globale": 6.6,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -36601,7 +39320,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-01-30"
   },
   {
     "id": "jw-tm812970",
@@ -36622,8 +39343,8 @@ const CATALOG_DATA = [
     "duree": "1h 27min",
     "runtime_minutes": 87,
     "note_avis": 6.1,
-    "note_recence": 8.6,
-    "note_globale": 7.4,
+    "note_recence": 8.2,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -36647,7 +39368,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2021-02-28"
   },
   {
     "id": "jw-tm1026007",
@@ -36668,8 +39391,8 @@ const CATALOG_DATA = [
     "duree": "1h 18min",
     "runtime_minutes": 78,
     "note_avis": 5.4,
-    "note_recence": 8.8,
-    "note_globale": 7.1,
+    "note_recence": 8.5,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -36690,7 +39413,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2021-09-23"
   },
   {
     "id": "jw-tm1325115",
@@ -36711,7 +39436,7 @@ const CATALOG_DATA = [
     "duree": "38min",
     "runtime_minutes": 38,
     "note_avis": 6.8,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
@@ -36732,7 +39457,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-02-09"
   },
   {
     "id": "jw-tm1466347",
@@ -36753,8 +39480,8 @@ const CATALOG_DATA = [
     "duree": "1h 33min",
     "runtime_minutes": 93,
     "note_avis": 6,
-    "note_recence": 9.5,
-    "note_globale": 7.8,
+    "note_recence": 9.4,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -36778,7 +39505,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2026-05-23"
   },
   {
     "id": "jw-tm1264494",
@@ -36799,9 +39528,9 @@ const CATALOG_DATA = [
     "duree": "53min",
     "runtime_minutes": 53,
     "note_avis": 6.9,
-    "note_recence": 9.1,
-    "note_globale": 8,
-    "etoiles": 5,
+    "note_recence": 8.8,
+    "note_globale": 7.9,
+    "etoiles": 4,
     "categories": [
       "drame_emotion"
     ],
@@ -36820,7 +39549,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2025-03-28"
   },
   {
     "id": "jw-tm852053",
@@ -36841,9 +39572,9 @@ const CATALOG_DATA = [
     "duree": "2h 00min",
     "runtime_minutes": 120,
     "note_avis": 5.3,
-    "note_recence": 8.6,
-    "note_globale": 7,
-    "etoiles": 4,
+    "note_recence": 8.2,
+    "note_globale": 6.8,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -36855,14 +39586,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/309842191/s592/le-fils-dun-roi.jpg",
     "synopsis": "Enfant d’ouvriers, Kevin, 17 ans, reconsidère la société et ses injustices quand son meilleur ami Elias lui parle des bienfaits de la monarchie dans son pays d’origine. La réflexion des deux lycéens à l’occasion d’un exposé d’Histoire les confrontera à de nombreux réfractaires, mais aussi à la découverte de l’héritage réel de la Monarchie Française.",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "aoc": "2027-03-31"
+      }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2022-03-09"
   },
   {
     "id": "jw-tm1366446",
@@ -36883,8 +39618,8 @@ const CATALOG_DATA = [
     "duree": "17min",
     "runtime_minutes": 17,
     "note_avis": 5.9,
-    "note_recence": 9.3,
-    "note_globale": 7.6,
+    "note_recence": 9.1,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -36906,7 +39641,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2025-12-01"
   },
   {
     "id": "jw-tm1228719",
@@ -36927,9 +39664,9 @@ const CATALOG_DATA = [
     "duree": "1h 02min",
     "runtime_minutes": 62,
     "note_avis": 6.9,
-    "note_recence": 9.1,
-    "note_globale": 8,
-    "etoiles": 5,
+    "note_recence": 8.8,
+    "note_globale": 7.9,
+    "etoiles": 4,
     "categories": [
       "drame_emotion"
     ],
@@ -36948,7 +39685,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2023-04-16"
   },
   {
     "id": "jw-tm1017422",
@@ -36969,9 +39708,9 @@ const CATALOG_DATA = [
     "duree": "52min",
     "runtime_minutes": 52,
     "note_avis": 7.6,
-    "note_recence": 8.6,
-    "note_globale": 8.1,
-    "etoiles": 5,
+    "note_recence": 8.2,
+    "note_globale": 7.9,
+    "etoiles": 4,
     "categories": [
       "drame_emotion"
     ],
@@ -36990,7 +39729,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2021-05-16"
   },
   {
     "id": "jw-tm1203331",
@@ -37011,8 +39752,8 @@ const CATALOG_DATA = [
     "duree": "1h 30min",
     "runtime_minutes": 90,
     "note_avis": 7.9,
-    "note_recence": 9.1,
-    "note_globale": 8.5,
+    "note_recence": 8.8,
+    "note_globale": 8.4,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -37032,7 +39773,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2022-02-01"
   },
   {
     "id": "jw-tm1664662",
@@ -37053,7 +39796,7 @@ const CATALOG_DATA = [
     "duree": "52min",
     "runtime_minutes": 52,
     "note_avis": 8,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.9,
     "etoiles": 5,
     "categories": [
@@ -37074,7 +39817,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2026-08-13"
   },
   {
     "id": "jw-tm1607171",
@@ -37095,8 +39840,8 @@ const CATALOG_DATA = [
     "duree": "1h 03min",
     "runtime_minutes": 63,
     "note_avis": 6.5,
-    "note_recence": 9.8,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "animation_famille"
@@ -37121,7 +39866,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-10-21"
   },
   {
     "id": "jw-tm917591",
@@ -37142,8 +39889,8 @@ const CATALOG_DATA = [
     "duree": "15min",
     "runtime_minutes": 15,
     "note_avis": 7.9,
-    "note_recence": 7.9,
-    "note_globale": 7.9,
+    "note_recence": 7.3,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -37165,7 +39912,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2023-12-01"
   },
   {
     "id": "jw-tm1120954",
@@ -37186,9 +39935,9 @@ const CATALOG_DATA = [
     "duree": "1h 59min",
     "runtime_minutes": 119,
     "note_avis": 5.2,
-    "note_recence": 8.8,
-    "note_globale": 7,
-    "etoiles": 4,
+    "note_recence": 8.5,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -37200,14 +39949,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/254352679/s592/la-beaute-du-monde.jpg",
     "synopsis": "Militaire souffrant de traumatismes, Roman ne parvient pas à trouver ses repères dans la société, à son retour de mission. Sa compagne Clara le quitte, et emmène avec elle, leur fils. Privé de sa famille, Roman part s’isoler à la montagne. Loin des regards, il laissera les souvenirs de la guerre l’envahir, jusqu’au jour où il croise un groupe de bucherons, touché par son état.",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "aoc": "2027-03-31"
+      }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2024-07-02"
   },
   {
     "id": "jw-tm468605",
@@ -37228,8 +39981,8 @@ const CATALOG_DATA = [
     "duree": "29min",
     "runtime_minutes": 29,
     "note_avis": 5.2,
-    "note_recence": 8.2,
-    "note_globale": 6.7,
+    "note_recence": 7.6,
+    "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
       "comedie"
@@ -37250,7 +40003,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2026-04-03"
   },
   {
     "id": "jw-tm880261",
@@ -37271,9 +40026,9 @@ const CATALOG_DATA = [
     "duree": "2h 00min",
     "runtime_minutes": 120,
     "note_avis": 5.5,
-    "note_recence": 8.6,
-    "note_globale": 7.1,
-    "etoiles": 4,
+    "note_recence": 8.2,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -37285,14 +40040,18 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/320400479/s592/le-soleil-reviendra.jpg",
     "synopsis": "Emma, 26 ans, est fiancée de Laurent, militaire envoyé en Afghanistan. En attendant son retour, Emma, enceinte, prépare leur future vie de famille : mais Laurent tarde à revenir de mission. Grâce à la force de leur relation, et à la complicité d’autres femmes de soldats, Emma tient le coup jusqu'à ce qu'une nouvelle épreuve vienne tout remettre en question...",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/03",
+      "daysLeft": 179,
+      "expirationDate": "2027-03-31",
+      "packageExpirations": {
+        "aoc": "2027-03-31"
+      }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2022-03-09"
   },
   {
     "id": "jw-tm1068646",
@@ -37313,8 +40072,8 @@ const CATALOG_DATA = [
     "duree": "52min",
     "runtime_minutes": 52,
     "note_avis": 6,
-    "note_recence": 8.8,
-    "note_globale": 7.4,
+    "note_recence": 8.5,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -37334,7 +40093,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2024-12-23"
   },
   {
     "id": "jw-tm422864",
@@ -37355,8 +40116,8 @@ const CATALOG_DATA = [
     "duree": "17min",
     "runtime_minutes": 17,
     "note_avis": 6.9,
-    "note_recence": 8.2,
-    "note_globale": 7.6,
+    "note_recence": 7.6,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -37380,7 +40141,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2021-06-11"
   },
   {
     "id": "jw-tm1594991",
@@ -37401,8 +40164,8 @@ const CATALOG_DATA = [
     "duree": "53min",
     "runtime_minutes": 53,
     "note_avis": 8,
-    "note_recence": 9.5,
-    "note_globale": 8.8,
+    "note_recence": 9.4,
+    "note_globale": 8.7,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -37422,7 +40185,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-01-26"
   },
   {
     "id": "jw-tm1059212",
@@ -37443,8 +40208,8 @@ const CATALOG_DATA = [
     "duree": "2h 10min",
     "runtime_minutes": 130,
     "note_avis": 7.2,
-    "note_recence": 9.1,
-    "note_globale": 8.2,
+    "note_recence": 8.8,
+    "note_globale": 8,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -37464,7 +40229,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2024-10-01"
   },
   {
     "id": "jw-tm1853006",
@@ -37485,7 +40252,7 @@ const CATALOG_DATA = [
     "duree": "1h 41min",
     "runtime_minutes": 101,
     "note_avis": 6.4,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
@@ -37509,7 +40276,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-05-28"
   },
   {
     "id": "jw-ts455110",
@@ -37530,7 +40299,7 @@ const CATALOG_DATA = [
     "duree": "42 min/ép.",
     "runtime_minutes": 42,
     "note_avis": 6.9,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 8.2,
     "etoiles": 5,
     "categories": [
@@ -37551,7 +40320,16 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2024,
+        "note": 6.9
+      }
+    ],
+    "date_ajout": "2024-10-29"
   },
   {
     "id": "jw-tm166064",
@@ -37572,9 +40350,9 @@ const CATALOG_DATA = [
     "duree": "1h 58min",
     "runtime_minutes": 118,
     "note_avis": 7.4,
-    "note_recence": 6.5,
-    "note_globale": 7,
-    "etoiles": 4,
+    "note_recence": 5.5,
+    "note_globale": 6.5,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -37597,7 +40375,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2011,
+    "date_ajout": "2011-09-14"
   },
   {
     "id": "jw-tm84441",
@@ -37663,8 +40443,8 @@ const CATALOG_DATA = [
     "duree": "1h 31min",
     "runtime_minutes": 91,
     "note_avis": 5.3,
-    "note_recence": 9.8,
-    "note_globale": 7.6,
+    "note_recence": 9.7,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -37686,7 +40466,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-06-18"
   },
   {
     "id": "jw-tm1522274",
@@ -37707,7 +40489,7 @@ const CATALOG_DATA = [
     "duree": "1h 29min",
     "runtime_minutes": 89,
     "note_avis": 5.8,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
@@ -37731,7 +40513,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-04-16"
   },
   {
     "id": "jw-tm1439288",
@@ -37752,8 +40536,8 @@ const CATALOG_DATA = [
     "duree": "1h 41min",
     "runtime_minutes": 101,
     "note_avis": 5.6,
-    "note_recence": 9.5,
-    "note_globale": 7.6,
+    "note_recence": 9.4,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -37776,7 +40560,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-08-24"
   },
   {
     "id": "jw-tm270987",
@@ -37797,8 +40583,8 @@ const CATALOG_DATA = [
     "duree": "1h 26min",
     "runtime_minutes": 86,
     "note_avis": 5.5,
-    "note_recence": 7.9,
-    "note_globale": 6.7,
+    "note_recence": 7.3,
+    "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
       "animation_famille"
@@ -37825,7 +40611,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2017-02-01"
   },
   {
     "id": "jw-tm1300247",
@@ -37846,8 +40634,8 @@ const CATALOG_DATA = [
     "duree": "1h 33min",
     "runtime_minutes": 93,
     "note_avis": 6.2,
-    "note_recence": 9.5,
-    "note_globale": 7.9,
+    "note_recence": 9.4,
+    "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -37868,7 +40656,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-08-20"
   },
   {
     "id": "jw-tm885567",
@@ -37889,8 +40679,8 @@ const CATALOG_DATA = [
     "duree": "2h 29min",
     "runtime_minutes": 149,
     "note_avis": 7.4,
-    "note_recence": 8.8,
-    "note_globale": 8.1,
+    "note_recence": 8.5,
+    "note_globale": 8,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -37914,7 +40704,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2021-10-20"
   },
   {
     "id": "jw-tm48811",
@@ -37935,8 +40727,8 @@ const CATALOG_DATA = [
     "duree": "1h 51min",
     "runtime_minutes": 111,
     "note_avis": 6.8,
-    "note_recence": 6.8,
-    "note_globale": 6.8,
+    "note_recence": 5.8,
+    "note_globale": 6.3,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -37960,7 +40752,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2012,
+    "date_ajout": "2012-11-21"
   },
   {
     "id": "jw-tm210043",
@@ -37981,8 +40775,8 @@ const CATALOG_DATA = [
     "duree": "2h 01min",
     "runtime_minutes": 121,
     "note_avis": 7.3,
-    "note_recence": 7.9,
-    "note_globale": 7.6,
+    "note_recence": 7.3,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -38006,7 +40800,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2018-01-31"
   },
   {
     "id": "jw-tm1498507",
@@ -38027,8 +40823,8 @@ const CATALOG_DATA = [
     "duree": "1h 18min",
     "runtime_minutes": 78,
     "note_avis": 5.7,
-    "note_recence": 9.8,
-    "note_globale": 7.8,
+    "note_recence": 9.7,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "scifi_fantastique"
@@ -38052,7 +40848,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-05-07"
   },
   {
     "id": "jw-ts421817",
@@ -38073,8 +40871,8 @@ const CATALOG_DATA = [
     "duree": "52 min/ép.",
     "runtime_minutes": 52,
     "note_avis": 7.1,
-    "note_recence": 9.8,
-    "note_globale": 8.5,
+    "note_recence": 9.7,
+    "note_globale": 8.4,
     "etoiles": 5,
     "categories": [
       "scifi_fantastique"
@@ -38099,7 +40897,16 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2025,
+        "note": 7.1
+      }
+    ],
+    "date_ajout": "2026-09-29"
   },
   {
     "id": "jw-tm1368952",
@@ -38120,7 +40927,7 @@ const CATALOG_DATA = [
     "duree": "1h 48min",
     "runtime_minutes": 108,
     "note_avis": 6.8,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
@@ -38145,7 +40952,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2026-06-17"
   },
   {
     "id": "jw-tm1624813",
@@ -38166,8 +40975,8 @@ const CATALOG_DATA = [
     "duree": "1h 21min",
     "runtime_minutes": 81,
     "note_avis": 6.3,
-    "note_recence": 9.8,
-    "note_globale": 8.1,
+    "note_recence": 9.7,
+    "note_globale": 8,
     "etoiles": 5,
     "categories": [
       "thriller_policier"
@@ -38192,7 +41001,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-06-11"
   },
   {
     "id": "jw-tm110716",
@@ -38259,8 +41070,8 @@ const CATALOG_DATA = [
     "duree": "1h 32min",
     "runtime_minutes": 92,
     "note_avis": 5.6,
-    "note_recence": 9.3,
-    "note_globale": 7.5,
+    "note_recence": 9.1,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "action_aventure"
@@ -38284,7 +41095,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2025-07-09"
   },
   {
     "id": "jw-tm1621852",
@@ -38305,7 +41118,7 @@ const CATALOG_DATA = [
     "duree": "1h 57min",
     "runtime_minutes": 117,
     "note_avis": 6,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.9,
     "etoiles": 4,
     "categories": [
@@ -38329,7 +41142,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-06-11"
   },
   {
     "id": "jw-tm64395",
@@ -38350,8 +41165,8 @@ const CATALOG_DATA = [
     "duree": "1h 50min",
     "runtime_minutes": 110,
     "note_avis": 6.5,
-    "note_recence": 6.8,
-    "note_globale": 6.7,
+    "note_recence": 5.8,
+    "note_globale": 6.2,
     "etoiles": 3,
     "categories": [
       "comedie"
@@ -38375,7 +41190,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2012,
+    "date_ajout": "2012-06-27"
   },
   {
     "id": "jw-tm1411396",
@@ -38396,7 +41213,7 @@ const CATALOG_DATA = [
     "duree": "1h 26min",
     "runtime_minutes": 86,
     "note_avis": 4.1,
-    "note_recence": 9.5,
+    "note_recence": 9.4,
     "note_globale": 6.8,
     "etoiles": 3,
     "categories": [
@@ -38421,7 +41238,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2024-06-21"
   },
   {
     "id": "jw-tm139063",
@@ -38442,8 +41261,8 @@ const CATALOG_DATA = [
     "duree": "1h 34min",
     "runtime_minutes": 94,
     "note_avis": 5.3,
-    "note_recence": 7.5,
-    "note_globale": 6.4,
+    "note_recence": 6.7,
+    "note_globale": 6,
     "etoiles": 3,
     "categories": [
       "horreur_epouvante"
@@ -38467,7 +41286,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2015,
+    "date_ajout": "2015-06-26"
   },
   {
     "id": "jw-tm136559",
@@ -38534,8 +41355,8 @@ const CATALOG_DATA = [
     "duree": "31 min/ép.",
     "runtime_minutes": 31,
     "note_avis": 7.2,
-    "note_recence": 8.6,
-    "note_globale": 7.9,
+    "note_recence": 8.2,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -38557,7 +41378,16 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2020,
+        "note": 7.2
+      }
+    ],
+    "date_ajout": "2026-09-30"
   },
   {
     "id": "jw-tm1501899",
@@ -38575,11 +41405,11 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2025,
-    "duree": "1h 50min",
-    "runtime_minutes": 110,
+    "duree": "1h 51min",
+    "runtime_minutes": 111,
     "note_avis": 7.3,
-    "note_recence": 9.8,
-    "note_globale": 8.6,
+    "note_recence": 9.7,
+    "note_globale": 8.5,
     "etoiles": 5,
     "categories": [
       "scifi_fantastique"
@@ -38603,7 +41433,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-06-11"
   },
   {
     "id": "jw-tm1881",
@@ -38624,9 +41456,9 @@ const CATALOG_DATA = [
     "duree": "2h 33min",
     "runtime_minutes": 153,
     "note_avis": 6.5,
-    "note_recence": 7.7,
-    "note_globale": 7.1,
-    "etoiles": 4,
+    "note_recence": 7,
+    "note_globale": 6.8,
+    "etoiles": 3,
     "categories": [
       "scifi_fantastique"
     ],
@@ -38649,7 +41481,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2016-03-23"
   },
   {
     "id": "jw-tm973372",
@@ -38670,9 +41504,9 @@ const CATALOG_DATA = [
     "duree": "2h 10min",
     "runtime_minutes": 130,
     "note_avis": 6.8,
-    "note_recence": 9.1,
-    "note_globale": 8,
-    "etoiles": 5,
+    "note_recence": 8.8,
+    "note_globale": 7.8,
+    "etoiles": 4,
     "categories": [
       "horreur_epouvante"
     ],
@@ -38695,7 +41529,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2022-07-22"
   },
   {
     "id": "jw-tm299698",
@@ -38716,9 +41552,9 @@ const CATALOG_DATA = [
     "duree": "2h 12min",
     "runtime_minutes": 132,
     "note_avis": 7.2,
-    "note_recence": 8.8,
-    "note_globale": 8,
-    "etoiles": 5,
+    "note_recence": 8.5,
+    "note_globale": 7.9,
+    "etoiles": 4,
     "categories": [
       "action_aventure"
     ],
@@ -38741,7 +41577,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2021-07-28"
   },
   {
     "id": "jw-tm151077",
@@ -38762,8 +41600,8 @@ const CATALOG_DATA = [
     "duree": "2h 00min",
     "runtime_minutes": 120,
     "note_avis": 7.7,
-    "note_recence": 7.2,
-    "note_globale": 7.5,
+    "note_recence": 6.4,
+    "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -38786,7 +41624,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_moyenne": 2014,
+    "date_ajout": "2015-02-25"
   },
   {
     "id": "jw-tm53839",
@@ -38854,7 +41694,7 @@ const CATALOG_DATA = [
     "duree": "1h 42min",
     "runtime_minutes": 102,
     "note_avis": 5.6,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
@@ -38875,7 +41715,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2026-01-20"
   },
   {
     "id": "jw-tm813757",
@@ -38896,8 +41738,8 @@ const CATALOG_DATA = [
     "duree": "1h 17min",
     "runtime_minutes": 77,
     "note_avis": 6.6,
-    "note_recence": 8.8,
-    "note_globale": 7.7,
+    "note_recence": 8.5,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "scifi_fantastique"
@@ -38919,7 +41761,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2021-05-19"
   },
   {
     "id": "jw-tm165083",
@@ -39029,9 +41873,9 @@ const CATALOG_DATA = [
     "duree": "1h 43min",
     "runtime_minutes": 103,
     "note_avis": 6.9,
-    "note_recence": 9.1,
-    "note_globale": 8,
-    "etoiles": 5,
+    "note_recence": 8.8,
+    "note_globale": 7.9,
+    "etoiles": 4,
     "categories": [
       "horreur_epouvante"
     ],
@@ -39053,7 +41897,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2022-06-24"
   },
   {
     "id": "jw-tm123152",
@@ -39074,8 +41920,8 @@ const CATALOG_DATA = [
     "duree": "2h 04min",
     "runtime_minutes": 124,
     "note_avis": 5.9,
-    "note_recence": 7.9,
-    "note_globale": 6.9,
+    "note_recence": 7.3,
+    "note_globale": 6.6,
     "etoiles": 3,
     "categories": [
       "scifi_fantastique"
@@ -39099,7 +41945,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2017-04-05"
   },
   {
     "id": "jw-tm428148",
@@ -39120,8 +41968,8 @@ const CATALOG_DATA = [
     "duree": "1h 50min",
     "runtime_minutes": 110,
     "note_avis": 5.4,
-    "note_recence": 9.3,
-    "note_globale": 7.4,
+    "note_recence": 9.1,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "horreur_epouvante"
@@ -39144,7 +41992,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-10-27"
   },
   {
     "id": "jw-tm305414",
@@ -39165,9 +42015,9 @@ const CATALOG_DATA = [
     "duree": "2h 08min",
     "runtime_minutes": 128,
     "note_avis": 6.1,
-    "note_recence": 8.2,
-    "note_globale": 7.2,
-    "etoiles": 4,
+    "note_recence": 7.6,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "scifi_fantastique"
     ],
@@ -39191,7 +42041,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-12-12"
   },
   {
     "id": "jw-tm376",
@@ -39212,8 +42064,8 @@ const CATALOG_DATA = [
     "duree": "1h 51min",
     "runtime_minutes": 111,
     "note_avis": 5.6,
-    "note_recence": 8.2,
-    "note_globale": 6.9,
+    "note_recence": 7.6,
+    "note_globale": 6.6,
     "etoiles": 3,
     "categories": [
       "scifi_fantastique"
@@ -39237,7 +42089,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2018-03-23"
   },
   {
     "id": "jw-tm1412203",
@@ -39258,8 +42112,8 @@ const CATALOG_DATA = [
     "duree": "2h 12min",
     "runtime_minutes": 132,
     "note_avis": 6.2,
-    "note_recence": 9.5,
-    "note_globale": 7.9,
+    "note_recence": 9.4,
+    "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -39284,7 +42138,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2024,
+    "date_ajout": "2025-01-22"
   },
   {
     "id": "jw-ts310736",
@@ -39305,8 +42161,8 @@ const CATALOG_DATA = [
     "duree": "53 min/ép.",
     "runtime_minutes": 53,
     "note_avis": 7.3,
-    "note_recence": 9.1,
-    "note_globale": 8.2,
+    "note_recence": 8.8,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -39330,7 +42186,16 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2022,
+        "note": 7.3
+      }
+    ],
+    "date_ajout": "2026-06-04"
   },
   {
     "id": "jw-tm1275386",
@@ -39351,8 +42216,8 @@ const CATALOG_DATA = [
     "duree": "1h 33min",
     "runtime_minutes": 93,
     "note_avis": 6.4,
-    "note_recence": 9.3,
-    "note_globale": 7.9,
+    "note_recence": 9.1,
+    "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -39377,7 +42242,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-04-14"
   },
   {
     "id": "jw-tm232748",
@@ -39398,8 +42265,8 @@ const CATALOG_DATA = [
     "duree": "1h 47min",
     "runtime_minutes": 107,
     "note_avis": 5.2,
-    "note_recence": 7.9,
-    "note_globale": 6.6,
+    "note_recence": 7.3,
+    "note_globale": 6.3,
     "etoiles": 3,
     "categories": [
       "horreur_epouvante"
@@ -39423,7 +42290,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2017-01-20"
   },
   {
     "id": "jw-tm79696",
@@ -39511,7 +42380,27 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_fin": 2021,
+    "annee_moyenne": 2020,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2018,
+        "note": 7.5
+      },
+      {
+        "saison": 2,
+        "annee": 2019,
+        "note": 7.5
+      },
+      {
+        "saison": 3,
+        "annee": 2021,
+        "note": 7.5
+      }
+    ],
+    "date_ajout": "2026-09-01"
   },
   {
     "id": "jw-tm350086",
@@ -39532,8 +42421,8 @@ const CATALOG_DATA = [
     "duree": "1h 32min",
     "runtime_minutes": 92,
     "note_avis": 6.4,
-    "note_recence": 8.4,
-    "note_globale": 7.4,
+    "note_recence": 7.9,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -39556,7 +42445,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-09-18"
   },
   {
     "id": "jw-tm1247754",
@@ -39577,8 +42468,8 @@ const CATALOG_DATA = [
     "duree": "1h 27min",
     "runtime_minutes": 87,
     "note_avis": 5.9,
-    "note_recence": 9.1,
-    "note_globale": 7.5,
+    "note_recence": 8.8,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -39602,7 +42493,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2022-12-07"
   },
   {
     "id": "jw-tm1506815",
@@ -39623,8 +42516,8 @@ const CATALOG_DATA = [
     "duree": "2h 10min",
     "runtime_minutes": 130,
     "note_avis": 6.6,
-    "note_recence": 9.8,
-    "note_globale": 8.2,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -39647,7 +42540,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-04-23"
   },
   {
     "id": "jw-tm186791",
@@ -39668,8 +42563,8 @@ const CATALOG_DATA = [
     "duree": "1h 40min",
     "runtime_minutes": 100,
     "note_avis": 5.9,
-    "note_recence": 7,
-    "note_globale": 6.5,
+    "note_recence": 6.1,
+    "note_globale": 6,
     "etoiles": 3,
     "categories": [
       "drame_emotion"
@@ -39692,7 +42587,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2013,
+    "date_ajout": "2013-08-14"
   },
   {
     "id": "jw-tm464517",
@@ -39713,8 +42610,8 @@ const CATALOG_DATA = [
     "duree": "1h 22min",
     "runtime_minutes": 82,
     "note_avis": 6.4,
-    "note_recence": 8.6,
-    "note_globale": 7.5,
+    "note_recence": 8.2,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -39739,7 +42636,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2020-10-21"
   },
   {
     "id": "jw-tm351435",
@@ -39760,8 +42659,8 @@ const CATALOG_DATA = [
     "duree": "1h 32min",
     "runtime_minutes": 92,
     "note_avis": 6.8,
-    "note_recence": 8.2,
-    "note_globale": 7.5,
+    "note_recence": 7.6,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -39783,7 +42682,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2018,
+    "date_ajout": "2019-03-27"
   },
   {
     "id": "jw-tm1081530",
@@ -39804,8 +42705,8 @@ const CATALOG_DATA = [
     "duree": "2h 01min",
     "runtime_minutes": 121,
     "note_avis": 7,
-    "note_recence": 8.8,
-    "note_globale": 7.9,
+    "note_recence": 8.5,
+    "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -39826,7 +42727,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2021,
+    "date_ajout": "2024-02-17"
   },
   {
     "id": "jw-tm832464",
@@ -39847,8 +42750,8 @@ const CATALOG_DATA = [
     "duree": "1h 33min",
     "runtime_minutes": 93,
     "note_avis": 7,
-    "note_recence": 8.6,
-    "note_globale": 7.8,
+    "note_recence": 8.2,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -39870,7 +42773,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2020,
+    "date_ajout": "2022-06-15"
   },
   {
     "id": "jw-tm1595274",
@@ -39891,8 +42796,8 @@ const CATALOG_DATA = [
     "duree": "1h 15min",
     "runtime_minutes": 75,
     "note_avis": 7.1,
-    "note_recence": 9.8,
-    "note_globale": 8.5,
+    "note_recence": 9.7,
+    "note_globale": 8.4,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -39913,7 +42818,9 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-02-04"
   },
   {
     "id": "jw-ts11846",
@@ -39930,12 +42837,12 @@ const CATALOG_DATA = [
     "package_slugs": [
       "auc"
     ],
-    "annee": 2013,
+    "annee": 2018,
     "duree": "53 min/ép.",
     "runtime_minutes": 53,
     "note_avis": 7.6,
-    "note_recence": 7,
-    "note_globale": 7.3,
+    "note_recence": 7.9,
+    "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -39960,7 +42867,22 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2019,
+    "annee_moyenne": 2019,
+    "saisons_disponibles": [
+      {
+        "saison": 6,
+        "annee": 2018,
+        "note": 7.6
+      },
+      {
+        "saison": 7,
+        "annee": 2019,
+        "note": 7.6
+      }
+    ],
+    "date_ajout": "2020-04-01"
   },
   {
     "id": "jw-tm70179",
@@ -40023,11 +42945,11 @@ const CATALOG_DATA = [
       "aoc"
     ],
     "annee": 2019,
-    "duree": "2h 27min",
-    "runtime_minutes": 147,
+    "duree": "2h 28min",
+    "runtime_minutes": 148,
     "note_avis": 7.1,
-    "note_recence": 8.4,
-    "note_globale": 7.8,
+    "note_recence": 7.9,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "horreur_epouvante"
@@ -40051,7 +42973,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2019,
+    "date_ajout": "2019-07-13"
   },
   {
     "id": "jw-tm939539",
@@ -40072,8 +42996,8 @@ const CATALOG_DATA = [
     "duree": "1h 42min",
     "runtime_minutes": 102,
     "note_avis": 6.3,
-    "note_recence": 9.1,
-    "note_globale": 7.7,
+    "note_recence": 8.8,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "horreur_epouvante"
@@ -40097,7 +43021,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2022,
+    "date_ajout": "2023-01-06"
   },
   {
     "id": "jw-tm134211",
@@ -40165,8 +43091,8 @@ const CATALOG_DATA = [
     "duree": "1h 59min",
     "runtime_minutes": 119,
     "note_avis": 6.1,
-    "note_recence": 9.3,
-    "note_globale": 7.7,
+    "note_recence": 9.1,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "horreur_epouvante"
@@ -40190,7 +43116,9 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": false,
+    "annee_moyenne": 2023,
+    "date_ajout": "2023-08-11"
   },
   {
     "id": "jw-tm1660393",
@@ -40211,7 +43139,7 @@ const CATALOG_DATA = [
     "duree": "1h 44min",
     "runtime_minutes": 104,
     "note_avis": 6,
-    "note_recence": 9.8,
+    "note_recence": 9.7,
     "note_globale": 7.9,
     "etoiles": 4,
     "categories": [
@@ -40232,6 +43160,293 @@ const CATALOG_DATA = [
       "expirationDate": "2026-12-10",
       "packageExpirations": {
         "aoc": "2026-12-10"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false,
+    "annee_moyenne": 2025,
+    "date_ajout": "2025-12-10"
+  },
+  {
+    "id": "jw-tm243100",
+    "titre": "Comancheria",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2016,
+    "annee_moyenne": 2016,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 7.6,
+    "note_recence": 7,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "trl",
+      "wsn"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/176945949/s592/comancheria.jpg",
+    "synopsis": "Deux frères, l'un ancien détenu, l'autre père de famille divorcé, organisent un braquage de banque. À leurs trousses, deux Texas Rangers déterminés à les faire tomber.",
+    "date_ajout": "2016-09-07",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-10-03",
+      "packageExpirations": {
+        "aoc": "2026-10-03"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1366560",
+    "titre": "A Normal Family",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 56min",
+    "runtime_minutes": 116,
+    "note_avis": 7.1,
+    "note_recence": 9.4,
+    "note_globale": 8.3,
+    "etoiles": 5,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/307564799/s592/a-normal-family.jpg",
+    "synopsis": "Deux frères, un avocat matérialiste et un chirurgien idéaliste, et leurs épouses respectives, se retrouvent une fois par mois autour d'un dîner. Au cours d'un de ces repas, les deux couples abordent l'agression criminelle de leurs enfants sur un vagabond. Ils font face alors à leurs différences de moralité et à des secrets longtemps enfouis…",
+    "date_ajout": "2025-06-11",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 02/12",
+      "daysLeft": 60,
+      "expirationDate": "2026-12-02",
+      "packageExpirations": {
+        "aoc": "2026-12-02"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm217910",
+    "titre": "L'Hermine",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2015,
+    "annee_moyenne": 2015,
+    "duree": "1h 38min",
+    "runtime_minutes": 98,
+    "note_avis": 6.5,
+    "note_recence": 6.7,
+    "note_globale": 6.6,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "cmy",
+      "crm",
+      "drm",
+      "rma",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/309857689/s592/lhermine.jpg",
+    "synopsis": "Xavier Racine est un président de cour d’assises redouté. Aussi dur avec lui qu’avec les autres, on l’appelle « le Président à deux chiffres ». Avec lui, on en prend toujours pour plus de dix ans. Tout bascule le jour où Racine retrouve Birgit Lorensen-Coteret. Elle fait partie du jury qui va devoir juger un homme accusé d’homicide. Six ans auparavant, Racine a aimé cette femme. Presque en secret. Peut-être la seule femme qu’il ait jamais aimée.",
+    "date_ajout": "2015-11-18",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-10-03",
+      "packageExpirations": {
+        "aoc": "2026-10-03"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm365456",
+    "titre": "Limonov: The Ballad",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "2h 13min",
+    "runtime_minutes": 133,
+    "note_avis": 5.8,
+    "note_recence": 9.4,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "hst"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/324388362/s592/limonov-the-ballad-of-eddie.jpg",
+    "synopsis": "Militant révolutionnaire, dandy, voyou, majordome ou sans abri, il fut tout à la fois un poète enragé et belliqueux, un agitateur politique et le romancier de sa propre grandeur. La vie d’Edouard Limonov, telle une traînée de soufre, est une ballade à travers les rues agitées de Moscou et les gratte-ciels de New-York, des ruelles de Paris au cœur des geôles de Sibérie pendant la seconde moitié du XXe siècle.",
+    "date_ajout": "2024-12-04",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-10-03",
+      "packageExpirations": {
+        "aoc": "2026-10-03"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1534811",
+    "titre": "Chew",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "21min",
+    "runtime_minutes": 21,
+    "note_avis": 7.1,
+    "note_recence": 9.4,
+    "note_globale": 8.3,
+    "etoiles": 5,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/320743024/s592/chew.jpg",
+    "synopsis": "Samedi soir, Céleste infiltre incognito la soirée de sa grande sœur Marie. Entre les invités, un mystérieux chewing-gum circule et provoque d’étranges transformations.",
+    "date_ajout": "2026-10-01",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1545807",
+    "titre": "Marmaille",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 34min",
+    "runtime_minutes": 94,
+    "note_avis": 6.6,
+    "note_recence": 9.4,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/328368359/s592/marmaille.jpg",
+    "synopsis": "Thomas, un adolescent réunionnais de 15 ans, n’aspire qu’à remporter un concours de breakdance et partir pour la métropole. Mais quand sa mère le met brutalement à la rue ainsi que sa sœur Audrey, leur monde s’effondre. Placés chez leur père inconnu et livrés à eux-mêmes, ils doivent surmonter l’abandon et se reconstruire.",
+    "date_ajout": "2024-12-04",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-10-03",
+      "packageExpirations": {
+        "aoc": "2026-10-03"
       }
     },
     "on_prime": false,

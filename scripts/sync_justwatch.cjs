@@ -74,9 +74,9 @@ const GRAPHQL_QUERY = `
               shortName
             }
             monetizationType
-            availableFrom
             availableTo
             availableToTime
+            availableFromTime
           }
         }
       }

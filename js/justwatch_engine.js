@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v20';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v20';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v20';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v20';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v21';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v21';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v21';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v21';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -751,9 +751,9 @@ const JustWatchEngine = (function () {
 
     // Extraction de la date d'arrivée / nouveauté
     let dateAjout = null;
-    const offersWithDates = offers.filter(o => o && o.availableFrom);
+    const offersWithDates = offers.filter(o => o && (o.availableFromTime || o.availableFrom));
     if (offersWithDates.length > 0) {
-      const dates = offersWithDates.map(o => o.availableFrom).sort();
+      const dates = offersWithDates.map(o => (o.availableFromTime || o.availableFrom)).sort();
       dateAjout = dates[0].split('T')[0];
     }
 
@@ -886,6 +886,7 @@ const JustWatchEngine = (function () {
       date_ajout: base.date_ajout || incoming.date_ajout || undefined,
       expiration: mergedExpiration,
       poster: incoming.poster || base.poster,
+      saisons_disponibles: (incoming.saisons_disponibles && incoming.saisons_disponibles.length > 0) ? incoming.saisons_disponibles : base.saisons_disponibles,
       on_prime: onPrime,
       on_tnt: onTnt
     };
@@ -993,9 +994,9 @@ const JustWatchEngine = (function () {
                   shortName
                 }
                 monetizationType
-                availableFrom
                 availableTo
                 availableToTime
+                availableFromTime
               }
             }
           }
