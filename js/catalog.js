@@ -10303,10 +10303,10 @@ const CATALOG_DATA = [
     ],
     "duree": "1h 38min",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "warning",
+      "label": "⏳ Expire dans 5 j",
+      "daysLeft": 5,
+      "expirationDate": "2026-10-08",
       "packageExpirations": {
         "aca": "2026-10-08"
       }
@@ -10856,10 +10856,10 @@ const CATALOG_DATA = [
     ],
     "duree": "1h 33min",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 28/02",
+      "daysLeft": 148,
+      "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
@@ -18052,10 +18052,10 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/191777384/s592/acts-of-vengeance.jpg",
     "synopsis": "Un avocat fait vœu de silence jusqu'à ce qu'il découvre qui a tué sa femme et sa fille et qu'il se venge.",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 28/02",
+      "daysLeft": 148,
+      "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
@@ -40147,53 +40147,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm243100",
-    "titre": "Comancheria",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2016,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 7.6,
-    "note_recence": 7.7,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "wsn"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176945949/s592/comancheria.jpg",
-    "synopsis": "Deux frères, l'un ancien détenu, l'autre père de famille divorcé, organisent un braquage de banque. À leurs trousses, deux Texas Rangers déterminés à les faire tomber.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-03",
-      "packageExpirations": {
-        "aoc": "2026-10-03"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1076773",
     "titre": "Le Dernier Voyage du Demeter",
     "type": "film",
@@ -40279,189 +40232,6 @@ const CATALOG_DATA = [
       "expirationDate": "2026-12-10",
       "packageExpirations": {
         "aoc": "2026-12-10"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm217910",
-    "titre": "L'Hermine",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2015,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 6.5,
-    "note_recence": 7.5,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/309857689/s592/lhermine.jpg",
-    "synopsis": "Xavier Racine est un président de cour d’assises redouté. Aussi dur avec lui qu’avec les autres, on l’appelle « le Président à deux chiffres ». Avec lui, on en prend toujours pour plus de dix ans. Tout bascule le jour où Racine retrouve Birgit Lorensen-Coteret. Elle fait partie du jury qui va devoir juger un homme accusé d’homicide. Six ans auparavant, Racine a aimé cette femme. Presque en secret. Peut-être la seule femme qu’il ait jamais aimée.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-03",
-      "packageExpirations": {
-        "aoc": "2026-10-03"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm365456",
-    "titre": "Limonov: The Ballad",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2024,
-    "duree": "2h 13min",
-    "runtime_minutes": 133,
-    "note_avis": 5.8,
-    "note_recence": 9.5,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/324388362/s592/limonov-the-ballad-of-eddie.jpg",
-    "synopsis": "Militant révolutionnaire, dandy, voyou, majordome ou sans abri, il fut tout à la fois un poète enragé et belliqueux, un agitateur politique et le romancier de sa propre grandeur. La vie d’Edouard Limonov, telle une traînée de soufre, est une ballade à travers les rues agitées de Moscou et les gratte-ciels de New-York, des ruelles de Paris au cœur des geôles de Sibérie pendant la seconde moitié du XXe siècle.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-03",
-      "packageExpirations": {
-        "aoc": "2026-10-03"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts76577",
-    "titre": "Le Sang de la vigne",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2011,
-    "duree": "92 min/ép.",
-    "runtime_minutes": 92,
-    "note_avis": 7.1,
-    "note_recence": 6.5,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/30000665/s592/le-sang-de-la-vigne.jpg",
-    "synopsis": "Cette série met en scène les investigations menées par l'éminent œnologue français Benjamin Lebel, sa compagne France Pelletier et ses assistants Mathilde et Silvère, à la suite de meurtres commis dans le milieu viticole.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-03",
-      "packageExpirations": {
-        "auc": "2026-10-03"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1545807",
-    "titre": "Marmaille",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2024,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 6.6,
-    "note_recence": 9.5,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/328368359/s592/marmaille.jpg",
-    "synopsis": "Thomas, un adolescent réunionnais de 15 ans, n’aspire qu’à remporter un concours de breakdance et partir pour la métropole. Mais quand sa mère le met brutalement à la rue ainsi que sa sœur Audrey, leur monde s’effondre. Placés chez leur père inconnu et livrés à eux-mêmes, ils doivent surmonter l’abandon et se reconstruire.",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-03",
-      "packageExpirations": {
-        "aoc": "2026-10-03"
       }
     },
     "on_prime": false,
