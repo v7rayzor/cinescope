@@ -662,7 +662,18 @@ Intégration de 3 boutons de profils sur la barre PC, séparés par un diviseur 
 - **Adaptation au bouquet sélectionné** : Lorsqu'un bouquet spécifique est filtré (ex: *Universal+*), la date d'expiration prise en compte pour le tri et les badges est précisément celle de ce bouquet (`item.expiration.packageExpirations[bouquet]`), et non la date globale maximale inter-bouquets.
 - **Harmonisation Cartes & Modale** : Les badges sur les cartes et les mentions de disponibilité dans la modale s'alignent automatiquement sur la date précise du bouquet actif.
 
-### C. Versions & Traçabilité
+### C. Bilan Statistique de l'Impact du Barème de Récence 20 Ans ($2006 = 4.0/10$)
+* **Éliminations totales** : **97 œuvres** (~11% du catalogue) :
+  * 17 œuvres sorties car antérieures à 2006.
+  * 80 œuvres (2006-2013 avec note avis modérée) dont la note globale est passée sous le seuil d'éligibilité de 6.0/10.
+* **Répartition des étoiles** :
+  * **5 Étoiles** : 2 (100% stables, 0 dégradation).
+  * **4 Étoiles** : 182 œuvres (27 œuvres de 2023-2024 avec note avis $6.4/10$ sont passées de 8.0 à 7.9).
+  * **3 Étoiles** : 350 œuvres (105 œuvres 2006-2014 sont passées à 2 étoiles).
+  * **2 Étoiles** : 248 œuvres.
+
+### D. Versions & Traçabilité
 * **Service Worker PWA** : Cache mis à jour à `cinescope-v8.31-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
 * **Balises Assets HTML** : Query params incrémentés à `?v=8.31` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
-* **Validation & Conformité** : 882 œuvres (762 films, 120 séries), 0 titre expiré restant, 100% conformes.
+* **Validation & Conformité** : 882 œuvres (762 films, 120 séries), 0 titre expiré restant, 100% conformes à la Règle Fondamentale (1 catégorie unique par œuvre).
+
