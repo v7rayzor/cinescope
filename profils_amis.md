@@ -25,33 +25,39 @@ Guide de curation et profils de goûts pour les recommandations de films et sér
     - Emprunte au profil féminin le goût pour **le mystère, la déduction, la finesse narrative, les secrets d'époque et les tandems soudés**.
     - **Cœur émotionnel & Romance intégrée** : Grand attachement aux histoires où une **relation amoureuse sincère, protectrice et complice** sert de fil conducteur et d'ancrage émotionnel face au mystère ou au danger.
 - **Références socles & Expériences vécues** :
+  - *Anomalia* (mystère médical & ésotérique feutré dans les Alpes suisses, guérisons inexpliquées et secrets sans gore) — **Regardé et aimé (Référence clé paranormal feutré)**.
   - *Domino Day* (sorcellerie urbaine contemporaine, secrets, ambiance britannique) — **Regardé et aimé**.
   - *The Librarians : L'Héritage de Flynn Carson / The Next Chapter* (artefacts magiques, mythologie, esprit d'équipe) — **Regardé et aimé**.
   - *Le Ministère du Temps* (missions historiques, voyages temporels, intrigue intelligente et liens du cœur) — **En cours (fin saison 2, validé)**.
-  - *Midnight, Texas* (communauté paranormale refuge, mystère feutré) — **En cours de visionnage (Validé)**.
+  - *Midnight, Texas* (communauté paranormale refuge, mystère feutré et touches d'humour) — **En cours de visionnage (Fin saison 1, aimé & validé)**.
+  - *Wild Cards* (duo d'enquête complice détective/arnaqueuse, dynamique vive et touches d'humour esprit *Castle*) — **En cours de visionnage (2 épisodes vus, validé)**.
   - *Toutouyoutou* (comédie d'espionnage rétro et sororité complice en 26 min) — **En cours de visionnage (OCS Signature)**.
   - *Boy 7* (anticipation amnésique sublimée par la romance, la complicité et la confiance mutuelle du duo) — **Regardé et aimé (Référence clé romance & mystère)**.
   - *Bull* (procès et psychologie comportementale, matière grise, éloquence et esprit d'équipe) — **Regardé et aimé**.
   - *Under the Dome* (grand mystère fantastique/SF de communauté isolée sous cloche, suspense et secrets) — **Regardé et aimé**.
   - *Extra-Lucide* (dramédie fantastique sur la télépathie, secrets et complicité humaine sans violence) — **Regardé et aimé (Coup de cœur OCS Signature)**.
   - *Pécheresses* (comédie d'émancipation en internat catholique, sororité complice et ton vif en 6x26 min) — **Regardé et aimé (Coup de cœur OCS Signature)**.
+  - *LT-21* (anticipation médicale amnésique en 26 min) — **En cours de visionnage (Moins aimé / trop austère & clinique)**.
 - **Aversions & Rejets Formels** :
   - 🚫 **Zéro vulgarité / Grossièretés appuyées** : Rejet des dialogues orduriers permanents ou du trash gratuit.
   - 🚫 **Zéro armes réelles lourdes / Films de guerre** : Rejet des fusillades militarisées réalistes, combats à la mitraillette ou violence armée pesante.
   - 🚫 **Zéro panique de masse / Hécatombe de cadavres** : Rejet des récits catastrophes anxiogènes, de l'hystérie collective ou des films de contagion gores.
-  - **Préférence esthétique** : Magie, pouvoirs, artefacts anciens, anomalies temporelles, mystères occultes feutrés, romances protectrices et formats courts pétillants d'humanité (25-30 min).
+  - 🚫 **Zéro récits trop froids, cliniques ou austères** : Rejet des atmosphères pesantes ou dépressives dénuées de chaleur humaine, de complicité ou de touches d'humour (ex: *LT-21*).
+  - **Préférence esthétique** : Magie, pouvoirs, artefacts anciens, anomalies temporelles, mystères occultes feutrés, romances protectrices, touches d'humour bienveillantes et formats courts pétillants d'humanité (25-30 min).
 
 ### Sélections Validées & Pistes Idéales (Moi)
 | Titre | Genre / Style | Plateforme / Échéance | Affinité & Description |
 | :--- | :--- | :--- | :--- |
-| **Timeless** | Voyage dans le Temps • Histoire & Tandem | Universal+ (Pérenne) | **90%** — L'équivalent américain du *Ministère du Temps* : un trio d'historiens et d'experts voyage à travers les époques pour préserver le continuum face à une organisation secrète. Intelligent, rythmé, zéro militarisme lourd. |
-| **LT-21** | Anticipation Médicale • Romance & Amnésie | Ciné+ OCS (Pérenne) | **85-90%** — L'esprit de *Boy 7* : virus d'amnésie sans aucune mort ni panique de masse, centré sur le combat d'un couple de médecins pour préserver leur amour et leur humanité (8 x 26 min). |
-| **Desde el mañana** | Mystère Temporel • Visions du Futur & Famille | Universal+ (Échéance : 05/12) | **85%** — Par le créateur d'*Estoy vivo* : une femme découvre un minerai lui dévoilant le futur et s'associe à un policier pour sauver les siens. Mystère feutré et fort tandem protecteur. |
-| **Aspergirl** | Comédie & Tendresse • Duo Fusionnel Mère/Fils | Ciné+ OCS (Pérenne) | **85%** — Dans l'esprit d'*Extra-Lucide* et *Pécheresses* : complicité drôle et émouvante d'un duo qui assume sa singularité face au monde (épisodes courts de 26 min). |
-| **The Spiderwick Chronicles** | Aventure Fantastique • Magie & Créatures | Universal+ (Inédit 2024) | **85%** — Adaptation contemporaine riche en mystère féerique, secrets de famille et grimoire magique. Équilibre parfait sans grossièreté. |
-| **Jeune et golri** | Comédie d'Auteur & Romance • Fraîcheur & Cœur | Ciné+ OCS (Pérenne) | **80-85%** — Petite pépite OCS Signature primée à Séries Mania : parcours touchant et drôle d'une jeune femme avec une belle dimension sentimentale (25 min). |
-| **Brave New World** | Anticipation Cérébrale • Utopie & Mystère | Universal+ (Pérenne) | **80%** — Science-fiction philosophique et esthétique sans batailles de guerre armée, centrée sur le contrôle sociétal et l'humanité. |
-| **Revival** | Surnaturel Rural Feutré • Secrets de Communauté | Universal+ / Ciné+ OCS (Pérenne) | **85%** — Ambiance proche de *Midnight, Texas* : mystère de résurrection calme et oppressant, résolu par l'enquête et la compréhension du phénomène. |
+| **Timeless** | Voyage dans le Temps • Histoire & Tandem | Universal+ (Pérenne) | **92%** — L'équivalent américain du *Ministère du Temps* : trio d'experts voyageant dans l'Histoire, continuité temporelle, alchimie amoureuse protectrice et dynamisme sans lourdeur militaire. |
+| **Resident Alien** | SF Fantastique & Humour • Communauté & Mystère | Universal+ (4 Saisons) | **92%** — Synthèse parfaite de *Midnight, Texas* (communauté isolée), du mystère médical (*Anomalia*) et d'un humour communicatif irrésistible avec Alan Tudyk. |
+| **Desde el mañana** | Mystère Temporel • Visions du Futur & Famille | Universal+ (Échéance : 05/12) | **88%** — Par le créateur d'*Estoy vivo* : visions temporelles, secrets et tandem protecteur femme / flic très chaleureux. |
+| **Aspergirl** | Comédie & Tendresse • Duo Fusionnel Mère/Fils | Ciné+ OCS (Pérenne) | **88%** — Dans l'esprit d'*Extra-Lucide* et *Pécheresses* : duo fusionnel et touchant, réparties drôles, grande tendresse et zéro vulgarité (26 min). |
+| **Midnight, Texas** | Surnaturel Feutré • Communauté Refuge & Humour | Universal+ (Pérenne) | **85%** — Ambiance paranormale feutrée, galerie de personnages attachants et touches d'humour bien dosées (fin de saison 1 validée & aimée). |
+| **Wild Cards** | Enquête & Complicité • Duo Rythmé & Humour | 13ème Rue (Inédit 2024) | **85%** — Tandem complice et piquant détective / arnaqueuse, enquêtes dynamiques avec une vraie touche d'humour esprit *Castle* (validé après 2 épisodes). |
+| **The Spiderwick Chronicles** | Aventure Fantastique • Magie & Créatures | Universal+ (Inédit 2024) | **85%** — Adaptation riche en mystère féerique, secrets de famille et grimoire magique. Équilibre parfait sans grossièreté. |
+| **Jeune et golri** | Comédie d'Auteur & Romance • Fraîcheur & Cœur | Ciné+ OCS (Pérenne) | **82%** — Petite pépite OCS Signature : fraîcheur d'écriture, autodérision et belle dimension sentimentale (25 min). |
+| **Revival** | Surnaturel Rural Feutré • Secrets de Communauté | Universal+ / Ciné+ OCS (Pérenne) | **78%** *(Ajusté)* — Mystère de résurrection calme et bien ficelé, mais ambiance plus sombre et sérieuse avec moins de respirations comiques. |
+| **Brave New World** | Anticipation Cérébrale • Utopie & Société | Universal+ (Pérenne) | **72%** *(Ajusté)* — Science-fiction philosophique esthétique, mais plus distante émotionnellement et sans humour. |
 
 ---
 

@@ -717,11 +717,58 @@ Intégration de 3 boutons de profils sur la barre PC, séparés par un diviseur 
 - **Intégration d'un SVG Vectoriel Dédié** : Remplacement de l'emoji standard par une icône vectorielle SVG (`season-badge-icon`) de triangle d'avertissement net, proportionné et homogène.
 - **Flexbox & Alignement Millimétré** : Application de `display: inline-flex; align-items: center; justify-content: center; gap: 0.35rem; line-height: 1;` sur `.card-season-badge` pour éliminer tout décalage vertical et garantir un centrage optique parfait sur tous les supports (PC, Mac, mobile).
 
-### E. Versions & Traçabilité
-* **Service Worker PWA** : Cache mis à jour à `cinescope-v8.33-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
-* **Balises Assets HTML** : Query params incrémentés à `?v=8.33` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
-* **LocalStorage** : Clés alignées sur `_v21`.
-* **Conformité & Intégrité** : 888 œuvres qualifiées (768 films, 120 séries), 100% conformes à la Règle Fondamentale (1 catégorie unique par œuvre).
+---
 
+## 18. Actualisation des Retours & Validation Profil Utilisateur (Moi)
+* **Midnight, Texas** :
+  * **Statut** : Fin de saison 1 visionnée, aimée et formellement validée.
+  * **Appréciation** : Atmosphère paranormale feutrée, communauté refuge attachante et touches d'humour bien dosées.
+  * **Impact Moteur / Fiches** : Alignement du score d'affinité utilisateur à **85%** dans [`js/app.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/app.js) et mise à jour de la fiche [`profils_amis.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/profils_amis.md).
+* **Wild Cards** :
+  * **Statut** : 2 premiers épisodes visionnés et formellement validés.
+  * **Appréciation** : Dynamique vive et piquante du duo détective / arnaqueuse (esprit *Castle*), ton léger et touches d'humour réussies.
+* **Anomalia** :
+  * **Statut** : Visionné et aimé (Référence clé du paranormal feutré).
+  * **Appréciation** : Mystère médical & ésotérique élégant dans les Alpes suisses, intuition, secrets de famille et guérisons inexpliquées sans violence gratuite ni gore.
+  * **Impact Moteur / Fiches** : Intégration à **90%** dans [`js/app.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/app.js) et ajout dans les références socles de [`profils_amis.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/profils_amis.md).
+* **LT-21 (Rétrogradation)** :
+  * **Statut** : En cours de visionnage mais beaucoup moins aimé.
+  * **Motif** : Anticipation amnésique trop froide, clinique et austère, manquant de respirations comiques et de chaleur humaine.
+  * **Impact Moteur / Fiches** : Retrait du calibrage haut (rétrogradé à 45%) dans [`js/app.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/app.js) et retrait des sélections idéales de [`profils_amis.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/profils_amis.md).
+* **Recalibrage & Réordonnancement des Pistes Idéales (Moi)** :
+  * **Timeless** $\rightarrow$ **92%** : Maîtrise temporelle, tandem romantique et protecteur complice.
+  * **Resident Alien** $\rightarrow$ **92%** : Intégration en tête de liste (synthèse de *Midnight, Texas* + *Anomalia* + humour attachant).
+  * **Desde el mañana** $\rightarrow$ **88%** : Visions temporelles et duo protecteur chaleureux.
+  * **Aspergirl** $\rightarrow$ **88%** : Complicité mère/fils, humour bienveillant et tendresse sans vulgarité (26 min).
+  * **Midnight, Texas** $\rightarrow$ **85%** : Communauté surnaturelle feutrée et touches d'humour (fin S1 validée).
+  * **Wild Cards** $\rightarrow$ **85%** : Duo d'enquête complice et humour communicatif esprit *Castle* (validé 2 épisodes).
+  * **The Spiderwick Chronicles** $\rightarrow$ **85%** : Aventure fantastique et magie familiale.
+  * **Jeune et golri** $\rightarrow$ **82%** : Comédie sentimentale d'auteur pleine d'autodérision (25 min).
+  * **Revival** $\rightarrow$ **78%** *(Ajusté)* : Décote due au manque de touches d'humour malgré l'intérêt surnaturel rural.
+  * **Brave New World** $\rightarrow$ **72%** *(Ajusté)* : Décote due à la distance émotionnelle et l'absence d'humour.
 
+---
 
+## 23. Règle d'Or des Longs-Métrages : Seuil Strict $\ge 60\text{ min}$ & Exclusion des Formats Courts (v8.34 / v22)
+
+### A. Contexte & Règle Métier CNC
+- **Constat** : Le flux unitaire JustWatch (`tm-...`) importait indifféremment des courts-métrages de festival (ex: *Partir un jour*, *La Bifle*, *Lucienne dans un monde sans solitude*) et des portraits documentaires / moyens-métrages télévisés de 50 à 59 minutes (ex: *Lux Æterna*, portraits Ciné+ de *Van Damme*, *Kate Winslet*, *Keanu Reeves*...).
+- **Règle Adoptée** : Application stricte de la définition officielle du long-métrage de fiction selon le **CNC** ($\ge 60\text{ minutes}$).
+- **Portée** :
+  - **Films & Téléfilms** : Tout titre avec `runtime < 60` est désormais exclu à l'ingestion (`return null` dans `processTitleNode`).
+  - **Séries TV** : Les épisodes de formats 26 min / 45 min restent naturellement préservés dans l'onglet **Séries**.
+
+### B. Impact & Bilan Catalogue
+1. **Titres écartés (27 au total)** :
+   - **12 courts-métrages** : *Troc Mort* (15 min), *A Short Trip* (17 min), *Watch list* (17 min), *Les Gendarmes et les voleurs* (18 min), *Na Marei* (21 min), *Chew* (21 min), *Partir un jour* (25 min), *La Bifle* (25 min), *La Vie de jeune fille* (29 min), *Lucienne dans un monde sans solitude* (31 min), *J'ai vu le visage du diable* (36 min), *Un pincement au cœur* (38 min).
+   - **15 moyens-métrages / portraits TV (51 à 59 min)** : *Lux Æterna* (51 min), documentaires cinéma Ciné+ (*Kate Winslet*, *Jean-Claude Van Damme*, *Sean Connery*, *Kathryn Bigelow*, *Clint Eastwood*, *Jacques Audiard*, *Denzel Washington*, *Carolco*...).
+2. **État du Catalogue Officiel** :
+   - **Total** : **861 œuvres qualifiées**.
+   - **Films** : **741 longs-métrages** (100% $\ge 60\text{ min}$, 1 seule catégorie par œuvre, notes globales $\ge 6.0$).
+   - **Séries** : **120 séries** qualifiées.
+
+### C. Déploiement & Versions
+* **Moteur JustWatch** : Constantes de stockage passées en `v22` (`cinescope_streaming_catalog_v22`, `cinescope_streaming_last_sync_v22`, `cinescope_streaming_last_full_sync_v22`, `cinescope_streaming_autosync_v22`) dans [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js).
+* **Catalogue** : [`js/catalog.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js) mis à jour (861 œuvres).
+* **Service Worker PWA** : Cache actualisé à `cinescope-v8.34-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
+* **Cache Busters** : Feuille de style actualisée à `css/style.css?v=8.34` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).

@@ -303,24 +303,27 @@ function computeProfileAffinity(item, profile) {
     if (cat === 'horreur_epouvante' && (syn.includes('gore') || syn.includes('massacre') || syn.includes('slasher'))) return 0;
 
     // Titres socles calibrés
-    if (titre.includes('timeless')) return 90;
-    if (titre.includes('lt-21') || titre.includes('lt 21')) return 90;
-    if (titre.includes('le ministère du temps') || titre.includes('ministerio del tiempo')) return 90;
+    if (titre.includes('timeless')) return 92;
+    if (titre.includes('resident alien')) return 92;
+    if (titre.includes('anomalia')) return 90;
+    if (titre.includes('le ministère du temps') || titre.includes('ministerio del temps') || titre.includes('ministerio del tiempo')) return 90;
     if (titre.includes('boy 7')) return 90;
-    if (titre.includes('desde el mañana') || titre.includes('desde el manana')) return 85;
-    if (titre.includes('aspergirl')) return 85;
+    if (titre.includes('desde el mañana') || titre.includes('desde el manana')) return 88;
+    if (titre.includes('aspergirl')) return 88;
     if (titre.includes('the spiderwick chronicles') || titre.includes('chroniques de spiderwick')) return 85;
+    if (titre.includes('midnight, texas')) return 85;
+    if (titre.includes('wild cards')) return 85;
     if (titre.includes('the librarians') || titre.includes('flynn carson')) return 85;
     if (titre.includes('domino day')) return 85;
     if (titre.includes('extra-lucide') || titre.includes('extra lucide')) return 85;
     if (titre.includes('pécheresses') || titre.includes('pecheresses')) return 85;
-    if (titre.includes('revival')) return 85;
-    if (titre.includes('jeune et golri')) return 85;
-    if (titre.includes('brave new world')) return 80;
-    if (titre.includes('midnight, texas')) return 80;
-    if (titre.includes('toutouyoutou')) return 80;
     if (titre.includes('bull')) return 85;
     if (titre.includes('under the dome')) return 85;
+    if (titre.includes('jeune et golri')) return 82;
+    if (titre.includes('toutouyoutou')) return 80;
+    if (titre.includes('revival')) return 78;
+    if (titre.includes('brave new world')) return 72;
+    if (titre.includes('lt-21') || titre.includes('lt 21')) return 45;
 
     let score = 0;
     if (cat === 'scifi_fantastique') score += 40;

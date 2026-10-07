@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v21';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v21';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v21';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v21';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v22';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v22';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v22';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v22';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -615,6 +615,9 @@ const JustWatchEngine = (function () {
 
     const isSerie = node.id && (node.id.startsWith('ts') || node.nodeType === 'SHOW');
     const typeStr = isSerie ? 'serie' : 'film';
+
+    // Condition 0ter : Pour les films, durée minimale obligatoire de 60 min (exclusion des courts et moyens-métrages)
+    if (!isSerie && (!c.runtime || c.runtime < 60)) return null;
 
     let anneeDebut = year;
     let anneeFin = year;
