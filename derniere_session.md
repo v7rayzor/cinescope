@@ -772,3 +772,47 @@ Intégration de 3 boutons de profils sur la barre PC, séparés par un diviseur 
 * **Catalogue** : [`js/catalog.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js) mis à jour (861 œuvres).
 * **Service Worker PWA** : Cache actualisé à `cinescope-v8.34-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
 * **Cache Busters** : Feuille de style actualisée à `css/style.css?v=8.34` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
+
+---
+
+## 24. Audit Visionnage & Ajustement Profil Utilisateur : *Reviens-moi* (*Atonement*)
+
+### A. Retour d'Expérience & Analyse Critique
+* **Œuvre** : *Reviens-moi* (*Atonement*, 2007) de Joe Wright.
+* **Statut** : Visionné et rejeté (« bof / brouillon »).
+* **Motifs du rejet** :
+  * **Narration éclatée et non-linéaire** : Multiplicité des points de vue subjectifs répétés au début (scènes de la fontaine et de la bibliothèque rejouées sous différents angles).
+  * **Va-et-vient temporels confus** : Ruptures temporelles brutales (1935 domaine familial $\rightarrow$ 1940 errance militaire à Dunkerque $\rightarrow$ 1940 Londres $\rightarrow$ interview télévisée contemporaine avec mise en abyme littéraire).
+  * **Rupture du tandem** : Absence de duo complice partageant l'écran (le couple est séparé dès le premier acte).
+  * **Tonalité de guerre pesante** : Épisode de Dunkerque axé sur la détresse militaire et les blessures, en décalage avec la romance protectrice et le mystère feutré recherchés.
+
+### B. Mises à Jour Appliquées dans [`profils_amis.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/profils_amis.md)
+1. **Intégration aux Expériences vécues** : Ajout de *Reviens-moi* avec statut explicite « Regardé et rejeté ».
+2. **Nouvelle Règle d'Aversion Formelle** :
+   * 🚫 **Zéro narration déconstruite / Allers-retours temporels confus** : Rejet des récits à chronologie éclatée, points de vue subjectifs répétés ou déconstructions méta nuisant à la lisibilité et à la fluidité du fil conducteur.
+3. **Audit des Titres Éliminés** : Inscription du titre et de son motif de rejet dans le tableau récapitulatif.
+
+---
+
+## 25. Barre de Recherche Titres Dédiée sur PC (v8.35)
+
+### A. Spécifications & Ergonomie
+* **Exclusivité Desktop / PC** : Intégration dans le header principal (`.header-search-bar`) visible exclusivement sur écran large ($\ge 1024\text{px}$) et strictement masquée sur mobile/tablette (`display: none !important;`).
+* **Design Cinéma Dark Glassmorphic** :
+  * Champ arrondi avec icône loupe SVG intégrée, micro-interactions, halo néon rouge (`--accent-red-glow`) au focus.
+  * Bouton d'effacement rapide `✕` (`.search-clear-btn`) avec transition fluide (apparaît automatiquement dès qu'un caractère est saisi).
+  * Raccourci clavier : appui sur la touche `Échap` (`Escape`) pour vider instantanément la recherche et quitter le champ.
+
+### B. Moteur de Recherche en Temps Réel
+* **Normalisation NFD Complète** : Recherche insensible à la casse, aux accents et aux diacritiques (ex: `maldoror`, `snowpiercer`, `creeps`, `spiderwick`).
+* **Pipeline de Filtrage Réactif** :
+  * Intégration en amont dans `getCategoryEligibleItems()` : la recherche s'associe harmonieusement à tous les autres filtres (Films/Séries, Bouquets, Hors Prime/TNT, Sans S1, Profils et Catégories).
+  * Recalcul dynamique immédiat du nombre de titres affichés (`#displayedCount`) et des compteurs d'étoiles (`4+`, `5`).
+  * Message personnalisé dans l'état vide (`empty-state`) en cas d'absence de résultat : *« Aucun titre ne correspond à « [titre] » pour cette sélection. »*.
+
+### C. Déploiement & Versioning
+* **PWA Service Worker** : Cache actualisé à `cinescope-v8.35-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
+* **Cache Busters** : Feuilles de style et scripts passés à `?v=8.35` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
+* **Build de Production** : Recompilation complète avec Vite (`dist/`).
+
+

@@ -57,6 +57,7 @@ const AppState = {
   isExcludeNoS1: false,        // true pour exclure les séries sans saison 1 disponible
   activeProfile: 'none',       // 'none', 'user', 'ami', 'amie'
   isAutoStars: true,           // true tant que l'utilisateur n'a pas forcé manuellement un choix
+  searchQuery: '',             // Requête de recherche par titre (PC uniquement)
   isSyncing: false,
   catalog: []
 };
@@ -586,6 +587,7 @@ function preloadAllCatalogImages() {
 // Initialisation au chargement de la page
 document.addEventListener('DOMContentLoaded', async () => {
   initNavigation();
+  initSearchBar();
   initBouquetsNavigation();
   initStarsNavigation();
   initDurationFilter();
@@ -1096,6 +1098,42 @@ function initDurationFilter() {
   }
 }
 
+// Barre de recherche par titre (PC uniquement)
+function initSearchBar() {
+  const searchInput = document.getElementById('titleSearchInput');
+  const clearBtn = document.getElementById('searchClearBtn');
+  if (!searchInput) return;
+
+  const handleSearchInput = (val) => {
+    AppState.searchQuery = (val || '').trim();
+    if (clearBtn) {
+      clearBtn.classList.toggle('visible', AppState.searchQuery.length > 0);
+    }
+    updateCategoryAutoStar();
+    renderCatalog();
+  };
+
+  searchInput.addEventListener('input', (e) => {
+    handleSearchInput(e.target.value);
+  });
+
+  searchInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      searchInput.value = '';
+      handleSearchInput('');
+      searchInput.blur();
+    }
+  });
+
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      searchInput.value = '';
+      handleSearchInput('');
+      searchInput.focus();
+    });
+  }
+}
+
 // Items éligibles avant filtre d'étoiles
 function getFilteredItemsBeforeStars() {
   let items = getCategoryEligibleItems();
@@ -1133,6 +1171,21 @@ function updateCategoryAutoStar() {
 function getCategoryEligibleItems() {
   return AppState.catalog.filter(item => {
     if (!item.is_eligible) return false;
+
+    // Filtre Recherche Titre (PC uniquement)
+    if (AppState.searchQuery) {
+      const cleanQuery = AppState.searchQuery
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase();
+      const cleanTitle = (item.titre || '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase();
+      if (!cleanTitle.includes(cleanQuery)) {
+        return false;
+      }
+    }
     
     // Filtre Type
     if (AppState.activeType === 'film') {
@@ -1248,6 +1301,12 @@ function renderCatalog() {
   if (sortedItems.length === 0) {
     grid.innerHTML = '';
     emptyState.classList.remove('hidden');
+    const emptyDesc = emptyState.querySelector('.empty-desc');
+    if (emptyDesc) {
+      emptyDesc.textContent = AppState.searchQuery 
+        ? `Aucun titre ne correspond à « ${AppState.searchQuery} » pour cette sélection.`
+        : 'Aucun contenu ne correspond aux critères stricts pour cette sélection actuellement.';
+    }
     return;
   }
 

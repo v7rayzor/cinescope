@@ -38,9 +38,11 @@ Guide de curation et profils de goûts pour les recommandations de films et sér
   - *Extra-Lucide* (dramédie fantastique sur la télépathie, secrets et complicité humaine sans violence) — **Regardé et aimé (Coup de cœur OCS Signature)**.
   - *Pécheresses* (comédie d'émancipation en internat catholique, sororité complice et ton vif en 6x26 min) — **Regardé et aimé (Coup de cœur OCS Signature)**.
   - *LT-21* (anticipation médicale amnésique en 26 min) — **En cours de visionnage (Moins aimé / trop austère & clinique)**.
+  - *Reviens-moi* (*Atonement*) (drame romantique en temps de guerre) — **Regardé et rejeté / bof (Narration éclatée, allers-retours temporels confus, points de vue subjectifs répétés, séparation du couple et dureté militaire)**.
 - **Aversions & Rejets Formels** :
   - 🚫 **Zéro vulgarité / Grossièretés appuyées** : Rejet des dialogues orduriers permanents ou du trash gratuit.
   - 🚫 **Zéro armes réelles lourdes / Films de guerre** : Rejet des fusillades militarisées réalistes, combats à la mitraillette ou violence armée pesante.
+  - 🚫 **Zéro narration déconstruite / Allers-retours temporels confus** : Rejet des récits à chronologie éclatée, points de vue subjectifs répétés ou déconstructions littéraires/méta qui brisent la fluidité et le fil conducteur (ex: *Reviens-moi*).
   - 🚫 **Zéro panique de masse / Hécatombe de cadavres** : Rejet des récits catastrophes anxiogènes, de l'hystérie collective ou des films de contagion gores.
   - 🚫 **Zéro récits trop froids, cliniques ou austères** : Rejet des atmosphères pesantes ou dépressives dénuées de chaleur humaine, de complicité ou de touches d'humour (ex: *LT-21*).
   - **Préférence esthétique** : Magie, pouvoirs, artefacts anciens, anomalies temporelles, mystères occultes feutrés, romances protectrices, touches d'humour bienveillantes et formats courts pétillants d'humanité (25-30 min).
@@ -164,4 +166,5 @@ Guide de curation et profils de goûts pour les recommandations de films et sér
 | **Whitstable Pearl** | Cosy crime / Enquête | Passé sur France 3 | Diffusé sous le titre *Pearl Nolan* sur la TNT |
 | **Harry Wild** | Enquête irlandaise | Passé sur France 3 | Déjà disponible en accès gratuit TNT |
 | **Fargo** | Thriller noir | Inclus Prime Video | Disponibilité catalogue externe standard |
+| **Reviens-moi** | Drame / Romance de guerre | Diffusé Ciné+ OCS | Vu et rejeté (Moi : narration déconstruite/brouillonne, allers-retours temporels confus, couple séparé) |
 

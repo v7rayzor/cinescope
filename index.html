@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=8.34">
+  <link rel="stylesheet" href="css/style.css?v=8.35">
 </head>
 <body>
   <!-- Header / Navigation principale -->
@@ -48,6 +48,22 @@
           <span class="tab-badge" id="seriesCount">0</span>
         </button>
       </nav>
+
+      <!-- Barre de recherche titre (Exclusivité Desktop / PC) -->
+      <div class="header-search-bar" id="headerSearchBar">
+        <div class="search-input-wrapper">
+          <span class="search-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </span>
+          <input type="text" id="titleSearchInput" class="search-input" placeholder="Rechercher un titre..." aria-label="Rechercher un titre" autocomplete="off" spellcheck="false">
+          <button type="button" id="searchClearBtn" class="search-clear-btn" title="Effacer la recherche" aria-label="Effacer la recherche">
+            ✕
+          </button>
+        </div>
+      </div>
 
       <!-- Contrôle de synchronisation temps réel JustWatch -->
       <div class="header-sync-group" id="headerSyncGroup">
@@ -394,10 +410,10 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="js/catalog.js?v=8.33"></script>
-  <script src="js/nlp_model.js?v=8.33"></script>
-  <script src="js/justwatch_engine.js?v=8.33"></script>
-  <script src="js/app.js?v=8.33"></script>
+  <script src="js/catalog.js?v=8.35"></script>
+  <script src="js/nlp_model.js?v=8.35"></script>
+  <script src="js/justwatch_engine.js?v=8.35"></script>
+  <script src="js/app.js?v=8.35"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
