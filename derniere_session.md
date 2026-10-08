@@ -93,10 +93,10 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 
 ### B. Moteur de Recommandations par Profils ([`profils_amis.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/profils_amis.md))
 * **`🧙‍♂️ Pour Moi`** :
-  - Mystère temporel, imaginaire/fantastique riche sans kitsch, paranormal feutré, romance complice/protectrice, formats 26 min (*Timeless*, *Resident Alien*, *Desde el mañana*, *Midnight, Texas*, *Wild Cards*, *Aspergirl*, *Anomalia*, *The Spiderwick Chronicles*).
-  - 0 boucherie militaire, 0 panique de masse/hécatombe, 0 narration déconstruite/allers-retours confus, 0 série d'animation.
+  - Mystère temporel, imaginaire/fantastique riche sans kitsch, paranormal feutré & horreur paranormale/possession (*Timeless*, *Resident Alien*, *Chambre 1408*, *Desde el mañana*, *Midnight, Texas*, *Wild Cards*, *Aspergirl*, *Anomalia*, *The Spiderwick Chronicles*).
+  - 0 boucherie militaire/torture porn, 0 panique de masse/hécatombe, 0 narration déconstruite/allers-retours confus, 0 série d'animation.
 * **`👤 Ami`** :
-  - Action physique 1er degré strict, survie, anticipation et techno-thrillers (*The Copenhagen Test*, *Arcadia*, *Orphan Black: Echoes*, *Almost Paradise*, *Revival*, *30 jours max*).
+  - Action physique 1er degré strict, survie face à des monstres (*30 jours de nuit*, *Cloverfield*), horreur de possession/hantise (*Chambre 1408*, *Paranormal Activity*, *Annabelle*, *Black Phone*), anticipation et techno-thrillers (*The Copenhagen Test*, *Arcadia*, *Orphan Black: Echoes*, *Almost Paradise*, *Revival*, *30 jours max*).
   - Règle mathématique : **$\% \text{ Action} \ge 11\%$** sur Polars/Comédies, 0 animation, exclusions strictes Prime/TNT.
 * **`👩 Amie`** :
   - Cérébral, matière grise, enquêtes posées, duos complices esprit *Castle* (*Family Law*, *Wild Cards*, *Grace*, *Toronto: Section Criminelle*, *Bull*) et drames/romances émouvants.

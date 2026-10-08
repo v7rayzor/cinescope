@@ -16,15 +16,16 @@ Guide de curation et profils de goûts pour les recommandations de films et sér
 
 ---
 
-## 🧙‍♂️ Profil Utilisateur (Moi) : Aventure Fantastique, Mystère Temporel & Paranormal Feutré
-> **Exigence clé** : **Équilibre Mystère / Imaginaire • Sans Armes Réelles Lourdes ni Vulgarité**
+## 🧙‍♂️ Profil Utilisateur (Moi) : Aventure Fantastique, Mystère Temporel, Paranormal Feutré & Épouvante Surnaturelle
+> **Exigence clé** : **Équilibre Mystère / Imaginaire • Angoisse Paranormale (Possession & Esprits) • Sans Armes Réelles Lourdes ni Torture Porn**
 
 - **Positionnement clé** :
   - **Au carrefour des deux profils d'amis avec une forte sensibilité émotionnelle** :
-    - Emprunte au profil masculin le goût pour **l'imaginaire, le fantastique, l'anticipation et les univers riches**.
+    - Emprunte au profil masculin le goût pour **l'imaginaire, le fantastique, l'anticipation, les univers riches et l'angoisse surnaturelle/possession**.
     - Emprunte au profil féminin le goût pour **le mystère, la déduction, la finesse narrative, les secrets d'époque et les tandems soudés**.
     - **Cœur émotionnel & Romance intégrée** : Grand attachement aux histoires où une **relation amoureuse sincère, protectrice et complice** sert de fil conducteur et d'ancrage émotionnel face au mystère ou au danger.
 - **Références socles & Expériences vécues** :
+  - *Paranormal Activity*, *Annabelle* (& univers *Conjuring*), *Chambre 1408* (horreur paranormale, esprits, démons, possession, objets maudits, maisons hantées et tension angoissante) — **Références socles horreur / épouvante surnaturelle**.
   - *Anomalia* (mystère médical & ésotérique feutré dans les Alpes suisses, guérisons inexpliquées et secrets sans gore) — **Regardé et aimé (Référence clé paranormal feutré)**.
   - *Domino Day* (sorcellerie urbaine contemporaine, secrets, ambiance britannique) — **Regardé et aimé**.
   - *The Librarians : L'Héritage de Flynn Carson / The Next Chapter* (artefacts magiques, mythologie, esprit d'équipe) — **Regardé et aimé**.
@@ -42,55 +43,62 @@ Guide de curation et profils de goûts pour les recommandations de films et sér
 - **Aversions & Rejets Formels** :
   - 🚫 **Zéro vulgarité / Grossièretés appuyées** : Rejet des dialogues orduriers permanents ou du trash gratuit.
   - 🚫 **Zéro armes réelles lourdes / Films de guerre** : Rejet des fusillades militarisées réalistes, combats à la mitraillette ou violence armée pesante.
-  - 🚫 **Zéro narration déconstruite / Allers-retours temporels confus** : Rejet des récits à chronologie éclatée, points de vue subjectifs répétés ou déconstructions littéraires/méta qui brisent la fluidité et le fil conducteur (ex: *Reviens-moi*).
-  - 🚫 **Zéro panique de masse / Hécatombe de cadavres** : Rejet des récits catastrophes anxiogènes, de l'hystérie collective ou des films de contagion gores.
-  - 🚫 **Zéro récits trop froids, cliniques ou austères** : Rejet des atmosphères pesantes ou dépressives dénuées de chaleur humaine, de complicité ou de touches d'humour (ex: *LT-21*).
-  - **Préférence esthétique** : Magie, pouvoirs, artefacts anciens, anomalies temporelles, mystères occultes feutrés, romances protectrices, touches d'humour bienveillantes et formats courts pétillants d'humanité (25-30 min).
+  - 🚫 **Zéro torture porn / Boucherie gore gratuite** : Rejet des massacres sadiques sans composante paranormale ou des contagions paniques anxiogènes.
+  - 🚫 **Zéro narration déconstruite / Allers-retours temporels confus** : Rejet des récits à chronologie éclatée, points de vue subjectifs répétés ou déconstructions littéraires/méta (ex: *Reviens-moi*).
+  - 🚫 **Zéro récits trop froids, cliniques ou austères** : Rejet des atmosphères pesantes ou dépressives dénuées de chaleur humaine ou de touches d'humour (ex: *LT-21*).
+  - **Préférence esthétique** : Phénomènes paranormaux, possession, esprits/fantômes, magie, artefacts anciens, anomalies temporelles, mystères occultes feutrés, romances protectrices et touches d'humour bienveillantes.
 
 ### Sélections Validées & Pistes Idéales (Moi)
 | Titre | Genre / Style | Plateforme / Échéance | Affinité & Description |
 | :--- | :--- | :--- | :--- |
-| **Timeless** | Voyage dans le Temps • Histoire & Tandem | Universal+ (Pérenne) | **92%** — L'équivalent américain du *Ministère du Temps* : trio d'experts voyageant dans l'Histoire, continuité temporelle, alchimie amoureuse protectrice et dynamisme sans lourdeur militaire. |
+| **Timeless** | Voyage dans le Temps • Histoire & Tandem | Universal+ (Pérenne) | **92%** — Trio d'experts voyageant dans l'Histoire, continuité temporelle, alchimie amoureuse protectrice et dynamisme sans lourdeur militaire. |
 | **Resident Alien** | SF Fantastique & Humour • Communauté & Mystère | Universal+ (4 Saisons) | **92%** — Synthèse parfaite de *Midnight, Texas* (communauté isolée), du mystère médical (*Anomalia*) et d'un humour communicatif irrésistible avec Alan Tudyk. |
+| **Chambre 1408** | Horreur Paranormale • Hantise & Chambre Maudite | Universal+ / Ciné+ OCS | **90%** — L'adaptation de Stephen King : hantise claustrophobe implacable, phénomènes paranormaux inquiétants et descente dans l'au-delà sans gore gratuit. |
 | **Desde el mañana** | Mystère Temporel • Visions du Futur & Famille | Universal+ (Échéance : 05/12) | **88%** — Par le créateur d'*Estoy vivo* : visions temporelles, secrets et tandem protecteur femme / flic très chaleureux. |
-| **Aspergirl** | Comédie & Tendresse • Duo Fusionnel Mère/Fils | Ciné+ OCS (Pérenne) | **88%** — Dans l'esprit d'*Extra-Lucide* et *Pécheresses* : duo fusionnel et touchant, réparties drôles, grande tendresse et zéro vulgarité (26 min). |
+| **Aspergirl** | Comédie & Tendresse • Duo Fusionnel Mère/Fils | Ciné+ OCS (Pérenne) | **88%** — Duo fusionnel et touchant, réparties drôles, grande tendresse et zéro vulgarité (26 min). |
 | **Midnight, Texas** | Surnaturel Feutré • Communauté Refuge & Humour | Universal+ (Pérenne) | **85%** — Ambiance paranormale feutrée, galerie de personnages attachants et touches d'humour bien dosées (fin de saison 1 validée & aimée). |
 | **Wild Cards** | Enquête & Complicité • Duo Rythmé & Humour | 13ème Rue (Inédit 2024) | **85%** — Tandem complice et piquant détective / arnaqueuse, enquêtes dynamiques avec une vraie touche d'humour esprit *Castle* (validé après 2 épisodes). |
 | **The Spiderwick Chronicles** | Aventure Fantastique • Magie & Créatures | Universal+ (Inédit 2024) | **85%** — Adaptation riche en mystère féerique, secrets de famille et grimoire magique. Équilibre parfait sans grossièreté. |
-| **Jeune et golri** | Comédie d'Auteur & Romance • Fraîcheur & Cœur | Ciné+ OCS (Pérenne) | **82%** — Petite pépite OCS Signature : fraîcheur d'écriture, autodérision et belle dimension sentimentale (25 min). |
+| **Jeune et golri** | Comédie d'Auteur & Romance • Fraîcheur & Cœur | Ciné+ OCS (Pérenne) | **82%** — Fraîcheur d'écriture, autodérision et belle dimension sentimentale (25 min). |
 | **Revival** | Surnaturel Rural Feutré • Secrets de Communauté | Universal+ / Ciné+ OCS (Pérenne) | **78%** *(Ajusté)* — Mystère de résurrection calme et bien ficelé, mais ambiance plus sombre et sérieuse avec moins de respirations comiques. |
 | **Brave New World** | Anticipation Cérébrale • Utopie & Société | Universal+ (Pérenne) | **72%** *(Ajusté)* — Science-fiction philosophique esthétique, mais plus distante émotionnellement et sans humour. |
 
 ---
 
-## 👤 Profil Masculin : Action, Survie & Anticipation
-> **Exigence clé** : **Premier degré strict • Rythme soutenu & Adrénaline** (Zéro lenteur)
+## 👤 Profil Masculin : Action, Survie, Anticipation & Horreur 1er Degré
+> **Exigence clé** : **Premier degré strict • Rythme soutenu & Adrénaline • Survie, Monstres & Possession** (Zéro lenteur)
 
 - **Références socles** :
   - *The Walking Dead* (survie post-apocalyptique — franchise et spin-offs déjà vus)
+  - *Paranormal Activity*, *Annabelle*, *Chambre 1408* (horreur paranormale, possession démoniaque, hantise angoissante au 1er degré)
+  - *30 jours de nuit*, *Cloverfield*, *Black Phone* (survie contre des monstres, siège brutal, adrénaline non-stop)
   - *Reacher* (action physique brute, efficacité)
   - *Under the Dome* (mystère de communauté sous cloche)
   - *9-1-1* (adrénaline rythmée, urgence)
   - *30 jours max* de Tarek Boudali (référence comédie d'action policière rythmée et grand public)
 - **Rapport au rythme, à l'humour & aux tons** :
-  - **Règle Mathématique du % d'Action ($\ge 11\%$) sur Polars & Comédies** : Élimination 100% automatisée de tout polar ou comédie n'ayant pas un minimum de $11\%$ de composante Action ($\% \text{ Action} = \frac{\text{Score Action}}{\text{Total Points}} \times 100 < 11\% \implies \text{Rejet}$). Cela exclut automatiquement les polars d'époque contemplatifs, cosy crimes et enquêtes de salon (*Hercule Poirot*, *Mister Spade*, *Grace*, *Marion*, *Joan*) au profit d'enquêtes de terrain dynamiques (*Almost Paradise*, *Revival*, *Toronto: Section Criminelle*).
+  - **Règle Mathématique du % d'Action ($\ge 11\%$) sur Polars & Comédies** : Élimination 100% automatisée de tout polar ou comédie n'ayant pas un minimum de $11\%$ de composante Action. Cela exclut automatiquement les polars d'époque contemplatifs et cosy crimes au profit d'enquêtes de terrain dynamiques (*Almost Paradise*, *Revival*, *Toronto: Section Criminelle*).
   - Apprécie la **comédie d'action / buddy movie policier** grand public (rythme, action, comique de situation accessible).
   - Éviter le kitsch grotesque, les space-operas nanardesques ou les univers décalés (*Twisted Metal*).
+  - Éviter l'expérimental abstrait ou contemplatif (*L'Étrange Couleur des larmes de ton corps*).
   - **Exclusion totale de l'animation** (films et séries).
-- **Gestion des Nouvelles Saisons & Déjà Vus** :
-  - Les séries déjà vues (*The Walking Dead*, *The Ark*, *Midnight, Texas*, *SurrealEstate*) restent pleinement analysées par l'algorithme de recommandation (sans blocage arbitraire) afin de valoriser immédiatement toute **nouvelle saison** ou **nouveauté** qui arriverait sur le catalogue.
-- **Type de SF / Fantastique recherché** :
+- **Type d'Horreur, SF & Fantastique recherché** :
+  - Horreur de possession, démons, hantise claustrophobe et tension paranormale au 1er degré (*Chambre 1408*, *Paranormal Activity*, *Annabelle*, *Black Phone*).
+  - Survie brutale face à des prédateurs / monstres / vampires (*30 jours de nuit*, *Cloverfield*).
   - Science-fiction sérieuse, organique et musclée (anticipation génétique, clones, traque technologique).
   - Fantastique rural pesant, paranoïaque et survie (*Revival*, *Sentinelles*).
-  - **Pas de space opera kitsch**.
 
 ### Sélections Validées (Homme)
 | Titre | Genre / Style | Plateforme / Échéance | Affinité & Description |
 | :--- | :--- | :--- | :--- |
+| **30 jours de nuit** | Horreur & Survie • Siège & Vampires Brutaux | Ciné+ OCS / Action Max | **92%** — Ville d'Alaska assiégée durant la nuit polaire par des vampires sans pitié. Tension implacable, fusils et 1er degré total. |
+| **Chambre 1408** | Horreur Paranormale • Hantise & Chambre Maudite | Universal+ / Ciné+ OCS | **90%** — Chambre d'hôtel hantée, forces démoniaques et angoisse claustrophobe 1er degré avec John Cusack. |
 | **The Copenhagen Test** | Techno-Thriller SF • Cybersurveillance | Universal+ (Échéance : 05/12) | **90%** — Cerveau piraté, traque paranoïaque d'analyste et conspiration à la *Jason Bourne*. 1er degré garanti. |
+| **Cloverfield** | Catastrophe & Monstres • Manhattan en Ruines | Ciné+ OCS | **90%** — Monstre géant ravageant New York, adrénaline pure en immersion temps réel. |
+| **Black Phone** | Horreur & Suspense • Cave & Tueur Masqué | Universal+ | **88%** — Séquestration angoissante, téléphone mystique et confrontation tendue au premier degré. |
 | **Arcadia** | Dystopie & Contrôle Social • Monde sous Dôme | Universal+ (Échéance : 30/12) | **85%** — L'écho direct à *Under the Dome* : société fermée sous scoring citoyen impitoyable, survie et tension familiale 1er degré. |
 | **Orphan Black: Echoes** | Techno-Thriller SF • Traque Urbaine | Universal+ / Ciné+ OCS (Échéance : 30/11) | **85%** — Amnésie, clonage biologique secret et tueurs aux trousses. Action nerveuse, premier degré. |
-| **Almost Paradise** | Action Policière • Bagarre & Cartels | Universal+ / Ciné+ OCS (Échéance : 30/12) | **85%** — L'équivalent de *Reacher* : ancien flic d'élite de la DEA démantelant des réseaux au corps-à-corps sous les tropiques. |
+| **Almost Paradise** | Action Policière • Bagarre & Cartels | Universal+ / Ciné+ OCS (Échéance : 30/12) | **85%** — Ancien flic d'élite de la DEA démantelant des réseaux au corps-à-corps sous les tropiques. |
 | **Revival** | Fantastique Sombre • Survie Rurale (Post-2024) | Universal+ / Ciné+ OCS (Pérenne) | **85%** — Ville rurale sous quarantaine où les morts reviennent vivants et conscients. Traité en polar sérieux. |
 | **Sentinelles-Ukraine** | Action Militaire • Tension & Survie | Ciné+ OCS (Pérenne) | **80%** — Immersion réaliste et intense au cœur d'un commando en zone d'opération. Rythme sans temps mort. |
 
