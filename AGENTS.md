@@ -43,13 +43,14 @@ Une œuvre est éligible (`is_eligible: true`) si et seulement si elle respecte 
 
 ---
 
-## 5. Règle Documentaire : Alimentation Obligatoire de `derniere_session.md` en Fin de Session
-- À la fin de chaque session de travail ou cycle de développement, l'agent doit **SYSTÉMATIQUEMENT et OBLIGATOIREMENT** mettre à jour le fichier [`derniere_session.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/derniere_session.md) à la racine du projet.
+## 5. Règle Documentaire : Synthèse & Maintenance de `derniere_session.md`
+- À la fin de chaque session de travail ou cycle de développement, l'agent doit **SYSTÉMATIQUEMENT et OBLIGATOIREMENT** mettre à jour et élaguer le fichier [`derniere_session.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/derniere_session.md) à la racine du projet.
 - Ce fichier doit contenir :
-  1. Le récapitulatif détaillé et exhaustif des fonctionnalités ajoutées, corrigées ou refondues.
-  2. Les règles métier, formules mathématiques et arbitrages algorithmiques mis en place.
-  3. L'état exact du catalogue, les statistiques de conformité et les décisions techniques clés.
-  4. L'historique des versions de cache PWA et des clés de stockage pour assurer une traçabilité parfaite.
+  1. Le récapitulatif des fonctionnalités et corrections récentes du projet.
+  2. Les règles métier, formules mathématiques et arbitrages algorithmiques en vigueur.
+  3. L'état exact du catalogue, les statistiques de conformité et les décisions techniques actives.
+  4. La version courante de cache PWA et des clés de stockage actives.
+- **Suppression proactive des informations obsolètes** : L'agent doit **systématiquement supprimer ou condenser** les informations superflues, les étapes de débogage intermédiaires dépassées, les logs de migration anciens et les sections devenues caduques, afin que le document reste une synthèse claire, légère et opérationnelle de l'état actuel sans empilement infini.
 
 ---
 
