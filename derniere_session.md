@@ -815,4 +815,27 @@ Intégration de 3 boutons de profils sur la barre PC, séparés par un diviseur 
 * **Cache Busters** : Feuilles de style et scripts passés à `?v=8.35` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
 * **Build de Production** : Recompilation complète avec Vite (`dist/`).
 
+---
+
+## 26. Qualification Algorithmique des Westerns & Drames Historiques (v8.36 / v23)
+
+### A. Problématique & Faille Antérieure
+- **Constat** : Les films portant le tag JustWatch `wsn` (*Western*) étaient prématurément renvoyés en `action_aventure` par un court-circuit rigide (`early return`), même lorsqu'il s'agissait de drames d'auteur, de chroniques poétiques ou de fables sociales sans aucune cascade ni fusillade (ex: *Le Mystérieux regard du flamant rose*).
+- **Objectif** : Établir un calcul 100% mathématique et déterministe (zéro exception en dur) pour séparer les westerns d'action physique des drames historiques/poétiques d'époque.
+
+### B. Formule Algorithmique Mise en Place
+1. **Suppression du court-circuit forcé sur `wsn`**.
+2. **Introduction du motif de combat armé `WESTERN_ACTION_PATTERNS`** :
+   * Détection des motifs d'affrontement armé du Far West : `gâchette`, `as de la gâchette`, `hors-la-loi`, `shérif`, `bandit`, `fusillade`, `duel`, `chasseur de primes`, `se bat`, `combattant`, `pionniers`, `cow-boy`, `diligence`, `attaque`, `braquage`, `vengeance armée`, ou présence du tag `act`.
+   * **Attribution en Action** : Si ces motifs sont détectés $\rightarrow$ `action_aventure` (ex: *Wild Bill*, *Terror on the Prairie*).
+3. **Pondération Dramatique Naturelle** :
+   * En l'absence de motifs d'action armée, les tags `drm` (Drame) et `hst` (Histoire) combinés au lexique dramatique/social font automatiquement triompher le score de **`drame_emotion`** (ex: *Le Mystérieux regard du flamant rose*).
+
+### C. Déploiement & Versioning
+* **Clés de Stockage Local** : Passage en `v23` (`cinescope_streaming_catalog_v23`, `cinescope_streaming_last_sync_v23`, `cinescope_streaming_last_full_sync_v23`, `cinescope_streaming_autosync_v23`) dans [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js).
+* **Service Worker PWA** : Cache actualisé à `cinescope-v8.36-streaming` dans [`sw.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/sw.js).
+* **Cache Busters** : Feuilles de style et scripts passés à `?v=8.36` dans [`index.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/index.html).
+* **Audit Conformité** : 878 œuvres qualifiées, 100% conformes (0 anomalie).
+
+
 

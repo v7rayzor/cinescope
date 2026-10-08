@@ -39193,7 +39193,7 @@ const CATALOG_DATA = [
     "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
-      "action_aventure"
+      "drame_emotion"
     ],
     "raw_genres": [
       "drm",

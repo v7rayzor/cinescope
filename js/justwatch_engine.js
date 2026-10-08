@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v22';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v22';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v22';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v22';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v23';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v23';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v23';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v23';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -211,6 +211,7 @@ const JustWatchEngine = (function () {
   const DRAMA_INTIME_PATTERNS = /\b(traumatisme|traumatise|monde imaginaire|deuil|orphelin|orpheline|harcele|harcelement|skate|skateur|suisse|euthanasie|aide soignant|actrice|showbiz|homosexualite|homosexuel|desir|compagnie miniere|ressources humaines|obsession|biopic|chanteur|chanteuse|robbie williams|sorrentino|naples|parthenope)\b/i;
   const PARODY_PATTERNS = /\b(oss 117|agent special|parodie|espion malhabile|gaffeur|tournage de film|film dans le film|hazanavicius)\b/i;
   const ANIMATION_PATTERNS = /\b(serie d animation|serie televisee d animation|film d animation|dessin anime|dessins animes|court metrage d animation)\b/i;
+  const WESTERN_ACTION_PATTERNS = /\b(gachette|as de la gachette|hors la loi|sherif|bandit|bandits|fusillade|fusillades|duel|duels|chasseur de primes|chasseurs de primes|se bat|combattant|combattants|pionniers|cowboy|cowboys|cow boy|cow boys|diligence|convoi|attaque|braquage|vengeance armee|guerilleros)\b/i;
 
   // Harnais de Cohérence : Détermine les catégories formellement autorisées pour un ensemble de tags et de contexte
   function getAllowedCategories(tags, cleanText = '', isHybridWithAge = false, isMatureFamily = false, isComedyWithoutAge = false) {
@@ -323,8 +324,8 @@ const JustWatchEngine = (function () {
       }
     }
 
-    // 4. Règle Western pur (exclut les polars contemporains et intrigues criminelles)
-    if (rawTags.includes('wsn') && !rawTags.includes('crm') && !POLICE_CRIME_PATTERNS.test(cleanText) && allowed.has('action_aventure')) {
+    // 4. Règle Western d'action / combat armé (ex: Wild Bill, Terror on the Prairie)
+    if (rawTags.includes('wsn') && (rawTags.includes('act') || WESTERN_ACTION_PATTERNS.test(cleanText)) && !rawTags.includes('crm') && !POLICE_CRIME_PATTERNS.test(cleanText) && allowed.has('action_aventure')) {
       return 'action_aventure';
     }
 
