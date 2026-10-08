@@ -43,9 +43,10 @@ Une œuvre est éligible (`is_eligible: true`) si et seulement si elle respecte 
 
 ---
 
-## 5. Règle Documentaire : Synthèse & Maintenance de `derniere_session.md`
-- À la fin de chaque session de travail ou cycle de développement, l'agent doit **SYSTÉMATIQUEMENT et OBLIGATOIREMENT** mettre à jour et élaguer le fichier [`derniere_session.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/derniere_session.md) à la racine du projet.
-- Ce fichier doit contenir :
+## 5. Règle Documentaire : Consultation Initiale & Maintenance de `derniere_session.md`
+- **Consultation obligatoire au début de chaque session** : Au démarrage de toute nouvelle session de travail, l'agent doit **SYSTÉMATIQUEMENT et OBLIGATOIREMENT lire le fichier [`derniere_session.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/derniere_session.md)** afin de s'imprégner immédiatement de l'état exact du projet, des règles métier en vigueur, des algorithmes actifs et des versions déployées avant toute action ou réponse.
+- **Alimentation & Élagage en fin de session** : À la fin de chaque session de travail ou cycle de développement, l'agent doit **SYSTÉMATIQUEMENT et OBLIGATOIREMENT** actualiser et élaguer ce document à la racine du projet.
+- **Contenu requis de la synthèse** :
   1. Le récapitulatif des fonctionnalités et corrections récentes du projet.
   2. Les règles métier, formules mathématiques et arbitrages algorithmiques en vigueur.
   3. L'état exact du catalogue, les statistiques de conformité et les décisions techniques actives.
