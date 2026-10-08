@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.37** / Cache **v24**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.38** / Cache **v25**).
 
 ---
 
@@ -59,9 +59,10 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 * **Westerns vs Drames Historiques/Poétiques** :
   - Un western (`wsn`) n'est qualifié en `action_aventure` que s'il comporte le tag `act` ou des motifs de combat armé (`WESTERN_ACTION_PATTERNS` : *gâchette, hors-la-loi, shérif, fusillade, duel, chasseur de primes, cow-boy, braquage, attaque*).
   - Sans motifs d'action, les composantes dramatiques et historiques l'emportent naturellement en **`drame_emotion`** (*Le Mystérieux regard du flamant rose*).
-* **Horreur Pure & Slashers Sanctuarisés** :
+* **Horreur Pure, Slashers & SF/Fantastique Tout Public** :
   - Les véritables intrigues d'horreur/possession/gore et les slashers avec tueur masqué ou meurtrier sanguinaire (`SLASHER_PATTERNS` combiné au tag `hrr`, ex: *Un Noël sans fin*, *Blood Star*, *Maniac*) sont systématiquement sanctuarisés en **`horreur_epouvante`** sans dériver vers le polar ou la comédie.
-  - Les hybrides Tout Public sans composante horrifique lourde sont ventilés en `scifi_fantastique` (*Monster Summer*, *T.I.M.*) ou `comedie` (*Monster on a Plane*, *Benny t'aime très fort*).
+  - Les œuvres Tout Public comportant de la Science-Fiction (`scf`) ou du Fantastique (`fnt`) avec ou sans Drame (*Le Règne animal*, *Else*, *Monster Summer*, *T.I.M.*) sans motif horrifique strict suivent le calcul de scoring naturel et sont correctement attribuées en **`scifi_fantastique`**.
+  - Les comédies et parodies burlesques Tout Public sans motif strict sont ventilées en **`comedie`** (*Monster on a Plane*, *Benny t'aime très fort*, *The Creeps*).
 
 ---
 
@@ -115,11 +116,11 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Distribution des 7 catégories** :
     - `drame_emotion` : 328
     - `thriller_policier` : 164
-    - `comedie` : 142
+    - `comedie` : 143
     - `animation_famille` : 74
-    - `scifi_fantastique` : 72
+    - `scifi_fantastique` : 73
     - `action_aventure` : 51
-    - `horreur_epouvante` : 47
+    - `horreur_epouvante` : 45
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.37` (`sw.js` : `cinescope-v8.37-streaming`, assets `?v=8.37`).
-  - **Clés LocalStorage Actives** : `_v24` (`cinescope_streaming_catalog_v24`, etc.).
+  - **Version Application / PWA** : `v8.38` (`sw.js` : `cinescope-v8.38-streaming`, assets `?v=8.38`).
+  - **Clés LocalStorage Actives** : `_v25` (`cinescope_streaming_catalog_v25`, etc.).

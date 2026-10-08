@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v24';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v24';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v24';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v24';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v25';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v25';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v25';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v25';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -307,14 +307,14 @@ const JustWatchEngine = (function () {
       if (allowed.has('animation_famille')) return 'animation_famille';
     }
 
-    const isHorrorWithSciFiWithoutAge = rawTags.includes('hrr') && (rawTags.includes('fnt') || rawTags.includes('scf')) && !rawTags.includes('drm') && !hasAnyAgeLimit && !isStrictHorror;
+    const isHorrorWithSciFiWithoutAge = rawTags.includes('hrr') && (rawTags.includes('fnt') || rawTags.includes('scf')) && !hasAnyAgeLimit && !isStrictHorror;
     const isHorrorWithCrimeWithoutAge = rawTags.includes('hrr') && (rawTags.includes('crm') || rawTags.includes('trl')) && !rawTags.includes('drm') && !hasAnyAgeLimit && !isStrictHorror;
 
     // 3. Règle Horreur :
     // - Tout film d'horreur ou motif strict horrifique (ex: La Chose derrière la porte, Heretic, It Comes at Night, Walking Dead, Wreck)
     // - Comédies d'horreur avec pastille d'âge mature -16/-18 (ex: Wreck, The Ugly Stepsister, The Trip, Satanic Panic)
     // - Comédies d'horreur avec pastille <= -12 ou Tout Public -> exclues d'horreur (vont en comedie, ex: L'Année du requin, Coupez !, Les femmes au balcon, Reginald, Monster on a Plane)
-    // - SF / Mystère / Aventures Tout Public SANS pastille -> vont en SF / Thriller (ex: Monster Summer, T.I.M., Revival)
+    // - SF / Mystère / Aventures Tout Public SANS pastille -> vont en SF / Thriller (ex: Monster Summer, T.I.M., Revival, Le Règne animal)
     if (rawTags.includes('hrr') || isStrictHorror) {
       const isCyberCrime = rawTags.includes('crm') && rawTags.includes('act') && !isStrictHorror;
       const isDavidLynch = cleanText.includes('inland empire');
@@ -351,7 +351,13 @@ const JustWatchEngine = (function () {
     // Sci-Fi / Fantastique
     if (rawTags.includes('scf')) scores[2] += 50;
     if (rawTags.includes('fnt')) scores[2] += 40;
-    if (isHorrorWithSciFiWithoutAge) scores[2] += 30;
+    if (isHorrorWithSciFiWithoutAge) {
+      if (rawTags.includes('scf') || SCIFI_PATTERNS.test(cleanText) || cleanText.includes('creature') || cleanText.includes('monstre') || cleanText.includes('animal') || cleanText.includes('mutation')) {
+        scores[2] += 30;
+      } else if (rawTags.includes('drm')) {
+        scores[6] += 30;
+      }
+    }
 
     // Thriller & Policier
     if (rawTags.includes('crm')) scores[3] += 55;
