@@ -1,3 +1,8 @@
+/**
+ * CinéScope - Base de Données des Films & Séries Streaming (France)
+ * Synchronisé avec JustWatch (Ciné+ OCS, Universal+, Action Max)
+ */
+
 const CATALOG_DATA = [
   {
     "id": "jw-tm1515239",
@@ -17735,7 +17740,7 @@ const CATALOG_DATA = [
     "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "horreur_epouvante"
     ],
     "raw_genres": [
       "cmy",
@@ -26043,7 +26048,7 @@ const CATALOG_DATA = [
     "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "horreur_epouvante"
     ],
     "raw_genres": [
       "act",
@@ -43093,3 +43098,10 @@ const CATALOG_DATA = [
     "on_tnt": false
   }
 ];
+
+if (typeof window !== 'undefined') {
+  window.CATALOG_DATA = CATALOG_DATA;
+}
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = CATALOG_DATA;
+}

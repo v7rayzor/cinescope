@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v23';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v23';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v23';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v23';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v24';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v24';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v24';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v24';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -207,6 +207,7 @@ const JustWatchEngine = (function () {
   const POLICE_CRIME_PATTERNS = /\b(tueur a gages|tueurs a gages|tueuse a gages|tueur en serie|tueurs en serie|meurtre|meurtres|assassinat|assassinats|mafia|gangster|gangsters|cercle de jeu|detective|commissaire|police|policiere|braquage|braqueurs|cambrioleurs|cadavre|cadavres|enquete criminelle|suspect|suspects|cartel|trafic de drogue|section criminelle|dettes de jeu|creanciers|usurpe l identite|pendu|fugitif|homicide|homicides)\b/i;
   const ADVENTURE_PATTERNS = /\b(cite perdue|archeologue|archeologues|archeologie|expedition|jungle|amazonie|chasse au tresor|pyramide|pharaon|kheops|western|cowboy|sherif|arts martiaux|kung fu|baston|videur|catastrophe|comete|apocalypse|fin du monde|gladiateur|gladiateurs|peplum)\b/i;
   const STRICT_HORROR_PATTERNS = /\b(satan|satanique|possession demoniaque|possede par|possedee par|exorcisme|exorciste|pacte avec satan|pacte avec le diable|slasher|gore|body horror|zombie|zombies|mort-vivant|morts-vivants|maison hantee|lieu sacre profane|monstre sanguinaire|lovecraft|terreur nocturne|contagion mortelle|magie noire|boite de pandore|pandore|vampirisme|soif de sang|sang humain)\b/i;
+  const SLASHER_PATTERNS = /\b(slasher|slashers|tueur masque|tueurs masques|tueuse masquee|tueur au masque|tueur en serie|tueurs en serie|psychopathe|boogeyman|croque-mitaine|massacre au couteau)\b/i;
   const SCIFI_PATTERNS = /\b(vaisseau|vaisseaux|extraterrestre|extraterrestres|alien|aliens|astronaute|astronautes|planete deserte|voyage dans le temps|multivers|reincarnation|changement climatique|androide|ia|robot|intelligence artificielle|dystopie|futuriste|mutant|mutants|quatre terres|arborlon|elfe|elfes|druide|druides)\b/i;
   const DRAMA_INTIME_PATTERNS = /\b(traumatisme|traumatise|monde imaginaire|deuil|orphelin|orpheline|harcele|harcelement|skate|skateur|suisse|euthanasie|aide soignant|actrice|showbiz|homosexualite|homosexuel|desir|compagnie miniere|ressources humaines|obsession|biopic|chanteur|chanteuse|robbie williams|sorrentino|naples|parthenope)\b/i;
   const PARODY_PATTERNS = /\b(oss 117|agent special|parodie|espion malhabile|gaffeur|tournage de film|film dans le film|hazanavicius)\b/i;
@@ -246,7 +247,7 @@ const JustWatchEngine = (function () {
       if (ADVENTURE_PATTERNS.test(cleanText) && (!tags.includes('cmy') || isHybridWithAge)) {
         allowed.add('action_aventure');
       }
-      if (STRICT_HORROR_PATTERNS.test(cleanText)) {
+      if (STRICT_HORROR_PATTERNS.test(cleanText) || (tags.includes('hrr') && SLASHER_PATTERNS.test(cleanText))) {
         allowed.add('horreur_epouvante');
       }
       if (SCIFI_PATTERNS.test(cleanText)) {
@@ -280,7 +281,7 @@ const JustWatchEngine = (function () {
     const hasAnyAgeLimit = ageCertification && ['10', '12', '16', '18'].some(l => ageCertification.toString().includes(l));
     const isMatureAge = ageCertification && ['12', '16', '18'].some(l => ageCertification.toString().includes(l));
     const isAdultHorrorAge = ageCertification && ['16', '18'].some(l => ageCertification.toString().includes(l));
-    const isStrictHorror = STRICT_HORROR_PATTERNS.test(cleanText);
+    const isStrictHorror = STRICT_HORROR_PATTERNS.test(cleanText) || (rawTags.includes('hrr') && SLASHER_PATTERNS.test(cleanText));
 
     // Règle Comédie Hybride : exclusion de comédie si pastille adulte (-16/-18) pour l'horreur, ou générale pour autres hybrides
     const otherMeaningfulGenres = rawTags.filter(t => t !== 'cmy' && t !== 'eur' && t !== 'fml' && t !== 'rly');
