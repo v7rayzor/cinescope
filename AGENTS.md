@@ -64,3 +64,11 @@ Une œuvre est éligible (`is_eligible: true`) si et seulement si elle respecte 
      - **Profil Amie (Femme)** : Enquête, Déduction, Tandem (Cérébral, cosy crime, esprit Poirot/Castle, élégance britannique, zéro rediffusion France 3).
   3. **L'audit des rejets et les programmations validées** déjà répertoriées.
 
+---
+
+## 7. Règle d'Amélioration Algorithmique Universelle (Zéro Bricolage Ad Hoc)
+- **Interdiction formelle du bidouillage au cas par cas** : Il est formellement interdit d'écrire des exceptions codées en dur pour une œuvre spécifique (ex: `if (title === "Nom du film")`).
+- **Universalité et pérennité obligatoires** : Tout ajustement de calcul, de score ou de catégorisation doit obligatoirement être conçu comme une règle logique, saine, déterministe et générale.
+- **Bénéfice pour l'ensemble du catalogue** : Chaque amélioration doit s'appliquer équitablement à toutes les œuvres existantes et garantir que toutes les futures œuvres ingérées lors des synchronisations JustWatch soient correctement qualifiées sans régression.
+
+

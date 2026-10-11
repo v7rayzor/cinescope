@@ -3341,7 +3341,7 @@ const CATALOG_DATA = [
     "note_recence": 9.4,
     "note_globale": 7.6,
     "categories": [
-      "thriller_policier"
+      "scifi_fantastique"
     ],
     "badge": null,
     "is_eligible": true,
@@ -21251,7 +21251,7 @@ const CATALOG_DATA = [
     "note_globale": 6.7,
     "etoiles": 3,
     "categories": [
-      "drame_emotion"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "drm",

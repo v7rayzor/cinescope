@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.38** / Cache **v25**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.39** / Cache **v26**).
 
 ---
 
@@ -51,18 +51,18 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
    - **Seuil d'éligibilité** : $\text{Note Globale} \ge 6.0 / 10$.
 
 ### C. Moteur de Catégorisation Purement Algorithmique (100% Déterministe)
+* **Zéro Bidouillage Ad Hoc (Règle 7 d'AGENTS.md)** :
+  - Tout arbitrage repose sur des règles logiques universelles pérennes, applicables à tout le catalogue existant et aux futures synchronisations JustWatch.
 * **Comédies & Signalétique d'Âge Majeure** :
   - Les œuvres avec pastilles adultes **`-16` et `-18`** sont **formellement interdites de `comedie`** et sanctuarisées en `horreur_epouvante` ou `action_aventure`.
-  - Les pastilles `-10`, `-12` et Tout Public restent autorisées en `comedie` si le ton humoristique/burlesque domine.
+  - Les pastilles `-10`, `-12` et Tout Public restent autorisées en `comedie` si le ton humoristique/burlesque domine (*Monster on a Plane*, *The Creeps*, *Benny t'aime très fort*).
 * **Animation & Signalétiques d'Avertissement** :
   - Toute œuvre portant une pastille **`-12`, `-16` ou `-18` est formellement bannie d'`animation_famille`** et reclassée dans son genre d'intensité (`scifi_fantastique`, `action_aventure`, `drame_emotion`...).
 * **Westerns vs Drames Historiques/Poétiques** :
-  - Un western (`wsn`) n'est qualifié en `action_aventure` que s'il comporte le tag `act` ou des motifs de combat armé (`WESTERN_ACTION_PATTERNS` : *gâchette, hors-la-loi, shérif, fusillade, duel, chasseur de primes, cow-boy, braquage, attaque*).
-  - Sans motifs d'action, les composantes dramatiques et historiques l'emportent naturellement en **`drame_emotion`** (*Le Mystérieux regard du flamant rose*).
-* **Horreur Pure, Slashers & SF/Fantastique Tout Public** :
-  - Les véritables intrigues d'horreur/possession/gore et les slashers avec tueur masqué ou meurtrier sanguinaire (`SLASHER_PATTERNS` combiné au tag `hrr`, ex: *Un Noël sans fin*, *Blood Star*, *Maniac*) sont systématiquement sanctuarisés en **`horreur_epouvante`** sans dériver vers le polar ou la comédie.
-  - Les œuvres Tout Public comportant de la Science-Fiction (`scf`) ou du Fantastique (`fnt`) avec ou sans Drame (*Le Règne animal*, *Else*, *Monster Summer*, *T.I.M.*) sans motif horrifique strict suivent le calcul de scoring naturel et sont correctement attribuées en **`scifi_fantastique`**.
-  - Les comédies et parodies burlesques Tout Public sans motif strict sont ventilées en **`comedie`** (*Monster on a Plane*, *Benny t'aime très fort*, *The Creeps*).
+  - Un western (`wsn`) n'est qualifié en `action_aventure` que s'il comporte le tag `act` ou des motifs de combat armé (`WESTERN_ACTION_PATTERNS`).
+* **Horreur Pure, Slashers & Surnaturel / SF / Fantastique Universel** :
+  - Les véritables intrigues d'horreur/possession/gore et les slashers (`SLASHER_PATTERNS` combiné au tag `hrr`) sont systématiquement sanctuarisés en **`horreur_epouvante`**.
+  - **Motifs Surnaturels & Fantastiques Universels (`FANTASTIC_PATTERNS`)** : pour toute œuvre Tout Public ou avec tag `fnt`/`scf`, les motifs fantastiques et créatures surnaturelles (*sorcière, monstre, fantôme, créature, magie, force mystérieuse, malédiction...*) priment universellement sur les mots-clés policiers génériques (*détective, enquête*). Cela garantit l'attribution naturelle et exacte en **`scifi_fantastique`** pour les récits d'aventures surnaturelles (*Monster Summer*, *Chasseuse de géants*, *Le Règne animal*, *T.I.M.*).
 
 ---
 
@@ -77,7 +77,7 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 * **Badges Visuels & Tri par Urgence d'Expiration** :
   - **Priorité 1 absolue** : Titres expirants triés par `daysLeft` croissant (`⏳ Expire aujourd'hui`, `⏳ Expire demain`, `⏳ Expire dans X j`, `📅 Jusqu'au JJ/MM`).
   - **Badge « 🆕 Nouveauté »** : Priorité visuelle sur l'affiche pendant les **7 premiers jours** d'arrivée au catalogue.
-  - **Priorité 2** : Titres pérennes (sans expiration) ordonnés par affinité profil (si actif) puis tirage aléatoire déterministe stable pour la journée.
+  - **Priorité 2** : Titres pérennes ordonnés par affinité profil puis tirage aléatoire déterministe stable pour la journée.
 
 ---
 
@@ -89,21 +89,13 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 * **Toggle « 🛡️ Hors Prime & TNT »** :
   - Exclut les offres incluses dans l'abonnement standard Amazon Prime Video (`prv`, `pva`) et les diffusions TNT / Replay gratuit (`fpt`, `tf1`, `6pt`, `art`, `rmc`...).
 * **Toggle « 🚫 Exclure sans S1 »** :
-  - Masque les séries tronquées ne disposant pas de leur saison 1 sur les bouquets.
-  - Lorsque le filtre est inactif, un badge vectoriel net `⚠️ Débute SX` apparaît sur la carte des séries concernées.
+  - Masque les séries tronquées ne disposant pas de leur saison 1 sur les bouquets (`⚠️ Débute SX` sur les cartes si inactif).
 
 ### B. Moteur de Recommandations par Profils ([`profils_amis.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/profils_amis.md))
-* **`🧙‍♂️ Pour Moi`** :
-  - Mystère temporel, imaginaire/fantastique riche sans kitsch, paranormal feutré & horreur paranormale/possession (*Timeless*, *Resident Alien*, *Chambre 1408*, *Desde el mañana*, *Midnight, Texas*, *Wild Cards*, *Aspergirl*, *Anomalia*, *The Spiderwick Chronicles*).
-  - 0 boucherie militaire/torture porn, 0 panique de masse/hécatombe, 0 narration déconstruite/allers-retours confus, 0 série d'animation.
-* **`👤 Ami`** :
-  - Action physique 1er degré strict, survie face à des monstres (*30 jours de nuit*, *Cloverfield*), horreur de possession/hantise (*Chambre 1408*, *Paranormal Activity*, *Annabelle*, *Black Phone*), anticipation et techno-thrillers (*The Copenhagen Test*, *Arcadia*, *Orphan Black: Echoes*, *Almost Paradise*, *Revival*, *30 jours max*).
-  - Règle mathématique : **$\% \text{ Action} \ge 11\%$** sur Polars/Comédies, 0 animation, exclusions strictes Prime/TNT.
-* **`👩 Amie`** :
-  - Cérébral, matière grise, enquêtes posées, duos complices esprit *Castle* (*Family Law*, *Wild Cards*, *Grace*, *Toronto: Section Criminelle*, *Bull*) et drames/romances émouvants.
-  - Règle mathématique : **$\% \text{ Action} \le 33\%$**, 0 comédie potache/farce, 0 animation, 0 gore, exclusions Prime/TNT.
-* **`👫 Duo Amis`** :
-  - Intersection mathématique stricte ($11\% \le \% \text{ Action} \le 33\%$), score moyen combiné $\ge 50\%$, genres partagés `thriller_policier` et `scifi_fantastique`.
+* **`🧙‍♂️ Pour Moi`** : Mystère temporel, imaginaire/fantastique riche sans kitsch, paranormal feutré & horreur de possession (*Timeless*, *Resident Alien*, *Chambre 1408*, *Midnight, Texas*, *Wild Cards*, *The Spiderwick Chronicles*). 0 boucherie militaire, 0 panique de masse, 0 animation.
+* **`👤 Ami`** : Action physique 1er degré strict, survie face aux monstres, horreur de possession/hantise (*Annabelle*, *Black Phone*), techno-thrillers (*Arcadia*, *Orphan Black: Echoes*). Règle : $\% \text{ Action} \ge 11\%$, 0 animation, exclusions Prime/TNT.
+* **`👩 Amie`** : Cérébral, enquêtes posées, duos complices style *Castle* (*Family Law*, *Grace*, *Toronto: Section Criminelle*, *Bull*) et drames/romances émouvants. Règle : $\% \text{ Action} \le 33\%$, 0 comédie potache, 0 animation, 0 gore, exclusions Prime/TNT.
+* **`👫 Duo Amis`** : Intersection mathématique ($11\% \le \% \text{ Action} \le 33\%$), score moyen $\ge 50\%$, genres `thriller_policier` et `scifi_fantastique`.
 
 ---
 
@@ -114,13 +106,14 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Conformité 1 catégorie unique** : **878 / 878 (100% conforme, 0 anomalie)**.
   - **Titres expirés** : **0**.
   - **Distribution des 7 catégories** :
-    - `drame_emotion` : 328
-    - `thriller_policier` : 164
+    - `drame_emotion` : 327
+    - `thriller_policier` : 163
     - `comedie` : 143
+    - `scifi_fantastique` : 75
     - `animation_famille` : 74
-    - `scifi_fantastique` : 73
     - `action_aventure` : 51
     - `horreur_epouvante` : 45
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.38` (`sw.js` : `cinescope-v8.38-streaming`, assets `?v=8.38`).
-  - **Clés LocalStorage Actives** : `_v25` (`cinescope_streaming_catalog_v25`, etc.).
+  - **Version Application / PWA** : `v8.39` (`sw.js` : `cinescope-v8.39-streaming`, assets `?v=8.39`).
+  - **Clés LocalStorage Actives** : `_v26` (`cinescope_streaming_catalog_v26`, etc.).
+

@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v25';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v25';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v25';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v25';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v26';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v26';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v26';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v26';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -208,6 +208,7 @@ const JustWatchEngine = (function () {
   const ADVENTURE_PATTERNS = /\b(cite perdue|archeologue|archeologues|archeologie|expedition|jungle|amazonie|chasse au tresor|pyramide|pharaon|kheops|western|cowboy|sherif|arts martiaux|kung fu|baston|videur|catastrophe|comete|apocalypse|fin du monde|gladiateur|gladiateurs|peplum)\b/i;
   const STRICT_HORROR_PATTERNS = /\b(satan|satanique|possession demoniaque|possede par|possedee par|exorcisme|exorciste|pacte avec satan|pacte avec le diable|slasher|gore|body horror|zombie|zombies|mort-vivant|morts-vivants|maison hantee|lieu sacre profane|monstre sanguinaire|lovecraft|terreur nocturne|contagion mortelle|magie noire|boite de pandore|pandore|vampirisme|soif de sang|sang humain)\b/i;
   const SLASHER_PATTERNS = /\b(slasher|slashers|tueur masque|tueurs masques|tueuse masquee|tueur au masque|tueur en serie|tueurs en serie|psychopathe|boogeyman|croque-mitaine|massacre au couteau)\b/i;
+  const FANTASTIC_PATTERNS = /\b(sorciere|sorcieres|sorcier|sorciers|witch|witches|monstre|monstres|monster|monsters|creature|creatures|fantome|fantomes|ghost|ghosts|surnaturel|surnaturelle|supernatural|paranormal|paranormale|occulte|magie|magique|magiques|magic|force mysterieuse|puissance mysterieuse|malediction|enchantement|ensorcele|royaume feerique|conte de fees|vampire|vampires|loup garou|loups garous|werewolf)\b/i;
   const SCIFI_PATTERNS = /\b(vaisseau|vaisseaux|extraterrestre|extraterrestres|alien|aliens|astronaute|astronautes|planete deserte|voyage dans le temps|multivers|reincarnation|changement climatique|androide|ia|robot|intelligence artificielle|dystopie|futuriste|mutant|mutants|quatre terres|arborlon|elfe|elfes|druide|druides)\b/i;
   const DRAMA_INTIME_PATTERNS = /\b(traumatisme|traumatise|monde imaginaire|deuil|orphelin|orpheline|harcele|harcelement|skate|skateur|suisse|euthanasie|aide soignant|actrice|showbiz|homosexualite|homosexuel|desir|compagnie miniere|ressources humaines|obsession|biopic|chanteur|chanteuse|robbie williams|sorrentino|naples|parthenope)\b/i;
   const PARODY_PATTERNS = /\b(oss 117|agent special|parodie|espion malhabile|gaffeur|tournage de film|film dans le film|hazanavicius)\b/i;
@@ -250,7 +251,7 @@ const JustWatchEngine = (function () {
       if (STRICT_HORROR_PATTERNS.test(cleanText) || (tags.includes('hrr') && SLASHER_PATTERNS.test(cleanText))) {
         allowed.add('horreur_epouvante');
       }
-      if (SCIFI_PATTERNS.test(cleanText)) {
+      if (SCIFI_PATTERNS.test(cleanText) || FANTASTIC_PATTERNS.test(cleanText)) {
         allowed.add('scifi_fantastique');
       }
       if (!isMatureFamily && ANIMATION_PATTERNS.test(cleanText)) {
@@ -307,7 +308,7 @@ const JustWatchEngine = (function () {
       if (allowed.has('animation_famille')) return 'animation_famille';
     }
 
-    const isHorrorWithSciFiWithoutAge = rawTags.includes('hrr') && (rawTags.includes('fnt') || rawTags.includes('scf')) && !hasAnyAgeLimit && !isStrictHorror;
+    const isHorrorWithSciFiWithoutAge = rawTags.includes('hrr') && (rawTags.includes('fnt') || rawTags.includes('scf')) && !rawTags.includes('cmy') && !hasAnyAgeLimit && !isStrictHorror;
     const isHorrorWithCrimeWithoutAge = rawTags.includes('hrr') && (rawTags.includes('crm') || rawTags.includes('trl')) && !rawTags.includes('drm') && !hasAnyAgeLimit && !isStrictHorror;
 
     // 3. Règle Horreur :
@@ -352,7 +353,7 @@ const JustWatchEngine = (function () {
     if (rawTags.includes('scf')) scores[2] += 50;
     if (rawTags.includes('fnt')) scores[2] += 40;
     if (isHorrorWithSciFiWithoutAge) {
-      if (rawTags.includes('scf') || SCIFI_PATTERNS.test(cleanText) || cleanText.includes('creature') || cleanText.includes('monstre') || cleanText.includes('animal') || cleanText.includes('mutation')) {
+      if (rawTags.includes('scf') || SCIFI_PATTERNS.test(cleanText) || FANTASTIC_PATTERNS.test(cleanText) || cleanText.includes('creature') || cleanText.includes('monstre') || cleanText.includes('animal') || cleanText.includes('mutation')) {
         scores[2] += 30;
       } else if (rawTags.includes('drm')) {
         scores[6] += 30;
@@ -378,7 +379,7 @@ const JustWatchEngine = (function () {
     // Contextuel
     if (POLICE_CRIME_PATTERNS.test(cleanText) && (!rawTags.includes('cmy') || rawTags.includes('crm') || rawTags.includes('trl') || isHybridWithAge)) scores[3] += 35;
     if (ADVENTURE_PATTERNS.test(cleanText) && (!rawTags.includes('cmy') || isHybridWithAge)) scores[4] += 25;
-    if (SCIFI_PATTERNS.test(cleanText)) scores[2] += 40;
+    if (SCIFI_PATTERNS.test(cleanText) || (FANTASTIC_PATTERNS.test(cleanText) && !rawTags.includes('cmy') && (!rawTags.includes('drm') || rawTags.includes('fnt') || rawTags.includes('scf')))) scores[2] += 40;
     if (DRAMA_INTIME_PATTERNS.test(cleanText)) scores[6] += 35;
     if (PARODY_PATTERNS.test(cleanText) && rawTags.includes('cmy') && !isAdultHorrorAge) scores[5] += 60;
 
@@ -389,8 +390,8 @@ const JustWatchEngine = (function () {
         scores[6] += 30;
       }
     }
-    // b) Fantastique / Conte / Légende arthurienne / Fantasy (ex: Kaamelott, Chasseuse de géants, Shannara) -> Sci-Fi / Fantastique
-    if (rawTags.includes('fnt') && (cleanText.includes('geant') || cleanText.includes('monstre') || cleanText.includes('magie') || cleanText.includes('sorcier') || cleanText.includes('arthur') || cleanText.includes('kaamelott') || cleanText.includes('creature') || cleanText.includes('vampire') || cleanText.includes('malediction') || cleanText.includes('royaume') || cleanText.includes('feerique') || cleanText.includes('conte') || cleanText.includes('shannara') || cleanText.includes('quatre terres'))) {
+    // b) Fantastique / Conte / Légende arthurienne / Fantasy (ex: Kaamelott, Chasseuse de géants, Shannara, Monster Summer) -> Sci-Fi / Fantastique
+    if (rawTags.includes('fnt') && (FANTASTIC_PATTERNS.test(cleanText) || cleanText.includes('geant') || cleanText.includes('monstre') || cleanText.includes('magie') || cleanText.includes('sorcier') || cleanText.includes('sorciere') || cleanText.includes('arthur') || cleanText.includes('kaamelott') || cleanText.includes('creature') || cleanText.includes('vampire') || cleanText.includes('malediction') || cleanText.includes('royaume') || cleanText.includes('feerique') || cleanText.includes('conte') || cleanText.includes('shannara') || cleanText.includes('quatre terres'))) {
       scores[2] += 45;
     }
     // c) Pure Science-Fiction / Mutants / Aliens / Vaisseaux / Dystopie / Catastrophe -> Sci-Fi
