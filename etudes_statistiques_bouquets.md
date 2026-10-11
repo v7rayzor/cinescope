@@ -134,3 +134,49 @@ Ces 117 œuvres proviennent des chaînes thématiques payantes du câble/satelli
 * **Warner TV / Série Club** : Séries américaines cultes (*The Big Bang Theory*, *Supernatural*, *Fringe*, *Superman & Loïs*).
 * **TV Breizh** : Polars et téléfilms d'enquête.
 * **Paramount Channel** : Films de studio (*Wild*, *The Battery*, *Rituel meurtrier*).
+
+---
+
+## 4. Impact Chiffré de la Refonte du Filtre TNT (11 Octobre 2026)
+
+### A. Comparatif Global « Hors Prime & TNT »
+* **Avant modification (v8.39)** *(Ancienne méthode : liste manuelle regex + FAST/AVOD Pluto/Rakuten/Plex inclus à tort)* :
+  * Total catalogue : **883 œuvres**
+  * Exclus par le filtre : **200 œuvres**
+  * **Visibles « Hors Prime & TNT » :** **683 œuvres** (581 films, 102 séries)
+* **Après modification (v8.40)** *(Nouvelle méthode : diffuseurs nationaux officiels uniquement `tf1`, `myt`, `sxp`, `6pt`, `art`, `fra`, `rmc`, `bfm`, `gum`, zéro liste regex, zéro FAST/AVOD)* :
+  * Total catalogue : **878 œuvres**
+  * Exclus par le filtre : **188 œuvres**
+  * **Visibles « Hors Prime & TNT » :** **690 œuvres** (584 films, 106 séries)
+* **Évolution nette :** **+7 œuvres nettes visibles** (+3 films, +4 séries).
+
+---
+
+### B. Détail par Étoiles & Catégories (Visibles Hors Prime & TNT)
+
+| Métrique | Avant (v8.39) | Après (v8.40) | Évolution |
+| :--- | :---: | :---: | :---: |
+| ⭐⭐⭐ (3★) | 235 | **240** | **+5** |
+| ⭐⭐⭐⭐ (4★) | 265 | **263** | -2 |
+| ⭐⭐⭐⭐⭐ (5★) | 183 | **187** | **+4** |
+| `drame_emotion` | 284 | **285** | +1 |
+| `thriller_policier` | 100 | **105** | **+5** |
+| `comedie` | 133 | **132** | -1 |
+| `animation_famille` | 63 | **60** | -3 |
+| `scifi_fantastique` | 53 | **55** | **+2** |
+| `horreur_epouvante` | 28 | **29** | +1 |
+| `action_aventure` | 22 | **24** | **+2** |
+
+---
+
+### C. Mouvements Clés du Catalogue
+1. **20 œuvres légitimes récupérées (+20)** *(exclues à tort auparavant par Rakuten/Pluto/Plex ou regex en dur)* :
+   * **Films cinéma payants :** *T.I.M.*, *Pour elle*, *Haute Couture*, *Notorious Nick*, *Sang d'acier*, *USS Indianapolis*, *Enlèvement*, *Wild Bill*, *Birdman*, *Piégés*...
+   * **Séries payantes Universal+ :** *Candice Renoir*, *Le Voyageur*, *Harry Wild*, *Professeur T*, *Whitstable Pearl*, *Hudson & Rex*, *Motive* (replays TNT en clair expirés, devenues exclusivités SVOD 13ème RUE).
+2. **7 œuvres nouvellement exclues (-7)** *(détectées avec précision grâce aux slugs officiels `sxp` M6+ et `fra` France TV)* :
+   * *Noir comme neige : Morts au Sommet* (polar France 2 / France TV)
+   * *Aurora Teagarden : Meurtre au bord du lac* (téléfilm M6+ / TF1+)
+   * *Volontaire* (TF1+ / M6+)
+   * *L’Impasse* (diffusé en clair)
+   * Séries d'animation jeunesse diffusées sur Gulli / M6+ (*Dragons*, *Les Croods*, *Madagascar*).
+
