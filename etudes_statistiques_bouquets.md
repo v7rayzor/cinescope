@@ -182,57 +182,68 @@ Ces 117 œuvres proviennent des chaînes thématiques payantes du câble/satelli
 
 ---
 
-## 5. Étude d'Ajout : Molotov Gratuit (TNT en Clair / 0 Option Payante) (11 Octobre 2026)
+## 5. Étude d'Ajout : Molotov Gratuit Pur (Mango / Offre Gratuite Molotov : Hors TNT & Hors Abonnement Payant) (11 Octobre 2026)
 
 ### A. Vue d'Ensemble
-Si l'on intègre à CinéScope l'offre **Molotov Gratuit** (les œuvres accessibles avec un simple compte gratuit Molotov, c'est-à-dire les chaînes gratuites de la TNT et replays sans abonnement SVOD payant) :
-* **Volume Total Ajouté :** **+410 œuvres nettes éligibles** (non présentes dans le catalogue CinéScope actuel).
-  * **Films :** **+291 films** (Runtime $\ge 60\text{ min}$)
-  * **Séries :** **+119 séries**
+Cette étude isole strictement le catalogue **gratuit propre à Molotov (notamment l'offre Mango / AVOD gratuite)**, en excluant à la fois :
+1. **Toutes les chaînes de la TNT gratuite et leurs replays** (*TF1+, M6+, France TV, Arte, RMC, Gulli*...).
+2. **Tous les bouquets et abonnements payants** (*Ciné+ OCS, Universal+, Action Max, Sooner, Shadowz, Insomnia, Netflix, Disney+, Canal+, Paramount+, Max*...).
+3. **Les doublons déjà présents dans le catalogue actuel CinéScope**.
+
+* **Volume Total Ajouté :** **+155 œuvres nettes éligibles**
+  * **Films :** **+151 films** (Runtime $\ge 60\text{ min}$)
+  * **Séries :** **+4 séries** (*Sous pression* [5★], *Sissi* [5★], *The Equalizer* [4★], *Secrets and Lies* [4★])
 
 ---
 
-### B. Détail FILMS : +291 Films Ajoutés
+### B. Détail FILMS : +151 Films Ajoutés
 
 | Catégorie | Total Films | ⭐⭐⭐ (3★) | ⭐⭐⭐⭐ (4★) | ⭐⭐⭐⭐⭐ (5★) |
 | :--- | :---: | :---: | :---: | :---: |
-| `drame_emotion` | **101** | 53 | 45 | 3 |
-| `thriller_policier` | **74** | 53 | 19 | 2 |
-| `comedie` | **37** | 22 | 14 | 1 |
-| `horreur_epouvante` | **30** | 18 | 12 | 0 |
-| `action_aventure` | **26** | 17 | 9 | 0 |
-| `scifi_fantastique` | **14** | 8 | 6 | 0 |
-| `animation_famille` | **9** | 5 | 4 | 0 |
-| **TOTAL FILMS** | **291** | **176** (60,5%) | **109** (37,5%) | **6** (2,1%) |
+| `drame_emotion` | **48** | 25 | 21 | 2 |
+| `thriller_policier` | **38** | 27 | 10 | 1 |
+| `horreur_epouvante` | **21** | 15 | 6 | 0 |
+| `action_aventure` | **18** | 11 | 7 | 0 |
+| `comedie` | **15** | 10 | 4 | 1 |
+| `scifi_fantastique` | **10** | 5 | 5 | 0 |
+| `animation_famille` | **1** | 1 | 0 | 0 |
+| **TOTAL FILMS** | **151** | **94** (62,3%) | **53** (35,1%) | **4** (2,6%) |
+
+*Exemples de films notables ajoutés :* *Arcadian* (Nicolas Cage), *Summer of 84*, *Creed III*, *The Prodigy*, *The Battery*, *Assaut sur Wall Street*, *La Ligne de feu*, *Justice IA*, *Allah n'est pas obligé* (5★), *Des blessures invisibles* (5★)...
 
 ---
 
-### C. Détail SÉRIES : +119 Séries Ajoutées
+### C. Détail SÉRIES : +4 Séries Ajoutées
 
 | Catégorie | Total Séries | ⭐⭐⭐ (3★) | ⭐⭐⭐⭐ (4★) | ⭐⭐⭐⭐⭐ (5★) |
 | :--- | :---: | :---: | :---: | :---: |
-| `thriller_policier` | **56** | 9 | 27 | 20 |
-| `drame_emotion` | **37** | 8 | 18 | 11 |
-| `comedie` | **9** | 2 | 2 | 5 |
-| `scifi_fantastique` | **7** | 4 | 2 | 1 |
-| `horreur_epouvante` | **6** | 1 | 5 | 0 |
-| `action_aventure` | **2** | 0 | 0 | 2 |
-| `animation_famille` | **2** | 1 | 1 | 0 |
-| **TOTAL SÉRIES** | **119** | **25** (21,0%) | **55** (46,2%) | **39** (32,8%) |
+| `thriller_policier` | **3** | 0 | 2 | 1 |
+| `drame_emotion` | **1** | 0 | 0 | 1 |
+| `comedie` | **0** | 0 | 0 | 0 |
+| `scifi_fantastique` | **0** | 0 | 0 | 0 |
+| `horreur_epouvante` | **0** | 0 | 0 | 0 |
+| `action_aventure` | **0** | 0 | 0 | 0 |
+| `animation_famille` | **0** | 0 | 0 | 0 |
+| **TOTAL SÉRIES** | **4** | **0** (0%) | **2** (50,0%) | **2** (50,0%) |
+
+*Séries ajoutées :*
+* ⭐⭐⭐⭐⭐ (5★) : *Sous pression* (Thriller/Drame médical d'urgence, 8.4/10), *Sissi* (Drame historique, 7.8/10).
+* ⭐⭐⭐⭐ (4★) : *The Equalizer* (Action/Thriller, 7.3/10), *Secrets and Lies* (Thriller d'enquête, 7.4/10).
 
 ---
 
-### D. TOTAL CUMULÉ (Films + Séries) : +410 Œuvres Ajoutées
+### D. TOTAL CUMULÉ (Films + Séries) : +155 Œuvres Ajoutées
 
 | Catégorie | Total Ajouté | ⭐⭐⭐ (3★) | ⭐⭐⭐⭐ (4★) | ⭐⭐⭐⭐⭐ (5★) |
 | :--- | :---: | :---: | :---: | :---: |
-| `drame_emotion` | **138** | 61 | 63 | 14 |
-| `thriller_policier` | **130** | 62 | 46 | 22 |
-| `comedie` | **46** | 24 | 16 | 6 |
-| `horreur_epouvante` | **36** | 19 | 17 | 0 |
-| `action_aventure` | **28** | 17 | 9 | 2 |
-| `scifi_fantastique` | **21** | 12 | 8 | 1 |
-| `animation_famille` | **11** | 6 | 5 | 0 |
-| **TOTAL CUMULÉ** | **410** | **201** (49,0%) | **164** (40,0%) | **45** (11,0%) |
+| `drame_emotion` | **49** | 25 | 21 | 3 |
+| `thriller_policier` | **41** | 27 | 12 | 2 |
+| `horreur_epouvante` | **21** | 15 | 6 | 0 |
+| `action_aventure` | **18** | 11 | 7 | 0 |
+| `comedie` | **15** | 10 | 4 | 1 |
+| `scifi_fantastique` | **10** | 5 | 5 | 0 |
+| `animation_famille` | **1** | 1 | 0 | 0 |
+| **TOTAL CUMULÉ** | **155** | **94** (60,6%) | **55** (35,5%) | **6** (3,9%) |
+
 
 
