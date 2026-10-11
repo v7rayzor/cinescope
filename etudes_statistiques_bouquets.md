@@ -185,15 +185,15 @@ Ces 117 œuvres proviennent des chaînes thématiques payantes du câble/satelli
 ## 5. Étude d'Ajout : Molotov Gratuit Pur (Offre Gratuite Molotov : Hors TNT & Hors Bouquets Payants Molotov) (11 Octobre 2026)
 
 ### A. Vue d'Ensemble & Périmètre Strict
-Cette étude isole le catalogue **gratuit propre à Molotov (notamment l'offre Mango / AVOD gratuite)**, en excluant à la fois :
+Cette étude isole le catalogue **gratuit propre à Molotov (notamment l'offre Mango / AVOD gratuite)**, en excluant strictement :
 1. **Toutes les chaînes de la TNT gratuite et leurs replays** (*TF1+, M6+, France TV, Arte, RMC, Gulli*...).
-2. **Tous les bouquets payants distribués par Molotov** (*Ciné+ OCS, Universal+, Action Max, Sooner, Shadowz, Insomnia, Filmo, Outbuster, ADN*).
+2. **Les seuls bouquets payants réellement commercialisés sur Molotov** (*Ciné+ OCS, Universal+, Action Max, Sooner, Shadowz, Insomnia*).  
+   *(Filmo, Outbuster et ADN ne sont pas vendus par Molotov et ne sont donc pas exclus ; de même que Netflix, Disney+, Paramount+ ou Prime Video dont la présence conjointe n'affecte pas la gratuité du flux sur Molotov).*
 3. **Les doublons déjà présents dans le catalogue actuel CinéScope**.
-4. **Sans surfiltrage des plateformes externes :** La présence conjointe d'un film sur Netflix, Disney+, Paramount+ ou Prime Video ne l'exclut pas, car Molotov ne commercialise pas ces services ; sur Molotov, l'œuvre est donc accessible via son offre gratuite.
 
-* **Volume Total Ajouté :** **+213 œuvres nettes éligibles**
+* **Volume Total Ajouté :** **+216 œuvres nettes éligibles**
   * **Films :** **+190 films** (Runtime $\ge 60\text{ min}$)
-  * **Séries :** **+23 séries**
+  * **Séries :** **+26 séries**
 
 ---
 
@@ -214,35 +214,35 @@ Cette étude isole le catalogue **gratuit propre à Molotov (notamment l'offre M
 
 ---
 
-### C. Détail SÉRIES : +23 Séries Ajoutées
+### C. Détail SÉRIES : +26 Séries Ajoutées
 
 | Catégorie | Total Séries | ⭐⭐⭐ (3★) | ⭐⭐⭐⭐ (4★) | ⭐⭐⭐⭐⭐ (5★) |
 | :--- | :---: | :---: | :---: | :---: |
 | `thriller_policier` | **8** | 1 | 4 | 3 |
-| `drame_emotion` | **6** | 2 | 3 | 1 |
+| `drame_emotion` | **7** | 2 | 4 | 1 |
 | `scifi_fantastique` | **6** | 2 | 0 | 4 |
+| `animation_famille` | **3** | 0 | 0 | 3 |
 | `comedie` | **1** | 1 | 0 | 0 |
 | `horreur_epouvante` | **1** | 0 | 1 | 0 |
-| `animation_famille` | **1** | 0 | 0 | 1 |
 | `action_aventure` | **0** | 0 | 0 | 0 |
-| **TOTAL SÉRIES** | **23** | **6** (26,1%) | **8** (34,8%) | **9** (39,1%) |
+| **TOTAL SÉRIES** | **26** | **6** (23,1%) | **9** (34,6%) | **11** (42,3%) |
 
-*Séries 5★ notables :* *Solo Leveling* (SF, 9.1/10), *Tsugai* (SF, 8.9/10), *Lucifer* (SF, 8.0/10), *The Great* (Drame, 8.5/10), *Sherlock et sa fille* (Thriller, 8.4/10), *Sous pression* (Thriller, 8.4/10), *Les Évaporés* (Thriller, 8.3/10).
+*Séries 5★ notables :* *Solo Leveling* (SF, 9.1/10), *Tsugai* (SF, 8.9/10), *Black Clover* (Animation/Aventure, 8.5/10), *The Great* (Drame, 8.5/10), *Sherlock et sa fille* (Thriller, 8.4/10), *Sous pression* (Thriller, 8.4/10), *Les Évaporés* (Thriller, 8.3/10), *Lucifer* (SF, 8.0/10), *Mao* (Animation, 8.0/10).
 
 ---
 
-### D. TOTAL CUMULÉ (Films + Séries) : +213 Œuvres Ajoutées
+### D. TOTAL CUMULÉ (Films + Séries) : +216 Œuvres Ajoutées
 
 | Catégorie | Total Ajouté | ⭐⭐⭐ (3★) | ⭐⭐⭐⭐ (4★) | ⭐⭐⭐⭐⭐ (5★) |
 | :--- | :---: | :---: | :---: | :---: |
-| `drame_emotion` | **66** | 34 | 28 | 4 |
+| `drame_emotion` | **67** | 34 | 29 | 4 |
 | `thriller_policier` | **62** | 40 | 18 | 4 |
 | `horreur_epouvante` | **25** | 16 | 9 | 0 |
 | `scifi_fantastique` | **19** | 8 | 7 | 4 |
 | `action_aventure` | **19** | 12 | 7 | 0 |
 | `comedie` | **17** | 12 | 4 | 1 |
-| `animation_famille` | **5** | 2 | 2 | 1 |
-| **TOTAL CUMULÉ** | **213** | **124** (58,2%) | **75** (35,2%) | **14** (6,6%) |
+| `animation_famille` | **7** | 2 | 2 | 3 |
+| **TOTAL CUMULÉ** | **216** | **124** (57,4%) | **76** (35,2%) | **16** (7,4%) |
 
 
 
