@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.50** / Cache **v36**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.51** / Cache **v37**).
 
 ---
 
@@ -11,16 +11,17 @@ Ce document constitue la référence vivante et synthétique de l'architecture, 
    * **Ciné+ OCS** (`aoc`) — 671 œuvres (625 films, 46 séries)
    * **Universal+** (`auc`) — 155 œuvres (76 films, 79 séries)
    * **Action Max** (`aca`) — 51 œuvres (50 films, 1 série)
+   * **Total Mobile / Portable** : **873 œuvres SVOD payantes de base** (747 films $\ge 60\text{ min}$, 126 séries).
 2. **Chaînes SVOD Spécialisées (Exclusivité PC Desktop — Règle 8)** :
-   * **Sooner** (`snr`) — 367 œuvres (347 films, 20 séries — cinéma d'auteur, indépendant, drames, thrillers d'auteur)
-   * **Shadowz** (`sdz`, alias `sza`) — 181 œuvres (181 films — cinéma de genre, horreur, gore, fantastique, thriller sombre)
-   * **Insomnia** (`ima`) — 37 œuvres (34 films, 3 séries — cinéma de frisson et d'épouvante)
-   * Logos officiels HD configurés dans `assets/logos/sooner.png`, `assets/logos/shadowz.png`, `assets/logos/insomnia.png` (purifié sans bandeau tiers).
+   * **Sooner** (`snr`) — 367 œuvres (347 films, 20 séries — cinéma d'auteur, drames, thrillers d'auteur)
+   * **Shadowz** (`sdz`, alias `sza`) — 181 œuvres (181 films — cinéma de genre, horreur, gore, fantastique)
+   * **Insomnia** (`ima`) — 37 œuvres (34 films, 3 séries — frisson et épouvante)
+   * Logos officiels HD configurés dans `assets/logos/sooner.png`, `assets/logos/shadowz.png`, `assets/logos/insomnia.png`.
 3. **Plateformes Gratuites & TNT Dissociées (Exclusivité PC Desktop — Règle 8)** :
-   * **Règle Universelle Molotov ABO (`FLATRATE`)** : Toute œuvre non payante **DOIT impérativement posséder une offre dans la ligne ABO de Molotov (`FLATRATE`)** pour être admise (garantie de visionnage immédiat dans Molotov Extended).
-   * **M6+** (`sxp`, alias `6pt`, `mms`) — 95 œuvres (replays réels M6, W9, 6ter & Gulli disponibles sur Molotov)
-   * **TF1+** (`tf1`, alias `myt`) — 61 œuvres (replays réels TF1, TMC, TFX disponibles sur Molotov)
-   * **France TV** (`fra`) — 30 œuvres (replays réels France 2, 3, 5 disponibles sur Molotov, logo officiel `france.tv` purifié)
+   * **Règle Universelle Molotov ABO (`FLATRATE`)** : Toute œuvre non payante **DOIT impérativement posséder une offre dans la ligne ABO de Molotov (`FLATRATE`)** pour être admise.
+   * **M6+** (`sxp`, alias `6pt`, `mms`) — 95 œuvres (replays réels M6, W9, 6ter & Gulli confirmés ABO)
+   * **TF1+** (`tf1`, alias `myt`) — 61 œuvres (replays réels TF1, TMC, TFX confirmés ABO)
+   * **France TV** (`fra`) — 30 œuvres (replays réels France 2, 3, 5 confirmés ABO, logo officiel `france.tv` purifié)
    * **Molotov Gratuit** (`mlt`) — 308 œuvres (catalogue AVOD Mango & chaînes FAST confirmées ABO)
    * **Règle Anti-Doublon TNT** : Si une œuvre est diffusée sur une chaîne TNT (`tf1`, `sxp`, `fra`), le tag et le logo **Molotov Gratuit (`mlt`) sont formellement bannis** de la jaquette. L'œuvre arbore exclusivement son logo officiel de chaîne.
 
@@ -33,7 +34,7 @@ Ce document constitue la référence vivante et synthétique de l'architecture, 
     - Tout diffuseur spécialisé est masqué si le toggle `+ Spécialisées` est éteint.
   - **Sur une puce de bouquet spécifique** (ex: clic sur `[Universal+]` ou `[M6+]`) :
     - La jaquette n'affiche **strictement que le logo du bouquet sélectionné**.
-  - **Conservation multi-diffuseurs dans le catalogue** : Une œuvre disponible à la fois sur Universal+ et M6+ (ou OCS et Sooner) conserve tous ses diffuseurs réels dans `package_slugs`, sans aucun parasitage visuel.
+  - **Conservation multi-diffuseurs dans le catalogue** : Une œuvre disponible à la fois sur Universal+ et M6+ conserve tous ses diffuseurs réels dans `package_slugs`, sans aucun parasitage visuel.
 
 ### C. Synchronisation Hybride & Automatisation
 * **Automatisation Serveur (GitHub Actions - `.github/workflows/update_catalog.yml`)** :
@@ -44,7 +45,7 @@ Ce document constitue la référence vivante et synthétique de l'architecture, 
 * **Client Web Résilient ([`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js))** :
   - Démarrage instantané sur le catalogue pré-embarqué `CATALOG_DATA`.
   - Rafraîchissement rapide quotidien calibré à **100 nouveautés fraîches** (2 pages de 50).
-  - Rechargement client avec invalidation de cache (`?v=8.50`) et purge automatique des anciennes clés LocalStorage (`_v36`).
+  - Rechargement client avec invalidation de cache (`?v=8.51`) et purge automatique des anciennes clés LocalStorage (`_v37`).
 
 ---
 
@@ -104,22 +105,21 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 
 ### A. Interface Mobile & Responsive (Règle 8 AGENTS.md)
 * **Sanctuarisation Mobile Stricte & Inviolable** :
-  - Sur smartphone / mobile (largeur $< 1024\text{px}$), toutes les œuvres Gratuites, TNT et Spécialisées sont **strictement masquées en permanence**.
-  - Le mobile conserve exclusivement les **873 œuvres SVOD payantes de base** (747 films, 126 séries) des 3 bouquets payants de référence (`aoc`, `auc`, `aca`).
-  - Zéro pollution, zéro bouton de chaîne secondaire visible sur mobile.
+  - **AUCUNE ligne de bouquets sur mobile** : La barre complète des bouquets (`.bouquets-bar-section`) et ses séparateurs (`.bouquets-divider-line`) sont **strictement masqués en permanence** (`display: none !important` pour tout écran $< 1024\text{px}$).
+  - **Périmètre du catalogue mobile** : Filtré strictement sur `isItemBasePaid(item)` qui n'admet **QUE Ciné+ OCS (`aoc`), Action Max (`aca`) et Universal+ (`auc`)**.
+  - **Contenu visible** : Strictement les **873 œuvres SVOD payantes de base** (747 films, 126 séries).
+  - **Zéro pollution** : Zéro chaîne spécialisée, zéro TNT/Gratuit, interface 100% épurée (Menu déroulant Filtre Genre + Étoiles/Durée + Affiches).
 
-### B. Barre des Toggles Réorganisée (Ligne 0B - Desktop PC)
-* **Regroupement des Ajouts (+) et des Exclusions (-)** :
+### B. Organisation Multi-Lignes des Bouquets & Filtres sur Desktop (PC $\ge 1024\text{px}$)
+* **Ligne 0A (Ligne 1) : Bouquets SVOD Payants & Spécialisés** :
+  `[✨ Tous les bouquets]` `[Ciné+ OCS]` `[Action Max]` `[Universal+]` `[Sooner]` `[Shadowz]` `[Insomnia]`
+* **Ligne 0A-bis (Ligne 2) : Bouquets Gratuits & TNT** :
+  `[Molotov Gratuit]` `[TF1+]` `[M6+]` `[France TV]` (regroupés proprement sur leur rangée dédiée sans saut de ligne anarchique).
+* **Ligne 0B (Ligne 3) : Toggles d'Inclusion (+) et Filtres d'Exclusion (-)** :
   1. `[📺 + Gratuit & TNT]` (+) : Inactif par défaut. Un clic ajoute les 478 œuvres TNT/Molotov.
   2. `[🎬 + Spécialisées]` (+) : Inactif par défaut. Un clic ajoute les 559 œuvres Sooner, Shadowz, Insomnia.
   3. `[🛡️ Hors Prime & TNT]` (-) : Exclut les œuvres Prime Video standard et diffusions TNT.
   4. `[🚫 Exclure sans S1]` (-) : Masque les séries tronquées sans saison 1.
-
-### C. Barre des Bouquets PC (Ligne 0A)
-* Puces individuelles pour filtrer sur un diffuseur spécifique :
-  - SVOD de référence : `[✨ Tous les bouquets]` `[Ciné+ OCS]` `[Action Max]` `[Universal+]`
-  - Chaînes spécialisées : `[Sooner]` `[Shadowz]` `[Insomnia]`
-  - Gratuits & TNT : `[Molotov Gratuit]` `[TF1+]` `[M6+]` `[France TV]`
 
 ---
 
@@ -127,7 +127,7 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 
 * **Audit de Conformité Catalogue ([`js/catalog.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js))** :
   - **Total œuvres qualifiées PC** : **1 910** (1 631 films $\ge 60\text{ min}$, 279 séries).
-  - **Total œuvres qualifiées Mobile** : **873** (747 films $\ge 60\text{ min}$, 126 séries).
+  - **Total œuvres qualifiées Mobile** : **873** (747 films $\ge 60\text{ min}$, 126 séries — STRICTEMENT Ciné+ OCS, Action Max, Universal+).
   - **Conformité 1 catégorie unique** : **1 910 / 1 910 (100% conforme, 0 anomalie)**.
   - **Titres expirés** : **0**.
   - **Distribution des 7 catégories** :
@@ -139,5 +139,5 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     - `animation_famille` : 126
     - `action_aventure` : 90
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.50` (`sw.js` : `cinescope-v8.50-streaming`, assets `?v=8.50`).
-  - **Clés LocalStorage Actives** : `_v36` (`cinescope_streaming_catalog_v36`, etc.).
+  - **Version Application / PWA** : `v8.51` (`sw.js` : `cinescope-v8.51-streaming`, assets `?v=8.51`).
+  - **Clés LocalStorage Actives** : `_v37` (`cinescope_streaming_catalog_v37`, etc.).

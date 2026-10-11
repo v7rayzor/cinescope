@@ -2170,9 +2170,19 @@ body.modal-open {
 
 
 
+.bouquets-bar-tnt {
+  padding-top: 0.15rem;
+}
+
 /* Règle 8 : Exclusivité PC pour les fonctionnalités spécifiques Desktop */
 @media (max-width: 1023px) {
   .bouquet-btn-pc-only {
+    display: none !important;
+  }
+  .bouquets-bar-section {
+    display: none !important;
+  }
+  .filters-bubble-divider.bouquets-divider-line {
     display: none !important;
   }
 }

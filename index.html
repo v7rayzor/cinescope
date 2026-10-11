@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=8.50">
+  <link rel="stylesheet" href="css/style.css?v=8.51">
 </head>
 <body>
   <!-- Header / Navigation principale -->
@@ -84,7 +84,7 @@
   <main class="main-content">
     <!-- Bulle Unifiée de Tous les Filtres (Catégories / Genre, Étoiles, Bouquets, Durée) -->
     <section class="filters-unified-bubble" id="filtersUnifiedBubble">
-      <!-- Ligne 0A : Bouquets Streaming -->
+      <!-- Ligne 0A : Bouquets Streaming Payants & Spécialisés (Desktop PC) -->
       <div class="bouquets-bar-section" id="bouquetsBarSection">
         <div class="bouquets-wrapper" id="bouquetsNav">
           <div class="bouquets-chips-group">
@@ -124,7 +124,14 @@
               <span class="pkg-name">Insomnia</span>
               <span class="pkg-count" id="countPkgInsomnia">0</span>
             </button>
-            <!-- Bouquets Gratuits & TNT (Exclusivité Desktop PC - Règle 8) -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Ligne 0A-bis : Bouquets Gratuits & TNT (Exclusivité Desktop PC - Règle 8) -->
+      <div class="bouquets-bar-section bouquets-bar-tnt bouquet-btn-pc-only" id="bouquetsTntSection">
+        <div class="bouquets-wrapper" id="bouquetsTntNav">
+          <div class="bouquets-chips-group">
             <button class="bouquet-btn bouquet-btn-pc-only" data-package="mlt" id="pkgMolotov" title="Afficher les œuvres gratuites Molotov (Mango AVOD & FAST)">
               <img src="assets/logos/molotov.png" alt="Molotov Gratuit" class="pkg-logo-img">
               <span class="pkg-name">Molotov Gratuit</span>
@@ -436,10 +443,10 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="js/catalog.js?v=8.50"></script>
-  <script src="js/nlp_model.js?v=8.50"></script>
-  <script src="js/justwatch_engine.js?v=8.50"></script>
-  <script src="js/app.js?v=8.50"></script>
+  <script src="js/catalog.js?v=8.51"></script>
+  <script src="js/nlp_model.js?v=8.51"></script>
+  <script src="js/justwatch_engine.js?v=8.51"></script>
+  <script src="js/app.js?v=8.51"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
