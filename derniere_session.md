@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.40** / Cache **v27**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.41** / Cache **v27**).
 
 ---
 
@@ -77,13 +77,23 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 * **Badges Visuels & Tri par Urgence d'Expiration** :
   - **Priorité 1 absolue** : Titres expirants triés par `daysLeft` croissant (`⏳ Expire aujourd'hui`, `⏳ Expire demain`, `⏳ Expire dans X j`, `📅 Jusqu'au JJ/MM`).
   - **Badge « 🆕 Nouveauté »** : Priorité visuelle sur l'affiche pendant les **7 premiers jours** d'arrivée au catalogue.
-  - **Priorité 2** : Titres pérennes ordonnés par affinité profil puis tirage aléatoire déterministe stable pour la journée.
+  - **Priorité 2** : Titres pérennes ordonnés par tirage aléatoire déterministe stable pour la journée.
 
 ---
 
-## 4. Filtres UI & Moteurs de Recommandations PC
+## 4. Filtres UI & Ergonomie de Navigation
 
-### A. Filtres Exclusifs Desktop PC
+### A. Interface Mobile & Responsive
+* **Sélecteur Déroulant Mobile « Filtre »** :
+  - Sur mobile ($\le 768\text{px}$), le bouton déroulant arbore l'intitulé **« Filtre »** (plus incitatif, parlant et standardisé sur smartphone que l'ancien terme « Genre »), couplé au badge dynamique affichant la sélection active en temps réel (*Tous les titres*, *Action & Aventure*, etc.).
+
+### B. Barre de Filtres Épurée & Retrait des Boutons de Profils
+* **Focalisation Cinématographique Pure** :
+  - Le bloc des 4 boutons de profils (`Pour Moi`, `Ami`, `Amie`, `Duo Amis`) a été retiré de la barre de navigation principale pour alléger l'interface et éviter les distorsions visuelles de compteurs.
+  - Les méthodes de calcul de scores d'affinité associées (`computeProfileAffinity`, `isItemMatchingProfile`, `getItemActionPercentage`, `isItemExcludedForAmis`) ont été intégralement épurées du client web.
+  - La charte et les sélections des profils d'amis restent documentées et sanctuarisées dans [`profils_amis.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/profils_amis.md) pour les conseils personnalisés.
+
+### C. Filtres Toggles & Desktop PC
 * **Barre de Recherche de Titres Dédiée** :
   - Intégrée au header (écrans $\ge 1024\text{px}$), recherche NFD insensible à la casse et aux accents, bouton d'effacement `✕`, raccourci touche `Échap`.
 * **Toggle « 🛡️ Hors Prime & TNT »** :
@@ -91,12 +101,6 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **100% Déterministe & Pérenne** : Zéro liste manuelle de titres en dur (`KNOWN_TNT_PATTERNS` définitivement supprimé), et exclusion formelle des plateformes FAST / AVOD (Pluto TV, Rakuten TV, Plex qui ne sont pas de la TNT).
 * **Toggle « 🚫 Exclure sans S1 »** :
   - Masque les séries tronquées ne disposant pas de leur saison 1 sur les bouquets (`⚠️ Débute SX` sur les cartes si inactif).
-
-### B. Moteur de Recommandations par Profils ([`profils_amis.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/profils_amis.md))
-* **`🧙‍♂️ Pour Moi`** : Mystère temporel, imaginaire/fantastique riche sans kitsch, paranormal feutré & horreur de possession (*Timeless*, *Resident Alien*, *Chambre 1408*, *Midnight, Texas*, *Wild Cards*, *The Spiderwick Chronicles*). 0 boucherie militaire, 0 panique de masse, 0 animation.
-* **`👤 Ami`** : Action physique 1er degré strict, survie face aux monstres, horreur de possession/hantise (*Annabelle*, *Black Phone*), techno-thrillers (*Arcadia*, *Orphan Black: Echoes*). Règle : $\% \text{ Action} \ge 11\%$, 0 animation, exclusions Prime/TNT.
-* **`👩 Amie`** : Cérébral, enquêtes posées, duos complices style *Castle* (*Family Law*, *Grace*, *Toronto: Section Criminelle*, *Bull*) et drames/romances émouvants. Règle : $\% \text{ Action} \le 33\%$, 0 comédie potache, 0 animation, 0 gore, exclusions Prime/TNT.
-* **`👫 Duo Amis`** : Intersection mathématique ($11\% \le \% \text{ Action} \le 33\%$), score moyen $\ge 50\%$, genres `thriller_policier` et `scifi_fantastique`.
 
 ---
 
@@ -115,6 +119,6 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     - `action_aventure` : 50
     - `horreur_epouvante` : 44
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.40` (`sw.js` : `cinescope-v8.40-streaming`, assets `?v=8.40`).
+  - **Version Application / PWA** : `v8.41` (`sw.js` : `cinescope-v8.41-streaming`, assets `?v=8.41`).
   - **Clés LocalStorage Actives** : `_v27` (`cinescope_streaming_catalog_v27`, etc.).
 
