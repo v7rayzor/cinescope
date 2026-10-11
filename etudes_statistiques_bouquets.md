@@ -139,32 +139,32 @@ Ces 117 œuvres proviennent des chaînes thématiques payantes du câble/satelli
 
 ## 4. Impact Chiffré de la Refonte du Filtre TNT (11 Octobre 2026)
 
-### A. Comparatif Global « Hors Prime & TNT »
-* **Avant modification (v8.39)** *(Ancienne méthode : liste manuelle regex + FAST/AVOD Pluto/Rakuten/Plex inclus à tort)* :
-  * Total catalogue : **883 œuvres**
-  * Exclus par le filtre : **200 œuvres**
-  * **Visibles « Hors Prime & TNT » :** **683 œuvres** (581 films, 102 séries)
-* **Après modification (v8.40)** *(Nouvelle méthode : diffuseurs nationaux officiels uniquement `tf1`, `myt`, `sxp`, `6pt`, `art`, `fra`, `rmc`, `bfm`, `gum`, zéro liste regex, zéro FAST/AVOD)* :
-  * Total catalogue : **878 œuvres**
-  * Exclus par le filtre : **188 œuvres**
-  * **Visibles « Hors Prime & TNT » :** **690 œuvres** (584 films, 106 séries)
-* **Évolution nette :** **+7 œuvres nettes visibles** (+3 films, +4 séries).
+### A. Comparatif Global « Hors Prime & TNT » à Isopérimètre Strict (Base : 878 Œuvres Actuelles)
+> **Note méthodologique :** Pour isoler l'impact pur du filtre, la comparaison est effectuée à **isopérimètre strict sur le même catalogue fixe de 878 œuvres** *(les 5 œuvres d'écart avec les 883 précédentes correspondent à des titres expirés au 10/10/2026 qui ont été purgés lors du flux du matin : Lucky, Jamais sans mon psy, Vingt Dieux, Les femmes au balcon, Blood Star)*.
+
+| Métrique | Ancien Filtre<br>*(regex manuelles + FAST/AVOD)* | Nouveau Filtre<br>*(diffuseurs TNT officiels stricts)* | Évolution Nette |
+| :--- | :---: | :---: | :---: |
+| **Total catalogue qualifié** | **878** | **878** | **0 (identique)** |
+| **Exclus par Prime & TNT** | 199 | 188 | **-11** |
+| **VISIBLES « Hors Prime & TNT »** | **679** | **690** | **+11 œuvres gagnées** |
+| • Films visibles | 577 | **584** | **+7 films** |
+| • Séries visibles | 102 | **106** | **+4 séries** |
 
 ---
 
-### B. Détail par Étoiles & Catégories (Visibles Hors Prime & TNT)
+### B. Détail par Étoiles & Catégories (Visibles Hors Prime & TNT sur 878 œuvres fixes)
 
-| Métrique | Avant (v8.39) | Après (v8.40) | Évolution |
+| Métrique | Ancien Filtre (sur 878) | Nouveau Filtre (sur 878) | Évolution |
 | :--- | :---: | :---: | :---: |
 | ⭐⭐⭐ (3★) | 235 | **240** | **+5** |
-| ⭐⭐⭐⭐ (4★) | 265 | **263** | -2 |
-| ⭐⭐⭐⭐⭐ (5★) | 183 | **187** | **+4** |
+| ⭐⭐⭐⭐ (4★) | 262 | **263** | **+1** |
+| ⭐⭐⭐⭐⭐ (5★) | 182 | **187** | **+5** |
 | `drame_emotion` | 284 | **285** | +1 |
 | `thriller_policier` | 100 | **105** | **+5** |
-| `comedie` | 133 | **132** | -1 |
+| `comedie` | 130 | **132** | **+2** |
 | `animation_famille` | 63 | **60** | -3 |
 | `scifi_fantastique` | 53 | **55** | **+2** |
-| `horreur_epouvante` | 28 | **29** | +1 |
+| `horreur_epouvante` | 27 | **29** | **+2** |
 | `action_aventure` | 22 | **24** | **+2** |
 
 ---
