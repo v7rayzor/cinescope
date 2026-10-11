@@ -1097,7 +1097,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Laure a 23 ans. Elle se cherche. C’est dans la Marine Nationale qu’elle va trouver un cadre, une structure, des repères. Solide et persévérante, elle va faire son apprentissage et découvrir sa voie.",
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2018,
     "date_ajout": "2018-06-06"
   },
@@ -9383,7 +9383,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Helen tente de faire face à la mort récente de son mari, un scientifique qui s'est suicidé alors qu'il était sur le point de réussir l'invention d'une machine à voyager dans le temps. Un jour, elle reçoit un appel téléphonique et une voix ressemblant étrangement à la sienne l'avertit qu'elle est en danger. Est-il possible qu'Helen ait voyagé dans le temps ? Et qu'est-ce qui a pu la pousser à faire une telle chose ?",
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2017,
     "date_ajout": "2017-06-30"
   },
@@ -9525,7 +9525,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "De retour à New York après sa dernière aventure, Flynn essaie tant bien que mal de reprendre le cours normal de sa vie. Mais hanté par d'étranges rêves, il s'envole pour la Nouvelle-Orléans pour découvrir l'existence d'une conspiration menée par le plus célèbre des vampires : le Prince Vlad Dracul !",
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1299445",
@@ -9719,7 +9719,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Après avoir contracté une dette auprès d’un dangereux baron de la drogue, trois jeunes hommes désespérés décident de commettre un braquage pour réunir l’argent qui leur manque. Ce qui s’annonçait comme un plan simple et efficace (entre et sortir de la banque en sept minutes) dérape bien vite… Chaque minute qui passe révèle les secrets inavoués de chacun. En sortiront-ils indemnes ?",
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1088788",
@@ -10295,7 +10295,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Violente et percutante, avec Adrien Brody, John Malkovich et Antonio Banderas, casting trois étoiles, ce thriller revisite le film de braquage avec originalité, c'est un vrai plaisir. Après un braquage, trois voleurs se retrouvent coincés dans un entrepôt abandonné mais dans ces lieux rôde un redoutable chien de combat qui va les traquer.",
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2017,
     "date_ajout": "2018-06-06"
   },
@@ -10536,7 +10536,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Dans le paysage glacé et déchiré par la guerre de la Pologne occupée pendant la Seconde Guerre mondiale, une équipe de commandos alliés est envoyée en mission mortelle derrière les lignes ennemies pour extraire un spécialiste des fusées des mains des nazis.",
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2020,
     "date_ajout": "2021-10-20"
   },
@@ -10633,7 +10633,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Des enfants pourris gâtés, issus de familles aisées, sont envoyés dans une pension très stricte, dans l'espoir que cette éducation leur remettra les idées en place. Arrivés sur place, ils se retrouvent bientôt pris en otages par des criminels ayant assiégé l'école. Leurs kidnappeurs demandent alors une rançon exorbitante. Leur seul espoir : s'en sortir par leurs propres moyens...",
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2016,
     "date_ajout": "2024-11-06"
   },
@@ -10682,7 +10682,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Kurt Sloan est bien décidé à venger la mort de son frère Eric, tué par un champion de boxe thaïlandaise. Pour cela, il est entraîné par un maître en arts martiaux.",
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2016,
     "date_ajout": "2024-04-30"
   },
@@ -10873,7 +10873,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Carson Phillips, ancien quarterback devenu détective privé à Los Angeles, se rend à Galveston au Texas sur la demande d’une cliente sans nouvelles de sa tante. Il accepte à contrecoeur car aller à Galveston c’est pour lui un pèlerinage douloureux. C’est là qu’il y a vingt ans, il a abandonné la femme qu’il aimait ainsi que sa carrière de footballeur. Carson va alors percer un à un tous les secrets cette ville sur fond de corruption, de trafic de drogue et de matchs truqués.",
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2019,
     "date_ajout": "2019-12-04"
   },
@@ -10970,7 +10970,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Paul Maguire est un homme d'affaires respectable et un père aimant qui mène une vie paisible, jusqu'au jour où son passé violent revient le hanter. Lorsque sa fille se fait kidnapper, Paul réunit son ancienne équipe pour l'aider à la retrouver... par tous les moyens nécessaires. Sa quête de justice le mène sur la voie sombre et sanglante de la vengeance, de la trahison et des secrets enfouis depuis longtemps.",
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1248245",
@@ -11862,7 +11862,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Le Ministère du Temps est une institution secrète qui s’assure que l'histoire de l'Espagne ne change pas, tout en protégeant le présent. Leurs patrouilles voyagent à travers le temps pour empêcher tout intrus du passé d’utiliser à leur avantage l’histoire. Sur leur chemin, ils croiseront des célébrités comme Dali, Bunuel ou Picasso, mais nos protagonistes voudront aussi voyager dans le temps pour découvrir ce qui est arrivé à leurs proches, même si cela signifie un petit arrangement avec les règles du Ministère.",
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_fin": 2020,
     "annee_moyenne": 2018,
     "saisons_disponibles": [
@@ -12467,7 +12467,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Flynn Carson est le bibliothécaire depuis maintenant dix ans. Il doit résoudre des mystères impossibles, retrouver des artefacts très puissants et affronter des forces surnaturelles dont celle de la confrérie du serpent, son principal ennemi. Pour l'aider, la Bibliothèque lui a choisi un gardien, le colonel Eve Baird, militaire à l'OTAN. L'équipe se voit très vite complétée par trois \"bibliothécaires en herbe\" : Jacob Stone, un génie en histoire et architecture, au QI de 190, Cassandra Cillian, une mathématicienne dotée d'une mémoire photographique qui est atteinte d'une tumeur au cerveau et Ezekiel Jones, un voleur et spécialiste en technologie avancée.",
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_fin": 2017,
     "annee_moyenne": 2016,
     "saisons_disponibles": [
@@ -13056,7 +13056,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Après 10 ans d'absence  et un drame personnel, Elliot  Stabler réintègre la police de New York  dans une nouvelle unité chargée de démanteler de l'intérieur les groupes mafieux de la Grosse Pomme.",
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2023,
     "saisons_disponibles": [
       {
@@ -16186,7 +16186,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2024,
     "date_ajout": "2024-09-15"
   },
@@ -16466,7 +16466,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1354988",
@@ -17078,7 +17078,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2024,
     "date_ajout": "2025-09-01"
   },
@@ -18201,7 +18201,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2013,
     "saisons_disponibles": [
       {
@@ -18430,7 +18430,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2017,
     "date_ajout": "2018-03-14"
   },
@@ -20109,7 +20109,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2022,
     "date_ajout": "2023-04-24"
   },
@@ -20536,7 +20536,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2025,
     "date_ajout": "2025-02-26"
   },
@@ -21339,7 +21339,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2020,
     "saisons_disponibles": [
       {
@@ -23019,7 +23019,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2019,
     "date_ajout": "2020-07-22"
   },
@@ -23677,7 +23677,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-ts225559",
@@ -24423,7 +24423,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2024,
     "date_ajout": "2023-09-20"
   },
@@ -26104,7 +26104,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm472195",
@@ -27176,7 +27176,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2024,
     "date_ajout": "2025-05-14"
   },
@@ -27603,7 +27603,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2022,
     "date_ajout": "2020-04-22"
   },
@@ -27650,7 +27650,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2019,
     "date_ajout": "2022-01-26"
   },
@@ -27699,7 +27699,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2023,
     "date_ajout": "2026-02-25"
   },
@@ -28185,7 +28185,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_fin": 2022,
     "annee_moyenne": 2022,
     "saisons_disponibles": [
@@ -30192,7 +30192,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2019,
     "date_ajout": "2019-09-20"
   },
@@ -30669,7 +30669,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm458612",
@@ -30806,7 +30806,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2022,
     "saisons_disponibles": [
       {
@@ -32690,7 +32690,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm464674",
@@ -33413,7 +33413,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2020,
     "saisons_disponibles": [
       {
@@ -33466,7 +33466,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-ts394175",
@@ -33840,7 +33840,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2022,
     "date_ajout": "2026-01-17"
   },
@@ -34372,7 +34372,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-ts200630",
@@ -35733,7 +35733,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2024,
     "date_ajout": "2024-09-03"
   },
@@ -36524,7 +36524,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2021,
     "date_ajout": "2024-06-11"
   },
@@ -40265,7 +40265,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm439291",
@@ -43409,17 +43409,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2013,
     "annee_moyenne": 2013,
@@ -43965,17 +43962,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2012,
     "annee_moyenne": 2012,
@@ -44259,19 +44253,16 @@ const CATALOG_DATA = [
     "chaine": "Molotov Gratuit",
     "chaines": [
       "Molotov Gratuit",
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
       "assets/logos/molotov.png",
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
       "mlt",
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2014,
     "annee_moyenne": 2014,
@@ -45189,7 +45180,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm175820",
@@ -45197,17 +45188,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2014,
     "annee_moyenne": 2014,
@@ -45573,19 +45561,16 @@ const CATALOG_DATA = [
     "chaine": "Molotov Gratuit",
     "chaines": [
       "Molotov Gratuit",
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
       "assets/logos/molotov.png",
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
       "mlt",
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -45623,17 +45608,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -45784,17 +45766,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -45893,19 +45872,16 @@ const CATALOG_DATA = [
     "chaine": "Molotov Gratuit",
     "chaines": [
       "Molotov Gratuit",
-      "M6+",
-      "Arte"
+      "M6+"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
       "assets/logos/molotov.png",
-      "assets/logos/m6_plus.png",
-      "assets/logos/arte.png"
+      "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
       "mlt",
-      "sxp",
-      "art"
+      "sxp"
     ],
     "annee": 2008,
     "annee_moyenne": 2008,
@@ -46137,17 +46113,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2006,
     "annee_moyenne": 2006,
@@ -46360,19 +46333,16 @@ const CATALOG_DATA = [
     "chaine": "Molotov Gratuit",
     "chaines": [
       "Molotov Gratuit",
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
       "assets/logos/molotov.png",
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
       "mlt",
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -46405,7 +46375,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1046410",
@@ -46505,17 +46475,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2006,
     "annee_moyenne": 2006,
@@ -46677,19 +46644,16 @@ const CATALOG_DATA = [
     "chaine": "Molotov Gratuit",
     "chaines": [
       "Molotov Gratuit",
-      "M6+",
-      "Arte"
+      "M6+"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
       "assets/logos/molotov.png",
-      "assets/logos/m6_plus.png",
-      "assets/logos/arte.png"
+      "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
       "mlt",
-      "sxp",
-      "art"
+      "sxp"
     ],
     "annee": 2006,
     "annee_moyenne": 2006,
@@ -46723,70 +46687,19 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm369243",
-    "titre": "Upgrade",
-    "type": "film",
-    "chaine": "Action Max",
-    "chaines": [
-      "Action Max"
-    ],
-    "logo_chaine": "assets/logos/action.png",
-    "logos_chaine": [
-      "assets/logos/action.png"
-    ],
-    "package_slugs": [
-      "aca"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 7.5,
-    "note_recence": 7.6,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "trl",
-      "scf"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/85378743/s592/upgrade.jpg",
-    "synopsis": "Après la mort de son épouse, lors d'une violente agression, qui l'a lui même laissé paralysé, Grey Trace est contacté par un inventeur milliardaire, qui propose de lui administrer un remède expérimental qui va améliorer son corps et ses facultés. Désormais doté d'un implant fonctionnant à l'intelligence artificielle, Grey voit ses capacités physiques décuplées et cherche à retrouver ses agresseurs, afin de leur faire payer la mort de sa femme.",
-    "date_ajout": "2018-06-01",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-11",
-      "packageExpirations": {
-        "aca": "2026-10-11"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm168436",
     "titre": "Pacific Rim",
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2013,
     "annee_moyenne": 2013,
@@ -46824,17 +46737,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -47021,17 +46931,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
@@ -47448,17 +47355,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2014,
     "annee_moyenne": 2014,
@@ -47497,17 +47401,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -47546,17 +47447,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -47894,17 +47792,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2013,
     "annee_moyenne": 2013,
@@ -47982,7 +47877,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm326770",
@@ -48087,19 +47982,16 @@ const CATALOG_DATA = [
     "chaine": "Molotov Gratuit",
     "chaines": [
       "Molotov Gratuit",
-      "France TV",
-      "Arte"
+      "France TV"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
       "assets/logos/molotov.png",
-      "assets/logos/france_tv.png",
-      "assets/logos/arte.png"
+      "assets/logos/france_tv.png"
     ],
     "package_slugs": [
       "mlt",
-      "fra",
-      "art"
+      "fra"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -48139,17 +48031,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -48383,17 +48272,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -48487,17 +48373,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -49177,7 +49060,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm145203",
@@ -49231,17 +49114,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2011,
     "annee_moyenne": 2011,
@@ -49280,17 +49160,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -49330,19 +49207,16 @@ const CATALOG_DATA = [
     "chaine": "Molotov Gratuit",
     "chaines": [
       "Molotov Gratuit",
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
       "assets/logos/molotov.png",
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
       "mlt",
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -49373,7 +49247,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm207103",
@@ -49381,17 +49255,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2015,
     "annee_moyenne": 2015,
@@ -49485,17 +49356,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -49678,17 +49546,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -49827,17 +49692,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -49968,17 +49830,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2011,
     "annee_moyenne": 2011,
@@ -50265,17 +50124,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2013,
     "annee_moyenne": 2013,
@@ -50314,17 +50170,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -50408,17 +50261,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -50501,17 +50351,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -50856,17 +50703,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -51115,19 +50959,16 @@ const CATALOG_DATA = [
     "chaine": "Molotov Gratuit",
     "chaines": [
       "Molotov Gratuit",
-      "France TV",
-      "Arte"
+      "France TV"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
       "assets/logos/molotov.png",
-      "assets/logos/france_tv.png",
-      "assets/logos/arte.png"
+      "assets/logos/france_tv.png"
     ],
     "package_slugs": [
       "mlt",
-      "fra",
-      "art"
+      "fra"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -51391,17 +51232,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -51618,21 +51456,18 @@ const CATALOG_DATA = [
     "chaines": [
       "Molotov Gratuit",
       "TF1+",
-      "M6+",
-      "Arte"
+      "M6+"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
       "assets/logos/molotov.png",
       "assets/logos/tf1.png",
-      "assets/logos/m6_plus.png",
-      "assets/logos/arte.png"
+      "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
       "mlt",
       "tf1",
-      "sxp",
-      "art"
+      "sxp"
     ],
     "annee": 2010,
     "annee_moyenne": 2010,
@@ -51992,19 +51827,16 @@ const CATALOG_DATA = [
     "chaine": "Molotov Gratuit",
     "chaines": [
       "Molotov Gratuit",
-      "France TV",
-      "Arte"
+      "France TV"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
       "assets/logos/molotov.png",
-      "assets/logos/france_tv.png",
-      "assets/logos/arte.png"
+      "assets/logos/france_tv.png"
     ],
     "package_slugs": [
       "mlt",
-      "fra",
-      "art"
+      "fra"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -52195,19 +52027,16 @@ const CATALOG_DATA = [
     "chaine": "Molotov Gratuit",
     "chaines": [
       "Molotov Gratuit",
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
       "assets/logos/molotov.png",
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
       "mlt",
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -52238,7 +52067,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm218226",
@@ -52286,7 +52115,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts37786",
@@ -52498,17 +52327,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2011,
     "annee_moyenne": 2011,
@@ -52751,17 +52577,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2013,
     "annee_moyenne": 2013,
@@ -52904,17 +52727,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -53274,17 +53094,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -53535,17 +53352,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -53928,17 +53742,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -54218,17 +54029,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2009,
     "annee_moyenne": 2009,
@@ -54269,17 +54077,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2011,
     "annee_moyenne": 2011,
@@ -54609,17 +54414,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
@@ -54657,17 +54459,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2013,
     "annee_moyenne": 2013,
@@ -54706,17 +54505,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -54755,17 +54551,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
@@ -55129,17 +54922,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2009,
     "annee_moyenne": 2009,
@@ -55469,17 +55259,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -55662,17 +55449,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -56462,17 +56246,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -56511,17 +56292,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -56560,17 +56338,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2015,
     "annee_moyenne": 2015,
@@ -57047,17 +56822,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -57296,17 +57068,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -57448,17 +57217,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -58475,19 +58241,16 @@ const CATALOG_DATA = [
     "chaine": "Molotov Gratuit",
     "chaines": [
       "Molotov Gratuit",
-      "France TV",
-      "Arte"
+      "France TV"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
       "assets/logos/molotov.png",
-      "assets/logos/france_tv.png",
-      "assets/logos/arte.png"
+      "assets/logos/france_tv.png"
     ],
     "package_slugs": [
       "mlt",
-      "fra",
-      "art"
+      "fra"
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
@@ -58917,17 +58680,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -59110,17 +58870,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -59201,70 +58958,19 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm243870",
-    "titre": "Je ne vois que toi",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 50min",
-    "runtime_minutes": 110,
-    "note_avis": 5.4,
-    "note_recence": 7.3,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/305360613/s592/je-ne-vois-que-toi.jpg",
-    "synopsis": "Après avoir perdu la vue dans un accident de voiture qui a coûté la vie à ses parents, Gina est devenue totalement dépendante de James – une dépendance qui semble nourrir leur amour passionnel. Jusqu’au jour où la jeune femme recouvre partiellement la vue grâce à une greffe de la cornée. Soudain, elle découvre le monde et affirme une volonté d’indépendance qui déstabilise profondément James. Le couple résistera-t-il à ce nouvel équilibre ?",
-    "date_ajout": "2017-09-27",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-11",
-      "packageExpirations": {
-        "aoc": "2026-10-11"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm138462",
     "titre": "The Voices",
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2015,
     "annee_moyenne": 2015,
@@ -59855,17 +59561,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -59957,17 +59660,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -60052,17 +59752,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -60353,54 +60050,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm464524",
-    "titre": "J'irai où tu iras",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 5.4,
-    "note_recence": 7.9,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/148924868/s592/jirai-ou-tu-iras.jpg",
-    "synopsis": "Vali et Mina sont deux sœurs que tout oppose, éloignées par les épreuves de la vie. L’une est chanteuse, rêveuse et émotive. L’autre est thérapeute, distante et rationnelle. Leur père aimant finit par trouver l’occasion rêvée pour les rassembler le temps d’un week-end et tenter de les réconcilier : Vali a décroché une audition à Paris et c’est Mina qui va devoir l’y emmener malgré son mépris pour la passion de sa sœur.  C’est une histoire de retrouvailles, une histoire d’amour entre deux sœurs, l’histoire d’une famille qui s’aime mais qui ne sait plus se le dire.",
-    "date_ajout": "2019-10-02",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-11",
-      "packageExpirations": {
-        "aoc": "2026-10-11"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm138797",
     "titre": "Loin de la foule déchaînée",
     "type": "film",
@@ -60451,17 +60100,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -60738,17 +60384,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -61162,55 +60805,6 @@ const CATALOG_DATA = [
     },
     "on_prime": true,
     "on_tnt": true
-  },
-  {
-    "id": "jw-tm449587",
-    "titre": "La Lutte des classes",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 43min",
-    "runtime_minutes": 103,
-    "note_avis": 5.9,
-    "note_recence": 7.9,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "fml",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/141565891/s592/la-lutte-des-classes.jpg",
-    "synopsis": "Comme chacun sait, les enfants ne font aucune différence entre les classes sociales, les couleurs de peau ou les religions. Mais alors pourquoi Corentin, le fils de 9 ans de Paul et Sofia, n’a-t-il à l’école de Bagnolet que des amis qui lui ressemblent? Et quand ses amis partent tous dans une école privée parisienne, ses parents prennent peur. Désormais, Corentin est le seul dans sa classe. Mais le seul quoi ?",
-    "date_ajout": "2019-04-03",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-11",
-      "packageExpirations": {
-        "aoc": "2026-10-11"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm844486",
@@ -61640,17 +61234,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -61744,17 +61335,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
@@ -61883,17 +61471,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
@@ -61985,17 +61570,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2014,
     "annee_moyenne": 2014,
@@ -62372,17 +61954,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -62465,17 +62044,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2011,
     "annee_moyenne": 2011,
@@ -62708,17 +62284,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -63000,17 +62573,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
@@ -63049,17 +62619,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -63364,17 +62931,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -63412,17 +62976,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -63689,54 +63250,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1583419",
-    "titre": "Les musiciens",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 6.8,
-    "note_recence": 9.7,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "msc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/335799133/s592/les-musiciens-2025.jpg",
-    "synopsis": "Astrid Carlson parvient enfin à réaliser le rêve de son père : réunir quatre Stradivarius pour un concert unique attendu par les mélomanes du monde entier. Mais Lise, George, Peter et Apolline, les quatre virtuoses recrutés pour l’occasion, sont incapables de jouer ensemble. Les crises d’égo se succèdent au rythme des répétitions. Sans solution, Astrid se résout à aller chercher le seul qui, à ses yeux, peut encore sauver l’événement : Charlie Beaumont, le compositeur de la partition.",
-    "date_ajout": "2025-05-07",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-11",
-      "packageExpirations": {
-        "aoc": "2026-10-11"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts21119",
     "titre": "Titanic : De sang et d'acier",
     "type": "serie",
@@ -63843,17 +63356,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
@@ -64179,19 +63689,16 @@ const CATALOG_DATA = [
     "chaine": "Molotov Gratuit",
     "chaines": [
       "Molotov Gratuit",
-      "France TV",
-      "Arte"
+      "France TV"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
       "assets/logos/molotov.png",
-      "assets/logos/france_tv.png",
-      "assets/logos/arte.png"
+      "assets/logos/france_tv.png"
     ],
     "package_slugs": [
       "mlt",
-      "fra",
-      "art"
+      "fra"
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
@@ -64231,17 +63738,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2015,
     "annee_moyenne": 2015,
@@ -64328,19 +63832,16 @@ const CATALOG_DATA = [
     "chaine": "Molotov Gratuit",
     "chaines": [
       "Molotov Gratuit",
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
       "assets/logos/molotov.png",
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
       "mlt",
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2015,
     "annee_moyenne": 2015,
@@ -64516,17 +64017,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -64564,17 +64062,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -64753,17 +64248,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -65143,17 +64635,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -65526,17 +65015,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
@@ -65622,17 +65108,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -65758,17 +65241,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2013,
     "annee_moyenne": 2013,
@@ -65807,19 +65287,16 @@ const CATALOG_DATA = [
     "chaine": "Molotov Gratuit",
     "chaines": [
       "Molotov Gratuit",
-      "France TV",
-      "Arte"
+      "France TV"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
       "assets/logos/molotov.png",
-      "assets/logos/france_tv.png",
-      "assets/logos/arte.png"
+      "assets/logos/france_tv.png"
     ],
     "package_slugs": [
       "mlt",
-      "fra",
-      "art"
+      "fra"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -65858,17 +65335,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
@@ -65905,17 +65379,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -66091,17 +65562,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -66184,17 +65652,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -66288,17 +65753,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2009,
     "annee_moyenne": 2009,
@@ -66808,17 +66270,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -66855,17 +66314,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -67548,17 +67004,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -67739,17 +67192,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2011,
     "annee_moyenne": 2011,
@@ -67787,17 +67237,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -67927,17 +67374,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Arte"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/arte.png"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "art"
+      "mlt"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -68112,7 +67556,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1525288",
@@ -68339,7 +67783,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm138635",
@@ -68523,7 +67967,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm921673",
@@ -68799,7 +68243,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm140734",
@@ -68845,7 +68289,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-ts77857",
@@ -68899,7 +68343,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm147070",
@@ -69176,7 +68620,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm358371",
@@ -69315,7 +68759,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm861129",
@@ -69407,7 +68851,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm347802",
@@ -69504,7 +68948,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1390758",
@@ -69547,7 +68991,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm317867",
@@ -69686,7 +69130,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1444953",
@@ -69780,7 +69224,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm471274",
@@ -69925,7 +69369,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1260484",
@@ -70304,7 +69748,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1671839",
@@ -70442,7 +69886,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1415272",
@@ -71410,7 +70854,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm156273",
@@ -71816,7 +71260,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm362003",
@@ -72051,7 +71495,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm167879",
@@ -72369,7 +71813,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm63197",
@@ -72649,7 +72093,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm224067",
@@ -73106,7 +72550,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm350504",
@@ -73290,7 +72734,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1055570",
@@ -73608,7 +73052,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm442008",
@@ -73653,7 +73097,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm359621",
@@ -73742,7 +73186,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1160663",
@@ -73882,7 +73326,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm50052",
@@ -74621,7 +74065,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1553496",
@@ -74803,7 +74247,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm361746",
@@ -74849,7 +74293,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1334537",
@@ -75169,7 +74613,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm449793",
@@ -75215,7 +74659,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm233130",
@@ -75260,7 +74704,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm219233",
@@ -75803,7 +75247,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm870694",
@@ -76123,7 +75567,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm242732",
@@ -76221,7 +75665,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1427685",
@@ -76356,7 +75800,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1219652",
@@ -76720,7 +76164,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm932067",
@@ -76994,7 +76438,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1016820",
@@ -77141,7 +76585,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1004371",
@@ -77187,7 +76631,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm167897",
@@ -77280,7 +76724,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1419483",
@@ -77645,7 +77089,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm326647",
@@ -77692,7 +77136,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1506824",
@@ -77965,7 +77409,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm417415",
@@ -78614,7 +78058,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm219274",
@@ -78706,7 +78150,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1035879",
@@ -78752,7 +78196,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm220732",
@@ -78943,7 +78387,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1492246",
@@ -79177,7 +78621,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1364928",
@@ -79734,7 +79178,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm143531",
@@ -80253,7 +79697,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1431634",
@@ -80690,17 +80134,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -80730,7 +80171,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts494370",
@@ -80776,10 +80217,10 @@ const CATALOG_DATA = [
     "synopsis": "Hugo, un garde du corps professionnel, traverse un divorce douloureux. Toujours épris de son ex-femme, il tente de préserver un lien avec ses enfants. Mais tout bascule le jour où il se rend à l’anniversaire de son fils : son ex-femme et leurs deux enfants sont kidnappés sous ses yeux.\n\nRapidement, l’enquête de police s’oriente vers Hugo, considéré comme le principal suspect. Accablé par les indices et menacé d’être incarcéré, il décide de s’évader pour retrouver sa famille. Dans sa fuite, il mène sa propre enquête et découvre des vérités troublantes sur la femme qu’il croyait connaître. Ce thriller psychologique et familial place Hugo dans une course contre la montre où chaque seconde compte.",
     "date_ajout": "2026-10-04",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-11",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "mlt": "2026-10-11"
       }
@@ -80793,17 +80234,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -80834,7 +80272,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1226583",
@@ -80958,17 +80396,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -81000,7 +80435,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts501096",
@@ -81100,7 +80535,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1308469",
@@ -81108,17 +80543,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -81151,7 +80583,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1198657",
@@ -81205,17 +80637,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -81246,7 +80675,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1299255",
@@ -81254,17 +80683,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -81296,7 +80722,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1111989",
@@ -81304,17 +80730,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -81344,7 +80767,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts6495",
@@ -81396,10 +80819,10 @@ const CATALOG_DATA = [
     "synopsis": "L'équipe des profilers étudie les comportements et les esprits torturés des criminels les plus dangereux du pays, afin d'anticiper les crimes d'un éventuel tueur. Chaque membre de cette unité d'élite a sa personnalité, son histoire mais aussi sa spécialité. Ils sont tous dépendants les uns des autres et les résultats dépendent aussi de cette complémentarité.",
     "date_ajout": "2005-09-22",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-11",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "mlt": "2026-10-11"
       }
@@ -81413,17 +80836,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -81455,7 +80875,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts387023",
@@ -81519,17 +80939,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -81559,7 +80976,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm174605",
@@ -81567,17 +80984,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2011,
     "annee_moyenne": 2011,
@@ -81607,7 +81021,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1240009",
@@ -81615,17 +81029,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -81656,7 +81067,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm239632",
@@ -81710,17 +81121,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -81750,7 +81158,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts486318",
@@ -81798,10 +81206,10 @@ const CATALOG_DATA = [
     "synopsis": "Mai 68. L’État français vacille sous le coup d’une révolte menée par des étudiants et des professeurs d’université. Pour contenir cette marée subversive, le pouvoir gaulliste imagine une solution aussi perverse que brillante : créer une université expérimentale loin des pavés parisiens. Bienvenue à l'université de Vincennes. Claudine, prostituée du Bois, accepte d’infiltrer pour les RG ce nid de gauchistes qui a fait fuir sa clientèle bourgeoise. Mais à Vincennes, ce ne sont pas seulement les étudiants qui sont révolutionnaires : Foucault, Bourdieu, Cixous, Wittig… La voilà propulsée dans un univers d'idées explosives. Elle y est allée pour De Gaulle. Restera-t-elle pour Deleuze ?",
     "date_ajout": "2026-09-16",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 15/03",
-      "daysLeft": 155,
-      "expirationDate": "2027-03-15",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2027-03-15"
       }
@@ -81856,7 +81264,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1514496",
@@ -81864,17 +81272,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -81905,7 +81310,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm860276",
@@ -81952,7 +81357,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm316242",
@@ -81997,7 +81402,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm322783",
@@ -82005,17 +81410,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -82047,7 +81449,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1658277",
@@ -82055,17 +81457,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -82097,7 +81496,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm367583",
@@ -82105,17 +81504,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
@@ -82146,7 +81542,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1542567",
@@ -82192,7 +81588,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1064803",
@@ -82200,17 +81596,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "France TV",
     "chaines": [
-      "France TV",
-      "Arte"
+      "France TV"
     ],
     "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/france_tv.png",
-      "assets/logos/arte.png"
+      "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "fra",
-      "art"
+      "fra"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -82233,10 +81626,10 @@ const CATALOG_DATA = [
     "synopsis": "Cassandre, 26 ans, est hôtesse de l’air dans une compagnie low-cost. Vivant au jour le jour, elle enchaîne les vols et les fêtes sans lendemain, fidèle à son pseudo Tinder «Carpe Diem». Une existence sans attaches, en forme de fuite en avant, qui la comble en apparence. Alors que la pression de sa compagnie redouble, Cassandre finit par perdre pied. Saura-t-elle affronter les douleurs enfouies et revenir vers ceux qu'elle a laissés au sol ?",
     "date_ajout": "2022-03-02",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 140,
-      "expirationDate": "2027-02-28",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "fra": "2027-02-28"
       }
@@ -82387,17 +81780,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -82426,7 +81816,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts17296",
@@ -82490,10 +81880,10 @@ const CATALOG_DATA = [
     "synopsis": "Une irlandaise et un américain se rencontrent à Londres et tombent amoureux. Leur histoire d'amour est scellée par une grossesse qui va changer leur quotidien...",
     "date_ajout": "2026-09-10",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 28/08",
-      "daysLeft": 321,
-      "expirationDate": "2027-08-28",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2027-08-28"
       }
@@ -82679,7 +82069,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm307535",
@@ -82687,17 +82077,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -82727,7 +82114,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1203052",
@@ -82735,17 +82122,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -82778,7 +82162,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm374451",
@@ -82786,17 +82170,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -82827,7 +82208,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1546278",
@@ -82835,17 +82216,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -82875,7 +82253,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts353444",
@@ -83093,17 +82471,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -83134,7 +82509,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts503619",
@@ -83193,17 +82568,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -83234,7 +82606,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts30025",
@@ -83336,10 +82708,10 @@ const CATALOG_DATA = [
     "synopsis": "Après de mystérieux assassinats sur une île suédoise, un policier déphasé mène l’enquête dans un décor balnéaire.",
     "date_ajout": "2019-10-14",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 28/12",
-      "daysLeft": 78,
-      "expirationDate": "2026-12-28",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2026-12-28"
       }
@@ -83405,10 +82777,10 @@ const CATALOG_DATA = [
     "synopsis": "Catherine Cawood, mène une vie qui n’est pas de tout repos. Elle occupe la fonction d'agent de police dans le Yorkshire. Divorcée, elle élève le jeune fils de sa fille et tente de se remettre de son suicide survenu huit ans plus tôt. Alors qu'elle semble finalement reprendre le dessus, elle apprend que Tommy Lee Royce, l'homme qu'elle juge responsable de ce suicide, sort de prison ayant purgé une peine pour d'autres faits. Parallèlement, Kevin Weatherill, un agent comptable, s’allie à une organisation criminelle pour préparer le rapt de la fille de son patron Nevison Gallagher qui a refusé de lui accorder une augmentation…",
     "date_ajout": "2026-05-28",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 08/01",
-      "daysLeft": 89,
-      "expirationDate": "2027-01-08",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2027-01-08"
       }
@@ -83520,7 +82892,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm146426",
@@ -83566,7 +82938,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts44393",
@@ -83764,7 +83136,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm361998",
@@ -83772,17 +83144,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -83813,7 +83182,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts358631",
@@ -83883,17 +83252,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2010,
     "annee_moyenne": 2010,
@@ -83925,7 +83291,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm523630",
@@ -83933,17 +83299,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -83975,7 +83338,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm53381",
@@ -84022,7 +83385,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1425301",
@@ -84069,7 +83432,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts21856",
@@ -84153,17 +83516,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -84195,7 +83555,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm140013",
@@ -84242,7 +83602,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts282260",
@@ -84289,10 +83649,10 @@ const CATALOG_DATA = [
     "synopsis": "Paris, automne 2015. Dans le cabinet d’analyse de Philippe Dayan, près de la place de la République, se succèdent jour après jour une chirurgienne en plein désarroi amoureux, un couple en crise, une ado suicidaire… Mais, un soir de novembre, des tueurs entrent dans Paris. Quelques jours plus tard, un agent de la BRI traumatisé vient frapper à la porte du cabinet. Pour Philippe Dayan, c’est le moment de renouer, après des années de silence, avec Esther, son ancienne analyste – et tenter d’échapper au séisme émotionnel qui vient de se déclencher en lui.",
     "date_ajout": "2021-03-17",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 20/03",
-      "daysLeft": 160,
-      "expirationDate": "2027-03-20",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2027-03-20"
       }
@@ -84502,17 +83862,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -84543,7 +83900,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm54060",
@@ -84551,17 +83908,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2008,
     "annee_moyenne": 2008,
@@ -84592,7 +83946,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts11567",
@@ -84710,10 +84064,10 @@ const CATALOG_DATA = [
     "synopsis": "Le détective Steve McGarrett se rend à Oahu pour enquêter sur l'assassinat de son père. Une fois sur place, le gouverneur le persuade de rester et rejoindre l'unité des forces spéciales, qui combat le crime à Hawaii…",
     "date_ajout": "2015-09-25",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-11",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "mlt": "2026-10-11"
       }
@@ -84804,17 +84158,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -84844,7 +84195,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm137837",
@@ -84893,7 +84244,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1622683",
@@ -84901,17 +84252,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -84940,7 +84288,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1000711",
@@ -84986,7 +84334,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts21711",
@@ -85115,7 +84463,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1329955",
@@ -85123,17 +84471,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -85164,7 +84509,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts402633",
@@ -85397,10 +84742,10 @@ const CATALOG_DATA = [
     "synopsis": "Au sein d’une troupe de castellers catalans, une accusation d'agression sexuelle entre adolescents vient fissurer une communauté soudée. Avec de jeunes comédiens remarquables, la réalisatrice et actrice espagnole Leticia Dolera tisse un thriller psychologique puissant et maîtrisé. Une quête de vérité qui questionne la responsabilité de tous dans une société patriarcale.",
     "date_ajout": "2026-08-27",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 25/11",
-      "daysLeft": 45,
-      "expirationDate": "2026-11-25",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2026-11-25"
       }
@@ -85414,17 +84759,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -85457,7 +84799,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1543406",
@@ -85465,17 +84807,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -85505,7 +84844,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm218937",
@@ -85551,7 +84890,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm238679",
@@ -85605,17 +84944,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2014,
     "annee_moyenne": 2014,
@@ -85647,7 +84983,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1352761",
@@ -85692,7 +85028,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1656422",
@@ -86006,7 +85342,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1166331",
@@ -86054,7 +85390,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm142876",
@@ -86062,17 +85398,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2015,
     "annee_moyenne": 2015,
@@ -86103,7 +85436,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts58473",
@@ -86205,17 +85538,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2014,
     "annee_moyenne": 2014,
@@ -86248,69 +85578,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts11564",
-    "titre": "Meurtres au paradis",
-    "type": "serie",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2022,
-    "annee_fin": 2023,
-    "annee_moyenne": 2023,
-    "saisons_disponibles": [
-      {
-        "saison": 11,
-        "annee": 2022,
-        "note": 7.8
-      },
-      {
-        "saison": 12,
-        "annee": 2023,
-        "note": 7.8
-      }
-    ],
-    "duree": "59 min/ép.",
-    "runtime_minutes": 59,
-    "note_avis": 7.8,
-    "note_recence": 9.1,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/345795578/s592/meurtres-au-paradis.jpg",
-    "synopsis": "Le détective Richard Poole est muté à Sainte Marie, une île des Caraïbes. Totalement inadapté au style de vie caribéen, Richard déteste le soleil, la mer et le sable et n'est pas habitué aux méthodes policières de Sainte Marie. Travaillant de pair avec l'exotique Camille, chaque semaine, Richard enquête sur des meurtres complexes et inhabituels.",
-    "date_ajout": "2026-04-27",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-11",
-      "packageExpirations": {
-        "fra": "2026-10-11",
-        "mlt": "2026-10-11"
-      }
-    },
-    "on_prime": false,
     "on_tnt": true
   },
   {
@@ -86359,10 +85626,10 @@ const CATALOG_DATA = [
     "synopsis": "Paris, 4 mai 1897. Un incendie dévastateur détruit en quelques minutes le Bazar de la Charité, l’édifice abritant une manifestation caritative très courue, faisant plus de 120 morts ; essentiellement des femmes de la haute société et leur personnel. À cette occasion, trois femmes, Adrienne De Lenverpre, Alice De Jeansin, et sa bonne Rose Rivière voient leur destin bouleversé. Usurpation d’identité, amours interdites, changement radical de vie, émancipation, cette mini-série nous plonge dans la société parisienne de la fin du 19e siècle, en suivant le destin romanesque de ses trois héroïnes.",
     "date_ajout": "2019-11-11",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 34,
-      "expirationDate": "2026-11-14",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "nvn": "2026-11-14"
       }
@@ -86376,17 +85643,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -86416,7 +85680,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts21615",
@@ -86424,22 +85688,34 @@ const CATALOG_DATA = [
     "type": "serie",
     "chaine": "M6+",
     "chaines": [
-      "M6+",
-      "Gulli"
+      "M6+"
     ],
     "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/m6_plus.png",
-      "assets/logos/gulli.png"
+      "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "sxp",
-      "gum"
+      "sxp"
     ],
-    "annee": 2006,
-    "annee_fin": 2013,
-    "annee_moyenne": 2010,
+    "annee": 2002,
+    "annee_fin": 2026,
+    "annee_moyenne": 2014,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2002,
+        "note": 7.1
+      },
+      {
+        "saison": 2,
+        "annee": 2003,
+        "note": 7.1
+      },
+      {
+        "saison": 3,
+        "annee": 2003,
+        "note": 7.1
+      },
       {
         "saison": 4,
         "annee": 2006,
@@ -86454,13 +85730,23 @@ const CATALOG_DATA = [
         "saison": 6,
         "annee": 2013,
         "note": 7.1
+      },
+      {
+        "saison": 7,
+        "annee": 2024,
+        "note": 7.1
+      },
+      {
+        "saison": 8,
+        "annee": 2026,
+        "note": 7.1
       }
     ],
     "duree": "22 min/ép.",
     "runtime_minutes": 22,
     "note_avis": 7.1,
-    "note_recence": 5.2,
-    "note_globale": 6.2,
+    "note_recence": 6.4,
+    "note_globale": 6.8,
     "etoiles": 3,
     "categories": [
       "animation_famille"
@@ -86482,10 +85768,10 @@ const CATALOG_DATA = [
     "synopsis": "Cette série raconte les aventures de trois amies adolescentes : Alex, Clover et Sam. Étudiantes dans la vie de tous les jours, elles sont en réalité agents secrets ; c'est-à-dire des espionnes professionnelles qui travaillent pour le WOOHP, une organisation secrète de protection de l'humanité. Lorsque leur patron Jerry a besoin de leurs services, il les envoie en mission, après leur avoir fait revêtir des combinaisons intégrales moulantes en latex coloré (jaune pour Alex, rouge pour Clover et verte pour Sam) et fourni des gadgets, qui les aideront à mener à bien leurs enquêtes.",
     "date_ajout": "2024-06-25",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 01/01",
-      "daysLeft": 82,
-      "expirationDate": "2027-01-01",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "gum": "2027-01-01"
       }
@@ -86537,7 +85823,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts11198",
@@ -86605,10 +85891,10 @@ const CATALOG_DATA = [
     "synopsis": "À la frontière exacte entre la Suède et le Danemark, au beau milieu d'un pont qui relie les deux pays, après une coupure de l'éclarage électrique de 45 seconde, le corps d'une femme politique Suédoise est découvert, vraisemblablement assassinée. Le cadavre ayant été trouvé empiétant sur les deux pays, les polices suédoises et danoises sont alors dépêchées sur les lieux pour coordonnées l'enquête. Mais l'affaire prend une tournure particulièrement glauque et étonnante lorsque les enquêteurs découvrent qu'il ne s'agit pas d'un seul mais de deux cadavres, coupés en deux à la taille, qui ont été assemblés pour n'en faire qu'un...",
     "date_ajout": "2021-09-22",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 17/11",
-      "daysLeft": 37,
-      "expirationDate": "2026-11-17",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2026-11-17"
       }
@@ -86902,7 +86188,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm217382",
@@ -86910,17 +86196,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -86952,7 +86235,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts20334",
@@ -87072,7 +86355,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts20106",
@@ -87224,7 +86507,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1102362",
@@ -87232,17 +86515,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -87273,7 +86553,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1408543",
@@ -87281,17 +86561,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -87320,7 +86597,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts95325",
@@ -87369,10 +86646,10 @@ const CATALOG_DATA = [
     "synopsis": "À Londres, un couple aux prises avec un loyer exorbitant décide de prendre un·e colocataire.\n",
     "date_ajout": "2026-09-25",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 03/09",
-      "daysLeft": 327,
-      "expirationDate": "2027-09-03",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2027-09-03"
       }
@@ -87526,7 +86803,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts38159",
@@ -87630,7 +86907,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1663439",
@@ -87638,17 +86915,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -87678,7 +86952,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts255742",
@@ -87864,17 +87138,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -87906,7 +87177,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts378879",
@@ -87955,10 +87226,10 @@ const CATALOG_DATA = [
     "synopsis": "L'histoire vraie d'Enzo Tortora, célèbre animateur de télévision italien, connu entre autres pour \"Portobello\", un jeu programmé, à partir de 1977, en prime time sur la Rai. En 1985, Tortora est accusé, par plusieurs anciens mafieux devenus informateurs et témoins à charge, d'appartenir à un syndicat du crime napolitain dédié au trafic de drogue.",
     "date_ajout": "2026-10-08",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 07/04",
-      "daysLeft": 178,
-      "expirationDate": "2027-04-07",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2027-04-07"
       }
@@ -88009,7 +87280,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts381840",
@@ -88399,17 +87670,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -88443,7 +87711,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts37464",
@@ -88503,10 +87771,10 @@ const CATALOG_DATA = [
     "synopsis": "Dans un futur proche, le Premier ministre norvégien, écologiste convaincu, annonce l’abandon, au profit d’énergies alternatives, de l’exploitation des énergies fossiles qui ont fait la richesse norvégienne. Mandatée par les États de l’Union européenne, la Russie décide aussitôt d’occuper le pays et d’y relancer les forages pétroliers. En quelques heures, Oslo et ses provinces sont mises sous tutelle. Sans chars ni bruits de bottes, la Russie étend son emprise, mettant désormais politiques et citoyens norvégiens face à un dilemme : résister ou collaborer ? Résister, au risque de tout sacrifier à des idéaux patriotiques et démocratiques abstraits, ou s’accommoder de cette omniprésence russe qui perturbe si peu, en apparence, l’ordre des choses ?",
     "date_ajout": "2026-08-14",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/07",
-      "daysLeft": 293,
-      "expirationDate": "2027-07-31",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2027-07-31"
       }
@@ -88557,7 +87825,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm180271",
@@ -88600,10 +87868,10 @@ const CATALOG_DATA = [
     "synopsis": "L'été. Un lieu de drague pour hommes, caché au bord d'un lac. Franck tombe amoureux de Michel. Un homme beau, puissant et mortellement dangereux. Franck le sait, mais il veut vivre cette passion.",
     "date_ajout": "2013-06-12",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 01/03",
-      "daysLeft": 141,
-      "expirationDate": "2027-03-01",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2027-03-01"
       }
@@ -88722,7 +87990,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts393187",
@@ -89112,7 +88380,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts91084",
@@ -89177,10 +88445,10 @@ const CATALOG_DATA = [
     "synopsis": "Réunis à la table des célibataires lors d'un mariage, cinq individus malchanceux en amour comme dans la vie trouvent une solution – d'abord sur le ton de la plaisanterie – à leurs problèmes immobiliers : acheter une maison ensemble.\n",
     "date_ajout": "2026-07-03",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 29/06",
-      "daysLeft": 261,
-      "expirationDate": "2027-06-29",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2027-06-29"
       }
@@ -89233,7 +88501,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1131016",
@@ -89241,17 +88509,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -89282,7 +88547,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm2859076",
@@ -89388,17 +88653,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -89428,7 +88690,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts928",
@@ -89607,7 +88869,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1356209",
@@ -89615,17 +88877,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -89656,7 +88915,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts392407",
@@ -89760,7 +89019,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts89886",
@@ -89934,7 +89193,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1209373",
@@ -89942,17 +89201,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -89982,7 +89238,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts56104",
@@ -90091,17 +89347,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -90133,7 +89386,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1349300",
@@ -90141,17 +89394,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -90181,7 +89431,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1601454",
@@ -90189,17 +89439,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -90228,7 +89475,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts33377",
@@ -90293,10 +89540,10 @@ const CATALOG_DATA = [
     "synopsis": "Après avoir été largué par sa copine, Josh, la vingtaine, réalise qu'il est gay, rencontre un séduisant inconnu et emménage avec sa mère aux tendances suicidaires.",
     "date_ajout": "2026-07-31",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 02/07",
-      "daysLeft": 264,
-      "expirationDate": "2027-07-02",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2027-07-02"
       }
@@ -90391,17 +89638,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -90432,7 +89676,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1403634",
@@ -90440,17 +89684,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -90480,7 +89721,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm213277",
@@ -90527,7 +89768,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts23907",
@@ -90690,10 +89931,10 @@ const CATALOG_DATA = [
     "synopsis": "À l’aube de la soixantaine, Cathy doit faire le deuil de son mari, entourée par une famille aimante mais ultra sans-gêne. « Mum » est une série à l’humour so british tissée à partir des petits riens du quotidien, doublée d’une jolie romance avec Lesley Manville (Phantom Thread, River) et Peter Mullan (Top of the Lake).",
     "date_ajout": "2022-03-02",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 12/12",
-      "daysLeft": 62,
-      "expirationDate": "2026-12-12",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2026-12-12"
       }
@@ -90839,10 +90080,10 @@ const CATALOG_DATA = [
     "synopsis": "Une brillante avocate londonienne, spécialisée dans les affaires de divorce, se met à douter de son propre mariage et fait face avec ses sœurs au retour de leur père après trente ans d’absence.\n\nUne comédie féministe qui mêle intrigues juridiques et trajectoires intimes dans un portrait de famille tendre et nuancé, par la créatrice de The Hour et River.",
     "date_ajout": "2026-06-26",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/04",
-      "daysLeft": 201,
-      "expirationDate": "2027-04-30",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2027-04-30"
       }
@@ -90856,17 +90097,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -90896,7 +90134,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm203765",
@@ -90943,7 +90181,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1294199",
@@ -90951,17 +90189,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -90991,7 +90226,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1525768",
@@ -91038,7 +90273,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm209528",
@@ -91085,7 +90320,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts495895",
@@ -91132,10 +90367,10 @@ const CATALOG_DATA = [
     "synopsis": "En 2016, Nazanin Zaghari-Ratcliffe est arrachée à sa fille de 22 mois et emprisonnée à tort en Iran. À Londres, son mari Richard refuse de se taire et lance une campagne mondiale pour sa libération. Propulsée sous les projecteurs par des circonstances extraordinaires, cette histoire vraie est un vibrant témoignage de courage et de résilience face à l’injustice.",
     "date_ajout": "2026-09-03",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 16/12",
-      "daysLeft": 66,
-      "expirationDate": "2026-12-16",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2026-12-16"
       }
@@ -91186,7 +90421,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1590684",
@@ -91194,17 +90429,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -91233,7 +90465,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm824116",
@@ -91463,17 +90695,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -91504,7 +90733,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1411927",
@@ -91552,7 +90781,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1555899",
@@ -91560,17 +90789,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -91601,7 +90827,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1404955",
@@ -91609,17 +90835,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -91649,7 +90872,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts20388",
@@ -91814,7 +91037,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts289336",
@@ -91923,7 +91146,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts364490",
@@ -92065,10 +91288,10 @@ const CATALOG_DATA = [
     "synopsis": "Coureur de jupons alcoolique et narcissique, Patrick Melrose est un pur produit de l'aristocratie britannique. Cet homme aux tendances schizophrènes et suicidaires a connu une enfance privilégiée mais profondément traumatisante, au sein d'une famille pour le moins dysfonctionnelle. Le décès de son père tyrannique va très vite faire remonter à la surface de pénibles souvenirs...",
     "date_ajout": "2019-04-30",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-10-14",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2026-10-14"
       }
@@ -92119,7 +91342,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts254749",
@@ -92168,10 +91391,10 @@ const CATALOG_DATA = [
     "synopsis": "L'unité Homicide de la police de Copenhague, dirigée par Jens Møller, tente de résoudre le meurtre de la journaliste suédoise Kim Wall survenu en 2017. Basé sur un événement réel, cette série recrée de manière détaillée, l'ensemble de l'enquête.",
     "date_ajout": "2023-03-02",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 14/01",
-      "daysLeft": 95,
-      "expirationDate": "2027-01-14",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2027-01-14"
       }
@@ -92228,7 +91451,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm244636",
@@ -92236,17 +91459,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -92430,10 +91650,10 @@ const CATALOG_DATA = [
     "synopsis": "Sam Tyler se réveille en 1973 après un accident de voiture survenu en 2006 juste après l'enlèvement de sa petite amie. Policier, il va se mettre au service de la police de Manchester et Salford où il va devoir faire face à différents chocs entre sa manière de travailler et celle de l'époque. La série ajoute à cela un côté surréaliste puisque Sam Tyler parle la nuit à une fille à travers sa télévision. La série entretient aussi un mystère sur ce qui est arrivé à Tyler : a-t-il réellement voyagé dans le temps ? Est-il dans le comas en 2006 et ceci n'est que le fruit de son imagination ? Ou encore, vit-il en 1973 et est-il mentalement instable avec en plus des visions du futur ? Des questions auxquelles les réponses seront apportées au fur et à mesure.",
     "date_ajout": "2026-05-07",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/02",
-      "daysLeft": 117,
-      "expirationDate": "2027-02-05",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2027-02-05"
       }
@@ -92447,17 +91667,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -92487,7 +91704,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1910817",
@@ -92495,17 +91712,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -92535,7 +91749,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts82391",
@@ -92669,10 +91883,10 @@ const CATALOG_DATA = [
     "synopsis": "Mélissa, excellente enquêtrice d’origine martiniquaise et mère célibataire de deux ados, se retrouve malgré elle chef d’une section crime dans une île où elle n’a jamais mis les pieds. Gaëlle, qui vit ici depuis son enfance et connaît le coin par cœur, est spontanée, fonceuse et indépendante et n’a pas vraiment sa langue dans sa poche. Elles vont devoir travailler ensemble.",
     "date_ajout": "2024-01-02",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 06/12",
-      "daysLeft": 56,
-      "expirationDate": "2026-12-06",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "fra": "2026-12-06"
       }
@@ -92843,7 +92057,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1103581",
@@ -92888,7 +92102,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts53811",
@@ -93052,10 +92266,10 @@ const CATALOG_DATA = [
     "synopsis": "Une jeune Finlandaise prend un train à Moscou pour se rendre sur un site archéologique en mer arctique. Elle est contrainte de partager son compartiment avec un inconnu. Cette cohabitation et d'improbables rencontres vont peu à peu rapprocher ces deux êtres que tout oppose.",
     "date_ajout": "2021-11-03",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 41,
-      "expirationDate": "2026-11-21",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2026-11-21"
       }
@@ -93204,17 +92418,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -93246,7 +92457,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts156525",
@@ -93293,10 +92504,10 @@ const CATALOG_DATA = [
     "synopsis": "Le monde de Penny s'effondre lorsqu'elle accuse son mari Phil d'agression sexuelle sur l'amie adolescente de sa fille, et que personne ne la croit.\n",
     "date_ajout": "2026-07-10",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 09/02",
-      "daysLeft": 121,
-      "expirationDate": "2027-02-09",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2027-02-09"
       }
@@ -93310,17 +92521,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -93357,17 +92565,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "France TV",
     "chaines": [
-      "France TV",
-      "Arte"
+      "France TV"
     ],
     "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/france_tv.png",
-      "assets/logos/arte.png"
+      "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "fra",
-      "art"
+      "fra"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -93391,10 +92596,10 @@ const CATALOG_DATA = [
     "synopsis": "Odette, jolie trentenaire, est une danseuse drôle, extrême, et totalement rock’n roll. Grâce à ses séances chez le psy, elle va se remémorer sa jeunesse chaotique, dramatique, cocasse. En revivant des séquences de sa vie, elle sera confrontée au déni, à l’indifférence et surtout à sa propre question : sera-t-elle capable de surmonter sa douleur et de vivre enfin ?",
     "date_ajout": "2018-11-14",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 09/12",
-      "daysLeft": 59,
-      "expirationDate": "2026-12-09",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "fra": "2026-12-09"
       }
@@ -93544,7 +92749,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts77427",
@@ -93654,10 +92859,10 @@ const CATALOG_DATA = [
     "synopsis": "L'enquête d'une journaliste sur le vol d'un chef-d'œuvre de Caravage et la mort de son père révèle des secrets choquants sur les liens troubles de sa famille avec le milieu criminel sicilien.",
     "date_ajout": "2026-02-26",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 10/12",
-      "daysLeft": 60,
-      "expirationDate": "2026-12-10",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2026-12-10"
       }
@@ -93758,7 +92963,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm171885",
@@ -93807,7 +93012,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm305129",
@@ -93853,7 +93058,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts33843",
@@ -93917,17 +93122,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -93957,60 +93159,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts452246",
-    "titre": "Un soupçon",
-    "type": "serie",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 6.5
-      }
-    ],
-    "duree": "49 min/ép.",
-    "runtime_minutes": 49,
-    "note_avis": 6.5,
-    "note_recence": 9.4,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321414180/s592/un-soupcon.jpg",
-    "synopsis": "Librement inspiré d'une histoire vraie. Qui est Isabelle ? Une meurtrière ou une mère au foyer ? C’est ce que veut comprendre la capitaine de gendarmerie Mathilde Delboscq chargée de l’enquête sur la mort du mari d’Isabelle... C’est le début d’une enquête, puis d’une plongée dans la vie d’une femme au destin unique.",
-    "date_ajout": "2024-12-04",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-11",
-      "packageExpirations": {
-        "fra": "2026-10-11"
-      }
-    },
-    "on_prime": true,
     "on_tnt": true
   },
   {
@@ -94179,17 +93327,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -94219,7 +93364,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1284033",
@@ -94227,17 +93372,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -94269,7 +93411,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts35639",
@@ -94524,17 +93666,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -94564,7 +93703,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm166553",
@@ -94612,7 +93751,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm197578",
@@ -94657,7 +93796,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm123331",
@@ -94704,7 +93843,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1969342",
@@ -94712,17 +93851,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -94753,7 +93889,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm161814",
@@ -94794,10 +93930,10 @@ const CATALOG_DATA = [
     "synopsis": "Un vieil homme, persuadé qu’il a gagné le gros lot à un improbable tirage au sort par correspondance, cherche à rejoindre le Nebraska pour y recevoir son gain... Sa famille, inquiète de ce qu’elle perçoit comme le début d’une démence sénile, envisage de le placer en maison de retraite, mais un de ses deux fils se décide finalement à emmener son père en voiture chercher ce chèque auquel personne ne croit. Pendant le voyage, le vieillard se blesse et l’équipée fait une étape forcée dans une petite ville en déclin du Nebraska. C’est là que le père est né. Épaulé par son fils, le vieil homme retrace les souvenirs de son enfance.",
     "date_ajout": "2014-04-02",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 06/11",
-      "daysLeft": 26,
-      "expirationDate": "2026-11-06",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2026-11-06"
       }
@@ -94863,10 +93999,10 @@ const CATALOG_DATA = [
     "synopsis": "Un jeune gardien de but talentueux tente de redonner vie à l'équipe peu reluisante de son école dans cette série animée basée sur le manga et le jeu vidéo à succès.",
     "date_ajout": "2026-02-16",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-11",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "mlt": "2026-10-11"
       }
@@ -95179,7 +94315,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1571525",
@@ -95224,7 +94360,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts21532",
@@ -95290,10 +94426,10 @@ const CATALOG_DATA = [
     "synopsis": "Jane Rizzoli, une enquêtrice de Boston, fait équipe avec le médecin légiste Maura Isles pour résoudre des crimes.\n\nJane est une flic à forte personnalité, qui ne s’en laisse pas conter par ses collègues masculins, ni par ses supérieurs. Ce qu’elle demande est d’être respectée en tant que femme, mais surtout en tant que femme-flic qui est compétente dans son boulot. Maura a toujours été fascinée par les explications rationnelles et les possibilités qu’offrait la science. Élève douée, voire brillante, bien qu’un peu introvertie, elle considère la mort comme une chose qui relève uniquement de la physique et non de la mystique. Le tandem est assez clairement défini. À Rizzoli, l’action. À Isles, la réflexion.",
     "date_ajout": "2026-05-24",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-11",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "mlt": "2026-10-11"
       }
@@ -95360,17 +94496,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -95402,7 +94535,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts20458",
@@ -95410,17 +94543,14 @@ const CATALOG_DATA = [
     "type": "serie",
     "chaine": "France TV",
     "chaines": [
-      "France TV",
-      "Gulli"
+      "France TV"
     ],
     "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/france_tv.png",
-      "assets/logos/gulli.png"
+      "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "fra",
-      "gum"
+      "fra"
     ],
     "annee": 2012,
     "annee_fin": 2022,
@@ -95531,10 +94661,10 @@ const CATALOG_DATA = [
     "synopsis": "Le Spinjitzu est un art martial ancestral qui est dans le monde de Ninjago, la source de toute création et vie mais peut aussi générer le chaos et la destruction. Les maîtres du Spinjitzu, recrutés et entraînés par Sensei Wu, se battent donc contre l’armée des squelettes menée par Lord Garmadon. Ils représentent les quatre éléments (la terre, la foudre, le feu et la glace) et ont chacun une des quatre armes sacrées associées aux quatre éléments : la faux pour la terre, le sabre pour le feu, les nunchakus pour la foudre et les shurikens pour la glace.",
     "date_ajout": "2024-03-31",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 03/11",
-      "daysLeft": 23,
-      "expirationDate": "2026-11-03",
+      "status": "warning",
+      "label": "⏳ Expire dans 8 j",
+      "daysLeft": 8,
+      "expirationDate": "2026-10-19",
       "packageExpirations": {
         "fra": "2026-10-19",
         "gum": "2026-11-03"
@@ -95587,7 +94717,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm902330",
@@ -95776,10 +94906,10 @@ const CATALOG_DATA = [
     "synopsis": "Masha est une petite fille qui n'arrive pas facilement à se poser tant son énergie est grande. Sa curiosité et sa créativité provoquent des situations comiques, même si parfois cela crée des problèmes aux autres. L'ours, Michka, est un ami au coeur tendre qui voit son monde tranquille bouleversé dès que Masha entre en action…",
     "date_ajout": "2023-07-31",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 2 j",
-      "daysLeft": 2,
-      "expirationDate": "2026-10-13",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "fra": "2026-10-13"
       }
@@ -95832,10 +94962,10 @@ const CATALOG_DATA = [
     "synopsis": "Dans un Amsterdam contemporain sous occupation nazie, Etty Hillesum, étudiante juive de 27 ans, animée par un profond désir de vivre, voit l’étau se resserrer peu à peu autour d’elle. Sa rencontre avec le thérapeute et bientôt amant Julius Spier, qui l’encourage à tenir un journal, va bouleverser sa vie. Leur relation passionnée déclenche chez elle une métamorphose spirituelle, qui s’intensifie à mesure que se durcissent les persécutions antijuives, la menant à accomplir un acte de solidarité extraordinaire.\n\nLibrement inspirée du Journal d'Etty Hillesum, écrivaine néerlandaise de l'entre deux guerres décédée à Auchwitz en 1943.",
     "date_ajout": "2026-05-13",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 12/11",
-      "daysLeft": 32,
-      "expirationDate": "2026-11-12",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2026-11-12"
       }
@@ -96071,7 +95201,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm178627",
@@ -96168,10 +95298,10 @@ const CATALOG_DATA = [
     "synopsis": "Que peut-il arriver de pire pour un policier ? Certainement une enquête non résolue. C’est ce qui se passe au lendemain de Noël 1999. Charlotte Meyer, une petite fille de 11 ans, disparaît sans laisser de traces. Le capitaine Pierre Castaing, en charge de l’enquête, échoue à la retrouver. Où est-elle passée ? Le mystère reste entier… À quelques centaines de kilomètres de là, une jeune enquêtrice se trouve confrontée à une disparition similaire…",
     "date_ajout": "2020-12-29",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/08",
-      "daysLeft": 323,
-      "expirationDate": "2027-08-30",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "nvn": "2027-08-30"
       }
@@ -96225,7 +95355,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm915880",
@@ -96274,7 +95404,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts251111",
@@ -96646,17 +95776,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -97159,7 +96286,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts285853",
@@ -97262,7 +96389,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts392244",
@@ -97479,7 +96606,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm207121",
@@ -97525,7 +96652,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts20109",
@@ -97780,7 +96907,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts458970",
@@ -98095,7 +97222,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts388148",
@@ -98303,7 +97430,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm240630",
@@ -98349,7 +97476,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm2880665",
@@ -98485,10 +97612,10 @@ const CATALOG_DATA = [
     "synopsis": "Le retour à la vie et à la joie d’un jeune père veuf en banlieue de Londres. Une série britannique délicate et lumineuse, portée par un attachant trio d’acteurs.",
     "date_ajout": "2026-07-15",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 9 j",
-      "daysLeft": 9,
-      "expirationDate": "2026-10-20",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2026-10-20"
       }
@@ -98502,17 +97629,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -98544,7 +97668,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts360113",
@@ -98724,7 +97848,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1276157",
@@ -98772,7 +97896,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts287728",
@@ -98826,10 +97950,10 @@ const CATALOG_DATA = [
     "synopsis": "A la mort de son père, le névrosé Nicholas, à tout juste 25 ans, est contraint de s'occuper de ses jeunes demi-soeurs, des jumelles, dont l'une est autiste. Bien qu'il n'ait jamais été particulièrement présent dans la vie des deux adolescentes, il va devoir créer un lien avec elles, alors qu'il peine déjà à veiller sur lui-même.",
     "date_ajout": "2026-04-24",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/03",
-      "daysLeft": 145,
-      "expirationDate": "2027-03-05",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2027-03-05"
       }
@@ -98895,17 +98019,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -98934,7 +98055,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm2965710",
@@ -99026,7 +98147,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts369291",
@@ -99097,17 +98218,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -99137,7 +98255,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm457216",
@@ -99182,7 +98300,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts225170",
@@ -99486,7 +98604,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm453909",
@@ -99528,79 +98646,12 @@ const CATALOG_DATA = [
     "synopsis": "Berlin, aujourd'hui. Francis, 30 ans, est un réfugié de Guinée-Bissau qui se retrouve dans la capitale allemande après avoir traversé illégalement la Méditerranée sur un bateau. Seul survivant du voyage, il se rend vite compte que gagner sa vie honnêtement en tant que réfugié apatride sans papiers est pratiquement impossible. Francis s'efforce d'abord de rester sur la bonne voie, même après avoir rencontré le trafiquant de drogue allemand Reinhold, et Francis se retrouve ainsi aspiré dans le monde souterrain de Berlin.",
     "date_ajout": "2021-08-11",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 5 j",
-      "daysLeft": 5,
-      "expirationDate": "2026-10-16",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2026-10-16"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts76079",
-    "titre": "Grizzy et les Lemmings",
-    "type": "serie",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2016,
-    "annee_fin": 2021,
-    "annee_moyenne": 2019,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2016,
-        "note": 7.3
-      },
-      {
-        "saison": 2,
-        "annee": 2019,
-        "note": 7.3
-      },
-      {
-        "saison": 3,
-        "annee": 2021,
-        "note": 7.3
-      }
-    ],
-    "duree": "9 min/ép.",
-    "runtime_minutes": 9,
-    "note_avis": 7.3,
-    "note_recence": 7.9,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "cmy",
-      "fml",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/267596231/s592/grizzy-et-les-lemmings.jpg",
-    "synopsis": "Dans une réserve naturelle, Grizzy, gros ours placide et chapardeur, vit comme un roi dans la forêt canadienne, n'hésitant pas à s'approprier la cabane du garde forestier dès que celui-ci a le dos tourné, afin de se détendre et jouir du confort et des nombreuses commodités qu'offre l'habitation. Parce qu’il est au sommet de la chaîne alimentaire, l’ours estime parfaitement légitime que la cabane lui revienne, dès que son propriétaire s’en éloigne. Aucun animal, c'est sûr, n’oserait contester les avantages de l'ours. Seuls les lemmings, de petits mammifères idiots, stupides et méchants (apparentés aux cochons d'Inde), lui contestent ses privilèges. Ils sont tous prêts à en découdre pour profiter des joies de la cabane !\n\nLa cohabitation ne sera certainement pas de tout repos !",
-    "date_ajout": "2025-12-21",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-11",
-      "packageExpirations": {
-        "fra": "2026-10-11"
       }
     },
     "on_prime": false,
@@ -99612,17 +98663,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -99654,7 +98702,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1963296",
@@ -99763,17 +98811,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
@@ -99852,10 +98897,10 @@ const CATALOG_DATA = [
     "synopsis": "Lise Stocker et Clovis Bouvier doivent faire face à une nouvelle menace totalement inédite. Plusieurs personnes sont atteintes d’un mal mystérieux et mortel. Un virus est en train de se répandre à Annecy. Une course contre la montre s’engage pour trouver l’origine de ce virus et tenter de stopper sa propagation. Est-ce un accident ? Un acte criminel ? Terroriste ? Ce virus a-t-il un lien avec la disparition mystérieuse d’une petite fille et de son père ? Chaque minute compte car déjà le nombre de victimes augmente… Spin-off des séries \"Le Mystère du lac\" et \"Le Tueur du lac\".",
     "date_ajout": "2020-01-01",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-10-14",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "nvn": "2026-10-14"
       }
@@ -100047,7 +99092,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1034573",
@@ -100055,17 +99100,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -100095,7 +99137,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts391266",
@@ -100103,33 +99145,45 @@ const CATALOG_DATA = [
     "type": "serie",
     "chaine": "M6+",
     "chaines": [
-      "M6+",
-      "Gulli"
+      "M6+"
     ],
     "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/m6_plus.png",
-      "assets/logos/gulli.png"
+      "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "sxp",
-      "gum"
+      "sxp"
     ],
     "annee": 2023,
-    "annee_moyenne": 2023,
+    "annee_moyenne": 2025,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2023,
+        "note": 6.3
+      },
+      {
+        "saison": 2,
+        "annee": 2024,
+        "note": 6.3
+      },
+      {
+        "saison": 3,
+        "annee": 2026,
+        "note": 6.3
+      },
+      {
+        "saison": 4,
+        "annee": 2026,
         "note": 6.3
       }
     ],
     "duree": "23 min/ép.",
     "runtime_minutes": 23,
     "note_avis": 6.3,
-    "note_recence": 9.1,
-    "note_globale": 7.7,
-    "etoiles": 4,
+    "note_recence": 9.7,
+    "note_globale": 8,
+    "etoiles": 5,
     "categories": [
       "animation_famille"
     ],
@@ -100156,7 +99210,8 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2026
   },
   {
     "id": "jw-tm1422800",
@@ -100164,17 +99219,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -100204,7 +99256,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm818701",
@@ -100248,7 +99300,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts35707",
@@ -100465,10 +99517,10 @@ const CATALOG_DATA = [
     "synopsis": "Une jeune schizophrène se fait passer pour la fille naturelle qu'une femme aurait abandonnée quand elle avait 16 ans.",
     "date_ajout": "2025-09-29",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/08",
-      "daysLeft": 323,
-      "expirationDate": "2027-08-30",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "nvn": "2027-08-30"
       }
@@ -100628,7 +99680,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm231788",
@@ -100677,7 +99729,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts24110",
@@ -100861,7 +99913,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm820629",
@@ -101023,7 +100075,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm2956087",
@@ -101253,17 +100305,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -101293,7 +100342,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1439099",
@@ -101301,17 +100350,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -101341,7 +100387,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts20269",
@@ -101457,7 +100503,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1933157",
@@ -101502,7 +100548,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1203808",
@@ -101510,17 +100556,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -101549,7 +100592,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1663302",
@@ -101557,17 +100600,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -101597,7 +100637,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm242419",
@@ -101880,34 +100920,21 @@ const CATALOG_DATA = [
     "chaine": "M6+",
     "chaines": [
       "M6+",
-      "France TV",
-      "Gulli"
+      "France TV"
     ],
     "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
       "assets/logos/m6_plus.png",
-      "assets/logos/france_tv.png",
-      "assets/logos/gulli.png"
+      "assets/logos/france_tv.png"
     ],
     "package_slugs": [
       "sxp",
-      "fra",
-      "gum"
+      "fra"
     ],
-    "annee": 2005,
+    "annee": 2022,
     "annee_fin": 2025,
-    "annee_moyenne": 2015,
+    "annee_moyenne": 2024,
     "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2005,
-        "note": 7.2
-      },
-      {
-        "saison": 3,
-        "annee": 2010,
-        "note": 7.2
-      },
       {
         "saison": 4,
         "annee": 2022,
@@ -101922,9 +100949,9 @@ const CATALOG_DATA = [
     "duree": "24 min/ép.",
     "runtime_minutes": 24,
     "note_avis": 7.2,
-    "note_recence": 6.7,
-    "note_globale": 7,
-    "etoiles": 4,
+    "note_recence": 9.4,
+    "note_globale": 8.3,
+    "etoiles": 5,
     "categories": [
       "animation_famille"
     ],
@@ -101939,10 +100966,10 @@ const CATALOG_DATA = [
     "synopsis": "Tag et ses copains ne vivent que pour une chose : le Foot2Rue ! Ils se retrouvent chaque jour pour jouer dans la rue. Grâce à cette passion qui dépasse le cadre des terrains de sport, ils trouvent la force d’affronter leurs soucis du quotidien.",
     "date_ajout": "2022-06-30",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 25/01",
-      "daysLeft": 106,
-      "expirationDate": "2027-01-25",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "gum": "2027-01-25",
         "fra": "2026-10-12"
@@ -102158,10 +101185,10 @@ const CATALOG_DATA = [
     "synopsis": "Le cas réel d'une pionnière, Nevenka Fernández : la première femme qui est parvenue à faire traduire en justice un homme politique influent et populaire pour harcèlement sexuel au travail.",
     "date_ajout": "2025-03-03",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 08/11",
-      "daysLeft": 28,
-      "expirationDate": "2026-11-08",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2026-11-08"
       }
@@ -102173,16 +101200,16 @@ const CATALOG_DATA = [
     "id": "jw-ts27623",
     "titre": "Mia et Moi",
     "type": "serie",
-    "chaine": "Gulli",
+    "chaine": "Ciné+ OCS",
     "chaines": [
-      "Gulli"
+      "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/gulli.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/gulli.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "package_slugs": [
-      "gum"
+      "aoc"
     ],
     "annee": 2012,
     "annee_fin": 2017,
@@ -102232,7 +101259,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1561560",
@@ -102240,17 +101267,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -102281,7 +101305,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1167612",
@@ -102328,7 +101352,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts53394",
@@ -102788,10 +101812,10 @@ const CATALOG_DATA = [
     "synopsis": "De retour à Paris après un exil hollywoodien de plusieurs années, Judith, ancienne égérie du cinéma d’auteur, compte bien relancer sa carrière avec un nouveau film. Mais pour l’actrice, la mère et la femme enthousiaste et romantique, pas si simple de démarrer une nouvelle vie. Surtout quand sa fille de 16 ans tombe amoureuse d’un prof de danse bien plus âgé qu’elle. Dans un monde qui change, entre humour et désillusion, Judith va devoir jongler entre ambition personnelle, angoisses maternelles et faire finalement face aux démons de son passé. Mieux qu’une icône, le portrait tout en autodérision et contradictions d’une femme avec ses aspirations, ses peurs, ses passions et surtout la soif de conquérir sa liberté.",
     "date_ajout": "2024-01-03",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 27/12",
-      "daysLeft": 77,
-      "expirationDate": "2026-12-27",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2026-12-27"
       }
@@ -103047,10 +102071,10 @@ const CATALOG_DATA = [
     "synopsis": "Une riche femme au foyer londonienne est contrainte de retourner dans sa ville natale en Australie, où elle devra affronter son passé et les raisons de son départ des années auparavant.\n",
     "date_ajout": "2026-04-30",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 29/04",
-      "daysLeft": 200,
-      "expirationDate": "2027-04-29",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2027-04-29"
       }
@@ -103148,10 +102172,10 @@ const CATALOG_DATA = [
     "synopsis": "Malheureuse, Marnie, 24 ans, quitte tout pour atterrir à Londres. Cette grande ville, où elle ne connaît personne, semble le lieu idéal pour prendre un nouveau départ. A la fois émerveillée et terrifiée, la jeune femme réalise vite qu’elle n’est pas la seule à se sentir perdue. Alors qu’elle entame ce voyage sur la découverte de soi, Marnie est malgré elle victime d’un trouble compulsif obsessionnel qui se manifeste par des pensées intrusives, souvent sexuelles, qui affectent profondément son quotidien et ses relations.",
     "date_ajout": "2026-04-10",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 09/04",
-      "daysLeft": 180,
-      "expirationDate": "2027-04-09",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2027-04-09"
       }
@@ -103363,10 +102387,10 @@ const CATALOG_DATA = [
     "synopsis": "Samuel a 10 ans. Il tient un journal et il a un problème. Son problème c’est que Basile a dit à la grande Julie que Samuel l’aimait. C’est faux, il s’en fiche de Julie. C’est juste qu’elle a rigolé à l’une de ses blagues et qu’il a trouvé ça sympa de sa part.",
     "date_ajout": "2024-03-10",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 07/02",
-      "daysLeft": 119,
-      "expirationDate": "2027-02-07",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2027-02-07"
       }
@@ -103530,7 +102554,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts77856",
@@ -103727,22 +102751,24 @@ const CATALOG_DATA = [
     "type": "serie",
     "chaine": "M6+",
     "chaines": [
-      "M6+",
-      "Gulli"
+      "M6+"
     ],
     "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/m6_plus.png",
-      "assets/logos/gulli.png"
+      "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "sxp",
-      "gum"
+      "sxp"
     ],
-    "annee": 2020,
-    "annee_fin": 2024,
-    "annee_moyenne": 2022,
+    "annee": 2017,
+    "annee_fin": 2025,
+    "annee_moyenne": 2021,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2017,
+        "note": 7.3
+      },
       {
         "saison": 2,
         "annee": 2020,
@@ -103752,14 +102778,19 @@ const CATALOG_DATA = [
         "saison": 3,
         "annee": 2024,
         "note": 7.3
+      },
+      {
+        "saison": 4,
+        "annee": 2025,
+        "note": 7.3
       }
     ],
     "duree": "14 min/ép.",
     "runtime_minutes": 14,
     "note_avis": 7.3,
-    "note_recence": 8.8,
-    "note_globale": 8.1,
-    "etoiles": 5,
+    "note_recence": 8.5,
+    "note_globale": 7.9,
+    "etoiles": 4,
     "categories": [
       "animation_famille"
     ],
@@ -103850,17 +102881,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -103891,7 +102919,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts454303",
@@ -104167,7 +103195,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts475798",
@@ -104473,7 +103501,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts220827",
@@ -104597,7 +103625,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm431778",
@@ -104649,17 +103677,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -104690,7 +103715,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts41983",
@@ -104940,7 +103965,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts357602",
@@ -105091,7 +104116,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts77322",
@@ -105195,7 +104220,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts475202",
@@ -105426,17 +104451,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "France TV",
     "chaines": [
-      "France TV",
-      "Arte"
+      "France TV"
     ],
     "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/france_tv.png",
-      "assets/logos/arte.png"
+      "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "fra",
-      "art"
+      "fra"
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
@@ -105459,10 +104481,10 @@ const CATALOG_DATA = [
     "synopsis": "Nina et Madeleine sont profondément amoureuses l’une de l’autre. Aux yeux de tous, elles ne sont que de simples voisines vivant au dernier étage de leur immeuble. Au quotidien, elles vont et viennent entre leurs deux appartements et partagent leurs vies ensemble. Personne ne les connaît vraiment, pas même Anne, la fille attentionnée de Madeleine. Jusqu’au jour où un événement tragique fait tout basculer…",
     "date_ajout": "2020-02-12",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 50,
-      "expirationDate": "2026-11-30",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "fra": "2026-11-30"
       }
@@ -105792,7 +104814,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1635927",
@@ -105800,17 +104822,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -105839,7 +104858,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts304702",
@@ -106109,10 +105128,10 @@ const CATALOG_DATA = [
     "synopsis": "Deux amoureux de la nourriture entame une relation à partir de leur passion commune.",
     "date_ajout": "2026-03-20",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 19/03",
-      "daysLeft": 159,
-      "expirationDate": "2027-03-19",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2027-03-19"
       }
@@ -106228,10 +105247,10 @@ const CATALOG_DATA = [
     "synopsis": "María, Cris et Esther sont trois femmes très différentes de plus de 30 ans qui pensent qu'elles sont maintenant LA personne adulte qu'elles resteront pour le reste de leur vie.",
     "date_ajout": "2021-03-18",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 81,
-      "expirationDate": "2026-12-31",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2026-12-31"
       }
@@ -106435,7 +105454,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts237419",
@@ -107223,7 +106242,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts232837",
@@ -107560,7 +106579,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts88089",
@@ -107656,7 +106675,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts38277",
@@ -107868,10 +106887,10 @@ const CATALOG_DATA = [
     "synopsis": "Espagne, l'été. Libertad fait irruption dans la vie de Nora, 15 ans et bouscule le calme habituel de ses vacances en famille. Ces deux jeunes filles que tout oppose nouent alors une amitié profonde qui marquera leur entrée dans l'adolescence.",
     "date_ajout": "2022-04-06",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 09/03",
-      "daysLeft": 149,
-      "expirationDate": "2027-03-09",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2027-03-09"
       }
@@ -107940,17 +106959,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -108024,7 +107040,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts269185",
@@ -108096,17 +107112,14 @@ const CATALOG_DATA = [
     "type": "serie",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Gulli"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/gulli.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "gum"
+      "tf1"
     ],
     "annee": 2015,
     "annee_fin": 2024,
@@ -108207,10 +107220,10 @@ const CATALOG_DATA = [
     "synopsis": "Nous sommes en 52 avant Jésus-Christ. Tout Lutèce est occupée par les romains... Tout ? Non ! Une bande d'irréductibles animaux menée par Idéfix résiste encore et toujours à l'envahisseur.\n\nAprès la défaite du chef gaulois Camulogène face au général Labienus, Idéfix organise la résistance avec les irréductibles, une bande d'animaux plus attachants et drôles les uns que les autres pour défendre la cité gauloise face à l'occupant romain.",
     "date_ajout": "2026-09-20",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 22/11",
-      "daysLeft": 42,
-      "expirationDate": "2026-11-22",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "fra": "2026-11-22"
       }
@@ -108314,22 +107327,29 @@ const CATALOG_DATA = [
     "type": "serie",
     "chaine": "M6+",
     "chaines": [
-      "M6+",
-      "Gulli"
+      "M6+"
     ],
     "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/m6_plus.png",
-      "assets/logos/gulli.png"
+      "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "sxp",
-      "gum"
+      "sxp"
     ],
-    "annee": 2019,
+    "annee": 2010,
     "annee_fin": 2023,
-    "annee_moyenne": 2021,
+    "annee_moyenne": 2017,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2010,
+        "note": 6.7
+      },
+      {
+        "saison": 2,
+        "annee": 2016,
+        "note": 6.7
+      },
       {
         "saison": 3,
         "annee": 2019,
@@ -108344,8 +107364,8 @@ const CATALOG_DATA = [
     "duree": "8 min/ép.",
     "runtime_minutes": 8,
     "note_avis": 6.7,
-    "note_recence": 8.5,
-    "note_globale": 7.6,
+    "note_recence": 7.3,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -108379,32 +107399,34 @@ const CATALOG_DATA = [
     "type": "serie",
     "chaine": "M6+",
     "chaines": [
-      "M6+",
-      "Gulli"
+      "M6+"
     ],
     "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/m6_plus.png",
-      "assets/logos/gulli.png"
+      "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "sxp",
-      "gum"
+      "sxp"
     ],
     "annee": 2022,
-    "annee_moyenne": 2022,
+    "annee_moyenne": 2023,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2022,
+        "note": 6.1
+      },
+      {
+        "saison": 2,
+        "annee": 2024,
         "note": 6.1
       }
     ],
     "duree": "17 min/ép.",
     "runtime_minutes": 17,
     "note_avis": 6.1,
-    "note_recence": 8.8,
-    "note_globale": 7.5,
+    "note_recence": 9.1,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -108428,7 +107450,8 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2024
   },
   {
     "id": "jw-tm463863",
@@ -108485,17 +107508,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -108525,7 +107545,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts40913",
@@ -108533,22 +107553,24 @@ const CATALOG_DATA = [
     "type": "serie",
     "chaine": "M6+",
     "chaines": [
-      "M6+",
-      "Gulli"
+      "M6+"
     ],
     "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/m6_plus.png",
-      "assets/logos/gulli.png"
+      "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "sxp",
-      "gum"
+      "sxp"
     ],
-    "annee": 2017,
-    "annee_fin": 2020,
-    "annee_moyenne": 2019,
+    "annee": 2016,
+    "annee_fin": 2023,
+    "annee_moyenne": 2020,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2016,
+        "note": 7.1
+      },
       {
         "saison": 2,
         "annee": 2017,
@@ -108568,13 +107590,23 @@ const CATALOG_DATA = [
         "saison": 5,
         "annee": 2020,
         "note": 7.1
+      },
+      {
+        "saison": 6,
+        "annee": 2021,
+        "note": 7.1
+      },
+      {
+        "saison": 7,
+        "annee": 2023,
+        "note": 7.1
       }
     ],
     "duree": "18 min/ép.",
     "runtime_minutes": 18,
     "note_avis": 7.1,
-    "note_recence": 7.9,
-    "note_globale": 7.5,
+    "note_recence": 8.2,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -108887,10 +107919,10 @@ const CATALOG_DATA = [
     "synopsis": "Issa, un pêcheur de soixante ans, est secrètement amoureux de Siham, une femme qui travaille comme couturière au marché. Il souhaite la demander en mariage. C'est alors qu'il découvre une statue antique du dieu Apollon dans son filet de pêche, qu’il décide de cacher chez lui. Quand les autorités locales découvrent l’existence de ce mystérieux trésor, les ennuis commencent pour Issa. Parviendra-t-il à déclarer son amour à Siham ?",
     "date_ajout": "2021-10-06",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 13/11",
-      "daysLeft": 33,
-      "expirationDate": "2026-11-13",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2026-11-13"
       }
@@ -109316,10 +108348,10 @@ const CATALOG_DATA = [
     "synopsis": "Une dizaine de lycéens en option théâtre voient débarquer un professeur remplaçant pour un mois. Alors qu’ils déclament Shakespeare en gardant leur distance, l’enseignant coupe court à la répétition. À un âge où l’on avance souvent masqué, le regard trop haut ou la tête trop baissée, la question de l’intime s’impose à eux.",
     "date_ajout": "2024-09-23",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 22/02",
-      "daysLeft": 134,
-      "expirationDate": "2027-02-22",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "art": "2027-02-22"
       }
@@ -109400,17 +108432,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2014,
     "annee_moyenne": 2014,
@@ -109444,7 +108473,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts8698",
@@ -109508,10 +108537,10 @@ const CATALOG_DATA = [
     "synopsis": "La série \"Trésors sous les Mers\" pénètre les épaves, les trésors, les villes englouties, la géologie et la technologie à l’œuvre au fond des lacs, mers et océans du monde entier, résolvant ainsi les énigmes sous-marines qui nous échappent depuis des générations. En combinant les dernières données scientifiques à des techniques informatiques de pointe, vous allez découvrir des mystères planétaires enfouis. Le Titanic, un cuirassé de la Seconde Guerre Mondiale et le mystérieux Vol 19, perdu dans le Triangle des Bermudes.  Grâce aux dernières données scientifiques obtenues à partir de scanners sous-marins et à des reconstitutions d’avant-garde, la série lève le voile sur chacun de ces trésors enfouis et dévoile leurs histoires, en sillonnant les mers de Chine, le golfe du Mexique, la Méditerranée, le Nil, le littoral du Pacifique, l’océan Indien, l’océan Atlantique et la mer Baltique à la recherche de réponses.",
     "date_ajout": "2020-03-22",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 2 j",
-      "daysLeft": 2,
-      "expirationDate": "2026-10-13",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "nvn": "2026-10-13"
       }
@@ -109525,17 +108554,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -109566,7 +108592,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm2861314",
@@ -109813,7 +108839,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1416960",
@@ -109980,7 +109006,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts58307",
@@ -110078,7 +109104,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts481818",
@@ -110518,17 +109544,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "TF1+",
     "chaines": [
-      "TF1+",
-      "Arte"
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/arte.png"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "tf1",
-      "art"
+      "tf1"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -110559,7 +109582,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1475163",
@@ -110740,17 +109763,14 @@ const CATALOG_DATA = [
     "type": "serie",
     "chaine": "France TV",
     "chaines": [
-      "France TV",
-      "Gulli"
+      "France TV"
     ],
     "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/france_tv.png",
-      "assets/logos/gulli.png"
+      "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "fra",
-      "gum"
+      "fra"
     ],
     "annee": 2014,
     "annee_fin": 2022,
@@ -110759,11 +109779,6 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2014,
-        "note": 7.4
-      },
-      {
-        "saison": 2,
-        "annee": 2016,
         "note": 7.4
       },
       {
@@ -110814,16 +109829,16 @@ const CATALOG_DATA = [
     "id": "jw-ts35104",
     "titre": "Mouk",
     "type": "serie",
-    "chaine": "Gulli",
+    "chaine": "Ciné+ OCS",
     "chaines": [
-      "Gulli"
+      "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/gulli.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/gulli.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "package_slugs": [
-      "gum"
+      "aoc"
     ],
     "annee": 2014,
     "annee_moyenne": 2014,
@@ -110860,7 +109875,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-ts432697",
@@ -111103,7 +110118,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts317126",
@@ -111314,5 +110329,430 @@ const CATALOG_DATA = [
     },
     "on_prime": false,
     "on_tnt": true
+  },
+  {
+    "id": "jw-tm369243",
+    "titre": "Upgrade",
+    "type": "film",
+    "chaine": "Action Max",
+    "chaines": [
+      "Action Max"
+    ],
+    "logo_chaine": "assets/logos/action.png",
+    "logos_chaine": [
+      "assets/logos/action.png"
+    ],
+    "package_slugs": [
+      "aca"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 7.5,
+    "note_recence": 7.6,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "act",
+      "trl",
+      "scf"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/85378743/s592/upgrade.jpg",
+    "synopsis": "Après la mort de son épouse, lors d'une violente agression, qui l'a lui même laissé paralysé, Grey Trace est contacté par un inventeur milliardaire, qui propose de lui administrer un remède expérimental qui va améliorer son corps et ses facultés. Désormais doté d'un implant fonctionnant à l'intelligence artificielle, Grey voit ses capacités physiques décuplées et cherche à retrouver ses agresseurs, afin de leur faire payer la mort de sa femme.",
+    "date_ajout": "2026-01-31",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-10-11",
+      "packageExpirations": {
+        "aca": "2026-10-11"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts11564",
+    "titre": "Meurtres au paradis",
+    "type": "serie",
+    "chaine": "France TV",
+    "chaines": [
+      "France TV"
+    ],
+    "logo_chaine": "assets/logos/france_tv.png",
+    "logos_chaine": [
+      "assets/logos/france_tv.png"
+    ],
+    "package_slugs": [
+      "fra"
+    ],
+    "annee": 2022,
+    "annee_fin": 2023,
+    "annee_moyenne": 2023,
+    "saisons_disponibles": [
+      {
+        "saison": 11,
+        "annee": 2022,
+        "note": 7.8
+      },
+      {
+        "saison": 12,
+        "annee": 2023,
+        "note": 7.8
+      }
+    ],
+    "duree": "59 min/ép.",
+    "runtime_minutes": 59,
+    "note_avis": 7.8,
+    "note_recence": 9.1,
+    "note_globale": 8.5,
+    "etoiles": 5,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "cmy",
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/345795578/s592/meurtres-au-paradis.jpg",
+    "synopsis": "Le détective Richard Poole est muté à Sainte Marie, une île des Caraïbes. Totalement inadapté au style de vie caribéen, Richard déteste le soleil, la mer et le sable et n'est pas habitué aux méthodes policières de Sainte Marie. Travaillant de pair avec l'exotique Camille, chaque semaine, Richard enquête sur des meurtres complexes et inhabituels.",
+    "date_ajout": "2026-04-27",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-10-11",
+      "packageExpirations": {
+        "fra": "2026-10-11",
+        "mlt": "2026-10-11"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": true
+  },
+  {
+    "id": "jw-ts452246",
+    "titre": "Un soupçon",
+    "type": "serie",
+    "chaine": "France TV",
+    "chaines": [
+      "France TV"
+    ],
+    "logo_chaine": "assets/logos/france_tv.png",
+    "logos_chaine": [
+      "assets/logos/france_tv.png"
+    ],
+    "package_slugs": [
+      "fra"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2024,
+        "note": 6.5
+      }
+    ],
+    "duree": "49 min/ép.",
+    "runtime_minutes": 49,
+    "note_avis": 6.5,
+    "note_recence": 9.4,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/321414180/s592/un-soupcon.jpg",
+    "synopsis": "Librement inspiré d'une histoire vraie. Qui est Isabelle ? Une meurtrière ou une mère au foyer ? C’est ce que veut comprendre la capitaine de gendarmerie Mathilde Delboscq chargée de l’enquête sur la mort du mari d’Isabelle... C’est le début d’une enquête, puis d’une plongée dans la vie d’une femme au destin unique.",
+    "date_ajout": "2025-11-21",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-10-11",
+      "packageExpirations": {
+        "fra": "2026-10-11"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": true
+  },
+  {
+    "id": "jw-ts76079",
+    "titre": "Grizzy et les Lemmings",
+    "type": "serie",
+    "chaine": "France TV",
+    "chaines": [
+      "France TV"
+    ],
+    "logo_chaine": "assets/logos/france_tv.png",
+    "logos_chaine": [
+      "assets/logos/france_tv.png"
+    ],
+    "package_slugs": [
+      "fra"
+    ],
+    "annee": 2016,
+    "annee_fin": 2021,
+    "annee_moyenne": 2019,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2016,
+        "note": 7.3
+      },
+      {
+        "saison": 2,
+        "annee": 2019,
+        "note": 7.3
+      },
+      {
+        "saison": 3,
+        "annee": 2021,
+        "note": 7.3
+      }
+    ],
+    "duree": "9 min/ép.",
+    "runtime_minutes": 9,
+    "note_avis": 7.3,
+    "note_recence": 7.9,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "ani",
+      "cmy",
+      "fml",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/267596231/s592/grizzy-et-les-lemmings.jpg",
+    "synopsis": "Dans une réserve naturelle, Grizzy, gros ours placide et chapardeur, vit comme un roi dans la forêt canadienne, n'hésitant pas à s'approprier la cabane du garde forestier dès que celui-ci a le dos tourné, afin de se détendre et jouir du confort et des nombreuses commodités qu'offre l'habitation. Parce qu’il est au sommet de la chaîne alimentaire, l’ours estime parfaitement légitime que la cabane lui revienne, dès que son propriétaire s’en éloigne. Aucun animal, c'est sûr, n’oserait contester les avantages de l'ours. Seuls les lemmings, de petits mammifères idiots, stupides et méchants (apparentés aux cochons d'Inde), lui contestent ses privilèges. Ils sont tous prêts à en découdre pour profiter des joies de la cabane !\n\nLa cohabitation ne sera certainement pas de tout repos !",
+    "date_ajout": "2025-12-21",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-10-11",
+      "packageExpirations": {
+        "fra": "2026-10-11"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": true
+  },
+  {
+    "id": "jw-tm243870",
+    "titre": "Je ne vois que toi",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "1h 50min",
+    "runtime_minutes": 110,
+    "note_avis": 5.4,
+    "note_recence": 7.3,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/305360613/s592/je-ne-vois-que-toi.jpg",
+    "synopsis": "Après avoir perdu la vue dans un accident de voiture qui a coûté la vie à ses parents, Gina est devenue totalement dépendante de James – une dépendance qui semble nourrir leur amour passionnel. Jusqu’au jour où la jeune femme recouvre partiellement la vue grâce à une greffe de la cornée. Soudain, elle découvre le monde et affirme une volonté d’indépendance qui déstabilise profondément James. Le couple résistera-t-il à ce nouvel équilibre ?",
+    "date_ajout": "2026-07-06",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-10-11",
+      "packageExpirations": {
+        "aoc": "2026-10-11"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm464524",
+    "titre": "J'irai où tu iras",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 5.4,
+    "note_recence": 7.9,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/148924868/s592/jirai-ou-tu-iras.jpg",
+    "synopsis": "Vali et Mina sont deux sœurs que tout oppose, éloignées par les épreuves de la vie. L’une est chanteuse, rêveuse et émotive. L’autre est thérapeute, distante et rationnelle. Leur père aimant finit par trouver l’occasion rêvée pour les rassembler le temps d’un week-end et tenter de les réconcilier : Vali a décroché une audition à Paris et c’est Mina qui va devoir l’y emmener malgré son mépris pour la passion de sa sœur.  C’est une histoire de retrouvailles, une histoire d’amour entre deux sœurs, l’histoire d’une famille qui s’aime mais qui ne sait plus se le dire.",
+    "date_ajout": "2026-09-12",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-10-11",
+      "packageExpirations": {
+        "aoc": "2026-10-11"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm449587",
+    "titre": "La Lutte des classes",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 43min",
+    "runtime_minutes": 103,
+    "note_avis": 5.9,
+    "note_recence": 7.9,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "fml",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/141565891/s592/la-lutte-des-classes.jpg",
+    "synopsis": "Comme chacun sait, les enfants ne font aucune différence entre les classes sociales, les couleurs de peau ou les religions. Mais alors pourquoi Corentin, le fils de 9 ans de Paul et Sofia, n’a-t-il à l’école de Bagnolet que des amis qui lui ressemblent? Et quand ses amis partent tous dans une école privée parisienne, ses parents prennent peur. Désormais, Corentin est le seul dans sa classe. Mais le seul quoi ?",
+    "date_ajout": "2026-08-29",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-10-11",
+      "packageExpirations": {
+        "aoc": "2026-10-11"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1583419",
+    "titre": "Les musiciens",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 6.8,
+    "note_recence": 9.7,
+    "note_globale": 8.3,
+    "etoiles": 5,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "msc"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/335799133/s592/les-musiciens-2025.jpg",
+    "synopsis": "Astrid Carlson parvient enfin à réaliser le rêve de son père : réunir quatre Stradivarius pour un concert unique attendu par les mélomanes du monde entier. Mais Lise, George, Peter et Apolline, les quatre virtuoses recrutés pour l’occasion, sont incapables de jouer ensemble. Les crises d’égo se succèdent au rythme des répétitions. Sans solution, Astrid se résout à aller chercher le seul qui, à ses yeux, peut encore sauver l’événement : Charlie Beaumont, le compositeur de la partition.",
+    "date_ajout": "2026-08-29",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-10-11",
+      "packageExpirations": {
+        "aoc": "2026-10-11"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
   }
 ];

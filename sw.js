@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cinescope-v8.43-streaming';
+const CACHE_NAME = 'cinescope-v8.44-streaming';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -19,7 +19,6 @@ const CORE_ASSETS = [
   './assets/logos/m6_plus.png',
   './assets/logos/france_tv.png',
   './assets/logos/arte.png',
-  './assets/logos/gulli.png',
   './assets/logos/novo19.svg'
 ];
 

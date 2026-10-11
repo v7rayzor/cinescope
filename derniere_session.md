@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.43** / Cache **v29**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.44** / Cache **v30**).
 
 ---
 
@@ -8,29 +8,33 @@ Ce document constitue la référence vivante et synthétique de l'architecture, 
 
 ### A. Bouquets SVOD & Diffuseurs Découpés (France)
 1. **Bouquets SVOD Payants (Visibles sur PC & Mobile)** :
-   * **Ciné+ OCS** (`aoc`) — 673 œuvres
+   * **Ciné+ OCS** (`aoc`) — 675 œuvres
    * **Universal+** (`auc`) — 155 œuvres
    * **Action Max** (`aca`) — 52 œuvres
    * **Sanctuarisation Payante Absolue** : si une œuvre est disponible sur un bouquet payant, le tag `mlt` et le logo Molotov sont **formellement bannis** (zéro double logo parasite sur les jaquettes payantes, ex: *La Lutte des classes*).
 2. **Plateformes Gratuites & TNT Dissociées (Exclusivité PC Desktop — Règle 8)** :
-   * **Molotov Gratuit** (`mlt`) — 764 œuvres (catalogue Mango AVOD & chaînes FAST)
-   * **TF1+** (`tf1`, `myt`, `tfa`) — 472 œuvres
-   * **Arte** (`art`, `atb`) — 262 œuvres
-   * **M6+** (`sxp`, `6pt`, `mms`) — 166 œuvres
-   * **France TV** (`fra`) — 109 œuvres
+   * **Molotov Gratuit** (`mlt`) — 764 œuvres (catalogue AVOD Mango & chaînes FAST, distinct des autres bouquets)
+   * **TF1+** (`tf1`, alias `myt`) — 472 œuvres
+   * **M6+** (`sxp`, alias `6pt`, `mms`) — 166 œuvres
+   * **France TV** (`fra`) — 109 œuvres (bouton dédié officiel)
+   * **Arte** (`art`) — 63 œuvres (100% streaming gratuit `FREE`)
    * **Novo 19** (`nvn`) — 12 œuvres (nouvelle chaîne TNT canal 19)
-   * **Gulli** (`gum`) — 12 œuvres (jeunesse TNT canal 18)
-   * **Sanctuarisation TNT** : Canal+ (`cpd`, `cns`) est formellement exclu de la TNT.
+   * **Sanctuarisation TNT & Gratuité Réelle** :
+     - **ARTE VOD (`atb`)** : boutique payante à l'acte (`RENT`, `BUY`) formellement bannie.
+     - **TFOU MAX (`tfa`)** : abonnement SVOD payant (3,99 €/mois) formellement banni de TF1+.
+     - **Gullimax (`gum`)** : abonnement payant (2,99 €/mois) formellement exclu de M6+ (le replay gratuit Gulli reste inclus dans M6+).
+     - **Canal+ (`cpd`, `cns`)** : formellement exclu de la TNT.
 
 ### B. Synchronisation Hybride & Automatisation
 * **Automatisation Serveur (GitHub Actions - `.github/workflows/update_catalog.yml`)** :
   - Exécution quotidienne planifiée à **06:00 UTC** via [`scripts/sync_justwatch.cjs`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_justwatch.cjs) sous Node.js.
-  - Couvre les 10 packages officiels ciblés (`aoc`, `aca`, `auc`, `mlt`, `tf1`, `sxp`, `fra`, `art`, `gum`, `nvn`).
+  - Couvre les 9 packages officiels ciblés (`aoc`, `aca`, `auc`, `mlt`, `tf1`, `sxp`, `fra`, `art`, `nvn`).
+  - Filtre strictement les offres `['FLATRATE', 'FREE', 'ADS']` (exclusion native de tout `RENT` et `BUY`).
   - Nettoie, déduplique, qualifie et met à jour [`js/catalog.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js).
 * **Client Web Résilient ([`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js))** :
   - Démarrage instantané sur le catalogue pré-embarqué `CATALOG_DATA`.
   - Rafraîchissement rapide quotidien calibré à **100 nouveautés fraîches** (2 pages de 50).
-  - Rechargement client avec invalidation de cache (`?v=8.43`) et purge automatique des anciennes clés LocalStorage.
+  - Rechargement client avec invalidation de cache (`?v=8.44`) et purge automatique des anciennes clés LocalStorage (`_v30`).
 
 ---
 
@@ -93,12 +97,12 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - Bouton déroulant standardisé avec badge dynamique affichant la sélection active en temps réel.
 * **Sanctuarisation Mobile Stricte (Règle 8 AGENTS.md)** :
   - Sur smartphone, les œuvres gratuites/TNT sont **masquées en permanence** : le mobile conserve strictement les 876 œuvres des 3 bouquets payants de référence.
-  - Les boutons spécifiques PC (`Molotov Gratuit`, `TF1+`, `M6+`, etc.) sont totalement invisibles sur mobile.
+  - Les boutons spécifiques PC (`Molotov Gratuit`, `TF1+`, `M6+`, `France TV`, `Arte`, `Novo 19`) sont totalement invisibles sur mobile.
 
 ### B. Filtres Toggles & Fonctionnalités Desktop PC (Règle 8)
 * **Barre des Bouquets Découpée** :
   - Bouquets payants : `[✨ Tous les bouquets]` `[Ciné+ OCS]` `[Action Max]` `[Universal+]`
-  - Bouquets gratuits & TNT : `[Molotov Gratuit]` `[TF1+]` `[M6+]` `[France TV]` `[Arte]` `[Gulli]` `[Novo 19]`
+  - Bouquets gratuits & TNT : `[Molotov Gratuit]` `[TF1+]` `[M6+]` `[France TV]` `[Arte]` `[Novo 19]`
 * **Toggle « 📺 Hors Gratuit & TNT »** :
   - Masque instantanément toutes les 1 313 œuvres issues de la TNT et du catalogue gratuit Molotov, basculant en 1 clic sur le catalogue SVOD payant pur (876 œuvres).
 * **Toggle « 🛡️ Hors Prime & TNT »** :
@@ -126,5 +130,5 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     - Version Mobile : **876 œuvres SVOD payantes** (752 films, 124 séries) — 0 pollution.
     - Version PC : **2 189 œuvres totales** (dont 1 313 gratuites/TNT masquables en 1 clic).
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.43` (`sw.js` : `cinescope-v8.43-streaming`, assets `?v=8.43`).
-  - **Clés LocalStorage Actives** : `_v29` (`cinescope_streaming_catalog_v29`, etc.).
+  - **Version Application / PWA** : `v8.44` (`sw.js` : `cinescope-v8.44-streaming`, assets `?v=8.44`).
+  - **Clés LocalStorage Actives** : `_v30` (`cinescope_streaming_catalog_v30`, etc.).

@@ -2093,16 +2093,6 @@ body.modal-open {
   color: #fff;
 }
 
-.bouquet-btn[data-package="gum"].active {
-  background: linear-gradient(135deg, rgba(132, 204, 22, 0.28), rgba(132, 204, 22, 0.12));
-  border-color: rgba(132, 204, 22, 0.75);
-  color: #fff;
-  box-shadow: 0 0 14px rgba(132, 204, 22, 0.3);
-}
-.bouquet-btn[data-package="gum"].active .pkg-count {
-  background: rgba(132, 204, 22, 0.35);
-  color: #fff;
-}
 
 .bouquet-btn[data-package="nvn"].active {
   background: linear-gradient(135deg, rgba(239, 68, 68, 0.28), rgba(14, 165, 233, 0.12));

@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v29';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v29';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v29';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v29';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v30';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v30';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v30';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v30';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -78,12 +78,6 @@ const JustWatchEngine = (function () {
       badgeClass: 'badge-arte',
       isPaid: false
     },
-    gum: {
-      name: 'Gulli',
-      logo: 'assets/logos/gulli.png',
-      badgeClass: 'badge-gulli',
-      isPaid: false
-    },
     nvn: {
       name: 'Novo 19',
       logo: 'assets/logos/novo19.svg',
@@ -98,7 +92,7 @@ const JustWatchEngine = (function () {
     }
   };
 
-  const PACKAGE_SLUGS = ['aoc', 'aca', 'auc', 'mlt', 'tf1', 'sxp', 'fra', 'art', 'gum', 'nvn'];
+  const PACKAGE_SLUGS = ['aoc', 'aca', 'auc', 'mlt', 'tf1', 'sxp', 'fra', 'art', 'nvn'];
 
   // Motifs d'identification des œuvres et séries incluses ou diffusées sur Prime Video
   const KNOWN_PRIME_PATTERNS = [
@@ -151,8 +145,8 @@ const JustWatchEngine = (function () {
     return KNOWN_PRIME_PATTERNS.some(regex => regex.test(title));
   }
 
-  // Bouquets et chaînes officielles de la TNT française (TF1+, M6+, Arte, France TV, Gulli, Novo 19)
-  const TNT_PACKAGE_SLUGS = ['tf1', 'myt', 'tfa', 'sxp', '6pt', 'mms', 'art', 'atb', 'fra', 'gum', 'nvn'];
+  // Bouquets et chaînes officielles de la TNT française (TF1+, M6+, Arte, France TV, Novo 19)
+  const TNT_PACKAGE_SLUGS = ['tf1', 'myt', 'sxp', '6pt', 'mms', 'art', 'fra', 'nvn'];
 
   function isKnownTntTitle(title) {
     return false;
@@ -660,7 +654,7 @@ const JustWatchEngine = (function () {
       const availableSeasons = allSeasons.filter(s => {
         const sOffers = s.offers || [];
         return sOffers.some(o => 
-          o.monetizationType === 'FLATRATE' && 
+          ['FLATRATE', 'FREE', 'ADS'].includes(o.monetizationType) && 
           o.package && 
           PACKAGE_SLUGS.includes(o.package.shortName)
         );
@@ -747,15 +741,18 @@ const JustWatchEngine = (function () {
     if (noteGlobale >= 8.0) etoiles = 5;
     else if (noteGlobale >= 7.0) etoiles = 4;
 
-    const offers = node.offers || [];
+    const rawOffers = node.offers || [];
+    // VERROUILLAGE STREAMING STRICT : Seules les offres de streaming gratuit ou abonnement sont admises.
+    // Les offres de boutique payante à l'acte (RENT / BUY) sont formellement exclues (zéro VOD payante).
+    const offers = rawOffers.filter(o => ['FLATRATE', 'FREE', 'ADS'].includes(o.monetizationType));
 
-    // Table d'alias JustWatch vers nos diffuseurs officiels
+    // Table d'alias JustWatch vers nos diffuseurs officiels gratuits / TNT
+    // Note : atb (ARTE VOD payant à l'acte), tfa (TFOU MAX payant 3.99€) et gum (Gullimax payant 2.99€)
+    // sont formellement exclus pour sanctuariser la gratuité réelle.
     const PKG_ALIASES = {
       myt: 'tf1',
-      tfa: 'tf1',
       '6pt': 'sxp',
-      mms: 'sxp',
-      atb: 'art'
+      mms: 'sxp'
     };
 
     const resolvedOfferSlugs = Array.from(new Set(
@@ -772,8 +769,8 @@ const JustWatchEngine = (function () {
       // Molotov (mlt) et les canaux TNT sont STRICTEMENT bannis de la fiche et des logos !
       matchedPackages = matchedPaid;
     } else {
-      // 2. Œuvre non payante : détection des chaînes TNT & Replay (Desktop PC)
-      const tntSlugs = ['tf1', 'sxp', 'fra', 'art', 'gum', 'nvn'];
+      // 2. Œuvre non payante : détection des vraies chaînes TNT & Replay gratuit (Desktop PC)
+      const tntSlugs = ['tf1', 'sxp', 'fra', 'art', 'nvn'];
       const matchedTnt = tntSlugs.filter(p => resolvedOfferSlugs.includes(p));
 
       if (matchedTnt.length > 0) {
