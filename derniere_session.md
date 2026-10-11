@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.47** / Cache **v33**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.48** / Cache **v34**).
 
 ---
 
@@ -16,7 +16,7 @@ Ce document constitue la référence vivante et synthétique de l'architecture, 
    * **Règle Universelle Molotov ABO (`FLATRATE`)** : Toute œuvre non payante **DOIT impérativement posséder une offre dans la ligne ABO de Molotov (`FLATRATE`)** pour être admise. Cela garantit que 100% des œuvres sont immédiatement visionnables dans l'abonnement Molotov Extended.
    * **M6+** (`sxp`, alias `6pt`, `mms`) — 97 œuvres (replays réels M6, W9, 6ter & Gulli disponibles sur Molotov)
    * **TF1+** (`tf1`, alias `myt`) — 64 œuvres (replays réels TF1, TMC, TFX disponibles sur Molotov)
-   * **France TV** (`fra`) — 34 œuvres (replays réels France 2, 3, 5 disponibles sur Molotov)
+   * **France TV** (`fra`) — 34 œuvres (replays réels France 2, 3, 5 disponibles sur Molotov, logo officiel `france.tv` purifié et débarrassé de toute mention Prime Video)
    * **Molotov Gratuit** (`mlt`) — 487 œuvres (catalogue AVOD Mango & chaînes FAST confirmées ABO)
    * **Sanctuarisation TNT & Règles Anti-Doublons** :
      - **Règle Anti-Doublon TNT** : Si une œuvre est diffusée sur une chaîne TNT (`tf1`, `sxp`, `fra`), le tag et le logo **Molotov Gratuit (`mlt`) sont formellement bannis** de la jaquette. L'œuvre arbore exclusivement son logo officiel de chaîne (ex: *Blade Runner 2049* n'a que le logo **M6+**).
@@ -33,7 +33,7 @@ Ce document constitue la référence vivante et synthétique de l'architecture, 
 * **Client Web Résilient ([`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js))** :
   - Démarrage instantané sur le catalogue pré-embarqué `CATALOG_DATA`.
   - Rafraîchissement rapide quotidien calibré à **100 nouveautés fraîches** (2 pages de 50).
-  - Rechargement client avec invalidation de cache (`?v=8.47`) et purge automatique des anciennes clés LocalStorage (`_v33`).
+  - Rechargement client avec invalidation de cache (`?v=8.48`) et purge automatique des anciennes clés LocalStorage (`_v34`).
 
 ---
 
@@ -101,7 +101,7 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 ### B. Filtres Toggles & Fonctionnalités Desktop PC (Règle 8)
 * **Barre des Bouquets PC** :
   - Bouquets payants : `[✨ Tous les bouquets]` `[Ciné+ OCS]` `[Action Max]` `[Universal+]`
-  - Bouquets gratuits & TNT : `[Molotov Gratuit]` `[TF1+]` `[M6+]` `[France TV]`
+  - Bouquets gratuits & TNT : `[Molotov Gratuit]` `[TF1+]` `[M6+]` `[France TV]` (logo `france.tv` purifié sans bandeau tiers)
 * **Toggle « 📺 Hors Gratuit & TNT »** :
   - Affiche en badge le nombre d'œuvres SVOD payantes conservées (**126 séries** sur PC).
   - Masque instantanément toutes les œuvres gratuites/TNT, basculant en 1 clic sur le catalogue SVOD payant pur (878 œuvres).
@@ -128,5 +128,5 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     - `animation_famille` : 100
     - `action_aventure` : 85
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.47` (`sw.js` : `cinescope-v8.47-streaming`, assets `?v=8.47`).
-  - **Clés LocalStorage Actives** : `_v33` (`cinescope_streaming_catalog_v33`, etc.).
+  - **Version Application / PWA** : `v8.48` (`sw.js` : `cinescope-v8.48-streaming`, assets `?v=8.48`).
+  - **Clés LocalStorage Actives** : `_v34` (`cinescope_streaming_catalog_v34`, etc.).
