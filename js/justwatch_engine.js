@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v35';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v35';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v35';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v35';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v36';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v36';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v36';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v36';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -799,30 +799,22 @@ const JustWatchEngine = (function () {
     const matchedSpecialized = specializedSlugs.filter(p => resolvedOfferSlugs.includes(p));
 
     let matchedPackages = [];
-    if (matchedPaid.length > 0) {
-      // RÈGLE IMPÉRATIVE : Si l'œuvre est disponible sur un bouquet payant de base,
-      // Molotov (mlt) et les canaux TNT sont STRICTEMENT bannis de la fiche et des logos !
-      matchedPackages = matchedPaid;
-    } else if (matchedSpecialized.length > 0) {
-      // Chaînes SVOD spécialisées (Sooner, Shadowz, Insomnia)
-      matchedPackages = matchedSpecialized;
-    } else {
-      // 3. Œuvre non payante : RÈGLE UNIVERSELLE MOLOTOV ABO (FLATRATE)
-      // Toute œuvre non payante DOIT impérativement posséder une offre dans la ligne ABO de Molotov (FLATRATE)
-      // pour garantir sa disponibilité réelle dans l'abonnement Molotov Extended.
-      const hasMltFlatrate = offers.some(o => o.package?.shortName === 'mlt' && o.monetizationType === 'FLATRATE');
-      if (!hasMltFlatrate) return null;
+    // 1. Bouquets payants de référence (OCS, Action Max, Universal+)
+    for (const p of matchedPaid) matchedPackages.push(p);
 
-      // Détection des vraies chaînes TNT & Replay gratuit (TF1+, M6+, France TV)
+    // 2. Chaînes spécialisées SVOD (Sooner, Shadowz, Insomnia)
+    for (const p of matchedSpecialized) matchedPackages.push(p);
+
+    // 3. Plateformes TNT & Replay (soumises à la règle d'accès Molotov Extended ABO FLATRATE)
+    const hasMltFlatrate = offers.some(o => o.package?.shortName === 'mlt' && o.monetizationType === 'FLATRATE');
+    if (hasMltFlatrate) {
       const validTntSlugs = ['tf1', 'sxp', 'fra'];
       const matchedTnt = validTntSlugs.filter(p => resolvedOfferSlugs.includes(p));
-
       if (matchedTnt.length > 0) {
-        // RÈGLE ANTI-DOUBLON TNT : La chaîne TNT officielle prime, Molotov (mlt) est banni de la jaquette !
-        matchedPackages = matchedTnt;
-      } else {
-        // Catalogue gratuit propre à Molotov (Mango AVOD & chaînes FAST confirmées ABO)
-        matchedPackages = ['mlt'];
+        for (const p of matchedTnt) matchedPackages.push(p);
+      } else if (matchedPaid.length === 0 && matchedSpecialized.length === 0) {
+        // Molotov Gratuit pur Mango / FAST uniquement si aucune autre chaîne spécifique
+        matchedPackages.push('mlt');
       }
     }
 
@@ -924,24 +916,20 @@ const JustWatchEngine = (function () {
     };
 
     let allPkgs = Array.from(new Set([...getPkgs(base), ...getPkgs(incoming)]));
-    // 1. Sanctuarisation payante de base : si l'œuvre possède un bouquet payant (aoc, aca, auc),
-    // Molotov (mlt), TNT et chaînes spécialisées sont subordonnées au bouquet de référence.
-    const hasPaid = allPkgs.some(p => ['aoc', 'aca', 'auc'].includes(p));
-    if (hasPaid) {
-      allPkgs = allPkgs.filter(p => ['aoc', 'aca', 'auc'].includes(p));
-    } else {
-      // 2. Chaînes spécialisées SVOD (Sooner, Shadowz, Insomnia)
-      const hasSpecialized = allPkgs.some(p => ['snr', 'sdz', 'ima'].includes(p));
-      if (hasSpecialized) {
-        allPkgs = allPkgs.filter(p => ['snr', 'sdz', 'ima'].includes(p));
-      } else {
-        // 3. Sanctuarisation TNT : si l'œuvre possède un bouquet TNT, le tag mlt est banni des logos
-        const hasTnt = allPkgs.some(p => ['tf1', 'sxp', 'fra'].includes(p));
-        if (hasTnt) {
-          allPkgs = allPkgs.filter(p => p !== 'mlt');
-        }
-      }
+
+    // Si l'œuvre possède un diffuseur TNT officiel (tf1, sxp, fra), le tag générique mlt est retiré
+    const hasTnt = allPkgs.some(p => ['tf1', 'sxp', 'fra'].includes(p));
+    if (hasTnt) {
+      allPkgs = allPkgs.filter(p => p !== 'mlt');
     }
+
+    // Ordre stable d'affichage par défaut : bouquets payants de référence, spécialisées, puis TNT
+    const PKG_ORDER = ['aoc', 'aca', 'auc', 'snr', 'sdz', 'ima', 'tf1', 'sxp', 'fra', 'mlt'];
+    allPkgs.sort((a, b) => {
+      const idxA = PKG_ORDER.indexOf(a);
+      const idxB = PKG_ORDER.indexOf(b);
+      return (idxA === -1 ? 99 : idxA) - (idxB === -1 ? 99 : idxB);
+    });
 
     const allChaines = allPkgs.map(k => PACKAGES_CONFIG[k].name);
     const allLogos = allPkgs.map(k => PACKAGES_CONFIG[k].logo);

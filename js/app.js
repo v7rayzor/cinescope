@@ -92,6 +92,53 @@ function isItemTntFree(item) {
   return item.package_slugs.some(s => ['mlt', 'tf1', 'sxp', 'fra'].includes(s));
 }
 
+// Détermine la liste des diffuseurs ACTIFS d'une œuvre selon les filtres courants de l'utilisateur
+function getActiveItemPackages(item) {
+  if (!item || !item.package_slugs || item.package_slugs.length === 0) {
+    return [];
+  }
+
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
+
+  // 1. Si l'utilisateur est sur un bouquet spécifique (ex: puce 'aoc', 'auc', 'tf1', 'snr', etc.)
+  if (AppState.activeBouquet && AppState.activeBouquet !== 'all') {
+    if (item.package_slugs.includes(AppState.activeBouquet)) {
+      return [AppState.activeBouquet];
+    }
+    return [];
+  }
+
+  // 2. Si l'utilisateur est dans "Tous les bouquets" ('all') :
+  // Sur mobile : STRICTEMENT les bouquets payants de base (aoc, aca, auc)
+  if (isMobile) {
+    return item.package_slugs.filter(p => ['aoc', 'aca', 'auc'].includes(p));
+  }
+
+  // Sur Desktop PC :
+  return item.package_slugs.filter(pkg => {
+    // Bouquets payants de référence (toujours actifs par défaut)
+    if (['aoc', 'aca', 'auc'].includes(pkg)) {
+      return true;
+    }
+
+    // Chaînes TNT & Molotov Gratuit :
+    // Actives UNIQUEMENT si le toggle + Gratuit & TNT est allumé ET si Hors Prime & TNT n'est pas actif
+    if (['mlt', 'tf1', 'sxp', 'fra'].includes(pkg)) {
+      if (!AppState.includeTnt) return false;
+      if (AppState.isExclusiveOnly) return false;
+      return true;
+    }
+
+    // Chaînes spécialisées SVOD (Sooner, Shadowz, Insomnia) :
+    // Actives UNIQUEMENT si le toggle + Spécialisées est allumé
+    if (['snr', 'sdz', 'ima'].includes(pkg)) {
+      return AppState.includeSpecialized;
+    }
+
+    return false;
+  });
+}
+
 // Vérifier si une œuvre est disponible sur Prime Video ou la TNT
 function isItemExcludedByPrimeOrTnt(item) {
   if (!item) return false;
@@ -1162,23 +1209,28 @@ function renderCatalog() {
         </div>`;
     }
 
-    // Logos des chaînes
-    const logosList = item.logos_chaine && item.logos_chaine.length 
-      ? item.logos_chaine 
-      : (item.logo_chaine ? [item.logo_chaine] : []);
-    const chainesList = item.chaines && item.chaines.length 
-      ? item.chaines 
-      : (item.chaine ? [item.chaine] : []);
+    // Logos des chaînes DYNAMIQUES selon les filtres actifs
+    const activePkgSlugs = getActiveItemPackages(item);
+    const activeLogos = activePkgSlugs
+      .map(slug => JustWatchEngine.PACKAGES_CONFIG[slug]?.logo)
+      .filter(Boolean);
+    const activeNames = activePkgSlugs
+      .map(slug => JustWatchEngine.PACKAGES_CONFIG[slug]?.name)
+      .filter(Boolean);
+
+    // Repli de sécurité si la liste active est vide
+    const finalLogos = activeLogos.length > 0 
+      ? activeLogos 
+      : (item.logos_chaine && item.logos_chaine.length ? [item.logos_chaine[0]] : [item.logo_chaine || JustWatchEngine.PACKAGES_CONFIG.aoc.logo]);
+    const finalNames = activeNames.length > 0 
+      ? activeNames 
+      : (item.chaines && item.chaines.length ? [item.chaines[0]] : [item.chaine || JustWatchEngine.PACKAGES_CONFIG.aoc.name]);
 
     let channelLogoHtml = '';
-    if (logosList.length > 0) {
-      channelLogoHtml = logosList.map((logoUrl, i) => {
-        const chName = chainesList[i] || item.chaine || '';
-        return `<img class="card-channel-logo ${logosList.length > 1 ? 'is-multi-channel' : ''}" src="${logoUrl}" alt="${chName}">`;
-      }).join('');
-    } else {
-      channelLogoHtml = `<span class="card-channel-text">${item.chaine}</span>`;
-    }
+    channelLogoHtml = finalLogos.map((logoUrl, i) => {
+      const chName = finalNames[i] || '';
+      return `<img class="card-channel-logo ${finalLogos.length > 1 ? 'is-multi-channel' : ''}" src="${logoUrl}" alt="${chName}">`;
+    }).join('');
 
     card.innerHTML = `
       <div class="poster-img-container">
@@ -1186,7 +1238,7 @@ function renderCatalog() {
         ${expiryHtml}
         ${badgeHtml}
         ${seasonBadgeHtml}
-        <div class="channel-logo-container ${logosList.length > 1 ? 'has-multiple-logos' : ''}">
+        <div class="channel-logo-container ${finalLogos.length > 1 ? 'has-multiple-logos' : ''}">
           ${channelLogoHtml}
         </div>
       </div>
@@ -1309,7 +1361,13 @@ function openModal(item) {
     csaBadge.style.display = 'none';
   }
 
-  const chainesDisplay = item.chaines && item.chaines.length ? item.chaines.join(' • ') : (item.chaine || '-');
+  const activePkgSlugs = getActiveItemPackages(item);
+  const activeNames = activePkgSlugs
+    .map(slug => JustWatchEngine.PACKAGES_CONFIG[slug]?.name)
+    .filter(Boolean);
+  const chainesDisplay = activeNames.length > 0 
+    ? activeNames.join(' • ') 
+    : (item.chaines && item.chaines.length ? item.chaines.join(' • ') : (item.chaine || '-'));
   channel.textContent = chainesDisplay;
 
   if (durationRow && duration) {

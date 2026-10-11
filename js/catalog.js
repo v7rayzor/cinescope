@@ -1617,23 +1617,26 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/40696204/s592/moi-tonya.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "duree": "2h 00min",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 27/10",
-      "daysLeft": 16,
-      "expirationDate": "2026-10-27",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2026-10-27"
       }
     },
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "runtime_minutes": 120,
     "etoiles": 4,
@@ -1921,23 +1924,26 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/97549675/s592/colette.jpg",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "duree": "1h 51min",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 20,
-      "expirationDate": "2026-10-31",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2026-10-31"
       }
     },
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "runtime_minutes": 111,
     "etoiles": 4,
@@ -3847,7 +3853,8 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Universal+",
     "chaines": [
-      "Universal+"
+      "Universal+",
+      "Sooner"
     ],
     "section": "Films",
     "position": "Films • Ciné+ Family & SCIFI",
@@ -3863,21 +3870,23 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/176292918/s592/albator-corsaire-de-lespace.jpg",
     "logo_chaine": "assets/logos/universal_plus.svg",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.svg",
+      "assets/logos/sooner.png"
     ],
     "duree": "1h 55min",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 55,
-      "expirationDate": "2026-12-05",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2026-09-30",
         "auc": "2026-12-05"
       }
     },
     "package_slugs": [
-      "auc"
+      "auc",
+      "snr"
     ],
     "runtime_minutes": 115,
     "etoiles": 3,
@@ -7132,24 +7141,27 @@ const CATALOG_DATA = [
     "note_globale": 7.4,
     "is_eligible": true,
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "badge": null,
     "duree": "1h 59min",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
-      "expirationDate": "2026-10-15",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2026-10-15"
       }
     },
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "runtime_minutes": 119,
     "etoiles": 4,
@@ -15386,14 +15398,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "annee": 2012,
     "duree": "2h 48min",
@@ -15414,10 +15429,10 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/178341945/s592/laurence-anyways.jpg",
     "synopsis": "Laurence Anyways, c'est l'histoire d'un amour impossible. Le jour de son trentième anniversaire, Laurence, qui est très amoureux de Fred, révèle à celle-ci, après d'abstruses circonlocutions, son désir de devenir une femme.",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 140,
-      "expirationDate": "2027-02-28",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
@@ -16577,14 +16592,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "annee": 2016,
     "duree": "1h 37min",
@@ -16604,10 +16622,10 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/179846850/s592/juste-la-fin-du-monde.jpg",
     "synopsis": "Adapté de la pièce de théâtre éponyme de Jean-Luc Lagarce, le film raconte l’après-midi en famille d’un jeune auteur qui, après 12 ans d’absence, retourne dans son village natal afin d’annoncer aux siens sa mort prochaine.",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 140,
-      "expirationDate": "2027-02-28",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
@@ -16623,14 +16641,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Shadowz"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "sdz"
     ],
     "annee": 2024,
     "duree": "1h 29min",
@@ -17849,14 +17870,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "annee": 2009,
     "duree": "1h 46min",
@@ -18837,14 +18861,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Shadowz"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "sdz"
     ],
     "annee": 2019,
     "duree": "1h 34min",
@@ -18866,10 +18893,10 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/243889641/s592/benny-taime-tres-fort.jpg",
     "synopsis": "Après le décès accidentel de ses parents, Jack, éternel adolescent, est contraint de vendre la maison familiale. Décidé à devenir enfin un adulte, il décide de se débarrasser de ses jouets et notamment de Benny, son ours en peluche fétiche, qui lui tenait compagnie et le rassurait quand il était petit. Mais l'innocent jouet prend vie, et se montre prêt à tout pour protéger Jack, quitte à se débarrasser de ceux qui s'en sont pris à lui. À commencer par le banquier...",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 12/01",
-      "daysLeft": 93,
-      "expirationDate": "2027-01-12",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2027-01-12"
       }
@@ -19221,14 +19248,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "annee": 2015,
     "duree": "1h 26min",
@@ -19987,14 +20017,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "annee": 2023,
     "duree": "1h 55min",
@@ -20599,14 +20632,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "annee": 2021,
     "duree": "1h 46min",
@@ -20628,10 +20664,10 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/253915124/s592/les-olympiades.jpg",
     "synopsis": "Paris 13e, quartier des Olympiades. Émilie rencontre Camille qui est attiré par Nora qui elle-même croise le chemin d'Amber. Trois filles et un garçon. Ils sont amis, parfois amants, souvent les deux.",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 112,
-      "expirationDate": "2027-01-31",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
@@ -21059,14 +21095,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "annee": 2017,
     "duree": "1h 46min",
@@ -21089,10 +21128,10 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/60117443/s592/chasseuse-de-geants.jpg",
     "synopsis": "Barbara est une adolescente solitaire différente des autres, et en conflit permanent avec son entourage. Ses journées au collège sont rythmées par les allers-retours entre le bureau du proviseur et la psychologue. Aux sources de l’inquiétude des adultes qui veillent sur elle, il y a son obsession pour les Géants, des créatures fantastiques venues d’un autre monde pour semer le chaos. Armée de son marteau légendaire, Barbara s’embarque dans un combat épique pour les empêcher d’envahir le monde…",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 171,
-      "expirationDate": "2027-03-31",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2027-03-31"
       }
@@ -23175,14 +23214,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "annee": 2023,
     "duree": "1h 51min",
@@ -23749,14 +23791,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "annee": 2014,
     "duree": "1h 42min",
@@ -23778,10 +23823,10 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/243942911/s592/tom-a-la-ferme.jpg",
     "synopsis": "Un jeune publicitaire voyage jusqu'au fin fond de la campagne pour des funérailles et constate que personne n’y connaît son nom ni la nature de sa relation avec le défunt.  Lorsque le frère aîné de celui-ci lui impose un jeu de rôles malsain visant à protéger sa mère et l'honneur de leur famille, une relation toxique s'amorce bientôt pour ne s'arrêter que lorsque la vérité éclatera enfin, quelles qu'en soient les conséquences.",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 140,
-      "expirationDate": "2027-02-28",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
@@ -25841,14 +25886,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "annee": 2019,
     "duree": "2h 00min",
@@ -25869,10 +25917,10 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/168295833/s592/matthias-and-maxime.jpg",
     "synopsis": "Deux amis d’enfance s’embrassent pour les besoins d’un court métrage amateur. Suite à ce baiser d’apparence anodine, un doute récurrent s’installe, confrontant les deux garçons à leurs préférences, bouleversant l'équilibre de leur cercle social et, bientôt, leurs existences.",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 140,
-      "expirationDate": "2027-02-28",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
@@ -26165,14 +26213,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "annee": 2013,
     "duree": "1h 22min",
@@ -26193,10 +26244,10 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/169173590/s592/ida.jpg",
     "synopsis": "Dans la Pologne des années 60, quatre jours avant de prononcer ses voeux, Anna, jeune orpheline élevée au couvent, est envoyée par la mère supérieure à la rencontre de sa tante Wanda, qu'elle ne connaît pas. Wanda, en déshabillé, un homme quittant subrepticement sa chambre, se montre d'abord très froide. A la jeune fille elle révèle qu'elle est juive et que les siens ont péri pendant la guerre, enterrés nul ne sait où. Wanda finit par se radoucir et accueille Anna, que ses parents avaient prénommée Ida. Elle décide de partir avec sa nièce dans la ferme de son enfance, à la recherche de témoins des derniers jours de sa famille...",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 112,
-      "expirationDate": "2027-01-31",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
@@ -26402,14 +26453,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "annee": 2009,
     "duree": "1h 40min",
@@ -26430,10 +26484,10 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/178350809/s592/jai-tue-ma-mere.jpg",
     "synopsis": "À 16 ans, Hubert Minel n'aime pas sa mère. Il la méprise. Depuis le départ de son père, il ne supporte plus ses manies, ses goûts, sa manière d'être. Il raconte ses tourments d'adolescent dans son journal vidéo et se confie également à Julie, sa professeure, auprès de laquelle il fait passer sa mère pour morte. Pour échapper à cette relation pleine de haine et de dégoût, Hubert se réfugie chez Antonin, avec qui il entretient une relation amoureuse. Sa mère, ne sachant plus comment réagir face à tant de violence, recontacte le père d'Hubert pour trouver une solution. Ils décident alors d'inscrire leur rejeton rebelle en internat…",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 140,
-      "expirationDate": "2027-02-28",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
@@ -27099,14 +27153,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Shadowz"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "sdz"
     ],
     "annee": 2022,
     "duree": "1h 36min",
@@ -27127,10 +27184,10 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/302482319/s592/swallowed.jpg",
     "synopsis": "Benjamin s'apprête à déménager à Los Angeles pour tenter de percer dans le monde du porno gay. Avant son départ, Dom, son meilleur ami, lui propose un petit boulot moyennant quelques billets bien utiles pour se lancer dans sa nouvelle carrière. Mais voilà, pour ce travail Benjamin va devoir transgresser quelques règles…",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 171,
-      "expirationDate": "2027-03-31",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2027-03-31"
       }
@@ -29017,14 +29074,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Insomnia"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/insomnia.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "ima"
     ],
     "annee": 2023,
     "duree": "1h 48min",
@@ -30113,14 +30173,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "annee": 2019,
     "duree": "1h 55min",
@@ -30142,10 +30205,10 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/153284410/s592/wonderland-le-royaume-sans-pluie.jpg",
     "synopsis": "Akané est une jeune fille rêveuse. La veille de son anniversaire, elle se rend chez sa tante antiquaire pour récupérer son cadeau. Dans l'étrange bric-à-brac de la boutique, elle pose sa main sur une pierre magique. S'ouvre soudain un passage secret d'où surgit Hippocrate, un alchimiste venu d'un autre monde. Il veut convaincre Akané qu'elle est la Déesse du vent vert dont parle la légende et qu'elle seule peut éviter la terrible sécheresse qui menace son royaume. Accompagnées par l'alchimiste et son disciple Pippo, Akané et sa tante s'engagent dans un voyage fantastique pour sauver Wonderland.",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 112,
-      "expirationDate": "2027-01-31",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
@@ -31013,14 +31076,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "annee": 2020,
     "duree": "1h 40min",
@@ -31042,10 +31108,10 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/269494030/s592/poupelle.jpg",
     "synopsis": "Lubicchi vit au milieu de grandes cheminées dont l’épaisse fumée recouvre depuis toujours le ciel de sa ville. Il aimerait prouver à tous que son père disait vrai et que, par-delà les nuages, il existe des étoiles. Un soir d’Halloween, le petit ramoneur rencontre Poupelle, une drôle de créature avec qui il décide de partir à la découverte du ciel.",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 112,
-      "expirationDate": "2027-01-31",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2027-01-31"
       }
@@ -31436,14 +31502,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "annee": 2009,
     "duree": "1h 48min",
@@ -31465,10 +31534,10 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/239235886/s592/la-merditude-des-choses.jpg",
     "synopsis": "Gunther Strobbe a 13 ans et une vie compliquée. Le jeune garçon partage le toit de sa grand-mère avec son père et ses trois oncles. Quotidiennement, il baigne dans un climat de beuveries effrénées, de drague éhontée et de glande constante... Tout porte à croire qu'il subira le même sort, a moins qu'il ne parvienne à se \"démerder\" de là...",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 50,
-      "expirationDate": "2026-11-30",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2026-11-30"
       }
@@ -32286,14 +32355,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "annee": 2024,
     "duree": "2h 12min",
@@ -32314,10 +32386,10 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/315812088/s592/kobieta-z.jpg",
     "synopsis": "C’est l’histoire d'Andrej, bon mari et jeune père, dans une petite ville de Pologne. De plus en plus mal à l’aise dans son corps, il tente de trouver sa véritable identité, dans un pays passé en trois décennies du communisme au capitalisme. L’histoire de quelqu’un a qui on interdit d’être soi-même.",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 20,
-      "expirationDate": "2026-10-31",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2026-10-31"
       }
@@ -34105,14 +34177,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "annee": 2022,
     "duree": "1h 40min",
@@ -34134,10 +34209,10 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/302464996/s592/cop-secret.jpg",
     "synopsis": "Lorsque Bússi, le policier le plus coriace d'Islande, est contraint de travailler avec un nouveau partenaire pour résoudre une série de braquages de banques, la pression pour clore l'affaire le plus rapidement possible s'avère trop forte pour lui.",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 171,
-      "expirationDate": "2027-03-31",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2027-03-31"
       }
@@ -37887,14 +37962,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "annee": 2011,
     "duree": "1h 58min",
@@ -37916,10 +37994,10 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/311347625/s592/crazy-stupid-love.jpg",
     "synopsis": "À tout juste quarante ans, Cal Weaver mène une vie de rêve, bonne situation, belle maison, enfants formidables et mariage parfait avec sa petite amie du lycée. Mais lorsqu'il apprend que sa femme, Emily, le trompe et demande le divorce, sa vie « parfaite » s'écroule. Pire, dans le monde des célibataires d'aujourd'hui, Cal, qui n'a plus dragué depuis des lustres, se révèle un modèle d'anti-séduction. Passant désormais ses soirées à bouder tout seul au bar du coin, l'infortuné Cal est pris en main comme complice et protégé d'un séduisant trentenaire, Jacob Palmer. Pour l'aider à oublier sa femme et à commencer une nouvelle vie, Jacob tente de faire découvrir à Cal les nombreuses perspectives qui s'offrent à lui : femmes en quête d'aventures, soirées arrosées entre copains et un chic supérieur à la moyenne.",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 26/11",
-      "daysLeft": 46,
-      "expirationDate": "2026-11-26",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2026-11-26"
       }
@@ -39228,14 +39306,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "annee": 2021,
     "duree": "1h 17min",
@@ -40004,14 +40085,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "annee": 2020,
     "duree": "1h 22min",
@@ -40034,10 +40118,10 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/147947742/s592/petit-vampire.jpg",
     "synopsis": "Petit Vampire vit dans une maison hantée avec une joyeuse bande de monstres, mais il s’ennuie terriblement... Cela fait maintenant 300 ans qu’il a 10 ans, alors les bateaux de pirates, et le cinéclub, ça fait bien longtemps que ça ne l’amuse plus. Son rêve ? Aller à l’école pour se faire des copains. Mais ses parents ne l’entendent pas de cette oreille, le monde extérieur est bien trop dangereux. Accompagné par Fantomate, son fidèle bouledogue, Petit Vampire s’échappe du manoir en cachette, déterminé à rencontrer d’autres enfants. Très vite, il se lie d’amitié avec Michel, un petit garçon aussi malin qu’attachant. Mais leur amitié naissante va attirer l’attention du terrifiant Gibbous, un vieil ennemi qui était sur les traces de Petit Vampire et sa famille depuis des années…",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 29/11",
-      "daysLeft": 49,
-      "expirationDate": "2026-11-29",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2026-11-29"
       }
@@ -42720,14 +42804,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS"
+      "Ciné+ OCS",
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.svg",
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "aoc",
+      "snr"
     ],
     "annee": 2015,
     "annee_moyenne": 2015,
@@ -42752,10 +42839,10 @@ const CATALOG_DATA = [
     "synopsis": "Les aventures débridées de deux ados un peu à la marge : le petit \"Microbe\" et l'inventif \"Gasoil\". Alors que les grandes vacances approchent, les deux amis n'ont aucune envie de passer deux mois avec leur famille. A l'aide d'un moteur de tondeuse et de planches de bois, ils décident donc de fabriquer leur propre \"voiture\" et de partir à l'aventure sur les routes de France...",
     "date_ajout": "2015-07-08",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 20,
-      "expirationDate": "2026-10-31",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "aoc": "2026-10-31"
       }
@@ -47713,14 +47800,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Sooner",
     "chaines": [
-      "Sooner"
+      "Sooner",
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/sooner.png"
+      "assets/logos/sooner.png",
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "snr"
+      "snr",
+      "tf1"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -51238,14 +51328,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Sooner",
     "chaines": [
-      "Sooner"
+      "Sooner",
+      "TF1+"
     ],
     "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/sooner.png"
+      "assets/logos/sooner.png",
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "snr"
+      "snr",
+      "tf1"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -52596,14 +52689,17 @@ const CATALOG_DATA = [
     "type": "serie",
     "chaine": "Insomnia",
     "chaines": [
-      "Insomnia"
+      "Insomnia",
+      "M6+"
     ],
     "logo_chaine": "assets/logos/insomnia.png",
     "logos_chaine": [
-      "assets/logos/insomnia.png"
+      "assets/logos/insomnia.png",
+      "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "ima"
+      "ima",
+      "sxp"
     ],
     "annee": 2019,
     "annee_moyenne": 2021,
@@ -57404,14 +57500,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Sooner",
     "chaines": [
-      "Sooner"
+      "Sooner",
+      "France TV"
     ],
     "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/sooner.png"
+      "assets/logos/sooner.png",
+      "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "snr"
+      "snr",
+      "fra"
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
@@ -60073,14 +60172,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Sooner",
     "chaines": [
-      "Sooner"
+      "Sooner",
+      "France TV"
     ],
     "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/sooner.png"
+      "assets/logos/sooner.png",
+      "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "snr"
+      "snr",
+      "fra"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -64126,14 +64228,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Sooner",
     "chaines": [
-      "Sooner"
+      "Sooner",
+      "France TV"
     ],
     "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/sooner.png"
+      "assets/logos/sooner.png",
+      "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "snr"
+      "snr",
+      "fra"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -65857,14 +65962,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Shadowz",
     "chaines": [
-      "Shadowz"
+      "Shadowz",
+      "M6+"
     ],
     "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/shadowz.png"
+      "assets/logos/shadowz.png",
+      "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "sdz"
+      "sdz",
+      "sxp"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -79766,10 +79874,10 @@ const CATALOG_DATA = [
     "synopsis": "Février 1939. Submergé par le flot de Républicains fuyant la dictature franquiste, le gouvernement français les parque dans des camps. Deux hommes séparés par les barbelés vont se lier d’amitié. L’un est gendarme, l’autre est dessinateur. De Barcelone à New York, l'histoire vraie de Josep Bartolí, combattant antifranquiste et artiste d'exception.",
     "date_ajout": "2026-06-17",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 50,
-      "expirationDate": "2026-11-30",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "fra": "2026-11-30"
       }
@@ -80973,14 +81081,17 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Sooner",
     "chaines": [
-      "Sooner"
+      "Sooner",
+      "M6+"
     ],
     "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/sooner.png"
+      "assets/logos/sooner.png",
+      "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "snr"
+      "snr",
+      "sxp"
     ],
     "annee": 2012,
     "annee_moyenne": 2012,

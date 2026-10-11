@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=8.49">
+  <link rel="stylesheet" href="css/style.css?v=8.50">
 </head>
 <body>
   <!-- Header / Navigation principale -->
@@ -156,11 +156,6 @@
       <div class="bouquets-bar-section" id="togglesBarSection">
         <div class="bouquets-wrapper" id="togglesNav">
           <div class="bouquets-chips-group">
-            <button class="bouquet-btn bouquet-btn-exclusive" id="pkgExclusive" type="button" title="Activer / Désactiver le filtre d'exclusion (Masquer les œuvres disponibles sur Prime Video et la TNT)">
-              <span class="pkg-icon">🛡️</span>
-              <span class="pkg-name">Hors Prime & TNT</span>
-              <span class="pkg-count" id="countPkgExclusive">0</span>
-            </button>
             <button class="bouquet-btn bouquet-btn-toggle-tnt bouquet-btn-pc-only" id="toggleIncludeTnt" type="button" title="Inclure ou retirer les œuvres de Molotov Gratuit et de la TNT">
               <span class="pkg-icon">📺</span>
               <span class="pkg-name">+ Gratuit & TNT</span>
@@ -170,6 +165,11 @@
               <span class="pkg-icon">🎬</span>
               <span class="pkg-name">+ Spécialisées</span>
               <span class="pkg-count" id="countIncludeSpecialized">0</span>
+            </button>
+            <button class="bouquet-btn bouquet-btn-exclusive" id="pkgExclusive" type="button" title="Activer / Désactiver le filtre d'exclusion (Masquer les œuvres disponibles sur Prime Video et la TNT)">
+              <span class="pkg-icon">🛡️</span>
+              <span class="pkg-name">Hors Prime & TNT</span>
+              <span class="pkg-count" id="countPkgExclusive">0</span>
             </button>
             <button class="bouquet-btn bouquet-btn-no-s1" id="pkgExcludeNoS1" type="button" title="Activer / Désactiver l'exclusion des séries dont la Saison 1 n'est pas disponible">
               <span class="pkg-icon">🚫</span>
@@ -436,10 +436,10 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="js/catalog.js?v=8.49"></script>
-  <script src="js/nlp_model.js?v=8.49"></script>
-  <script src="js/justwatch_engine.js?v=8.49"></script>
-  <script src="js/app.js?v=8.49"></script>
+  <script src="js/catalog.js?v=8.50"></script>
+  <script src="js/nlp_model.js?v=8.50"></script>
+  <script src="js/justwatch_engine.js?v=8.50"></script>
+  <script src="js/app.js?v=8.50"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
