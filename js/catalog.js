@@ -1097,7 +1097,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Laure a 23 ans. Elle se cherche. C’est dans la Marine Nationale qu’elle va trouver un cadre, une structure, des repères. Solide et persévérante, elle va faire son apprentissage et découvrir sa voie.",
     "on_prime": false,
-    "on_tnt": false,
+    "on_tnt": true,
     "annee_moyenne": 2018,
     "date_ajout": "2018-06-06"
   },
@@ -9383,7 +9383,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Helen tente de faire face à la mort récente de son mari, un scientifique qui s'est suicidé alors qu'il était sur le point de réussir l'invention d'une machine à voyager dans le temps. Un jour, elle reçoit un appel téléphonique et une voix ressemblant étrangement à la sienne l'avertit qu'elle est en danger. Est-il possible qu'Helen ait voyagé dans le temps ? Et qu'est-ce qui a pu la pousser à faire une telle chose ?",
     "on_prime": true,
-    "on_tnt": false,
+    "on_tnt": true,
     "annee_moyenne": 2017,
     "date_ajout": "2017-06-30"
   },
@@ -10873,7 +10873,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Carson Phillips, ancien quarterback devenu détective privé à Los Angeles, se rend à Galveston au Texas sur la demande d’une cliente sans nouvelles de sa tante. Il accepte à contrecoeur car aller à Galveston c’est pour lui un pèlerinage douloureux. C’est là qu’il y a vingt ans, il a abandonné la femme qu’il aimait ainsi que sa carrière de footballeur. Carson va alors percer un à un tous les secrets cette ville sur fond de corruption, de trafic de drogue et de matchs truqués.",
     "on_prime": false,
-    "on_tnt": false,
+    "on_tnt": true,
     "annee_moyenne": 2019,
     "date_ajout": "2019-12-04"
   },
@@ -11862,7 +11862,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Le Ministère du Temps est une institution secrète qui s’assure que l'histoire de l'Espagne ne change pas, tout en protégeant le présent. Leurs patrouilles voyagent à travers le temps pour empêcher tout intrus du passé d’utiliser à leur avantage l’histoire. Sur leur chemin, ils croiseront des célébrités comme Dali, Bunuel ou Picasso, mais nos protagonistes voudront aussi voyager dans le temps pour découvrir ce qui est arrivé à leurs proches, même si cela signifie un petit arrangement avec les règles du Ministère.",
     "on_prime": true,
-    "on_tnt": false,
+    "on_tnt": true,
     "annee_fin": 2020,
     "annee_moyenne": 2018,
     "saisons_disponibles": [
@@ -12467,7 +12467,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Flynn Carson est le bibliothécaire depuis maintenant dix ans. Il doit résoudre des mystères impossibles, retrouver des artefacts très puissants et affronter des forces surnaturelles dont celle de la confrérie du serpent, son principal ennemi. Pour l'aider, la Bibliothèque lui a choisi un gardien, le colonel Eve Baird, militaire à l'OTAN. L'équipe se voit très vite complétée par trois \"bibliothécaires en herbe\" : Jacob Stone, un génie en histoire et architecture, au QI de 190, Cassandra Cillian, une mathématicienne dotée d'une mémoire photographique qui est atteinte d'une tumeur au cerveau et Ezekiel Jones, un voleur et spécialiste en technologie avancée.",
     "on_prime": true,
-    "on_tnt": false,
+    "on_tnt": true,
     "annee_fin": 2017,
     "annee_moyenne": 2016,
     "saisons_disponibles": [
@@ -13056,7 +13056,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Après 10 ans d'absence  et un drame personnel, Elliot  Stabler réintègre la police de New York  dans une nouvelle unité chargée de démanteler de l'intérieur les groupes mafieux de la Grosse Pomme.",
     "on_prime": false,
-    "on_tnt": false,
+    "on_tnt": true,
     "annee_moyenne": 2023,
     "saisons_disponibles": [
       {
@@ -16186,7 +16186,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false,
+    "on_tnt": true,
     "annee_moyenne": 2024,
     "date_ajout": "2024-09-15"
   },
@@ -17078,7 +17078,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false,
+    "on_tnt": true,
     "annee_moyenne": 2024,
     "date_ajout": "2025-09-01"
   },
@@ -18201,7 +18201,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false,
+    "on_tnt": true,
     "annee_moyenne": 2013,
     "saisons_disponibles": [
       {
@@ -18430,7 +18430,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false,
+    "on_tnt": true,
     "annee_moyenne": 2017,
     "date_ajout": "2018-03-14"
   },
@@ -20109,7 +20109,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false,
+    "on_tnt": true,
     "annee_moyenne": 2022,
     "date_ajout": "2023-04-24"
   },
@@ -20536,7 +20536,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": false,
+    "on_tnt": true,
     "annee_moyenne": 2025,
     "date_ajout": "2025-02-26"
   },
@@ -23019,7 +23019,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false,
+    "on_tnt": true,
     "annee_moyenne": 2019,
     "date_ajout": "2020-07-22"
   },
@@ -42845,6 +42845,36 @@ const CATALOG_DATA = [
         "note": 8
       },
       {
+        "saison": 2,
+        "annee": 2019,
+        "note": 8
+      },
+      {
+        "saison": 3,
+        "annee": 2021,
+        "note": 8
+      },
+      {
+        "saison": 4,
+        "annee": 2021,
+        "note": 8
+      },
+      {
+        "saison": 5,
+        "annee": 2022,
+        "note": 8
+      },
+      {
+        "saison": 6,
+        "annee": 2024,
+        "note": 8
+      },
+      {
+        "saison": 7,
+        "annee": 2025,
+        "note": 8
+      },
+      {
         "saison": 8,
         "annee": 2026,
         "note": 8
@@ -43582,9 +43612,34 @@ const CATALOG_DATA = [
       "mlt",
       "sxp"
     ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
+    "annee": 2016,
+    "annee_moyenne": 2019,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2016,
+        "note": 8.7
+      },
+      {
+        "saison": 2,
+        "annee": 2017,
+        "note": 8.7
+      },
+      {
+        "saison": 3,
+        "annee": 2018,
+        "note": 8.7
+      },
+      {
+        "saison": 4,
+        "annee": 2019,
+        "note": 8.7
+      },
+      {
+        "saison": 5,
+        "annee": 2020,
+        "note": 8.7
+      },
       {
         "saison": 6,
         "annee": 2022,
@@ -43594,8 +43649,8 @@ const CATALOG_DATA = [
     "duree": "43 min/ép.",
     "runtime_minutes": 43,
     "note_avis": 8.7,
-    "note_recence": 8.8,
-    "note_globale": 8.8,
+    "note_recence": 7.9,
+    "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -43618,7 +43673,8 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2022
   },
   {
     "id": "jw-ts21749",
@@ -43798,7 +43854,7 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2004,
-    "annee_fin": 2009,
+    "annee_fin": 2010,
     "annee_moyenne": 2007,
     "saisons_disponibles": [
       {
@@ -43817,8 +43873,18 @@ const CATALOG_DATA = [
         "note": 8.3
       },
       {
+        "saison": 4,
+        "annee": 2008,
+        "note": 8.3
+      },
+      {
         "saison": 5,
         "annee": 2009,
+        "note": 8.3
+      },
+      {
+        "saison": 6,
+        "annee": 2010,
         "note": 8.3
       }
     ],
@@ -44021,12 +44087,17 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2011,
-    "annee_fin": 2015,
-    "annee_moyenne": 2013,
+    "annee_fin": 2016,
+    "annee_moyenne": 2014,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2011,
+        "note": 7.7
+      },
+      {
+        "saison": 2,
+        "annee": 2012,
         "note": 7.7
       },
       {
@@ -44043,14 +44114,19 @@ const CATALOG_DATA = [
         "saison": 5,
         "annee": 2015,
         "note": 7.7
+      },
+      {
+        "saison": 6,
+        "annee": 2016,
+        "note": 7.7
       }
     ],
     "duree": "42 min/ép.",
     "runtime_minutes": 42,
     "note_avis": 7.7,
-    "note_recence": 6.1,
-    "note_globale": 6.9,
-    "etoiles": 3,
+    "note_recence": 6.4,
+    "note_globale": 7.1,
+    "etoiles": 4,
     "categories": [
       "scifi_fantastique"
     ],
@@ -44449,10 +44525,20 @@ const CATALOG_DATA = [
       "mlt",
       "sxp"
     ],
-    "annee": 2014,
-    "annee_fin": 2015,
-    "annee_moyenne": 2015,
+    "annee": 2012,
+    "annee_fin": 2019,
+    "annee_moyenne": 2016,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2012,
+        "note": 7.9
+      },
+      {
+        "saison": 2,
+        "annee": 2013,
+        "note": 7.9
+      },
       {
         "saison": 3,
         "annee": 2014,
@@ -44462,13 +44548,28 @@ const CATALOG_DATA = [
         "saison": 4,
         "annee": 2015,
         "note": 7.9
+      },
+      {
+        "saison": 5,
+        "annee": 2016,
+        "note": 7.9
+      },
+      {
+        "saison": 6,
+        "annee": 2018,
+        "note": 7.9
+      },
+      {
+        "saison": 7,
+        "annee": 2019,
+        "note": 7.9
       }
     ],
     "duree": "42 min/ép.",
     "runtime_minutes": 42,
     "note_avis": 7.9,
-    "note_recence": 6.7,
-    "note_globale": 7.3,
+    "note_recence": 7,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -44529,6 +44630,16 @@ const CATALOG_DATA = [
       {
         "saison": 3,
         "annee": 2015,
+        "note": 8.4
+      },
+      {
+        "saison": 4,
+        "annee": 2016,
+        "note": 8.4
+      },
+      {
+        "saison": 5,
+        "annee": 2017,
         "note": 8.4
       },
       {
@@ -44783,10 +44894,25 @@ const CATALOG_DATA = [
       "mlt",
       "sxp"
     ],
-    "annee": 2013,
+    "annee": 2010,
     "annee_fin": 2015,
-    "annee_moyenne": 2014,
+    "annee_moyenne": 2013,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2010,
+        "note": 8.6
+      },
+      {
+        "saison": 2,
+        "annee": 2011,
+        "note": 8.6
+      },
+      {
+        "saison": 3,
+        "annee": 2012,
+        "note": 8.6
+      },
       {
         "saison": 4,
         "annee": 2013,
@@ -44806,8 +44932,8 @@ const CATALOG_DATA = [
     "duree": "43 min/ép.",
     "runtime_minutes": 43,
     "note_avis": 8.6,
-    "note_recence": 6.4,
-    "note_globale": 7.5,
+    "note_recence": 6.1,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -44907,21 +45033,51 @@ const CATALOG_DATA = [
       "mlt",
       "sxp"
     ],
-    "annee": 2012,
-    "annee_moyenne": 2012,
+    "annee": 2011,
+    "annee_moyenne": 2014,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2011,
+        "note": 7.6
+      },
       {
         "saison": 2,
         "annee": 2012,
+        "note": 7.6
+      },
+      {
+        "saison": 3,
+        "annee": 2013,
+        "note": 7.6
+      },
+      {
+        "saison": 4,
+        "annee": 2014,
+        "note": 7.6
+      },
+      {
+        "saison": 5,
+        "annee": 2015,
+        "note": 7.6
+      },
+      {
+        "saison": 6,
+        "annee": 2016,
+        "note": 7.6
+      },
+      {
+        "saison": 7,
+        "annee": 2017,
         "note": 7.6
       }
     ],
     "duree": "44 min/ép.",
     "runtime_minutes": 44,
     "note_avis": 7.6,
-    "note_recence": 5.8,
-    "note_globale": 6.7,
-    "etoiles": 3,
+    "note_recence": 6.4,
+    "note_globale": 7,
+    "etoiles": 4,
     "categories": [
       "horreur_epouvante"
     ],
@@ -44944,7 +45100,8 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2017
   },
   {
     "id": "jw-tm935075",
@@ -45180,7 +45337,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm175820",
@@ -45245,9 +45402,39 @@ const CATALOG_DATA = [
       "mlt",
       "sxp"
     ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
+    "annee": 2009,
+    "annee_moyenne": 2012,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2009,
+        "note": 8.3
+      },
+      {
+        "saison": 2,
+        "annee": 2010,
+        "note": 8.3
+      },
+      {
+        "saison": 3,
+        "annee": 2011,
+        "note": 8.3
+      },
+      {
+        "saison": 4,
+        "annee": 2012,
+        "note": 8.3
+      },
+      {
+        "saison": 5,
+        "annee": 2013,
+        "note": 8.3
+      },
+      {
+        "saison": 6,
+        "annee": 2014,
+        "note": 8.3
+      },
       {
         "saison": 7,
         "annee": 2015,
@@ -45257,8 +45444,8 @@ const CATALOG_DATA = [
     "duree": "44 min/ép.",
     "runtime_minutes": 44,
     "note_avis": 8.3,
-    "note_recence": 6.7,
-    "note_globale": 7.5,
+    "note_recence": 5.8,
+    "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -45280,7 +45467,8 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2015
   },
   {
     "id": "jw-ts8112",
@@ -45506,6 +45694,21 @@ const CATALOG_DATA = [
       {
         "saison": 3,
         "annee": 2003,
+        "note": 8.4
+      },
+      {
+        "saison": 4,
+        "annee": 2005,
+        "note": 8.4
+      },
+      {
+        "saison": 5,
+        "annee": 2006,
+        "note": 8.4
+      },
+      {
+        "saison": 6,
+        "annee": 2007,
         "note": 8.4
       },
       {
@@ -46239,19 +46442,29 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2013,
-    "annee_moyenne": 2013,
+    "annee_moyenne": 2015,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2013,
+        "note": 8.1
+      },
+      {
+        "saison": 2,
+        "annee": 2014,
+        "note": 8.1
+      },
+      {
+        "saison": 3,
+        "annee": 2016,
         "note": 8.1
       }
     ],
     "duree": "61 min/ép.",
     "runtime_minutes": 61,
     "note_avis": 8.1,
-    "note_recence": 6.1,
-    "note_globale": 7.1,
+    "note_recence": 6.7,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -46274,7 +46487,8 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2016
   },
   {
     "id": "jw-tm289901",
@@ -46375,7 +46589,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1046410",
@@ -47877,7 +48091,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm326770",
@@ -48515,6 +48729,11 @@ const CATALOG_DATA = [
         "note": 8.4
       },
       {
+        "saison": 2,
+        "annee": 2011,
+        "note": 8.4
+      },
+      {
         "saison": 3,
         "annee": 2013,
         "note": 8.4
@@ -48926,20 +49145,40 @@ const CATALOG_DATA = [
       "mlt",
       "sxp"
     ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
+    "annee": 2014,
+    "annee_moyenne": 2017,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2014,
+        "note": 7.9
+      },
+      {
+        "saison": 2,
+        "annee": 2015,
+        "note": 7.9
+      },
       {
         "saison": 3,
         "annee": 2016,
+        "note": 7.9
+      },
+      {
+        "saison": 4,
+        "annee": 2017,
+        "note": 7.9
+      },
+      {
+        "saison": 5,
+        "annee": 2019,
         "note": 7.9
       }
     ],
     "duree": "42 min/ép.",
     "runtime_minutes": 42,
     "note_avis": 7.9,
-    "note_recence": 7,
-    "note_globale": 7.5,
+    "note_recence": 7.3,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -48961,7 +49200,8 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2019
   },
   {
     "id": "jw-tm211204",
@@ -49247,7 +49487,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm207103",
@@ -50609,20 +50849,25 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2021,
-    "annee_moyenne": 2021,
+    "annee_moyenne": 2023,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2021,
+        "note": 7.3
+      },
+      {
+        "saison": 3,
+        "annee": 2025,
         "note": 7.3
       }
     ],
     "duree": "83 min/ép.",
     "runtime_minutes": 83,
     "note_avis": 7.3,
-    "note_recence": 8.5,
-    "note_globale": 7.9,
-    "etoiles": 4,
+    "note_recence": 9.1,
+    "note_globale": 8.2,
+    "etoiles": 5,
     "categories": [
       "thriller_policier"
     ],
@@ -50646,7 +50891,8 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2025
   },
   {
     "id": "jw-tm309033",
@@ -50768,6 +51014,21 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2009,
+        "note": 6.3
+      },
+      {
+        "saison": 2,
+        "annee": 2010,
+        "note": 6.3
+      },
+      {
+        "saison": 3,
+        "annee": 2011,
+        "note": 6.3
+      },
+      {
+        "saison": 16,
+        "annee": 2024,
         "note": 6.3
       },
       {
@@ -51132,9 +51393,19 @@ const CATALOG_DATA = [
       "mlt",
       "sxp"
     ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
+    "annee": 2015,
+    "annee_moyenne": 2017,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2015,
+        "note": 6.7
+      },
+      {
+        "saison": 2,
+        "annee": 2016,
+        "note": 6.7
+      },
       {
         "saison": 3,
         "annee": 2018,
@@ -51144,8 +51415,8 @@ const CATALOG_DATA = [
     "duree": "43 min/ép.",
     "runtime_minutes": 43,
     "note_avis": 6.7,
-    "note_recence": 7.6,
-    "note_globale": 7.2,
+    "note_recence": 7.3,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -51168,7 +51439,8 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2018
   },
   {
     "id": "jw-ts37522",
@@ -51188,9 +51460,14 @@ const CATALOG_DATA = [
       "mlt",
       "sxp"
     ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
+    "annee": 2015,
+    "annee_moyenne": 2016,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2015,
+        "note": 7.6
+      },
       {
         "saison": 2,
         "annee": 2017,
@@ -51200,8 +51477,8 @@ const CATALOG_DATA = [
     "duree": "56 min/ép.",
     "runtime_minutes": 56,
     "note_avis": 7.6,
-    "note_recence": 7.3,
-    "note_globale": 7.5,
+    "note_recence": 7,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -51224,7 +51501,8 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2017
   },
   {
     "id": "jw-tm350379",
@@ -51519,8 +51797,8 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2015,
-    "annee_fin": 2021,
-    "annee_moyenne": 2018,
+    "annee_fin": 2025,
+    "annee_moyenne": 2020,
     "saisons_disponibles": [
       {
         "saison": 1,
@@ -51528,16 +51806,36 @@ const CATALOG_DATA = [
         "note": 7.3
       },
       {
+        "saison": 2,
+        "annee": 2016,
+        "note": 7.3
+      },
+      {
+        "saison": 3,
+        "annee": 2018,
+        "note": 7.3
+      },
+      {
         "saison": 4,
         "annee": 2021,
+        "note": 7.3
+      },
+      {
+        "saison": 5,
+        "annee": 2023,
+        "note": 7.3
+      },
+      {
+        "saison": 6,
+        "annee": 2025,
         "note": 7.3
       }
     ],
     "duree": "4 min/ép.",
     "runtime_minutes": 4,
     "note_avis": 7.3,
-    "note_recence": 7.6,
-    "note_globale": 7.5,
+    "note_recence": 8.2,
+    "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -51981,9 +52279,14 @@ const CATALOG_DATA = [
       "mlt",
       "sxp"
     ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
+    "annee": 2017,
+    "annee_moyenne": 2019,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2017,
+        "note": 7.1
+      },
       {
         "saison": 2,
         "annee": 2020,
@@ -51993,8 +52296,8 @@ const CATALOG_DATA = [
     "duree": "45 min/ép.",
     "runtime_minutes": 45,
     "note_avis": 7.1,
-    "note_recence": 8.2,
-    "note_globale": 7.7,
+    "note_recence": 7.9,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -52018,7 +52321,8 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2020
   },
   {
     "id": "jw-tm434801",
@@ -52067,7 +52371,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm218226",
@@ -52115,7 +52419,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-ts37786",
@@ -54264,6 +54568,11 @@ const CATALOG_DATA = [
         "note": 6.9
       },
       {
+        "saison": 2,
+        "annee": 2020,
+        "note": 6.9
+      },
+      {
         "saison": 3,
         "annee": 2021,
         "note": 6.9
@@ -55786,9 +56095,14 @@ const CATALOG_DATA = [
       "mlt",
       "sxp"
     ],
-    "annee": 2022,
+    "annee": 2021,
     "annee_moyenne": 2022,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2021,
+        "note": 6.9
+      },
       {
         "saison": 2,
         "annee": 2022,
@@ -55824,7 +56138,8 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2022
   },
   {
     "id": "jw-ts14179",
@@ -55844,9 +56159,19 @@ const CATALOG_DATA = [
       "mlt",
       "sxp"
     ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
+    "annee": 2011,
+    "annee_moyenne": 2012,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2011,
+        "note": 7.1
+      },
+      {
+        "saison": 2,
+        "annee": 2011,
+        "note": 7.1
+      },
       {
         "saison": 3,
         "annee": 2013,
@@ -55856,8 +56181,8 @@ const CATALOG_DATA = [
     "duree": "47 min/ép.",
     "runtime_minutes": 47,
     "note_avis": 7.1,
-    "note_recence": 6.1,
-    "note_globale": 6.6,
+    "note_recence": 5.8,
+    "note_globale": 6.5,
     "etoiles": 3,
     "categories": [
       "thriller_policier"
@@ -55881,7 +56206,8 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2013
   },
   {
     "id": "jw-tm184072",
@@ -56537,9 +56863,19 @@ const CATALOG_DATA = [
       "mlt",
       "sxp"
     ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
+    "annee": 2018,
+    "annee_moyenne": 2019,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2018,
+        "note": 7
+      },
+      {
+        "saison": 2,
+        "annee": 2019,
+        "note": 7
+      },
       {
         "saison": 3,
         "annee": 2020,
@@ -56549,8 +56885,8 @@ const CATALOG_DATA = [
     "duree": "42 min/ép.",
     "runtime_minutes": 42,
     "note_avis": 7,
-    "note_recence": 8.2,
-    "note_globale": 7.6,
+    "note_recence": 7.9,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "horreur_epouvante"
@@ -56576,7 +56912,8 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2020
   },
   {
     "id": "jw-tm368538",
@@ -56970,9 +57307,14 @@ const CATALOG_DATA = [
       "mlt",
       "sxp"
     ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
+    "annee": 2019,
+    "annee_moyenne": 2020,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2019,
+        "note": 7.7
+      },
       {
         "saison": 2,
         "annee": 2021,
@@ -56982,8 +57324,8 @@ const CATALOG_DATA = [
     "duree": "47 min/ép.",
     "runtime_minutes": 47,
     "note_avis": 7.7,
-    "note_recence": 8.5,
-    "note_globale": 8.1,
+    "note_recence": 8.2,
+    "note_globale": 8,
     "etoiles": 5,
     "categories": [
       "thriller_policier"
@@ -57006,7 +57348,8 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2021
   },
   {
     "id": "jw-ts85132",
@@ -59364,9 +59707,34 @@ const CATALOG_DATA = [
       "mlt",
       "sxp"
     ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
+    "annee": 2016,
+    "annee_moyenne": 2019,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2016,
+        "note": 7.1
+      },
+      {
+        "saison": 2,
+        "annee": 2017,
+        "note": 7.1
+      },
+      {
+        "saison": 3,
+        "annee": 2018,
+        "note": 7.1
+      },
+      {
+        "saison": 4,
+        "annee": 2019,
+        "note": 7.1
+      },
+      {
+        "saison": 5,
+        "annee": 2020,
+        "note": 7.1
+      },
       {
         "saison": 6,
         "annee": 2021,
@@ -59376,8 +59744,8 @@ const CATALOG_DATA = [
     "duree": "43 min/ép.",
     "runtime_minutes": 43,
     "note_avis": 7.1,
-    "note_recence": 8.5,
-    "note_globale": 7.8,
+    "note_recence": 7.9,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -59400,7 +59768,8 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2021
   },
   {
     "id": "jw-tm137861",
@@ -61527,9 +61896,14 @@ const CATALOG_DATA = [
       "mlt",
       "sxp"
     ],
-    "annee": 2013,
+    "annee": 2012,
     "annee_moyenne": 2013,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2012,
+        "note": 7.3
+      },
       {
         "saison": 2,
         "annee": 2013,
@@ -61562,7 +61936,8 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2013
   },
   {
     "id": "jw-tm155335",
@@ -81626,10 +82001,10 @@ const CATALOG_DATA = [
     "synopsis": "Cassandre, 26 ans, est hôtesse de l’air dans une compagnie low-cost. Vivant au jour le jour, elle enchaîne les vols et les fêtes sans lendemain, fidèle à son pseudo Tinder «Carpe Diem». Une existence sans attaches, en forme de fuite en avant, qui la comble en apparence. Alors que la pression de sa compagnie redouble, Cassandre finit par perdre pied. Saura-t-elle affronter les douleurs enfouies et revenir vers ceux qu'elle a laissés au sol ?",
     "date_ajout": "2022-03-02",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 28/02",
+      "daysLeft": 140,
+      "expirationDate": "2027-02-28",
       "packageExpirations": {
         "fra": "2027-02-28"
       }
@@ -85717,11 +86092,6 @@ const CATALOG_DATA = [
         "note": 7.1
       },
       {
-        "saison": 4,
-        "annee": 2006,
-        "note": 7.1
-      },
-      {
         "saison": 5,
         "annee": 2007,
         "note": 7.1
@@ -86673,65 +87043,19 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2016,
-    "annee_fin": 2026,
-    "annee_moyenne": 2021,
+    "annee_moyenne": 2016,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2016,
-        "note": 6.9
-      },
-      {
-        "saison": 2,
-        "annee": 2016,
-        "note": 6.9
-      },
-      {
-        "saison": 3,
-        "annee": 2018,
-        "note": 6.9
-      },
-      {
-        "saison": 4,
-        "annee": 2019,
-        "note": 6.9
-      },
-      {
-        "saison": 5,
-        "annee": 2020,
-        "note": 6.9
-      },
-      {
-        "saison": 6,
-        "annee": 2022,
-        "note": 6.9
-      },
-      {
-        "saison": 7,
-        "annee": 2023,
-        "note": 6.9
-      },
-      {
-        "saison": 8,
-        "annee": 2024,
-        "note": 6.9
-      },
-      {
-        "saison": 9,
-        "annee": 2025,
-        "note": 6.9
-      },
-      {
-        "saison": 10,
-        "annee": 2026,
         "note": 6.9
       }
     ],
     "duree": "17 min/ép.",
     "runtime_minutes": 17,
     "note_avis": 6.9,
-    "note_recence": 8.5,
-    "note_globale": 7.7,
+    "note_recence": 7,
+    "note_globale": 7,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -86970,7 +87294,7 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2020,
-    "annee_fin": 2026,
+    "annee_fin": 2025,
     "annee_moyenne": 2023,
     "saisons_disponibles": [
       {
@@ -87001,11 +87325,6 @@ const CATALOG_DATA = [
       {
         "saison": 6,
         "annee": 2025,
-        "note": 8.6
-      },
-      {
-        "saison": 7,
-        "annee": 2026,
         "note": 8.6
       }
     ],
@@ -87298,8 +87617,8 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2023,
-    "annee_fin": 2026,
-    "annee_moyenne": 2025,
+    "annee_fin": 2024,
+    "annee_moyenne": 2024,
     "saisons_disponibles": [
       {
         "saison": 1,
@@ -87310,43 +87629,13 @@ const CATALOG_DATA = [
         "saison": 2,
         "annee": 2024,
         "note": 7.4
-      },
-      {
-        "saison": 3,
-        "annee": 2024,
-        "note": 7.4
-      },
-      {
-        "saison": 4,
-        "annee": 2025,
-        "note": 7.4
-      },
-      {
-        "saison": 5,
-        "annee": 2025,
-        "note": 7.4
-      },
-      {
-        "saison": 6,
-        "annee": 2025,
-        "note": 7.4
-      },
-      {
-        "saison": 7,
-        "annee": 2026,
-        "note": 7.4
-      },
-      {
-        "saison": 8,
-        "annee": 2026,
-        "note": 7.4
       }
     ],
     "duree": "21 min/ép.",
     "runtime_minutes": 21,
     "note_avis": 7.4,
-    "note_recence": 9.7,
-    "note_globale": 8.6,
+    "note_recence": 9.4,
+    "note_globale": 8.4,
     "etoiles": 5,
     "categories": [
       "animation_famille"
@@ -88176,15 +88465,10 @@ const CATALOG_DATA = [
     "package_slugs": [
       "sxp"
     ],
-    "annee": 2016,
+    "annee": 2018,
     "annee_fin": 2019,
-    "annee_moyenne": 2018,
+    "annee_moyenne": 2019,
     "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2016,
-        "note": 7.8
-      },
       {
         "saison": 2,
         "annee": 2018,
@@ -88199,8 +88483,8 @@ const CATALOG_DATA = [
     "duree": "54 min/ép.",
     "runtime_minutes": 54,
     "note_avis": 7.8,
-    "note_recence": 7.6,
-    "note_globale": 7.7,
+    "note_recence": 7.9,
+    "note_globale": 7.9,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -88244,25 +88528,19 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2015,
-    "annee_fin": 2016,
-    "annee_moyenne": 2016,
+    "annee_moyenne": 2015,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2015,
-        "note": 8
-      },
-      {
-        "saison": 2,
-        "annee": 2016,
         "note": 8
       }
     ],
     "duree": "23 min/ép.",
     "runtime_minutes": 23,
     "note_avis": 8,
-    "note_recence": 7,
-    "note_globale": 7.5,
+    "note_recence": 6.7,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -92363,8 +92641,8 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2013,
-    "annee_fin": 2020,
-    "annee_moyenne": 2017,
+    "annee_fin": 2015,
+    "annee_moyenne": 2014,
     "saisons_disponibles": [
       {
         "saison": 1,
@@ -92375,18 +92653,13 @@ const CATALOG_DATA = [
         "saison": 2,
         "annee": 2015,
         "note": 8
-      },
-      {
-        "saison": 3,
-        "annee": 2020,
-        "note": 8
       }
     ],
     "duree": "24 min/ép.",
     "runtime_minutes": 24,
     "note_avis": 8,
-    "note_recence": 7.3,
-    "note_globale": 7.7,
+    "note_recence": 6.4,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -92596,10 +92869,10 @@ const CATALOG_DATA = [
     "synopsis": "Odette, jolie trentenaire, est une danseuse drôle, extrême, et totalement rock’n roll. Grâce à ses séances chez le psy, elle va se remémorer sa jeunesse chaotique, dramatique, cocasse. En revivant des séquences de sa vie, elle sera confrontée au déni, à l’indifférence et surtout à sa propre question : sera-t-elle capable de surmonter sa douleur et de vivre enfin ?",
     "date_ajout": "2018-11-14",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 09/12",
+      "daysLeft": 59,
+      "expirationDate": "2026-12-09",
       "packageExpirations": {
         "fra": "2026-12-09"
       }
@@ -94861,8 +95134,18 @@ const CATALOG_DATA = [
         "note": 7.1
       },
       {
+        "saison": 2,
+        "annee": 2012,
+        "note": 7.1
+      },
+      {
         "saison": 3,
         "annee": 2015,
+        "note": 7.1
+      },
+      {
+        "saison": 4,
+        "annee": 2019,
         "note": 7.1
       },
       {
@@ -95874,15 +96157,9 @@ const CATALOG_DATA = [
     "package_slugs": [
       "sxp"
     ],
-    "annee": 2021,
-    "annee_fin": 2023,
-    "annee_moyenne": 2022,
+    "annee": 2023,
+    "annee_moyenne": 2023,
     "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2021,
-        "note": 7.1
-      },
       {
         "saison": 2,
         "annee": 2023,
@@ -95892,8 +96169,8 @@ const CATALOG_DATA = [
     "duree": "24 min/ép.",
     "runtime_minutes": 24,
     "note_avis": 7.1,
-    "note_recence": 8.8,
-    "note_globale": 8,
+    "note_recence": 9.1,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "animation_famille"
@@ -99171,11 +99448,6 @@ const CATALOG_DATA = [
         "saison": 3,
         "annee": 2026,
         "note": 6.3
-      },
-      {
-        "saison": 4,
-        "annee": 2026,
-        "note": 6.3
       }
     ],
     "duree": "23 min/ép.",
@@ -99980,7 +100252,7 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2006,
-    "annee_fin": 2010,
+    "annee_fin": 2009,
     "annee_moyenne": 2008,
     "saisons_disponibles": [
       {
@@ -99991,11 +100263,6 @@ const CATALOG_DATA = [
       {
         "saison": 2,
         "annee": 2009,
-        "note": 7.7
-      },
-      {
-        "saison": 3,
-        "annee": 2010,
         "note": 7.7
       }
     ],
@@ -100931,10 +101198,25 @@ const CATALOG_DATA = [
       "sxp",
       "fra"
     ],
-    "annee": 2022,
+    "annee": 2005,
     "annee_fin": 2025,
-    "annee_moyenne": 2024,
+    "annee_moyenne": 2015,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2005,
+        "note": 7.2
+      },
+      {
+        "saison": 2,
+        "annee": 2008,
+        "note": 7.2
+      },
+      {
+        "saison": 3,
+        "annee": 2010,
+        "note": 7.2
+      },
       {
         "saison": 4,
         "annee": 2022,
@@ -100949,9 +101231,9 @@ const CATALOG_DATA = [
     "duree": "24 min/ép.",
     "runtime_minutes": 24,
     "note_avis": 7.2,
-    "note_recence": 9.4,
-    "note_globale": 8.3,
-    "etoiles": 5,
+    "note_recence": 6.7,
+    "note_globale": 7,
+    "etoiles": 4,
     "categories": [
       "animation_famille"
     ],
@@ -100994,86 +101276,20 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2021,
-    "annee_fin": 2026,
-    "annee_moyenne": 2024,
+    "annee_moyenne": 2021,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2021,
-        "note": 7
-      },
-      {
-        "saison": 2,
-        "annee": 2021,
-        "note": 7
-      },
-      {
-        "saison": 3,
-        "annee": 2021,
-        "note": 7
-      },
-      {
-        "saison": 4,
-        "annee": 2022,
-        "note": 7
-      },
-      {
-        "saison": 5,
-        "annee": 2022,
-        "note": 7
-      },
-      {
-        "saison": 6,
-        "annee": 2022,
-        "note": 7
-      },
-      {
-        "saison": 7,
-        "annee": 2021,
-        "note": 7
-      },
-      {
-        "saison": 8,
-        "annee": 2023,
-        "note": 7
-      },
-      {
-        "saison": 9,
-        "annee": 2024,
-        "note": 7
-      },
-      {
-        "saison": 10,
-        "annee": 2024,
-        "note": 7
-      },
-      {
-        "saison": 11,
-        "annee": 2025,
-        "note": 7
-      },
-      {
-        "saison": 12,
-        "annee": 2025,
-        "note": 7
-      },
-      {
-        "saison": 13,
-        "annee": 2026,
-        "note": 7
-      },
-      {
-        "saison": 14,
-        "annee": 2026,
         "note": 7
       }
     ],
     "duree": "24 min/ép.",
     "runtime_minutes": 24,
     "note_avis": 7,
-    "note_recence": 9.4,
-    "note_globale": 8.2,
-    "etoiles": 5,
+    "note_recence": 8.5,
+    "note_globale": 7.8,
+    "etoiles": 4,
     "categories": [
       "animation_famille"
     ],
@@ -102626,8 +102842,8 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2017,
-    "annee_fin": 2023,
-    "annee_moyenne": 2020,
+    "annee_fin": 2020,
+    "annee_moyenne": 2019,
     "saisons_disponibles": [
       {
         "saison": 1,
@@ -102648,29 +102864,14 @@ const CATALOG_DATA = [
         "saison": 4,
         "annee": 2020,
         "note": 7.8
-      },
-      {
-        "saison": 5,
-        "annee": 2021,
-        "note": 7.8
-      },
-      {
-        "saison": 6,
-        "annee": 2022,
-        "note": 7.8
-      },
-      {
-        "saison": 7,
-        "annee": 2023,
-        "note": 7.8
       }
     ],
     "duree": "22 min/ép.",
     "runtime_minutes": 22,
     "note_avis": 7.8,
-    "note_recence": 8.2,
-    "note_globale": 8,
-    "etoiles": 5,
+    "note_recence": 7.9,
+    "note_globale": 7.9,
+    "etoiles": 4,
     "categories": [
       "comedie"
     ],
@@ -102761,7 +102962,7 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2017,
-    "annee_fin": 2025,
+    "annee_fin": 2024,
     "annee_moyenne": 2021,
     "saisons_disponibles": [
       {
@@ -102777,11 +102978,6 @@ const CATALOG_DATA = [
       {
         "saison": 3,
         "annee": 2024,
-        "note": 7.3
-      },
-      {
-        "saison": 4,
-        "annee": 2025,
         "note": 7.3
       }
     ],
@@ -103519,40 +103715,19 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2021,
-    "annee_fin": 2026,
-    "annee_moyenne": 2024,
+    "annee_moyenne": 2021,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2021,
-        "note": 5.7
-      },
-      {
-        "saison": 2,
-        "annee": 2022,
-        "note": 5.7
-      },
-      {
-        "saison": 3,
-        "annee": 2024,
-        "note": 5.7
-      },
-      {
-        "saison": 4,
-        "annee": 2025,
-        "note": 5.7
-      },
-      {
-        "saison": 5,
-        "annee": 2026,
         "note": 5.7
       }
     ],
     "duree": "20 min/ép.",
     "runtime_minutes": 20,
     "note_avis": 5.7,
-    "note_recence": 9.4,
-    "note_globale": 7.6,
+    "note_recence": 8.5,
+    "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -103856,41 +104031,20 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2023,
-    "annee_fin": 2026,
-    "annee_moyenne": 2025,
+    "annee_moyenne": 2023,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2023,
-        "note": 6.6
-      },
-      {
-        "saison": 2,
-        "annee": 2024,
-        "note": 6.6
-      },
-      {
-        "saison": 3,
-        "annee": 2025,
-        "note": 6.6
-      },
-      {
-        "saison": 4,
-        "annee": 2025,
-        "note": 6.6
-      },
-      {
-        "saison": 5,
-        "annee": 2026,
         "note": 6.6
       }
     ],
     "duree": "31 min/ép.",
     "runtime_minutes": 31,
     "note_avis": 6.6,
-    "note_recence": 9.7,
-    "note_globale": 8.1,
-    "etoiles": 5,
+    "note_recence": 9.1,
+    "note_globale": 7.9,
+    "etoiles": 4,
     "categories": [
       "animation_famille"
     ],
@@ -104138,11 +104292,6 @@ const CATALOG_DATA = [
     "saisons_disponibles": [
       {
         "saison": 1,
-        "annee": 2018,
-        "note": 7.6
-      },
-      {
-        "saison": 2,
         "annee": 2018,
         "note": 7.6
       }
@@ -104481,10 +104630,10 @@ const CATALOG_DATA = [
     "synopsis": "Nina et Madeleine sont profondément amoureuses l’une de l’autre. Aux yeux de tous, elles ne sont que de simples voisines vivant au dernier étage de leur immeuble. Au quotidien, elles vont et viennent entre leurs deux appartements et partagent leurs vies ensemble. Personne ne les connaît vraiment, pas même Anne, la fille attentionnée de Madeleine. Jusqu’au jour où un événement tragique fait tout basculer…",
     "date_ajout": "2020-02-12",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 30/11",
+      "daysLeft": 50,
+      "expirationDate": "2026-11-30",
       "packageExpirations": {
         "fra": "2026-11-30"
       }
@@ -105675,25 +105824,19 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2009,
-    "annee_fin": 2010,
-    "annee_moyenne": 2010,
+    "annee_moyenne": 2009,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2009,
-        "note": 7.9
-      },
-      {
-        "saison": 2,
-        "annee": 2010,
         "note": 7.9
       }
     ],
     "duree": "24 min/ép.",
     "runtime_minutes": 24,
     "note_avis": 7.9,
-    "note_recence": 5.2,
-    "note_globale": 6.6,
+    "note_recence": 4.9,
+    "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
       "animation_famille"
@@ -106376,25 +106519,19 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2012,
-    "annee_fin": 2014,
-    "annee_moyenne": 2013,
+    "annee_moyenne": 2012,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2012,
-        "note": 7.5
-      },
-      {
-        "saison": 2,
-        "annee": 2014,
         "note": 7.5
       }
     ],
     "duree": "53 min/ép.",
     "runtime_minutes": 53,
     "note_avis": 7.5,
-    "note_recence": 6.1,
-    "note_globale": 6.8,
+    "note_recence": 5.8,
+    "note_globale": 6.7,
     "etoiles": 3,
     "categories": [
       "comedie"
@@ -107189,9 +107326,14 @@ const CATALOG_DATA = [
       "sxp",
       "fra"
     ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
+    "annee": 2021,
+    "annee_moyenne": 2023,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2021,
+        "note": 6.4
+      },
       {
         "saison": 2,
         "annee": 2024,
@@ -107201,8 +107343,8 @@ const CATALOG_DATA = [
     "duree": "11 min/ép.",
     "runtime_minutes": 11,
     "note_avis": 6.4,
-    "note_recence": 9.4,
-    "note_globale": 7.9,
+    "note_recence": 9.1,
+    "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -107229,7 +107371,8 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2024
   },
   {
     "id": "jw-tm455662",
@@ -107409,24 +107552,19 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2022,
-    "annee_moyenne": 2023,
+    "annee_moyenne": 2022,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2022,
-        "note": 6.1
-      },
-      {
-        "saison": 2,
-        "annee": 2024,
         "note": 6.1
       }
     ],
     "duree": "17 min/ép.",
     "runtime_minutes": 17,
     "note_avis": 6.1,
-    "note_recence": 9.1,
-    "note_globale": 7.6,
+    "note_recence": 8.8,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -107450,8 +107588,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2024
+    "on_tnt": true
   },
   {
     "id": "jw-tm463863",
@@ -107563,8 +107700,8 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2016,
-    "annee_fin": 2023,
-    "annee_moyenne": 2020,
+    "annee_fin": 2018,
+    "annee_moyenne": 2017,
     "saisons_disponibles": [
       {
         "saison": 1,
@@ -107580,33 +107717,13 @@ const CATALOG_DATA = [
         "saison": 3,
         "annee": 2018,
         "note": 7.1
-      },
-      {
-        "saison": 4,
-        "annee": 2019,
-        "note": 7.1
-      },
-      {
-        "saison": 5,
-        "annee": 2020,
-        "note": 7.1
-      },
-      {
-        "saison": 6,
-        "annee": 2021,
-        "note": 7.1
-      },
-      {
-        "saison": 7,
-        "annee": 2023,
-        "note": 7.1
       }
     ],
     "duree": "18 min/ép.",
     "runtime_minutes": 18,
     "note_avis": 7.1,
-    "note_recence": 8.2,
-    "note_globale": 7.7,
+    "note_recence": 7.3,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -108183,7 +108300,6 @@ const CATALOG_DATA = [
       "ani",
       "cmy",
       "fml",
-      "trl",
       "scf"
     ],
     "badge": null,
@@ -110331,6 +110447,85 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
+    "id": "jw-ts20305",
+    "titre": "Naruto",
+    "type": "serie",
+    "chaine": "TF1+",
+    "chaines": [
+      "TF1+",
+      "M6+"
+    ],
+    "logo_chaine": "assets/logos/tf1.png",
+    "logos_chaine": [
+      "assets/logos/tf1.png",
+      "assets/logos/m6_plus.png"
+    ],
+    "package_slugs": [
+      "tf1",
+      "sxp"
+    ],
+    "annee": 2002,
+    "annee_fin": 2017,
+    "annee_moyenne": 2010,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2002,
+        "note": 8.4
+      },
+      {
+        "saison": 2,
+        "annee": 2007,
+        "note": 8.4
+      },
+      {
+        "saison": 3,
+        "annee": 2009,
+        "note": 8.4
+      },
+      {
+        "saison": 4,
+        "annee": 2005,
+        "note": 8.4
+      },
+      {
+        "saison": 5,
+        "annee": 2017,
+        "note": 8.4
+      }
+    ],
+    "duree": "24 min/ép.",
+    "runtime_minutes": 24,
+    "note_avis": 8.4,
+    "note_recence": 5.2,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "act",
+      "ani",
+      "cmy",
+      "fnt",
+      "scf"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/322125116/s592/naruto.jpg",
+    "synopsis": "Dans le village de Konoha vit Naruto, un jeune garçon détesté et craint des villageois du fait qu'il détienne en lui Kyuubi (démon renard à neuf queues) d'une incroyable force, qui a tué un grand nombre de personnes. Le ninja le plus puissant de Konoha à l'époque, le quatrième Hokage, Minato Namikaze, réussit à sceller ce démon dans le corps de Naruto. Malheureusement il y laissa la vie.\n\nC'est ainsi que douze ans plus tard, Naruto rêve de devenir le plus grand Hokage de Konoha afin que tous le reconnaissent à sa juste valeur. Mais la route pour devenir Hokage est très longue et Naruto sera confronté à un bon nombre d'épreuves et devra affronter de nombreux ennemis pour atteindre son but !",
+    "date_ajout": "2013-10-08",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": true
+  },
+  {
     "id": "jw-tm369243",
     "titre": "Upgrade",
     "type": "film",
@@ -110754,5 +110949,65 @@ const CATALOG_DATA = [
     },
     "on_prime": false,
     "on_tnt": false
+  },
+  {
+    "id": "jw-ts20535",
+    "titre": "Garfield & Cie",
+    "type": "serie",
+    "chaine": "M6+",
+    "chaines": [
+      "M6+"
+    ],
+    "logo_chaine": "assets/logos/m6_plus.png",
+    "logos_chaine": [
+      "assets/logos/m6_plus.png"
+    ],
+    "package_slugs": [
+      "sxp"
+    ],
+    "annee": 2012,
+    "annee_fin": 2015,
+    "annee_moyenne": 2014,
+    "saisons_disponibles": [
+      {
+        "saison": 3,
+        "annee": 2012,
+        "note": 5.8
+      },
+      {
+        "saison": 4,
+        "annee": 2015,
+        "note": 5.8
+      }
+    ],
+    "duree": "14 min/ép.",
+    "runtime_minutes": 14,
+    "note_avis": 5.8,
+    "note_recence": 6.4,
+    "note_globale": 6.1,
+    "etoiles": 3,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "ani",
+      "cmy",
+      "fml",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/347969301/s592/the-garfield-show.jpg",
+    "synopsis": "Les aventures mouvementées de Garfield, le célèbre chat plus que jamais paresseux.\n\nDans cette série, Garfield a l'habitude de s'adresser régulièrement aux spectateurs pour les impliquer dans l'histoire, comme s'il était en réalité un acteur s'adressant à son public.",
+    "date_ajout": "2019-09-04",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": true
   }
 ];
