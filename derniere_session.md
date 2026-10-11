@@ -102,16 +102,16 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 ## 5. État Actuel du Catalogue & Versions Déployées
 
 * **Audit de Conformité Catalogue ([`js/catalog.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js))** :
-  - **Total œuvres qualifiées** : **878** (754 films $\ge 60\text{ min}$, 124 séries).
-  - **Conformité 1 catégorie unique** : **878 / 878 (100% conforme, 0 anomalie)**.
+  - **Total œuvres qualifiées** : **883** (759 films $\ge 60\text{ min}$, 124 séries).
+  - **Conformité 1 catégorie unique** : **883 / 883 (100% conforme, 0 anomalie)**.
   - **Titres expirés** : **0**.
   - **Distribution des 7 catégories** :
-    - `drame_emotion` : 327
-    - `thriller_policier` : 163
-    - `comedie` : 143
+    - `drame_emotion` : 328
+    - `thriller_policier` : 162
+    - `comedie` : 147
+    - `animation_famille` : 76
     - `scifi_fantastique` : 75
-    - `animation_famille` : 74
-    - `action_aventure` : 51
+    - `action_aventure` : 50
     - `horreur_epouvante` : 45
 * **Traçabilité Technique & Cache** :
   - **Version Application / PWA** : `v8.39` (`sw.js` : `cinescope-v8.39-streaming`, assets `?v=8.39`).
