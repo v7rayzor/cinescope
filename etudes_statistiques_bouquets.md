@@ -118,12 +118,12 @@ Sur les 1 960 titres récents analysés sur Molotov TV, **117 œuvres éligibles
 #### 2. Total Cumulé (117 œuvres)
 | Catégorie | Volume Total | ⭐⭐⭐ (3★) | ⭐⭐⭐⭐ (4★) | ⭐⭐⭐⭐⭐ (5★) |
 | :--- | :---: | :---: | :---: | :---: |
-| `drame_emotion` | **46** | 21 | 20 | 5 |
-| `thriller_policier` | **28** | 8 | 15 | 5 |
-| `horreur_epouvante` | **11** | 7 | 3 | 1 |
-| `scifi_fantastique` | **11** | 2 | 4 | 5 |
+| `drame_emotion` | **46** | 18 | 25 | 3 |
+| `thriller_policier` | **28** | 13 | 11 | 4 |
+| `scifi_fantastique` | **11** | 5 | 2 | 4 |
+| `horreur_epouvante` | **11** | 8 | 3 | 0 |
 | `action_aventure` | **9** | 5 | 4 | 0 |
-| `comedie` | **8** | 5 | 3 | 0 |
+| `comedie` | **8** | 4 | 3 | 1 |
 | `animation_famille` | **4** | 1 | 0 | 3 |
 | **TOTAL** | **117** | **54** (46,2%) | **48** (41,0%) | **15** (12,8%) |
 
