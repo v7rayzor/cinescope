@@ -52,9 +52,10 @@ const AppState = {
   activeType: 'film',          // 'film' ou 'serie'
   activeCategory: 'all',       // 'all' ou l'une des 7 catégories
   activeStars: 'all',          // 'all', '4', '5'
-  activeBouquet: 'all',        // 'all', 'aoc' (OCS), 'aca' (Action), 'auc' (Universal+), 'mlt' (Molotov)
+  activeBouquet: 'all',        // 'all', 'aoc', 'aca', 'auc', 'snr', 'sdz', 'ima', 'mlt', 'tf1', 'sxp', 'fra'
   isExclusiveOnly: false,      // true pour exclure Prime Video et TNT
-  isExcludeMolotov: false,     // true pour exclure les œuvres uniquement issues de Molotov/TNT (PC)
+  includeTnt: false,           // true pour inclure Molotov Gratuit et TNT (false par défaut = exclu)
+  includeSpecialized: false,   // true pour inclure Sooner, Shadowz, Insomnia (false par défaut = exclu)
   isExcludeNoS1: false,        // true pour exclure les séries sans saison 1 disponible
   isAutoStars: true,           // true tant que l'utilisateur n'a pas forcé manuellement un choix
   searchQuery: '',             // Requête de recherche par titre (PC uniquement)
@@ -62,11 +63,33 @@ const AppState = {
   catalog: []
 };
 
-// Détecter si une œuvre provient uniquement de Molotov / TNT sans bouquet SVOD payant (OCS, Action, Universal+)
-function isItemPureMolotov(item) {
+// Vérifier si une œuvre provient d'un bouquet SVOD de base (Ciné+ OCS, Action Max, Universal+)
+function isItemBasePaid(item) {
+  if (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.isItemBasePaid === 'function') {
+    return JustWatchEngine.isItemBasePaid(item);
+  }
   if (!item || !item.package_slugs) return false;
-  const hasSvod = item.package_slugs.some(s => ['aoc', 'aca', 'auc'].includes(s));
-  return !hasSvod;
+  return item.package_slugs.some(s => ['aoc', 'aca', 'auc'].includes(s));
+}
+
+// Vérifier si une œuvre provient d'une chaîne spécialisée (Sooner, Shadowz, Insomnia)
+function isItemSpecialized(item) {
+  if (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.isItemSpecialized === 'function') {
+    return JustWatchEngine.isItemSpecialized(item);
+  }
+  if (!item || !item.package_slugs) return false;
+  return item.package_slugs.some(s => ['snr', 'sdz', 'ima'].includes(s));
+}
+
+// Vérifier si une œuvre provient de la TNT ou du catalogue gratuit Molotov
+function isItemTntFree(item) {
+  if (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.isItemTntFree === 'function') {
+    return JustWatchEngine.isItemTntFree(item);
+  }
+  if (!item) return false;
+  if (item.on_tnt === true) return true;
+  if (!item.package_slugs) return false;
+  return item.package_slugs.some(s => ['mlt', 'tf1', 'sxp', 'fra'].includes(s));
 }
 
 // Vérifier si une œuvre est disponible sur Prime Video ou la TNT
@@ -482,12 +505,12 @@ function initCounts() {
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
   const eligibleFilms = AppState.catalog.filter(item => {
     if (!item.is_eligible || (item.type !== 'film' && item.type !== 'telefilm')) return false;
-    if (isMobile && isItemPureMolotov(item)) return false;
+    if (isMobile && !isItemBasePaid(item)) return false;
     return true;
   });
   const eligibleSeries = AppState.catalog.filter(item => {
     if (!item.is_eligible || item.type !== 'serie') return false;
-    if (isMobile && isItemPureMolotov(item)) return false;
+    if (isMobile && !isItemBasePaid(item)) return false;
     return true;
   });
 
@@ -498,7 +521,7 @@ function initCounts() {
   if (seriesBadge) seriesBadge.textContent = eligibleSeries.length;
 }
 
-// Calcul des compteurs de bouquets & profils
+// Calcul des compteurs de bouquets & toggles
 function initBouquetsCounts() {
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
   const eligibleTypeItems = AppState.catalog.filter(item => {
@@ -509,13 +532,21 @@ function initBouquetsCounts() {
   });
 
   const countAll = eligibleTypeItems.filter(i => {
-    if (isMobile && isItemPureMolotov(i)) return false;
-    if (!isMobile && AppState.isExcludeMolotov && isItemPureMolotov(i)) return false;
-    return true;
+    if (isMobile) return isItemBasePaid(i);
+    if (isItemBasePaid(i)) return true;
+    if (AppState.includeTnt && isItemTntFree(i)) return true;
+    if (AppState.includeSpecialized && isItemSpecialized(i)) return true;
+    return false;
   }).length;
+
   const countOcs = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('aoc')).length;
   const countAction = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('aca')).length;
   const countUniversal = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('auc')).length;
+
+  // Chaînes Spécialisées (PC uniquement)
+  const countSooner = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('snr')).length;
+  const countShadowz = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('sdz')).length;
+  const countInsomnia = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('ima')).length;
 
   // Bouquets Gratuits & TNT (PC uniquement)
   const countMolotov = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('mlt')).length;
@@ -523,15 +554,22 @@ function initBouquetsCounts() {
   const countM6 = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('sxp')).length;
   const countFranceTv = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('fra')).length;
   
+  // Compteurs des toggles d'inclusion (total disponible pour le média courant)
+  const countTntAvailable = eligibleTypeItems.filter(i => isItemTntFree(i)).length;
+  const countSpecializedAvailable = eligibleTypeItems.filter(i => isItemSpecialized(i)).length;
+
   // Scope du filtre selon le bouquet actif
   const currentScope = (AppState.activeBouquet && AppState.activeBouquet !== 'all')
     ? eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes(AppState.activeBouquet))
     : eligibleTypeItems.filter(i => {
-        if (isMobile && isItemPureMolotov(i)) return false;
-        return true;
+        if (isMobile) return isItemBasePaid(i);
+        if (isItemBasePaid(i)) return true;
+        if (AppState.includeTnt && isItemTntFree(i)) return true;
+        if (AppState.includeSpecialized && isItemSpecialized(i)) return true;
+        return false;
       });
+
   const countExclusive = currentScope.filter(i => !isItemExcludedByPrimeOrTnt(i)).length;
-  const countExcludeMolotov = currentScope.filter(i => !isItemPureMolotov(i)).length;
 
   // Compteur séries sans S1
   const countNoS1 = AppState.activeType === 'serie' 
@@ -542,28 +580,36 @@ function initBouquetsCounts() {
   const elOcs = document.getElementById('countPkgOcs');
   const elAction = document.getElementById('countPkgAction');
   const elUniv = document.getElementById('countPkgUniversal');
+  const elSooner = document.getElementById('countPkgSooner');
+  const elShadowz = document.getElementById('countPkgShadowz');
+  const elInsomnia = document.getElementById('countPkgInsomnia');
   const elMolotov = document.getElementById('countPkgMolotov');
   const elTf1 = document.getElementById('countPkgTf1');
   const elM6 = document.getElementById('countPkgM6');
   const elFranceTv = document.getElementById('countPkgFranceTv');
   const elExclusive = document.getElementById('countPkgExclusive');
-  const elExcludeMolotov = document.getElementById('countExcludeMolotov');
+  const elIncludeTnt = document.getElementById('countIncludeTnt');
+  const elIncludeSpecialized = document.getElementById('countIncludeSpecialized');
   const elExcludeNoS1 = document.getElementById('countExcludeNoS1');
 
   if (elAll) elAll.textContent = countAll;
   if (elOcs) elOcs.textContent = countOcs;
   if (elAction) elAction.textContent = countAction;
   if (elUniv) elUniv.textContent = countUniversal;
+  if (elSooner) elSooner.textContent = countSooner;
+  if (elShadowz) elShadowz.textContent = countShadowz;
+  if (elInsomnia) elInsomnia.textContent = countInsomnia;
   if (elMolotov) elMolotov.textContent = countMolotov;
   if (elTf1) elTf1.textContent = countTf1;
   if (elM6) elM6.textContent = countM6;
   if (elFranceTv) elFranceTv.textContent = countFranceTv;
   if (elExclusive) elExclusive.textContent = countExclusive;
-  if (elExcludeMolotov) elExcludeMolotov.textContent = countExcludeMolotov;
+  if (elIncludeTnt) elIncludeTnt.textContent = countTntAvailable;
+  if (elIncludeSpecialized) elIncludeSpecialized.textContent = countSpecializedAvailable;
   if (elExcludeNoS1) elExcludeNoS1.textContent = countNoS1;
 }
 
-// Navigation par bouquets, Filtre d'exclusion Prime/TNT, Filtre sans S1 & Profils Amis
+// Navigation par bouquets, Filtre d'exclusion Prime/TNT, Toggles d'inclusion & Filtre sans S1
 function initBouquetsNavigation() {
   const bouquetBtns = document.querySelectorAll('.bouquets-chips-group .bouquet-btn[data-package]');
   bouquetBtns.forEach(btn => {
@@ -587,11 +633,22 @@ function initBouquetsNavigation() {
     });
   }
 
-  const excludeMolotovBtn = document.getElementById('pkgExcludeMolotov');
-  if (excludeMolotovBtn) {
-    excludeMolotovBtn.addEventListener('click', () => {
-      AppState.isExcludeMolotov = !AppState.isExcludeMolotov;
-      excludeMolotovBtn.classList.toggle('active', AppState.isExcludeMolotov);
+  const toggleTntBtn = document.getElementById('toggleIncludeTnt');
+  if (toggleTntBtn) {
+    toggleTntBtn.addEventListener('click', () => {
+      AppState.includeTnt = !AppState.includeTnt;
+      toggleTntBtn.classList.toggle('active', AppState.includeTnt);
+      initBouquetsCounts();
+      updateCategoryAutoStar();
+      renderCatalog();
+    });
+  }
+
+  const toggleSpecializedBtn = document.getElementById('toggleIncludeSpecialized');
+  if (toggleSpecializedBtn) {
+    toggleSpecializedBtn.addEventListener('click', () => {
+      AppState.includeSpecialized = !AppState.includeSpecialized;
+      toggleSpecializedBtn.classList.toggle('active', AppState.includeSpecialized);
       initBouquetsCounts();
       updateCategoryAutoStar();
       renderCatalog();
@@ -960,10 +1017,11 @@ function getCategoryEligibleItems() {
     }
 
     // RÈGLE D'EXCLUSIVITÉ PC (Règle 8 AGENTS.md) :
-    // Sur mobile (largeur < 1024px), les œuvres purement Molotov/TNT sont formellement masquées
+    // Sur mobile (largeur < 1024px), STRICTEMENT les œuvres SVOD de base (aoc, aca, auc).
+    // Zéro TNT, zéro chaînes spécialisées.
     const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
-    if (isMobile && isItemPureMolotov(item)) {
-      return false;
+    if (isMobile) {
+      if (!isItemBasePaid(item)) return false;
     }
 
     // Filtre Bouquet
@@ -971,18 +1029,23 @@ function getCategoryEligibleItems() {
       if (!item.package_slugs || !item.package_slugs.includes(AppState.activeBouquet)) {
         return false;
       }
+    } else {
+      // Nous sommes dans "Tous les bouquets" ('all') sur PC Desktop :
+      if (!isMobile) {
+        // Par défaut, TNT/Gratuit n'est PAS inclus sauf si le bouton toggleIncludeTnt est activé
+        if (isItemTntFree(item) && !AppState.includeTnt) {
+          return false;
+        }
+        // Par défaut, les chaînes spécialisées ne sont PAS incluses sauf si le bouton toggleIncludeSpecialized est activé
+        if (isItemSpecialized(item) && !AppState.includeSpecialized) {
+          return false;
+        }
+      }
     }
 
     // Filtre d'Exclusion Stricte (Hors Prime Video & Hors TNT)
     if (AppState.isExclusiveOnly) {
       if (isItemExcludedByPrimeOrTnt(item)) {
-        return false;
-      }
-    }
-
-    // Filtre Toggle Hors Molotov (PC uniquement)
-    if (!isMobile && AppState.isExcludeMolotov) {
-      if (isItemPureMolotov(item)) {
         return false;
       }
     }

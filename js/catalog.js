@@ -1,3 +1,10 @@
+/**
+ * Catalogue Général CinéScope — Base Qualifiée & Synchronisée Temps Réel JustWatch
+ * Contient les œuvres issues des bouquets SVOD (Ciné+ OCS, Universal+, Action Max),
+ * des chaînes spécialisées (Sooner, Shadowz, Insomnia) et de la TNT / Molotov.
+ * Version synchronisée : v8.49
+ */
+
 const CATALOG_DATA = [
   {
     "id": "jw-tm1515239",
@@ -18421,10 +18428,10 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/191777384/s592/acts-of-vengeance.jpg",
     "synopsis": "Un avocat fait vœu de silence jusqu'à ce qu'il découvre qui a tué sa femme et sa fille et qu'il se venge.",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 28/02",
+      "daysLeft": 140,
+      "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
       }
@@ -42945,16 +42952,16 @@ const CATALOG_DATA = [
     "id": "jw-tm68148",
     "titre": "Ce que le jour doit à la nuit",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2012,
     "annee_moyenne": 2012,
@@ -43231,16 +43238,16 @@ const CATALOG_DATA = [
     "id": "jw-tm136262",
     "titre": "The Invitation",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -43708,16 +43715,16 @@ const CATALOG_DATA = [
     "id": "jw-tm68272",
     "titre": "Projet X",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2012,
     "annee_moyenne": 2012,
@@ -44211,16 +44218,16 @@ const CATALOG_DATA = [
     "id": "jw-tm34975",
     "titre": "Sinister",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2012,
     "annee_moyenne": 2012,
@@ -44256,16 +44263,16 @@ const CATALOG_DATA = [
     "id": "jw-tm983949",
     "titre": "The Sadness",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
@@ -44841,16 +44848,16 @@ const CATALOG_DATA = [
     "id": "jw-tm935075",
     "titre": "Caveat",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
@@ -45010,10 +45017,10 @@ const CATALOG_DATA = [
     "synopsis": "Cassandre, habituée à son quotidien dans un grand commissariat parisien, prend ses nouvelles fonctions à Annecy, afin de pouvoir être auprès de son fils. Ce nouveau poste en province déplaît fortement à Cassandre, citadine invétérée, qui supporte difficilement cette nouvelle vie,...",
     "date_ajout": "2026-02-06",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 09/11",
+      "daysLeft": 29,
+      "expirationDate": "2026-11-09",
       "packageExpirations": {
         "fra": "2026-11-09"
       }
@@ -45026,16 +45033,16 @@ const CATALOG_DATA = [
     "id": "jw-tm962605",
     "titre": "Barbaque",
     "type": "film",
-    "chaine": "TF1+",
+    "chaine": "Sooner",
     "chaines": [
-      "TF1+"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/tf1.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "tf1"
+      "snr"
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
@@ -45065,22 +45072,22 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm175820",
     "titre": "Enemy",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2014,
     "annee_moyenne": 2014,
@@ -45522,16 +45529,19 @@ const CATALOG_DATA = [
     "id": "jw-tm88465",
     "titre": "Insidious",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz",
+      "Insomnia"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png",
+      "assets/logos/insomnia.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz",
+      "ima"
     ],
     "annee": 2011,
     "annee_moyenne": 2011,
@@ -45558,7 +45568,9 @@ const CATALOG_DATA = [
       "label": null,
       "daysLeft": null,
       "expirationDate": null,
-      "packageExpirations": {}
+      "packageExpirations": {
+        "ima": "2026-11-30"
+      }
     },
     "on_prime": false,
     "on_tnt": false
@@ -45969,16 +45981,16 @@ const CATALOG_DATA = [
     "id": "jw-tm27911",
     "titre": "Les Infiltrés",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2006,
     "annee_moyenne": 2006,
@@ -46322,16 +46334,16 @@ const CATALOG_DATA = [
     "id": "jw-tm184362",
     "titre": "V pour Vendetta",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2006,
     "annee_moyenne": 2006,
@@ -46674,16 +46686,16 @@ const CATALOG_DATA = [
     "id": "jw-tm100061",
     "titre": "Black Swan",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2010,
     "annee_moyenne": 2010,
@@ -46720,16 +46732,16 @@ const CATALOG_DATA = [
     "id": "jw-tm26327",
     "titre": "Démineurs",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2008,
     "annee_moyenne": 2008,
@@ -46766,16 +46778,16 @@ const CATALOG_DATA = [
     "id": "jw-tm941023",
     "titre": "Julie (en 12 chapitres)",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
@@ -46872,10 +46884,10 @@ const CATALOG_DATA = [
     "synopsis": "La capitaine Marleau a l'instinct du chasseur sous des manières volontairement décalées. Comme elle le dit elle-même, elle ne survole pas une affaire, elle s'y \"enfonce\". Elle guette ses proies, les piste et les surprend à l’improviste. Ses traques s'organisent, dans chaque épisode, autour d'un personnage central, homme ou femme, à la hauteur de cette flic hors norme.",
     "date_ajout": "2017-04-01",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "warning",
+      "label": "⏳ Expire dans 12 j",
+      "daysLeft": 12,
+      "expirationDate": "2026-10-23",
       "packageExpirations": {
         "fra": "2026-10-23"
       }
@@ -47227,16 +47239,16 @@ const CATALOG_DATA = [
     "id": "jw-tm244221",
     "titre": "Under the Silver Lake",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -47273,16 +47285,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1171106",
     "titre": "Late Night with the Devil",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -47559,16 +47571,19 @@ const CATALOG_DATA = [
     "id": "jw-tm854100",
     "titre": "Lucky",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner",
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr",
+      "sdz"
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
@@ -47606,16 +47621,16 @@ const CATALOG_DATA = [
     "id": "jw-tm168111",
     "titre": "Dallas Buyers Club",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2013,
     "annee_moyenne": 2013,
@@ -47696,16 +47711,16 @@ const CATALOG_DATA = [
     "id": "jw-tm326770",
     "titre": "Lizzie",
     "type": "film",
-    "chaine": "TF1+",
+    "chaine": "Sooner",
     "chaines": [
-      "TF1+"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/tf1.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "tf1"
+      "snr"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -47821,10 +47836,10 @@ const CATALOG_DATA = [
     "synopsis": "Marie-Line a 20 ans. Bien qu’elle ne connaisse que les petits boulots et la vie précaire, Marie-Line est un vrai rayon de soleil. Sa rencontre avec un juge bougon et déprimé, qui décide de l’engager comme chauffeur, va bouleverser sa vie.",
     "date_ajout": "2023-10-11",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 03/11",
+      "daysLeft": 23,
+      "expirationDate": "2026-11-03",
       "packageExpirations": {
         "fra": "2026-11-03"
       }
@@ -47836,16 +47851,16 @@ const CATALOG_DATA = [
     "id": "jw-tm245132",
     "titre": "Moonlight",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -47978,16 +47993,16 @@ const CATALOG_DATA = [
     "id": "jw-tm312967",
     "titre": "Game Night",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -48071,16 +48086,19 @@ const CATALOG_DATA = [
     "id": "jw-tm1372953",
     "titre": "Vampire humaniste cherche suicidaire consentant",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner",
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr",
+      "sdz"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -48389,10 +48407,10 @@ const CATALOG_DATA = [
     "synopsis": "Béatrice célèbre avec les siens la sortie de son livre, dans lequel elle raconte l’accident de son mari qui a bouleversé leur vie. Frédéric a perdu la vue et ne peut s’empêcher de dire tout ce qu’il pense : c’est devenu un homme imprévisible et sans filtre bien que toujours aussi drôle et séduisant. Mais ce livre, véritable hymne-à-la-vie, va déclencher un joyeux pugilat car même si Béatrice a changé les noms, chacun de ses proches cherche à retrouver son personnage. Le groupe d’amis et la famille tanguent… mais certaines tempêtes sont salutaires.",
     "date_ajout": "2019-04-03",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 27/10",
+      "daysLeft": 16,
+      "expirationDate": "2026-10-27",
       "packageExpirations": {
         "fra": "2026-10-27"
       }
@@ -48601,16 +48619,16 @@ const CATALOG_DATA = [
     "id": "jw-tm144181",
     "titre": "Vampires en toute intimité",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2014,
     "annee_moyenne": 2014,
@@ -48647,16 +48665,19 @@ const CATALOG_DATA = [
     "id": "jw-tm244529",
     "titre": "The Jane Doe Identity",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner",
+      "Insomnia"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png",
+      "assets/logos/insomnia.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr",
+      "ima"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -48843,16 +48864,16 @@ const CATALOG_DATA = [
     "id": "jw-tm145203",
     "titre": "Bienvenue à Zombieland",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Insomnia",
     "chaines": [
-      "Molotov Gratuit"
+      "Insomnia"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/insomnia.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/insomnia.png"
     ],
     "package_slugs": [
-      "mlt"
+      "ima"
     ],
     "annee": 2009,
     "annee_moyenne": 2009,
@@ -48889,16 +48910,16 @@ const CATALOG_DATA = [
     "id": "jw-tm158304",
     "titre": "Contagion",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2011,
     "annee_moyenne": 2011,
@@ -49027,16 +49048,16 @@ const CATALOG_DATA = [
     "id": "jw-tm207103",
     "titre": "Le Fils de Saul",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2015,
     "annee_moyenne": 2015,
@@ -49122,16 +49143,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1345332",
     "titre": "Les Chambres rouges",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -49214,16 +49235,16 @@ const CATALOG_DATA = [
     "id": "jw-tm322680",
     "titre": "Muse",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Insomnia",
     "chaines": [
-      "Molotov Gratuit"
+      "Insomnia"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/insomnia.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/insomnia.png"
     ],
     "package_slugs": [
-      "mlt"
+      "ima"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -49312,16 +49333,16 @@ const CATALOG_DATA = [
     "id": "jw-tm408362",
     "titre": "Burning",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -49361,16 +49382,16 @@ const CATALOG_DATA = [
     "id": "jw-tm315727",
     "titre": "Glass",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -49500,16 +49521,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1515380",
     "titre": "The Rule of Jenny Pen",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -49823,16 +49844,16 @@ const CATALOG_DATA = [
     "id": "jw-tm179306",
     "titre": "Être Llewyn Davis",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2013,
     "annee_moyenne": 2013,
@@ -49869,16 +49890,16 @@ const CATALOG_DATA = [
     "id": "jw-tm242705",
     "titre": "Grave",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -49915,16 +49936,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1656229",
     "titre": "Buffet Infinity",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -49960,16 +49981,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1433824",
     "titre": "Oddity",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Insomnia",
     "chaines": [
-      "Molotov Gratuit"
+      "Insomnia"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/insomnia.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/insomnia.png"
     ],
     "package_slugs": [
-      "mlt"
+      "ima"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -49992,11 +50013,13 @@ const CATALOG_DATA = [
     "synopsis": "Après le meurtre brutal de sa sœur jumelle, Darcy se lance à la poursuite des responsables en utilisant des objets possédés comme outils de vengeance.",
     "date_ajout": "2026-01-25",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/12",
+      "daysLeft": 81,
+      "expirationDate": "2026-12-31",
+      "packageExpirations": {
+        "ima": "2026-12-31"
+      }
     },
     "on_prime": false,
     "on_tnt": false
@@ -50245,16 +50268,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1591123",
     "titre": "Mother's Baby",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -50617,10 +50640,10 @@ const CATALOG_DATA = [
     "synopsis": "Darius, vif, passionné, un brin magouilleur est le boss des « Invisibles », une brigade à la marge qui gère des enquêtes sur les corps sans identité, sans histoire, sans passé…",
     "date_ajout": "2026-08-19",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 29/11",
+      "daysLeft": 49,
+      "expirationDate": "2026-11-29",
       "packageExpirations": {
         "fra": "2026-11-29"
       }
@@ -50664,10 +50687,10 @@ const CATALOG_DATA = [
     "synopsis": "Delphine, prof de lettres désabusée, a un deal bien rôdé avec ses élèves : ils lui fichent une paix royale, elle leur distribue des 19 sur 20. Mais la combine se retourne contre elle quand ses excellents résultats (fictifs) propulsent sa classe au championnat du monde de latin, à Naples. Comble du cauchemar, c'est le neveu très zélé de la Proviseure qui est choisi comme accompagnateur. Pour sauver l’option latin, et surtout sa situation confortable, Delphine ne voit qu’une solution : tricher !",
     "date_ajout": "2024-03-20",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 27/10",
+      "daysLeft": 16,
+      "expirationDate": "2026-10-27",
       "packageExpirations": {
         "fra": "2026-10-27"
       }
@@ -50895,16 +50918,16 @@ const CATALOG_DATA = [
     "id": "jw-tm350379",
     "titre": "Ghostland",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -51213,16 +51236,16 @@ const CATALOG_DATA = [
     "id": "jw-tm235387",
     "titre": "Rester vertical",
     "type": "film",
-    "chaine": "TF1+",
+    "chaine": "Sooner",
     "chaines": [
-      "TF1+"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/tf1.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "tf1"
+      "snr"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -51261,16 +51284,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1026705",
     "titre": "Deux minutes plus tard",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
@@ -51360,16 +51383,16 @@ const CATALOG_DATA = [
     "id": "jw-tm411986",
     "titre": "Ne coupez pas !",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -51438,10 +51461,10 @@ const CATALOG_DATA = [
     "synopsis": "Heureux et accompli, Ellias devient le nouveau directeur artistique d’une célèbre maison de Haute Couture française. Quand il apprend que son père, qu’il ne voit plus depuis de nombreuses années, vient de mourir d’une crise cardiaque, Ellias se rend au Québec pour régler la succession. Le jeune créateur va découvrir qu’il a hérité de bien pire que du cœur fragile de son père.",
     "date_ajout": "2024-02-02",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "warning",
+      "label": "⏳ Expire dans 11 j",
+      "daysLeft": 11,
+      "expirationDate": "2026-10-22",
       "packageExpirations": {
         "fra": "2026-10-22"
       }
@@ -51833,16 +51856,16 @@ const CATALOG_DATA = [
     "id": "jw-tm178733",
     "titre": "Oslo, 31 août",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2011,
     "annee_moyenne": 2011,
@@ -51878,16 +51901,16 @@ const CATALOG_DATA = [
     "id": "jw-tm148836",
     "titre": "The Mirror",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2014,
     "annee_moyenne": 2014,
@@ -51923,16 +51946,16 @@ const CATALOG_DATA = [
     "id": "jw-tm233028",
     "titre": "Swiss Army Man",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -52010,10 +52033,10 @@ const CATALOG_DATA = [
     "synopsis": "Des vivants est la première série qui retrace l’histoire méconnue d’hommes et de femmes retenus en otages pendant plus de deux heures par les terroristes, dans un étroit couloir du Bataclan jusqu’à l’assaut de la BRI.  Ils étaient 11. Sept d’entre eux, Marie, Caroline, Sébastien, Arnaud, Grégory, Stéphane et David, se sont surnommés les « potages », contraction de potes et otages. Le soir du 13 novembre 2015, ils ont fait face aux terroristes pendant plus de deux heures dans un étroit couloir du Bataclan. De leur survie miraculeuse est né un lien unique et indéfectible.  Ces 7 victimes ont été associées au projet dès le départ. Et, suite au recueil de leurs témoignages, Jean-Xavier de Lestrade, à travers huit épisodes, a raconté leur processus de retour à la vie. Séquelles et traumatismes : comment ils se sont reconstruits chacun et ensemble durant près de 10 ans, de leur sortie du Bataclan jusqu’au procès.",
     "date_ajout": "2025-11-02",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 30/12",
+      "daysLeft": 80,
+      "expirationDate": "2026-12-30",
       "packageExpirations": {
         "fra": "2026-12-30"
       }
@@ -52073,16 +52096,16 @@ const CATALOG_DATA = [
     "id": "jw-tm144325",
     "titre": "Mister Babadook",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2014,
     "annee_moyenne": 2014,
@@ -52157,10 +52180,10 @@ const CATALOG_DATA = [
     "synopsis": "1806 - Ile de la Réunion. Après le passage d’un cyclone meurtrier, la plantation de Charles Bellevue est dévastée. Ruiné, il n’a d’autre choix que de céder ses terres. Ses esclaves redoutent d’être vendus et séparés les uns des autres. Parmi eux, un homme, Isaac, refuse d’être abandonné à son sort. Isaac vient en effet d’apprendre que Charles Bellevue n’est pas seulement son maître. C’est aussi son père.",
     "date_ajout": "2026-04-29",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 16/11",
+      "daysLeft": 36,
+      "expirationDate": "2026-11-16",
       "packageExpirations": {
         "fra": "2026-11-16"
       }
@@ -52216,16 +52239,16 @@ const CATALOG_DATA = [
     "id": "jw-tm102558",
     "titre": "127 Heures",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2010,
     "annee_moyenne": 2010,
@@ -52464,10 +52487,10 @@ const CATALOG_DATA = [
     "synopsis": "Le début de la vie de la reine Victoria, de son arrivée sur le trône à l'âge de 18 ans en passant par ses premiers émois et son mariage avec le prince Albert.",
     "date_ajout": "2018-03-29",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 31/10",
+      "daysLeft": 20,
+      "expirationDate": "2026-10-31",
       "packageExpirations": {
         "fra": "2026-10-31"
       }
@@ -52524,16 +52547,16 @@ const CATALOG_DATA = [
     "id": "jw-tm209952",
     "titre": "Mektoub, My Love: Canto Uno",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -52571,20 +52594,35 @@ const CATALOG_DATA = [
     "id": "jw-ts88216",
     "titre": "Creepshow",
     "type": "serie",
-    "chaine": "M6+",
+    "chaine": "Insomnia",
     "chaines": [
-      "M6+"
+      "Insomnia"
     ],
-    "logo_chaine": "assets/logos/m6_plus.png",
+    "logo_chaine": "assets/logos/insomnia.png",
     "logos_chaine": [
-      "assets/logos/m6_plus.png"
+      "assets/logos/insomnia.png"
     ],
     "package_slugs": [
-      "sxp"
+      "ima"
     ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
+    "annee": 2019,
+    "annee_moyenne": 2021,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2019,
+        "note": 7
+      },
+      {
+        "saison": 2,
+        "annee": 2021,
+        "note": 7
+      },
+      {
+        "saison": 3,
+        "annee": 2021,
+        "note": 7
+      },
       {
         "saison": 4,
         "annee": 2023,
@@ -52594,9 +52632,9 @@ const CATALOG_DATA = [
     "duree": "47 min/ép.",
     "runtime_minutes": 47,
     "note_avis": 7,
-    "note_recence": 9.1,
-    "note_globale": 8.1,
-    "etoiles": 5,
+    "note_recence": 8.5,
+    "note_globale": 7.8,
+    "etoiles": 4,
     "categories": [
       "horreur_epouvante"
     ],
@@ -52619,7 +52657,8 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2023
   },
   {
     "id": "jw-ts418809",
@@ -52680,16 +52719,16 @@ const CATALOG_DATA = [
     "id": "jw-tm232579",
     "titre": "À la Poursuite de Ricky Baker",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -52776,16 +52815,16 @@ const CATALOG_DATA = [
     "id": "jw-tm244364",
     "titre": "The Nightingale",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -52822,16 +52861,16 @@ const CATALOG_DATA = [
     "id": "jw-tm169346",
     "titre": "Starbuck",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2011,
     "annee_moyenne": 2011,
@@ -52952,10 +52991,10 @@ const CATALOG_DATA = [
     "synopsis": "La DI forte, pleine d'esprit et énigmatique Annika Strandhed, alors qu'elle dirige une nouvelle unité spécialisée dans les homicides marins (MHU) chargée d'enquêter sur les meurtres inexpliqués, brutaux et apparemment insondables.",
     "date_ajout": "2024-05-26",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 30/12",
+      "daysLeft": 80,
+      "expirationDate": "2026-12-30",
       "packageExpirations": {
         "fra": "2026-12-30"
       }
@@ -52967,16 +53006,16 @@ const CATALOG_DATA = [
     "id": "jw-tm233407",
     "titre": "Sing Street",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -53060,16 +53099,16 @@ const CATALOG_DATA = [
     "id": "jw-tm855323",
     "titre": "Nomadland",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
@@ -53339,16 +53378,16 @@ const CATALOG_DATA = [
     "id": "jw-tm458468",
     "titre": "Je Te Vois !!",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Insomnia",
     "chaines": [
-      "Molotov Gratuit"
+      "Insomnia"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/insomnia.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/insomnia.png"
     ],
     "package_slugs": [
-      "mlt"
+      "ima"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -53384,16 +53423,16 @@ const CATALOG_DATA = [
     "id": "jw-tm136806",
     "titre": "Thirst, ceci est mon sang",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2009,
     "annee_moyenne": 2009,
@@ -53432,16 +53471,16 @@ const CATALOG_DATA = [
     "id": "jw-tm174707",
     "titre": "The Artist",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2011,
     "annee_moyenne": 2011,
@@ -53532,10 +53571,10 @@ const CATALOG_DATA = [
     "synopsis": "Des meurtriers, connus dès le début de l’épisode, pensent avoir commis le crime parfait. Mais l'enquêteur (ou l'enquêtrice) va tout faire pour trouver la faille dans le plan machiavélique imaginé par le tueur.",
     "date_ajout": "2018-05-15",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 07/11",
+      "daysLeft": 27,
+      "expirationDate": "2026-11-07",
       "packageExpirations": {
         "fra": "2026-11-07"
       }
@@ -53760,16 +53799,16 @@ const CATALOG_DATA = [
     "id": "jw-tm886713",
     "titre": "La Famille Asada",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
@@ -53851,16 +53890,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1352843",
     "titre": "Stella, une vie allemande",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -53897,16 +53936,16 @@ const CATALOG_DATA = [
     "id": "jw-tm959087",
     "titre": "Les amours d'Anaïs",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
@@ -53988,16 +54027,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1438379",
     "titre": "Exhuma",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Insomnia",
     "chaines": [
-      "Molotov Gratuit"
+      "Insomnia"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/insomnia.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/insomnia.png"
     ],
     "package_slugs": [
-      "mlt"
+      "ima"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -54021,11 +54060,13 @@ const CATALOG_DATA = [
     "synopsis": "Une famille aisée vivant à Los Angeles fait appel à deux jeunes chamans pour sauver leur nouveau-né après avoir été victime d'une série d'événements paranormaux.",
     "date_ajout": "2026-05-19",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 14/03",
+      "daysLeft": 154,
+      "expirationDate": "2027-03-14",
+      "packageExpirations": {
+        "ima": "2027-03-14"
+      }
     },
     "on_prime": false,
     "on_tnt": false
@@ -54247,10 +54288,10 @@ const CATALOG_DATA = [
     "synopsis": "Ils vont de ville en ville, un chapiteau sur le dos, leur spectacle en bandoulière. Dans nos vies ils apportent le rêve et le désordre. Ce sont des ogres, des géants, ils en ont mangé du théâtre et des kilomètres. Mais l’arrivée imminente d’un bébé et le retour d’une ancienne amante vont raviver des blessures que l’on croyait oubliées. Alors que la fête commence !",
     "date_ajout": "2016-03-16",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 31/12",
+      "daysLeft": 81,
+      "expirationDate": "2026-12-31",
       "packageExpirations": {
         "fra": "2026-12-31"
       }
@@ -54307,16 +54348,19 @@ const CATALOG_DATA = [
     "id": "jw-tm1255573",
     "titre": "Monolith",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner",
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr",
+      "sdz"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -54596,16 +54640,16 @@ const CATALOG_DATA = [
     "id": "jw-tm826673",
     "titre": "Dark Waters",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -54783,16 +54827,16 @@ const CATALOG_DATA = [
     "id": "jw-tm207341",
     "titre": "Elle",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -55202,16 +55246,16 @@ const CATALOG_DATA = [
     "id": "jw-tm184072",
     "titre": "Détective Dee : La Légende du dragon des mers",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2013,
     "annee_moyenne": 2013,
@@ -55599,16 +55643,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1431558",
     "titre": "Megalopolis",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -56168,16 +56212,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1380903",
     "titre": "Stopmotion",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -56214,16 +56258,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1624384",
     "titre": "Our Hero, Balthazar",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -56700,16 +56744,16 @@ const CATALOG_DATA = [
     "id": "jw-tm372729",
     "titre": "Await further instructions",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -56939,16 +56983,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1084340",
     "titre": "Mad God",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -57312,16 +57356,16 @@ const CATALOG_DATA = [
     "id": "jw-tm124345",
     "titre": "La conspiration du diable",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Insomnia",
     "chaines": [
-      "Molotov Gratuit"
+      "Insomnia"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/insomnia.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/insomnia.png"
     ],
     "package_slugs": [
-      "mlt"
+      "ima"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -57358,16 +57402,16 @@ const CATALOG_DATA = [
     "id": "jw-tm853055",
     "titre": "Énorme",
     "type": "film",
-    "chaine": "France TV",
+    "chaine": "Sooner",
     "chaines": [
-      "France TV"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/france_tv.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/france_tv.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "fra"
+      "snr"
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
@@ -57406,16 +57450,19 @@ const CATALOG_DATA = [
     "id": "jw-tm1588246",
     "titre": "Redux Redux",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner",
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr",
+      "sdz"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -57557,16 +57604,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1259479",
     "titre": "Berlin Boys",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -57647,16 +57694,16 @@ const CATALOG_DATA = [
     "id": "jw-tm198444",
     "titre": "Savageland",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2015,
     "annee_moyenne": 2015,
@@ -57783,16 +57830,16 @@ const CATALOG_DATA = [
     "id": "jw-tm318269",
     "titre": "The Rider",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -58057,16 +58104,16 @@ const CATALOG_DATA = [
     "id": "jw-tm138462",
     "titre": "The Voices",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2015,
     "annee_moyenne": 2015,
@@ -58487,16 +58534,16 @@ const CATALOG_DATA = [
     "id": "jw-tm137861",
     "titre": "Le Monde de Nathan",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2015,
     "annee_moyenne": 2015,
@@ -58622,10 +58669,10 @@ const CATALOG_DATA = [
     "synopsis": "Fraîchement muté au SRPJ de Strasbourg, le capitaine de police César Wagner prend ses marques au sein de sa nouvelle équipe. César Wagner n’est pas toujours en contrôle de sa vie. Et pour cause : trois femmes l’occupent et le préoccupent : sa mère, sa collègue légiste, et sa boss.",
     "date_ajout": "2020-11-29",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "warning",
+      "label": "⏳ Expire dans 8 j",
+      "daysLeft": 8,
+      "expirationDate": "2026-10-19",
       "packageExpirations": {
         "fra": "2026-10-19"
       }
@@ -58736,16 +58783,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1098310",
     "titre": "Mother",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -59028,16 +59075,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1029799",
     "titre": "Edge of the World",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
@@ -59107,10 +59154,10 @@ const CATALOG_DATA = [
     "synopsis": "Clément, instituteur, est comblé jusqu'à l'étourdissement : Alicia, une actrice célèbre qu'il admire au plus haut point, devient sa compagne. Tout se complique quand il rencontre Caprice, une jeune femme excessive et débordante qui s'éprend de lui. Entretemps son meilleur ami, Thomas, se rapproche d'Alicia...",
     "date_ajout": "2026-07-08",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 31/10",
+      "daysLeft": 20,
+      "expirationDate": "2026-10-31",
       "packageExpirations": {
         "fra": "2026-10-31"
       }
@@ -59167,16 +59214,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1330566",
     "titre": "Simple comme Sylvain",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -59213,16 +59260,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1511017",
     "titre": "Traumatika",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -59257,16 +59304,16 @@ const CATALOG_DATA = [
     "id": "jw-tm432613",
     "titre": "Ma mère est folle",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -59445,16 +59492,16 @@ const CATALOG_DATA = [
     "id": "jw-tm138064",
     "titre": "Midnight Special",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -59493,16 +59540,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1560928",
     "titre": "Monkey's Magic Merry Go Round",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -59588,16 +59635,16 @@ const CATALOG_DATA = [
     "id": "jw-tm139841",
     "titre": "Sinister 2",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2015,
     "annee_moyenne": 2015,
@@ -59727,16 +59774,16 @@ const CATALOG_DATA = [
     "id": "jw-tm32744",
     "titre": "Ill Manors",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2012,
     "annee_moyenne": 2012,
@@ -60024,16 +60071,16 @@ const CATALOG_DATA = [
     "id": "jw-tm275896",
     "titre": "Chez nous",
     "type": "film",
-    "chaine": "France TV",
+    "chaine": "Sooner",
     "chaines": [
-      "France TV"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/france_tv.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/france_tv.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "fra"
+      "snr"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -60184,16 +60231,16 @@ const CATALOG_DATA = [
     "id": "jw-tm630851",
     "titre": "Queens of the Dead",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Insomnia",
     "chaines": [
-      "Molotov Gratuit"
+      "Insomnia"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/insomnia.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/insomnia.png"
     ],
     "package_slugs": [
-      "mlt"
+      "ima"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -60216,11 +60263,13 @@ const CATALOG_DATA = [
     "synopsis": "Un groupe de drag queens s'allient pour combattre des morts-vivants.",
     "date_ajout": "2026-06-25",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/12",
+      "daysLeft": 81,
+      "expirationDate": "2026-12-31",
+      "packageExpirations": {
+        "ima": "2026-12-31"
+      }
     },
     "on_prime": false,
     "on_tnt": false
@@ -60325,16 +60374,16 @@ const CATALOG_DATA = [
     "id": "jw-tm984871",
     "titre": "The Innocents",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
@@ -60557,16 +60606,16 @@ const CATALOG_DATA = [
     "id": "jw-tm155335",
     "titre": "Hippocrate",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2014,
     "annee_moyenne": 2014,
@@ -60935,16 +60984,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1198137",
     "titre": "Grand Paris",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -60980,16 +61029,16 @@ const CATALOG_DATA = [
     "id": "jw-tm373911",
     "titre": "What Keeps You Alive",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -61025,16 +61074,16 @@ const CATALOG_DATA = [
     "id": "jw-tm185395",
     "titre": "A Dangerous Method",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2011,
     "annee_moyenne": 2011,
@@ -61221,16 +61270,16 @@ const CATALOG_DATA = [
     "id": "jw-tm935728",
     "titre": "Terrifier 2",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -61265,16 +61314,16 @@ const CATALOG_DATA = [
     "id": "jw-tm239074",
     "titre": "Diamant noir",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -61404,16 +61453,16 @@ const CATALOG_DATA = [
     "id": "jw-tm425690",
     "titre": "90's",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -61449,16 +61498,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1481642",
     "titre": "Saýara",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -61548,16 +61597,16 @@ const CATALOG_DATA = [
     "id": "jw-tm828258",
     "titre": "Saint Maud",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
@@ -61897,16 +61946,16 @@ const CATALOG_DATA = [
     "id": "jw-tm317015",
     "titre": "120 battements par minute",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -62035,16 +62084,16 @@ const CATALOG_DATA = [
     "id": "jw-tm854058",
     "titre": "Psycho Goreman",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
@@ -62127,16 +62176,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1110157",
     "titre": "The Nocebo Effect",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Insomnia",
     "chaines": [
-      "Molotov Gratuit"
+      "Insomnia"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/insomnia.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/insomnia.png"
     ],
     "package_slugs": [
-      "mlt"
+      "ima"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -62269,16 +62318,16 @@ const CATALOG_DATA = [
     "id": "jw-tm148750",
     "titre": "Twin Peaks : Les Pièces manquantes du dossier",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2014,
     "annee_moyenne": 2014,
@@ -62461,16 +62510,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1591634",
     "titre": "Welcome Home Baby",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -62677,10 +62726,10 @@ const CATALOG_DATA = [
     "synopsis": "Tenir son foyer et se plier au devoir conjugal sans moufter: c’est ce qu’enseigne avec ardeur Paulette Van Der Beck dans son école ménagère. Ses certitudes vacillent quand elle se retrouve veuve et ruinée. Est‐ce le retour de son premier amour ou le vent de liberté de mai 68? Et si la bonne épouse devenait une femme libre?",
     "date_ajout": "2020-03-11",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 31/12",
+      "daysLeft": 81,
+      "expirationDate": "2026-12-31",
       "packageExpirations": {
         "fra": "2026-12-31"
       }
@@ -62785,16 +62834,16 @@ const CATALOG_DATA = [
     "id": "jw-tm898858",
     "titre": "La estrella azul",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -62875,16 +62924,19 @@ const CATALOG_DATA = [
     "id": "jw-tm1166362",
     "titre": "Deadstream",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner",
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr",
+      "sdz"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -62967,16 +63019,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1231808",
     "titre": "Annie Colère",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -63058,16 +63110,19 @@ const CATALOG_DATA = [
     "id": "jw-tm856529",
     "titre": "Mothers of Monsters",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner",
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr",
+      "sdz"
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
@@ -63104,16 +63159,16 @@ const CATALOG_DATA = [
     "id": "jw-tm242838",
     "titre": "La région sauvage",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -63232,10 +63287,10 @@ const CATALOG_DATA = [
     "synopsis": "Simon, 37 ans, est un médecin aguerri. L'hôpital, c'est sa vie. Il côtoie la maladie et la mort tous les jours dans son service de pneumologie et a appris à s'en protéger. Mais quand sa mère est hospitalisée dans une unité voisine, la frontière entre l'intime et le professionnel se brouille. L'univers de Simon, ses certitudes et ses convictions vacillent ...",
     "date_ajout": "2019-01-23",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 31/12",
+      "daysLeft": 81,
+      "expirationDate": "2026-12-31",
       "packageExpirations": {
         "fra": "2026-12-31"
       }
@@ -63419,10 +63474,10 @@ const CATALOG_DATA = [
     "synopsis": "Dans un pays qui n’est pas le sien, une femme qui n’est à la fois ni tout à fait la même ni tout à fait une autre, a rencontré, rencontre et rencontrera au même endroit les mêmes personnes qui lui feront vivre à chaque fois une expérience inédite.",
     "date_ajout": "2012-10-17",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 28/02",
+      "daysLeft": 140,
+      "expirationDate": "2027-02-28",
       "packageExpirations": {
         "fra": "2027-02-28"
       }
@@ -63481,16 +63536,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1199013",
     "titre": "Pacifiction - Tourment sur les îles",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -63526,16 +63581,16 @@ const CATALOG_DATA = [
     "id": "jw-tm176744",
     "titre": "The Descendants",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2011,
     "annee_moyenne": 2011,
@@ -63662,16 +63717,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1478113",
     "titre": "Frankie Freako",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -63753,16 +63808,16 @@ const CATALOG_DATA = [
     "id": "jw-tm179385",
     "titre": "L'Écume des jours",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2013,
     "annee_moyenne": 2013,
@@ -63801,16 +63856,16 @@ const CATALOG_DATA = [
     "id": "jw-tm960281",
     "titre": "El buen patrón",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
@@ -63891,16 +63946,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1221128",
     "titre": "Mad Fate",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -63935,16 +63990,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1898240",
     "titre": "Interior Apartamento Día",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -64069,16 +64124,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1196409",
     "titre": "Return to Seoul",
     "type": "film",
-    "chaine": "France TV",
+    "chaine": "Sooner",
     "chaines": [
-      "France TV"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/france_tv.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/france_tv.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "fra"
+      "snr"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -64115,16 +64170,16 @@ const CATALOG_DATA = [
     "id": "jw-tm868644",
     "titre": "De son vivant",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
@@ -64296,16 +64351,16 @@ const CATALOG_DATA = [
     "id": "jw-tm817504",
     "titre": "1BR : The Apartment",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -64432,16 +64487,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1329790",
     "titre": "Sleep",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Insomnia",
     "chaines": [
-      "Molotov Gratuit"
+      "Insomnia"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/insomnia.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/insomnia.png"
     ],
     "package_slugs": [
-      "mlt"
+      "ima"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -64533,16 +64588,16 @@ const CATALOG_DATA = [
     "id": "jw-tm144569",
     "titre": "Fish Tank",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2009,
     "annee_moyenne": 2009,
@@ -64720,16 +64775,16 @@ const CATALOG_DATA = [
     "id": "jw-tm141182",
     "titre": "A Most Violent Year",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2014,
     "annee_moyenne": 2014,
@@ -64766,16 +64821,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1445240",
     "titre": "Your Monster",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -64860,16 +64915,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1533420",
     "titre": "Above the Knee",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -64949,16 +65004,16 @@ const CATALOG_DATA = [
     "id": "jw-tm40319",
     "titre": "Savages",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2012,
     "annee_moyenne": 2012,
@@ -65038,16 +65093,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1296428",
     "titre": "Elaha",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -65174,16 +65229,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1241548",
     "titre": "I Like Movies",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -65462,16 +65517,16 @@ const CATALOG_DATA = [
     "id": "jw-tm182575",
     "titre": "Gibraltar",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2013,
     "annee_moyenne": 2013,
@@ -65800,16 +65855,16 @@ const CATALOG_DATA = [
     "id": "jw-tm431781",
     "titre": "Bloodline",
     "type": "film",
-    "chaine": "M6+",
+    "chaine": "Shadowz",
     "chaines": [
-      "M6+"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/m6_plus.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/m6_plus.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "sxp"
+      "sdz"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -65939,16 +65994,16 @@ const CATALOG_DATA = [
     "id": "jw-tm159086",
     "titre": "Jane Eyre",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2011,
     "annee_moyenne": 2011,
@@ -65984,16 +66039,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1345413",
     "titre": "Amelia's Children",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -66165,16 +66220,16 @@ const CATALOG_DATA = [
     "id": "jw-tm87536",
     "titre": "L'Illusionniste",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2010,
     "annee_moyenne": 2010,
@@ -66359,16 +66414,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1476525",
     "titre": "Self Driver",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -66403,16 +66458,16 @@ const CATALOG_DATA = [
     "id": "jw-tm40618",
     "titre": "Promised Land",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2013,
     "annee_moyenne": 2013,
@@ -66450,16 +66505,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1851539",
     "titre": "Incomplete Chairs",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -66538,16 +66593,16 @@ const CATALOG_DATA = [
     "id": "jw-tm138635",
     "titre": "Mia Madre",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2015,
     "annee_moyenne": 2015,
@@ -66769,16 +66824,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1332118",
     "titre": "The Seeding",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -66858,16 +66913,16 @@ const CATALOG_DATA = [
     "id": "jw-tm317008",
     "titre": "In the Fade",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -67192,16 +67247,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1087994",
     "titre": "Relic",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
@@ -67286,16 +67341,16 @@ const CATALOG_DATA = [
     "id": "jw-tm454167",
     "titre": "Greener grass",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -67375,16 +67430,16 @@ const CATALOG_DATA = [
     "id": "jw-tm358371",
     "titre": "Place publique",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -67514,16 +67569,16 @@ const CATALOG_DATA = [
     "id": "jw-tm861129",
     "titre": "Jumbo",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
@@ -67885,16 +67940,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1444953",
     "titre": "Dead Mail",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -68123,16 +68178,16 @@ const CATALOG_DATA = [
     "id": "jw-tm252972",
     "titre": "Detroit",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -68171,16 +68226,16 @@ const CATALOG_DATA = [
     "id": "jw-tm246351",
     "titre": "Le Jeune Karl Marx",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -68217,16 +68272,16 @@ const CATALOG_DATA = [
     "id": "jw-tm138931",
     "titre": "Le Concert",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2009,
     "annee_moyenne": 2009,
@@ -68358,16 +68413,16 @@ const CATALOG_DATA = [
     "id": "jw-tm355789",
     "titre": "Dogman",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -68594,16 +68649,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1415272",
     "titre": "Le Mangeur d'âmes",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -68640,16 +68695,16 @@ const CATALOG_DATA = [
     "id": "jw-tm469990",
     "titre": "Tu mérites un amour",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -68868,16 +68923,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1049107",
     "titre": "The Andy Baker Tape",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -69050,16 +69105,16 @@ const CATALOG_DATA = [
     "id": "jw-tm120122",
     "titre": "La Communauté",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -69369,16 +69424,16 @@ const CATALOG_DATA = [
     "id": "jw-tm368523",
     "titre": "Lords of Chaos",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -69462,16 +69517,16 @@ const CATALOG_DATA = [
     "id": "jw-tm977758",
     "titre": "Suis-moi, je te fuis",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
@@ -69784,16 +69839,16 @@ const CATALOG_DATA = [
     "id": "jw-tm416463",
     "titre": "Possum",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -69877,16 +69932,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1466804",
     "titre": "Breathing In",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -70013,16 +70068,19 @@ const CATALOG_DATA = [
     "id": "jw-tm244353",
     "titre": "Thelma",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner",
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr",
+      "sdz"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -70107,16 +70165,16 @@ const CATALOG_DATA = [
     "id": "jw-tm139527",
     "titre": "Les Chansons que mes frères m'ont apprises",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2015,
     "annee_moyenne": 2015,
@@ -70249,16 +70307,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1492008",
     "titre": "Rosario",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Insomnia",
     "chaines": [
-      "Molotov Gratuit"
+      "Insomnia"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/insomnia.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/insomnia.png"
     ],
     "package_slugs": [
-      "mlt"
+      "ima"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -70280,11 +70338,13 @@ const CATALOG_DATA = [
     "synopsis": "Après le décès inattendu de sa grand-mère, une tempête de neige enferme Rosario avec le corps tandis que des forces surnaturelles tordues commencent à l'agresser.",
     "date_ajout": "2026-05-31",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/12",
+      "daysLeft": 81,
+      "expirationDate": "2026-12-31",
+      "packageExpirations": {
+        "ima": "2026-12-31"
+      }
     },
     "on_prime": false,
     "on_tnt": false
@@ -70293,16 +70353,16 @@ const CATALOG_DATA = [
     "id": "jw-tm187279",
     "titre": "Philomena",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2013,
     "annee_moyenne": 2013,
@@ -70339,16 +70399,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1252892",
     "titre": "Strangeness",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -70616,16 +70676,16 @@ const CATALOG_DATA = [
     "id": "jw-tm449704",
     "titre": "Yves",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -70709,16 +70769,16 @@ const CATALOG_DATA = [
     "id": "jw-tm349060",
     "titre": "Les Garçons sauvages",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -70801,16 +70861,16 @@ const CATALOG_DATA = [
     "id": "jw-tm224067",
     "titre": "Une histoire banale",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2014,
     "annee_moyenne": 2014,
@@ -71124,16 +71184,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1242951",
     "titre": "Le Colibri",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -71442,16 +71502,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1055570",
     "titre": "Onyx the Fortuitous and the Talisman of Souls",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -71624,16 +71684,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1082930",
     "titre": "Dashcam",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -71805,16 +71865,16 @@ const CATALOG_DATA = [
     "id": "jw-tm359621",
     "titre": "Asako I & II",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -71894,16 +71954,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1160663",
     "titre": "Aux portes de l'enfer",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Insomnia",
     "chaines": [
-      "Molotov Gratuit"
+      "Insomnia"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/insomnia.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/insomnia.png"
     ],
     "package_slugs": [
-      "mlt"
+      "ima"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -71926,11 +71986,13 @@ const CATALOG_DATA = [
     "synopsis": "A la fin des années 1980, un culte satanique a pour objectif de déclencher l’enfer sur Terre. Faisant une ancienne incantation, ils invoquent un démon qui se nourrit des habitants d’une petite ville voisine du Sud-Ouest.",
     "date_ajout": "2026-09-30",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/12",
+      "daysLeft": 81,
+      "expirationDate": "2026-12-31",
+      "packageExpirations": {
+        "ima": "2026-12-31"
+      }
     },
     "on_prime": false,
     "on_tnt": false
@@ -71939,16 +72001,16 @@ const CATALOG_DATA = [
     "id": "jw-tm431948",
     "titre": "Starfish",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -72034,16 +72096,16 @@ const CATALOG_DATA = [
     "id": "jw-tm50052",
     "titre": "Lore",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2012,
     "annee_moyenne": 2012,
@@ -72082,16 +72144,16 @@ const CATALOG_DATA = [
     "id": "jw-tm933835",
     "titre": "Tempura",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
@@ -72221,16 +72283,16 @@ const CATALOG_DATA = [
     "id": "jw-tm99434",
     "titre": "Seule contre tous",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2010,
     "annee_moyenne": 2010,
@@ -72268,16 +72330,16 @@ const CATALOG_DATA = [
     "id": "jw-tm886833",
     "titre": "Night Shot",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -72361,16 +72423,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1019525",
     "titre": "Broadcast Signal Intrusion",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
@@ -72408,16 +72470,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1359528",
     "titre": "Eight Eyes",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -72499,16 +72561,16 @@ const CATALOG_DATA = [
     "id": "jw-tm822505",
     "titre": "La Reine de la Magie Noire",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Insomnia",
     "chaines": [
-      "Molotov Gratuit"
+      "Insomnia"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/insomnia.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/insomnia.png"
     ],
     "package_slugs": [
-      "mlt"
+      "ima"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -72532,11 +72594,13 @@ const CATALOG_DATA = [
     "synopsis": "Un père de famille se rend avec sa femme et ses deux enfants dans l’orphelinat de campagne qui fut autrefois son foyer. Arrivé sur place, il retrouve ses anciens camarades, venus comme lui avec leur famille respective rendre hommage au fondateur de l’orphelinat, un vieil homme mourant, alité et incapable de communiquer. Mystérieusement dépeuplé de ses résidents, l’orphelinat, on le comprend vite, recèle d’innombrables secrets, et les retrouvailles heureuses entre anciens orphelins vont vite tourner au cauchemar éveillé à la terminaison sanguinolente.",
     "date_ajout": "2026-08-31",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 31/10",
+      "daysLeft": 20,
+      "expirationDate": "2026-10-31",
+      "packageExpirations": {
+        "ima": "2026-10-31"
+      }
     },
     "on_prime": false,
     "on_tnt": false
@@ -72636,16 +72700,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1069854",
     "titre": "After Blue (Paradis sale)",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -72774,16 +72838,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1009151",
     "titre": "Loop Track",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -72956,16 +73020,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1334537",
     "titre": "You'll Never Find Me",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -73139,16 +73203,16 @@ const CATALOG_DATA = [
     "id": "jw-tm298084",
     "titre": "Corps et âme",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -73185,16 +73249,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1515114",
     "titre": "The End",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -73367,16 +73431,16 @@ const CATALOG_DATA = [
     "id": "jw-tm219233",
     "titre": "Loving",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -73638,16 +73702,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1233214",
     "titre": "The Artifice Girl",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -73819,16 +73883,16 @@ const CATALOG_DATA = [
     "id": "jw-tm311993",
     "titre": "Avant que nous disparaissions",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -74048,16 +74112,16 @@ const CATALOG_DATA = [
     "id": "jw-tm97124",
     "titre": "Les amours imaginaires",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2010,
     "annee_moyenne": 2010,
@@ -74282,16 +74346,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1427685",
     "titre": "Vampire Zombies From Space!",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
@@ -74552,16 +74616,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1537355",
     "titre": "Ebony & Ivory",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Shadowz",
     "chaines": [
-      "Molotov Gratuit"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "mlt"
+      "sdz"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -74597,16 +74661,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1006599",
     "titre": "Varsovie 83, une affaire d'État",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Sooner",
     "chaines": [
-      "Molotov Gratuit"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "mlt"
+      "snr"
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
@@ -74995,88 +75059,687 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm369243",
-    "titre": "Upgrade",
+    "id": "jw-tm1371026",
+    "titre": "When Evil Lurks",
     "type": "film",
-    "chaine": "Action Max",
+    "chaine": "Shadowz",
     "chaines": [
-      "Action Max"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/action.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/action.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "aca"
+      "sdz"
     ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
+    "annee": 2023,
+    "annee_moyenne": 2023,
     "duree": "1h 40min",
     "runtime_minutes": 100,
-    "note_avis": 7.5,
-    "note_recence": 7.6,
-    "note_globale": 7.6,
-    "etoiles": 4,
+    "note_avis": 6.9,
+    "note_recence": 9.1,
+    "note_globale": 8,
+    "etoiles": 5,
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "raw_genres": [
-      "act",
-      "trl",
-      "scf"
+      "hrr",
+      "trl"
     ],
-    "badge": "12",
+    "badge": "16",
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/85378743/s592/upgrade.jpg",
-    "synopsis": "Après la mort de son épouse, lors d'une violente agression, qui l'a lui même laissé paralysé, Grey Trace est contacté par un inventeur milliardaire, qui propose de lui administrer un remède expérimental qui va améliorer son corps et ses facultés. Désormais doté d'un implant fonctionnant à l'intelligence artificielle, Grey voit ses capacités physiques décuplées et cherche à retrouver ses agresseurs, afin de leur faire payer la mort de sa femme.",
-    "date_ajout": "2026-01-31",
+    "poster": "https://images.justwatch.com/poster/313072893/s592/when-evil-lurks.jpg",
+    "synopsis": "Après avoir découvert un cadavre mutilé près de leur propriété, deux frères apprennent que les événements étranges survenant dans leur village sont causés par un esprit démoniaque qui a élu domicile dans le corps purulent d’un homme. Le mal dont souffre ce dernier ne tarde pas à se répandre comme une épidémie, affectant d’autres habitants de la région.",
+    "date_ajout": "2025-10-14",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-11",
-      "packageExpirations": {
-        "aca": "2026-10-11"
-      }
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
     },
     "on_prime": true,
     "on_tnt": false
   },
   {
-    "id": "jw-ts11564",
-    "titre": "Meurtres au paradis",
-    "type": "serie",
-    "chaine": "France TV",
+    "id": "jw-tm1492557",
+    "titre": "Heretic",
+    "type": "film",
+    "chaine": "Shadowz",
     "chaines": [
-      "France TV"
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/france_tv.png",
+    "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/france_tv.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "fra"
+      "sdz"
     ],
-    "annee": 2022,
-    "annee_fin": 2023,
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 51min",
+    "runtime_minutes": 111,
+    "note_avis": 7,
+    "note_recence": 9.4,
+    "note_globale": 8.2,
+    "etoiles": 5,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/322792094/s592/heretic.jpg",
+    "synopsis": "Deux jeunes missionnaires mormones se rendent chez M. Reed, un homme excentrique, pour prêcher et tenter de le convertir. Ce dernier va cependant s'avérer bien plus dangereux qu'elles n'auraient pu l'imaginer.",
+    "date_ajout": "2026-10-09",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm166168",
+    "titre": "Drive",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2011,
+    "annee_moyenne": 2011,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 7.8,
+    "note_recence": 5.5,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "act",
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/264695939/s592/drive.jpg",
+    "synopsis": "Un cascadeur tranquille et anonyme se métamorphose dès que la nuit tombe : il devient pilote de voitures pour le compte de la mafia. La combine est bien rodée jusqu’au jour où l’un des casses tourne mal et l’entraîne dans une course-poursuite infernale. Il veut se venger de ceux qui l’ont trahi...",
+    "date_ajout": "2011-09-16",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1064197",
+    "titre": "Lamb",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 46min",
+    "runtime_minutes": 106,
+    "note_avis": 6.3,
+    "note_recence": 8.5,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "fnt",
+      "hrr"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/254424163/s592/dyrid.jpg",
+    "synopsis": "María et Ingvar vivent reclus avec leur troupeau de moutons dans une ferme en Islande. Lorsqu’ils découvrent un mystérieux nouveau-né, ils décident de le garder et de l'élever comme leur enfant. Cette nouvelle perspective apporte beaucoup de bonheur au couple, mais la nature leur réserve une dernière surprise…",
+    "date_ajout": "2026-10-02",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm159220",
+    "titre": "Under the Skin",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner",
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "snr",
+      "sdz"
+    ],
+    "annee": 2014,
+    "annee_moyenne": 2014,
+    "duree": "1h 48min",
+    "runtime_minutes": 108,
+    "note_avis": 6.3,
+    "note_recence": 6.4,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl",
+      "scf"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/257930226/s592/under-the-skin.jpg",
+    "synopsis": "Une extraterrestre prend des hommes en autostop, puis les envoûte, de ses yeux, de sa bouche et de son corps de rêve. Attirés dans un couloir noir, ces derniers poursuivent cette beauté fatale alors que telle une araignée tissant sa toile, elle les tue les uns après les autres pour le compte de son espèce…",
+    "date_ajout": "2026-09-30",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm195209",
+    "titre": "Legend",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2015,
+    "annee_moyenne": 2015,
+    "duree": "2h 12min",
+    "runtime_minutes": 132,
+    "note_avis": 6.9,
+    "note_recence": 6.7,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/78669721/s592/legend-2015.jpg",
+    "synopsis": "Londres, les années soixante. Les jumeaux Ronald et Reginald Kray à la tête du célèbre gang The Firm règnent en maîtres sur la ville. Legend nous fait découvrir les coulisses de l’ascension et la chute de ces deux grands noms du crime organisé, chute amorcée lorsque Frances, la femme de Reggie, incitera son mari à s’éloigner du business au grand désespoir de son frère.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm101190",
+    "titre": "The Town",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2010,
+    "annee_moyenne": 2010,
+    "duree": "2h 05min",
+    "runtime_minutes": 125,
+    "note_avis": 7.5,
+    "note_recence": 5.2,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/312995929/s592/the-town.jpg",
+    "synopsis": "Doug MacRay est un criminel impénitent, le leader de facto d’une impitoyable bande de braqueurs de banque qui s’enorgueillit de voler à leur gré sans se faire prendre. Sans attaches particulières, Doug ne craint jamais la perte d’un être cher. Mais tout va changer le jour où, lors du dernier casse de la bande, ils prennent en otage la directrice de la banque, Claire Keesey. Bien qu’ils l’aient relâchée indemne, Claire est nerveuse car elle sait que les voleurs connaissent son nom…et savent où elle habite. Mais elle baisse la garde le jour où elle rencontre un homme discret et plutôt charmant du nom de Doug….ne réalisant pas qu’il est celui qui, quelques jours plus tôt, l’avait terrorisée. L’attraction instantanée entre eux va se transformer graduellement en une romance passionnée qui menacera de les entraîner tous deux sur un chemin dangereux et potentiellement mortel.",
+    "date_ajout": "2024-08-08",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1269254",
+    "titre": "Chien de la casse",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 7,
+    "note_recence": 9.1,
+    "note_globale": 8.1,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/338469484/s592/chien-de-la-casse.jpg",
+    "synopsis": "Dog et Mirales, deux amis d’enfance vivent dans un petit village du Sud de la France. Ils passent la majeure partie de leurs journées à traîner dans les rues. Pour tuer le temps, Mirales a pris l’habitude de taquiner Dog jusqu’à en faire son souffre-douleur. Mais cet été là, Dog rencontre Elsa avec laquelle il vit une histoire d’amour. Rongé par la jalousie, Mirales va devoir se défaire de son passé pour pouvoir grandir et trouver sa place.",
+    "date_ajout": "2024-01-19",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm72301",
+    "titre": "Persepolis",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2007,
+    "annee_moyenne": 2007,
+    "duree": "1h 35min",
+    "runtime_minutes": 95,
+    "note_avis": 8,
+    "note_recence": 4.3,
+    "note_globale": 6.2,
+    "etoiles": 3,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "ani",
+      "drm",
+      "hst",
+      "war",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/329387888/s592/persepolis.jpg",
+    "synopsis": "S'inspirant de son roman autobiographique, Marjane Satrapi a écrit et réalisé ce film d'animation qui raconte l'histoire d'une jeune Iranienne grandissant pendant la Révolution islamique. Envoyée dans un pensionnat autrichien, la précoce Marji découvre que son origine ethnique alimente les préjugés raciaux. Devenue adulte, la société iranienne la contraint à quitter à nouveau son pays pour la France, où elle espère enfin affirmer son identité culturelle dans un contexte de liberté et d'égalité bafouées.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts351893",
+    "titre": "La Mesías",
+    "type": "serie",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
     "annee_moyenne": 2023,
     "saisons_disponibles": [
       {
-        "saison": 11,
-        "annee": 2022,
-        "note": 7.8
-      },
-      {
-        "saison": 12,
+        "saison": 1,
         "annee": 2023,
-        "note": 7.8
+        "note": 8
       }
     ],
-    "duree": "59 min/ép.",
-    "runtime_minutes": 59,
-    "note_avis": 7.8,
+    "duree": "72 min/ép.",
+    "runtime_minutes": 72,
+    "note_avis": 8,
     "note_recence": 9.1,
+    "note_globale": 8.6,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/351091582/s592/la-mesias.jpg",
+    "synopsis": "Après avoir entendu une chanson de pop chrétienne sur le Web, un frère et une soeur se retrouvent plongés dans des souvenirs d'enfance traumatiques.",
+    "date_ajout": "2026-09-02",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm245206",
+    "titre": "Ma vie de courgette",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2016,
+    "annee_moyenne": 2016,
+    "duree": "1h 06min",
+    "runtime_minutes": 66,
+    "note_avis": 7.8,
+    "note_recence": 7,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "ani",
+      "cmy",
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/176516462/s592/ma-vie-de-courgette.jpg",
+    "synopsis": "Courgette n’a rien d’un légume, c’est un vaillant petit garçon. Il croit qu’il est seul au monde quand il perd sa mère. Mais c’est sans compter sur les rencontres qu’il va faire dans sa nouvelle vie au foyer pour enfants. Simon, Ahmed, Jujube, Alice et Béatrice : ils ont tous leurs histoires et elles sont aussi dures qu’ils sont tendres. Et puis il y a cette fille, Camille. Quand on a 10 ans, avoir une bande de copains, tomber amoureux, il y en a des choses à découvrir et à apprendre. Et pourquoi pas même, être heureux.",
+    "date_ajout": "2024-11-30",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm271367",
+    "titre": "Terrifier",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 25min",
+    "runtime_minutes": 85,
+    "note_avis": 5.5,
+    "note_recence": 7.6,
+    "note_globale": 6.6,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/321480325/s592/terrifier.jpg",
+    "synopsis": "C'est la nuit d'Halloween dans une petite ville américaine. Un grand clown dégingandé et mutique, tout habillé de blanc et de noir, s'installe à une table dans une pizzeria, portant un gros sac poubelle. Il s'attaque alors à plusieurs jeunes femmes qui tentent tant bien que mal de lui échapper. Ce meurtrier psychopathe déguisé en clown prend un plaisir sadique à mutiler atrocement toutes ses victimes.",
+    "date_ajout": "2026-08-06",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1261680",
+    "titre": "Hundreds of Beavers",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 48min",
+    "runtime_minutes": 108,
+    "note_avis": 7.5,
+    "note_recence": 9.4,
     "note_globale": 8.5,
+    "etoiles": 5,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "act",
+      "cmy"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/322361808/s592/hundreds-of-beavers.jpg",
+    "synopsis": "Au 19e siècle, un vendeur de pommes ivre doit passer de zéro à héros et devenir le plus grand trappeur de fourrures d'Amérique du Nord en vainquant des centaines de castors.",
+    "date_ajout": "2025-09-23",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm305894",
+    "titre": "Sorgoï Prakov, My European Dream",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2013,
+    "annee_moyenne": 2013,
+    "duree": "1h 25min",
+    "runtime_minutes": 85,
+    "note_avis": 6.1,
+    "note_recence": 6.1,
+    "note_globale": 6.1,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "cmy",
+      "crm",
+      "drm",
+      "hrr",
+      "eur"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/255762103/s592/sorgoi-prakov.jpg",
+    "synopsis": "Un journaliste venant d'un pays de l'Est arrive à Paris pour commencer un tour des capitales européennes et ainsi pouvoir réaliser un documentaire sur le rêve européen. Entre fascination et difficulté d'adaptation, Sorgoi a bien des difficultés à mener à bien son projet et sombre, au gré de ses expériences, dans la folie.",
+    "date_ajout": "2024-06-17",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts313840",
+    "titre": "The Outlaws",
+    "type": "serie",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2021,
+        "note": 7.7
+      }
+    ],
+    "duree": "58 min/ép.",
+    "runtime_minutes": 58,
+    "note_avis": 7.7,
+    "note_recence": 8.5,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "thriller_policier"
@@ -75089,95 +75752,508 @@ const CATALOG_DATA = [
     ],
     "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/345795578/s592/meurtres-au-paradis.jpg",
-    "synopsis": "Le détective Richard Poole est muté à Sainte Marie, une île des Caraïbes. Totalement inadapté au style de vie caribéen, Richard déteste le soleil, la mer et le sable et n'est pas habitué aux méthodes policières de Sainte Marie. Travaillant de pair avec l'exotique Camille, chaque semaine, Richard enquête sur des meurtres complexes et inhabituels.",
-    "date_ajout": "2026-04-27",
+    "poster": "https://images.justwatch.com/poster/320594107/s592/the-outlaws.jpg",
+    "synopsis": "Sept étrangers de différents horizons - des personnes qui n'interagiraient jamais normalement - sont obligés de travailler ensemble pour rénover un centre communautaire abandonné. Ils n'aiment pas le travail physique subalterne et ils s'en veulent l'un à l'autre. Mais lorsque l'un d'entre eux est entraîné dans le monde dangereux du crime organisé, ils s'unissent d'une manière qu'aucun d'entre eux n'aurait cru possible.",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-11",
-      "packageExpirations": {
-        "fra": "2026-10-11",
-        "mlt": "2026-10-11"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm243870",
-    "titre": "Je ne vois que toi",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 50min",
-    "runtime_minutes": 110,
-    "note_avis": 5.4,
-    "note_recence": 7.3,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/305360613/s592/je-ne-vois-que-toi.jpg",
-    "synopsis": "Après avoir perdu la vue dans un accident de voiture qui a coûté la vie à ses parents, Gina est devenue totalement dépendante de James – une dépendance qui semble nourrir leur amour passionnel. Jusqu’au jour où la jeune femme recouvre partiellement la vue grâce à une greffe de la cornée. Soudain, elle découvre le monde et affirme une volonté d’indépendance qui déstabilise profondément James. Le couple résistera-t-il à ce nouvel équilibre ?",
-    "date_ajout": "2026-07-06",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-11",
-      "packageExpirations": {
-        "aoc": "2026-10-11"
-      }
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": false
   },
   {
-    "id": "jw-tm464524",
-    "titre": "J'irai où tu iras",
+    "id": "jw-tm142162",
+    "titre": "Green Room",
     "type": "film",
-    "chaine": "Ciné+ OCS",
+    "chaine": "Sooner",
     "chaines": [
-      "Ciné+ OCS"
+      "Sooner",
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "aoc"
+      "snr",
+      "sdz"
     ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 5.4,
-    "note_recence": 7.9,
-    "note_globale": 6.7,
-    "etoiles": 3,
+    "annee": 2016,
+    "annee_moyenne": 2016,
+    "duree": "1h 35min",
+    "runtime_minutes": 95,
+    "note_avis": 6.9,
+    "note_recence": 7,
+    "note_globale": 7,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "crm",
+      "hrr",
+      "trl"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/9073855/s592/green-room-2016.jpg",
+    "synopsis": "Au terme d’une tournée désastreuse, le groupe de punk rock The Ain’t Rights accepte au pied levé de donner un dernier concert au fin fond de l’Orégon… pour finalement se retrouver à la merci d’un gang de skinheads particulièrement violents. Alors qu’ils retournent en coulisses après leur show, les membres du groupe tombent sur un cadavre encore chaud et deviennent alors la cible du patron du club et de ses sbires, plus que jamais déterminés à éliminer tout témoin gênant…",
+    "date_ajout": "2026-01-06",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1161236",
+    "titre": "Influencer",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 32min",
+    "runtime_minutes": 92,
+    "note_avis": 6.2,
+    "note_recence": 9.1,
+    "note_globale": 7.7,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/306843407/s592/influencer.jpg",
+    "synopsis": "Lors d’une excursion solitaire en Thaïlande, l’influenceuse Madison rencontre CW, qui lui montre une façon de voyager beaucoup plus désinhibée. Mais l’intérêt de CW pour elle va prendre une tournure plus sombre.",
+    "date_ajout": "2024-04-05",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1350344",
+    "titre": "Terrifier 3",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "2h 05min",
+    "runtime_minutes": 125,
+    "note_avis": 6.2,
+    "note_recence": 9.4,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr"
+    ],
+    "badge": "18",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/340553702/s592/terrifier-3.jpg",
+    "synopsis": "Après avoir survécu au massacre d'Halloween perpétré par Art Le Clown, Sienna et son frère tentent de reconstruire leur vie. Alors que les fêtes de fin d'année approchent, ils s'efforcent de laisser derrière eux les horreurs passées. Cependant, au moment où ils se croyaient enfin à l'abri, Art refait surface, bien décidé à transformer Noël en un véritable cauchemar.",
+    "date_ajout": "2026-08-06",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1535717",
+    "titre": "Strange Harvest",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 34min",
+    "runtime_minutes": 94,
+    "note_avis": 6.2,
+    "note_recence": 9.7,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/349204399/s592/strange-harvest.jpg",
+    "synopsis": "Un contrôle de routine dans la banlieue de San Bernardino conduit à une découverte macabre : une famille de trois personnes a été ligotée, saignée et posée sous un étrange symbole écrit en lettres de sang au plafond. L'inspecteur Joe Kirby et Lexi Taylor reconnaissent le symbole comme la carte de visite d'un tueur datant de 15 ans et se faisant appeler Mr. Shiny, qui semble être revenu pour continuer sa série de meurtres.",
+    "date_ajout": "2026-07-02",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts474514",
+    "titre": "The German",
+    "type": "serie",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2025,
+        "note": 7.7
+      }
+    ],
+    "duree": "43 min/ép.",
+    "runtime_minutes": 43,
+    "note_avis": 7.7,
+    "note_recence": 9.7,
+    "note_globale": 8.7,
+    "etoiles": 5,
     "categories": [
       "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/350188548/s592/the-german.jpg",
+    "synopsis": "À la suite de leur rencontre juste après la Seconde Guerre mondiale, un homme et une femme qui ont tout perdu, finissent par tomber amoureux. 25 ans plus tard, Uri et Anna continuent de s’aimer. Dans un kibboutz au bord de la mer de Galilée où ils se sont installés et ont fondé une famille, ils mettent tout en œuvre pour oublier leur passé de survivants de l’Holocauste. Mais lorsque le Mossad recrute Uri pour une mission dangereuse en Allemagne, les souvenirs refont surface et viennent fissurer l’union si parfaite, tandis qu’une terrible suspicion s’installe chez Anna. Parallèlement l’un à l’autre, ils s’embarqueront dans un voyage secret qui bouleversera leur vie et dont ils ne pourront plus se défaire.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1436222",
+    "titre": "Things Will Be Different",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 5.2,
+    "note_recence": 9.4,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/324963645/s592/things-will-be-different-2024.jpg",
+    "synopsis": "Afin d'échapper à la police après un cambriolage, deux frères et sœurs se cachent dans une ferme qui les fait basculer dans une autre époque.",
+    "date_ajout": "2026-06-18",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts306301",
+    "titre": "Pistol",
+    "type": "serie",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2022,
+        "note": 7.6
+      }
+    ],
+    "duree": "52 min/ép.",
+    "runtime_minutes": 52,
+    "note_avis": 7.6,
+    "note_recence": 8.8,
+    "note_globale": 8.2,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "msc"
+    ],
+    "badge": "18",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/281787281/s592/pistol.jpg",
+    "synopsis": "L’histoire d’une insurrection musicale, celle des Sex Pistols, telle que l’a vécue Steve Jones, le guitariste et membre fondateur du groupe. Ses souvenirs hilarants, émouvants et parfois déchirants nous font revivre, dans un récit kaléidoscopique, trois des années les plus extraordinaires, les plus chaotiques et les plus obscènes de toute l’histoire de la musique, ou comment un groupe de jeunes prolétaires boutonneux, turbulents et « sans avenir » a fait trembler l’ordre établi, failli renverser le gouvernement, et révolutionné la musique et la culture populaire",
+    "date_ajout": "2024-06-12",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1376792",
+    "titre": "Lord of Misrule",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 44min",
+    "runtime_minutes": 104,
+    "note_avis": 5.3,
+    "note_recence": 9.1,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/313545377/s592/lord-of-misrule.jpg",
+    "synopsis": "Lorsque la fille du nouveau prêtre de la ville disparaît pendant la fête des récoltes, une recherche désespérée commence, révélant la sombre histoire de la ville et faisant resurgir les histoires d'un esprit mystérieux et malveillant qui exige des sacrifices.",
+    "date_ajout": "2024-11-28",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1602179",
+    "titre": "Sweetness",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2026,
+    "annee_moyenne": 2026,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 5.4,
+    "note_recence": 10,
+    "note_globale": 7.7,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/341019032/s592/sweetness.jpg",
+    "synopsis": "Lorsqu'une grande admiratrice apprend que son idole chute dans sa dépendance, elle a pour objectif de le sauver, qu'il le veuille ou non. Cependant, lorsqu'elle perd la maîtrise de son plan désespéré, elle décide d'enlever la vedette de rock afin de le soigner. Ce qui constituait initialement un acte de compassion devient aussitôt un kidnapping lorsqu'elle enferme ce dernier au nom de l'amour.",
+    "date_ajout": "2026-07-16",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm819054",
+    "titre": "L'origine du monde",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 38min",
+    "runtime_minutes": 98,
+    "note_avis": 5.8,
+    "note_recence": 8.5,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/208630763/s592/lorigine-du-monde-2020-0.jpg",
+    "synopsis": "Jean-Louis réalise en rentrant chez lui que son cœur s'est arrêté. Plus un seul battement dans sa poitrine, aucun pouls, rien. Pourtant, il est conscient, il parle, se déplace. Est-il encore vivant ? Est-il déjà mort ? Ni son ami vétérinaire Michel, ni sa femme Valérie ne trouvent d'explication à cet étrange phénomène. Alors que Jean-Louis panique, Valérie se tourne vers Margaux, sa coach de vie, un peu gourou, pas tout à fait marabout, mais très connectée aux forces occultes. Et elle a une solution qui va mettre Jean-Louis face au tabou ultime...",
+    "date_ajout": "2020-09-07",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm136207",
+    "titre": "Taxi Téhéran",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2015,
+    "annee_moyenne": 2015,
+    "duree": "1h 21min",
+    "runtime_minutes": 81,
+    "note_avis": 8.5,
+    "note_recence": 6.7,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -75186,44 +76262,10739 @@ const CATALOG_DATA = [
     ],
     "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/148924868/s592/jirai-ou-tu-iras.jpg",
-    "synopsis": "Vali et Mina sont deux sœurs que tout oppose, éloignées par les épreuves de la vie. L’une est chanteuse, rêveuse et émotive. L’autre est thérapeute, distante et rationnelle. Leur père aimant finit par trouver l’occasion rêvée pour les rassembler le temps d’un week-end et tenter de les réconcilier : Vali a décroché une audition à Paris et c’est Mina qui va devoir l’y emmener malgré son mépris pour la passion de sa sœur.  C’est une histoire de retrouvailles, une histoire d’amour entre deux sœurs, l’histoire d’une famille qui s’aime mais qui ne sait plus se le dire.",
-    "date_ajout": "2026-09-12",
+    "poster": "https://images.justwatch.com/poster/302288295/s592/taxi-teheran.jpg",
+    "synopsis": "Installé au volant de son taxi, Jafar Panahi sillonne les rues animées de Téhéran. Au gré des passagers qui se succèdent et se confient à lui, le réalisateur dresse le portrait de la société iranienne entre rires et émotion...",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-11",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": true
+  },
+  {
+    "id": "jw-tm1634392",
+    "titre": "The Occupant",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 44min",
+    "runtime_minutes": 104,
+    "note_avis": 4.7,
+    "note_recence": 9.7,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/331744606/s592/the-occupant.jpg",
+    "synopsis": "Pour venir en aide à sa sœur mourante, Abby se retrouve seule sur des terres hostiles russes où une aide mystérieuse pourrait être (ou non) son salut.",
+    "date_ajout": "2026-04-09",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1143611",
+    "titre": "Cochonne",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 39min",
+    "runtime_minutes": 99,
+    "note_avis": 6.1,
+    "note_recence": 8.8,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/301011104/s592/piggy.jpg",
+    "synopsis": "Sara doit supporter les incessantes moqueries des autres filles de sa ville. Mais tout s'arrête lorsqu'un étranger arrive et kidnappe les bourreaux de Sara. Cette dernière semble en savoir plus qu'elle ne le dit. Elle devra décider entre parler et sauver les filles, ou ne rien dire afin de protéger l'étranger qui l'a sauvée.",
+    "date_ajout": "2026-07-23",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm243752",
+    "titre": "Saint Georges",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "1h 52min",
+    "runtime_minutes": 112,
+    "note_avis": 6.9,
+    "note_recence": 7.3,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/174496930/s592/sao-jorge.jpg",
+    "synopsis": "Jorge, boxeur fauché et sans emploi, voit sa femme le quitter pour repartir au Brésil avec leur fils. Le Portugal étant au bord de la faillite, les sociétés de recouvrement prospèrent. Pour sauver sa famille, Jorge décide alors d'offrir ses services à l'une d'entre elles, malgré leurs méthodes d'intimidation peu scrupuleuses...",
+    "date_ajout": "2023-07-03",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts311321",
+    "titre": "Tschugger",
+    "type": "serie",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2021,
+    "annee_fin": 2024,
+    "annee_moyenne": 2023,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2021,
+        "note": 8.3
+      },
+      {
+        "saison": 2,
+        "annee": 2022,
+        "note": 8.3
+      },
+      {
+        "saison": 3,
+        "annee": 2023,
+        "note": 8.3
+      },
+      {
+        "saison": 4,
+        "annee": 2024,
+        "note": 8.3
+      }
+    ],
+    "duree": "30 min/ép.",
+    "runtime_minutes": 30,
+    "note_avis": 8.3,
+    "note_recence": 9.1,
+    "note_globale": 8.7,
+    "etoiles": 5,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "cmy",
+      "crm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/320909824/s592/tschugger.jpg",
+    "synopsis": "Au cœur de la nouvelle série SRF «Tschugger» («policiers» en argot suisse-allemand): un poste de police cantonale valaisan dont les agents, mis à part s'occuper de moutons qui s'échappent, traquer des chauffards récalcitrants et assurer une présence à la fête du village, n'ont pas grand-chose à se mettre sous la dent. Jusqu'à ce qu'une improbable tentative de meurtre déclenche soudainement une avalanche d'événements qui emporte tout sur son passage.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1231480",
+    "titre": "Au cœur des volcans : Requiem pour Katia et Maurice Krafft",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 25min",
+    "runtime_minutes": 85,
+    "note_avis": 7.6,
+    "note_recence": 9.4,
+    "note_globale": 8.5,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "hst"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/300908652/s592/au-coeur-des-volcans-requiem-pour-katia-et-maurice-krafft.jpg",
+    "synopsis": "En s’emparant des captivantes archives cinématographiques des volcanologues Katia et Maurice Krafft, Werner Herzog célèbre avec poésie la vie, brutalement interrompue en 1991, de deux chercheurs et preneurs d’images à l’oeuvre unique.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm890969",
+    "titre": "Becky",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 6.1,
+    "note_recence": 8.2,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "act",
+      "crm",
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/243842612/s592/becky.jpg",
+    "synopsis": "La vie de Becky, 14 ans, vient de basculer suite à la mort de sa mère. Contrariée de devoir passer le week-end à la campagne avec son père et sa nouvelle belle-mère, elle va devoir affronter une nouvelle épreuve quand un groupe de prisonniers évadés emmené par le cruel néonazi Dominick prennent la famille en otage, à la recherche d'un mystérieux talisman. Les criminels sont loin de se douter que la jeune adolescente peut renverser le rapport de force et faire d’eux ses proies…",
+    "date_ajout": "2026-02-05",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1516565",
+    "titre": "The 4:30 Movie",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 28min",
+    "runtime_minutes": 88,
+    "note_avis": 6,
+    "note_recence": 9.4,
+    "note_globale": 7.7,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/321153339/s592/the-4-30-movie.jpg",
+    "synopsis": "Été 1986, trois amis de seize ans passent leurs samedis à aller voir des films en cachette au ciné du coin. L'un d'entre eux trouve le courage d'inviter la fille de ses rêves à voir la dernière comédie du moment.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1438631",
+    "titre": "Dahomey",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 08min",
+    "runtime_minutes": 68,
+    "note_avis": 6.7,
+    "note_recence": 9.4,
+    "note_globale": 8.1,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/311795874/s592/dahomey.jpg",
+    "synopsis": "Novembre 2021, vingt-six trésors royaux du Dahomey s’apprêtent à quitter Paris pour être rapatriés vers leur terre d’origine, devenue le Bénin. Avec plusieurs milliers d’autres, ces œuvres furent pillées lors de l’invasion des troupes coloniales françaises en 1892. Mais comment vivre le retour de ces ancêtres dans un pays qui a dû se construire et composer avec leur absence ? Tandis que l’âme des œuvres se libère, le débat fait rage parmi les étudiants de l’université d’Abomey Calavi.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1634597",
+    "titre": "Mother of Flies",
+    "type": "film",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2026,
+    "annee_moyenne": 2026,
+    "duree": "1h 32min",
+    "runtime_minutes": 92,
+    "note_avis": 5.4,
+    "note_recence": 10,
+    "note_globale": 7.7,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/340036700/s592/mother-of-flies.jpg",
+    "synopsis": "Quand une jeune femme découvre qu'elle est en phase terminale d'une maladie, elle part dans les bois consulter une adepte de la magie noire. Mais ce remède a un prix.",
+    "date_ajout": "2026-09-30",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 31/01",
+      "daysLeft": 112,
+      "expirationDate": "2027-01-31",
       "packageExpirations": {
-        "aoc": "2026-10-11"
+        "ima": "2027-01-31"
       }
     },
     "on_prime": false,
     "on_tnt": false
   },
   {
-    "id": "jw-tm449587",
-    "titre": "La Lutte des classes",
+    "id": "jw-tm1347819",
+    "titre": "Last Straw",
     "type": "film",
-    "chaine": "Ciné+ OCS",
+    "chaine": "Sooner",
     "chaines": [
-      "Ciné+ OCS"
+      "Sooner",
+      "Shadowz"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "aoc"
+      "snr",
+      "sdz"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 21min",
+    "runtime_minutes": 81,
+    "note_avis": 5.5,
+    "note_recence": 9.4,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/319817391/s592/last-straw-2024.jpg",
+    "synopsis": "Entre les petites frappes du coin à remettre en place, le cuistot sardonique et un serveur un peu trop collant, Nancy subit son job au dîner de son père. Alors qu’elle assure seule un service de nuit, un groupe d’individus masqués s’en prend à l’établissement.",
+    "date_ajout": "2024-10-29",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1350342",
+    "titre": "Blaga’s Lessons",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 54min",
+    "runtime_minutes": 114,
+    "note_avis": 7.1,
+    "note_recence": 9.4,
+    "note_globale": 8.3,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/311421398/s592/blagas-lessons.jpg",
+    "synopsis": "Blaga, 70 ans, est une ancienne enseignante d’une grande rigueur morale. Mais lorsque des escrocs lui dérobent l’argent qu’elle avait économisé pour la tombe de son mari, elle commence progressivement à perdre ses repères entre le bien et le mal.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts439006",
+    "titre": "Reunion",
+    "type": "serie",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2025,
+        "note": 7.1
+      }
+    ],
+    "duree": "56 min/ép.",
+    "runtime_minutes": 56,
+    "note_avis": 7.1,
+    "note_recence": 9.7,
+    "note_globale": 8.4,
+    "etoiles": 5,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/331595263/s592/reunion.jpg",
+    "synopsis": "Fraîchement sorti de prison, Daniel Brennan incarne le combat d'un homme pris entre deux mondes.  Rejeté par ses proches et la communauté sourde après son crime odieux, il peine à se réintégrer dans le monde des entendants.  Dans cette solitude, son seul lien significatif est sa fille Carly, dont il est sans nouvelles depuis son arrestation plus de dix ans auparavant.\r\n",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1353782",
+    "titre": "Best Wishes to All",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 29min",
+    "runtime_minutes": 89,
+    "note_avis": 6.6,
+    "note_recence": 9.4,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/317021348/s592/mina-ni-sachi-are.jpg",
+    "synopsis": "Une adolescente en visite chez ses grands-parents pendant ses vacances universitaires découvre ce qui leur a apporté une vie de bonheur. Une révélation qui la conduira à remettre en question ses choix, sa santé mentale et la réalité elle-même.",
+    "date_ajout": "2025-10-26",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1640485",
+    "titre": "The Home",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 35min",
+    "runtime_minutes": 95,
+    "note_avis": 5.5,
+    "note_recence": 9.7,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/335079893/s592/the-home-2025.jpg",
+    "synopsis": "Max, un homme perturbé, trouve un emploi dans une maison de retraite. Il se rend compte que les résidents et les aide-soignants cachent de sinistres secrets. Alors qu'il enquête sur le bâtiment et plus précisément sur le quatrième étage condamné, il commence à découvrir des liens avec son propre passé en tant qu'enfant placé.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1079919",
+    "titre": "Bull",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 28min",
+    "runtime_minutes": 88,
+    "note_avis": 6.5,
+    "note_recence": 8.5,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "fnt",
+      "trl"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/271552537/s592/bull-2021.jpg",
+    "synopsis": "Bull revient mystérieusement chez lui après dix ans d’absence pour se venger de ceux qui l’ont trahi il y a des années.",
+    "date_ajout": "2021-11-05",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1220256",
+    "titre": "Good Boy",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner",
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "snr",
+      "sdz"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 16min",
+    "runtime_minutes": 76,
+    "note_avis": 5.6,
+    "note_recence": 8.8,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/306902321/s592/good-boy-2022.jpg",
+    "synopsis": "Sigrid et Christian se rencontrent via une application. Le charme agit et ils passent une première nuit ensemble, à l’issue de laquelle Sigrid fait la connaissance de Frank, le chien de Christian. Problème : Frank est de toute évidence un homme déguisé en animal.",
+    "date_ajout": "2026-06-03",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts346015",
+    "titre": "Life After Life",
+    "type": "serie",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2022,
+        "note": 7.3
+      }
+    ],
+    "duree": "54 min/ép.",
+    "runtime_minutes": 54,
+    "note_avis": 7.3,
+    "note_recence": 8.8,
+    "note_globale": 8.1,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "fnt"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/271631021/s592/life-after-life.jpg",
+    "synopsis": "Et si vous pouviez revivre votre vie encore et encore, parviendriez-vous un jour à la maîtriser ? Ursula meurt et renaît, traversant des périodes tumultueuses – mais pour quelle raison doit-elle absolument rester en vie ?\n",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1471490",
+    "titre": "My Sunshine",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 7.2,
+    "note_recence": 9.4,
+    "note_globale": 8.3,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "spt"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/345863695/s592/my-sunshine.jpg",
+    "synopsis": "Sur l’île d’Hokkaido, l’hiver est la saison du hockey pour les garçons. Takuya, lui, est davantage subjugué par Sakura, tout juste arrivée de Tokyo, qui répète des enchaînements de patinage artistique. Il tente maladroitement de l’imiter si bien que le coach de Sakura, touché par ses efforts, décide de les entrainer en duo en vue d’une compétition prochaine… À mesure que l’hiver avance, une harmonie s’installe entre eux malgré leurs différences. Mais les premières neiges fondent et le printemps arrive, inéluctable.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1384981",
+    "titre": "Winnie-the-Pooh: Blood and Honey 2",
+    "type": "film",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 4.6,
+    "note_recence": 9.4,
+    "note_globale": 7,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/319828513/s592/winnie-the-pooh-blood-and-honey-2.jpg",
+    "synopsis": "Winnie l'ourson, Porcinet, Hibou et Tigrou ne veulent plus vivre dans l'ombre et mènent leur combat dans la ville d'Ashdown, laissant dans leur sillage une traînée sanglante de mort et de désordre.",
+    "date_ajout": "2026-05-19",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": true
+  },
+  {
+    "id": "jw-tm461997",
+    "titre": "In Search of Darkness",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
+    "duree": "4h 24min",
+    "runtime_minutes": 264,
+    "note_avis": 8,
+    "note_recence": 7.9,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "doc",
+      "hst",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/300774734/s592/in-search-of-darkness-a-journey-into-iconic-80s-horror.jpg",
+    "synopsis": "Une exploration des films d'horreur des années 80 à travers la perspective des acteurs, des réalisateurs, des producteurs et des artisans du SFX qui les ont réalisés, et leur impact sur le cinéma contemporain.",
+    "date_ajout": "2023-03-30",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1533661",
+    "titre": "Jimmy and Stiggs",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 20min",
+    "runtime_minutes": 80,
+    "note_avis": 5.4,
+    "note_recence": 9.7,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "hrr",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/340785895/s592/jimmy-and-stiggs.jpg",
+    "synopsis": "Un cinéaste malchanceux prétend avoir été enlevé par des extraterrestres et se promet de les faire tomber avec son ami.",
+    "date_ajout": "2025-10-29",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm349755",
+    "titre": "Parvana, une enfance en Afghanistan",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "1h 34min",
+    "runtime_minutes": 94,
+    "note_avis": 7.7,
+    "note_recence": 7.3,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "ani",
+      "drm",
+      "war",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/56790327/s592/parvana-une-enfance-en-afghanistan.jpg",
+    "synopsis": "En Afghanistan, sous le régime taliban, Parvana, onze ans, grandit à Kaboul ravagé par la guerre. Elle aime écouter les histoires que lui raconte son père, lecteur et écrivain public. Mais un jour, il est arrêté et la vie de Parvana bascule à jamais. Car sans être accompagnée d’un homme, on ne peut plus travailler, ramener de l’argent ni même acheter de la nourriture. Parvana décide alors de se couper les cheveux et de se travestir en garçon afin de venir en aide à sa famille. Risquant à tout moment d’être démasquée, elle reste déterminée à trouver un moyen de sauver son père. Parvana est un conte merveilleux sur l’émancipation des femmes et l’imagination face à l’oppression.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1301533",
+    "titre": "Scrapper",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 24min",
+    "runtime_minutes": 84,
+    "note_avis": 6.9,
+    "note_recence": 9.1,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/309761981/s592/scrapper-2023.jpg",
+    "synopsis": "Banlieue de Londres. Georgie 12 ans vit seule depuis la mort de sa mère. Elle se débrouille au quotidien pour éloigner les travailleurs sociaux, raconte qu’elle vit avec un oncle, gagne de l’argent en faisant un trafic de vélo avec son ami Ali. Cet équilibre fonctionne jusqu’à l’arrivée de Jason, un jeune homme qu’elle ne connait pas et se présente comme étant son père.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm983678",
+    "titre": "Flee",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 29min",
+    "runtime_minutes": 89,
+    "note_avis": 7.9,
+    "note_recence": 8.5,
+    "note_globale": 8.2,
+    "etoiles": 5,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "ani",
+      "doc",
+      "drm",
+      "eur"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/284548412/s592/flugt.jpg",
+    "synopsis": "Pour la première fois, Amin, 36 ans, un jeune réfugié afghan homosexuel, accepte de raconter son histoire. Allongé les yeux clos sur une table recouverte d’un tissu oriental, il replonge dans son passé, entre innocence lumineuse de son enfance à Kaboul dans les années 1980 et traumatismes de la fuite de sa famille pour la Russie pendant la guerre civile, avant la prise du pouvoir par les talibans.",
+    "date_ajout": "2025-11-04",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1424449",
+    "titre": "Hérésie",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 01min",
+    "runtime_minutes": 61,
+    "note_avis": 6.3,
+    "note_recence": 9.4,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "fnt",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/330121927/s592/heresie.jpg",
+    "synopsis": "Au Moyen Âge, dans un petit village très pieux de Hollande, Frieda tente de concevoir un enfant avec son mari. Malheureusement, elle ne parvient pas à tomber enceinte, et les villageois commencent à la soupçonner d'avoir conclu un pacte avec le diable qui résiderait dans la forêt.",
+    "date_ajout": "2025-01-30",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts83360",
+    "titre": "The Guest",
+    "type": "serie",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2018,
+        "note": 8
+      }
+    ],
+    "duree": "66 min/ép.",
+    "runtime_minutes": 66,
+    "note_avis": 8,
+    "note_recence": 7.6,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/146253523/s592/son-the-guest.jpg",
+    "synopsis": "Liés par un passé tragique, un médium, un prêtre et une détective unissent leurs forces pour combattre un esprit assoiffé de sang.",
+    "date_ajout": "2026-05-18",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 31/12",
+      "daysLeft": 81,
+      "expirationDate": "2026-12-31",
+      "packageExpirations": {
+        "ima": "2026-12-31"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm140195",
+    "titre": "Discount",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2014,
+    "annee_moyenne": 2014,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 6.2,
+    "note_recence": 6.4,
+    "note_globale": 6.3,
+    "etoiles": 3,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "scf",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/146287702/s592/discount.jpg",
+    "synopsis": "Pour lutter contre la mise en place de caisses automatiques qui menace leurs emplois, les employés d’un Hard Discount créent clandestinement leur propre « Discount alternatif », en récupérant des produits qui auraient dû être gaspillés…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1666091",
+    "titre": "The Confession",
+    "type": "film",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2026,
+    "annee_moyenne": 2026,
+    "duree": "1h 27min",
+    "runtime_minutes": 87,
+    "note_avis": 5.7,
+    "note_recence": 10,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/340912478/s592/the-confession-2026.jpg",
+    "synopsis": "Lorsqu'une musicienne en difficulté retourne vivre dans la maison de son enfance, elle découvre un enregistrement dans lequel son père décédé avoue avoir commis un meurtre horrible afin de se protéger d'une force maléfique inconnue. Alors que son jeune fils adopte un comportement de plus en plus inquiétant, elle tente désespérément de mettre fin à ce mal.",
+    "date_ajout": "2026-07-31",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 31/12",
+      "daysLeft": 81,
+      "expirationDate": "2026-12-31",
+      "packageExpirations": {
+        "ima": "2026-12-31"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm889981",
+    "titre": "Chien Pourri, la vie à Paris",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "1h 02min",
+    "runtime_minutes": 62,
+    "note_avis": 6.8,
+    "note_recence": 8.2,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "ani",
+      "cmy",
+      "fml"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/239548180/s592/chien-pourri-la-vie-a-paris.jpg",
+    "synopsis": "Il était une fois un chien parisien, naïf et passionné appelé Chien Pourri. Avec Chaplapla, son fidèle compagnon de gouttière, Chien Pourri arpente les rues de Paris la truffe au vent. Peu importe les catastrophes qu’il provoque, Chien Pourri retombe toujours sur ses pattes ! Tant et si bien que les autres chiens commencent à trouver ça louche. La folle aventure de Chien Pourri et ses amis pour faire découvrir la poésie de Paris aux tout-petits !",
+    "date_ajout": "2025-11-30",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1630175",
+    "titre": "The Other",
+    "type": "film",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 39min",
+    "runtime_minutes": 99,
+    "note_avis": 4.8,
+    "note_recence": 9.7,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/336635803/s592/the-other-2025.jpg",
+    "synopsis": "Un orphelin placé en famille d'accueil sème un chaos sinistre.",
+    "date_ajout": "2026-05-19",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 31/12",
+      "daysLeft": 81,
+      "expirationDate": "2026-12-31",
+      "packageExpirations": {
+        "ima": "2026-12-31"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1428534",
+    "titre": "Vivre avec les loups",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 29min",
+    "runtime_minutes": 89,
+    "note_avis": 7.6,
+    "note_recence": 9.4,
+    "note_globale": 8.5,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/319599389/s592/vivre-avec-les-loups.jpg",
+    "synopsis": "Il y aura bientôt des loups un peu partout en France. Il faut donc apprendre à « vivre avec les loups ».  Dépassant les postures polémiques, l’auteur nous amène de manière sensible et cinématographique à percevoir différemment la nature qui nous entoure et les animaux qui l’habitent : chevreuils, chamois, bouquetins…  Un voyage de Jean-Michel Bertrand avec de surprenantes rencontres, humaines et animales, avec son style inimitable, le réalisateur nous entraîne dans des réflexions naturalistes et philosophiques sur la nature.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1299411",
+    "titre": "Satan Wants You",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 28min",
+    "runtime_minutes": 88,
+    "note_avis": 6.7,
+    "note_recence": 9.1,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "crm",
+      "doc",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/307702705/s592/satan-wants-you.jpg",
+    "synopsis": "L’histoire d’une jeune femme et de son psychiatre qui, avec leur best-seller Michelle Remembers, ont contribué à alimenter la vague de panique autour du satanisme dans les années 1980.",
+    "date_ajout": "2026-01-01",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm318293",
+    "titre": "Sicilian Ghost Story",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "2h 02min",
+    "runtime_minutes": 122,
+    "note_avis": 6.5,
+    "note_recence": 7.3,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "fnt",
+      "rma",
+      "eur"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/83494325/s592/sicilian-ghost-story.jpg",
+    "synopsis": "Dans un village sicilien aux confins d’une forêt, Giuseppe, 13 ans, disparaît. Luna, une camarade de classe, refuse la disparition du garçon dont elle est amoureuse et tente de rompre la loi du silence. Pour le retrouver, au risque de sa propre vie, elle tente de rejoindre le monde obscur où son ami est emprisonné et auquel le lac offre une mystérieuse voie d’accès.",
+    "date_ajout": "2024-07-17",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1375113",
+    "titre": "Quitter la nuit",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 48min",
+    "runtime_minutes": 108,
+    "note_avis": 6.2,
+    "note_recence": 9.1,
+    "note_globale": 7.7,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/310061286/s592/quitter-la-nuit.jpg",
+    "synopsis": "Une nuit, une femme en danger appelle la police. Anna prend l'appel. Un homme est arrêté. Les semaines passent, la justice cherche des preuves, Aly, Anna et Dary font face aux échos de cette nuit qu'ils ne parviennent pas à quitter.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1196261",
+    "titre": "EO",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 28min",
+    "runtime_minutes": 88,
+    "note_avis": 6.7,
+    "note_recence": 8.8,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "act",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/301099746/s592/eo-2022.jpg",
+    "synopsis": "Le monde est un lieu mystérieux, surtout vu à travers les yeux d'un animal. Sur son chemin, EO, un âne gris aux yeux mélancoliques, rencontre des gens bien et d'autres mauvais, fait l'expérience de la joie et de la peine, et la roue de la fortune transforme tour à tour sa chance en désastre et son désespoir en bonheur inattendu. Mais jamais, à aucun instant, il ne perd son innocence.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1284622",
+    "titre": "Kim's Video",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 29min",
+    "runtime_minutes": 89,
+    "note_avis": 6.9,
+    "note_recence": 9.1,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "hst"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/312754349/s592/kims-video.jpg",
+    "synopsis": "Dès 1987, et pendant près de trente ans, les cinéphiles new-yorkais ont eu accès à un véritable trésor de films rares grâce à Kim's Video, un petit empire dirigé par l'énigmatique Yongman Kim, qui avait accumulé plus de cinquante mille cassettes VHS.\n",
+    "date_ajout": "2026-06-04",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1233127",
+    "titre": "Lola",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 19min",
+    "runtime_minutes": 79,
+    "note_avis": 6.4,
+    "note_recence": 9.1,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "drm",
+      "scf",
+      "war"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/312686240/s592/lola-2023.jpg",
+    "synopsis": "Londres, 1938. Mars invente Lola, machine révolutionnaire capable d’intercepter les émissions de radio et de télévision du futur. Alors que sa sœur Thom danse sur les tubes de David Bowie, face à la menace nazie, les deux jeunes femmes décident d’utiliser leur technologie afin de déjouer les plans allemands. Sauf que manipuler le temps n’est pas sans conséquences…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm211656",
+    "titre": "Les Twinners et la malédiction de Souptown",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2015,
+    "annee_moyenne": 2015,
+    "duree": "1h 45min",
+    "runtime_minutes": 105,
+    "note_avis": 6.6,
+    "note_recence": 6.7,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "act",
+      "fnt",
+      "fml",
+      "trl",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/8801027/s592/les-twinners-et-la-malediction-de-souptown.jpg",
+    "synopsis": "Un mal étrange s'est abattu sur Souptown : frappés de démence, les adultes se mettent à régresser à l'état d'enfants. Décidés à conjurer cette malédiction, Les Twinners, quatre aventuriers en herbe, se lancent dans une véritable enquête. Ils découvrent bientôt l'existence d'une société secrète. Eux seuls peuvent stopper son incroyable complot. Y parviendront-ils à temps ?",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1165875",
+    "titre": "Soft & Quiet",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 31min",
+    "runtime_minutes": 91,
+    "note_avis": 6.2,
+    "note_recence": 8.8,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/308898579/s592/soft-and-quiet.jpg",
+    "synopsis": "Une enseignante en école primaire, qui organise la première réunion d'un club qu'elle souhaite fonder avec des femmes partageant sa façon de penser. Décidant de poursuivre leur soirée en allant boire du vin chez Emily, elles s'arrêtent à l'épicerie du coin pour se ravitailler. Sur place, une altercation éclate entre une femme du passé d'Emily et le groupe, entraînant une série d'incidents explosifs.",
+    "date_ajout": "2024-02-22",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts388059",
+    "titre": "8 months",
+    "type": "serie",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2024,
+        "note": 6.4
+      }
+    ],
+    "duree": "44 min/ép.",
+    "runtime_minutes": 44,
+    "note_avis": 6.4,
+    "note_recence": 9.4,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/348213653/s592/doktrinen.jpg",
+    "synopsis": "Une jeune journaliste obtient par hasard le scoop politique d’une vie et se retrouve alors propulsée au rang d’attachée de presse du nouveau ministre des Affaires étrangères de Suède. Mais serait-elle devenue, malgré elle, un pion dans un échiquier qui menace la sécurité nationale du pays ? Se déroulant dans le contexte géopolitique actuel, elle va se rapprocher d’une opération des renseignements russes ayant pour but d’affaiblir les relations de la Suède avec l’OTAN.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1109769",
+    "titre": "Poulet Frites",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 7.2,
+    "note_recence": 8.8,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "doc",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/269762762/s592/poulet-frites.jpg",
+    "synopsis": "Strip Tease est de retour ! Dans ce nouveau long-métrage, une prostituée bruxelloise est assassinée à son domicile. Alain, son ex-compagnon boucher et junkie notoire, semble être le coupable idéal...\n Ce film est un remontage en noir et blanc de trois épisodes de 52 minutes tournés dans les années 2000, originellement en couleur et appelés 'Le flic, la juge et l’assassin'.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm830329",
+    "titre": "Marche avec les loups",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "1h 28min",
+    "runtime_minutes": 88,
+    "note_avis": 7.2,
+    "note_recence": 8.2,
+    "note_globale": 7.7,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/208723892/s592/marche-avec-les-loups.jpg",
+    "synopsis": "Le grand mystère de la dispersion des loups. Comment ils quittent le territoire qui les a vus naître et la façon dont ils partent à la conquête de nouveaux territoires. Ce voyage se déroule comme un road-movie entre les Alpes et le Jura.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1301354",
+    "titre": "Sur l'Adamant",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 49min",
+    "runtime_minutes": 109,
+    "note_avis": 6.8,
+    "note_recence": 9.1,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/338358244/s592/sur-ladamant.jpg",
+    "synopsis": "L’Adamant est un Centre de Jour unique en son genre : c’est un bâtiment flottant. Édifié sur la Seine, en plein cœur de Paris, il accueille des adultes souffrant de troubles psychiques, leur offrant un cadre de soins qui les structure dans le temps et l’espace, les aide à renouer avec le monde, à retrouver un peu d’élan. L’équipe qui l’anime est de celles qui tentent de résister autant qu’elles peuvent au délabrement et à la déshumanisation de la psychiatrie. Ce film nous invite à monter à son bord pour aller à la rencontre des patients et soignants qui en inventent jour après jour le quotidien.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1107888",
+    "titre": "Rendez-vous à Tokyo",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 55min",
+    "runtime_minutes": 115,
+    "note_avis": 6.9,
+    "note_recence": 8.8,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/306059012/s592/rendez-vous-a-tokyo.jpg",
+    "synopsis": "Les 26 juillet se suivent et ne se ressemblent pas… C’est le jour où ils se sont rencontrés, celui où ils se sont aimés, où ils se sont séparés. Sept rendez-vous entre un danseur professionnel et une conductrice de taxi dans le Tokyo d’aujourd’hui.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm134794",
+    "titre": "Dragon Ball Z - La Résurrection de ‘F’",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2015,
+    "annee_moyenne": 2015,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 7.2,
+    "note_recence": 6.7,
+    "note_globale": 7,
+    "etoiles": 4,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "act",
+      "ani",
+      "cmy",
+      "fnt",
+      "fml",
+      "scf"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/141120260/s592/dragon-ball-z-la-resurrection-de-f.jpg",
+    "synopsis": "Une Terre où régnait la paix. Cependant, des survivants de l'armée de Freezer, Sorbet et Tagoma arrivent sur la planète. Leur but est de ressusciter Freezer avec les Dragon Balls. Leur terrible souhait est accordé, et le « F » qui avait organisé sa vengeance sur les Saiyans est revenu à la vie… !",
+    "date_ajout": "2023-07-06",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts84952",
+    "titre": "Priest",
+    "type": "serie",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2018,
+        "note": 7
+      }
+    ],
+    "duree": "60 min/ép.",
+    "runtime_minutes": 60,
+    "note_avis": 7,
+    "note_recence": 7.6,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl",
+      "rma",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/136678333/s592/priest.jpg",
+    "synopsis": "Oh Soo-min, hanté par le souvenir de sa mère morte sous l’emprise d’un démon, est un exorciste professionnel. Ham Eun-ho est chirurgienne à l’hôpital South Sung-mo. Contrairement à Soo-min, elle fonde ses convictions sur la médecine moderne et rejette toute méthode religieuse. Mais lorsque des esprits maléfiques attaquent l’hôpital, ces deux que tout oppose seront obligés d’allier leurs forces...",
+    "date_ajout": "2026-05-19",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1239357",
+    "titre": "Pour la France",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 53min",
+    "runtime_minutes": 113,
+    "note_avis": 6.2,
+    "note_recence": 9.1,
+    "note_globale": 7.7,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/302367300/s592/pour-la-france.jpg",
+    "synopsis": "Aïssa Saïdi est un jeune officier de 23 ans d’origine algérienne. Lors d’un rituel d’intégration dans la prestigieuse école militaire française de Saint-Cyr, il perd la vie. Son grand frère Ismaël, le mouton noir de la famille, se retrouve à la pointe du combat pour l’organisation de ses funérailles... Une intrigue issue d’un drame très personnel vécu par le réalisateur en 2012.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm173702",
+    "titre": "Trance",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2013,
+    "annee_moyenne": 2013,
+    "duree": "1h 41min",
+    "runtime_minutes": 101,
+    "note_avis": 6.9,
+    "note_recence": 6.1,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/324958400/s592/trance.jpg",
+    "synopsis": "Commissaire-priseur expert dans les œuvres d’art, Simon se fait le complice du gang de Franck pour voler un tableau d’une valeur de plusieurs millions de dollars. Dans le feu de l’action, Simon reçoit un violent coup sur la tête. À son réveil, il n’a plus aucun souvenir de l’endroit où il a caché le tableau. Ni les menaces ni la torture ne lui feront retrouver la mémoire. Franck engage alors une spécialiste de l’hypnose pour tenter de découvrir la réponse dans les méandres de l’esprit de Simon…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts367855",
+    "titre": "Putain",
+    "type": "serie",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2024,
+        "note": 8.2
+      }
+    ],
+    "duree": "33 min/ép.",
+    "runtime_minutes": 33,
+    "note_avis": 8.2,
+    "note_recence": 9.4,
+    "note_globale": 8.8,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/323335418/s592/putain.jpg",
+    "synopsis": "Lorsque Gigi, un adolescent de Bruxelles, découvre que sa mère Anaïs sort à nouveau avec son ex, un homme toxique et toxicomane, il lui pose un ultimatum : c'est lui ou son amant. Anaïs alors incapable de choisir, Gigi décide de quitter la maison.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1016820",
+    "titre": "Horror in the High Desert",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 22min",
+    "runtime_minutes": 82,
+    "note_avis": 5.4,
+    "note_recence": 8.5,
+    "note_globale": 7,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/248455584/s592/horror-in-the-high-desert.jpg",
+    "synopsis": "Des amis et des proches se réunissent pour se remémorer les événements qui ont conduit à la disparition d'un amateur de plein air expérimenté dans le nord du Nevada.",
+    "date_ajout": "2022-11-24",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1419483",
+    "titre": "Exhibiting Forgiveness",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "2h 02min",
+    "runtime_minutes": 122,
+    "note_avis": 7,
+    "note_recence": 9.4,
+    "note_globale": 8.2,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/322591662/s592/exhibiting-forgiveness.jpg",
+    "synopsis": "Un artiste noir qui se libère de son pas­sé à tra­vers ses pein­tures voit son ascen­sion vers le suc­cès contra­riée après la visite impromp­tue de son père, un ancien toxi­co­mane déses­pé­ré à l’idée de se récon­ci­lier avec son fils. Ils vont batailler ensemble et apprendre qu’il est plus dif­fi­cile d’oublier que de pardonner.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm348187",
+    "titre": "Nico, 1988",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 6.7,
+    "note_recence": 7.3,
+    "note_globale": 7,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "msc",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/43267687/s592/nico-1988.jpg",
+    "synopsis": "Entre Paris, Prague, Nuremberg, Manchester, la campagne polonaise et le littoral romain, Nico, 1988 est un road movie dédié aux dernières années de Christa Päffgen, plus connue sous le nom de scène de « Nico ». Muse de Warhol, chanteuse du Velvet Underground et femme à la beauté légendaire, Nico a connu une seconde carrière, en tant qu’artiste solo. Nico, 1988 retrace l’histoire de sa dernière tournée avec le groupe qui l’accompagna à travers l’Europe dans les années 80. C’est l’histoire de la renaissance d’une artiste, d’une mère, de la femme derrière l’icône.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm952626",
+    "titre": "Vicious Fun",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
     "duree": "1h 43min",
     "runtime_minutes": 103,
+    "note_avis": 6.5,
+    "note_recence": 8.5,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "hrr",
+      "rma"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/245305540/s592/vicious-fun.jpg",
+    "synopsis": "Années 80, Joel est un geek comme on n’en fait plus. Naïf, fan de films d'horreur et secrètement amoureux de sa colocataire. Après une soirée arrosée, il se retrouver malgré lui au beau milieu d’une séance d’assassins anonymes. Deux solutions s’offrent à lui : mouiller son pantalon et terminer en sashimi humain ou faire appel à son encyclopédique connaissance du genre pour passer incognito…",
+    "date_ajout": "2021-10-30",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1079966",
+    "titre": "Martyrs Lane",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 37min",
+    "runtime_minutes": 97,
+    "note_avis": 5.5,
+    "note_recence": 8.8,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/251477034/s592/martyrs-lane.jpg",
+    "synopsis": "Leah, 10 ans, vit dans une grande et vieille maison avec sa famille, mais elle n'arrive pas à comprendre pourquoi sa mère semble si distante. La nuit, elle reçoit la visite d'un mystérieux invité, qui pourrait lui donner des réponses. Avec un nouveau défi chaque nuit, Leah est récompensée par des bribes de connaissances qui, une fois rassemblées, menacent d'éclairer dangereusement la vérité de ses cauchemars et du monde dans lequel elle vit.",
+    "date_ajout": "2026-04-01",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm831244",
+    "titre": "Phil Tippett: Des rêves et des monstres",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 20min",
+    "runtime_minutes": 80,
+    "note_avis": 7.3,
+    "note_recence": 7.9,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/255895099/s592/phil-tippett-des-reves-et-des-monstres.jpg",
+    "synopsis": "Animateur de stop motion, designer et réalisateur, Phil Tippett a donné naissance à quelques créatures légendaires, de Jabba le Hutt aux insectes géants de Starship Troopers. Mais derrière ce brillant technicien hollywoodien, récompensé aux Oscars pour Le Retour du Jedi et Jurassic Park, il y a un artiste fou, qui passe ses journées à expérimenter dans son atelier avec tout ce qui lui passe sous la main. Bénéficiant d’un accès illimité aux collections et aux archives de Tippett Studio, ce documentaire étudie l’héritage de Phil Tippett, depuis sa collaboration avec George Lucas jusqu’à des œuvres plus personnelles.",
+    "date_ajout": "2025-12-11",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1411642",
+    "titre": "Chainsaws Were Singing",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 39min",
+    "runtime_minutes": 99,
+    "note_avis": 6.6,
+    "note_recence": 9.4,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "action_aventure"
+    ],
+    "raw_genres": [
+      "act",
+      "cmy",
+      "hrr",
+      "msc",
+      "rma"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/316081803/s592/chainsaws-were-singing.jpg",
+    "synopsis": "Maria vient de perdre son boulot, sa famille et son chien. Tom, transi de chagrin à cause d’une rupture, s’apprête à mettre fin à ses jours. Alors que tout espoir de bonheur semble hors de portée, leurs regards se croisent et le miracle opère : ils tombent amoureux. Alors qu’ils batifolent dans les champs de fleurs, rien ne semble pouvoir perturber leur idylle. Rien, si ce n’est un maniaque armé d’une tronçonneuse qui kidnappe Maria. N’écoutant que son courage, Tom se lance à la rescousse de sa bien-aimée sans se douter des obstacles qui l’attendent. À commencer par son incompétence totale en matière d’héroïsme.",
+    "date_ajout": "2026-04-23",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm423436",
+    "titre": "Le retour de Ben",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 43min",
+    "runtime_minutes": 103,
+    "note_avis": 6.7,
+    "note_recence": 7.6,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/113064833/s592/ben-is-back.jpg",
+    "synopsis": "La veille de Noël, Ben, 19 ans, revient dans sa famille après plusieurs mois d’absence. Sa mère, Holly, l’accueille à bras ouverts tout en redoutant qu’il ne cède une fois de plus à ses addictions. Commence alors une nuit qui va mettre à rude épreuve l’amour inconditionnel de cette mère prête à tout pour protéger son fils.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm79522",
+    "titre": "Boy A",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2008,
+    "annee_moyenne": 2008,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 7.5,
+    "note_recence": 4.6,
+    "note_globale": 6.1,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/238965357/s592/boy-a.jpg",
+    "synopsis": "À 24 ans, Jack sort de prison où il a passé toute son adolescence pour un meurtre qu'il a commis lorsqu'il était enfant. Dès sa libération, Terry, assistant social, l'emmène le plus loin possible de ce scandale encore présent dans tous les esprits. Terry lui donne un autre nom, lui trouve un travail, une maison.",
+    "date_ajout": "2025-01-03",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1304465",
+    "titre": "Super bourrés",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 19min",
+    "runtime_minutes": 79,
+    "note_avis": 6,
+    "note_recence": 9.1,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/306101081/s592/super-bourres.jpg",
+    "synopsis": "Dernière journée avant la fin du lycée. Janus et Sam doivent apporter à boire pour participer à la fête de fin d’année. Alors qu’ils fouillent dans la cave du père de Janus à la recherche de bouteilles, ils font la découverte d’une étrange machine…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm171430",
+    "titre": "Lessons in Love",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2014,
+    "annee_moyenne": 2014,
+    "duree": "1h 51min",
+    "runtime_minutes": 111,
+    "note_avis": 6.6,
+    "note_recence": 6.4,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/258203592/s592/words-and-pictures.jpg",
+    "synopsis": "Professeur d'anglais à l'Université Jack Marcus déplore l'utilisation obsessionnelle qu'ont ses élèves des réseaux sociaux. Ancienne star littéraire et en crise personnelle, Jack n'a pas publié depuis des années. Il retrouve son inspiration au travers d'une rivalité avec Dina Delsanto, une peintre abstraite autrefois célèbre pour son art, reconvertie en enseignante, à cause d'une arthrite précoce. Dès le début, les deux flirtent et se provoquent avec la même délectation.  Ils embrigaderont leurs élèves dans une joute pour savoir quelle est la plus belle forme d'art : les images ou les mots.",
+    "date_ajout": "2025-10-29",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm317289",
+    "titre": "12 jours",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "1h 27min",
+    "runtime_minutes": 87,
+    "note_avis": 7.1,
+    "note_recence": 7.3,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/298139024/s592/12-jours.jpg",
+    "synopsis": "Avant 12 jours, les personnes hospitalisées en psychiatrie sans leur consentement sont présentées en audience, d’un côté un juge, de l’autre un patient, entre eux naît un dialogue sur le sens du mot liberté et de la vie.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm449028",
+    "titre": "Golden Glove",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 50min",
+    "runtime_minutes": 110,
+    "note_avis": 6.7,
+    "note_recence": 7.9,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "cmy",
+      "crm",
+      "drm",
+      "hrr",
+      "trl",
+      "eur"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/131242601/s592/golden-glove.jpg",
+    "synopsis": "Hambourg, années 70. Au premier abord, Fritz Honka, n’est qu’un pitoyable looser. Cet homme à la gueule cassée traîne la nuit dans un bar miteux de son quartier, le « Gant d’or » (« Golden Glove »), à la recherche de femmes seules. Les habitués ne soupçonnent pas que Honka, en apparence inoffensif, est un véritable monstre...",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm141553",
+    "titre": "Good Kill",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2015,
+    "annee_moyenne": 2015,
+    "duree": "1h 44min",
+    "runtime_minutes": 104,
+    "note_avis": 6.4,
+    "note_recence": 6.7,
+    "note_globale": 6.6,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl",
+      "war"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/9932971/s592/good-kill.jpg",
+    "synopsis": "Le Commandant Tommy Egan, pilote de chasse reconverti en pilote de drone, combat douze heures par jour les Talibans derrière sa télécommande, depuis sa base, à Las Vegas. De retour chez lui, il passe l’autre moitié de la journée à se quereller avec sa femme, Molly et ses enfants. Tommy remet cependant sa mission en question. Ne serait-il pas en train de générer davantage de terroristes qu’il n’en extermine ? L’histoire d’un soldat, une épopée lourde de conséquences.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1264076",
+    "titre": "Beaten to Death",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 32min",
+    "runtime_minutes": 92,
+    "note_avis": 4.9,
+    "note_recence": 9.1,
+    "note_globale": 7,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "act",
+      "hrr"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/307144206/s592/beaten-to-death.jpg",
+    "synopsis": "Jack échoue au milieu de nulle part après avoir survécu de justesse à une horrible agression. Bientôt, sa peine continue quand il devient la proie des psychopathes du village.",
+    "date_ajout": "2024-01-25",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm988716",
+    "titre": "À la folie",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "1h 22min",
+    "runtime_minutes": 82,
+    "note_avis": 7.3,
+    "note_recence": 8.2,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/300798913/s592/a-la-folie-2020.jpg",
+    "synopsis": "Pour fêter l'anniversaire de sa mère, Emmanuelle vient passer quelques jours dans la maison de son enfance. Elle y retrouve temps passé et souvenirs qui règnent dans les lieux, mais aussi sa sœur aînée dont l’instabilité psychologique a trop souvent affecté les relations familiales. Personne ne se doute que cette fête de famille va rapidement prendre une tournure inattendue…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1449357",
+    "titre": "The Owner",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 49min",
+    "runtime_minutes": 109,
+    "note_avis": 6.9,
+    "note_recence": 9.1,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/333320484/s592/the-owner.jpg",
+    "synopsis": "Un homme ordinaire sauve par hasard un haut responsable des services de sécurité. Ce geste généreux se transforme en piège: leur amitié naissante devient une relation de dépendance et de manipulation, révélant la violence d'un système corrompu et oppressif.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm247716",
+    "titre": "Le complexe de Frankenstein",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2015,
+    "annee_moyenne": 2015,
+    "duree": "1h 44min",
+    "runtime_minutes": 104,
+    "note_avis": 7.4,
+    "note_recence": 6.7,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/104977325/s592/le-complexe-de-frankenstein.jpg",
+    "synopsis": "Après avoir rendu le plus beau des hommages à l’un des pères fondateurs du cinéma fantastique, Alexandre Poncet et Gilles Penso élargissent le spectre de leur recherche passionnée et cinéphile avec Le Complexe de Frankenstein, documentaire amoureux sur les magiciens responsables de quelques créatures parmi les plus traumatisantes du 7ème Art. Riche en interviews et images inédites, le documentaire des duettistes français n’est pas un simple effort didactique : c’est une véritable invitation au voyage.",
+    "date_ajout": "2025-10-20",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1524909",
+    "titre": "The Severed Sun",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 20min",
+    "runtime_minutes": 80,
+    "note_avis": 5.1,
+    "note_recence": 9.7,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/332092704/s592/the-severed-sun.jpg",
+    "synopsis": "Après le meurtre d’un membre de sa communauté, Magpie, fille du pasteur, voit la paranoïa s'accroître tandis que se répandent les rumeurs d’une bête tapie dans la forêt.",
+    "date_ajout": "2026-05-28",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm418165",
+    "titre": "Reine d'un été",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "1h 07min",
+    "runtime_minutes": 67,
+    "note_avis": 6.5,
+    "note_recence": 7.3,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "fml",
+      "eur"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/77270129/s592/la-reine-dun-ete.jpg",
+    "synopsis": "Les vacances viennent de commencer et Léa, 10 ans, n’a pas envie de partir en colonie car elle ne partage plus vraiment les centres d’intérêt des filles de son âge. Une après-midi, elle découvre une bande de garçons en train de construire un radeau et tente de se joindre à eux mais ils n’acceptent pas les filles... Quand ils la mettent au défi de prouver son courage et sa détermination, c’est le début d’un été riche en aventures.",
+    "date_ajout": "2021-09-23",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1492246",
+    "titre": "L'Art d'être heureux",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 50min",
+    "runtime_minutes": 110,
+    "note_avis": 5.1,
+    "note_recence": 9.4,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/326321396/s592/de-lart-ou-du-machond.jpg",
+    "synopsis": "Jean-Yves Machond, peintre mondialement méconnu et globalement malheureux, décide un jour de changer de vie. Il va chercher l’inspiration dans une petite ville normande, afin de concevoir un chef-d’œuvre qui lui vaudra enfin gloire et reconnaissance éternelle. Mais sa rencontre avec les artistes locaux, du chaleureux Bagnoule à l’habile Cécile, va quelque peu le faire dévier de son chemin, et le mettre face à son rêve le plus profond : celui d’être un homme heureux, tout simplement.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1662063",
+    "titre": "Night of the Reaper",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 5.8,
+    "note_recence": 9.7,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/335043741/s592/night-of-the-reaper.jpg",
+    "synopsis": "Dans une banlieue tranquille des années 80, une baby-sitter est assassinée par un mystérieux tueur masqué surnommé le Faucheur. Des années plus tard, Deena, une jeune étudiante, revient dans sa ville natale et accepte de garder le fils du shérif local, sans savoir que le meurtrier est de retour. Alors que le shérif reçoit d’inquiétantes cassettes révélant des indices du passé, Deena devient la nouvelle cible du Faucheur, déclenchant une nuit de terreur et de révélations autour d’une vengeance cachée.",
+    "date_ajout": "2026-02-12",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1198620",
+    "titre": "Lynch/Oz",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 48min",
+    "runtime_minutes": 108,
+    "note_avis": 6.9,
+    "note_recence": 9.1,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/310525000/s592/lynch-oz.jpg",
+    "synopsis": "Alexandre O. Philippe a invité six critiques de cinéma et cinéastes américains et leur a donné carte blanche pour explorer leur propre théorie sur la relation entre Lynch et Oz. Les participants incluent Karyn Kusama, John Waters, Amy Nicholson. Sept nouvelles perspectives et sept nouvelles façons de considérer comment l’influence et l’inspiration affectent le processus créatif.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1364928",
+    "titre": "The Moor",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "2h 00min",
+    "runtime_minutes": 120,
+    "note_avis": 5.2,
+    "note_recence": 9.4,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/323302703/s592/the-moor.jpg",
+    "synopsis": "Claire est contactée par le père de son ami d'enfance assassiné pour l'aider à enquêter sur le marais hanté qu'il pense être la dernière demeure de son fils.",
+    "date_ajout": "2025-03-27",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1467802",
+    "titre": "Horror in the High Desert 3: Firewatch",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 28min",
+    "runtime_minutes": 88,
+    "note_avis": 5.4,
+    "note_recence": 9.4,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/314218488/s592/horror-in-the-high-desert-3-firewatch.jpg",
+    "synopsis": "Alors qu'un incendie fait rage d'un côté de l'État, Oscar Mendoza, armé d'un secret, profite de la distraction pour se rendre dans le nord-est du Nevada à la recherche du dernier endroit connu où se trouve Gary Hinge.",
+    "date_ajout": "2024-10-27",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm817513",
+    "titre": "Blood on Her Name",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "1h 24min",
+    "runtime_minutes": 84,
+    "note_avis": 5.7,
+    "note_recence": 8.2,
+    "note_globale": 7,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "act",
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/171305322/s592/blood-on-her-name.jpg",
+    "synopsis": "Leigh Tiller, mécanicienne en difficulté et mère célibataire, se retrouve en détresse lorsqu'elle décide de dissimuler un cadavre trouvé dans son garage. Lorsqu'elle décide de remettre le corps à la famille du défunt, une série de mauvaises décisions l'entraîne dans une spirale incontrôlable.",
+    "date_ajout": "2023-05-11",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm897902",
+    "titre": "Josep",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "1h 20min",
+    "runtime_minutes": 80,
+    "note_avis": 7.3,
+    "note_recence": 8.2,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "ani",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/241782446/s592/josep.jpg",
+    "synopsis": "Février 1939. Submergé par le flot de Républicains fuyant la dictature franquiste, le gouvernement français les parque dans des camps. Deux hommes séparés par les barbelés vont se lier d’amitié. L’un est gendarme, l’autre est dessinateur. De Barcelone à New York, l'histoire vraie de Josep Bartolí, combattant antifranquiste et artiste d'exception.",
+    "date_ajout": "2026-06-17",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 30/11",
+      "daysLeft": 50,
+      "expirationDate": "2026-11-30",
+      "packageExpirations": {
+        "fra": "2026-11-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": true
+  },
+  {
+    "id": "jw-tm469228",
+    "titre": "La femme de mon frère",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 57min",
+    "runtime_minutes": 117,
+    "note_avis": 6.6,
+    "note_recence": 7.9,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "fml"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/165762007/s592/la-femme-de-mon-frere.jpg",
+    "synopsis": "Montréal. Sophia, jeune et brillante diplômée sans emploi, vit chez son frère Karim. Leur relation fusionnelle est mise à l’épreuve lorsque Karim, dragueur invétéré, tombe éperdument amoureux d’Eloïse, la gynécologue de Sophia…",
+    "date_ajout": "2025-09-11",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1149605",
+    "titre": "Something in the Dirt",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 56min",
+    "runtime_minutes": 116,
+    "note_avis": 5.8,
+    "note_recence": 8.8,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "hrr",
+      "trl",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/305151198/s592/something-in-the-dirt.jpg",
+    "synopsis": "Deux voisins tentent d’expliquer les phénomènes paranormaux dont ils sont témoins, et se perdent dans un dédale conspi.",
+    "date_ajout": "2023-04-27",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm409247",
+    "titre": "Trois Visages",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 7,
+    "note_recence": 7.6,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/78822967/s592/trois-visages.jpg",
+    "synopsis": "Une célèbre actrice iranienne reçoit la troublante vidéo d’une jeune fille implorant son aide pour échapper à sa famille conservatrice... Elle demande alors à son ami, le réalisateur Jafar Panahi, de l’aider à comprendre s’il s’agit d’une manipulation. Ensemble, ils prennent la route en direction du village de la jeune fille, dans les montagnes reculées du Nord-Ouest où les traditions ancestrales continuent de dicter la vie locale.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1287832",
+    "titre": "Un coup de maître",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 35min",
+    "runtime_minutes": 95,
+    "note_avis": 5.7,
+    "note_recence": 9.1,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/309841510/s592/un-coup-de-maitre-2023.jpg",
+    "synopsis": "Propriétaire d’une galerie d’art à Paris, Arthur Forestier représente Renzo Nervi, un peintre figuratif en pleine crise existentielle. Les deux hommes sont amis depuis toujours et, même si tout les oppose, l’amour de l’art les réunit. En panne de création depuis plusieurs années, Renzo sombre peu à peu dans une radicalité qui l'isole. Pour le sauver, Arthur élabore un plan audacieux qui finira par les dépasser tout en les faisant revenir tous les deux sur le devant de la scène artistique...",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm893352",
+    "titre": "The Housewife",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "2h 03min",
+    "runtime_minutes": 123,
+    "note_avis": 6.1,
+    "note_recence": 8.2,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/259693319/s592/the-housewife-2020.jpg",
+    "synopsis": "C'est en rencontrant son ancien amant de faculté, que Toko, profondément établie en tant que femme au foyer, voit soudain renaître en elle le désir de travailler, et de reprendre son métier d'architecte. Mais peut-on jamais retrouver la vie qu'on a délaissée pendant tant d'années ?",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1498061",
+    "titre": "Somnium",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 30min",
+    "runtime_minutes": 90,
+    "note_avis": 4.9,
+    "note_recence": 9.7,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/333877944/s592/somnium.jpg",
+    "synopsis": "Dans la clinique du sommeil expérimentale Somnium, les rêves deviennent réels. Les effets secondaires peuvent inclure : hallucinations, paranoïa et cauchemars permanents.",
+    "date_ajout": "2025-11-27",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm242894",
+    "titre": "A.R.C.H.I.E. Chien Robot",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2016,
+    "annee_moyenne": 2016,
+    "duree": "1h 28min",
+    "runtime_minutes": 88,
+    "note_avis": 4.9,
+    "note_recence": 7,
+    "note_globale": 6,
+    "etoiles": 3,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "cmy",
+      "fml",
+      "scf"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/34151636/s592/a-r-c-h-i-e.jpg",
+    "synopsis": "Lorsque l'armée met fin à son programme, une roboticienne parvient à s'enfuir avec sa création : une machine dotée de super pouvoirs et de l'apparence d'un chien.",
+    "date_ajout": "2025-06-25",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm59668",
+    "titre": "Hannah Arendt",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2012,
+    "annee_moyenne": 2012,
+    "duree": "1h 53min",
+    "runtime_minutes": 113,
+    "note_avis": 7.1,
+    "note_recence": 5.8,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/174852681/s592/hannah-arendt.jpg",
+    "synopsis": "1961 :  La philosophe juive allemande Hannah Arendt est envoyée à Jérusalem par le New Yorker pour couvrir le procès d’Adolf Eichmann, responsable de la déportation de millions de juifs. Les articles qu’elle publie et sa théorie de “La banalité du mal” déclenchent une controverse sans précédent. Son obstination et l’exigence de sa pensée se heurtent à l’incompréhension de ses proches et provoquent son isolement.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1475165",
+    "titre": "A Desert",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 43min",
+    "runtime_minutes": 103,
+    "note_avis": 5.5,
+    "note_recence": 9.7,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/330883658/s592/a-desert.jpg",
+    "synopsis": "Un photographe se lie d'amitié avec un couple dangereux.",
+    "date_ajout": "2025-05-29",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1420015",
+    "titre": "Krazy House",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner",
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "snr",
+      "sdz"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 29min",
+    "runtime_minutes": 89,
+    "note_avis": 4.8,
+    "note_recence": 9.4,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "cmy",
+      "hrr"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/316535887/s592/krazy-house.jpg",
+    "synopsis": "Années 1990. Lorsque des ouvriers russes travaillant dans la maison de Bernie se révèlent être des criminels recherchés, ils séquestrent Bernie et sa famille et les obligent à démolir l'endroit pour trouver un vieux butin caché.",
+    "date_ajout": "2026-01-25",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm311715",
+    "titre": "M.F.A.",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "1h 35min",
+    "runtime_minutes": 95,
+    "note_avis": 5.9,
+    "note_recence": 7.3,
+    "note_globale": 6.6,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/43610519/s592/m-f-a.jpg",
+    "synopsis": "Timide étudiante en art, Noelle tente de se faire repérer par son travail. Lorsqu'elle est brutalement violée par un autre étudiant, elle se renferme encore plus sur elle-même, peut-être même pour toujours.",
+    "date_ajout": "2021-11-25",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm40982",
+    "titre": "Confession of Murder",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2012,
+    "annee_moyenne": 2012,
+    "duree": "1h 59min",
+    "runtime_minutes": 119,
+    "note_avis": 7,
+    "note_recence": 5.8,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "act",
+      "crm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/242372941/s592/confession-of-murder.jpg",
+    "synopsis": "Après prescription des meurtres qu'il commit, Lee Du-Seok publie une autobiographie dans laquelle il décrit tous les meurtres dans les moindres détails. Le détective Choi, qui a enquêté sur les meurtres de Lee quinze ans auparavant, repart en chasse à nouveau et Han Ji-Soo, dont la fille a été assassinée par Lee, réclame la vengeance. Pendant ce temps, un autre meurtrier apparaît, créant le doute sur la véritable culpabilité de Lee...",
+    "date_ajout": "2023-09-21",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm174537",
+    "titre": "Dragon Ball Z - Battle of Gods",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2013,
+    "annee_moyenne": 2013,
+    "duree": "1h 25min",
+    "runtime_minutes": 85,
+    "note_avis": 7.1,
+    "note_recence": 6.1,
+    "note_globale": 6.6,
+    "etoiles": 3,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "act",
+      "ani",
+      "cmy",
+      "fnt",
+      "fml",
+      "scf"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/318503661/s592/dragon-ball-z-battle-of-gods.jpg",
+    "synopsis": "Quelques années après la disparition de Boo, Beerus, le dieu de la destruction, se réveille après 39 ans d'hibernation. Quelques années auparavant, le Poisson Oracle lui avait prédit qu'un puissant guerrier se dresserait contre lui dans exactement 39 ans. Ayant eu echo de la mort de Freezer, Beerus décide alors de partir à la recherche de son bourreau, Son Goku, dans l'espoir de tomber sur le fameux guerrier de la prophétie du Poisson Oracle.",
+    "date_ajout": "2025-09-07",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1431634",
+    "titre": "Life of Belle",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 13min",
+    "runtime_minutes": 73,
+    "note_avis": 5,
+    "note_recence": 9.4,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/310505541/s592/life-of-belle.jpg",
+    "synopsis": "En 2018, Annabelle Starnes, 8 ans, a disparu. La police du comté de York a diffusé des images de surveillance de la maison dans l'espoir de trouver de nouvelles pistes.",
+    "date_ajout": "2025-01-01",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1079979",
+    "titre": "The Righteous",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 37min",
+    "runtime_minutes": 97,
+    "note_avis": 6,
+    "note_recence": 8.5,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/273179716/s592/the-righteous.jpg",
+    "synopsis": "Un homme accablé ressent la colère d'un Dieu vengeur après que lui et sa femme aient reçu la visite d'un mystérieux étranger.",
+    "date_ajout": "2025-01-31",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm139345",
+    "titre": "Back Home",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2015,
+    "annee_moyenne": 2015,
+    "duree": "1h 49min",
+    "runtime_minutes": 109,
+    "note_avis": 6.6,
+    "note_recence": 6.7,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/250090761/s592/louder-than-bombs.jpg",
+    "synopsis": "Alors que se prépare une exposition consacrée à la célèbre photographe Isabelle Reed trois ans après sa mort accidentelle, son mari et ses deux fils sont amenés à se réunir dans la maison familiale et évoquer ensemble les fantômes du passé…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1315742",
+    "titre": "Godless: The Eastfield Exorcism",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 32min",
+    "runtime_minutes": 92,
+    "note_avis": 5.4,
+    "note_recence": 9.1,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/307509998/s592/godless-the-eastfield-exorcism.jpg",
+    "synopsis": "Sous pression par son mari, Lara subit les punitions d'un exorciste qui tente de sauver son âme en l'obligeant à vivre un enfer.",
+    "date_ajout": "2024-04-25",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1536796",
+    "titre": "Marco",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "2h 25min",
+    "runtime_minutes": 145,
+    "note_avis": 6.5,
+    "note_recence": 9.4,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "act",
+      "crm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/321225914/s592/marco-2024.jpg",
+    "synopsis": "Marco, fils adoptif de la famille Adattu, se lance dans une quête de vengeance impitoyable après le meurtre brutal de son frère.  À chaque étape, il ne trouve que trahison, perte et une brutalité inimaginable.\n",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1513142",
+    "titre": "Chain Reactions",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 7,
+    "note_recence": 9.7,
+    "note_globale": 8.4,
+    "etoiles": 5,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "doc",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/335709986/s592/chain-reactions.jpg",
+    "synopsis": "[Shadowz Exclu] Il y a cinquante ans, Massacre à la Tronçonneuse de Tobe Hooper choquait les spectateurs du monde entier, changeant ainsi à jamais le visage du cinéma et de la culture populaire. Aujourd’hui, ce documentaire retrace l’impact profond et l’influence durable du film sur cinq artistes de talent à travers leurs premiers souvenirs, leurs expériences sensorielles et leurs traumatismes d’enfance.",
+    "date_ajout": "2025-11-27",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1232530",
+    "titre": "Candy Land",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner",
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "snr",
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 5.3,
+    "note_recence": 9.1,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/300671887/s592/candy-land.jpg",
+    "synopsis": "Une jeune paumée rejoint une bande de prostitués officiant autour d’une station-service, et les cadavres commencent à s’empiler.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm443655",
+    "titre": "Lake Michigan Monster",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 18min",
+    "runtime_minutes": 78,
+    "note_avis": 6.3,
+    "note_recence": 7.6,
+    "note_globale": 7,
+    "etoiles": 4,
+    "categories": [
+      "action_aventure"
+    ],
+    "raw_genres": [
+      "act",
+      "cmy",
+      "fnt",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/306601895/s592/lake-michigan-monster.jpg",
+    "synopsis": "Le capitaine Seafield fait appel à un équipage de marginaux pour tuer un monstre qui rôde dans les profondeurs du lac Michigan. Son obsession de venger la mort de son père menace de le détruire. L'expert en armement Sean Shaughnessy, le spécialiste des sonars Nedge Pepsi et l'officier de la N.A.V.Y. Dick Flynn doivent maintenir la cohésion de l'équipage.",
+    "date_ajout": "2025-09-25",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1219676",
+    "titre": "Love Life",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "2h 03min",
+    "runtime_minutes": 123,
+    "note_avis": 6.9,
+    "note_recence": 8.8,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/305247889/s592/love-life-2022.jpg",
+    "synopsis": "Taeko vit avec son époux Jiro et son fils Keita en face de chez ses beaux-parents, qui n'ont jamais vraiment accepté ce mariage. Alors que Taeko découvre l’existence d'une ancienne fiancée de son mari, le père biologique de Keita refait surface suite à un événement inattendu. C'est le début d'un impitoyable jeu de chaises musicales, dont personne ne sortira indemne.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1198156",
+    "titre": "Feu follet",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 07min",
+    "runtime_minutes": 67,
+    "note_avis": 6,
+    "note_recence": 8.8,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "cmy",
+      "fnt",
+      "msc",
+      "rma",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/280208671/s592/fogo-fatuo.jpg",
+    "synopsis": "Alfredo, un roi sans couronne sur son lit de mort, est ramené à de lointains souvenirs de jeunesse et se rappelle de l'époque où il rêvait de devenir pompier. La rencontre avec l'instructeur Afonso, du corps des pompiers, ouvre un nouveau chapitre dans la vie des deux jeunes hommes plongés dans l'amour et le désir, et à la volonté de changer le statu quo.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm404466",
+    "titre": "Ma vie avec James Dean",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 48min",
+    "runtime_minutes": 108,
+    "note_avis": 6.4,
+    "note_recence": 7.6,
+    "note_globale": 7,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/50235187/s592/ma-vie-avec-james-dean.jpg",
+    "synopsis": "Le jeune réalisateur Géraud Champreux est invité par l’association \"Les Écrans de la Côte\" à présenter au cinéma du Tréport son premier long métrage, Ma Vie avec James Dean. À son arrivée dans cette improbable ville du bout de la terre, il est loin d’imaginer que sa vie est sur le point d’être bouleversée. De rencontres détonantes en projections décevantes, de virées en chalutier en folles courses poursuites, Géraud va trouver une nouvelle inspiration et peut-être même l’amour !",
+    "date_ajout": "2024-12-13",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm999916",
+    "titre": "The Feast",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 5.6,
+    "note_recence": 8.5,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/342759608/s592/the-feast.jpg",
+    "synopsis": "Une jeune femme sert des invités privilégiés lors d'un dîner dans une maison isolée de la campagne galloise. Ces derniers ne savent pas qu'ils sont sur le point de manger leur dernier repas.",
+    "date_ajout": "2022-05-27",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm855890",
+    "titre": "Jack in the Box",
+    "type": "film",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 27min",
+    "runtime_minutes": 87,
+    "note_avis": 4.3,
+    "note_recence": 7.9,
+    "note_globale": 6.1,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/249922515/s592/the-jack-in-the-box.jpg",
+    "synopsis": "Un vieux « Jack in the box » a été déterré et donné au musée dans lequel travaille Casey, un passionné d’objets vintage. Quand celui-ci va se rendre compte que la poupée cachée dans la boîte est en réalité une forme humaine de clown terrifiante animée d’intentions démoniaques, il sera déjà trop tard pour échapper à l’effroyable mécanique…",
+    "date_ajout": "2026-05-19",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 30/11",
+      "daysLeft": 50,
+      "expirationDate": "2026-11-30",
+      "packageExpirations": {
+        "ima": "2026-11-30"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm42542",
+    "titre": "Kirikou et les Hommes et les Femmes",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2012,
+    "annee_moyenne": 2012,
+    "duree": "1h 28min",
+    "runtime_minutes": 88,
+    "note_avis": 6.6,
+    "note_recence": 5.8,
+    "note_globale": 6.2,
+    "etoiles": 3,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "act",
+      "ani",
+      "fnt",
+      "fml",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/238539643/s592/kirikou-et-les-hommes-et-les-femmes.jpg",
+    "synopsis": "Le grand-père nous accueille dans sa grotte bleue, pour de nouvelles confidences. Il restait encore de beaux souvenirs de l’enfance de Kirikou à évoquer : les moments où il a aidé les hommes et les femmes de son village et d’ailleurs… Il nous raconte alors comment Kirikou, grâce à sa bravoure et son intelligence, est venu au secours de la femme forte, dont le toit de la case avait été détruit par Karaba. Il nous apprend par quelle astuce le petit héros a retrouvé le vieux grincheux, qui s’était égaré dans la savane, puis comment une griotte menacée par la sorcière a finalement pu transmettre son savoir aux habitants du village. On découvre aussi le secret d’un mystérieux monstre bleu, et enfin, grâce à une flûte liée à la famille de notre héros petit et vaillant, le pouvoir magique de la musique.",
+    "date_ajout": "2023-12-26",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": true
+  },
+  {
+    "id": "jw-tm1369103",
+    "titre": "Le Déserteur",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 32min",
+    "runtime_minutes": 92,
+    "note_avis": 6.2,
+    "note_recence": 9.4,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl",
+      "war"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/319553809/s592/the-vanishing-soldier.jpg",
+    "synopsis": "Shlomi, un soldat israélien de dix-huit ans, fuit le champ de bataille pour rejoindre sa petite amie à Tel Aviv. Errant dans une ville à la fois paranoïaque et insouciante, il finit par découvrir que l’armée, à sa recherche, est convaincue qu’il a été kidnappé… Un voyage haletant, une ode à une jeunesse qui se bat contre des idéaux qui ne sont pas les siens.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1233197",
+    "titre": "The Harbinger",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 27min",
+    "runtime_minutes": 87,
+    "note_avis": 5.3,
+    "note_recence": 9.1,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/302123685/s592/the-harbinger-2022.jpg",
+    "synopsis": "Monique quitte la quarantaine familiale pour aider une amie qui souffre de terribles cauchemars - mais elle apprend trop tard que les mauvais rêves sont contagieux, tout comme le démon qui se cache derrière eux.",
+    "date_ajout": "2023-10-14",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1363780",
+    "titre": "Falling Stars",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 20min",
+    "runtime_minutes": 80,
+    "note_avis": 4.9,
+    "note_recence": 9.4,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/326293361/s592/falling-stars.jpg",
+    "synopsis": "Des sorcières attaquent les malheureux qui s’aventurent à l’extérieur pendant la nuit et les font disparaître. Malgré le danger, trois frères décident de se rendre sur un site désertique pour voir le cadavre de l’une de ces créatures. Cette décision scellera leur destin et celui de leurs proches.",
+    "date_ajout": "2025-05-22",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1361998",
+    "titre": "Sacrifice Game",
+    "type": "film",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 39min",
+    "runtime_minutes": 99,
+    "note_avis": 5.4,
+    "note_recence": 9.1,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/309531010/s592/the-sacrifice-game.jpg",
+    "synopsis": "En 1971, dans le pensionnat de jeunes filles de Blackvale, Samantha et Clara, deux étudiantes, ne peuvent pas rentrer chez elles pour les vacances et passent les fêtes de Noël dans l'immense école désertée. Lorsqu'une bande de quatre tueurs pénètre dans l'école, les tourments qu'ils vont leur faire subir ne seront que le début d'une nuit où des forces bien plus obscures vont se manifester.",
+    "date_ajout": "2026-08-31",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 31/10",
+      "daysLeft": 20,
+      "expirationDate": "2026-10-31",
+      "packageExpirations": {
+        "ima": "2026-10-31"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm369381",
+    "titre": "La Saveur des rāmen",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 30min",
+    "runtime_minutes": 90,
+    "note_avis": 6.8,
+    "note_recence": 7.6,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/169035990/s592/ramen.jpg",
+    "synopsis": "Masato, jeune chef de rāmen au Japon, a toujours rêvé de partir à Singapour pour retrouver le goût des plats que lui cuisinait sa mère quand il était enfant. Alors qu'il entreprend le voyage culinaire d'une vie, il découvre des secrets familiaux profondément enfouis. Trouvera-t-il la recette pour réconcilier les souvenirs du passé ?",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm139540",
+    "titre": "Un traître idéal",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2016,
+    "annee_moyenne": 2016,
+    "duree": "1h 48min",
+    "runtime_minutes": 108,
+    "note_avis": 6.3,
+    "note_recence": 7,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "act",
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/9535696/s592/un-traitre-ideal.jpg",
+    "synopsis": "En vacances à Marrakech, un couple d’Anglais, Perry et Gail, se lie d’amitié avec un millionnaire russe nommé Dima. Ils ignorent que cet homme charismatique et extravagant blanchit l’argent de la mafia russe… Lorsque Dima demande leur aide pour livrer des informations explosives aux services secrets britanniques, la vie de Perry et Gail bascule. À travers toute l’Europe, ils se retrouvent plongés dans un monde de manipulation et de danger où chaque faux pas peut leur coûter la vie. Pour avoir une chance de s’en sortir, ils vont devoir faire équipe avec un agent anglais aux méthodes vraiment particulières…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm917877",
+    "titre": "Conann",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 45min",
+    "runtime_minutes": 105,
+    "note_avis": 5.8,
+    "note_recence": 9.1,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "act",
+      "fnt",
+      "scf"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/308728843/s592/conann.jpg",
+    "synopsis": "Parcourant les abîmes, le chien des enfers Rainer raconte les six vies de Conann, perpétuellement mise à mort par son propre avenir, à travers les époques, les mythes et les âges. Depuis son enfance, esclave de Sanja et de sa horde barbare, jusqu’à son accession au sommet de la cruauté aux portes de notre monde.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1229499",
+    "titre": "Pengabdi Setan 2 - Communion",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 59min",
+    "runtime_minutes": 119,
+    "note_avis": 6.7,
+    "note_recence": 8.8,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/318569862/s592/pengabdi-setan-2-communion.jpg",
+    "synopsis": "Après avoir déménagé de leur maison à un immeuble d'habitation, une nouvelle terreur attend la famille de Rini.",
+    "date_ajout": "2023-10-23",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts322403",
+    "titre": "Offworld",
+    "type": "serie",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2022,
+        "note": 6.7
+      }
+    ],
+    "duree": "45 min/ép.",
+    "runtime_minutes": 45,
+    "note_avis": 6.7,
+    "note_recence": 8.8,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl"
+    ],
+    "badge": "18",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/348213645/s592/offworld.jpg",
+    "synopsis": "Une tempête solaire frappe la Terre, provoquant une panne d'électricité généralisée. Dans cette nouvelle réalité, cinq histoires se déroulent, mettant en scène des personnages qui luttent pour s'adapter à un monde sans électricité, sans télécommunications ni moyens de transport, où ils sont confrontés à leurs besoins, instincts et peurs les plus primaires.\n",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1926352",
+    "titre": "Horror in the High Desert 4: Majesty",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 17min",
+    "runtime_minutes": 77,
+    "note_avis": 4.9,
+    "note_recence": 9.7,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/339836474/s592/horror-in-the-high-desert-4-majesty.jpg",
+    "synopsis": "[Shadowz Exclu] Dans un ranch désertique du Nevada, une femme découvre une boîte enfouie depuis longtemps. Son contenu commence à révéler une histoire terrifiante qu'elle n'était pas censée découvrir...",
+    "date_ajout": "2026-01-15",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1480218",
+    "titre": "Les filles du Nil",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 7,
+    "note_recence": 9.7,
+    "note_globale": 8.4,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/331796024/s592/les-filles-du-nil.jpg",
+    "synopsis": "Dans un village du sud de l’Égypte, une bande de jeunes filles se rebelle en formant une troupe de théâtre de rue. Rêvant de devenir comédiennes, danseuses et chanteuses, elles défient leurs familles coptes et les habitants de la région avec leurs performances audacieuses. Filmé sur 4 années, Les Filles du Nil suit le parcours de ces jeunes filles qui deviennent femmes.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1113206",
+    "titre": "Cuddly toys",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 6.7,
+    "note_recence": 8.5,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/253247824/s592/cuddly-toys.jpg",
+    "synopsis": "[Shadowz Exclu] En une série de vignettes grinçantes, la professeure Kansas Bowling détaille les dangers d’être une jeune femme dans un monde rempli de prédateurs masculins.",
+    "date_ajout": "2025-01-01",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1478632",
+    "titre": "Il était une fois Michel Legrand",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "2h 00min",
+    "runtime_minutes": 120,
+    "note_avis": 7.4,
+    "note_recence": 9.4,
+    "note_globale": 8.4,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "msc"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/322117722/s592/il-etait-une-fois-michel-legrand.jpg",
+    "synopsis": "« La Musique, c’est la vie ». Michel Legrand entre au Conservatoire de Paris à l’âge de 10 ans et s’impose très vite comme un surdoué. 3 Oscars et 75 ans plus tard, il se produit pour la première fois à la Philharmonie de Paris devant un public conquis. De la chanson jusqu’au Cinéma, ce véritable virtuose n’a jamais cessé de repousser les frontières de son art, collaborant avec des légendes comme Miles Davis, Jacques Demy, Charles Aznavour, Barbra Streisand ou encore Natalie Dessay. Son énergie infinie en fait l’un des compositeurs les plus acclamés du siècle, dont les mélodies flamboyantes continuent de nous enchanter.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm828069",
+    "titre": "L'Ombre de la violence",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 6.8,
+    "note_recence": 8.2,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/272079437/s592/the-shadow-of-violence.jpg",
+    "synopsis": "Dans une ville reculée d’Irlande, Arm, ancien boxeur, est devenu l'homme de main des Devers, famille à la tête d'un réseau de trafic de drogue. Sur son temps libre, il s’efforce d'élever du mieux qu'il peut son fils Jack, atteint d'une forme d'autisme. Mais un jour, la famille Devers demande à Arm l’impensable : pour la première fois, il doit tuer un homme. Tiraillé entre sa loyauté envers ses protecteurs et la sécurité qu'il doit à sa famille, Arm se retrouve face à un dilemme impossible. Il fait alors le choix le plus risqué, celui qui pourrait lui faire tout perdre...",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1372208",
+    "titre": "Bye Bye Tibériade",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 23min",
+    "runtime_minutes": 83,
+    "note_avis": 7.4,
+    "note_recence": 9.4,
+    "note_globale": 8.4,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/311700213/s592/bye-bye-tiberiade.jpg",
+    "synopsis": "Il y a environ trente ans, Hiam Abbass a quitté son village palestinien Deir Hanna, en Galilée, où elle a grandit avec son arrière grand-mère Um Ali, sa mère Neemat et ses sept soeurs, pour poursuivre son rêve de devenir actrice, en France, à Paris. La ville dans laquelle sa fille Lina est née il y a trente-deux ans. Caméra en main, Lina interroge l’exil choisi de sa mère et la façon dont les femmes de la famille, qu’elle a laissées derrière elle, ont pu influencer son imaginaire et ses choix audacieux. Le film met en avant quatre générations de femmes palestiniennes qui préservent leur mémoire intime et collective par la force de leurs relations.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm942318",
+    "titre": "The 100 Candles Game",
+    "type": "film",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 4.3,
+    "note_recence": 8.2,
+    "note_globale": 6.3,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/241253065/s592/the-100-candles-game.jpg",
+    "synopsis": "Un groupe d'amis  doivent affronter leurs peurs avec un jeu terrifiant: Ils doivent s'asseoir dans un cercle composé d'une centaine de bougies, en prendre une et raconter une histoire d'horreur...",
+    "date_ajout": "2026-08-31",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 31/10",
+      "daysLeft": 20,
+      "expirationDate": "2026-10-31",
+      "packageExpirations": {
+        "ima": "2026-10-31"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1350212",
+    "titre": "Le Grand Magasin",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 10min",
+    "runtime_minutes": 70,
+    "note_avis": 6.7,
+    "note_recence": 9.1,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "ani",
+      "fnt",
+      "fml"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/316394167/s592/le-grand-magasin.jpg",
+    "synopsis": "Akino est l’apprentie concierge d’un grand magasin vraiment spécial : les clients y sont tous des animaux ! Qu’ils soient petits ou grands, à poils ou à plumes, Akino travaille dur pour satisfaire toutes leurs demandes… même les plus surprenantes !",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1317743",
+    "titre": "Raging Grace",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner",
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "snr",
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 5.8,
+    "note_recence": 9.1,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/311665714/s592/raging-grace.jpg",
+    "synopsis": "Joy, une émigrée philippine sans papiers, trouve le travail idéal : s'occuper d'un vieil homme riche mais en phase terminale. Ce nouveau poste est bien rémunéré et garantit un toit à elle et à sa fille, Grace. Mais très vite, elles commencent à se rendre compte que tout n'est pas ce qu'il semble être...",
+    "date_ajout": "2024-07-02",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1353647",
+    "titre": "Schock",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 44min",
+    "runtime_minutes": 104,
+    "note_avis": 6.3,
+    "note_recence": 9.4,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/320443593/s592/schock.jpg",
+    "synopsis": "Bruno, médecin, n'a plus le droit d'exercer. A Cologne, il s'occupe désormais de patients qui préfèrent rester en dehors du système et se fournit en médicaments dans des circuits parallèles. Connu pour sa discrétion, la pègre locale fait appel à ses services pour soigner des chefs de gang blessés par balle ou des prostituées dans les bordels de la ville. Un jour, Kreber, un avocat, s'adresse à...",
+    "date_ajout": "2026-05-05",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm176901",
+    "titre": "Puzzle",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2014,
+    "annee_moyenne": 2014,
+    "duree": "2h 17min",
+    "runtime_minutes": 137,
+    "note_avis": 6.3,
+    "note_recence": 6.4,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma",
+      "eur"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/243219791/s592/puzzle.jpg",
+    "synopsis": "Puzzle raconte trois histoires d’amour, de passion, et de trahison qui se déroulent à New York, Paris et Rome.  Michael, écrivain lauréat du Prix Pulitzer, s’est enfermé dans la suite d’un hôtel parisien pour achever son dernier roman. Il a récemment quitté sa femme Elaine  et il entretient une liaison orageuse avec Anna, une jeune romancière ambitieuse.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts84789",
+    "titre": "Arde Madrid",
+    "type": "serie",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2018,
+        "note": 7.6
+      }
+    ],
+    "duree": "30 min/ép.",
+    "runtime_minutes": 30,
+    "note_avis": 7.6,
+    "note_recence": 7.6,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm"
+    ],
+    "badge": "18",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/320921095/s592/arde-madrid.jpg",
+    "synopsis": "Madrid, 1961. Ana Mari est célibataire, boiteuse, franquiste et instructrice de la Sección Femenina. Sur ordre du dictateur Franco, elle doit aller travailler comme domestique chez Ava Gardner et l'espionner, faisant semblant d'être mariée à Manolo, un arnaqueur qui deviendra le chauffeur de l'actrice américaine.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1149614",
+    "titre": "Monstres gentils",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 29min",
+    "runtime_minutes": 89,
+    "note_avis": 6.2,
+    "note_recence": 9.1,
+    "note_globale": 7.7,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/309837934/s592/gentle.jpg",
+    "synopsis": "Pour remporter le concours de Miss Olympia, Edina est prête à tous les sacrifices. Plongée dans l’univers impitoyable du bodybuilding.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1614261",
+    "titre": "Dead by Dawn",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 28min",
+    "runtime_minutes": 88,
+    "note_avis": 6,
+    "note_recence": 9.7,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/343151606/s592/dead-by-dawn.jpg",
+    "synopsis": "[Shadowz Exclu] Par une nuit de Noël orageuse, une troupe de comédiens est convoquée par le célèbre dramaturge Heissenhoff dans le théâtre baroque de sa famille pour répéter sa prochaine pièce. Mais le rendez-vous tourne au cauchemar lorsqu’un tueur masqué fait son apparition…",
+    "date_ajout": "2026-02-26",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm157623",
+    "titre": "Hyena",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2015,
+    "annee_moyenne": 2015,
+    "duree": "1h 52min",
+    "runtime_minutes": 112,
+    "note_avis": 6.2,
+    "note_recence": 6.7,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/178514764/s592/hyena.jpg",
+    "synopsis": "Michael Logan est un mélange complexe d’alcoolique occasionnel et d’officier de police corrompu. Mais l’univers sinistre dans lequel il évolue est en pleine mutation. L’arrivée en masse de gangsters sans pitié venus d’Albanie menace de bouleverser le paysage criminel londonien. Jusqu’ici son instinct lui avait toujours donné une longueur d’avance, mais son comportement de plus en plus autodestructeur et la brutalité des nouveaux chefs de gangs vont le plonger dans une spirale de peurs et de doutes.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1042933",
+    "titre": "Ultrasound",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 43min",
+    "runtime_minutes": 103,
+    "note_avis": 5.8,
+    "note_recence": 8.8,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl",
+      "scf"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/268634064/s592/ultrasound.jpg",
+    "synopsis": "Après que sa voiture soit tombé en panne, Glen passe une nuit très étrange avec un couple marié, déclenchant une chaîne d'événements qui chamboulent leur vie ainsi que celle de plusieurs inconnus.",
+    "date_ajout": "2022-07-28",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1327719",
+    "titre": "The Delinquents",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "3h 10min",
+    "runtime_minutes": 190,
+    "note_avis": 6.7,
+    "note_recence": 9.1,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "cmy",
+      "crm",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/311421462/s592/los-delincuentes.jpg",
+    "synopsis": "Román et Morán, deux modestes employés de banque de Buenos Aires, sont piégés par la routine. Morán met en oeuvre un projet fou : voler au coffre une somme équivalente à leurs vies de salaires. Désormais délinquants, leurs destins sont liés. Au gré de leur cavale et des rencontres, chacun à sa manière emprunte une voie nouvelle vers la liberté.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts189600",
+    "titre": "Bauhaus : Un temps nouveau",
+    "type": "serie",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2019,
+        "note": 7.8
+      }
+    ],
+    "duree": "44 min/ép.",
+    "runtime_minutes": 44,
+    "note_avis": 7.8,
+    "note_recence": 7.9,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "hst",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/146357751/s592/bauhaus-un-temps-nouveau.jpg",
+    "synopsis": "À Weimar, la jeune Dörte découvre avec effroi et délices l'aventure artistique du Bauhaus, fondé par Walter Gropius. Cette série alerte et romanesque retrace les débuts de l'école, son ouverture ambivalente aux femmes et ses méthodes d'enseignement révolutionnaires.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1235862",
+    "titre": "Living with Chucky",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 6.7,
+    "note_recence": 8.8,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "doc",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/304818149/s592/living-with-chucky.jpg",
+    "synopsis": "Un cinéaste qui a grandi aux côtés de Chucky, la poupée tueuse, s'adresse aux autres familles des films Child's Play pour qu'elles racontent leurs expériences sur la franchise et ce que signifie faire partie de la famille \"Chucky\".",
+    "date_ajout": "2023-10-31",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1318073",
+    "titre": "En bonne compagnie",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 34min",
+    "runtime_minutes": 94,
+    "note_avis": 6.3,
+    "note_recence": 9.1,
+    "note_globale": 7.7,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/312581515/s592/las-buenas-companias.jpg",
+    "synopsis": "Pays basque, été 1977. Bea a 16 ans et rejoint le mouvement féministe qui traverse le pays. Tandis qu'elle s'engage dans la lutte pour le droit à l’avortement, elle rencontre Miren, une jeune femme de bonne famille, qui fera de cet été une étape décisive de sa vie.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm251000",
+    "titre": "Leaving D.C.",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2013,
+    "annee_moyenne": 2013,
+    "duree": "1h 17min",
+    "runtime_minutes": 77,
+    "note_avis": 6.1,
+    "note_recence": 6.1,
+    "note_globale": 6.1,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/177806529/s592/leaving-d-c.jpg",
+    "synopsis": "Après avoir vécu pendant 20 ans à Washington, Mark Klein cherche le réconfort dont il a besoin en s'installant dans la région sauvage et reculée de la Virginie occidentale. Mais Mark réalise peu à peu que, malgré son nouvel environnement isolé, il n'est peut-être pas seul.",
+    "date_ajout": "2022-10-27",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm828370",
+    "titre": "L'Envolée",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "1h 24min",
+    "runtime_minutes": 84,
+    "note_avis": 6.2,
+    "note_recence": 8.2,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/249956512/s592/lenvolee.jpg",
+    "synopsis": "Leigh, 14 ans, vit dans la banlieue de Brighton avec un père souvent absent. C'est une gymnaste douée qui s’entraîne intensément pour sa première compétition. Lorsqu’un demi-frère plus âgé apparait une nuit sur le seuil de sa porte, son existence solitaire vacille. La méfiance fait place à des sensations inconnues et grisantes. Leigh s’ouvre à un monde nouveau.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1513416",
+    "titre": "Turn Me On",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 39min",
+    "runtime_minutes": 99,
+    "note_avis": 5.7,
+    "note_recence": 9.4,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "rma",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/330429669/s592/turn-me-on-2024.jpg",
+    "synopsis": "Dans ce futur trop proche où les émotions humaines ont été éradiquées par une simple vitamine quotidienne, un jeune couple saute sa dose et découvre l'amour, la joie, le sexe et tout le bagage qui en découle.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1064208",
+    "titre": "Mi iubita mon amour",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 35min",
+    "runtime_minutes": 95,
+    "note_avis": 5.8,
+    "note_recence": 8.8,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/302134426/s592/mi-iubita-mon-amour.jpg",
+    "synopsis": "Alors que son mariage approche, Jeanne embarque quelques amies proches pour aller fêter son enterrement de vie de jeune fille en Roumanie. A peine arrivé sur place, le groupe fait face à une rencontre inopportune qui les amène à partager leur séjour parmi des membres de la communauté rom locales...",
+    "date_ajout": "2022-07-27",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1338332",
+    "titre": "Somewhere Quiet",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 4.8,
+    "note_recence": 9.4,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/311727605/s592/somewhere-quiet.jpg",
+    "synopsis": "Après son enlèvement, une femme tente de se réadapter à la vie normale.",
+    "date_ajout": "2025-04-24",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm452879",
+    "titre": "Harpoon",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 22min",
+    "runtime_minutes": 82,
     "note_avis": 5.9,
     "note_recence": 7.9,
     "note_globale": 6.9,
     "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/135698981/s592/harpoon-2019.jpg",
+    "synopsis": "Des rivalités, de sombres secrets et des tensions amoureuses émergent lorsque trois meilleurs amis se retrouvent coincés sur un yacht au milieu de l'océan dans des circonstances suspectes.",
+    "date_ajout": "2020-11-26",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1137619",
+    "titre": "Chien blanc",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 36min",
+    "runtime_minutes": 96,
+    "note_avis": 6.1,
+    "note_recence": 8.8,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/321982026/s592/chien-blanc.jpg",
+    "synopsis": "États-Unis. Le pays explose sous les tensions raciales après l’assassinat de Martin Luther King. Romain Gary et sa femme, Jean Seberg, accueillent chez eux un chien abandonné, dressé exclusivement pour attaquer les Noirs : 'un Chien blanc\". Romain, humaniste et amoureux des animaux, refuse de le faire euthanasier, au risque de mettre en péril l’équilibre de sa relation avec Jean, militante pour les droits civiques et très active au sein des Black Panthers.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1247667",
+    "titre": "The Listener",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 37min",
+    "runtime_minutes": 97,
+    "note_avis": 5.6,
+    "note_recence": 9.4,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/313204354/s592/the-listener.jpg",
+    "synopsis": "Beth est bénévole sur une ligne d'assistance téléphonique. Elle répond aux appels de toutes sortes de personnes qui se sentent seules, désespérées et inquiètes. Beth est toujours au bout du combiné pour les écouter et les réconforter...",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm233159",
+    "titre": "Arrête ton cinéma !",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2016,
+    "annee_moyenne": 2016,
+    "duree": "1h 30min",
+    "runtime_minutes": 90,
+    "note_avis": 5,
+    "note_recence": 7,
+    "note_globale": 6,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/12374476/s592/arrete-ton-cinema.jpg",
+    "synopsis": "C’est dans l’enthousiasme que Sybille démarre l’écriture de son premier film. Actrice reconnue, elle va passer pour la première fois de l’autre côté de la caméra. Tout semble lui sourire. Ses productrices Brigitte et Ingrid sont deux personnages loufoques mais attachants et Sybille se jette avec elles dans l’aventure, mettant de côté sa vie familiale. Mais, du choix improbable des actrices, aux réécritures successives du scénario, en passant par les refus des financiers, le rêve merveilleux va se transformer en cauchemar. Incorrigible optimiste, Sybille réalisera trop tard que ses productrices fantasques et totalement déjantées vont l’entraîner dans leur folie…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm425543",
+    "titre": "Dans un jardin qu'on dirait éternel",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 7.1,
+    "note_recence": 7.6,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/171535836/s592/dans-un-jardin-quon-dirait-eternel.jpg",
+    "synopsis": "Noriko et Michiko viennent de terminer leurs études. Ils ne savent pas encore très bien quelle carrière embrasser. En attendant qu'elles se décident, leurs parents les poussent à étudier la cérémonie du thé. Noriko traîne des pieds pour se rendre dans une petite maison traditionnelle de Yokohama où officie Madame Takeda, son exigeante professeure...",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1240738",
+    "titre": "Full of Worms",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 11min",
+    "runtime_minutes": 71,
+    "note_avis": 4.4,
+    "note_recence": 8.8,
+    "note_globale": 6.6,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/311735379/s592/all-jacked-up-and-full-of-worms.jpg",
+    "synopsis": "Roscoe est l'homme d'entretien d'un motel miteux. Toxicomane, il tombe sur une drogue puissamment hallucinogène. Avec sa nouvelle copine, le couple s'embarque dans une odyssée délirante faite de sexe et de violence.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1469376",
+    "titre": "RATS!",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 22min",
+    "runtime_minutes": 82,
+    "note_avis": 6.2,
+    "note_recence": 9.7,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "act",
+      "cmy",
+      "crm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/333224006/s592/rats-2025.jpg",
+    "synopsis": "L'été vient de raccourcir pour Raphaël Tinski, 19 ans. Nous sommes en 2007 et l'emo-culture bat son plein. Raphaël vient d'être arrêté par un policier psychopathe. Raphaël vient de tomber amoureux d'une fille lors d'un service communautaire. Raphaël risque de se faire exploser par des bombes nucléaires.",
+    "date_ajout": "2025-03-27",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1392043",
+    "titre": "Gondola",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 22min",
+    "runtime_minutes": 82,
+    "note_avis": 6.6,
+    "note_recence": 9.4,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/318956169/s592/gondola.jpg",
+    "synopsis": "Dans les montagnes de Géorgie, un téléphérique relie un village à une petite ville dans la vallée. Deux jeunes femmes, Iva et Nino, y sont employées et leurs cabines se croisent une fois toutes les demi-heures, ce qui leur occasionne à chaque fois un moment de bonheur et de fête.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm963332",
+    "titre": "Exhibit #8",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 16min",
+    "runtime_minutes": 76,
+    "note_avis": 5.4,
+    "note_recence": 8.8,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/305130289/s592/exhibit-8.jpg",
+    "synopsis": "Aisha, née en Bosnie, et Elias, caméraman, font équipe pour tourner un documentaire sur la disparition mystérieuse du frère d'Aisha.",
+    "date_ajout": "2024-12-26",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm916727",
+    "titre": "The Curse of Audrey Earnshaw",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 4.8,
+    "note_recence": 8.2,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/210094613/s592/the-curse-of-audrey-earnshaw.jpg",
+    "synopsis": "Une communauté pieuse souffrant d'une peste se retrouve détruite par une belle jeune femme et les forces de la sorcellerie, de la magie noire et de la possession.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm244940",
+    "titre": "Master spy",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2016,
+    "annee_moyenne": 2016,
+    "duree": "1h 17min",
+    "runtime_minutes": 77,
+    "note_avis": 6.2,
+    "note_recence": 7,
+    "note_globale": 6.6,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "act",
+      "cmy",
+      "fml",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/141828330/s592/master-spy.jpg",
+    "synopsis": "Un jeune garçon est propulsé dans une aventure incroyable lorsqu'il réveille un agent de service secret 1973 du cryo-gel. Il décide alors de l'aider à résoudre un cas de crime mystérieux d'il y a quarante ans.",
+    "date_ajout": "2019-10-31",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm864005",
+    "titre": "Don't Let Them In",
+    "type": "film",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "1h 21min",
+    "runtime_minutes": 81,
+    "note_avis": 4.3,
+    "note_recence": 8.2,
+    "note_globale": 6.3,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/332769839/s592/dont-let-them-in.jpg",
+    "synopsis": "Un film d'horreur sur une invasion de domicile dans la veine de You're Next et The Purge, sur un groupe de personnes assiégées par des intrus masqués dans un hôtel abandonné.",
+    "date_ajout": "2026-09-30",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 31/12",
+      "daysLeft": 81,
+      "expirationDate": "2026-12-31",
+      "packageExpirations": {
+        "ima": "2026-12-31"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1110514",
+    "titre": "Belle enfant",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 5.9,
+    "note_recence": 9.4,
+    "note_globale": 7.7,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/342569549/s592/belle-enfant.jpg",
+    "synopsis": "Émily, jeune femme fantasque qui peine à devenir adulte, s’est détachée de sa famille dysfonctionnelle depuis longtemps. Lorsqu’elle apprend la tentative de suicide de sa mère, Émily décide de la rejoindre avec ses sœurs, en Italie…",
+    "date_ajout": "2024-07-24",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1064260",
+    "titre": "The Cursed : Le Film",
+    "type": "film",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 50min",
+    "runtime_minutes": 110,
+    "note_avis": 5.9,
+    "note_recence": 8.5,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/300933353/s592/the-cursed-le-film.jpg",
+    "synopsis": "La journaliste chevronnée Im Jin Hee enquête sur une série de meurtres de hauts cadres d'une entreprise pharmaceutique. A chaque fois, le corps sans vie du meurtrier est retrouvé à côté de celui de sa victime. Les autopsies révèlent que les tueurs étaient morts depuis plusieurs mois au moment de l'homicide...",
+    "date_ajout": "2026-05-19",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1385069",
+    "titre": "La Espera",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner",
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "snr",
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 6,
+    "note_recence": 9.1,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "fnt",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/307513220/s592/the-wait-2023.jpg",
+    "synopsis": "Eladio, garde-chasse en Andalousie et financièrement à bout se souffle, accepte un pot-de-vin. Ce choix déclenche une série de tragédies et sa vie entière s'écroule. Ce qui semblait être l'occasion d'une vie se transforme en une macabre descente aux enfers, où Eladio va tester ses limites.",
+    "date_ajout": "2024-08-29",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm356663",
+    "titre": "Diane a les épaules",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "1h 27min",
+    "runtime_minutes": 87,
+    "note_avis": 6.2,
+    "note_recence": 7.3,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/31227106/s592/diane-a-les-epaules.jpg",
+    "synopsis": "Sans hésiter, Diane a accepté de porter l’enfant de Thomas et Jacques, ses meilleurs amis. C’est dans ces circonstances, pas vraiment idéales, qu’elle tombe amoureuse de Fabrizio.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1588245",
+    "titre": "The Surrender",
+    "type": "film",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 35min",
+    "runtime_minutes": 95,
+    "note_avis": 5.4,
+    "note_recence": 9.7,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/331287973/s592/the-surrender.jpg",
+    "synopsis": "Une mère de famille engage un mystérieux étranger pour ramener son mari d'entre les morts. Le rituel de résurrection échappe à tout contrôle, la mère et sa fille doivent concilier leurs différences afin de rester en vie.",
+    "date_ajout": "2026-05-19",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 31/12",
+      "daysLeft": 81,
+      "expirationDate": "2026-12-31",
+      "packageExpirations": {
+        "ima": "2026-12-31"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1572137",
+    "titre": "The Painted",
+    "type": "film",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 25min",
+    "runtime_minutes": 85,
+    "note_avis": 4.9,
+    "note_recence": 9.4,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/342830085/s592/the-painted-2024.jpg",
+    "synopsis": "Lorsque Evelyn Elster hérite de la fortune de sa cousine éloignée, elle pense que sa famille a enfin trouvé le bonheur dont elle avait besoin. Mais ils ne savent pas encore qu'ils ont non seulement hérité de la richesse de sa cousine, mais aussi d'une malédiction familiale, et qu'ils devront tout faire pour éviter d'en devenir les prochaines victimes.",
+    "date_ajout": "2026-05-19",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 31/12",
+      "daysLeft": 81,
+      "expirationDate": "2026-12-31",
+      "packageExpirations": {
+        "ima": "2026-12-31"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1187505",
+    "titre": "Deep Fear",
+    "type": "film",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 20min",
+    "runtime_minutes": 80,
+    "note_avis": 5.1,
+    "note_recence": 8.8,
+    "note_globale": 7,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/268913910/s592/deep-fear.jpg",
+    "synopsis": "Trois jeunes étudiants, fraîchement diplômés, décident de s’éclater en visitant les catacombes. Ils sont loin de se douter que leur expédition va virer au cauchemar. Sonia et ses deux acolytes, Max et Henry, tenteront d’échapper à une étrange créature qui se cache dans les entrailles de la Terre et de rejoindre la surface pour se sauver des griffes de l’Enfer.",
+    "date_ajout": "2026-08-31",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 31/10",
+      "daysLeft": 20,
+      "expirationDate": "2026-10-31",
+      "packageExpirations": {
+        "ima": "2026-10-31"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1301822",
+    "titre": "Here",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 24min",
+    "runtime_minutes": 84,
+    "note_avis": 6.8,
+    "note_recence": 9.4,
+    "note_globale": 8.1,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/322770887/s592/here.jpg",
+    "synopsis": "Stefan est un ouvrier du bâtiment vivant à Bruxelles et qui s'apprête à partir pour son pays natal, la Roumanie. Au cours de ses promenades et de ses visites d'adieu à ses amis et à sa famille, il rencontre Shuxiu, une jeune femme belgo-chinoise qui prépare un doctorat sur les mousses végétales. Son regard et son intérêt pour ce qui est à peine visible, intriguent Stefan et attirent encore plus son attention sur les trésors qui nous entourent en permanence, qu'ils soient partagés avec nos voisins ou qu'ils poussent simplement sous nos pieds.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm819379",
+    "titre": "L'Infirmière",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 51min",
+    "runtime_minutes": 111,
+    "note_avis": 6.5,
+    "note_recence": 7.9,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/342755846/s592/linfirmiere.jpg",
+    "synopsis": "Une infirmière à domicile se retrouve suspectée de complicité après des violences commises sur la plus jeune fille de la famille où elle officie. En retraçant la chaîne des événements, une question émerge : est-elle vraiment coupable ?",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm372604",
+    "titre": "Le Soupir des vagues",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 47min",
+    "runtime_minutes": 107,
+    "note_avis": 5.9,
+    "note_recence": 7.6,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "fnt"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/245359480/s592/le-soupir-des-vagues.jpg",
+    "synopsis": "Une ville indonésienne au bord de la mer a été ruinée par la guerre et le tsunami. Un homme est trouvé sur la côte par Atsuko et son fils Takashi, deux Japonais qui travaillent à la reconstruction après le sinistre. L'homme parle mal le japonais et l'indonésien. Ils lui donnent le nom de Rau qui signifie mer en indonésien et le protègent. Bientôt, Rau se retrouve impliqué dans plusieurs cas de miracles supposés.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1613711",
+    "titre": "A Daughter",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 43min",
+    "runtime_minutes": 103,
+    "note_avis": 6.3,
+    "note_recence": 9.7,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/327340362/s592/una-figlia.jpg",
+    "synopsis": "Pietro élève seul sa fille Sofia depuis la mort de sa femme. Quand, après quelques années, il tente de refaire sa vie avec une nouvelle compagne, tout ne se passe pas comme il l'avait rêvé : la réaction de sa fille est explosive et Pietro sera mis à rude épreuve.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm306301",
+    "titre": "Piercing",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 22min",
+    "runtime_minutes": 82,
+    "note_avis": 5.5,
+    "note_recence": 7.9,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/40871448/s592/piercing.jpg",
+    "synopsis": "Reed embrasse sa femme et son jeune fils avant de partir - semble-t-il - en voyage d’affaire. Dans sa valise, il n’a pourtant rangé ni vêtements, ni trousse de toilette, mais un nécessaire pour réussir le crime parfait. Car Reed a tout prévu dans les moindres détails. Il va monter dans une chambre d’hôtel, faire appel aux services d’une call girl et la tuer à son arrivée, soulageant enfin son irrépressible envie de meurtre. Mais Jackie, la séduisante et mystérieuse prostituée qu’il fait monter dans sa chambre, pourrait bien mettre à mal son plan. Lorsqu’un événement imprévu vient perturber le cours des choses, Reed et Jackie débutent une partie haletante du jeu du chat et de la souris…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm311719",
+    "titre": "Most Beautiful Island",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "1h 20min",
+    "runtime_minutes": 80,
+    "note_avis": 5.7,
+    "note_recence": 7.3,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/307085477/s592/most-beautiful-island.jpg",
+    "synopsis": "Une migrante sans papier accepte un job aussi lucratif que mystérieux. Lorsqu’elle découvre en quoi ce dernier consiste, il est déjà trop tard pour reculer…",
+    "date_ajout": "2023-09-21",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm58699",
+    "titre": "Zarafa",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2012,
+    "annee_moyenne": 2012,
+    "duree": "1h 18min",
+    "runtime_minutes": 78,
+    "note_avis": 6.9,
+    "note_recence": 5.8,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "ani",
+      "fml",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/262827478/s592/zarafa.jpg",
+    "synopsis": "Sous un baobab, un vieil homme raconte aux enfants qui l’entourent, une histoire : celle de l’amitié indéfectible entre Maki, un enfant de 10 ans, et Zarafa, une girafe orpheline, cadeau du Pacha d’Egypte au Roi de France Charles X. Hassan, prince du désert, est chargé par le Pacha de conduire Zarafa jusqu’en France mais Maki, bien décidé à tout faire pour contrarier cette mission et ramener la girafe sur sa terre natale, va les suivre au péril de sa vie.  Au cours de ce long périple qui les mènera du Soudan à Paris, en passant par Alexandrie, Marseille et les Alpes enneigées, ils vont vivre mille péripéties et croiser la route de l’aéronaute Malaterre, des étranges vaches Mounh et Sounh et de la pirate Bouboulina…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1860306",
+    "titre": "Singular",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 5.1,
+    "note_recence": 9.7,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "trl",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/336240486/s592/singular.jpg",
+    "synopsis": "Diana, une spécialiste de l'IA, se rend dans sa maison d'été au bord d'un lac pour y retrouver Martín, son ex-mari, qu'elle n'a pas vu depuis douze ans. Ils sont rejoints par Andrea, qui ressemble étrangement au fils défunt du couple.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm160759",
+    "titre": "La disparition d'Eleanor Rigby : Elle & lui",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2014,
+    "annee_moyenne": 2014,
+    "duree": "2h 03min",
+    "runtime_minutes": 123,
+    "note_avis": 6.3,
+    "note_recence": 6.4,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/202122393/s592/the-disappearance-of-eleanor-rigby-them.jpg",
+    "synopsis": "Eleanor aime Conor, et Conor aime Eleanor. Que se passe-t-il lorsqu’un couple vivant en parfaite harmonie se retrouve soudain confronté à un événement tragique ? The Disappearance of Eleanor Rigby: Them est la synthèse de la version Him (l'histoire vécue du point de vue de Conor) et de la version Her (le regard de Eleanor sur cette histoire).",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1334342",
+    "titre": "Mother, May I?",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 39min",
+    "runtime_minutes": 99,
+    "note_avis": 5,
+    "note_recence": 9.1,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/306815627/s592/mother-may-i.jpg",
+    "synopsis": "Emmett veut nettoyer et retourner la maison de sa mère récemment décédée : entrer, sortir et éviter tout traumatisme persistant depuis qu'elle l'a abandonné lorsqu'il était un jeune enfant. Anya, sa fiancée, y voit une opportunité de forcer enfin Emmett à faire face à son traumatisme car elle pense que cela l'empêche d'être le partenaire dont elle a besoin. Alors elle le convainc de prendre des champignons pour qu'il lâche prise. Mais quelque chose d’étrange se produit pendant qu’ils trippent : elle commence à se comporter comme sa mère. Le lendemain matin, il se réveille sobre, mais elle ne lâche toujours pas l'acte... Anya adore jouer à des jeux – est-ce qu'elle va trop loin ? Ou est-ce que l’esprit de sa mère la possédait d’une manière ou d’une autre ?",
+    "date_ajout": "2023-10-31",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm462046",
+    "titre": "Bliss",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner",
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "snr",
+      "sdz"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 20min",
+    "runtime_minutes": 80,
+    "note_avis": 5.9,
+    "note_recence": 7.9,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/301841732/s592/bliss-2019.jpg",
+    "synopsis": "Une artiste en panne créative plonge dans l'univers du sexe, de la drogue et du meurtre dans les bas-fonds de Los Angeles.",
+    "date_ajout": "2021-03-25",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm912239",
+    "titre": "Mom",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 35min",
+    "runtime_minutes": 95,
+    "note_avis": 4.5,
+    "note_recence": 9.7,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/324221048/s592/mom-2025.jpg",
+    "synopsis": "Aux prises avec une dépression postnatale et se sentant incomprise par son mari, Meredith commence à avoir des visions terrifiantes qui laissent présager une tragédie ultime.",
+    "date_ajout": "2025-10-30",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm824273",
+    "titre": "Wrinkles the Clown",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 18min",
+    "runtime_minutes": 78,
+    "note_avis": 4.8,
+    "note_recence": 7.9,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "doc",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/152596126/s592/wrinkles-the-clown.jpg",
+    "synopsis": "En Floride, les parents d'enfants turbulents peuvent embaucher \" Wrinkles, le clown \" pour effrayer leur progéniture.",
+    "date_ajout": "2022-06-23",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1603287",
+    "titre": "Beef",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 27min",
+    "runtime_minutes": 87,
+    "note_avis": 5.1,
+    "note_recence": 9.7,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "msc"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/335907035/s592/ruido.jpg",
+    "synopsis": "Lati, une adolescente d'origine africaine vivant à Barcelone, trouve refuge dans le rap après la mort de son père, musicien. Deux ans plus tard, elle rêve de percer dans le monde des battles de freestyle.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1280008",
+    "titre": "#No_Filter",
+    "type": "film",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 27min",
+    "runtime_minutes": 87,
+    "note_avis": 4,
+    "note_recence": 9.1,
+    "note_globale": 6.6,
+    "etoiles": 3,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "fnt",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/305306782/s592/no_filter.jpg",
+    "synopsis": "Anna profite d'être seule chez elle pour tenter de gagner un maximum d'abonnés. Mais la soirée vire au cauchemar.",
+    "date_ajout": "2026-08-31",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 31/10",
+      "daysLeft": 20,
+      "expirationDate": "2026-10-31",
+      "packageExpirations": {
+        "ima": "2026-10-31"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm505042",
+    "titre": "Mon frère chasse les dinosaures",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 41min",
+    "runtime_minutes": 101,
+    "note_avis": 6.6,
+    "note_recence": 7.9,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "fml",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/309117379/s592/mio-fratello-rincorre-i-dinosauri.jpg",
+    "synopsis": "Dans son enfance, Jack a cru au tendre mensonge que ses parents lui avaient dit, à savoir que Gio était un être spécial doté de superpuissances, comme dans une bande dessinée. Maintenant qu'il est sur le point d'aller au lycée, cependant, Jack ne croit plus que son frère est un super-héros. En fait, il a presque honte de lui, surtout depuis qu'il a rencontré Arianna, le premier amour de sa vie. Jack ne peut se permettre de faire mauvaises impressions avec la fille de ses rêves et s'occuper de son petit frère avec un comportement imprévisible devient vite un fardeau, au point que Jack fait semblant de ne pas avoir de frère et cache l'existence de Gio des yeux de ses nouveaux camarades de classe et, surtout, de Arianna...",
+    "date_ajout": "2025-10-28",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm311952",
+    "titre": "Ex Libris: New York Public Library",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "3h 25min",
+    "runtime_minutes": 205,
+    "note_avis": 7.4,
+    "note_recence": 7.3,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/134184275/s592/ex-libris-new-york-public-library.jpg",
+    "synopsis": "Un documentaire consacré à la New York Public Library, ou comment une institution culturelle et démographique dominante maintient ses activités traditionnelles tout en s'adaptant à la révolution numérique.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1334398",
+    "titre": "L'Île rouge",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 57min",
+    "runtime_minutes": 117,
+    "note_avis": 5.9,
+    "note_recence": 9.1,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "fnt"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/311642008/s592/lile-rouge.jpg",
+    "synopsis": "Madagascar, au tournant des années 1960 et des années 1970. Sur une base aérienne de l’armée française, les militaires vivent les dernières années insouciantes du colonialisme. Influencé par ses lectures de Fantômette, Thomas, un enfant qui n’a pas encore 10 ans, se forge progressivement un regard sur le monde qui l’entoure.",
+    "date_ajout": "2026-07-30",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm231912",
+    "titre": "Cat Sick Blues",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2016,
+    "annee_moyenne": 2016,
+    "duree": "1h 34min",
+    "runtime_minutes": 94,
+    "note_avis": 5.3,
+    "note_recence": 7,
+    "note_globale": 6.2,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/249855944/s592/cat-sick-blues.jpg",
+    "synopsis": "Après le décès de son chat, un homme sombre dans la dépression et se mue en serial killer vêtu d’un pullover rouge, de pattes de chat aux griffes acérées, et d’un masque de félin.",
+    "date_ajout": "2024-10-02",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm902887",
+    "titre": "Aristocrats",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "2h 04min",
+    "runtime_minutes": 124,
+    "note_avis": 6.8,
+    "note_recence": 8.5,
+    "note_globale": 7.7,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "fml"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/262891307/s592/aristocrats.jpg",
+    "synopsis": "A presque 30 ans, Hanako est toujours célibataire, ce qui déplait à sa famille, riche et traditionnelle. Quand elle croit avoir enfin trouvé l’homme de sa vie, elle réalise qu’il entretient déjà une relation ambiguë avec Miki, une hôtesse récemment installée à Tokyo pour ses études. Malgré le monde qui les sépare, les deux femmes vont devoir faire connaissance.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm995280",
+    "titre": "Huesera: The Bone Woman",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner",
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "snr",
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 37min",
+    "runtime_minutes": 97,
+    "note_avis": 6,
+    "note_recence": 9.1,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/302215370/s592/huesera-the-bone-woman.jpg",
+    "synopsis": "Valeria réalise enfin le rêve de son couple : devenir mère. La grossesse ne se déroule hélas pas du tout comme prévu. Elle perd du poids, sent et entend ses os craquer sans raison, sans parler des hallucinations qui la poursuivent en tout lieu.",
+    "date_ajout": "2023-05-25",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm919972",
+    "titre": "La Nuit des rois",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 6.5,
+    "note_recence": 8.5,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "drm",
+      "fnt"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/243874851/s592/la-nuit-des-rois.jpg",
+    "synopsis": "Dans la MACA d’Abidjan, l’une des prisons les plus surpeuplées d’Afrique de l’Ouest. Vieillissant et malade, Barbe Noire est un caïd de plus en plus contesté. Pour conserver son pouvoir, il renoue avec le rituel de “Roman”, qui consiste à obliger un prisonnier à raconter des histoires durant toute une nuit.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm887312",
+    "titre": "My Heart Can't Beat Unless You Tell It To",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner",
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "snr",
+      "sdz"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "1h 29min",
+    "runtime_minutes": 89,
+    "note_avis": 6,
+    "note_recence": 8.2,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/245291688/s592/my-heart-cant-beat-unless-you-tell-it-to.jpg",
+    "synopsis": "Un frère et une soeur se retrouvent en désaccord sur les soins à apporter à leur jeune frère fragile et atteint d’une étrange maladie.",
+    "date_ajout": "2021-11-25",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm939112",
+    "titre": "Hokusai",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "2h 09min",
+    "runtime_minutes": 129,
+    "note_avis": 6.1,
+    "note_recence": 8.5,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/303412122/s592/hokusai.jpg",
+    "synopsis": "Japon, XVIIIème siècle. Alors que le pouvoir impérial impose sa censure sur les artistes, le jeune Shunrô, apprenti peintre, est exclu de son école à cause de son tempérament impétueux et du style peu conventionnel de ses estampes. Personne n’imagine alors qu’il deviendra Hokusai, célèbre auteur de la Grande vague de Kanagawa.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm224589",
+    "titre": "Ghost House",
+    "type": "film",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "1h 32min",
+    "runtime_minutes": 92,
+    "note_avis": 4.7,
+    "note_recence": 7.3,
+    "note_globale": 6,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/306958010/s592/ghost-house.jpg",
+    "synopsis": "Un jeune couple part en vacances en Thaïlande pour des vacances aventureuses et se retrouve hanté par un esprit malveillant après avoir naïvement manqué de respect à une maison fantôme.",
+    "date_ajout": "2020-04-19",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 31/10",
+      "daysLeft": 20,
+      "expirationDate": "2026-10-31",
+      "packageExpirations": {
+        "ima": "2026-10-31"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm137896",
+    "titre": "Le dernier loup",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2015,
+    "annee_moyenne": 2015,
+    "duree": "2h 01min",
+    "runtime_minutes": 121,
+    "note_avis": 6.6,
+    "note_recence": 6.7,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/176647840/s592/le-dernier-loup.jpg",
+    "synopsis": "1969, Chen Zhen, un jeune étudiant originaire de Pékin, est envoyé en Mongolie-Intérieure afin d'éduquer une tribu de bergers nomades. Mais c'est véritablement Chen qui a beaucoup à apprendre sur la vie dans cette contrée infinie, hostile et vertigineuse, sur la notion de communauté, de liberté et de responsabilité, et sur la créature la plus crainte et vénérée des steppes : le loup. Séduit par le lien complexe et quasi mystique entre ces créatures sacrées et les bergers, il capture un louveteau afin de l'apprivoiser. Mais la relation naissante entre l'homme et l'animal ainsi que le mode de vie traditionnel de la tribu, et l'avenir de la terre elle-même est menacée lorsqu'un représentant régional de l'autorité centrale décide par tous les moyens d'éliminer les loups de cette région.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts251703",
+    "titre": "La fortuna",
+    "type": "serie",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2021,
+        "note": 6.5
+      }
+    ],
+    "duree": "51 min/ép.",
+    "runtime_minutes": 51,
+    "note_avis": 6.5,
+    "note_recence": 8.5,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "action_aventure"
+    ],
+    "raw_genres": [
+      "act",
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/252689088/s592/la-fortuna.jpg",
+    "synopsis": "Le jeune diplomate Álex Ventura fait équipe avec un fonctionnaire combatif et un brillant avocat américain pour récupérer le trésor volé par Frank Wild, qui parcourt le monde en pillant des objets historiques de l'océan.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1023904",
+    "titre": "The Spine of Night",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 6.4,
+    "note_recence": 8.5,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "act",
+      "ani",
+      "fnt",
+      "hrr",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/254230425/s592/the-spine-of-night.jpg",
+    "synopsis": "Cette histoire fantaisiste épique et ultraviolente se déroulant dans un pays de magie suit des héros d'époques et de cultures différentes luttant contre une force malveillante.",
+    "date_ajout": "2023-02-23",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm187199",
+    "titre": "Heli",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2013,
+    "annee_moyenne": 2013,
+    "duree": "1h 45min",
+    "runtime_minutes": 105,
+    "note_avis": 6.8,
+    "note_recence": 6.1,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "doc",
+      "drm",
+      "trl",
+      "rma",
+      "eur"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/263170678/s592/heli.jpg",
+    "synopsis": "Au Mexique, la famille d’Estela, une jeune fille de 12 ans est prise dans un engrenage de violence lorsque celle-ci tombe amoureuse d’un  jeune policier impliqué dans un détournement de drogue.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm864166",
+    "titre": "Cyril contre Goliath",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "1h 26min",
+    "runtime_minutes": 86,
+    "note_avis": 7.5,
+    "note_recence": 8.2,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/172941425/s592/cyril-contre-goliath.jpg",
+    "synopsis": "Lacoste, village médiéval et emblématique du Luberon fait de l’œil à un collectionneur et pas n’importe lequel. En 20 ans, le couturier milliardaire Pierre Cardin a rénové le château du marquis de Sade qui le surplombe puis acheté près de 40 maisons au sein du village, pour les laisser vides … Cyril Montana, écrivain parisien et enfant du village, révolté par cette situation décide de s’engager dans une aventure militante pour tenter de faire changer les choses.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm246274",
+    "titre": "Paris pieds nus",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "1h 23min",
+    "runtime_minutes": 83,
+    "note_avis": 6.3,
+    "note_recence": 7.3,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/9355601/s592/paris-pieds-nus.jpg",
+    "synopsis": "Fiona, un bibliothécaire canadienne, débarque à Paris pour venir en aide à sa vieille tante Martha, menacée d'internement dans une maison de retraite. Mais Fiona perd ses bagages et découvre que Martha a disparu. C'est le début d'une avalanche de catastrophes, qui lui feront croiser le chemin de Dom, SDF égoïste, frimeur et collant qui lui pourrit la vie.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm991469",
+    "titre": "Jakob's Wife",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner",
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "snr",
+      "sdz"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 38min",
+    "runtime_minutes": 98,
+    "note_avis": 5.5,
+    "note_recence": 8.5,
+    "note_globale": 7,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "cmy",
+      "fnt",
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/244203010/s592/jakobs-wife.jpg",
+    "synopsis": "Anne est mariée à un notable d'une petite ville depuis 30 ans. Elle est lassée de son quotidien, elle a l'impression d'être passée à côté de sa vie. Après une rencontre fortuite avec \"Le Maître\", elle découvre un nouveau sentiment de pouvoir et un appétit de vivre plus grand et plus audacieux qu'auparavant. Parallèlement, le nombre de cadavres dans la ville augmente de façon exponentielle...",
+    "date_ajout": "2022-02-10",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm233581",
+    "titre": "Too Late",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2016,
+    "annee_moyenne": 2016,
+    "duree": "1h 48min",
+    "runtime_minutes": 108,
+    "note_avis": 6.7,
+    "note_recence": 7,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/43496226/s592/too-late.jpg",
+    "synopsis": "Un enquêteur privé est sollicité afin de découvrir les tenants et aboutissants de la disparition d'une femme qui appartient à son passé.",
+    "date_ajout": "2023-03-20",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1313400",
+    "titre": "La Nuit du verre d’eau",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 23min",
+    "runtime_minutes": 83,
+    "note_avis": 6.3,
+    "note_recence": 9.1,
+    "note_globale": 7.7,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/306544146/s592/la-nuit-du-verre-deau.jpg",
+    "synopsis": "1958, alors que la révolution gronde à Beyrouth, trois sœurs passent l’été en villégiature dans un village reculé de la montagne libanaise. Il y a Nada, la rebelle, Eva, la romantique et surtout Layla, l’aînée, bien sous tous rapports et appréciée de tous. Mais cet été là, le danger de la guerre qui approche et l’arrivée de deux estivants français, poussent Layla, la mère et l’épouse parfaite, à envoyer valser les apparences et à se révolter contre cette société patriarcale qui la tient sous contrôle.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1048382",
+    "titre": "Neptune Frost",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 50min",
+    "runtime_minutes": 110,
+    "note_avis": 6.5,
+    "note_recence": 8.8,
+    "note_globale": 7.7,
+    "etoiles": 4,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "drm",
+      "fnt",
+      "msc",
+      "rma",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/302859204/s592/neptune-frost.jpg",
+    "synopsis": "Hauts plateaux du Burundi, de nos jours. Après la mort de son frère, Matalusa, un mineur de coltan, forme un collectif de cyber-pirates anticolonialistes. Évoluant dans une société autoritariste où la technologie règne en maître, il rencontre alors Neptune, un.e hacker intersexe. De leur union va naître une insurrection virtuelle et surpuissante.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm326814",
+    "titre": "Lino",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 5.6,
+    "note_recence": 7.3,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "act",
+      "ani",
+      "cmy",
+      "doc",
+      "fnt",
+      "fml",
+      "rma",
+      "scf",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/107590479/s592/lino-2017.jpg",
+    "synopsis": "Lino travaille comme mascotte dans des fêtes d'anniversaire pour enfants mais il ne supporte plus la façon dont il est traité, ni son costume de chat. Décidé à changer de vie, il rend visite à un magicien, mais les choses dérapent et en se réveillant, Lino ne fait plus qu'un avec le costume qu'il déteste.",
+    "date_ajout": "2021-12-17",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm267111",
+    "titre": "Noces",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "1h 35min",
+    "runtime_minutes": 95,
+    "note_avis": 7.1,
+    "note_recence": 7.3,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/27176077/s592/noces.jpg",
+    "synopsis": "Zahira, belgo-pakistanaise de dix-huit ans, est très proche de chacun des membres de sa famille jusqu’au jour où on lui impose un mariage traditionnel. Écartelée entre les exigences de ses parents, son mode de vie occidental et ses aspirations de liberté, la jeune fille compte sur l’aide de son grand frère et confident, Amir.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm373588",
+    "titre": "Relaxer",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 31min",
+    "runtime_minutes": 91,
+    "note_avis": 5.9,
+    "note_recence": 7.9,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "fnt"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/144031961/s592/relaxer.jpg",
+    "synopsis": "Le passage à l'an 2000 approche à grands pas, mais Abbie ne peut pas quitter le canapé tant qu'il n'a pas atteint un niveau imbattable à Pac-Man.",
+    "date_ajout": "2023-05-11",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm242064",
+    "titre": "Scare Campaign",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2016,
+    "annee_moyenne": 2016,
+    "duree": "1h 20min",
+    "runtime_minutes": 80,
+    "note_avis": 5.9,
+    "note_recence": 7,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/243056526/s592/scare-campaign.jpg",
+    "synopsis": "Scare Campaign, une émission de caméras cachées horrifique, amuse les téléspectateurs depuis plus de cinq ans avec ses gags d’épouvante old school qui marchent à tous les coups. Face à l’arrivée d’une web-série appelée Masked Freaks qui cartonne et qui menace l’avenir du programme, les créateurs de Scare Campaign veulent frapper fort avec un ultime épisode qui décidera du sort de l’émission. Jusqu’où iront-ils pour prouver qu’ils sont capables du pire ?",
+    "date_ajout": "2026-04-30",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1150295",
+    "titre": "Deadware",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 08min",
+    "runtime_minutes": 68,
+    "note_avis": 4.7,
+    "note_recence": 8.5,
+    "note_globale": 6.6,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/300565197/s592/deadware.jpg",
+    "synopsis": "En 1999, deux amis utilisent une webcam pour jouer ensemble à un mystérieux jeu vidéo d'horreur qui pourrait bien être hanté.",
+    "date_ajout": "2023-10-19",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm352789",
+    "titre": "Tower. A Bright Day",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 46min",
+    "runtime_minutes": 106,
+    "note_avis": 6.1,
+    "note_recence": 7.6,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/339947902/s592/tower-a-bright-day.jpg",
+    "synopsis": "Mula vit à la campagne avec son mari, sa mère malade et sa fille Nina. Juste avant la première communion de Nina, Mula voit sa soeur cadette Kaja revenir dans la maison familiale pour la première fois depuis six ans. Les rapports entre les deux soeurs sont tendus. Mula semble avoir peur de Kaja...",
+    "date_ajout": "2022-02-24",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1141815",
+    "titre": "Jack in the Box 2 : Le Réveil du démon",
+    "type": "film",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 29min",
+    "runtime_minutes": 89,
+    "note_avis": 4.5,
+    "note_recence": 8.8,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/300926603/s592/the-jack-in-the-box-awakening.jpg",
+    "synopsis": "Olga Marsdale, au dernier stade d’une maladie incurable, se retrouve en possession d’une vieille boîte qui contient un démon emprisonné, Jack. Ce dernier lui propose un marché : si celle-ci lui livre six victimes, elle pourra vivre. Aidée de son fils, Olga va tout faire pour sauver sa peau, quitte à condamner des innocents.",
+    "date_ajout": "2026-05-19",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 28/02",
+      "daysLeft": 140,
+      "expirationDate": "2027-02-28",
+      "packageExpirations": {
+        "ima": "2027-02-28"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1398088",
+    "titre": "Frogman",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 21min",
+    "runtime_minutes": 81,
+    "note_avis": 5.1,
+    "note_recence": 9.4,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr",
+      "scf"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/312538054/s592/frogman.jpg",
+    "synopsis": "Un cinéaste amateur, qui a du mal à faire de sa passion un métier, rentre chez lui à Loveland avec des amis. Tous sont déterminés à obtenir la preuve irréfutable de l'existence du légendaire Frogman.",
+    "date_ajout": "2024-10-03",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm446577",
+    "titre": "Shooting the Mafia",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 34min",
+    "runtime_minutes": 94,
+    "note_avis": 6.9,
+    "note_recence": 7.9,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "hst",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/239387012/s592/shooting-the-mafia.jpg",
+    "synopsis": "La Sicilienne Letizia Battaglia commence son combat contre la mafia le jour où elle ose, pour la première fois, diriger son appareil photo vers une victime brutalement assassinée. En exposant le règne barbare de la Cosa Nostra, elle devient un témoin inébranlable de leurs crimes et mène une vie continuellement marquée par le défi et la passion.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm175624",
+    "titre": "Heart of a Lion",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2013,
+    "annee_moyenne": 2013,
+    "duree": "1h 39min",
+    "runtime_minutes": 99,
+    "note_avis": 7,
+    "note_recence": 6.1,
+    "note_globale": 6.6,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/791968/s592/heart-of-a-lion.jpg",
+    "synopsis": "Lorsque Teppo rencontre la jolie blonde Sari, il tombe immédiatement amoureux. Mais ce n’est pas une histoire d’amour comme les autres. Car Teppo est le leader d’un groupe néo-nazi, et une surprise l’attend à la rencontre du fils de Sari. Il s’appelle Rhamadhani et il est métis. Quand Sari tombe enceinte, Teppo réalise sa chance de devenir père, et fait tout pour vivre en paix avec le jeune garçon. Issu d’un univers de violence, sous la pression de son frère et du groupe néo-nazi, il va être forcé de faire un choix. Un choix simple entre l’amour et la haine",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm177971",
+    "titre": "Conversation animée avec Noam Chomsky",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2013,
+    "annee_moyenne": 2013,
+    "duree": "1h 28min",
+    "runtime_minutes": 88,
+    "note_avis": 7.1,
+    "note_recence": 6.1,
+    "note_globale": 6.6,
+    "etoiles": 3,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "ani",
+      "doc",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/335907728/s592/conversation-animee-avec-noam-chomsky.jpg",
+    "synopsis": "Conversations avec le linguiste et philosophe américain Noam Chomsky.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm368409",
+    "titre": "L'empire de la perfection",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 35min",
+    "runtime_minutes": 95,
+    "note_avis": 6.7,
+    "note_recence": 7.6,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "spt",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/248427013/s592/john-mcenroe-in-the-realm-of-perfection.jpg",
+    "synopsis": "Au début des années 1980, le tennisman John McEnroe est étudié sous tous les coutures, filmé sous tous les angles, copié dans toutes les écoles. Roland Garros 1984: il a tutoyé la perfection, et pourtant…  Un essai cinématographique immersif sur la légende du tennis John McEnroe au sommet de sa carrière de champion du monde, documentant son désir de perfection, ses frustrations et la perte la plus dure de sa carrière à Roland-Garros en 1984.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm174466",
+    "titre": "Défendu",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2013,
+    "annee_moyenne": 2013,
+    "duree": "1h 38min",
+    "runtime_minutes": 98,
+    "note_avis": 6.3,
+    "note_recence": 6.1,
+    "note_globale": 6.2,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/302752754/s592/breathe-in.jpg",
+    "synopsis": "L'été touche à sa fin. Keith Reynolds, un professeur de musique, songe avec nostalgie à son passé d'artiste en devenir dans les rues de New York. Sa femme Megan et leur fille Lauren sont quant à elles en pleine effervescence à l'approche de la rentrée en terminale de la jeune fille. Keith ne semble pas partager leur enthousiasme, trouvant son seul échappatoire lors des soirées où il joue du violoncelle dans un prestigieux orchestre symphonique de Manhattan. Lorsque Megan décide d'accueillir chez eux Sophie, une lycéenne anglaise, dans le cadre d'un programme d'échange scolaire, Keith voit resurgir un aspect refoulé de sa personnalité au contact de la jeune fille…",
+    "date_ajout": "2023-01-31",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm245916",
+    "titre": "Emily Dickinson : A Quiet Passion",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2016,
+    "annee_moyenne": 2016,
+    "duree": "2h 05min",
+    "runtime_minutes": 125,
+    "note_avis": 6.4,
+    "note_recence": 7,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/13464965/s592/emily-dickinson-a-quiet-passion.jpg",
+    "synopsis": "Nouvelle-Angleterre, XIXème siècle. Dans son pensionnat de jeunes filles de bonne famille, la jeune Emily Dickinson ne cesse de se rebeller contre les discours évangéliques qui y sont professés. Son père se voit contraint de la ramener au domicile familial, pour le plus grand bonheur de sa sœur Vinnie et de son frère Austin. Passionnée de poésie, Emily écrit nuit et jour dans l’espoir d’être publiée. Les années passent, Emily poursuit sa recherche de la quintessence poétique. La rencontre avec une jeune mondaine indépendante et réfractaire aux conventions sociales ravive sa rébellion. Dès lors, elle n’hésite plus à s’opposer à quiconque voudrait lui dicter sa conduite.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm151916",
+    "titre": "Cub",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2014,
+    "annee_moyenne": 2014,
+    "duree": "1h 25min",
+    "runtime_minutes": 85,
+    "note_avis": 5.9,
+    "note_recence": 6.4,
+    "note_globale": 6.2,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "act",
+      "drm",
+      "hrr",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/178479201/s592/cub.jpg",
+    "synopsis": "Comme chaque été, le jeune Sam, âgé de douze ans et débordant d'imagination, part en camp de scouts dans la forêt. Il se rend vite compte que quelque chose ne tourne pas rond quand il y découvre une mystérieuse cabane visiblement habitée par Kai, un enfant sauvage. Sam croit bon d'en avertir ses guides, mais ceux-ci ne le prennent pas au sérieux, interprétant son récit comme l'une de ses habituelles élucubrations. Et pourtant... Le jeune garçon de la cabane s'avère en plus aider un dangereux psychopathe, lequel va redoubler d'ingéniosité pour décimer les louveteaux de la troupe. Un par un...",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1260237",
+    "titre": "A Creature Was Stirring",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 36min",
+    "runtime_minutes": 96,
+    "note_avis": 4.6,
+    "note_recence": 9.1,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/310089656/s592/a-creature-was-stirring.jpg",
+    "synopsis": "Une infirmière qui s'occupe de sa fille malade s'efforce de cacher ses secrets lorsque des étrangers s'abritent dans sa maison afin de se protéger d'une tempête.",
+    "date_ajout": "2024-03-28",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm164032",
+    "titre": "Les géants",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2011,
+    "annee_moyenne": 2011,
+    "duree": "1h 24min",
+    "runtime_minutes": 84,
+    "note_avis": 6.6,
+    "note_recence": 5.5,
+    "note_globale": 6.1,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "act",
+      "drm",
+      "eur"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/348176888/s592/les-geants.jpg",
+    "synopsis": "C’est l’été, Zak et Seth se retrouvent seuls et sans argent dans leur maison de campagne. Les deux frères s’attendent encore une fois à passer des vacances \"de merde\". Mais cette année là, ils rencontrent Danny, un autre ado du coin. Ensemble, à un âge où tout est possible, ils vont commencer la grande et périlleuse aventure de leur vie...",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm826336",
+    "titre": "Jallikattu",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 31min",
+    "runtime_minutes": 91,
+    "note_avis": 7.3,
+    "note_recence": 7.9,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "act",
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/241450309/s592/jallikattu.jpg",
+    "synopsis": "Lors de la fête tamoule du jallikattu, un taureau est lâché sur une place, et les plus vaillants tentent d’attraper la bête pour un tour de rodéo. Le film pervertit cette tradition avec un buffle en cavale d’abattoir, et le village entier à sa merci. Aux destructions matérielles se mêlent d’autres dommages...",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1477337",
+    "titre": "Jazzy",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 26min",
+    "runtime_minutes": 86,
+    "note_avis": 6,
+    "note_recence": 9.7,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/328239690/s592/jazzy.jpg",
+    "synopsis": "Lorsque sa meilleure amie déménage, Jazzy éprouve à la fois un sentiment de perte et sa première impression d'indépendance.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm270557",
+    "titre": "L'Histoire de l'amour",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2016,
+    "annee_moyenne": 2016,
+    "duree": "2h 15min",
+    "runtime_minutes": 135,
+    "note_avis": 6.3,
+    "note_recence": 7,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma",
+      "war",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/179086349/s592/lhistoire-de-lamour.jpg",
+    "synopsis": "Il était une fois un garçon, Léo, qui aimait une fille, Alma. Il lui a promis de la faire rire toute sa vie. Mais la guerre les a séparés.  Du village polonais dans les années 30 à New York aujourd’hui, se tisse la plus belle histoire d’amour entre Leo, l'homme qui a survécu à tout, et Alma, la femme la plus aimée au monde.  De nos jours, une autre Alma, adolescente new-yorkaise, contaminée par le même virus merveilleux de l'amour veut aussi être la femme la plus aimée au monde.  Rien ne semble lier Léo à la jeune Alma. Et pourtant...  L'amour traversera le temps et les continents pour unir leurs destins.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm241353",
+    "titre": "Les Aventures de Gamba",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2015,
+    "annee_moyenne": 2015,
+    "duree": "1h 32min",
+    "runtime_minutes": 92,
+    "note_avis": 5.2,
+    "note_recence": 6.7,
+    "note_globale": 6,
+    "etoiles": 3,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "act",
+      "ani",
+      "cmy",
+      "fnt",
+      "fml"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/59693308/s592/les-aventures-de-gamba.jpg",
+    "synopsis": "Gamba est un rat courageux avec un goût prononcé pour l’aventure. Un jour, il décide de partir à la découverte de l’océan avec son ami Mathéo. En chemin, ils font la rencontre de Chloé, une jeune ratte qui leur affirme que sa famille et d’autres rats ont été attaqués par une bande de belettes qui vivent sur son île. Chloé demande à Gamba et Mathéo de l’aider à vaincre les belettes, menées par le démoniaque Martial.",
+    "date_ajout": "2025-05-15",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1616830",
+    "titre": "Irréalisable",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2026,
+    "annee_moyenne": 2026,
+    "duree": "1h 28min",
+    "runtime_minutes": 88,
+    "note_avis": 6.8,
+    "note_recence": 10,
+    "note_globale": 8.4,
+    "etoiles": 5,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/350116643/s592/irrealisable.jpg",
+    "synopsis": "Six personnes qui ne se connaissent pas se retrouvent à passer une semaine de vacances dans le magnifique gîte des Mimosas. Là-bas il fait fait bon vivre, Greg et sa femme Monica, les deux hôtes, sont absolument charmants et prennent soin de leurs pensionnaires. Mais tout ne va pas se passer comme prévu, l'un des protagonistes a un sombre projet qui implique à leur insu tous les résidents. Le séjour idyllique va tourner au cauchemar.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm908847",
+    "titre": "Les Amants sacrifiés",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "1h 54min",
+    "runtime_minutes": 114,
+    "note_avis": 6.6,
+    "note_recence": 8.2,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "hst",
+      "trl",
+      "war"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/250530997/s592/les-amants-sacrifies.jpg",
+    "synopsis": "A l'aube de la Seconde Guerre mondiale, Yūsaku Fukuhara, petit notable du port de Kobe décide de se rendre en Mandchourie. A son retour de Chine, il n'est plus le même, agit très étrangement. Sa femme s'interroge, la trompe-t-il ? Que s'est-il passé là-bas ?",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1169148",
+    "titre": "La beauté du geste",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 39min",
+    "runtime_minutes": 99,
+    "note_avis": 6.9,
+    "note_recence": 8.8,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "spt"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/305796416/s592/la-beaute-du-geste-2023.jpg",
+    "synopsis": "Keiko vit dans les faubourgs de Tokyo où elle s’entraîne avec acharnement à la boxe. Sourde, c’est avec son corps qu’elle s’exprime. Mais au moment où sa carrière prend son envol, elle décide de tout arrêter…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm212937",
+    "titre": "Je suis mort mais j'ai des amis",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2015,
+    "annee_moyenne": 2015,
+    "duree": "1h 36min",
+    "runtime_minutes": 96,
+    "note_avis": 6.3,
+    "note_recence": 6.7,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/30750295/s592/je-suis-mort-mais-jai-des-amis.jpg",
+    "synopsis": "Quatre rockers barbus, chevelus — et belges — enterrent le chanteur de leur groupe. Par amitié et pour se prouver que rien ne peut les arrêter, ils décident de partir en tournée à Los Angeles avec ses cendres. La veille du départ, un militaire moustachu se présente comme l’amant de leur ami. Leur voyage prend un tour pour le moins inattendu…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm469997",
+    "titre": "Abou Leila",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "2h 15min",
+    "runtime_minutes": 135,
+    "note_avis": 6.3,
+    "note_recence": 8.2,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/297000292/s592/abou-leila.jpg",
+    "synopsis": "Algérie, 1994. S. et Lotfi, deux amis d’enfance, traversent le désert à la recherche d’Abou Leila, un  dangereux terroriste. La poursuite semble absurde, le Sahara n’ayant pas encore été touché par  la vague d’attentats. Mais S., dont la santé mentale est vacillante, est convaincu d’y trouver Abou  Leila. Lotfi, lui, n’a qu’une idée en tête : éloigner S. de la capitale. Pourtant, c’est en s’enfonçant  dans le désert qu’ils vont se confronter à leur propre violence.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm187006",
+    "titre": "Le Manoir magique",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2013,
+    "annee_moyenne": 2013,
+    "duree": "1h 25min",
+    "runtime_minutes": 85,
+    "note_avis": 6.2,
+    "note_recence": 6.1,
+    "note_globale": 6.2,
+    "etoiles": 3,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "act",
+      "ani",
+      "cmy",
+      "fnt",
+      "fml",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/9371016/s592/le-manoir-magique.jpg",
+    "synopsis": "Tonnerre, un jeune chat, a été abandonné par sa famille. Seul et perdu il trouve refuge dans un mystérieux manoir appartenant à Lorenz, un magicien retraité. Très vite, Tonnerre se sent comme chez lui dans cette maison enchantée, remplie de petits personnages aussi étranges qu'amusants.... Mais lorsque son hôte, Lorenz est envoyé à l'hôpital, son neveu essaie par tous les moyens de vendre la maison sans que son oncle ne s'en aperçoive. C'est alors que Tonnerre a une idée des plus surprenantes : transformer leur manoir en maison hantée ! La résistance s'organise avec l'aide de ses petits compagnons.",
+    "date_ajout": "2024-12-24",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm419373",
+    "titre": "Asher, la dernière mission",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 57min",
+    "runtime_minutes": 117,
+    "note_avis": 5.5,
+    "note_recence": 7.6,
+    "note_globale": 6.6,
+    "etoiles": 3,
+    "categories": [
+      "action_aventure"
+    ],
+    "raw_genres": [
+      "act",
+      "drm",
+      "trl"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/241739115/s592/asher.jpg",
+    "synopsis": "Ancien agent du Mossad, Asher est désormais mercenaire professionnel. Proche de prendre sa retraite, il rencontre Sophie, et va tenter avec elle de mener une vie normale avant qu'il ne soit trop tard. Pour cela, il va devoir se reconstruire une vie...",
+    "date_ajout": "2026-07-06",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1016371",
+    "titre": "Woodlands Dark and Days Bewitched: A History of Folk Horror",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "3h 14min",
+    "runtime_minutes": 194,
+    "note_avis": 7.6,
+    "note_recence": 8.8,
+    "note_globale": 8.2,
+    "etoiles": 5,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "doc",
+      "hst",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/242606110/s592/woodlands-dark-and-days-bewitched-a-history-of-folk-horror.jpg",
+    "synopsis": "Une exploration de l'histoire cinématographique de l'horreur populaire, depuis ses débuts au Royaume-Uni à la fin des années 60 ; en passant par sa prolifération à la télévision britannique dans les années 70 et ses nombreuses manifestations, culturellement spécifiques, dans d'autres pays ; jusqu'à sa résurgence au cours de la dernière décennie.",
+    "date_ajout": "2024-06-27",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm267079",
+    "titre": "Je danserai si je veux",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2016,
+    "annee_moyenne": 2016,
+    "duree": "1h 43min",
+    "runtime_minutes": 103,
+    "note_avis": 7.3,
+    "note_recence": 7,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "crm",
+      "doc",
+      "drm",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/12387401/s592/je-danserai-si-je-veux.jpg",
+    "synopsis": "Layla, Salma et Nour, 3 jeunes femmes palestiniennes, partagent un appartement à Tel Aviv, loin du carcan de leurs villes d'origine et à l'abri des regards réprobateurs. Mais le chemin vers la liberté est jalonné d'épreuves…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm300301",
+    "titre": "Tiger Girl",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "1h 30min",
+    "runtime_minutes": 90,
+    "note_avis": 5.5,
+    "note_recence": 7.3,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "act",
+      "crm",
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/302916280/s592/tiger-girl.jpg",
+    "synopsis": "N'ayant pas réussi à entrer dans la police, Margarete suit une formation d'agent de sécurité. Une nuit, elle rencontre un ex-collègue sexuellement agressif qui insiste pour héler un taxi pour la ramener chez lui. Entre Tiger : les cheveux bruns courts, une fille dure et une battante, le chauffeur de taxi. Comprenant que la situation est loin d'être consensuelle, Tiger s'enfuit avec Margarete, laissant son compagnon debout dans la rue. Ce ne sera pas la dernière fois qu'elle se précipitera au secours de Margarete. Tiger vit dans un appartement mansardé avec deux hommes. Elle sait manier une batte de baseball. Volant un uniforme à la sécurité et renommant Margarete \"Vanilla\", elle commence à orienter sa vie dans une direction complètement différente.",
+    "date_ajout": "2021-04-07",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm983628",
+    "titre": "MUSCLE",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "1h 50min",
+    "runtime_minutes": 110,
+    "note_avis": 6.1,
+    "note_recence": 8.2,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/241251716/s592/muscle.jpg",
+    "synopsis": "Simon Barrett n'aime pas sa vie. Employé médiocre sur une plateforme téléphonique, il déteste son travail, sa compagne Sarah le méprise, et il passe le plus clair de son temps libre au pub pour oublier son infortune. La lecture d'un magazine pour hommes le convainc de se reprendre en main en fréquentant une salle de sport. Là, il rencontre un certain Terry, qui devient son coach. En se musclant, Simon reprend confiance et améliore son existence en tout point. Il ignore que Terry ne l'aide pas par hasard, et qu'il a des projets le concernant. Le réalisateur indépendant Gerard Johnson poursuit son exploration de l'Angleterre ravagée par la crise dans cette satire sociale qui se transforme peu à peu en thriller psychologique.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1158969",
+    "titre": "Un an, une nuit",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "2h 10min",
+    "runtime_minutes": 130,
+    "note_avis": 6.4,
+    "note_recence": 8.8,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/307452708/s592/un-ano-una-noche.jpg",
+    "synopsis": "Le soir du 13 novembre 2015, Ramón et Céline, un jeune couple, assistent au concert du Bataclan. Ils réchappent à l'attaque terroriste, mais ne parviennent pas à reprendre une vie normale. Tandis que Céline cherche désespérément à oublier cette nuit cauchemardesque, Ramón se repasse inlassablement les événements dans la tête, comme pour trouver un sens à l'horreur. Pourtant, ils doivent désormais affronter la même question : comment surmonter l'épreuve et se tourner de nouveau, ensemble, vers la vie ?",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm187473",
+    "titre": "Café de Flore",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2011,
+    "annee_moyenne": 2011,
+    "duree": "2h 01min",
+    "runtime_minutes": 121,
+    "note_avis": 7.3,
+    "note_recence": 5.5,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/259409254/s592/cafe-de-flore.jpg",
+    "synopsis": "Il n’est pas facile de dire adieu à ceux qu’on aime ; pour y parvenir, il faut parfois toute une vie ou deux. Entre le Paris des années 1960 et le Montréal d’aujourd’hui se déploie une vaste histoire d’amour à la fois sombre et lumineuse, troublante et malgré tout pleine d’espoir. Café de Flore raconte les destins croisés de Jacqueline une jeune parisienne mère d’un enfant unique, d’Antoine un DJ montréalais ainsi que des femmes qui l’entourent. Ce qui les relie : l’amour, troublant, maladroit, imparfait, inachevé et humain.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1191877",
+    "titre": "Tori et Lokita",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 28min",
+    "runtime_minutes": 88,
+    "note_avis": 7.1,
+    "note_recence": 8.8,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/302449867/s592/tori-et-lokita.jpg",
+    "synopsis": "Aujourd’hui en Belgique, un jeune garçon et une adolescente venus seuls d’Afrique opposent leur invincible amitié aux cruelles conditions de leur exil.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm313979",
+    "titre": "Tracking satyrs",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 5.8,
+    "note_recence": 7.3,
+    "note_globale": 6.6,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "doc",
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/30794353/s592/thumper.jpg",
+    "synopsis": "Kat Carter est une enquêtrice de la police sous couverture. Elle s'infiltre incognito dans un lycée en se faisant passer pour une nouvelle élève au caractère bien trempé, afin de démanteler un trafic de drogue. Elle tombe malheureusement amoureuse de l'élève défavorisé qui est à l'origine de ce trafic illégal.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1077905",
+    "titre": "Alma Viva",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 25min",
+    "runtime_minutes": 85,
+    "note_avis": 6.7,
+    "note_recence": 8.8,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/304283278/s592/alma-viva.jpg",
+    "synopsis": "Comme chaque été, la petite Salomé retrouve le village familial, niché au creux des montagnes portugaises, le temps des vacances. Tandis que celles-ci commencent dans l’insouciance, sa grand-mère adorée meurt subitement. Alors que les adultes se déchirent au sujet des obsèques, Salomé est hantée par l’esprit de celle que l'on considérait comme une sorcière.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm863470",
+    "titre": "The Last Thing Mary Saw",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner",
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "snr",
+      "sdz"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 28min",
+    "runtime_minutes": 88,
+    "note_avis": 5.1,
+    "note_recence": 8.5,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/260680018/s592/the-last-thing-mary-saw.jpg",
+    "synopsis": "1843, dans l'État de New York. Après la mort mystérieuse de sa grand-mère, Mary, fille aînée d'une famille modeste, est interrogée par quatre hommes sur les circonstances de ce décès. Tous semblent tous terrifiés par la jeune femme, qui porte sur les yeux un bandeau imbibé de sang. Quelques mois auparavant, Mary avait entamé une liaison interdite avec Eleanor, la domestique de la maisonnée. Lorsque les parents de Mary avaient réalisé ce qui se passait sous leur toit, ils avaient demandé à la matriarche de punir leur fille à la hauteur de ses péchés. Mais Mary n'avait aucune intention de se laisser faire...",
+    "date_ajout": "2025-09-05",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm898537",
+    "titre": "Uncle Peckerhead",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "1h 36min",
+    "runtime_minutes": 96,
+    "note_avis": 5.9,
+    "note_recence": 8.2,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "hrr",
+      "msc"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/199638756/s592/uncle-peckerhead.jpg",
+    "synopsis": "Lorsqu'un groupe punk marque sa première tournée, la vie sur la route s'avère difficile lorsqu'ils sont rejoints par un démon mangeur d'hommes en tant que roadie.",
+    "date_ajout": "2021-08-26",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm430200",
+    "titre": "L'Amour flou",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 37min",
+    "runtime_minutes": 97,
+    "note_avis": 6.3,
+    "note_recence": 7.6,
+    "note_globale": 7,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "eur"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/77947915/s592/lamour-flou.jpg",
+    "synopsis": "Romane et Philippe se séparent. Après 10 ans de vie commune, deux enfants et un chien, ils ne s’aiment plus. Enfin… ils ne sont plus amoureux. Mais ils s’aiment, quand même. Beaucoup. Trop pour se séparer vraiment ? Bref… c’est flou.  Alors, sous le regard circonspect de leur entourage, ils accouchent ensemble d’un « sépartement » : deux appartements séparés, communiquant par… la chambre de leurs enfants ! Peut-on se séparer ensemble ? Peut-on refaire sa vie, sans la défaire ?",
+    "date_ajout": "2018-10-10",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm974359",
+    "titre": "Poppy Field",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 23min",
+    "runtime_minutes": 83,
+    "note_avis": 6.1,
+    "note_recence": 8.8,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/300564826/s592/poppy-field.jpg",
+    "synopsis": "Cristi, un policier roumain, garde son homosexualité secrète car il travaille dans une institution publique très machiste. Le jour même où son petit ami français vient lui rendre visite pour quelques jours, Cristi est appelé pour une intervention dans une salle de cinéma où un groupuscule catholique et ultranationaliste sabote la projection d'un film queer. Lorsque l'un des spectateurs gay le reconnait et menace de révéler le secret de sa sexualité, Cristi est confronté au danger de perdre le contrôle de sa vie…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1198145",
+    "titre": "Family Dinner",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 37min",
+    "runtime_minutes": 97,
+    "note_avis": 5.7,
+    "note_recence": 9.1,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/304099500/s592/family-dinner.jpg",
+    "synopsis": "Simi, une adolescente déprimée par son surpoids, met beaucoup d’espoir dans le week-end de Pâques qu’elle va passer chez sa tante, une nutritionniste célèbre prête à lui prodiguer les meilleurs conseils. Mais entre un cousin hostile, une spécialiste dictatoriale, et un beau-père trop gentil pour être honnête, l’ambiance se révèle vite peu rassurante…",
+    "date_ajout": "2023-05-25",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm996983",
+    "titre": "Jukaï : La Forêt des suicides",
+    "type": "film",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 57min",
+    "runtime_minutes": 117,
+    "note_avis": 5.2,
+    "note_recence": 8.5,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/268625873/s592/jukai-la-foret-des-suicides.jpg",
+    "synopsis": "JUKAI ou AOKIGAHARA est connue au Japon pour être une véritable forêt où un nombre étrange de personnes sont venues mettre fin à leurs jours… Elle alimente et nourrit, malgré son côté tragique, des histoires et mythes en tous genres.  Deux sœurs, Hibiki et Naki, bravent l’interdit et décident de rentrer dans la forêt de Jukaï. Elles découvrent que de nombreuses personnes disparues dans la région ont été retrouvées à l’intérieur de ces bois et aux alentours. Sont-elles venues de leur propre gré ou est-ce qu'un pouvoir spirituel maléfique les a attirés dans ce lieu ? Le seul indice est une boîte mystérieuse, qui, depuis qu’elle a été touchée par Hibiki et Naki, provoque une nouvelle spirale d’accidents et de morts dans le village…",
+    "date_ajout": "2026-05-31",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm454001",
+    "titre": "Ma folle semaine avec Tess",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 20min",
+    "runtime_minutes": 80,
+    "note_avis": 7,
+    "note_recence": 7.9,
+    "note_globale": 7.5,
+    "etoiles": 4,
     "categories": [
       "comedie"
     ],
@@ -75235,65 +87006,5028 @@ const CATALOG_DATA = [
     ],
     "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/141565891/s592/la-lutte-des-classes.jpg",
-    "synopsis": "Comme chacun sait, les enfants ne font aucune différence entre les classes sociales, les couleurs de peau ou les religions. Mais alors pourquoi Corentin, le fils de 9 ans de Paul et Sofia, n’a-t-il à l’école de Bagnolet que des amis qui lui ressemblent? Et quand ses amis partent tous dans une école privée parisienne, ses parents prennent peur. Désormais, Corentin est le seul dans sa classe. Mais le seul quoi ?",
-    "date_ajout": "2026-08-29",
+    "poster": "https://images.justwatch.com/poster/196050476/s592/ma-folle-semaine-avec-tess.jpg",
+    "synopsis": "C’est l’été, Sam vient d’arriver avec sa famille sur l’île de Terschelling mais leur séjour débute mal. Sa mère est clouée au lit et son frère se casse une jambe sur la plage. Sam se retrouve alors seul à déambuler dans le village et rencontre Tess, une fille qui a des étincelles plein les yeux… Il se réjouit de partager des moments avec cette nouvelle amie qu’il admire. Lors d’un pique nique organisé par Tess, le jeune garçon constate qu’elle a un comportement étrange et il finit par comprendre qu’elle se sert de lui pour accomplir son plan secret...",
+    "date_ajout": "2024-12-31",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-11",
-      "packageExpirations": {
-        "aoc": "2026-10-11"
-      }
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm430565",
+    "titre": "Working woman",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 6.8,
+    "note_recence": 7.9,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/168391424/s592/working-woman.jpg",
+    "synopsis": "Orna travaille dur afin de subvenir aux besoins de sa famille. Brillante, elle est rapidement promue par son patron, un grand chef d'entreprise. Les sollicitations de ce dernier deviennent de plus en plus intrusives et déplacées. Orna prend sur elle et garde le silence pour ne pas inquiéter son mari. Jusqu’au jour où elle ne peut plus supporter la situation. Elle décide alors de changer les choses pour sa famille, pour elle et pour sa dignité.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": false
   },
   {
-    "id": "jw-tm1583419",
-    "titre": "Les musiciens",
+    "id": "jw-tm155912",
+    "titre": "24 Jours",
     "type": "film",
-    "chaine": "Ciné+ OCS",
+    "chaine": "Sooner",
     "chaines": [
-      "Ciné+ OCS"
+      "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "aoc"
+      "snr"
     ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 6.8,
-    "note_recence": 9.7,
-    "note_globale": 8.3,
-    "etoiles": 5,
+    "annee": 2014,
+    "annee_moyenne": 2014,
+    "duree": "1h 50min",
+    "runtime_minutes": 110,
+    "note_avis": 6.4,
+    "note_recence": 6.4,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "trl",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/176041827/s592/24-jours-la-verite-sur-laffaire-ilan-halimi.jpg",
+    "synopsis": "Tout commence le 20 janvier 2006. Le dîner de shabbat s’achève. Ilan a choisi de sortir ce soir-là malgré les réticences de sa mère. En refermant la porte de l’appartement, il lui adresse un baiser pour la réconforter. Ce sera le dernier. Elle ne le reverra jamais. Le récit des 24 jours qui suivent cette scène est une plongée dans la nuit d’un jeune homme enlevé et pris en otage parce qu’il est juif. À travers les messages de ses ravisseurs, se dessine, jour après jour, son calvaire.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm244103",
+    "titre": "Hotel Salvation",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2016,
+    "annee_moyenne": 2016,
+    "duree": "1h 43min",
+    "runtime_minutes": 103,
+    "note_avis": 7.1,
+    "note_recence": 7,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/312863348/s592/hotel-salvation.jpg",
+    "synopsis": "Daya souhaite se rendre à Varanasi (Bénarès), au bord du Gange, dans l’espoir d’y mourir et atteindre le salut. A contrecœur, son fils Rajiv l’accompagne, laissant derrière lui son travail, sa femme et sa fille. Arrivés dans la ville sainte, les deux hommes louent une chambre à l’hôtel Salvation, un endroit réservé aux personnes en fin de vie. Mais le temps passe et Daya ne montre pas de signe de fatigue. Cette attente inopinée est enfin l’occasion pour le père et son fils de se connaître et de se comprendre.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm226375",
+    "titre": "Molly Moon et le livre magique de l'hypnose",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2015,
+    "annee_moyenne": 2015,
+    "duree": "1h 38min",
+    "runtime_minutes": 98,
+    "note_avis": 5.2,
+    "note_recence": 6.7,
+    "note_globale": 6,
+    "etoiles": 3,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "fnt",
+      "fml"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/306975565/s592/molly-moon-et-le-livre-magique-de-lhypnose.jpg",
+    "synopsis": "Molly Moon, une petite orpheline anglaise découvre, grâce à un mystérieux manuel, ses pouvoirs d’hypnotiseuse. Après avoir envoûté la méchante directrice de l’orphelinat, Molly Moon s’embarque pour les États-Unis et devient star à Broadway. Mais ses pouvoirs magiques font des envieux…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm218046",
+    "titre": "Marguerite",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2015,
+    "annee_moyenne": 2015,
+    "duree": "2h 07min",
+    "runtime_minutes": 127,
+    "note_avis": 6.9,
+    "note_recence": 6.7,
+    "note_globale": 6.8,
+    "etoiles": 3,
     "categories": [
       "comedie"
     ],
     "raw_genres": [
       "cmy",
       "drm",
+      "msc",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/302843636/s592/marguerite.jpg",
+    "synopsis": "Le Paris des années 20. Marguerite Dumont est une femme fortunée passionnée de musique et d’opéra. Depuis des années elle chante régulièrement devant son cercle d’habitués. Mais Marguerite chante tragiquement faux et personne ne le lui a jamais dit. Son mari et ses proches l’ont toujours entretenue dans ses illusions. Tout se complique le jour où elle se met en tête de se produire devant un vrai public à l’Opéra.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm449235",
+    "titre": "Le Photographe",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 51min",
+    "runtime_minutes": 111,
+    "note_avis": 6.8,
+    "note_recence": 7.9,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/206296979/s592/le-photographe.jpg",
+    "synopsis": "Rafi, modeste photographe, fait la rencontre d'une muse improbable,  Miloni,  jeune  femme  issue  de  la  classe  moyenne de Bombay. Quand la grand-mère du garçon débarque, en pressant son petit-fils de se marier, Miloni accepte de se faire passer pour la petite amie de Rafi. Peu à peu, ce qui n'était jusque-là qu'un jeu se confond avec la réalité...",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm420818",
+    "titre": "Killing",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 20min",
+    "runtime_minutes": 80,
+    "note_avis": 6.5,
+    "note_recence": 7.6,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "act",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/325191344/s592/killing.jpg",
+    "synopsis": "Au milieu du XIXe siècle, un rônin s’entraîne tous les jours afin de préserver ses talents de sabreur. Un jour, on lui propose de rejoindre un groupe de mercenaires en mission secrète vers la capitale… Par le réalisateur de Tetsuo : The Iron Man et de Fires on the Plain.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1528883",
+    "titre": "La déviante comédie",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 06min",
+    "runtime_minutes": 66,
+    "note_avis": 6.9,
+    "note_recence": 9.4,
+    "note_globale": 8.2,
+    "etoiles": 5,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "drm",
+      "fnt"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/336250835/s592/la-deviante-comedie.jpg",
+    "synopsis": "Octavia, une réalisatrice mélancolique, qui ne peut plus tourner de film, décide de mettre en scène \"Conann\" pour le théâtre, alors que le véritable Rainer infiltre sa troupe dans le rôle du démon à tête de chien avec l'objectif d'y retrouver, parmi les actrices, la véritable Conann.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm449466",
+    "titre": "Les Drapeaux de papier",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 6.4,
+    "note_recence": 7.9,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/136092139/s592/les-drapeaux-de-papier.jpg",
+    "synopsis": "Charlie, bientôt 24 ans, mène une vie sans excès: elle se rêve artiste et peine à joindre les deux bouts. Quand son frère vient la retrouver après douze ans d’absence, tout se bouscule. Vincent a 30 ans et sort tout juste de prison où il a purgé une longue peine. Il a tout à apprendre dans un monde qu’il ne connait plus. Charlie est prête à l’aider. C’est son frère après tout, son frère dont la colère peut devenir incontrôlable et tout détruire malgré lui.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm431908",
+    "titre": "Alvdan, apprenti Viking",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 5.2,
+    "note_recence": 7.6,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "action_aventure"
+    ],
+    "raw_genres": [
+      "act",
+      "fml",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/131800419/s592/alvdan-apprenti-viking.jpg",
+    "synopsis": "Un jeune Viking enfreint une règle ancestrale et se rend dans un village interdit. Il y rencontre une jeune fille. Tous deux se lient d'amitié.",
+    "date_ajout": "2025-09-25",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm463018",
+    "titre": "Depraved",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 54min",
+    "runtime_minutes": 114,
+    "note_avis": 5.6,
+    "note_recence": 7.9,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl",
+      "scf"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/147373961/s592/depraved.jpg",
+    "synopsis": "Un chirurgien souffrant de trouble de stress post-traumatique après les combats qu’il a connus au Moyen-Orient, crée un homme à partir de morceaux de corps récupérés dans un quartier de Brooklyn…",
+    "date_ajout": "2020-11-04",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm373888",
+    "titre": "La Permission",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 28min",
+    "runtime_minutes": 88,
+    "note_avis": 6.1,
+    "note_recence": 7.6,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "spt"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/90987325/s592/araghe-sard.jpg",
+    "synopsis": "D’après une histoire vraie.  Afrooz est la capitaine de l’équipe féminine de futsal en Iran. Après 11 ans de travail acharné, son rêve devient réalité : l’Iran est en finale de la Coupe d’Asie des nations.  Mais au moment d’embarquer pour la Malaisie, elle apprend que son mari lui interdit de sortir du territoire. En Iran, une femme doit obtenir l’autorisation de son mari pour pouvoir voyager.  Afrooz doit alors réussir à convaincre son mari de la laisser partir, par tous les moyens…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1360517",
+    "titre": "L’Ombre du feu",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 35min",
+    "runtime_minutes": 95,
+    "note_avis": 6.9,
+    "note_recence": 9.1,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "hst",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/312904148/s592/hokage.jpg",
+    "synopsis": "Au lendemain de la Seconde Guerre mondiale, le Japon tente péniblement de se relever et de panser ses blessures. Unique survivante de sa famille, une jeune femme passe son temps enfermée dans le bar délabré qui lui sert de refuge, attendant le client. Un jour, elle voit débarquer un petit orphelin chapardeur et un jeune soldat démobilisé. Entre ce trio atypique, un semblant de vie de famille commence à s’installer. Hélas, les traumatismes de la guerre auront tôt fait d’anéantir ce bonheur fugace...",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm420326",
+    "titre": "Tito et les Oiseaux",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 13min",
+    "runtime_minutes": 73,
+    "note_avis": 6.7,
+    "note_recence": 7.9,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "act",
+      "ani",
+      "drm",
+      "fnt",
+      "fml",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/142859548/s592/tito-et-les-oiseaux.jpg",
+    "synopsis": "Tito a 10 ans et vit seul avec sa mère. Lorsqu’une étrange épidémie commence à se propager dans la ville, transformant les gens en pierres chaque fois qu'ils ont peur, Tito comprend que le remède pourrait être lié aux recherches que son père avait faites avec des oiseaux. Accompagné par ses amis, il se donne alors pour mission de sauver le monde.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1222702",
+    "titre": "New Religion",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 5.7,
+    "note_recence": 9.1,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/306092645/s592/new-religion.jpg",
+    "synopsis": "Après la mort de sa fille, Miyabi, divorcée, travaille comme call-girl. Un jour, elle rencontre un client bizarre qui veut prendre une photo de sa colonne vertébrale. Puis, lors d'un autre rendez-vous, de ses pieds. Elle se rend vite compte qu'à chaque fois qu'elle laisse son corps se faire photographier, l'esprit de sa fille se rapproche. Bientôt, il ne reste plus que ses yeux à photographier, ce qui conduit à l'effondrement de la société dans ce conte audacieux, visionnaire et unique.",
+    "date_ajout": "2023-11-23",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm980105",
+    "titre": "Lioness",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 25min",
+    "runtime_minutes": 85,
+    "note_avis": 7,
+    "note_recence": 9.1,
+    "note_globale": 8.1,
+    "etoiles": 5,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "fml",
+      "spt"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/305104790/s592/lioness.jpg",
+    "synopsis": "La vie de Rosie, une adolescente, change lorsqu'elle et sa famille quittent le Suriname pour s'installer aux Pays-Bas. Heureusement, elle trouve son bonheur dans le football et rejoint une équipe de filles. Elle n'a qu'un objectif : intégrer l'équipe nationale.",
+    "date_ajout": "2025-10-17",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1304608",
+    "titre": "Le plongeur",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "2h 07min",
+    "runtime_minutes": 127,
+    "note_avis": 7.1,
+    "note_recence": 9.1,
+    "note_globale": 8.1,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/305139228/s592/le-plongeur.jpg",
+    "synopsis": "Montréal, hiver 2002. Stéphane, 19 ans, fan de Métal, étudiant en graphisme rêve de devenir illustrateur. Mais depuis des mois il s'engouffre dans une spirale menaçante : il est accro aux jeux. Endetté, sans appartement, évitant ses amis à qui il doit de l'argent, Stéphane prend un job de plongeur dans un restaurant afin de s'en sortir. Il découvre la vie survoltée d'un restaurant à l'approche des fêtes et sa galerie de personnages.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm140972",
+    "titre": "R100",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2013,
+    "annee_moyenne": 2013,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 5.9,
+    "note_recence": 6.1,
+    "note_globale": 6,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/240125379/s592/r100.jpg",
+    "synopsis": "Un homme, qui prend soin de son fils depuis que sa femme est plongée dans le coma, entre dans un immeuble des plus banals. Il décide alors de devenir membre d’un club privé, après avoir pris connaissance des prestations proposées et du fait que l’adhésion n’est valable qu’une seule année et ne peut être annulée que sous certaines conditions. En tant que nouveau membre, un monde de plaisirs s’offre alors à lui. Il en apprécie tout particulièrement l’intrusion dans son quotidien de femmes dominatrices. Jusqu’au jour où celles-ci s’approchent d’un peu trop près de sa famille – laquelle ne se doute de rien – et où, avec un courage rarement affiché dans sa petite vie de vendeur de literie, il va alors tenter d’annuler son adhésion au club.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm322147",
+    "titre": "L'Atelier",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "1h 54min",
+    "runtime_minutes": 114,
+    "note_avis": 6.5,
+    "note_recence": 7.3,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "drm",
+      "trl",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/78808629/s592/latelier.jpg",
+    "synopsis": "La Ciotat, un été. Antoine a accepté de suivre un atelier d’écriture où quelques jeunes en insertion doivent écrire un roman noir avec l’aide d’Olivia, une romancière reconnue. Le travail d’écriture va faire resurgir le passé ouvrier de la ville, son chantier naval fermé depuis 25 ans, toute une nostalgie qui n'intéresse pas Antoine.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm290972",
+    "titre": "Les Habitants",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2016,
+    "annee_moyenne": 2016,
+    "duree": "1h 24min",
+    "runtime_minutes": 84,
+    "note_avis": 6.3,
+    "note_recence": 7,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/320337551/s592/les-habitants-2016.jpg",
+    "synopsis": "Raymond Depardon part à la rencontre des Français pour les écouter parler. De Charleville-Mézières à Nice, de Sète à Cherbourg, il invite des gens rencontrés dans la rue à poursuivre leur conversation devant nous, sans contraintes en toute liberté.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm424065",
+    "titre": "DreadOut",
+    "type": "film",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 35min",
+    "runtime_minutes": 95,
+    "note_avis": 5,
+    "note_recence": 7.9,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "fnt",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/304190271/s592/dreadout.jpg",
+    "synopsis": "Un groupe d'amis du lycée décide de se diffuser en direct dans un immeuble hanté, mais finit par ouvrir un portail vers l'enfer.",
+    "date_ajout": "2026-08-31",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 31/10",
+      "daysLeft": 20,
+      "expirationDate": "2026-10-31",
+      "packageExpirations": {
+        "ima": "2026-10-31"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm361588",
+    "titre": "Mission Yéti",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "1h 24min",
+    "runtime_minutes": 84,
+    "note_avis": 5.1,
+    "note_recence": 7.3,
+    "note_globale": 6.2,
+    "etoiles": 3,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "act",
+      "ani",
+      "cmy",
+      "fml"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/178912374/s592/nelly-et-simon-mission-yeti.jpg",
+    "synopsis": "Québec, 1956. Les destins de Nelly Maloye, détective privée débutante et Simon Picard, assistant de recherche en sciences, se croisent accidentellement. Soutenus par un mécène ambitieux, Maloye, intuitive et chaotique, et Picard, méthodique et obsessionnel, se lancent dans une aventure visant à prouver l’existence du Yéti. Pour y arriver, Simon compte sur le journal d’un explorateur pour les mener au repaire de la créature mythique. Accompagnés de Tensing, un jeune guide Sherpa, et de Jasmin, un mainate bavard, ils sont confrontés à de nombreux dangers au cœur de l’Himalaya.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm170814",
+    "titre": "Henri",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2013,
+    "annee_moyenne": 2013,
+    "duree": "1h 43min",
+    "runtime_minutes": 103,
+    "note_avis": 6.2,
+    "note_recence": 6.1,
+    "note_globale": 6.2,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/319700178/s592/henri.jpg",
+    "synopsis": "Henri perd subitement sa femme Rita, qui tenait d'une main de fer leur restaurant La Cantina. Incapable de reprendre pied, il décide de faire appel aux \"papillons blancs\", résidents d'un foyer voisin pour personnes handicapées. Rosette est de ceux-là. Elle rêve d’amour, de sexualité et de normalité. Avec son arrivée, une nouvelle vie s’organise.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1422493",
+    "titre": "Laced",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 35min",
+    "runtime_minutes": 95,
+    "note_avis": 4.7,
+    "note_recence": 9.1,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/320715470/s592/laced.jpg",
+    "synopsis": "Durant une tempête de neige sans précédent, les projets d'une femme visant à tuer son mari violent et toxique s’effondrent peu à peu.",
+    "date_ajout": "2024-08-29",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm462387",
+    "titre": "Bayala : La Magie des dragons",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 25min",
+    "runtime_minutes": 85,
+    "note_avis": 4.8,
+    "note_recence": 7.9,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "ani",
+      "fnt",
+      "fml"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/186179611/s592/bayala-la-magie-des-dragons.jpg",
+    "synopsis": "Quand la jeune Marween découvre un œuf de dragon, les elfes du royaume de Bayala lui révèlent qu'à sa naissance, le bébé dragon doit voir ses parents pour ne pas perdre sa magie. La princesse Surah et ses compagnons, vont les accompagner dans un voyage périlleux, pour retrouver les derniers dragons. Mais Ophira, la Reine des Elfes des Ombres, veut aussi s’emparer de la magie des dragons et menace leur voyage et l’avenir de Bayala.",
+    "date_ajout": "2025-04-29",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts81658",
+    "titre": "What the Future Holds",
+    "type": "serie",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2018,
+        "note": 7.5
+      }
+    ],
+    "duree": "53 min/ép.",
+    "runtime_minutes": 53,
+    "note_avis": 7.5,
+    "note_recence": 7.6,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl",
+      "eur"
+    ],
+    "badge": "18",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/310540855/s592/what-the-future-holds.jpg",
+    "synopsis": "En 1966, Justo Gil arrive à Barcelone en tant que migrant, bien décidé à gagner suffisamment d'argent pour offrir les meilleurs soins à sa mère malade. Son charisme indéniable lui permet d'intégrer la jeunesse bourgeoise, jusqu'à ce qu'un imprévu le conduise à devenir informateur pour la police politique, traquant les cellules communistes.\n",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm159235",
+    "titre": "Cartoonists: Footsoldiers of Democracy",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2014,
+    "annee_moyenne": 2014,
+    "duree": "1h 54min",
+    "runtime_minutes": 114,
+    "note_avis": 6.8,
+    "note_recence": 6.4,
+    "note_globale": 6.6,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/320924918/s592/caricaturistes-fantassins-de-la-democratie.jpg",
+    "synopsis": "12 fous formidables, drôles et tragiques, des quatre coins du monde, des caricaturistes, défendent la démocratie en s'amusant, avec, comme seule arme, un crayon, au risque de leurs vies. Ils sont: français, tunisienne, russe, mexicain, américain, burkinabé, chinois, algériens, ivoirien, vénézuélienne, israélien et palestinien.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm52897",
+    "titre": "Profils paysans : La Vie moderne",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2008,
+    "annee_moyenne": 2008,
+    "duree": "1h 28min",
+    "runtime_minutes": 88,
+    "note_avis": 7.5,
+    "note_recence": 4.6,
+    "note_globale": 6.1,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/179303685/s592/la-vie-moderne.jpg",
+    "synopsis": "Raymond Depardon a suivi pendant dix ans des paysans de moyenne montagne. Il nous fait entrer dans leurs fermes avec un naturel extraordinaire. Ce film nous parle, avec une grande sérénité, de nos racines et du devenir des gens de la terre.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm570685",
+    "titre": "Puppet Killer",
+    "type": "film",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 23min",
+    "runtime_minutes": 83,
+    "note_avis": 4.8,
+    "note_recence": 7.9,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/254342666/s592/puppet-killer.jpg",
+    "synopsis": "Alors qu'ils fêtent Noël dans une cabane dans les bois, un groupe de lycéens est traqué par un tueur psychotique obsédé par les icônes des films d'horreur.",
+    "date_ajout": "2026-09-30",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 31/12",
+      "daysLeft": 81,
+      "expirationDate": "2026-12-31",
+      "packageExpirations": {
+        "ima": "2026-12-31"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1361935",
+    "titre": "My Mother's Eyes",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 34min",
+    "runtime_minutes": 94,
+    "note_avis": 5.3,
+    "note_recence": 9.1,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "fnt",
+      "hrr",
+      "trl",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/344623649/s592/my-mothers-eyes.jpg",
+    "synopsis": "Une mère et sa fille, deux violoncellistes, ont un accident de voiture, les laissant avec de graves séquelles aux yeux. Des années plus tard, alors qu'elles ont trouvé des moyens pour retrouver un semblant de vue, une vision commune les frappe toutes les deux...",
+    "date_ajout": "2024-10-10",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm233160",
+    "titre": "Lettres de la guerre",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2016,
+    "annee_moyenne": 2016,
+    "duree": "1h 45min",
+    "runtime_minutes": 105,
+    "note_avis": 6.7,
+    "note_recence": 7,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/11356456/s592/lettres-de-la-guerre.jpg",
+    "synopsis": "Un jeune médecin portugais, soldat pendant la guerre coloniale en Angola entre 1971 et 1973, envoie à sa femme des lettres d’amour poétiques, sensuelles et passionnées. Ce jeune homme, en train de devenir écrivain, c’est António Lobo Antunes dont 280 lettres ont été publiées en 2005. Elles sont l’inspiration du film qui en propose une lecture intime et leur donne vie.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1021755",
+    "titre": "Howard's Mill",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 36min",
+    "runtime_minutes": 96,
+    "note_avis": 5.9,
+    "note_recence": 8.5,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "crm",
+      "hrr",
+      "trl",
+      "scf"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/245231456/s592/howards-mill.jpg",
+    "synopsis": "Un terrain agricole abandonné dans la campagne du Tennessee pourrait bien détenir la clé de plusieurs affaires de disparitions s'étalant sur plus de quarante ans.",
+    "date_ajout": "2023-10-31",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1435683",
+    "titre": "La Récréation de Juillet",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 21min",
+    "runtime_minutes": 81,
+    "note_avis": 6.4,
+    "note_recence": 9.4,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/321465547/s592/la-recreation-de-juillet.jpg",
+    "synopsis": "Suite à la mort de sa sœur jumelle, Gaspard, jeune professeur de musique, réunit ses cinq anciens meilleurs amis dans le collège désert de leur enfance, en plein mois de juillet. Dans cet endroit rempli de souvenirs et de mélancolie, les amis retombent progressivement en enfance.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm48556",
+    "titre": "Journal de France",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2012,
+    "annee_moyenne": 2012,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 7.1,
+    "note_recence": 5.8,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/169206025/s592/journal-de-france.jpg",
+    "synopsis": "Tout au long de sa carrière et de ses voyages, Raymond Depardon a filmé ses reportages. Il en a conservé des séquences inédites dans sa cave. Alors que son épouse Claudine Nougaret ne l'accompagnait pas dans ses périples, elle a commencé à trier les images tournées au fil des années par son mari cinéaste et photographe. Elle découvre ses débuts à la caméra, ses reportages autour du monde et ses voyages à travers toute la France à la rencontre d'agriculteurs, de paysans et de villageois. Elle les dévoile à présent avec Raymond Depardon, car il s'agit de bribes de leur mémoire, mais surtout de l'histoire de la France, du monde et de ses habitants...",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1414532",
+    "titre": "Au pays de nos frères",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 35min",
+    "runtime_minutes": 95,
+    "note_avis": 7.2,
+    "note_recence": 9.4,
+    "note_globale": 8.3,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/326247002/s592/au-pays-de-nos-freres.jpg",
+    "synopsis": "Iran années 2000 : dans l’ombre de l’invasion américaine, une famille élargie de réfugiés afghans tente de reconstruire sa vie dans \"le pays des frères\". Une odyssée sur trois décennies où Mohammad, un jeune étudiant prometteur, Leila, une femme isolée et Qasem qui porte le poids du sacrifice pour sa famille, luttent pour survivre à ce nouveau quotidien incertain.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm151717",
+    "titre": "Le Cousin Jules",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2013,
+    "annee_moyenne": 2013,
+    "duree": "1h 31min",
+    "runtime_minutes": 91,
+    "note_avis": 7.6,
+    "note_recence": 6.1,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/242509067/s592/cousin-jules.jpg",
+    "synopsis": "Dans la campagne bourguignonne, vit un couple d’octogénaires. Jules est forgeron et passe ses journées à créer des objets en fer. Sa femme, Félicie, s’occupe du potager, prépare leurs repas et partage avec lui le café du matin dans la forge. La simplicité de leur routine quotidienne nous immisce dans l’intimité d’une relation de toute une vie…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm316843",
+    "titre": "Spit’n’Split",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner",
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "snr",
+      "sdz"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "1h 27min",
+    "runtime_minutes": 87,
+    "note_avis": 6.9,
+    "note_recence": 7.3,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "doc",
+      "drm",
       "msc"
     ],
     "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/335799133/s592/les-musiciens-2025.jpg",
-    "synopsis": "Astrid Carlson parvient enfin à réaliser le rêve de son père : réunir quatre Stradivarius pour un concert unique attendu par les mélomanes du monde entier. Mais Lise, George, Peter et Apolline, les quatre virtuoses recrutés pour l’occasion, sont incapables de jouer ensemble. Les crises d’égo se succèdent au rythme des répétitions. Sans solution, Astrid se résout à aller chercher le seul qui, à ses yeux, peut encore sauver l’événement : Charlie Beaumont, le compositeur de la partition.",
-    "date_ajout": "2026-08-29",
+    "poster": "https://images.justwatch.com/poster/334936745/s592/spitnsplit.jpg",
+    "synopsis": "On a souvent la fausse impression que les tournées de rock band, c’est le paradis «artificiel» sur Terre, avec ses hordes de fans prêtes à tomber le tanga pour un autographe, des brouettes de coke en guise de Muesli, des hôtels de luxe qui perdent une étoile rien qu’avec le passage de ces anarchistes du riff sauvage, et des cachets qui frôlent le prêt hypothécaire pour le commun des mortels. Les membres de « The Experimental Tropic Blues Band » aimeraient bien confirmer cette version. Sauf qu’eux, ce sont des trajets interminables dans un van qui date de l’époque de Wham !, des cachets d’aspirine surtout, des caves sordides et des bars vides qui les paient avec des Bounty, un petit Baby Bamboo pour s’évader de cette promiscuité insupportable. Et la seule femme qu’ils pénétreront, c’est la Statue de la Liberté s’ils passent par les States.",
+    "date_ajout": "2024-05-23",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-11",
-      "packageExpirations": {
-        "aoc": "2026-10-11"
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm368033",
+    "titre": "La Prière",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 47min",
+    "runtime_minutes": 107,
+    "note_avis": 6.7,
+    "note_recence": 7.6,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/76666813/s592/la-priere.jpg",
+    "synopsis": "Après avoir failli mourir d'une overdose, Thomas, 22 ans, est envoyé en montagne, dans une communauté d'anciens toxicomanes qui comptent sur la prière et le travail pour s'en sortir. Mais Thomas trouve rapidement les règles trop strictes : pas de cigarettes, pas d'alcool, pas de filles. Un soir, après une énième algarade, il décide de s'enfuir. En ville, il rencontre Sybille, dont il tombe amoureux. La jeune femme l'encourage à retourner dans la communauté. Grâce à l'aide bienveillante de soeur Myriam, Thomas découvre peu à peu la foi. Mais il n'a pas oublié Sybille. Un beau film sur la rédemption signé Cédric Kahn, dont le film suivant, \"Fête de famille\", illustre l'exact contraire de la démarche de Thomas.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts357559",
+    "titre": "Châtiment",
+    "type": "serie",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2022,
+        "note": 6.8
       }
+    ],
+    "duree": "50 min/ép.",
+    "runtime_minutes": 50,
+    "note_avis": 6.8,
+    "note_recence": 8.8,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/348213646/s592/chatiment.jpg",
+    "synopsis": "Six perspectives cinématographiques. Six récits dramatiques…Une série anthologique mettant en lumière six des réalisateurs les plus captivants d’Allemagne. Des visions singulières et radicales sur des dilemmes moraux dans lesquels notre liberté individuelle est confrontée aux nécessités de la justice et du vivre ensemble.\n\nCréée par Oliver Berben et Ferdinand von Schirach, adaptée des nouvelles écrites par ce dernier, Châtiment est une anthologie, c’est-à-dire une série qui explore toujours les mêmes thématiques et conserve la même direction artistique, mais où les personnages et les récits changent d’un épisode à l’autre. Ce modèle très populaire de nos jours a souvent pour vocation de porter un point de vue critique sur notre société, en pointant du doigt, épisode après épisode, tout ce qui cloche voire déraille sévèrement dans notre monde.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1365003",
+    "titre": "The Summer Book",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 30min",
+    "runtime_minutes": 90,
+    "note_avis": 6.5,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/347328448/s592/the-summer-book.jpg",
+    "synopsis": "L'histoire de la relation entre Sophia, une fillette de huit ans qui grandit vite, et sa grand-mère, qui approche de la fin de sa vie. Elles passent du temps ensemble avec le père de Sophia, dans la maison de vacances familiale située sur une petite île préservée du golfe de Finlande. Tous trois acceptent à leur manière le décès récent de la mère de Sophia.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1288076",
+    "titre": "Katak, le brave béluga",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 19min",
+    "runtime_minutes": 79,
+    "note_avis": 6,
+    "note_recence": 9.1,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "act",
+      "ani",
+      "cmy",
+      "fml"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/307466679/s592/katak-the-brave-beluga.jpg",
+    "synopsis": "Katak est un jeune béluga vivant paisiblement dans les eaux du fleuve Saint-Laurent au Canada. Moqué par ses camarades à qui il ne ressemble pas, il cherche le réconfort auprès de sa mère qu’il ne quitte pas. Pourtant, lorsqu'il apprend que sa grand-mère mourante voudrait revoir son amour de jeunesse, il part en cachette à sa recherche tout au nord, vers la Grande Banquise. Au long de ses aventures, il rencontre une jeune orque qui s’avère être la fille d’un prédateur terrifiant…",
+    "date_ajout": "2025-11-30",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts289092",
+    "titre": "Bad Apples",
+    "type": "serie",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2021,
+        "note": 7
+      }
+    ],
+    "duree": "44 min/ép.",
+    "runtime_minutes": 44,
+    "note_avis": 7,
+    "note_recence": 8.5,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/307273771/s592/bad-apples.jpg",
+    "synopsis": "La militante étudiante Onerva s'est engagée dans un programme psychiatrique expérimental pour les femmes dans un sanatorium des années 1970.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts79399",
+    "titre": "Mary & Mike",
+    "type": "serie",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2018,
+        "note": 7.4
+      }
+    ],
+    "duree": "42 min/ép.",
+    "runtime_minutes": 42,
+    "note_avis": 7.4,
+    "note_recence": 7.6,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/320993477/s592/mary-et-mike.jpg",
+    "synopsis": "Basée sur des faits réels, la série suit deux agents d'élite du dictateur chilien Augusto Pinochet qui mènent une vie d'apparence banale comme celle de n'importe quelle famille de la classe moyenne mais ce n'est qu'un masque pour ces agents qui protègent le dictateur de tout opposant. Espionnage, empoisonnement, torture et écoutes téléphoniques - tout cela avant d'aller chercher les enfants à l'école... Bienvenue dans la vie tranquille de Mary & Mike !",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1015156",
+    "titre": "Détective Conan: The Scarlet Alibi",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 6.3,
+    "note_recence": 8.5,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "act",
+      "ani",
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/305624204/s592/detective-conan-the-scarlet-alibi.jpg",
+    "synopsis": "Compile les événements de la série TV centrés sur la famille Akai et sert de transition pour le 24e film de la franchise : The Scarlet Bullet (Hiiro no Dangan) au travers d'une vidéo \"message secret de Shuuichi Akai\" à la fin du film, ainsi qu'un nouveau trailer pour The Scarlet Bullet.  La narration du film se fait au travers du personnage de Conan.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1594085",
+    "titre": "Paternal Leave",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 53min",
+    "runtime_minutes": 113,
+    "note_avis": 6.7,
+    "note_recence": 9.7,
+    "note_globale": 8.2,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/340046029/s592/paternal-leave.jpg",
+    "synopsis": "Au cœur de l’hiver, Leo, 15 ans, se rend sur la côte nord de l’Italie pour retrouver Paolo, son père absent. De vieilles blessures réapparaissent mais père et fille vont se rapprocher à travers les silences, les tensions et des mots peu familiers.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1510942",
+    "titre": "Haunt Season",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 21min",
+    "runtime_minutes": 81,
+    "note_avis": 5,
+    "note_recence": 9.4,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "cmy",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/320753447/s592/haunt-season.jpg",
+    "synopsis": "[Shadowz Exclu] Un tueur masqué s'en prend aux comédiens d'une attraction de maison hantée pour Halloween. Au fur et à mesure de la nuit, l'horreur s'intensifie, estompant la frontière entre le spectacle et la réalité...",
+    "date_ajout": "2024-10-28",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1204771",
+    "titre": "Cama-Cruso",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 30min",
+    "runtime_minutes": 90,
+    "note_avis": 6.2,
+    "note_recence": 8.8,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/274372626/s592/cama-cruso.jpg",
+    "synopsis": "Anna, jeune journaliste, s’intéresse à un gîte dans les Landes mis en avant par d'étranges annonces sur TikTok. Elle décide d'investiguer, quand une multitude d'indices la mènent à penser que des personnes pourraient y être retenues en otage. Alors, réalité ou un jeu inventé de toute pièce ? Très populaire aux États-Unis, l’ARG horrifique (Alternate Réality Game, soit jeu de piste en ligne) du Gîte de la Came Cruse a généré plus de 12 millions d'interactions sur les réseaux sociaux, pour aboutir à ce long métrage en found footage. Aucun projet de cette ampleur n’avait encore vu le jour en France.",
+    "date_ajout": "2022-05-02",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1394233",
+    "titre": "Miséricorde",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 35min",
+    "runtime_minutes": 95,
+    "note_avis": 6.7,
+    "note_recence": 9.1,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/309118057/s592/misericordia.jpg",
+    "synopsis": "Des femmes condamnées à lutter pour leur survie, utilisant toutes les ressources à leur disposition pour s'extirper de la misère et de l'avilissement où la société semble les avoir reléguées.\n",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1905589",
+    "titre": "Son of Sara",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2026,
+    "annee_moyenne": 2026,
+    "duree": "1h 25min",
+    "runtime_minutes": 85,
+    "note_avis": 4.1,
+    "note_recence": 10,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/338337499/s592/son-of-sara.jpg",
+    "synopsis": "Tourmentée par d'étranges pulsions et des visions, une femme enceinte accepte une invitation à dîner chez des hôtes qui manifestent un intérêt malsain pour la naissance de son enfant.",
+    "date_ajout": "2026-08-27",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm857146",
+    "titre": "L’Anniversaire de Tommy",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 15min",
+    "runtime_minutes": 75,
+    "note_avis": 5.3,
+    "note_recence": 8.8,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "act",
+      "ani",
+      "cmy",
+      "fml"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/264673064/s592/best-birthday-ever.jpg",
+    "synopsis": "Tommy, un jeune lapin, vit paisiblement avec sa famille dans une jolie maison, entouré de nombreux amis. Mais la naissance de sa petite sœur bouscule les habitudes et à cause d’elle, la fête d’anniversaire de ses cinq ans risque bien d’être compromise. Une drôle d’aventure commence alors pour rejoindre la maison de sa chère grand-mère.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1188875",
+    "titre": "Urban Myths",
+    "type": "film",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "2h 02min",
+    "runtime_minutes": 122,
+    "note_avis": 4.9,
+    "note_recence": 8.8,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "fnt",
+      "hrr",
+      "trl"
+    ],
+    "badge": "18",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/272995319/s592/seoul-ghost-stories.jpg",
+    "synopsis": "Ce film traite des horreurs saisissantes du quotidien auxquelles on peut facilement être confronté dans des lieux familiers, autour de thèmes tels que le bruit entre les étages, les meubles d'occasion, les mannequins et les réseaux sociaux.",
+    "date_ajout": "2026-09-08",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 31/12",
+      "daysLeft": 81,
+      "expirationDate": "2026-12-31",
+      "packageExpirations": {
+        "ima": "2026-12-31"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm183362",
+    "titre": "Kotoko",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2011,
+    "annee_moyenne": 2011,
+    "duree": "1h 31min",
+    "runtime_minutes": 91,
+    "note_avis": 6.8,
+    "note_recence": 5.5,
+    "note_globale": 6.2,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/154028057/s592/kotoko.jpg",
+    "synopsis": "Atteinte de vision double, une mère célibataire tente de s'occuper de son bébé en proie à de terrifiantes hallucinations. En proie à une dépression nerveuse, elle est jugée inapte à s'occuper de son enfant et se le fait retirer. Le seul répit que la mère a de ses visions est quand elle chante. Une romancière primée l'entend chanter dans le bus et le couple développe par la suite une relation instable.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1252083",
+    "titre": "King on Screen",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 45min",
+    "runtime_minutes": 105,
+    "note_avis": 6.6,
+    "note_recence": 9.1,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/302504024/s592/king-on-screen.jpg",
+    "synopsis": "Une plongée intimiste dans l’univers de Stephen King auprès des réalisateurs qui ont adapté ses livres à l’écran, pour comprendre comment tant de ces films ont eu un impact si crucial dans l’histoire du cinéma, élaborant notamment sur son conflit avec Stanley Kubrick, l’influence de sa femme Tabitha sur son travail ou encore la place qu’il a acquise dans la pop culture actuelle.",
+    "date_ajout": "2026-09-03",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1440982",
+    "titre": "Tenement",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 28min",
+    "runtime_minutes": 88,
+    "note_avis": 4.6,
+    "note_recence": 9.4,
+    "note_globale": 7,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/318420583/s592/tenement.jpg",
+    "synopsis": "Suite au décès de sa mère, la mangaka Sorya voyage jusqu'à son village natal à Phnom Penh dans l'espoir de retrouver ses racines et de puiser de l'inspiration pour ses œuvres. Tout se passe bien au début. Après avoir loué un appartement à Metta, un complexe résidentiel délabré datant de l'époque des Khmers rouges, elle est chaleureusement accueillie par ses parents maternels. Mais les heures de veille de Sorya dans l'appartement et ses environs sont ponctuées de visions terrifiantes et sanglantes, comme si elle était un canal pour les horreurs du passé qui veulent s'infiltrer dans le présent.",
+    "date_ajout": "2025-02-27",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1102598",
+    "titre": "Mami Wata",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 47min",
+    "runtime_minutes": 107,
+    "note_avis": 6.5,
+    "note_recence": 9.1,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "fnt",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/319589644/s592/mami-wata.jpg",
+    "synopsis": "L’harmonie d’un village est menacée par des éléments externes, deux sœurs doivent se battre pour sauver les leurs et rétablir la gloire de la déesse-sirène Mami Wata",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1235933",
+    "titre": "L'histoire de Karine",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 43min",
+    "runtime_minutes": 103,
+    "note_avis": 5.5,
+    "note_recence": 9.1,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/302559612/s592/lhistoire-de-karine.jpg",
+    "synopsis": "Karine, 34 ans, femme de ménage, partage sa vie entre son travail de nuit avec ses collègues et Ziggy, son fils de 17 ans. Lorsque l'entreprise qui l'emploie est rachetée tout bascule pour Karine. La pression sociale va la pousser dans ses retranchements et la mettre face à un dilemme : dévoiler un lourd secret ou mentir pour se protéger.",
+    "date_ajout": "2022-11-07",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1535648",
+    "titre": "Baby Assassins: Nice Days",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 53min",
+    "runtime_minutes": 113,
+    "note_avis": 7,
+    "note_recence": 9.4,
+    "note_globale": 8.2,
+    "etoiles": 5,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "act",
+      "cmy",
+      "crm",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/322571477/s592/baby-assassins-nice-days.jpg",
+    "synopsis": "Les adolescents assassins Mahiro et Chisato se rendent dans la ville côtière de Miyazaki pour un contrat et des vacances lorsqu'ils croisent inopinément la route d'un assassin légendaire et assoiffé de sang qui cherche à augmenter son nombre de victimes.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1575511",
+    "titre": "One Girl Infinite",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 5.7,
+    "note_recence": 9.7,
+    "note_globale": 7.7,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/341451872/s592/1-girl-infinite.jpg",
+    "synopsis": "Deux adolescentes, Yin Jia et Tong Tong, vivent ensemble à Changsha, en Chine. Lorsque Tong Tong se laisse entraîner par un petit dealer, l'amour que lui porte Yin Jia la pousse à tout risquer pour la garder à ses côtés.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm63248",
+    "titre": "NWR (Nicolas Winding Refn)",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner",
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "snr",
+      "sdz"
+    ],
+    "annee": 2012,
+    "annee_moyenne": 2012,
+    "duree": "1h 05min",
+    "runtime_minutes": 65,
+    "note_avis": 7.2,
+    "note_recence": 5.8,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/320297056/s592/nwr.jpg",
+    "synopsis": "Dans NWR, Laurent Duroche suit le réalisateur danois Nicolas Winding Refn à Bangkok, où celui-ci tourne son film Only God Forgives, à Cannes et à Copenhague. Le documentaire lève le voile sur ce réalisateur danois d’exception : un personnage complexe dont les contradictions incessantes nous le montrent tantôt gamin, tantôt génie…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1474029",
+    "titre": "Blue Sun Palace",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 56min",
+    "runtime_minutes": 116,
+    "note_avis": 6.6,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/331931268/s592/blue-sun-palace.jpg",
+    "synopsis": "A New-York, un salon de massage chinois sert de refuge à Didi, Amy et leurs amies. Loin de leur pays d'origine, elles forment une vraie famille. Quand Didi disparaît, Cheung, son amant, tente de trouver avec Amy l'espoir d'une nouvelle vie...",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm981590",
+    "titre": "Maternal",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 31min",
+    "runtime_minutes": 91,
+    "note_avis": 6.7,
+    "note_recence": 7.9,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/202341612/s592/maternal.jpg",
+    "synopsis": "Paola, quitte l’Italie pour Buenos Aires où elle doit terminer sa formation de Sœur au sein d’un foyer pour mères adolescentes. Elle y rencontre Luciana et Fatima, deux jeunes mères de 17 ans. A une période de leur vie où chacune se trouve confrontée à des choix, ces trois jeunes femmes que tout oppose vont devoir s’entraider et repenser leur rapport à la maternité.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1071475",
+    "titre": "WHISPERING CORRIDORS 6 : THE HUMMING",
+    "type": "film",
+    "chaine": "Insomnia",
+    "chaines": [
+      "Insomnia"
+    ],
+    "logo_chaine": "assets/logos/insomnia.png",
+    "logos_chaine": [
+      "assets/logos/insomnia.png"
+    ],
+    "package_slugs": [
+      "ima"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 48min",
+    "runtime_minutes": 108,
+    "note_avis": 5.3,
+    "note_recence": 8.5,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/301601442/s592/whispering-corridors-the-humming.jpg",
+    "synopsis": "Eun-Hee, qui ne garde aucun souvenir de ses années lycée, est embauchée comme directrice adjointe dans son ancien établissement scolaire. Depuis son arrivée, elle souffre d’inquiétantes hallucinations.",
+    "date_ajout": "2026-08-31",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 31/12",
+      "daysLeft": 81,
+      "expirationDate": "2026-12-31",
+      "packageExpirations": {
+        "ima": "2026-12-31"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts226264",
+    "titre": "Chivalry",
+    "type": "serie",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2022,
+        "note": 6.1
+      }
+    ],
+    "duree": "21 min/ép.",
+    "runtime_minutes": 21,
+    "note_avis": 6.1,
+    "note_recence": 8.8,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/279082819/s592/chivalry.jpg",
+    "synopsis": "Producteur à succès, Cameron doit purger son nouveau film de références sexistes pour éviter la ruine de sa carrière. Un partenariat improbable voit le jour avec Bobby, la scénariste chargée des modifications. Outre une attirance naissante, le duo va devoir faire face à de multiples problèmes.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1338890",
+    "titre": "Si seulement je pouvais hiberner",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 38min",
+    "runtime_minutes": 98,
+    "note_avis": 7.2,
+    "note_recence": 9.4,
+    "note_globale": 8.3,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/316770867/s592/si-seulement-je-pouvais-hiberner.jpg",
+    "synopsis": "Ulzii, un adolescent d’un quartier défavorisé d’Oulan-Bator, est déterminé à gagner un concours de sciences pour obtenir une bourse d’étude. Sa mère, illettrée, trouve un emploi à la campagne les abandonnant lui, son frère et sa sœur, en dépit de la dureté de l’hiver. Déchiré entre la nécessité de s’occuper de sa fratrie et sa volonté d’étudier pour le concours, Ulzii n’a pas le choix : il doit accepter de se mettre en danger pour subvenir aux besoins de sa famille.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm895726",
+    "titre": "The Maid",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 5.6,
+    "note_recence": 8.2,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/207345455/s592/the-maid-2020.jpg",
+    "synopsis": "Une adolescente Joy, travaille comme domestique et est hantée par l'esprit de la bonne précédente, pour découvrir le secret de sa mort",
+    "date_ajout": "2022-03-24",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm414481",
+    "titre": "Anonymous 616",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 20min",
+    "runtime_minutes": 80,
+    "note_avis": 4.7,
+    "note_recence": 7.6,
+    "note_globale": 6.2,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/85110707/s592/anonymous-616.jpg",
+    "synopsis": "Une réunion entre deux couples devient un massacre lorsque l'un des invités rencontre une personne anonyme en ligne et participe volontairement à un parcours sanglant pour devenir semblable à Dieu.",
+    "date_ajout": "2024-02-22",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm845533",
+    "titre": "Scare Me",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "1h 44min",
+    "runtime_minutes": 104,
+    "note_avis": 5.7,
+    "note_recence": 8.2,
+    "note_globale": 7,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "hrr"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/209144777/s592/scare-me.jpg",
+    "synopsis": "Fred, un rédacteur frustré, s'installe dans une cabane pour commencer enfin son premier roman. Il rencontre Fanny, une jeune auteure d'horreur à succès et pleine de suffisance. Lors d'une panne de courant, Fanny met Fred au défi de raconter une histoire effrayante...",
+    "date_ajout": "2023-10-31",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1372987",
+    "titre": "Melk",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 36min",
+    "runtime_minutes": 96,
+    "note_avis": 5.8,
+    "note_recence": 9.4,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/322107108/s592/melk.jpg",
+    "synopsis": "Quelques jours après avoir donné naissance à un enfant mort-né, les seins de Robin se mettent à produire du lait. Incapable de jeter le liquide, Robin prend la décision inhabituelle de faire don de son lait.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1262559",
+    "titre": "Driving Mum",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 52min",
+    "runtime_minutes": 112,
+    "note_avis": 6.8,
+    "note_recence": 8.8,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/301788326/s592/a-ferd-med-mommu.jpg",
+    "synopsis": "Jon est un homme d'âge moyen qui vit quelque part au fin fond de l'Islande avec sa mère âgée, une femme au caractère bien trempé. Lorsque celle-ci décède, Jon perd tous ses repères. Contraint d'honorer les dernières volontés de sa mère, Jon coiffe et habille le cadavre de celle-ci, l’assoit sur le siège arrière de sa vieille voiture et prend la route, accompagné de son fidèle chien Bresnef. Il entreprend alors un voyage à travers l’Islande pour ramener le corps jusqu’à son village natal . Au long du voyage, l'existence de Jon prend un nouveau sens...",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm822832",
+    "titre": "Brooklyn Secret",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "1h 34min",
+    "runtime_minutes": 94,
+    "note_avis": 6.6,
+    "note_recence": 8.2,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/202118518/s592/brooklyn-secret.jpg",
+    "synopsis": "Olivia travaille comme soignante auprès d’Olga, une grand-mère russe ashkénaze de Brighton Beach à Brooklyn. Fragilisée par sa situation d’immigrante philippine, elle paie secrètement un Américain pour organiser un mariage blanc. Alors que celui-ci se rétracte, elle rencontre Alex, le petit fils d’Olga, avec qui elle ose enfin vivre une véritable histoire d’amour…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1239383",
+    "titre": "Le Pion du Général",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 55min",
+    "runtime_minutes": 115,
+    "note_avis": 7.1,
+    "note_recence": 9.1,
+    "note_globale": 8.1,
+    "etoiles": 5,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/310451871/s592/autobiography.jpg",
+    "synopsis": "Le jeune Rakib travaille comme seul employé de maison dans le manoir de Purna, un général à la retraite, aussi craint que respecté, et dont la famille est servie par celle de Rakib depuis des générations. Lorsque Purna se présente aux élections de la mairie locale, Rakib découvre un mentor et un père de substitution qu’il défendra à tout prix, jusqu’à ce qu’il soit déchiré entre la loyauté et la justice…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1342898",
+    "titre": "Devils",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 45min",
+    "runtime_minutes": 105,
+    "note_avis": 5.9,
+    "note_recence": 9.1,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "act",
+      "crm",
+      "fnt",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/334769832/s592/devils.jpg",
+    "synopsis": "Après avoir perdu son collègue, qui était aussi son beau-frère, victime d'un meurtrier en série il y a deux ans, l'inspecteur de la criminelle Jae-hwan ne peut contenir sa haine envers le meurtrier et se lance tête baissée dans la chasse au tueur brutal. Jae-hwan se retrouve finalement face à face avec le meurtrier, Jin-hyeok, mais dans le feu de l'action, ils ont un accident. Se réveillant à l'hôpital, Jae-hwan réalise que son corps a été échangé avec celui du meurtrier. Pour protéger sa famille et découvrir le secret de cet échange de corps, Jae-hwan, qui est piégé dans le corps du meurtrier, se lance dans une course-poursuite désespérée.",
+    "date_ajout": "2024-10-26",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1333622",
+    "titre": "Le Fruit Défendu",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 49min",
+    "runtime_minutes": 109,
+    "note_avis": 6.4,
+    "note_recence": 9.4,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/313126078/s592/liuben.jpg",
+    "synopsis": "Victor retourne dans sa maison d'enfance en Bulgarie pour les funérailles de son grand-père et décide d'y rester pour l'été.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm167972",
+    "titre": "Pour une femme",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2013,
+    "annee_moyenne": 2013,
+    "duree": "1h 50min",
+    "runtime_minutes": 110,
+    "note_avis": 6.6,
+    "note_recence": 6.1,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/272553066/s592/pour-une-femme.jpg",
+    "synopsis": "A la mort de sa mère, Anne fait une découverte qui la bouleverse : une photo ancienne va semer le doute sur ses origines et lui faire découvrir l'existence d'un oncle mystérieux que ses parents ont accueilli après la guerre. En levant le voile sur un secret de famille, la jeune femme va comprendre que sa mère a connu un grand amour, aussi fulgurant qu'éphémère…",
+    "date_ajout": "2014-05-02",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm851800",
+    "titre": "In Search of Tomorrow",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "5h 06min",
+    "runtime_minutes": 306,
+    "note_avis": 7.7,
+    "note_recence": 8.8,
+    "note_globale": 8.3,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "hst",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/166176373/s592/in-search-of-tomorrow.jpg",
+    "synopsis": "Un voyage nostalgique à travers les films Sc-Fi des années 80, explorant leur impact et leur pertinence aujourd'hui, raconté par les artistes qui les ont réalisés et par ceux qui ont été inspirés pour transformer leurs visions en réalité.",
+    "date_ajout": "2024-05-30",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1400241",
+    "titre": "Toxicily",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 10min",
+    "runtime_minutes": 70,
+    "note_avis": 5.3,
+    "note_recence": 9.4,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/317100173/s592/toxicily.jpg",
+    "synopsis": "En Sicile, dans l’ombre de la belle Syracuse, bat le poumon d’un des plus grands complexes pétrochimiques d’Europe. 70 ans après l’arrivée des premières raffineries, le territoire et les hommes semblent aujourd’hui livrés à eux-mêmes dans l’empoisonnement du ciel, de la mer et de la terre. « Mieux vaut mourir d’un cancer que mourir de faim », entend-on sur la plage qui borde la raffinerie. Dans un contexte d’omerta, le film donne à entendre des voix qui luttent, se résignent ou simplement survivent au sein d’un territoire sacrifié sur l’autel du progrès et de la modernité.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm68927",
+    "titre": "Garbage Warrior",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2007,
+    "annee_moyenne": 2007,
+    "duree": "1h 26min",
+    "runtime_minutes": 86,
+    "note_avis": 7.7,
+    "note_recence": 4.3,
+    "note_globale": 6,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/177380450/s592/garbage-warrior.jpg",
+    "synopsis": "Le film retrace la vie de Michael Reynolds, architecte des Earthships. Il suit les aventures de Reynolds pour établir une communauté expérimentale et son combat en faveur des logements écologiques.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1137806",
+    "titre": "Ghost Therapy",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 44min",
+    "runtime_minutes": 104,
+    "note_avis": 6.2,
+    "note_recence": 9.1,
+    "note_globale": 7.7,
+    "etoiles": 4,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "fnt"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/301584834/s592/the-civil-dead.jpg",
+    "synopsis": "Clay est un photographe solitaire au chômage qui mène une vie artistique mondaine à Los Angeles avec sa femme Whitney. Cette dernière conseille à Clay, qui stagne sur le plan créatif, de sortir et de ne pas \"se contenter de rester allongé dans le salon et de boire de la bière\". Ce qu'il va découvrir, entre apparitions et super-héros, va changer sa vie à jamais.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1040541",
+    "titre": "Totem",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner",
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "snr",
+      "sdz"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 12min",
+    "runtime_minutes": 72,
+    "note_avis": 5.3,
+    "note_recence": 8.5,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "ani",
+      "cmy",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/301058018/s592/totem-2021.jpg",
+    "synopsis": "Pour chasser le rat géant qui vient le hanter toutes les nuits, François Vandenberg, alias Buffle courageux, rassemble ses anciens congénères sur le champ de leur dernier camp scout… Celui où, 21 ans plus tôt, Ludovic a disparu juste avant de recevoir son totem : Rat… Pour Sylvie, la psy de Buffle, le lien entre ses cauchemars et la disparition de Rat est évident : Buffle doit affronter ses démons du passé pour enfin être en paix avec son histoire. Mais cette thérapie de groupe va prendre une nouvelle dimension lorsque nos quadragénaires vont découvrir, au détour d'une feuillée, un passage temporel.",
+    "date_ajout": "2025-01-01",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm858812",
+    "titre": "Invasion",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "2h 20min",
+    "runtime_minutes": 140,
+    "note_avis": 6,
+    "note_recence": 7.3,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/239526916/s592/invasion-2018.jpg",
+    "synopsis": "Pourquoi tout le monde change-t-il soudainement de comportement ? Etsuko est-elle la seule à se rendre compte que son amie, son patron, son mari ne sont plus tout à fait les mêmes ? Peu à peu, elle réalise que les humains sont en train de perdre leurs émotions...",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1119259",
+    "titre": "Le Fantôme du sauna",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 32min",
+    "runtime_minutes": 92,
+    "note_avis": 4.3,
+    "note_recence": 8.5,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/304711255/s592/the-phantom-of-the-sauna.jpg",
+    "synopsis": "Javi arrive au Sauna Popular à la recherche d'un emploi pour réaliser son rêve de devenir chanteur. L'entreprise est au plus bas et Asun, la propriétaire, décide de l'accueillir en échange d'une aide. Le garçon se rendra bientôt compte que tout le monde cache de sombres secrets : le plus grand d'entre eux, un homme mystérieux qui vit dans les conduits de ventilation et qui finit par tomber amoureux du jeune homme.",
+    "date_ajout": "2022-12-22",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm266836",
+    "titre": "Dakini",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "2h 12min",
+    "runtime_minutes": 132,
+    "note_avis": 6.8,
+    "note_recence": 7.6,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/334201836/s592/dakini.jpg",
+    "synopsis": "Le détective Kinley enquête sur la disparition d'une nonne bouddhiste. Il forme une alliance houleuse avec la principale suspecte, Choden, une femme séduisante considérée par les villageois comme une “démone\".  Au fil des histoires que lui raconte Choden sur les Dakinis passées (des femmes éveillées, bouddhistes, de pouvoir et de sagesse), Kinley croit entrevoir la résolution de l'enquête. Il devra cependant succomber aux charmes de Choden et à ses croyances surnaturelles.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1316570",
+    "titre": "Horror in the High Desert 2: Minerva",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 16min",
+    "runtime_minutes": 76,
+    "note_avis": 5.3,
+    "note_recence": 9.1,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/304176990/s592/horror-in-the-high-desert-2-minerva.jpg",
+    "synopsis": "En 2018, une série de tragédies a secoué le nord-est du Nevada. Une femme a été retrouvée morte et une autre a disparu sur le même tronçon d'une autoroute isolée. Ces événements pourraient-ils être liés à la disparition de Gary Hinge un an plus tôt ?",
+    "date_ajout": "2023-08-27",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1499674",
+    "titre": "Sept promenades avec Mark Brown",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 44min",
+    "runtime_minutes": 104,
+    "note_avis": 6.6,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/330624836/s592/7-promenades-avec-mark-brown.jpg",
+    "synopsis": "À la recherche de plantes indigènes, nous suivons le botaniste Mark Brown, depuis Aizier jusqu'à Sainte-Marguerite-sur-Mer, chez lui. De la vallée de la Seine, suivant le littoral cauchois en sept promenades, nous filmons les plantes jusqu'à son projet botanique fou : reconstituer une forêt primaire à L'Aube des Fleurs.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm267344",
+    "titre": "Souffler plus fort que la mer",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "1h 25min",
+    "runtime_minutes": 85,
+    "note_avis": 6.3,
+    "note_recence": 7.3,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/300819696/s592/souffler-plus-fort-que-la-mer.jpg",
+    "synopsis": "Julie et ses parents, Loïc et Louison, vivent de la pêche sur une petite île au large de la Bretagne. Afin d'échapper aux dettes, ils sont obligés de se séparer de leur bateau contre une prime à la casse. La famille peine à faire face à cette nouvelle vie sans bateau et Julie se réfugie dans sa passion pour le saxophone pour dépasser l'étrange sentiment de submersion qui l'envahit peu à peu…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts419295",
+    "titre": "The Zweiflers",
+    "type": "serie",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2024,
+        "note": 7.4
+      }
+    ],
+    "duree": "52 min/ép.",
+    "runtime_minutes": 52,
+    "note_avis": 7.4,
+    "note_recence": 9.4,
+    "note_globale": 8.4,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/320689931/s592/die-zweiflers.jpg",
+    "synopsis": "Symcha Zweifler, patriarche à la tête d'un empire, souhaite vendre son affaire dans l'épicerie fine mais est soudainement confronté à son passé dans le quartier rouge de Francfort. La situation empire lorsque son petit-fils Samuel et sa petite amie Saba annoncent qu'ils attendent un petit garçon. Débute alors une quête de sens tragi-comique.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1229189",
+    "titre": "The Leech",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 22min",
+    "runtime_minutes": 82,
+    "note_avis": 5.4,
+    "note_recence": 8.8,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/301535373/s592/the-leech.jpg",
+    "synopsis": "Un prêtre fervent accueille un couple en difficulté dans sa maison à l'occasion de Noël. Ce qui commence comme un simple acte de charité devient rapidement le test ultime de la foi lorsque la sacralité de sa maison est mise en péril.",
+    "date_ajout": "2023-12-21",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1241585",
+    "titre": "Charcoal",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 48min",
+    "runtime_minutes": 108,
+    "note_avis": 7,
+    "note_recence": 8.8,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/309379068/s592/charcoal.jpg",
+    "synopsis": "Dans une région reculée de la campagne de São Paulo, une famille accepte d’accueillir un baron de la drogue très recherché. La mère, son mari et son enfant devront apprendre à partager le même toit avec cet étranger, tout en maintenant les apparences d’une routine inchangée.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1365474",
+    "titre": "Excursion",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 6.1,
+    "note_recence": 9.4,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/315812313/s592/ekskurzija.jpg",
+    "synopsis": "À Sarajevo, une adolescente en quête de reconnaissance révèle qu'elle a eu des rapports sexuels pour la première fois lors d'une partie d'\"action ou vérité\" entre collégiens. Piégée dans son propre mensonge, elle invente une grossesse et devient le centre d'une controverse qui échappe à tout contrôle.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1371929",
+    "titre": "Les rayons gamma",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 41min",
+    "runtime_minutes": 101,
+    "note_avis": 7,
+    "note_recence": 9.1,
+    "note_globale": 8.1,
+    "etoiles": 5,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/314554224/s592/les-rayons-gamma.jpg",
+    "synopsis": "L'été tranquille d'Abdel est bouleversé par l'arrivée de son cousin extraverti. Fatima aspire à une vie stable alors qu'elle commence à travailler comme caissière dans un supermarché. Alors qu’il pêche, Toussaint trouve une bouteille échouée sur le rivage, avec un message à l'intérieur.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm429464",
+    "titre": "J'espère que tu crèveras la prochaine fois !",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 36min",
+    "runtime_minutes": 96,
+    "note_avis": 7.1,
+    "note_recence": 7.6,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl",
+      "eur"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/246488580/s592/jespere-que-tu-creveras-la-prochaine-fois.jpg",
+    "synopsis": "Eszter, 16 ans, est amoureuse de son professeur d’anglais. Un jour, celui-ci annonce son départ pour l’étranger, et Eszter reçoit un curieux mail de sa part. Commence alors dans le plus grand secret une romance par textos et chats vidéo. Mais l’idylle devient de plus en plus possessive, puis malsaine… La réalité va bientôt venir secouer le monde virtuel d’Eszter.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm850841",
+    "titre": "Professeur Yamamoto part à la retraite",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "2h 08min",
+    "runtime_minutes": 128,
+    "note_avis": 6.8,
+    "note_recence": 9.1,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/302276562/s592/professeur-yamamoto-part-a-la-retraite.jpg",
+    "synopsis": "Pionnier de la psychiatrie au Japon, le professeur Yamamoto s’apprête à prendre sa retraite à l’âge de 82 ans. A l’approche du départ, il sent ses patients de plus en plus déboussolés, alors qu’il ne sait pas lui-même comment affronter ce bouleversement.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts401612",
+    "titre": "Taelgia",
+    "type": "serie",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2023,
+        "note": 7.1
+      }
+    ],
+    "duree": "59 min/ép.",
+    "runtime_minutes": 59,
+    "note_avis": 7.1,
+    "note_recence": 9.1,
+    "note_globale": 8.1,
+    "etoiles": 5,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/307448396/s592/taelgia.jpg",
+    "synopsis": "Dans la ville de Södertälje, en Suède, Gabriel est pris entre l'école, le basket et un réseau criminel. Sa sœur Magda vise l'élite du sport tandis que Sibel, une policière syriaque, lutte entre sa famille et son métier. Entre loyautés, violence et survie, chacun doit choisir son camp dans un monde où les frontières entre le bien et le mal s’effacent.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm417523",
+    "titre": "Les Indes Galantes",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "3h 00min",
+    "runtime_minutes": 180,
+    "note_avis": 6.8,
+    "note_recence": 7.6,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "msc"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/340647634/s592/les-indes-galantes.jpg",
+    "synopsis": "Clément Cogitore adapte une courte partie de ballet des Indes galantes de Jean-Philippe Rameau, avec le concours d’un groupe de danseurs de Krump, et de trois chorégraphes. Le Krump est une danse née dans les ghettos de Los Angeles dans les années 90. Sa naissance résulte des émeutes et de la répression policière brutale qui ont suivi le passage à tabac de Rodney King.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1389565",
+    "titre": "The Last Video Store",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner",
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png",
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "snr",
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 19min",
+    "runtime_minutes": 79,
+    "note_avis": 5.4,
+    "note_recence": 9.1,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/322754637/s592/the-last-video-store-2023.jpg",
+    "synopsis": "Une jeune femme lègue une collection de VHS à un vidéo-club canadien. Dans le lot se trouve une « cassette maudite », qui a le pouvoir de créer un passage entre le monde du cinéma et le monde réel. Le propriétaire du magasin et ses clients se voient brusquement confrontés aux vilains de leurs films d’horreur favoris.",
+    "date_ajout": "2025-09-05",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1388982",
+    "titre": "Jeunesse, mon amour",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 11min",
+    "runtime_minutes": 71,
+    "note_avis": 5.6,
+    "note_recence": 9.4,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/312319977/s592/jeunesse-mon-amour-2024.jpg",
+    "synopsis": "Après plusieurs années, un groupe de jeunes adultes se retrouvent. Le temps du lycée est révolu mais les amis tentent de rattraper le temps perdu. Lors de cet après-midi hors du temps, où les souvenirs et non-dits refont surface, chacun prend conscience que certaines choses ne sont plus comme avant.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1229281",
+    "titre": "La Pietà",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 20min",
+    "runtime_minutes": 80,
+    "note_avis": 5.4,
+    "note_recence": 9.1,
+    "note_globale": 7.3,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "fnt",
+      "hrr",
+      "eur"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/302616377/s592/la-piedad.jpg",
+    "synopsis": "Lili et son fils Mateo ont une relation fusionnelle qui les rend dépendant l’un de l’autre. Ils se complaisent dans une réalité suffocante jusqu’au jour où l’un d’entre eux est atteint d’une maladie grave. La simple idée d’être séparés les conduit à développer une version d’eux-mêmes la plus sombre et toxique qui soit.",
+    "date_ajout": "2024-01-25",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm246865",
+    "titre": "Le potager de mon grand-père",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2016,
+    "annee_moyenne": 2016,
+    "duree": "1h 16min",
+    "runtime_minutes": 76,
+    "note_avis": 6.9,
+    "note_recence": 7,
+    "note_globale": 7,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/82147264/s592/le-potager-de-mon-grand-pere.jpg",
+    "synopsis": "Chez son grand-père, Martin est venu se ressourcer, aider et partager des moments de vie. L’aïeul lui transmettra son savoir, un peu de ses racines et les secrets de ce potager cultivé par amour pour sa femme disparue. Issu de cette génération fast-food, Martin prendra conscience de la valeur de ce précieux héritage. C’est un hymne à la vie et à cette nature que nous devons protéger.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1077667",
+    "titre": "The History of Metal and Horror",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "2h 34min",
+    "runtime_minutes": 154,
+    "note_avis": 6.5,
+    "note_recence": 8.5,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc",
+      "msc"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/303811083/s592/the-history-of-metal-and-horror.jpg",
+    "synopsis": "Le documentaire explore l'histoire de la musique heavy metal et de l'horreur, et la façon dont les deux genres ont fusionné au fil du temps.",
+    "date_ajout": "2024-03-28",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1087492",
+    "titre": "Silent Land",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 53min",
+    "runtime_minutes": 113,
+    "note_avis": 6.1,
+    "note_recence": 8.8,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/309842737/s592/silent-land.jpg",
+    "synopsis": "Un couple loue une maison de vacances sur une île italienne ensoleillée. La présence constante d’un étranger bouleverse l’idée que le couple se fait de sa sécurité et déclenche une série d’événements qui le pousse à agir de manière instinctive et irrationnelle, le menant à sonder la part la plus sombre de sa relation.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm822020",
+    "titre": "They Live in the Grey",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "2h 03min",
+    "runtime_minutes": 123,
+    "note_avis": 5,
+    "note_recence": 8.8,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/264392722/s592/the-uncanny.jpg",
+    "synopsis": "En enquêtant sur une affaire de maltraitance d'enfants, Claire découvre que la famille est tourmentée par une entité surnaturelle. Afin de sauver la famille, elle doit affronter ses propres peurs et utiliser sa clairvoyance naissante pour arrêter la force malveillante.",
+    "date_ajout": "2022-07-26",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm906661",
+    "titre": "Satoshi",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 53min",
+    "runtime_minutes": 113,
+    "note_avis": 7.6,
+    "note_recence": 8.8,
+    "note_globale": 8.2,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "fml"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/310691392/s592/a-mothers-touch.jpg",
+    "synopsis": "Satoshi est aveugle depuis ses 9 ans. Sa vie bascule une seconde fois à 18 ans, lorsqu'il commence à perdre l'audition. Accompagné par sa mère, Satoshi va réapprendre à vivre et s’évertuer à découvrir un nouveau sens à sa vie. Une superbe leçon de résilience basée sur une histoire vraie.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1296381",
+    "titre": "Comme une louve",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 38min",
+    "runtime_minutes": 98,
+    "note_avis": 5.6,
+    "note_recence": 9.1,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/310336997/s592/comme-une-louve.jpg",
+    "synopsis": "Lili, 26 ans, précaire, élève seule ses trois enfants. Accusée à tort de mauvais traitements, les services sociaux les lui arrachent. Elle s'effondre, mais très vite, entourée de femmes solides et d’un amour naissant, Lili se lance dans une bataille décisive pour reconstruire sa famille.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1184347",
+    "titre": "Easy Tiger",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 00min",
+    "runtime_minutes": 60,
+    "note_avis": 5,
+    "note_recence": 8.8,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/316084033/s592/easy-tiger.jpg",
+    "synopsis": "Un moment inattendu lors d’une séance avec un patient confronte un psychologue à son propre monde intérieur. Aliéné par l’isolement de sa vie citadine apparemment parfaite, le psychologue se heurte à une extrême incapacité à comprendre et embrasser sa propre nature humaine. Ses désirs inéluctables pour son client masculin obligent le psychologue à regarder qui il ne veut pas être. C’est le seul moyen pour lui de découvrir qui il est vraiment.",
+    "date_ajout": "2023-06-22",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm514677",
+    "titre": "The Lost Footage of Leah Sullivan",
+    "type": "film",
+    "chaine": "Shadowz",
+    "chaines": [
+      "Shadowz"
+    ],
+    "logo_chaine": "assets/logos/shadowz.png",
+    "logos_chaine": [
+      "assets/logos/shadowz.png"
+    ],
+    "package_slugs": [
+      "sdz"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 27min",
+    "runtime_minutes": 87,
+    "note_avis": 5.5,
+    "note_recence": 7.9,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/176919654/s592/the-lost-footage-of-leah-sullivan.jpg",
+    "synopsis": "Une carte mémoire non éditée d'un appareil photo montre le projet scolaire de Leah Sullivan sur un meurtre non résolu qui ne semble pas être si résolu que ça après tout.",
+    "date_ajout": "2023-10-21",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1525015",
+    "titre": "Taxi Monamour",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 50min",
+    "runtime_minutes": 110,
+    "note_avis": 6.7,
+    "note_recence": 9.4,
+    "note_globale": 8.1,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/322728703/s592/taxi-monamour.jpg",
+    "synopsis": "L'un est une réfugiée venue d'Ukraine, l'autre une jeune femme qui porte un lourd secret, elles attendent un bus qui ne vient pas. Alors il est temps de faire un bout de chemin ensemble même si deux mâles encombrants veulent jouer les taxis.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1076403",
+    "titre": "Mis Hermanos",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 25min",
+    "runtime_minutes": 85,
+    "note_avis": 7.1,
+    "note_recence": 8.5,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/306573330/s592/mes-freres-revent-eveilles.jpg",
+    "synopsis": "Les frères Ángel (17 ans) et Franco (14 ans) sont incarcérés dans une prison pour mineurs depuis un an, en attendant le jugement de leur affaire. Malgré l'hostilité du lieu, ils nouent des liens avec d'autres jeunes et passent leurs journées à rêver de ce qu'ils feront lorsqu'ils seront libérés. L'arrivée de Jaime (17 ans), un jeune rebelle, change tout lorsqu'il propose de s'échapper par une émeute. L'idée commence à gagner des adeptes, mais bien que Franco veuille s'y joindre, Ángel sait que ce n'est pas sûr. Cependant, plusieurs déceptions familiales et judiciaires, en plus des bagarres, des cambriolages et des suicides, amèneront Angel à voir l'émeute comme sa seule issue. Inspiré de faits réels survenus dans le sud du Chili.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1365990",
+    "titre": "Almost Paradise",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 46min",
+    "runtime_minutes": 106,
+    "note_avis": 6.6,
+    "note_recence": 9.4,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/318209244/s592/el-paraiso.jpg",
+    "synopsis": "Julio César et sa mère, immigrée colombienne, vivent difficilement grâce à la danse, la drogue, leurs souvenirs et au maigre salaire qu'un trafiquant de drogue local leur verse. L'équilibre fragile (et oppressant) est malgré tout maintenu, jusqu'à ce qu'une autre femme impliquée dans le trafic de drogue, Inés, vienne fragiliser cette harmonie entre mère et fils.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1308359",
+    "titre": "Toutes les couleurs du monde",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 6,
+    "note_recence": 9.1,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/303436065/s592/all-the-colours-of-the-world-are-between-black-and-white.jpg",
+    "synopsis": "Bambino s’est installé dans sa vie de célibataire. Il a un revenu stable grâce à son emploi de chauffeur-livreur à Lagos, et il est apprécié par son voisinage qu’il aide dès qu’il le peut. Alors que les avances de sa voisine le laissent froid, Bambino rencontre le charismatique Bawa, un photographe, qui provoque quelque chose en lui…",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1350402",
+    "titre": "Maman déchire",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 20min",
+    "runtime_minutes": 80,
+    "note_avis": 6.6,
+    "note_recence": 9.4,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/326179275/s592/maman-dechire.jpg",
+    "synopsis": "Emilie tente de comprendre le mystère de son univers : sa mère Meaud. Grand-mère magique, enfant brisée, mère punk, féministe spontanée, elle fascine autant qu'elle dérange. Comment donner à ses enfants l'amour dont on a été privé soi-même ? Comment nourrir son enfant intérieur quand on a vécu des traumatismes dans son enfance ?",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": false,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1556006",
+    "titre": "Voyage à Gaza",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png"
+    ],
+    "package_slugs": [
+      "snr"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 08min",
+    "runtime_minutes": 68,
+    "note_avis": 7.3,
+    "note_recence": 9.4,
+    "note_globale": 8.4,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "doc"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/321884339/s592/voyage-a-gaza.jpg",
+    "synopsis": "À Gaza, il faut arriver le soir au printemps, s'enfermer dans sa chambre et écouter les sons qui entrent par les fenêtres ouvertes… Nous sommes en 2018. J'ai 25 ans et je suis un voyageur étranger. Je rencontre de jeunes palestiniens de mon âge.",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": false

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cinescope-v8.48-streaming';
+const CACHE_NAME = 'cinescope-v8.49-streaming';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -14,6 +14,9 @@ const CORE_ASSETS = [
   './assets/logos/cine_ocs.svg',
   './assets/logos/action.png',
   './assets/logos/universal_plus.svg',
+  './assets/logos/sooner.png',
+  './assets/logos/shadowz.png',
+  './assets/logos/insomnia.png',
   './assets/logos/molotov.png',
   './assets/logos/tf1.png',
   './assets/logos/m6_plus.png',

@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v34';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v34';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v34';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v34';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v35';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v35';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v35';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v35';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -53,6 +53,28 @@ const JustWatchEngine = (function () {
       badgeClass: 'badge-universal',
       isPaid: true
     },
+    // Chaînes SVOD Spécialisées (Exclusivité PC Desktop - Règle 8)
+    snr: {
+      name: 'Sooner',
+      logo: 'assets/logos/sooner.png',
+      badgeClass: 'badge-sooner',
+      isPaid: true,
+      isSpecialized: true
+    },
+    sdz: {
+      name: 'Shadowz',
+      logo: 'assets/logos/shadowz.png',
+      badgeClass: 'badge-shadowz',
+      isPaid: true,
+      isSpecialized: true
+    },
+    ima: {
+      name: 'Insomnia',
+      logo: 'assets/logos/insomnia.png',
+      badgeClass: 'badge-insomnia',
+      isPaid: true,
+      isSpecialized: true
+    },
     // Plateformes TNT & Replay Gratuit (Exclusivité PC - Règle 8)
     tf1: {
       name: 'TF1+',
@@ -80,7 +102,9 @@ const JustWatchEngine = (function () {
     }
   };
 
-  const PACKAGE_SLUGS = ['aoc', 'aca', 'auc', 'mlt', 'tf1', 'sxp', 'fra'];
+  const PACKAGE_SLUGS = ['aoc', 'aca', 'auc', 'mlt', 'tf1', 'sxp', 'fra', 'snr', 'sdz', 'ima'];
+  const SPECIALIZED_PACKAGE_SLUGS = ['snr', 'sdz', 'ima'];
+  const BASE_PAID_PACKAGE_SLUGS = ['aoc', 'aca', 'auc'];
 
   // Motifs d'identification des œuvres et séries incluses ou diffusées sur Prime Video
   const KNOWN_PRIME_PATTERNS = [
@@ -154,6 +178,23 @@ const JustWatchEngine = (function () {
 
   function isItemOnPrimeOrTnt(item) {
     return isItemOnPrime(item) || isItemOnTnt(item);
+  }
+
+  function isItemBasePaid(item) {
+    if (!item || !item.package_slugs) return false;
+    return item.package_slugs.some(p => BASE_PAID_PACKAGE_SLUGS.includes(p));
+  }
+
+  function isItemSpecialized(item) {
+    if (!item || !item.package_slugs) return false;
+    return item.package_slugs.some(p => SPECIALIZED_PACKAGE_SLUGS.includes(p));
+  }
+
+  function isItemTntFree(item) {
+    if (!item) return false;
+    if (item.on_tnt === true) return true;
+    if (!item.package_slugs) return false;
+    return item.package_slugs.some(p => ['mlt', 'tf1', 'sxp', 'fra'].includes(p));
   }
 
   // Barème de récence : 20 ans glissants (Année - 20 ans = 4.0/10, ex: 2006 = 4.0, 2026 = 10.0)
@@ -741,24 +782,32 @@ const JustWatchEngine = (function () {
     const PKG_ALIASES = {
       myt: 'tf1',
       '6pt': 'sxp',
-      mms: 'sxp'
+      mms: 'sxp',
+      sza: 'sdz'
     };
 
     const resolvedOfferSlugs = Array.from(new Set(
       offers.map(o => PKG_ALIASES[o.package?.shortName] || o.package?.shortName).filter(Boolean)
     ));
 
-    // 1. Priorité absolue aux bouquets payants SVOD (Ciné+ OCS, Action Max, Universal+)
+    // 1. Priorité absolue aux bouquets payants SVOD de base (Ciné+ OCS, Action Max, Universal+)
     const paidSlugs = ['aoc', 'aca', 'auc'];
     const matchedPaid = paidSlugs.filter(p => resolvedOfferSlugs.includes(p));
 
+    // 2. Chaînes SVOD Spécialisées (Sooner, Shadowz, Insomnia)
+    const specializedSlugs = ['snr', 'sdz', 'ima'];
+    const matchedSpecialized = specializedSlugs.filter(p => resolvedOfferSlugs.includes(p));
+
     let matchedPackages = [];
     if (matchedPaid.length > 0) {
-      // RÈGLE IMPÉRATIVE : Si l'œuvre est disponible sur un bouquet payant,
+      // RÈGLE IMPÉRATIVE : Si l'œuvre est disponible sur un bouquet payant de base,
       // Molotov (mlt) et les canaux TNT sont STRICTEMENT bannis de la fiche et des logos !
       matchedPackages = matchedPaid;
+    } else if (matchedSpecialized.length > 0) {
+      // Chaînes SVOD spécialisées (Sooner, Shadowz, Insomnia)
+      matchedPackages = matchedSpecialized;
     } else {
-      // 2. Œuvre non payante : RÈGLE UNIVERSELLE MOLOTOV ABO (FLATRATE)
+      // 3. Œuvre non payante : RÈGLE UNIVERSELLE MOLOTOV ABO (FLATRATE)
       // Toute œuvre non payante DOIT impérativement posséder une offre dans la ligne ABO de Molotov (FLATRATE)
       // pour garantir sa disponibilité réelle dans l'abonnement Molotov Extended.
       const hasMltFlatrate = offers.some(o => o.package?.shortName === 'mlt' && o.monetizationType === 'FLATRATE');
@@ -875,16 +924,22 @@ const JustWatchEngine = (function () {
     };
 
     let allPkgs = Array.from(new Set([...getPkgs(base), ...getPkgs(incoming)]));
-    // Sanctuarisation payante : si l'œuvre possède un bouquet payant (aoc, aca, auc),
-    // Molotov (mlt) et les canaux TNT sont STRICTEMENT bannis de la fiche et des logos !
+    // 1. Sanctuarisation payante de base : si l'œuvre possède un bouquet payant (aoc, aca, auc),
+    // Molotov (mlt), TNT et chaînes spécialisées sont subordonnées au bouquet de référence.
     const hasPaid = allPkgs.some(p => ['aoc', 'aca', 'auc'].includes(p));
     if (hasPaid) {
       allPkgs = allPkgs.filter(p => ['aoc', 'aca', 'auc'].includes(p));
     } else {
-      // Sanctuarisation TNT : si l'œuvre possède un bouquet TNT, le tag mlt est banni des logos
-      const hasTnt = allPkgs.some(p => ['tf1', 'sxp', 'fra'].includes(p));
-      if (hasTnt) {
-        allPkgs = allPkgs.filter(p => p !== 'mlt');
+      // 2. Chaînes spécialisées SVOD (Sooner, Shadowz, Insomnia)
+      const hasSpecialized = allPkgs.some(p => ['snr', 'sdz', 'ima'].includes(p));
+      if (hasSpecialized) {
+        allPkgs = allPkgs.filter(p => ['snr', 'sdz', 'ima'].includes(p));
+      } else {
+        // 3. Sanctuarisation TNT : si l'œuvre possède un bouquet TNT, le tag mlt est banni des logos
+        const hasTnt = allPkgs.some(p => ['tf1', 'sxp', 'fra'].includes(p));
+        if (hasTnt) {
+          allPkgs = allPkgs.filter(p => p !== 'mlt');
+        }
       }
     }
 
@@ -1331,11 +1386,16 @@ const JustWatchEngine = (function () {
     shouldAutoFullSync,
     cleanLegacyLocalStorage,
     TNT_PACKAGE_SLUGS,
+    SPECIALIZED_PACKAGE_SLUGS,
+    BASE_PAID_PACKAGE_SLUGS,
     isKnownPrimeTitle,
     isKnownTntTitle,
     isItemOnPrime,
     isItemOnTnt,
-    isItemOnPrimeOrTnt
+    isItemOnPrimeOrTnt,
+    isItemBasePaid,
+    isItemSpecialized,
+    isItemTntFree
   };
 })();
 

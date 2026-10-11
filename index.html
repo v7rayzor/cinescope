@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=8.48">
+  <link rel="stylesheet" href="css/style.css?v=8.49">
 </head>
 <body>
   <!-- Header / Navigation principale -->
@@ -108,6 +108,22 @@
               <span class="pkg-name">Universal+</span>
               <span class="pkg-count" id="countPkgUniversal">0</span>
             </button>
+            <!-- Chaînes Spécialisées (Exclusivité Desktop PC - Règle 8) -->
+            <button class="bouquet-btn bouquet-btn-pc-only" data-package="snr" id="pkgSooner" title="Afficher les œuvres Sooner">
+              <img src="assets/logos/sooner.png" alt="Sooner" class="pkg-logo-img">
+              <span class="pkg-name">Sooner</span>
+              <span class="pkg-count" id="countPkgSooner">0</span>
+            </button>
+            <button class="bouquet-btn bouquet-btn-pc-only" data-package="sdz" id="pkgShadowz" title="Afficher les œuvres Shadowz">
+              <img src="assets/logos/shadowz.png" alt="Shadowz" class="pkg-logo-img">
+              <span class="pkg-name">Shadowz</span>
+              <span class="pkg-count" id="countPkgShadowz">0</span>
+            </button>
+            <button class="bouquet-btn bouquet-btn-pc-only" data-package="ima" id="pkgInsomnia" title="Afficher les œuvres Insomnia">
+              <img src="assets/logos/insomnia.png" alt="Insomnia" class="pkg-logo-img">
+              <span class="pkg-name">Insomnia</span>
+              <span class="pkg-count" id="countPkgInsomnia">0</span>
+            </button>
             <!-- Bouquets Gratuits & TNT (Exclusivité Desktop PC - Règle 8) -->
             <button class="bouquet-btn bouquet-btn-pc-only" data-package="mlt" id="pkgMolotov" title="Afficher les œuvres gratuites Molotov (Mango AVOD & FAST)">
               <img src="assets/logos/molotov.png" alt="Molotov Gratuit" class="pkg-logo-img">
@@ -136,7 +152,7 @@
       <!-- Ligne de séparation horizontale entre Bouquets et Filtres d'exclusion -->
       <div class="filters-bubble-divider bouquets-divider-line" aria-hidden="true"></div>
 
-      <!-- Ligne 0B : Filtres d'exclusion -->
+      <!-- Ligne 0B : Filtres Toggles & Options -->
       <div class="bouquets-bar-section" id="togglesBarSection">
         <div class="bouquets-wrapper" id="togglesNav">
           <div class="bouquets-chips-group">
@@ -145,10 +161,15 @@
               <span class="pkg-name">Hors Prime & TNT</span>
               <span class="pkg-count" id="countPkgExclusive">0</span>
             </button>
-            <button class="bouquet-btn bouquet-btn-exclusive bouquet-btn-pc-only" id="pkgExcludeMolotov" type="button" title="Masquer les œuvres issues uniquement du catalogue Gratuit & de la TNT">
+            <button class="bouquet-btn bouquet-btn-toggle-tnt bouquet-btn-pc-only" id="toggleIncludeTnt" type="button" title="Inclure ou retirer les œuvres de Molotov Gratuit et de la TNT">
               <span class="pkg-icon">📺</span>
-              <span class="pkg-name">Hors Gratuit & TNT</span>
-              <span class="pkg-count" id="countExcludeMolotov">0</span>
+              <span class="pkg-name">+ Gratuit & TNT</span>
+              <span class="pkg-count" id="countIncludeTnt">0</span>
+            </button>
+            <button class="bouquet-btn bouquet-btn-toggle-specialized bouquet-btn-pc-only" id="toggleIncludeSpecialized" type="button" title="Inclure ou retirer les œuvres de Sooner, Shadowz et Insomnia">
+              <span class="pkg-icon">🎬</span>
+              <span class="pkg-name">+ Spécialisées</span>
+              <span class="pkg-count" id="countIncludeSpecialized">0</span>
             </button>
             <button class="bouquet-btn bouquet-btn-no-s1" id="pkgExcludeNoS1" type="button" title="Activer / Désactiver l'exclusion des séries dont la Saison 1 n'est pas disponible">
               <span class="pkg-icon">🚫</span>
@@ -415,10 +436,10 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="js/catalog.js?v=8.48"></script>
-  <script src="js/nlp_model.js?v=8.48"></script>
-  <script src="js/justwatch_engine.js?v=8.48"></script>
-  <script src="js/app.js?v=8.48"></script>
+  <script src="js/catalog.js?v=8.49"></script>
+  <script src="js/nlp_model.js?v=8.49"></script>
+  <script src="js/justwatch_engine.js?v=8.49"></script>
+  <script src="js/app.js?v=8.49"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
