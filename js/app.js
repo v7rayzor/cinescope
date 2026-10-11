@@ -516,7 +516,15 @@ function initBouquetsCounts() {
   const countOcs = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('aoc')).length;
   const countAction = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('aca')).length;
   const countUniversal = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('auc')).length;
+
+  // Bouquets Gratuits & TNT (PC uniquement)
   const countMolotov = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('mlt')).length;
+  const countTf1 = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('tf1')).length;
+  const countM6 = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('sxp')).length;
+  const countFranceTv = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('fra')).length;
+  const countArte = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('art')).length;
+  const countGulli = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('gum')).length;
+  const countNovo = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('nvn')).length;
   
   // Scope du filtre selon le bouquet actif
   const currentScope = (AppState.activeBouquet && AppState.activeBouquet !== 'all')
@@ -538,6 +546,12 @@ function initBouquetsCounts() {
   const elAction = document.getElementById('countPkgAction');
   const elUniv = document.getElementById('countPkgUniversal');
   const elMolotov = document.getElementById('countPkgMolotov');
+  const elTf1 = document.getElementById('countPkgTf1');
+  const elM6 = document.getElementById('countPkgM6');
+  const elFranceTv = document.getElementById('countPkgFranceTv');
+  const elArte = document.getElementById('countPkgArte');
+  const elGulli = document.getElementById('countPkgGulli');
+  const elNovo = document.getElementById('countPkgNovo');
   const elExclusive = document.getElementById('countPkgExclusive');
   const elExcludeMolotov = document.getElementById('countExcludeMolotov');
   const elExcludeNoS1 = document.getElementById('countExcludeNoS1');
@@ -547,6 +561,12 @@ function initBouquetsCounts() {
   if (elAction) elAction.textContent = countAction;
   if (elUniv) elUniv.textContent = countUniversal;
   if (elMolotov) elMolotov.textContent = countMolotov;
+  if (elTf1) elTf1.textContent = countTf1;
+  if (elM6) elM6.textContent = countM6;
+  if (elFranceTv) elFranceTv.textContent = countFranceTv;
+  if (elArte) elArte.textContent = countArte;
+  if (elGulli) elGulli.textContent = countGulli;
+  if (elNovo) elNovo.textContent = countNovo;
   if (elExclusive) elExclusive.textContent = countExclusive;
   if (elExcludeMolotov) elExcludeMolotov.textContent = countExcludeMolotov;
   if (elExcludeNoS1) elExcludeNoS1.textContent = countNoS1;

@@ -1,26 +1,36 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.42** / Cache **v28**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.43** / Cache **v29**).
 
 ---
 
 ## 1. Architecture Globale & Flux de Données
 
-### A. Bouquets SVOD & Plateformes Ciblées (France)
-* **Ciné+ OCS** (`aoc`)
-* **Universal+** (`auc`)
-* **Action Max** (`aca`)
-* **Molotov** (`mlt`) *(Intégration complète avec exclusivité PC selon la Règle 8)*
+### A. Bouquets SVOD & Diffuseurs Découpés (France)
+1. **Bouquets SVOD Payants (Visibles sur PC & Mobile)** :
+   * **Ciné+ OCS** (`aoc`) — 673 œuvres
+   * **Universal+** (`auc`) — 155 œuvres
+   * **Action Max** (`aca`) — 52 œuvres
+   * **Sanctuarisation Payante Absolue** : si une œuvre est disponible sur un bouquet payant, le tag `mlt` et le logo Molotov sont **formellement bannis** (zéro double logo parasite sur les jaquettes payantes, ex: *La Lutte des classes*).
+2. **Plateformes Gratuites & TNT Dissociées (Exclusivité PC Desktop — Règle 8)** :
+   * **Molotov Gratuit** (`mlt`) — 764 œuvres (catalogue Mango AVOD & chaînes FAST)
+   * **TF1+** (`tf1`, `myt`, `tfa`) — 472 œuvres
+   * **Arte** (`art`, `atb`) — 262 œuvres
+   * **M6+** (`sxp`, `6pt`, `mms`) — 166 œuvres
+   * **France TV** (`fra`) — 109 œuvres
+   * **Novo 19** (`nvn`) — 12 œuvres (nouvelle chaîne TNT canal 19)
+   * **Gulli** (`gum`) — 12 œuvres (jeunesse TNT canal 18)
+   * **Sanctuarisation TNT** : Canal+ (`cpd`, `cns`) est formellement exclu de la TNT.
 
 ### B. Synchronisation Hybride & Automatisation
 * **Automatisation Serveur (GitHub Actions - `.github/workflows/update_catalog.yml`)** :
-  - Exécution quotidienne planifiée à **06:00 UTC** via [`scripts/sync_justwatch.cjs`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_justwatch.cjs) sous Node.js (sans contrainte CORS).
-  - Récupère le flux complet JustWatch GraphQL sur les 4 bouquets cibles (`aoc`, `aca`, `auc`, `mlt`).
+  - Exécution quotidienne planifiée à **06:00 UTC** via [`scripts/sync_justwatch.cjs`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_justwatch.cjs) sous Node.js.
+  - Couvre les 10 packages officiels ciblés (`aoc`, `aca`, `auc`, `mlt`, `tf1`, `sxp`, `fra`, `art`, `gum`, `nvn`).
   - Nettoie, déduplique, qualifie et met à jour [`js/catalog.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js).
 * **Client Web Résilient ([`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js))** :
   - Démarrage instantané sur le catalogue pré-embarqué `CATALOG_DATA`.
-  - Rechargement client avec invalidation de cache (`?t=timestamp`) et recalcul en direct des jours restants (`daysLeft`).
-  - Purge automatique proactive des anciennes versions de clés LocalStorage.
+  - Rafraîchissement rapide quotidien calibré à **100 nouveautés fraîches** (2 pages de 50).
+  - Rechargement client avec invalidation de cache (`?v=8.43`) et purge automatique des anciennes clés LocalStorage.
 
 ---
 
@@ -41,7 +51,7 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
    - Tout film ou téléfilm avec une durée $< 60\text{ min}$ est formellement exclu à l'ingestion (`runtime < 60`).
    - Les formats 26/45 min restent réservés à l'onglet **Séries**.
 2. **Éradication Totale de la Télé-Réalité (`rly`)** :
-   - Rejet automatique dès l'ingestion de toute émission de télé-réalité / docu-soap (*Below Deck*, *The Real Housewives*, etc.).
+   - Rejet automatique dès l'ingestion de toute émission de télé-réalité / docu-soap.
 3. **Barème Sévère de Récence sur 20 Ans Glissants ($2006 = 4.0/10$)** :
    $$\text{minYear} = \text{Année Courante} - 20 = 2006$$
    $$\text{Note Récence} = 4.0 + \left( \frac{\min(\text{Année}, 2026) - 2006}{2026 - 2006} \right) \times 6.0$$
@@ -53,17 +63,13 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 
 ### C. Moteur de Catégorisation Purement Algorithmique (100% Déterministe)
 * **Zéro Bidouillage Ad Hoc (Règle 7 d'AGENTS.md)** :
-  - Tout arbitrage repose sur des règles logiques universelles pérennes, applicables à tout le catalogue existant et aux futures synchronisations JustWatch.
+  - Tout arbitrage repose sur des règles logiques universelles déterministes, garantissant une cohérence absolue pour l'ensemble du catalogue et les futurs flux.
 * **Comédies & Signalétique d'Âge Majeure** :
-  - Les œuvres avec pastilles adultes **`-16` et `-18`** sont **formellement interdites de `comedie`** et sanctuarisées en `horreur_epouvante` ou `action_aventure`.
-  - Les pastilles `-10`, `-12` et Tout Public restent autorisées en `comedie` si le ton humoristique/burlesque domine (*Monster on a Plane*, *The Creeps*, *Benny t'aime très fort*).
+  - Les œuvres `-16` et `-18` sont formellement interdites de `comedie` et sanctuarisées en `horreur_epouvante` ou `action_aventure`.
 * **Animation & Signalétiques d'Avertissement** :
-  - Toute œuvre portant une pastille **`-12`, `-16` ou `-18` est formellement bannie d'`animation_famille`** et reclassée dans son genre d'intensité (`scifi_fantastique`, `action_aventure`, `drame_emotion`...).
-* **Westerns vs Drames Historiques/Poétiques** :
-  - Un western (`wsn`) n'est qualifié en `action_aventure` que s'il comporte le tag `act` ou des motifs de combat armé (`WESTERN_ACTION_PATTERNS`).
-* **Horreur Pure, Slashers & Surnaturel / SF / Fantastique Universel** :
-  - Les véritables intrigues d'horreur/possession/gore et les slashers (`SLASHER_PATTERNS` combiné au tag `hrr`) sont systématiquement sanctuarisés en **`horreur_epouvante`**.
-  - **Motifs Surnaturels & Fantastiques Universels (`FANTASTIC_PATTERNS`)** : pour toute œuvre Tout Public ou avec tag `fnt`/`scf`, les motifs fantastiques et créatures surnaturelles (*sorcière, monstre, fantôme, créature, magie, force mystérieuse, malédiction...*) priment universellement sur les mots-clés policiers génériques (*détective, enquête*). Cela garantit l'attribution naturelle et exacte en **`scifi_fantastique`** pour les récits d'aventures surnaturelles (*Monster Summer*, *Chasseuse de géants*, *Le Règne animal*, *T.I.M.*).
+  - Toute œuvre `-12`, `-16` ou `-18` est formellement bannie d'`animation_famille` et réaffectée dans son genre d'intensité.
+* **Motifs Surnaturels & Fantastiques Universels (`FANTASTIC_PATTERNS`)** :
+  - Les créatures surnaturelles et motifs magiques priment sur les mots-clés policiers génériques pour attribuer fidèlement `scifi_fantastique`.
 
 ---
 
@@ -71,13 +77,11 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 
 * **1 Seule Affiche par Série** :
   - Déduplication stricte par `item.id` et `${normTitle}_serie`.
-  - Plage d'années consolidée `[Année début] - [Année fin]` calculée exclusivement sur les **saisons disponibles sur les bouquets actifs**.
-  - Note d'avis calculée par moyenne des notes des saisons disponibles.
-* **Sélecteur de Saisons Dynamique dans la Modale** :
-  - Menu déroulant interactif listant chaque saison disponible avec actualisation de son année au changement.
-* **Badges Visuels & Tri par Urgence d'Expiration** :
-  - **Priorité 1 absolue** : Titres expirants triés par `daysLeft` croissant (`⏳ Expire aujourd'hui`, `⏳ Expire demain`, `⏳ Expire dans X j`, `📅 Jusqu'au JJ/MM`).
-  - **Badge « 🆕 Nouveauté »** : Priorité visuelle sur l'affiche pendant les **7 premiers jours** d'arrivée au catalogue.
+  - Plage d'années consolidée `[Année début] - [Année fin]` calculée exclusivement sur les saisons disponibles.
+  - Sélecteur dynamique interactif de saisons dans la modale.
+* **Badges Visuels & Tri par Urgence** :
+  - **Priorité 1 absolue** : Titres expirants triés par `daysLeft` croissant (`⏳ Expire aujourd'hui`, etc.).
+  - **Badge « 🆕 Nouveauté »** : Priorité visuelle sur l'affiche pendant les 7 premiers jours d'arrivée.
   - **Priorité 2** : Titres pérennes ordonnés par tirage aléatoire déterministe stable pour la journée.
 
 ---
@@ -86,44 +90,41 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 
 ### A. Interface Mobile & Responsive
 * **Sélecteur Déroulant Mobile « Filtre »** :
-  - Sur mobile ($\le 768\text{px}$), le bouton déroulant arbore l'intitulé **« Filtre »** (plus incitatif, parlant et standardisé sur smartphone que l'ancien terme « Genre »), couplé au badge dynamique affichant la sélection active en temps réel (*Tous les titres*, *Action & Aventure*, etc.).
+  - Bouton déroulant standardisé avec badge dynamique affichant la sélection active en temps réel.
 * **Sanctuarisation Mobile Stricte (Règle 8 AGENTS.md)** :
-  - Sur smartphone, les œuvres issues purement de Molotov & TNT sont **formellement masquées en permanence** : le mobile conserve strictement les 876 œuvres des 3 bouquets payants de référence (Ciné+ OCS, Action Max, Universal+).
-  - Les boutons spécifiques PC (`Molotov`, `Hors Molotov`) sont totalement invisibles sur mobile.
+  - Sur smartphone, les œuvres gratuites/TNT sont **masquées en permanence** : le mobile conserve strictement les 876 œuvres des 3 bouquets payants de référence.
+  - Les boutons spécifiques PC (`Molotov Gratuit`, `TF1+`, `M6+`, etc.) sont totalement invisibles sur mobile.
 
 ### B. Filtres Toggles & Fonctionnalités Desktop PC (Règle 8)
-* **Barre de Recherche de Titres Dédiée** :
-  - Intégrée au header (écrans $\ge 1024\text{px}$), recherche NFD insensible à la casse et aux accents, bouton d'effacement `✕`, raccourci touche `Échap`.
-* **Bouton Bouquet « 📺 Molotov »** :
-  - Intégré dans la rangée des bouquets sur PC pour filtrer en 1 clic l'ensemble des contenus disponibles sur Molotov (1 129 œuvres).
-* **Toggle « 📺 Hors Molotov »** :
-  - Masque instantanément toutes les œuvres issues uniquement de Molotov & de la TNT (771 œuvres), permettant de basculer en un clic sur le catalogue SVOD payant pur.
+* **Barre des Bouquets Découpée** :
+  - Bouquets payants : `[✨ Tous les bouquets]` `[Ciné+ OCS]` `[Action Max]` `[Universal+]`
+  - Bouquets gratuits & TNT : `[Molotov Gratuit]` `[TF1+]` `[M6+]` `[France TV]` `[Arte]` `[Gulli]` `[Novo 19]`
+* **Toggle « 📺 Hors Gratuit & TNT »** :
+  - Masque instantanément toutes les 1 313 œuvres issues de la TNT et du catalogue gratuit Molotov, basculant en 1 clic sur le catalogue SVOD payant pur (876 œuvres).
 * **Toggle « 🛡️ Hors Prime & TNT »** :
-  - Exclut les offres incluses dans l'abonnement standard Amazon Prime Video (`prv`, `pva`) et les diffusions TNT / Replay gratuit des diffuseurs hertziens nationaux officiels (`tf1`, `myt`, `sxp`, `6pt`, `art`, `fra`, `rmc`, `bfm`, `gum`).
-  - **100% Déterministe & Pérenne** : Zéro liste manuelle de titres en dur (`KNOWN_TNT_PATTERNS` définitivement supprimé), et exclusion formelle des plateformes FAST / AVOD (Pluto TV, Rakuten TV, Plex qui ne sont pas de la TNT).
+  - Exclut les offres incluses dans l'abonnement standard Amazon Prime Video (`prv`, `pva`) et les diffusions TNT / Replay.
 * **Toggle « 🚫 Exclure sans S1 »** :
-  - Masque les séries tronquées ne disposant pas de leur saison 1 sur les bouquets (`⚠️ Débute SX` sur les cartes si inactif).
+  - Masque les séries tronquées ne disposant pas de leur saison 1 sur les bouquets.
 
 ---
 
 ## 5. État Actuel du Catalogue & Versions Déployées
 
 * **Audit de Conformité Catalogue ([`js/catalog.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js))** :
-  - **Total œuvres qualifiées** : **1 647** (1 379 films $\ge 60\text{ min}$, 268 séries).
-  - **Conformité 1 catégorie unique** : **1 647 / 1 647 (100% conforme, 0 anomalie)**.
+  - **Total œuvres qualifiées** : **2 189** (1 634 films $\ge 60\text{ min}$, 555 séries).
+  - **Conformité 1 catégorie unique** : **2 189 / 2 189 (100% conforme, 0 anomalie)**.
   - **Titres expirés** : **0**.
   - **Distribution des 7 catégories** :
-    - `drame_emotion` : 576
-    - `thriller_policier` : 378
-    - `comedie` : 231
-    - `horreur_epouvante` : 153
-    - `scifi_fantastique` : 126
-    - `action_aventure` : 92
-    - `animation_famille` : 91
+    - `drame_emotion` : 725
+    - `thriller_policier` : 515
+    - `comedie` : 311
+    - `animation_famille` : 202
+    - `horreur_epouvante` : 171
+    - `scifi_fantastique` : 161
+    - `action_aventure` : 104
   - **Répartition PC vs Mobile** :
-    - Version Mobile : **876 œuvres SVOD payantes** (752 films, 124 séries) — 0 pollution Molotov/TNT.
-    - Version PC : **1 647 œuvres totales** (dont 771 purement Molotov/TNT masquables via « Hors Molotov »).
+    - Version Mobile : **876 œuvres SVOD payantes** (752 films, 124 séries) — 0 pollution.
+    - Version PC : **2 189 œuvres totales** (dont 1 313 gratuites/TNT masquables en 1 clic).
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.42` (`sw.js` : `cinescope-v8.42-streaming`, assets `?v=8.42`).
-  - **Clés LocalStorage Actives** : `_v28` (`cinescope_streaming_catalog_v28`, etc.).
-
+  - **Version Application / PWA** : `v8.43` (`sw.js` : `cinescope-v8.43-streaming`, assets `?v=8.43`).
+  - **Clés LocalStorage Actives** : `_v29` (`cinescope_streaming_catalog_v29`, etc.).

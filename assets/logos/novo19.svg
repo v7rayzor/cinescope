@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 50" width="160" height="50">
+  <defs>
+    <linearGradient id="novoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#002B49"/>
+      <stop offset="100%" stop-color="#0A192F"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF4B4B"/>
+      <stop offset="100%" stop-color="#E02424"/>
+    </linearGradient>
+  </defs>
+  <!-- Background pill -->
+  <rect x="0" y="0" width="160" height="50" rx="8" fill="url(#novoGrad)"/>
+  <!-- Text NOVO -->
+  <text x="14" y="34" font-family="'Inter', 'Montserrat', 'Segoe UI', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" letter-spacing="1.5">NOVO</text>
+  <!-- Badge 19 -->
+  <rect x="100" y="8" width="48" height="34" rx="6" fill="url(#badgeGrad)"/>
+  <text x="124" y="33" font-family="'Inter', 'Montserrat', 'Segoe UI', sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">19</text>
+</svg>

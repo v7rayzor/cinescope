@@ -2048,6 +2048,73 @@ body.modal-open {
   color: #fff;
 }
 
+/* Boutons bouquets TNT actifs (TF1+, M6+, France TV, Arte, Gulli, Novo 19) */
+.bouquet-btn[data-package="tf1"].active {
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.28), rgba(37, 99, 235, 0.12));
+  border-color: rgba(37, 99, 235, 0.75);
+  color: #fff;
+  box-shadow: 0 0 14px rgba(37, 99, 235, 0.3);
+}
+.bouquet-btn[data-package="tf1"].active .pkg-count {
+  background: rgba(37, 99, 235, 0.35);
+  color: #fff;
+}
+
+.bouquet-btn[data-package="sxp"].active {
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.28), rgba(239, 68, 68, 0.12));
+  border-color: rgba(239, 68, 68, 0.75);
+  color: #fff;
+  box-shadow: 0 0 14px rgba(239, 68, 68, 0.3);
+}
+.bouquet-btn[data-package="sxp"].active .pkg-count {
+  background: rgba(239, 68, 68, 0.35);
+  color: #fff;
+}
+
+.bouquet-btn[data-package="fra"].active {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.28), rgba(16, 185, 129, 0.12));
+  border-color: rgba(16, 185, 129, 0.75);
+  color: #fff;
+  box-shadow: 0 0 14px rgba(16, 185, 129, 0.3);
+}
+.bouquet-btn[data-package="fra"].active .pkg-count {
+  background: rgba(16, 185, 129, 0.35);
+  color: #fff;
+}
+
+.bouquet-btn[data-package="art"].active {
+  background: linear-gradient(135deg, rgba(249, 115, 22, 0.28), rgba(249, 115, 22, 0.12));
+  border-color: rgba(249, 115, 22, 0.75);
+  color: #fff;
+  box-shadow: 0 0 14px rgba(249, 115, 22, 0.3);
+}
+.bouquet-btn[data-package="art"].active .pkg-count {
+  background: rgba(249, 115, 22, 0.35);
+  color: #fff;
+}
+
+.bouquet-btn[data-package="gum"].active {
+  background: linear-gradient(135deg, rgba(132, 204, 22, 0.28), rgba(132, 204, 22, 0.12));
+  border-color: rgba(132, 204, 22, 0.75);
+  color: #fff;
+  box-shadow: 0 0 14px rgba(132, 204, 22, 0.3);
+}
+.bouquet-btn[data-package="gum"].active .pkg-count {
+  background: rgba(132, 204, 22, 0.35);
+  color: #fff;
+}
+
+.bouquet-btn[data-package="nvn"].active {
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.28), rgba(14, 165, 233, 0.12));
+  border-color: rgba(239, 68, 68, 0.75);
+  color: #fff;
+  box-shadow: 0 0 14px rgba(239, 68, 68, 0.3);
+}
+.bouquet-btn[data-package="nvn"].active .pkg-count {
+  background: rgba(239, 68, 68, 0.35);
+  color: #fff;
+}
+
 /* Règle 8 : Exclusivité PC pour les fonctionnalités spécifiques Desktop */
 @media (max-width: 1023px) {
   .bouquet-btn-pc-only {

@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=8.42">
+  <link rel="stylesheet" href="css/style.css?v=8.43">
 </head>
 <body>
   <!-- Header / Navigation principale -->
@@ -108,10 +108,41 @@
               <span class="pkg-name">Universal+</span>
               <span class="pkg-count" id="countPkgUniversal">0</span>
             </button>
-            <button class="bouquet-btn bouquet-btn-pc-only" data-package="mlt" id="pkgMolotov" title="Afficher uniquement les œuvres Molotov (y compris TNT)">
-              <img src="assets/logos/molotov.png" alt="Molotov" class="pkg-logo-img">
-              <span class="pkg-name">Molotov</span>
+            <!-- Bouquets Gratuits & TNT (Exclusivité Desktop PC - Règle 8) -->
+            <button class="bouquet-btn bouquet-btn-pc-only" data-package="mlt" id="pkgMolotov" title="Afficher les œuvres gratuites Molotov (Mango AVOD & FAST)">
+              <img src="assets/logos/molotov.png" alt="Molotov Gratuit" class="pkg-logo-img">
+              <span class="pkg-name">Molotov Gratuit</span>
               <span class="pkg-count" id="countPkgMolotov">0</span>
+            </button>
+            <button class="bouquet-btn bouquet-btn-pc-only" data-package="tf1" id="pkgTf1" title="Afficher les œuvres TF1+">
+              <img src="assets/logos/tf1.png" alt="TF1+" class="pkg-logo-img">
+              <span class="pkg-name">TF1+</span>
+              <span class="pkg-count" id="countPkgTf1">0</span>
+            </button>
+            <button class="bouquet-btn bouquet-btn-pc-only" data-package="sxp" id="pkgM6" title="Afficher les œuvres M6+">
+              <img src="assets/logos/m6_plus.png" alt="M6+" class="pkg-logo-img">
+              <span class="pkg-name">M6+</span>
+              <span class="pkg-count" id="countPkgM6">0</span>
+            </button>
+            <button class="bouquet-btn bouquet-btn-pc-only" data-package="fra" id="pkgFranceTv" title="Afficher les œuvres France TV">
+              <img src="assets/logos/france_tv.png" alt="France TV" class="pkg-logo-img">
+              <span class="pkg-name">France TV</span>
+              <span class="pkg-count" id="countPkgFranceTv">0</span>
+            </button>
+            <button class="bouquet-btn bouquet-btn-pc-only" data-package="art" id="pkgArte" title="Afficher les œuvres Arte">
+              <img src="assets/logos/arte.png" alt="Arte" class="pkg-logo-img">
+              <span class="pkg-name">Arte</span>
+              <span class="pkg-count" id="countPkgArte">0</span>
+            </button>
+            <button class="bouquet-btn bouquet-btn-pc-only" data-package="gum" id="pkgGulli" title="Afficher les œuvres Gulli">
+              <img src="assets/logos/gulli.png" alt="Gulli" class="pkg-logo-img">
+              <span class="pkg-name">Gulli</span>
+              <span class="pkg-count" id="countPkgGulli">0</span>
+            </button>
+            <button class="bouquet-btn bouquet-btn-pc-only" data-package="nvn" id="pkgNovo" title="Afficher les œuvres Novo 19">
+              <img src="assets/logos/novo19.svg" alt="Novo 19" class="pkg-logo-img">
+              <span class="pkg-name">Novo 19</span>
+              <span class="pkg-count" id="countPkgNovo">0</span>
             </button>
           </div>
         </div>
@@ -129,9 +160,9 @@
               <span class="pkg-name">Hors Prime & TNT</span>
               <span class="pkg-count" id="countPkgExclusive">0</span>
             </button>
-            <button class="bouquet-btn bouquet-btn-exclusive bouquet-btn-pc-only" id="pkgExcludeMolotov" type="button" title="Masquer les œuvres issues uniquement de Molotov & de la TNT">
+            <button class="bouquet-btn bouquet-btn-exclusive bouquet-btn-pc-only" id="pkgExcludeMolotov" type="button" title="Masquer les œuvres issues uniquement du catalogue Gratuit & de la TNT">
               <span class="pkg-icon">📺</span>
-              <span class="pkg-name">Hors Molotov</span>
+              <span class="pkg-name">Hors Gratuit & TNT</span>
               <span class="pkg-count" id="countExcludeMolotov">0</span>
             </button>
             <button class="bouquet-btn bouquet-btn-no-s1" id="pkgExcludeNoS1" type="button" title="Activer / Désactiver l'exclusion des séries dont la Saison 1 n'est pas disponible">
@@ -399,10 +430,10 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="js/catalog.js?v=8.42"></script>
-  <script src="js/nlp_model.js?v=8.42"></script>
-  <script src="js/justwatch_engine.js?v=8.42"></script>
-  <script src="js/app.js?v=8.42"></script>
+  <script src="js/catalog.js?v=8.43"></script>
+  <script src="js/nlp_model.js?v=8.43"></script>
+  <script src="js/justwatch_engine.js?v=8.43"></script>
+  <script src="js/app.js?v=8.43"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {

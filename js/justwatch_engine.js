@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v28';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v28';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v28';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v28';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v29';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v29';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v29';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v29';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -34,29 +34,71 @@ const JustWatchEngine = (function () {
 
   // Configuration des bouquets et packages JustWatch France avec logos officiels
   const PACKAGES_CONFIG = {
+    // Bouquets SVOD Payants (CinéScope standard & mobile)
     aoc: {
       name: 'Ciné+ OCS',
       logo: 'assets/logos/cine_ocs.svg',
-      badgeClass: 'badge-ocs'
+      badgeClass: 'badge-ocs',
+      isPaid: true
     },
     aca: {
       name: 'Action Max',
       logo: 'assets/logos/action.png',
-      badgeClass: 'badge-action'
+      badgeClass: 'badge-action',
+      isPaid: true
     },
     auc: {
       name: 'Universal+',
       logo: 'assets/logos/universal_plus.svg',
-      badgeClass: 'badge-universal'
+      badgeClass: 'badge-universal',
+      isPaid: true
+    },
+    // Plateformes TNT & Replay Gratuit (Exclusivité PC - Règle 8)
+    tf1: {
+      name: 'TF1+',
+      logo: 'assets/logos/tf1.png',
+      badgeClass: 'badge-tf1',
+      isPaid: false
+    },
+    sxp: {
+      name: 'M6+',
+      logo: 'assets/logos/m6_plus.png',
+      badgeClass: 'badge-m6',
+      isPaid: false
+    },
+    fra: {
+      name: 'France TV',
+      logo: 'assets/logos/france_tv.png',
+      badgeClass: 'badge-francetv',
+      isPaid: false
+    },
+    art: {
+      name: 'Arte',
+      logo: 'assets/logos/arte.png',
+      badgeClass: 'badge-arte',
+      isPaid: false
+    },
+    gum: {
+      name: 'Gulli',
+      logo: 'assets/logos/gulli.png',
+      badgeClass: 'badge-gulli',
+      isPaid: false
+    },
+    nvn: {
+      name: 'Novo 19',
+      logo: 'assets/logos/novo19.svg',
+      badgeClass: 'badge-novo19',
+      isPaid: false
     },
     mlt: {
-      name: 'Molotov',
+      name: 'Molotov Gratuit',
       logo: 'assets/logos/molotov.png',
-      badgeClass: 'badge-molotov'
+      badgeClass: 'badge-molotov',
+      isPaid: false
     }
   };
 
-  const PACKAGE_SLUGS = ['aoc', 'aca', 'auc', 'mlt'];
+  const PACKAGE_SLUGS = ['aoc', 'aca', 'auc', 'mlt', 'tf1', 'sxp', 'fra', 'art', 'gum', 'nvn'];
 
   // Motifs d'identification des œuvres et séries incluses ou diffusées sur Prime Video
   const KNOWN_PRIME_PATTERNS = [
@@ -109,8 +151,8 @@ const JustWatchEngine = (function () {
     return KNOWN_PRIME_PATTERNS.some(regex => regex.test(title));
   }
 
-  // Bouquets et chaînes officielles de la TNT française (TF1+, M6+, Arte, France TV, RMC, BFM, Gulli)
-  const TNT_PACKAGE_SLUGS = ['tf1', 'myt', 'sxp', '6pt', 'art', 'fra', 'rmc', 'bfm', 'gum'];
+  // Bouquets et chaînes officielles de la TNT française (TF1+, M6+, Arte, France TV, Gulli, Novo 19)
+  const TNT_PACKAGE_SLUGS = ['tf1', 'myt', 'tfa', 'sxp', '6pt', 'mms', 'art', 'atb', 'fra', 'gum', 'nvn'];
 
   function isKnownTntTitle(title) {
     return false;
@@ -502,7 +544,7 @@ const JustWatchEngine = (function () {
     const now = new Date();
 
     // 1. Filtrer et retirer les bouquets dont la date individuelle est dépassée
-    const remainingPkgs = [];
+    let remainingPkgs = [];
     for (const pkg of activePkgs) {
       const expStr = pkgExps[pkg];
       if (expStr) {
@@ -519,6 +561,13 @@ const JustWatchEngine = (function () {
     if (activePkgs.length > 0 && remainingPkgs.length === 0) {
       item.expiration = { status: 'expired', label: 'Expiré', daysLeft: -1, expirationDate: item.expiration.expirationDate, packageExpirations: pkgExps };
       return item;
+    }
+
+    // Sanctuarisation payante : si l'œuvre possède un bouquet payant (aoc, aca, auc),
+    // Molotov (mlt) et les plateformes gratuites/TNT sont STRICTEMENT exclues.
+    const hasPaidInRemaining = remainingPkgs.some(p => ['aoc', 'aca', 'auc'].includes(p));
+    if (hasPaidInRemaining) {
+      remainingPkgs = remainingPkgs.filter(p => ['aoc', 'aca', 'auc'].includes(p));
     }
 
     // Mettre à jour les chaînes et logos restants strictement selon PACKAGES_CONFIG
@@ -699,13 +748,43 @@ const JustWatchEngine = (function () {
     else if (noteGlobale >= 7.0) etoiles = 4;
 
     const offers = node.offers || [];
-    const matchedPackages = [];
-    offers.forEach(o => {
-      const sName = o.package?.shortName;
-      if (PACKAGES_CONFIG[sName] && !matchedPackages.includes(sName)) {
-        matchedPackages.push(sName);
+
+    // Table d'alias JustWatch vers nos diffuseurs officiels
+    const PKG_ALIASES = {
+      myt: 'tf1',
+      tfa: 'tf1',
+      '6pt': 'sxp',
+      mms: 'sxp',
+      atb: 'art'
+    };
+
+    const resolvedOfferSlugs = Array.from(new Set(
+      offers.map(o => PKG_ALIASES[o.package?.shortName] || o.package?.shortName).filter(Boolean)
+    ));
+
+    // 1. Priorité absolue aux bouquets payants SVOD (Ciné+ OCS, Action Max, Universal+)
+    const paidSlugs = ['aoc', 'aca', 'auc'];
+    const matchedPaid = paidSlugs.filter(p => resolvedOfferSlugs.includes(p));
+
+    let matchedPackages = [];
+    if (matchedPaid.length > 0) {
+      // RÈGLE IMPÉRATIVE : Si l'œuvre est disponible sur un bouquet payant,
+      // Molotov (mlt) et les canaux TNT sont STRICTEMENT bannis de la fiche et des logos !
+      matchedPackages = matchedPaid;
+    } else {
+      // 2. Œuvre non payante : détection des chaînes TNT & Replay (Desktop PC)
+      const tntSlugs = ['tf1', 'sxp', 'fra', 'art', 'gum', 'nvn'];
+      const matchedTnt = tntSlugs.filter(p => resolvedOfferSlugs.includes(p));
+
+      if (matchedTnt.length > 0) {
+        matchedPackages = matchedTnt;
+      } else if (resolvedOfferSlugs.includes('mlt')) {
+        // Catalogue gratuit propre à Molotov (Mango AVOD & chaînes FAST)
+        matchedPackages = ['mlt'];
       }
-    });
+    }
+
+    if (matchedPackages.length === 0) return null;
 
     const primaryPkgKey = matchedPackages[0] || 'aoc';
     const primaryPkg = PACKAGES_CONFIG[primaryPkgKey] || PACKAGES_CONFIG.aoc;
@@ -802,7 +881,14 @@ const JustWatchEngine = (function () {
       return pkgs;
     };
 
-    const allPkgs = Array.from(new Set([...getPkgs(base), ...getPkgs(incoming)]));
+    let allPkgs = Array.from(new Set([...getPkgs(base), ...getPkgs(incoming)]));
+    // Sanctuarisation payante : si l'œuvre possède un bouquet payant (aoc, aca, auc),
+    // Molotov (mlt) et les canaux TNT sont STRICTEMENT bannis de la fiche et des logos !
+    const hasPaid = allPkgs.some(p => ['aoc', 'aca', 'auc'].includes(p));
+    if (hasPaid) {
+      allPkgs = allPkgs.filter(p => ['aoc', 'aca', 'auc'].includes(p));
+    }
+
     const allChaines = allPkgs.map(k => PACKAGES_CONFIG[k].name);
     const allLogos = allPkgs.map(k => PACKAGES_CONFIG[k].logo);
     const primaryPkg = PACKAGES_CONFIG[allPkgs[0]] || PACKAGES_CONFIG.aoc;
@@ -997,8 +1083,8 @@ const JustWatchEngine = (function () {
       reqHeaders['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)';
     }
 
-    const pageSize = isFullSync ? 40 : 25;
-    const maxPages = isFullSync ? 30 : 1;
+    const pageSize = isFullSync ? 40 : 50;
+    const maxPages = isFullSync ? 30 : 2; // Rafraîchissement rapide quotidien : 100 nouveautés fraîches (2 x 50)
 
     const freshQualified = [];
     let currentCursor = null;
