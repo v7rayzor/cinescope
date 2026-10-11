@@ -182,68 +182,68 @@ Ces 117 œuvres proviennent des chaînes thématiques payantes du câble/satelli
 
 ---
 
-## 5. Étude d'Ajout : Molotov Gratuit Pur (Mango / Offre Gratuite Molotov : Hors TNT & Hors Abonnement Payant) (11 Octobre 2026)
+## 5. Étude d'Ajout : Molotov Gratuit Pur (Offre Gratuite Molotov : Hors TNT & Hors Bouquets Payants Molotov) (11 Octobre 2026)
 
-### A. Vue d'Ensemble
-Cette étude isole strictement le catalogue **gratuit propre à Molotov (notamment l'offre Mango / AVOD gratuite)**, en excluant à la fois :
+### A. Vue d'Ensemble & Périmètre Strict
+Cette étude isole le catalogue **gratuit propre à Molotov (notamment l'offre Mango / AVOD gratuite)**, en excluant à la fois :
 1. **Toutes les chaînes de la TNT gratuite et leurs replays** (*TF1+, M6+, France TV, Arte, RMC, Gulli*...).
-2. **Tous les bouquets et abonnements payants** (*Ciné+ OCS, Universal+, Action Max, Sooner, Shadowz, Insomnia, Netflix, Disney+, Canal+, Paramount+, Max*...).
+2. **Tous les bouquets payants distribués par Molotov** (*Ciné+ OCS, Universal+, Action Max, Sooner, Shadowz, Insomnia, Filmo, Outbuster, ADN*).
 3. **Les doublons déjà présents dans le catalogue actuel CinéScope**.
+4. **Sans surfiltrage des plateformes externes :** La présence conjointe d'un film sur Netflix, Disney+, Paramount+ ou Prime Video ne l'exclut pas, car Molotov ne commercialise pas ces services ; sur Molotov, l'œuvre est donc accessible via son offre gratuite.
 
-* **Volume Total Ajouté :** **+155 œuvres nettes éligibles**
-  * **Films :** **+151 films** (Runtime $\ge 60\text{ min}$)
-  * **Séries :** **+4 séries** (*Sous pression* [5★], *Sissi* [5★], *The Equalizer* [4★], *Secrets and Lies* [4★])
+* **Volume Total Ajouté :** **+213 œuvres nettes éligibles**
+  * **Films :** **+190 films** (Runtime $\ge 60\text{ min}$)
+  * **Séries :** **+23 séries**
 
 ---
 
-### B. Détail FILMS : +151 Films Ajoutés
+### B. Détail FILMS : +190 Films Ajoutés
 
 | Catégorie | Total Films | ⭐⭐⭐ (3★) | ⭐⭐⭐⭐ (4★) | ⭐⭐⭐⭐⭐ (5★) |
 | :--- | :---: | :---: | :---: | :---: |
-| `drame_emotion` | **48** | 25 | 21 | 2 |
-| `thriller_policier` | **38** | 27 | 10 | 1 |
-| `horreur_epouvante` | **21** | 15 | 6 | 0 |
-| `action_aventure` | **18** | 11 | 7 | 0 |
-| `comedie` | **15** | 10 | 4 | 1 |
-| `scifi_fantastique` | **10** | 5 | 5 | 0 |
-| `animation_famille` | **1** | 1 | 0 | 0 |
-| **TOTAL FILMS** | **151** | **94** (62,3%) | **53** (35,1%) | **4** (2,6%) |
+| `drame_emotion` | **60** | 32 | 25 | 3 |
+| `thriller_policier` | **54** | 39 | 14 | 1 |
+| `horreur_epouvante` | **24** | 16 | 8 | 0 |
+| `action_aventure` | **19** | 12 | 7 | 0 |
+| `comedie` | **16** | 11 | 4 | 1 |
+| `scifi_fantastique` | **13** | 6 | 7 | 0 |
+| `animation_famille` | **4** | 2 | 2 | 0 |
+| **TOTAL FILMS** | **190** | **118** (62,1%) | **67** (35,3%) | **5** (2,6%) |
 
-*Exemples de films notables ajoutés :* *Arcadian* (Nicolas Cage), *Summer of 84*, *Creed III*, *The Prodigy*, *The Battery*, *Assaut sur Wall Street*, *La Ligne de feu*, *Justice IA*, *Allah n'est pas obligé* (5★), *Des blessures invisibles* (5★)...
+*Films 5★ notables :* *Allah n'est pas obligé* (Drame, 8.4/10), *Des blessures invisibles* (Thriller, 8.0/10), *Prison Heart* (Drame, 8.0/10), *Noël à Goose Lane* (Comédie, 8.0/10), *Mademoiselle* (Drame, 8.1/10).
 
 ---
 
-### C. Détail SÉRIES : +4 Séries Ajoutées
+### C. Détail SÉRIES : +23 Séries Ajoutées
 
 | Catégorie | Total Séries | ⭐⭐⭐ (3★) | ⭐⭐⭐⭐ (4★) | ⭐⭐⭐⭐⭐ (5★) |
 | :--- | :---: | :---: | :---: | :---: |
-| `thriller_policier` | **3** | 0 | 2 | 1 |
-| `drame_emotion` | **1** | 0 | 0 | 1 |
-| `comedie` | **0** | 0 | 0 | 0 |
-| `scifi_fantastique` | **0** | 0 | 0 | 0 |
-| `horreur_epouvante` | **0** | 0 | 0 | 0 |
+| `thriller_policier` | **8** | 1 | 4 | 3 |
+| `drame_emotion` | **6** | 2 | 3 | 1 |
+| `scifi_fantastique` | **6** | 2 | 0 | 4 |
+| `comedie` | **1** | 1 | 0 | 0 |
+| `horreur_epouvante` | **1** | 0 | 1 | 0 |
+| `animation_famille` | **1** | 0 | 0 | 1 |
 | `action_aventure` | **0** | 0 | 0 | 0 |
-| `animation_famille` | **0** | 0 | 0 | 0 |
-| **TOTAL SÉRIES** | **4** | **0** (0%) | **2** (50,0%) | **2** (50,0%) |
+| **TOTAL SÉRIES** | **23** | **6** (26,1%) | **8** (34,8%) | **9** (39,1%) |
 
-*Séries ajoutées :*
-* ⭐⭐⭐⭐⭐ (5★) : *Sous pression* (Thriller/Drame médical d'urgence, 8.4/10), *Sissi* (Drame historique, 7.8/10).
-* ⭐⭐⭐⭐ (4★) : *The Equalizer* (Action/Thriller, 7.3/10), *Secrets and Lies* (Thriller d'enquête, 7.4/10).
+*Séries 5★ notables :* *Solo Leveling* (SF, 9.1/10), *Tsugai* (SF, 8.9/10), *Lucifer* (SF, 8.0/10), *The Great* (Drame, 8.5/10), *Sherlock et sa fille* (Thriller, 8.4/10), *Sous pression* (Thriller, 8.4/10), *Les Évaporés* (Thriller, 8.3/10).
 
 ---
 
-### D. TOTAL CUMULÉ (Films + Séries) : +155 Œuvres Ajoutées
+### D. TOTAL CUMULÉ (Films + Séries) : +213 Œuvres Ajoutées
 
 | Catégorie | Total Ajouté | ⭐⭐⭐ (3★) | ⭐⭐⭐⭐ (4★) | ⭐⭐⭐⭐⭐ (5★) |
 | :--- | :---: | :---: | :---: | :---: |
-| `drame_emotion` | **49** | 25 | 21 | 3 |
-| `thriller_policier` | **41** | 27 | 12 | 2 |
-| `horreur_epouvante` | **21** | 15 | 6 | 0 |
-| `action_aventure` | **18** | 11 | 7 | 0 |
-| `comedie` | **15** | 10 | 4 | 1 |
-| `scifi_fantastique` | **10** | 5 | 5 | 0 |
-| `animation_famille` | **1** | 1 | 0 | 0 |
-| **TOTAL CUMULÉ** | **155** | **94** (60,6%) | **55** (35,5%) | **6** (3,9%) |
+| `drame_emotion` | **66** | 34 | 28 | 4 |
+| `thriller_policier` | **62** | 40 | 18 | 4 |
+| `horreur_epouvante` | **25** | 16 | 9 | 0 |
+| `scifi_fantastique` | **19** | 8 | 7 | 4 |
+| `action_aventure` | **19** | 12 | 7 | 0 |
+| `comedie` | **17** | 12 | 4 | 1 |
+| `animation_famille` | **5** | 2 | 2 | 1 |
+| **TOTAL CUMULÉ** | **213** | **124** (58,2%) | **75** (35,2%) | **14** (6,6%) |
+
 
 
 
