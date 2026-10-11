@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=8.41">
+  <link rel="stylesheet" href="css/style.css?v=8.42">
 </head>
 <body>
   <!-- Header / Navigation principale -->
@@ -108,6 +108,11 @@
               <span class="pkg-name">Universal+</span>
               <span class="pkg-count" id="countPkgUniversal">0</span>
             </button>
+            <button class="bouquet-btn bouquet-btn-pc-only" data-package="mlt" id="pkgMolotov" title="Afficher uniquement les œuvres Molotov (y compris TNT)">
+              <img src="assets/logos/molotov.png" alt="Molotov" class="pkg-logo-img">
+              <span class="pkg-name">Molotov</span>
+              <span class="pkg-count" id="countPkgMolotov">0</span>
+            </button>
           </div>
         </div>
       </div>
@@ -123,6 +128,11 @@
               <span class="pkg-icon">🛡️</span>
               <span class="pkg-name">Hors Prime & TNT</span>
               <span class="pkg-count" id="countPkgExclusive">0</span>
+            </button>
+            <button class="bouquet-btn bouquet-btn-exclusive bouquet-btn-pc-only" id="pkgExcludeMolotov" type="button" title="Masquer les œuvres issues uniquement de Molotov & de la TNT">
+              <span class="pkg-icon">📺</span>
+              <span class="pkg-name">Hors Molotov</span>
+              <span class="pkg-count" id="countExcludeMolotov">0</span>
             </button>
             <button class="bouquet-btn bouquet-btn-no-s1" id="pkgExcludeNoS1" type="button" title="Activer / Désactiver l'exclusion des séries dont la Saison 1 n'est pas disponible">
               <span class="pkg-icon">🚫</span>
@@ -389,10 +399,10 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="js/catalog.js?v=8.41"></script>
-  <script src="js/nlp_model.js?v=8.41"></script>
-  <script src="js/justwatch_engine.js?v=8.41"></script>
-  <script src="js/app.js?v=8.41"></script>
+  <script src="js/catalog.js?v=8.42"></script>
+  <script src="js/nlp_model.js?v=8.42"></script>
+  <script src="js/justwatch_engine.js?v=8.42"></script>
+  <script src="js/app.js?v=8.42"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {

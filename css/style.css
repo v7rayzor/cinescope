@@ -2035,6 +2035,26 @@ body.modal-open {
   color: #fff;
 }
 
+/* Bouton Bouquet Molotov spécifique */
+.bouquet-btn[data-package="mlt"].active {
+  background: linear-gradient(135deg, rgba(234, 179, 8, 0.28), rgba(234, 179, 8, 0.12));
+  border-color: rgba(234, 179, 8, 0.75);
+  color: #fff;
+  box-shadow: 0 0 14px rgba(234, 179, 8, 0.3);
+}
+
+.bouquet-btn[data-package="mlt"].active .pkg-count {
+  background: rgba(234, 179, 8, 0.35);
+  color: #fff;
+}
+
+/* Règle 8 : Exclusivité PC pour les fonctionnalités spécifiques Desktop */
+@media (max-width: 1023px) {
+  .bouquet-btn-pc-only {
+    display: none !important;
+  }
+}
+
 .card-season-badge {
   position: absolute;
   bottom: 8px;

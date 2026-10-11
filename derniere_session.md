@@ -1,20 +1,21 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.41** / Cache **v27**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.42** / Cache **v28**).
 
 ---
 
 ## 1. Architecture Globale & Flux de Données
 
-### A. Bouquets SVOD Officiels Ciblés (France)
+### A. Bouquets SVOD & Plateformes Ciblées (France)
 * **Ciné+ OCS** (`aoc`)
 * **Universal+** (`auc`)
 * **Action Max** (`aca`)
+* **Molotov** (`mlt`) *(Intégration complète avec exclusivité PC selon la Règle 8)*
 
 ### B. Synchronisation Hybride & Automatisation
 * **Automatisation Serveur (GitHub Actions - `.github/workflows/update_catalog.yml`)** :
   - Exécution quotidienne planifiée à **06:00 UTC** via [`scripts/sync_justwatch.cjs`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_justwatch.cjs) sous Node.js (sans contrainte CORS).
-  - Récupère le flux complet JustWatch GraphQL (`availableFromTime`, saisons, scores, âges, tags, fins de droits).
+  - Récupère le flux complet JustWatch GraphQL sur les 4 bouquets cibles (`aoc`, `aca`, `auc`, `mlt`).
   - Nettoie, déduplique, qualifie et met à jour [`js/catalog.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js).
 * **Client Web Résilient ([`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js))** :
   - Démarrage instantané sur le catalogue pré-embarqué `CATALOG_DATA`.
@@ -86,16 +87,17 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 ### A. Interface Mobile & Responsive
 * **Sélecteur Déroulant Mobile « Filtre »** :
   - Sur mobile ($\le 768\text{px}$), le bouton déroulant arbore l'intitulé **« Filtre »** (plus incitatif, parlant et standardisé sur smartphone que l'ancien terme « Genre »), couplé au badge dynamique affichant la sélection active en temps réel (*Tous les titres*, *Action & Aventure*, etc.).
+* **Sanctuarisation Mobile Stricte (Règle 8 AGENTS.md)** :
+  - Sur smartphone, les œuvres issues purement de Molotov & TNT sont **formellement masquées en permanence** : le mobile conserve strictement les 876 œuvres des 3 bouquets payants de référence (Ciné+ OCS, Action Max, Universal+).
+  - Les boutons spécifiques PC (`Molotov`, `Hors Molotov`) sont totalement invisibles sur mobile.
 
-### B. Barre de Filtres Épurée & Retrait des Boutons de Profils
-* **Focalisation Cinématographique Pure** :
-  - Le bloc des 4 boutons de profils (`Pour Moi`, `Ami`, `Amie`, `Duo Amis`) a été retiré de la barre de navigation principale pour alléger l'interface et éviter les distorsions visuelles de compteurs.
-  - Les méthodes de calcul de scores d'affinité associées (`computeProfileAffinity`, `isItemMatchingProfile`, `getItemActionPercentage`, `isItemExcludedForAmis`) ont été intégralement épurées du client web.
-  - La charte et les sélections des profils d'amis restent documentées et sanctuarisées dans [`profils_amis.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/profils_amis.md) pour les conseils personnalisés.
-
-### C. Filtres Toggles & Desktop PC
+### B. Filtres Toggles & Fonctionnalités Desktop PC (Règle 8)
 * **Barre de Recherche de Titres Dédiée** :
   - Intégrée au header (écrans $\ge 1024\text{px}$), recherche NFD insensible à la casse et aux accents, bouton d'effacement `✕`, raccourci touche `Échap`.
+* **Bouton Bouquet « 📺 Molotov »** :
+  - Intégré dans la rangée des bouquets sur PC pour filtrer en 1 clic l'ensemble des contenus disponibles sur Molotov (1 129 œuvres).
+* **Toggle « 📺 Hors Molotov »** :
+  - Masque instantanément toutes les œuvres issues uniquement de Molotov & de la TNT (771 œuvres), permettant de basculer en un clic sur le catalogue SVOD payant pur.
 * **Toggle « 🛡️ Hors Prime & TNT »** :
   - Exclut les offres incluses dans l'abonnement standard Amazon Prime Video (`prv`, `pva`) et les diffusions TNT / Replay gratuit des diffuseurs hertziens nationaux officiels (`tf1`, `myt`, `sxp`, `6pt`, `art`, `fra`, `rmc`, `bfm`, `gum`).
   - **100% Déterministe & Pérenne** : Zéro liste manuelle de titres en dur (`KNOWN_TNT_PATTERNS` définitivement supprimé), et exclusion formelle des plateformes FAST / AVOD (Pluto TV, Rakuten TV, Plex qui ne sont pas de la TNT).
@@ -107,18 +109,21 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 ## 5. État Actuel du Catalogue & Versions Déployées
 
 * **Audit de Conformité Catalogue ([`js/catalog.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js))** :
-  - **Total œuvres qualifiées** : **878** (754 films $\ge 60\text{ min}$, 124 séries).
-  - **Conformité 1 catégorie unique** : **878 / 878 (100% conforme, 0 anomalie)**.
+  - **Total œuvres qualifiées** : **1 647** (1 379 films $\ge 60\text{ min}$, 268 séries).
+  - **Conformité 1 catégorie unique** : **1 647 / 1 647 (100% conforme, 0 anomalie)**.
   - **Titres expirés** : **0**.
   - **Distribution des 7 catégories** :
-    - `drame_emotion` : 328
-    - `thriller_policier` : 162
-    - `comedie` : 143
-    - `animation_famille` : 76
-    - `scifi_fantastique` : 75
-    - `action_aventure` : 50
-    - `horreur_epouvante` : 44
+    - `drame_emotion` : 576
+    - `thriller_policier` : 378
+    - `comedie` : 231
+    - `horreur_epouvante` : 153
+    - `scifi_fantastique` : 126
+    - `action_aventure` : 92
+    - `animation_famille` : 91
+  - **Répartition PC vs Mobile** :
+    - Version Mobile : **876 œuvres SVOD payantes** (752 films, 124 séries) — 0 pollution Molotov/TNT.
+    - Version PC : **1 647 œuvres totales** (dont 771 purement Molotov/TNT masquables via « Hors Molotov »).
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.41` (`sw.js` : `cinescope-v8.41-streaming`, assets `?v=8.41`).
-  - **Clés LocalStorage Actives** : `_v27` (`cinescope_streaming_catalog_v27`, etc.).
+  - **Version Application / PWA** : `v8.42` (`sw.js` : `cinescope-v8.42-streaming`, assets `?v=8.42`).
+  - **Clés LocalStorage Actives** : `_v28` (`cinescope_streaming_catalog_v28`, etc.).
 

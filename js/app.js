@@ -52,14 +52,22 @@ const AppState = {
   activeType: 'film',          // 'film' ou 'serie'
   activeCategory: 'all',       // 'all' ou l'une des 7 catégories
   activeStars: 'all',          // 'all', '4', '5'
-  activeBouquet: 'all',        // 'all', 'aoc' (OCS), 'aca' (Action), 'auc' (Universal+)
+  activeBouquet: 'all',        // 'all', 'aoc' (OCS), 'aca' (Action), 'auc' (Universal+), 'mlt' (Molotov)
   isExclusiveOnly: false,      // true pour exclure Prime Video et TNT
+  isExcludeMolotov: false,     // true pour exclure les œuvres uniquement issues de Molotov/TNT (PC)
   isExcludeNoS1: false,        // true pour exclure les séries sans saison 1 disponible
   isAutoStars: true,           // true tant que l'utilisateur n'a pas forcé manuellement un choix
   searchQuery: '',             // Requête de recherche par titre (PC uniquement)
   isSyncing: false,
   catalog: []
 };
+
+// Détecter si une œuvre provient uniquement de Molotov / TNT sans bouquet SVOD payant (OCS, Action, Universal+)
+function isItemPureMolotov(item) {
+  if (!item || !item.package_slugs) return false;
+  const hasSvod = item.package_slugs.some(s => ['aoc', 'aca', 'auc'].includes(s));
+  return !hasSvod;
+}
 
 // Vérifier si une œuvre est disponible sur Prime Video ou la TNT
 function isItemExcludedByPrimeOrTnt(item) {
@@ -339,6 +347,13 @@ document.addEventListener('DOMContentLoaded', async () => {
   initModal();
   initSyncControls();
 
+  // Actualisation réactive lors du redimensionnement de la fenêtre (PC / Mobile)
+  window.addEventListener('resize', () => {
+    initCounts();
+    initBouquetsCounts();
+    renderCatalog();
+  });
+
   // Chargement initial depuis la mémoire locale permanente ou le catalogue officiel
   const cached = JustWatchEngine.getCachedCatalog();
   if (cached && cached.length > 0) {
@@ -464,8 +479,17 @@ function updateFooterDate() {
 
 // Calcul des compteurs totaux pour les types de médias
 function initCounts() {
-  const eligibleFilms = AppState.catalog.filter(item => (item.type === 'film' || item.type === 'telefilm') && item.is_eligible);
-  const eligibleSeries = AppState.catalog.filter(item => item.type === 'serie' && item.is_eligible);
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
+  const eligibleFilms = AppState.catalog.filter(item => {
+    if (!item.is_eligible || (item.type !== 'film' && item.type !== 'telefilm')) return false;
+    if (isMobile && isItemPureMolotov(item)) return false;
+    return true;
+  });
+  const eligibleSeries = AppState.catalog.filter(item => {
+    if (!item.is_eligible || item.type !== 'serie') return false;
+    if (isMobile && isItemPureMolotov(item)) return false;
+    return true;
+  });
 
   const filmsBadge = document.getElementById('filmsCount');
   const seriesBadge = document.getElementById('seriesCount');
@@ -476,6 +500,7 @@ function initCounts() {
 
 // Calcul des compteurs de bouquets & profils
 function initBouquetsCounts() {
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
   const eligibleTypeItems = AppState.catalog.filter(item => {
     if (!item.is_eligible) return false;
     return AppState.activeType === 'film' 
@@ -483,16 +508,25 @@ function initBouquetsCounts() {
       : (item.type === 'serie');
   });
 
-  const countAll = eligibleTypeItems.length;
+  const countAll = eligibleTypeItems.filter(i => {
+    if (isMobile && isItemPureMolotov(i)) return false;
+    if (!isMobile && AppState.isExcludeMolotov && isItemPureMolotov(i)) return false;
+    return true;
+  }).length;
   const countOcs = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('aoc')).length;
   const countAction = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('aca')).length;
   const countUniversal = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('auc')).length;
+  const countMolotov = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('mlt')).length;
   
   // Scope du filtre selon le bouquet actif
   const currentScope = (AppState.activeBouquet && AppState.activeBouquet !== 'all')
     ? eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes(AppState.activeBouquet))
-    : eligibleTypeItems;
+    : eligibleTypeItems.filter(i => {
+        if (isMobile && isItemPureMolotov(i)) return false;
+        return true;
+      });
   const countExclusive = currentScope.filter(i => !isItemExcludedByPrimeOrTnt(i)).length;
+  const countExcludeMolotov = currentScope.filter(i => !isItemPureMolotov(i)).length;
 
   // Compteur séries sans S1
   const countNoS1 = AppState.activeType === 'serie' 
@@ -503,14 +537,18 @@ function initBouquetsCounts() {
   const elOcs = document.getElementById('countPkgOcs');
   const elAction = document.getElementById('countPkgAction');
   const elUniv = document.getElementById('countPkgUniversal');
+  const elMolotov = document.getElementById('countPkgMolotov');
   const elExclusive = document.getElementById('countPkgExclusive');
+  const elExcludeMolotov = document.getElementById('countExcludeMolotov');
   const elExcludeNoS1 = document.getElementById('countExcludeNoS1');
 
   if (elAll) elAll.textContent = countAll;
   if (elOcs) elOcs.textContent = countOcs;
   if (elAction) elAction.textContent = countAction;
   if (elUniv) elUniv.textContent = countUniversal;
+  if (elMolotov) elMolotov.textContent = countMolotov;
   if (elExclusive) elExclusive.textContent = countExclusive;
+  if (elExcludeMolotov) elExcludeMolotov.textContent = countExcludeMolotov;
   if (elExcludeNoS1) elExcludeNoS1.textContent = countNoS1;
 }
 
@@ -538,6 +576,17 @@ function initBouquetsNavigation() {
     });
   }
 
+  const excludeMolotovBtn = document.getElementById('pkgExcludeMolotov');
+  if (excludeMolotovBtn) {
+    excludeMolotovBtn.addEventListener('click', () => {
+      AppState.isExcludeMolotov = !AppState.isExcludeMolotov;
+      excludeMolotovBtn.classList.toggle('active', AppState.isExcludeMolotov);
+      initBouquetsCounts();
+      updateCategoryAutoStar();
+      renderCatalog();
+    });
+  }
+
   const excludeNoS1Btn = document.getElementById('pkgExcludeNoS1');
   if (excludeNoS1Btn) {
     excludeNoS1Btn.addEventListener('click', () => {
@@ -547,7 +596,6 @@ function initBouquetsNavigation() {
       renderCatalog();
     });
   }
-
 }
 
 // Navigation par type et catégories
@@ -900,6 +948,13 @@ function getCategoryEligibleItems() {
       if (item.type !== AppState.activeType) return false;
     }
 
+    // RÈGLE D'EXCLUSIVITÉ PC (Règle 8 AGENTS.md) :
+    // Sur mobile (largeur < 1024px), les œuvres purement Molotov/TNT sont formellement masquées
+    const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
+    if (isMobile && isItemPureMolotov(item)) {
+      return false;
+    }
+
     // Filtre Bouquet
     if (AppState.activeBouquet && AppState.activeBouquet !== 'all') {
       if (!item.package_slugs || !item.package_slugs.includes(AppState.activeBouquet)) {
@@ -910,6 +965,13 @@ function getCategoryEligibleItems() {
     // Filtre d'Exclusion Stricte (Hors Prime Video & Hors TNT)
     if (AppState.isExclusiveOnly) {
       if (isItemExcludedByPrimeOrTnt(item)) {
+        return false;
+      }
+    }
+
+    // Filtre Toggle Hors Molotov (PC uniquement)
+    if (!isMobile && AppState.isExcludeMolotov) {
+      if (isItemPureMolotov(item)) {
         return false;
       }
     }

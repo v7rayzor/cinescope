@@ -89,7 +89,7 @@ async function fetchAllJustWatchPages() {
   console.log('📦 Bouquets cibles :', JustWatchEngine.PACKAGE_SLUGS.join(', '));
 
   const pageSize = 40;
-  const maxPages = 40; // Couvre jusqu'à 1 600 titres
+  const maxPages = 95; // Couvre jusqu'à 3 800 titres (OCS, Action Max, Universal+ et Molotov)
   let currentCursor = null;
   const allFreshQualified = [];
   let totalReceived = 0;

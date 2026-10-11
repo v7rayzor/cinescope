@@ -71,4 +71,10 @@ Une œuvre est éligible (`is_eligible: true`) si et seulement si elle respecte 
 - **Universalité et pérennité obligatoires** : Tout ajustement de calcul, de score ou de catégorisation doit obligatoirement être conçu comme une règle logique, saine, déterministe et générale.
 - **Bénéfice pour l'ensemble du catalogue** : Chaque amélioration doit s'appliquer équitablement à toutes les œuvres existantes et garantir que toutes les futures œuvres ingérées lors des synchronisations JustWatch soient correctement qualifiées sans régression.
 
+---
+
+## 8. Règle d'Exclusivité PC (« Juste pour moi » / « Que pour moi »)
+- Lorsque l'utilisateur formule une demande avec la mention *« juste pour moi »* ou *« que pour moi »*, celle-ci s'applique **STRICTEMENT et EXCLUSIVEMENT à la version PC (Desktop)** du projet (écrans $\ge 1024\text{px}$).
+- Ces fonctionnalités, ajouts de contenus ou filtres ne doivent en aucun cas impacter ou alourdir la version portable / mobile, sur laquelle ils doivent demeurer masqués, exclus ou inactifs.
+
 

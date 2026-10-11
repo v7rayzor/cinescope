@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v27';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v27';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v27';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v27';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v28';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v28';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v28';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v28';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -48,10 +48,15 @@ const JustWatchEngine = (function () {
       name: 'Universal+',
       logo: 'assets/logos/universal_plus.svg',
       badgeClass: 'badge-universal'
+    },
+    mlt: {
+      name: 'Molotov',
+      logo: 'assets/logos/molotov.png',
+      badgeClass: 'badge-molotov'
     }
   };
 
-  const PACKAGE_SLUGS = ['aoc', 'aca', 'auc'];
+  const PACKAGE_SLUGS = ['aoc', 'aca', 'auc', 'mlt'];
 
   // Motifs d'identification des œuvres et séries incluses ou diffusées sur Prime Video
   const KNOWN_PRIME_PATTERNS = [
