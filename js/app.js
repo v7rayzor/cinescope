@@ -523,7 +523,6 @@ function initBouquetsCounts() {
   const countM6 = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('sxp')).length;
   const countFranceTv = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('fra')).length;
   const countArte = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('art')).length;
-  const countNovo = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('nvn')).length;
   
   // Scope du filtre selon le bouquet actif
   const currentScope = (AppState.activeBouquet && AppState.activeBouquet !== 'all')
@@ -549,7 +548,6 @@ function initBouquetsCounts() {
   const elM6 = document.getElementById('countPkgM6');
   const elFranceTv = document.getElementById('countPkgFranceTv');
   const elArte = document.getElementById('countPkgArte');
-  const elNovo = document.getElementById('countPkgNovo');
   const elExclusive = document.getElementById('countPkgExclusive');
   const elExcludeMolotov = document.getElementById('countExcludeMolotov');
   const elExcludeNoS1 = document.getElementById('countExcludeNoS1');
@@ -563,7 +561,6 @@ function initBouquetsCounts() {
   if (elM6) elM6.textContent = countM6;
   if (elFranceTv) elFranceTv.textContent = countFranceTv;
   if (elArte) elArte.textContent = countArte;
-  if (elNovo) elNovo.textContent = countNovo;
   if (elExclusive) elExclusive.textContent = countExclusive;
   if (elExcludeMolotov) elExcludeMolotov.textContent = countExcludeMolotov;
   if (elExcludeNoS1) elExcludeNoS1.textContent = countNoS1;

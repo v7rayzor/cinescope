@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v30';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v30';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v30';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v30';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v31';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v31';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v31';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v31';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -78,12 +78,6 @@ const JustWatchEngine = (function () {
       badgeClass: 'badge-arte',
       isPaid: false
     },
-    nvn: {
-      name: 'Novo 19',
-      logo: 'assets/logos/novo19.svg',
-      badgeClass: 'badge-novo19',
-      isPaid: false
-    },
     mlt: {
       name: 'Molotov Gratuit',
       logo: 'assets/logos/molotov.png',
@@ -92,7 +86,7 @@ const JustWatchEngine = (function () {
     }
   };
 
-  const PACKAGE_SLUGS = ['aoc', 'aca', 'auc', 'mlt', 'tf1', 'sxp', 'fra', 'art', 'nvn'];
+  const PACKAGE_SLUGS = ['aoc', 'aca', 'auc', 'mlt', 'tf1', 'sxp', 'fra', 'art'];
 
   // Motifs d'identification des œuvres et séries incluses ou diffusées sur Prime Video
   const KNOWN_PRIME_PATTERNS = [
@@ -145,8 +139,8 @@ const JustWatchEngine = (function () {
     return KNOWN_PRIME_PATTERNS.some(regex => regex.test(title));
   }
 
-  // Bouquets et chaînes officielles de la TNT française (TF1+, M6+, Arte, France TV, Novo 19)
-  const TNT_PACKAGE_SLUGS = ['tf1', 'myt', 'sxp', '6pt', 'mms', 'art', 'fra', 'nvn'];
+  // Bouquets et chaînes officielles de la TNT française (TF1+, M6+, Arte, France TV)
+  const TNT_PACKAGE_SLUGS = ['tf1', 'myt', 'sxp', '6pt', 'mms', 'art', 'fra'];
 
   function isKnownTntTitle(title) {
     return false;
@@ -770,10 +764,16 @@ const JustWatchEngine = (function () {
       matchedPackages = matchedPaid;
     } else {
       // 2. Œuvre non payante : détection des vraies chaînes TNT & Replay gratuit (Desktop PC)
-      const tntSlugs = ['tf1', 'sxp', 'fra', 'art', 'nvn'];
-      const matchedTnt = tntSlugs.filter(p => resolvedOfferSlugs.includes(p));
+      // Règle de fiabilité TF1 : TF1 n'est retenu que s'il est confirmé par la diffusion Molotov (mlt)
+      // pour éradiquer les locations VOD payantes (RENT/BUY) et les exclusivités web introuvables.
+      const validTntSlugs = ['sxp', 'fra', 'art'];
+      if (resolvedOfferSlugs.includes('tf1') && resolvedOfferSlugs.includes('mlt')) {
+        validTntSlugs.unshift('tf1');
+      }
+      const matchedTnt = validTntSlugs.filter(p => resolvedOfferSlugs.includes(p));
 
       if (matchedTnt.length > 0) {
+        // RÈGLE ANTI-DOUBLON TNT : La chaîne TNT officielle prime, Molotov (mlt) est banni de la jaquette !
         matchedPackages = matchedTnt;
       } else if (resolvedOfferSlugs.includes('mlt')) {
         // Catalogue gratuit propre à Molotov (Mango AVOD & chaînes FAST)
@@ -884,6 +884,12 @@ const JustWatchEngine = (function () {
     const hasPaid = allPkgs.some(p => ['aoc', 'aca', 'auc'].includes(p));
     if (hasPaid) {
       allPkgs = allPkgs.filter(p => ['aoc', 'aca', 'auc'].includes(p));
+    } else {
+      // Sanctuarisation TNT : si l'œuvre possède un bouquet TNT, le tag mlt est banni des logos
+      const hasTnt = allPkgs.some(p => ['tf1', 'sxp', 'fra', 'art'].includes(p));
+      if (hasTnt) {
+        allPkgs = allPkgs.filter(p => p !== 'mlt');
+      }
     }
 
     const allChaines = allPkgs.map(k => PACKAGES_CONFIG[k].name);

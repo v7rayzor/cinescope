@@ -1097,7 +1097,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Laure a 23 ans. Elle se cherche. C’est dans la Marine Nationale qu’elle va trouver un cadre, une structure, des repères. Solide et persévérante, elle va faire son apprentissage et découvrir sa voie.",
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2018,
     "date_ajout": "2018-06-06"
   },
@@ -9383,7 +9383,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Helen tente de faire face à la mort récente de son mari, un scientifique qui s'est suicidé alors qu'il était sur le point de réussir l'invention d'une machine à voyager dans le temps. Un jour, elle reçoit un appel téléphonique et une voix ressemblant étrangement à la sienne l'avertit qu'elle est en danger. Est-il possible qu'Helen ait voyagé dans le temps ? Et qu'est-ce qui a pu la pousser à faire une telle chose ?",
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2017,
     "date_ajout": "2017-06-30"
   },
@@ -10873,7 +10873,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Carson Phillips, ancien quarterback devenu détective privé à Los Angeles, se rend à Galveston au Texas sur la demande d’une cliente sans nouvelles de sa tante. Il accepte à contrecoeur car aller à Galveston c’est pour lui un pèlerinage douloureux. C’est là qu’il y a vingt ans, il a abandonné la femme qu’il aimait ainsi que sa carrière de footballeur. Carson va alors percer un à un tous les secrets cette ville sur fond de corruption, de trafic de drogue et de matchs truqués.",
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2019,
     "date_ajout": "2019-12-04"
   },
@@ -11862,7 +11862,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Le Ministère du Temps est une institution secrète qui s’assure que l'histoire de l'Espagne ne change pas, tout en protégeant le présent. Leurs patrouilles voyagent à travers le temps pour empêcher tout intrus du passé d’utiliser à leur avantage l’histoire. Sur leur chemin, ils croiseront des célébrités comme Dali, Bunuel ou Picasso, mais nos protagonistes voudront aussi voyager dans le temps pour découvrir ce qui est arrivé à leurs proches, même si cela signifie un petit arrangement avec les règles du Ministère.",
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_fin": 2020,
     "annee_moyenne": 2018,
     "saisons_disponibles": [
@@ -12467,7 +12467,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Flynn Carson est le bibliothécaire depuis maintenant dix ans. Il doit résoudre des mystères impossibles, retrouver des artefacts très puissants et affronter des forces surnaturelles dont celle de la confrérie du serpent, son principal ennemi. Pour l'aider, la Bibliothèque lui a choisi un gardien, le colonel Eve Baird, militaire à l'OTAN. L'équipe se voit très vite complétée par trois \"bibliothécaires en herbe\" : Jacob Stone, un génie en histoire et architecture, au QI de 190, Cassandra Cillian, une mathématicienne dotée d'une mémoire photographique qui est atteinte d'une tumeur au cerveau et Ezekiel Jones, un voleur et spécialiste en technologie avancée.",
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_fin": 2017,
     "annee_moyenne": 2016,
     "saisons_disponibles": [
@@ -13056,7 +13056,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Après 10 ans d'absence  et un drame personnel, Elliot  Stabler réintègre la police de New York  dans une nouvelle unité chargée de démanteler de l'intérieur les groupes mafieux de la Grosse Pomme.",
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2023,
     "saisons_disponibles": [
       {
@@ -16186,7 +16186,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2024,
     "date_ajout": "2024-09-15"
   },
@@ -17078,7 +17078,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2024,
     "date_ajout": "2025-09-01"
   },
@@ -18201,7 +18201,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2013,
     "saisons_disponibles": [
       {
@@ -18430,7 +18430,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2017,
     "date_ajout": "2018-03-14"
   },
@@ -20109,7 +20109,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2022,
     "date_ajout": "2023-04-24"
   },
@@ -20536,7 +20536,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2025,
     "date_ajout": "2025-02-26"
   },
@@ -23019,7 +23019,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2019,
     "date_ajout": "2020-07-22"
   },
@@ -42760,18 +42760,15 @@ const CATALOG_DATA = [
     "id": "jw-ts76876",
     "titre": "9-1-1",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2018,
@@ -42822,18 +42819,15 @@ const CATALOG_DATA = [
     "id": "jw-ts81342",
     "titre": "The Rookie : Le flic de Los Angeles",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2018,
@@ -42842,36 +42836,6 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2018,
-        "note": 8
-      },
-      {
-        "saison": 2,
-        "annee": 2019,
-        "note": 8
-      },
-      {
-        "saison": 3,
-        "annee": 2021,
-        "note": 8
-      },
-      {
-        "saison": 4,
-        "annee": 2021,
-        "note": 8
-      },
-      {
-        "saison": 5,
-        "annee": 2022,
-        "note": 8
-      },
-      {
-        "saison": 6,
-        "annee": 2024,
-        "note": 8
-      },
-      {
-        "saison": 7,
-        "annee": 2025,
         "note": 8
       },
       {
@@ -42915,18 +42879,15 @@ const CATALOG_DATA = [
     "id": "jw-ts279807",
     "titre": "Tracker",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2024,
@@ -43030,18 +42991,15 @@ const CATALOG_DATA = [
     "id": "jw-ts21218",
     "titre": "Mentalist",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2011,
@@ -43148,18 +43106,15 @@ const CATALOG_DATA = [
     "id": "jw-ts287233",
     "titre": "Hacks",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2024,
@@ -43214,18 +43169,15 @@ const CATALOG_DATA = [
     "id": "jw-ts22337",
     "titre": "NCIS : Enquêtes Spéciales",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2014,
@@ -43325,18 +43277,15 @@ const CATALOG_DATA = [
     "id": "jw-ts455573",
     "titre": "Dear You",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2025,
@@ -43598,48 +43547,20 @@ const CATALOG_DATA = [
     "id": "jw-ts41943",
     "titre": "This is Us",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
-    "annee": 2016,
-    "annee_moyenne": 2019,
+    "annee": 2022,
+    "annee_moyenne": 2022,
     "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2016,
-        "note": 8.7
-      },
-      {
-        "saison": 2,
-        "annee": 2017,
-        "note": 8.7
-      },
-      {
-        "saison": 3,
-        "annee": 2018,
-        "note": 8.7
-      },
-      {
-        "saison": 4,
-        "annee": 2019,
-        "note": 8.7
-      },
-      {
-        "saison": 5,
-        "annee": 2020,
-        "note": 8.7
-      },
       {
         "saison": 6,
         "annee": 2022,
@@ -43649,8 +43570,8 @@ const CATALOG_DATA = [
     "duree": "43 min/ép.",
     "runtime_minutes": 43,
     "note_avis": 8.7,
-    "note_recence": 7.9,
-    "note_globale": 8.3,
+    "note_recence": 8.8,
+    "note_globale": 8.8,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -43673,25 +43594,21 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2022
+    "on_tnt": true
   },
   {
     "id": "jw-ts21749",
     "titre": "Les Frères Scott",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2008,
@@ -43744,18 +43661,15 @@ const CATALOG_DATA = [
     "id": "jw-tm239091",
     "titre": "Blade Runner 2049",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2017,
@@ -43839,22 +43753,19 @@ const CATALOG_DATA = [
     "id": "jw-ts21848",
     "titre": "Lost : Les Disparus",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2004,
-    "annee_fin": 2010,
+    "annee_fin": 2009,
     "annee_moyenne": 2007,
     "saisons_disponibles": [
       {
@@ -43873,18 +43784,8 @@ const CATALOG_DATA = [
         "note": 8.3
       },
       {
-        "saison": 4,
-        "annee": 2008,
-        "note": 8.3
-      },
-      {
         "saison": 5,
         "annee": 2009,
-        "note": 8.3
-      },
-      {
-        "saison": 6,
-        "annee": 2010,
         "note": 8.3
       }
     ],
@@ -44072,32 +43973,24 @@ const CATALOG_DATA = [
     "id": "jw-ts20518",
     "titre": "Teen Wolf",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2011,
-    "annee_fin": 2016,
-    "annee_moyenne": 2014,
+    "annee_fin": 2015,
+    "annee_moyenne": 2013,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2011,
-        "note": 7.7
-      },
-      {
-        "saison": 2,
-        "annee": 2012,
         "note": 7.7
       },
       {
@@ -44114,19 +44007,14 @@ const CATALOG_DATA = [
         "saison": 5,
         "annee": 2015,
         "note": 7.7
-      },
-      {
-        "saison": 6,
-        "annee": 2016,
-        "note": 7.7
       }
     ],
     "duree": "42 min/ép.",
     "runtime_minutes": 42,
     "note_avis": 7.7,
-    "note_recence": 6.4,
-    "note_globale": 7.1,
-    "etoiles": 4,
+    "note_recence": 6.1,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "scifi_fantastique"
     ],
@@ -44158,18 +44046,15 @@ const CATALOG_DATA = [
     "id": "jw-ts81987",
     "titre": "Une vie rêvée",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2018,
@@ -44326,18 +44211,15 @@ const CATALOG_DATA = [
     "id": "jw-tm140877",
     "titre": "Imitation Game",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2014,
@@ -44511,34 +44393,21 @@ const CATALOG_DATA = [
     "id": "jw-ts3979",
     "titre": "Elementary",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
-    "annee": 2012,
-    "annee_fin": 2019,
-    "annee_moyenne": 2016,
+    "annee": 2014,
+    "annee_fin": 2015,
+    "annee_moyenne": 2015,
     "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2012,
-        "note": 7.9
-      },
-      {
-        "saison": 2,
-        "annee": 2013,
-        "note": 7.9
-      },
       {
         "saison": 3,
         "annee": 2014,
@@ -44548,28 +44417,13 @@ const CATALOG_DATA = [
         "saison": 4,
         "annee": 2015,
         "note": 7.9
-      },
-      {
-        "saison": 5,
-        "annee": 2016,
-        "note": 7.9
-      },
-      {
-        "saison": 6,
-        "annee": 2018,
-        "note": 7.9
-      },
-      {
-        "saison": 7,
-        "annee": 2019,
-        "note": 7.9
       }
     ],
     "duree": "42 min/ép.",
     "runtime_minutes": 42,
     "note_avis": 7.9,
-    "note_recence": 7,
-    "note_globale": 7.5,
+    "note_recence": 6.7,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -44599,18 +44453,15 @@ const CATALOG_DATA = [
     "id": "jw-ts12059",
     "titre": "Les Américains",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2013,
@@ -44630,16 +44481,6 @@ const CATALOG_DATA = [
       {
         "saison": 3,
         "annee": 2015,
-        "note": 8.4
-      },
-      {
-        "saison": 4,
-        "annee": 2016,
-        "note": 8.4
-      },
-      {
-        "saison": 5,
-        "annee": 2017,
         "note": 8.4
       },
       {
@@ -44681,18 +44522,15 @@ const CATALOG_DATA = [
     "id": "jw-tm145878",
     "titre": "Qu'est-ce qu'on a fait au Bon Dieu ?",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2014,
@@ -44729,18 +44567,15 @@ const CATALOG_DATA = [
     "id": "jw-tm245506",
     "titre": "La Folle Histoire de Max et Léon",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2016,
@@ -44880,39 +44715,21 @@ const CATALOG_DATA = [
     "id": "jw-ts21499",
     "titre": "Justified",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
-    "annee": 2010,
+    "annee": 2013,
     "annee_fin": 2015,
-    "annee_moyenne": 2013,
+    "annee_moyenne": 2014,
     "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2010,
-        "note": 8.6
-      },
-      {
-        "saison": 2,
-        "annee": 2011,
-        "note": 8.6
-      },
-      {
-        "saison": 3,
-        "annee": 2012,
-        "note": 8.6
-      },
       {
         "saison": 4,
         "annee": 2013,
@@ -44932,8 +44749,8 @@ const CATALOG_DATA = [
     "duree": "43 min/ép.",
     "runtime_minutes": 43,
     "note_avis": 8.6,
-    "note_recence": 6.1,
-    "note_globale": 7.4,
+    "note_recence": 6.4,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -44964,18 +44781,15 @@ const CATALOG_DATA = [
     "id": "jw-ts504930",
     "titre": "Les Évaporés",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2026,
@@ -45019,65 +44833,32 @@ const CATALOG_DATA = [
     "id": "jw-ts20630",
     "titre": "Once Upon a Time: Il était une fois",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
-    "annee": 2011,
-    "annee_moyenne": 2014,
+    "annee": 2012,
+    "annee_moyenne": 2012,
     "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2011,
-        "note": 7.6
-      },
       {
         "saison": 2,
         "annee": 2012,
-        "note": 7.6
-      },
-      {
-        "saison": 3,
-        "annee": 2013,
-        "note": 7.6
-      },
-      {
-        "saison": 4,
-        "annee": 2014,
-        "note": 7.6
-      },
-      {
-        "saison": 5,
-        "annee": 2015,
-        "note": 7.6
-      },
-      {
-        "saison": 6,
-        "annee": 2016,
-        "note": 7.6
-      },
-      {
-        "saison": 7,
-        "annee": 2017,
         "note": 7.6
       }
     ],
     "duree": "44 min/ép.",
     "runtime_minutes": 44,
     "note_avis": 7.6,
-    "note_recence": 6.4,
-    "note_globale": 7,
-    "etoiles": 4,
+    "note_recence": 5.8,
+    "note_globale": 6.7,
+    "etoiles": 3,
     "categories": [
       "horreur_epouvante"
     ],
@@ -45100,8 +44881,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true,
-    "annee_fin": 2017
+    "on_tnt": true
   },
   {
     "id": "jw-tm935075",
@@ -45199,20 +44979,17 @@ const CATALOG_DATA = [
     "id": "jw-ts78319",
     "titre": "Cassandre",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp",
       "fra"
     ],
@@ -45295,18 +45072,15 @@ const CATALOG_DATA = [
     "id": "jw-tm962605",
     "titre": "Barbaque",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2021,
@@ -45337,7 +45111,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm175820",
@@ -45388,53 +45162,20 @@ const CATALOG_DATA = [
     "id": "jw-ts21230",
     "titre": "The Good Wife",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
-    "annee": 2009,
-    "annee_moyenne": 2012,
+    "annee": 2015,
+    "annee_moyenne": 2015,
     "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2009,
-        "note": 8.3
-      },
-      {
-        "saison": 2,
-        "annee": 2010,
-        "note": 8.3
-      },
-      {
-        "saison": 3,
-        "annee": 2011,
-        "note": 8.3
-      },
-      {
-        "saison": 4,
-        "annee": 2012,
-        "note": 8.3
-      },
-      {
-        "saison": 5,
-        "annee": 2013,
-        "note": 8.3
-      },
-      {
-        "saison": 6,
-        "annee": 2014,
-        "note": 8.3
-      },
       {
         "saison": 7,
         "annee": 2015,
@@ -45444,8 +45185,8 @@ const CATALOG_DATA = [
     "duree": "44 min/ép.",
     "runtime_minutes": 44,
     "note_avis": 8.3,
-    "note_recence": 5.8,
-    "note_globale": 7.1,
+    "note_recence": 6.7,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -45467,25 +45208,21 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true,
-    "annee_fin": 2015
+    "on_tnt": true
   },
   {
     "id": "jw-ts8112",
     "titre": "Drop Dead Diva",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2009,
@@ -45611,20 +45348,17 @@ const CATALOG_DATA = [
     "id": "jw-tm29815",
     "titre": "Taken",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1",
       "sxp"
     ],
@@ -45663,18 +45397,15 @@ const CATALOG_DATA = [
     "id": "jw-ts7688",
     "titre": "24 heures chrono",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2001,
@@ -45694,21 +45425,6 @@ const CATALOG_DATA = [
       {
         "saison": 3,
         "annee": 2003,
-        "note": 8.4
-      },
-      {
-        "saison": 4,
-        "annee": 2005,
-        "note": 8.4
-      },
-      {
-        "saison": 5,
-        "annee": 2006,
-        "note": 8.4
-      },
-      {
-        "saison": 6,
-        "annee": 2007,
         "note": 8.4
       },
       {
@@ -45761,18 +45477,15 @@ const CATALOG_DATA = [
     "id": "jw-tm936460",
     "titre": "Super-héros malgré lui",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2022,
@@ -45900,18 +45613,15 @@ const CATALOG_DATA = [
     "id": "jw-ts271787",
     "titre": "The Great",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2020,
@@ -46014,18 +45724,15 @@ const CATALOG_DATA = [
     "id": "jw-ts463381",
     "titre": "Intraçables",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2025,
@@ -46072,18 +45779,15 @@ const CATALOG_DATA = [
     "id": "jw-tm39805",
     "titre": "La Vague",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2008,
@@ -46121,18 +45825,15 @@ const CATALOG_DATA = [
     "id": "jw-tm157843",
     "titre": "Fury",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2014,
@@ -46427,44 +46128,31 @@ const CATALOG_DATA = [
     "id": "jw-ts6001",
     "titre": "The Fall",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2013,
-    "annee_moyenne": 2015,
+    "annee_moyenne": 2013,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2013,
-        "note": 8.1
-      },
-      {
-        "saison": 2,
-        "annee": 2014,
-        "note": 8.1
-      },
-      {
-        "saison": 3,
-        "annee": 2016,
         "note": 8.1
       }
     ],
     "duree": "61 min/ép.",
     "runtime_minutes": 61,
     "note_avis": 8.1,
-    "note_recence": 6.7,
-    "note_globale": 7.4,
+    "note_recence": 6.1,
+    "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -46487,25 +46175,21 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true,
-    "annee_fin": 2016
+    "on_tnt": true
   },
   {
     "id": "jw-tm289901",
     "titre": "Taxi 5",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2018,
@@ -46544,18 +46228,15 @@ const CATALOG_DATA = [
     "id": "jw-tm429484",
     "titre": "Nous finirons ensemble",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2019,
@@ -46589,7 +46270,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm1046410",
@@ -46734,18 +46415,15 @@ const CATALOG_DATA = [
     "id": "jw-ts21245",
     "titre": "Unforgettable",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2011,
@@ -46806,18 +46484,15 @@ const CATALOG_DATA = [
     "id": "jw-tm170517",
     "titre": "Fast & Furious 5",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2011,
@@ -46855,18 +46530,15 @@ const CATALOG_DATA = [
     "id": "jw-tm34590",
     "titre": "La Vie des autres",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2006,
@@ -46994,18 +46666,15 @@ const CATALOG_DATA = [
     "id": "jw-ts41580",
     "titre": "MacGyver",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2016,
@@ -47189,20 +46858,17 @@ const CATALOG_DATA = [
     "id": "jw-ts57316",
     "titre": "Capitaine Marleau",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp",
       "fra"
     ],
@@ -47267,20 +46933,17 @@ const CATALOG_DATA = [
     "id": "jw-ts22069",
     "titre": "Naruto: Shippuden",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1",
       "sxp"
     ],
@@ -47425,18 +47088,15 @@ const CATALOG_DATA = [
     "id": "jw-tm1189388",
     "titre": "King of Killers",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2023,
@@ -47703,18 +47363,15 @@ const CATALOG_DATA = [
     "id": "jw-ts481150",
     "titre": "La Mère et l'Assassin",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2026,
@@ -47760,18 +47417,15 @@ const CATALOG_DATA = [
     "id": "jw-tm222490",
     "titre": "119 jours : Les survivants de l'océan",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2016,
@@ -47854,18 +47508,15 @@ const CATALOG_DATA = [
     "id": "jw-tm923836",
     "titre": "Marionnette",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2020,
@@ -47901,18 +47552,15 @@ const CATALOG_DATA = [
     "id": "jw-ts55901",
     "titre": "The Looming Tower",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2018,
@@ -48048,18 +47696,15 @@ const CATALOG_DATA = [
     "id": "jw-tm34380",
     "titre": "Le Prénom",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2012,
@@ -48091,24 +47736,21 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm326770",
     "titre": "Lizzie",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2018,
@@ -48193,18 +47835,15 @@ const CATALOG_DATA = [
     "id": "jw-tm1346171",
     "titre": "Marie-Line et son juge",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2023,
@@ -48333,18 +47972,15 @@ const CATALOG_DATA = [
     "id": "jw-ts42051",
     "titre": "Taboo",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2017,
@@ -48435,18 +48071,15 @@ const CATALOG_DATA = [
     "id": "jw-tm311865",
     "titre": "Mission Pays Basque",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2017,
@@ -48531,18 +48164,15 @@ const CATALOG_DATA = [
     "id": "jw-ts467641",
     "titre": "Les aventurières",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2025,
@@ -48631,18 +48261,15 @@ const CATALOG_DATA = [
     "id": "jw-ts282215",
     "titre": "Most Wanted Criminals",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2021,
@@ -48702,20 +48329,17 @@ const CATALOG_DATA = [
     "id": "jw-ts21447",
     "titre": " Luther",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1",
       "sxp"
     ],
@@ -48726,11 +48350,6 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2010,
-        "note": 8.4
-      },
-      {
-        "saison": 2,
-        "annee": 2011,
         "note": 8.4
       },
       {
@@ -48783,18 +48402,15 @@ const CATALOG_DATA = [
     "id": "jw-tm453270",
     "titre": "Chamboultout",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2019,
@@ -48834,18 +48450,15 @@ const CATALOG_DATA = [
     "id": "jw-ts190",
     "titre": "Les Enquêtes de Morse",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2021,
@@ -48893,18 +48506,15 @@ const CATALOG_DATA = [
     "id": "jw-tm182527",
     "titre": "Nuit blanche",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2011,
@@ -48944,18 +48554,15 @@ const CATALOG_DATA = [
     "id": "jw-tm205121",
     "titre": "Manipulation : La Voisine d'à côté",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2015,
@@ -49131,54 +48738,31 @@ const CATALOG_DATA = [
     "id": "jw-ts21367",
     "titre": "Jane the Virgin",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
-    "annee": 2014,
-    "annee_moyenne": 2017,
+    "annee": 2016,
+    "annee_moyenne": 2016,
     "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2014,
-        "note": 7.9
-      },
-      {
-        "saison": 2,
-        "annee": 2015,
-        "note": 7.9
-      },
       {
         "saison": 3,
         "annee": 2016,
-        "note": 7.9
-      },
-      {
-        "saison": 4,
-        "annee": 2017,
-        "note": 7.9
-      },
-      {
-        "saison": 5,
-        "annee": 2019,
         "note": 7.9
       }
     ],
     "duree": "42 min/ép.",
     "runtime_minutes": 42,
     "note_avis": 7.9,
-    "note_recence": 7.3,
-    "note_globale": 7.6,
+    "note_recence": 7,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -49200,8 +48784,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true,
-    "annee_fin": 2019
+    "on_tnt": true
   },
   {
     "id": "jw-tm211204",
@@ -49444,18 +49027,15 @@ const CATALOG_DATA = [
     "id": "jw-tm1444674",
     "titre": "Five Nights at Freddy's 2",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2025,
@@ -49487,7 +49067,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm207103",
@@ -49540,22 +49120,16 @@ const CATALOG_DATA = [
     "id": "jw-tm136924",
     "titre": "Terminator Genisys",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
-      "TF1+",
-      "Novo 19"
+      "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/tf1.png",
-      "assets/logos/novo19.svg"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
-      "tf1",
-      "nvn"
+      "tf1"
     ],
     "annee": 2015,
     "annee_moyenne": 2015,
@@ -49881,18 +49455,15 @@ const CATALOG_DATA = [
     "id": "jw-tm371397",
     "titre": "Summer Love",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2018,
@@ -50114,20 +49685,17 @@ const CATALOG_DATA = [
     "id": "jw-ts33685",
     "titre": "Le Code du tueur",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1",
       "art"
     ],
@@ -50636,18 +50204,15 @@ const CATALOG_DATA = [
     "id": "jw-ts75191",
     "titre": "Full Moon",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2017,
@@ -50740,18 +50305,15 @@ const CATALOG_DATA = [
     "id": "jw-tm53344",
     "titre": "Mesrine : L'Ennemi public n°1",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2008,
@@ -50834,40 +50396,32 @@ const CATALOG_DATA = [
     "id": "jw-ts113497",
     "titre": "Blanca",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2021,
-    "annee_moyenne": 2023,
+    "annee_moyenne": 2021,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2021,
-        "note": 7.3
-      },
-      {
-        "saison": 3,
-        "annee": 2025,
         "note": 7.3
       }
     ],
     "duree": "83 min/ép.",
     "runtime_minutes": 83,
     "note_avis": 7.3,
-    "note_recence": 9.1,
-    "note_globale": 8.2,
-    "etoiles": 5,
+    "note_recence": 8.5,
+    "note_globale": 7.9,
+    "etoiles": 4,
     "categories": [
       "thriller_policier"
     ],
@@ -50891,25 +50445,21 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2025
+    "on_tnt": true
   },
   {
     "id": "jw-tm309033",
     "titre": "Chaudes nuits d'été",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2018,
@@ -50993,18 +50543,15 @@ const CATALOG_DATA = [
     "id": "jw-ts24486",
     "titre": "Scènes de ménages",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2009,
@@ -51014,21 +50561,6 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2009,
-        "note": 6.3
-      },
-      {
-        "saison": 2,
-        "annee": 2010,
-        "note": 6.3
-      },
-      {
-        "saison": 3,
-        "annee": 2011,
-        "note": 6.3
-      },
-      {
-        "saison": 16,
-        "annee": 2024,
         "note": 6.3
       },
       {
@@ -51075,22 +50607,19 @@ const CATALOG_DATA = [
     "id": "jw-ts29568",
     "titre": "Maîtres et Valets",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+",
       "M6+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png",
       "assets/logos/m6_plus.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1",
       "sxp",
       "art"
@@ -51144,18 +50673,15 @@ const CATALOG_DATA = [
     "id": "jw-ts306910",
     "titre": "Les invisibles",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2021,
@@ -51217,18 +50743,15 @@ const CATALOG_DATA = [
     "id": "jw-tm1440962",
     "titre": "Bis Repetita",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2024,
@@ -51323,18 +50846,15 @@ const CATALOG_DATA = [
     "id": "jw-ts375565",
     "titre": "Red Eye",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2024,
@@ -51379,33 +50899,20 @@ const CATALOG_DATA = [
     "id": "jw-ts36545",
     "titre": "Quantico",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
-    "annee": 2015,
-    "annee_moyenne": 2017,
+    "annee": 2018,
+    "annee_moyenne": 2018,
     "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2015,
-        "note": 6.7
-      },
-      {
-        "saison": 2,
-        "annee": 2016,
-        "note": 6.7
-      },
       {
         "saison": 3,
         "annee": 2018,
@@ -51415,8 +50922,8 @@ const CATALOG_DATA = [
     "duree": "43 min/ép.",
     "runtime_minutes": 43,
     "note_avis": 6.7,
-    "note_recence": 7.3,
-    "note_globale": 7,
+    "note_recence": 7.6,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -51439,35 +50946,26 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2018
+    "on_tnt": true
   },
   {
     "id": "jw-ts37522",
     "titre": "Dr Foster",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
-    "annee": 2015,
-    "annee_moyenne": 2016,
+    "annee": 2017,
+    "annee_moyenne": 2017,
     "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2015,
-        "note": 7.6
-      },
       {
         "saison": 2,
         "annee": 2017,
@@ -51477,8 +50975,8 @@ const CATALOG_DATA = [
     "duree": "56 min/ép.",
     "runtime_minutes": 56,
     "note_avis": 7.6,
-    "note_recence": 7,
-    "note_globale": 7.3,
+    "note_recence": 7.3,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -51501,8 +50999,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true,
-    "annee_fin": 2017
+    "on_tnt": true
   },
   {
     "id": "jw-tm350379",
@@ -51557,17 +51054,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Novo 19"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/novo19.svg"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "nvn"
+      "mlt"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -51600,28 +51094,25 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-ts34845",
     "titre": "The Paradise",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+",
       "M6+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png",
       "assets/logos/m6_plus.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1",
       "sxp",
       "art"
@@ -51676,18 +51167,15 @@ const CATALOG_DATA = [
     "id": "jw-ts472930",
     "titre": "L'affaire Laura Stern",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2026,
@@ -51730,20 +51218,17 @@ const CATALOG_DATA = [
     "id": "jw-tm91803",
     "titre": "Les Petits Mouchoirs",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1",
       "sxp"
     ],
@@ -51782,23 +51267,20 @@ const CATALOG_DATA = [
     "id": "jw-ts57285",
     "titre": "La Petite Histoire de France",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2015,
-    "annee_fin": 2025,
-    "annee_moyenne": 2020,
+    "annee_fin": 2021,
+    "annee_moyenne": 2018,
     "saisons_disponibles": [
       {
         "saison": 1,
@@ -51806,36 +51288,16 @@ const CATALOG_DATA = [
         "note": 7.3
       },
       {
-        "saison": 2,
-        "annee": 2016,
-        "note": 7.3
-      },
-      {
-        "saison": 3,
-        "annee": 2018,
-        "note": 7.3
-      },
-      {
         "saison": 4,
         "annee": 2021,
-        "note": 7.3
-      },
-      {
-        "saison": 5,
-        "annee": 2023,
-        "note": 7.3
-      },
-      {
-        "saison": 6,
-        "annee": 2025,
         "note": 7.3
       }
     ],
     "duree": "4 min/ép.",
     "runtime_minutes": 4,
     "note_avis": 7.3,
-    "note_recence": 8.2,
-    "note_globale": 7.8,
+    "note_recence": 7.6,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -51864,20 +51326,17 @@ const CATALOG_DATA = [
     "id": "jw-tm235387",
     "titre": "Rester vertical",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1",
       "art"
     ],
@@ -51963,18 +51422,15 @@ const CATALOG_DATA = [
     "id": "jw-ts226258",
     "titre": "The Winter King",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2023,
@@ -52066,20 +51522,17 @@ const CATALOG_DATA = [
     "id": "jw-tm152281",
     "titre": "Phoenix",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1",
       "art"
     ],
@@ -52122,18 +51575,15 @@ const CATALOG_DATA = [
     "id": "jw-tm1379242",
     "titre": "Le Successeur",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2024,
@@ -52219,18 +51669,15 @@ const CATALOG_DATA = [
     "id": "jw-tm1354910",
     "titre": "La jeune fille dans le grenier",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2023,
@@ -52265,28 +51712,20 @@ const CATALOG_DATA = [
     "id": "jw-ts75238",
     "titre": "Liar : La nuit du mensonge",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
-    "annee": 2017,
-    "annee_moyenne": 2019,
+    "annee": 2020,
+    "annee_moyenne": 2020,
     "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2017,
-        "note": 7.1
-      },
       {
         "saison": 2,
         "annee": 2020,
@@ -52296,8 +51735,8 @@ const CATALOG_DATA = [
     "duree": "45 min/ép.",
     "runtime_minutes": 45,
     "note_avis": 7.1,
-    "note_recence": 7.9,
-    "note_globale": 7.5,
+    "note_recence": 8.2,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -52321,25 +51760,21 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true,
-    "annee_fin": 2020
+    "on_tnt": true
   },
   {
     "id": "jw-tm434801",
     "titre": "Downton Abbey",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2019,
@@ -52371,24 +51806,21 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm218226",
     "titre": "Babysitting 2",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2015,
@@ -52419,24 +51851,21 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts37786",
     "titre": "Guerre & Paix",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2016,
@@ -52483,18 +51912,15 @@ const CATALOG_DATA = [
     "id": "jw-tm34422",
     "titre": "Mesrine : L'Instinct de mort",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2008,
@@ -52576,20 +52002,17 @@ const CATALOG_DATA = [
     "id": "jw-tm1098905",
     "titre": "Le Mystère du carré noir",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1",
       "art"
     ],
@@ -52719,20 +52142,17 @@ const CATALOG_DATA = [
     "id": "jw-tm317019",
     "titre": "L'Amant double",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1",
       "art"
     ],
@@ -52822,18 +52242,15 @@ const CATALOG_DATA = [
     "id": "jw-ts440073",
     "titre": "Des vivants",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2025,
@@ -52972,18 +52389,15 @@ const CATALOG_DATA = [
     "id": "jw-ts453544",
     "titre": "Enchaînés",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2026,
@@ -53117,18 +52531,15 @@ const CATALOG_DATA = [
     "id": "jw-ts463026",
     "titre": "The Best Immigrant",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2025,
@@ -53173,18 +52584,15 @@ const CATALOG_DATA = [
     "id": "jw-tm1238886",
     "titre": "Teen Wolf : Le film",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2023,
@@ -53227,18 +52635,15 @@ const CATALOG_DATA = [
     "id": "jw-tm177568",
     "titre": "Fast & Furious 6",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2013,
@@ -53276,20 +52681,17 @@ const CATALOG_DATA = [
     "id": "jw-ts41934",
     "titre": "Victoria",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp",
       "fra"
     ],
@@ -53348,18 +52750,15 @@ const CATALOG_DATA = [
     "id": "jw-tm850854",
     "titre": "Divorce Club",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2020,
@@ -53443,18 +52842,15 @@ const CATALOG_DATA = [
     "id": "jw-ts88216",
     "titre": "Creepshow",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2023,
@@ -53500,18 +52896,15 @@ const CATALOG_DATA = [
     "id": "jw-ts418809",
     "titre": "Enquêtes au paradis",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2025,
@@ -53748,17 +53141,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Molotov Gratuit",
     "chaines": [
-      "Molotov Gratuit",
-      "Novo 19"
+      "Molotov Gratuit"
     ],
     "logo_chaine": "assets/logos/molotov.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/novo19.svg"
+      "assets/logos/molotov.png"
     ],
     "package_slugs": [
-      "mlt",
-      "nvn"
+      "mlt"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -53788,24 +53178,21 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-ts302748",
     "titre": "Annika",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2021,
@@ -53988,18 +53375,15 @@ const CATALOG_DATA = [
     "id": "jw-ts447911",
     "titre": "Tom et Lola",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2025,
@@ -54089,20 +53473,17 @@ const CATALOG_DATA = [
     "id": "jw-ts99162",
     "titre": "La maison de la rue en pente",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1",
       "art"
     ],
@@ -54427,20 +53808,17 @@ const CATALOG_DATA = [
     "id": "jw-ts77461",
     "titre": "Crimes parfaits",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp",
       "fra"
     ],
@@ -54544,18 +53922,15 @@ const CATALOG_DATA = [
     "id": "jw-ts87106",
     "titre": "Coroner",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2019,
@@ -54565,11 +53940,6 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2019,
-        "note": 6.9
-      },
-      {
-        "saison": 2,
-        "annee": 2020,
         "note": 6.9
       },
       {
@@ -54616,18 +53986,15 @@ const CATALOG_DATA = [
     "id": "jw-tm1199262",
     "titre": "Sniper : Le Corbeau Blanc",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2022,
@@ -55130,18 +54497,15 @@ const CATALOG_DATA = [
     "id": "jw-tm232878",
     "titre": "Manipulations",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2016,
@@ -55179,18 +54543,15 @@ const CATALOG_DATA = [
     "id": "jw-tm232812",
     "titre": "Les ogres",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2016,
@@ -55367,20 +54728,17 @@ const CATALOG_DATA = [
     "id": "jw-tm57798",
     "titre": "Taken 2",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1",
       "sxp"
     ],
@@ -55710,18 +55068,15 @@ const CATALOG_DATA = [
     "id": "jw-tm2871815",
     "titre": "Les murs ont des secrets",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2026,
@@ -55805,18 +55160,15 @@ const CATALOG_DATA = [
     "id": "jw-ts11744",
     "titre": "Atlantis",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2013,
@@ -55917,18 +55269,15 @@ const CATALOG_DATA = [
     "id": "jw-ts242085",
     "titre": "L'Empire du mensonge",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2020,
@@ -55972,22 +55321,16 @@ const CATALOG_DATA = [
     "id": "jw-tm453327",
     "titre": "Amour, romance & chocolat",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
-      "TF1+",
-      "Novo 19"
+      "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/tf1.png",
-      "assets/logos/novo19.svg"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
-      "tf1",
-      "nvn"
+      "tf1"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -56025,18 +55368,15 @@ const CATALOG_DATA = [
     "id": "jw-ts84227",
     "titre": "The Cry",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2018,
@@ -56081,28 +55421,20 @@ const CATALOG_DATA = [
     "id": "jw-ts215918",
     "titre": "Made for Love",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
-    "annee": 2021,
+    "annee": 2022,
     "annee_moyenne": 2022,
     "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2021,
-        "note": 6.9
-      },
       {
         "saison": 2,
         "annee": 2022,
@@ -56138,40 +55470,26 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2022
+    "on_tnt": true
   },
   {
     "id": "jw-ts14179",
     "titre": "Body of Proof",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
-    "annee": 2011,
-    "annee_moyenne": 2012,
+    "annee": 2013,
+    "annee_moyenne": 2013,
     "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2011,
-        "note": 7.1
-      },
-      {
-        "saison": 2,
-        "annee": 2011,
-        "note": 7.1
-      },
       {
         "saison": 3,
         "annee": 2013,
@@ -56181,8 +55499,8 @@ const CATALOG_DATA = [
     "duree": "47 min/ép.",
     "runtime_minutes": 47,
     "note_avis": 7.1,
-    "note_recence": 5.8,
-    "note_globale": 6.5,
+    "note_recence": 6.1,
+    "note_globale": 6.6,
     "etoiles": 3,
     "categories": [
       "thriller_policier"
@@ -56206,8 +55524,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2013
+    "on_tnt": true
   },
   {
     "id": "jw-tm184072",
@@ -56260,18 +55577,15 @@ const CATALOG_DATA = [
     "id": "jw-ts21457",
     "titre": "Médium",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2010,
@@ -56415,18 +55729,15 @@ const CATALOG_DATA = [
     "id": "jw-ts384125",
     "titre": "Mademoiselle Holmes",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2024,
@@ -56849,33 +56160,20 @@ const CATALOG_DATA = [
     "id": "jw-ts57298",
     "titre": "Siren",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
-    "annee": 2018,
-    "annee_moyenne": 2019,
+    "annee": 2020,
+    "annee_moyenne": 2020,
     "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 7
-      },
-      {
-        "saison": 2,
-        "annee": 2019,
-        "note": 7
-      },
       {
         "saison": 3,
         "annee": 2020,
@@ -56885,8 +56183,8 @@ const CATALOG_DATA = [
     "duree": "42 min/ép.",
     "runtime_minutes": 42,
     "note_avis": 7,
-    "note_recence": 7.9,
-    "note_globale": 7.5,
+    "note_recence": 8.2,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "horreur_epouvante"
@@ -56912,8 +56210,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2020
+    "on_tnt": true
   },
   {
     "id": "jw-tm368538",
@@ -57104,20 +56401,17 @@ const CATALOG_DATA = [
     "id": "jw-tm136195",
     "titre": "Taken 3",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1",
       "sxp"
     ],
@@ -57293,28 +56587,20 @@ const CATALOG_DATA = [
     "id": "jw-ts320111",
     "titre": "Beforeigners",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
-    "annee": 2019,
-    "annee_moyenne": 2020,
+    "annee": 2021,
+    "annee_moyenne": 2021,
     "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2019,
-        "note": 7.7
-      },
       {
         "saison": 2,
         "annee": 2021,
@@ -57324,8 +56610,8 @@ const CATALOG_DATA = [
     "duree": "47 min/ép.",
     "runtime_minutes": 47,
     "note_avis": 7.7,
-    "note_recence": 8.2,
-    "note_globale": 8,
+    "note_recence": 8.5,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "thriller_policier"
@@ -57348,25 +56634,21 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2021
+    "on_tnt": true
   },
   {
     "id": "jw-ts85132",
     "titre": "L'amour à mort",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2018,
@@ -57499,18 +56781,15 @@ const CATALOG_DATA = [
     "id": "jw-ts36146",
     "titre": "Minority Report",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2015,
@@ -57650,18 +56929,15 @@ const CATALOG_DATA = [
     "id": "jw-ts20129",
     "titre": "Houdini, l'illusionniste",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2014,
@@ -57797,20 +57073,17 @@ const CATALOG_DATA = [
     "id": "jw-tm1474361",
     "titre": "Septembre sans attendre",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1",
       "art"
     ],
@@ -57850,18 +57123,15 @@ const CATALOG_DATA = [
     "id": "jw-tm1424514",
     "titre": "The Deer",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2025,
@@ -58001,18 +57271,15 @@ const CATALOG_DATA = [
     "id": "jw-tm981840",
     "titre": "Un été à Cold Spring",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2020,
@@ -58144,20 +57411,17 @@ const CATALOG_DATA = [
     "id": "jw-ts292965",
     "titre": "Les papillons noirs",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1",
       "art"
     ],
@@ -58434,18 +57698,15 @@ const CATALOG_DATA = [
     "id": "jw-ts82778",
     "titre": "Les Misérables",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2018,
@@ -58489,18 +57750,15 @@ const CATALOG_DATA = [
     "id": "jw-tm1046522",
     "titre": "La fille aux mains d'or",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2022,
@@ -58581,18 +57839,15 @@ const CATALOG_DATA = [
     "id": "jw-tm853055",
     "titre": "Énorme",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2020,
@@ -58682,20 +57937,17 @@ const CATALOG_DATA = [
     "id": "jw-tm925355",
     "titre": "C'est quoi ce papy ?!",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1",
       "sxp"
     ],
@@ -58734,18 +57986,15 @@ const CATALOG_DATA = [
     "id": "jw-ts84598",
     "titre": "Mocro maffia",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2024,
@@ -58925,18 +58174,15 @@ const CATALOG_DATA = [
     "id": "jw-tm277185",
     "titre": "Liberté sauvage",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2017,
@@ -58974,18 +58220,15 @@ const CATALOG_DATA = [
     "id": "jw-tm1045110",
     "titre": "Harcelés",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2021,
@@ -59110,18 +58353,15 @@ const CATALOG_DATA = [
     "id": "jw-tm412937",
     "titre": "La victoire dans le sang",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2019,
@@ -59161,18 +58401,15 @@ const CATALOG_DATA = [
     "id": "jw-tm1120015",
     "titre": "À l'ombre des regards",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2019,
@@ -59257,18 +58494,15 @@ const CATALOG_DATA = [
     "id": "jw-tm244202",
     "titre": "Le Livre de l'amour",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2017,
@@ -59352,18 +58586,15 @@ const CATALOG_DATA = [
     "id": "jw-ts58609",
     "titre": "Miniaturiste",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2017,
@@ -59408,18 +58639,15 @@ const CATALOG_DATA = [
     "id": "jw-tm234062",
     "titre": "Une histoire d'âme",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2015,
@@ -59456,18 +58684,15 @@ const CATALOG_DATA = [
     "id": "jw-tm239722",
     "titre": "Le Duel",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2016,
@@ -59504,18 +58729,15 @@ const CATALOG_DATA = [
     "id": "jw-ts475799",
     "titre": "L'Or bleu",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2026,
@@ -59693,48 +58915,20 @@ const CATALOG_DATA = [
     "id": "jw-ts41876",
     "titre": "Bull",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
-    "annee": 2016,
-    "annee_moyenne": 2019,
+    "annee": 2021,
+    "annee_moyenne": 2021,
     "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2016,
-        "note": 7.1
-      },
-      {
-        "saison": 2,
-        "annee": 2017,
-        "note": 7.1
-      },
-      {
-        "saison": 3,
-        "annee": 2018,
-        "note": 7.1
-      },
-      {
-        "saison": 4,
-        "annee": 2019,
-        "note": 7.1
-      },
-      {
-        "saison": 5,
-        "annee": 2020,
-        "note": 7.1
-      },
       {
         "saison": 6,
         "annee": 2021,
@@ -59744,8 +58938,8 @@ const CATALOG_DATA = [
     "duree": "43 min/ép.",
     "runtime_minutes": 43,
     "note_avis": 7.1,
-    "note_recence": 7.9,
-    "note_globale": 7.5,
+    "note_recence": 8.5,
+    "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
       "thriller_policier"
@@ -59768,8 +58962,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2021
+    "on_tnt": true
   },
   {
     "id": "jw-tm137861",
@@ -59867,20 +59060,17 @@ const CATALOG_DATA = [
     "id": "jw-ts269389",
     "titre": "César Wagner",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp",
       "fra"
     ],
@@ -60165,18 +59355,15 @@ const CATALOG_DATA = [
     "id": "jw-ts76291",
     "titre": "Retour à Howards End",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2017,
@@ -60270,18 +59457,15 @@ const CATALOG_DATA = [
     "id": "jw-ts82776",
     "titre": "La foire aux vanités",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2018,
@@ -60371,18 +59555,15 @@ const CATALOG_DATA = [
     "id": "jw-tm205253",
     "titre": "Caprice",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2015,
@@ -60603,18 +59784,15 @@ const CATALOG_DATA = [
     "id": "jw-ts393448",
     "titre": "Cacao",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2024,
@@ -60702,18 +59880,15 @@ const CATALOG_DATA = [
     "id": "jw-tm244381",
     "titre": "Marauders",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2016,
@@ -61125,18 +60300,15 @@ const CATALOG_DATA = [
     "id": "jw-ts80553",
     "titre": "Mrs Wilson",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2018,
@@ -61223,18 +60395,15 @@ const CATALOG_DATA = [
     "id": "jw-ts28425",
     "titre": "Jane Eyre",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2006,
@@ -61279,18 +60448,15 @@ const CATALOG_DATA = [
     "id": "jw-ts221672",
     "titre": "50 Nuances de terreur",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2020,
@@ -61339,18 +60505,15 @@ const CATALOG_DATA = [
     "id": "jw-tm275896",
     "titre": "Chez nous",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2017,
@@ -61389,18 +60552,15 @@ const CATALOG_DATA = [
     "id": "jw-ts20430",
     "titre": "Le Transporteur : La Série",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2013,
@@ -61452,18 +60612,15 @@ const CATALOG_DATA = [
     "id": "jw-ts215413",
     "titre": "The Sounds",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2020,
@@ -61648,22 +60805,16 @@ const CATALOG_DATA = [
     "id": "jw-tm1281195",
     "titre": "L'amour en double",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
-      "TF1+",
-      "Novo 19"
+      "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/tf1.png",
-      "assets/logos/novo19.svg"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
-      "tf1",
-      "nvn"
+      "tf1"
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
@@ -61882,28 +61033,20 @@ const CATALOG_DATA = [
     "id": "jw-ts20426",
     "titre": "Touch",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
-    "annee": 2012,
+    "annee": 2013,
     "annee_moyenne": 2013,
     "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2012,
-        "note": 7.3
-      },
       {
         "saison": 2,
         "annee": 2013,
@@ -61936,8 +61079,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2013
+    "on_tnt": true
   },
   {
     "id": "jw-tm155335",
@@ -62170,18 +61312,15 @@ const CATALOG_DATA = [
     "id": "jw-tm1441251",
     "titre": "Le Cauchemar de Peter Pan",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2025,
@@ -62219,18 +61358,15 @@ const CATALOG_DATA = [
     "id": "jw-ts456796",
     "titre": "SUPERmad",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2024,
@@ -62703,18 +61839,15 @@ const CATALOG_DATA = [
     "id": "jw-tm419421",
     "titre": "Primal",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2019,
@@ -62891,18 +62024,15 @@ const CATALOG_DATA = [
     "id": "jw-ts440075",
     "titre": "Bistronomia",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2025,
@@ -63037,18 +62167,15 @@ const CATALOG_DATA = [
     "id": "jw-ts436561",
     "titre": "Kaboul",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2025,
@@ -63193,18 +62320,15 @@ const CATALOG_DATA = [
     "id": "jw-ts428906",
     "titre": "Erica",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2025,
@@ -63254,18 +62378,15 @@ const CATALOG_DATA = [
     "id": "jw-tm308618",
     "titre": "Vengeance",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2017,
@@ -63488,18 +62609,15 @@ const CATALOG_DATA = [
     "id": "jw-tm469067",
     "titre": "Life Like",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2019,
@@ -63628,18 +62746,15 @@ const CATALOG_DATA = [
     "id": "jw-ts21119",
     "titre": "Titanic : De sang et d'acier",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2012,
@@ -63776,18 +62891,15 @@ const CATALOG_DATA = [
     "id": "jw-tm211232",
     "titre": "A Love You",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2015,
@@ -64061,18 +63173,15 @@ const CATALOG_DATA = [
     "id": "jw-tm812665",
     "titre": "La bonne épouse",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2020,
@@ -64204,18 +63313,15 @@ const CATALOG_DATA = [
     "id": "jw-tm136207",
     "titre": "Taxi Téhéran",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2015,
@@ -64668,18 +63774,15 @@ const CATALOG_DATA = [
     "id": "jw-tm432620",
     "titre": "L'Ordre des Médecins",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2018,
@@ -64858,18 +63961,15 @@ const CATALOG_DATA = [
     "id": "jw-tm36107",
     "titre": "In Another Country",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2012,
@@ -64908,18 +64008,15 @@ const CATALOG_DATA = [
     "id": "jw-tm1439570",
     "titre": "La Partition",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Arte",
     "chaines": [
-      "Molotov Gratuit",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "mlt",
       "art"
     ],
     "annee": 2024,
@@ -64958,18 +64055,15 @@ const CATALOG_DATA = [
     "id": "jw-tm1226689",
     "titre": "Inspecteur Sun et la malédiction de la veuve noire",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2022,
@@ -65098,18 +64192,15 @@ const CATALOG_DATA = [
     "id": "jw-tm216006",
     "titre": "My All American",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2015,
@@ -65283,18 +64374,15 @@ const CATALOG_DATA = [
     "id": "jw-ts224256",
     "titre": "50 nuances de Grecs",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2022,
@@ -65433,18 +64521,15 @@ const CATALOG_DATA = [
     "id": "jw-tm683563",
     "titre": "Badland",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2019,
@@ -65659,18 +64744,15 @@ const CATALOG_DATA = [
     "id": "jw-tm1196409",
     "titre": "Return to Seoul",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "France TV",
     "chaines": [
-      "Molotov Gratuit",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/france_tv.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "mlt",
       "fra"
     ],
     "annee": 2022,
@@ -66213,18 +65295,15 @@ const CATALOG_DATA = [
     "id": "jw-ts221304",
     "titre": "Un homme ordinaire",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2020,
@@ -66269,18 +65348,15 @@ const CATALOG_DATA = [
     "id": "jw-tm207546",
     "titre": "The Wave",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2015,
@@ -66411,22 +65487,16 @@ const CATALOG_DATA = [
     "id": "jw-tm813300",
     "titre": "L'Esprit s'amuse",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
-      "TF1+",
-      "Novo 19"
+      "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
-      "assets/logos/tf1.png",
-      "assets/logos/novo19.svg"
+      "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
-      "tf1",
-      "nvn"
+      "tf1"
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
@@ -66824,20 +65894,17 @@ const CATALOG_DATA = [
     "id": "jw-tm207344",
     "titre": "Vert émeraude",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1",
       "sxp"
     ],
@@ -67016,20 +66083,17 @@ const CATALOG_DATA = [
     "id": "jw-tm135719",
     "titre": "Bleu saphir",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1",
       "sxp"
     ],
@@ -67119,18 +66183,15 @@ const CATALOG_DATA = [
     "id": "jw-tm1303196",
     "titre": "Dark Game",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "TF1+",
     "chaines": [
-      "Molotov Gratuit",
       "TF1+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/tf1.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/tf1.png"
     ],
     "package_slugs": [
-      "mlt",
       "tf1"
     ],
     "annee": 2024,
@@ -67167,18 +66228,15 @@ const CATALOG_DATA = [
     "id": "jw-tm322429",
     "titre": "Spinning Man",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2018,
@@ -67217,18 +66275,15 @@ const CATALOG_DATA = [
     "id": "jw-ts76278",
     "titre": "L'envers du paradis",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2017,
@@ -67320,18 +66375,15 @@ const CATALOG_DATA = [
     "id": "jw-ts35461",
     "titre": "Le mystère Enfield",
     "type": "serie",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2015,
@@ -67423,18 +66475,15 @@ const CATALOG_DATA = [
     "id": "jw-tm431781",
     "titre": "Bloodline",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "M6+",
     "chaines": [
-      "Molotov Gratuit",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/molotov.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "mlt",
       "sxp"
     ],
     "annee": 2019,
@@ -80441,262 +79490,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts287975",
-    "titre": "Ghosts: Fantômes à la maison",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2021,
-    "annee_fin": 2024,
-    "annee_moyenne": 2023,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2021,
-        "note": 7.9
-      },
-      {
-        "saison": 2,
-        "annee": 2022,
-        "note": 7.9
-      },
-      {
-        "saison": 3,
-        "annee": 2024,
-        "note": 7.9
-      }
-    ],
-    "duree": "21 min/ép.",
-    "runtime_minutes": 21,
-    "note_avis": 7.9,
-    "note_recence": 9.1,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fnt",
-      "scf"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/324972629/s592/ghosts.jpg",
-    "synopsis": "A la mort de sa grand-tante, Sam hérite d'un manoir en ruine habité par les esprits de différents personnages morts sur les lieux à travers les siècles. Elle projette, avec son mari Jay, de transformer le manoir en hôtel. Suite à un accident qui l'a rapprochée de la mort, elle peut voir et entendre les fantômes.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1931109",
-    "titre": "La bataille de Gaulle - partie 1 : L'âge de fer",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "2h 40min",
-    "runtime_minutes": 160,
-    "note_avis": 7.8,
-    "note_recence": 10,
-    "note_globale": 8.9,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/345714575/s592/la-bataille-de-gaulle-film-1-lage-de-fer.jpg",
-    "synopsis": "Juin 1940. La France s'effondre et signe l’armistice. Au milieu du chaos, un homme refuse de céder. Seul contre tous, ce général inconnu s'échappe vers Londres pour sauver ce qui reste d'un rêve : la liberté. Sans armée, sans appui, sans espoir. Mais avec une folle conviction : la France, sa France, n'a pas déposé les armes. Il tente un ultime pari : convaincre le monde que la bataille de France n'est ni terminée, ni perdue. La réalité est têtue, et lui donne tort. Mais peu à peu se lèvent autour de lui en Angleterre, en France et en Afrique des résistants de l'ombre, des lycéens révoltés, des soldats déterminés. Leur foi, leur audace, leur rage de liberté défient l'Histoire qui semblait pourtant écrite d’avance.",
-    "date_ajout": "2026-06-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts494370",
-    "titre": "La Cible",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2026,
-        "note": 6.1
-      }
-    ],
-    "duree": "46 min/ép.",
-    "runtime_minutes": 46,
-    "note_avis": 6.1,
-    "note_recence": 10,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/349530061/s592/la-cible-2026.jpg",
-    "synopsis": "Hugo, un garde du corps professionnel, traverse un divorce douloureux. Toujours épris de son ex-femme, il tente de préserver un lien avec ses enfants. Mais tout bascule le jour où il se rend à l’anniversaire de son fils : son ex-femme et leurs deux enfants sont kidnappés sous ses yeux.\n\nRapidement, l’enquête de police s’oriente vers Hugo, considéré comme le principal suspect. Accablé par les indices et menacé d’être incarcéré, il décide de s’évader pour retrouver sa famille. Dans sa fuite, il mène sa propre enquête et découvre des vérités troublantes sur la femme qu’il croyait connaître. Ce thriller psychologique et familial place Hugo dans une course contre la montre où chaque seconde compte.",
-    "date_ajout": "2026-10-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "mlt": "2026-10-11"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1444882",
-    "titre": "Jurassic World: Renaissance",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "2h 13min",
-    "runtime_minutes": 133,
-    "note_avis": 5.8,
-    "note_recence": 9.7,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "trl",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/332941270/s592/jurassic-world-4.jpg",
-    "synopsis": "Une nouvelle ère voit le jour. Une équipe visite le lieu le plus risqué sur terre, une île sur laquelle vivent des dinosaures trop dangereux pour le Parc Jurassique original. Leur mission : recueillir l'ADN de trois dinosaures gigantesques pour créer un médicament aux bienfaits miraculeux. Dans cette contrée truffée de périls, ils découvrent un secret dissimulé au monde entier depuis des décennies.",
-    "date_ajout": "2025-07-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1226583",
-    "titre": "Challengers",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "2h 11min",
-    "runtime_minutes": 131,
-    "note_avis": 7,
-    "note_recence": 9.4,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/316196515/s592/challengers.jpg",
-    "synopsis": "Pour le sortir d’une série de défaites cuisantes, une entraîneure de tennis convainc son mari, grand champion de calibre mondial, de jouer contre son ancien meilleur ami et son ex à elle dans un tournoi mineur.",
-    "date_ajout": "2024-08-28",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts37866",
     "titre": "Dix pour cent",
     "type": "serie",
@@ -80766,791 +79559,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1504418",
-    "titre": "Bugonia",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 59min",
-    "runtime_minutes": 119,
-    "note_avis": 7.4,
-    "note_recence": 9.7,
-    "note_globale": 8.6,
-    "etoiles": 5,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "trl",
-      "scf"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/338741716/s592/bugonia.jpg",
-    "synopsis": "Deux jeunes hommes obsédés par les théories du complot kidnappent la PDG d’une grande entreprise, convaincus qu’elle est une extraterrestre déterminée à détruire la planète Terre.",
-    "date_ajout": "2025-09-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts501096",
-    "titre": "Le Mystère de la chambre jaune",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2026,
-        "note": 5.9
-      }
-    ],
-    "duree": "51 min/ép.",
-    "runtime_minutes": 51,
-    "note_avis": 5.9,
-    "note_recence": 10,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354328338/s592/le-mystere-de-la-chambre-jaune.jpg",
-    "synopsis": "Jo, jeune journaliste, apprend avec stupeur qu'une tentative de meurtre a eu lieu dans son village natal, L'Artuby, niché dans les Gorges du Verdon. Elle est dévastée d'apprendre que la victime n'est autre que Mathilde, une proche amie d'enfance, qui est dans le coma depuis l'agression. Les circonstances du drame l'intriguent particulièrement : lorsqu'alertés par les cris, certains villageois sont parvenus à entrer dans la chambre de la victime, celle-ci s'y trouvait seule. La porte blindée était pourtant fermée et il n’y a aucune autre issue… Mais où a bien pu passer l'agresseur ?",
-    "date_ajout": "2026-08-26",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm337030",
-    "titre": "Coexister",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 5.8,
-    "note_recence": 7.3,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "msc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/79897379/s592/coexister.jpg",
-    "synopsis": "Sous la pression de sa patronne, un producteur de musique à la dérive décide de monter un groupe constitué d'un rabbin, un curé et un imam afin de leur faire chanter le vivre-ensemble. Mais les religieux qu’il recrute sont loin d’être des saints…",
-    "date_ajout": "2017-10-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1308469",
-    "titre": "Dragons",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "2h 05min",
-    "runtime_minutes": 125,
-    "note_avis": 7.7,
-    "note_recence": 9.7,
-    "note_globale": 8.7,
-    "etoiles": 5,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "drm",
-      "fnt",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/332119157/s592/how-to-train-your-dragon-2025.jpg",
-    "synopsis": "Sur l'île accidentée de Berk, où Vikings et dragons se vouent une haine viscérale depuis des générations, Harold fait figure d'exception. Fils inventif mais négligé du chef Stoïck la Brute, il bouscule les traditions en se liant d'amitié avec Krokmou, une Furie nocturne. Leur duo improbable va révéler la vraie nature des dragons et bouleverser les fondements de la société viking. Avec la forte et ambitieuse Astrid et l'excentrique forgeron du village Gueulfor à ses côtés, Harold fait face à un monde déchiré par la peur et l'incompréhension. Lorsqu'une ancienne menace refait surface et met en péril les Vikings autant que les dragons, l'amitié entre Harold et Krokmou devient la clé de l'élaboration d'un avenir meilleur. Ensemble, ils doivent trouver la voie menant à la paix, s'envolant au-delà des frontières de leurs mondes pour redéfinir la véritable nature d'un héros et d'un chef.",
-    "date_ajout": "2025-06-13",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1198657",
-    "titre": "Equalizer 3",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 43min",
-    "runtime_minutes": 103,
-    "note_avis": 6.8,
-    "note_recence": 9.1,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/308604733/s592/the-equalizer-3.jpg",
-    "synopsis": "Depuis qu'il a renoncé à sa vie d'assassin au service du gouvernement, Robert McCall peine à enterrer les démons de son passé et trouve un étrange réconfort en défendant les opprimés. Alors qu'il pense avoir trouvé un havre de paix dans le sud de l'Italie, il découvre que ses amis sont sous le contrôle de la mafia locale. Quand les évènements prennent une tournure mortelle, McCall sait exactement ce qu'il doit faire : protéger ses amis en s'attaquant directement à la pègre.",
-    "date_ajout": "2023-08-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1436931",
-    "titre": "Michael",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "2h 07min",
-    "runtime_minutes": 127,
-    "note_avis": 7.3,
-    "note_recence": 10,
-    "note_globale": 8.7,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "msc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/343089542/s592/michael-2025-0.jpg",
-    "synopsis": "Michael dresse le portrait cinématographique de la vie et de l’héritage de l’un des artistes les plus influents de notre époque.  Le film raconte l’histoire de Michael Jackson au-delà de la musique, depuis la découverte d’un talent hors du commun en tant que leader des Jackson Five, jusqu’à l’artiste visionnaire dont l’ambition créative a alimenté une quête incessante pour devenir le plus grand artiste au monde.  Mettant en lumière sa vie hors scène et ses performances les plus emblématiques de ses débuts en solo, le film offre au public une place au premier rang pour découvrir Michael Jackson comme jamais auparavant.",
-    "date_ajout": "2026-04-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1299255",
-    "titre": "M3GAN 2.0",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "2h 00min",
-    "runtime_minutes": 120,
-    "note_avis": 6,
-    "note_recence": 9.7,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "hrr",
-      "trl",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/332266596/s592/m3gan-2-0.jpg",
-    "synopsis": "Deux ans ont passé depuis la destruction de M3GAN, le prototype à la pointe de l’intelligence artificielle devenu incontrôlable lors d’un carnage aussi sanglant qu’impeccablement chorégraphié. Sa créatrice Gemma aujourd’hui auteure de renom milite pour l’encadrement drastique des I.A. par le gouvernement, alors que Cady, sa nièce de 14 ans entre dans l’adolescence et se rebelle contre les règles trop strictes de sa tante. Cependant, à l’insu de tous, la technique de pointe mise au point pour M3GAN a été volée et détournée pour créer une arme militaire connue sous le nom d'AM3LIA.",
-    "date_ajout": "2025-06-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1111989",
-    "titre": "Oppenheimer",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "3h 00min",
-    "runtime_minutes": 180,
-    "note_avis": 8.2,
-    "note_recence": 9.1,
-    "note_globale": 8.6,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306575910/s592/oppenheimer.jpg",
-    "synopsis": "En 1942, convaincus que l'Allemagne hitlérienne est en train de développer une arme nucléaire, les États-Unis initient, dans le plus grand secret, le  « Projet Manhattan » destiné à mettre au point la première bombe atomique de l’histoire. Pour piloter ce dispositif, le gouvernement engage J. Robert Oppenheimer, brillant physicien, qui sera bientôt surnommé « le père de la bombe atomique ». C'est dans le laboratoire ultra-secret de Los Alamos, au cœur du désert du Nouveau-Mexique, que le scientifique et son équipe mettent au point une arme révolutionnaire dont les conséquences, vertigineuses, continuent de peser sur le monde actuel…",
-    "date_ajout": "2023-07-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts6495",
-    "titre": "Esprits criminels",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2010,
-    "annee_fin": 2018,
-    "annee_moyenne": 2014,
-    "saisons_disponibles": [
-      {
-        "saison": 6,
-        "annee": 2010,
-        "note": 8.1
-      },
-      {
-        "saison": 14,
-        "annee": 2018,
-        "note": 8.1
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 8.1,
-    "note_recence": 6.4,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/252470091/s592/esprits-criminels.jpg",
-    "synopsis": "L'équipe des profilers étudie les comportements et les esprits torturés des criminels les plus dangereux du pays, afin d'anticiper les crimes d'un éventuel tueur. Chaque membre de cette unité d'élite a sa personnalité, son histoire mais aussi sa spécialité. Ils sont tous dépendants les uns des autres et les résultats dépendent aussi de cette complémentarité.",
-    "date_ajout": "2005-09-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "mlt": "2026-10-11"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1301774",
-    "titre": "Le Comte de Monte-Cristo",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "2h 58min",
-    "runtime_minutes": 178,
-    "note_avis": 7.6,
-    "note_recence": 9.4,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "trl",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/318221346/s592/le-comte-de-monte-cristo-2024.jpg",
-    "synopsis": "Victime d’un complot, le jeune Edmond Dantès est arrêté le jour de son mariage pour un crime qu’il n’a pas commis. Après quatorze ans de détention au château d’If, il parvient à s’évader. Devenu immensément riche, il revient sous l’identité du comte de Monte-Cristo pour se venger des trois hommes qui l’ont trahi.",
-    "date_ajout": "2024-06-28",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts387023",
-    "titre": "Cat's Eyes",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 6.4
-      }
-    ],
-    "duree": "53 min/ép.",
-    "runtime_minutes": 53,
-    "note_avis": 6.4,
-    "note_recence": 9.4,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm",
-      "drm",
-      "trl",
-      "rma"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/323419407/s592/cats-eyes.jpg",
-    "synopsis": "En 2023, Alexia, Tam et Sylia se retrouvent après des années de séparation. En même temps, un tableau ayant appartenu à leur père, disparu il y a plus de dix ans dans un mystérieux incendie dans sa galerie d'art, refait surface lors d'une prestigieuse exposition à la Tour Eiffel. Déterminées à découvrir la vérité, elles prennent tous les risques pour récupérer les tableaux...",
-    "date_ajout": "2024-12-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1626808",
-    "titre": "Juste une illusion",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 59min",
-    "runtime_minutes": 119,
-    "note_avis": 7.3,
-    "note_recence": 10,
-    "note_globale": 8.7,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/343717292/s592/juste-une-illusion.jpg",
-    "synopsis": "Nous sommes en 1985, Vincent, bientôt 13 ans, vit en banlieue parisienne dans une famille de la classe moyenne, entre un grand frère distant et des parents en conflit permanent. Alors qu’il n’est « déjà plus » un enfant et qu’il n’est « pas encore » un adulte nous allons partager ses questions et ses doutes sur l’identité, l’amitié, la famille, la religion, le désir et les premiers élans amoureux.",
-    "date_ajout": "2026-04-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm174605",
-    "titre": "Intouchables",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2011,
-    "annee_moyenne": 2011,
-    "duree": "1h 52min",
-    "runtime_minutes": 112,
-    "note_avis": 8.5,
-    "note_recence": 5.5,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/169282486/s592/intouchables.jpg",
-    "synopsis": "À la suite d’un accident de parapente, Philippe, riche aristocrate, engage comme aide à domicile Driss, un jeune de banlieue tout juste sorti de prison. Bref la personne la moins adaptée pour le job. Ensemble ils vont faire cohabiter Vivaldi et Earth Wind and Fire, le verbe et la vanne, les costumes et les bas de survêtement… Deux univers vont se télescoper, s’apprivoiser, pour donner naissance à une amitié aussi dingue, drôle et forte qu’inattendue, une relation unique qui fera des étincelles et qui les rendra… Intouchables.",
-    "date_ajout": "2011-11-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1240009",
-    "titre": "Hamnet",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "2h 06min",
-    "runtime_minutes": 126,
-    "note_avis": 7.8,
-    "note_recence": 9.7,
-    "note_globale": 8.8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/340825131/s592/hamnet.jpg",
-    "synopsis": "Angleterre, 1580. Un professeur de latin fauché, fait la connaissance d’Agnes, jeune femme à l’esprit libre. Fascinés l’un par l’autre, ils entament une liaison fougueuse avant de se marier et d’avoir trois enfants. Tandis que Will tente sa chance comme dramaturge à Londres, Agnes assume seule les tâches domestiques. Lorsqu’un drame se produit, le couple, autrefois profondément uni, vacille. Mais c’est de leur épreuve commune que naîtra l’inspiration d’un chef d’œuvre universel.",
-    "date_ajout": "2026-01-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm239632",
-    "titre": "Fast & Furious 9",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "2h 23min",
-    "runtime_minutes": 143,
-    "note_avis": 5.2,
-    "note_recence": 8.5,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/249116330/s592/fast-and-furious-9.jpg",
-    "synopsis": "Dominic Toretto mène une vie tranquille avec Letty et son fils, le petit Brian, mais ils savent que le danger se cache toujours derrière l'horizon paisible. Cette fois, cette menace obligera Dom à affronter les péchés de son passé s’il veut sauver ceux qu’il aime le plus. Son équipe se réunit pour arrêter un complot mené par l'assassin le plus talentueux et le meilleur pilote qu'ils aient jamais rencontré : un homme qui se trouve être également le frère abandonné de Dom, Jakob.",
-    "date_ajout": "2021-06-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm266704",
-    "titre": "Get Out",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 7.8,
-    "note_recence": 7.3,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "hrr",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/323385911/s592/get-out.jpg",
-    "synopsis": "Couple mixte, Chris et sa petite amie Rose filent le parfait amour. Le moment est donc venu de rencontrer la belle famille, Missy et Dean lors d'un week‑end sur leur domaine dans le nord de l'État. Chris commence par penser que l'atmosphère tendue est liée à leur différence de couleur de peau, mais très vite une série d'incidents de plus en plus inquiétants lui permet de découvrir l'inimaginable.",
-    "date_ajout": "2017-02-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts486318",
     "titre": "Camarades",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2026,
@@ -81593,379 +79613,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1457585",
-    "titre": "Super Mario Galaxy, le film",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 6.2,
-    "note_recence": 10,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "fnt",
-      "fml",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/342893248/s592/super-mario-galaxy-le-film.jpg",
-    "synopsis": "Mario et Luigi gèrent les tracas du royaume Champignon, se lient d'amitié avec Yoshi, tentent de réhabiliter mini-Bowser et se préparent pour l'anniversaire de Peach. Mais quand un appel à l'aide arrive de l'autre bout de la galaxie, l'équipe part découvrir des mondes nouveaux, des menaces inattendues et des personnages emblématiques, comme Rosalina et Bowser Jr.",
-    "date_ajout": "2026-04-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1514496",
-    "titre": "Marsupilami",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 39min",
-    "runtime_minutes": 99,
-    "note_avis": 6.3,
-    "note_recence": 10,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/333586947/s592/marsupilami.jpg",
-    "synopsis": "Pour sauver son emploi, David accepte un plan foireux : ramener un mystérieux colis d’Amérique du Sud. Il se retrouve à bord d’une croisière avec son ex Tess, son fils Léo, et son collègue Stéphane, aussi benêt que maladroit, dont David se sert pour transporter le colis à sa place. Tout dérape lorsque ce dernier l’ouvre accidentellement : un adorable bébé Marsupilami apparaît et le voyage vire au chaos !",
-    "date_ajout": "2026-02-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm860276",
-    "titre": "Nobody",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 7.4,
-    "note_recence": 8.5,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/248319158/s592/nobody.jpg",
-    "synopsis": "Hutch Mansell, un père et un mari frustré, totalement déconsidéré par sa famille, se contente d’encaisser les coups, sans jamais les rendre. Il n’est rien. Une nuit, alors que deux cambrioleurs pénètrent chez lui, il fait le choix de ne pas intervenir, plutôt que de risquer une escalade sanglante. Une décision qui le discrédite définitivement aux yeux de son fils Blake, et qui semble l’éloigner encore plus de sa femme Becca. Cet incident réveille chez cet homme blessé des instincts larvés qui vont le propulser sur une voie violente, révélant des zones d’ombres et des compétences létales insoupçonnées. Dans une avalanche de coups de poings, de fusillades et de crissements de pneus, il va tout faire pour tirer sa famille des griffes d’un redoutable ennemi et s’assurer que, plus jamais, personne ne le prenne pour un moins que rien.",
-    "date_ajout": "2021-03-26",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm316242",
-    "titre": "Top Gun : Maverick",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "2h 11min",
-    "runtime_minutes": 131,
-    "note_avis": 8.2,
-    "note_recence": 8.8,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/295491328/s592/top-gun-maverick.jpg",
-    "synopsis": "Après avoir été l’un des meilleurs pilotes de chasse de l'Aéronavale américaine pendant plus de trente ans, Pete “Maverick\" Mitchell continue à repousser ses limites en tant que pilote d'essai. Il refuse de monter en grade, car cela l’obligerait à renoncer à voler. Il est chargé de former un détachement de jeunes diplômés de l’école Top Gun pour une mission spéciale qu’aucun pilote n'aurait jamais imaginée. Lors de cette mission, Maverick rencontre le lieutenant Bradley “Rooster” Bradshaw, le fils de son défunt ami, le navigateur Nick “Goose” Bradshaw. Face à un avenir incertain, hanté par ses fantômes, Maverick va devoir affronter ses pires cauchemars au cours d’une mission qui exigera les plus grands sacrifices.",
-    "date_ajout": "2022-05-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm322783",
-    "titre": "Le Sens de la fête",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 55min",
-    "runtime_minutes": 115,
-    "note_avis": 6.9,
-    "note_recence": 7.3,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/10654630/s592/le-sens-de-la-fete.jpg",
-    "synopsis": "Max est traiteur depuis 30 ans. Des fêtes il en a organisé des centaines, il est même un peu au bout du parcours. Aujourd'hui c'est un sublime mariage dans un château du XVIIe siècle, un de plus, celui de Pierre et Héléna. Comme d'habitude, Max a tout coordonné: il a recruté sa brigade de serveurs, de cuisiniers, de plongeurs, il a conseillé un photographe, réservé l'orchestre, arrangé la décoration florale, bref tous les ingrédients sont réunis pour que cette fête soit réussie… Mais la loi des séries va venir bouleverser un planning sur le fil où chaque moment de bonheur et d'émotion risque de se transformer en désastre ou en chaos. Des préparatifs jusqu'à l'aube, nous allons vivre les coulisses de cette soirée à travers le regard de ceux qui travaillent et qui devront compter sur leur unique qualité commune: le sens de la fête.",
-    "date_ajout": "2017-10-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1658277",
-    "titre": "Le Mage du Kremlin",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "2h 16min",
-    "runtime_minutes": 136,
-    "note_avis": 6.1,
-    "note_recence": 10,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "hst",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341755225/s592/le-mage-du-kremlin.jpg",
-    "synopsis": "Russie, au début des années 1990, au lendemain de l'effondrement de l'URSS. Dans un nouveau monde qui promet la liberté et flirte avec le chaos, un jeune artiste devenu producteur de télé-réalité, Vadim Baranov, devient de manière inattendue le conseiller officieux d’un ancien agent du KGB, Vladimir Poutine. Plongé au cœur du système, Baranov devient un rouage central de la nouvelle Russie, façonnant les discours, les images, les perceptions.",
-    "date_ajout": "2009-05-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm367583",
-    "titre": "Aline",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "2h 06min",
-    "runtime_minutes": 126,
-    "note_avis": 6.3,
-    "note_recence": 8.5,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "msc"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/258900145/s592/dis-moi-celine.jpg",
-    "synopsis": "Québec, fin des années 60, Sylvette et Anglomard accueillent leur 14ème enfant : Aline. Dans la famille Dieu, la musique est reine et quand Aline grandit on lui découvre un don, elle a une voix en or. Lorsqu’il entend cette voix, le producteur de musique Guy-Claude n’a plus qu’une idée en tête… faire d’Aline la plus grande chanteuse au monde. Épaulée par sa famille et guidée par l’expérience puis l’amour naissant de Guy-Claude, ils vont ensemble écrire les pages d’un destin hors du commun.",
-    "date_ajout": "2021-11-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1542567",
-    "titre": "Running Man",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "2h 13min",
-    "runtime_minutes": 133,
-    "note_avis": 6.3,
-    "note_recence": 9.7,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "trl",
-      "scf"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/336725287/s592/running-man-2025.jpg",
-    "synopsis": "Dans un futur proche, les participants du jeu télévisé Running Man sont traqués en direct par des chasseurs professionnels. Ils doivent survivre 30 jours sous les yeux d’un public avide de violence. Ben Richards, prêt à tout pour sauver sa fille malade, est forcé de participer par un producteur impitoyable. Mais son courage et sa révolte feront de lui le favori du public… et la pire menace du système.",
-    "date_ajout": "2025-11-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm1064803",
     "titre": "Rien à foutre",
     "type": "film",
@@ -82001,10 +79648,10 @@ const CATALOG_DATA = [
     "synopsis": "Cassandre, 26 ans, est hôtesse de l’air dans une compagnie low-cost. Vivant au jour le jour, elle enchaîne les vols et les fêtes sans lendemain, fidèle à son pseudo Tinder «Carpe Diem». Une existence sans attaches, en forme de fuite en avant, qui la comble en apparence. Alors que la pression de sa compagnie redouble, Cassandre finit par perdre pied. Saura-t-elle affronter les douleurs enfouies et revenir vers ceux qu'elle a laissés au sol ?",
     "date_ajout": "2022-03-02",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 140,
-      "expirationDate": "2027-02-28",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "fra": "2027-02-28"
       }
@@ -82079,136 +79726,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts22054",
-    "titre": "Les Tudors",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2007,
-    "annee_fin": 2010,
-    "annee_moyenne": 2009,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2007,
-        "note": 8.1
-      },
-      {
-        "saison": 2,
-        "annee": 2008,
-        "note": 8.1
-      },
-      {
-        "saison": 3,
-        "annee": 2009,
-        "note": 8.1
-      },
-      {
-        "saison": 4,
-        "annee": 2010,
-        "note": 8.1
-      }
-    ],
-    "duree": "53 min/ép.",
-    "runtime_minutes": 53,
-    "note_avis": 8.1,
-    "note_recence": 4.9,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "rma",
-      "war",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/180110363/s592/the-tudors.jpg",
-    "synopsis": "La vie très tourmentée du jeune Henry VIII lors de son début de règne au 16ème siècle en Angleterre ! De ses relations tumultueuses avec les femmes à ses alliances politiques...",
-    "date_ajout": "2017-01-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1947081",
-    "titre": "Pour le plaisir",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 5.8,
-    "note_recence": 10,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/343811696/s592/pour-le-plaisir-2026.jpg",
-    "synopsis": "Et si on vous racontait l’invention du siècle ? Un couple, une vérité qui explose. Fanny et Tom sont mariés et heureux depuis 20 ans. Mais un jour un secret éclate : Fanny n’a jamais eu d’orgasme. Tom, ingénieur, décide alors de relever un défi audacieux : créer l’objet qui révolutionnera le plaisir féminin. Ensemble, ils se lancent dans cette quête aussi déjantée qu’émouvante qui va transformer leur couple. Jusqu’où iront-ils ? Loin, très loin.",
-    "date_ajout": "2026-05-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts17296",
     "titre": "Catastrophe",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2015,
@@ -82267,626 +79796,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts42062",
-    "titre": "Miraculous: Les Aventures de Ladybug et Chat Noir",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_fin": 2025,
-    "annee_moyenne": 2020,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2015,
-        "note": 7.5
-      },
-      {
-        "saison": 2,
-        "annee": 2017,
-        "note": 7.5
-      },
-      {
-        "saison": 3,
-        "annee": 2019,
-        "note": 7.5
-      },
-      {
-        "saison": 4,
-        "annee": 2021,
-        "note": 7.5
-      },
-      {
-        "saison": 5,
-        "annee": 2022,
-        "note": 7.5
-      },
-      {
-        "saison": 6,
-        "annee": 2025,
-        "note": 7.5
-      }
-    ],
-    "duree": "23 min/ép.",
-    "runtime_minutes": 23,
-    "note_avis": 7.5,
-    "note_recence": 8.2,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "fnt",
-      "fml",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322496449/s592/miraculous-les-aventures-de-ladybug-et-chat-noir.jpg",
-    "synopsis": "Paris, aujourd'hui. Marinette et Adrien sont deux collégiens comme les autres, à la différence près qu’ils ont été choisis pour sauver Paris ! Leur mission : capturer les Akumas du mystérieux Papillon qui transforment les parisiens en super vilains. Grâce à leur kwami, nos deux collégiens se métamorphosent en superhéros : Ladybug, et Chat Noir.",
-    "date_ajout": "2018-09-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts421786",
-    "titre": " All Her Fault",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 7.5
-      }
-    ],
-    "duree": "52 min/ép.",
-    "runtime_minutes": 52,
-    "note_avis": 7.5,
-    "note_recence": 9.7,
-    "note_globale": 8.6,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/348276349/s592/all-her-fault.jpg",
-    "synopsis": "A Chicago, Marissa Irvine se présente au 14 Arthur Avenue pour récupérer son fils, Milo, censé être avec un camarade de classe de sa nouvelle école. Mais la femme qui lui ouvre la porte n’est ni la mère de l’ami de son fils, ni sa nourrice. Pire, elle ne connaît pas Milo et prétend ne l’avoir jamais vu ! Où est l’enfant et qui est responsable de sa disparition ? Milo demeure introuvable et l’angoisse grandit. Débute alors le cauchemar absolu de tout parent...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm179734",
-    "titre": "World War Z",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 56min",
-    "runtime_minutes": 116,
-    "note_avis": 7,
-    "note_recence": 6.1,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "act",
-      "hrr",
-      "scf"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/182799675/s592/world-war-z.jpg",
-    "synopsis": "Gerry Lane se lance dans une course contre la montre pour aider le monde à surmonter ses divisions et faire face à l'apocalypse. Dans tous les pays, par tous les moyens, chacun devra se battre car l'humanité n'aura plus qu'un seul espoir de survie : La guerre.",
-    "date_ajout": "2013-06-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm307535",
-    "titre": "Nosferatu - Der Untote",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "2h 13min",
-    "runtime_minutes": 133,
-    "note_avis": 7.1,
-    "note_recence": 9.4,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "fnt",
-      "hrr"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/345560961/s592/nosferatu-2023.jpg",
-    "synopsis": "Dans l'Allemagne de 1838, Thomas Hutter, agent immobilier, est envoyé en Transylvanie pour rencontrer le mystérieux comte Orlok, intéressé par l'achat d'une propriété à Wisborg. Laissant derrière lui sa jeune épouse, Ellen, sujette à des visions inquiétantes, Thomas découvre rapidement la véritable nature du comte : un vampire terrifiant. Pendant ce temps, à Wisborg, Ellen est de plus en plus tourmentée par des cauchemars prémonitoires liés à Orlok. Lorsque le comte s'installe dans sa nouvelle demeure, une série d'événements horrifiques se déclenche, plongeant la ville dans la terreur et la désolation.",
-    "date_ajout": "2024-12-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1203052",
-    "titre": "Wicked: Partie II",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "2h 17min",
-    "runtime_minutes": 137,
-    "note_avis": 6.6,
-    "note_recence": 9.7,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "fnt",
-      "fml",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/338811595/s592/wicked-part-2.jpg",
-    "synopsis": "Ce film suit Elphaba, future Méchante Sorcière de l'Ouest, et son amitié avec Glinda, la Bonne Sorcière du Nord.  Deuxième volet de l'adaptation cinématographique en deux parties de la célèbre comédie musicale de Broadway.\n",
-    "date_ajout": "2025-11-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm374451",
-    "titre": "Jurassic World : Le Monde d’après",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "2h 27min",
-    "runtime_minutes": 147,
-    "note_avis": 5.6,
-    "note_recence": 8.8,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "trl",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/295930695/s592/jurassic-world-3.jpg",
-    "synopsis": "Quatre ans après la destruction de Isla Nublar, les dinosaures font désormais partie du quotidien de l’humanité. Maintenant qu’elle doit partager son espace vital avec les créatures les plus féroces que l’histoire ait jamais connues, un fragile équilibre va remettre en question sa domination.",
-    "date_ajout": "2022-06-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1546278",
-    "titre": "Ma mère, Dieu et Sylvie Vartan",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 6.9,
-    "note_recence": 9.7,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/327437014/s592/ma-mere-dieu-et-sylvie-vartan.jpg",
-    "synopsis": "En 1963, Esther met au monde Roland, petit dernier d’une famille nombreuse. Roland naît avec un pied-bot qui l’empêche de se tenir debout. Contre l’avis de tous, elle promet à son fils qu’il marchera comme les autres et qu’il aura une vie fabuleuse. Dès lors, Esther n’aura de cesse de tout mettre en œuvre pour tenir cette promesse. À travers des décennies d’épreuves et de miracles de la vie, ce film est le récit d’une histoire vraie, drôle et bouleversante, celle d’un destin incroyable et du plus grand amour qui soit : celui d’une mère pour son enfant.",
-    "date_ajout": "2025-03-19",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts353444",
-    "titre": "Fire Country : Pompiers sur Appel",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2022,
-        "note": 7.1
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 7.1,
-    "note_recence": 8.8,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/319486569/s592/fire-country.jpg",
-    "synopsis": "En quête de rédemption et d'une peine de prison raccourcie, le jeune condamné Bode Donovan rejoint un programme de lutte contre les incendies qui le ramène dans sa petite ville natale du nord de la Californie, où lui et d'autres détenus travaillent aux côtés de pompiers d'élite pour éteindre d'énormes incendies dans la région.",
-    "date_ajout": "2022-10-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts256830",
-    "titre": "Ici Tout Commence",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2020,
-    "annee_fin": 2026,
-    "annee_moyenne": 2023,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2020,
-        "note": 5.5
-      },
-      {
-        "saison": 2,
-        "annee": 2025,
-        "note": 5.5
-      },
-      {
-        "saison": 3,
-        "annee": 2026,
-        "note": 5.5
-      },
-      {
-        "saison": 4,
-        "annee": 2024,
-        "note": 5.5
-      },
-      {
-        "saison": 5,
-        "annee": 2025,
-        "note": 5.5
-      },
-      {
-        "saison": 6,
-        "annee": 2026,
-        "note": 5.5
-      },
-      {
-        "saison": 7,
-        "annee": 2026,
-        "note": 5.5
-      }
-    ],
-    "duree": "27 min/ép.",
-    "runtime_minutes": 27,
-    "note_avis": 5.5,
-    "note_recence": 9.1,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/304427036/s592/ici-tout-commence.jpg",
-    "synopsis": "Cette nouvelle série se déroule dans la prestigieuse école de cuisine du chef étoilé, Auguste Armand. Tandis que les élèves suivent l'apprentissage de la gastronomie, des zones d'ombre et des tensions familiales et professionnelles se révèlent.",
-    "date_ajout": "2020-10-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts267959",
-    "titre": "HPI : Haut Potentiel Intellectuel",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2021,
-    "annee_fin": 2025,
-    "annee_moyenne": 2023,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2021,
-        "note": 7.6
-      },
-      {
-        "saison": 2,
-        "annee": 2022,
-        "note": 7.6
-      },
-      {
-        "saison": 3,
-        "annee": 2023,
-        "note": 7.6
-      },
-      {
-        "saison": 4,
-        "annee": 2024,
-        "note": 7.6
-      },
-      {
-        "saison": 5,
-        "annee": 2025,
-        "note": 7.6
-      }
-    ],
-    "duree": "56 min/ép.",
-    "runtime_minutes": 56,
-    "note_avis": 7.6,
-    "note_recence": 9.1,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "drm",
-      "fml",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/331304064/s592/hpi.jpg",
-    "synopsis": "Morgane, 38 ans, 3 enfants, 2 ex, 5 crédits, 160 de QI et une bonne dose d'insoumission, va voir son destin de femme de ménage chamboulé lorsque ses capacités hors norme sont repérées par la police qui lui propose un poste de consultante. Problème : Morgane déteste les flics !",
-    "date_ajout": "2021-04-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1521287",
-    "titre": "Un ours dans le Jura",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 53min",
-    "runtime_minutes": 113,
-    "note_avis": 6.5,
-    "note_recence": 9.7,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322397014/s592/un-ours-dans-le-jura.jpg",
-    "synopsis": "Michel et Cathy, un couple usé par le temps et les difficultés financières, ne se parlent plus vraiment. Jusqu’au jour où Michel, pour éviter un ours sur la route, heurte une voiture et tue les deux occupants. 2 morts et 2 millions en billets usagés dans le coffre, forcément, ça donne envie de se reparler. Et surtout de se taire.",
-    "date_ajout": "2025-01-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts503619",
     "titre": "Le Rouge et le Noir",
     "type": "serie",
@@ -82938,67 +79847,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1936690",
-    "titre": "Les Rayons et les Ombres",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "3h 19min",
-    "runtime_minutes": 199,
-    "note_avis": 7.4,
-    "note_recence": 10,
-    "note_globale": 8.7,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "war"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/347378638/s592/les-rayons-et-les-ombres.jpg",
-    "synopsis": "Jean et Otto, un homme de presse français et un jeune francophile allemand, se battent pour la paix en Europe. La fille de Jean, Corinne, démarre une brillante carrière d'actrice de cinéma. Mais la guerre éclate et la France est occupée. Les deux amis ont un rôle majeur dans cette nouvelle France. Jean trouve la stature d'un grand patron de presse, ardent promoteur de la Collaboration avec l'occupant, Otto devient l'ambassadeur du Reich à Paris. Corinne, se trouve jetée dans la fosse aux lions…",
-    "date_ajout": "2026-03-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts30025",
     "titre": "Meurtres à Sandhamn",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2010,
@@ -83098,18 +79958,15 @@ const CATALOG_DATA = [
     "id": "jw-ts20116",
     "titre": "Happy Valley",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2014,
@@ -83225,97 +80082,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1314896",
-    "titre": "Gladiator II",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "2h 28min",
-    "runtime_minutes": 148,
-    "note_avis": 6.4,
-    "note_recence": 9.4,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/323209957/s592/gladiator-2.jpg",
-    "synopsis": "Des années après avoir assisté à la mort du héros vénéré Maximus aux mains de son oncle, Lucius est forcé d'entrer dans le Colisée lorsque son pays est conquis par les empereurs tyranniques qui gouvernent désormais Rome d'une main de fer. La rage au cœur et l'avenir de l'Empire en jeu, Lucius doit se tourner vers son passé pour trouver la force et l'honneur de rendre la gloire de Rome à son peuple.",
-    "date_ajout": "2024-11-13",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm146426",
-    "titre": "Adaline",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 53min",
-    "runtime_minutes": 113,
-    "note_avis": 7.2,
-    "note_recence": 6.7,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "fnt",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/315815420/s592/adaline-2015.jpg",
-    "synopsis": "Après un accident qui aurait dû lui être fatal, la belle Adaline cesse de vieillir. Aujourd'hui, bien qu'ayant vécu près de huit décennies, elle est toujours âgée de 29 ans. Après avoir mené une existence solitaire afin de ne jamais révéler son secret, une rencontre fortuite avec le philanthrope et charismatique Ellis Jones, va raviver sa passion de la vie et de l'amour.",
-    "date_ajout": "2015-05-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts44393",
     "titre": "Meurtres à...",
     "type": "serie",
@@ -83414,18 +80180,15 @@ const CATALOG_DATA = [
     "id": "jw-ts32835",
     "titre": "Hunter x Hunter",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "M6+",
     "chaines": [
-      "TF1+",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "tf1",
       "sxp"
     ],
     "annee": 2011,
@@ -83466,347 +80229,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm144315",
-    "titre": "Babysitting",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 6.8,
-    "note_recence": 6.4,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/315324364/s592/babysitting.jpg",
-    "synopsis": "Faute de baby-sitter pour le week-end, Marc Schaudel confie son fils Remy à Franck, son employé, \"un type sérieux\" selon lui. Sauf que Franck a 30 ans ce soir et que Rémy est un sale gosse capricieux. Au petit matin, Marc et sa femme Claire sont réveillés par un appel de la police. Rémy et Franck ont disparu ! Au milieu de leur maison saccagée, la police a retrouvé une caméra. Marc et Claire découvrent, hallucinés, les images tournées pendant la soirée.",
-    "date_ajout": "2014-04-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm361998",
-    "titre": "Le Chant du loup",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 56min",
-    "runtime_minutes": 116,
-    "note_avis": 6.9,
-    "note_recence": 7.9,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/115859797/s592/le-chant-du-loup.jpg",
-    "synopsis": "Un jeune homme a le don rare de reconnaître chaque son qu’il entend. A bord d’un sous-marin nucléaire français, tout repose sur lui, l’Oreille d’Or.  Réputé infaillible, il commet pourtant une erreur qui met l’équipage en danger de mort. Il veut retrouver la confiance de ses camarades mais sa quête les entraîne dans une situation encore plus dramatique. Dans le monde de la dissuasion nucléaire et de la désinformation, ils se retrouvent tous pris au piège d’un engrenage incontrôlable.",
-    "date_ajout": "2019-02-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts358631",
-    "titre": "Retour à Sullivan's Crossing",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_fin": 2025,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2023,
-        "note": 7.1
-      },
-      {
-        "saison": 2,
-        "annee": 2024,
-        "note": 7.1
-      },
-      {
-        "saison": 3,
-        "annee": 2025,
-        "note": 7.1
-      }
-    ],
-    "duree": "44 min/ép.",
-    "runtime_minutes": 44,
-    "note_avis": 7.1,
-    "note_recence": 9.4,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320213390/s592/retour-a-sullivans-crossing.jpg",
-    "synopsis": "Après que la vie personnelle et professionnelle de la neurochirurgienne Maggie Sullivan ait été bouleversée, elle rentre chez elle à Sullivan's Crossing. Là-bas, Maggie est obligée de naviguer dans son présent compliqué tout en affrontant le passé douloureux qu'elle a choisi d'ignorer pendant des années.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm87484",
-    "titre": "Dragons",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2010,
-    "annee_moyenne": 2010,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 8.1,
-    "note_recence": 5.2,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "fnt",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/258246691/s592/dragons.jpg",
-    "synopsis": "L’histoire d’Harold, jeune Viking peu à son aise dans sa tribu où combattre les dragons est le sport national. Sa vie va être bouleversée par sa rencontre avec un dragon qui va peu à peu amener Harold et les siens à voir le monde d’un point de vue totalement différent.",
-    "date_ajout": "2014-10-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm523630",
-    "titre": "Super Mario Bros., le film",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 7,
-    "note_recence": 9.1,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "cmy",
-      "fnt",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/347194546/s592/super-mario-bros-le-film.jpg",
-    "synopsis": "Alors qu’ils tentent de réparer une canalisation souterraine, Mario et son frère Luigi, tous deux plombiers, se retrouvent plongés dans un nouvel univers féerique à travers un mystérieux conduit. Mais lorsque les deux frères sont séparés, Mario s’engage dans une aventure trépidante pour retrouver Luigi. Dans sa quête, il peut compter sur l’aide du champignon Toad, habitant du Royaume Champignon, et les conseils avisés, en matière de techniques de combat, de la Princesse Peach, guerrière déterminée à la tête du Royaume. C’est ainsi que Mario réussit à mobiliser ses propres forces pour aller au bout de sa mission.",
-    "date_ajout": "2023-04-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm53381",
-    "titre": "Jack Reacher",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2012,
-    "annee_moyenne": 2012,
-    "duree": "2h 10min",
-    "runtime_minutes": 130,
-    "note_avis": 7,
-    "note_recence": 5.8,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9044562/s592/jack-reacher.jpg",
-    "synopsis": "Lentement, méticuleusement, un sniper armé d’un fusil à lunettes repère ses victimes au sein de la foule affairée d’une grande ville. Il tire six fois, abat cinq personnes. Arrêté, interrogé, apparemment clairement responsable du carnage, l’homme n’avoue pas. Il ne prononce qu’une seule phrase lors de son interrogatoire: «Trouvez Jack Reacher». Et Reacher, justement, est perturbé par cette affaire dont la résolution lui semble trop simple. Il connaît le tireur, un militaire surentraîné, et sait que jamais, il n’aurait raté une de ses cibles. Avec l’aide d’une avocate, Helen Rodin, Reacher va mettre le nez dans un imbroglio aux allures de complot explosif…",
-    "date_ajout": "2012-12-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1425301",
-    "titre": "Le Robot sauvage",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 8.1,
-    "note_recence": 9.4,
-    "note_globale": 8.8,
-    "etoiles": 5,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "fml",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322163348/s592/the-wild-robot.jpg",
-    "synopsis": "L’incroyable épopée d'un robot -- l'unité ROZZUM 7134 alias « Roz » -- qui après avoir fait naufrage sur une île déserte doit apprendre à s'adapter à un environnement hostile en nouant petit à petit des relations avec les animaux de l'île. Il finit par adopter le petit d’une oie, un oison, qui s'est retrouvé orphelin.",
-    "date_ajout": "2024-09-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
     "on_tnt": true
   },
   {
@@ -83886,115 +80308,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1504086",
-    "titre": "Moins-que-rien 2",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 6.3,
-    "note_recence": 9.7,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/334355053/s592/nobody-2.jpg",
-    "synopsis": "Quatre ans après sa malencontreuse altercation avec la mafia russe, Hutch doit toujours 30 millions de dollars à la redoutable organisation et s'efforce de la rembourser en enchaînant sans répit les contrats d'une liste de criminels à abattre aussi interminable qu'internationale. Bien qu'il apprécie le caractère intense de son travail, Hutch se retrouve vite surmené, tout comme sa femme Becca, et ils s'éloignent inexorablement l'un de l'autre.",
-    "date_ajout": "2025-08-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm140013",
-    "titre": "Lucy",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 6.4,
-    "note_recence": 6.4,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "trl",
-      "scf",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302955761/s592/lucy.jpg",
-    "synopsis": "Lucy, une jeune étudiante ordinaire, se fait kidnapper. À son réveil, elle découvre que les membres d’une organisation criminelle lui ont inséré un paquet de drogue dans l’estomac dans le but de lui faire passer la frontière. Mais lorsqu’à la suite d’un coup porté à son ventre le produit se déverse dans son corps et s’implante dans son système, la jeune femme en subit les étonnants effets. Cette substance synthétique lui permet de décupler ses capacités intellectuelles et physiques. Devenue un génie autant qu’une véritable machine de guerre, Lucy dispose désormais de pouvoirs illimités et surhumains…",
-    "date_ajout": "2014-08-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts282260",
     "titre": "En Thérapie",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2022,
@@ -84119,59 +80444,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts81189",
-    "titre": "Magnum",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "saisons_disponibles": [
-      {
-        "saison": 5,
-        "annee": 2023,
-        "note": 6.4
-      }
-    ],
-    "duree": "42 min/ép.",
-    "runtime_minutes": 42,
-    "note_avis": 6.4,
-    "note_recence": 9.1,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/168305083/s592/magnum-2018.jpg",
-    "synopsis": "A son retour d'Afghanistan, Thomas Magnum, officier décoré de l'unité d'élite des SEAL de la Marine américaine, s'installe à Hawaï. Tout en assurant la sécurité du domaine du richissime Robin Master, Magnum, hébergé sur la propriété dans la maison des invités, officie en tant que détective privé. Pour l'aider à résoudre ses enquêtes, le jeune homme peut compter sur ses frères d'armes, TC et Rick. Quant à Juliet Higgins, la majordome du domaine, accompagnée de ses dobermans Zeus et Apollon, elle se charge de garder un œil sur Magnum en veillant à ce qu'il n'abuse pas de la générosité de Robin Master.",
-    "date_ajout": "2021-04-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts58133",
     "titre": "Manhunt : The Unabomber",
     "type": "serie",
@@ -84221,98 +80493,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/165891334/s592/manhunt-unabomber.jpg",
     "synopsis": "Inspirée d'événements réels, cette série criminelle d'anthologie plonge dans l'esprit sombre et tordu des terroristes et suit les âmes courageuses qui les traquent.",
     "date_ajout": "2024-04-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1665400",
-    "titre": "Le rêve américain",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "2h 02min",
-    "runtime_minutes": 122,
-    "note_avis": 7.3,
-    "note_recence": 10,
-    "note_globale": 8.7,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "rma",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/344673125/s592/le-reve-americain.jpg",
-    "synopsis": "Personne n'aurait parié sur Jérémy, coincé derrière le comptoir d’un vidéo club à Amiens, ou sur Bouna, lorsqu'il faisait des ménages à l’aéroport d’Orly. Sans contacts, sans argent et avec un niveau d'anglais plus qu’approximatif, rien ne les prédestinait à devenir des agents qui comptent en NBA.  Inspiré d’une histoire vraie, ce film raconte le parcours de deux outsiders qui, grâce à leur passion absolue pour le basket et leur amitié indéfectible, ont bravé tous les obstacles pour réaliser leur Rêve Américain.",
-    "date_ajout": "2026-02-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm54060",
-    "titre": "Slumdog Millionaire",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2008,
-    "annee_moyenne": 2008,
-    "duree": "2h 01min",
-    "runtime_minutes": 121,
-    "note_avis": 8,
-    "note_recence": 4.6,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/248237869/s592/slumdog-millionaire.jpg",
-    "synopsis": "Jamal Malik, 18 ans, orphelin vivant dans les taudis de Mumbai, est sur le point de remporter la somme colossale de 20 millions de roupies lors de la version indienne de l’émission «Qui veut gagner des millions ?». Il n’est plus qu’à une question de la victoire lorsque la police l’arrête sur un soupçon de tricherie. Sommé de justifier ses bonnes réponses, Jamal explique d’où lui viennent ses connaissances et raconte sa vie dans la rue, ses histoires de famille et même celle de cette fille dont il est tombé amoureux et qu’il a perdue. Mais comment ce jeune homme est‐il parvenu en finale d’une émission de télévision ? La réponse ne fait pas partie du jeu, mais elle est passionnante.",
-    "date_ajout": "2008-11-12",
     "expiration": {
       "status": "none",
       "label": null,
@@ -84528,365 +80708,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm420155",
-    "titre": "1917",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 59min",
-    "runtime_minutes": 119,
-    "note_avis": 8.2,
-    "note_recence": 7.9,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "war"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/168373363/s592/1917.jpg",
-    "synopsis": "Pris dans la tourmente de la Première Guerre Mondiale, Schofield et Blake, deux jeunes soldats britanniques, se voient assigner une mission à proprement parler impossible. Porteurs d’un message qui pourrait empêcher une attaque dévastatrice et la mort de centaines de soldats, dont le frère de Blake, ils se lancent dans une véritable course contre la montre, derrière les lignes ennemies.",
-    "date_ajout": "2020-01-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm137837",
-    "titre": "Les Minions",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 6.4,
-    "note_recence": 6.7,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "crm",
-      "fml",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/8717267/s592/les-minions.jpg",
-    "synopsis": "À la nuit des temps des temps. À l’origine, de simples organismes monocellulaires de couleur jaune, les Minions ont évolué au cours des âges au service de maîtres plus abjects les uns que les autres. Les disparitions répétitives de ceux‐ci, des tyrannosaures à Napoléon, ont plongé nos mignons personnages dans une profonde dépression. Mais l’un d’eux, prénommé Kevin, a une idée. Flanqué de Stuart, l’adolescent rebelle et de l’adorable petit Bob, Kevin part à la recherche d’un nouveau patron malfaisant pour guider les siens. Nos trois Minions se lancent dans un palpitant voyage qui va les conduire à leur nouveau maître… qui s’avère être une maîtresse : Scarlet Overkill, la première super‐vilaine de l’histoire. De l’Antarctique au New York des années 60, nos trois compères arrivent finalement à Londres, à l’apogée des mods, où ils vont devoir faire face à la plus terrible menace de leur existence : l’annihilation de leur espèce.",
-    "date_ajout": "2015-07-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1622683",
-    "titre": "Coutures",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 5.7,
-    "note_recence": 10,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341033611/s592/coutures.jpg",
-    "synopsis": "À Paris, dans le tumulte de la Fashion Week, Maxine, une réalisatrice américaine apprend une nouvelle qui va bouleverser sa vie. Elle croise alors le chemin d’Ada, une jeune mannequin Sud‐Soudanaise ayant quitté son pays, et Angèle, une maquilleuse française aspirant à une autre vie. Entre ces trois femmes aux horizons pourtant si différents se tisse une solidarité insoupçonnée. Sous le vernis glamour se révèle une forme de révolte silencieuse : celle de femmes qui recousent, chacune à sa manière, les fils de leur propre histoire.",
-    "date_ajout": "2026-02-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1000711",
-    "titre": "Le secret de la cité perdue",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 52min",
-    "runtime_minutes": 112,
-    "note_avis": 6.1,
-    "note_recence": 8.8,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "rma"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/264213138/s592/lost-city-of-d.jpg",
-    "synopsis": "Loretta Sage, romancière brillante mais solitaire, est connue pour ses livres mêlant romance et aventures dans des décors exotiques. Alan, mannequin, a pour sa part passé la plus grande partie de sa carrière à incarner Dash, le héros à la plastique avantageuse figurant sur les couvertures des livres de Loretta. Alors qu’elle est en pleine promotion de son nouveau roman en compagnie d’Alan, Loretta se retrouve kidnappée par un milliardaire excentrique qui est persuadé qu’elle pourra l’aider à retrouver le trésor d’une cité perdue évoquée dans son dernier ouvrage. Déterminé à prouver qu’il peut être dans la vraie vie à la hauteur du héros qu’il incarne dans les livres, Alan se lance à la rescousse de la romancière. Propulsés dans une grande aventure au cœur d’une jungle hostile, ce duo improbable va devoir faire équipe pour survivre et tenter de mettre la main sur l’ancien trésor avant qu’il ne disparaisse à jamais.",
-    "date_ajout": "2022-03-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts21711",
-    "titre": "Un village français",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2009,
-    "annee_fin": 2016,
-    "annee_moyenne": 2013,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2009,
-        "note": 8.4
-      },
-      {
-        "saison": 2,
-        "annee": 2009,
-        "note": 8.4
-      },
-      {
-        "saison": 3,
-        "annee": 2010,
-        "note": 8.4
-      },
-      {
-        "saison": 4,
-        "annee": 2012,
-        "note": 8.4
-      },
-      {
-        "saison": 5,
-        "annee": 2013,
-        "note": 8.4
-      },
-      {
-        "saison": 6,
-        "annee": 2014,
-        "note": 8.4
-      },
-      {
-        "saison": 7,
-        "annee": 2016,
-        "note": 8.4
-      }
-    ],
-    "duree": "51 min/ép.",
-    "runtime_minutes": 51,
-    "note_avis": 8.4,
-    "note_recence": 6.1,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "war",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/174730132/s592/un-village-francais.jpg",
-    "synopsis": "En juin 40, Villeneuve, petite ville du centre de la France, est bouleversée par l'arrivée de l'armée allemande. L'Occupation vient de commencer et va durer cinq ans. Hortense, Jean, Raymond, Marie étaient des Françaises et des Français ordinaires, maris, femmes, notables ou paysans... ils deviendront patriotes, traîtres, collaborateurs ou résistants. Après s'être effondrée, la France se reconstruit jour après jour, mais à l'heure allemande. Avec cette période incertaine et dangereuse de notre histoire s'ouvre une ère nouvelle : aux règles imposées par l'occupant répondent celles de la désobéissance civile ou de la clandestinité. On y a peur, on y a faim, on s'y déchire au nom des valeurs et d'une certaine idée de la France... ou parfois simplement par amour.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1575425",
-    "titre": "Ladies Night: Regretting You",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 56min",
-    "runtime_minutes": 116,
-    "note_avis": 6,
-    "note_recence": 9.7,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/334037962/s592/regretting-you.jpg",
-    "synopsis": "De Colleen Hoover, auteure à succès, voici une histoire qui saisit toute la magie d’un amour de jeunesse et vous la fait ressentir. Quand la vie de Clara bascule, elle ne s’attend pas à trouver l’amour… jusqu’à ce que Miller entre dans sa vie. Avec sa force tranquille et sa chaleur rassurante, il l’aide à retrouver la joie au milieu du chaos. Un récit tendre sur le premier amour, les secondes chances et ce lien unique qui illumine tout.",
-    "date_ajout": "2025-11-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1329955",
-    "titre": "Speak No Evil",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 50min",
-    "runtime_minutes": 110,
-    "note_avis": 6.8,
-    "note_recence": 9.4,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "hrr",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/347244968/s592/speak-no-evil-2024.jpg",
-    "synopsis": "Quand une famille américaine est invitée à passer le week-end dans le domaine champêtre idyllique d'une charmante famille britannique qu'ils ont rencontrée en vacances, ce qui paraissait être des vacances de rêve se transforme bientôt en un cauchemar psychologique.",
-    "date_ajout": "2024-09-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts402633",
     "titre": "Simon Coleman",
     "type": "serie",
@@ -84955,70 +80776,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts380380",
-    "titre": "Elsbeth",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_fin": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 7.5
-      },
-      {
-        "saison": 2,
-        "annee": 2024,
-        "note": 7.5
-      },
-      {
-        "saison": 3,
-        "annee": 2025,
-        "note": 7.5
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 7.5,
-    "note_recence": 9.7,
-    "note_globale": 8.6,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/331311475/s592/elsbeth.jpg",
-    "synopsis": "Suite à la remise en cause de certaines arrestations conduisant à des soupçons de corruption, Elsbeth Tascioni, avocate de Chicago, est mandatée pour observer les enquêtes de l'unité des Affaires Sensibles de la police de New York.",
-    "date_ajout": "2025-07-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts483398",
     "titre": "A l'instinct",
     "type": "serie",
@@ -85076,18 +80833,15 @@ const CATALOG_DATA = [
     "id": "jw-ts355934",
     "titre": "Les secrets de la Saint-Jean",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2025,
@@ -85124,390 +80878,6 @@ const CATALOG_DATA = [
       "packageExpirations": {
         "art": "2026-11-25"
       }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1572399",
-    "titre": "The Phoenician Scheme",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 41min",
-    "runtime_minutes": 101,
-    "note_avis": 6.6,
-    "note_recence": 9.7,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/331502370/s592/the-phoenician-scheme.jpg",
-    "synopsis": "Le riche homme d'affaires Zsa-zsa Korda désigne sa fille unique, une religieuse, comme seule héritière de son patrimoine. Alors que les Korda se lancent dans une nouvelle entreprise, ils deviennent rapidement la cible de magnats intrigants, de terroristes étrangers et d'assassins déterminés.",
-    "date_ajout": "2025-05-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1543406",
-    "titre": "Reminders of Him",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 54min",
-    "runtime_minutes": 114,
-    "note_avis": 6.3,
-    "note_recence": 10,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/343164332/s592/reminders-of-him.jpg",
-    "synopsis": "Après une sortie parfaite avec son petit ami, Kenna commet une erreur irréparable qui la conduit en prison pour sept ans. Espérant reconstruire sa vie après sa libération, elle tente de retrouver sa fille, mais ses grands-parents, qui en ont la garde, refusent de la laisser la voir. Elle trouve bientôt une compassion inattendue auprès du propriétaire d'un bar local, et leur romance secrète donne à Kenna l'espoir d'une seconde chance.",
-    "date_ajout": "2026-03-13",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm218937",
-    "titre": "Mission : Impossible - Fallout",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "2h 27min",
-    "runtime_minutes": 147,
-    "note_avis": 7.7,
-    "note_recence": 7.6,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/313425954/s592/mission-impossible-fallout.jpg",
-    "synopsis": "Alors qu'Ethan Hunt est chargé de récupérer du plutonium volé, il décide de sauver son équipe plutôt que de mener à bien cette mission. Les armes nucléaires se retrouvent ainsi dans les mains d'un groupe terroriste nommé « les Apôtres », formé après l'arrestation de Solomon Lane sur les restes du Syndicat. Ethan et son équipe de Mission Impossible doivent, contre leur gré, s'associer à un agent de la CIA pour retrouver le plutonium avant qu'il ne soit trop tard…",
-    "date_ajout": "2018-07-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm238679",
-    "titre": "The Revenge",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 5.4,
-    "note_recence": 7,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/172319211/s592/the-revenge.jpg",
-    "synopsis": "Après le meurtre de sa femme, un homme s’aperçoit que la police, profondément corrompue, est incapable d’arrêter les coupables, et qu'il va devoir se faire justice lui-même. Un vigilante vient de naître, prêt à détruire ceux qui abusent de leur pouvoir...",
-    "date_ajout": "2016-05-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm144051",
-    "titre": "La Famille Bélier",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
-    "note_avis": 7.3,
-    "note_recence": 6.4,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "msc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302816639/s592/la-famille-belier.jpg",
-    "synopsis": "Dans la famille Bélier, tout le monde est sourd sauf Paula, 16 ans. Elle est une interprète indispensable à ses parents au quotidien, notamment pour l’exploitation de la ferme familiale. Un jour, poussée par son professeur de musique qui lui a découvert un don pour le chant, elle décide de préparer le concours de Radio France. Un choix de vie qui signifierait pour elle l’éloignement de sa famille et un passage inévitable à l’âge adulte.",
-    "date_ajout": "2015-04-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1352761",
-    "titre": "Scream 7",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 54min",
-    "runtime_minutes": 114,
-    "note_avis": 5.5,
-    "note_recence": 10,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "hrr",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341442494/s592/scream-7.jpg",
-    "synopsis": "Lorsqu’un nouveau Ghostface surgit dans la paisible ville où Sidney Prescott a reconstruit sa vie, ses pires cauchemars refont surface. Alors que sa fille devient la prochaine cible, Sidney n’a d’autre choix que de reprendre le combat. Déterminée à protéger les siens, elle doit alors affronter les démons de son passé pour tenter de mettre fin une bonne fois pour toutes au bain de sang.",
-    "date_ajout": "2026-02-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1656422",
-    "titre": "Invisible",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 49min",
-    "runtime_minutes": 109,
-    "note_avis": 7.2,
-    "note_recence": 9.7,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/332895175/s592/invisible-2025.jpg",
-    "synopsis": "La recherche de son ami disparu David force CB sur un chemin dangereux, semé d'embûches mortelles, et seule sa douleur partagée avec Heather, une jeune femme atteinte de SDRC (syndrome douloureux régional complexe) peut l'aider à trouver la vérité.",
-    "date_ajout": "2026-09-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts49",
-    "titre": "Blue Mountain State",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2010,
-    "annee_fin": 2011,
-    "annee_moyenne": 2011,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2010,
-        "note": 8.3
-      },
-      {
-        "saison": 2,
-        "annee": 2010,
-        "note": 8.3
-      },
-      {
-        "saison": 3,
-        "annee": 2011,
-        "note": 8.3
-      }
-    ],
-    "duree": "22 min/ép.",
-    "runtime_minutes": 22,
-    "note_avis": 8.3,
-    "note_recence": 5.5,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "spt"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/304561407/s592/blue-mountain-state.jpg",
-    "synopsis": "Trois étudiants de première année à l'université de Blue Mountain State doivent rapidement s'adapter à leur nouvelle vie et jongler entre le football, les filles, les cours et le sort réservé aux premières années.",
-    "date_ajout": "2024-04-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": true
@@ -85672,392 +81042,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm47756",
-    "titre": "Kung Fu Panda",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2008,
-    "annee_moyenne": 2008,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 7.6,
-    "note_recence": 4.6,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "fnt",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/310133002/s592/kung-fu-panda.jpg",
-    "synopsis": "Passionné, costaud et quelque peu maladroit, Po est sans conteste le plus grand fan de kung‐fu. Serveur dans le restaurant de nouilles de son père, son habileté reste encore à prouver. Élu pour accomplir une ancienne prophétie, Po rejoint le monde du kung‐fu afin d'apprendre les arts martiaux auprès de ses idoles, les légendaires Cinq Cyclones : Tigresse, Grue, Mante, Vipère et Singe, sous les ordres de leur professeur et entraîneur, Maître Shifu. Mais Taï Lung, le léopard des neiges fourbe et animé d'un désir de vengeance, approche à grands pas, et c'est Po qui sera chargé de défendre la vallée face à cette menace grandissante.",
-    "date_ajout": "2008-06-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1166331",
-    "titre": "Les Bad Guys",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 6.9,
-    "note_recence": 8.8,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "crm",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/309893423/s592/the-bad-guys-2022.jpg",
-    "synopsis": "Après toute une vie de braquages légendaires, les criminels notoires M. Loup, M. Serpent, M. Piranha, M. Requin et Mme Tarantule sont enfin capturés. Pour éviter une peine de prison, les animaux hors-la-loi doivent réussir leur plus grande arnaque : devenir des citoyens modèles. Sous la tutelle de leur mentor, le professeur Marmelade, la bande entreprend de faire croire au monde qu'elle est en train de devenir honnête.",
-    "date_ajout": "2022-04-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm142876",
-    "titre": "Jurassic World",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "2h 04min",
-    "runtime_minutes": 124,
-    "note_avis": 6.9,
-    "note_recence": 6.7,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "trl",
-      "scf"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/175533836/s592/jurassic-world.jpg",
-    "synopsis": "Après le décès de son fondateur John Hammond, la société de biotechnologie InGen a été rachetée par Simon Masrani, PDG de la Masrani Global Corporation. Deux décennies après les événements tragiques de 1993, un nouveau parc a ouvert ses portes sur Isla Nublar, au large du Costa Rica. C’est plus de vingt mille visiteurs qui débarquent chaque jour à « Jurassic World », le « plus grand parc à thèmes jamais construit dans l’histoire humaine » pour profiter pleinement du cadre idyllique de l’île et de ses attractions. Les scientifiques de la réserve biologique, sous la direction du Dr Henry Wu, étudient le comportement des animaux, des dinosaures vivants recréés à partir de leur ADN fossilisé dans de lʼambre. Mais alors que tout le monde croyait les leçons du passé assimilées, un nouvel incident éclate…",
-    "date_ajout": "2015-01-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts58473",
-    "titre": "Demain nous appartient",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2017,
-    "annee_fin": 2026,
-    "annee_moyenne": 2022,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2017,
-        "note": 5.1
-      },
-      {
-        "saison": 2,
-        "annee": 2025,
-        "note": 5.1
-      },
-      {
-        "saison": 3,
-        "annee": 2026,
-        "note": 5.1
-      },
-      {
-        "saison": 4,
-        "annee": 2020,
-        "note": 5.1
-      },
-      {
-        "saison": 5,
-        "annee": 2022,
-        "note": 5.1
-      },
-      {
-        "saison": 6,
-        "annee": 2023,
-        "note": 5.1
-      },
-      {
-        "saison": 7,
-        "annee": 2023,
-        "note": 5.1
-      },
-      {
-        "saison": 8,
-        "annee": 2025,
-        "note": 5.1
-      },
-      {
-        "saison": 9,
-        "annee": 2026,
-        "note": 5.1
-      }
-    ],
-    "duree": "28 min/ép.",
-    "runtime_minutes": 28,
-    "note_avis": 5.1,
-    "note_recence": 8.8,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/348320231/s592/demain-nous-appartient.jpg",
-    "synopsis": "La baie de Sète. Une violente explosion. Au milieu du chaos, une mère cherche son fils. Était-il sur l’un des bateaux qui se sont percutés ? Aurait-il participé à ce qui apparaît très vite comme un meurtre ? Prête à tout pour protéger son enfant, sa vie bascule complètement lorsque l’on retrouve sur une plage le corps d’une femme, sa propre sœur, qu’elle n’a pas revue depuis plus de quinze ans…",
-    "date_ajout": "2023-05-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm134967",
-    "titre": "Dragons 2",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 7.8,
-    "note_recence": 6.4,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "fnt",
-      "fml"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/121450804/s592/dragons-2.jpg",
-    "synopsis": "Tandis qu’Astrid, Rustik et le reste de la bande se défient durant des courses sportives de dragons devenues populaires sur l’île, notre duo désormais inséparable parcourt les cieux, à la découverte de territoires inconnus et de nouveaux mondes. Au cours de l’une de leurs aventures, ils découvrent une grotte secrète qui abrite des centaines de dragons sauvages, dont le mystérieux Dragon Rider. Les deux amis se retrouvent alors au centre d’une lutte visant à maintenir la paix. Harold et Krokmou vont se battre pour défendre leurs valeurs et préserver le destin des hommes et des dragons.",
-    "date_ajout": "2014-07-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts106126",
-    "titre": "Le Bazar de la Charité",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+",
-      "Novo 19"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/novo19.svg"
-    ],
-    "package_slugs": [
-      "tf1",
-      "nvn"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2019,
-        "note": 7.6
-      }
-    ],
-    "duree": "50 min/ép.",
-    "runtime_minutes": 50,
-    "note_avis": 7.6,
-    "note_recence": 7.9,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/148243106/s592/le-bazar-de-la-charite.jpg",
-    "synopsis": "Paris, 4 mai 1897. Un incendie dévastateur détruit en quelques minutes le Bazar de la Charité, l’édifice abritant une manifestation caritative très courue, faisant plus de 120 morts ; essentiellement des femmes de la haute société et leur personnel. À cette occasion, trois femmes, Adrienne De Lenverpre, Alice De Jeansin, et sa bonne Rose Rivière voient leur destin bouleversé. Usurpation d’identité, amours interdites, changement radical de vie, émancipation, cette mini-série nous plonge dans la société parisienne de la fin du 19e siècle, en suivant le destin romanesque de ses trois héroïnes.",
-    "date_ajout": "2019-11-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "nvn": "2026-11-14"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1419498",
-    "titre": "Dìdi",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 7.3,
-    "note_recence": 9.4,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/332881377/s592/didi.jpg",
-    "synopsis": "En 2008, un mois avant le début du lycée, un jeune américain taïwanais de 13 ans, très impressionnable, apprend ce que sa famille ne peut pas lui enseigner : comment patiner, comment flirter et comment aimer sa mère.",
-    "date_ajout": "2024-07-26",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts21615",
     "titre": "Totally Spies !",
     "type": "serie",
@@ -86089,6 +81073,11 @@ const CATALOG_DATA = [
       {
         "saison": 3,
         "annee": 2003,
+        "note": 7.1
+      },
+      {
+        "saison": 4,
+        "annee": 2006,
         "note": 7.1
       },
       {
@@ -86150,69 +81139,20 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1452845",
-    "titre": "Y a-t-il un flic pour sauver le monde?",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 6.3,
-    "note_recence": 9.7,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/334933907/s592/the-naked-gun-2025.jpg",
-    "synopsis": "Frank Drebin est le fils du légendaire inspecteur gaffeur du même nom. Son enquête sur un accident d’auto mortel l’amène à rencontrer la séduisante Beth Davenport, sœur de l’infortunée victime. Leur investigation les conduit à Richard Cane, le richissime et génial inventeur d’une automobile électrique révolutionnaire. Au fil de son enquête, Frank découvre que Cane fomente un sombre complot : utiliser une fréquence sonore inaudible pour renvoyer l'humanité à l'état sauvage.",
-    "date_ajout": "2025-08-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts11198",
     "titre": "Bron/Broen (The Bridge)",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "M6+",
     "chaines": [
-      "TF1+",
       "M6+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/m6_plus.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "sxp",
       "art"
     ],
@@ -86392,599 +81332,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts18517",
-    "titre": "Les Experts",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2000,
-    "annee_fin": 2014,
-    "annee_moyenne": 2007,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2000,
-        "note": 7.7
-      },
-      {
-        "saison": 2,
-        "annee": 2001,
-        "note": 7.7
-      },
-      {
-        "saison": 3,
-        "annee": 2002,
-        "note": 7.7
-      },
-      {
-        "saison": 4,
-        "annee": 2003,
-        "note": 7.7
-      },
-      {
-        "saison": 5,
-        "annee": 2004,
-        "note": 7.7
-      },
-      {
-        "saison": 6,
-        "annee": 2005,
-        "note": 7.7
-      },
-      {
-        "saison": 7,
-        "annee": 2006,
-        "note": 7.7
-      },
-      {
-        "saison": 8,
-        "annee": 2007,
-        "note": 7.7
-      },
-      {
-        "saison": 9,
-        "annee": 2008,
-        "note": 7.7
-      },
-      {
-        "saison": 10,
-        "annee": 2009,
-        "note": 7.7
-      },
-      {
-        "saison": 11,
-        "annee": 2010,
-        "note": 7.7
-      },
-      {
-        "saison": 12,
-        "annee": 2011,
-        "note": 7.7
-      },
-      {
-        "saison": 13,
-        "annee": 2012,
-        "note": 7.7
-      },
-      {
-        "saison": 14,
-        "annee": 2013,
-        "note": 7.7
-      },
-      {
-        "saison": 15,
-        "annee": 2014,
-        "note": 7.7
-      }
-    ],
-    "duree": "47 min/ép.",
-    "runtime_minutes": 47,
-    "note_avis": 7.7,
-    "note_recence": 4.3,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/240512113/s592/les-experts.jpg",
-    "synopsis": "À Las Vegas, un groupe d'experts scientifiques de la police recueille des indices sur les scènes de crime pour résoudre des enquêtes complexes. Un temps conduite par Gil Grissom, un entomologiste qui garde toujours son sang-froid, l'équipe enchaîne les affaires délicates : meurtres sanglants, viols, disparitions, leur taux d'efficacité est impressionnant. D.B. Russell, qui prend la suite des opérations après le départ de Gil Grissom et l'intérim de Raymond Langston, tente de maintenir la réputation d'excellence du service.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm33728",
-    "titre": "The Hit Girls",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2012,
-    "annee_moyenne": 2012,
-    "duree": "1h 52min",
-    "runtime_minutes": 112,
-    "note_avis": 7.1,
-    "note_recence": 5.8,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "msc",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/47294044/s592/the-hit-girls.jpg",
-    "synopsis": "Beca est le genre de fille qui préfère écouter son lecteur MP3 que la personne assise en face d’elle. Fraîchement arrivée à la fac, elle a du mal à y trouver sa place. Elle intègre alors, plus ou moins contre son gré, une clique de filles qu’elle n’aurait jamais considérées abordables ou fréquentables : un mélange de pestes, de bonnes pâtes et d’originales dont le seul point commun est la perfection avec laquelle elles chantent a cappella. Et quand la nouvelle venue les initie, au‐delà des arrangements traditionnels et des harmonies classiques, à des interprétations et des combinaisons musicales novatrices, toutes se rallient à son ambition d’accéder au sommet du podium dans cet univers impitoyable qu’est celui du chant a cappella à l’université, ce qui pourrait bien s’avérer la chose la plus cool qu’elles aient jamais faite, ou la plus folle.",
-    "date_ajout": "2013-05-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm217382",
-    "titre": "Jurassic World: Fallen Kingdom",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "2h 08min",
-    "runtime_minutes": 128,
-    "note_avis": 6.2,
-    "note_recence": 7.6,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "trl",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/79942118/s592/jurassic-world-royaume-dechu.jpg",
-    "synopsis": "Cela fait maintenant trois ans que les dinosaures se sont échappés de leurs enclos et ont détruit le parc à thème et complexe de luxe Jurassic World. Isla Nublar a été abandonnée par les humains alors que les dinosaures survivants sont livrés à eux-mêmes dans la jungle. Lorsque le volcan inactif de l'île commence à rugir, Owen et Claire s’organisent pour sauver les dinosaures restants de l’extinction.",
-    "date_ajout": "2018-06-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts20334",
-    "titre": "Le cœur a ses raisons",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2014,
-    "annee_fin": 2018,
-    "annee_moyenne": 2016,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2014,
-        "note": 7.9
-      },
-      {
-        "saison": 2,
-        "annee": 2015,
-        "note": 7.9
-      },
-      {
-        "saison": 3,
-        "annee": 2015,
-        "note": 7.9
-      },
-      {
-        "saison": 4,
-        "annee": 2017,
-        "note": 7.9
-      },
-      {
-        "saison": 5,
-        "annee": 2018,
-        "note": 7.9
-      }
-    ],
-    "duree": "44 min/ép.",
-    "runtime_minutes": 44,
-    "note_avis": 7.9,
-    "note_recence": 7,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "rma",
-      "wsn"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/335342673/s592/when-calls-the-heart.jpg",
-    "synopsis": "L'histoire d'Elizabeth Thatcher, jeune enseignante habituée à la vie en haute société, qui obtient son premier poste dans une petite ville minière de charbon dirigée par deux veuves, Abigail Stanton et Frances Tunnecliffe.",
-    "date_ajout": "2024-12-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm166978",
-    "titre": "Mission : Impossible - Protocole Fantôme",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2011,
-    "annee_moyenne": 2011,
-    "duree": "2h 13min",
-    "runtime_minutes": 133,
-    "note_avis": 7.4,
-    "note_recence": 5.5,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/330713128/s592/mission-impossible-protocole-fantome.jpg",
-    "synopsis": "Après avoir été impliquée dans un complot terroriste mondial, l’agence Mission Impossible est contrainte de cesser ses activités. Le « Protocole Fantôme » est mis en place : Ethan Hunt et sa nouvelle équipe doivent opérer dans le secret pour blanchir le nom de leur organisation. Aucune aide, aucun contact, isolation totale. Cette mission va s'avérer être la plus dangereuse et la plus intense qu'ils aient eu à remplir.",
-    "date_ajout": "2011-12-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts20106",
-    "titre": "La Pat' Patrouille",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2013,
-    "annee_fin": 2025,
-    "annee_moyenne": 2019,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2013,
-        "note": 6.1
-      },
-      {
-        "saison": 2,
-        "annee": 2014,
-        "note": 6.1
-      },
-      {
-        "saison": 3,
-        "annee": 2015,
-        "note": 6.1
-      },
-      {
-        "saison": 4,
-        "annee": 2017,
-        "note": 6.1
-      },
-      {
-        "saison": 5,
-        "annee": 2018,
-        "note": 6.1
-      },
-      {
-        "saison": 6,
-        "annee": 2019,
-        "note": 6.1
-      },
-      {
-        "saison": 7,
-        "annee": 2020,
-        "note": 6.1
-      },
-      {
-        "saison": 9,
-        "annee": 2022,
-        "note": 6.1
-      },
-      {
-        "saison": 10,
-        "annee": 2023,
-        "note": 6.1
-      },
-      {
-        "saison": 11,
-        "annee": 2024,
-        "note": 6.1
-      },
-      {
-        "saison": 12,
-        "annee": 2025,
-        "note": 6.1
-      }
-    ],
-    "duree": "19 min/ép.",
-    "runtime_minutes": 19,
-    "note_avis": 6.1,
-    "note_recence": 7.9,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "cmy",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/246726150/s592/paw-patrol.jpg",
-    "synopsis": "La Pat’ Patrouille compte six chiots héroïques qui répondent aux noms de Chase, Marcus, Rocky, Ruben, Zuma, et Stella. Ils sont menés par Ryder, un garçon de 10 ans féru de technologie. Tous ensemble, ils vivent des aventures palpitantes pour protéger la communauté de la Grande Vallée. La devise de Ryder ? « Aucune mission n'est trop dure car mes amis, ils assurent ! »",
-    "date_ajout": "2013-08-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm90485",
-    "titre": "Moi, moche et méchant",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2010,
-    "annee_moyenne": 2010,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 7.6,
-    "note_recence": 5.2,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "cmy",
-      "crm",
-      "fml",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/113921418/s592/moi-moche-et-mechant.jpg",
-    "synopsis": "Dans un charmant quartier résidentiel délimité par des clôtures de bois blanc et orné de rosiers fleurissants se dresse une bâtisse noire entourée d’une pelouse en friche. Cette façade sinistre cache un secret : Gru, un méchant vilain, entouré d’une myriade de sous‐fifres et armé jusqu’aux dents, qui, à l’insu du voisinage, complote le plus gros casse de tous les temps : voler la lune (Oui, la lune !)… Gru affectionne toutes sortes de sales joujoux. Il possède une multitude de véhicules de combat aérien et terrestre et un arsenal de rayons immobilisants et rétrécissants avec lesquels il anéantit tous ceux qui osent lui barrer la route… jusqu’au jour où il tombe nez à nez avec trois petites orphelines qui voient en lui quelqu’un de tout à fait différent : un papa. Le plus grand vilain de tous les temps se retrouve confronté à sa plus dure épreuve : trois fillettes prénommées Margo, Édith et Agnès.",
-    "date_ajout": "2010-07-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1102362",
-    "titre": "Les Trois Mousquetaires : D'Artagnan",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "2h 01min",
-    "runtime_minutes": 121,
-    "note_avis": 6.7,
-    "note_recence": 9.1,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "hst"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302124910/s592/les-trois-mousquetaires-dartagnan.jpg",
-    "synopsis": "Du Louvre au Palais de Buckingham, des bas-fonds de Paris au siège de La Rochelle... Dans un Royaume divisé par les guerres de religion et menacé d’invasion par l’Angleterre, une poignée d’hommes et de femmes vont croiser leurs épées et lier leur destin à celui de la France.",
-    "date_ajout": "2023-04-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1408543",
-    "titre": "Chasse gardée",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 41min",
-    "runtime_minutes": 101,
-    "note_avis": 5.8,
-    "note_recence": 9.1,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/310804532/s592/chasse-gardee.jpg",
-    "synopsis": "Dans un village sans histoire, une maison de rêve en pleine nature est à vendre. Pour Simon et Adélaïde, à l'étroit dans leur appartement parisien avec leurs deux enfants, c'est l'occasion idéale de faire le grand saut et de quitter l'enfer de la ville. Cependant, le rêve se transforme rapidement en cauchemar quand ils réalisent que leurs si sympathiques voisins utilisent leur jardin comme terrain de chasse. Entre voisins, la guerre est déclarée et tous les coups sont permis.",
-    "date_ajout": "2023-12-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts95325",
     "titre": "Trigonometry",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2020,
@@ -87043,19 +81402,65 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2016,
-    "annee_moyenne": 2016,
+    "annee_fin": 2026,
+    "annee_moyenne": 2021,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2016,
+        "note": 6.9
+      },
+      {
+        "saison": 2,
+        "annee": 2016,
+        "note": 6.9
+      },
+      {
+        "saison": 3,
+        "annee": 2018,
+        "note": 6.9
+      },
+      {
+        "saison": 4,
+        "annee": 2019,
+        "note": 6.9
+      },
+      {
+        "saison": 5,
+        "annee": 2020,
+        "note": 6.9
+      },
+      {
+        "saison": 6,
+        "annee": 2022,
+        "note": 6.9
+      },
+      {
+        "saison": 7,
+        "annee": 2023,
+        "note": 6.9
+      },
+      {
+        "saison": 8,
+        "annee": 2024,
+        "note": 6.9
+      },
+      {
+        "saison": 9,
+        "annee": 2025,
+        "note": 6.9
+      },
+      {
+        "saison": 10,
+        "annee": 2026,
         "note": 6.9
       }
     ],
     "duree": "17 min/ép.",
     "runtime_minutes": 17,
     "note_avis": 6.9,
-    "note_recence": 7,
-    "note_globale": 7,
+    "note_recence": 8.5,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -87074,51 +81479,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/321986527/s592/the-loud-house.jpg",
     "synopsis": "Dans la ville fictive de Royal Woods, dans le Michigan, vivent Lincoln Loud et ses 10 sœurs. La vie du jeune garçon de 11 ans est de loin trépidante. Il sait que pour survivre avec 5 grandes sœurs (Lori, Leni, Luna, Luan, et Lynn) et 5 petites sœurs (Lucy, les jumelles Lana et Lola ainsi que Lisa, et enfin Lily, le bébé), il faut faire preuve de détachement, de confiance en soi, d'optimisme et qu'il faut toujours avoir un plan!",
     "date_ajout": "2016-05-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm453583",
-    "titre": "Mission : Impossible - Dead Reckoning Partie 1",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "2h 44min",
-    "runtime_minutes": 164,
-    "note_avis": 7.6,
-    "note_recence": 9.1,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306595708/s592/mission-impossible-7.jpg",
-    "synopsis": "Ethan Hunt et son équipe de Mission Impossible se lancent dans leur mission la plus périlleuse à ce jour : traquer une effroyable nouvelle arme avant que celle-ci ne tombe entre de mauvaises mains et menace l’humanité entière. Le contrôle du futur et le destin du monde sont en jeu. Alors que les forces obscures de son passé ressurgissent, Ethan s’engage dans une course mortelle autour du globe. Confronté à un puissant et énigmatique ennemi, Ethan réalise que rien ne peut se placer au-dessus de sa mission, pas même la vie de ceux qu’il aime.",
-    "date_ajout": "2023-07-12",
     "expiration": {
       "status": "none",
       "label": null,
@@ -87187,98 +81547,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm206686",
-    "titre": "Tous en scène",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 48min",
-    "runtime_minutes": 108,
-    "note_avis": 7.1,
-    "note_recence": 7,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "cmy",
-      "fml",
-      "msc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9660497/s592/tous-en-scene-2016.jpg",
-    "synopsis": "Buster Moon est un élégant koala qui dirige un grand théâtre, jadis illustre, mais aujourd’hui tombé en désuétude. C’est un éternel optimiste, un peu bougon, qui aime son précieux théâtre au‐delà de tout et serait prêt à tout pour le sauver. C’est alors qu’il trouve une chance en or pour redorer son blason tout en évitant la destruction de ses rêves et de toutes ses ambitions : une compétition de chant. Cinq candidats sont retenus pour ce défi : une souris aussi séduisante que malhonnête, une jeune éléphante timide dévorée par le trac, une truie mère de famille débordée par ses 25 marcassins, un jeune gorille délinquant qui ne cherche qu’à échapper à sa famille, et une porc‐épic punk qui peine à se débarrasser de son petit ami à l’ego surdimensionné pour faire une carrière solo. Tout ce petit monde va venir chercher sur la scène de Buster l’opportunité qui pourra changer leur vie à jamais.",
-    "date_ajout": "2016-12-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1663439",
-    "titre": "Police Flash 80",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 6.1,
-    "note_recence": 10,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/343667746/s592/police-flash-80.jpg",
-    "synopsis": "Paris, années 80. Le trafic d’héroïne envahit la capitale. Un duo de flics à l’ancienne Yvon Kastendeuch et Johnny Lansky tient encore la baraque… jusqu’à ce que ce dernier se fasse descendre. Pour faire tomber le réseau, Yvon est propulsé à la tête d’une unité expérimentale : la Police Flash 80. Il va devoir désormais faire équipe avec des jeunes recrues aux méthodes modernes, loin de ses habitudes de mâle dominant fan de Sardou et d’andouillette.",
-    "date_ajout": "2026-03-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts255742",
     "titre": "James Herriot, chroniques d'un jeune vétérinaire",
     "type": "serie",
@@ -87294,7 +81562,7 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2020,
-    "annee_fin": 2025,
+    "annee_fin": 2026,
     "annee_moyenne": 2023,
     "saisons_disponibles": [
       {
@@ -87325,6 +81593,11 @@ const CATALOG_DATA = [
       {
         "saison": 6,
         "annee": 2025,
+        "note": 8.6
+      },
+      {
+        "saison": 7,
+        "annee": 2026,
         "note": 8.6
       }
     ],
@@ -87452,68 +81725,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1248166",
-    "titre": "The Fall Guy",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "2h 06min",
-    "runtime_minutes": 126,
-    "note_avis": 6.9,
-    "note_recence": 9.4,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/314432400/s592/the-fall-guy.jpg",
-    "synopsis": "Après avoir quitté le métier un an plus tôt, Colt Seavers, cascadeur, reprend du service lorsque la vedette d'un grand film de studio disparaît soudainement. Alors que le mystère autour de l'acteur disparu s'épaissit, Colt se retrouve bientôt pris au piège d'un sinistre complot qui le pousse au bord d'une chute plus dangereuse que n'importe quelle cascade.",
-    "date_ajout": "2024-05-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts378879",
     "titre": "Portobello",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2026,
@@ -87557,51 +81780,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm218129",
-    "titre": "Jack Reacher : Never Go Back",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 58min",
-    "runtime_minutes": 118,
-    "note_avis": 6.2,
-    "note_recence": 7,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/175750780/s592/jack-reacher-2.jpg",
-    "synopsis": "Jack Reacher est de retour, prêt à tout pour obtenir justice. Susan Turner, qui dirige son ancienne unité, est arrêtée pour trahison : Jack Reacher ne reculera devant rien pour prouver l’innocence de la jeune femme. Ensemble, ils sont décidés à faire éclater la vérité sur ce complot d’État.",
-    "date_ajout": "2016-10-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts381840",
     "titre": "Pokémon : Les Horizons",
     "type": "serie",
@@ -87617,8 +81795,8 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2023,
-    "annee_fin": 2024,
-    "annee_moyenne": 2024,
+    "annee_fin": 2026,
+    "annee_moyenne": 2025,
     "saisons_disponibles": [
       {
         "saison": 1,
@@ -87629,13 +81807,43 @@ const CATALOG_DATA = [
         "saison": 2,
         "annee": 2024,
         "note": 7.4
+      },
+      {
+        "saison": 3,
+        "annee": 2024,
+        "note": 7.4
+      },
+      {
+        "saison": 4,
+        "annee": 2025,
+        "note": 7.4
+      },
+      {
+        "saison": 5,
+        "annee": 2025,
+        "note": 7.4
+      },
+      {
+        "saison": 6,
+        "annee": 2025,
+        "note": 7.4
+      },
+      {
+        "saison": 7,
+        "annee": 2026,
+        "note": 7.4
+      },
+      {
+        "saison": 8,
+        "annee": 2026,
+        "note": 7.4
       }
     ],
     "duree": "21 min/ép.",
     "runtime_minutes": 21,
     "note_avis": 7.4,
-    "note_recence": 9.4,
-    "note_globale": 8.4,
+    "note_recence": 9.7,
+    "note_globale": 8.6,
     "etoiles": 5,
     "categories": [
       "animation_famille"
@@ -87654,236 +81862,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/304950210/s592/pokemon-2023.jpg",
     "synopsis": "Une nouvelle aventure commence dans le vaste monde des Pokémon ! Arrivée à l'Académie Indigo, une petite fille nommée Liko reçoit son premier partenaire Pokémon, Poussacha. Elle est bientôt poursuivie par les Explorateurs, un groupe mystérieux, décidé à voler le pendentif qu'elle porte. Cependant, Liko n'est pas seule : Friede, Capitaine Pikachu et les autres Électacleurs Volants la protègent et l'accueillent à bord de leur dirigeable. Pendant ce temps, un garçon nommé Rhod rêve de devenir Dresseur Pokémon, ignorant le secret caché dans la Poké Ball ancienne qu'il porte. Liko, Rhod et les Électacleurs Volants partent ensemble pour de nouveaux horizons. Quelles découvertes les attendent ?",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1349029",
-    "titre": "Saltburn",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "2h 11min",
-    "runtime_minutes": 131,
-    "note_avis": 7,
-    "note_recence": 9.1,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/310220568/s592/saltburn.jpg",
-    "synopsis": "Oliver Quick étudiant à l'université d'Oxford, se retrouve entraîné dans l'univers du charmant et aristocratique Felix Catton, qui l'invite à Saltburn, le vaste domaine de sa famille excentrique, pour un été qui restera gravé dans les mémoires.",
-    "date_ajout": "2023-11-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts225414",
-    "titre": "The Penthouse",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2020,
-        "note": 7.9
-      }
-    ],
-    "duree": "73 min/ép.",
-    "runtime_minutes": 73,
-    "note_avis": 7.9,
-    "note_recence": 8.2,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/257663901/s592/the-penthouse.jpg",
-    "synopsis": "Une femme met tout en œuvre pour atteindre son objectif de pouvoir emménager dans un penthouse de luxe dans le quartier de Gangnam. Dans le processus, elle se retrouve progressivement en train de se transformer en monstre.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts4244",
-    "titre": "Copper",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2012,
-    "annee_fin": 2013,
-    "annee_moyenne": 2013,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2012,
-        "note": 7.5
-      },
-      {
-        "saison": 2,
-        "annee": 2013,
-        "note": 7.5
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 7.5,
-    "note_recence": 6.1,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/177881522/s592/copper.jpg",
-    "synopsis": "Dans le New York du 19ème siècle, les aventures d'un jeune flic irlandais cherchant à découvrir la vérité sur la disparition de son épouse et la mort de sa fille. Son amitié avec deux compatriotes de la Guerre Civile, le fils d'un riche industriel et un médecin afro-américain, l'amène à côtoyer aussi bien la très chic 5ème Avenue que le Harlem populaire. De leurs années de combats, les trois amis partagent un terrible secret qui lient leurs vies à jamais.",
-    "date_ajout": "2026-04-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts85750",
-    "titre": "Balthazar",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2018,
-    "annee_fin": 2023,
-    "annee_moyenne": 2021,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 7.6
-      },
-      {
-        "saison": 2,
-        "annee": 2019,
-        "note": 7.6
-      },
-      {
-        "saison": 3,
-        "annee": 2020,
-        "note": 7.6
-      },
-      {
-        "saison": 4,
-        "annee": 2022,
-        "note": 7.6
-      },
-      {
-        "saison": 5,
-        "annee": 2023,
-        "note": 7.6
-      }
-    ],
-    "duree": "52 min/ép.",
-    "runtime_minutes": 52,
-    "note_avis": 7.6,
-    "note_recence": 8.5,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/243988431/s592/balthazar.jpg",
-    "synopsis": "Raphaël a tout pour plaire. Il est charmant, beau, intelligent… et il sait faire parler les morts comme personne. Médecin légiste le plus doué de sa génération, il fascine autant qu’il exaspère. Irrévérencieux et taquin, il croque la vie sans en perdre une miette, souvent au mépris des normes et des conventions. Un défi de taille pour le commandant de police Hélène Bach, mère de famille débordée et récemment arrivée à la Criminelle, qui va devoir collaborer avec cette personnalité hors du commun. Ensemble, ils vont faire face aux meurtres les plus complexes en nous entraînant dans les méandres du royaume de la mort.",
-    "date_ajout": "2018-12-06",
     "expiration": {
       "status": "none",
       "label": null,
@@ -87954,70 +81932,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm355",
-    "titre": "Dragons 3 : Le monde caché",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 7.4,
-    "note_recence": 7.9,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "drm",
-      "fnt",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/190437106/s592/dragons-3-le-monde-cache.jpg",
-    "synopsis": "Dans ce nouveau chapitre, Harold et Krokmou vont enfin découvrir leurs véritables destinées : être le chef de Berk au côté d’Astrid et, en tant que dragon, être le leader de son espèce. Alors qu’ils réalisent leurs rêves de vivre en paix entre Vikings et dragons, une sombre menace planant sur le village et l’apparition d’une femelle Fury Nocturne vont mettre à mal leurs liens d’amitié comme jamais auparavant.",
-    "date_ajout": "2019-02-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts37464",
     "titre": "Occupied",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2015,
@@ -88072,66 +81998,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm137836",
-    "titre": "Mission : Impossible - Rogue Nation",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "2h 11min",
-    "runtime_minutes": 131,
-    "note_avis": 7.4,
-    "note_recence": 6.7,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/313426056/s592/mission-impossible-rogue-nation.jpg",
-    "synopsis": "L'agence Mission Impossible est dissoute et Ethan Hunt se retrouve désormais isolé. Il doit affronter un réseau d’agents spéciaux particulièrement entraînés, le Syndicat. Cette organisation sans scrupules est déterminée à mettre en place un nouvel ordre mondial, à travers des attaques terroristes de plus en plus violentes. Ethan regroupe alors son équipe et fait alliance avec Ilsa Faust, agent britannique révoquée, dont les liens avec le Syndicat restent mystérieux.",
-    "date_ajout": "2015-07-31",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm180271",
     "titre": "L'Inconnu du lac",
     "type": "film",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2013,
@@ -88164,175 +82042,6 @@ const CATALOG_DATA = [
       "packageExpirations": {
         "art": "2027-03-01"
       }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts345200",
-    "titre": "Borgen - Une femme au pouvoir",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2010,
-    "annee_fin": 2013,
-    "annee_moyenne": 2012,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2010,
-        "note": 8.4
-      },
-      {
-        "saison": 2,
-        "annee": 2011,
-        "note": 8.4
-      },
-      {
-        "saison": 3,
-        "annee": 2013,
-        "note": 8.4
-      }
-    ],
-    "duree": "58 min/ép.",
-    "runtime_minutes": 58,
-    "note_avis": 8.4,
-    "note_recence": 5.8,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/279086479/s592/borgen-power-and-glory.jpg",
-    "synopsis": "Dans ce drame culte, des événements inattendus permettent à Birgitte Nyborg d'accéder au poste de Premier ministre du Danemark et de devenir la première femme au pouvoir.",
-    "date_ajout": "2021-04-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm856949",
-    "titre": "La Pat' Patrouille : Le Film",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 6.1,
-    "note_recence": 8.5,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "crm",
-      "fnt",
-      "fml",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/258284324/s592/paw-patrol-the-movie.jpg",
-    "synopsis": "La Pat’ Patrouille part en mission pour sa première grande aventure au cinéma ! Près de chez eux, leur plus grand rival, Monsieur Hellinger, devient le maire d' Aventureville et commence à semer le trouble. C'est à Ryder et les chiens intrépides de la Pat’ Patrouille de plonger dans l'action pour l'arrêter. Tandis que l'un de nos héros se voit confronté à son passé dans cette nouvelle ville, l’équipe va trouver une nouvelle alliée : Liberty, une teckel futée et pleine d'énergie. Équipée de gadgets inédits et de nouveaux équipements, la Pat’ Patrouille va voler au secours des citoyens d’Aventureville. Aucune mission n'est trop dure car la Pat' Patrouille assure !",
-    "date_ajout": "2021-08-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts393187",
-    "titre": "Le Signal 149 kHz",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+",
-      "Novo 19"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/novo19.svg"
-    ],
-    "package_slugs": [
-      "tf1",
-      "nvn"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2026,
-        "note": 6.2
-      }
-    ],
-    "duree": "46 min/ép.",
-    "runtime_minutes": 46,
-    "note_avis": 6.2,
-    "note_recence": 10,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341261684/s592/le-signal-149-khz.jpg",
-    "synopsis": "En emménageant sur la petite île bretonne de Kernolé, la famille Dormeuil espère prendre un nouveau départ. Olivia, journaliste à succès, est enceinte de son deuxième enfant. Elle a mis sa carrière sur pause pour mener à bien cette grossesse et son mari Paul a trouvé un poste de médecin sur l’île. En revanche, leur fille Camille traîne les pieds. En froid avec sa mère à qui elle reproche d’avoir toujours privilégié sa carrière, l’ado inventive et passionnée de science ne trouve qu’un intérêt à ce déménagement : les puissantes perturbations électromagnétiques présentes sur l’île lui permettront peut-être de prouver sa grande théorie. Camille pense en effet qu’il y a un lien entre les ondes et l’au-delà…",
-    "date_ajout": "2026-09-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": true
@@ -88465,10 +82174,15 @@ const CATALOG_DATA = [
     "package_slugs": [
       "sxp"
     ],
-    "annee": 2018,
+    "annee": 2016,
     "annee_fin": 2019,
-    "annee_moyenne": 2019,
+    "annee_moyenne": 2018,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2016,
+        "note": 7.8
+      },
       {
         "saison": 2,
         "annee": 2018,
@@ -88483,8 +82197,8 @@ const CATALOG_DATA = [
     "duree": "54 min/ép.",
     "runtime_minutes": 54,
     "note_avis": 7.8,
-    "note_recence": 7.9,
-    "note_globale": 7.9,
+    "note_recence": 7.6,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -88528,19 +82242,25 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2015,
-    "annee_moyenne": 2015,
+    "annee_fin": 2016,
+    "annee_moyenne": 2016,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2015,
+        "note": 8
+      },
+      {
+        "saison": 2,
+        "annee": 2016,
         "note": 8
       }
     ],
     "duree": "23 min/ép.",
     "runtime_minutes": 23,
     "note_avis": 8,
-    "note_recence": 6.7,
-    "note_globale": 7.4,
+    "note_recence": 7,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -88569,113 +82289,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1045025",
-    "titre": "65 : La Terre d'avant",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 5.4,
-    "note_recence": 9.1,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "trl",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/347598691/s592/65.jpg",
-    "synopsis": "Après un terrible crash sur une planète inconnue, le pilote Mills découvre rapidement qu’il a en réalité échoué sur Terre… il y a 65 millions d’années. Pour réussir leur unique chance de sauvetage, Mills et Koa, l’unique autre survivante du crash, doivent se frayer un chemin à travers des terres inconnues peuplées de dangereuses créatures préhistoriques dans un combat épique pour leur survie.",
-    "date_ajout": "2023-03-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm322760",
-    "titre": "Mamma Mia ! Here We Go Again",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 54min",
-    "runtime_minutes": 114,
-    "note_avis": 6.6,
-    "note_recence": 7.6,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/70996698/s592/mamma-mia-here-we-go-again.jpg",
-    "synopsis": "Sur l’île paradisiaque de Kalokairi, Sophie, qui rencontre divers soucis dans l’ouverture de son hôtel, va trouver du réconfort auprès des amies de sa mère Donna qui vont lui conseiller de prendre exemple sur le parcours de cette dernière.",
-    "date_ajout": "2018-07-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts91084",
     "titre": "Five Bedrooms",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2019,
@@ -88730,142 +82355,6 @@ const CATALOG_DATA = [
       "packageExpirations": {
         "art": "2027-06-29"
       }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm360631",
-    "titre": "Fast & Furious : Hobbs & Shaw",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "2h 17min",
-    "runtime_minutes": 137,
-    "note_avis": 6.4,
-    "note_recence": 7.9,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "trl",
-      "scf"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176480680/s592/fast-and-furious-hobbs-and-shaw.jpg",
-    "synopsis": "Depuis que Hobbs, fidèle agent de sécurité au service diplomatique des États-Unis, combatif mais droit, et Shaw, un homme sans foi ni loi, ancien membre de l’élite militaire britannique, se sont affrontés en 2015 dans Fast & Furious 7, les deux hommes font tout ce qu’ils peuvent pour se nuire l’un à l’autre. Mais lorsque Brixton, un anarchiste génétiquement modifié, met la main sur une arme de destruction massive après avoir battu le meilleur agent du MI6 qui se trouve être la sœur de Shaw, les deux ennemis de longue date vont devoir alors faire équipe pour faire tomber le seul adversaire capable de les anéantir.",
-    "date_ajout": "2019-08-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1131016",
-    "titre": "Les Trois Mousquetaires : Milady",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 49min",
-    "runtime_minutes": 109,
-    "note_avis": 6.4,
-    "note_recence": 9.1,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "hst"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/307570178/s592/les-trois-mousquetaires-milady.jpg",
-    "synopsis": "Constance Bonacieux est enlevée sous les yeux de D'Artagnan. Dans une quête effrénée pour la sauver, le jeune mousquetaire est contraint de s'allier à la mystérieuse Milady de Winter. Alors que la guerre est déclarée, Athos, Porthos et Aramis ont déjà rejoint le front. Par ailleurs, un terrible secret du passé va briser toutes les anciennes alliances.",
-    "date_ajout": "2023-12-13",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm2859076",
-    "titre": "Le danger est à ma porte",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 5,
-    "note_recence": 10,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/343761005/s592/le-danger-est-a-ma-porte.jpg",
-    "synopsis": "Sarah accepte à contrecœur de se rendre à un speed dating où elle matche avec Jack, veuf comme elle, qui s'avère être son nouveau voisin d'en face. Mais un meurtre vient aussitôt obscurcir leur idylle naissante et Sarah ne tarde pas à soupçonner Jack lui-même. Elle décide de mener discrètement l'enquête et de se confier à Luna, sa meilleure amie, qui finira par révéler sa face cachée : celle d'une meurtrière sans scrupules et sans remors.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": true
@@ -88926,51 +82415,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1487675",
-    "titre": "Drop Game",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 6.1,
-    "note_recence": 9.7,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/330648953/s592/drop-game.jpg",
-    "synopsis": "Violet, une jeune veuve qui pour son premier rendez-vous depuis des années, se rend dans un restaurant très chic où celui qu’elle doit y retrouver, Henry, est encore plus charmant que séduisant. Mais leur alchimie naissante va vite être gâchée quand Violet se voit harcelée puis terrorisée par une série de messages anonymes sur son téléphone. Contrainte au silence, elle doit suivre les instructions qu’elle reçoit, sous peine que la silhouette encapuchonnée des caméras de sécurité de sa propre maison ne tue son jeune fils gardé par sa tante, la sœur de Violet. Si elle ne fait pas exactement ce qui lui est ordonné, ceux qu'elle aime le plus mourront.",
-    "date_ajout": "2025-04-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts928",
     "titre": "Apocalypse : La 2ème Guerre mondiale",
     "type": "serie",
@@ -89014,177 +82458,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/306296594/s592/apocalypse-la-deuxieme-guerre-mondiale.jpg",
     "synopsis": "A partir d'images restaurées et colorisées, une histoire de la Seconde Guerre mondiale des origines à sa fin.",
     "date_ajout": "2024-10-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts20834",
-    "titre": "Nashville",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2012,
-    "annee_fin": 2018,
-    "annee_moyenne": 2015,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2012,
-        "note": 7.7
-      },
-      {
-        "saison": 2,
-        "annee": 2013,
-        "note": 7.7
-      },
-      {
-        "saison": 3,
-        "annee": 2014,
-        "note": 7.7
-      },
-      {
-        "saison": 4,
-        "annee": 2015,
-        "note": 7.7
-      },
-      {
-        "saison": 5,
-        "annee": 2016,
-        "note": 7.7
-      },
-      {
-        "saison": 6,
-        "annee": 2018,
-        "note": 7.7
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 7.7,
-    "note_recence": 6.7,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "msc",
-      "rma"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/177978663/s592/nashville.jpg",
-    "synopsis": "Grandeur et décadence dans le milieu de la musique country à Nashville, aux cotés d'une star montante et d'une autre au plus haut de sa carrière...",
-    "date_ajout": "2017-06-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm168508",
-    "titre": "20 Ans d'écart",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 6.3,
-    "note_recence": 6.1,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/303487242/s592/20-ans-decart.jpg",
-    "synopsis": "Alice Lantins a 38 ans. Elle est belle, ambitieuse et fait preuve d’une impeccable conscience professionnelle au point d’en oublier sa vie privée. Bref, elle a tout pour devenir la prochaine rédactrice en chef du magazine « Rebelle », tout sauf son image de femme coincée. Mais lorsque le jeune et charmant Balthazar, à peine 20 ans, va croiser le chemin d’Alice, le regard de ses collègues va inexplicablement changer. Réalisant qu'elle détient la clef de sa promotion, Alice va feindre la comédie d’une improbable idylle.",
-    "date_ajout": "2013-03-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1356209",
-    "titre": "Monsieur Aznavour",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "2h 13min",
-    "runtime_minutes": 133,
-    "note_avis": 7.2,
-    "note_recence": 9.4,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "msc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322771252/s592/monsieur-aznavour.jpg",
-    "synopsis": "Fils de réfugiés, petit, pauvre, à la voix voilée, on disait de lui qu’il n’avait rien pour réussir. À force de travail, de persévérance et d’une volonté hors norme, Charles Aznavour est devenu un monument de la chanson, et un symbole de la culture française. Avec près de 1200 titres interprétés dans le monde entier et dans toutes les langues, il a inspiré des générations entières. Découvrez le parcours exceptionnel et intemporel de Monsieur Aznavour.",
-    "date_ajout": "2024-10-23",
     "expiration": {
       "status": "none",
       "label": null,
@@ -89251,52 +82524,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm138641",
-    "titre": "Fast & Furious 7",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "2h 18min",
-    "runtime_minutes": 138,
-    "note_avis": 7.1,
-    "note_recence": 6.7,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/8718000/s592/fast-and-furious-7.jpg",
-    "synopsis": "Laissé à moitié mort par Dominic Toretto et son clan de voleur de voitures as du volant, le criminel Owen Shaw gît sur un lit d'hôpital à Londres. Déterminé à le venger, son frère Deckard Shaw commet des attaques vicieuses contre les membres de la famille de Toretto, notamment contre sa sœur, son beau-frère et leur petit garçon. Une aide inespérée leur parvient en la personne de Frank Petty, agent des services secrets américains aux ressources impressionnantes. Il promet assistance à Dominic, en échange de quoi ce dernier devra libérer une talentueuse informaticienne, nommée Ramsey, qui a mis au point un logiciel de surveillance ultraperfectionné baptisé « God's Eye ». La jeune femme est en effet retenue prisonnière par Jakande, un dangereux terroriste, au milieu des inaccessibles montagnes de l'Azerbaïdjan. Le clan de Dominic se reforme donc pour cette dangereuse mission.",
-    "date_ajout": "2015-01-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
     "on_tnt": true
   },
   {
@@ -89429,111 +82656,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1677493",
-    "titre": "Primate",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 5.8,
-    "note_recence": 10,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "hrr",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341217102/s592/primate-2025.jpg",
-    "synopsis": "Au lieu de rimer avec plages et retrouvailles, le retour de Lucy sur son île tropicale natale tourne au cauchemar lorsque le chimpanzé de la famille, d’une intelligence exceptionnelle, sombre dans une frénésie enragée. La nuit se mue alors en un chaos terrifiant. En l’absence de son père et sans aucun secours possible, ce paradis devient une prison et Lucy et ses amis doivent affronter un prédateur mortel en qui ils avaient autrefois toute confiance.",
-    "date_ajout": "2026-01-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1209373",
-    "titre": "Alibi.com 2",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 6.5,
-    "note_recence": 9.1,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/324537794/s592/alibi-2023.jpg",
-    "synopsis": "Après avoir fermé son agence Alibi.com et promis à Flo qu'il ne lui mentirait plus jamais, la nouvelle vie de Greg est devenue tranquille, trop tranquille… Plus pour longtemps ! Lorsqu’il décide de demander Flo en mariage, Greg est au pied du mur et doit se résoudre à présenter sa famille. Mais entre son père escroc et sa mère ex-actrice de films de charme, ça risque fort de ruiner sa future union. Il n'a donc pas d'autre choix que de rouvrir son agence avec ses anciens complices pour un ultime Alibi et de se trouver des faux parents plus présentables.",
-    "date_ajout": "2023-02-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts56104",
     "titre": "Boruto : Naruto Next Generations",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "M6+",
     "chaines": [
-      "TF1+",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "tf1",
       "sxp"
     ],
     "annee": 2017,
@@ -89577,200 +82711,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm2883236",
-    "titre": "La face cachée de mon fils",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 8.7,
-    "note_recence": 10,
-    "note_globale": 9.4,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354126059/s592/la-face-cachee-de-mon-fils.jpg",
-    "synopsis": "Kathy a fui son mari violent avec son fils Noah, lorsqu'il était enfant. Quelques années plus tard, alors qu'ils ont enfin une vie stable et heureuse, Noah se retrouve accusé du meurtre de son meilleur ami, Ethan. Il a beau clamer son innocence, il est le suspect numéro un et même sa mère commence à douter de lui.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1468314",
-    "titre": "Rapide",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 5.4,
-    "note_recence": 9.7,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "rma",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/334062553/s592/rapide.jpg",
-    "synopsis": "Max a toujours aimé aller vite. Elle ne sait pas faire autrement. Alors quand elle découvre le karting, c’est une évidence : elle sera championne de F1. Les compétitions juniors s’enchainent, les victoires aussi. Pourtant, à 17 ans, aucune écurie ne la retient. Sa faute principale : être une jeune femme dans un sport d’hommes. Face à ce monde qui lui tourne le dos, seul un ancien pilote de deuxième zone totalement fantasque croit encore en son potentiel. Un seul but : faire de Max la plus rapide.",
-    "date_ajout": "2025-04-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1349300",
-    "titre": "Second Tour",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 6.2,
-    "note_recence": 9.1,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306643027/s592/second-tour.jpg",
-    "synopsis": "Journaliste politique en disgrâce placée à la rubrique football, Mlle Pove est sollicitée pour suivre la campagne présidentielle en cours. Le favori est un quinquagénaire, héritier d’une puissante famille française et novice en politique. Troublée par ce candidat qu’elle a connu moins lisse par le passé, Mademoiselle Pove se lance dans une enquête aussi étonnante que jubilatoire.",
-    "date_ajout": "2023-10-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1601454",
-    "titre": "Chasse gardée 2",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 5.3,
-    "note_recence": 9.7,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/339997950/s592/chasse-gardee-2.jpg",
-    "synopsis": "Deux ans se sont écoulés à Saint Hubert. La vie y est paisible, peut-être trop pour Adélaïde et Simon qui souffrent du manque d’amis de leur âge. C’est sans compter sur l’arrivée de Stanislas, le fils de Bernard (l'ancien président des chasseurs du village), qui revient vivre à la campagne avec sa femme et ses deux enfants. Ils sont beaux, jeunes, et sympas. Leur seul défaut : ils pratiquent la chasse à courre ! La paix du village va être mise à mal : nouveaux voisins, nouveaux problèmes…",
-    "date_ajout": "2025-12-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts33377",
     "titre": "Please Like Me",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2013,
@@ -89911,264 +82863,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1470567",
-    "titre": "Emilia Pérez",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "2h 13min",
-    "runtime_minutes": 133,
-    "note_avis": 5.3,
-    "note_recence": 9.4,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/318695867/s592/emilia-perez.jpg",
-    "synopsis": "Rita, une avocate sous-estimée travaillant pour un grand cabinet d'avocats plus intéressé à faire sortir les criminels de prison qu'à les traduire en justice, est engagée par le chef d'une organisation criminelle.",
-    "date_ajout": "2024-08-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1403634",
-    "titre": "The Black Phone 2",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 54min",
-    "runtime_minutes": 114,
-    "note_avis": 6,
-    "note_recence": 9.7,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "hrr",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/338323684/s592/the-black-phone-2.jpg",
-    "synopsis": "Depuis son enlèvement, Finney, aujourd'hui âgé de 17 ans, lutte pour reprendre le cours d'une vie normale, alors que rien ni personne ne saurait arrêter Gwen, sa sœur de 15 ans. Cependant, celle-ci commence à recevoir des appels du sinistre téléphone noir dans ses rêves, où elle voit sans cesse trois garçons se faire pourchasser dans un camp de montagne appelé Alpine Lake. Déterminée à mettre fin à ces cauchemars et à en percer le mystère, Gwen persuade son frère de se rendre sur place.",
-    "date_ajout": "2025-10-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm213277",
-    "titre": "Un moment d'égarement",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 46min",
-    "runtime_minutes": 106,
-    "note_avis": 6.2,
-    "note_recence": 6.7,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/127425943/s592/un-moment-degarement.jpg",
-    "synopsis": "Antoine et Laurent, amis de longue date, passent leurs vacances en Corse avec leurs filles respectives : Louna, 17 ans (\"18 ans moins deux semaines\" dit-elle) et Marie, 18 ans.  Un soir sur la plage, Louna séduit Laurent.  Louna est amoureuse mais pour Laurent ce n'est qu'un moment d'égarement… Sans dévoiler le nom de son amant, Louna se confie à son père qui cherche par tous les moyens à découvrir de qui il s'agit… Combien de temps le secret pourra-t-il être gardé ?",
-    "date_ajout": "2015-06-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts23907",
-    "titre": "Les petits meurtres d'Agatha Christie",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2009,
-    "annee_fin": 2013,
-    "annee_moyenne": 2011,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2009,
-        "note": 7.6
-      },
-      {
-        "saison": 2,
-        "annee": 2013,
-        "note": 7.6
-      }
-    ],
-    "duree": "92 min/ép.",
-    "runtime_minutes": 92,
-    "note_avis": 7.6,
-    "note_recence": 5.5,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/252689111/s592/les-petits-meurtres-dagatha-christie.jpg",
-    "synopsis": "Les histoires sont inspirées des romans d'Agatha Christie. De 2009 à 2012, la série met en scène le commissaire Jean Larosière (Antoine Duléry) et son adjoint l'inspecteur Émile Lampion (Marius Colucci) dans les années 1930 dans le Nord-Pas-de-Calais. De 2013 à 2020, elle met en scène la journaliste Alice Avril (Blandine Bellavoir), le commissaire Swan Laurence (Samuel Labarthe) et sa secrétaire Marlène Leroy (Élodie Frenck) tout à la fin des années 1950, puis au début des années 1960. En octobre 2019, la fin de la saison 2 est annoncée aux acteurs, renouvelant la série pour une troisième saison mais avec une toute nouvelle distribution, dans les années 1970",
-    "date_ajout": "2017-09-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1673387",
-    "titre": "Alina Thompson : l'histoire vraie d'une survivante",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 5.5,
-    "note_recence": 9.7,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/335733458/s592/the-girl-who-survived-the-alina-thompson-story.jpg",
-    "synopsis": "Alina est une lycéenne qui rêve de devenir top model. Avec sa meilleure amie, elle décide de se rendre à une rencontre entre photographes et modèles. Elle tape dans l'œil de Bill, un photographe qui lui assure qu'elle a un avenir tout tracé dans le mannequinat. Lorsque son père découvre le secret de sa fille, il insiste pour l'accompagner à tous ses évènements photo. Alina le trouve trop envahissant, mais elle prend vite conscience du danger lorsqu'une de ses nouvelles amies disparait mystérieusement.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts41305",
     "titre": "Mum",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2016,
@@ -90301,18 +83007,15 @@ const CATALOG_DATA = [
     "id": "jw-ts80648",
     "titre": "The Split",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2018,
@@ -90370,252 +83073,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1632240",
-    "titre": "L'Étranger",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "2h 00min",
-    "runtime_minutes": 120,
-    "note_avis": 7.1,
-    "note_recence": 9.7,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/335104754/s592/letranger-2025-1.jpg",
-    "synopsis": "Alger, 1938. Meursault, un jeune homme d’une trentaine d’années, modeste employé, enterre sa mère sans manifester la moindre émotion. Le lendemain, il entame une liaison avec Marie, une collègue de bureau. Puis il reprend sa vie de tous les jours. Mais son voisin, Raymond Sintès vient perturber son quotidien en l’entraînant dans des histoires louches jusqu’à un drame sur une plage, sous un soleil de plomb…",
-    "date_ajout": "2026-02-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm203765",
-    "titre": "Comme des bêtes",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 6.5,
-    "note_recence": 7,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321465953/s592/comme-des-betes.jpg",
-    "synopsis": "Que font nos animaux de compagnie pendant notre absence ? Ils se réunissent pour échanger les derniers potins, s'abandonner à leurs gourmandises préférées ou organiser des fêtes gigantesques. Mais Max, un Jack Russell ultra gâté par sa maîtresse Katie, voit son petit monde bouleversé lorsque cette dernière ramène à la maison Duke, un gros bâtard mal léché. Ce duo mal assorti va alors devoir mettre ses susceptibilités de côté pour s'unir face à l'adversité des rues de New York et rejoindre leur appartement avant le retour de Katie pour le dîner.",
-    "date_ajout": "2016-07-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1294199",
-    "titre": "Une année difficile",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "2h 00min",
-    "runtime_minutes": 120,
-    "note_avis": 6,
-    "note_recence": 9.1,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/308864587/s592/une-annee-difficile.jpg",
-    "synopsis": "Albert et Bruno sont surendettés et en bout de course, c’est dans le chemin associatif qu’ils empruntent ensemble qu’ils croisent des jeunes militants écolos. Plus attirés par la bière et les chips gratuites que par leurs arguments, ils vont peu à peu intégrer le mouvement sans conviction.",
-    "date_ajout": "2023-10-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1525768",
-    "titre": "Alibi.com",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 6.5,
-    "note_recence": 7.3,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fml",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/190232925/s592/alibi-com-2017.jpg",
-    "synopsis": "Greg a fondé une entreprise nommée Alibi.com qui crée tout type d'alibi. Avec Augustin son associé, et Medhi son nouvel employé, ils élaborent des stratagèmes et mises en scène imparables pour couvrir leurs clients. Mais la rencontre de Flo, une jolie blonde qui déteste les hommes qui mentent, va compliquer la vie de Greg, qui commence par lui cacher la vraie nature de son activité. Lors de la présentation aux parents, Greg comprend que Gérard, le père de Flo, est aussi un de leurs clients…",
-    "date_ajout": "2017-02-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm209528",
-    "titre": "Valérian et la cité des mille planètes",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "2h 17min",
-    "runtime_minutes": 137,
-    "note_avis": 6.4,
-    "note_recence": 7.3,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "fnt",
-      "scf",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/8816586/s592/valerian-et-la-cite-des-mille-planetes.jpg",
-    "synopsis": "Valérian et Laureline sont des agents spatio-temporels du gouvernement des territoires humains, chargés de maintenir l’ordre dans l’univers. Valérian ambitionne depuis longtemps de dépasser le stade des simples relations professionnelles qui le lient à sa partenaire. Mais sa réputation de séducteur se heurte aux valeurs un peu \"traditionnelles\" de Laureline qui va continuellement repousser ses avances.  Sous la direction de leur Commandant, Valérian et Laureline embarquent pour une mission sur l’incroyable cité intergalactique Alpha, une mégalopole en perpétuelle expansion constituée de milliers d’espèces différentes, issues des quatre coins de l’univers. Les 17 millions d’habitants d’Alpha se sont organisés au fil du temps, unissant leurs talents, leur technologie et leurs ressources pour le bien de tous. Malheureusement, sur Alpha tout le monde ne poursuit pas les mêmes objectifs ; en réalité, des forces invisibles sont à l’œuvre et mettent notre espèce en grand danger.",
-    "date_ajout": "2017-07-26",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts495895",
     "titre": "Prisonnière 951",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2025,
@@ -90652,140 +83121,6 @@ const CATALOG_DATA = [
       "packageExpirations": {
         "art": "2026-12-16"
       }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm132448",
-    "titre": "Star Trek",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2009,
-    "annee_moyenne": 2009,
-    "duree": "2h 07min",
-    "runtime_minutes": 127,
-    "note_avis": 7.9,
-    "note_recence": 4.9,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176304133/s592/star-trek.jpg",
-    "synopsis": "James T. Kirk tente d'être à la hauteur de son père sous le contrôle de M. Spock alors qu'un Romulien vengeur du futur crée des trous noirs pour détruire la Fédération, planète par planète.",
-    "date_ajout": "2009-05-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1590684",
-    "titre": "La Maison des Femmes",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 50min",
-    "runtime_minutes": 110,
-    "note_avis": 7.2,
-    "note_recence": 10,
-    "note_globale": 8.6,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/340708891/s592/la-maison-des-femmes-2026.jpg",
-    "synopsis": "À la Maison des femmes, entre soin, écoute et solidarité, une équipe se bat chaque jour pour accompagner les femmes victimes de violences dans leur reconstruction. Dans ce lieu unique, Diane, Manon, Inès, Awa et leurs collègues accueillent, soutiennent, redonnent confiance. Ensemble, avec leurs forces, leurs fragilités, leurs convictions et une énergie inépuisable.",
-    "date_ajout": "2020-12-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm824116",
-    "titre": "La vie secrète de mon mari",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 4.6,
-    "note_recence": 7.9,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300712365/s592/la-vie-secrete-de-mon-mari.jpg",
-    "synopsis": "Coincée dans un mariage sans amour, Brooke commence une liaison avec Jake, un jeune agent d'assurance.",
-    "date_ajout": "2026-09-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": true
@@ -90877,49 +83212,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm455987",
-    "titre": "Ma fille dans les bras d'un tueur",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 4.8,
-    "note_recence": 7.9,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/247374399/s592/ma-fille-dans-les-bras-dun-tueur.jpg",
-    "synopsis": "Jessica Taylor à tout pour être heureuse : une affaire florissante, un séduisant petit ami et une fille, Tessa, sur le point d'aller à l'université.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm370144",
     "titre": "Les Mitchell contre les machines",
     "type": "film",
@@ -90965,253 +83257,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm462377",
-    "titre": "Hors normes",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 54min",
-    "runtime_minutes": 114,
-    "note_avis": 7.4,
-    "note_recence": 7.9,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/154470450/s592/hors-normes.jpg",
-    "synopsis": "Bruno et Malik vivent depuis 20 ans dans un monde à part, celui des enfants et adolescents autistes. Au sein de leurs deux associations respectives, ils forment des jeunes issus des quartiers difficiles pour encadrer ces cas qualifiés «d'hyper complexes». Une alliance hors du commun pour des personnalités hors normes.",
-    "date_ajout": "2019-10-23",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1411927",
-    "titre": "Les Bad Guys 2",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 7,
-    "note_recence": 9.7,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "crm",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/334725142/s592/the-bad-guys-2.jpg",
-    "synopsis": "Un loup, un serpent, une tarentule, un requin et un piranha sont une ancienne bande de criminels repentis tentant une réinsertion dans la société. Cependant, leur mauvaise réputation les précède et ils peinent à trouver du travail. Lorsqu'une série de cambriolages sont perpétrés dans la ville, ils en deviennent les principaux suspects. Pour prouver leurs bonnes intentions, ils offrent à la commissaire de police d'utiliser leurs habiletés uniques pour identifier le véritable coupable.",
-    "date_ajout": "2025-08-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1555899",
-    "titre": "Dalloway",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 50min",
-    "runtime_minutes": 110,
-    "note_avis": 5.8,
-    "note_recence": 9.7,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/340944991/s592/dalloway.jpg",
-    "synopsis": "Clarissa, romancière, rejoint une résidence d'artistes à la pointe de la technologie. Elle trouve en Dalloway, son assistante virtuelle, un soutien et même une confidente. Peu à peu, elle éprouve un malaise face au comportement de plus en plus intrusif de son IA. Se sentant alors surveillée, Clarissa se lance secrètement dans une enquête pour découvrir les réelles intentions de ses hôtes.",
-    "date_ajout": "2025-09-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1404955",
-    "titre": "Nous, les Leroy",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 6.3,
-    "note_recence": 9.4,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/314689680/s592/nous-les-leroy.jpg",
-    "synopsis": "Sandrine Leroy annonce à son mari Christophe qu’elle veut divorcer. Leurs enfants ont bientôt l’âge de quitter la maison. Dans une opération de la dernière chance aussi audacieuse qu’invraisemblable, Christophe organise un week-end pour sauver son mariage : un voyage passant par les endroits clés de l’histoire de leur famille. Un voyage qui ne va pas être de tout repos.",
-    "date_ajout": "2024-04-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts20388",
-    "titre": "Psycho-Pass",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2012,
-    "annee_fin": 2014,
-    "annee_moyenne": 2013,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2012,
-        "note": 8.1
-      },
-      {
-        "saison": 2,
-        "annee": 2014,
-        "note": 8.1
-      }
-    ],
-    "duree": "27 min/ép.",
-    "runtime_minutes": 27,
-    "note_avis": 8.1,
-    "note_recence": 6.1,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "crm",
-      "drm",
-      "trl",
-      "scf"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/258541049/s592/psycho-pass.jpg",
-    "synopsis": "En l'an 2113 au Japon, on scanne les cerveaux des gens pour connaître leur \"Psycho-Pass\", leur potentiel criminel. Quiconque présente des tendances considérées répréhensibles est pourchassé, voire tué. Dans la section 1, la jeune Akane Tsunemori, nouvelle inspectrice enquête sur des meurtres qui lui feront remettre en question sa foi au système Sibyl. Elle pourra compter sur son équipe et l'exécuteur Shinya Kōgami , un exécuteur d'expérience prêt à franchir la ligne pour arrêter les criminels.",
-    "date_ajout": "2016-07-31",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
     "on_tnt": true
   },
   {
@@ -91270,273 +83315,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm300799",
-    "titre": "Les Minions 2 : Il était une fois Gru",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 6.5,
-    "note_recence": 8.8,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "cmy",
-      "crm",
-      "fml",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/295837420/s592/minions-2-il-etait-une-fois-gru.jpg",
-    "synopsis": "Alors que les années 70 battent leur plein, Gru qui grandit en banlieue au milieu des jeans à pattes d’éléphants et des chevelures en fleur, met sur pied un plan machiavélique à souhait pour réussir à intégrer un groupe célèbre de super méchants, connu sous le nom de Vicious 6, dont il est le plus grand fan. Il est secondé dans sa tâche par les Minions, ses petits compagnons aussi turbulents que fidèles. Avec l’aide de Kevin, Stuart, Bob et Otto – un nouveau Minion arborant un magnifique appareil dentaire et un besoin désespéré de plaire – ils vont déployer ensemble des trésors d’ingéniosité afin de construire leur premier repaire, expérimenter leurs premières armes, et lancer leur première mission. Gru passe l’audition pour intégrer l’équipe. Le moins qu’on puisse dire c’est que l’entrevue tourne mal, et soudain court quand Gru leur démontre sa supériorité et se retrouve soudain leur ennemi juré.",
-    "date_ajout": "2022-07-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts289336",
-    "titre": "Leverage: Redemption",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2021,
-    "annee_fin": 2022,
-    "annee_moyenne": 2022,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2021,
-        "note": 8.1
-      },
-      {
-        "saison": 2,
-        "annee": 2022,
-        "note": 8.1
-      }
-    ],
-    "duree": "46 min/ép.",
-    "runtime_minutes": 46,
-    "note_avis": 8.1,
-    "note_recence": 8.8,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/331545087/s592/leverage-redemption.jpg",
-    "synopsis": "Le frappeur, le pirate informatique, l'escroc et le voleur sont à nouveau réunis, cette fois avec l'aide d'un nouveau génie de la technologie et d'un réparateur d'entreprise, pour affronter un nouveau type de méchant. De l'homme qui a créé une crise d'opioïdes dans le confort de sa salle de réunion à la société de sécurité obscure qui aide à cacher des secrets dangereux pour un prix - quand quelqu'un a besoin d'aide, ils fournissent... Un effet de levier.",
-    "date_ajout": "2024-05-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm120108",
-    "titre": "Kung Fu Panda 3",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 7.1,
-    "note_recence": 7,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "fnt",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/331574481/s592/kung-fu-panda-3.jpg",
-    "synopsis": "Po avait toujours cru son père panda disparu, mais le voilà qui réapparaît ! Enfin réunis, père et fils vont voyager jusqu’au paradis secret du peuple panda. Ils y feront la connaissance de certains de leurs semblables, tous plus déjantés les uns que les autres. Mais lorsque le maléfique Kaï décide de s’attaquer aux plus grands maîtres de kung‐fu à travers toute la Chine, Po va devoir réussir l’impossible : transformer tout un village de pandas maladroits et rigolards en experts des arts martiaux, les redoutables Kung‐Fu Pandas !",
-    "date_ajout": "2016-03-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts364490",
-    "titre": "De grâce",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 6.6
-      }
-    ],
-    "duree": "52 min/ép.",
-    "runtime_minutes": 52,
-    "note_avis": 6.6,
-    "note_recence": 9.4,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320408936/s592/de-grace.jpg",
-    "synopsis": "Pierre Leprieur est né au Havre, avec du pétrole et du sel dans le sang. Homme de tous les combats, il est devenu par son engagement politique et syndical une figure respectée parmi les dockers. Mais le soir de ses 60 ans, alors que ses proches sont réunis pour son anniversaire, tout s’effondre. Son fils cadet, Simon est arrêté au volant d’une voiture que son frère Jean, concessionnaire, lui a prêtée pour la soirée. Un kilo de cocaïne est retrouvé dans le châssis.",
-    "date_ajout": "2024-03-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1593155",
-    "titre": "Une romance royale",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 24min",
-    "runtime_minutes": 84,
-    "note_avis": 6.9,
-    "note_recence": 9.7,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/326218560/s592/une-romance-royale.jpg",
-    "synopsis": "Alors que le duc de Glassick, sentant sa santé décliner, s'apprête à passer la main à son jeune cousin et plus proche parent, le snobissime Allistair Covington Breed, Prudence, l'intendante du château, découvre que le vieil homme a eu autrefois avec son amour de jeunesse un fils dont il ignore l'existence et qui est, de fait, son héritier direct.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts58356",
     "titre": "Patrick Melrose",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2018,
@@ -91578,66 +83368,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm188442",
-    "titre": "Star Trek Into Darkness",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "2h 12min",
-    "runtime_minutes": 132,
-    "note_avis": 7.7,
-    "note_recence": 6.1,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/175624494/s592/star-trek-into-darkness.jpg",
-    "synopsis": "Alors qu'il rentre à sa base, l'équipage de l'Enterprise doit faire face à des forces terroristes implacables au sein même de son organisation. L'ennemi a fait exploser la flotte et tout ce qu'elle représentait, plongeant notre monde dans le chaos.",
-    "date_ajout": "2013-05-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts254749",
     "titre": "L'affaire Kim Wall",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2020,
@@ -91681,214 +83423,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm170537",
-    "titre": "Un monstre à Paris",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2011,
-    "annee_moyenne": 2011,
-    "duree": "1h 22min",
-    "runtime_minutes": 82,
-    "note_avis": 6.7,
-    "note_recence": 5.5,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "cmy",
-      "fnt",
-      "fml",
-      "msc",
-      "rma",
-      "scf",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/175834033/s592/un-monstre-a-paris.jpg",
-    "synopsis": "Dans le Paris inondé de 1910, un monstre sème la panique. Traqué sans relâche par le redoutable préfet Maynott, il demeure introuvable… Et si la meilleure cachette était sous les feux de « L’Oiseau Rare », un cabaret où chante Lucille, la star de Montmartre au caractère bien trempé ?",
-    "date_ajout": "2011-10-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm244636",
-    "titre": "Miss Sloane",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "2h 12min",
-    "runtime_minutes": 132,
-    "note_avis": 7.5,
-    "note_recence": 7,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/8724848/s592/miss-sloane.jpg",
-    "synopsis": "Elizabeth Sloane est une femme d’influence brillante et sans scrupules qui opère dans les coulisses de Washington. Face au plus grand défi de sa carrière, elle va redoubler de manigances et manipulations pour atteindre une victoire qui pourrait s’avérer éclatante. Mais les méthodes dont elle use pour parvenir à ses fins menacent à la fois sa carrière et ses proches.",
-    "date_ajout": "2017-03-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm460124",
-    "titre": "Yes, God, Yes",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 18min",
-    "runtime_minutes": 78,
-    "note_avis": 6.1,
-    "note_recence": 8.2,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/244496396/s592/yes-god-yes.jpg",
-    "synopsis": "Durant l'année 2000, Alice, jeune adolescente naïve et sexuellement inexpérimentée, fréquente un lycée catholique. Elle y apprend que toute activité sexuelle doit avoir comme but la procréation, sous peine de subir une damnation éternelle. Alors qu'une fausse rumeur circule, à propos d'elle et d'un rapport qu'elle aurait eu avec un de ses camarades, Alice n'a d'autre choix que de rejoindre une retraite religieuse. Contre toute attente, c'est dans ce contexte qu'elle découvre sa sexualité.",
-    "date_ajout": "2020-12-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts308337",
-    "titre": "Les Origines du péché",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2022,
-        "note": 7.1
-      }
-    ],
-    "duree": "88 min/ép.",
-    "runtime_minutes": 88,
-    "note_avis": 7.1,
-    "note_recence": 8.8,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306671935/s592/flowers-in-the-attic-the-origin.jpg",
-    "synopsis": "Après une romance éclair, Olivia se retrouve maîtresse de l'imposant Foxworth Hall, où elle découvre bientôt que la vie de conte de fées à laquelle elle s'attendait est rapidement devenue un cauchemar.",
-    "date_ajout": "2026-09-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts29096",
     "titre": "Life on Mars",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2006,
@@ -91935,151 +83481,6 @@ const CATALOG_DATA = [
       "packageExpirations": {
         "art": "2027-02-05"
       }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1510212",
-    "titre": "Downton Abbey III : Le Grand Final",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "2h 03min",
-    "runtime_minutes": 123,
-    "note_avis": 7.3,
-    "note_recence": 9.7,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/340763609/s592/downton-abbey-3.jpg",
-    "synopsis": "Lorsque Mary se retrouve au centre d'un scandale public et que la famille est confrontée à des problèmes financiers, l'ensemble du ménage est aux prises avec la menace de honte sociale. Les Crawleys doivent adopter le changement alors que le personnel se prépare à un nouveau chapitre avec la prochaine génération menant à Downton Abbey dans le futur.",
-    "date_ajout": "2025-09-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1910817",
-    "titre": "Mektoub, My Love: Canto Due",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "2h 19min",
-    "runtime_minutes": 139,
-    "note_avis": 6.3,
-    "note_recence": 9.7,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/344080166/s592/mektoub-my-love-canto-due.jpg",
-    "synopsis": "Amin revient à Sète après ses études à Paris, rêvant toujours de cinéma. Un producteur Américain en vacance s’intéresse par hasard à son projet, Les Principes essentiels de l’existence universelle, et veut que sa femme, Jess, en soit l’héroïne. Mais le destin, capricieux, impose ses propres règles.",
-    "date_ajout": "2025-06-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts82391",
-    "titre": "The Nevers",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2021,
-        "note": 7.4
-      }
-    ],
-    "duree": "59 min/ép.",
-    "runtime_minutes": 59,
-    "note_avis": 7.4,
-    "note_recence": 8.5,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "fnt",
-      "trl",
-      "scf"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/294997042/s592/the-nevers.jpg",
-    "synopsis": "Dans les dernières années de l’époque victorienne, la ville de Londres est assaillie par les \"Touchées\" : des personnes (principalement des femmes) qui se retrouvent soudainement dotées d’aptitudes extraordinaires. Certaines sont charmantes, d’autres très dérangeantes... Amalia True, une mystérieuse veuve au coup de poing un peu trop facile, et Penance Adair, une jeune et brillante inventrice, sont toutes deux à la tête de cette élite. Elles créent alors un foyer pour les \"Touchées\", tout en combattant les forces de Mal, pour faire de la place à celles et ceux que l'Histoire, telle que nous la connaissons, aimerait oublier…",
-    "date_ajout": "2021-05-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": true
@@ -92290,237 +83691,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1249317",
-    "titre": "Kung Fu Panda 4",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 6.3,
-    "note_recence": 9.4,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "fnt",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/316841267/s592/kung-fu-panda-4.jpg",
-    "synopsis": "Après trois aventures dans lesquelles le guerrier dragon Po a combattu les maîtres du mal les plus redoutables grâce à un courage et des compétences en arts martiaux inégalés, le destin va de nouveau frapper à sa porte pour l'inviter à enfin se reposer. Plus précisément, pour être nommé chef spirituel de la vallée de la Paix.",
-    "date_ajout": "2024-03-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1103581",
-    "titre": "Menteur",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 5.3,
-    "note_recence": 8.8,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fnt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/301601182/s592/menteur.jpg",
-    "synopsis": "Jérôme est un menteur compulsif. Sa famille et ses amis ne supportent plus ses mensonges quotidiens. Ils font tout pour qu’il change d’attitude. N’écoutant pas ce qu’on lui reproche, Jérôme s’enfonce de plus en plus dans le mensonge jusqu’au jour où une malédiction divine le frappe : tous ses mensonges prennent vie. Commence alors pour un lui un véritable cauchemar.",
-    "date_ajout": "2022-07-13",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts53811",
-    "titre": "Section de recherches",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2006,
-    "annee_fin": 2022,
-    "annee_moyenne": 2014,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2006,
-        "note": 5.6
-      },
-      {
-        "saison": 2,
-        "annee": 2007,
-        "note": 5.6
-      },
-      {
-        "saison": 3,
-        "annee": 2008,
-        "note": 5.6
-      },
-      {
-        "saison": 4,
-        "annee": 2009,
-        "note": 5.6
-      },
-      {
-        "saison": 5,
-        "annee": 2011,
-        "note": 5.6
-      },
-      {
-        "saison": 6,
-        "annee": 2012,
-        "note": 5.6
-      },
-      {
-        "saison": 7,
-        "annee": 2013,
-        "note": 5.6
-      },
-      {
-        "saison": 8,
-        "annee": 2014,
-        "note": 5.6
-      },
-      {
-        "saison": 9,
-        "annee": 2015,
-        "note": 5.6
-      },
-      {
-        "saison": 10,
-        "annee": 2016,
-        "note": 5.6
-      },
-      {
-        "saison": 11,
-        "annee": 2017,
-        "note": 5.6
-      },
-      {
-        "saison": 12,
-        "annee": 2018,
-        "note": 5.6
-      },
-      {
-        "saison": 13,
-        "annee": 2019,
-        "note": 5.6
-      },
-      {
-        "saison": 14,
-        "annee": 2021,
-        "note": 5.6
-      },
-      {
-        "saison": 15,
-        "annee": 2022,
-        "note": 5.6
-      }
-    ],
-    "duree": "52 min/ép.",
-    "runtime_minutes": 52,
-    "note_avis": 5.6,
-    "note_recence": 6.4,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/252723787/s592/section-de-recherches.jpg",
-    "synopsis": "La Section de recherches est une unité spéciale de la Gendarmerie nationale, chargée des affaires les plus complexes. À Bordeaux (de 2006 à 2013) puis à Nice (depuis 2014), les enlèvements d'enfants, les disparitions, les crimes crapuleux ou sexuels sont le lot quotidien des enquêteurs de cette unité de recherches. À la recherche de témoins, l'équipe est habilitée à étendre ses enquêtes au-delà des frontières de la France.",
-    "date_ajout": "2024-05-23",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm876506",
     "titre": "Compartiment n°6",
     "type": "film",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2021,
@@ -92641,8 +83823,8 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2013,
-    "annee_fin": 2015,
-    "annee_moyenne": 2014,
+    "annee_fin": 2020,
+    "annee_moyenne": 2017,
     "saisons_disponibles": [
       {
         "saison": 1,
@@ -92653,13 +83835,18 @@ const CATALOG_DATA = [
         "saison": 2,
         "annee": 2015,
         "note": 8
+      },
+      {
+        "saison": 3,
+        "annee": 2020,
+        "note": 8
       }
     ],
     "duree": "24 min/ép.",
     "runtime_minutes": 24,
     "note_avis": 8,
-    "note_recence": 6.4,
-    "note_globale": 7.2,
+    "note_recence": 7.3,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -92686,68 +83873,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1623693",
-    "titre": "13 Jours, 13 Nuits",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 52min",
-    "runtime_minutes": 112,
-    "note_avis": 6.7,
-    "note_recence": 9.7,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "trl",
-      "war"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/329739742/s592/13-jours-13-nuits-2025.jpg",
-    "synopsis": "Kaboul, 15 août 2021. Alors que les troupes américaines s'apprêtent à quitter le territoire, les Talibans prennent d’assaut la capitale et s'emparent du pouvoir. Au milieu du chaos, le commandant Mohamed Bida et ses hommes assurent la sécurité de l'ambassade de France, encore ouverte. Pris au piège, le commandant Bida décide de négocier avec les Talibans pour organiser un convoi de la dernière chance avec l’aide d’Eva, une jeune traductrice franco-afghane. Commence alors une course contre la montre pour conduire les évacués jusqu’à l’aéroport et fuir l’enfer de Kaboul avant qu'il ne soit trop tard.",
-    "date_ajout": "2025-06-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts156525",
     "titre": "After the Party",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2023,
@@ -92789,50 +83926,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1040843",
-    "titre": "Maison de retraite",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 37min",
-    "runtime_minutes": 97,
-    "note_avis": 5.9,
-    "note_recence": 8.8,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/263807571/s592/maison-de-retraite.jpg",
-    "synopsis": "Issu d’un orphelinat, Milann Rousseau ne fait rien de sa vie. Hébergé par son avocat et ami d’enfance, ce dernier le pousse sans cesse à se bouger. Après avoir causé des dégâts matériels qui ont manqué de tuer une vieille dame dans un supermarché, Milann est condamné à une peine de deux mois de travail d’intérêt général. Engagé comme manutentionnaire dans la maison de retraite Les Mimosas, c’est un véritable cauchemar pour Milann qui ne supporte pas les personnes âgées. Malgré ses maladresses et son manque de motivation, Milann va s’attacher peu à peu aux pensionnaires. Il sympathise notamment avec Lino, un ancien boxeur, qui va lui apprendre à se défendre et à prendre sa vie en main…",
-    "date_ajout": "2022-02-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm357680",
     "titre": "Les Chatouilles",
     "type": "film",
@@ -92869,10 +83962,10 @@ const CATALOG_DATA = [
     "synopsis": "Odette, jolie trentenaire, est une danseuse drôle, extrême, et totalement rock’n roll. Grâce à ses séances chez le psy, elle va se remémorer sa jeunesse chaotique, dramatique, cocasse. En revivant des séquences de sa vie, elle sera confrontée au déni, à l’indifférence et surtout à sa propre question : sera-t-elle capable de surmonter sa douleur et de vivre enfin ?",
     "date_ajout": "2018-11-14",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 09/12",
-      "daysLeft": 59,
-      "expirationDate": "2026-12-09",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "fra": "2026-12-09"
       }
@@ -92977,54 +84070,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm919225",
-    "titre": "Sonic 2, le film",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "2h 03min",
-    "runtime_minutes": 123,
-    "note_avis": 6.5,
-    "note_recence": 8.8,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "fnt",
-      "fml",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/273737490/s592/sonic-2.jpg",
-    "synopsis": "Bien installé dans la petite ville de Green Hills, Sonic veut maintenant prouver qu’il a l’étoffe d' un véritable héros. Un défi de taille se présente à lui quand le Dr Robotnik refait son apparition. Accompagné de son nouveau complice Knuckles, ils sont en quête d’une émeraude dont le pouvoir permettrait de détruire l’humanité tout entière. Pour s’assurer que l’émeraude ne tombe entre de mauvaises mains, Sonic fait équipe avec Tails. Commence alors un voyage à travers le monde, plein de péripéties.",
-    "date_ajout": "2022-04-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts77427",
     "titre": "Save Me",
     "type": "serie",
@@ -93090,18 +84135,15 @@ const CATALOG_DATA = [
     "id": "jw-ts509807",
     "titre": "Le complot Caravaggio",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2025,
@@ -93139,725 +84181,6 @@ const CATALOG_DATA = [
       "packageExpirations": {
         "art": "2026-12-10"
       }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts477436",
-    "titre": "Enquête en famille",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 7
-      }
-    ],
-    "duree": "50 min/ép.",
-    "runtime_minutes": 50,
-    "note_avis": 7,
-    "note_recence": 9.7,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/336594303/s592/enquete-en-famille.jpg",
-    "synopsis": "Un couple de quincaillers bretons, Claire et Philippe Rochette, sont fous de séries et de romans policiers Pour assouvir leur passion, ils vont faire muter leur fille Charline, capitaine de police, de Paris à Rennes, afin de s’immiscer dans ses enquêtes. Charline n’a pas besoin d’eux pour les résoudre, mais eux pensent que oui : ils enquêteront en famille !",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm960145",
-    "titre": "Mal Élevés",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 6.1,
-    "note_recence": 8.5,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/250163874/s592/pourris-gates.jpg",
-    "synopsis": "Paresseux, capricieux, fêtards, les trois enfants de l'homme d'affaires Francis Bartek ne font rien de leur vie, à part dépenser l'argent que leur père a durement gagné. Lassé par leur comportement, celui-ci leur fait croire qu'ils sont totalement ruinés, les forçant ainsi à faire l'impensable : travailler !",
-    "date_ajout": "2021-09-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm171885",
-    "titre": "Kung Fu Panda 2",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2011,
-    "annee_moyenne": 2011,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 7.3,
-    "note_recence": 5.5,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "drm",
-      "fnt",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9036258/s592/kung-fu-panda-2.jpg",
-    "synopsis": "Le rêve de Po s’est réalisé. Il est devenu le Guerrier Dragon, qui protège la Vallée de la Paix avec ses amis les Cinq Cyclones : Tigresse, Grue, Mante, Vipère et Singe. Mais cette vie topissime est menacée par un nouvel ennemi, décidé à conquérir la Chine et anéantir le kung‐fu à l’aide d’une arme secrète et indestructible. Comment Po pourra‐t‐il triompher d’une arme plus forte que le kung‐fu ? Il devra se tourner vers son passé et découvrir le secret de ses mystérieuses origines. Alors seulement, il pourra libérer la force nécessaire pour vaincre.",
-    "date_ajout": "2011-05-26",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm305129",
-    "titre": "Tous en scène 2",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 7.3,
-    "note_recence": 8.5,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "cmy",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/259025785/s592/tous-en-scene-2.jpg",
-    "synopsis": "Dans le nouveau théâtre Moon, la troupe interprète sa version musicale d'Alice au pays des merveilles. Buster Moon tient à avoir l'avis de Suki Lane. Elle est celle qui décide quels talents peuvent auditionner devant Jimmy Crystal, grand producteur de spectacles à Redshore City. Pour elle, le niveau n'est pas suffisant et l'insistance de Buster Moon n'y fait rien.Remotivé par Nana Noodleman, le koala rassemble ses artistes et part infiltrer les auditions.",
-    "date_ajout": "2021-12-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts33843",
-    "titre": "Grand Hôtel",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2011,
-    "annee_moyenne": 2011,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2011,
-        "note": 8.3
-      }
-    ],
-    "duree": "52 min/ép.",
-    "runtime_minutes": 52,
-    "note_avis": 8.3,
-    "note_recence": 5.5,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "hst",
-      "trl",
-      "rma",
-      "eur"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/26101072/s592/grand-hotel.jpg",
-    "synopsis": "Espagne, 1905. Julio Olmedo, jeune homme d’origine modeste se rend à Cantaloa pour rendre visite à sa sœur Cristina, employée comme femme de chambre au prestigieux Grand Hôtel. A son arrivée, il découvre qu’elle a été renvoyée et qu’elle n’a pas donné signe de vie depuis plus d’un mois… Persuadé que sa disparition cache quelque chose, Julio décide de rester et s’installe au Grand Hôtel. Se gardant bien de révéler sa véritable identité, le jeune homme parvient à se faire embaucher en tant que serveur pour ce qui lui permet de débuter son enquête… et de faire la connaissance de la très belle Alicia, la fille de Doña Teresa Alarcón, la propriétaire du Grand Hôtel… Mais Julio va vite découvrir qu’au Grand Hôtel, personne n'est ce qu'il paraît être. Personne n'est à l’abri du danger et de la suspicion… Un réseau complexe de mensonges, d'amours, de secrets et de trahisons... dans un cadre incomparable.",
-    "date_ajout": "2026-05-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1483218",
-    "titre": "La Famille Hennedricks",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 5.1,
-    "note_recence": 9.4,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/318070446/s592/les-hennedricks.jpg",
-    "synopsis": "Quand son fils Henri menace de partir vivre chez son père, Justine improvise avec Ludo, son nouveau compagnon, et son beau-fils Joseph, un road trip sur la côte Atlantique pour donner une dernière chance à sa famille recomposée de s’unir. L’aventure tourne vite au désastre, mais réveille aussi paradoxalement l’âme artistique de la famille. De ce chaos naît progressivement un groupe de musique, Les Hennedricks, dans lequel chacun libère peu à peu sa folie. Jusqu’à permettre à cette famille atypique de trouver enfin son harmonie ?",
-    "date_ajout": "2024-06-26",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts20794",
-    "titre": "Pinocchio",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2014,
-        "note": 8
-      }
-    ],
-    "duree": "59 min/ép.",
-    "runtime_minutes": 59,
-    "note_avis": 8,
-    "note_recence": 6.4,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "fnt",
-      "fml",
-      "trl",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/238441008/s592/pinocchio.jpg",
-    "synopsis": "Ha-Myeong mène une vie des plus heureuses aux côtés de ses parents et de son frère, jusqu'au jour où leur père pompier disparaît brutalement lors d'une explosion. Le corps de ce dernier restant introuvable, les médias s'emparent de l'affaire en faisant de lui le responsable de l'incident. Des années plus tard, Ha-Myeong, qui a finalement grandi dans la famille d'In-Ha et pris le prénom de Dal-Po, souhaite devenir journaliste comme In-Ha, laquelle ne peut mentir sans aussitôt avoir le hoquet.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts22253",
-    "titre": "Salamandre",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2012,
-    "annee_fin": 2018,
-    "annee_moyenne": 2015,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2012,
-        "note": 7.5
-      },
-      {
-        "saison": 2,
-        "annee": 2018,
-        "note": 7.5
-      }
-    ],
-    "duree": "47 min/ép.",
-    "runtime_minutes": 47,
-    "note_avis": 7.5,
-    "note_recence": 6.7,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "crm",
-      "drm",
-      "trl",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320689902/s592/salamandre.jpg",
-    "synopsis": "Un groupe de professionnels entre par un tunnel dans une banque privée et cambriole 66 coffres forts. Les autres coffres n'ont pas été touchés. Seuls les documents compromettants, les bijoux et l'argent liquide ont été dérobés. Ces 66 coffres appartiennent tous à des personnalités haut placées et Raymond Jonkhere, le directeur de la banque, redoute un scandale…",
-    "date_ajout": "2026-03-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm451132",
-    "titre": "Dans les griffes de mon patient",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 4.7,
-    "note_recence": 7.6,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302893676/s592/dans-les-griffes-de-mon-patient.jpg",
-    "synopsis": "Un patient tombe éperdument amoureux de la femme médecin qui s'occupe de lui. Il est prêt à tout pour que son amour devienne réciproque.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1496425",
-    "titre": "Natacha (presque) hôtesse de l'air",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 5.3,
-    "note_recence": 9.7,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/331524430/s592/natacha-presque-hotesse-de-lair.jpg",
-    "synopsis": "Depuis sa plus tendre enfance, Natacha est bien décidée à devenir hôtesse de l’air afin d’échapper aux diktats d’une époque où la femme se doit de rester à la maison. Alors que son rêve est enfin sur le point de se réaliser, elle se retrouve embarquée malgré elle dans une course poursuite à travers l'Europe pour récupérer la Joconde.",
-    "date_ajout": "2025-04-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1284033",
-    "titre": "Dogman",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 55min",
-    "runtime_minutes": 115,
-    "note_avis": 6.8,
-    "note_recence": 9.1,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306718715/s592/dogman-2023.jpg",
-    "synopsis": "L’incroyable histoire d’un enfant, meurtri par la vie, qui trouvera son salut grâce à l’amour que lui portent ses chiens.",
-    "date_ajout": "2023-09-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts35639",
-    "titre": "Clem",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2010,
-    "annee_fin": 2025,
-    "annee_moyenne": 2018,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2010,
-        "note": 5.9
-      },
-      {
-        "saison": 2,
-        "annee": 2012,
-        "note": 5.9
-      },
-      {
-        "saison": 3,
-        "annee": 2013,
-        "note": 5.9
-      },
-      {
-        "saison": 4,
-        "annee": 2014,
-        "note": 5.9
-      },
-      {
-        "saison": 5,
-        "annee": 2015,
-        "note": 5.9
-      },
-      {
-        "saison": 6,
-        "annee": 2016,
-        "note": 5.9
-      },
-      {
-        "saison": 7,
-        "annee": 2017,
-        "note": 5.9
-      },
-      {
-        "saison": 8,
-        "annee": 2018,
-        "note": 5.9
-      },
-      {
-        "saison": 9,
-        "annee": 2019,
-        "note": 5.9
-      },
-      {
-        "saison": 10,
-        "annee": 2020,
-        "note": 5.9
-      },
-      {
-        "saison": 11,
-        "annee": 2021,
-        "note": 5.9
-      },
-      {
-        "saison": 12,
-        "annee": 2022,
-        "note": 5.9
-      },
-      {
-        "saison": 13,
-        "annee": 2023,
-        "note": 5.9
-      },
-      {
-        "saison": 14,
-        "annee": 2025,
-        "note": 5.9
-      }
-    ],
-    "duree": "69 min/ép.",
-    "runtime_minutes": 69,
-    "note_avis": 5.9,
-    "note_recence": 7.6,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/248590960/s592/clem.jpg",
-    "synopsis": "Clem retrace la vie d'une jeune adolescente, Clémentine, maman à seize ans, au cœur de tensions entre ses parents et Julien, le père de Valentin, son enfant. On y retrouve les problèmes de la vie des adolescents et de celle d'une mère avec une forte personnalité.",
-    "date_ajout": "2016-12-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts394061",
-    "titre": "Panda",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_fin": 2025,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2023,
-        "note": 6.6
-      },
-      {
-        "saison": 2,
-        "annee": 2025,
-        "note": 6.6
-      }
-    ],
-    "duree": "50 min/ép.",
-    "runtime_minutes": 50,
-    "note_avis": 6.6,
-    "note_recence": 9.4,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/309481728/s592/panda.jpg",
-    "synopsis": "Pacifiste détendu, matcha'addict et vegan convaincu, Panda tient une petite paillote dans un coin reculé de Camargue. Pas de portable, pas d'ordi, pas de voiture, il vit avec son ado de 16 ans dans ce parfait cocon de paix et de sérénité, et fuit tout ce qui ressemble de près ou de loin à un conflit. Comment imaginer que ce grand sage en tongs et t-shirt délavé ait un jour été flic ? Et pas n'importe lequel. Un des meilleurs. Hélas, même au paradis, y'a pas moyen d'être tranquille. Le jour où son ancienne vie vient frapper à la porte, Panda se retrouve obligé de reprendre du service... Mais à sa façon. Sans arme ni violence et pas trop tôt la matin. Zen, quoi.",
-    "date_ajout": "2023-11-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": true
@@ -93934,252 +84257,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1897724",
-    "titre": "Autofiction",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 51min",
-    "runtime_minutes": 111,
-    "note_avis": 6.3,
-    "note_recence": 10,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/345731049/s592/bitter-christmas.jpg",
-    "synopsis": "Raúl est un cinéaste culte en pleine crise créative. Lorsqu’un drame frappe l’une de ses plus proches collaboratrices, il s’en inspire pour écrire son prochain film. Peu à peu, il imagine Elsa, une réalisatrice en pleine écriture, dont le parcours commence à refléter le sien. Les deux cinéastes deviennent les deux facettes d’un même personnage, dans un jeu de miroirs où l’impudeur de l’autofiction dévoile autant qu’elle détruit. Mais jusqu’où peut-on aller pour raconter une histoire ?",
-    "date_ajout": "2026-05-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm166553",
-    "titre": "Moi, moche et méchant 2",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 7.3,
-    "note_recence": 6.1,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "cmy",
-      "crm",
-      "fml",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/175426758/s592/moi-moche-et-mechant-2.jpg",
-    "synopsis": "Ayant abandonné la super‐criminalité et mis de côté ses activités funestes pour se consacrer à la paternité et élever Margo, Édith et Agnès, Gru, et avec lui, le Professeur Néfario et les Minions, doivent se trouver de nouvelles occupations. Alors qu’il commence à peine à s’adapter à sa nouvelle vie tranquille de père de famille, une organisation ultrasecrète, menant une lutte acharnée contre le Mal à l’échelle planétaire, vient frapper à sa porte. Soudain, c’est à Gru, et à sa nouvelle coéquipière Lucy, que revient la responsabilité de résoudre une série de méfaits spectaculaires. Après tout, qui mieux que l’ex plus méchant de tous les temps, pourrait attraper celui qui rivalise pour lui voler la place qu’il occupait encore récemment…",
-    "date_ajout": "2013-07-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm197578",
-    "titre": "Connasse, princesse des cœurs",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 20min",
-    "runtime_minutes": 80,
-    "note_avis": 5.6,
-    "note_recence": 6.7,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "eur"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/342858484/s592/connasse-princesse-des-coeurs.jpg",
-    "synopsis": "Camilla, 30 ans, se rend compte qu'elle n'a pas la vie qu'elle mérite et décide que le seul destin à sa hauteur est celui d'une altesse royale.",
-    "date_ajout": "2015-04-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm123331",
-    "titre": "Baby Boss",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 37min",
-    "runtime_minutes": 97,
-    "note_avis": 6.3,
-    "note_recence": 7.3,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "cmy",
-      "fnt",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/158476310/s592/baby-boss.jpg",
-    "synopsis": "C'est toujours un choc de voir ses parents rentrer à la maison avec un bébé dans les bras – surtout quand il porte une cravate, qu’il se balade avec un attaché-case et qu’il a la voix d’un quinquagénaire ! Si Tim, 7 ans, ne voit pas d’un très bon œil ce « Baby Boss » débarquer chez lui, il découvre qu’il a en réalité affaire à un espion et que lui seul peut l’aider à accomplir sa mission ultra secrète… Car Baby Boss se prépare à un affrontement titanesque entre les bébés et… les toutous, charmants petits chiots qui vont bientôt être vendus pour remplacer les bébés dans le cœur des parents !",
-    "date_ajout": "2017-03-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1969342",
-    "titre": "Iron Maiden: Burning Ambition",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 46min",
-    "runtime_minutes": 106,
-    "note_avis": 7.4,
-    "note_recence": 10,
-    "note_globale": 8.7,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "hst",
-      "msc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/346347189/s592/iron-maiden-burning-ambition.jpg",
-    "synopsis": "Couvrant cinq décennies, Iron Maiden: Burning Ambition retrace leur ascension emblématique pour devenir l'un des plus grands groupes de l'histoire de la musique.",
-    "date_ajout": "2026-05-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm161814",
     "titre": "Nebraska",
     "type": "film",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2013,
@@ -94210,118 +84299,6 @@ const CATALOG_DATA = [
       "packageExpirations": {
         "art": "2026-11-06"
       }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts25423",
-    "titre": "Inazuma Eleven",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2008,
-    "annee_fin": 2012,
-    "annee_moyenne": 2010,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2008,
-        "note": 6.8
-      },
-      {
-        "saison": 2,
-        "annee": 2011,
-        "note": 6.8
-      },
-      {
-        "saison": 3,
-        "annee": 2012,
-        "note": 6.8
-      }
-    ],
-    "duree": "23 min/ép.",
-    "runtime_minutes": 23,
-    "note_avis": 6.8,
-    "note_recence": 5.2,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "cmy",
-      "fnt",
-      "fml",
-      "scf",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/343990147/s592/inazuma-eleven.jpg",
-    "synopsis": "Un jeune gardien de but talentueux tente de redonner vie à l'équipe peu reluisante de son école dans cette série animée basée sur le manga et le jeu vidéo à succès.",
-    "date_ajout": "2026-02-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "mlt": "2026-10-11"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1378878",
-    "titre": "La disparue de Yosemite",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 5.1,
-    "note_recence": 9.1,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/307187475/s592/la-disparue-de-yosemite.jpg",
-    "synopsis": "Katrina et Jennifer partent en séjour dans le Yosemite quand elles font la rencontre de Rick, un beau photographe. Katrina tombe sous le charme du jeune homme et accepte d'aller randonner avec lui. Après plusieurs heures sans nouvelles, Jennifer soupçonne un kidnapping. Elle s'empresse de partir à la recherche de sa sœur, aidée de son ex-petit ami, Willy. Malheureusement, de nombreux obstacles se dressent sur leur chemin.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": true
@@ -94497,160 +84474,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1487418",
-    "titre": "Blackwater Lane",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 48min",
-    "runtime_minutes": 108,
-    "note_avis": 4.6,
-    "note_recence": 9.4,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "hrr",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/317943135/s592/blackwater-lane.jpg",
-    "synopsis": "Après avoir été témoin d'une tragédie macabre, une femme est visitée par une entité fantomatique qui perturbe sa santé mentale.",
-    "date_ajout": "2024-10-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1130284",
-    "titre": "One Piece Film - Red",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 55min",
-    "runtime_minutes": 115,
-    "note_avis": 6.7,
-    "note_recence": 8.8,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "fnt",
-      "msc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/279513814/s592/one-piece-film-red.jpg",
-    "synopsis": "Luffy et son équipage s’apprêtent à assister à un festival de musique attendu avec impatience. La chanteuse la plus populaire du monde, Uta, va monter sur scène pour la première fois. Celle qui n’est autre que la fille du légendaire pirate Shanks Le Roux va révéler la puissance exceptionnelle de sa voix qui pourrait bien changer le monde…",
-    "date_ajout": "2022-08-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1571525",
-    "titre": "Y'a pas de réseau",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 20min",
-    "runtime_minutes": 80,
-    "note_avis": 4.3,
-    "note_recence": 9.7,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/339603469/s592/ya-pas-de-reseau.jpg",
-    "synopsis": "Jonas et Gabi, 9 et 11 ans, passent le week-end avec leurs parents dans un gîte isolé au milieu d’une forêt. À peine arrivés, les deux enfants décident de faire le mur, seuls en pleine nature, et vont surprendre deux malfrats aussi stupides que dangereux en train de faire exploser une antenne relais pour couper le réseau. Se lance alors une course poursuite effrénée où pour leur échapper, les deux enfants vont devoir transformer leur gîte en une véritable forteresse de pièges et obstacles.",
-    "date_ajout": "2025-08-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts21532",
     "titre": "Rizzoli & Isles",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "M6+",
     "chaines": [
-      "TF1+",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "tf1",
       "sxp"
     ],
     "annee": 2010,
@@ -94708,106 +84543,6 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts24483",
-    "titre": "Saint Seiya - The Lost Canvas",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2009,
-    "annee_moyenne": 2009,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2009,
-        "note": 8.2
-      }
-    ],
-    "duree": "25 min/ép.",
-    "runtime_minutes": 25,
-    "note_avis": 8.2,
-    "note_recence": 4.9,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "drm",
-      "fnt"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/255430258/s592/saint-seiya-the-lost-canvas.jpg",
-    "synopsis": "Depuis les temps mythologiques, la déesse Athéna et le seigneur des Enfers Hadès s'affrontent lors de « Guerres Saintes ». Notre histoire se déroule au 18e siècle, bien avant les événements de Saint Seiya (Les Chevaliers du Zodiaque) durant lesquels Seiyar et ses compagnons ont combattu Hadès aux côtés d'Athéna. Le rideau se lève sur une aventure inédite où s'entremêlent les destins du Chevalier Pégase, du seigneur des Enfers Hadès, et de la déesse Athéna de l'époque, sur fond de Guerre Sainte !",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1657470",
-    "titre": "L’Âme Idéale",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 6.8,
-    "note_recence": 9.7,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "fnt",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/340283182/s592/lame-ideale.jpg",
-    "synopsis": "Elsa, médecin, cache au reste du monde qu’elle voit les morts et les aide à \"passer de l’autre côté\". Convaincue que son don provoque le rejet, elle a renoncé aux histoires d'amour et s'est enfermée dans la solitude et le travail. Jusqu’au jour où elle fait la rencontre d’Oscar, un mort qui ne sait pas qu’il est mort...",
-    "date_ajout": "2025-10-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
     "on_tnt": true
   },
   {
@@ -94947,52 +84682,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1188520",
-    "titre": "Scream 6",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "2h 03min",
-    "runtime_minutes": 123,
-    "note_avis": 6.4,
-    "note_recence": 9.1,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "crm",
-      "hrr",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/305226496/s592/hurlement-vi.jpg",
-    "synopsis": "Après avoir frappé à trois reprises à Woodsboro, après avoir terrorisé le campus de Windsor et les studios d’Hollywood, Ghostface a décidé de sévir dans Big Apple, mais dans une ville aussi grande que New York personne ne vous entendra crier…",
-    "date_ajout": "2023-03-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm902330",
     "titre": "Ghosts of War",
     "type": "film",
@@ -95107,20 +84796,17 @@ const CATALOG_DATA = [
     "id": "jw-ts23835",
     "titre": "Masha et Michka",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "M6+",
     "chaines": [
-      "TF1+",
       "M6+",
       "France TV"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/m6_plus.png",
       "assets/logos/france_tv.png"
     ],
     "package_slugs": [
-      "tf1",
       "sxp",
       "fra"
     ],
@@ -95134,18 +84820,8 @@ const CATALOG_DATA = [
         "note": 7.1
       },
       {
-        "saison": 2,
-        "annee": 2012,
-        "note": 7.1
-      },
-      {
         "saison": 3,
         "annee": 2015,
-        "note": 7.1
-      },
-      {
-        "saison": 4,
-        "annee": 2019,
         "note": 7.1
       },
       {
@@ -95204,18 +84880,15 @@ const CATALOG_DATA = [
     "id": "jw-ts385682",
     "titre": "Etty",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2026,
@@ -95386,107 +85059,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts15770",
-    "titre": "The Bridge",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2013,
-        "note": 7.6
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 7.6,
-    "note_recence": 6.1,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/326141370/s592/the-bridge-2013.jpg",
-    "synopsis": "Deux policiers, l'un américain l'autre mexicain, doivent faire équipe lorsqu'un cadavre est découvert à la frontière, sur un pont reliant El Paso et Juarez. Leur mission dès lors : traquer un tueur en série qui opère des deux côtés de la frontière.",
-    "date_ajout": "2020-05-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm374139",
-    "titre": "Sonic, le film",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 6.5,
-    "note_recence": 8.2,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "fnt",
-      "fml",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/168597096/s592/sonic-the-hedgehog.jpg",
-    "synopsis": "L'histoire du hérisson bleu le plus rapide du monde qui arrive sur Terre, sa nouvelle maison. Sonic et son nouveau meilleur ami Tom font équipe pour sauver la planète du diabolique Dr. Robotnik, bien déterminé à régner sur le monde entier.",
-    "date_ajout": "2020-02-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm178627",
     "titre": "Les Croods",
     "type": "film",
@@ -95524,161 +85096,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/175565784/s592/les-croods.jpg",
     "synopsis": "Lorsque la caverne où ils vivent depuis toujours est détruite et leur univers familier réduit en miettes, les Croods se retrouvent obligés d’entreprendre leur premier grand voyage en famille. Entre conflits générationnels et bouleversements sismiques, ils vont découvrir un nouveau monde fascinant, rempli de créatures fantastiques, et un futur au‐delà de tout ce qu’ils avaient imaginé.",
     "date_ajout": "2013-03-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts269597",
-    "titre": "La Promesse",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+",
-      "Novo 19"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/novo19.svg"
-    ],
-    "package_slugs": [
-      "tf1",
-      "nvn"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2021,
-        "note": 7.1
-      }
-    ],
-    "duree": "55 min/ép.",
-    "runtime_minutes": 55,
-    "note_avis": 7.1,
-    "note_recence": 8.5,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/241573091/s592/la-promesse.jpg",
-    "synopsis": "Que peut-il arriver de pire pour un policier ? Certainement une enquête non résolue. C’est ce qui se passe au lendemain de Noël 1999. Charlotte Meyer, une petite fille de 11 ans, disparaît sans laisser de traces. Le capitaine Pierre Castaing, en charge de l’enquête, échoue à la retrouver. Où est-elle passée ? Le mystère reste entier… À quelques centaines de kilomètres de là, une jeune enquêtrice se trouve confrontée à une disparition similaire…",
-    "date_ajout": "2020-12-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "nvn": "2027-08-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm242691",
-    "titre": "Ballerina",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 6.8,
-    "note_recence": 7,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "cmy",
-      "fml",
-      "msc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176359364/s592/ballerina.jpg",
-    "synopsis": "Félicie est une jeune orpheline bretonne qui n’a qu’une passion : la danse. Avec son meilleur ami Victor qui aimerait devenir un grand inventeur, ils mettent au point un plan rocambolesque pour s’échapper de l’Orphelinat, direction Paris, ville lumière et sa Tour Eiffel en construction ! Félicie devra se battre comme jamais, se dépasser et apprendre de ses erreurs pour réaliser son rêve le plus fou : devenir danseuse étoile à l’Opéra de Paris…",
-    "date_ajout": "2016-12-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm915880",
-    "titre": " Moi, moche et méchant 4",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 6.2,
-    "note_recence": 9.4,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "crm",
-      "fml",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/319666613/s592/moi-moche-et-mechant-4.jpg",
-    "synopsis": "Gru, Lucy et les filles, Margo, Édith et Agnès accueillent le petit dernier de la famille, Gru Junior, qui semble n’avoir qu’une passion : faire tourner son père en bourrique. Mais Gru est confronté à un nouvel ennemi, Maxime Le Mal, qui avec l’aide de sa petite amie, la fatale Valentina, va obliger toute la famille à fuir.",
-    "date_ajout": "2024-07-03",
     "expiration": {
       "status": "none",
       "label": null,
@@ -95808,68 +85225,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/151042852/s592/madam-secretary.jpg",
     "synopsis": "Lorsque le secrétaire d’État américain meurt dans un mystérieux accident d’avion, le président des États-Unis Conrad Dalton désigne Elizabeth McCord, une amie de longue date, pour le remplacer.\n\nChargée de la diplomatie internationale, cette femme brillante qui a fait carrière dans la CIA doit désormais jongler avec la bureaucratie, le staff mis en place par son prédécesseur qui ne lui est pas toujours favorable, la presse, les dîners officiels et sa vie de famille...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts329786",
-    "titre": "Indéfendable",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_fin": 2024,
-    "annee_moyenne": 2023,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2022,
-        "note": 7.3
-      },
-      {
-        "saison": 2,
-        "annee": 2023,
-        "note": 7.3
-      },
-      {
-        "saison": 3,
-        "annee": 2024,
-        "note": 7.3
-      }
-    ],
-    "duree": "22 min/ép.",
-    "runtime_minutes": 22,
-    "note_avis": 7.3,
-    "note_recence": 9.1,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300823308/s592/indefendable.jpg",
-    "synopsis": "Indéfendable nous plongera dans l’univers du Cabinet Lapointe-Macdonald et de son équipe de défense criminelle. Un univers réaliste construit de drames humains, du plus petit au plus grand, tous empreints de la même émotion : la peur d'être condamné.",
     "expiration": {
       "status": "none",
       "label": null,
@@ -96054,95 +85409,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1618348",
-    "titre": "La découverte de la Chouette d'or",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 20min",
-    "runtime_minutes": 80,
-    "note_avis": 6.4,
-    "note_recence": 9.7,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "doc",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/337217938/s592/la-decouverte-de-la-chouette-dor.jpg",
-    "synopsis": "11 énigmes, 31 ans de chasse, 1 gagnant parmi des centaines de milliers de Chouetteurs. Retour sur une chasse au trésor exceptionnelle avec des révélations exclusives dont la solution complète des énigmes de la Chouette d’Or et le lancement d’une nouvelle quête.",
-    "date_ajout": "2025-05-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm924991",
-    "titre": "Face à ma mort",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 4.5,
-    "note_recence": 8.2,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "hrr",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/206156646/s592/death-of-me.jpg",
-    "synopsis": "En vacances en Thaïlande, Christine et Neil, un couple ordinaire, passent une agréable soirée mais celle-ci est très arrosée. Le lendemain, avec encore la gueule de bois, ils découvrent qu'ils auraient participé à un rituel sanglant et que Christine serait morte, alors qu'elle est bien vivante...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts241854",
     "titre": "Edens Zero",
     "type": "serie",
@@ -96157,9 +85423,15 @@ const CATALOG_DATA = [
     "package_slugs": [
       "sxp"
     ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
+    "annee": 2021,
+    "annee_fin": 2023,
+    "annee_moyenne": 2022,
     "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2021,
+        "note": 7.1
+      },
       {
         "saison": 2,
         "annee": 2023,
@@ -96169,8 +85441,8 @@ const CATALOG_DATA = [
     "duree": "24 min/ép.",
     "runtime_minutes": 24,
     "note_avis": 7.1,
-    "note_recence": 9.1,
-    "note_globale": 8.1,
+    "note_recence": 8.8,
+    "note_globale": 8,
     "etoiles": 5,
     "categories": [
       "animation_famille"
@@ -96195,51 +85467,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm349929",
-    "titre": "L'île aux secrets",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 21min",
-    "runtime_minutes": 81,
-    "note_avis": 6.3,
-    "note_recence": 7.3,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/309851038/s592/lile-aux-secrets.jpg",
-    "synopsis": "Après la mort de son père, Miranda Merchant rejoint sa mère qui vit sur une île au large de la Nouvelle-Angleterre. Des légendes locales racontent que des créatures à moitié humaines et à moitié aquatiques vivent dans les environs : les Seawalkers. En explorant davantage le passé de sa famille, l'adolescente commence à se questionner sur de potentiels liens avec ce mythe.",
-    "date_ajout": "2026-09-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
     "on_tnt": true
   },
   {
@@ -96360,58 +85587,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts322321",
-    "titre": "Les Combattantes",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2022,
-        "note": 7
-      }
-    ],
-    "duree": "52 min/ép.",
-    "runtime_minutes": 52,
-    "note_avis": 7,
-    "note_recence": 8.8,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "war"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302500925/s592/les-combattantes.jpg",
-    "synopsis": "Septembre 1914. Depuis quelques semaines, les combats font rage. Dans un petit village de l’est de la France, à quelques kilomètres de la zone allemande, quatre femmes se retrouvent projetées au cœur de l'horreur : Marguerite, prostituée parisienne aussi mystérieuse que flamboyante que l'on soupçonne d'être une espionne ; Caroline, épouse de Victor Dewitt, propriétaire d’une usine de voitures, parti au front. Elle se voit propulsée à la tête de l’entreprise familiale, défi colossal et inédit pour une femme du début du siècle ; Agnès, mère supérieure d’un couvent réquisitionné et transformé en hôpital militaire. Dépassée par l’afflux de blessés, Agnès est de plus tourmentée et questionne ses choix de vie ; et Suzanne, jeune infirmière féministe en cavale depuis un avortement qui a mal tourné…",
-    "date_ajout": "2022-09-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts462561",
     "titre": "La Quête d'Ewilan",
     "type": "serie",
@@ -96456,208 +85631,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/342864432/s592/la-quete-dewilan.jpg",
     "synopsis": "La vie de Camille, orpheline de 13 ans, bascule le jour où elle est projetée par accident dans le monde de Gwendalavir. Elle découvre une terre peuplée de créatures aussi extraordinaires que dangereuses, qu’elle va devoir explorer, accompagnée de son ami Salim, pour découvrir non seulement son véritable nom, Ewilan, mais aussi la vérité sur ses racines et sa destinée. Originaire en réalité de ce monde parallèle, elle est l’héritière d’un don prodigieux, le Dessin, qui s’avère être une arme décisive dans la lutte de son peuple contre les terribles Ts’liches. Elle seule semble pouvoir libérer les Sentinelles capables de protéger Gwendalavir de leurs ennemis.",
     "date_ajout": "2026-02-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts37350",
-    "titre": "#Philo",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2015,
-        "note": 8.6
-      }
-    ],
-    "duree": "49 min/ép.",
-    "runtime_minutes": 49,
-    "note_avis": 8.6,
-    "note_recence": 6.7,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/324551427/s592/merli.jpg",
-    "synopsis": "Série télévisée sur un professeur de philosophie au lycée, Merlí, qui enseigne de manière originale, et sur les élèves de sa classe, y compris son propre fils, et la relation, l'amitié, l'amour et les problèmes entre les élèves de la classe.",
-    "date_ajout": "2025-08-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm324052",
-    "titre": "Les Tuche 3",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 4.8,
-    "note_recence": 7.6,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/255492314/s592/tuche-3-liberte-egalite-fraternituche.jpg",
-    "synopsis": "Jeff Tuche, se réjouit de l’arrivée du TGV dans son cher village. Malheureusement, le train à grande vitesse ne fait que passer, sans s’arrêter à Bouzolles. Déçu, il tente de joindre le président de la République pour que son village ne reste pas isolé du reste du territoire. Sans réponse de l’Élysée, Jeff ne voit plus qu’une seule solution pour se faire entendre : se présenter à l’élection présidentielle…",
-    "date_ajout": "2018-01-31",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts285853",
-    "titre": "Barbapapa en famille",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2020,
-    "annee_fin": 2023,
-    "annee_moyenne": 2022,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2020,
-        "note": 7.8
-      },
-      {
-        "saison": 2,
-        "annee": 2023,
-        "note": 7.8
-      }
-    ],
-    "duree": "11 min/ép.",
-    "runtime_minutes": 11,
-    "note_avis": 7.8,
-    "note_recence": 8.8,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302896420/s592/barbapapa-en-famille.jpg",
-    "synopsis": "La série se concentre sur la vie quotidienne des membres de la famille Barbapapa, un groupe de blobs métamorphes. La plupart des épisodes mettent en scène la famille dans des situations extraordinaires et souvent humoristiques, comme la construction d'une fusée vers Mars ou la tentative des enfants de cacher à leurs parents un éléphant de compagnie trouvé dans la nature.",
-    "date_ajout": "2020-09-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1597007",
-    "titre": "Marius et les Gardiens de la Cité Phocéenne",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 4.3,
-    "note_recence": 9.7,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/333586860/s592/marius-et-les-gardiens-de-la-cite-phoceenne.jpg",
-    "synopsis": "Auto-proclamé \"Roi de Marseille\", Marius est un guide touristique haut en couleur qui trimballe ses clients dans son bus panoramique.  Le jour où son véhicule tombe en panne, mettant en péril son petit business, il fait la rencontre de trois gamins du quartier qui prétendent être sur la piste d'un trésor.  Marius se retrouve alors engagé dans une dangereuse aventure...",
-    "date_ajout": "2025-07-09",
     "expiration": {
       "status": "none",
       "label": null,
@@ -96838,100 +85811,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm323106",
-    "titre": "Baby Boss 2: Une affaire de famille",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 47min",
-    "runtime_minutes": 107,
-    "note_avis": 5.8,
-    "note_recence": 8.5,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "fnt",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/293547690/s592/baby-boss-2-une-affaire-de-famille.jpg",
-    "synopsis": "Tim Templeton et son petit frère Ted, le fameux Baby Boss sont devenus adultes, ils vivent chacun de leur côté, Tim est devenu un père de famille rangé et Ted est à la tête d’un important fond spéculatif. Mais l’arrivée d’un nouveau Baby Boss, avec une toute nouvelle approche et une stratégie innovante, est sur le point de rassembler les frères ennemis… et inspirer un nouveau modèle dans les affaires familiales. Tim et sa femme Carole vivent en banlieue où il s’occupe du foyer pendant qu’elle fait bouillir la marmite. Ils ont deux enfants : Tabitha, une petite fille de 7 ans à l’intelligence remarquable et Tina, leur adorable nouveau-née. Tabitha, première de sa classe dans une école pour surdoués, adule son oncle Ted et rêve de marcher sur ses pas, ce qui inquiète beaucoup Tim qui craint qu’elle ne passe à côté de son enfance à force de travailler si dur.",
-    "date_ajout": "2021-07-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm207121",
-    "titre": "Cinquante nuances plus claires",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 46min",
-    "runtime_minutes": 106,
-    "note_avis": 4.6,
-    "note_recence": 7.6,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "rma"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302149575/s592/cinquante-nuances-plus-claires.jpg",
-    "synopsis": "Plus heureux que jamais, Anastasia et Christian forment désormais un couple solide. Cependant, leur bonheur est troublé par Jack Hyde, l'ancien patron d'Anastasia et par une nouvelle qui pourrait détruire leur relation.",
-    "date_ajout": "2018-02-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts20109",
     "titre": "The Honourable Woman",
     "type": "serie",
@@ -96986,57 +85865,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts407625",
-    "titre": "Carpe Diem",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 7.2
-      }
-    ],
-    "duree": "50 min/ép.",
-    "runtime_minutes": 50,
-    "note_avis": 7.2,
-    "note_recence": 9.7,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320523031/s592/carpe-diem.jpg",
-    "synopsis": "À 48 ans, Tom Villeneuve est enfin libre. Accusé à tort du meurtre de sa femme, Tom vient de passer 17 ans en prison. Combatif, il étudie le droit en prison et lorsqu’il est libéré, il devient avocat. De retour dans sa ville natale, Nice, il est bien décidé à découvrir qui est le véritable meurtrier. Il ouvre son cabinet de « jeune » avocat et défend les innocents injustement accusés de crime, comme lui. Son style surprend car il est toujours souriant et décontracté, non sans un certain panache. Puisqu’on lui a volé 17 ans de sa vie, il n’a qu’une règle dans l’existence : Carpe Diem. Profiter de l’instant présent.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts398618",
     "titre": "Goldorak U",
     "type": "serie",
@@ -97079,154 +85907,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/306881191/s592/goldorak-u.jpg",
     "synopsis": "Après une attaque dévastatrice des forces de Vega sur la planète Fleed, Duke Fleed et Grendizer se sont échappés sur Terre. À son arrivée, le Dr Amon, directeur du Centre de recherche spatiale, l'adopte et lui donne le nom de Daisuke. Alors qu'ils travaillent côte à côte au centre pour découvrir quels sont les objets étranges qui apparaissent dans le ciel de la ville, ils sont surpris par une attaque qui bouleverse la mémoire de Daisuke. Ils ont été surpris par une attaque qui a bouleversé la mémoire de Daisuke.",
     "date_ajout": "2025-10-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts361558",
-    "titre": "Quai numéro 7",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2023,
-        "note": 6.5
-      }
-    ],
-    "duree": "47 min/ép.",
-    "runtime_minutes": 47,
-    "note_avis": 6.5,
-    "note_recence": 9.1,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/310063852/s592/platform-7.jpg",
-    "synopsis": "Lisa, après avoir été témoin d'un événement cataclysmique sur le quai 7 d'une gare, voit sa propre mémoire fragmentée se réveiller et révéler un lien entre sa propre vie et celle de l'événement dont elle vient d'être témoin.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm927825",
-    "titre": "Scream 5",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 54min",
-    "runtime_minutes": 114,
-    "note_avis": 6.3,
-    "note_recence": 8.8,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "hrr",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/313444098/s592/scream-5.jpg",
-    "synopsis": "25 ans après que la paisible ville de Woodsboro a été frappée par une série de meurtres violents, un nouveau tueur revêt le masque de Ghostface et prend pour cible un groupe d’adolescents. Il est déterminé à faire ressurgir les sombres secrets du passé.",
-    "date_ajout": "2022-01-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts458970",
-    "titre": "Montmartre",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 6.5
-      }
-    ],
-    "duree": "52 min/ép.",
-    "runtime_minutes": 52,
-    "note_avis": 6.5,
-    "note_recence": 9.7,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/338106385/s592/montmartre.jpg",
-    "synopsis": "Paris, 1899. Céleste, danseuse de Cancan dans un cabaret de Montmartre, tente désespérément de retrouver le frère et la soeur dont elle a été séparée brutalement enfant quand leur père a été assassiné sous leurs yeux. Pour pouvoir payer Léon, l’inspecteur chargé de les retrouver, elle n’a d’autre choix que de danser nue.  Elle devient ainsi la première effeuilleuse de Paris et fait scandale bien malgré elle. De spectacle en spectacle, à mesure qu’elle prend de l’assurance, une nouvelle vie s’offre à elle mais les démons de son passé ne cessent de la rattraper.",
-    "date_ajout": "2025-09-22",
     "expiration": {
       "status": "none",
       "label": null,
@@ -97355,153 +86035,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1126399",
-    "titre": "The Old Way",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 5.6,
-    "note_recence": 9.1,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "wsn"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/304940249/s592/the-old-way.jpg",
-    "synopsis": "Colton Briggs, un ancien bandit armé, tient désormais une épicerie et vit tranquillement avec sa famille. Lorsqu'un gang de hors-la-loi assassine sa femme de sang-froid, Briggs rentre chez lui, déterre son arme et s'entoure d'une partenaire improbable : sa fille de douze ans.",
-    "date_ajout": "2023-04-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts79916",
-    "titre": "Le Chalet",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 7
-      }
-    ],
-    "duree": "55 min/ép.",
-    "runtime_minutes": 55,
-    "note_avis": 7,
-    "note_recence": 7.6,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "hrr",
-      "trl",
-      "eur"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/340706403/s592/le-chalet-2018.jpg",
-    "synopsis": "Eté 2017 : Valmoline : Six habitants. Treize invités se retrouvent dans ce paisible hameau du fin fond des Hautes-Alpes. A peine ont-ils passé le pont, qu’un énorme rocher s'effondre et bloque le passage, écrasant un homme ligoté en contrebas. Le village isolé, le massacre peut commencer...",
-    "date_ajout": "2018-03-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm207115",
-    "titre": "Fast & Furious 8",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "2h 16min",
-    "runtime_minutes": 136,
-    "note_avis": 6.6,
-    "note_recence": 7.3,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/8540982/s592/fast-and-furious-8.jpg",
-    "synopsis": "Maintenant que Dom et Letty sont en lune de miel, que Brian et Mia se sont rangés et que le reste de l’équipe a été disculpé, la bande de globe-trotteurs retrouve un semblant de vie normale. Mais quand une mystérieuse femme entraîne Dom dans le monde de la criminalité, ce dernier ne pourra éviter de trahir ses proches qui vont faire face à des épreuves qu’ils n’avaient jamais rencontrées jusqu’alors.  Des rivages de Cuba aux rues de New York en passant par les plaines gelées de la mer arctique de Barrents, notre équipe va sillonner le globe pour tenter d'empêcher une anarchiste de déchaîner un chaos mondial et de ramener à la maison l’homme qui a fait d’eux une famille.",
-    "date_ajout": "2017-04-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts388148",
     "titre": "La Peste",
     "type": "serie",
@@ -97552,60 +86085,6 @@ const CATALOG_DATA = [
       "packageExpirations": {
         "fra": "2026-10-31"
       }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts37528",
-    "titre": "Le Mystère du lac",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2015,
-        "note": 6.8
-      }
-    ],
-    "duree": "49 min/ép.",
-    "runtime_minutes": 49,
-    "note_avis": 6.8,
-    "note_recence": 6.7,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/327309553/s592/le-mystere-du-lac.jpg",
-    "synopsis": "Lorsque Lise Stocker, flic dans une brigade criminelle, revient dans sa ville natale pour s’occuper de sa mère atteinte de la maladie d’Alzheimer, elle est loin de s’attendre à se prendre son passé de plein fouet. Et pourtant. À peine revenue, on découvre qu’une adolescente de 16 ans a disparu après la fête du village. Une disparition qui bouleverse Lise. Et pour cause. Quinze ans auparavant, presque jour pour jour, ses deux meilleures amies avaient également disparu de la même manière. Sans laisser de traces. L’instinct de flic qui est en elle pousse Lise à se demander : ces deux affaires ont-elles un lien quelconque ? Que va-t-elle découvrir sur son passé si elle décide de mener l’enquête ?",
-    "date_ajout": "2017-11-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": true
@@ -97665,199 +86144,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1920515",
-    "titre": "Billie Eilish - Hit Me Hard and Soft : The Tour (3D)",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 54min",
-    "runtime_minutes": 114,
-    "note_avis": 7.5,
-    "note_recence": 10,
-    "note_globale": 8.8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "msc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/343784024/s592/billie-eilish-hit-me-hard-and-soft-the-tour-live-in-3d.jpg",
-    "synopsis": "Réalisé pendant sa tournée mondiale jouée à guichets fermés, BILLIE EILISH – HIT ME HARD AND SOFT TOUR (3D) propose une nouvelle expérience de concert innovante sur grand écran, avec l’une des artistes les plus célèbres et les plus talentueuses de sa génération. Présenté en 3D immersive, le film est réalisé par James Cameron et Billie Eilish, tous deux lauréats d’un Oscar.",
-    "date_ajout": "2026-05-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm240630",
-    "titre": "Comme des bêtes 2",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 6.4,
-    "note_recence": 7.9,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "cmy",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321465826/s592/comme-des-betes-2.jpg",
-    "synopsis": "Retrouvez la suite des péripéties de Max, Gidget, Chloé, Pompon et le reste de la troupe. Ces nouvelles aventures vont les pousser à trouver le courage de se dépasser pour devenir de véritables héros. Découvrez les émotions de cette joyeuse bande, les liens d'amitié qui les unissent, leur famille qui les aiment et apprenez ce que font réellement vos animaux domestiques lorsque vous n'êtes pas à la maison.",
-    "date_ajout": "2019-06-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm2880665",
-    "titre": "Le professeur toxique de mon fils",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 5.1,
-    "note_recence": 10,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/346870123/s592/le-professeur-toxique-de-mon-fils.jpg",
-    "synopsis": "Emma et Ethan sont meilleurs amis et étudiants en psychologie. Ils admirent tous les deux le grand professeur Jackson qu'Andrea, la mère d'Ethan, a hâte de rencontrer. Mais l'opinion d'Andrea va être tout autre que celle des deux jeunes gens. Et lorsqu'Emma trouve la mort au domicile de Jackson, Andrea se met à avoir de sérieux soupçons à son sujet. Elle tente alors d'alerter à la fois la police et son fils, mais l'aura de Jackson est telle que, malgré les actes d'intimidation dont elle devient la victime, elle peine à se faire entendre. Qu'importe, elle n'abandonnera pas. D'autant moins qu'Ethan semble aspiré dans le vortex maléfique de Jackson.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1933003",
-    "titre": "Pasteur et prédateur",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 5.7,
-    "note_recence": 10,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341172007/s592/pasteur-et-predateur.jpg",
-    "synopsis": "Venue chercher l'inspiration dans une petite ville paisible, Nicole, une jeune styliste, voit son été virer au cauchemar après la mort mystérieuse de sa cousine. Ses soupçons se tournent rapidement vers le pasteur local, un homme aussi charismatique qu'influent. Nicole en est convaincue : derrière cette façade de citoyen irréprochable, il cache un secret mortel.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts383185",
     "titre": "You & Me",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2023,
@@ -97896,53 +86194,6 @@ const CATALOG_DATA = [
       "packageExpirations": {
         "art": "2026-10-20"
       }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1626772",
-    "titre": "Sur un air de blues",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "2h 13min",
-    "runtime_minutes": 133,
-    "note_avis": 7.3,
-    "note_recence": 9.7,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "msc",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/340834227/s592/song-sung-blue-2025.jpg",
-    "synopsis": "Milwaukee, Ohio, 1989. Mike, imitateur d'Elvis, fait la connaissance de Claire, une chanteuse de clubs abonnée au répertoire de Patsy Cline. Le coup de foudre réciproque amène cet alcoolique sobre et cette mère célibataire à former un groupe dédié au répertoire de Neil Diamond baptisé Lightning & Thunder. De kermesses locales en festivals, le duo est remarqué par Eddie Vedder, le leader du groupe Pearl Jam, qui l'invite à assurer la première partie de son spectacle à Milwaukee. Le triomphe qui s'ensuit est assombri par un terrible accident, qui coûte à Claire une de ses jambes, et plonge ces amoureux fous dans leur première crise de couple, sous l'œil impuissant de leurs enfants respectifs.",
-    "date_ajout": "2026-01-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": true
@@ -98079,118 +86330,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm196787",
-    "titre": "Moi, moche et méchant 3",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 6.3,
-    "note_recence": 7.3,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "crm",
-      "fml",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/143066056/s592/moi-moche-et-mechant-3.jpg",
-    "synopsis": "Après avoir été licencié de la Ligue Anti‐Villain pour avoir échoué à capturer le dernier méchant capable de menacer l’humanité, Gru se trouve confronté à une crise d’identité majeure. Mais quand se présente un étranger mystérieux qui l’informe du décès de son père mais aussi de l’existence d’un frère jumeau – un frère qui veut désespérément suivre les traces méprisables de son jumeau – un ancien super‐méchant va redécouvrir à quel point c’est bon d’être mauvais.",
-    "date_ajout": "2017-06-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1276157",
-    "titre": "Bob l'éponge, le film : Un pour tous, tous pirates !",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 5.7,
-    "note_recence": 9.7,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "fnt",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341036557/s592/bob-leponge-le-film-a-la-recherche-de-squarepants.jpg",
-    "synopsis": "Bob l'éponge et ses amis de Bikini Bottom larguent les amarres pour leur plus grande aventure sur grand écran. Bien décidé à prouver à M. Krabs qu'il est désormais un grand garçon, Bob se lance sur les traces du légendaire Hollandais Volant, un redoutable pirate fantôme. Cap sur une épopée déjantée, entre fous rires, frissons et péripéties sous-marines, jusque dans les abysses les plus mystérieux de l'océan, là où aucune éponge n'a jamais osé plonger !",
-    "date_ajout": "2025-12-19",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts287728",
     "titre": "Everything's Gonna Be Okay",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2020,
@@ -98291,50 +86442,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1645993",
-    "titre": "La Grazia",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "2h 13min",
-    "runtime_minutes": 133,
-    "note_avis": 7.3,
-    "note_recence": 9.7,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341592064/s592/grace-2025.jpg",
-    "synopsis": "Mariano De Santis, Président de la République italienne, est un homme marqué par le deuil de sa femme et la solitude du pouvoir. Alors que son mandat touche à sa fin, il doit faire face à des décisions cruciales qui l’obligent à affronter ses propres dilemmes moraux : deux grâces présidentielles et un projet de loi hautement controversé.",
-    "date_ajout": "2026-01-28",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm2965710",
     "titre": "Admis",
     "type": "film",
@@ -98376,260 +86483,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1033751",
-    "titre": "Blue & Co",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 6.4,
-    "note_recence": 9.4,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "cmy",
-      "drm",
-      "fnt",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/317857290/s592/imaginary-friends.jpg",
-    "synopsis": "Une petite fille découvre qu'elle peut voir les amis imaginaires des autres. Elle se lance dans un voyage magique pour reconnecter les amis imaginaires oubliés avec leurs enfants, avant qu'ils ne disparaissent.",
-    "date_ajout": "2024-05-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts369291",
-    "titre": "Master Crimes",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_fin": 2025,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2023,
-        "note": 6.6
-      },
-      {
-        "saison": 2,
-        "annee": 2024,
-        "note": 6.6
-      },
-      {
-        "saison": 3,
-        "annee": 2025,
-        "note": 6.6
-      }
-    ],
-    "duree": "51 min/ép.",
-    "runtime_minutes": 51,
-    "note_avis": 6.6,
-    "note_recence": 9.4,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/340950343/s592/master-crimes.jpg",
-    "synopsis": "Louise Arbus est une prof de psycho-criminologie à l’Université, aussi brillante qu’exaspérante, dont le talent est reconnu dans la France entière. Appelée par le commissaire Rugasira, elle se retrouve sur une scène de crime à la mise en scène soignée et spectaculaire. La victime porte sur elle la phrase issu d’un de ses livres : « J'attends le tueur parfait » Le tueur semble s’adresser à elle. Louise Arbus est donc contrainte de collaborer avec les flics pour résoudre cette enquête, elle qui s’était promis d’arrêter 8 ans auparavant, suite à la condamnation d’un certain Pierre Delaunay.",
-    "date_ajout": "2023-11-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1124427",
-    "titre": "Une belle course",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 7.2,
-    "note_recence": 8.8,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302515154/s592/une-belle-course.jpg",
-    "synopsis": "Madeleine, 92 ans, appelle un taxi pour rejoindre la maison de retraite où elle doit vivre désormais. Elle demande à Charles, un chauffeur un peu désabusé, de passer par les lieux qui ont compté dans sa vie, pour les revoir une dernière fois. Peu à peu, au détour des rues de Paris, surgit un passé hors du commun qui bouleverse Charles. Il y a des voyages en taxi qui peuvent changer une vie…",
-    "date_ajout": "2022-09-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm457216",
-    "titre": "C'est quoi cette mamie ?!",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 39min",
-    "runtime_minutes": 99,
-    "note_avis": 4.9,
-    "note_recence": 7.9,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/268090559/s592/cest-quoi-cette-mamie.jpg",
-    "synopsis": "Après deux ans de joyeuse collocation, la tribu des 7 demi-frères et sœurs doit quitter le grand appart’ avant la rentrée. Alors que chacun part en vacances pour l’été avec ses parents respectifs, Gulliver, le petit dernier, est envoyé tout seul chez sa grand-mère au bord de la mer. Mais l’excentrique Mamie Aurore n’est pas une baby-sitter comme les autres et préfère faire la fête plutôt que de garder son petit-fils… Le reste de la troupe décide de venir à sa rescousse. C’est le début d’une nouvelle révolution.  Elle voulait se la couler douce… Ils vont lui mener la vie dure !",
-    "date_ajout": "2019-08-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts225170",
-    "titre": "Goulag, une histoire soviétique",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2020,
-        "note": 8
-      }
-    ],
-    "duree": "56 min/ép.",
-    "runtime_minutes": 56,
-    "note_avis": 8,
-    "note_recence": 8.2,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "hst",
-      "war"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/242212032/s592/goulag-une-histoire-sovietique.jpg",
-    "synopsis": "Le Goulag, système concentrationnaire soviétique, est demeuré longtemps méconnu. Les premiers camps sont créés en 1918, et connaîtront un développement exponentiel jusqu'à la mort de Staline en 1953. Des archives et témoignages d’anciens \"zeks\" lèvent le voile sur ce qui fut l’instrument de répression et d’industrialisation de l’Union soviétique.",
-    "date_ajout": "2025-10-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
     "on_tnt": true
   },
   {
@@ -98768,137 +86621,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts1994",
-    "titre": "Ashes to Ashes",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2008,
-    "annee_fin": 2010,
-    "annee_moyenne": 2009,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2008,
-        "note": 8.1
-      },
-      {
-        "saison": 2,
-        "annee": 2009,
-        "note": 8.1
-      },
-      {
-        "saison": 3,
-        "annee": 2010,
-        "note": 8.1
-      }
-    ],
-    "duree": "55 min/ép.",
-    "runtime_minutes": 55,
-    "note_avis": 8.1,
-    "note_recence": 4.9,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "fnt",
-      "trl",
-      "scf",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/353880730/s592/ashes-to-ashes.jpg",
-    "synopsis": "Après qu'on lui ait tiré dessus, Alex Drake, flic de son état, est propulsée dans les années 80 ! Elle y découvre un monde nouveau, peuplé de gens habillés comme dans Deux flics à Miami et écoutant une musique depuis longtemps tombée dans l'oubli... Comme si cela ne suffisait pas, Alex est obligée de faire équipe avec un certain Gene Hunt afin de résoudre des crimes ! Entre la sexy et ambitieuse Alex et cette brute épaisse, la cohabitation s'annonce explosive...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm238376",
-    "titre": "RAID Dingue",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
-    "note_avis": 5.6,
-    "note_recence": 7.3,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm",
-      "trl",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/207830525/s592/raid-dingue.jpg",
-    "synopsis": "Johanna Pasquali est une fliquette pas comme les autres. Distraite, rêveuse et maladroite, elle est une policière sympathique mais totalement nulle. Dotée pourtant de réelles compétences, sa maladresse fait d'elle une menace pour les criminels. Assignée à des missions aussi dangereuses que des voitures mal garées ou des vols à l'étalage, elle s'entraîne sans relâche pendant son temps libre pour réaliser son rêve : être la première femme à intégrer le groupe d'élite du RAID. Acceptée au centre de formation du RAID, elle se retrouve alors avec l'agent Eugène Froissard (dit Poissard), le plus misogyne des agents du RAID. Ce duo improbable se voit chargé d'arrêter le redoutable Gang des Léopards. Mais avant de pouvoir les arrêter, il faudrait déjà qu'ils parviennent à travailler en binôme sans s’entre-tuer au cours des entraînements.",
-    "date_ajout": "2017-02-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm453909",
     "titre": "Berlin Alexanderplatz",
     "type": "film",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2020,
@@ -98929,257 +86663,6 @@ const CATALOG_DATA = [
       "expirationDate": null,
       "packageExpirations": {
         "art": "2026-10-16"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1438775",
-    "titre": "Le Son des souvenirs",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "2h 08min",
-    "runtime_minutes": 128,
-    "note_avis": 6.9,
-    "note_recence": 9.7,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "msc",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/338325875/s592/the-history-of-sound.jpg",
-    "synopsis": "Pendant la Première Guerre mondiale, deux jeunes hommes, Lionel et David, entreprennent d'enregistrer les vies, les voix et la musique de leurs compatriotes américains...",
-    "date_ajout": "2025-09-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1963296",
-    "titre": "Ma famille a disparu",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 5.6,
-    "note_recence": 10,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/342176797/s592/ma-famille-a-disparu.jpg",
-    "synopsis": "Courtney, femme d'affaires, passe ses journées au travail pendant que son mari Stan s'occupe de leurs deux filles. Un soir, elle rentre du bureau et trouve la maison vide. Tout le monde, y compris la police, semble penser que Stan a quitté sa femme et qu'il est parti de lui-même avec les enfants. Plus Courtney en apprend sur son mari, plus elle se demande s'il n'avait pas une double vie...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts381362",
-    "titre": "Le Daron",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_fin": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 6.3
-      },
-      {
-        "saison": 2,
-        "annee": 2025,
-        "note": 6.3
-      }
-    ],
-    "duree": "50 min/ép.",
-    "runtime_minutes": 50,
-    "note_avis": 6.3,
-    "note_recence": 9.7,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/334335202/s592/le-daron.jpg",
-    "synopsis": "Vincent Daron, brillant et fantasque avocat à la cour de Bordeaux, est à la tête d’un célèbre cabinet familial qu’il a fondé avec son frère Jean-Michel. Mais lorsque ce dernier décède, Daron découvre, avec stupéfaction, que son frère a légué l’intégralité de ses parts à Pauline Lefranc, une jeune avocate qui vient tout juste de lui donner du fil à retordre lors d’un procès et qui n’a aucun lien avec la famille !",
-    "date_ajout": "2026-04-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1043245",
-    "titre": "Tout s’est bien passé",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 53min",
-    "runtime_minutes": 113,
-    "note_avis": 6.8,
-    "note_recence": 8.5,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/258929260/s592/tout-sest-bien-passe.jpg",
-    "synopsis": "À 85 ans, le père d'Emmanuèle est hospitalisé après un accident vasculaire cérébral. Quand il se réveille, diminué et dépendant, cet homme curieux de tout, aimant passionnément la vie, demande à sa fille de l'aider à mourir.",
-    "date_ajout": "2021-09-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts220379",
-    "titre": "Peur sur le lac",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+",
-      "Novo 19"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/novo19.svg"
-    ],
-    "package_slugs": [
-      "tf1",
-      "nvn"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2020,
-        "note": 6.7
-      }
-    ],
-    "duree": "51 min/ép.",
-    "runtime_minutes": 51,
-    "note_avis": 6.7,
-    "note_recence": 8.2,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320272349/s592/peur-sur-le-lac.jpg",
-    "synopsis": "Lise Stocker et Clovis Bouvier doivent faire face à une nouvelle menace totalement inédite. Plusieurs personnes sont atteintes d’un mal mystérieux et mortel. Un virus est en train de se répandre à Annecy. Une course contre la montre s’engage pour trouver l’origine de ce virus et tenter de stopper sa propagation. Est-ce un accident ? Un acte criminel ? Terroriste ? Ce virus a-t-il un lien avec la disparition mystérieuse d’une petite fille et de son père ? Chaque minute compte car déjà le nombre de victimes augmente… Spin-off des séries \"Le Mystère du lac\" et \"Le Tueur du lac\".",
-    "date_ajout": "2020-01-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "nvn": "2026-10-14"
       }
     },
     "on_prime": false,
@@ -99268,18 +86751,15 @@ const CATALOG_DATA = [
     "id": "jw-ts81974",
     "titre": "Kally's Mashup, la voix de la pop",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "M6+",
     "chaines": [
-      "TF1+",
       "M6+"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/m6_plus.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/m6_plus.png"
     ],
     "package_slugs": [
-      "tf1",
       "sxp"
     ],
     "annee": 2017,
@@ -99326,97 +86806,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm150759",
-    "titre": "Supercondriaque",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 47min",
-    "runtime_minutes": 107,
-    "note_avis": 6,
-    "note_recence": 6.4,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302405668/s592/supercondriaque.jpg",
-    "synopsis": "Romain Faubert est un homme seul qui, à bientôt 40 ans, n’a ni femme ni enfant. Le métier qu’il exerce, photographe pour dictionnaire médical en ligne, n’arrange rien à une hypocondrie maladive qui guide son style de vie depuis bien trop longtemps et fait de lui un peureux névropathe.",
-    "date_ajout": "2014-06-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1034573",
-    "titre": "Downton Abbey 2: Une nouvelle ère",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "2h 04min",
-    "runtime_minutes": 124,
-    "note_avis": 7.4,
-    "note_recence": 8.8,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/272126537/s592/downton-abbey-a-new-era.jpg",
-    "synopsis": "1928. Les Crawley et leurs domestiques assistent tous au mariage de Tom Branson et de Lucy Smith, fille de Lady Bagshaw. Lord Grantham explique à ses proches que le notaire de famille se rendra prochainement à Downton, à la demande de la Douairière, et qu’il compte sur leur présence à tous. En effet, Violet a hérité d’une villa dans le sud de la France qu’elle souhaite à son tour léguer à la fille de Lady Sybil et de Branson. Mais cette décision met celui-ci mal à l’aise. Sans comprendre pourquoi le regretté marquis de Montmirail s’est montré aussi généreux avec sa mère, Lord Grantham reçoit un appel téléphonique intriguant : un certain M. Barber, réalisateur pour le cinéma, souhaite tourner son nouveau film muet, The Gambler, à Downton Abbey. Si Robert estime que l’idée est grotesque, Lady Mary, de son côté, considère qu’il est difficile de refuser l’offre de la production face aux travaux de rénovation qui attendent la famille.",
-    "date_ajout": "2022-05-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts391266",
     "titre": "Beyblade X",
     "type": "serie",
@@ -99446,6 +86835,11 @@ const CATALOG_DATA = [
       },
       {
         "saison": 3,
+        "annee": 2026,
+        "note": 6.3
+      },
+      {
+        "saison": 4,
         "annee": 2026,
         "note": 6.3
       }
@@ -99484,95 +86878,6 @@ const CATALOG_DATA = [
     "on_prime": false,
     "on_tnt": true,
     "annee_fin": 2026
-  },
-  {
-    "id": "jw-tm1422800",
-    "titre": "Touch : Nos étreintes passées",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "2h 01min",
-    "runtime_minutes": 121,
-    "note_avis": 7.4,
-    "note_recence": 9.4,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341966229/s592/touch-0.jpg",
-    "synopsis": "Kristofer, un vieillard solitaire, mène une existence résignée depuis la mort de son épouse, survenue quelques années plus tôt. Inquiété par ses problèmes de mémoire, il consulte un médecin, qui lui apprend qu'il souffre des premiers symptômes de la maladie d'Alzheimer. Kristofer décide alors de profiter du temps qui lui reste pour découvrir ce qui est arrivé à son premier amour, Miko, une japonaise disparue dans des circonstances mystérieuses, il y a 50 ans, à Londres. Alors qu’il s’apprête à retourner en Angleterre, Kristofer apprend que les voyages deviendront bientôt difficiles à cause de la pandémie de COVID-19, qui vient d'éclore. Pour le vieillard, c’est le début d’une véritable course contre la montre.",
-    "date_ajout": "2024-07-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm818701",
-    "titre": "Les Tuche 4",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 41min",
-    "runtime_minutes": 101,
-    "note_avis": 4.6,
-    "note_recence": 8.5,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/332786450/s592/les-tuche-4.jpg",
-    "synopsis": "Après avoir démissionné de son poste de président de la république, Jeff et sa famille sont heureux de retrouver leur village de Bouzolles. À l’approche des fêtes de fin d’année, Cathy demande un unique cadeau : renouer les liens avec sa sœur Maguy, et son mari Jean-Yves avec qui Jeff est fâché depuis 10 ans… La réconciliation aurait pu se dérouler sans problème, sauf que lors d’un déjeuner, Jeff et Jean-Yves, vont une nouvelle fois trouver un sujet de discorde : NOËL. Cette querelle familiale qui n’aurait jamais dû sortir de Bouzolles va se transformer en bras de fer entre Jeff et un géant de la distribution sur Internet.",
-    "date_ajout": "2021-12-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
   },
   {
     "id": "jw-ts35707",
@@ -99616,383 +86921,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/292068472/s592/nus-et-culottes.jpg",
     "synopsis": "Nus et culottés est une émission de télévision française diffusée depuis le 26 juillet 2012 sur France 5, où Nans (Nans Thomassey) et Mouts (Guillaume Mouton) tentent des expériences itinérantes culottées en partant nus après s'être fixé un objectif en vue de concrétiser un de leurs rêves.",
     "date_ajout": "2026-07-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts56210",
-    "titre": "Les Grands Mythes",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2016,
-        "note": 8.6
-      }
-    ],
-    "duree": "26 min/ép.",
-    "runtime_minutes": 26,
-    "note_avis": 8.6,
-    "note_recence": 7,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "doc",
-      "fnt",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/10389567/s592/les-grands-mythes.jpg",
-    "synopsis": "Réalisée à partir d’une animation originale et d’iconographies choisies dans l’ensemble de l’histoire de l’art, cette série de vingt épisodes raconte les mythes grecs. Une création tout en images, qui égrène les destins passionnants des dieux, des héros, et des grandes figures de la mythologie.",
-    "date_ajout": "2023-06-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts56743",
-    "titre": "Munch",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_fin": 2021,
-    "annee_moyenne": 2019,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2016,
-        "note": 7.4
-      },
-      {
-        "saison": 2,
-        "annee": 2018,
-        "note": 7.4
-      },
-      {
-        "saison": 3,
-        "annee": 2020,
-        "note": 7.4
-      },
-      {
-        "saison": 4,
-        "annee": 2021,
-        "note": 7.4
-      }
-    ],
-    "duree": "51 min/ép.",
-    "runtime_minutes": 51,
-    "note_avis": 7.4,
-    "note_recence": 7.9,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/141858406/s592/munch.jpg",
-    "synopsis": "Munch est une avocate hors normes, qui s’attache à défendre des innocents que tout accuse. Face à une erreur judiciaire elle est capable de franchir toutes les lignes, même celles de l’illégalité, pour prouver leur innocence.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm413474",
-    "titre": "Ma fille, cette inconnue",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+",
-      "Novo 19"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/novo19.svg"
-    ],
-    "package_slugs": [
-      "tf1",
-      "nvn"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 4.9,
-    "note_recence": 7.6,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354632801/s592/ma-fille-cette-inconnue.jpg",
-    "synopsis": "Une jeune schizophrène se fait passer pour la fille naturelle qu'une femme aurait abandonnée quand elle avait 16 ans.",
-    "date_ajout": "2025-09-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "nvn": "2027-08-30"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts245922",
-    "titre": "Le Fleuve",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 8.6
-      }
-    ],
-    "duree": "22 min/ép.",
-    "runtime_minutes": 22,
-    "note_avis": 8.6,
-    "note_recence": 7.6,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320265652/s592/le-fleuve.jpg",
-    "synopsis": "Un diamant découvert dans une rivière menace de faire basculer deux familles sud-africaines aux horizons opposés dans un chaos total.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts86039",
-    "titre": "HP",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2018,
-    "annee_fin": 2021,
-    "annee_moyenne": 2020,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 7.3
-      },
-      {
-        "saison": 2,
-        "annee": 2021,
-        "note": 7.3
-      }
-    ],
-    "duree": "23 min/ép.",
-    "runtime_minutes": 23,
-    "note_avis": 7.3,
-    "note_recence": 8.2,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/254525745/s592/hp.jpg",
-    "synopsis": "Sheila est une jeune interne en psychiatrie. La folie, elle pense pouvoir la définir, la soigner. Au fil des jours et des cas qu’elle va rencontrer, le monde si cruel de l’hôpital psychiatrique va s’avérer bien plus accueillant que la dureté d’une vie bien trop normée.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1299123",
-    "titre": "The Killer",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "2h 06min",
-    "runtime_minutes": 126,
-    "note_avis": 5.7,
-    "note_recence": 9.4,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/319471572/s592/the-killer-0.jpg",
-    "synopsis": "Zee, une mystérieuse célèbre tueuse à gages surnommée la « Reine des morts » dans le milieu criminel parisien, devient le centre d’une chasse à l’homme lorsqu’elle refuse une mission de son mystérieux agent consistant à assassiner une femme aveugle.",
-    "date_ajout": "2024-08-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm231788",
-    "titre": "Le Grinch",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 6.4,
-    "note_recence": 7.6,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "cmy",
-      "drm",
-      "fnt",
-      "fml",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/85681857/s592/le-grinch-2018.jpg",
-    "synopsis": "Terré dans sa cave remplie d’inventions et d’engins pour ses besoins de tous les jours, Le Grinch ne voit ses voisins de Chouville que lorsqu’il manque de nourriture. Chaque année à Noël, ils viennent perturber sa tranquillité solitaire avec des célébrations toujours plus grandioses, brillantes et bruyantes. Quand les Chous déclarent qu’ils vont célébrer Noël trois fois plus fort cette année, le Grinch réalise qu’il n’a plus qu’une solution pour retrouver la paix et la tranquillité : il doit voler Noël.",
-    "date_ajout": "2018-11-28",
     "expiration": {
       "status": "none",
       "label": null,
@@ -100089,105 +87017,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts412361",
-    "titre": "Monsieur Parizot",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 6.9
-      }
-    ],
-    "duree": "53 min/ép.",
-    "runtime_minutes": 53,
-    "note_avis": 6.9,
-    "note_recence": 9.4,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "drm",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322811884/s592/monsieur-parizot.jpg",
-    "synopsis": "Si nous connaissons monsieur Parizot comme le client emblématique du Camping Paradis, nous ne savons pas comment la mascotte de Tom Delorme et son équipe occupe son temps le reste de l’année. Dans sa maison de Colmar, ce jeune retraité s’adonne à la pratique intensive du cyclisme et assouvit une passion pour la littérature criminelle et les films policiers. Quand l'opportunité se présente, le détective amateur Christian se transforme en Hercule Poirot pour mener l'enquête à sa façon...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm122828",
-    "titre": "Star Trek : Sans limites",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "2h 02min",
-    "runtime_minutes": 122,
-    "note_avis": 7,
-    "note_recence": 7,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "trl",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/93054452/s592/star-trek-sans-limites.jpg",
-    "synopsis": "L'équipage de l'USS Enterprise explore les confins de l'espace inconnu où ils rencontrent un nouvel ennemi impitoyable qui les met à l'épreuve, ainsi que tout ce que la Fédération représente.",
-    "date_ajout": "2016-07-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm820629",
     "titre": "Ondine",
     "type": "film",
@@ -100252,7 +87081,7 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2006,
-    "annee_fin": 2009,
+    "annee_fin": 2010,
     "annee_moyenne": 2008,
     "saisons_disponibles": [
       {
@@ -100263,6 +87092,11 @@ const CATALOG_DATA = [
       {
         "saison": 2,
         "annee": 2009,
+        "note": 7.7
+      },
+      {
+        "saison": 3,
+        "annee": 2010,
         "note": 7.7
       }
     ],
@@ -100296,95 +87130,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm181029",
-    "titre": "La Guerre des boutons",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2011,
-    "annee_moyenne": 2011,
-    "duree": "1h 49min",
-    "runtime_minutes": 109,
-    "note_avis": 6.4,
-    "note_recence": 5.5,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "fml",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/329041096/s592/la-guerre-des-boutons-2011.jpg",
-    "synopsis": "1960, un village dans le sud de la France. Une bande de garçons, âgés de 7 à 14 ans, menée par l’intrépide Lebrac, est en guerre contre les enfants du village voisin, leurs ennemis jurés. Une guerre sans merci, qui dure depuis des générations. On se bat pour l’honneur et la fidélité et, pour gagner, tous les moyens sont bons. Même, s’il le faut, combattre nu comme un ver, ou pire, accepter l’aide de Lanterne — une fille ! — la nouvelle recrue de la bande, pleine de panache et d’ingéniosité. Mais il n’est pas facile d’être une armée de petits hommes sans se faire attraper par Papa et Maman ! Quand, après la bataille, on rentre à la maison, les vêtements en lambeaux et des boutons en moins, mieux vaut se faire discret…",
-    "date_ajout": "2011-09-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm2956087",
-    "titre": "Trois femmes et un secret",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 5.1,
-    "note_recence": 10,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/348006232/s592/trois-femmes-et-un-secret.jpg",
-    "synopsis": "Loréna, Jacquie et Célia passent une soirée entre amies lorsque Craig, l'ex de Jacquie, débarque et les agresse. En tentant de se défendre, Loréna le frappe à la tête et le tue accidentellement. Les trois amies doivent alors se débarrasser du corps, car Jacquie refuse d'aller à la police : elle craint que Troy, le frère de Craig, ne cherche à se venger.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
     "on_tnt": true
   },
   {
@@ -100567,394 +87312,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1185175",
-    "titre": "Astérix & Obélix : L'Empire du Milieu",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 51min",
-    "runtime_minutes": 111,
-    "note_avis": 5.1,
-    "note_recence": 9.1,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/290215430/s592/asterix-and-obelix-the-middle-kingdom.jpg",
-    "synopsis": "Nous sommes en 50 avant J.C. L’Impératrice de Chine est emprisonnée suite à un coup d’État fomenté par Deng Tsin Quin, un prince félon.  Aidée par Graindemaïs, le marchand phénicien, et par sa fidèle guerrière Tat Han, la princesse Fu-Yi, fille unique de l’impératrice, s’enfuit en Gaule pour demander de l’aide aux deux valeureux guerriers Astérix et Obélix, dotés d’une force surhumaine grâce à leur potion magique. Nos deux inséparables Gaulois acceptent bien sûr de venir en aide à la Princesse pour sauver sa mère et libérer son pays. Et les voici tous en route pour une grande aventure vers la Chine. Mais César et sa puissante armée, toujours en soif de conquêtes, ont eux aussi pris la direction de l’Empire du Milieu…",
-    "date_ajout": "2023-02-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1439099",
-    "titre": "Mercato",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 59min",
-    "runtime_minutes": 119,
-    "note_avis": 5.8,
-    "note_recence": 9.7,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/326110803/s592/mercato.jpg",
-    "synopsis": "Une plongée dans les coulisses du football d’aujourd’hui, industrie planétaire où les intérêts se chiffrent en milliards. Driss, agent à la dérive, a sept jours pour sauver sa peau avant la fin du mercato...",
-    "date_ajout": "2025-02-19",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts20269",
-    "titre": "Survivor's Remorse",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2014,
-    "annee_fin": 2017,
-    "annee_moyenne": 2016,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2014,
-        "note": 7.2
-      },
-      {
-        "saison": 2,
-        "annee": 2015,
-        "note": 7.2
-      },
-      {
-        "saison": 3,
-        "annee": 2016,
-        "note": 7.2
-      },
-      {
-        "saison": 4,
-        "annee": 2017,
-        "note": 7.2
-      }
-    ],
-    "duree": "28 min/ép.",
-    "runtime_minutes": 28,
-    "note_avis": 7.2,
-    "note_recence": 7,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/24547225/s592/survivors-remorse.jpg",
-    "synopsis": "Jeune phénomène du basket-ball, Cam Calloway est propulsé sous les projecteurs après avoir signé un contrat de plusieurs millions de dollars avec une équipe pro. Avec son cousin et confident Reggie Vaughn, il déménage en Géorgie, et fait face aux répercussions qu'entraînent cette soudaine réussite.",
-    "date_ajout": "2025-06-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm245252",
-    "titre": "C'est quoi cette famille ?!",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 39min",
-    "runtime_minutes": 99,
-    "note_avis": 6.1,
-    "note_recence": 7,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "doc",
-      "fml",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/251640602/s592/cest-quoi-cette-famille.jpg",
-    "synopsis": "Bastien, 13 ans, est au centre d’une famille recomposée : 6 demi‐frères et sœurs, 8 « parents » et autant de maisons. Son emploi du temps familial est bien plus complexe que celui du collège… Trop c’est trop : les enfants décident de faire leur révolution et inversent les règles. Tous ensemble, ils squattent un grand appart ’, et ce sera désormais aux parents de se déplacer !",
-    "date_ajout": "2016-08-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1933157",
-    "titre": "Stray Kids: The dominATE Experience",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "2h 26min",
-    "runtime_minutes": 146,
-    "note_avis": 8.1,
-    "note_recence": 10,
-    "note_globale": 9.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "msc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/343107415/s592/stray-kids-the-dominate-experience.jpg",
-    "synopsis": "Mettant en vedette la sensation mondiale de la K-Pop Stray Kids et une performance live de leur tournée mondiale record, ainsi que des images exclusives des coulisses et des interviews intimes avec le groupe, Stray Kids: The dominATE Experience est un film de concert épique qui offre aux fans à la fois une place spectaculaire au premier rang et un accès unique à leur groupe préféré.",
-    "date_ajout": "2026-02-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1203808",
-    "titre": "Revoir Paris",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 43min",
-    "runtime_minutes": 103,
-    "note_avis": 6.9,
-    "note_recence": 8.8,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300762916/s592/revoir-paris.jpg",
-    "synopsis": "À Paris, Mia est prise dans un attentat dans une brasserie. Trois mois plus tard, alors qu’elle n’a toujours pas réussi à reprendre le cours de sa vie et qu’elle ne se rappelle de l’évènement que par bribes, Mia décide d’enquêter dans sa mémoire pour retrouver le chemin d’un bonheur possible.",
-    "date_ajout": "2022-09-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1663302",
-    "titre": "Epic: Elvis Presley in Concert",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 8.1,
-    "note_recence": 10,
-    "note_globale": 9.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "msc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/340347222/s592/epic-elvis-presley-in-concert.jpg",
-    "synopsis": "Des images, longtemps égarées, de la résidence légendaire d'Elvis Presley à Las Vegas dans les années 1970, associées à des images rares en 16mm d'Elvis en tournée et en 8mm provenant des archives de Graceland, ainsi qu'à des enregistrements d'Elvis racontant « sa version de l'histoire », redécouverts lors des recherches menées par Baz Luhrmann pour son film « Elvis », commercialisé en 2022.",
-    "date_ajout": "2026-02-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm242419",
-    "titre": "The Good Neighbor",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 6.3,
-    "note_recence": 7,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "hrr",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/334997351/s592/the-good-neighbor.jpg",
-    "synopsis": "Des lycéens tentent de faire croire à un vieil homme que sa maison est hantée.",
-    "date_ajout": "2016-06-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts33559",
     "titre": "Shaun le mouton",
     "type": "serie",
@@ -101004,59 +87361,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/33413692/s592/shaun-the-sheep.jpg",
     "synopsis": "Cette série met en scène Shaun, un mouton malicieux qui vit dans une ferme en compagnie de ses amis ovins nettement moins malins que lui, mais toujours prêts à le suivre dans une nouvelle aventure.",
     "date_ajout": "2024-10-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts75503",
-    "titre": "Le Tueur du lac",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2017,
-        "note": 7
-      }
-    ],
-    "duree": "54 min/ép.",
-    "runtime_minutes": 54,
-    "note_avis": 7,
-    "note_recence": 7.3,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "trl",
-      "eur"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/244621326/s592/le-tueur-du-lac.jpg",
-    "synopsis": "Trois ans après leur rencontre, Lise et Clovis se sont mariés et sont en poste à Annecy. Elle est capitaine de police, il est commandant de gendarmerie. Tom, leur fils, vient d'avoir 9 mois. Marianne, la mère de Lise, qui souffre de la maladie d'Alzheimer, vit près d'eux sur les bords du lac dans un établissement spécialisé. Ils semblent heureux et unis, entourés d'amis fidèles, lorsqu'une part d'ombre chez Clovis se révèle. Parallèlement deux meurtres de femmes occupent les agents...",
-    "date_ajout": "2017-10-30",
     "expiration": {
       "status": "none",
       "label": null,
@@ -101129,58 +87433,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts429708",
-    "titre": "L'Armée des Romantiques",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 8.4
-      }
-    ],
-    "duree": "48 min/ép.",
-    "runtime_minutes": 48,
-    "note_avis": 8.4,
-    "note_recence": 9.4,
-    "note_globale": 8.9,
-    "etoiles": 5,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/323088184/s592/larmee-des-romantiques.jpg",
-    "synopsis": "Au cours du turbulent XIXe siècle, un certain nombre de brillants artistes français ont développé le mouvement romantique à Paris : les écrivains Victor Hugo, Alexandre Dumas, George Sand, Honoré de Balzac et Charles Baudelaire, le peintre Eugène Delacroix et le compositeur Hector Berlioz, entre autres, ont changé la façon de voir l'art et créé des œuvres durables qui ont inspiré le monde entier jusqu'à aujourd'hui.",
-    "date_ajout": "2026-01-19",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts66420",
     "titre": "Foot 2 Rue",
     "type": "serie",
@@ -101198,25 +87450,10 @@ const CATALOG_DATA = [
       "sxp",
       "fra"
     ],
-    "annee": 2005,
+    "annee": 2022,
     "annee_fin": 2025,
-    "annee_moyenne": 2015,
+    "annee_moyenne": 2024,
     "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2005,
-        "note": 7.2
-      },
-      {
-        "saison": 2,
-        "annee": 2008,
-        "note": 7.2
-      },
-      {
-        "saison": 3,
-        "annee": 2010,
-        "note": 7.2
-      },
       {
         "saison": 4,
         "annee": 2022,
@@ -101231,9 +87468,9 @@ const CATALOG_DATA = [
     "duree": "24 min/ép.",
     "runtime_minutes": 24,
     "note_avis": 7.2,
-    "note_recence": 6.7,
-    "note_globale": 7,
-    "etoiles": 4,
+    "note_recence": 9.4,
+    "note_globale": 8.3,
+    "etoiles": 5,
     "categories": [
       "animation_famille"
     ],
@@ -101276,20 +87513,86 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2021,
-    "annee_moyenne": 2021,
+    "annee_fin": 2026,
+    "annee_moyenne": 2024,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2021,
+        "note": 7
+      },
+      {
+        "saison": 2,
+        "annee": 2021,
+        "note": 7
+      },
+      {
+        "saison": 3,
+        "annee": 2021,
+        "note": 7
+      },
+      {
+        "saison": 4,
+        "annee": 2022,
+        "note": 7
+      },
+      {
+        "saison": 5,
+        "annee": 2022,
+        "note": 7
+      },
+      {
+        "saison": 6,
+        "annee": 2022,
+        "note": 7
+      },
+      {
+        "saison": 7,
+        "annee": 2021,
+        "note": 7
+      },
+      {
+        "saison": 8,
+        "annee": 2023,
+        "note": 7
+      },
+      {
+        "saison": 9,
+        "annee": 2024,
+        "note": 7
+      },
+      {
+        "saison": 10,
+        "annee": 2024,
+        "note": 7
+      },
+      {
+        "saison": 11,
+        "annee": 2025,
+        "note": 7
+      },
+      {
+        "saison": 12,
+        "annee": 2025,
+        "note": 7
+      },
+      {
+        "saison": 13,
+        "annee": 2026,
+        "note": 7
+      },
+      {
+        "saison": 14,
+        "annee": 2026,
         "note": 7
       }
     ],
     "duree": "24 min/ép.",
     "runtime_minutes": 24,
     "note_avis": 7,
-    "note_recence": 8.5,
-    "note_globale": 7.8,
-    "etoiles": 4,
+    "note_recence": 9.4,
+    "note_globale": 8.2,
+    "etoiles": 5,
     "categories": [
       "animation_famille"
     ],
@@ -101318,66 +87621,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1207260",
-    "titre": "La Promesse d'Irena",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "2h 01min",
-    "runtime_minutes": 121,
-    "note_avis": 6.9,
-    "note_recence": 9.4,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "war"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "assets/favicon.png",
-    "synopsis": "L'histoire de l'infirmière polonaise, Irene Gut Opdyke, qui s'est vu décerner la médaille des Justes parmi les Nations pour avoir fait preuve d'un courage remarquable en tentant de sauver des Juifs polonais pendant la Seconde Guerre mondiale.",
-    "date_ajout": "2025-04-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm1439296",
     "titre": "L'affaire Nevenka",
     "type": "film",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2024,
@@ -101478,151 +87733,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1561560",
-    "titre": "Regarde",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 5.9,
-    "note_recence": 9.7,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/336394135/s592/regarde-2025.jpg",
-    "synopsis": "Chris et Antoine ont bien du mal à s’entendre depuis leur divorce. Mais, lorsqu’on leur annonce que leur fils de 16 ans est atteint d’une maladie rare, qui va lui faire perdre la vue, ils s’efforcent de mettre leurs rancœurs de côté. Les ex-conjoints embarquent leur fils pour des vacances inoubliables, bien décidés à lui offrir ses plus beaux souvenirs.",
-    "date_ajout": "2025-09-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1167612",
-    "titre": "Les Schtroumpfs, le film",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 4.3,
-    "note_recence": 9.7,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "cmy",
-      "fnt",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/334297958/s592/les-schtroumpfs-2025.jpg",
-    "synopsis": "Lorsque le Grand Schtroumpf est mystérieusement kidnappé par les vilains sorciers : Razamel et Gargamel, la Schtroumpfette et son meilleur ami Le Schtroumpf Sans-Nom partent en mission pour le retrouver ! Commence alors une aventure délirante où nos héros bleus vont croiser la route de nouveaux amis hauts en couleur comme Mama Poot et ses petits. Les Schtroumpfs doivent prendre en main leur destin pour sauver celui du monde entier !",
-    "date_ajout": "2025-07-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts53394",
-    "titre": "Ransom",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2016,
-        "note": 6.7
-      }
-    ],
-    "duree": "42 min/ép.",
-    "runtime_minutes": 42,
-    "note_avis": 6.7,
-    "note_recence": 7,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/310208651/s592/ransom.jpg",
-    "synopsis": "L'équipe d'Éric Beaumont apporte son aide pour sauver des vies quand personne d'autre ne le peut. Il comprend mieux les criminels qu'eux-mêmes et utilise ses connaissances dans le comportement humain pour résoudre les cas les plus difficiles d'enlèvement et de rançon. Malgré les enjeux, il refuse de recourir à la violence, même lorsqu'il est confronté à certains des criminels les plus dangereux du monde. Les considérables pouvoirs de négociateur d'Éric, qu'il met en application dans sa profession, ne lui facilitent pas pour autant ses relations avec sa famille, ses amis et ses collègues.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts82601",
     "titre": "ABC contre Poirot",
     "type": "serie",
@@ -101665,59 +87775,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/340101971/s592/abc-contre-poirot.jpg",
     "synopsis": "Hercule Poirot est confronté à un mystérieux tueur en série qui laisse pour seul indice un guide des chemins de fer \"A.B.C.\" sur les scènes de crime.",
     "date_ajout": "2021-03-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts37781",
-    "titre": "Une chance de trop",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2015,
-        "note": 5.4
-      }
-    ],
-    "duree": "64 min/ép.",
-    "runtime_minutes": 64,
-    "note_avis": 5.4,
-    "note_recence": 6.7,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/317464052/s592/une-chance-de-trop.jpg",
-    "synopsis": "Alice Lambert se prépare de bon matin pour aller courir avec son meilleur ami Louis. Elle prépare le biberon de sa fille Tara, 6 mois, puis deux coups de feu… et c’est le trou noir. Elle sort de son coma huit jours plus tard pour plonger dans une réalité cauchemardesque : son mari, Laurent, a été assassiné et leur fille a été enlevée. Manipulée par des ravisseurs insaisissables et soupçonnée par la police, Alice n’abandonne pas pour autant ses recherches. Elle sait, elle le sent : sa fille l’attend quelque part. Mais pour la retrouver, elle se débrouillera seule, avec l’unique personne en qui elle a confiance : Richard, son amour de jeunesse et flic au 36 quai des Orfèvres. Jusqu’où seriez-vous prêt à aller pour sauver votre enfant ? Une question que tout parent redoute. Alice n’a pas le choix… Elle devra aller jusqu’au bout !",
     "expiration": {
       "status": "none",
       "label": null,
@@ -101784,220 +87841,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1310274",
-    "titre": "La princesse et le bodyguard",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 6.1,
-    "note_recence": 9.1,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "fml",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/340300856/s592/la-princesse-et-le-bodyguard.jpg",
-    "synopsis": "Le jour de ses 35 ans, Lexi découvre qu'elle doit brusquement renoncer à sa vie normale à New York pour assumer sa véritable identité, gardée secrète jusqu'alors : celle d'une princesse royale.\n Elle dispose de deux semaines pour accepter la situation, révéler la vérité à sa meilleure amie et trouver un cavalier pour le gala royal, où elle sera officiellement présentée au monde. Tout cela sous l'œil vigilant de Noah, son garde du corps aussi séduisant qu'exaspérant.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts325745",
-    "titre": "Syndrome [E]",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2022,
-        "note": 6.5
-      }
-    ],
-    "duree": "53 min/ép.",
-    "runtime_minutes": 53,
-    "note_avis": 6.5,
-    "note_recence": 8.8,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/292443828/s592/syndrome-e.jpg",
-    "synopsis": "D'après le best-seller de Franck Thilliez. Franck Sharko (45 ans) est un flic bourru et solitaire. Seule sa fille est avec lui au quotidien : Eugénie s’immisce partout. Notamment dans sa nouvelle enquête dans laquelle des enfants disparaissent mystérieusement tandis qu’un vieux film des années 60 provoque chez ceux qui le regardent des comportements étranges et dangereux. Lucie Henebelle, elle, a 35 ans. Elle aussi est flic, mère célibataire. Lorsqu’elle comprend que son passé est peut-être lié à l’enquête de Sharko, elle rejoint son équipe. La rencontre des deux policiers promet dès lors d’être électrique… Mais cette enquête va surtout les conduire du Maroc au Canada pour faire la lumière sur de troubles expérimentations scientifiques .",
-    "date_ajout": "2022-09-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1183494",
-    "titre": "Le Train du dernier espoir",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 5,
-    "note_recence": 8.8,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "hst",
-      "wsn"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/338056781/s592/hostile-territory.jpg",
-    "synopsis": "Dans l'Amérique d'après-guerre civile, lorsqu'un soldat de l'Union est présumé mort, ses enfants sont envoyés par erreur dans le train des orphelins. C'est une histoire de Far West où des gens s'unissent pour le plus grand bien et des enfants forcés de grandir rapidement.",
-    "date_ajout": "2025-10-23",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts53240",
-    "titre": "Au-delà des murs",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2016,
-        "note": 7
-      }
-    ],
-    "duree": "47 min/ép.",
-    "runtime_minutes": 47,
-    "note_avis": 7,
-    "note_recence": 7,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "hrr",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/345546502/s592/au-dela-des-murs.jpg",
-    "synopsis": "Lisa, jeune orthophoniste, s’installe dans une maison en ville dont elle a  mystérieusement hérité. Elle découvre des pièces et des couloirs  qui suscitent son effroi. La maison mouvante s’avère manipuler d’autres  occupants, croiser d’autres espaces temps, pour mieux offrir à Lisa  l’occasion d’un voyage initiatique.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts372733",
     "titre": "Icon of French Cinema",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2023,
@@ -102040,217 +87895,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts18725",
-    "titre": "Miss Marple",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2004,
-    "annee_fin": 2013,
-    "annee_moyenne": 2009,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2004,
-        "note": 7.9
-      },
-      {
-        "saison": 2,
-        "annee": 2006,
-        "note": 7.9
-      },
-      {
-        "saison": 3,
-        "annee": 2007,
-        "note": 7.9
-      },
-      {
-        "saison": 4,
-        "annee": 2009,
-        "note": 7.9
-      },
-      {
-        "saison": 5,
-        "annee": 2010,
-        "note": 7.9
-      },
-      {
-        "saison": 6,
-        "annee": 2013,
-        "note": 7.9
-      }
-    ],
-    "duree": "91 min/ép.",
-    "runtime_minutes": 91,
-    "note_avis": 7.9,
-    "note_recence": 4.9,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/246487334/s592/miss-marple-2004.jpg",
-    "synopsis": "Cette série met en scène les enquêtes de la détective amateur Miss Marple, vivant dans le petit village de St. Mary Mead.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts9273",
-    "titre": "Degrassi : Nouvelle génération",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2001,
-    "annee_fin": 2014,
-    "annee_moyenne": 2008,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2001,
-        "note": 7.6
-      },
-      {
-        "saison": 2,
-        "annee": 2002,
-        "note": 7.6
-      },
-      {
-        "saison": 3,
-        "annee": 2003,
-        "note": 7.6
-      },
-      {
-        "saison": 4,
-        "annee": 2004,
-        "note": 7.6
-      },
-      {
-        "saison": 5,
-        "annee": 2005,
-        "note": 7.6
-      },
-      {
-        "saison": 6,
-        "annee": 2006,
-        "note": 7.6
-      },
-      {
-        "saison": 7,
-        "annee": 2008,
-        "note": 7.6
-      },
-      {
-        "saison": 8,
-        "annee": 2008,
-        "note": 7.6
-      },
-      {
-        "saison": 9,
-        "annee": 2009,
-        "note": 7.6
-      },
-      {
-        "saison": 10,
-        "annee": 2010,
-        "note": 7.6
-      },
-      {
-        "saison": 11,
-        "annee": 2011,
-        "note": 7.6
-      },
-      {
-        "saison": 12,
-        "annee": 2012,
-        "note": 7.6
-      },
-      {
-        "saison": 13,
-        "annee": 2013,
-        "note": 7.6
-      },
-      {
-        "saison": 14,
-        "annee": 2014,
-        "note": 7.6
-      }
-    ],
-    "duree": "25 min/ép.",
-    "runtime_minutes": 25,
-    "note_avis": 7.6,
-    "note_recence": 4.6,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/260835139/s592/degrassi-nouvelle-generation.jpg",
-    "synopsis": "Dans les années 80, les ados se passionnaient pour les trépidantes Années collèges de Joey, Spike, Snake et Lucy. Aujourd'hui, Spike a une fille, Emma, 12 ans. Avec ses copains Tobby, JT, Liberty, Sean, Ashley, Paige, Terri, Spinner et Jimmy, ils forment la bande de Degrassi : Nouvelle Génération, s'assoient sur les mêmes bancs d'école que leurs parents. Pour eux tous, comme pour leurs aînés, l'amitié est la valeur sûre pour affronter tous les problèmes, chagrin d'amour ou violence familiale, pertes de repères ou maladie grave...",
-    "date_ajout": "2021-08-31",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts104794",
     "titre": "Revers de fortune",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2019,
@@ -102299,65 +87955,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1450697",
-    "titre": "Rendez-vous mystère avec l'amour",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 6.6,
-    "note_recence": 9.4,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/333350643/s592/rendez-vous-mystere-avec-lamour.jpg",
-    "synopsis": "Graham Sterling est un auteur de romans pour jeunes adultes à succès mais il aimerait écrire une romance historique. Face au refus de son agent, il décide de partir sur l'île de Nantucket où il fait la connaissance de Meg, une jeune libraire qui a créé un club de lecture dont les membres passionnés font chaque semaine la critique d'un \"livre mystère\".",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts87930",
     "titre": "Pure",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2019,
@@ -102453,50 +88062,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1187536",
-    "titre": "American Dreamer",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 46min",
-    "runtime_minutes": 106,
-    "note_avis": 6.1,
-    "note_recence": 8.8,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/312545678/s592/american-dreamer-2024.jpg",
-    "synopsis": "Phil Loder est prof adjoint d'économie à Harvard. Son seul rêve est de posséder une maison mais cela semble hors de portée pour ce dernier. Une veuve solitaire offre à Phil son immense domaine pour quelques centimes mais Phil comprend rapidement que l'affaire est trop belle pour être vraie...",
-    "date_ajout": "2024-12-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts81483",
     "titre": "Simon",
     "type": "serie",
@@ -102559,18 +88124,15 @@ const CATALOG_DATA = [
     "id": "jw-ts313494",
     "titre": "Samuel",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2024,
@@ -102612,75 +88174,6 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts6095",
-    "titre": "Falco",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2013,
-    "annee_fin": 2016,
-    "annee_moyenne": 2015,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2013,
-        "note": 7.3
-      },
-      {
-        "saison": 2,
-        "annee": 2014,
-        "note": 7.3
-      },
-      {
-        "saison": 3,
-        "annee": 2015,
-        "note": 7.3
-      },
-      {
-        "saison": 4,
-        "annee": 2016,
-        "note": 7.3
-      }
-    ],
-    "duree": "50 min/ép.",
-    "runtime_minutes": 50,
-    "note_avis": 7.3,
-    "note_recence": 6.7,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "eur"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/344386978/s592/falco.jpg",
-    "synopsis": "16 mai 1991 : le jeune officier de police Alexandre Falco a l'avenir devant lui, une femme et une petite fille. La vie en décide autrement : il prend une balle dans la tête qui le plonge dans le coma. 22 ans plus tard : Falco ouvre les yeux dans un monde qu'il ne reconnaît pas. Sa femme a refait sa vie, sa fille est adulte. Et son ancien équipier, aujourd'hui commissaire, lui propose la retraite. Mais Falco ne renonce pas. Anticonformiste, tête brûlée, flic à l'instinct hors pair, il réintègre la police et enquête avec le jeune et procédurier lieutenant Chevalier. En parallèle, Falco va tout faire pour récupérer sa vie. Après ce qu'il a vécu, rien ni personne ne peut plus l'arrêter.",
-    "date_ajout": "2026-05-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
     "on_tnt": true
   },
   {
@@ -102728,105 +88221,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm320716",
-    "titre": "La Ch'tite Famille",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 47min",
-    "runtime_minutes": 107,
-    "note_avis": 5.8,
-    "note_recence": 7.6,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/79900217/s592/la-chtite-famille.jpg",
-    "synopsis": "Valentin D. et Constance Brandt, un couple d’architectes designers en vogue préparent le vernissage de leur rétrospective au Palais de Tokyo. Mais ce que personne ne sait, c’est que pour s’intégrer au monde du design et du luxe parisien, Valentin a menti sur ses origines prolétaires et ch'tis. Alors, quand sa mère, son frère et sa belle-sœur débarquent par surprise au Palais de Tokyo, le jour du vernissage, la rencontre des deux mondes est fracassante. D’autant plus que Valentin, suite à un accident, va perdre la mémoire et se retrouver 20 ans en arrière, plus ch’ti que jamais!",
-    "date_ajout": "2018-02-28",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts77856",
-    "titre": "Les Innocents",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 7.1
-      }
-    ],
-    "duree": "53 min/ép.",
-    "runtime_minutes": 53,
-    "note_avis": 7.1,
-    "note_recence": 7.6,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/309267795/s592/les-innocents.jpg",
-    "synopsis": "Deux adolescents sont témoins de multiples meurtres alors qu'ils passaient la soirée ensemble. Les deux garçons ont vu le tueur et depuis il les traque en espérant les retrouver afin de faire disparaître toutes les preuves. Les deux adolescents n'hésiteront pas à mentir à leur famille et à leurs amis afin de garder leur relation secrète, mais ce n'est pas facile quand le chef de police et mère de l'un des deux garçons enquête sur ce meurtre.",
-    "date_ajout": "2018-01-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts53663",
     "titre": "Workin' Moms",
     "type": "serie",
@@ -102842,8 +88236,8 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2017,
-    "annee_fin": 2020,
-    "annee_moyenne": 2019,
+    "annee_fin": 2023,
+    "annee_moyenne": 2020,
     "saisons_disponibles": [
       {
         "saison": 1,
@@ -102864,14 +88258,29 @@ const CATALOG_DATA = [
         "saison": 4,
         "annee": 2020,
         "note": 7.8
+      },
+      {
+        "saison": 5,
+        "annee": 2021,
+        "note": 7.8
+      },
+      {
+        "saison": 6,
+        "annee": 2022,
+        "note": 7.8
+      },
+      {
+        "saison": 7,
+        "annee": 2023,
+        "note": 7.8
       }
     ],
     "duree": "22 min/ép.",
     "runtime_minutes": 22,
     "note_avis": 7.8,
-    "note_recence": 7.9,
-    "note_globale": 7.9,
-    "etoiles": 4,
+    "note_recence": 8.2,
+    "note_globale": 8,
+    "etoiles": 5,
     "categories": [
       "comedie"
     ],
@@ -102883,59 +88292,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/260124988/s592/workin-moms.jpg",
     "synopsis": "Qu'il s'agisse de faire appel aux grands-parents ou de gérer la dépression post-partum, ces mères et amies redécouvrent la vie après la naissance de leur bébé.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts11478",
-    "titre": "Emma",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2009,
-    "annee_moyenne": 2009,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2009,
-        "note": 8.1
-      }
-    ],
-    "duree": "62 min/ép.",
-    "runtime_minutes": 62,
-    "note_avis": 8.1,
-    "note_recence": 4.9,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341374996/s592/emma.jpg",
-    "synopsis": "Belle, intelligente et riche, Emma Woodhouse est convaincue que c'est grâce à son entremise que sa sœur ainée et sa gouvernante ont pu se trouver des maris convenables. Mais aux yeux de Mr Knightley, Emma n'a rien à voir dans ces unions. Elle s'est simplement contentée de regarder s'épanouir des amours déjà existantes. Ne doutant pas de son talent, Emma joue encore un jeu dangereux quand elle persuada la jeune et jolie Harriet, avec qui elle est devenue amie malgré un rang social inférieur, de rejeter la demande en mariage d'un agriculteur des alentours pour se tourner vers Mr Elton, un homme qui a du panache. Mr Knightley est furieux contre Emma qui fait naitre chez Harriet l'espoir d'une union, qui ne pour pas se réaliser. Et Emma découvre vite que Mr Elton est beaucoup plus ambitieux et cupide qu'elle l'avait d'abord cru. C'est ainsi que débute une histoire qui entraînera Emma sur un chemin où sa naïveté, ses préjugés sociaux et sa réalisation avec Mr Knightley seront mis à rude épreuve.",
     "expiration": {
       "status": "none",
       "label": null,
@@ -102962,7 +88318,7 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2017,
-    "annee_fin": 2024,
+    "annee_fin": 2025,
     "annee_moyenne": 2021,
     "saisons_disponibles": [
       {
@@ -102978,6 +88334,11 @@ const CATALOG_DATA = [
       {
         "saison": 3,
         "annee": 2024,
+        "note": 7.3
+      },
+      {
+        "saison": 4,
+        "annee": 2025,
         "note": 7.3
       }
     ],
@@ -103072,104 +88433,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1409271",
-    "titre": "C'est le monde à l'envers !",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 54min",
-    "runtime_minutes": 114,
-    "note_avis": 5.3,
-    "note_recence": 9.4,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322829982/s592/cest-le-monde-a-lenvers.jpg",
-    "synopsis": "C’est la crise, tout s’arrête : plus d’eau, plus d’électricité, plus de réseau… Stanislas, homme d’affaire parisien, perd tout y compris sa fortune. Lui qui déteste la campagne est contraint de partir se réfugier avec sa femme et son fils dans une des exploitations agricoles qu’il avait acquise dans un but spéculatif. Mais à son arrivée, il se retrouve face à Patrick et sa famille, agriculteurs exploitants des lieux, qui n’ont pas l’intention de quitter la ferme… Dans cette atmosphère chaotique où tout est inversé, nos deux familles que tout oppose parviendront-elles à cohabiter pour survivre et peut-être reconstruire ensemble un nouveau monde ?",
-    "date_ajout": "2024-10-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts454303",
-    "titre": "Le Titanic coule ce soir",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 7.7
-      }
-    ],
-    "duree": "58 min/ép.",
-    "runtime_minutes": 58,
-    "note_avis": 7.7,
-    "note_recence": 9.7,
-    "note_globale": 8.7,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm",
-      "hst"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/344334560/s592/le-titanic-coule-ce-soir.jpg",
-    "synopsis": "Cette série documentaire vise à retracer l'intégralité des 160 minutes les plus célèbres de l'histoire maritime, en racontant en temps réel l'histoire bouleversante du naufrage du Titanic. Des secondes cruciales précédant la collision avec l'iceberg jusqu'au moment où la coque sombre sous les flots, ce coffret reconstitue les événements, minute par minute, pour révéler précisément ce qui est arrivé aux 2 240 passagers et membres d'équipage les 14 et 15 avril 1912.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts58168",
     "titre": "Les Routes de l'impossible",
     "type": "serie",
@@ -103242,57 +88505,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts42199",
-    "titre": "Les trois visages d'Ana",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2016,
-        "note": 7.3
-      }
-    ],
-    "duree": "45 min/ép.",
-    "runtime_minutes": 45,
-    "note_avis": 7.3,
-    "note_recence": 7,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/141979718/s592/les-trois-visages-dana.jpg",
-    "synopsis": "Ana Lucía, Ana Leticia et Ana Laura sont des triplées identiques avec des personnalités très différentes. Leurs parents sont morts dans un accident de voiture (causé par Ana Leticia) quand elles étaient plus jeunes. On croyait qu'Ana Lucía s'était noyée dans la rivière dans laquelle la voiture familiale est tombée et que seules Ana Leticia et Ana Laura avaient survécu. Soledad Hernández, une femme de la région, qui souffre de la perte de sa jeune fille, trouve Ana Lucía dans la rivière et l'élève comme son propre enfant. Quelques années plus tard, Ana Lucía est une jeune femme joyeuse et pleine de vie, passionnée de chiromancie et la danse trapéziste, elle fait des rêves récurrents au propos des trois fillettes identiques.\n\nAna Laura est devenue une jeune femme douce, calme et solitaire, Excellente pianiste et dont tout le monde loue la générosité de cœur. Elle veut retrouver sa sœur disparue, refusant de croire qu'elle est morte. L'accident a rendu Ana Laura unijambiste. Elle tombe amoureuse de Ramiro, mais ne se pense pas digne d'amour en raison de son handicap. Ramiro est désolé pour elle.\n\nAna Leticia est très différente de ses sœurs. Elle est superficielle, égoïste, ambitieuse et manipulatrice. Elle veut toujours être le centre de l'attention, en particulier avec sa grand-mère, Ernestina, et son oncle, Mariano, ne voulant pas retrouver sa sœur disparue pour ne pas être invisible sans compter qu'Ana Laura s'attire l'affection de tout le monde malgré son handicap ; en vérité elle craint à l'inverse de ses des sœurs de n'avoir rien de spécial. Ana Leticia s'allie à Iñaki qui devient son amant et complice. Le mari d’Ana Leticia, Marcelo, est détective privé. Apprenant que celui-ci est sur le point de retrouver Ana Lucía, Ana Leticia envoie un homme de main pour l’abattre. Marcelo survit à ses blessures mais devient amnésique. La femme qui l’a sauvé lui donne un nouveau nom. Et Marcelo devient Santiago. Sans le savoir, Ana Leticia va, par ses stratagèmes incessants, pousser Marcelo/Santiago dans les bras de la sœur qu’elle n’a jamais revue. Ana Lucía et Soledad se rendent à la ville de Mexico. Ana Lucía tombe amoureuse de Santiago, un chauffeur de taxi qui ne se souvient pas de son passé en raison d'une amnésie.\n\nLes liens du sang finiront-ils par triompher ? Les trois sœurs, autrefois séparées, vont-elles être réunies ? Ana Leticia réalisera-t-elle que ses sœurs sont une partie d'elle ?",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts75954",
     "titre": "Hé, Oua-Oua",
     "type": "serie",
@@ -103350,201 +88562,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1573431",
-    "titre": "Jamais sans mon psy",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 5.4,
-    "note_recence": 9.4,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/324980358/s592/jamais-sans-mon-psy-2024-0.jpg",
-    "synopsis": "Le Docteur Béranger est un célèbre psychanalyste à qui tout réussit. Sa vie serait parfaite s’il n’y avait pas ce patient très angoissé et extrêmement collant : Damien Leroy. Pour enfin s’en débarrasser, il lui fait croire que le seul moyen de guérir est de trouver le grand amour. Mais alors qu’il s’apprête à fêter ses 30 ans de mariage, sa fille Alice lui annonce qu’elle a enfin trouvé l’homme de sa vie qui n’est autre que… Damien. La fête va virer au cauchemar.",
-    "date_ajout": "2025-04-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts475798",
-    "titre": "Le diplôme",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2026,
-        "note": 7.8
-      }
-    ],
-    "duree": "52 min/ép.",
-    "runtime_minutes": 52,
-    "note_avis": 7.8,
-    "note_recence": 10,
-    "note_globale": 8.9,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/340605470/s592/le-diplome.jpg",
-    "synopsis": "Qui n’a jamais rêvé - ou plutôt cauchemardé - qu’il repassait son bac ? Étape essentielle de notre vie et premier VRAI examen de notre futur d’adulte. Ce petit mais néanmoins primordial diplôme qui nous permettra d’aller plus loin. Et pourtant, certains n’ont pas leur bac. Nombreuses sont les raisons : difficultés sociales, familiales, raisons de santé, parcours de vie chaotique, décrochage…",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts38480",
-    "titre": "Profilage",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2009,
-    "annee_fin": 2020,
-    "annee_moyenne": 2015,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2009,
-        "note": 7.6
-      },
-      {
-        "saison": 2,
-        "annee": 2010,
-        "note": 7.6
-      },
-      {
-        "saison": 3,
-        "annee": 2012,
-        "note": 7.6
-      },
-      {
-        "saison": 4,
-        "annee": 2013,
-        "note": 7.6
-      },
-      {
-        "saison": 5,
-        "annee": 2014,
-        "note": 7.6
-      },
-      {
-        "saison": 6,
-        "annee": 2015,
-        "note": 7.6
-      },
-      {
-        "saison": 7,
-        "annee": 2016,
-        "note": 7.6
-      },
-      {
-        "saison": 8,
-        "annee": 2017,
-        "note": 7.6
-      },
-      {
-        "saison": 9,
-        "annee": 2018,
-        "note": 7.6
-      },
-      {
-        "saison": 10,
-        "annee": 2020,
-        "note": 7.6
-      }
-    ],
-    "duree": "52 min/ép.",
-    "runtime_minutes": 52,
-    "note_avis": 7.6,
-    "note_recence": 6.7,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/95965850/s592/profiling-paris.jpg",
-    "synopsis": "Chloé Saint-Laurent est une psychologue clinicienne déroutante qui travaille pour la police en qualité de criminologue. Son expertise et sa sensibilité exceptionnelles lui permettent de se projeter dans l'esprit des victimes comme des assassins pour résoudre les crimes les plus bouleversants. Le commandant Matthieu Pérac, un redoutable enquêteur de terrain, se voit obliger de composer avec cette criminologue aux méthodes étrangères à la doxa policière.",
-    "date_ajout": "2017-08-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts84397",
     "titre": "Bloom Into You",
     "type": "serie",
@@ -103598,108 +88615,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts276843",
-    "titre": "Brocéliande",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 6.3
-      }
-    ],
-    "duree": "49 min/ép.",
-    "runtime_minutes": 49,
-    "note_avis": 6.3,
-    "note_recence": 9.4,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/338112296/s592/broceliande.jpg",
-    "synopsis": "Fanny Legoff, biologiste reconnue et admirée, vit depuis plus de quinze ans à Paris, après avoir quitté la fac de Paimpont pendant ses études à la suite de la disparition de sa meilleure amie Laura, pour laquelle elle avait été soupçonnée. Lorsque Fanny reçoit un colis contenant une serpe recouverte de sang séché et une lettre l’accusant à nouveau d’être la responsable de la disparition de Laura, elle décide de revenir dans sa région natale, quinze ans après le drame.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1135888",
-    "titre": "PAW Patrol: De Machtige Film",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 5.9,
-    "note_recence": 9.1,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "crm",
-      "fnt",
-      "fml",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/308530097/s592/paw-patrol-the-mighty-movie.jpg",
-    "synopsis": "Lorsqu'une météorite magique s'écrase sur Aventureville, elle donne à la Pat' Patrouille des superpouvoirs, les transformant en SUPER PATROUILLE ! Mais les choses dégénèrent lorsque Monsieur Hellinger, l'ennemi juré de nos amis, s'évade de prison et s'associe à une scientifique folle afin de voler et de s’accaparer ces nouveaux pouvoirs. Le destin d'Aventureville est désormais en jeu, la Super Patrouille doit arrêter les super-méchants avant qu'il ne soit trop tard.",
-    "date_ajout": "2023-09-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts220827",
     "titre": "Spidey et ses amis extraordinaires",
     "type": "serie",
@@ -103715,19 +88630,40 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2021,
-    "annee_moyenne": 2021,
+    "annee_fin": 2026,
+    "annee_moyenne": 2024,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2021,
+        "note": 5.7
+      },
+      {
+        "saison": 2,
+        "annee": 2022,
+        "note": 5.7
+      },
+      {
+        "saison": 3,
+        "annee": 2024,
+        "note": 5.7
+      },
+      {
+        "saison": 4,
+        "annee": 2025,
+        "note": 5.7
+      },
+      {
+        "saison": 5,
+        "annee": 2026,
         "note": 5.7
       }
     ],
     "duree": "20 min/ép.",
     "runtime_minutes": 20,
     "note_avis": 5.7,
-    "note_recence": 8.5,
-    "note_globale": 7.1,
+    "note_recence": 9.4,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -103753,53 +88689,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm238693",
-    "titre": "Papa ou maman 2",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 6.1,
-    "note_recence": 7,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/229497879/s592/papa-ou-maman-2.jpg",
-    "synopsis": "Deux ans ont passé. Après avoir raté leur séparation, les Leroy semblent parfaitement réussir leur divorce. Mais l'apparition de deux nouveaux amoureux dans la vie de Vincent et de Florence va mettre le feu aux poudres. Victimes de cette nouvelle guerre entre deux papas et deux mamans, les enfants Leroy vont être obligés d'intervenir pour mettre fin à ce cercle infernal.",
-    "date_ajout": "2016-12-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
     "on_tnt": true
   },
   {
@@ -103847,175 +88736,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1593934",
-    "titre": "Anges & Cie",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 6.1,
-    "note_recence": 9.7,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fnt",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/335724221/s592/anges-et-cie-2025.jpg",
-    "synopsis": "Nous ne pouvons pas les voir. Ils sont toujours à nos côtés sans que nous le sachions. Ce sont nos protecteurs et nos guides... Bienvenue dans le monde des anges gardiens ! Paul et Léa n’auraient jamais dû se rencontrer. Mais depuis, ils sont irrésistiblement attirés l’un par l’autre. Raphaëlle et Gabriel, deux anges que tout oppose, sont obligés de faire équipe pour tout remettre en ordre et empêcher ces deux humains de tomber amoureux. Si les anges échouent, Raphaëlle l’ambitieuse pourra dire adieu à sa promotion d’Archange. Quant à Gabriel le fumiste, il sera déchu et devra passer l’éternité sur Terre. L’enfer…",
-    "date_ajout": "2025-05-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts41983",
-    "titre": "Conviction",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2016,
-        "note": 7.1
-      }
-    ],
-    "duree": "41 min/ép.",
-    "runtime_minutes": 41,
-    "note_avis": 7.1,
-    "note_recence": 7,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306616977/s592/conviction.jpg",
-    "synopsis": "Au sein du système judiciaire américain, rien n'est tout noir ou tout blanc. Il suffit de demander à Hayes Morrison, avocate et fille de l'ex-Président des États-Unis. Après avoir été arrêtée pour possession de stupéfiants, elle fait face à un dilemme : aller en prison ou accepter un emploi chez son rival, l'avocat new-yorkais Conner Wallace. Afin d'éviter de teinter la campagne électorale de sa mère, Hayes décide d'accepter l'offre et se retrouve ainsi au sein d'une unité spéciale de la police à travailler avec des experts dans de multiples domaines pour réexaminer des dossiers problématiques.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts78352",
-    "titre": "Les Bracelets rouges",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2018,
-    "annee_fin": 2024,
-    "annee_moyenne": 2021,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 7
-      },
-      {
-        "saison": 2,
-        "annee": 2019,
-        "note": 7
-      },
-      {
-        "saison": 3,
-        "annee": 2020,
-        "note": 7
-      },
-      {
-        "saison": 4,
-        "annee": 2023,
-        "note": 7
-      },
-      {
-        "saison": 5,
-        "annee": 2024,
-        "note": 7
-      }
-    ],
-    "duree": "51 min/ép.",
-    "runtime_minutes": 51,
-    "note_avis": 7,
-    "note_recence": 8.5,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/327538663/s592/les-bracelets-rouges-2018.jpg",
-    "synopsis": "Malgré les maladies dont ils souffrent et qu’ils doivent combattre au quotidien, Thomas, Clément, Roxane, Mehdi, Sarah et Côme, qui forment la bande des Bracelets rouges, sont bien décidés à vivre à fond leur vie d’adolescent même si elle se déroule à l’hôpital. Entourés par des parents parfois impuissants, et encadrés par un personnel soignant qui tente de garder la tête froide, ils vont vivre, entre premiers émois amoureux, trahisons, rechutes et guérisons, des épreuves qui vont changer leur vie.",
-    "date_ajout": "2018-01-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts383558",
     "titre": "L'École des licornes",
     "type": "serie",
@@ -104031,20 +88751,41 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2023,
-    "annee_moyenne": 2023,
+    "annee_fin": 2026,
+    "annee_moyenne": 2025,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2023,
+        "note": 6.6
+      },
+      {
+        "saison": 2,
+        "annee": 2024,
+        "note": 6.6
+      },
+      {
+        "saison": 3,
+        "annee": 2025,
+        "note": 6.6
+      },
+      {
+        "saison": 4,
+        "annee": 2025,
+        "note": 6.6
+      },
+      {
+        "saison": 5,
+        "annee": 2026,
         "note": 6.6
       }
     ],
     "duree": "31 min/ép.",
     "runtime_minutes": 31,
     "note_avis": 6.6,
-    "note_recence": 9.1,
-    "note_globale": 7.9,
-    "etoiles": 4,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
+    "etoiles": 5,
     "categories": [
       "animation_famille"
     ],
@@ -104061,56 +88802,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/340706312/s592/lecole-des-licornes.jpg",
     "synopsis": "Lorsqu'une force obscure menace de détruire l'Île des Licornes, une ado courageuse et cinq de ses camarades doivent se battre pour protéger leur école, un endroit magique.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1074575",
-    "titre": "Ninja Turtles : Teenage Years",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 7.2,
-    "note_recence": 9.1,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "crm",
-      "fnt",
-      "fml",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/307351987/s592/teenage-mutant-ninja-turtles-the-next-chapter.jpg",
-    "synopsis": "Après des années passées loin du monde des humains, les frères Tortues entreprennent de gagner le cœur des New-Yorkais et d'être acceptés comme des adolescents normaux grâce à des actes héroïques. Leur nouvelle amie April O'Neil les aide à s'attaquer à un mystérieux syndicat du crime mais ils se retrouvent dépassés par les événements lorsqu'une armée de mutants se déploie contre eux.",
-    "date_ajout": "2023-08-02",
     "expiration": {
       "status": "none",
       "label": null,
@@ -104228,51 +88919,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm230398",
-    "titre": "Les Tuche 2 : Le Rêve américain",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 5,
-    "note_recence": 7,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/50745154/s592/les-tuche-2-le-reve-americain.jpg",
-    "synopsis": "Les Tuche, une famille française modeste, voit leur vie changer après avoir gagné 100 millions d’euros au loto. Grâce à l’argent de ses parents, le benjamin de la fratrie, Donald, dit « Coin‐coin », part un mois à Los Angeles pour améliorer son anglais. C’est sur le campus de l’université de L.A. qu’il rencontre Jennifer, fille d’un célèbre financier américain. Impressionné par cette famille qui est l’opposé de la sienne, il se sent obligé de mentir sur les Tuche, persuadé que les deux familles ne se rencontreront jamais. Mais les Tuche débarquent à Los Angeles pour faire une surprise à Donald, et les choses ne vont pas se passer comme prévu, mais alors pas du tout.",
-    "date_ajout": "2016-02-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts77322",
     "titre": "McMafia",
     "type": "serie",
@@ -104292,6 +88938,11 @@ const CATALOG_DATA = [
     "saisons_disponibles": [
       {
         "saison": 1,
+        "annee": 2018,
+        "note": 7.6
+      },
+      {
+        "saison": 2,
         "annee": 2018,
         "note": 7.6
       }
@@ -104316,106 +88967,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/39367248/s592/mcmafia.jpg",
     "synopsis": "McMafia nous plonge dans le monde complexe du crime organisé. Elle suit une famille russe vivant en exil à Londres et met au jour un obscur réseau de blanchisseurs de capitaux à Dubaï, de cybercriminels en Inde, d'acteurs du marché noir à Zagreb, de narcotrafiquants colombiens ou d'oligarques russes à Londres.",
     "date_ajout": "2018-12-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm137965",
-    "titre": "Pitch Perfect 2",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 55min",
-    "runtime_minutes": 115,
-    "note_avis": 6.4,
-    "note_recence": 6.7,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "msc"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/326595801/s592/pitch-perfect-2.jpg",
-    "synopsis": "Cela fait trois ans que les Bellas se sont imposées comme le premier groupe exclusivement féminin à remporter un titre national grâce à leurs voix, leur style et leur attitude reconnaissables entre toutes. Mais 2 lorsqu’elles se retrouvent radiées suite à un scandale qui risque de compromettre leur dernière année à Barden, nos trois championnes à l’esprit combatif estiment que, cette fois, elles ont perdu la partie. Alors qu’il ne leur reste qu’une occasion de reconquérir leur titre, les Bellas doivent se battre pour avoir le droit de concourir au championnat du monde de chant a capella de Copenhague. Entre la pression de la compétition musicale et la peur de rater leur année de Terminale, les Bellas devront se serrer les coudes pour retrouver leur voix et remporter le championnat…",
-    "date_ajout": "2015-05-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts475202",
-    "titre": "Winx Club, la magie est de retour",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 4.3
-      }
-    ],
-    "duree": "25 min/ép.",
-    "runtime_minutes": 25,
-    "note_avis": 4.3,
-    "note_recence": 9.7,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "fnt",
-      "fml",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/335475097/s592/winx-club-la-magie-est-de-retour.jpg",
-    "synopsis": "Bloom et ses amies sont plus que jamais des super-héroïnes inspirantes pour toute une génération. Le Winx Club va nous transporter dans un monde où l'on devient invincible dès lors qu'on unit ses différences !",
     "expiration": {
       "status": "none",
       "label": null,
@@ -104630,182 +89181,13 @@ const CATALOG_DATA = [
     "synopsis": "Nina et Madeleine sont profondément amoureuses l’une de l’autre. Aux yeux de tous, elles ne sont que de simples voisines vivant au dernier étage de leur immeuble. Au quotidien, elles vont et viennent entre leurs deux appartements et partagent leurs vies ensemble. Personne ne les connaît vraiment, pas même Anne, la fille attentionnée de Madeleine. Jusqu’au jour où un événement tragique fait tout basculer…",
     "date_ajout": "2020-02-12",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 50,
-      "expirationDate": "2026-11-30",
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
       "packageExpirations": {
         "fra": "2026-11-30"
       }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts77024",
-    "titre": "Sexy Dance",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2018,
-    "annee_fin": 2022,
-    "annee_moyenne": 2020,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 7
-      },
-      {
-        "saison": 2,
-        "annee": 2019,
-        "note": 7
-      },
-      {
-        "saison": 3,
-        "annee": 2022,
-        "note": 7
-      }
-    ],
-    "duree": "51 min/ép.",
-    "runtime_minutes": 51,
-    "note_avis": 7,
-    "note_recence": 8.2,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "msc"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/301072030/s592/step-up-high-water.jpg",
-    "synopsis": "A la tête d'une prestigieuse école d'arts d'Atlanta, Sage Odom et son équipe de professeurs forment une nouvelle génération d'artistes. Fraîchement débarqués de leur Ohio natal, les jumeaux Tal et Janelle espèrent réaliser leurs rêves en excellant sur la piste de danse. Sauront-ils saisir leur chance ?",
-    "date_ajout": "2026-06-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts382855",
-    "titre": "@venir",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2023,
-        "note": 7
-      }
-    ],
-    "duree": "48 min/ép.",
-    "runtime_minutes": 48,
-    "note_avis": 7,
-    "note_recence": 9.1,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321211884/s592/avenir.jpg",
-    "synopsis": "Eliott, 31 ans, vit avec sa sœur handicapée et s’ennuie dans son travail de vendeur d’électroménager qui ne le passionne pas. Un soir, il s’amuse à envoyer un message à la première adresse mail qu’il avait étant plus jeune. Suite à un bug informatique, il commence à communiquer avec le petit garçon qu’il a été 20 ans plus tôt et voit alors sa vie bouleversée. Le petit et le grand Eliott vont tout faire pour reprendre leur vie en main et tenter de réaliser leurs rêves. Mais ils vont rapidement comprendre que jouer avec le passé peut avoir de lourdes conséquences…",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts35632",
-    "titre": "Les Témoins",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2015,
-        "note": 7.2
-      }
-    ],
-    "duree": "54 min/ép.",
-    "runtime_minutes": 54,
-    "note_avis": 7.2,
-    "note_recence": 6.7,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320935342/s592/witnesses.jpg",
-    "synopsis": "Le nord de la France. Des tombes profanées. Des morts qu'on déterre et qu'on installe dans des maisons-témoins. A chaque fois, une femme, un homme, une adolescente qui ne se connaissaient pas et qui forment à présent \"une nouvelle famille\". Au milieu des corps, des meubles immaculés et des photos de familles idéalisées, Sandra Winckler, jeune flic chargée de l'affaire, découvre la photo de Paul Maisonneuve : une ancienne légende de la PJ de Lille qui va devoir \"revenir aux affaires\". Qui déterre ? Qui installe ces corps ? Pourquoi et comment ? Sandra Winckler et Paul Maisonneuve. Une femme, un homme. Deux flics pour qui la vie ne sera plus jamais la même...",
-    "date_ajout": "2015-03-19",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": true
@@ -104854,203 +89236,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/327610950/s592/temoin-indesirable.jpg",
     "synopsis": "Le soir de Noël 1954, la richissime Rachel Argyll est assassinée à Sunny Point, le somptueux domaine de la famille. Jack, son fils adoptif, est vite inculpé et incarcéré. Il ne sera jamais jugé : il meurt en prison avant son procès. Dix-huit mois plus tard, un inconnu se présente chez les Argyll, assurant détenir le preuve de l'innocence de Jack. Qui est-il ? dit-il vrai ? Et dans ce cas, qui a tué Rachel ?",
     "date_ajout": "2021-03-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts57476",
-    "titre": "Juste un regard",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2017,
-        "note": 6.3
-      }
-    ],
-    "duree": "53 min/ép.",
-    "runtime_minutes": 53,
-    "note_avis": 6.3,
-    "note_recence": 7.3,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/45210285/s592/juste-un-regard.jpg",
-    "synopsis": "Si toute votre vie n'était qu'un mensonge ? Si l'homme que vous avez épousé quinze ans plus tôt n'est en fait pas celui que vous croyez ? Pour Eva Beaufils, il a suffi d'un regard sur une vieille photo pour que son univers bascule… Bastien, son mari, disparaît soudain. Eva n’a alors plus qu’un objectif : le retrouver à tout prix, même si cela met en péril leurs enfants et ravive les cicatrices de son propre passé. Car Eva le sait, ce n'est qu’au bout de ce voyage qu’elle trouvera réponse à sa question… L’amour est-il plus fort que le mensonge ?",
-    "date_ajout": "2017-06-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm179412",
-    "titre": "La Cage dorée",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 7.1,
-    "note_recence": 6.1,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/303630328/s592/la-cage-doree.jpg",
-    "synopsis": "Dans les beaux quartiers de Paris, Maria et José Ribeiro vivent depuis bientôt trente ans au rez-de-chaussée d’un bel immeuble. Ce couple d’immigrés portugais fait l’unanimité dans le quartier: Maria, excellente concierge, et José, chef de chantier hors pair, sont devenus au fil du temps indispensables à la vie quotidienne de tous ceux qui les entourent. Tant appréciés et si bien intégrés que, le jour où on leur offre leur rêve, rentrer au Portugal dans les meilleures conditions, personne ne veut laisser partir les Ribeiro, si dévoués et si discrets. Jusqu’où seront capables d’aller leur famille, les voisins, et leurs patrons pour les retenir? Et après tout, Maria et José ont-ils vraiment envie de quitter la France et d’abandonner leur si précieuse cage dorée?",
-    "date_ajout": "2013-04-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1635927",
-    "titre": "Anemone - Les racines du mensonge",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "2h 05min",
-    "runtime_minutes": 125,
-    "note_avis": 5.6,
-    "note_recence": 9.7,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/338555184/s592/anemone.jpg",
-    "synopsis": "Des secrets enfouis refont surface quand deux frères éloignés sont contraints d'affronter leur passé, des années après l'exil de l'un d'eux dans les terres sauvages. Avec force et sensibilité, Ronan Day-Lewis signe un premier film intense et envoûtant, un récit visuellement spectaculaire où se mêlent blessures du passé et quête de rédemption.",
-    "date_ajout": "2025-10-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts304702",
-    "titre": "J'ai menti",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2021,
-        "note": 6.5
-      }
-    ],
-    "duree": "56 min/ép.",
-    "runtime_minutes": 56,
-    "note_avis": 6.5,
-    "note_recence": 8.5,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/253149888/s592/jai-menti.jpg",
-    "synopsis": "Audrey Barreyre, 35 ans, est l’unique rescapée d’un tueur en série qui a sévi dans la région de Biarritz seize ans plus tôt. Son passé ressurgit brutalement lorsqu’une jeune fille de 17 ans est retrouvée assassinée sur la côte basque en 2019. Rien ne relie ce meurtre au tueur de l’époque, et pourtant, Audrey en est certaine : il est de retour. Pour le prouver, elle va devoir affronter son passé et ses mensonges. Car la nuit de son agression, elle a menti. Sur tout. À tout le monde…",
     "expiration": {
       "status": "none",
       "label": null,
@@ -105235,18 +89420,15 @@ const CATALOG_DATA = [
     "id": "jw-ts89875",
     "titre": "Foodie Love",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2019,
@@ -105348,18 +89530,15 @@ const CATALOG_DATA = [
     "id": "jw-ts110978",
     "titre": "Perfect Life (Vida Perfecta)",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2019,
@@ -105405,204 +89584,6 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm447551",
-    "titre": "Tireur d'élite",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "2h 04min",
-    "runtime_minutes": 124,
-    "note_avis": 7.2,
-    "note_recence": 7.9,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "hst",
-      "war",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/291197822/s592/tireur-delite-2019.jpg",
-    "synopsis": "Arturs est un jeune garçon letton. L’anniversaire de ses 17 ans marque, en 1915, l’intensification des combats avec l’armée allemande du Kaiser qui progresse sur les territoires du Tsar russe. La famille vit paisiblement dans une ferme de campagne, quand éclate la guerre. Le jeune homme s'engage avec son père, sergent à la retraite, et son frère.",
-    "date_ajout": "2021-08-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts217133",
-    "titre": "The Freak Brothers",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2021,
-        "note": 6
-      }
-    ],
-    "duree": "25 min/ép.",
-    "runtime_minutes": 25,
-    "note_avis": 6,
-    "note_recence": 8.5,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "ani",
-      "cmy"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/307469996/s592/the-freak-brothers.jpg",
-    "synopsis": "Les escapades d'un trio de personnages anti-establishment stoner et de leur chat qui se réveillent d'une sieste de 50 ans après avoir fumé une souche magique d'herbe en 1969, et doivent s'adapter à la vie avec une nouvelle famille dans l'actuel San Francisco.",
-    "date_ajout": "2026-08-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts308655",
-    "titre": "La famille Critch",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2022,
-        "note": 7.5
-      }
-    ],
-    "duree": "22 min/ép.",
-    "runtime_minutes": 22,
-    "note_avis": 7.5,
-    "note_recence": 8.8,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/304516694/s592/la-famille-critch.jpg",
-    "synopsis": "La famille Critch raconte les aventures désopilantes et pourtant véridiques du jeune Mark, 11 ans, à Saint-Jean, dans la province de Terre-Neuve-et-Labrador. La série jette un regard authentique sur la vie d’un enfant trop vieux pour son âge, qui utilise l’humour et l’autodérision pour nouer des amitiés et tisser des liens avec le petit nombre de personnes qui gravitent dans son univers limité.",
-    "date_ajout": "2023-10-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm195162",
-    "titre": "Papa ou maman",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 6,
-    "note_recence": 6.7,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/303763486/s592/papa-ou-maman.jpg",
-    "synopsis": "Florence et Vincent Leroy ont tout réussi. Leurs métiers, leur mariage, leurs enfants. Et aujourd’hui, c’est leur divorce qu’ils veulent réussir. Mais quand ils reçoivent simultanément la promotion dont ils ont toujours rêvé, leur vie de couple vire au cauchemar. Dès lors, plus de quartier, les ex-époux modèles se déclarent la guerre : et ils vont tout faire pour NE PAS avoir la garde des enfants.",
-    "date_ajout": "2015-02-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
     "on_tnt": true
   },
   {
@@ -105695,120 +89676,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts285484",
-    "titre": "Le Remplaçant",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2021,
-    "annee_fin": 2025,
-    "annee_moyenne": 2023,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2021,
-        "note": 6
-      },
-      {
-        "saison": 2,
-        "annee": 2024,
-        "note": 6
-      },
-      {
-        "saison": 3,
-        "annee": 2025,
-        "note": 6
-      }
-    ],
-    "duree": "48 min/ép.",
-    "runtime_minutes": 48,
-    "note_avis": 6,
-    "note_recence": 9.1,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/331958248/s592/le-remplacant.jpg",
-    "synopsis": "Nicolas Valeyre est un prof de français original et sans complaisance, que ce soit à l'égard de ses collègues ou de ses élèves. Ses méthodes fantaisistes, sa misanthropie affichée et son style brut de décoffrage en font un OVNI dans la salle des profs. Mais il dérange autant sa hiérarchie qu'il inspire naturellement confiance à ses élèves. Car sous ses dehors d’ours mal léché, c’est un hypersensible passionné, prêt à tout pour les aider à trouver leur voie.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts88018",
-    "titre": "Meurtres à Nordholm 1",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2015,
-        "note": 6.1
-      }
-    ],
-    "duree": "90 min/ép.",
-    "runtime_minutes": 90,
-    "note_avis": 6.1,
-    "note_recence": 6.7,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306710667/s592/meurtres-a-nordholm.jpg",
-    "synopsis": "Les commissaires Hella Christensen et Simon Kessler enquêtent sur des meurtres dans la ville côtière de Nordholm.",
-    "date_ajout": "2025-11-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts23917",
     "titre": "K-ON !",
     "type": "serie",
@@ -105824,19 +89691,25 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2009,
-    "annee_moyenne": 2009,
+    "annee_fin": 2010,
+    "annee_moyenne": 2010,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2009,
+        "note": 7.9
+      },
+      {
+        "saison": 2,
+        "annee": 2010,
         "note": 7.9
       }
     ],
     "duree": "24 min/ép.",
     "runtime_minutes": 24,
     "note_avis": 7.9,
-    "note_recence": 4.9,
-    "note_globale": 6.4,
+    "note_recence": 5.2,
+    "note_globale": 6.6,
     "etoiles": 3,
     "categories": [
       "animation_famille"
@@ -105853,108 +89726,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/249398697/s592/k-on.jpg",
     "synopsis": "Au comble de l’excitation, Yui Hirasawa, adolescente pétillante mais maladroite, s’apprête à faire son entrée en seconde. Sous l’impulsion de son amie d’enfance, Nodoka Manabe, elle rejoint le club de musique sur le point d’être dissous, faute de membres. Seule ombre au tableau : Yui ne sait jouer d’aucun instrument. La jeune fille amorce dès lors son apprentissage musical sous l’œil bienveillant de ses nouvelles camarades, Mio, Ritsu et Tsugumi. Un groupe d’un nouveau genre est sur le point de naître !",
     "date_ajout": "2023-06-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts494374",
-    "titre": "Papa malgré lui",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2026,
-        "note": 10
-      }
-    ],
-    "duree": "47 min/ép.",
-    "runtime_minutes": 47,
-    "note_avis": 10,
-    "note_recence": 10,
-    "note_globale": 10,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/342659426/s592/papa-malgre-lui.jpg",
-    "synopsis": "À 43 ans, Alex, journaliste fêtard et insouciant, voit sa vie basculer le jour où il apprend que Manon, sa fille de 17 ans qu’il n’a jamais élevée, est victime de harcèlement scolaire. Bien qu’allergique aux règles et incapable de se plier à l’autorité, il décide de voler au secours de sa fille en s’infiltrant dans son lycée dans la peau d’un prof d’histoire…",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts9379",
-    "titre": "Ascension",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2014,
-        "note": 7.1
-      }
-    ],
-    "duree": "77 min/ép.",
-    "runtime_minutes": 77,
-    "note_avis": 7.1,
-    "note_recence": 6.4,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "drm",
-      "scf"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/344386011/s592/ascension.jpg",
-    "synopsis": "Une mission spatiale secrète a été lancée en 1963 par le gouvernement américain et des humains partent ainsi pour un voyage qui durera 100 ans.\n\nLe but de celle-ci était de peupler un nouveau monde en envoyant des centaines d'hommes, de femmes et d'enfants pour un voyage de cent ans à bord du vaisseau de l'Ascension.\n\nMais près de 50 ans plus tard, à l'approche du point de non-retour, l’assassinat mystérieux d'une jeune femme va amener la population à s'interroger sur la vraie nature et le but de leur expédition.",
-    "date_ajout": "2015-12-08",
     "expiration": {
       "status": "none",
       "label": null,
@@ -106001,125 +89772,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/27974244/s592/back-in-time.jpg",
     "synopsis": "Un documentaire sur Retour vers le futur, 30 ans après...",
     "date_ajout": "2015-10-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts22440",
-    "titre": "No Limit",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2012,
-    "annee_fin": 2015,
-    "annee_moyenne": 2014,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2012,
-        "note": 6.6
-      },
-      {
-        "saison": 2,
-        "annee": 2013,
-        "note": 6.6
-      },
-      {
-        "saison": 3,
-        "annee": 2015,
-        "note": 6.6
-      }
-    ],
-    "duree": "54 min/ép.",
-    "runtime_minutes": 54,
-    "note_avis": 6.6,
-    "note_recence": 6.4,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm",
-      "doc",
-      "drm",
-      "trl",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/18475373/s592/no-limit.jpg",
-    "synopsis": "Vincent, agent à la DGSE est atteint d’une maladie incurable. Il est contacté par un département secret qui lui propose un traitement expérimental en échange de missions spéciales sur le territoire français, qu’il accepte pour se rapprocher géographiquement de sa fille de 15 ans, de son ex-femme et de sa sœur, flic à la crime. Défis pour Vincent, il devra assumer en même temps la crise d’adolescence de sa fille, les états d’âme de son ex et éviter que sa sœur, flic, ne le reconnaisse alors qu’il n’est officiellement qu’un simple poseur d’alarmes…",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts328236",
-    "titre": "Crossfire",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2022,
-        "note": 5.8
-      }
-    ],
-    "duree": "56 min/ép.",
-    "runtime_minutes": 56,
-    "note_avis": 5.8,
-    "note_recence": 8.8,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/318335591/s592/crossfire.jpg",
-    "synopsis": "Après une fusillade, les vacances de la famille de Jo tournent à la tourmente.",
     "expiration": {
       "status": "none",
       "label": null,
@@ -106183,113 +89835,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1602347",
-    "titre": "La double vie d'une Amish",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 5.4,
-    "note_recence": 9.7,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/335901892/s592/la-double-vie-dune-amish.jpg",
-    "synopsis": "Après la disparition de son père, Emma, une jeune Amish, ressent le besoin d'explorer le monde autrement. Elle quitte secrètement sa communauté aidée par son amie Rebecca, et part pour l'Angleterre. Là-bas, elle rencontre Chris, un jeune homme charmant, mais leur idylle est interrompue par ses obligations professionnelles. Profitant pour découvrir la vie moderne seule, Emma découvre un cadavre dans la cuisine. Assommée peu après par une silhouette mystérieuse, elle reprend conscience et choisit de retourner dans sa communauté Amish. Quand des détectives viennent l'interroger, elle comprend qu'elle devra mener sa propre enquête pour retrouver le meurtrier.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts79738",
-    "titre": "Chez Maupassant",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2007,
-    "annee_fin": 2011,
-    "annee_moyenne": 2009,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2007,
-        "note": 8
-      },
-      {
-        "saison": 2,
-        "annee": 2008,
-        "note": 8
-      },
-      {
-        "saison": 3,
-        "annee": 2011,
-        "note": 8
-      }
-    ],
-    "duree": "44 min/ép.",
-    "runtime_minutes": 44,
-    "note_avis": 8,
-    "note_recence": 4.9,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306568661/s592/chez-maupassant.jpg",
-    "synopsis": "12 contes et 12 nouvelles adaptés parmi les 300 textes de l’œuvre de Guy de Maupassant, maître de la littérature française.",
-    "date_ajout": "2025-07-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts422336",
     "titre": "Il était une fois... ces drôles d'objets",
     "type": "serie",
@@ -106338,51 +89883,6 @@ const CATALOG_DATA = [
       "packageExpirations": {
         "fra": "2026-10-25"
       }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1600932",
-    "titre": "Les Orphelins",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 5.5,
-    "note_recence": 9.7,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/333543168/s592/les-orphelins-2025.jpg",
-    "synopsis": "Gab et Driss, amis d’enfance brouillés depuis leur départ de l’orphelinat, mènent des vies opposées : l’un est flic à l’IGPN, l’autre fixeur pour des voyous. Lorsque leur premier amour meurt dans un accident suspect, sa fille Leïla, 17 ans, s’empare de l’arme de Gab et se lance sur la piste d’une puissante entreprise prête à tout pour étouffer l’affaire. Forcés de faire équipe, les orphelins vont devoir la stopper avant qu’elle ne commette l’irréparable…",
-    "date_ajout": "2025-08-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": true
@@ -106441,69 +89941,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts19365",
-    "titre": "Retour à Cedar Cove",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2013,
-    "annee_fin": 2015,
-    "annee_moyenne": 2014,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2013,
-        "note": 7
-      },
-      {
-        "saison": 2,
-        "annee": 2014,
-        "note": 7
-      },
-      {
-        "saison": 3,
-        "annee": 2015,
-        "note": 7
-      }
-    ],
-    "duree": "45 min/ép.",
-    "runtime_minutes": 45,
-    "note_avis": 7,
-    "note_recence": 6.4,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/239704334/s592/cedar-cove.jpg",
-    "synopsis": "Le quotidien de la juge Olivia Lockhart entre son travail au sein du palais de justice de Cedar Cove et les problèmes qui se répercutent sur sa vie de famille et celle de son entourage.",
-    "date_ajout": "2025-11-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts27030",
     "titre": "GTO: Great Teacher Onizuka",
     "type": "serie",
@@ -106519,19 +89956,25 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2012,
-    "annee_moyenne": 2012,
+    "annee_fin": 2014,
+    "annee_moyenne": 2013,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2012,
+        "note": 7.5
+      },
+      {
+        "saison": 2,
+        "annee": 2014,
         "note": 7.5
       }
     ],
     "duree": "53 min/ép.",
     "runtime_minutes": 53,
     "note_avis": 7.5,
-    "note_recence": 5.8,
-    "note_globale": 6.7,
+    "note_recence": 6.1,
+    "note_globale": 6.8,
     "etoiles": 3,
     "categories": [
       "comedie"
@@ -106623,18 +90066,15 @@ const CATALOG_DATA = [
     "id": "jw-ts539450",
     "titre": "Putain de chat !",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2026,
@@ -106664,146 +90104,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/354572476/s592/putain-de-chat.jpg",
     "synopsis": "On ne vit pas avec, mais chez son chat. Pour peu qu'il soit teigneux, la contrariété guette de part et d'autre… Humour belge et félin : une série d'animation portée par la fine fleur de la scène wallonne et avec les voix de GuiHome dans le rôle du diabolique Moustique et d'autres jeunes humoristes belges.",
     "date_ajout": "2026-07-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1310148",
-    "titre": "Veuillez nous excuser pour la gêne occasionnée",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 4.5,
-    "note_recence": 9.1,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/310143208/s592/veuillez-nous-excuser-pour-la-gene-occasionnee.jpg",
-    "synopsis": "Sébastien, contrôleur de train consciencieux et professionnel, rêve d’être muté dans le sud de la France. Pour valider sa mutation, il doit effectuer un dernier trajet de routine sous la supervision de Madeleine, une inspectrice légèrement sociopathe qui ne va pas le lâcher. C’est là que tout déraille : entre un conducteur qui pense conduire un avion de chasse, un collègue très jaloux et des passagers tous plus dingues les uns que les autres, ce qui devait être une formalité va devenir le pire voyage de sa vie…",
-    "date_ajout": "2023-08-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts88089",
-    "titre": "Country Music",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2019,
-        "note": 8.9
-      }
-    ],
-    "duree": "116 min/ép.",
-    "runtime_minutes": 116,
-    "note_avis": 8.9,
-    "note_recence": 7.9,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "msc"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/109137168/s592/country-music.jpg",
-    "synopsis": "La musique country fera la chronique de l'histoire d'une forme d'art typiquement américaine, issue de l'expérience de gens remarquables dans des régions distinctes de notre pays. Des chants de lutte, de déchirement et de foi des Appalaches méridionales au swing endiablé de l'ouest du Texas, des tonks de Californie aux Grand Ole Opry de Nashville, nous suivrons l'évolution de la musique country au cours du XXe siècle, telle qu'elle est finalement devenue la musique des États-Unis.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm219379",
-    "titre": "Pitch Perfect 3",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 5.8,
-    "note_recence": 7.3,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "msc"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/48598744/s592/pitch-perfect-3.jpg",
-    "synopsis": "Après avoir remporté les championnats du monde, les Bellas se retrouvent séparées et réalisent qu’il n’existe pas de perspective de travail qui permette de faire de la musique avec sa bouche. Mais lorsqu’on leur offre la chance de se retrouver une nouvelle fois sur scène pour une tournée à l’étranger, ce groupe de nerds se réunit pour une dernière nouvelle aventure musicale.",
-    "date_ajout": "2017-12-27",
     "expiration": {
       "status": "none",
       "label": null,
@@ -106887,67 +90187,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1242418",
-    "titre": "L'Esprit d'Halloween",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 21min",
-    "runtime_minutes": 81,
-    "note_avis": 4.6,
-    "note_recence": 8.8,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "fnt",
-      "hrr",
-      "fml"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302192615/s592/spirit-halloween-the-movie.jpg",
-    "synopsis": "Quatre amis adolescents se retrouvent pour l’inauguration de la fête d’Halloween dans un centre commercial désert.Pour vivre une aventure encore plus palpitante, ils décident de s’introduire dans le magasin pour y passer la nuit.Ils vont vite découvrir qu’un esprit maléfique règne sur les lieux, qui va prêter vie aux “résidents” : les personnages animatroniques du magasin.",
-    "date_ajout": "2020-01-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts553502",
     "titre": "La dernière heure",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2026,
@@ -106990,18 +90241,15 @@ const CATALOG_DATA = [
     "id": "jw-tm917707",
     "titre": "Libertad",
     "type": "film",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2021,
@@ -107091,224 +90339,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1150844",
-    "titre": "Peter von Kant",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 6.2,
-    "note_recence": 8.8,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/287099378/s592/peter-von-kant.jpg",
-    "synopsis": "Peter Von Kant, célèbre réalisateur à succès, habite avec son assistant Karl, qu’il se plaît à maltraiter. Grâce à la grande actrice Sidonie, il rencontre et s’éprend d’Amir, un jeune homme d’origine modeste. Il lui propose de partager son appartement et de l’aider à se lancer dans le cinéma...",
-    "date_ajout": "2022-07-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1603759",
-    "titre": "À demain sur la Lune",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 20min",
-    "runtime_minutes": 80,
-    "note_avis": 7.7,
-    "note_recence": 10,
-    "note_globale": 8.9,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/342182755/s592/a-demain-sur-la-lune.jpg",
-    "synopsis": "À demain sur la Lune est un documentaire poignant et porteur de vie, à la résonance universelle, qui explore l'expérience de la fin de vie au sein de l'unité de soins palliatifs de l'hôpital de Calais, où un cheval nommé Peyo rend visite aux patients les plus fragiles pour les apaiser dans leurs derniers jours.",
-    "date_ajout": "2025-03-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts269185",
-    "titre": "Les dossiers Cold Case",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2017,
-    "annee_fin": 2022,
-    "annee_moyenne": 2020,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2017,
-        "note": 7.9
-      },
-      {
-        "saison": 2,
-        "annee": 2021,
-        "note": 7.9
-      },
-      {
-        "saison": 3,
-        "annee": 2022,
-        "note": 7.9
-      }
-    ],
-    "duree": "44 min/ép.",
-    "runtime_minutes": 44,
-    "note_avis": 7.9,
-    "note_recence": 8.2,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "doc",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/197893259/s592/cold-case-files-2017.jpg",
-    "synopsis": "Une nouvelle série palpitante qui explore les affaires classées, des décès de victime, aux condamnations criminelles. Magnifiquement narré par Danny Glover.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts83616",
-    "titre": "Oum le dauphin blanc",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_fin": 2024,
-    "annee_moyenne": 2020,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2015,
-        "note": 7.3
-      },
-      {
-        "saison": 2,
-        "annee": 2020,
-        "note": 7.3
-      },
-      {
-        "saison": 3,
-        "annee": 2024,
-        "note": 7.3
-      }
-    ],
-    "duree": "12 min/ép.",
-    "runtime_minutes": 12,
-    "note_avis": 7.3,
-    "note_recence": 8.2,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "fml",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/318248637/s592/oum-le-dauphin.jpg",
-    "synopsis": "Dans un magnifique atoll en Polynésie, deux enfants, Yann et son adorable petite sœur Marina, sont confiés à leur Oncle Patrick, un baroudeur océanographe.  De la rencontre entre le jeune garçon et un mystérieux dauphin blanc naît une amitié sans faille.  Toujours prêt à venir en aide à ceux qu’il aime et à protéger les faibles, Oum entraîne Yann dans des aventures trépidantes !",
-    "date_ajout": "2022-01-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts300600",
     "titre": "Idéfix et les Irréductibles",
     "type": "serie",
@@ -107326,14 +90356,9 @@ const CATALOG_DATA = [
       "sxp",
       "fra"
     ],
-    "annee": 2021,
-    "annee_moyenne": 2023,
+    "annee": 2024,
+    "annee_moyenne": 2024,
     "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2021,
-        "note": 6.4
-      },
       {
         "saison": 2,
         "annee": 2024,
@@ -107343,8 +90368,8 @@ const CATALOG_DATA = [
     "duree": "11 min/ép.",
     "runtime_minutes": 11,
     "note_avis": 6.4,
-    "note_recence": 9.1,
-    "note_globale": 7.8,
+    "note_recence": 9.4,
+    "note_globale": 7.9,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -107369,97 +90394,6 @@ const CATALOG_DATA = [
       "packageExpirations": {
         "fra": "2026-11-22"
       }
-    },
-    "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2024
-  },
-  {
-    "id": "jw-tm455662",
-    "titre": "Lycéenne parfaite pour crime parfait",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 5.1,
-    "note_recence": 7.9,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/241572119/s592/lyceenne-parfaite-pour-crime-parfait.jpg",
-    "synopsis": "Une lycéenne poignarde à mort l'une de ses camarades, qui l'avait rejetée peu de temps auparavant.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1390014",
-    "titre": "Tuée pour son bébé : l'histoire vraie d'Heidi Broussard",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 5.9,
-    "note_recence": 9.1,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/307710673/s592/tuee-pour-son-bebe-lhistoire-vraie-dheidi-broussard.jpg",
-    "synopsis": "Basé sur l'histoire vraie de deux amies , Megan et Heidi. Faisant semblant d'être enceinte, Megan se rend de Houston à Austin pour voir Heidi après son accouchement. Lorsque Heidi disparaît avec son nouveau-né, des soupçons pèsent sur les proches de celle-ci et particulièrement sur son compagnon . L’enquête va prouver que Megan est loin de tout soupçon.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": true
@@ -107552,19 +90486,24 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2022,
-    "annee_moyenne": 2022,
+    "annee_moyenne": 2023,
     "saisons_disponibles": [
       {
         "saison": 1,
         "annee": 2022,
+        "note": 6.1
+      },
+      {
+        "saison": 2,
+        "annee": 2024,
         "note": 6.1
       }
     ],
     "duree": "17 min/ép.",
     "runtime_minutes": 17,
     "note_avis": 6.1,
-    "note_recence": 8.8,
-    "note_globale": 7.5,
+    "note_recence": 9.1,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -107588,7 +90527,8 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": true,
+    "annee_fin": 2024
   },
   {
     "id": "jw-tm463863",
@@ -107640,51 +90580,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1571386",
-    "titre": "It's Never Over, Jeff Buckley",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 46min",
-    "runtime_minutes": 106,
-    "note_avis": 7.6,
-    "note_recence": 9.7,
-    "note_globale": 8.6,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "msc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/333094905/s592/its-never-over-jeff-buckley.jpg",
-    "synopsis": "It’s Never Over, Jeff Buckley, réalisé par la cinéaste nommée aux Oscars, Amy Berg, retrace la vie de ce jeune prodige à la voix céleste et à l'art audacieux, qui a laissé le monde musical des années 90 sous le choc en mourant brutalement à 30 ans, peu après la sortie de son premier album acclamé par la critique, “Grace”.  ␣␣␣␣ ␣À travers des images d’archives inédites et des témoignages intimes de sa mère, Mary Guibert, de ses anciennes compagnes, Rebecca Moore et Joan Wasser, de ses ex-musiciens, Michael Tighe et Parker Kindred, ainsi que de personnalités influentes comme Ben Harper et Aimee Mann, It’s Never Over, Jeff Buckley met en lumière l'une des icônes les plus influentes et énigmatiques de la musique moderne.",
-    "date_ajout": "2025-07-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts40913",
     "titre": "Beyblade Burst",
     "type": "serie",
@@ -107700,8 +90595,8 @@ const CATALOG_DATA = [
       "sxp"
     ],
     "annee": 2016,
-    "annee_fin": 2018,
-    "annee_moyenne": 2017,
+    "annee_fin": 2023,
+    "annee_moyenne": 2020,
     "saisons_disponibles": [
       {
         "saison": 1,
@@ -107717,13 +90612,33 @@ const CATALOG_DATA = [
         "saison": 3,
         "annee": 2018,
         "note": 7.1
+      },
+      {
+        "saison": 4,
+        "annee": 2019,
+        "note": 7.1
+      },
+      {
+        "saison": 5,
+        "annee": 2020,
+        "note": 7.1
+      },
+      {
+        "saison": 6,
+        "annee": 2021,
+        "note": 7.1
+      },
+      {
+        "saison": 7,
+        "annee": 2023,
+        "note": 7.1
       }
     ],
     "duree": "18 min/ép.",
     "runtime_minutes": 18,
     "note_avis": 7.1,
-    "note_recence": 7.3,
-    "note_globale": 7.2,
+    "note_recence": 8.2,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "animation_famille"
@@ -107753,265 +90668,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts502815",
-    "titre": "Un meurtre (presque) parfait",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 6.3
-      }
-    ],
-    "duree": "45 min/ép.",
-    "runtime_minutes": 45,
-    "note_avis": 6.3,
-    "note_recence": 9.7,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/338280755/s592/un-meurtre-presque-parfait.jpg",
-    "synopsis": "La spécialité de Laure Mondo, c'est le crime parfait. Romancière à succès, juchée sur des talons vertigineux, Laure cultive son mystère et un humour assassin. Tout le contraire de son assistante : Pica. Cheveux en pagaille, rire sonore, tee-shirts colorés, elle rame pour satisfaire sa fantasque patronne. Ce duo mal assorti va pourtant être confronté à sa première enquête : Yves Cayatte, patron d'un groupe de luxe international, est retrouvé mort dans la piscine de sa somptueuse villa corse. La police conclut à un accident. Mais Laure n'y croit pas. Yves était un monstre et tous les membres de sa famille souhaitaient sa mort. Reniﬂant la matière de son prochain roman, elle est déterminée à découvrir la vérité, aidée par la turbulente Pica.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts326065",
-    "titre": "À l'intérieur",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2019,
-        "note": 6.2
-      }
-    ],
-    "duree": "50 min/ép.",
-    "runtime_minutes": 50,
-    "note_avis": 6.2,
-    "note_recence": 7.9,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/143122117/s592/a-linterieur.jpg",
-    "synopsis": "Un crime violent a été commis dans une clinique psychiatrique. La victime, Ana, une jeune femme de 28 ans avait été internée contre son gré et devait sortir le lendemain du soir où elle a été assassinée. On l’a retrouvée étouffée et… le cœur arraché. Angèle, jeune et brillante inspectrice de police est chargée de l’enquête. A-t-elle affaire au crime d’un fou ou à celui d’un « normopathe » parfaitement lucide qui s’applique à le faire passer pour l’acte d’un dément ?",
-    "date_ajout": "2019-08-13",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts217692",
-    "titre": "La vie à tout prix",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2019,
-        "note": 7.8
-      }
-    ],
-    "duree": "40 min/ép.",
-    "runtime_minutes": 40,
-    "note_avis": 7.8,
-    "note_recence": 7.9,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/307353123/s592/la-vie-a-tout-prix.jpg",
-    "synopsis": "Paloma est une couturière qui a élevé seule ses trois enfants : Alice, Gabriela et Peter. Paloma crée les costumes pour Unidos de Bom Sucesso, une école de samba. Son monde se renverse quand elle reçoit les mauvais résultats de test qui confirment qu'elle n'a que six mois à vivre, ce qui lui fait faire tout ce qu'elle n'a jamais eu le courage de faire, y compris coucher avec un inconnu, Marcos, qui tombe amoureux d'elle. En découvrant qu'elle a reçu les mauvais résultats de test, Paloma décide de rencontrer l'homme qui a six mois à vivre et tombe sur Alberto, un millionnaire qui n'a jamais apprécié sa famille. Malgré des personnalités opposées, les deux forment une amitié qui les emmène dans un voyage de découverte : elle à travers les livres et lui à travers les plaisirs de la vie et les sentiments endormis, notamment en revivant un amour du passé avec Vera.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm920794",
-    "titre": "Je sais ce que tu m’as fait",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 4.9,
-    "note_recence": 8.2,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/243841442/s592/je-sais-ce-que-tu-mas-fait.jpg",
-    "synopsis": "Robin et Sam arrivent au poste de police du shérif Watkins pour déclarer la mort de Javier, le mari de Robin, suite à un accident de chasse. Les deux déclarations concordent parfaitement, mais une fois rentrée chez elle, Robin est assaillie par des flashs incontrôlables qui lui racontent une toute autre histoire. Elle confie alors à sa mère, Celeste, qu’elle pense finalement que Sam a tué Javier, mais sans en être tout à fait certaine. Celeste tente de convaincre le shérif Watkins qui, elle, pense que ces flashs peuvent tout à fait être le fruit de l’imagination de Robin, suite à la perte de son mari. Mais, en découvrant le casier judiciaire chargé de Sam, elle décide de confier Robin à un hypnotiseur.",
-    "date_ajout": "2026-05-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1461494",
-    "titre": "The Last Redemption",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "2h 01min",
-    "runtime_minutes": 121,
-    "note_avis": 6.1,
-    "note_recence": 9.7,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "fnt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321303542/s592/the-last-redemption.jpg",
-    "synopsis": "Diana, une hors-la-loi dans le royaume magique de Brea, s'unit à ses frères afin de secourir une princesse innocente des griffes du fourbe Lord Roland. Ils s'embarquent dans une quête épique pour restaurer la paix dans les terres ravagées par la guerre.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm919973",
     "titre": "Gaza Mon Amour",
     "type": "film",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2021,
@@ -108043,65 +90711,6 @@ const CATALOG_DATA = [
       "packageExpirations": {
         "art": "2026-11-13"
       }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts14844",
-    "titre": "Boss",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2011,
-    "annee_fin": 2012,
-    "annee_moyenne": 2012,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2011,
-        "note": 8.1
-      },
-      {
-        "saison": 2,
-        "annee": 2012,
-        "note": 8.1
-      }
-    ],
-    "duree": "46 min/ép.",
-    "runtime_minutes": 46,
-    "note_avis": 8.1,
-    "note_recence": 5.8,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "war"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/10095186/s592/boss.jpg",
-    "synopsis": "Maire de Chicago, Tom Kane vient d'être diagnostiqué de démence à corps de Lewy, un grave trouble neurologique. Souhaitant rester en place, l'homme à poigne fait contraindre son médecin, le Dr Ella Harris, à l'isolement et ne se confie qu'à sa fille avec laquelle les relations semblent pourtant chargées d'un long passif. Sa femme, Meredith, fille de l'ancien maire, et ses proches conseillers, Kitty O'Neill et Ezra Stone, sont témoins de légers symptômes tout en n'osant lui en parler frontalement. Dans l'ombre de ce maire omnipotent et autoritaire se déroulent nombre corruptions qu'un journaliste local tente d'éclaircir et une campagne au poste de Gouverneur de l'Illinois qui voit s'affronter deux générations : l'actuel gouverneur en poste et le jeune et habile Trésorier de L'Illinois, Ben Zajac.",
-    "date_ajout": "2025-05-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": true
@@ -108148,59 +90757,6 @@ const CATALOG_DATA = [
       "packageExpirations": {
         "art": "2027-01-11"
       }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts82958",
-    "titre": "Noces rouges",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 6.4
-      }
-    ],
-    "duree": "49 min/ép.",
-    "runtime_minutes": 49,
-    "note_avis": 6.4,
-    "note_recence": 7.6,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/326187312/s592/noces-rouges.jpg",
-    "synopsis": "En Provence, l’humeur est à la fête : Sandra, la fille d’une restauratrice renommée, se marie. A cette occasion, Alice est de retour après quatre ans d’absence. Mais la joie des retrouvailles est de courte durée : quelques heures après la cérémonie, la mariée est retrouvée morte, en bas d’une falaise. Or ce qui ressemble de prime abord à un suicide pourrait bien être un meurtre. Vincent, un proche de la famille, commence alors à enquêter et, en soulevant le rideau des apparences, tombe sur de bien sombres secrets de famille…",
-    "date_ajout": "2018-08-13",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": true
@@ -108300,6 +90856,7 @@ const CATALOG_DATA = [
       "ani",
       "cmy",
       "fml",
+      "trl",
       "scf"
     ],
     "badge": null,
@@ -108317,52 +90874,6 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1239876",
-    "titre": "Francesca Quinn, Détective Privée",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 24min",
-    "runtime_minutes": 84,
-    "note_avis": 6.1,
-    "note_recence": 8.8,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300674179/s592/francesca-quinn-detective-privee.jpg",
-    "synopsis": "Lorsque le fiancé de la détective privée Francesca «Frankie» Quinn est assassiné, la sœur de ce dernier l'engage pour trouver le meurtrier. Frankie doit travailler avec Wyn, le détective local chargé de l'affaire",
-    "date_ajout": "2025-07-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
     "on_tnt": true
   },
   {
@@ -108422,18 +90933,15 @@ const CATALOG_DATA = [
     "id": "jw-ts443149",
     "titre": "Ceux qui rougissent",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2024,
@@ -108543,174 +91051,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm144002",
-    "titre": "La Belle et la Bête",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 52min",
-    "runtime_minutes": 112,
-    "note_avis": 6.4,
-    "note_recence": 6.4,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "drm",
-      "fnt",
-      "fml",
-      "trl",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/42559222/s592/la-belle-et-la-bete-2014.jpg",
-    "synopsis": "1810. Après le naufrage de ses navires, un marchand ruiné doit s’exiler à la campagne avec ses six enfants. Parmi eux se trouve Belle, la plus jeune de ses filles, joyeuse et pleine de grâce.",
-    "date_ajout": "2014-02-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts8698",
-    "titre": "Trésors sous les Mers",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+",
-      "Novo 19"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/novo19.svg"
-    ],
-    "package_slugs": [
-      "tf1",
-      "nvn"
-    ],
-    "annee": 2018,
-    "annee_fin": 2021,
-    "annee_moyenne": 2020,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 7.5
-      },
-      {
-        "saison": 2,
-        "annee": 2019,
-        "note": 7.5
-      },
-      {
-        "saison": 3,
-        "annee": 2020,
-        "note": 7.5
-      },
-      {
-        "saison": 4,
-        "annee": 2021,
-        "note": 7.5
-      }
-    ],
-    "duree": "47 min/ép.",
-    "runtime_minutes": 47,
-    "note_avis": 7.5,
-    "note_recence": 8.2,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "hst"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/243489305/s592/tresors-sous-les-mers.jpg",
-    "synopsis": "La série \"Trésors sous les Mers\" pénètre les épaves, les trésors, les villes englouties, la géologie et la technologie à l’œuvre au fond des lacs, mers et océans du monde entier, résolvant ainsi les énigmes sous-marines qui nous échappent depuis des générations. En combinant les dernières données scientifiques à des techniques informatiques de pointe, vous allez découvrir des mystères planétaires enfouis. Le Titanic, un cuirassé de la Seconde Guerre Mondiale et le mystérieux Vol 19, perdu dans le Triangle des Bermudes.  Grâce aux dernières données scientifiques obtenues à partir de scanners sous-marins et à des reconstitutions d’avant-garde, la série lève le voile sur chacun de ces trésors enfouis et dévoile leurs histoires, en sillonnant les mers de Chine, le golfe du Mexique, la Méditerranée, le Nil, le littoral du Pacifique, l’océan Indien, l’océan Atlantique et la mer Baltique à la recherche de réponses.",
-    "date_ajout": "2020-03-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "nvn": "2026-10-13"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1656280",
-    "titre": "‎‎Il Maestro",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "2h 05min",
-    "runtime_minutes": 125,
-    "note_avis": 6.7,
-    "note_recence": 9.7,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/340793221/s592/my-tennis-maestro.jpg",
-    "synopsis": "Années 80, Felice, treize ans, porte sur ses épaules les espoirs de son père. Après des années d'entraînement et de discipline, il est temps de participer à des tournois nationaux, et pour cela, son père engage un ancien champion. Le duo entame un voyage qui, entre défaites, mensonges et rencontres insolites, amènera Felice à goûter à la liberté et son coach d'entrevoir un possible renouveau.",
-    "date_ajout": "2026-03-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm2861314",
     "titre": "Sœurs et demie",
     "type": "film",
@@ -108755,489 +91095,18 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts84371",
-    "titre": "Jacqueline Sauvage : C'était lui ou moi",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 7.5
-      }
-    ],
-    "duree": "45 min/ép.",
-    "runtime_minutes": 45,
-    "note_avis": 7.5,
-    "note_recence": 7.6,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/197829549/s592/jacqueline-sauvage-cetait-lui-ou-moi.jpg",
-    "synopsis": "Jacqueline Sauvage est une mère de famille, victime de violences conjugales, qui abat son mari après une violente dispute en 2012. Condamnée à une peine de 10 ans de prison, un mouvement voit le jour pour défendre l'idée qu'il s'agissait de légitime défense. Après une longue mobilisation et médiatisation, le Président de la République François Hollande lui accorde la grâce présidentielle en janvier 2016",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts271055",
-    "titre": "Prière d'enquêter",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2020,
-        "note": 6.9
-      }
-    ],
-    "duree": "89 min/ép.",
-    "runtime_minutes": 89,
-    "note_avis": 6.9,
-    "note_recence": 8.2,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/242346013/s592/priere-denqueter.jpg",
-    "synopsis": "À 33 ans, Clément a passé toute sa vie dans un monastère et s’apprête à prononcer ses vœux définitifs pour devenir moine. Il ne connaît le monde moderne qu’à travers les livres et les cours par correspondance qu’il a pris à l’université",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts56950",
-    "titre": "Berlin '56",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2016,
-        "note": 7.6
-      }
-    ],
-    "duree": "93 min/ép.",
-    "runtime_minutes": 93,
-    "note_avis": 7.6,
-    "note_recence": 7,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/196590949/s592/berlin-56.jpg",
-    "synopsis": "Caterina Schöllack dirige une prestigieuse école de danse berlinoise. Sa plus grande préoccupation est de marier ses trois filles, Monika, Eva et Helga, à des gentlemen bien établis et de bonne famille, afin de conserver les traditions dans son école de danse “Galant”.",
-    "date_ajout": "2017-04-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1478439",
-    "titre": "Gabby et la Maison Magique - Le Film",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 5.4,
-    "note_recence": 9.7,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "fnt",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/336852905/s592/gabbys-dollhouse-the-movie.jpg",
-    "synopsis": "Gabby part pour une virée en voiture avec sa grand-mère Gigi vers la ville imaginaire de Chat Francisco. Mais lorsque sa précieuse maison de poupée tombe entre les mains de Véra, une femme excentrique dangereusement obsédée par les chats, Gabby va partir à l'aventure, cette fois dans le monde réel, afin de récupérer ses Gabby Chats et sauver leur maison avant qu'il ne soit trop tard.",
-    "date_ajout": "2025-09-26",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1416960",
-    "titre": "Cruelle Maman",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 5.5,
-    "note_recence": 10,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/334714412/s592/cruelle-maman.jpg",
-    "synopsis": "Après un accident de voiture sur une route isolée, Josh, blessé, est secouru par Hillary qui le conduit dans une cabane pour qu'il se rétablisse. Mais lorsqu'il comprend qu'elle ne compte pas le laisser partir, il tente de fuir. Pour tomber sur la mère sinistre d'Hillary, bien décidée à le garder prisonnier.",
-    "date_ajout": "2025-08-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts41526",
-    "titre": "Nina",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_fin": 2021,
-    "annee_moyenne": 2018,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2015,
-        "note": 6.8
-      },
-      {
-        "saison": 2,
-        "annee": 2016,
-        "note": 6.8
-      },
-      {
-        "saison": 3,
-        "annee": 2017,
-        "note": 6.8
-      },
-      {
-        "saison": 4,
-        "annee": 2018,
-        "note": 6.8
-      },
-      {
-        "saison": 5,
-        "annee": 2019,
-        "note": 6.8
-      },
-      {
-        "saison": 6,
-        "annee": 2021,
-        "note": 6.8
-      }
-    ],
-    "duree": "51 min/ép.",
-    "runtime_minutes": 51,
-    "note_avis": 6.8,
-    "note_recence": 7.6,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321258473/s592/nina.jpg",
-    "synopsis": "À 39 ans, Nina se retrouve infirmière stagiaire sous les ordres de Léo, une \"gamine\" de quinze ans sa cadette, dotée d'un tempérament difficile, et du Dr. Proust qui s'amuse à lui faire peur... Pas simple !  D'autant que pour tous, Nina est la femme du patron, Costa Antonakis, son ex avec lequel rien n'est vraiment réglé malgré leur divorce. Mais après avoir soigné Lily, leur fille, pendant dix ans, rien ne fait peur à Nina !  Forte de ses années passées dans les hôpitaux au contact des médecins comme des infirmières et des aides-soignats, Nina, fille d'un grand interniste et d'une obstétricienne renommée, prend le risque de les décevoir pour tracer son propre chemin dans l'univers hospitalier auquel elle ne peut décidément pas échapper...  L'écoute et le soin comme profession de foi, l'envie de vivre et d'aimer comme prescription...",
-    "date_ajout": "2026-05-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1124390",
-    "titre": "Jack Mimoun et les secrets de Val Verde",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 5.4,
-    "note_recence": 8.8,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300763542/s592/jack-mimoun-et-les-secrets-de-val-verde.jpg",
-    "synopsis": "Deux ans après avoir survécu seul sur l’île hostile de Val Verde, Jack Mimoun est devenu une star de l’aventure. Le livre racontant son expérience est un best-seller et son émission de télévision bat des records d’audience. Il est alors approché par la mystérieuse Aurélie Diaz qui va ramener Jack Mimoun sur Val Verde pour l’entraîner à la recherche de la légendaire Épée du pirate La Buse. Accompagnés de Bruno Quézac, l’ambitieux mais peu téméraire manager de Jack, et de Jean-Marc Bastos, un mercenaire aussi perturbé qu’imprévisible, nos aventuriers vont se lancer dans une incroyable chasse au trésor à travers la jungle de l’île aux mille dangers.",
-    "date_ajout": "2022-10-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts58307",
-    "titre": "Les liens du sang",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2017,
-        "note": 7.5
-      }
-    ],
-    "duree": "46 min/ép.",
-    "runtime_minutes": 46,
-    "note_avis": 7.5,
-    "note_recence": 7.3,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/26976124/s592/bad-blood.jpg",
-    "synopsis": "Cette fresque dramatique policière suit l'histoire vraie de la famille Rizzuto et de ses complices, qui ont régné pendant des décennies sur le crime organisé à Montréal.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm238718",
-    "titre": "Rock'n Roll",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "2h 03min",
-    "runtime_minutes": 123,
-    "note_avis": 6.1,
-    "note_recence": 7.3,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "fml",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300634024/s592/rock-n-roll.jpg",
-    "synopsis": "Guillaume Canet, 43 ans, est épanoui dans sa vie, il a tout pour être heureux. Sur un tournage, une jolie comédienne de 20 ans va le stopper net dans son élan, en lui apprenant qu’il n’est pas très «Rock», qu’il ne l’a d’ailleurs jamais vraiment été, et pour l’achever, qu’il a beaucoup chuté dans la «liste» des acteurs qu’on aimerait bien se taper… Sa vie de famille avec Marion, son fils, sa maison de campagne, ses chevaux, lui donnent une image ringarde et plus vraiment sexy… Guillaume a compris qu’il y a urgence à tout changer. Et il va aller loin, très loin, sous le regard médusé et impuissant de son entourage.",
-    "date_ajout": "2017-02-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts481818",
     "titre": "El'sardines",
     "type": "serie",
-    "chaine": "TF1+",
+    "chaine": "Arte",
     "chaines": [
-      "TF1+",
       "Arte"
     ],
-    "logo_chaine": "assets/logos/tf1.png",
+    "logo_chaine": "assets/logos/arte.png",
     "logos_chaine": [
-      "assets/logos/tf1.png",
       "assets/logos/arte.png"
     ],
     "package_slugs": [
-      "tf1",
       "art"
     ],
     "annee": 2025,
@@ -109275,110 +91144,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts226503",
-    "titre": "L'Attaque",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2016,
-        "note": 6.7
-      }
-    ],
-    "duree": "50 min/ép.",
-    "runtime_minutes": 50,
-    "note_avis": 6.7,
-    "note_recence": 7,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306874687/s592/lattaque.jpg",
-    "synopsis": "Il est question ici d’un concours de circonstances. Plusieurs personnes, très différentes, se retrouvent à la banque. On croise alors une danseuse au genou abimé, un restaurateur étoilé, un retraité, un gamin trop dépensier… Tous vont être piégés au même moment lorsqu’un braquage va avoir lieu. Le jeu des tractations est alors lancé. Les comportements se révèlent face à ce bien si précieux qu’est l’argent. Entre ceux qui le protègent, ceux qui viennent en déposer, en retirer ou le voler : ils vont tous se dévoiler par le prisme de la monnaie.",
-    "date_ajout": "2025-06-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts66050",
-    "titre": "Main courante",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2012,
-    "annee_moyenne": 2012,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2012,
-        "note": 6.7
-      }
-    ],
-    "duree": "52 min/ép.",
-    "runtime_minutes": 52,
-    "note_avis": 6.7,
-    "note_recence": 5.8,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/205994870/s592/guilty-as-charged.jpg",
-    "synopsis": "Un commissariat, dans la banlieue de Nantes. Un commissariat dans ses moments d’urgence qui ne laissent pas un seul instant aux flics pour souffler. Des histoires qui se croisent, se chevauchent. Le drame interrompu par le dérisoire et le comique à moins que ce ne soit le contraire. Du jardinier amateur à qui on vole des légumes au père qui a tué son fils le prenant pour un cambrioleur, du sportif qui a perdu son sac contenant quelques petites choses surprenantes, au viol d’une jeune fille…",
-    "date_ajout": "2025-06-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
     "on_tnt": true
   },
   {
@@ -109444,162 +91209,6 @@ const CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts22445",
-    "titre": "The Heirs",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2013,
-        "note": 7.5
-      }
-    ],
-    "duree": "59 min/ép.",
-    "runtime_minutes": 59,
-    "note_avis": 7.5,
-    "note_recence": 6.1,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/48391330/s592/the-heirs.jpg",
-    "synopsis": "Après une rencontre fortuite à Los Angeles, deux adolescents issus de milieux sociaux différents se retrouvent dans un lycée prestigieux fréquenté par les plus grandes fortunes de Corée.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts215298",
-    "titre": "Terra Brava",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2019,
-        "note": 7.4
-      }
-    ],
-    "duree": "48 min/ép.",
-    "runtime_minutes": 48,
-    "note_avis": 7.4,
-    "note_recence": 7.9,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/173250035/s592/terra-brava.jpg",
-    "synopsis": "Pour venger la mort de ses parents, Diogo devra détruire la mère de la femme qu'il aime. Et tandis qu'il lutte pour cet amour, il devra affronter son jeune frère.\n",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts36767",
-    "titre": "L'Espionne de Tanger",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2013,
-        "note": 8.2
-      }
-    ],
-    "duree": "73 min/ép.",
-    "runtime_minutes": 73,
-    "note_avis": 8.2,
-    "note_recence": 6.1,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "hst",
-      "rma",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/303350191/s592/the-time-in-between.jpg",
-    "synopsis": "Lorsqu'il sort de sa retraite pour venger la mort de son fils, un ancien espion se retrouve coincé entre passé et présent, au cœur d'une guerre entre agences et d'une conspiration qui tire profit du chaos au Moyen Orient.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts496460",
     "titre": "Les secrets du Finistère",
     "type": "serie",
@@ -109650,142 +91259,6 @@ const CATALOG_DATA = [
       "packageExpirations": {
         "fra": "2026-12-31"
       }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1442992",
-    "titre": "Moon le panda",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 5.2,
-    "note_recence": 9.7,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322975416/s592/moon-le-panda.jpg",
-    "synopsis": "Tian a 12 ans quand il est envoyé chez sa grand-mère à cause de ses mauvais résultats à l'école. Loin de la ville, dans les mystérieuses montagnes chinoises, il se lie d’amitié en secret avec un panda qu’il nomme Moon. C’est le début d’une incroyable aventure qui va changer à tout jamais sa vie et celle de sa famille.",
-    "date_ajout": "2025-04-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1475163",
-    "titre": "Battement d'ailes à Sainte-Lucie",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 5.7,
-    "note_recence": 9.4,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321291267/s592/battement-dailes-a-sainte-lucie.jpg",
-    "synopsis": "Kennedy, une journaliste d'investigation pense détenir LE sujet pour son article quand une espèce de perroquet, qu'on croyait éteinte, est photographiée à Sainte-Lucie. Accompagnée d'un écologiste local très sceptique, ils partent à l'aventure dans la jungle pour trouver l'oiseau mystique et découvrent ce qu'ils pensaient vraiment impossible... l'amour.",
-    "date_ajout": "2025-09-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1530905",
-    "titre": "Tout pour sauver ma fille",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 4.9,
-    "note_recence": 9.4,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341677993/s592/deadly-ruphoria.jpg",
-    "synopsis": "Lors d'une rare sortie nocturne, Shana Jones, étudiante à l'université, se retrouve dans une situation périlleuse. Romeon Kingston, chef d'un réseau de trafic d'êtres humains, la repère et la prend pour cible, mettant sa vie en danger.",
-    "date_ajout": "2026-09-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": true
@@ -109994,152 +91467,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts432697",
-    "titre": "Rien ne t'efface",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 6.6
-      }
-    ],
-    "duree": "50 min/ép.",
-    "runtime_minutes": 50,
-    "note_avis": 6.6,
-    "note_recence": 9.7,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/335064410/s592/rien-ne-tefface.jpg",
-    "synopsis": "Dix ans après la mort tragique de son fils Esteban, Maddi rencontre Tom, un jeune garçon qui lui ressemble étrangement. Intriguée, elle déménage de son Pays Basque natal pour se rapprocher de Tom en Auvergne. Elle découvre rapidement qu’en plus de la ressemblance physique, Tom a des réminiscences et visions de souvenirs d’Esteban. Quand une série de meurtres secoue la paisible région, Maddi ne peut s’empêcher de se demander : ces événements sont-ils liés à la mort de son fils ? Qui est vraiment Tom et quel est son lien avec Esteban ?",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts420105",
-    "titre": "Commandant Saint-Barth",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 6.5
-      }
-    ],
-    "duree": "52 min/ép.",
-    "runtime_minutes": 52,
-    "note_avis": 6.5,
-    "note_recence": 9.4,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322116931/s592/commandant-saint-barth.jpg",
-    "synopsis": "Le commandant Gabriel Saint-Barthélémy a grandi dans un resort sur une île des Caraïbes. Connaissant mieux que personne les coulisses du paradis, il a la fâcheuse manie de mener ses enquêtes en se tapant l’incruste. Une méthode renversante, mais toujours payante !",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm469606",
-    "titre": "Abandonnée à 13 ans",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 7.6,
-    "note_recence": 7.9,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/142969971/s592/abandonnee-a-13-ans.jpg",
-    "synopsis": "Regina Louise est une enfant noire abandonnée. Placée dans un foyer pour enfants, elle fait la rencontre de Jeanne Kerr, une conseillère blanche qui fait preuve d'empathie envers elle et crée un lien fort au point qu'elle entame des démarches pour pouvoir l'adopter. Mais la directrice du foyer, une femme noire, ne voit pas d'un bon oeil qu'une blanche adopte une jeune fille de couleur. Elle fait tout pour empêcher cette adoption allant jusqu'à envoyer Regina dans un établissement psychiatrique privé afin de couper toute communication entre toutes les deux.",
-    "date_ajout": "2026-04-26",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts268693",
     "titre": "La Fabrique du mensonge",
     "type": "serie",
@@ -110180,103 +91507,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/302051377/s592/la-fabrique-du-mensonge.jpg",
     "synopsis": "Comment naissent et se propagent les fake news ? Qui en sont les instigateurs et comment ont contre-attaqué ceux qui en ont été la cible ?",
     "date_ajout": "2026-06-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm184211",
-    "titre": "Jappeloup",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "2h 10min",
-    "runtime_minutes": 130,
-    "note_avis": 6.6,
-    "note_recence": 6.1,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "spt",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/250042063/s592/jappeloup.jpg",
-    "synopsis": "Au début des années 80, abandonnant une carrière d’avocat prometteuse, Pierre Durand se consacre corps et âme à sa passion, le saut d’obstacle. Soutenu par son père, il mise tout sur un jeune cheval auquel personne ne croit vraiment : Jappeloup. Trop petit, trop caractériel, trop imprévisible, il a de nombreux défauts mais une détente et des aptitudes remarquables. De compétition en compétition, le duo progresse et s’impose dans le monde de l’équitation. Mais les JO de Los Angeles sont un terrible échec et Pierre prend alors conscience de ses faiblesses. Avec l’aide de Nadia, sa femme, et de Raphaëlle, la groom du cheval, Pierre va regagner la confiance de Jappeloup et construire une relation qui va les mener aux JO de Séoul en 1988.",
-    "date_ajout": "2013-03-13",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts317126",
-    "titre": "Innommable : L'affaire Dutroux",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2021,
-        "note": 7.7
-      }
-    ],
-    "duree": "57 min/ép.",
-    "runtime_minutes": 57,
-    "note_avis": 7.7,
-    "note_recence": 8.5,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/288316241/s592/innommable-laffaire-dutroux.jpg",
-    "synopsis": "En quatre épisodes, retour en archives sur l’effroyable \"affaire Dutroux\", qui suscita au milieu des années 1990 l’émoi puis la colère du peuple belge face aux dysfonctionnements de la justice.",
     "expiration": {
       "status": "none",
       "label": null,
@@ -110332,189 +91562,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/270029807/s592/im-quitting-heroing.jpg",
     "synopsis": "Leo Demonheart est le héros qui a sauvé le royaume d'une invasion menée par la Reine-Démon Echidna et ses Quatre généraux. Mais le voilà de retour dans le château ennemi, en tant que simple candidat aux annonces de recrutement. Mais une reine vaincue peut-elle décemment embaucher l'homme qui a triomphé d'elle ?",
     "date_ajout": "2025-02-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts84057",
-    "titre": "Amour coupable",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2017,
-        "note": 8
-      }
-    ],
-    "duree": "45 min/ép.",
-    "runtime_minutes": 45,
-    "note_avis": 8,
-    "note_recence": 7.3,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/141737482/s592/amour-coupable.jpg",
-    "synopsis": "Raquel (Silvia Navarro) et Damián (Gabriel Soto) sont mariés et ont deux enfants. Le destin mène Damián à la rencontre de Carolina (Adriana Louvier) et il ressent une attraction indéniable envers elle. Damián ne savait pas que Carolina était déjà mariée à Santiago Álvarado (Carlos Ferro), un architecte de construction avec qui elle a deux enfants. Quand Raquel dépose son fils Fede à l'école, elle recule accidentellement sa voiture dans le camion de Santiago et ils se rendent compte que leurs fils se connaissent. Raquel se porte volontaire pour payer les dommages mais Santiago refuse. Raquel insiste et va à la maison d'Álvarado avec Damián. Les deux couples deviennent de grands amis. Mais le désir entre Damián et Carolina est plus fort que leur engagement matrimonial et tous deux décident de tromper leur conjoint. Damián et Carolina ont un terrible accident de voiture. Les sauveteurs ne trouvent qu'un Damián gravement blessé, et Carolina a mystérieusement disparu de la scène. Au cours de l'enquête menée par la police, Raquel et Santiago apprennent que leurs conjoints sont amants.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts375897",
-    "titre": "Nightsleeper",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 6.6
-      }
-    ],
-    "duree": "58 min/ép.",
-    "runtime_minutes": 58,
-    "note_avis": 6.6,
-    "note_recence": 9.4,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322694198/s592/nightsleeper.jpg",
-    "synopsis": "Lorsque le train de nuit Glasgow-Londres est piraté à l'aide d'un mystérieux dispositif, ses passagers se retrouvent piégés à bord. Parmi eux, l’ancien policier Joe Roag. Avec l’aide à distance de la directrice de la cybersécurité Abby Aysgarth, il va tout tenter pour reprendre le contrôle du train et éviter la catastrophe.",
-    "date_ajout": "2025-01-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts20305",
-    "titre": "Naruto",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+",
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "tf1",
-      "sxp"
-    ],
-    "annee": 2002,
-    "annee_fin": 2017,
-    "annee_moyenne": 2010,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2002,
-        "note": 8.4
-      },
-      {
-        "saison": 2,
-        "annee": 2007,
-        "note": 8.4
-      },
-      {
-        "saison": 3,
-        "annee": 2009,
-        "note": 8.4
-      },
-      {
-        "saison": 4,
-        "annee": 2005,
-        "note": 8.4
-      },
-      {
-        "saison": 5,
-        "annee": 2017,
-        "note": 8.4
-      }
-    ],
-    "duree": "24 min/ép.",
-    "runtime_minutes": 24,
-    "note_avis": 8.4,
-    "note_recence": 5.2,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "fnt",
-      "scf"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322125116/s592/naruto.jpg",
-    "synopsis": "Dans le village de Konoha vit Naruto, un jeune garçon détesté et craint des villageois du fait qu'il détienne en lui Kyuubi (démon renard à neuf queues) d'une incroyable force, qui a tué un grand nombre de personnes. Le ninja le plus puissant de Konoha à l'époque, le quatrième Hokage, Minato Namikaze, réussit à sceller ce démon dans le corps de Naruto. Malheureusement il y laissa la vie.\n\nC'est ainsi que douze ans plus tard, Naruto rêve de devenir le plus grand Hokage de Konoha afin que tous le reconnaissent à sa juste valeur. Mais la route pour devenir Hokage est très longue et Naruto sera confronté à un bon nombre d'épreuves et devra affronter de nombreux ennemis pour atteindre son but !",
-    "date_ajout": "2013-10-08",
     "expiration": {
       "status": "none",
       "label": null,
@@ -110949,65 +91996,5 @@ const CATALOG_DATA = [
     },
     "on_prime": false,
     "on_tnt": false
-  },
-  {
-    "id": "jw-ts20535",
-    "titre": "Garfield & Cie",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2012,
-    "annee_fin": 2015,
-    "annee_moyenne": 2014,
-    "saisons_disponibles": [
-      {
-        "saison": 3,
-        "annee": 2012,
-        "note": 5.8
-      },
-      {
-        "saison": 4,
-        "annee": 2015,
-        "note": 5.8
-      }
-    ],
-    "duree": "14 min/ép.",
-    "runtime_minutes": 14,
-    "note_avis": 5.8,
-    "note_recence": 6.4,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "cmy",
-      "fml",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/347969301/s592/the-garfield-show.jpg",
-    "synopsis": "Les aventures mouvementées de Garfield, le célèbre chat plus que jamais paresseux.\n\nDans cette série, Garfield a l'habitude de s'adresser régulièrement aux spectateurs pour les impliquer dans l'histoire, comme s'il était en réalité un acteur s'adressant à son public.",
-    "date_ajout": "2019-09-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
   }
 ];
