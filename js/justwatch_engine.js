@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v32';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v32';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v32';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v32';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v33';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v33';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v33';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v33';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -285,8 +285,9 @@ const JustWatchEngine = (function () {
       rawTags.includes('hrr') ? isAdultHorrorAge : hasAnyAgeLimit
     );
 
-    // Règle Famille / Animation Mature : exclue d'animation_famille si pastille -12, -16, -18 ou série live avec restriction
-    const isMatureFamily = isMatureAge || (isSerie && !rawTags.includes('ani') && hasAnyAgeLimit);
+    // Règle Famille en prises de vue réelles : exclue d'animation_famille si pastille d'âge (-10, -12, -16, -18)
+    // Pour l'animation : aucune exclusion d'âge, autorisée peu importe la pastille
+    const isMatureFamily = !rawTags.includes('ani') && hasAnyAgeLimit;
     // Comédies d'horreur autorisées en comédie si < -16 (sauf gore strict non parodique)
     const isComedyWithoutAge = rawTags.includes('cmy') && !isAdultHorrorAge && (!isStrictHorror || PARODY_PATTERNS.test(cleanText) || cleanText.includes('requin') || cleanText.includes('ski'));
 

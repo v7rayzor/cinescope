@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.46** / Cache **v32**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.47** / Cache **v33**).
 
 ---
 
@@ -20,7 +20,7 @@ Ce document constitue la référence vivante et synthétique de l'architecture, 
    * **Molotov Gratuit** (`mlt`) — 487 œuvres (catalogue AVOD Mango & chaînes FAST confirmées ABO)
    * **Sanctuarisation TNT & Règles Anti-Doublons** :
      - **Règle Anti-Doublon TNT** : Si une œuvre est diffusée sur une chaîne TNT (`tf1`, `sxp`, `fra`), le tag et le logo **Molotov Gratuit (`mlt`) sont formellement bannis** de la jaquette. L'œuvre arbore exclusivement son logo officiel de chaîne (ex: *Blade Runner 2049* n'a que le logo **M6+**).
-     - **Suppression Définitive d'Arte (`art`) & Novo 19 (`nvn`)** : Vérification faite, ces chaînes ne proposent aucun replay VOD jouable sur Molotov (cul-de-sacs totaux). Leurs boutons et flux ont été formellement supprimés.
+     - **Suppression Définitive d'Arte (`art`) & Novo 19 (`nvn`)** : Chaînes sans replay VOD pérenne sur Molotov (cul-de-sacs), boutons et flux formellement supprimés.
      - **ARTE VOD (`atb`) & TFOU MAX (`tfa`)** : Boutiques de location VOD payante et abonnements tiers formellement bannis.
      - **Canal+ (`cpd`, `cns`)** : Formellement exclu de la TNT.
 
@@ -33,7 +33,7 @@ Ce document constitue la référence vivante et synthétique de l'architecture, 
 * **Client Web Résilient ([`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js))** :
   - Démarrage instantané sur le catalogue pré-embarqué `CATALOG_DATA`.
   - Rafraîchissement rapide quotidien calibré à **100 nouveautés fraîches** (2 pages de 50).
-  - Rechargement client avec invalidation de cache (`?v=8.46`) et purge automatique des anciennes clés LocalStorage (`_v32`).
+  - Rechargement client avec invalidation de cache (`?v=8.47`) et purge automatique des anciennes clés LocalStorage (`_v33`).
 
 ---
 
@@ -47,7 +47,7 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 4. `action_aventure` : Action grand spectacle, westerns d'action armée, survie, guerre, arts martiaux.
 5. `scifi_fantastique` : Science-fiction, space opera, anticipation, heroic fantasy, super-héros, mystère magique.
 6. `horreur_epouvante` : Slashers, épouvante, body horror, démons/possession, monstres, gore.
-7. `animation_famille` : Animation jeunesse, aventures familiales Tout Public.
+7. `animation_famille` : Films et séries d'animation, aventures jeunesse, contes familiaux.
 
 ### B. Règles d'Admission & Éligibilité au Catalogue
 1. **Règle d'Or des Longs-Métrages (CNC)** :
@@ -67,10 +67,11 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 ### C. Moteur de Catégorisation Purement Algorithmique (100% Déterministe)
 * **Zéro Bidouillage Ad Hoc (Règle 7 d'AGENTS.md)** :
   - Tout arbitrage repose sur des règles logiques universelles déterministes, garantissant une cohérence absolue pour l'ensemble du catalogue et les futurs flux.
+* **Règle Souveraine Animation & Pastilles d'Âge** :
+  - **Pour l'Animation (`ani` ou motif textuel)** : Toute œuvre d'animation est souveraine et admise dans `animation_famille`, **peu importe la pastille d'âge** (Tout Public, -10, -12, -16 ou -18, ex: *Kuroko's Basket*, *Solo Leveling*, *Tsugai*).
+  - **Pour la Famille en Prises de Vue Réelles (`fml` sans `ani`)** : La règle d'exclusion d'âge est rigoureusement maintenue : tout badge (-10, -12, -16, -18) exclut l'œuvre d'`animation_famille` (qui exige un Tout Public strict en live action).
 * **Comédies & Signalétique d'Âge Majeure** :
   - Les œuvres `-16` et `-18` sont formellement interdites de `comedie` et sanctuarisées en `horreur_epouvante` ou `action_aventure`.
-* **Animation & Signalétiques d'Avertissement** :
-  - Toute œuvre `-12`, `-16` ou `-18` est formellement bannie d'`animation_famille` et réaffectée dans son genre d'intensité.
 * **Motifs Surnaturels & Fantastiques Universels (`FANTASTIC_PATTERNS`)** :
   - Les créatures surnaturelles et motifs magiques priment sur les mots-clés policiers génériques pour attribuer fidèlement `scifi_fantastique`.
 
@@ -100,8 +101,9 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 ### B. Filtres Toggles & Fonctionnalités Desktop PC (Règle 8)
 * **Barre des Bouquets PC** :
   - Bouquets payants : `[✨ Tous les bouquets]` `[Ciné+ OCS]` `[Action Max]` `[Universal+]`
-  - Bouquets gratuits & TNT : `[Molotov Gratuit]` `[TF1+]` `[M6+]` `[France TV]` (Arte et Novo 19 supprimés)
+  - Bouquets gratuits & TNT : `[Molotov Gratuit]` `[TF1+]` `[M6+]` `[France TV]`
 * **Toggle « 📺 Hors Gratuit & TNT »** :
+  - Affiche en badge le nombre d'œuvres SVOD payantes conservées (**126 séries** sur PC).
   - Masque instantanément toutes les œuvres gratuites/TNT, basculant en 1 clic sur le catalogue SVOD payant pur (878 œuvres).
 * **Toggle « 🛡️ Hors Prime & TNT »** :
   - Exclut les offres incluses dans l'abonnement standard Amazon Prime Video (`prv`, `pva`) et les diffusions TNT / Replay.
@@ -118,13 +120,13 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Conformité 1 catégorie unique** : **1 544 / 1 544 (100% conforme, 0 anomalie)**.
   - **Titres expirés** : **0**.
   - **Distribution des 7 catégories** :
-    - `drame_emotion` : 538
+    - `drame_emotion` : 535
     - `thriller_policier` : 346
     - `comedie` : 218
-    - `horreur_epouvante` : 143
-    - `scifi_fantastique` : 122
-    - `animation_famille` : 92
+    - `horreur_epouvante` : 141
+    - `scifi_fantastique` : 119
+    - `animation_famille` : 100
     - `action_aventure` : 85
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.46` (`sw.js` : `cinescope-v8.46-streaming`, assets `?v=8.46`).
-  - **Clés LocalStorage Actives** : `_v32` (`cinescope_streaming_catalog_v32`, etc.).
+  - **Version Application / PWA** : `v8.47` (`sw.js` : `cinescope-v8.47-streaming`, assets `?v=8.47`).
+  - **Clés LocalStorage Actives** : `_v33` (`cinescope_streaming_catalog_v33`, etc.).
