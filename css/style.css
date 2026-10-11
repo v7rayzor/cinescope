@@ -2082,16 +2082,6 @@ body.modal-open {
   color: #fff;
 }
 
-.bouquet-btn[data-package="art"].active {
-  background: linear-gradient(135deg, rgba(249, 115, 22, 0.28), rgba(249, 115, 22, 0.12));
-  border-color: rgba(249, 115, 22, 0.75);
-  color: #fff;
-  box-shadow: 0 0 14px rgba(249, 115, 22, 0.3);
-}
-.bouquet-btn[data-package="art"].active .pkg-count {
-  background: rgba(249, 115, 22, 0.35);
-  color: #fff;
-}
 
 
 

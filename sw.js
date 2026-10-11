@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cinescope-v8.45-streaming';
+const CACHE_NAME = 'cinescope-v8.46-streaming';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -17,8 +17,7 @@ const CORE_ASSETS = [
   './assets/logos/molotov.png',
   './assets/logos/tf1.png',
   './assets/logos/m6_plus.png',
-  './assets/logos/france_tv.png',
-  './assets/logos/arte.png'
+  './assets/logos/france_tv.png'
 ];
 
 // Installation : mise en cache des fichiers statiques essentiels

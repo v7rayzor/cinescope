@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.45** / Cache **v31**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.46** / Cache **v32**).
 
 ---
 
@@ -13,28 +13,27 @@ Ce document constitue la référence vivante et synthétique de l'architecture, 
    * **Action Max** (`aca`) — 52 œuvres
    * **Sanctuarisation Payante Absolue** : si une œuvre est disponible sur un bouquet payant, le tag `mlt` et le logo Molotov sont **formellement bannis** (zéro double logo parasite sur les jaquettes payantes, ex: *La Lutte des classes*).
 2. **Plateformes Gratuites & TNT Dissociées (Exclusivité PC Desktop — Règle 8)** :
-   * **Molotov Gratuit** (`mlt`) — 578 œuvres (catalogue AVOD Mango & chaînes FAST, distinct des autres bouquets)
-   * **M6+** (`sxp`, alias `6pt`, `mms`) — 166 œuvres (replays M6, W9, 6ter & Gulli gratuit)
-   * **France TV** (`fra`) — 109 œuvres (replays France 2, 3, 5, Slash)
-   * **TF1+** (`tf1`, alias `myt`) — 74 œuvres (replays confirmés sur Molotov Extended, 0 VOD payante)
-   * **Arte** (`art`) — 63 œuvres (100% streaming gratuit `FREE` d'Arte.tv)
+   * **Règle Universelle Molotov ABO (`FLATRATE`)** : Toute œuvre non payante **DOIT impérativement posséder une offre dans la ligne ABO de Molotov (`FLATRATE`)** pour être admise. Cela garantit que 100% des œuvres sont immédiatement visionnables dans l'abonnement Molotov Extended.
+   * **M6+** (`sxp`, alias `6pt`, `mms`) — 97 œuvres (replays réels M6, W9, 6ter & Gulli disponibles sur Molotov)
+   * **TF1+** (`tf1`, alias `myt`) — 64 œuvres (replays réels TF1, TMC, TFX disponibles sur Molotov)
+   * **France TV** (`fra`) — 34 œuvres (replays réels France 2, 3, 5 disponibles sur Molotov)
+   * **Molotov Gratuit** (`mlt`) — 487 œuvres (catalogue AVOD Mango & chaînes FAST confirmées ABO)
    * **Sanctuarisation TNT & Règles Anti-Doublons** :
-     - **Règle Anti-Doublon TNT** : Si une œuvre est diffusée sur une chaîne TNT (`tf1`, `sxp`, `fra`, `art`), le tag et le logo **Molotov Gratuit (`mlt`) sont formellement bannis** de la jaquette. L'œuvre arbore exclusivement son logo de chaîne officiel (ex: *Blade Runner 2049* n'a que le logo **M6+**).
-     - **Filtrage Chirurgical TF1+** : Seules les œuvres confirmées par la diffusion Molotov (`mlt`) sont retenues pour TF1+, éradiquant les 353 fausses locations VOD payantes (`RENT`/`BUY` comme *Taken*, *Oppenheimer*) et exclusivités web introuvables sur Molotov.
-     - **ARTE VOD (`atb`) & TFOU MAX (`tfa`)** : Boutiques de location et abonnements payants formellement bannis.
-     - **Novo 19 (`nvn`)** : Chaîne sans replay cinéma, formellement supprimée.
+     - **Règle Anti-Doublon TNT** : Si une œuvre est diffusée sur une chaîne TNT (`tf1`, `sxp`, `fra`), le tag et le logo **Molotov Gratuit (`mlt`) sont formellement bannis** de la jaquette. L'œuvre arbore exclusivement son logo officiel de chaîne (ex: *Blade Runner 2049* n'a que le logo **M6+**).
+     - **Suppression Définitive d'Arte (`art`) & Novo 19 (`nvn`)** : Vérification faite, ces chaînes ne proposent aucun replay VOD jouable sur Molotov (cul-de-sacs totaux). Leurs boutons et flux ont été formellement supprimés.
+     - **ARTE VOD (`atb`) & TFOU MAX (`tfa`)** : Boutiques de location VOD payante et abonnements tiers formellement bannis.
      - **Canal+ (`cpd`, `cns`)** : Formellement exclu de la TNT.
 
 ### B. Synchronisation Hybride & Automatisation
 * **Automatisation Serveur (GitHub Actions - `.github/workflows/update_catalog.yml`)** :
   - Exécution quotidienne planifiée à **06:00 UTC** via [`scripts/sync_justwatch.cjs`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_justwatch.cjs) sous Node.js.
-  - Couvre les 8 packages officiels ciblés (`aoc`, `aca`, `auc`, `mlt`, `tf1`, `sxp`, `fra`, `art`).
+  - Couvre les 7 packages officiels ciblés (`aoc`, `aca`, `auc`, `mlt`, `tf1`, `sxp`, `fra`).
   - Filtre strictement les offres `['FLATRATE', 'FREE', 'ADS']` (exclusion native de tout `RENT` et `BUY`).
   - Nettoie, déduplique, qualifie et met à jour [`js/catalog.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js).
 * **Client Web Résilient ([`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js))** :
   - Démarrage instantané sur le catalogue pré-embarqué `CATALOG_DATA`.
   - Rafraîchissement rapide quotidien calibré à **100 nouveautés fraîches** (2 pages de 50).
-  - Rechargement client avec invalidation de cache (`?v=8.45`) et purge automatique des anciennes clés LocalStorage (`_v31`).
+  - Rechargement client avec invalidation de cache (`?v=8.46`) et purge automatique des anciennes clés LocalStorage (`_v32`).
 
 ---
 
@@ -101,7 +100,7 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 ### B. Filtres Toggles & Fonctionnalités Desktop PC (Règle 8)
 * **Barre des Bouquets PC** :
   - Bouquets payants : `[✨ Tous les bouquets]` `[Ciné+ OCS]` `[Action Max]` `[Universal+]`
-  - Bouquets gratuits & TNT : `[Molotov Gratuit]` `[TF1+]` `[M6+]` `[France TV]` `[Arte]` (Novo 19 retiré)
+  - Bouquets gratuits & TNT : `[Molotov Gratuit]` `[TF1+]` `[M6+]` `[France TV]` (Arte et Novo 19 supprimés)
 * **Toggle « 📺 Hors Gratuit & TNT »** :
   - Masque instantanément toutes les œuvres gratuites/TNT, basculant en 1 clic sur le catalogue SVOD payant pur (878 œuvres).
 * **Toggle « 🛡️ Hors Prime & TNT »** :
@@ -114,18 +113,18 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 ## 5. État Actuel du Catalogue & Versions Déployées
 
 * **Audit de Conformité Catalogue ([`js/catalog.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js))** :
-  - **Total œuvres qualifiées PC** : **1 836** (1 403 films $\ge 60\text{ min}$, 433 séries).
+  - **Total œuvres qualifiées PC** : **1 544** (1 286 films $\ge 60\text{ min}$, 258 séries).
   - **Total œuvres qualifiées Mobile** : **878** (752 films $\ge 60\text{ min}$, 126 séries).
-  - **Conformité 1 catégorie unique** : **1 836 / 1 836 (100% conforme, 0 anomalie)**.
+  - **Conformité 1 catégorie unique** : **1 544 / 1 544 (100% conforme, 0 anomalie)**.
   - **Titres expirés** : **0**.
   - **Distribution des 7 catégories** :
-    - `drame_emotion` : 632
-    - `thriller_policier` : 418
-    - `comedie` : 251
-    - `scifi_fantastique` : 136
-    - `animation_famille` : 150
-    - `horreur_epouvante` : 157
-    - `action_aventure` : 92
+    - `drame_emotion` : 538
+    - `thriller_policier` : 346
+    - `comedie` : 218
+    - `horreur_epouvante` : 143
+    - `scifi_fantastique` : 122
+    - `animation_famille` : 92
+    - `action_aventure` : 85
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.45` (`sw.js` : `cinescope-v8.45-streaming`, assets `?v=8.45`).
-  - **Clés LocalStorage Actives** : `_v31` (`cinescope_streaming_catalog_v31`, etc.).
+  - **Version Application / PWA** : `v8.46` (`sw.js` : `cinescope-v8.46-streaming`, assets `?v=8.46`).
+  - **Clés LocalStorage Actives** : `_v32` (`cinescope_streaming_catalog_v32`, etc.).

@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v31';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v31';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v31';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v31';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v32';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v32';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v32';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v32';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -72,12 +72,6 @@ const JustWatchEngine = (function () {
       badgeClass: 'badge-francetv',
       isPaid: false
     },
-    art: {
-      name: 'Arte',
-      logo: 'assets/logos/arte.png',
-      badgeClass: 'badge-arte',
-      isPaid: false
-    },
     mlt: {
       name: 'Molotov Gratuit',
       logo: 'assets/logos/molotov.png',
@@ -86,7 +80,7 @@ const JustWatchEngine = (function () {
     }
   };
 
-  const PACKAGE_SLUGS = ['aoc', 'aca', 'auc', 'mlt', 'tf1', 'sxp', 'fra', 'art'];
+  const PACKAGE_SLUGS = ['aoc', 'aca', 'auc', 'mlt', 'tf1', 'sxp', 'fra'];
 
   // Motifs d'identification des œuvres et séries incluses ou diffusées sur Prime Video
   const KNOWN_PRIME_PATTERNS = [
@@ -139,8 +133,8 @@ const JustWatchEngine = (function () {
     return KNOWN_PRIME_PATTERNS.some(regex => regex.test(title));
   }
 
-  // Bouquets et chaînes officielles de la TNT française (TF1+, M6+, Arte, France TV)
-  const TNT_PACKAGE_SLUGS = ['tf1', 'myt', 'sxp', '6pt', 'mms', 'art', 'fra'];
+  // Bouquets et chaînes officielles de la TNT française (TF1+, M6+, France TV)
+  const TNT_PACKAGE_SLUGS = ['tf1', 'myt', 'sxp', '6pt', 'mms', 'fra'];
 
   function isKnownTntTitle(title) {
     return false;
@@ -763,20 +757,21 @@ const JustWatchEngine = (function () {
       // Molotov (mlt) et les canaux TNT sont STRICTEMENT bannis de la fiche et des logos !
       matchedPackages = matchedPaid;
     } else {
-      // 2. Œuvre non payante : détection des vraies chaînes TNT & Replay gratuit (Desktop PC)
-      // Règle de fiabilité TF1 : TF1 n'est retenu que s'il est confirmé par la diffusion Molotov (mlt)
-      // pour éradiquer les locations VOD payantes (RENT/BUY) et les exclusivités web introuvables.
-      const validTntSlugs = ['sxp', 'fra', 'art'];
-      if (resolvedOfferSlugs.includes('tf1') && resolvedOfferSlugs.includes('mlt')) {
-        validTntSlugs.unshift('tf1');
-      }
+      // 2. Œuvre non payante : RÈGLE UNIVERSELLE MOLOTOV ABO (FLATRATE)
+      // Toute œuvre non payante DOIT impérativement posséder une offre dans la ligne ABO de Molotov (FLATRATE)
+      // pour garantir sa disponibilité réelle dans l'abonnement Molotov Extended.
+      const hasMltFlatrate = offers.some(o => o.package?.shortName === 'mlt' && o.monetizationType === 'FLATRATE');
+      if (!hasMltFlatrate) return null;
+
+      // Détection des vraies chaînes TNT & Replay gratuit (TF1+, M6+, France TV)
+      const validTntSlugs = ['tf1', 'sxp', 'fra'];
       const matchedTnt = validTntSlugs.filter(p => resolvedOfferSlugs.includes(p));
 
       if (matchedTnt.length > 0) {
         // RÈGLE ANTI-DOUBLON TNT : La chaîne TNT officielle prime, Molotov (mlt) est banni de la jaquette !
         matchedPackages = matchedTnt;
-      } else if (resolvedOfferSlugs.includes('mlt')) {
-        // Catalogue gratuit propre à Molotov (Mango AVOD & chaînes FAST)
+      } else {
+        // Catalogue gratuit propre à Molotov (Mango AVOD & chaînes FAST confirmées ABO)
         matchedPackages = ['mlt'];
       }
     }
@@ -886,7 +881,7 @@ const JustWatchEngine = (function () {
       allPkgs = allPkgs.filter(p => ['aoc', 'aca', 'auc'].includes(p));
     } else {
       // Sanctuarisation TNT : si l'œuvre possède un bouquet TNT, le tag mlt est banni des logos
-      const hasTnt = allPkgs.some(p => ['tf1', 'sxp', 'fra', 'art'].includes(p));
+      const hasTnt = allPkgs.some(p => ['tf1', 'sxp', 'fra'].includes(p));
       if (hasTnt) {
         allPkgs = allPkgs.filter(p => p !== 'mlt');
       }
