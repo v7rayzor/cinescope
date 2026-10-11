@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v26';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v26';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v26';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v26';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v27';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v27';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v27';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v27';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -104,43 +104,11 @@ const JustWatchEngine = (function () {
     return KNOWN_PRIME_PATTERNS.some(regex => regex.test(title));
   }
 
-  // Motifs d'identification des œuvres et séries diffusées sur la TNT (France TV, TF1, M6, etc.)
-  const KNOWN_TNT_PATTERNS = [
-    /\bprofesseur t\b/i,
-    /\bwhitstable pearl\b/i,
-    /\bpearl nolan\b/i,
-    /\bharry wild\b/i,
-    /\bsang de la vigne\b/i,
-    /\bcandice renoir\b/i,
-    /\bvoyageur\b/i,
-    /\bcapitaine marleau\b/i,
-    /\bastrid et rapha[eë]lle\b/i,
-    /\bpetits meurtres d['’]agatha christie\b/i,
-    /\balex hugo\b/i,
-    /\bcassandre\b/i,
-    /\bcrimes parfaits\b/i,
-    /\bmeurtres [aà] \b/i,
-    /\bhudson & rex\b/i,
-    /\bmotive\b/i,
-    /\bnew york, crime organis[eé]\b/i,
-    /\bmanipulations\b/i,
-    /\bminist[eè]re du temps\b/i,
-    /\bflynn carson\b/i,
-    /\btomb invader\b/i,
-    /\bprepare to die\b/i,
-    /\bmeg rising\b/i,
-    /\bsecrets de famille\b/i,
-    /\bbolt from the blue\b/i,
-    /\btokarev\b/i,
-    /\bl'attaque de la pom-pom girl g[eé]ante\b/i,
-    /\bl'ombre de la loi\b/i,
-    /\bthe poison rose\b/i,
-    /\bcontinental split\b/i
-  ];
+  // Bouquets et chaînes officielles de la TNT française (TF1+, M6+, Arte, France TV, RMC, BFM, Gulli)
+  const TNT_PACKAGE_SLUGS = ['tf1', 'myt', 'sxp', '6pt', 'art', 'fra', 'rmc', 'bfm', 'gum'];
 
   function isKnownTntTitle(title) {
-    if (!title || typeof title !== 'string') return false;
-    return KNOWN_TNT_PATTERNS.some(regex => regex.test(title));
+    return false;
   }
 
   function isItemOnPrime(item) {
@@ -152,9 +120,7 @@ const JustWatchEngine = (function () {
 
   function isItemOnTnt(item) {
     if (!item) return false;
-    if (item.on_tnt === true) return true;
-    if (isKnownTntTitle(item.titre)) return true;
-    return false;
+    return item.on_tnt === true;
   }
 
   function isItemOnPrimeOrTnt(item) {
@@ -759,7 +725,7 @@ const JustWatchEngine = (function () {
     const expiration = computeExpirationInfo(offers);
 
     const onPrime = offers.some(o => (o.package?.shortName === 'prv' || o.package?.shortName === 'pva') && o.monetizationType === 'FLATRATE') || isKnownPrimeTitle(c.title);
-    const onTnt = offers.some(o => ['fpt', 'tf1', 'myt', '6pt', 'art', 'plt', 'ptv', 'plc', 'pxp', 'wki', 'rmc', 'bfm'].includes(o.package?.shortName) && ['ADS', 'FREE', 'FLATRATE'].includes(o.monetizationType)) || isKnownTntTitle(c.title);
+    const onTnt = offers.some(o => TNT_PACKAGE_SLUGS.includes(o.package?.shortName) && ['ADS', 'FREE', 'FLATRATE'].includes(o.monetizationType));
 
     // Extraction de la date d'arrivée / nouveauté
     let dateAjout = null;
@@ -885,7 +851,7 @@ const JustWatchEngine = (function () {
     }
 
     const onPrime = Boolean(base.on_prime || incoming.on_prime || isKnownPrimeTitle(base.titre) || isKnownPrimeTitle(incoming.titre));
-    const onTnt = Boolean(base.on_tnt || incoming.on_tnt || isKnownTntTitle(base.titre) || isKnownTntTitle(incoming.titre));
+    const onTnt = incoming.on_tnt !== undefined ? incoming.on_tnt : Boolean(base.on_tnt);
 
     return {
       ...base,
@@ -921,7 +887,7 @@ const JustWatchEngine = (function () {
         refreshed.categories = [computeCategory(refreshed.raw_genres, refreshed.type === 'serie', refreshed.titre, refreshed.synopsis, refreshed.badge, refreshed.annee, refreshed.package_slugs)];
       }
       refreshed.on_prime = Boolean(refreshed.on_prime || isKnownPrimeTitle(refreshed.titre));
-      refreshed.on_tnt = Boolean(refreshed.on_tnt || isKnownTntTitle(refreshed.titre));
+      refreshed.on_tnt = Boolean(refreshed.on_tnt);
       const key = getDeduplicationKey(refreshed) || refreshed.id;
       if (map.has(key)) {
         const existing = map.get(key);
@@ -1159,7 +1125,7 @@ const JustWatchEngine = (function () {
                 refreshed.categories = [computeCategory(refreshed.raw_genres, refreshed.type === 'serie', refreshed.titre, refreshed.synopsis, refreshed.badge, refreshed.annee)];
               }
               refreshed.on_prime = Boolean(refreshed.on_prime || isKnownPrimeTitle(refreshed.titre));
-              refreshed.on_tnt = Boolean(refreshed.on_tnt || isKnownTntTitle(refreshed.titre));
+              refreshed.on_tnt = Boolean(refreshed.on_tnt);
               return refreshed;
             })
             .filter(it => !it.expiration || it.expiration.status !== 'expired');
@@ -1274,6 +1240,7 @@ const JustWatchEngine = (function () {
     shouldAutoRefresh,
     shouldAutoFullSync,
     cleanLegacyLocalStorage,
+    TNT_PACKAGE_SLUGS,
     isKnownPrimeTitle,
     isKnownTntTitle,
     isItemOnPrime,

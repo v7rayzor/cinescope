@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.39** / Cache **v26**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.40** / Cache **v27**).
 
 ---
 
@@ -87,7 +87,8 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 * **Barre de Recherche de Titres Dédiée** :
   - Intégrée au header (écrans $\ge 1024\text{px}$), recherche NFD insensible à la casse et aux accents, bouton d'effacement `✕`, raccourci touche `Échap`.
 * **Toggle « 🛡️ Hors Prime & TNT »** :
-  - Exclut les offres incluses dans l'abonnement standard Amazon Prime Video (`prv`, `pva`) et les diffusions TNT / Replay gratuit (`fpt`, `tf1`, `6pt`, `art`, `rmc`...).
+  - Exclut les offres incluses dans l'abonnement standard Amazon Prime Video (`prv`, `pva`) et les diffusions TNT / Replay gratuit des diffuseurs hertziens nationaux officiels (`tf1`, `myt`, `sxp`, `6pt`, `art`, `fra`, `rmc`, `bfm`, `gum`).
+  - **100% Déterministe & Pérenne** : Zéro liste manuelle de titres en dur (`KNOWN_TNT_PATTERNS` définitivement supprimé), et exclusion formelle des plateformes FAST / AVOD (Pluto TV, Rakuten TV, Plex qui ne sont pas de la TNT).
 * **Toggle « 🚫 Exclure sans S1 »** :
   - Masque les séries tronquées ne disposant pas de leur saison 1 sur les bouquets (`⚠️ Débute SX` sur les cartes si inactif).
 
@@ -102,18 +103,18 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 ## 5. État Actuel du Catalogue & Versions Déployées
 
 * **Audit de Conformité Catalogue ([`js/catalog.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js))** :
-  - **Total œuvres qualifiées** : **883** (759 films $\ge 60\text{ min}$, 124 séries).
-  - **Conformité 1 catégorie unique** : **883 / 883 (100% conforme, 0 anomalie)**.
+  - **Total œuvres qualifiées** : **878** (754 films $\ge 60\text{ min}$, 124 séries).
+  - **Conformité 1 catégorie unique** : **878 / 878 (100% conforme, 0 anomalie)**.
   - **Titres expirés** : **0**.
   - **Distribution des 7 catégories** :
     - `drame_emotion` : 328
     - `thriller_policier` : 162
-    - `comedie` : 147
+    - `comedie` : 143
     - `animation_famille` : 76
     - `scifi_fantastique` : 75
     - `action_aventure` : 50
-    - `horreur_epouvante` : 45
+    - `horreur_epouvante` : 44
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.39` (`sw.js` : `cinescope-v8.39-streaming`, assets `?v=8.39`).
-  - **Clés LocalStorage Actives** : `_v26` (`cinescope_streaming_catalog_v26`, etc.).
+  - **Version Application / PWA** : `v8.40` (`sw.js` : `cinescope-v8.40-streaming`, assets `?v=8.40`).
+  - **Clés LocalStorage Actives** : `_v27` (`cinescope_streaming_catalog_v27`, etc.).
 
