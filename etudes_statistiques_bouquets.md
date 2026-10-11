@@ -180,3 +180,59 @@ Ces 117 œuvres proviennent des chaînes thématiques payantes du câble/satelli
    * *L’Impasse* (diffusé en clair)
    * Séries d'animation jeunesse diffusées sur Gulli / M6+ (*Dragons*, *Les Croods*, *Madagascar*).
 
+---
+
+## 5. Étude d'Ajout : Molotov Gratuit (TNT en Clair / 0 Option Payante) (11 Octobre 2026)
+
+### A. Vue d'Ensemble
+Si l'on intègre à CinéScope l'offre **Molotov Gratuit** (les œuvres accessibles avec un simple compte gratuit Molotov, c'est-à-dire les chaînes gratuites de la TNT et replays sans abonnement SVOD payant) :
+* **Volume Total Ajouté :** **+410 œuvres nettes éligibles** (non présentes dans le catalogue CinéScope actuel).
+  * **Films :** **+291 films** (Runtime $\ge 60\text{ min}$)
+  * **Séries :** **+119 séries**
+
+---
+
+### B. Détail FILMS : +291 Films Ajoutés
+
+| Catégorie | Total Films | ⭐⭐⭐ (3★) | ⭐⭐⭐⭐ (4★) | ⭐⭐⭐⭐⭐ (5★) |
+| :--- | :---: | :---: | :---: | :---: |
+| `drame_emotion` | **101** | 53 | 45 | 3 |
+| `thriller_policier` | **74** | 53 | 19 | 2 |
+| `comedie` | **37** | 22 | 14 | 1 |
+| `horreur_epouvante` | **30** | 18 | 12 | 0 |
+| `action_aventure` | **26** | 17 | 9 | 0 |
+| `scifi_fantastique` | **14** | 8 | 6 | 0 |
+| `animation_famille` | **9** | 5 | 4 | 0 |
+| **TOTAL FILMS** | **291** | **176** (60,5%) | **109** (37,5%) | **6** (2,1%) |
+
+---
+
+### C. Détail SÉRIES : +119 Séries Ajoutées
+
+| Catégorie | Total Séries | ⭐⭐⭐ (3★) | ⭐⭐⭐⭐ (4★) | ⭐⭐⭐⭐⭐ (5★) |
+| :--- | :---: | :---: | :---: | :---: |
+| `thriller_policier` | **56** | 9 | 27 | 20 |
+| `drame_emotion` | **37** | 8 | 18 | 11 |
+| `comedie` | **9** | 2 | 2 | 5 |
+| `scifi_fantastique` | **7** | 4 | 2 | 1 |
+| `horreur_epouvante` | **6** | 1 | 5 | 0 |
+| `action_aventure` | **2** | 0 | 0 | 2 |
+| `animation_famille` | **2** | 1 | 1 | 0 |
+| **TOTAL SÉRIES** | **119** | **25** (21,0%) | **55** (46,2%) | **39** (32,8%) |
+
+---
+
+### D. TOTAL CUMULÉ (Films + Séries) : +410 Œuvres Ajoutées
+
+| Catégorie | Total Ajouté | ⭐⭐⭐ (3★) | ⭐⭐⭐⭐ (4★) | ⭐⭐⭐⭐⭐ (5★) |
+| :--- | :---: | :---: | :---: | :---: |
+| `drame_emotion` | **138** | 61 | 63 | 14 |
+| `thriller_policier` | **130** | 62 | 46 | 22 |
+| `comedie` | **46** | 24 | 16 | 6 |
+| `horreur_epouvante` | **36** | 19 | 17 | 0 |
+| `action_aventure` | **28** | 17 | 9 | 2 |
+| `scifi_fantastique` | **21** | 12 | 8 | 1 |
+| `animation_famille` | **11** | 6 | 5 | 0 |
+| **TOTAL CUMULÉ** | **410** | **201** (49,0%) | **164** (40,0%) | **45** (11,0%) |
+
+
