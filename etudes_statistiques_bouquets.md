@@ -122,7 +122,7 @@ Sur les 1 960 titres récents analysés sur Molotov TV, **117 œuvres éligibles
 | `thriller_policier` | **28** | 8 | 15 | 5 |
 | `horreur_epouvante` | **11** | 7 | 3 | 1 |
 | `scifi_fantastique` | **11** | 2 | 4 | 5 |
-| `action_aventure` | **9** | 5 | 3 | 1 |
+| `action_aventure` | **9** | 5 | 4 | 0 |
 | `comedie` | **8** | 5 | 3 | 0 |
 | `animation_famille` | **4** | 1 | 0 | 3 |
 | **TOTAL** | **117** | **54** (46,2%) | **48** (41,0%) | **15** (12,8%) |
