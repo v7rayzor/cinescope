@@ -791,7 +791,15 @@ function setCategory(targetCat) {
 
   const catButtons = document.querySelectorAll('.category-btn');
   catButtons.forEach(b => {
-    b.classList.toggle('active', b.dataset.category === targetCat);
+    const isAct = b.dataset.category === targetCat;
+    b.classList.toggle('active', isAct);
+    if (isAct && typeof b.scrollIntoView === 'function') {
+      try {
+        b.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      } catch (e) {
+        // Fallback
+      }
+    }
   });
 
   const genreOptions = document.querySelectorAll('.genre-option');
