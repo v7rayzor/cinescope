@@ -1194,6 +1194,12 @@ body.modal-open {
     font-size: 0.95rem;
   }
 
+  .category-btn .lbl-short {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+  }
+
   /* Bulle Unifiée des Filtres sur Mobile / Tablette */
   .filters-unified-bubble {
     padding: 0.55rem 0.85rem;

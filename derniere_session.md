@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.52** / Cache **v37**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.53** / Cache **v37**).
 
 ---
 
@@ -45,7 +45,7 @@ Ce document constitue la référence vivante et synthétique de l'architecture, 
 * **Client Web Résilient ([`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js))** :
   - Démarrage instantané sur le catalogue pré-embarqué `CATALOG_DATA`.
   - Rafraîchissement rapide quotidien calibré à **100 nouveautés fraîches** (2 pages de 50).
-  - Rechargement client avec invalidation de cache (`?v=8.52`) et purge automatique des anciennes clés LocalStorage (`_v37`).
+  - Rechargement client avec invalidation de cache (`?v=8.53`) et purge automatique des anciennes clés LocalStorage (`_v37`).
 
 ---
 
@@ -108,7 +108,7 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **AUCUNE ligne de bouquets sur mobile** : La barre complète des bouquets (`.bouquets-bar-section`) et ses séparateurs (`.bouquets-divider-line`) sont **strictement masqués en permanence** (`display: none !important` pour tout écran $< 1024\text{px}$).
   - **Périmètre du catalogue mobile** : Filtré strictement sur `isItemBasePaid(item)` qui n'admet **QUE Ciné+ OCS (`aoc`), Action Max (`aca`) et Universal+ (`auc`)**.
   - **Contenu visible** : Strictement les **873 œuvres SVOD payantes de base** (747 films, 126 séries).
-  - **Zéro pollution & Ergonomie Découvrable Déployée** : Zéro chaîne spécialisée, zéro TNT/Gratuit, interface 100% épurée avec ruban tactile horizontal des 8 catégories défilant du bout du doigt (remplace le menu déroulant fermé par un ruban natif fluide auto-centré pour une découverte immédiate et naturelle) + Étoiles/Durée + Affiches.
+  - **Zéro pollution & Ergonomie Découvrable Déployée** : Zéro chaîne spécialisée, zéro TNT/Gratuit, interface 100% épurée avec ruban tactile horizontal des 8 catégories défilant du bout du doigt (avec puce initiale optimisée `✨ Tous` sur mobile pour dégager immédiatement l'amorce du 3ᵉ bouton et libérer l'affordance de défilement) + Étoiles/Durée + Affiches.
 
 ### B. Organisation Multi-Lignes des Bouquets & Filtres sur Desktop (PC $\ge 1024\text{px}$)
 * **Ligne 0A (Ligne 1) : Bouquets SVOD Payants & Spécialisés** :
@@ -139,5 +139,5 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     - `animation_famille` : 126
     - `action_aventure` : 90
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.52` (`sw.js` : `cinescope-v8.52-streaming`, assets `?v=8.52`).
+  - **Version Application / PWA** : `v8.53` (`sw.js` : `cinescope-v8.53-streaming`, assets `?v=8.53`).
   - **Clés LocalStorage Actives** : `_v37` (`cinescope_streaming_catalog_v37`, etc.).
