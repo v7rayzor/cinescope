@@ -738,9 +738,10 @@ function initNavigation() {
   const dropdownBtn = document.getElementById('genreDropdownBtn');
   const dropdownMenu = document.getElementById('genreDropdownMenu');
   const genreOptions = document.querySelectorAll('.genre-option');
+  const selectedBadge = document.getElementById('selectedGenreBadge');
 
   if (dropdownBtn && dropdownMenu) {
-    dropdownBtn.addEventListener('click', (e) => {
+    const toggleDropdown = (e) => {
       e.stopPropagation();
       const isOpen = dropdownMenu.classList.contains('open');
       if (isOpen) {
@@ -748,10 +749,15 @@ function initNavigation() {
       } else {
         openGenreDropdown();
       }
-    });
+    };
+
+    dropdownBtn.addEventListener('click', toggleDropdown);
+    if (selectedBadge) {
+      selectedBadge.addEventListener('click', toggleDropdown);
+    }
 
     document.addEventListener('click', (e) => {
-      if (!dropdownBtn.contains(e.target) && !dropdownMenu.contains(e.target)) {
+      if (!dropdownBtn.contains(e.target) && !dropdownMenu.contains(e.target) && (!selectedBadge || !selectedBadge.contains(e.target))) {
         closeGenreDropdown();
       }
     });
@@ -763,6 +769,11 @@ function initNavigation() {
         closeGenreDropdown();
       });
     });
+
+    // Déploiement automatique du menu filtre à l'ouverture sur mobile (Idée utilisateur)
+    if (window.innerWidth < 1024) {
+      openGenreDropdown();
+    }
   }
 }
 
