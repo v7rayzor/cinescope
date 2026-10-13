@@ -54,6 +54,7 @@ const AppState = {
   activeStars: 'all',          // 'all', '4', '5'
   activeBouquet: 'all',        // 'all', 'aoc', 'aca', 'auc', 'snr', 'sdz', 'ima', 'mlt', 'tf1', 'sxp', 'fra'
   isExclusiveOnly: false,      // true pour exclure Prime Video et TNT
+  isOnlyNew: false,            // true pour afficher uniquement les nouveautés récentes (PC uniquement)
   includeTnt: false,           // true pour inclure Molotov Gratuit et TNT (false par défaut = exclu)
   includeSpecialized: false,   // true pour inclure Sooner, Shadowz, Insomnia (false par défaut = exclu)
   isExcludeNoS1: false,        // true pour exclure les séries sans saison 1 disponible
@@ -618,6 +619,9 @@ function initBouquetsCounts() {
 
   const countExclusive = currentScope.filter(i => !isItemExcludedByPrimeOrTnt(i)).length;
 
+  // Compteur nouveautés (Exclusivité PC)
+  const countNew = currentScope.filter(i => isItemNew(i)).length;
+
   // Compteur séries sans S1
   const countNoS1 = AppState.activeType === 'serie' 
     ? currentScope.filter(i => !hasSeasonOne(i)).length 
@@ -635,6 +639,7 @@ function initBouquetsCounts() {
   const elM6 = document.getElementById('countPkgM6');
   const elFranceTv = document.getElementById('countPkgFranceTv');
   const elExclusive = document.getElementById('countPkgExclusive');
+  const elOnlyNew = document.getElementById('countOnlyNew');
   const elIncludeTnt = document.getElementById('countIncludeTnt');
   const elIncludeSpecialized = document.getElementById('countIncludeSpecialized');
   const elExcludeNoS1 = document.getElementById('countExcludeNoS1');
@@ -651,6 +656,7 @@ function initBouquetsCounts() {
   if (elM6) elM6.textContent = countM6;
   if (elFranceTv) elFranceTv.textContent = countFranceTv;
   if (elExclusive) elExclusive.textContent = countExclusive;
+  if (elOnlyNew) elOnlyNew.textContent = countNew;
   if (elIncludeTnt) elIncludeTnt.textContent = countTntAvailable;
   if (elIncludeSpecialized) elIncludeSpecialized.textContent = countSpecializedAvailable;
   if (elExcludeNoS1) elExcludeNoS1.textContent = countNoS1;
@@ -669,6 +675,16 @@ function initBouquetsNavigation() {
       renderCatalog();
     });
   });
+
+  const toggleNewBtn = document.getElementById('toggleOnlyNew');
+  if (toggleNewBtn) {
+    toggleNewBtn.addEventListener('click', () => {
+      AppState.isOnlyNew = !AppState.isOnlyNew;
+      toggleNewBtn.classList.toggle('active', AppState.isOnlyNew);
+      updateCategoryAutoStar();
+      renderCatalog();
+    });
+  }
 
   const exclusiveBtn = document.getElementById('pkgExclusive');
   if (exclusiveBtn) {
@@ -1116,6 +1132,13 @@ function getCategoryEligibleItems() {
       }
     }
 
+    // Filtre Nouveautés (Exclusivité PC - Règle 8)
+    if (!isMobile && AppState.isOnlyNew) {
+      if (!isItemNew(item)) {
+        return false;
+      }
+    }
+
     // Filtre d'Exclusion des Séries sans Saison 1
     if (AppState.isExcludeNoS1) {
       if (item.type === 'serie' && !hasSeasonOne(item)) {
@@ -1180,9 +1203,13 @@ function renderCatalog() {
     emptyState.classList.remove('hidden');
     const emptyDesc = emptyState.querySelector('.empty-desc');
     if (emptyDesc) {
-      emptyDesc.textContent = AppState.searchQuery 
-        ? `Aucun titre ne correspond à « ${AppState.searchQuery} » pour cette sélection.`
-        : 'Aucun contenu ne correspond aux critères stricts pour cette sélection actuellement.';
+      if (AppState.searchQuery) {
+        emptyDesc.textContent = `Aucun titre ne correspond à « ${AppState.searchQuery} » pour cette sélection.`;
+      } else if (AppState.isOnlyNew) {
+        emptyDesc.textContent = 'Aucune nouveauté récente dans cette sélection actuellement.';
+      } else {
+        emptyDesc.textContent = 'Aucun contenu ne correspond aux critères stricts pour cette sélection actuellement.';
+      }
     }
     return;
   }

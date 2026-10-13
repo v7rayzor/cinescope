@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.54** / Cache **v37**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.55** / Cache **v37**).
 
 ---
 
@@ -115,29 +115,23 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   `[✨ Tous les bouquets]` `[Ciné+ OCS]` `[Action Max]` `[Universal+]` `[Sooner]` `[Shadowz]` `[Insomnia]`
 * **Ligne 0A-bis (Ligne 2) : Bouquets Gratuits & TNT** :
   `[Molotov Gratuit]` `[TF1+]` `[M6+]` `[France TV]` (regroupés proprement sur leur rangée dédiée sans saut de ligne anarchique).
-* **Ligne 0B (Ligne 3) : Toggles d'Inclusion (+) et Filtres d'Exclusion (-)** :
-  1. `[📺 + Gratuit & TNT]` (+) : Inactif par défaut. Un clic ajoute les 478 œuvres TNT/Molotov.
-  2. `[🎬 + Spécialisées]` (+) : Inactif par défaut. Un clic ajoute les 559 œuvres Sooner, Shadowz, Insomnia.
-  3. `[🛡️ Hors Prime & TNT]` (-) : Exclut les œuvres Prime Video standard et diffusions TNT.
-  4. `[🚫 Exclure sans S1]` (-) : Masque les séries tronquées sans saison 1.
+* **Ligne 0B (Ligne 3) : Toggles d'Inclusion (+), Filtres d'Exclusion (-) & Nouveautés** :
+  1. `[🆕 Nouveautés]` (Toggle PC) : Isole instantanément les œuvres arrivées depuis $\le 7$ jours ou portant le badge officiel `🆕 Nouveauté`. Compteur dynamique réactif en temps réel.
+  2. `[📺 + Gratuit & TNT]` (+) : Inactif par défaut. Un clic ajoute les œuvres TNT/Molotov.
+  3. `[🎬 + Spécialisées]` (+) : Inactif par défaut. Un clic ajoute les œuvres Sooner, Shadowz, Insomnia.
+  4. `[🛡️ Hors Prime & TNT]` (-) : Exclut les œuvres Prime Video standard et diffusions TNT.
+  5. `[🚫 Exclure sans S1]` (-) : Masque les séries tronquées sans saison 1.
 
 ---
 
 ## 5. État Actuel du Catalogue & Versions Déployées
 
-* **Audit de Conformité Catalogue ([`js/catalog.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js))** :
-  - **Total œuvres qualifiées PC** : **1 910** (1 631 films $\ge 60\text{ min}$, 279 séries).
+* **Audit de Conformité Catalogue ([js/catalog.js](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js))** :
+  - **Total œuvres qualifiées PC** : **1 917** (1 634 films $\ge 60\text{ min}$, 283 séries).
   - **Total œuvres qualifiées Mobile** : **873** (747 films $\ge 60\text{ min}$, 126 séries — STRICTEMENT Ciné+ OCS, Action Max, Universal+).
-  - **Conformité 1 catégorie unique** : **1 910 / 1 910 (100% conforme, 0 anomalie)**.
+  - **Conformité 1 catégorie unique** : **1 917 / 1 917 (100% conforme, 0 anomalie)**.
   - **Titres expirés** : **0**.
-  - **Distribution des 7 catégories** :
-    - `drame_emotion` : 673
-    - `thriller_policier` : 403
-    - `comedie` : 257
-    - `horreur_epouvante` : 223
-    - `scifi_fantastique` : 138
-    - `animation_famille` : 126
-    - `action_aventure` : 90
+  - **Nouveautés actives ($\le 7$ jours)** : 12 (3 films, 9 séries).
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.54` (`sw.js` : `cinescope-v8.54-streaming`, assets `?v=8.54`).
+  - **Version Application / PWA** : `v8.55` (`sw.js` : `cinescope-v8.55-streaming`, assets `?v=8.55`).
   - **Clés LocalStorage Actives** : `_v37` (`cinescope_streaming_catalog_v37`, etc.).

@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=8.54">
+  <link rel="stylesheet" href="css/style.css?v=8.55">
 </head>
 <body>
   <!-- Header / Navigation principale -->
@@ -163,6 +163,11 @@
       <div class="bouquets-bar-section" id="togglesBarSection">
         <div class="bouquets-wrapper" id="togglesNav">
           <div class="bouquets-chips-group">
+            <button class="bouquet-btn bouquet-btn-toggle-new bouquet-btn-pc-only" id="toggleOnlyNew" type="button" title="Afficher uniquement les nouveautés récentes (arrivées depuis moins de 7 jours)">
+              <span class="pkg-icon">🆕</span>
+              <span class="pkg-name">Nouveautés</span>
+              <span class="pkg-count" id="countOnlyNew">0</span>
+            </button>
             <button class="bouquet-btn bouquet-btn-toggle-tnt bouquet-btn-pc-only" id="toggleIncludeTnt" type="button" title="Inclure ou retirer les œuvres de Molotov Gratuit et de la TNT">
               <span class="pkg-icon">📺</span>
               <span class="pkg-name">+ Gratuit & TNT</span>
@@ -443,10 +448,10 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="js/catalog.js?v=8.54"></script>
-  <script src="js/nlp_model.js?v=8.54"></script>
-  <script src="js/justwatch_engine.js?v=8.54"></script>
-  <script src="js/app.js?v=8.54"></script>
+  <script src="js/catalog.js?v=8.55"></script>
+  <script src="js/nlp_model.js?v=8.55"></script>
+  <script src="js/justwatch_engine.js?v=8.55"></script>
+  <script src="js/app.js?v=8.55"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
