@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.55** / Cache **v37**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.56** / Cache **v37**).
 
 ---
 
@@ -133,5 +133,6 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Titres expirés** : **0**.
   - **Nouveautés actives ($\le 7$ jours)** : 12 (3 films, 9 séries).
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.55` (`sw.js` : `cinescope-v8.55-streaming`, assets `?v=8.55`).
+  - **Version Application / PWA** : `v8.56` (`sw.js` : `cinescope-v8.56-streaming`, assets `?v=8.56`).
   - **Clés LocalStorage Actives** : `_v37` (`cinescope_streaming_catalog_v37`, etc.).
+  - **Optimisation Bundle** : Suppression du fichier mort `nlp_model.js` (-833 Ko de JS économisés au chargement).
