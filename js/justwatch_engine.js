@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v37';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v37';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v37';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v37';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v38';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v38';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v38';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v38';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -1292,7 +1292,7 @@ const JustWatchEngine = (function () {
     return null;
   }
 
-  const STORAGE_KEY_SPECIALIZED_SYNC = 'cinescope_last_specialized_sync_v37';
+  const STORAGE_KEY_SPECIALIZED_SYNC = 'cinescope_last_specialized_sync_v38';
 
   function saveSpecializedSyncDate() {
     try {

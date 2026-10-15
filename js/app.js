@@ -458,40 +458,13 @@ function refreshApplicationUI() {
   updateFooterDate();
 }
 
-// Contrôles de synchronisation JustWatch
+// Contrôles de synchronisation JustWatch (en tâche de fond)
 function initSyncControls() {
-  const refreshBtn = document.getElementById('syncRefreshBtn');
-  const syncStatusText = document.getElementById('syncStatusText');
-  const syncDot = document.getElementById('syncDot');
-
-  updateSyncStatusDisplay();
-
-  if (refreshBtn) {
-    refreshBtn.addEventListener('click', async (e) => {
-      if (AppState.isSyncing) return;
-      // Clic normal -> Synchro quotidienne rapide (50 nouveautés)
-      // Clic avec Shift -> Force la synchro complète (mensuelle)
-      const isFull = e.shiftKey;
-      await performLiveSync(false, isFull);
-    });
-  }
+  // Le bandeau d'en-tête a été épuré ; la synchro automatique tourne en arrière-plan
 }
 
 function updateSyncStatusDisplay() {
-  const syncStatusText = document.getElementById('syncStatusText');
-  const syncDot = document.getElementById('syncDot');
-  if (!syncStatusText || !syncDot) return;
-
-  const lastDate = JustWatchEngine.getLastSyncDate();
-  if (lastDate) {
-    const isToday = new Date().toDateString() === lastDate.toDateString();
-    const hours = lastDate.getHours().toString().padStart(2, '0');
-    const minutes = lastDate.getMinutes().toString().padStart(2, '0');
-    syncStatusText.textContent = isToday ? `Synchro : Aujourd'hui à ${hours}h${minutes}` : `Synchro : ${lastDate.toLocaleDateString('fr-FR')}`;
-    syncDot.className = 'sync-dot';
-  } else {
-    syncStatusText.textContent = 'Non synchronisé';
-  }
+  // Conservé pour compatibilité interne
 }
 
 function updateSpecializedSyncDisplay() {

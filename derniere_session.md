@@ -126,6 +126,6 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Titres expirés** : **0**.
   - **Nouveautés actives ($\le 7$ jours)** : 12.
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.56` (`sw.js` : `cinescope-v8.56-streaming`, assets `?v=8.56`).
-  - **Clés LocalStorage Actives** : `_v37` (`cinescope_streaming_catalog_v37`, etc.).
-  - **Optimisation** : Élimination de 490 œuvres parasites TNT/AVOD.
+  - **Version Application / PWA** : `v8.57` (`sw.js` : `cinescope-v8.57-streaming`, assets `?v=8.57`).
+  - **Clés LocalStorage Actives** : `_v38` (`cinescope_streaming_catalog_v38`, etc.).
+  - **Optimisation** : Élimination de 490 œuvres parasites TNT/AVOD, épuration totale du header (suppression du bloc de statut/actualiser obsolète).
