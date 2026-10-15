@@ -121,3 +121,22 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 * **Traçabilité Technique & Cache** :
   - **Version Application / PWA** : `v8.63` (`sw.js` : `cinescope-v8.63-streaming`, assets `?v=8.63`).
   - **Clés LocalStorage Actives** : `_v42` (`cinescope_streaming_catalog_v42`, etc.).
+
+---
+
+## 6. Feuille de Route pour la Prochaine Session (v8.64)
+
+* **Plan complet formalisé dans [`plan_reequilibrage_drame.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/plan_reequilibrage_drame.md)** :
+  1. **Sous-genre SF** : Rééquilibrage universel de `computeScifiSubCategory` :
+     - Traitement équitable des 4 sous-genres SF sans bonus Drame automatique.
+     - Neutralisation du filtre destructeur sur le tag `cmy` (*Resident Alien*, *Generation Z*, *Vampire humaniste* réintégrés en Comédie).
+     - Rétablissement des thrillers d'anticipation et spatiaux (*Orphan Black: Echoes*, *Rubikon*, *Mission Titan*, *Childhood's End* en Thriller).
+     - Répartition projetée : Action: 34, Thriller: 23, Comédie: 22, Drame: 24.
+  2. **Genre Principal** :
+     - Assouplissement du verrou d'âge : les pastilles de sensibilité `-10` et `-12` n'excluent plus la Comédie (seules `-16` et `-18` l'excluent). Réhabilitation de comédies populaires majeures (*Crazy Stupid Love*, *LOL*, *Starbuck*, *Bridget Jones*, *Irresponsable*).
+     - Sanctuarisation des thrillers de haute tension / machination (*5 septembre*, *L'Origine du mal*, *Homejacking*).
+  3. **Déploiement v8.64** :
+     - Mise à jour du moteur `js/justwatch_engine.js` et du catalogue `js/catalog.js`.
+     - Audit de conformité (100% exigé, 0 anomalie).
+     - Incrément PWA `v8.64` / Cache `v43` dans `sw.js` et `index.html`.
+     - Commit et push GitHub.
