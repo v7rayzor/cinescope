@@ -70,18 +70,15 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 
 ---
 
-## 3. 2ème Volet Contextuel Science-Fiction & Fantastique (v8.62)
+## 3. 2ème Volet Contextuel Science-Fiction & Fantastique (v8.63)
 
 * **Sous-Genre Unique Strict (Zéro Doublon)** :
   - Chaque œuvre de SF possède un **seul sous-genre dominant déterministe** calculé par `computeScifiSubCategory` (en écartant les faux tags Comédie de JustWatch sur les récits dramatiques/survie comme *L'Homme qui rétrécit*, classé exclusivement en `Action & Aventure`).
   - Aucun titre ne se chevauche entre Action, Thriller, Comédie et Drame.
-* **Affichage Centré sur Desktop (PC $\ge 1024\text{px}$)** :
-  - Les 5 sous-genres (`✨ Tous`, `🏹 Action`, `🔍 Thriller`, `🎭 Comédie`, `❤️ Drame`) sont automatiquement centrés sous le bouton principal `[🚀 Science-fiction & Fantastique]` pour une ergonomie et un équilibre visuel parfaits.
-* **Tiroir Latéral Coulissant Mobile (Option B — Smartphone & Tablette $< 1024\text{px}$)** :
-  - La barre horizontale est masquée pour préserver l'espace vertical.
-  - Un onglet flottant tactile `[🚀 Sous-genres ‹]` apparaît discrètement sur le flanc droit de l'écran lorsque SF est sélectionnée.
-  - En tapant dessus, un tiroir latéral sombre (glassmorphism avec voile d'arrière-plan) glisse depuis la droite et liste verticalement les 5 sous-genres avec leurs compteurs réactifs.
-  - Un tap sélectionne le sous-genre, filtre la grille et referme le tiroir avec fluidité.
+* **Alignement Géométrique Centré sous le Bouton SF (PC $\ge 1024\text{px}$)** :
+  - Le centre mathématique du groupe de sous-genres (le bouton central `[🔍 Thriller & Policier]`) est calculé au pixel près via `catCenter - groupWidth / 2` pour être aligné pile à l'aplomb vertical du bouton `[🚀 Science-fiction & Fantastique]`.
+* **Barre Glissable Fluide sur Mobile (Smartphone & Tablette $< 1024\text{px}$)** :
+  - Insérée directement entre la ligne de filtre de genre et la ligne des étoiles, la barre des 5 sous-genres glisse horizontalement au doigt (*swipe*) avec fluidité.
 
 ---
 
@@ -122,5 +119,5 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Titres expirés** : **0**.
   - **Nouveautés actives ($\le 7$ jours)** : 12.
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.62` (`sw.js` : `cinescope-v8.62-streaming`, assets `?v=8.62`).
+  - **Version Application / PWA** : `v8.63` (`sw.js` : `cinescope-v8.63-streaming`, assets `?v=8.63`).
   - **Clés LocalStorage Actives** : `_v42` (`cinescope_streaming_catalog_v42`, etc.).

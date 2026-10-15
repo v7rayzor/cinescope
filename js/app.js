@@ -864,7 +864,7 @@ function matchesScifiSubFilter(item, subFilter) {
 }
 
 function initScifiSubFiltersNavigation() {
-  // Navigation desktop / tablette (puces horizontales)
+  // Navigation puces (Desktop centré & Mobile glissable)
   const subBtns = document.querySelectorAll('.scifi-subfilter-btn');
   subBtns.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -872,45 +872,15 @@ function initScifiSubFiltersNavigation() {
     });
   });
 
-  // Navigation mobile (Tiroir latéral coulissant - Option B)
-  const drawerTrigger = document.getElementById('scifiMobileDrawerTrigger');
-  const drawer = document.getElementById('scifiMobileDrawer');
-  const overlay = document.getElementById('scifiMobileDrawerOverlay');
-  const closeBtn = document.getElementById('scifiDrawerCloseBtn');
-  const drawerItems = document.querySelectorAll('.drawer-item');
-
-  const openDrawer = () => {
-    if (drawer) drawer.classList.add('open');
-    if (overlay) {
-      overlay.classList.remove('hidden');
-      // Petit délai pour permettre la transition CSS d'opacité
-      requestAnimationFrame(() => overlay.classList.add('open'));
-    }
-    if (drawer) drawer.setAttribute('aria-hidden', 'false');
-  };
-
-  const closeDrawer = () => {
-    if (drawer) drawer.classList.remove('open');
-    if (overlay) {
-      overlay.classList.remove('open');
-      setTimeout(() => {
-        if (!overlay.classList.contains('open')) overlay.classList.add('hidden');
-      }, 280);
-    }
-    if (drawer) drawer.setAttribute('aria-hidden', 'true');
-  };
-
-  if (drawerTrigger) drawerTrigger.addEventListener('click', openDrawer);
-  if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
-  if (overlay) overlay.addEventListener('click', closeDrawer);
-
-  drawerItems.forEach(item => {
-    item.addEventListener('click', () => {
-      const targetSub = item.dataset.subfilter || 'all';
-      setScifiSubFilter(targetSub);
-      closeDrawer();
-    });
-  });
+  // Recalcul réactif de l'alignement lors du scroll des catégories ou du redimensionnement
+  const catNav = document.getElementById('categoriesNav');
+  if (catNav) {
+    catNav.addEventListener('scroll', () => {
+      if (AppState.activeCategory === 'scifi_fantastique') {
+        alignScifiSubFilters();
+      }
+    }, { passive: true });
+  }
 }
 
 function setScifiSubFilter(targetSub) {
@@ -919,35 +889,53 @@ function setScifiSubFilter(targetSub) {
   const subBtns = document.querySelectorAll('.scifi-subfilter-btn');
   subBtns.forEach(b => b.classList.toggle('active', b.dataset.subfilter === targetSub));
 
-  const drawerItems = document.querySelectorAll('.drawer-item');
-  drawerItems.forEach(d => d.classList.toggle('active', d.dataset.subfilter === targetSub));
-
   updateCategoryAutoStar();
   renderCatalog();
 }
 
+// Alignement géométrique rigoureux du sous-menu sous l'axe du bouton Science-fiction (PC)
+function alignScifiSubFilters() {
+  const catBtn = document.getElementById('catScifi');
+  const group = document.querySelector('.scifi-subfilters-group');
+  const wrapper = document.getElementById('scifiSubFiltersNav');
+  const section = document.getElementById('scifiSubFiltersSection');
+  if (!catBtn || !group || !wrapper || !section || section.classList.contains('hidden')) return;
+
+  const isDesktop = typeof window !== 'undefined' && window.innerWidth >= 1024;
+  if (!isDesktop) {
+    group.style.marginLeft = '0px';
+    return;
+  }
+
+  // Calcul du centre exact du bouton Science-fiction dans la bulle
+  const bubble = document.getElementById('filtersUnifiedBubble');
+  const bubbleRect = bubble ? bubble.getBoundingClientRect() : { left: 0 };
+  const catRect = catBtn.getBoundingClientRect();
+  const catCenter = (catRect.left - bubbleRect.left) + (catRect.width / 2);
+
+  const groupWidth = group.offsetWidth || 560;
+  const wrapperRect = wrapper.getBoundingClientRect();
+  const wrapperLeftInBubble = wrapperRect.left - bubbleRect.left;
+  let targetMarginLeft = (catCenter - wrapperLeftInBubble) - (groupWidth / 2);
+
+  // Bornage de sécurité pour éviter tout débordement
+  const maxMargin = Math.max(0, wrapper.clientWidth - groupWidth);
+  if (targetMarginLeft < 0) targetMarginLeft = 0;
+  if (targetMarginLeft > maxMargin) targetMarginLeft = maxMargin;
+
+  group.style.marginLeft = `${Math.round(targetMarginLeft)}px`;
+}
+
 function updateScifiSubFiltersDisplay() {
   const section = document.getElementById('scifiSubFiltersSection');
-  const drawerTrigger = document.getElementById('scifiMobileDrawerTrigger');
-  const drawer = document.getElementById('scifiMobileDrawer');
-  const overlay = document.getElementById('scifiMobileDrawerOverlay');
-
   const isScifiActive = AppState.activeCategory === 'scifi_fantastique';
 
   if (section) section.classList.toggle('hidden', !isScifiActive);
-  if (drawerTrigger) drawerTrigger.classList.toggle('hidden', !isScifiActive);
 
   if (!isScifiActive) {
     AppState.activeScifiSubFilter = 'all';
     const subBtns = document.querySelectorAll('.scifi-subfilter-btn');
     subBtns.forEach(b => b.classList.toggle('active', b.dataset.subfilter === 'all'));
-    const drawerItems = document.querySelectorAll('.drawer-item');
-    drawerItems.forEach(d => d.classList.toggle('active', d.dataset.subfilter === 'all'));
-    if (drawer) drawer.classList.remove('open');
-    if (overlay) {
-      overlay.classList.remove('open');
-      overlay.classList.add('hidden');
-    }
     return;
   }
 
@@ -984,7 +972,7 @@ function updateScifiSubFiltersDisplay() {
   const countComedie = scifiScopeItems.filter(it => getScifiSubCategory(it) === 'comedie').length;
   const countDrame = scifiScopeItems.filter(it => getScifiSubCategory(it) === 'drame_emotion').length;
 
-  // Compteurs Barre PC Desktop
+  // Compteurs Barre
   const elAll = document.getElementById('countScifiAll');
   const elAction = document.getElementById('countScifiAction');
   const elThriller = document.getElementById('countScifiThriller');
@@ -997,18 +985,10 @@ function updateScifiSubFiltersDisplay() {
   if (elComedie) elComedie.textContent = countComedie;
   if (elDrame) elDrame.textContent = countDrame;
 
-  // Compteurs Tiroir Mobile (Drawer)
-  const dAll = document.getElementById('drawerCountAll');
-  const dAction = document.getElementById('drawerCountAction');
-  const dThriller = document.getElementById('drawerCountThriller');
-  const dComedie = document.getElementById('drawerCountComedie');
-  const dDrame = document.getElementById('drawerCountDrame');
-
-  if (dAll) dAll.textContent = countAll;
-  if (dAction) dAction.textContent = countAction;
-  if (dThriller) dThriller.textContent = countThriller;
-  if (dComedie) dComedie.textContent = countComedie;
-  if (dDrame) dDrame.textContent = countDrame;
+  // Recalcul du centrage à l'affichage
+  requestAnimationFrame(() => {
+    alignScifiSubFilters();
+  });
 }
 
 // Filtre des étoiles
