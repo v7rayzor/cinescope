@@ -841,60 +841,117 @@ function updateMobileGenreDisplay(categoryKey) {
   if (textEl) textEl.textContent = info.title;
 }
 
-// 2ème Volet Contextuel : Sous-filtres Science-fiction & Fantastique
+// 2ème Volet Contextuel : Sous-genre unique Science-fiction & Fantastique
+function getScifiSubCategory(item) {
+  if (!item) return 'drame_emotion';
+  if (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.computeScifiSubCategory === 'function') {
+    return JustWatchEngine.computeScifiSubCategory(
+      item.raw_genres || item.genres,
+      item.type === 'serie',
+      item.titre,
+      item.synopsis,
+      item.badge,
+      item.annee,
+      item.package_slugs
+    );
+  }
+  return 'drame_emotion';
+}
+
 function matchesScifiSubFilter(item, subFilter) {
   if (!subFilter || subFilter === 'all') return true;
-  const rawTags = (item.raw_genres || item.genres || []).map(g => (typeof g === 'object' ? g.short_name : g)).filter(Boolean);
-  const text = ((item.titre || '') + ' ' + (item.synopsis || ''))
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase();
-
-  if (subFilter === 'action_aventure') {
-    return rawTags.includes('act') || rawTags.includes('war') || rawTags.includes('wsn') ||
-           /\b(action|aventure|aventures|combat|combats|combattant|bataille|batailles|guerre|survie|mission|chasseur|chasseurs|armee|soldat|soldats|conquete|heros)\b/i.test(text);
-  }
-  if (subFilter === 'thriller_policier') {
-    return rawTags.includes('crm') || rawTags.includes('trl') ||
-           /\b(police|policier|policiere|policiers|meurtre|meurtres|enquete|enquetes|crime|crimes|tueur|tueurs|complot|complots|assassin|assassins|espion|espions|espionnage|suspect|suspects|traque|machination)\b/i.test(text);
-  }
-  if (subFilter === 'comedie') {
-    return rawTags.includes('cmy') || /\b(comedie|comedies|drole|humour|burlesque|satire|parodie)\b/i.test(text);
-  }
-  if (subFilter === 'drame_emotion') {
-    return rawTags.includes('drm') || rawTags.includes('rma') || /\b(drame|drames|romance|romances|amoureux|amoureuse|passion|deuil|emotion|emouvant|humanite)\b/i.test(text);
-  }
-  return false;
+  return getScifiSubCategory(item) === subFilter;
 }
 
 function initScifiSubFiltersNavigation() {
+  // Navigation desktop / tablette (puces horizontales)
   const subBtns = document.querySelectorAll('.scifi-subfilter-btn');
   subBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-      subBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      AppState.activeScifiSubFilter = btn.dataset.subfilter || 'all';
-      updateCategoryAutoStar();
-      renderCatalog();
+      setScifiSubFilter(btn.dataset.subfilter || 'all');
+    });
+  });
+
+  // Navigation mobile (Tiroir latéral coulissant - Option B)
+  const drawerTrigger = document.getElementById('scifiMobileDrawerTrigger');
+  const drawer = document.getElementById('scifiMobileDrawer');
+  const overlay = document.getElementById('scifiMobileDrawerOverlay');
+  const closeBtn = document.getElementById('scifiDrawerCloseBtn');
+  const drawerItems = document.querySelectorAll('.drawer-item');
+
+  const openDrawer = () => {
+    if (drawer) drawer.classList.add('open');
+    if (overlay) {
+      overlay.classList.remove('hidden');
+      // Petit délai pour permettre la transition CSS d'opacité
+      requestAnimationFrame(() => overlay.classList.add('open'));
+    }
+    if (drawer) drawer.setAttribute('aria-hidden', 'false');
+  };
+
+  const closeDrawer = () => {
+    if (drawer) drawer.classList.remove('open');
+    if (overlay) {
+      overlay.classList.remove('open');
+      setTimeout(() => {
+        if (!overlay.classList.contains('open')) overlay.classList.add('hidden');
+      }, 280);
+    }
+    if (drawer) drawer.setAttribute('aria-hidden', 'true');
+  };
+
+  if (drawerTrigger) drawerTrigger.addEventListener('click', openDrawer);
+  if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
+  if (overlay) overlay.addEventListener('click', closeDrawer);
+
+  drawerItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const targetSub = item.dataset.subfilter || 'all';
+      setScifiSubFilter(targetSub);
+      closeDrawer();
     });
   });
 }
 
+function setScifiSubFilter(targetSub) {
+  AppState.activeScifiSubFilter = targetSub;
+
+  const subBtns = document.querySelectorAll('.scifi-subfilter-btn');
+  subBtns.forEach(b => b.classList.toggle('active', b.dataset.subfilter === targetSub));
+
+  const drawerItems = document.querySelectorAll('.drawer-item');
+  drawerItems.forEach(d => d.classList.toggle('active', d.dataset.subfilter === targetSub));
+
+  updateCategoryAutoStar();
+  renderCatalog();
+}
+
 function updateScifiSubFiltersDisplay() {
   const section = document.getElementById('scifiSubFiltersSection');
-  if (!section) return;
+  const drawerTrigger = document.getElementById('scifiMobileDrawerTrigger');
+  const drawer = document.getElementById('scifiMobileDrawer');
+  const overlay = document.getElementById('scifiMobileDrawerOverlay');
 
   const isScifiActive = AppState.activeCategory === 'scifi_fantastique';
-  section.classList.toggle('hidden', !isScifiActive);
+
+  if (section) section.classList.toggle('hidden', !isScifiActive);
+  if (drawerTrigger) drawerTrigger.classList.toggle('hidden', !isScifiActive);
 
   if (!isScifiActive) {
     AppState.activeScifiSubFilter = 'all';
     const subBtns = document.querySelectorAll('.scifi-subfilter-btn');
     subBtns.forEach(b => b.classList.toggle('active', b.dataset.subfilter === 'all'));
+    const drawerItems = document.querySelectorAll('.drawer-item');
+    drawerItems.forEach(d => d.classList.toggle('active', d.dataset.subfilter === 'all'));
+    if (drawer) drawer.classList.remove('open');
+    if (overlay) {
+      overlay.classList.remove('open');
+      overlay.classList.add('hidden');
+    }
     return;
   }
 
-  // Calcul des compteurs dans le scope SF actif
+  // Calcul des compteurs dans le scope SF actif (1 seul sous-genre strict par œuvre)
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
   const scifiScopeItems = AppState.catalog.filter(item => {
     if (!item.is_eligible) return false;
@@ -922,11 +979,12 @@ function updateScifiSubFiltersDisplay() {
   });
 
   const countAll = scifiScopeItems.length;
-  const countAction = scifiScopeItems.filter(it => matchesScifiSubFilter(it, 'action_aventure')).length;
-  const countThriller = scifiScopeItems.filter(it => matchesScifiSubFilter(it, 'thriller_policier')).length;
-  const countComedie = scifiScopeItems.filter(it => matchesScifiSubFilter(it, 'comedie')).length;
-  const countDrame = scifiScopeItems.filter(it => matchesScifiSubFilter(it, 'drame_emotion')).length;
+  const countAction = scifiScopeItems.filter(it => getScifiSubCategory(it) === 'action_aventure').length;
+  const countThriller = scifiScopeItems.filter(it => getScifiSubCategory(it) === 'thriller_policier').length;
+  const countComedie = scifiScopeItems.filter(it => getScifiSubCategory(it) === 'comedie').length;
+  const countDrame = scifiScopeItems.filter(it => getScifiSubCategory(it) === 'drame_emotion').length;
 
+  // Compteurs Barre PC Desktop
   const elAll = document.getElementById('countScifiAll');
   const elAction = document.getElementById('countScifiAction');
   const elThriller = document.getElementById('countScifiThriller');
@@ -938,6 +996,19 @@ function updateScifiSubFiltersDisplay() {
   if (elThriller) elThriller.textContent = countThriller;
   if (elComedie) elComedie.textContent = countComedie;
   if (elDrame) elDrame.textContent = countDrame;
+
+  // Compteurs Tiroir Mobile (Drawer)
+  const dAll = document.getElementById('drawerCountAll');
+  const dAction = document.getElementById('drawerCountAction');
+  const dThriller = document.getElementById('drawerCountThriller');
+  const dComedie = document.getElementById('drawerCountComedie');
+  const dDrame = document.getElementById('drawerCountDrame');
+
+  if (dAll) dAll.textContent = countAll;
+  if (dAction) dAction.textContent = countAction;
+  if (dThriller) dThriller.textContent = countThriller;
+  if (dComedie) dComedie.textContent = countComedie;
+  if (dDrame) dDrame.textContent = countDrame;
 }
 
 // Filtre des étoiles

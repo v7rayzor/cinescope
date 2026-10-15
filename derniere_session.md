@@ -70,16 +70,18 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 
 ---
 
-## 3. Nouveau 2ème Volet Contextuel (Sous-Filtres SF)
+## 3. 2ème Volet Contextuel Science-Fiction & Fantastique (v8.62)
 
-Lorsqu'on sélectionne la catégorie principale **`[🚀 Science-fiction & Fantastique]`**, un 2ème volet contextuel s'affiche automatiquement sous la barre des catégories avec ses 5 filtres miroirs épurés :
-1. `✨ Tous les titres` : Vue d'ensemble des œuvres de SF & Fantastique du scope actif.
-2. `🏹 Action & Aventure` : Œuvres de SF orientées grand spectacle, space opéra, batailles spatiales, survie et super-héros.
-3. `🔍 Thriller & Policier` : Œuvres de SF axées sur l'enquête, le mystère temporel, la machination, le techno-thriller.
-4. `🎭 Comédie` : Comédies de science-fiction et satires fantastiques.
-5. `❤️ Drame & Émotion` : Fictions d'anticipation intimes, romances fantastiques et récits d'émotion.
-
-*Exclusion délibérée d'Animation & Famille et d'Horreur & Épouvante* dans ce volet 2, celles-ci restant sanctuarisées dans leurs onglets officiels dédiés.
+* **Sous-Genre Unique Strict (Zéro Doublon)** :
+  - Chaque œuvre de SF possède un **seul sous-genre dominant déterministe** calculé par `computeScifiSubCategory` (en écartant les faux tags Comédie de JustWatch sur les récits dramatiques/survie comme *L'Homme qui rétrécit*, classé exclusivement en `Action & Aventure`).
+  - Aucun titre ne se chevauche entre Action, Thriller, Comédie et Drame.
+* **Affichage Centré sur Desktop (PC $\ge 1024\text{px}$)** :
+  - Les 5 sous-genres (`✨ Tous`, `🏹 Action`, `🔍 Thriller`, `🎭 Comédie`, `❤️ Drame`) sont automatiquement centrés sous le bouton principal `[🚀 Science-fiction & Fantastique]` pour une ergonomie et un équilibre visuel parfaits.
+* **Tiroir Latéral Coulissant Mobile (Option B — Smartphone & Tablette $< 1024\text{px}$)** :
+  - La barre horizontale est masquée pour préserver l'espace vertical.
+  - Un onglet flottant tactile `[🚀 Sous-genres ‹]` apparaît discrètement sur le flanc droit de l'écran lorsque SF est sélectionnée.
+  - En tapant dessus, un tiroir latéral sombre (glassmorphism avec voile d'arrière-plan) glisse depuis la droite et liste verticalement les 5 sous-genres avec leurs compteurs réactifs.
+  - Un tap sélectionne le sous-genre, filtre la grille et referme le tiroir avec fluidité.
 
 ---
 
@@ -120,5 +122,5 @@ Lorsqu'on sélectionne la catégorie principale **`[🚀 Science-fiction & Fanta
   - **Titres expirés** : **0**.
   - **Nouveautés actives ($\le 7$ jours)** : 12.
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.61` (`sw.js` : `cinescope-v8.61-streaming`, assets `?v=8.61`).
+  - **Version Application / PWA** : `v8.62` (`sw.js` : `cinescope-v8.62-streaming`, assets `?v=8.62`).
   - **Clés LocalStorage Actives** : `_v42` (`cinescope_streaming_catalog_v42`, etc.).

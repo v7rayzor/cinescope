@@ -468,6 +468,36 @@ const JustWatchEngine = (function () {
     return catNames[bestIdx];
   }
 
+  // Attribution du sous-genre unique dominant pour les œuvres de Science-fiction & Fantastique
+  function computeScifiSubCategory(genres, isSerie = false, title = '', synopsis = '', ageCertification = '', year = null, packages = []) {
+    let rawTags = (genres || []).map(normalizeTag).filter(t => t && t !== 'scf' && t !== 'fnt' && t !== 'ani' && t !== 'hrr');
+    const cleanText = ((title || '') + ' ' + (synopsis || ''))
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase();
+
+    // Règle d'or : Neutralisation du faux tag comédie collé par JustWatch/TMDb
+    // Si une œuvre a des genres sérieux (act, drm, trl, crm) et que le synopsis décrit un drame sérieux ou de la survie sans aucun motif comique
+    const hasHumorPattern = /\b(comedie|drole|humour|burlesque|satire|parodie|gag|sketch|amuse|hilarant)\b/i.test(cleanText);
+    if (rawTags.includes('cmy') && (rawTags.includes('act') || rawTags.includes('drm') || rawTags.includes('trl') || rawTags.includes('crm')) && !hasHumorPattern) {
+      rawTags = rawTags.filter(t => t !== 'cmy');
+    }
+
+    // Si plus aucun tag secondaire n'est présent, induction contextuelle par synopsis
+    if (rawTags.length === 0) {
+      if (POLICE_CRIME_PATTERNS.test(cleanText)) rawTags.push('crm');
+      else if (ADVENTURE_PATTERNS.test(cleanText) || /\b(survie|se battre pour survivre|guerre|bataille|combats|armee)\b/i.test(cleanText)) rawTags.push('act');
+      else if (hasHumorPattern) rawTags.push('cmy');
+      else rawTags.push('drm');
+    }
+
+    const sub = computeCategory(rawTags, isSerie, title, synopsis, ageCertification, year, packages);
+    if (sub === 'action_aventure' || sub === 'thriller_policier' || sub === 'comedie' || sub === 'drame_emotion') {
+      return sub;
+    }
+    return 'drame_emotion';
+  }
+
   // Formatage de la durée en minutes -> "Xh XXmin"
   function formatDuration(runtimeMinutes, isSerie) {
     if (!runtimeMinutes || runtimeMinutes <= 0) {
@@ -1356,6 +1386,7 @@ const JustWatchEngine = (function () {
     PACKAGE_SLUGS,
     computeNoteRecence,
     computeCategory,
+    computeScifiSubCategory,
     processTitleNode,
     formatDuration,
     computeExpirationInfo,

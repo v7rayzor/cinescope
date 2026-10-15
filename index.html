@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=8.61">
+  <link rel="stylesheet" href="css/style.css?v=8.62">
 </head>
 <body>
   <!-- Header / Navigation principale -->
@@ -432,6 +432,60 @@
     </div>
   </div>
 
+  <!-- Déclencheur tactile flottant du Tiroir Latéral Mobile (SF uniquement) -->
+  <button type="button" class="scifi-mobile-drawer-trigger hidden" id="scifiMobileDrawerTrigger" aria-label="Ouvrir les sous-genres Science-fiction & Fantastique" title="Sous-genres SF">
+    <span class="trigger-icon">🚀</span>
+    <span class="trigger-text">Sous-genres</span>
+    <span class="trigger-arrow">‹</span>
+  </button>
+
+  <!-- Voile d'arrière-plan du Tiroir Mobile -->
+  <div class="scifi-mobile-drawer-overlay hidden" id="scifiMobileDrawerOverlay" aria-hidden="true"></div>
+
+  <!-- Tiroir Latéral Coulissant Mobile (Option B) -->
+  <aside class="scifi-mobile-drawer" id="scifiMobileDrawer" aria-label="Sous-genres Science-fiction & Fantastique" aria-hidden="true">
+    <div class="drawer-header">
+      <div class="drawer-title-group">
+        <span class="drawer-icon">🚀</span>
+        <div class="drawer-title-text">
+          <h3 class="drawer-title">Science-fiction</h3>
+          <span class="drawer-subtitle">Sous-genres & Univers</span>
+        </div>
+      </div>
+      <button type="button" class="drawer-close-btn" id="scifiDrawerCloseBtn" aria-label="Fermer le tiroir">✕</button>
+    </div>
+
+    <div class="drawer-divider"></div>
+
+    <nav class="drawer-nav" id="scifiDrawerNav">
+      <button type="button" class="drawer-item active" data-subfilter="all">
+        <span class="drawer-item-icon">✨</span>
+        <span class="drawer-item-label">Tous les titres</span>
+        <span class="drawer-item-badge" id="drawerCountAll">0</span>
+      </button>
+      <button type="button" class="drawer-item" data-subfilter="action_aventure">
+        <span class="drawer-item-icon">🏹</span>
+        <span class="drawer-item-label">Action & Aventure</span>
+        <span class="drawer-item-badge" id="drawerCountAction">0</span>
+      </button>
+      <button type="button" class="drawer-item" data-subfilter="thriller_policier">
+        <span class="drawer-item-icon">🔍</span>
+        <span class="drawer-item-label">Thriller & Policier</span>
+        <span class="drawer-item-badge" id="drawerCountThriller">0</span>
+      </button>
+      <button type="button" class="drawer-item" data-subfilter="comedie">
+        <span class="drawer-item-icon">🎭</span>
+        <span class="drawer-item-label">Comédie</span>
+        <span class="drawer-item-badge" id="drawerCountComedie">0</span>
+      </button>
+      <button type="button" class="drawer-item" data-subfilter="drame_emotion">
+        <span class="drawer-item-icon">❤️</span>
+        <span class="drawer-item-label">Drame & Émotion</span>
+        <span class="drawer-item-badge" id="drawerCountDrame">0</span>
+      </button>
+    </nav>
+  </aside>
+
   <footer class="main-footer">
     <div class="footer-content">
       <p id="footerDate">Flux JustWatch synchronisé</p>
@@ -439,9 +493,9 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="js/catalog.js?v=8.61"></script>
-  <script src="js/justwatch_engine.js?v=8.61"></script>
-  <script src="js/app.js?v=8.61"></script>
+  <script src="js/catalog.js?v=8.62"></script>
+  <script src="js/justwatch_engine.js?v=8.62"></script>
+  <script src="js/app.js?v=8.62"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
