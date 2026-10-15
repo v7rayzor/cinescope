@@ -14953,7 +14953,7 @@ const CATALOG_DATA = [
     "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "drm",

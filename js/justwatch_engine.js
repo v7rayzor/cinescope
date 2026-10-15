@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v38';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v38';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v38';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v38';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v39';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v39';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v39';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v39';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -245,7 +245,7 @@ const JustWatchEngine = (function () {
   const STRICT_HORROR_PATTERNS = /\b(satan|satanique|possession demoniaque|possede par|possedee par|exorcisme|exorciste|pacte avec satan|pacte avec le diable|slasher|gore|body horror|zombie|zombies|mort-vivant|morts-vivants|maison hantee|lieu sacre profane|monstre sanguinaire|lovecraft|terreur nocturne|contagion mortelle|magie noire|boite de pandore|pandore|vampirisme|soif de sang|sang humain)\b/i;
   const SLASHER_PATTERNS = /\b(slasher|slashers|tueur masque|tueurs masques|tueuse masquee|tueur au masque|tueur en serie|tueurs en serie|psychopathe|boogeyman|croque-mitaine|massacre au couteau)\b/i;
   const FANTASTIC_PATTERNS = /\b(sorciere|sorcieres|sorcier|sorciers|witch|witches|monstre|monstres|monster|monsters|creature|creatures|fantome|fantomes|ghost|ghosts|surnaturel|surnaturelle|supernatural|paranormal|paranormale|occulte|magie|magique|magiques|magic|force mysterieuse|puissance mysterieuse|malediction|enchantement|ensorcele|royaume feerique|conte de fees|vampire|vampires|loup garou|loups garous|werewolf)\b/i;
-  const SCIFI_PATTERNS = /\b(vaisseau|vaisseaux|extraterrestre|extraterrestres|alien|aliens|astronaute|astronautes|planete deserte|voyage dans le temps|multivers|reincarnation|changement climatique|androide|ia|robot|intelligence artificielle|dystopie|futuriste|mutant|mutants|quatre terres|arborlon|elfe|elfes|druide|druides)\b/i;
+  const SCIFI_PATTERNS = /\b(vaisseau|vaisseaux|extraterrestre|extraterrestres|alien|aliens|astronaute|astronautes|planete deserte|voyage dans le temps|multivers|reincarnation|changement climatique|androide|ia|robot|intelligence artificielle|dystopie|futuriste|mutant|mutants|quatre terres|arborlon|elfe|elfes|druide|druides|premonition|premonitions|vision du futur|visions du futur|fragments du futur|changer l avenir|boucle temporelle|faille temporelle|anomalie temporelle)\b/i;
   const DRAMA_INTIME_PATTERNS = /\b(traumatisme|traumatise|monde imaginaire|deuil|orphelin|orpheline|harcele|harcelement|skate|skateur|suisse|euthanasie|aide soignant|actrice|showbiz|homosexualite|homosexuel|desir|compagnie miniere|ressources humaines|obsession|biopic|chanteur|chanteuse|robbie williams|sorrentino|naples|parthenope)\b/i;
   const PARODY_PATTERNS = /\b(oss 117|agent special|parodie|espion malhabile|gaffeur|tournage de film|film dans le film|hazanavicius)\b/i;
   const ANIMATION_PATTERNS = /\b(serie d animation|serie televisee d animation|film d animation|dessin anime|dessins animes|court metrage d animation)\b/i;
@@ -1292,7 +1292,7 @@ const JustWatchEngine = (function () {
     return null;
   }
 
-  const STORAGE_KEY_SPECIALIZED_SYNC = 'cinescope_last_specialized_sync_v38';
+  const STORAGE_KEY_SPECIALIZED_SYNC = 'cinescope_last_specialized_sync_v39';
 
   function saveSpecializedSyncDate() {
     try {

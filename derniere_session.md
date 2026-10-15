@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.56** / Cache **v37**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.58** / Cache **v39**).
 
 ---
 
@@ -78,8 +78,8 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Pour la Famille en Prises de Vue Réelles (`fml` sans `ani`)** : Tout badge (-10, -12, -16, -18) exclut l'œuvre d'`animation_famille` (qui exige un Tout Public strict en live action).
 * **Comédies & Signalétique d'Âge Majeure** :
   - Les œuvres `-16` et `-18` sont formellement interdites de `comedie` et sanctuarisées en `horreur_epouvante` ou `action_aventure`.
-* **Motifs Surnaturels & Fantastiques Universels (`FANTASTIC_PATTERNS`)** :
-  - Les créatures surnaturelles et motifs magiques priment sur les mots-clés policiers génériques pour attribuer fidèlement `scifi_fantastique`.
+* **Motifs Surnaturels & Fantastiques Universels (`FANTASTIC_PATTERNS` & `SCIFI_PATTERNS`)** :
+  - Les créatures surnaturelles, motifs magiques et anomalies temporelles/prémonitions (*« fragments du futur »*, *« visions du futur »*, *« boucle temporelle »*) priment sur les mots-clés policiers génériques pour attribuer fidèlement `scifi_fantastique` (ex: requalification universelle de *Desde el mañana*).
 
 ---
 
@@ -126,6 +126,6 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Titres expirés** : **0**.
   - **Nouveautés actives ($\le 7$ jours)** : 12.
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.57` (`sw.js` : `cinescope-v8.57-streaming`, assets `?v=8.57`).
-  - **Clés LocalStorage Actives** : `_v38` (`cinescope_streaming_catalog_v38`, etc.).
-  - **Optimisation** : Élimination de 490 œuvres parasites TNT/AVOD, épuration totale du header (suppression du bloc de statut/actualiser obsolète).
+  - **Version Application / PWA** : `v8.58` (`sw.js` : `cinescope-v8.58-streaming`, assets `?v=8.58`).
+  - **Clés LocalStorage Actives** : `_v39` (`cinescope_streaming_catalog_v39`, etc.).
+  - **Optimisation** : Élimination de 490 œuvres parasites TNT/AVOD, épuration totale du header (suppression du bloc de statut/actualiser obsolète), perfectionnement universel des motifs temporels SF.
