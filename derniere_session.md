@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.60** / Cache **v41**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.61** / Cache **v42**).
 
 ---
 
@@ -54,46 +54,32 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 4. `action_aventure` : Action grand spectacle, westerns d'action armée, survie, guerre, arts martiaux.
 5. `scifi_fantastique` : Science-fiction, space opera, anticipation, heroic fantasy, super-héros, mystère magique.
 6. `horreur_epouvante` : Slashers, épouvante, body horror, démons/possession, monstres, gore.
-7. `animation_famille` : Films et séries d'animation, aventures jeunesse, contes familiaux.
+7. `animation_famille` : Films et séries d'animation, aventures jeunesse, contes familiaux (110 œuvres intouchables).
 
-### B. Règles d'Admission & Éligibilité au Catalogue
-1. **Règle d'Or des Longs-Métrages (CNC)** :
-   - Tout film ou téléfilm avec une durée $< 60\text{ min}$ est formellement exclu à l'ingestion (`runtime < 60`).
-   - Les formats 26/45 min restent réservés à l'onglet **Séries**.
-2. **Éradication Totale de la Télé-Réalité (`rly`)** :
-   - Rejet automatique dès l'ingestion de toute émission de télé-réalité / docu-soap.
-3. **Barème Sévère de Récence sur 20 Ans Glissants ($2006 = 4.0/10$)** :
-   $$\text{minYear} = \text{Année Courante} - 20 = 2006$$
-   $$\text{Note Récence} = 4.0 + \left( \frac{\min(\text{Année}, 2026) - 2006}{2026 - 2006} \right) \times 6.0$$
-   - Année $\le 2005$ : Note récence $< 4.0 \implies$ **Élimination d'office**.
-4. **Calcul de la Note Globale Consolidée** :
-   - $\text{Note Avis} = \text{Moyenne critique / public (TMDb, IMDb, Allociné)}$ sur 10.
-   - $\text{Note Globale} = \text{Math.round}\left(\frac{\text{Note Avis} + \text{Note Récence}}{2} \times 10\right) / 10$.
-   - **Seuil d'éligibilité** : $\text{Note Globale} \ge 6.0 / 10$.
-
-### C. Moteur de Catégorisation Purement Algorithmique (100% Déterministe)
+### B. Moteur de Catégorisation Purement Algorithmique (100% Déterministe)
 * **Zéro Bidouillage Ad Hoc (Règle 7 d'AGENTS.md)** : Tout arbitrage repose sur des règles logiques universelles déterministes.
-* **Règle Souveraine Animation & Pastilles d'Âge** :
-  - **Pour l'Animation (`ani` ou motif textuel)** : Toute œuvre d'animation est souveraine et admise dans `animation_famille`, **peu importe la pastille d'âge** (Tout Public, -10, -12, -16 ou -18).
-  - **Pour la Famille en Prises de Vue Réelles (`fml` sans `ani`)** : Tout badge (-10, -12, -16, -18) exclut l'œuvre d'`animation_famille` (qui exige un Tout Public strict en live action).
-* **Comédies & Signalétique d'Âge Majeure** :
-  - Les œuvres `-16` et `-18` sont formellement interdites de `comedie` et sanctuarisées en `horreur_epouvante` ou `action_aventure`.
-* **Sanctuarisation Science-Fiction & Fantastique face aux faux-amis Policiers & d'Action** :
-  - **Correction structurelle majeure (Zéro rustine textuelle)** : Une œuvre possédant le genre Science-Fiction (`scf`) ou Fantastique (`fnt`) ne reçoit **strictement aucun bonus d'arbitrage Polar (+40 pts)** sans posséder formellement le tag Crime (`crm`).
-  - **Prise en compte des pluriels réguliers & équité d'âge** : Intégration grammaticale des pluriels français (`surnaturels|surnaturelles|paranormaux|paranormales`) et déverrouillage de `isHybridWithAge` pour le fantastique. Harmonisation complète des séries *The Librarians* (*Flynn Carson et les nouveaux aventuriers* rejoint *L'Héritage de Flynn Carson* en `scifi_fantastique`).
+* **Rééquilibrage de la Surpuissance du Drame** :
+  - Neutralisation du bonus automatique (+30 pts) accordé au tag Drame (`drm`) dès lors que l'œuvre présente des éléments d'action (`act`), de guerre (`war`), de motifs policiers/criminels ou militaires.
+  - Restauration équitable d'œuvres majeures étouffées : *Cuisine interne* et *J'ai tué mon mari* passent en `thriller_policier`, *Sentinelles*, *Démineurs* et *Chicago Fire* passent en `action_aventure`.
+* **Sanctuarisation de l'Horreur & Épouvante** :
+  - Suppression des anciens bypass sans pastille d'âge (`isHorrorWithSciFiWithoutAge` et `isHorrorWithCrimeWithoutAge`). Tout film d'horreur ou de créature sanguinaire (*Good Boy*, *DreadOut*, *Oddity*, *Monster Summer*, etc.) est souverainement orienté vers `horreur_epouvante`.
+* **Anticipation Pure & Dystopie** :
+  - Prise en compte universelle des fictions d'anticipation/dystopie/virus majeures dénuées de tag SF natif sur JustWatch (*LT-21* réintégrée en `scifi_fantastique`).
+* **Règle Souveraine Animation & Dessin Animé** :
+  - Pour l'Animation (`ani` ou motif textuel) : Toute œuvre est souveraine et admise dans `animation_famille`, peu importe la pastille d'âge (110 œuvres sanctuarisées).
 
 ---
 
-## 3. Gestion des Séries Multi-Saisons & Fins de Droits
+## 3. Nouveau 2ème Volet Contextuel (Sous-Filtres SF)
 
-* **1 Seule Affiche par Série** :
-  - Déduplication stricte par `item.id` et `${normTitle}_serie`.
-  - Plage d'années consolidée `[Année début] - [Année fin]` calculée exclusivement sur les saisons disponibles.
-  - Sélecteur dynamique interactif de saisons dans la modale.
-* **Badges Visuels & Tri par Urgence** :
-  - **Priorité 1 absolue** : Titres expirants triés par `daysLeft` croissant (`⏳ Expire aujourd'hui`, etc.).
-  - **Badge « 🆕 Nouveauté »** : Priorité visuelle sur l'affiche pendant les 7 premiers jours d'arrivée.
-  - **Priorité 2** : Titres pérennes ordonnés par tirage aléatoire déterministe stable pour la journée.
+Lorsqu'on sélectionne la catégorie principale **`[🚀 Science-fiction & Fantastique]`**, un 2ème volet contextuel s'affiche automatiquement sous la barre des catégories avec ses 5 filtres miroirs épurés :
+1. `✨ Tous les titres` : Vue d'ensemble des œuvres de SF & Fantastique du scope actif.
+2. `🏹 Action & Aventure` : Œuvres de SF orientées grand spectacle, space opéra, batailles spatiales, survie et super-héros.
+3. `🔍 Thriller & Policier` : Œuvres de SF axées sur l'enquête, le mystère temporel, la machination, le techno-thriller.
+4. `🎭 Comédie` : Comédies de science-fiction et satires fantastiques.
+5. `❤️ Drame & Émotion` : Fictions d'anticipation intimes, romances fantastiques et récits d'émotion.
+
+*Exclusion délibérée d'Animation & Famille et d'Horreur & Épouvante* dans ce volet 2, celles-ci restant sanctuarisées dans leurs onglets officiels dédiés.
 
 ---
 
@@ -104,7 +90,6 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **AUCUN changement d'interface sur mobile** : La barre complète des bouquets (`.bouquets-bar-section`) et ses séparateurs sont **strictement masqués en permanence** (`display: none !important` pour tout écran $< 1024\text{px}$).
   - **Périmètre du catalogue mobile** : Filtré strictement sur `isItemBasePaid(item)` qui n'admet **QUE Ciné+ OCS (`aoc`), Action Max (`aca`) et Universal+ (`auc`)**.
   - **Contenu visible** : Strictement les **864 œuvres SVOD payantes de base** (739 films, 125 séries).
-  - **Fonctionnement identique en arrière-plan** : La synchronisation quotidienne des nouveautés s'exécute de façon transparente sans perturber l'ergonomie mobile.
 
 ### B. Organisation Multi-Lignes des Bouquets & Filtres sur Desktop (PC $\ge 1024\text{px}$)
 * **Ligne 0A (Ligne 1) : Bouquets SVOD Payants & Spécialisés** :
@@ -124,9 +109,16 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Total œuvres qualifiées PC** : **1 424** (1 276 films $\ge 60\text{ min}$, 148 séries).
   - **Total œuvres qualifiées Mobile** : **864** (739 films $\ge 60\text{ min}$, 125 séries — STRICTEMENT Ciné+ OCS, Action Max, Universal+).
   - **Conformité 1 catégorie unique** : **1 424 / 1 424 (100% conforme, 0 anomalie)**.
+  - **Répartition des 7 catégories officielles** :
+    * `drame_emotion` : 487
+    * `thriller_policier` : 232
+    * `horreur_epouvante` : 221
+    * `comedie` : 208
+    * `animation_famille` : 110
+    * `scifi_fantastique` : 103
+    * `action_aventure` : 63
   - **Titres expirés** : **0**.
   - **Nouveautés actives ($\le 7$ jours)** : 12.
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.60` (`sw.js` : `cinescope-v8.60-streaming`, assets `?v=8.60`).
-  - **Clés LocalStorage Actives** : `_v41` (`cinescope_streaming_catalog_v41`, etc.).
-  - **Optimisation** : Élimination de 490 œuvres parasites TNT/AVOD, épuration totale du header, correction structurelle universelle du bonus polar restaurant 8 chefs-d'œuvre en `scifi_fantastique`, et harmonisation des pluriels fantastiques (117 œuvres SF, 242 thrillers/polars, 54 action/aventure).
+  - **Version Application / PWA** : `v8.61` (`sw.js` : `cinescope-v8.61-streaming`, assets `?v=8.61`).
+  - **Clés LocalStorage Actives** : `_v42` (`cinescope_streaming_catalog_v42`, etc.).

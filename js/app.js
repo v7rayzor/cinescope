@@ -51,6 +51,7 @@ const CATEGORIES_INFO = {
 const AppState = {
   activeType: 'film',          // 'film' ou 'serie'
   activeCategory: 'all',       // 'all' ou l'une des 7 catégories
+  activeScifiSubFilter: 'all', // 'all', 'action_aventure', 'thriller_policier', 'comedie', 'drame_emotion'
   activeStars: 'all',          // 'all', '4', '5'
   activeBouquet: 'all',        // 'all', 'aoc', 'aca', 'auc', 'snr', 'sdz', 'ima'
   isExclusiveOnly: false,      // true pour exclure Prime Video
@@ -402,6 +403,7 @@ function preloadAllCatalogImages() {
 // Initialisation au chargement de la page
 document.addEventListener('DOMContentLoaded', async () => {
   initNavigation();
+  initScifiSubFiltersNavigation();
   initSearchBar();
   initBouquetsNavigation();
   initStarsNavigation();
@@ -413,6 +415,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   window.addEventListener('resize', () => {
     initCounts();
     initBouquetsCounts();
+    updateScifiSubFiltersDisplay();
     renderCatalog();
   });
 
@@ -451,6 +454,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 function refreshApplicationUI() {
   initCounts();
   initBouquetsCounts();
+  updateScifiSubFiltersDisplay();
   updateMobileGenreDisplay(AppState.activeCategory);
   updateCategoryAutoStar();
   renderCatalog();
@@ -649,6 +653,7 @@ function initBouquetsCounts() {
   if (elIncludeSpecialized) elIncludeSpecialized.textContent = countSpecializedAvailable;
   if (elExcludeNoS1) elExcludeNoS1.textContent = countNoS1;
 
+  updateScifiSubFiltersDisplay();
   updateSpecializedSyncDisplay();
 }
 
@@ -798,9 +803,9 @@ function closeGenreDropdown() {
 }
 
 function setCategory(targetCat) {
-
   AppState.activeCategory = targetCat;
   AppState.isAutoStars = true;
+  AppState.activeScifiSubFilter = 'all';
 
   const catButtons = document.querySelectorAll('.category-btn');
   catButtons.forEach(b => {
@@ -822,6 +827,7 @@ function setCategory(targetCat) {
     o.setAttribute('aria-selected', isSelected ? 'true' : 'false');
   });
 
+  updateScifiSubFiltersDisplay();
   updateMobileGenreDisplay(targetCat);
   updateCategoryAutoStar();
   renderCatalog();
@@ -833,6 +839,105 @@ function updateMobileGenreDisplay(categoryKey) {
   const textEl = document.getElementById('selectedGenreText');
   if (iconEl) iconEl.textContent = info.icon;
   if (textEl) textEl.textContent = info.title;
+}
+
+// 2ème Volet Contextuel : Sous-filtres Science-fiction & Fantastique
+function matchesScifiSubFilter(item, subFilter) {
+  if (!subFilter || subFilter === 'all') return true;
+  const rawTags = (item.raw_genres || item.genres || []).map(g => (typeof g === 'object' ? g.short_name : g)).filter(Boolean);
+  const text = ((item.titre || '') + ' ' + (item.synopsis || ''))
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
+
+  if (subFilter === 'action_aventure') {
+    return rawTags.includes('act') || rawTags.includes('war') || rawTags.includes('wsn') ||
+           /\b(action|aventure|aventures|combat|combats|combattant|bataille|batailles|guerre|survie|mission|chasseur|chasseurs|armee|soldat|soldats|conquete|heros)\b/i.test(text);
+  }
+  if (subFilter === 'thriller_policier') {
+    return rawTags.includes('crm') || rawTags.includes('trl') ||
+           /\b(police|policier|policiere|policiers|meurtre|meurtres|enquete|enquetes|crime|crimes|tueur|tueurs|complot|complots|assassin|assassins|espion|espions|espionnage|suspect|suspects|traque|machination)\b/i.test(text);
+  }
+  if (subFilter === 'comedie') {
+    return rawTags.includes('cmy') || /\b(comedie|comedies|drole|humour|burlesque|satire|parodie)\b/i.test(text);
+  }
+  if (subFilter === 'drame_emotion') {
+    return rawTags.includes('drm') || rawTags.includes('rma') || /\b(drame|drames|romance|romances|amoureux|amoureuse|passion|deuil|emotion|emouvant|humanite)\b/i.test(text);
+  }
+  return false;
+}
+
+function initScifiSubFiltersNavigation() {
+  const subBtns = document.querySelectorAll('.scifi-subfilter-btn');
+  subBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      subBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      AppState.activeScifiSubFilter = btn.dataset.subfilter || 'all';
+      updateCategoryAutoStar();
+      renderCatalog();
+    });
+  });
+}
+
+function updateScifiSubFiltersDisplay() {
+  const section = document.getElementById('scifiSubFiltersSection');
+  if (!section) return;
+
+  const isScifiActive = AppState.activeCategory === 'scifi_fantastique';
+  section.classList.toggle('hidden', !isScifiActive);
+
+  if (!isScifiActive) {
+    AppState.activeScifiSubFilter = 'all';
+    const subBtns = document.querySelectorAll('.scifi-subfilter-btn');
+    subBtns.forEach(b => b.classList.toggle('active', b.dataset.subfilter === 'all'));
+    return;
+  }
+
+  // Calcul des compteurs dans le scope SF actif
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
+  const scifiScopeItems = AppState.catalog.filter(item => {
+    if (!item.is_eligible) return false;
+    if (AppState.searchQuery) {
+      const cleanQuery = AppState.searchQuery.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+      const cleanTitle = (item.titre || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+      if (!cleanTitle.includes(cleanQuery)) return false;
+    }
+    if (AppState.activeType === 'film') {
+      if (item.type !== 'film' && item.type !== 'telefilm') return false;
+    } else {
+      if (item.type !== AppState.activeType) return false;
+    }
+    if (isMobile && !isItemBasePaid(item)) return false;
+    if (AppState.activeBouquet && AppState.activeBouquet !== 'all') {
+      if (!item.package_slugs || !item.package_slugs.includes(AppState.activeBouquet)) return false;
+    } else if (!isMobile) {
+      if (isItemSpecialized(item) && !AppState.includeSpecialized) return false;
+    }
+    if (AppState.isExclusiveOnly && isItemExcludedByPrimeOrTnt(item)) return false;
+    if (!isMobile && AppState.isOnlyNew && !isItemNew(item)) return false;
+    if (AppState.isExcludeNoS1 && item.type === 'serie' && !hasSeasonOne(item)) return false;
+    if (!item.categories || !item.categories.includes('scifi_fantastique')) return false;
+    return true;
+  });
+
+  const countAll = scifiScopeItems.length;
+  const countAction = scifiScopeItems.filter(it => matchesScifiSubFilter(it, 'action_aventure')).length;
+  const countThriller = scifiScopeItems.filter(it => matchesScifiSubFilter(it, 'thriller_policier')).length;
+  const countComedie = scifiScopeItems.filter(it => matchesScifiSubFilter(it, 'comedie')).length;
+  const countDrame = scifiScopeItems.filter(it => matchesScifiSubFilter(it, 'drame_emotion')).length;
+
+  const elAll = document.getElementById('countScifiAll');
+  const elAction = document.getElementById('countScifiAction');
+  const elThriller = document.getElementById('countScifiThriller');
+  const elComedie = document.getElementById('countScifiComedie');
+  const elDrame = document.getElementById('countScifiDrame');
+
+  if (elAll) elAll.textContent = countAll;
+  if (elAction) elAction.textContent = countAction;
+  if (elThriller) elThriller.textContent = countThriller;
+  if (elComedie) elComedie.textContent = countComedie;
+  if (elDrame) elDrame.textContent = countDrame;
 }
 
 // Filtre des étoiles
@@ -1132,6 +1237,10 @@ function getCategoryEligibleItems() {
     // Filtre Catégorie
     if (AppState.activeCategory !== 'all') {
       if (!item.categories || !item.categories.includes(AppState.activeCategory)) return false;
+      // 2ème Volet : Sous-filtre contextuel Science-fiction & Fantastique
+      if (AppState.activeCategory === 'scifi_fantastique' && AppState.activeScifiSubFilter !== 'all') {
+        if (!matchesScifiSubFilter(item, AppState.activeScifiSubFilter)) return false;
+      }
     }
 
     return true;

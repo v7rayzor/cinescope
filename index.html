@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=8.60">
+  <link rel="stylesheet" href="css/style.css?v=8.61">
 </head>
 <body>
   <!-- Header / Navigation principale -->
@@ -240,6 +240,39 @@
         </div>
       </div>
 
+      <!-- Ligne 1B : 2ème volet de sous-filtres contextuels Science-fiction & Fantastique -->
+      <div class="scifi-subfilters-section hidden" id="scifiSubFiltersSection">
+        <div class="scifi-subfilters-wrapper" id="scifiSubFiltersNav">
+          <div class="scifi-subfilters-group">
+            <button class="scifi-subfilter-btn active" data-subfilter="all" id="scifiSubAll" type="button">
+              <span class="subfilter-icon">✨</span>
+              <span class="subfilter-name">Tous les titres</span>
+              <span class="subfilter-count" id="countScifiAll">0</span>
+            </button>
+            <button class="scifi-subfilter-btn" data-subfilter="action_aventure" id="scifiSubAction" type="button">
+              <span class="subfilter-icon">🏹</span>
+              <span class="subfilter-name">Action & Aventure</span>
+              <span class="subfilter-count" id="countScifiAction">0</span>
+            </button>
+            <button class="scifi-subfilter-btn" data-subfilter="thriller_policier" id="scifiSubThriller" type="button">
+              <span class="subfilter-icon">🔍</span>
+              <span class="subfilter-name">Thriller & Policier</span>
+              <span class="subfilter-count" id="countScifiThriller">0</span>
+            </button>
+            <button class="scifi-subfilter-btn" data-subfilter="comedie" id="scifiSubComedie" type="button">
+              <span class="subfilter-icon">🎭</span>
+              <span class="subfilter-name">Comédie</span>
+              <span class="subfilter-count" id="countScifiComedie">0</span>
+            </button>
+            <button class="scifi-subfilter-btn" data-subfilter="drame_emotion" id="scifiSubDrame" type="button">
+              <span class="subfilter-icon">❤️</span>
+              <span class="subfilter-name">Drame & Émotion</span>
+              <span class="subfilter-count" id="countScifiDrame">0</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
       <!-- Ligne de séparation horizontale entre Catégories et Étoiles/Durée -->
       <div class="filters-bubble-divider" aria-hidden="true"></div>
 
@@ -406,9 +439,9 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="js/catalog.js?v=8.60"></script>
-  <script src="js/justwatch_engine.js?v=8.60"></script>
-  <script src="js/app.js?v=8.60"></script>
+  <script src="js/catalog.js?v=8.61"></script>
+  <script src="js/justwatch_engine.js?v=8.61"></script>
+  <script src="js/app.js?v=8.61"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
