@@ -2,9 +2,14 @@ name: Auto Update JustWatch Catalog
 
 on:
   schedule:
-    # Exécution quotidienne à 06:00 UTC
+    # Exécution quotidienne à 06:00 UTC (bouquets payants de référence : OCS, Action Max, Universal+)
     - cron: '0 6 * * *'
-  workflow_dispatch: # Déclenchement manuel en 1 clic depuis l'onglet Actions
+  workflow_dispatch:
+    inputs:
+      include_specialized:
+        description: 'Inclure les chaînes spécialisées (Sooner, Shadowz, Insomnia)'
+        type: boolean
+        default: false
 
 jobs:
   sync-catalog:
@@ -22,7 +27,12 @@ jobs:
           node-version: 20
 
       - name: Synchroniser le catalogue JustWatch
-        run: node scripts/sync_justwatch.cjs
+        run: |
+          if [ "${{ inputs.include_specialized }}" = "true" ]; then
+            node scripts/sync_justwatch.cjs --specialized
+          else
+            node scripts/sync_justwatch.cjs
+          fi
 
       - name: Valider et publier les mises à jour
         run: |

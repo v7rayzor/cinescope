@@ -128,34 +128,6 @@
         </div>
       </div>
 
-      <!-- Ligne 0A-bis : Bouquets Gratuits & TNT (Exclusivité Desktop PC - Règle 8) -->
-      <div class="bouquets-bar-section bouquets-bar-tnt bouquet-btn-pc-only" id="bouquetsTntSection">
-        <div class="bouquets-wrapper" id="bouquetsTntNav">
-          <div class="bouquets-chips-group">
-            <button class="bouquet-btn bouquet-btn-pc-only" data-package="mlt" id="pkgMolotov" title="Afficher les œuvres gratuites Molotov (Mango AVOD & FAST)">
-              <img src="assets/logos/molotov.png" alt="Molotov Gratuit" class="pkg-logo-img">
-              <span class="pkg-name">Molotov Gratuit</span>
-              <span class="pkg-count" id="countPkgMolotov">0</span>
-            </button>
-            <button class="bouquet-btn bouquet-btn-pc-only" data-package="tf1" id="pkgTf1" title="Afficher les œuvres TF1+">
-              <img src="assets/logos/tf1.png" alt="TF1+" class="pkg-logo-img">
-              <span class="pkg-name">TF1+</span>
-              <span class="pkg-count" id="countPkgTf1">0</span>
-            </button>
-            <button class="bouquet-btn bouquet-btn-pc-only" data-package="sxp" id="pkgM6" title="Afficher les œuvres M6+">
-              <img src="assets/logos/m6_plus.png" alt="M6+" class="pkg-logo-img">
-              <span class="pkg-name">M6+</span>
-              <span class="pkg-count" id="countPkgM6">0</span>
-            </button>
-            <button class="bouquet-btn bouquet-btn-pc-only" data-package="fra" id="pkgFranceTv" title="Afficher les œuvres France TV">
-              <img src="assets/logos/france_tv.png" alt="France TV" class="pkg-logo-img">
-              <span class="pkg-name">France TV</span>
-              <span class="pkg-count" id="countPkgFranceTv">0</span>
-            </button>
-          </div>
-        </div>
-      </div>
-
       <!-- Ligne de séparation horizontale entre Bouquets et Filtres d'exclusion -->
       <div class="filters-bubble-divider bouquets-divider-line" aria-hidden="true"></div>
 
@@ -168,19 +140,19 @@
               <span class="pkg-name">Nouveautés</span>
               <span class="pkg-count" id="countOnlyNew">0</span>
             </button>
-            <button class="bouquet-btn bouquet-btn-toggle-tnt bouquet-btn-pc-only" id="toggleIncludeTnt" type="button" title="Inclure ou retirer les œuvres de Molotov Gratuit et de la TNT">
-              <span class="pkg-icon">📺</span>
-              <span class="pkg-name">+ Gratuit & TNT</span>
-              <span class="pkg-count" id="countIncludeTnt">0</span>
-            </button>
             <button class="bouquet-btn bouquet-btn-toggle-specialized bouquet-btn-pc-only" id="toggleIncludeSpecialized" type="button" title="Inclure ou retirer les œuvres de Sooner, Shadowz et Insomnia">
               <span class="pkg-icon">🎬</span>
               <span class="pkg-name">+ Spécialisées</span>
               <span class="pkg-count" id="countIncludeSpecialized">0</span>
             </button>
-            <button class="bouquet-btn bouquet-btn-exclusive" id="pkgExclusive" type="button" title="Activer / Désactiver le filtre d'exclusion (Masquer les œuvres disponibles sur Prime Video et la TNT)">
+            <button class="bouquet-btn bouquet-btn-sync-specialized bouquet-btn-pc-only" id="btnSyncSpecialized" type="button" title="Synchronisation manuelle à la demande des chaînes spécialisées (Sooner, Shadowz, Insomnia)">
+              <span class="pkg-icon">🔄</span>
+              <span class="pkg-name">Synchro Spéc.</span>
+              <span class="pkg-count" id="syncSpecializedDate" style="font-size: 0.72rem; opacity: 0.85;">--/--</span>
+            </button>
+            <button class="bouquet-btn bouquet-btn-exclusive" id="pkgExclusive" type="button" title="Activer / Désactiver le filtre d'exclusion (Masquer les œuvres disponibles sur Prime Video)">
               <span class="pkg-icon">🛡️</span>
-              <span class="pkg-name">Hors Prime & TNT</span>
+              <span class="pkg-name">Hors Prime Video</span>
               <span class="pkg-count" id="countPkgExclusive">0</span>
             </button>
             <button class="bouquet-btn bouquet-btn-no-s1" id="pkgExcludeNoS1" type="button" title="Activer / Désactiver l'exclusion des séries dont la Saison 1 n'est pas disponible">

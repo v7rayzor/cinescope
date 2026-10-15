@@ -102,7 +102,7 @@ const JustWatchEngine = (function () {
     }
   };
 
-  const PACKAGE_SLUGS = ['aoc', 'aca', 'auc', 'mlt', 'tf1', 'sxp', 'fra', 'snr', 'sdz', 'ima'];
+  const PACKAGE_SLUGS = ['aoc', 'aca', 'auc', 'snr', 'sdz', 'ima'];
   const SPECIALIZED_PACKAGE_SLUGS = ['snr', 'sdz', 'ima'];
   const BASE_PAID_PACKAGE_SLUGS = ['aoc', 'aca', 'auc'];
 
@@ -805,19 +805,6 @@ const JustWatchEngine = (function () {
     // 2. Chaînes spécialisées SVOD (Sooner, Shadowz, Insomnia)
     for (const p of matchedSpecialized) matchedPackages.push(p);
 
-    // 3. Plateformes TNT & Replay (soumises à la règle d'accès Molotov Extended ABO FLATRATE)
-    const hasMltFlatrate = offers.some(o => o.package?.shortName === 'mlt' && o.monetizationType === 'FLATRATE');
-    if (hasMltFlatrate) {
-      const validTntSlugs = ['tf1', 'sxp', 'fra'];
-      const matchedTnt = validTntSlugs.filter(p => resolvedOfferSlugs.includes(p));
-      if (matchedTnt.length > 0) {
-        for (const p of matchedTnt) matchedPackages.push(p);
-      } else if (matchedPaid.length === 0 && matchedSpecialized.length === 0) {
-        // Molotov Gratuit pur Mango / FAST uniquement si aucune autre chaîne spécifique
-        matchedPackages.push('mlt');
-      }
-    }
-
     if (matchedPackages.length === 0) return null;
 
     const primaryPkgKey = matchedPackages[0] || 'aoc';
@@ -915,16 +902,11 @@ const JustWatchEngine = (function () {
       return pkgs;
     };
 
-    let allPkgs = Array.from(new Set([...getPkgs(base), ...getPkgs(incoming)]));
+    let allPkgs = Array.from(new Set([...getPkgs(base), ...getPkgs(incoming)]))
+      .filter(p => PACKAGES_CONFIG[p]);
 
-    // Si l'œuvre possède un diffuseur TNT officiel (tf1, sxp, fra), le tag générique mlt est retiré
-    const hasTnt = allPkgs.some(p => ['tf1', 'sxp', 'fra'].includes(p));
-    if (hasTnt) {
-      allPkgs = allPkgs.filter(p => p !== 'mlt');
-    }
-
-    // Ordre stable d'affichage par défaut : bouquets payants de référence, spécialisées, puis TNT
-    const PKG_ORDER = ['aoc', 'aca', 'auc', 'snr', 'sdz', 'ima', 'tf1', 'sxp', 'fra', 'mlt'];
+    // Ordre stable d'affichage par défaut : bouquets payants de référence, puis spécialisées
+    const PKG_ORDER = ['aoc', 'aca', 'auc', 'snr', 'sdz', 'ima'];
     allPkgs.sort((a, b) => {
       const idxA = PKG_ORDER.indexOf(a);
       const idxB = PKG_ORDER.indexOf(b);
@@ -1048,7 +1030,7 @@ const JustWatchEngine = (function () {
   }
 
   // Requête GraphQL JustWatch (isFullSync: false -> 1 requête de 50; isFullSync: true -> 2 pages de 100)
-  async function fetchJustWatchData(isFullSync = false) {
+  async function fetchJustWatchData(isFullSync = false, customPackages = null) {
     const query = `
       query GetStreamingTitles($country: Country!, $popularTitlesFilter: TitleFilter, $first: Int!, $after: String) {
         popularTitles(country: $country, filter: $popularTitlesFilter, first: $first, after: $after) {
@@ -1126,10 +1108,11 @@ const JustWatchEngine = (function () {
     }
 
     const pageSize = isFullSync ? 40 : 50;
-    const maxPages = isFullSync ? 30 : 2; // Rafraîchissement rapide quotidien : 100 nouveautés fraîches (2 x 50)
+    const maxPages = isFullSync ? 30 : 2;
 
     const freshQualified = [];
     let currentCursor = null;
+    const targetPackages = customPackages || (isFullSync ? PACKAGE_SLUGS : BASE_PAID_PACKAGE_SLUGS);
 
     for (let page = 0; page < maxPages; page++) {
       let pageEdges = null;
@@ -1141,7 +1124,8 @@ const JustWatchEngine = (function () {
             first: pageSize,
             after: currentCursor,
             popularTitlesFilter: {
-              packages: PACKAGE_SLUGS,
+              packages: targetPackages,
+              monetizationTypes: ['FLATRATE'],
               releaseYear: { min: 2000 }
             }
           };
@@ -1308,6 +1292,30 @@ const JustWatchEngine = (function () {
     return null;
   }
 
+  const STORAGE_KEY_SPECIALIZED_SYNC = 'cinescope_last_specialized_sync_v37';
+
+  function saveSpecializedSyncDate() {
+    try {
+      if (typeof localStorage !== 'undefined') {
+        localStorage.setItem(STORAGE_KEY_SPECIALIZED_SYNC, new Date().toISOString());
+      }
+    } catch (e) { }
+  }
+
+  function getLastSpecializedSyncDate() {
+    try {
+      if (typeof localStorage !== 'undefined') {
+        const iso = localStorage.getItem(STORAGE_KEY_SPECIALIZED_SYNC);
+        if (iso) return new Date(iso);
+      }
+    } catch (e) { }
+    // Fallback sur metadata du catalogue si présent
+    if (typeof CATALOG_METADATA !== 'undefined' && CATALOG_METADATA?.lastSpecializedSync) {
+      return new Date(CATALOG_METADATA.lastSpecializedSync);
+    }
+    return null;
+  }
+
   function getLastFullSyncDate() {
     try {
       if (typeof localStorage !== 'undefined') {
@@ -1367,6 +1375,8 @@ const JustWatchEngine = (function () {
     saveFullSyncDate,
     getLastSyncDate,
     getLastFullSyncDate,
+    getLastSpecializedSyncDate,
+    saveSpecializedSyncDate,
     isAutoSyncEnabled,
     setAutoSyncEnabled,
     getAllowedCategories,

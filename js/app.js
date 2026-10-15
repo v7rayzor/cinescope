@@ -52,10 +52,9 @@ const AppState = {
   activeType: 'film',          // 'film' ou 'serie'
   activeCategory: 'all',       // 'all' ou l'une des 7 catégories
   activeStars: 'all',          // 'all', '4', '5'
-  activeBouquet: 'all',        // 'all', 'aoc', 'aca', 'auc', 'snr', 'sdz', 'ima', 'mlt', 'tf1', 'sxp', 'fra'
-  isExclusiveOnly: false,      // true pour exclure Prime Video et TNT
+  activeBouquet: 'all',        // 'all', 'aoc', 'aca', 'auc', 'snr', 'sdz', 'ima'
+  isExclusiveOnly: false,      // true pour exclure Prime Video
   isOnlyNew: false,            // true pour afficher uniquement les nouveautés récentes (PC uniquement)
-  includeTnt: false,           // true pour inclure Molotov Gratuit et TNT (false par défaut = exclu)
   includeSpecialized: false,   // true pour inclure Sooner, Shadowz, Insomnia (false par défaut = exclu)
   isExcludeNoS1: false,        // true pour exclure les séries sans saison 1 disponible
   isAutoStars: true,           // true tant que l'utilisateur n'a pas forcé manuellement un choix
@@ -119,14 +118,6 @@ function getActiveItemPackages(item) {
   return item.package_slugs.filter(pkg => {
     // Bouquets payants de référence (toujours actifs par défaut)
     if (['aoc', 'aca', 'auc'].includes(pkg)) {
-      return true;
-    }
-
-    // Chaînes TNT & Molotov Gratuit :
-    // Actives UNIQUEMENT si le toggle + Gratuit & TNT est allumé ET si Hors Prime & TNT n'est pas actif
-    if (['mlt', 'tf1', 'sxp', 'fra'].includes(pkg)) {
-      if (!AppState.includeTnt) return false;
-      if (AppState.isExclusiveOnly) return false;
       return true;
     }
 
@@ -503,6 +494,49 @@ function updateSyncStatusDisplay() {
   }
 }
 
+function updateSpecializedSyncDisplay() {
+  const elDate = document.getElementById('syncSpecializedDate');
+  if (!elDate) return;
+  const d = (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.getLastSpecializedSyncDate === 'function')
+    ? JustWatchEngine.getLastSpecializedSyncDate()
+    : null;
+
+  if (d && !isNaN(d.getTime())) {
+    const day = String(d.getDate()).padStart(2, '0');
+    const month = String(d.getMonth() + 1).padStart(2, '0');
+    elDate.textContent = `${day}/${month}`;
+    const btn = document.getElementById('btnSyncSpecialized');
+    if (btn) btn.title = `Dernière synchro spécialisées : ${d.toLocaleDateString('fr-FR')} (Cliquer pour rafraîchir Sooner, Shadowz, Insomnia)`;
+  } else {
+    elDate.textContent = '--/--';
+  }
+}
+
+async function syncSpecializedChannelsManually() {
+  const btn = document.getElementById('btnSyncSpecialized');
+  const countEl = document.getElementById('syncSpecializedDate');
+  if (AppState.isSyncing) return;
+  AppState.isSyncing = true;
+  if (btn) btn.classList.add('is-refreshing');
+  if (countEl) countEl.textContent = '...';
+
+  try {
+    console.log('[CinéScope] Synchronisation manuelle des chaînes spécialisées (Sooner, Shadowz, Insomnia)...');
+    const freshData = await JustWatchEngine.fetchJustWatchData(false, ['snr', 'sdz', 'ima']);
+    if (freshData && freshData.length > 0) {
+      AppState.catalog = freshData;
+      JustWatchEngine.saveSpecializedSyncDate();
+      refreshApplicationUI();
+    }
+  } catch (err) {
+    console.warn('[CinéScope] Erreur synchro spécialisée :', err.message);
+  } finally {
+    AppState.isSyncing = false;
+    if (btn) btn.classList.remove('is-refreshing');
+    updateSpecializedSyncDisplay();
+  }
+}
+
 async function performLiveSync(isSilent = false, isFullSync = false) {
   AppState.isSyncing = true;
   const refreshBtn = document.getElementById('syncRefreshBtn');
@@ -582,7 +616,6 @@ function initBouquetsCounts() {
   const countAll = eligibleTypeItems.filter(i => {
     if (isMobile) return isItemBasePaid(i);
     if (isItemBasePaid(i)) return true;
-    if (AppState.includeTnt && isItemTntFree(i)) return true;
     if (AppState.includeSpecialized && isItemSpecialized(i)) return true;
     return false;
   }).length;
@@ -595,15 +628,8 @@ function initBouquetsCounts() {
   const countSooner = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('snr')).length;
   const countShadowz = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('sdz')).length;
   const countInsomnia = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('ima')).length;
-
-  // Bouquets Gratuits & TNT (PC uniquement)
-  const countMolotov = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('mlt')).length;
-  const countTf1 = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('tf1')).length;
-  const countM6 = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('sxp')).length;
-  const countFranceTv = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('fra')).length;
   
-  // Compteurs des toggles d'inclusion (total disponible pour le média courant)
-  const countTntAvailable = eligibleTypeItems.filter(i => isItemTntFree(i)).length;
+  // Compteur du toggle d'inclusion spécialisées
   const countSpecializedAvailable = eligibleTypeItems.filter(i => isItemSpecialized(i)).length;
 
   // Scope du filtre selon le bouquet actif
@@ -612,7 +638,6 @@ function initBouquetsCounts() {
     : eligibleTypeItems.filter(i => {
         if (isMobile) return isItemBasePaid(i);
         if (isItemBasePaid(i)) return true;
-        if (AppState.includeTnt && isItemTntFree(i)) return true;
         if (AppState.includeSpecialized && isItemSpecialized(i)) return true;
         return false;
       });
@@ -634,13 +659,8 @@ function initBouquetsCounts() {
   const elSooner = document.getElementById('countPkgSooner');
   const elShadowz = document.getElementById('countPkgShadowz');
   const elInsomnia = document.getElementById('countPkgInsomnia');
-  const elMolotov = document.getElementById('countPkgMolotov');
-  const elTf1 = document.getElementById('countPkgTf1');
-  const elM6 = document.getElementById('countPkgM6');
-  const elFranceTv = document.getElementById('countPkgFranceTv');
   const elExclusive = document.getElementById('countPkgExclusive');
   const elOnlyNew = document.getElementById('countOnlyNew');
-  const elIncludeTnt = document.getElementById('countIncludeTnt');
   const elIncludeSpecialized = document.getElementById('countIncludeSpecialized');
   const elExcludeNoS1 = document.getElementById('countExcludeNoS1');
 
@@ -651,15 +671,12 @@ function initBouquetsCounts() {
   if (elSooner) elSooner.textContent = countSooner;
   if (elShadowz) elShadowz.textContent = countShadowz;
   if (elInsomnia) elInsomnia.textContent = countInsomnia;
-  if (elMolotov) elMolotov.textContent = countMolotov;
-  if (elTf1) elTf1.textContent = countTf1;
-  if (elM6) elM6.textContent = countM6;
-  if (elFranceTv) elFranceTv.textContent = countFranceTv;
   if (elExclusive) elExclusive.textContent = countExclusive;
   if (elOnlyNew) elOnlyNew.textContent = countNew;
-  if (elIncludeTnt) elIncludeTnt.textContent = countTntAvailable;
   if (elIncludeSpecialized) elIncludeSpecialized.textContent = countSpecializedAvailable;
   if (elExcludeNoS1) elExcludeNoS1.textContent = countNoS1;
+
+  updateSpecializedSyncDisplay();
 }
 
 // Navigation par bouquets, Filtre d'exclusion Prime/TNT, Toggles d'inclusion & Filtre sans S1
@@ -696,14 +713,10 @@ function initBouquetsNavigation() {
     });
   }
 
-  const toggleTntBtn = document.getElementById('toggleIncludeTnt');
-  if (toggleTntBtn) {
-    toggleTntBtn.addEventListener('click', () => {
-      AppState.includeTnt = !AppState.includeTnt;
-      toggleTntBtn.classList.toggle('active', AppState.includeTnt);
-      initBouquetsCounts();
-      updateCategoryAutoStar();
-      renderCatalog();
+  const btnSyncSpecialized = document.getElementById('btnSyncSpecialized');
+  if (btnSyncSpecialized) {
+    btnSyncSpecialized.addEventListener('click', async () => {
+      await syncSpecializedChannelsManually();
     });
   }
 
@@ -1114,10 +1127,6 @@ function getCategoryEligibleItems() {
     } else {
       // Nous sommes dans "Tous les bouquets" ('all') sur PC Desktop :
       if (!isMobile) {
-        // Par défaut, TNT/Gratuit n'est PAS inclus sauf si le bouton toggleIncludeTnt est activé
-        if (isItemTntFree(item) && !AppState.includeTnt) {
-          return false;
-        }
         // Par défaut, les chaînes spécialisées ne sont PAS incluses sauf si le bouton toggleIncludeSpecialized est activé
         if (isItemSpecialized(item) && !AppState.includeSpecialized) {
           return false;

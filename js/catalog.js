@@ -27,7 +27,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 30,
+      "daysLeft": 31,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -77,7 +77,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/11",
-      "daysLeft": 40,
+      "daysLeft": 41,
       "expirationDate": "2026-11-24",
       "packageExpirations": {
         "aoc": "2026-11-24"
@@ -126,8 +126,8 @@ const CATALOG_DATA = [
     "duree": "1h 55min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 7 j",
-      "daysLeft": 7,
+      "label": "⏳ Expire dans 8 j",
+      "daysLeft": 8,
       "expirationDate": "2026-10-22",
       "packageExpirations": {
         "aoc": "2026-10-22"
@@ -176,7 +176,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/12",
-      "daysLeft": 73,
+      "daysLeft": 74,
       "expirationDate": "2026-12-27",
       "packageExpirations": {
         "aoc": "2026-12-27"
@@ -225,7 +225,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 57,
+      "daysLeft": 58,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
@@ -274,7 +274,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/12",
-      "daysLeft": 70,
+      "daysLeft": 71,
       "expirationDate": "2026-12-24",
       "packageExpirations": {
         "aoc": "2026-12-24"
@@ -323,7 +323,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 37,
+      "daysLeft": 38,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
@@ -372,7 +372,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/11",
-      "daysLeft": 19,
+      "daysLeft": 20,
       "expirationDate": "2026-11-03",
       "packageExpirations": {
         "aoc": "2026-11-03"
@@ -424,7 +424,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/12",
-      "daysLeft": 47,
+      "daysLeft": 48,
       "expirationDate": "2026-12-01",
       "packageExpirations": {
         "aoc": "2026-12-01"
@@ -474,7 +474,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 50,
+      "daysLeft": 51,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
@@ -522,7 +522,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/01",
-      "daysLeft": 82,
+      "daysLeft": 83,
       "expirationDate": "2027-01-05",
       "packageExpirations": {
         "aoc": "2027-01-05"
@@ -572,7 +572,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/11",
-      "daysLeft": 42,
+      "daysLeft": 43,
       "expirationDate": "2026-11-26",
       "packageExpirations": {
         "aoc": "2026-11-26"
@@ -622,7 +622,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/12",
-      "daysLeft": 61,
+      "daysLeft": 62,
       "expirationDate": "2026-12-15",
       "packageExpirations": {
         "aoc": "2026-12-15"
@@ -670,8 +670,8 @@ const CATALOG_DATA = [
     "duree": "1h 35min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 13 j",
-      "daysLeft": 13,
+      "label": "⏳ Expire dans 14 j",
+      "daysLeft": 14,
       "expirationDate": "2026-10-28",
       "packageExpirations": {
         "aoc": "2026-10-28"
@@ -721,7 +721,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -770,7 +770,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/11",
-      "daysLeft": 35,
+      "daysLeft": 36,
       "expirationDate": "2026-11-19",
       "packageExpirations": {
         "aoc": "2026-11-19"
@@ -822,7 +822,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/11",
-      "daysLeft": 21,
+      "daysLeft": 22,
       "expirationDate": "2026-11-05",
       "packageExpirations": {
         "aoc": "2026-11-05"
@@ -873,7 +873,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -925,7 +925,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -976,7 +976,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -1029,7 +1029,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30",
@@ -1079,7 +1079,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -1128,7 +1128,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/11",
-      "daysLeft": 41,
+      "daysLeft": 42,
       "expirationDate": "2026-11-25",
       "packageExpirations": {
         "aoc": "2026-11-25"
@@ -1179,7 +1179,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -1228,7 +1228,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -1277,7 +1277,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -1325,7 +1325,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -1373,8 +1373,8 @@ const CATALOG_DATA = [
     "duree": "1h 34min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 9 j",
-      "daysLeft": 9,
+      "label": "⏳ Expire dans 10 j",
+      "daysLeft": 10,
       "expirationDate": "2026-10-24",
       "packageExpirations": {
         "aoc": "2026-10-24"
@@ -1422,7 +1422,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/11",
-      "daysLeft": 31,
+      "daysLeft": 32,
       "expirationDate": "2026-11-15",
       "packageExpirations": {
         "aoc": "2026-11-15"
@@ -1470,7 +1470,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 57,
+      "daysLeft": 58,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
@@ -1519,8 +1519,8 @@ const CATALOG_DATA = [
     "duree": "1h 38min",
     "expiration": {
       "status": "urgent",
-      "label": "⏳ Expire dans 2 j",
-      "daysLeft": 2,
+      "label": "⏳ Expire dans 3 j",
+      "daysLeft": 3,
       "expirationDate": "2026-10-17",
       "packageExpirations": {
         "aoc": "2026-10-17"
@@ -1620,9 +1620,9 @@ const CATALOG_DATA = [
     ],
     "duree": "1h 50min",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
+      "status": "warning",
+      "label": "⏳ Expire dans 4 j",
+      "daysLeft": 4,
       "expirationDate": "2026-10-18",
       "packageExpirations": {
         "aoc": "2026-10-18"
@@ -1672,7 +1672,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -1723,7 +1723,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -1775,8 +1775,8 @@ const CATALOG_DATA = [
     "duree": "1h 36min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 5 j",
-      "daysLeft": 5,
+      "label": "⏳ Expire dans 6 j",
+      "daysLeft": 6,
       "expirationDate": "2026-10-20",
       "packageExpirations": {
         "aoc": "2026-10-20"
@@ -1824,8 +1824,8 @@ const CATALOG_DATA = [
     "duree": "1h 38min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 7 j",
-      "daysLeft": 7,
+      "label": "⏳ Expire dans 8 j",
+      "daysLeft": 8,
       "expirationDate": "2026-10-22",
       "packageExpirations": {
         "aoc": "2026-10-22"
@@ -1876,7 +1876,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -1927,7 +1927,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -1977,7 +1977,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -2027,8 +2027,8 @@ const CATALOG_DATA = [
     "duree": "2h 02min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 5 j",
-      "daysLeft": 5,
+      "label": "⏳ Expire dans 6 j",
+      "daysLeft": 6,
       "expirationDate": "2026-10-20",
       "packageExpirations": {
         "aoc": "2026-10-20"
@@ -2078,7 +2078,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -2127,7 +2127,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/12",
-      "daysLeft": 48,
+      "daysLeft": 49,
       "expirationDate": "2026-12-02",
       "packageExpirations": {
         "aoc": "2026-12-02"
@@ -2173,8 +2173,8 @@ const CATALOG_DATA = [
     "duree": "1h 32min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 7 j",
-      "daysLeft": 7,
+      "label": "⏳ Expire dans 8 j",
+      "daysLeft": 8,
       "expirationDate": "2026-10-22",
       "packageExpirations": {
         "aoc": "2026-10-22"
@@ -2224,7 +2224,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/11",
-      "daysLeft": 40,
+      "daysLeft": 41,
       "expirationDate": "2026-11-24",
       "packageExpirations": {
         "aoc": "2026-11-24"
@@ -2275,7 +2275,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -2324,7 +2324,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/11",
-      "daysLeft": 19,
+      "daysLeft": 20,
       "expirationDate": "2026-11-03",
       "packageExpirations": {
         "aoc": "2026-11-03"
@@ -2374,7 +2374,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/12",
-      "daysLeft": 49,
+      "daysLeft": 50,
       "expirationDate": "2026-12-03",
       "packageExpirations": {
         "aoc": "2026-12-03"
@@ -2425,7 +2425,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/11",
-      "daysLeft": 34,
+      "daysLeft": 35,
       "expirationDate": "2026-11-18",
       "packageExpirations": {
         "aoc": "2026-11-18"
@@ -2473,8 +2473,8 @@ const CATALOG_DATA = [
     "duree": "2h 03min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 11 j",
-      "daysLeft": 11,
+      "label": "⏳ Expire dans 12 j",
+      "daysLeft": 12,
       "expirationDate": "2026-10-26",
       "packageExpirations": {
         "aoc": "2026-10-26"
@@ -2524,7 +2524,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -2574,7 +2574,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/11",
-      "daysLeft": 32,
+      "daysLeft": 33,
       "expirationDate": "2026-11-16",
       "packageExpirations": {
         "aoc": "2026-11-16"
@@ -2622,7 +2622,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/11",
-      "daysLeft": 17,
+      "daysLeft": 18,
       "expirationDate": "2026-11-01",
       "packageExpirations": {
         "aoc": "2026-11-01"
@@ -2674,7 +2674,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -2723,7 +2723,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -2771,7 +2771,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -2819,8 +2819,8 @@ const CATALOG_DATA = [
     "duree": "1h 25min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 8 j",
-      "daysLeft": 8,
+      "label": "⏳ Expire dans 9 j",
+      "daysLeft": 9,
       "expirationDate": "2026-10-23",
       "packageExpirations": {
         "aoc": "2026-10-23"
@@ -2868,7 +2868,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -2916,7 +2916,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -2964,7 +2964,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/12",
-      "daysLeft": 71,
+      "daysLeft": 72,
       "expirationDate": "2026-12-25",
       "packageExpirations": {
         "aoc": "2026-12-25"
@@ -3014,7 +3014,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/11",
-      "daysLeft": 21,
+      "daysLeft": 22,
       "expirationDate": "2026-11-05",
       "packageExpirations": {
         "aoc": "2026-11-05"
@@ -3063,8 +3063,8 @@ const CATALOG_DATA = [
     "duree": "1h 20min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 12 j",
-      "daysLeft": 12,
+      "label": "⏳ Expire dans 13 j",
+      "daysLeft": 13,
       "expirationDate": "2026-10-27",
       "packageExpirations": {
         "aoc": "2026-10-27"
@@ -3112,7 +3112,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/01",
-      "daysLeft": 94,
+      "daysLeft": 95,
       "expirationDate": "2027-01-17",
       "packageExpirations": {
         "aoc": "2027-01-17"
@@ -3163,7 +3163,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/11",
-      "daysLeft": 41,
+      "daysLeft": 42,
       "expirationDate": "2026-11-25",
       "packageExpirations": {
         "aoc": "2026-11-25"
@@ -3211,9 +3211,9 @@ const CATALOG_DATA = [
     ],
     "duree": "1h 18min",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 14 j",
-      "daysLeft": 14,
+      "status": "info",
+      "label": "📅 Jusqu'au 29/10",
+      "daysLeft": 15,
       "expirationDate": "2026-10-29",
       "packageExpirations": {
         "aoc": "2026-10-29"
@@ -3264,8 +3264,8 @@ const CATALOG_DATA = [
     "duree": "1h 33min",
     "expiration": {
       "status": "urgent",
-      "label": "⏳ Expire dans 2 j",
-      "daysLeft": 2,
+      "label": "⏳ Expire dans 3 j",
+      "daysLeft": 3,
       "expirationDate": "2026-10-17",
       "packageExpirations": {
         "aoc": "2026-10-17"
@@ -3285,6 +3285,58 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2024,
     "date_ajout": "2024-12-18"
+  },
+  {
+    "id": "jw-tm316630",
+    "titre": "L'École buissonnière",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "section": "Films",
+    "position": "Films — Ciné+ Family",
+    "annee": 2017,
+    "note_avis": 6.9,
+    "note_recence": 7.3,
+    "note_globale": 7.1,
+    "categories": [
+      "comedie"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/66238857/s592/lecole-buissonniere.jpg",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "duree": "1h 56min",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire demain",
+      "daysLeft": 1,
+      "expirationDate": "2026-10-15",
+      "packageExpirations": {
+        "aoc": "2026-10-15"
+      }
+    },
+    "package_slugs": [
+      "aoc"
+    ],
+    "runtime_minutes": 116,
+    "etoiles": 4,
+    "raw_genres": [
+      "cmy",
+      "doc",
+      "drm",
+      "fml",
+      "eur"
+    ],
+    "synopsis": "Paris 1930. Paul n’a toujours eu qu’un seul et même horizon: les hauts murs de l’orphelinat, sévère bâtisse de la banlieue ouvrière parisienne. Confié à une joyeuse dame de la campagne, Célestine et à son mari, Borel, le garde-chasse un peu raide d’un vaste domaine en Sologne, l’enfant des villes, récalcitrant et buté, arrive dans un monde mystérieux et inquiétant, celui d’une région souveraine et sauvage.  L’immense forêt, les étangs embrumés, les landes et les champs, tout ici appartient au Comte de la Fresnaye, un veuf taciturne qui vit solitaire dans son manoir. Le Comte tolère les braconniers sur le domaine, mais Borel les traque sans relâche et s’acharne sur le plus rusé et insaisissable d’entre eux, Totoche. Au cœur de la féérique Sologne, aux côtés du braconnier, grand amoureux de la nature, Paul va faire l’apprentissage de la vie mais aussi celui de la forêt et de ses secrets. Un secret encore plus lourd pèse sur le domaine, car Paul n’est pas venu là par hasard …",
+    "on_prime": false,
+    "on_tnt": false,
+    "annee_moyenne": 2017,
+    "date_ajout": "2017-10-11"
   },
   {
     "id": "jw-tm367470",
@@ -3314,7 +3366,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -3364,7 +3416,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -3414,7 +3466,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -3466,7 +3518,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -3518,7 +3570,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/01",
-      "daysLeft": 84,
+      "daysLeft": 85,
       "expirationDate": "2027-01-07",
       "packageExpirations": {
         "aoc": "2027-01-07"
@@ -3568,7 +3620,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/01",
-      "daysLeft": 85,
+      "daysLeft": 86,
       "expirationDate": "2027-01-08",
       "packageExpirations": {
         "aoc": "2027-01-08"
@@ -3619,7 +3671,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/01",
-      "daysLeft": 79,
+      "daysLeft": 80,
       "expirationDate": "2027-01-02",
       "packageExpirations": {
         "aoc": "2027-01-02"
@@ -3667,9 +3719,9 @@ const CATALOG_DATA = [
     ],
     "duree": "1h 51min",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 14 j",
-      "daysLeft": 14,
+      "status": "info",
+      "label": "📅 Jusqu'au 29/10",
+      "daysLeft": 15,
       "expirationDate": "2026-10-29",
       "packageExpirations": {
         "aoc": "2026-10-29"
@@ -3771,7 +3823,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/12",
-      "daysLeft": 75,
+      "daysLeft": 76,
       "expirationDate": "2026-12-29",
       "packageExpirations": {
         "aoc": "2026-12-29"
@@ -3821,7 +3873,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -3869,7 +3921,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/12",
-      "daysLeft": 68,
+      "daysLeft": 69,
       "expirationDate": "2026-12-22",
       "packageExpirations": {
         "aoc": "2026-12-22"
@@ -3920,7 +3972,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -3966,9 +4018,9 @@ const CATALOG_DATA = [
     ],
     "duree": "1h 41min",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
+      "status": "warning",
+      "label": "⏳ Expire dans 4 j",
+      "daysLeft": 4,
       "expirationDate": "2026-10-18",
       "packageExpirations": {
         "aoc": "2026-10-18"
@@ -4016,7 +4068,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/12",
-      "daysLeft": 64,
+      "daysLeft": 65,
       "expirationDate": "2026-12-18",
       "packageExpirations": {
         "aoc": "2026-12-18"
@@ -4065,7 +4117,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/11",
-      "daysLeft": 31,
+      "daysLeft": 32,
       "expirationDate": "2026-11-15",
       "packageExpirations": {
         "aoc": "2026-11-15"
@@ -4113,7 +4165,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 30,
+      "daysLeft": 31,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -4162,7 +4214,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -4209,8 +4261,8 @@ const CATALOG_DATA = [
     "duree": "1h 42min",
     "expiration": {
       "status": "urgent",
-      "label": "⏳ Expire dans 2 j",
-      "daysLeft": 2,
+      "label": "⏳ Expire dans 3 j",
+      "daysLeft": 3,
       "expirationDate": "2026-10-17",
       "packageExpirations": {
         "aoc": "2026-10-17"
@@ -4258,7 +4310,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 57,
+      "daysLeft": 58,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
@@ -4307,7 +4359,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/11",
-      "daysLeft": 43,
+      "daysLeft": 44,
       "expirationDate": "2026-11-27",
       "packageExpirations": {
         "aoc": "2026-11-27"
@@ -4357,7 +4409,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/11",
-      "daysLeft": 33,
+      "daysLeft": 34,
       "expirationDate": "2026-11-17",
       "packageExpirations": {
         "aoc": "2026-11-17"
@@ -4406,7 +4458,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -4456,7 +4508,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 57,
+      "daysLeft": 58,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
@@ -4504,7 +4556,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -4555,7 +4607,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/12",
-      "daysLeft": 47,
+      "daysLeft": 48,
       "expirationDate": "2026-12-01",
       "packageExpirations": {
         "aoc": "2026-12-01"
@@ -4604,8 +4656,8 @@ const CATALOG_DATA = [
     "duree": "1h 24min",
     "expiration": {
       "status": "urgent",
-      "label": "⏳ Expire dans 2 j",
-      "daysLeft": 2,
+      "label": "⏳ Expire dans 3 j",
+      "daysLeft": 3,
       "expirationDate": "2026-10-17",
       "packageExpirations": {
         "aoc": "2026-10-17"
@@ -4654,7 +4706,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -4702,8 +4754,8 @@ const CATALOG_DATA = [
     "duree": "2h 05min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 11 j",
-      "daysLeft": 11,
+      "label": "⏳ Expire dans 12 j",
+      "daysLeft": 12,
       "expirationDate": "2026-10-26",
       "packageExpirations": {
         "aoc": "2026-10-26"
@@ -4753,8 +4805,8 @@ const CATALOG_DATA = [
     "duree": "1h 53min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 8 j",
-      "daysLeft": 8,
+      "label": "⏳ Expire dans 9 j",
+      "daysLeft": 9,
       "expirationDate": "2026-10-23",
       "packageExpirations": {
         "aoc": "2026-10-23"
@@ -4804,7 +4856,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/12",
-      "daysLeft": 47,
+      "daysLeft": 48,
       "expirationDate": "2026-12-01",
       "packageExpirations": {
         "aoc": "2026-12-01"
@@ -4853,7 +4905,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -4904,7 +4956,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -4953,7 +5005,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 13/11",
-      "daysLeft": 29,
+      "daysLeft": 30,
       "expirationDate": "2026-11-13",
       "packageExpirations": {
         "aoc": "2026-11-13"
@@ -5002,7 +5054,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/11",
-      "daysLeft": 22,
+      "daysLeft": 23,
       "expirationDate": "2026-11-06",
       "packageExpirations": {
         "aoc": "2026-11-06"
@@ -5052,8 +5104,8 @@ const CATALOG_DATA = [
     "duree": "1h 36min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 12 j",
-      "daysLeft": 12,
+      "label": "⏳ Expire dans 13 j",
+      "daysLeft": 13,
       "expirationDate": "2026-10-27",
       "packageExpirations": {
         "aoc": "2026-10-27"
@@ -5102,7 +5154,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/10",
-      "daysLeft": 15,
+      "daysLeft": 16,
       "expirationDate": "2026-10-30",
       "packageExpirations": {
         "aoc": "2026-10-30"
@@ -5147,7 +5199,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/12",
-      "daysLeft": 65,
+      "daysLeft": 66,
       "expirationDate": "2026-12-19",
       "packageExpirations": {
         "aoc": "2026-12-19"
@@ -5194,7 +5246,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 50,
+      "daysLeft": 51,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
@@ -5227,7 +5279,7 @@ const CATALOG_DATA = [
     "chaine": "Ciné+ OCS",
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "poster": "https://images.justwatch.com/poster/323703747/s592/the-room-next-door.jpg",
-    "note_avis": 6.8,
+    "note_avis": 6.7,
     "note_recence": 9.4,
     "note_globale": 8.1,
     "is_eligible": true,
@@ -5242,7 +5294,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/11",
-      "daysLeft": 23,
+      "daysLeft": 24,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "aoc": "2026-11-07"
@@ -5288,7 +5340,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 37,
+      "daysLeft": 38,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
@@ -5336,7 +5388,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/11",
-      "daysLeft": 17,
+      "daysLeft": 18,
       "expirationDate": "2026-11-01",
       "packageExpirations": {
         "aoc": "2026-11-01"
@@ -5384,7 +5436,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 57,
+      "daysLeft": 58,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
@@ -5430,7 +5482,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 30,
+      "daysLeft": 31,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -5477,7 +5529,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/01",
-      "daysLeft": 91,
+      "daysLeft": 92,
       "expirationDate": "2027-01-14",
       "packageExpirations": {
         "aoc": "2027-01-14"
@@ -5524,7 +5576,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 30,
+      "daysLeft": 31,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -5571,8 +5623,8 @@ const CATALOG_DATA = [
     "duree": "2h 06min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 10 j",
-      "daysLeft": 10,
+      "label": "⏳ Expire dans 11 j",
+      "daysLeft": 11,
       "expirationDate": "2026-10-25",
       "packageExpirations": {
         "aoc": "2026-10-25"
@@ -5620,7 +5672,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -5666,8 +5718,8 @@ const CATALOG_DATA = [
     "duree": "1h 20min",
     "expiration": {
       "status": "urgent",
-      "label": "⏳ Expire demain",
-      "daysLeft": 1,
+      "label": "⏳ Expire dans 2 j",
+      "daysLeft": 2,
       "expirationDate": "2026-10-16",
       "packageExpirations": {
         "aoc": "2026-10-16"
@@ -5714,7 +5766,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 13/11",
-      "daysLeft": 29,
+      "daysLeft": 30,
       "expirationDate": "2026-11-13",
       "packageExpirations": {
         "aoc": "2026-11-13"
@@ -5761,7 +5813,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/01",
-      "daysLeft": 92,
+      "daysLeft": 93,
       "expirationDate": "2027-01-15",
       "packageExpirations": {
         "aoc": "2027-01-15"
@@ -5810,7 +5862,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/12",
-      "daysLeft": 48,
+      "daysLeft": 49,
       "expirationDate": "2026-12-02",
       "packageExpirations": {
         "aoc": "2026-12-02"
@@ -5859,7 +5911,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/12",
-      "daysLeft": 74,
+      "daysLeft": 75,
       "expirationDate": "2026-12-28",
       "packageExpirations": {
         "aoc": "2026-12-28"
@@ -5905,8 +5957,8 @@ const CATALOG_DATA = [
     "duree": "1h 41min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 5 j",
-      "daysLeft": 5,
+      "label": "⏳ Expire dans 6 j",
+      "daysLeft": 6,
       "expirationDate": "2026-10-20",
       "packageExpirations": {
         "aoc": "2026-10-20"
@@ -5952,8 +6004,8 @@ const CATALOG_DATA = [
     "duree": "1h 39min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 5 j",
-      "daysLeft": 5,
+      "label": "⏳ Expire dans 6 j",
+      "daysLeft": 6,
       "expirationDate": "2026-10-20",
       "packageExpirations": {
         "aoc": "2026-10-20"
@@ -5999,7 +6051,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 30,
+      "daysLeft": 31,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -6045,7 +6097,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/01",
-      "daysLeft": 93,
+      "daysLeft": 94,
       "expirationDate": "2027-01-16",
       "packageExpirations": {
         "aoc": "2027-01-16"
@@ -6092,7 +6144,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/12",
-      "daysLeft": 49,
+      "daysLeft": 50,
       "expirationDate": "2026-12-03",
       "packageExpirations": {
         "aoc": "2026-12-03"
@@ -6139,7 +6191,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/12",
-      "daysLeft": 55,
+      "daysLeft": 56,
       "expirationDate": "2026-12-09",
       "packageExpirations": {
         "aoc": "2026-12-09"
@@ -6186,7 +6238,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -6235,7 +6287,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -6285,7 +6337,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 50,
+      "daysLeft": 51,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
@@ -6331,8 +6383,8 @@ const CATALOG_DATA = [
     "duree": "1h 27min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 12 j",
-      "daysLeft": 12,
+      "label": "⏳ Expire dans 13 j",
+      "daysLeft": 13,
       "expirationDate": "2026-10-27",
       "packageExpirations": {
         "aoc": "2026-10-27"
@@ -6379,7 +6431,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/12",
-      "daysLeft": 58,
+      "daysLeft": 59,
       "expirationDate": "2026-12-12",
       "packageExpirations": {
         "aoc": "2026-12-12"
@@ -6426,7 +6478,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/11",
-      "daysLeft": 45,
+      "daysLeft": 46,
       "expirationDate": "2026-11-29",
       "packageExpirations": {
         "aoc": "2026-11-29"
@@ -6472,7 +6524,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/01",
-      "daysLeft": 81,
+      "daysLeft": 82,
       "expirationDate": "2027-01-04",
       "packageExpirations": {
         "aoc": "2027-01-04"
@@ -6519,7 +6571,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/11",
-      "daysLeft": 38,
+      "daysLeft": 39,
       "expirationDate": "2026-11-22",
       "packageExpirations": {
         "aoc": "2026-11-22"
@@ -6566,7 +6618,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/12",
-      "daysLeft": 49,
+      "daysLeft": 50,
       "expirationDate": "2026-12-03",
       "packageExpirations": {
         "aoc": "2026-12-03"
@@ -6613,7 +6665,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/11",
-      "daysLeft": 19,
+      "daysLeft": 20,
       "expirationDate": "2026-11-03",
       "packageExpirations": {
         "aoc": "2026-11-03"
@@ -6658,9 +6710,9 @@ const CATALOG_DATA = [
     "badge": null,
     "duree": "1h 46min",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
+      "status": "warning",
+      "label": "⏳ Expire dans 4 j",
+      "daysLeft": 4,
       "expirationDate": "2026-10-18",
       "packageExpirations": {
         "aoc": "2026-10-18"
@@ -6706,7 +6758,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/12",
-      "daysLeft": 73,
+      "daysLeft": 74,
       "expirationDate": "2026-12-27",
       "packageExpirations": {
         "aoc": "2026-12-27"
@@ -6754,7 +6806,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/12",
-      "daysLeft": 53,
+      "daysLeft": 54,
       "expirationDate": "2026-12-07",
       "packageExpirations": {
         "aoc": "2026-12-07"
@@ -6800,7 +6852,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -6896,7 +6948,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -6943,7 +6995,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -6990,7 +7042,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/11",
-      "daysLeft": 31,
+      "daysLeft": 32,
       "expirationDate": "2026-11-15",
       "packageExpirations": {
         "aoc": "2026-11-15"
@@ -7036,7 +7088,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/01",
-      "daysLeft": 102,
+      "daysLeft": 103,
       "expirationDate": "2027-01-25",
       "packageExpirations": {
         "aoc": "2027-01-25"
@@ -7082,7 +7134,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/12",
-      "daysLeft": 47,
+      "daysLeft": 48,
       "expirationDate": "2026-12-01",
       "packageExpirations": {
         "aoc": "2026-12-01"
@@ -7128,7 +7180,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/01",
-      "daysLeft": 88,
+      "daysLeft": 89,
       "expirationDate": "2027-01-11",
       "packageExpirations": {
         "aoc": "2027-01-11"
@@ -7174,7 +7226,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/11",
-      "daysLeft": 26,
+      "daysLeft": 27,
       "expirationDate": "2026-11-10",
       "packageExpirations": {
         "aoc": "2026-11-10"
@@ -7220,7 +7272,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/12",
-      "daysLeft": 55,
+      "daysLeft": 56,
       "expirationDate": "2026-12-09",
       "packageExpirations": {
         "aoc": "2026-12-09"
@@ -7267,7 +7319,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/12",
-      "daysLeft": 48,
+      "daysLeft": 49,
       "expirationDate": "2026-12-02",
       "packageExpirations": {
         "aoc": "2026-12-02"
@@ -7315,7 +7367,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/12",
-      "daysLeft": 71,
+      "daysLeft": 72,
       "expirationDate": "2026-12-25",
       "packageExpirations": {
         "aoc": "2026-12-25"
@@ -7364,7 +7416,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -7414,7 +7466,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 50,
+      "daysLeft": 51,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
@@ -7462,7 +7514,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -7509,8 +7561,8 @@ const CATALOG_DATA = [
     "duree": "2h 00min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 6 j",
-      "daysLeft": 6,
+      "label": "⏳ Expire dans 7 j",
+      "daysLeft": 7,
       "expirationDate": "2026-10-21",
       "packageExpirations": {
         "aoc": "2026-10-21"
@@ -7558,7 +7610,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 50,
+      "daysLeft": 51,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
@@ -7603,8 +7655,8 @@ const CATALOG_DATA = [
     "duree": "1h 25min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 9 j",
-      "daysLeft": 9,
+      "label": "⏳ Expire dans 10 j",
+      "daysLeft": 10,
       "expirationDate": "2026-10-24",
       "packageExpirations": {
         "aoc": "2026-10-24"
@@ -7651,7 +7703,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/11",
-      "daysLeft": 18,
+      "daysLeft": 19,
       "expirationDate": "2026-11-02",
       "packageExpirations": {
         "aoc": "2026-11-02"
@@ -7697,7 +7749,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/12",
-      "daysLeft": 56,
+      "daysLeft": 57,
       "expirationDate": "2026-12-10",
       "packageExpirations": {
         "aoc": "2026-12-10"
@@ -7746,7 +7798,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -7794,7 +7846,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -7842,7 +7894,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/12",
-      "daysLeft": 54,
+      "daysLeft": 55,
       "expirationDate": "2026-12-08",
       "packageExpirations": {
         "aoc": "2026-12-08"
@@ -7890,7 +7942,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/12",
-      "daysLeft": 49,
+      "daysLeft": 50,
       "expirationDate": "2026-12-03",
       "packageExpirations": {
         "aoc": "2026-12-03"
@@ -7939,7 +7991,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -7988,7 +8040,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -8035,7 +8087,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -8084,7 +8136,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -8131,7 +8183,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 37,
+      "daysLeft": 38,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
@@ -8177,8 +8229,8 @@ const CATALOG_DATA = [
     "duree": "1h 45min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 13 j",
-      "daysLeft": 13,
+      "label": "⏳ Expire dans 14 j",
+      "daysLeft": 14,
       "expirationDate": "2026-10-28",
       "packageExpirations": {
         "aoc": "2026-10-28"
@@ -8226,7 +8278,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -8273,7 +8325,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -8319,8 +8371,8 @@ const CATALOG_DATA = [
     "duree": "1h 41min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 13 j",
-      "daysLeft": 13,
+      "label": "⏳ Expire dans 14 j",
+      "daysLeft": 14,
       "expirationDate": "2026-10-28",
       "packageExpirations": {
         "aoc": "2026-10-28"
@@ -8371,7 +8423,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/11",
-      "daysLeft": 21,
+      "daysLeft": 22,
       "expirationDate": "2026-11-05",
       "packageExpirations": {
         "aoc": "2026-11-05"
@@ -8420,7 +8472,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -8467,7 +8519,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -8513,7 +8565,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -8557,8 +8609,8 @@ const CATALOG_DATA = [
     "duree": "1h 27min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 10 j",
-      "daysLeft": 10,
+      "label": "⏳ Expire dans 11 j",
+      "daysLeft": 11,
       "expirationDate": "2026-10-25",
       "packageExpirations": {
         "aoc": "2026-10-25"
@@ -8605,7 +8657,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -8650,7 +8702,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -8698,7 +8750,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "auc": "2026-11-30"
@@ -8794,7 +8846,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -8842,7 +8894,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "auc": "2027-02-28"
@@ -8891,7 +8943,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -8987,7 +9039,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "auc": "2027-02-28"
@@ -9082,7 +9134,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "auc": "2026-10-31"
@@ -9222,7 +9274,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -9273,7 +9325,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28",
@@ -9323,7 +9375,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -9370,7 +9422,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -9462,7 +9514,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -9511,7 +9563,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -9561,7 +9613,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -9608,7 +9660,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -9748,7 +9800,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -9845,7 +9897,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -9893,7 +9945,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -9944,7 +9996,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -9994,7 +10046,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -10042,7 +10094,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -10090,7 +10142,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -10138,7 +10190,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -10187,7 +10239,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -10235,7 +10287,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -10283,7 +10335,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -10332,7 +10384,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -10381,7 +10433,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -10428,7 +10480,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28",
@@ -10477,7 +10529,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -10524,7 +10576,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -10572,7 +10624,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -10621,7 +10673,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -10668,8 +10720,8 @@ const CATALOG_DATA = [
     "duree": "1h 50min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 9 j",
-      "daysLeft": 9,
+      "label": "⏳ Expire dans 10 j",
+      "daysLeft": 10,
       "expirationDate": "2026-10-24",
       "packageExpirations": {
         "aoc": "2026-10-24"
@@ -10721,7 +10773,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -10774,7 +10826,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -10829,7 +10881,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -10878,7 +10930,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/11",
-      "daysLeft": 43,
+      "daysLeft": 44,
       "expirationDate": "2026-11-27",
       "packageExpirations": {
         "aoc": "2026-11-27"
@@ -10932,7 +10984,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -10982,8 +11034,8 @@ const CATALOG_DATA = [
     "duree": "1h 30min",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
+      "label": "⏳ Expire dans 5 j",
+      "daysLeft": 5,
       "expirationDate": "2026-10-19",
       "packageExpirations": {
         "aoc": "2026-10-19"
@@ -11034,7 +11086,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -11086,7 +11138,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -11137,7 +11189,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/10",
-      "daysLeft": 15,
+      "daysLeft": 16,
       "expirationDate": "2026-10-30",
       "packageExpirations": {
         "auc": "2026-10-30"
@@ -11210,7 +11262,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 76,
+      "daysLeft": 77,
       "expirationDate": "2026-12-30",
       "packageExpirations": {
         "auc": "2026-12-30"
@@ -11272,7 +11324,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/01",
-      "daysLeft": 82,
+      "daysLeft": 83,
       "expirationDate": "2027-01-05",
       "packageExpirations": {
         "aoc": "2027-01-05"
@@ -11331,7 +11383,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -11388,7 +11440,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "auc": "2026-12-31"
@@ -11531,7 +11583,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Le Ministère du Temps est une institution secrète qui s’assure que l'histoire de l'Espagne ne change pas, tout en protégeant le présent. Leurs patrouilles voyagent à travers le temps pour empêcher tout intrus du passé d’utiliser à leur avantage l’histoire. Sur leur chemin, ils croiseront des célébrités comme Dali, Bunuel ou Picasso, mais nos protagonistes voudront aussi voyager dans le temps pour découvrir ce qui est arrivé à leurs proches, même si cela signifie un petit arrangement avec les règles du Ministère.",
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_fin": 2020,
     "annee_moyenne": 2018,
     "saisons_disponibles": [
@@ -11586,7 +11638,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 76,
+      "daysLeft": 77,
       "expirationDate": "2026-12-30",
       "packageExpirations": {
         "auc": "2026-12-30"
@@ -11643,7 +11695,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -11706,7 +11758,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -11784,7 +11836,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "auc": "2027-01-31"
@@ -11840,7 +11892,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -11902,7 +11954,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "auc": "2026-12-31"
@@ -11967,7 +12019,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "auc": "2026-12-31"
@@ -12054,7 +12106,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -12117,7 +12169,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "auc": "2026-12-31"
@@ -12136,7 +12188,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Flynn Carson est le bibliothécaire depuis maintenant dix ans. Il doit résoudre des mystères impossibles, retrouver des artefacts très puissants et affronter des forces surnaturelles dont celle de la confrérie du serpent, son principal ennemi. Pour l'aider, la Bibliothèque lui a choisi un gardien, le colonel Eve Baird, militaire à l'OTAN. L'équipe se voit très vite complétée par trois \"bibliothécaires en herbe\" : Jacob Stone, un génie en histoire et architecture, au QI de 190, Cassandra Cillian, une mathématicienne dotée d'une mémoire photographique qui est atteinte d'une tumeur au cerveau et Ezekiel Jones, un voleur et spécialiste en technologie avancée.",
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_fin": 2017,
     "annee_moyenne": 2016,
     "saisons_disponibles": [
@@ -12191,7 +12243,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -12248,7 +12300,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -12585,7 +12637,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -12648,7 +12700,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -12705,8 +12757,8 @@ const CATALOG_DATA = [
     "duree": "42 min/ép.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 12 j",
-      "daysLeft": 12,
+      "label": "⏳ Expire dans 13 j",
+      "daysLeft": 13,
       "expirationDate": "2026-10-27",
       "packageExpirations": {
         "auc": "2026-10-27"
@@ -12725,7 +12777,7 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Après 10 ans d'absence  et un drame personnel, Elliot  Stabler réintègre la police de New York  dans une nouvelle unité chargée de démanteler de l'intérieur les groupes mafieux de la Grosse Pomme.",
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2023,
     "saisons_disponibles": [
       {
@@ -12770,7 +12822,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -12847,7 +12899,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "auc": "2026-10-31"
@@ -12926,7 +12978,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 60,
+      "daysLeft": 61,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "auc": "2026-12-14"
@@ -13037,7 +13089,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -13156,7 +13208,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -13243,7 +13295,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 76,
+      "daysLeft": 77,
       "expirationDate": "2026-12-30",
       "packageExpirations": {
         "auc": "2026-12-30"
@@ -13300,7 +13352,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "auc": "2027-03-31"
@@ -13464,7 +13516,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "aoc": "2027-03-31"
@@ -13580,7 +13632,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/03",
-      "daysLeft": 150,
+      "daysLeft": 151,
       "expirationDate": "2027-03-14",
       "packageExpirations": {
         "aoc": "2027-03-14"
@@ -13715,7 +13767,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -13878,7 +13930,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "aoc": "2027-03-31"
@@ -13946,7 +13998,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/01",
-      "daysLeft": 83,
+      "daysLeft": 84,
       "expirationDate": "2027-01-06",
       "packageExpirations": {
         "aoc": "2027-01-06"
@@ -14011,7 +14063,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/11",
-      "daysLeft": 33,
+      "daysLeft": 34,
       "expirationDate": "2026-11-17",
       "packageExpirations": {
         "aoc": "2026-11-17"
@@ -14058,7 +14110,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -14113,7 +14165,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -14232,7 +14284,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/12",
-      "daysLeft": 75,
+      "daysLeft": 76,
       "expirationDate": "2026-12-29",
       "packageExpirations": {
         "aoc": "2026-12-29"
@@ -14278,8 +14330,8 @@ const CATALOG_DATA = [
     "synopsis": "Elizabeth Bennet, 20 ans, est la seconde fille de Mr et Mrs Bennet. Elle grandit aux cotés de ses quatre autres sœurs et affectionne particulièrement Jane, de deux ans son aînée. Cette dernière est réputée pour sa douceur et sa beauté dans toute la ville de Meryton. Elizabeth, quant à elle, est une jeune fille ravissante, vive d’esprit, aimant observer la société dans laquelle elle évolue mais aimant surtout se moquer des sottises d’autrui. La famille Bennet est simple et très liée, faisant fi de certaines convenances exigée par l’étiquette à l’époque de Jane Austen. Mrs Bennet n’a qu’une idée en tête : marier ses cinq filles afin d’assurer leur avenir ainsi que celui de toute la famille.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 7 j",
-      "daysLeft": 7,
+      "label": "⏳ Expire dans 8 j",
+      "daysLeft": 8,
       "expirationDate": "2026-10-22",
       "packageExpirations": {
         "aoc": "2026-10-22"
@@ -14327,7 +14379,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/11",
-      "daysLeft": 25,
+      "daysLeft": 26,
       "expirationDate": "2026-11-09",
       "packageExpirations": {
         "aoc": "2026-11-09"
@@ -14376,7 +14428,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/11",
-      "daysLeft": 28,
+      "daysLeft": 29,
       "expirationDate": "2026-11-12",
       "packageExpirations": {
         "aoc": "2026-11-12"
@@ -14486,7 +14538,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/11",
-      "daysLeft": 17,
+      "daysLeft": 18,
       "expirationDate": "2026-11-01",
       "packageExpirations": {
         "aoc": "2026-11-01"
@@ -14535,7 +14587,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/01",
-      "daysLeft": 92,
+      "daysLeft": 93,
       "expirationDate": "2027-01-15",
       "packageExpirations": {
         "aoc": "2027-01-15"
@@ -14582,7 +14634,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/12",
-      "daysLeft": 65,
+      "daysLeft": 66,
       "expirationDate": "2026-12-19",
       "packageExpirations": {
         "aoc": "2026-12-19"
@@ -14678,7 +14730,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/01",
-      "daysLeft": 80,
+      "daysLeft": 81,
       "expirationDate": "2027-01-03",
       "packageExpirations": {
         "aoc": "2027-01-03"
@@ -14726,7 +14778,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/01",
-      "daysLeft": 91,
+      "daysLeft": 92,
       "expirationDate": "2027-01-14",
       "packageExpirations": {
         "aoc": "2027-01-14"
@@ -14772,7 +14824,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/12",
-      "daysLeft": 61,
+      "daysLeft": 62,
       "expirationDate": "2026-12-15",
       "packageExpirations": {
         "aoc": "2026-12-15"
@@ -14821,7 +14873,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/12",
-      "daysLeft": 58,
+      "daysLeft": 59,
       "expirationDate": "2026-12-12",
       "packageExpirations": {
         "aoc": "2026-12-12"
@@ -14867,7 +14919,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 57,
+      "daysLeft": 58,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
@@ -14915,7 +14967,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -14971,7 +15023,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -15018,7 +15070,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -15127,8 +15179,8 @@ const CATALOG_DATA = [
     "synopsis": "Agnes a vécu un drame, mais la vie continue… du moins pour ceux qui l’entourent. Lorsque sa meilleure amie lui rend visite à l’approche d’une étape importante, Agnes prend conscience de son immobilisme et trouve des moyens de s’en sortir afin d’aller de l’avant.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 7 j",
-      "daysLeft": 7,
+      "label": "⏳ Expire dans 8 j",
+      "daysLeft": 8,
       "expirationDate": "2026-10-22",
       "packageExpirations": {
         "aoc": "2026-10-22"
@@ -15175,7 +15227,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -15224,7 +15276,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -15269,7 +15321,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -15320,7 +15372,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -15368,7 +15420,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -15413,7 +15465,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 30,
+      "daysLeft": 31,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -15463,7 +15515,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/11",
-      "daysLeft": 26,
+      "daysLeft": 27,
       "expirationDate": "2026-11-10",
       "packageExpirations": {
         "aoc": "2026-11-10"
@@ -15511,7 +15563,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aca": "2026-10-31"
@@ -15602,7 +15654,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/11",
-      "daysLeft": 28,
+      "daysLeft": 29,
       "expirationDate": "2026-11-12",
       "packageExpirations": {
         "aoc": "2026-11-12"
@@ -15649,7 +15701,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/01",
-      "daysLeft": 94,
+      "daysLeft": 95,
       "expirationDate": "2027-01-17",
       "packageExpirations": {
         "aoc": "2027-01-17"
@@ -15820,17 +15872,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Universal+",
     "chaines": [
-      "Universal+",
-      "TF1+"
+      "Universal+"
     ],
     "logo_chaine": "assets/logos/universal_plus.svg",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
-      "assets/logos/tf1.png"
+      "assets/logos/universal_plus.svg"
     ],
     "package_slugs": [
-      "auc",
-      "tf1"
+      "auc"
     ],
     "annee": 2024,
     "duree": "1h 33min",
@@ -15862,7 +15911,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2024,
     "date_ajout": "2024-09-15"
   },
@@ -15949,7 +15998,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 57,
+      "daysLeft": 58,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
@@ -15996,7 +16045,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/12",
-      "daysLeft": 48,
+      "daysLeft": 49,
       "expirationDate": "2026-12-02",
       "packageExpirations": {
         "aoc": "2026-12-02"
@@ -16043,7 +16092,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/11",
-      "daysLeft": 23,
+      "daysLeft": 24,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "aoc": "2026-11-07"
@@ -16090,7 +16139,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/01",
-      "daysLeft": 88,
+      "daysLeft": 89,
       "expirationDate": "2027-01-11",
       "packageExpirations": {
         "aoc": "2027-01-11"
@@ -16181,7 +16230,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -16229,7 +16278,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -16420,7 +16469,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/11",
-      "daysLeft": 24,
+      "daysLeft": 25,
       "expirationDate": "2026-11-08",
       "packageExpirations": {
         "aoc": "2026-11-08"
@@ -16468,7 +16517,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 50,
+      "daysLeft": 51,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
@@ -16513,7 +16562,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/12",
-      "daysLeft": 65,
+      "daysLeft": 66,
       "expirationDate": "2026-12-19",
       "packageExpirations": {
         "aoc": "2026-12-19"
@@ -16561,7 +16610,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -16614,7 +16663,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -16661,7 +16710,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/11",
-      "daysLeft": 17,
+      "daysLeft": 18,
       "expirationDate": "2026-11-01",
       "packageExpirations": {
         "aoc": "2026-11-01"
@@ -16707,7 +16756,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -16760,7 +16809,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_moyenne": 2024,
     "date_ajout": "2025-09-01"
   },
@@ -16802,7 +16851,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -16846,7 +16895,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/12",
-      "daysLeft": 64,
+      "daysLeft": 65,
       "expirationDate": "2026-12-18",
       "packageExpirations": {
         "aoc": "2026-12-18"
@@ -16894,7 +16943,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -17035,7 +17084,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/11",
-      "daysLeft": 20,
+      "daysLeft": 21,
       "expirationDate": "2026-11-04",
       "packageExpirations": {
         "aoc": "2026-11-04"
@@ -17081,7 +17130,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 37,
+      "daysLeft": 38,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
@@ -17129,7 +17178,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/01",
-      "daysLeft": 80,
+      "daysLeft": 81,
       "expirationDate": "2027-01-03",
       "packageExpirations": {
         "aoc": "2027-01-03"
@@ -17267,7 +17316,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/12",
-      "daysLeft": 55,
+      "daysLeft": 56,
       "expirationDate": "2026-12-09",
       "packageExpirations": {
         "aoc": "2026-12-09"
@@ -17316,7 +17365,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -17364,7 +17413,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -17411,7 +17460,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/12",
-      "daysLeft": 62,
+      "daysLeft": 63,
       "expirationDate": "2026-12-16",
       "packageExpirations": {
         "aoc": "2026-12-16"
@@ -17460,7 +17509,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/11",
-      "daysLeft": 17,
+      "daysLeft": 18,
       "expirationDate": "2026-11-01",
       "packageExpirations": {
         "aoc": "2026-11-01"
@@ -17684,7 +17733,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/11",
-      "daysLeft": 23,
+      "daysLeft": 24,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "aoc": "2026-11-07"
@@ -17935,7 +17984,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/11",
-      "daysLeft": 26,
+      "daysLeft": 27,
       "expirationDate": "2026-11-10",
       "packageExpirations": {
         "aoc": "2026-11-10"
@@ -17983,7 +18032,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -18058,7 +18107,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -18106,7 +18155,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 37,
+      "daysLeft": 38,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
@@ -18153,7 +18202,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/11",
-      "daysLeft": 23,
+      "daysLeft": 24,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "aoc": "2026-11-07"
@@ -18203,7 +18252,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -18250,7 +18299,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/12",
-      "daysLeft": 75,
+      "daysLeft": 76,
       "expirationDate": "2026-12-29",
       "packageExpirations": {
         "aoc": "2026-12-29"
@@ -18446,9 +18495,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/346159550/s592/mother-and-child-2025.jpg",
     "synopsis": "Mahnaz, une infirmière de 40 ans, élève seule ses enfants. Alors qu’elle s’apprête à épouser son petit ami Hamid, son fils Aliyar est renvoyé de l’école. Lorsqu’un accident tragique vient tout bouleverser, Mahnaz se lance dans une quête de justice pour obtenir réparation…",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 14 j",
-      "daysLeft": 14,
+      "status": "info",
+      "label": "📅 Jusqu'au 29/10",
+      "daysLeft": 15,
       "expirationDate": "2026-10-29",
       "packageExpirations": {
         "aoc": "2026-10-29"
@@ -18496,7 +18545,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/01",
-      "daysLeft": 89,
+      "daysLeft": 90,
       "expirationDate": "2027-01-12",
       "packageExpirations": {
         "aoc": "2027-01-12"
@@ -18590,7 +18639,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -18680,7 +18729,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/11",
-      "daysLeft": 44,
+      "daysLeft": 45,
       "expirationDate": "2026-11-28",
       "packageExpirations": {
         "aoc": "2026-11-28"
@@ -18729,7 +18778,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -18784,7 +18833,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 37,
+      "daysLeft": 38,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
@@ -18834,7 +18883,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/02",
-      "daysLeft": 114,
+      "daysLeft": 115,
       "expirationDate": "2027-02-06",
       "packageExpirations": {
         "aoc": "2027-02-06"
@@ -18926,7 +18975,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/12",
-      "daysLeft": 54,
+      "daysLeft": 55,
       "expirationDate": "2026-12-08",
       "packageExpirations": {
         "aoc": "2026-12-08"
@@ -18975,7 +19024,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -19024,7 +19073,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 23/01",
-      "daysLeft": 100,
+      "daysLeft": 101,
       "expirationDate": "2027-01-23",
       "packageExpirations": {
         "aoc": "2027-01-23"
@@ -19072,7 +19121,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/10",
-      "daysLeft": 15,
+      "daysLeft": 16,
       "expirationDate": "2026-10-30",
       "packageExpirations": {
         "aoc": "2026-10-30"
@@ -19167,7 +19216,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/12",
-      "daysLeft": 62,
+      "daysLeft": 63,
       "expirationDate": "2026-12-16",
       "packageExpirations": {
         "aoc": "2026-12-16"
@@ -19260,7 +19309,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/11",
-      "daysLeft": 24,
+      "daysLeft": 25,
       "expirationDate": "2026-11-08",
       "packageExpirations": {
         "aoc": "2026-11-08"
@@ -19306,7 +19355,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -19353,7 +19402,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -19398,9 +19447,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/332882915/s592/locust.jpg",
     "synopsis": "À Taïwan, Zhong-Han, un jeune homme mutique d'une vingtaine d'années, mène une double vie. Employé dans un restaurant familial le jour, il rackette en bande la nuit pour le compte de parrains locaux. Mais le rachat du restaurant par un homme d'affaires véreux met en danger ses proches, et oblige Zhong-Han à affronter son propre gang.",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 14 j",
-      "daysLeft": 14,
+      "status": "info",
+      "label": "📅 Jusqu'au 29/10",
+      "daysLeft": 15,
       "expirationDate": "2026-10-29",
       "packageExpirations": {
         "aoc": "2026-10-29"
@@ -19448,7 +19497,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/12",
-      "daysLeft": 62,
+      "daysLeft": 63,
       "expirationDate": "2026-12-16",
       "packageExpirations": {
         "aoc": "2026-12-16"
@@ -19550,7 +19599,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/11",
-      "daysLeft": 19,
+      "daysLeft": 20,
       "expirationDate": "2026-11-03",
       "packageExpirations": {
         "aoc": "2026-11-03"
@@ -19598,7 +19647,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 57,
+      "daysLeft": 58,
       "expirationDate": "2026-12-11",
       "packageExpirations": {
         "aoc": "2026-12-11"
@@ -19829,7 +19878,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 13/12",
-      "daysLeft": 59,
+      "daysLeft": 60,
       "expirationDate": "2026-12-13",
       "packageExpirations": {
         "aoc": "2026-12-13"
@@ -19877,7 +19926,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/11",
-      "daysLeft": 22,
+      "daysLeft": 23,
       "expirationDate": "2026-11-06",
       "packageExpirations": {
         "aoc": "2026-11-06"
@@ -19926,7 +19975,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -19974,7 +20023,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -20022,7 +20071,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -20070,7 +20119,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/11",
-      "daysLeft": 26,
+      "daysLeft": 27,
       "expirationDate": "2026-11-10",
       "packageExpirations": {
         "aoc": "2026-11-10"
@@ -20117,7 +20166,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "aoc": "2027-03-31"
@@ -20164,7 +20213,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/12",
-      "daysLeft": 71,
+      "daysLeft": 72,
       "expirationDate": "2026-12-25",
       "packageExpirations": {
         "aoc": "2026-12-25"
@@ -20210,7 +20259,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/03",
-      "daysLeft": 152,
+      "daysLeft": 153,
       "expirationDate": "2027-03-16",
       "packageExpirations": {
         "aoc": "2027-03-16"
@@ -20258,7 +20307,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -20305,7 +20354,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "aoc": "2027-03-31"
@@ -20355,7 +20404,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/12",
-      "daysLeft": 63,
+      "daysLeft": 64,
       "expirationDate": "2026-12-17",
       "packageExpirations": {
         "aoc": "2026-12-17"
@@ -20403,7 +20452,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "auc": "2026-12-31"
@@ -20472,7 +20521,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -20520,7 +20569,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -20615,7 +20664,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -20719,7 +20768,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "aoc": "2027-03-31"
@@ -20765,7 +20814,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 37,
+      "daysLeft": 38,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
@@ -20870,7 +20919,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/11",
-      "daysLeft": 26,
+      "daysLeft": 27,
       "expirationDate": "2026-11-10",
       "packageExpirations": {
         "aoc": "2026-11-10"
@@ -20917,7 +20966,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -21022,7 +21071,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -21068,7 +21117,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -21179,7 +21228,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/10",
-      "daysLeft": 15,
+      "daysLeft": 16,
       "expirationDate": "2026-10-30",
       "packageExpirations": {
         "aoc": "2026-10-30"
@@ -21269,7 +21318,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/11",
-      "daysLeft": 35,
+      "daysLeft": 36,
       "expirationDate": "2026-11-19",
       "packageExpirations": {
         "aoc": "2026-11-19"
@@ -21317,7 +21366,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/03",
-      "daysLeft": 152,
+      "daysLeft": 153,
       "expirationDate": "2027-03-16",
       "packageExpirations": {
         "aoc": "2027-03-16"
@@ -21415,7 +21464,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "aoc": "2027-03-31"
@@ -21463,7 +21512,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/11",
-      "daysLeft": 42,
+      "daysLeft": 43,
       "expirationDate": "2026-11-26",
       "packageExpirations": {
         "aoc": "2026-11-26"
@@ -21510,7 +21559,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/12",
-      "daysLeft": 61,
+      "daysLeft": 62,
       "expirationDate": "2026-12-15",
       "packageExpirations": {
         "aoc": "2026-12-15"
@@ -21558,7 +21607,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -21608,7 +21657,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/12",
-      "daysLeft": 73,
+      "daysLeft": 74,
       "expirationDate": "2026-12-27",
       "packageExpirations": {
         "aoc": "2026-12-27"
@@ -21656,7 +21705,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/12",
-      "daysLeft": 70,
+      "daysLeft": 71,
       "expirationDate": "2026-12-24",
       "packageExpirations": {
         "aoc": "2026-12-24"
@@ -21754,8 +21803,8 @@ const CATALOG_DATA = [
     "synopsis": "Quelque chose hante Andrea, mais personne, pas même elle, ne peut le voir à l’œil nu. Il y a vingt ans, à dix mille kilomètres de là, la même présence terrorisait Marie. Camila était la seule à pouvoir comprendre ce qui lui arrivait, mais personne ne les croyait. Face à cette menace oppressante, toutes trois entendent le même son écrasant : un cri.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 9 j",
-      "daysLeft": 9,
+      "label": "⏳ Expire dans 10 j",
+      "daysLeft": 10,
       "expirationDate": "2026-10-24",
       "packageExpirations": {
         "aoc": "2026-10-24"
@@ -21802,7 +21851,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "aoc": "2027-03-31"
@@ -21849,7 +21898,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/12",
-      "daysLeft": 54,
+      "daysLeft": 55,
       "expirationDate": "2026-12-08",
       "packageExpirations": {
         "aoc": "2026-12-08"
@@ -21993,7 +22042,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/11",
-      "daysLeft": 41,
+      "daysLeft": 42,
       "expirationDate": "2026-11-25",
       "packageExpirations": {
         "aoc": "2026-11-25"
@@ -22041,8 +22090,8 @@ const CATALOG_DATA = [
     "synopsis": "Pendant trois heures et demie, sous la pluie battante, dans la boue et les arbres brisés d'une plantation d'hévéas appelée Long Tan, le major Harry Smith et sa compagnie dispersée de 108 soldats australiens et néo-zélandais, jeunes et pour la plupart inexpérimentés, se battent pour leur vie, retenant une force ennemie écrasante de 2 500 soldats endurcis par la guerre, les Vietnamiens et les Nord-Vietnamiens. Leurs munitions étant épuisées, leurs pertes s'accumulant et l'ennemi rassemblé pour un assaut final, chaque homme commence à chercher la force de vaincre un avenir incertain avec honneur, décence et courage.",
     "expiration": {
       "status": "urgent",
-      "label": "⏳ Expire dans 2 j",
-      "daysLeft": 2,
+      "label": "⏳ Expire dans 3 j",
+      "daysLeft": 3,
       "expirationDate": "2026-10-17",
       "packageExpirations": {
         "aca": "2026-10-17"
@@ -22090,7 +22139,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -22144,7 +22193,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/11",
-      "daysLeft": 42,
+      "daysLeft": 43,
       "expirationDate": "2026-11-26",
       "packageExpirations": {
         "aoc": "2026-11-26"
@@ -22280,7 +22329,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/12",
-      "daysLeft": 49,
+      "daysLeft": 50,
       "expirationDate": "2026-12-03",
       "packageExpirations": {
         "aoc": "2026-12-03"
@@ -22327,7 +22376,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "auc": "2027-02-28"
@@ -22373,7 +22422,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "aoc": "2026-12-05"
@@ -22467,7 +22516,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -22600,7 +22649,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -22646,8 +22695,8 @@ const CATALOG_DATA = [
     "synopsis": "Alors qu’un ouragan arrive sur Grand Isle, Walter Franklin et sa séduisante épouse Fancy invitent Buddy, le jeune père de famille, qui réparait la clôture du jardin, à se réfugier à la nuit tombée dans leur grande maison victorienne. Quand le lendemain, ce dernier va être suspecté de meurtre par la police, tous les événements de la nuit vont remonter à la surface, révélant de sombres secrets.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
+      "label": "⏳ Expire dans 5 j",
+      "daysLeft": 5,
       "expirationDate": "2026-10-19",
       "packageExpirations": {
         "aca": "2026-10-19"
@@ -22693,8 +22742,8 @@ const CATALOG_DATA = [
     "synopsis": "1965, aube de la guerre du Vietnam. Lors d'une mission secrète, Dieter Dengler, pilote de l'armée américaine, est abattu au-dessus du Laos. Retenu en pleine jungle, l'ennemi lui inflige les pires tortures et humiliations. Décidé à lutter pour sa survie, Dieter organise une évasion…",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 9 j",
-      "daysLeft": 9,
+      "label": "⏳ Expire dans 10 j",
+      "daysLeft": 10,
       "expirationDate": "2026-10-24",
       "packageExpirations": {
         "aca": "2026-10-24"
@@ -22740,7 +22789,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/11",
-      "daysLeft": 19,
+      "daysLeft": 20,
       "expirationDate": "2026-11-03",
       "packageExpirations": {
         "aoc": "2026-11-03"
@@ -22788,7 +22837,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/03",
-      "daysLeft": 152,
+      "daysLeft": 153,
       "expirationDate": "2027-03-16",
       "packageExpirations": {
         "aoc": "2027-03-16"
@@ -22877,7 +22926,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/11",
-      "daysLeft": 23,
+      "daysLeft": 24,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "aoc": "2026-11-07"
@@ -22924,7 +22973,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "aoc": "2027-03-31"
@@ -22970,7 +23019,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/12",
-      "daysLeft": 54,
+      "daysLeft": 55,
       "expirationDate": "2026-12-08",
       "packageExpirations": {
         "aoc": "2026-12-08"
@@ -23018,7 +23067,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -23113,7 +23162,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -23160,7 +23209,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "aoc": "2027-03-31"
@@ -23208,7 +23257,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/12",
-      "daysLeft": 58,
+      "daysLeft": 59,
       "expirationDate": "2026-12-12",
       "packageExpirations": {
         "aoc": "2026-12-12"
@@ -23253,9 +23302,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/335066805/s592/invention-2025.jpg",
     "synopsis": "Après la mort inattendue de son père conspirationniste, sa fille reçoit comme héritage le brevet d’une étrange machine médicale de guérison. C’est à travers la découverte de cette invention et de la rencontre avec celles et ceux qui connaissaient son père qu’elle va peu à peu faire son deuil.",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 14 j",
-      "daysLeft": 14,
+      "status": "info",
+      "label": "📅 Jusqu'au 29/10",
+      "daysLeft": 15,
       "expirationDate": "2026-10-29",
       "packageExpirations": {
         "aoc": "2026-10-29"
@@ -23305,7 +23354,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -23408,7 +23457,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -23459,7 +23508,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28",
@@ -23555,7 +23604,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/11",
-      "daysLeft": 28,
+      "daysLeft": 29,
       "expirationDate": "2026-11-12",
       "packageExpirations": {
         "aoc": "2026-11-12"
@@ -23603,7 +23652,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -23651,7 +23700,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "auc": "2026-10-31"
@@ -23802,7 +23851,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/01",
-      "daysLeft": 89,
+      "daysLeft": 90,
       "expirationDate": "2027-01-12",
       "packageExpirations": {
         "aoc": "2027-01-12"
@@ -23848,7 +23897,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -23897,7 +23946,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -23951,7 +24000,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/12",
-      "daysLeft": 73,
+      "daysLeft": 74,
       "expirationDate": "2026-12-27",
       "packageExpirations": {
         "aoc": "2026-12-27"
@@ -24051,7 +24100,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "auc": "2027-01-31"
@@ -24098,7 +24147,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -24144,7 +24193,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 37,
+      "daysLeft": 38,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
@@ -24192,7 +24241,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -24238,7 +24287,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "aoc": "2027-03-31"
@@ -24286,7 +24335,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/12",
-      "daysLeft": 72,
+      "daysLeft": 73,
       "expirationDate": "2026-12-26",
       "packageExpirations": {
         "aoc": "2026-12-26"
@@ -24333,7 +24382,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 50,
+      "daysLeft": 51,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
@@ -24430,7 +24479,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/11",
-      "daysLeft": 44,
+      "daysLeft": 45,
       "expirationDate": "2026-11-28",
       "packageExpirations": {
         "aoc": "2026-11-28"
@@ -24478,7 +24527,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -24524,7 +24573,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "aoc": "2027-03-31"
@@ -24618,7 +24667,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -24664,7 +24713,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -24712,7 +24761,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/12",
-      "daysLeft": 47,
+      "daysLeft": 48,
       "expirationDate": "2026-12-01",
       "packageExpirations": {
         "aoc": "2026-12-01"
@@ -24758,8 +24807,8 @@ const CATALOG_DATA = [
     "synopsis": "Ethan, 17 ans, devient apprenti-jockey dans une écurie d’obstacles, l’épreuve la plus violente du galop. Au contact des purs-sangs, il découvre le monde des courses, des paris et de l’argent. Sa passion grandit, sa frustration aussi. Courir pour gagner, mais toujours au service des autres. Bientôt il devra choisir : transgresser les règles ou sauver sa peau.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 6 j",
-      "daysLeft": 6,
+      "label": "⏳ Expire dans 7 j",
+      "daysLeft": 7,
       "expirationDate": "2026-10-21",
       "packageExpirations": {
         "aoc": "2026-10-21"
@@ -25013,7 +25062,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -25115,7 +25164,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 50,
+      "daysLeft": 51,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "aoc": "2026-12-04"
@@ -25163,7 +25212,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -25210,7 +25259,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/01",
-      "daysLeft": 94,
+      "daysLeft": 95,
       "expirationDate": "2027-01-17",
       "packageExpirations": {
         "aoc": "2027-01-17"
@@ -25258,7 +25307,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "aoc": "2026-12-05"
@@ -25306,7 +25355,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -25353,7 +25402,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -25401,7 +25450,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -25499,7 +25548,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -25547,7 +25596,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -25594,7 +25643,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/12",
-      "daysLeft": 47,
+      "daysLeft": 48,
       "expirationDate": "2026-12-01",
       "packageExpirations": {
         "aoc": "2026-12-01"
@@ -25643,7 +25692,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 76,
+      "daysLeft": 77,
       "expirationDate": "2026-12-30",
       "packageExpirations": {
         "aoc": "2026-12-30"
@@ -25823,7 +25872,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -25870,7 +25919,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -25917,7 +25966,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "aoc": "2027-03-31"
@@ -25965,7 +26014,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -26013,7 +26062,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -26060,7 +26109,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -26108,7 +26157,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -26200,7 +26249,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/11",
-      "daysLeft": 22,
+      "daysLeft": 23,
       "expirationDate": "2026-11-06",
       "packageExpirations": {
         "aoc": "2026-11-06"
@@ -26293,7 +26342,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -26341,7 +26390,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/11",
-      "daysLeft": 23,
+      "daysLeft": 24,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "aoc": "2026-11-07"
@@ -26479,7 +26528,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "aoc": "2026-12-05"
@@ -26527,7 +26576,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -26575,7 +26624,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -26666,7 +26715,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -26757,7 +26806,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "aoc": "2027-03-31"
@@ -26804,7 +26853,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -26995,7 +27044,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -27137,7 +27186,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/12",
-      "daysLeft": 48,
+      "daysLeft": 49,
       "expirationDate": "2026-12-02",
       "packageExpirations": {
         "aoc": "2026-12-02"
@@ -27184,7 +27233,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -27231,7 +27280,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "auc": "2026-11-30"
@@ -27278,7 +27327,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "auc": "2026-12-31"
@@ -27327,7 +27376,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -27376,7 +27425,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/12",
-      "daysLeft": 64,
+      "daysLeft": 65,
       "expirationDate": "2026-12-18",
       "packageExpirations": {
         "aoc": "2026-12-18"
@@ -27469,7 +27518,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -27517,7 +27566,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -27716,7 +27765,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/11",
-      "daysLeft": 44,
+      "daysLeft": 45,
       "expirationDate": "2026-11-28",
       "packageExpirations": {
         "aoc": "2026-11-28"
@@ -27765,7 +27814,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -27873,7 +27922,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -27920,7 +27969,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/01",
-      "daysLeft": 89,
+      "daysLeft": 90,
       "expirationDate": "2027-01-12",
       "packageExpirations": {
         "aoc": "2027-01-12"
@@ -27969,7 +28018,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -28158,7 +28207,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -28298,7 +28347,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -28502,7 +28551,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "auc": "2027-01-31"
@@ -28724,7 +28773,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/11",
-      "daysLeft": 35,
+      "daysLeft": 36,
       "expirationDate": "2026-11-19",
       "packageExpirations": {
         "aoc": "2026-11-19"
@@ -28825,7 +28874,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/11",
-      "daysLeft": 21,
+      "daysLeft": 22,
       "expirationDate": "2026-11-05",
       "packageExpirations": {
         "aoc": "2026-11-05"
@@ -28873,7 +28922,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -28968,7 +29017,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 25/12",
-      "daysLeft": 71,
+      "daysLeft": 72,
       "expirationDate": "2026-12-25",
       "packageExpirations": {
         "aoc": "2026-12-25"
@@ -29015,7 +29064,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -29059,7 +29108,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -29154,7 +29203,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "aoc": "2027-03-31"
@@ -29202,7 +29251,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -29249,7 +29298,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -29344,7 +29393,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "aoc": "2027-03-31"
@@ -29488,7 +29537,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "auc": "2027-03-31"
@@ -29535,7 +29584,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -29670,7 +29719,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -29772,7 +29821,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -29820,7 +29869,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -29969,8 +30018,8 @@ const CATALOG_DATA = [
     "synopsis": "À l’aube de la cinquantaine, Laure ne supporte plus rien : ni son travail, ni son mari Daniel…ni sa vie. Le seul être qui trouve grâce à ses yeux et constitue son seul allié est Max, son chat.  Lorsque ses amis de toujours débarquent à la campagne pour fêter l’anniversaire de Daniel et que Max le chat disparaît, Laure disjoncte…et se met à enquêter. Qui a fait disparaître Max ? Qui est le coupable ? Laure n’est pas au bout de ses surprises.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
+      "label": "⏳ Expire dans 5 j",
+      "daysLeft": 5,
       "expirationDate": "2026-10-19",
       "packageExpirations": {
         "aoc": "2026-10-19"
@@ -30019,7 +30068,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -30063,8 +30112,8 @@ const CATALOG_DATA = [
     "synopsis": "Indochine, 1931. Dans le Golfe du Siam, au bord de l'Océan Pacifique, une mère survit tant bien que mal avec ses deux enfants, Joseph (20 ans) et Suzanne (16 ans), qu'elle voit grandir et dont elle sait le départ inéluctable. Abusée par l'administration coloniale, elle a investi toutes ses économies dans une terre régulièrement inondée, donc incultivable. Se battant contre les bureaucrates corrompus qui l'ont escroquée, et qui menacent à présent de l'expulser, elle met toute son énergie dans un projet fou : construire un barrage contre la mer avec l'aide des paysans du village. Ruinée et obsédée par son entreprise, elle laisse à Joseph et Suzanne une liberté quasi-totale. C'est alors que M. Jo, fils d'un riche homme d'affaires chinois tombe sous le charme de Suzanne. La famille va tenter d'en tirer profit...",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
+      "label": "⏳ Expire dans 5 j",
+      "daysLeft": 5,
       "expirationDate": "2026-10-19",
       "packageExpirations": {
         "aoc": "2026-10-19"
@@ -30110,7 +30159,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -30155,7 +30204,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -30249,7 +30298,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -30434,7 +30483,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -30533,7 +30582,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "auc": "2027-03-31"
@@ -30624,7 +30673,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/10",
-      "daysLeft": 15,
+      "daysLeft": 16,
       "expirationDate": "2026-10-30",
       "packageExpirations": {
         "aoc": "2026-10-30"
@@ -30672,7 +30721,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -30904,7 +30953,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -31000,7 +31049,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/01",
-      "daysLeft": 89,
+      "daysLeft": 90,
       "expirationDate": "2027-01-12",
       "packageExpirations": {
         "aoc": "2027-01-12"
@@ -31047,7 +31096,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/11",
-      "daysLeft": 33,
+      "daysLeft": 34,
       "expirationDate": "2026-11-17",
       "packageExpirations": {
         "aoc": "2026-11-17"
@@ -31095,7 +31144,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -31143,7 +31192,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/01",
-      "daysLeft": 89,
+      "daysLeft": 90,
       "expirationDate": "2027-01-12",
       "packageExpirations": {
         "aoc": "2027-01-12"
@@ -31191,7 +31240,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -31282,7 +31331,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "auc": "2027-03-31"
@@ -31373,7 +31422,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/03",
-      "daysLeft": 166,
+      "daysLeft": 167,
       "expirationDate": "2027-03-30",
       "packageExpirations": {
         "auc": "2027-03-30"
@@ -31421,7 +31470,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "auc": "2027-03-31"
@@ -31470,7 +31519,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "auc": "2026-12-31"
@@ -31708,7 +31757,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -31754,7 +31803,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -31800,7 +31849,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 60,
+      "daysLeft": 61,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "aoc": "2026-12-14"
@@ -31944,7 +31993,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -31993,7 +32042,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/11",
-      "daysLeft": 35,
+      "daysLeft": 36,
       "expirationDate": "2026-11-19",
       "packageExpirations": {
         "aoc": "2026-11-19"
@@ -32222,7 +32271,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -32271,7 +32320,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -32315,7 +32364,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "auc": "2027-03-31"
@@ -32417,7 +32466,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/11",
-      "daysLeft": 26,
+      "daysLeft": 27,
       "expirationDate": "2026-11-10",
       "packageExpirations": {
         "aoc": "2026-11-10"
@@ -32464,7 +32513,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/01",
-      "daysLeft": 81,
+      "daysLeft": 82,
       "expirationDate": "2027-01-04",
       "packageExpirations": {
         "aoc": "2027-01-04"
@@ -32661,7 +32710,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -32854,7 +32903,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -32902,7 +32951,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -33092,7 +33141,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -33281,7 +33330,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "auc": "2027-03-31"
@@ -33374,7 +33423,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -33424,7 +33473,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -33670,7 +33719,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "aoc": "2027-03-31"
@@ -33680,6 +33729,54 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2022,
     "date_ajout": "2026-04-20"
+  },
+  {
+    "id": "jw-tm271360",
+    "titre": "Børning 2 - On ice",
+    "type": "film",
+    "chaine": "Action Max",
+    "chaines": [
+      "Action Max"
+    ],
+    "logo_chaine": "assets/logos/action.png",
+    "logos_chaine": [
+      "assets/logos/action.png"
+    ],
+    "package_slugs": [
+      "aca"
+    ],
+    "annee": 2016,
+    "duree": "1h 37min",
+    "runtime_minutes": 97,
+    "note_avis": 5.9,
+    "note_recence": 7,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "action_aventure"
+    ],
+    "raw_genres": [
+      "act",
+      "cmy",
+      "eur"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/300725601/s592/racers.jpg",
+    "synopsis": "Lorsque Roy Gundersen libéré de prison après deux ans pour participer à une course de rue illégale, il est déterminé à reprendre sa vie sur la bonne voie. Il a atteint le fond, en faillite, et pour tenter d'améliorer sa vie et être un bon modèle pour sa fille Nina, il commence à travailler à une station d'essence. Lorsque la petite amie enceinte de Roy organise une fête « de prison », certains de ses anciens ennemis de la course montre et le défie de faire partie d'une nouvelle course. De Fosnavåg, puis par la Suède et la Finlande avant qu'elle ne se termine à Mourmansk. Roy refuse. Il essaie de rester sur le terrain et préfèrent passer leur temps avec Nina que des courses en cours d'exécution. Mais quand Roy découvre que Nina sera impliqué dans sur sa tête avec son petit ami Charlie, il doit essayer de l'arrêter. Il devient sauvage et difficile; sur les montagnes, les routes glissantes et des lacs glacés.",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire demain",
+      "daysLeft": 1,
+      "expirationDate": "2026-10-15",
+      "packageExpirations": {
+        "aca": "2026-10-15"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false,
+    "annee_moyenne": 2016,
+    "date_ajout": "2020-01-02"
   },
   {
     "id": "jw-tm420339",
@@ -33718,7 +33815,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "auc": "2027-03-31"
@@ -33765,7 +33862,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/12",
-      "daysLeft": 61,
+      "daysLeft": 62,
       "expirationDate": "2026-12-15",
       "packageExpirations": {
         "aoc": "2026-12-15"
@@ -33858,7 +33955,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -33954,7 +34051,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "auc": "2027-03-31"
@@ -34002,7 +34099,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -34190,7 +34287,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -34249,7 +34346,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -34395,7 +34492,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "auc": "2027-03-31"
@@ -34445,7 +34542,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -34493,7 +34590,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -34539,7 +34636,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/03",
-      "daysLeft": 152,
+      "daysLeft": 153,
       "expirationDate": "2027-03-16",
       "packageExpirations": {
         "aoc": "2027-03-16"
@@ -34588,7 +34685,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -34637,7 +34734,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -34683,7 +34780,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/11",
-      "daysLeft": 19,
+      "daysLeft": 20,
       "expirationDate": "2026-11-03",
       "packageExpirations": {
         "aoc": "2026-11-03"
@@ -34731,7 +34828,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -34935,8 +35032,8 @@ const CATALOG_DATA = [
     "synopsis": "Les cadeaux… La plupart d’entre nous les attendent avec impatience. D’autres les redoutent, voire les oublient. A deux jours de Noël, chez les Stain, on redouble d'idées mais elles sont loin d'être toutes bonnes. Et si le pire cadeau était encore à venir ?",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 9 j",
-      "daysLeft": 9,
+      "label": "⏳ Expire dans 10 j",
+      "daysLeft": 10,
       "expirationDate": "2026-10-24",
       "packageExpirations": {
         "aoc": "2026-10-24"
@@ -35030,7 +35127,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -35078,7 +35175,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -35125,7 +35222,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "aoc": "2027-03-31"
@@ -35171,8 +35268,8 @@ const CATALOG_DATA = [
     "synopsis": "À Paris, Gabriel, la trentaine, élève seul sa fille Juliette. Ancien flic retiré des affaires suite à un drame personnel, l’homme a du mal à joindre les deux bouts. Un jour, une ancienne connaissance lui propose un travail bien rémunéré. S’il accepte le marché, Gabriel doit livrer des mallettes à travers le monde pour des commanditaires anonymes. Les termes du contrat sont clairs : il ne doit poser aucune question sur le contenu des valises et ne jamais essayer de les ouvrir. Intrigué et persuadé que ce job le fera sortir de son impasse financière, Gabriel se lance dans l’aventure. D'Istanbul à Bruges en passant par la Chine, il saute d’avion privé en avion privé avec sa mystérieuse cargaison. L’argent ne tarde pas à affluer. Gabriel est un homme pressé certes, mais riche. Si sa fille se plaint de ce père désormais absent, il ne peut enrayer une machine qui l’étouffe de plus en plus.",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 6 j",
-      "daysLeft": 6,
+      "label": "⏳ Expire dans 7 j",
+      "daysLeft": 7,
       "expirationDate": "2026-10-21",
       "packageExpirations": {
         "aca": "2026-10-21"
@@ -35219,7 +35316,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "auc": "2026-11-30"
@@ -35313,7 +35410,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -35360,7 +35457,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "auc": "2027-02-28"
@@ -35520,7 +35617,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 76,
+      "daysLeft": 77,
       "expirationDate": "2026-12-30",
       "packageExpirations": {
         "aoc": "2026-12-30"
@@ -35962,7 +36059,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/11",
-      "daysLeft": 42,
+      "daysLeft": 43,
       "expirationDate": "2026-11-26",
       "packageExpirations": {
         "aoc": "2026-11-26"
@@ -36010,7 +36107,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "auc": "2027-03-31"
@@ -36056,7 +36153,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/12",
-      "daysLeft": 49,
+      "daysLeft": 50,
       "expirationDate": "2026-12-03",
       "packageExpirations": {
         "aoc": "2026-12-03"
@@ -36193,7 +36290,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/02",
-      "daysLeft": 112,
+      "daysLeft": 113,
       "expirationDate": "2027-02-04",
       "packageExpirations": {
         "aoc": "2027-02-04"
@@ -36240,7 +36337,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -36287,7 +36384,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -36474,7 +36571,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -36522,7 +36619,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -36569,7 +36666,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -36663,7 +36760,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28"
@@ -36846,7 +36943,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -36939,7 +37036,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -36985,7 +37082,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "aoc": "2027-03-31"
@@ -37122,7 +37219,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/11",
-      "daysLeft": 33,
+      "daysLeft": 34,
       "expirationDate": "2026-11-17",
       "packageExpirations": {
         "aoc": "2026-11-17"
@@ -37168,7 +37265,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "aoc": "2027-03-31"
@@ -37214,7 +37311,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 167,
+      "daysLeft": 168,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "aoc": "2027-03-31"
@@ -37305,7 +37402,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/11",
-      "daysLeft": 44,
+      "daysLeft": 45,
       "expirationDate": "2026-11-28",
       "packageExpirations": {
         "aoc": "2026-11-28"
@@ -37454,7 +37551,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -37498,7 +37595,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/11",
-      "daysLeft": 25,
+      "daysLeft": 26,
       "expirationDate": "2026-11-09",
       "packageExpirations": {
         "aoc": "2026-11-09"
@@ -37545,7 +37642,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/12",
-      "daysLeft": 64,
+      "daysLeft": 65,
       "expirationDate": "2026-12-18",
       "packageExpirations": {
         "aoc": "2026-12-18"
@@ -37597,7 +37694,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 13/11",
-      "daysLeft": 29,
+      "daysLeft": 30,
       "expirationDate": "2026-11-13",
       "packageExpirations": {
         "aoc": "2026-11-13"
@@ -37690,7 +37787,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 13/12",
-      "daysLeft": 59,
+      "daysLeft": 60,
       "expirationDate": "2026-12-13",
       "packageExpirations": {
         "aoc": "2026-12-13"
@@ -37738,7 +37835,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -37786,7 +37883,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/11",
-      "daysLeft": 33,
+      "daysLeft": 34,
       "expirationDate": "2026-11-17",
       "packageExpirations": {
         "aoc": "2026-11-17"
@@ -37835,7 +37932,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -37890,7 +37987,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/11",
-      "daysLeft": 34,
+      "daysLeft": 35,
       "expirationDate": "2026-11-18",
       "packageExpirations": {
         "aoc": "2026-11-18"
@@ -37939,7 +38036,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/12",
-      "daysLeft": 56,
+      "daysLeft": 57,
       "expirationDate": "2026-12-10",
       "packageExpirations": {
         "aoc": "2026-12-10"
@@ -37987,7 +38084,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -38031,9 +38128,9 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/306391252/s592/borderland-2023.jpg",
     "synopsis": "Michael, un paramilitaire irlandais à la retraite, est témoin de l'assassinat de sa femme enceinte par le sergent britannique Tempest. Blessé et présumé mort, il s'échappe et se venge dans le Londres des années 1970. Brut et plein de suspense, le film est un thriller alimenté par l'adrénaline qui laissera le public peser le véritable coût de la vengeance.",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 14 j",
-      "daysLeft": 14,
+      "status": "info",
+      "label": "📅 Jusqu'au 29/10",
+      "daysLeft": 15,
       "expirationDate": "2026-10-29",
       "packageExpirations": {
         "aca": "2026-10-29"
@@ -38080,7 +38177,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/11",
-      "daysLeft": 35,
+      "daysLeft": 36,
       "expirationDate": "2026-11-19",
       "packageExpirations": {
         "aoc": "2026-11-19"
@@ -38128,7 +38225,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 30,
+      "daysLeft": 31,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -38176,7 +38273,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 20/11",
-      "daysLeft": 36,
+      "daysLeft": 37,
       "expirationDate": "2026-11-20",
       "packageExpirations": {
         "aoc": "2026-11-20"
@@ -38223,8 +38320,8 @@ const CATALOG_DATA = [
     "synopsis": "Dans une petite ville d'Alaska, le Shérif-adjoint Beckett et son frère Rowan commencent à s'inquiéter lorsque des corps sauvagement décapités sont retrouvés dans les bois. Beckett, craignant pour sa femme partie en forêt, se lance immédiatement à sa recherche avec l'aide de son frère. Mais l'expédition tourne vite au cauchemar lorsque leur route croise celle d'un redoutable prédateur...",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 13 j",
-      "daysLeft": 13,
+      "label": "⏳ Expire dans 14 j",
+      "daysLeft": 14,
       "expirationDate": "2026-10-28",
       "packageExpirations": {
         "aca": "2026-10-28"
@@ -38272,7 +38369,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -38316,7 +38413,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/01",
-      "daysLeft": 94,
+      "daysLeft": 95,
       "expirationDate": "2027-01-17",
       "packageExpirations": {
         "aoc": "2027-01-17"
@@ -38371,7 +38468,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 20/11",
-      "daysLeft": 36,
+      "daysLeft": 37,
       "expirationDate": "2026-11-20",
       "packageExpirations": {
         "aoc": "2026-11-20"
@@ -38419,7 +38516,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -38467,7 +38564,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -38515,7 +38612,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/12",
-      "daysLeft": 56,
+      "daysLeft": 57,
       "expirationDate": "2026-12-10",
       "packageExpirations": {
         "aoc": "2026-12-10"
@@ -38562,7 +38659,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 30,
+      "daysLeft": 31,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -38611,7 +38708,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/11",
-      "daysLeft": 18,
+      "daysLeft": 19,
       "expirationDate": "2026-11-02",
       "packageExpirations": {
         "aoc": "2026-11-02"
@@ -38750,7 +38847,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -38838,7 +38935,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -38886,7 +38983,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/12",
-      "daysLeft": 58,
+      "daysLeft": 59,
       "expirationDate": "2026-12-12",
       "packageExpirations": {
         "aoc": "2026-12-12"
@@ -38933,7 +39030,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -38982,7 +39079,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -39030,7 +39127,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -39079,7 +39176,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 37,
+      "daysLeft": 38,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
@@ -39127,7 +39224,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -39183,7 +39280,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -39231,7 +39328,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 30,
+      "daysLeft": 31,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "aoc": "2026-11-14"
@@ -39338,7 +39435,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 37,
+      "daysLeft": 38,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "aoc": "2026-11-21"
@@ -39385,7 +39482,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/11",
-      "daysLeft": 40,
+      "daysLeft": 41,
       "expirationDate": "2026-11-24",
       "packageExpirations": {
         "aoc": "2026-11-24"
@@ -39432,7 +39529,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -39481,7 +39578,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/11",
-      "daysLeft": 45,
+      "daysLeft": 46,
       "expirationDate": "2026-11-29",
       "packageExpirations": {
         "aoc": "2026-11-29"
@@ -39756,7 +39853,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/12",
-      "daysLeft": 54,
+      "daysLeft": 55,
       "expirationDate": "2026-12-08",
       "packageExpirations": {
         "aoc": "2026-12-08"
@@ -39804,7 +39901,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -39853,7 +39950,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -39899,7 +39996,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -39946,7 +40043,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/12",
-      "daysLeft": 56,
+      "daysLeft": 57,
       "expirationDate": "2026-12-10",
       "packageExpirations": {
         "aoc": "2026-12-10"
@@ -39996,7 +40093,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/01",
-      "daysLeft": 96,
+      "daysLeft": 97,
       "expirationDate": "2027-01-19",
       "packageExpirations": {
         "aoc": "2027-01-19"
@@ -40045,7 +40142,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 23/11",
-      "daysLeft": 39,
+      "daysLeft": 40,
       "expirationDate": "2026-11-23",
       "packageExpirations": {
         "aoc": "2026-11-23"
@@ -40092,7 +40189,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/11",
-      "daysLeft": 40,
+      "daysLeft": 41,
       "expirationDate": "2026-11-24",
       "packageExpirations": {
         "aoc": "2026-11-24"
@@ -40142,7 +40239,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/12",
-      "daysLeft": 47,
+      "daysLeft": 48,
       "expirationDate": "2026-12-01",
       "packageExpirations": {
         "aoc": "2026-12-01"
@@ -40241,9 +40338,9 @@ const CATALOG_DATA = [
     "synopsis": "Samuel vit sa vie sans attaches ni responsabilités, au bord de la mer sous le soleil du sud de la France, près des gens qu’il aime et avec qui il travaille sans trop se fatiguer. Jusqu’à ce qu’une de ses anciennes conquêtes lui laisse sur les bras un bébé de quelques mois, Gloria: sa fille! Incapable de s’occuper d’un bébé et bien décidé à rendre l’enfant à sa mère, Samuel se précipite à Londres pour tenter de la retrouver, sans succès. 8 ans plus tard, alors que Samuel et Gloria ont fait leur vie à Londres et sont devenus inséparables, la mère de Gloria revient dans leur vie pour récupérer sa fille…",
     "date_ajout": "2016-12-07",
     "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
+      "status": "warning",
+      "label": "⏳ Expire dans 4 j",
+      "daysLeft": 4,
       "expirationDate": "2026-10-18",
       "packageExpirations": {
         "aoc": "2026-10-18"
@@ -40291,7 +40388,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/11",
-      "daysLeft": 43,
+      "daysLeft": 44,
       "expirationDate": "2026-11-27",
       "packageExpirations": {
         "aoc": "2026-11-27"
@@ -40340,7 +40437,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/11",
-      "daysLeft": 21,
+      "daysLeft": 22,
       "expirationDate": "2026-11-05",
       "packageExpirations": {
         "aoc": "2026-11-05"
@@ -40378,7 +40475,7 @@ const CATALOG_DATA = [
     "raw_genres": [
       "cmy"
     ],
-    "badge": "18",
+    "badge": "12",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/10624269/s592/nos-pires-voisins.jpg",
     "synopsis": "Un jeune couple avec un bébé se voit contraint de faire face suite aux difficultés rencontrées avec leurs voisins, membres d'une maison de fraternité",
@@ -40386,7 +40483,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/11",
-      "daysLeft": 34,
+      "daysLeft": 35,
       "expirationDate": "2026-11-18",
       "packageExpirations": {
         "aoc": "2026-11-18"
@@ -40434,7 +40531,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/11",
-      "daysLeft": 42,
+      "daysLeft": 43,
       "expirationDate": "2026-11-26",
       "packageExpirations": {
         "aoc": "2026-11-26"
@@ -40481,7 +40578,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/12",
-      "daysLeft": 72,
+      "daysLeft": 73,
       "expirationDate": "2026-12-26",
       "packageExpirations": {
         "aoc": "2026-12-26"
@@ -40529,7 +40626,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 23/11",
-      "daysLeft": 39,
+      "daysLeft": 40,
       "expirationDate": "2026-11-23",
       "packageExpirations": {
         "aoc": "2026-11-23"
@@ -40576,7 +40673,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -40634,7 +40731,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/11",
-      "daysLeft": 17,
+      "daysLeft": 18,
       "expirationDate": "2026-11-01",
       "packageExpirations": {
         "auc": "2026-11-01"
@@ -40681,7 +40778,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -40729,7 +40826,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/11",
-      "daysLeft": 34,
+      "daysLeft": 35,
       "expirationDate": "2026-11-18",
       "packageExpirations": {
         "aoc": "2026-11-18"
@@ -40778,7 +40875,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/11",
-      "daysLeft": 42,
+      "daysLeft": 43,
       "expirationDate": "2026-11-26",
       "packageExpirations": {
         "aoc": "2026-11-26"
@@ -40827,7 +40924,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -40875,7 +40972,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/11",
-      "daysLeft": 32,
+      "daysLeft": 33,
       "expirationDate": "2026-11-16",
       "packageExpirations": {
         "aoc": "2026-11-16"
@@ -40924,7 +41021,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/11",
-      "daysLeft": 43,
+      "daysLeft": 44,
       "expirationDate": "2026-11-27",
       "packageExpirations": {
         "aoc": "2026-11-27"
@@ -40971,7 +41068,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/11",
-      "daysLeft": 44,
+      "daysLeft": 45,
       "expirationDate": "2026-11-28",
       "packageExpirations": {
         "aoc": "2026-11-28"
@@ -41018,8 +41115,8 @@ const CATALOG_DATA = [
     "date_ajout": "2026-05-11",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 6 j",
-      "daysLeft": 6,
+      "label": "⏳ Expire dans 7 j",
+      "daysLeft": 7,
       "expirationDate": "2026-10-21",
       "packageExpirations": {
         "aoc": "2026-10-21"
@@ -41067,7 +41164,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -41115,7 +41212,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/12",
-      "daysLeft": 62,
+      "daysLeft": 63,
       "expirationDate": "2026-12-16",
       "packageExpirations": {
         "aoc": "2026-12-16"
@@ -41165,7 +41262,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -41212,7 +41309,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 18/11",
-      "daysLeft": 34,
+      "daysLeft": 35,
       "expirationDate": "2026-11-18",
       "packageExpirations": {
         "aoc": "2026-11-18"
@@ -41238,8 +41335,8 @@ const CATALOG_DATA = [
     ],
     "annee": 2015,
     "annee_moyenne": 2015,
-    "duree": "2h 11min",
-    "runtime_minutes": 131,
+    "duree": "2h 10min",
+    "runtime_minutes": 130,
     "note_avis": 7.8,
     "note_recence": 6.7,
     "note_globale": 7.3,
@@ -41260,7 +41357,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -41314,7 +41411,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 26/12",
-      "daysLeft": 72,
+      "daysLeft": 73,
       "expirationDate": "2026-12-26",
       "packageExpirations": {
         "aoc": "2026-12-26"
@@ -41362,7 +41459,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/11",
-      "daysLeft": 22,
+      "daysLeft": 23,
       "expirationDate": "2026-11-06",
       "packageExpirations": {
         "auc": "2026-11-06"
@@ -41408,7 +41505,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 23/12",
-      "daysLeft": 69,
+      "daysLeft": 70,
       "expirationDate": "2026-12-23",
       "packageExpirations": {
         "aoc": "2026-12-23"
@@ -41456,7 +41553,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/11",
-      "daysLeft": 43,
+      "daysLeft": 44,
       "expirationDate": "2026-11-27",
       "packageExpirations": {
         "aoc": "2026-11-27"
@@ -41504,7 +41601,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 51,
+      "daysLeft": 52,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -41552,7 +41649,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/11",
-      "daysLeft": 44,
+      "daysLeft": 45,
       "expirationDate": "2026-11-28",
       "packageExpirations": {
         "aoc": "2026-11-28"
@@ -41598,7 +41695,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/11",
-      "daysLeft": 40,
+      "daysLeft": 41,
       "expirationDate": "2026-11-24",
       "packageExpirations": {
         "aoc": "2026-11-24"
@@ -41646,7 +41743,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/11",
-      "daysLeft": 23,
+      "daysLeft": 24,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "aca": "2026-11-07"
@@ -41694,7 +41791,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/11",
-      "daysLeft": 43,
+      "daysLeft": 44,
       "expirationDate": "2026-11-27",
       "packageExpirations": {
         "aoc": "2026-11-27"
@@ -41742,7 +41839,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aoc": "2026-11-30"
@@ -41790,7 +41887,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/11",
-      "daysLeft": 23,
+      "daysLeft": 24,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "aoc": "2026-11-07"
@@ -41839,7 +41936,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/11",
-      "daysLeft": 38,
+      "daysLeft": 39,
       "expirationDate": "2026-11-22",
       "packageExpirations": {
         "aoc": "2026-11-22"
@@ -41889,7 +41986,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/11",
-      "daysLeft": 43,
+      "daysLeft": 44,
       "expirationDate": "2026-11-27",
       "packageExpirations": {
         "aoc": "2026-11-27"
@@ -41915,8 +42012,8 @@ const CATALOG_DATA = [
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
+    "duree": "1h 32min",
+    "runtime_minutes": 92,
     "note_avis": 6.6,
     "note_recence": 9.1,
     "note_globale": 7.9,
@@ -41935,7 +42032,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/11",
-      "daysLeft": 25,
+      "daysLeft": 26,
       "expirationDate": "2026-11-09",
       "packageExpirations": {
         "aoc": "2026-11-09"
@@ -41984,7 +42081,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "aoc": "2026-10-31"
@@ -41992,221 +42089,6 @@ const CATALOG_DATA = [
     },
     "on_prime": false,
     "on_tnt": false
-  },
-  {
-    "id": "jw-ts76876",
-    "titre": "9-1-1",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2022,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 7.8
-      },
-      {
-        "saison": 9,
-        "annee": 2025,
-        "note": 7.8
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 7.8,
-    "note_recence": 8.8,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/301433491/s592/9-1-1.jpg",
-    "synopsis": "Du service d'appels d'urgences 911 aux pompiers, secouristes ou policiers, tous ces intervenants sont constamment sous pression, confrontés quotidiennement à des situations stupéfiantes, effrayantes, et parfois même choquantes. S'ils ont pour mission de voler au secours des personnes en danger, ces héros de l'ombre doivent aussi trouver le temps de résoudre les problèmes de leurs propres vies…",
-    "date_ajout": "2021-02-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2025
-  },
-  {
-    "id": "jw-ts81342",
-    "titre": "The Rookie : Le flic de Los Angeles",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2022,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 8
-      },
-      {
-        "saison": 2,
-        "annee": 2019,
-        "note": 8
-      },
-      {
-        "saison": 3,
-        "annee": 2021,
-        "note": 8
-      },
-      {
-        "saison": 4,
-        "annee": 2021,
-        "note": 8
-      },
-      {
-        "saison": 5,
-        "annee": 2022,
-        "note": 8
-      },
-      {
-        "saison": 6,
-        "annee": 2024,
-        "note": 8
-      },
-      {
-        "saison": 7,
-        "annee": 2025,
-        "note": 8
-      },
-      {
-        "saison": 8,
-        "annee": 2026,
-        "note": 8
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 8,
-    "note_recence": 8.8,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm",
-      "drm"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/347280212/s592/the-rookie-le-flic-de-los-angeles.jpg",
-    "synopsis": "John Nolan, le rookie le plus âgé du LAPD, utilise son expérience de vie, sa détermination et son sens de l’humour pour suivre des recrues âgées de 20 ans de moins que lui.",
-    "date_ajout": "2025-04-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2026
-  },
-  {
-    "id": "jw-ts279807",
-    "titre": "Tracker",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 7.2
-      },
-      {
-        "saison": 2,
-        "annee": 2024,
-        "note": 7.2
-      },
-      {
-        "saison": 3,
-        "annee": 2025,
-        "note": 7.2
-      }
-    ],
-    "duree": "41 min/ép.",
-    "runtime_minutes": 41,
-    "note_avis": 7.2,
-    "note_recence": 9.7,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/347280239/s592/tracker.jpg",
-    "synopsis": "Colter Shaw est un loup solitaire, qui parcourt le pays à bord de son camping-car, utilisant ses talents de pisteur pour aider les particuliers et les forces de l'ordre à résoudre toutes sortes de crimes ou à retrouver les personnes disparues.",
-    "date_ajout": "2024-04-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "mlt": "2026-10-21"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2025
   },
   {
     "id": "jw-tm68148",
@@ -42255,252 +42137,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts21218",
-    "titre": "Mentalist",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2011,
-    "annee_moyenne": 2012,
-    "saisons_disponibles": [
-      {
-        "saison": 4,
-        "annee": 2011,
-        "note": 8.2
-      },
-      {
-        "saison": 5,
-        "annee": 2012,
-        "note": 8.2
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 8.2,
-    "note_recence": 5.8,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/305491985/s592/the-mentalist.jpg",
-    "synopsis": "Un mentaliste utilise ses extraordinaires dons d'observation pour résoudre des crimes en tant que consultant du CBI. Une façon pour lui de contribuer à la justice et de démasquer le mystérieux tueur en série qui a assassiné son épouse et sa fille…",
-    "date_ajout": "2010-03-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "mlt": "2026-10-15"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": true,
-    "annee_fin": 2012
-  },
-  {
-    "id": "jw-ts12",
-    "titre": "The Big Bang Theory",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2009,
-    "annee_moyenne": 2010,
-    "saisons_disponibles": [
-      {
-        "saison": 3,
-        "annee": 2009,
-        "note": 8.1
-      },
-      {
-        "saison": 4,
-        "annee": 2010,
-        "note": 8.1
-      }
-    ],
-    "duree": "20 min/ép.",
-    "runtime_minutes": 20,
-    "note_avis": 8.1,
-    "note_recence": 5.2,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/111372081/s592/the-big-bang-theory.jpg",
-    "synopsis": "Leonard et Sheldon pourraient vous dire tout ce que vous voudriez savoir à propos de la physique quantique. Mais ils seraient bien incapables de vous expliquer quoi que ce soit sur la vie « réelle », le quotidien ou les relations humaines… Mais tout va changer avec l'arrivée de la superbe Penny, leur voisine. Ce petit bout de femme, actrice à ses heures et serveuse pour le beurre, va devenir leur professeur de vie !",
-    "date_ajout": "2011-04-25",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 2 j",
-      "daysLeft": 2,
-      "expirationDate": "2026-10-17",
-      "packageExpirations": {
-        "mlt": "2026-10-17"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_fin": 2010
-  },
-  {
-    "id": "jw-ts287233",
-    "titre": "Hacks",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 3,
-        "annee": 2024,
-        "note": 8.3
-      },
-      {
-        "saison": 4,
-        "annee": 2025,
-        "note": 8.3
-      },
-      {
-        "saison": 5,
-        "annee": 2026,
-        "note": 8.3
-      }
-    ],
-    "duree": "33 min/ép.",
-    "runtime_minutes": 33,
-    "note_avis": 8.3,
-    "note_recence": 9.7,
-    "note_globale": 9,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/331577155/s592/hacks.jpg",
-    "synopsis": "Une jeune scénariste égocentrique et une légende de la comédie sur le déclin doivent surmonter leurs différences pour sauver leur carrière.",
-    "date_ajout": "2024-02-19",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2026
-  },
-  {
-    "id": "jw-ts22337",
-    "titre": "NCIS : Enquêtes Spéciales",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2014,
-    "annee_fin": 2015,
-    "annee_moyenne": 2015,
-    "saisons_disponibles": [
-      {
-        "saison": 12,
-        "annee": 2014,
-        "note": 7.8
-      },
-      {
-        "saison": 13,
-        "annee": 2015,
-        "note": 7.8
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 7.8,
-    "note_recence": 6.7,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/346524851/s592/ncis-enquetes-speciales.jpg",
-    "synopsis": "L'agent spécial Leroy Jethro Gibbs, de la Section criminelle de la Gendarmerie maritime, dirige un groupe de personnes aux personnalités colorées qui enquête sur les crimes. Ceux-ci vont du meurtre et de l'espionnage au terrorisme, et sont reliés de manière assurée au personnel du corps de la Marine. L'équipe est composée d'Anthony DiNozzo, un ex-inspecteur plein d'esprit spécialisé en homicides, d'Abby Sciuto, l'excentrique spécialiste d'enquête en technique de laboratoire, de Timothy McGee, brillant lorsqu'inquiet, et de Ziva David, ex-officier de liaison du Mossad. Le Dr Donald \"Ducky\" Mallard contribue à la résolution de cas grâce à sa grande expérience dans le domaine de la médecine légale.",
-    "date_ajout": "2014-09-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "mlt": "2026-10-15"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm136262",
     "titre": "The Invitation",
     "type": "film",
@@ -42547,408 +42183,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts455573",
-    "titre": "Dear You",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 6.5
-      }
-    ],
-    "duree": "22 min/ép.",
-    "runtime_minutes": 22,
-    "note_avis": 6.5,
-    "note_recence": 9.7,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/355363697/s592/dear-you.jpg",
-    "synopsis": "Alma, jeune parisienne, travaille dans un palace. Entre les exigences parfois farfelues de ses prestigieux clients, les rapports compliqués avec ses collègues et les histoires de cœur délirantes de ses potes, elle n’a juste pas le temps de rencontrer quelqu’un. Mais dans la ville de l’Amour, rien n’est impossible… comme attirer l’attention d’Alex, le millionnaire sexy mais arrogant qui s’est installé à l’hôtel. Ou se rapprocher de Naïm, le barman cool qui vient d’être embauché. Ou encore sexter avec Mr Nobody, mystérieux interlocuteur rencontré sur l’appli \"Dear You\", dont Alma ignore l’identité… mais qui est peut-être plus proche qu’elle ne le pense. Et quand elle se retrouve mêlée au secret de la disparition d’une cliente, la vie d’Alma devient définitivement mouvementée…",
-    "date_ajout": "2025-02-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts21465",
-    "titre": "Supernatural",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2008,
-    "annee_moyenne": 2008,
-    "saisons_disponibles": [
-      {
-        "saison": 4,
-        "annee": 2008,
-        "note": 8.4
-      }
-    ],
-    "duree": "45 min/ép.",
-    "runtime_minutes": 45,
-    "note_avis": 8.4,
-    "note_recence": 4.6,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "fnt",
-      "hrr",
-      "trl",
-      "scf"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/289857683/s592/supernatural.jpg",
-    "synopsis": "Deux frères, Sam et Dean Winchester, chasseurs de créatures surnaturelles, sillonnent les États-Unis à bord d'une Chevrolet Impala noire de 1967 et enquêtent sur des phénomènes paranormaux (souvent issus du folklore, des superstitions, mythes et légendes urbaines américaines, mais aussi des monstres surnaturels tels que les fantômes, loups-garous, démons, vampires…).",
-    "date_ajout": "2018-09-26",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 2 j",
-      "daysLeft": 2,
-      "expirationDate": "2026-10-17",
-      "packageExpirations": {
-        "mlt": "2026-10-17"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm166586",
-    "titre": "Prisoners",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "2h 33min",
-    "runtime_minutes": 153,
-    "note_avis": 8.2,
-    "note_recence": 6.1,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/268467495/s592/prisoners.jpg",
-    "synopsis": "Dans la banlieue de Boston, deux fillettes de 6 ans, Anna et Joy, ont disparu. Le détective Loki privilégie la thèse du kidnapping suite au témoignage de Keller, le père d’Anna. Le suspect numéro 1 est rapidement arrêté mais est relâché quelques jours plus tard faute de preuve, entrainant la fureur de Keller. Aveuglé par sa douleur, le père dévasté se lance alors dans une course contre la montre pour retrouver les enfants disparus. De son côté, Loki essaie de trouver des indices pour arrêter le coupable avant que Keller ne commette l’irréparable… Les jours passent et les chances de retrouver les fillettes s’amenuisent…",
-    "date_ajout": "2013-10-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts296797",
-    "titre": "Black Clover",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "saisons_disponibles": [
-      {
-        "saison": 2,
-        "annee": 2019,
-        "note": 8.2
-      }
-    ],
-    "duree": "24 min/ép.",
-    "runtime_minutes": 24,
-    "note_avis": 8.2,
-    "note_recence": 7.9,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "drm",
-      "fnt",
-      "fml",
-      "trl",
-      "scf"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/289760864/s592/black-clover.jpg",
-    "synopsis": "Dans un monde régi par la magie, Yuno et Asta ont grandi ensemble avec un seul but en tête : devenir le prochain Empereur-Mage du royaume de Clover.",
-    "date_ajout": "2018-10-02",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 5 j",
-      "daysLeft": 5,
-      "expirationDate": "2026-10-20",
-      "packageExpirations": {
-        "mlt": "2026-10-20"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts41943",
-    "titre": "This is Us",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2019,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2016,
-        "note": 8.7
-      },
-      {
-        "saison": 2,
-        "annee": 2017,
-        "note": 8.7
-      },
-      {
-        "saison": 3,
-        "annee": 2018,
-        "note": 8.7
-      },
-      {
-        "saison": 4,
-        "annee": 2019,
-        "note": 8.7
-      },
-      {
-        "saison": 5,
-        "annee": 2020,
-        "note": 8.7
-      },
-      {
-        "saison": 6,
-        "annee": 2022,
-        "note": 8.7
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 8.7,
-    "note_recence": 7.9,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/83689087/s592/this-is-us.jpg",
-    "synopsis": "Jack vit à Pittsburgh avec sa femme Rebecca, sur le point de donner naissance à des triplés. Arrivé à l'hôpital, le couple est pris en charge par le docteur Katowski. Kevin, jeune acteur lassé par la futilité du rôle qu'il tient dans une série, s'interroge sur sa carrière tandis que sa sœur jumelle, Kate, toujours au régime, est désespérée par ses kilos en trop. Abandonné à la naissance devant une caserne de pompiers, Randall, brillant juriste, a fait mener des recherches pour retrouver son père biologique mais hésite à le rencontrer. Ils ont en commun d'être nés le même jour et s'apprêtent à fêter leur trente-sixième anniversaire...",
-    "date_ajout": "2024-11-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2022
-  },
-  {
-    "id": "jw-ts21749",
-    "titre": "Les Frères Scott",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2008,
-    "annee_moyenne": 2009,
-    "saisons_disponibles": [
-      {
-        "saison": 6,
-        "annee": 2008,
-        "note": 7.8
-      },
-      {
-        "saison": 7,
-        "annee": 2009,
-        "note": 7.8
-      }
-    ],
-    "duree": "48 min/ép.",
-    "runtime_minutes": 48,
-    "note_avis": 7.8,
-    "note_recence": 4.9,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma",
-      "spt"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/304523683/s592/one-tree-hill.jpg",
-    "synopsis": "A Tree Hill, petite ville de Caroline du Sud, tout le monde connaît les frères Scott. S'ils portent le même nom, tout les sépare et les rapproche à la fois. L'un, Nathan, arrogant et sûr de lui, vit les rêves que son père Dan n'a pu satisfaire. L'autre, Lucas, calme et posé, cherche à faire honneur à Karen, sa mère célibataire.",
-    "date_ajout": "2010-01-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "mlt": "2026-10-15"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": true,
-    "annee_fin": 2009
-  },
-  {
-    "id": "jw-tm239091",
-    "titre": "Blade Runner 2049",
-    "type": "film",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "2h 44min",
-    "runtime_minutes": 164,
-    "note_avis": 8,
-    "note_recence": 7.3,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "trl",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/21030494/s592/blade-runner-2049.jpg",
-    "synopsis": "En 2049, la société est fragilisée par les nombreuses tensions entre les humains et leurs esclaves créés par bioingénierie. L’officier K est un Blade Runner : il fait partie d’une force d’intervention d’élite chargée de trouver et d’éliminer ceux qui n’obéissent pas aux ordres des humains. Lorsqu’il découvre un secret enfoui depuis longtemps et capable de changer le monde, les plus hautes instances décident que c’est à son tour d’être traqué et éliminé. Son seul espoir est de retrouver Rick Deckard, un ancien Blade Runner qui a disparu depuis des décennies…",
-    "date_ajout": "2017-10-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm68272",
     "titre": "Projet X",
     "type": "film",
@@ -42983,315 +42217,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/307033370/s592/projet-x.jpg",
     "synopsis": "Alors qu'ils semblaient jusque-là se fondre dans la masse, trois lycéens décident de sortir de l'anonymat. En apparence, leur projet est plutôt inoffensif puisqu'ils ont l'intention d'organiser une fête des plus mémorables. Mais rien n'aurait pu les préparer à la soirée qu'ils s'apprêtent à vivre… La rumeur se propage alors rapidement, tandis que les rêves des uns s'effondrent, les résultats scolaires des autres dégringolent, et des légendes se forgent…",
     "date_ajout": "2012-03-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts21848",
-    "titre": "Lost : Les Disparus",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2004,
-    "annee_fin": 2010,
-    "annee_moyenne": 2007,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2004,
-        "note": 8.3
-      },
-      {
-        "saison": 2,
-        "annee": 2005,
-        "note": 8.3
-      },
-      {
-        "saison": 3,
-        "annee": 2006,
-        "note": 8.3
-      },
-      {
-        "saison": 4,
-        "annee": 2008,
-        "note": 8.3
-      },
-      {
-        "saison": 5,
-        "annee": 2009,
-        "note": 8.3
-      },
-      {
-        "saison": 6,
-        "annee": 2010,
-        "note": 8.3
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 8.3,
-    "note_recence": 4.3,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "fnt",
-      "trl",
-      "scf"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/332803366/s592/lost.jpg",
-    "synopsis": "Après le crash de leur avion sur une île perdue, les survivants doivent apprendre à cohabiter et survivre dans cet environnement hostile. Bien vite, ils se rendent compte qu'une menace semble planer sur l'île...",
-    "date_ajout": "2021-02-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm855154",
-    "titre": "Une affaire de détails",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "2h 08min",
-    "runtime_minutes": 128,
-    "note_avis": 6.3,
-    "note_recence": 8.5,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/241617343/s592/une-affaire-de-details.jpg",
-    "synopsis": "Alors que le shérif-adjoint Joe \"Deke\" Deacon est envoyé à Los Angeles pour une simple mission, il se retrouve mêlé à la traque d'un tueur en série qui terrorise la ville. Impressionné par l'intuition de Deke, le sergent Jim Baxter du bureau du Shérif de L.A., en charge de l'enquête, sollicite son aide – à titre officieux. Pourtant, à l'insu de Baxter, l'enquête qu'il mène révèle des aspects troubles du passé de Deke, enfouis depuis longtemps, qui pourraient menacer bien plus que l'enquête.",
-    "date_ajout": "2021-03-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts20518",
-    "titre": "Teen Wolf",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2011,
-    "annee_fin": 2016,
-    "annee_moyenne": 2014,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2011,
-        "note": 7.7
-      },
-      {
-        "saison": 2,
-        "annee": 2012,
-        "note": 7.7
-      },
-      {
-        "saison": 3,
-        "annee": 2013,
-        "note": 7.7
-      },
-      {
-        "saison": 4,
-        "annee": 2014,
-        "note": 7.7
-      },
-      {
-        "saison": 5,
-        "annee": 2015,
-        "note": 7.7
-      },
-      {
-        "saison": 6,
-        "annee": 2016,
-        "note": 7.7
-      }
-    ],
-    "duree": "42 min/ép.",
-    "runtime_minutes": 42,
-    "note_avis": 7.7,
-    "note_recence": 6.4,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "drm",
-      "fnt",
-      "trl",
-      "rma",
-      "scf"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/54550380/s592/teen-wolf.jpg",
-    "synopsis": "Scott McCall est un adolescent tout ce qu'il y a de plus ordinaire. Il n'est pas le plus populaire de son lycée, il n'en est pas la risée non plus... Un soir, son meilleur ami Stiles le convainc de suivre en cachette les recherches de la police pour retrouver un corps dans les bois alentours. Au cours de cette expédition, il se retrouve nez à nez avec une bête étrange et particulièrement féroce. Il réchappe de peu à cette attaque et, chanceux, avec une seule blessure : une vilaine morsure. Le lendemain, Scott se sent bizarre. Sans qu'il le sache encore, sa vie vient de changer. Il est devenu un loup-garou...",
-    "date_ajout": "2024-11-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts81987",
-    "titre": "Une vie rêvée",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 7.3
-      }
-    ],
-    "duree": "122 min/ép.",
-    "runtime_minutes": 122,
-    "note_avis": 7.3,
-    "note_recence": 7.6,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/348272188/s592/une-vie-revee.jpg",
-    "synopsis": "Sanem est une jeune fille naturelle, joyeuse et vivante, contrairement à sa sœur aînée, Lale. Lorsque ses parents lui donnent le choix d’obtenir un emploi convenable ou un mariage arrangé, Sanem se précipite dans l’agence de publicité dans laquelle travaille sa sœur pour postuler...",
-    "date_ajout": "2026-08-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm140877",
-    "titre": "Imitation Game",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 53min",
-    "runtime_minutes": 113,
-    "note_avis": 8,
-    "note_recence": 6.4,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "war"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/8705036/s592/imitation-game.jpg",
-    "synopsis": "1940 : Alan Turing, mathématicien, cryptologue, est chargé par le gouvernement Britannique de percer le secret de la célèbre machine de cryptage allemande Enigma, réputée inviolable. À la tête d'une équipe improbable de savants, linguistes, champions d'échecs et agents du renseignement, Turing s'attaque au chef-d'œuvre de complexité dont la clef peut conduire à la victoire. Imitation Game relate la façon dont Alan Turing, soumis à une intense pression, contribua à changer le cours de la Seconde Guerre mondiale et de l'Histoire. C'est aussi le portrait d'un homme qui se retrouva condamné par la société de l'époque en raison de son homosexualité et en mourut.",
-    "date_ajout": "2015-01-28",
     "expiration": {
       "status": "none",
       "label": null,
@@ -43393,571 +42318,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1602658",
-    "titre": "Ed Kemper",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 5,
-    "note_recence": 9.7,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/355093734/s592/ed-kemper.jpg",
-    "synopsis": "L'histoire vraie et terrifiante d'Ed Kemper, un tueur en série manipulateur et sadique, dont l'enfance marquée par les abus a nourri une obsession macabre pour le meurtre et la mutilation. Derrière son charme glaçant se cache un désir de vengeance contre la femme qui l'a le plus blessé : sa propre mère.",
-    "date_ajout": "2026-06-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts3979",
-    "titre": "Elementary",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2012,
-    "annee_fin": 2019,
-    "annee_moyenne": 2016,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2012,
-        "note": 7.9
-      },
-      {
-        "saison": 2,
-        "annee": 2013,
-        "note": 7.9
-      },
-      {
-        "saison": 3,
-        "annee": 2014,
-        "note": 7.9
-      },
-      {
-        "saison": 4,
-        "annee": 2015,
-        "note": 7.9
-      },
-      {
-        "saison": 5,
-        "annee": 2016,
-        "note": 7.9
-      },
-      {
-        "saison": 6,
-        "annee": 2018,
-        "note": 7.9
-      },
-      {
-        "saison": 7,
-        "annee": 2019,
-        "note": 7.9
-      }
-    ],
-    "duree": "42 min/ép.",
-    "runtime_minutes": 42,
-    "note_avis": 7.9,
-    "note_recence": 7,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322078379/s592/elementary.jpg",
-    "synopsis": "Une version moderne des aventures de Sherlock Holmes dans le New York contemporain. Renvoyé de Londres en raison de son addiction à l'alcool, Sherlock s'installe à Manhattan où son richissime paternel l'oblige à cohabiter avec son pire cauchemar : une personne sobre chargée de veiller sur lui. Ancienne chirurgienne promise à un bel avenir, Joan Watson a perdu un patient et sa licence trois ans plus tôt. Ce nouvel emploi est pour elle une nouvelle façon d'aider les autres, et surtout une pénitence qu'elle s'impose. Quand Sherlock devient consultant pour la police new-yorkaise, Watson n'a d'autre choix que suivre son irascible « client » lors de ses investigations. Très vite, ils réalisent l'un et l'autre les avantages que peut leur apporter un tel partenariat.",
-    "date_ajout": "2012-09-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts12059",
-    "titre": "Les Américains",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2013,
-    "annee_fin": 2018,
-    "annee_moyenne": 2016,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2013,
-        "note": 8.4
-      },
-      {
-        "saison": 2,
-        "annee": 2014,
-        "note": 8.4
-      },
-      {
-        "saison": 3,
-        "annee": 2015,
-        "note": 8.4
-      },
-      {
-        "saison": 4,
-        "annee": 2016,
-        "note": 8.4
-      },
-      {
-        "saison": 5,
-        "annee": 2017,
-        "note": 8.4
-      },
-      {
-        "saison": 6,
-        "annee": 2018,
-        "note": 8.4
-      }
-    ],
-    "duree": "48 min/ép.",
-    "runtime_minutes": 48,
-    "note_avis": 8.4,
-    "note_recence": 7,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/316899996/s592/the-americans.jpg",
-    "synopsis": "Dans les années 80, Phillip et Elizabeth Jennings s'installent près de Washington. Ils travaillent à la solde du KGB et sont en réalité des agents dormants russes.",
-    "date_ajout": "2021-06-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm145878",
-    "titre": "Qu'est-ce qu'on a fait au Bon Dieu ?",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 37min",
-    "runtime_minutes": 97,
-    "note_avis": 7,
-    "note_recence": 6.4,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/296577897/s592/quest-ce-quon-a-fait-au-bon-dieu.jpg",
-    "synopsis": "Claude et Marie Verneuil, issus de la grande bourgeoisie catholique provinciale sont des parents plutôt « vieille France ». Mais ils se sont toujours obligés à faire preuve d’ouverture d’esprit… Les pilules furent cependant bien difficiles à avaler quand leur première fille épousa un musulman, leur seconde un juif et leur troisième un chinois. Leurs espoirs de voir enfin l’une d’elles se marier à l’église se cristallisent donc sur la cadette, qui, alléluia, vient de rencontrer un bon catholique.",
-    "date_ajout": "2014-04-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm245506",
-    "titre": "La Folle Histoire de Max et Léon",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 6.2,
-    "note_recence": 7,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "war",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/58490380/s592/la-folle-histoire-de-max-et-leon.jpg",
-    "synopsis": "1939. Max et Léon, 25 ans, deux amis inséparables, totalement immatures et inconséquents, désertent leur bataillon dans le seul but de regagner Mâcon, retrouver leur petite vie tranquille et boire du Chablis. Mais plus ils cherchent à fuir, plus leur petite histoire se retrouve liée à la grande... au point d'aider au débarquement sur les plages de Normandie !",
-    "date_ajout": "2016-11-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm446713",
-    "titre": "La Chute du Président",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "2h 02min",
-    "runtime_minutes": 122,
-    "note_avis": 6.4,
-    "note_recence": 7.9,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/156696632/s592/la-chute-du-president.jpg",
-    "synopsis": "Victime d’un coup monté, Mike Banning, agent des services secrets, est accusé d’être le cerveau d’une tentative d’assassinat envers le président américain, Allan Trumbull. Poursuivi par le FBI, il va devoir combattre pour survivre et trouver l’identité de celui qui menace la vie du président…",
-    "date_ajout": "2019-08-28",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts21499",
-    "titre": "Justified",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2010,
-    "annee_fin": 2015,
-    "annee_moyenne": 2013,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2010,
-        "note": 8.6
-      },
-      {
-        "saison": 2,
-        "annee": 2011,
-        "note": 8.6
-      },
-      {
-        "saison": 3,
-        "annee": 2012,
-        "note": 8.6
-      },
-      {
-        "saison": 4,
-        "annee": 2013,
-        "note": 8.6
-      },
-      {
-        "saison": 5,
-        "annee": 2014,
-        "note": 8.6
-      },
-      {
-        "saison": 6,
-        "annee": 2015,
-        "note": 8.6
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 8.6,
-    "note_recence": 6.1,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl",
-      "wsn"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/305307313/s592/justified.jpg",
-    "synopsis": "Après des déboires avec ses supérieurs, le marshall Raylan Givens est muté au Kentucky, dont il est originaire. Là encore, ses méthodes assez peu orthodoxes et son style, très old school, vont faire des étincelles...",
-    "date_ajout": "2023-05-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts504930",
-    "titre": "Les Évaporés",
-    "type": "serie",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2026,
-        "note": 6.3
-      }
-    ],
-    "duree": "49 min/ép.",
-    "runtime_minutes": 49,
-    "note_avis": 6.3,
-    "note_recence": 10,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354776914/s592/les-evapores.jpg",
-    "synopsis": "Dévastée par la disparition soudaine et inexpliquée de son mari, Esther Bazin, capitaine de police, est au bord du précipice. Selon la loi, son mari, étant majeur et sain d'esprit, a le droit fondamental de disparaître.",
-    "date_ajout": "2026-08-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts20630",
-    "titre": "Once Upon a Time: Il était une fois",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2011,
-    "annee_moyenne": 2014,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2011,
-        "note": 7.6
-      },
-      {
-        "saison": 2,
-        "annee": 2012,
-        "note": 7.6
-      },
-      {
-        "saison": 3,
-        "annee": 2013,
-        "note": 7.6
-      },
-      {
-        "saison": 4,
-        "annee": 2014,
-        "note": 7.6
-      },
-      {
-        "saison": 5,
-        "annee": 2015,
-        "note": 7.6
-      },
-      {
-        "saison": 6,
-        "annee": 2016,
-        "note": 7.6
-      },
-      {
-        "saison": 7,
-        "annee": 2017,
-        "note": 7.6
-      }
-    ],
-    "duree": "44 min/ép.",
-    "runtime_minutes": 44,
-    "note_avis": 7.6,
-    "note_recence": 6.4,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "fnt",
-      "rma",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306101534/s592/once-upon-a-time.jpg",
-    "synopsis": "De nos jours, dans une bourgade du Maine appelée Storybrooke, les contes de fées existent encore. C'est ce que va découvrir Emma, une jeune femme au passé trouble, embarquée dans un merveilleux et tragique voyage par le fils qu'elle a abandonné 10 ans plus tôt. Elle croisera sur son chemin la méchante Reine, qui n'est autre que l'impitoyable Maire de la ville, Blanche Neige, devenue la douce Soeur Mary Margaret Blanchard, Rumplestiltskin, l'effrayant expert en magie noire ou encore Archie, le sympathique Jiminy Cricket local. Avec son arrivée, c'est l'espoir de toute une communauté amnésique qui renaît...",
-    "date_ajout": "2020-08-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true,
-    "annee_fin": 2017
-  },
-  {
     "id": "jw-tm935075",
     "titre": "Caveat",
     "type": "film",
@@ -44001,146 +42361,6 @@ const CATALOG_DATA = [
     },
     "on_prime": true,
     "on_tnt": false
-  },
-  {
-    "id": "jw-tm362071",
-    "titre": "Summer of 84",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 46min",
-    "runtime_minutes": 106,
-    "note_avis": 6.7,
-    "note_recence": 7.6,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "hrr",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/69805623/s592/summer-of-84.jpg",
-    "synopsis": "Alors que plusieurs adolescents disparaissent dans une petite ville des États-Unis, le jeune Davey Armstrong, persuadé que c’est l’œuvre d’un tueur en série, se met à soupçonner son propre voisin, policier en charge de l’enquête. Aidé de ses trois inséparables amis, il décide d’enquêter pour faire la lumière sur ces disparitions. Mais cette quête de la vérité va s’avérer extrêmement dangereuse…",
-    "date_ajout": "2019-01-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts78319",
-    "titre": "Cassandre",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+",
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png",
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "sxp",
-      "fra"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2021,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2015,
-        "note": 7
-      },
-      {
-        "saison": 2,
-        "annee": 2018,
-        "note": 7
-      },
-      {
-        "saison": 3,
-        "annee": 2019,
-        "note": 7
-      },
-      {
-        "saison": 4,
-        "annee": 2020,
-        "note": 7
-      },
-      {
-        "saison": 5,
-        "annee": 2021,
-        "note": 7
-      },
-      {
-        "saison": 6,
-        "annee": 2022,
-        "note": 7
-      },
-      {
-        "saison": 8,
-        "annee": 2024,
-        "note": 7
-      },
-      {
-        "saison": 9,
-        "annee": 2026,
-        "note": 7
-      }
-    ],
-    "duree": "90 min/ép.",
-    "runtime_minutes": 90,
-    "note_avis": 7,
-    "note_recence": 8.5,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320529158/s592/cassandre.jpg",
-    "synopsis": "Cassandre, habituée à son quotidien dans un grand commissariat parisien, prend ses nouvelles fonctions à Annecy, afin de pouvoir être auprès de son fils. Ce nouveau poste en province déplaît fortement à Cassandre, citadine invétérée, qui supporte difficilement cette nouvelle vie,...",
-    "date_ajout": "2026-02-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "fra": "2026-11-09"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2026
   },
   {
     "id": "jw-tm962605",
@@ -44233,458 +42453,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts21230",
-    "titre": "The Good Wife",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2009,
-    "annee_moyenne": 2012,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2009,
-        "note": 8.3
-      },
-      {
-        "saison": 2,
-        "annee": 2010,
-        "note": 8.3
-      },
-      {
-        "saison": 3,
-        "annee": 2011,
-        "note": 8.3
-      },
-      {
-        "saison": 4,
-        "annee": 2012,
-        "note": 8.3
-      },
-      {
-        "saison": 5,
-        "annee": 2013,
-        "note": 8.3
-      },
-      {
-        "saison": 6,
-        "annee": 2014,
-        "note": 8.3
-      },
-      {
-        "saison": 7,
-        "annee": 2015,
-        "note": 8.3
-      }
-    ],
-    "duree": "44 min/ép.",
-    "runtime_minutes": 44,
-    "note_avis": 8.3,
-    "note_recence": 5.8,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/162189055/s592/the-good-wife.jpg",
-    "synopsis": "L'épouse d'un homme politique voit sa vie bouleversée par l'incarcération de son mari à la suite d'un scandale sexuel et une affaire de corruption largement relayés par les médias. Dépassant la trahison et l'humiliation publique, Alicia Florrick décide reprendre sa carrière d'avocate après une pause de 13 ans loin des tribunaux. Elle rejoint un ami de longue date au sein d'un prestigieux cabinet de Chicago. Très vite, Alicia réalise que la compétition va être rude avec de jeunes recrues ambitieuses et déterminées. Mais au moins pour une fois, elle est prête à prendre en main sa propre destinée et détruire son image d'épouse modèle...",
-    "date_ajout": "2009-09-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true,
-    "annee_fin": 2015
-  },
-  {
-    "id": "jw-ts8112",
-    "titre": "Drop Dead Diva",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2009,
-    "annee_moyenne": 2012,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2009,
-        "note": 7.5
-      },
-      {
-        "saison": 2,
-        "annee": 2010,
-        "note": 7.5
-      },
-      {
-        "saison": 3,
-        "annee": 2011,
-        "note": 7.5
-      },
-      {
-        "saison": 4,
-        "annee": 2012,
-        "note": 7.5
-      },
-      {
-        "saison": 5,
-        "annee": 2013,
-        "note": 7.5
-      },
-      {
-        "saison": 6,
-        "annee": 2014,
-        "note": 7.5
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 7.5,
-    "note_recence": 5.8,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/241409965/s592/drop-dead-diva.jpg",
-    "synopsis": "Deb Dobkins, un mannequin pas très futée, meurt dans un accident de voiture. Arrivée aux portes du paradis, elle supplie le gardien Fred de lui donner une nouvelle chance de revenir sur Terre. Fred refuse alors elle appuie elle-même sur le bouton \"Retour\". Elle est effectivement ramenée sur Terre mais dans le corps d'une autre personne, tout juste décédée. Sa nouvelle apparence est celle de Jane Bingum, une brillante avocate, très intelligente, mais en surpoids...",
-    "date_ajout": "2022-10-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "mlt": "2026-10-17"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2014
-  },
-  {
-    "id": "jw-ts359486",
-    "titre": "Solo Leveling",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 8.5
-      }
-    ],
-    "duree": "24 min/ép.",
-    "runtime_minutes": 24,
-    "note_avis": 8.5,
-    "note_recence": 9.4,
-    "note_globale": 9,
-    "etoiles": 5,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "fnt",
-      "scf"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/310154566/s592/solo-leveling.jpg",
-    "synopsis": "Ce qui ne vous tue pas vous rend plus fort ! Mais ce dicton ne s'applique pas au chasseur le plus faible de toute l’humanité, Jinwoo Sung. Après avoir été mortellement blessé lorsqu’il est tombé par hasard sur un double donjon caché, Jinwoo est miraculeusement rescapé. Au bord de la mort, il entrevoit une quête et saisit une opportunité qui lui permet dès lors de gagner en puissance très rapidement. À présent, il souhaite découvrir les secrets de ses pouvoirs et du donjon qui les a engendrés.",
-    "date_ajout": "2024-04-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm29815",
-    "titre": "Taken",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+",
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "tf1",
-      "sxp"
-    ],
-    "annee": 2008,
-    "annee_moyenne": 2008,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 7.7,
-    "note_recence": 4.6,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/257932324/s592/taken.jpg",
-    "synopsis": "Que peut-on imaginer de pire pour un père que d'assister impuissant à l'enlèvement de sa fille via un téléphone portable ? C'est le cauchemar vécu par Bryan, ancien agent des services secrets américains, qui n'a que quelques heures pour arracher Kim des mains d'un redoutable gang spécialisé dans la traite des femmes. Premier problème à résoudre : il est à Los Angeles, elle vient de se faire enlever à Paris.",
-    "date_ajout": "2008-02-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts7688",
-    "titre": "24 heures chrono",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2001,
-    "annee_fin": 2014,
-    "annee_moyenne": 2008,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2001,
-        "note": 8.4
-      },
-      {
-        "saison": 2,
-        "annee": 2002,
-        "note": 8.4
-      },
-      {
-        "saison": 3,
-        "annee": 2003,
-        "note": 8.4
-      },
-      {
-        "saison": 4,
-        "annee": 2005,
-        "note": 8.4
-      },
-      {
-        "saison": 5,
-        "annee": 2006,
-        "note": 8.4
-      },
-      {
-        "saison": 6,
-        "annee": 2007,
-        "note": 8.4
-      },
-      {
-        "saison": 7,
-        "annee": 2009,
-        "note": 8.4
-      },
-      {
-        "saison": 8,
-        "annee": 2010,
-        "note": 8.4
-      },
-      {
-        "saison": 9,
-        "annee": 2014,
-        "note": 8.4
-      }
-    ],
-    "duree": "44 min/ép.",
-    "runtime_minutes": 44,
-    "note_avis": 8.4,
-    "note_recence": 4.6,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/249217205/s592/24.jpg",
-    "synopsis": "Agent fédéral et responsable de la Cellule Anti-Terroriste de Los Angeles, Jack Bauer a 24 heures pour mener à bien sa mission, empêcher que des terroristes ne mettent leur plan à exécution, protéger les siens du danger qui les menace et sauver les États-Unis. Chaque saison correspond à 24 heures dans la vie de Jack Bauer, en temps réel.",
-    "date_ajout": "2021-02-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm936460",
-    "titre": "Super-héros malgré lui",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 22min",
-    "runtime_minutes": 82,
-    "note_avis": 6.3,
-    "note_recence": 8.8,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/257926331/s592/super-heros-malgre-lui.jpg",
-    "synopsis": "Cédric, un apprenti comédien en galère, qui décroche enfin son premier rôle dans un film de super-héros. Un soir, alors qu’il emprunte la voiture de tournage, il est victime d’un accident qui lui fait perdre la mémoire. À son réveil, vêtu de son costume de justicier et au milieu des accessoires du film, il est persuadé d’être devenu le personnage du film avec une mission périlleuse à accomplir. Mais n’est pas héros et encore moins super-héros qui veut… Et encore moins Cédric !",
-    "date_ajout": "2022-02-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm146371",
-    "titre": "Mademoiselle",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "2h 24min",
-    "runtime_minutes": 144,
-    "note_avis": 8.1,
-    "note_recence": 7,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "rma"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/25402656/s592/mademoiselle-2016.jpg",
-    "synopsis": "Corée. Années 30, pendant la colonisation japonaise. Une jeune femme est engagée comme servante d’une riche japonaise, vivant recluse dans un immense manoir sous la coupe d’un oncle tyrannique. Mais Sookee a un secret. Avec l’aide d’un escroc se faisant passer pour un comte japonais, ils ont d’autres plans pour Hideko…",
-    "date_ajout": "2016-11-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm88465",
     "titre": "Insidious",
     "type": "film",
@@ -44704,8 +42472,8 @@ const CATALOG_DATA = [
     ],
     "annee": 2011,
     "annee_moyenne": 2011,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
+    "duree": "1h 43min",
+    "runtime_minutes": 103,
     "note_avis": 6.8,
     "note_recence": 5.5,
     "note_globale": 6.2,
@@ -44730,408 +42498,6 @@ const CATALOG_DATA = [
       "packageExpirations": {
         "ima": "2026-11-30"
       }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts271787",
-    "titre": "The Great",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2020,
-    "annee_fin": 2023,
-    "annee_moyenne": 2022,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2020,
-        "note": 8.1
-      },
-      {
-        "saison": 2,
-        "annee": 2021,
-        "note": 8.1
-      },
-      {
-        "saison": 3,
-        "annee": 2023,
-        "note": 8.1
-      }
-    ],
-    "duree": "53 min/ép.",
-    "runtime_minutes": 53,
-    "note_avis": 8.1,
-    "note_recence": 8.8,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "hst"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/305371393/s592/the-great.jpg",
-    "synopsis": "Vivez l'ascension de Catherine la Grande, qui est passée du statut d'outsider à celui de femme au règne le plus long de toute l’histoire russe.",
-    "date_ajout": "2020-07-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm11937",
-    "titre": "Wonder Woman",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "2h 21min",
-    "runtime_minutes": 141,
-    "note_avis": 7.3,
-    "note_recence": 7.3,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "fnt",
-      "scf",
-      "war"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/8543008/s592/wonder-woman-2017.jpg",
-    "synopsis": "Avant d'être Wonder Woman, elle s'appelait Diana, princesse des Amazones, entraînée pour être une guerrière impossible à conquérir. Elle est élevée sur une île isolée et paradisiaque, mais lorsqu'un pilote américain s'écrase sur leur rivage et annonce qu'un conflit à grande échelle fait rage dans le monde, Diana quitte son foyer, convaincue qu'elle doit arrêter cette menace. Combattant aux côtés de cet homme et des siens pour mettre fin à cette guerre et à toutes les guerres, Diana découvre ses vrais pouvoirs... Et son véritable destin.",
-    "date_ajout": "2017-06-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts463381",
-    "titre": "Intraçables",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 6.7
-      }
-    ],
-    "duree": "44 min/ép.",
-    "runtime_minutes": 44,
-    "note_avis": 6.7,
-    "note_recence": 9.7,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/348411775/s592/intracables.jpg",
-    "synopsis": "Après la mort de son mari, une femme croit enfin se reconstruire. Mais une rencontre fait ressurgir un secret enfoui. Traquée par un hacker, elle fuit avec son fils en choisissant la mort numérique, pour échapper à la surveillance et comprendre ce qu'on a voulu leur cacher.",
-    "date_ajout": "2026-04-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "mlt": "2026-10-15"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm39805",
-    "titre": "La Vague",
-    "type": "film",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2008,
-    "annee_moyenne": 2008,
-    "duree": "1h 47min",
-    "runtime_minutes": 107,
-    "note_avis": 7.6,
-    "note_recence": 4.6,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/340895263/s592/la-vague.jpg",
-    "synopsis": "En Allemagne, aujourd'hui. Dans le cadre d'un atelier, un professeur de lycée propose à ses élèves une expérience visant à leur expliquer le fonctionnement d'un régime totalitaire. Commence alors un jeu de rôle grandeur nature, dont les conséquences vont s'avérer tragiques.",
-    "date_ajout": "2014-09-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm157843",
-    "titre": "Fury",
-    "type": "film",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "2h 15min",
-    "runtime_minutes": 135,
-    "note_avis": 7.6,
-    "note_recence": 6.4,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "war"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/269659965/s592/fury.jpg",
-    "synopsis": "Avril 1945. Les Alliés mènent leur ultime offensive en Europe. À bord d’un tank Sherman, le sergent Wardaddy et ses 4 hommes s’engagent dans une mission à très haut risque bien au-delà des lignes ennemies. Face à un adversaire dont le nombre et la puissance de feu les dépassent, Wardaddy et son équipage vont devoir tout tenter pour frapper l’Allemagne nazie en plein cœur…",
-    "date_ajout": "2014-10-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1579454",
-    "titre": "L'heureuse élue",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 5.5,
-    "note_recence": 9.4,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/323743547/s592/lheureuse-elue.jpg",
-    "synopsis": "Pour soutirer de l’argent à ses parents, Benoît demande à une amie de se faire passer pour sa future femme lors d’un séjour en famille au Maroc. Mais lorsque cette dernière se désiste, il n’a pas d’autre choix que de proposer le rôle de sa fausse fiancée… à Fiona, son chauffeur Uber ! La jeune femme, au tempérament impulsif et sans filtre, détonne dans la famille bourgeoise de Benoît.",
-    "date_ajout": "2024-09-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm277391",
-    "titre": "Mayhem : Légitime Vengeance",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 6.4,
-    "note_recence": 7.3,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "hrr",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341363834/s592/mayhem-legitime-vengeance.jpg",
-    "synopsis": "Fraîchement remercié par ses employeurs, un col blanc prépare son départ en ruminant sa rancœur. Au même moment, un mystérieux virus éclate, transformant chacun des membres de la firme en infecté assoiffé de sang...",
-    "date_ajout": "2018-07-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts421241",
-    "titre": "Sherlock et sa fille",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 7
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 7,
-    "note_recence": 9.7,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/330718556/s592/sherlock-et-daughter.jpg",
-    "synopsis": "Sherlock Holmes est confronté à une affaire sinistre qui met en danger la vie de ses amis.  Il est rejoint par Amelia, une Américaine qui recherche son père après le meurtre de sa mère. Malgré leurs différences, ils vont devoir collaborer pour déjouer une conspiration internationale et résoudre l'affaire du meurtre de sa mère.\n",
-    "date_ajout": "2026-09-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": false
@@ -45169,260 +42535,9 @@ const CATALOG_DATA = [
     ],
     "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/346979891/s592/les-infiltres.jpg",
+    "poster": "https://images.justwatch.com/poster/230021626/s592/les-infiltres.jpg",
     "synopsis": "À Boston, une lutte sans merci oppose la police à la pègre irlandaise. Pour mettre fin au règne du parrain Frank Costello, la police infiltre son gang avec « un bleu » issu des bas quartiers, Billy Costigan. Tandis que Billy s’efforce de gagner la confiance du malfrat vieillissant, Colin Sullivan entre dans la police au sein de l’Unité des Enquêtes Spéciales, chargée d’éliminer Costello. Mais Colin fonctionne en « sous‑marin » et informe Costello des opérations qui se trament contre lui. Risquant à tout moment d’être démasqués, Billy et Colin sont contraints de mener une double vie qui leur fait perdre leurs repères et leur identité. Traquenards et contre‑offensives s’enchaînent jusqu’au jour où chaque camp réalise qu’il héberge une taupe. Une course contre la montre s’engage entre les deux hommes avec un seul objectif : découvrir l’identité de l’autre sous peine d’y laisser sa peau…",
     "date_ajout": "2006-11-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts6001",
-    "titre": "The Fall",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2015,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2013,
-        "note": 8.1
-      },
-      {
-        "saison": 2,
-        "annee": 2014,
-        "note": 8.1
-      },
-      {
-        "saison": 3,
-        "annee": 2016,
-        "note": 8.1
-      }
-    ],
-    "duree": "61 min/ép.",
-    "runtime_minutes": 61,
-    "note_avis": 8.1,
-    "note_recence": 6.7,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/342975674/s592/the-fall.jpg",
-    "synopsis": "La série suit une enquête du Service de police d'Irlande du Nord (PSNI en anglais pour Police Service of Northern Ireland) sur une série de meurtres récents. Après 28 jours d'investigations sans résultats, la PSNI fait appel au Superintendant Stella Gibson de la Metropolitan Police Service pour réexaminer le dossier.",
-    "date_ajout": "2014-11-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true,
-    "annee_fin": 2016
-  },
-  {
-    "id": "jw-tm289901",
-    "titre": "Taxi 5",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 4.6,
-    "note_recence": 7.6,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/79515075/s592/taxi-5.jpg",
-    "synopsis": "Sylvain Marot, super flic parisien et pilote d’exception, est muté contre son gré à la Police Municipale de Marseille. L’ex-commissaire Gibert, devenu Maire de la ville et au plus bas dans les sondages, va alors lui confier la mission de stopper le redoutable « Gang des Italiens », qui écume des bijouteries à l’aide de puissantes Ferrari. Mais pour y parvenir, Marot n’aura pas d’autre choix que de collaborer avec le petit-neveu du célèbre Daniel, Eddy Maklouf, le pire chauffeur VTC de Marseille, mais le seul à pouvoir récupérer le légendaire TAXI blanc.",
-    "date_ajout": "2018-04-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm429484",
-    "titre": "Nous finirons ensemble",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "2h 14min",
-    "runtime_minutes": 134,
-    "note_avis": 6.5,
-    "note_recence": 7.9,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "fml",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/130069968/s592/nous-finirons-ensemble.jpg",
-    "synopsis": "Préoccupé, Max est parti dans sa maison au bord de la mer pour se ressourcer. Sa bande de potes, qu’il n’a pas vue depuis plus de 3 ans débarque par surprise pour lui fêter son anniversaire ! La surprise est entière mais l’accueil l’est beaucoup moins… Max s’enfonce alors dans une comédie du bonheur qui sonne faux, et qui mettra le groupe dans des situations pour le moins inattendues. Les enfants ont grandi, d’autres sont nés, les parents n’ont plus les mêmes priorités... Les séparations, les accidents de la vie… Quand tous décident de ne plus mettre de petits mouchoirs sur les gros bobards, que reste-t-il de l’amitié ?",
-    "date_ajout": "2019-05-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1046410",
-    "titre": "Stillwater",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "2h 19min",
-    "runtime_minutes": 139,
-    "note_avis": 6.6,
-    "note_recence": 8.5,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/248847229/s592/stillwater.jpg",
-    "synopsis": "Un foreur de pétrole débarque à Marseille du fin fond de l’Oklahoma, pour soutenir sa fille qu’il connait à peine mais qui purge une peine de prison, accusée d’un crime qu’elle nie avoir commis. Confronté au barrage de la langue, aux différences culturelles et à un système juridique complexe, Bill met un point d’honneur à innocenter sa fille. Au cours de ce cheminement intime, il va se lier d’amitié avec une jeune femme du coin et sa petite fille tout en développant une conscience élargie de son appartenance au monde.",
-    "date_ajout": "2021-07-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1226692",
-    "titre": "Gran Turismo",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "2h 15min",
-    "runtime_minutes": 135,
-    "note_avis": 7.1,
-    "note_recence": 9.1,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/323385923/s592/gran-turismo.jpg",
-    "synopsis": "Gran Turismo est inspiré de l'incroyable histoire vécue d'une invraisemblable bande d'infortunés – un amateur de jeu vidéo de classe ouvrière, un ex-pilote d'autos de course paumé et un idéaliste de l'industrie du sport motorisé. Ensemble, ils risquent tout pour percer dans le sport le plus prestigieux au monde. Gran Turismo est une captivante histoire et un feu roulant d'action qui prouvent que tout est possible lorsqu'on conduit avec l'énergie du désespoir.",
-    "date_ajout": "2023-08-09",
     "expiration": {
       "status": "none",
       "label": null,
@@ -45481,310 +42596,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts21245",
-    "titre": "Unforgettable",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2011,
-    "annee_fin": 2015,
-    "annee_moyenne": 2013,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2011,
-        "note": 6.8
-      },
-      {
-        "saison": 2,
-        "annee": 2013,
-        "note": 6.8
-      },
-      {
-        "saison": 3,
-        "annee": 2014,
-        "note": 6.8
-      },
-      {
-        "saison": 4,
-        "annee": 2015,
-        "note": 6.8
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 6.8,
-    "note_recence": 6.1,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354873754/s592/unforgettable.jpg",
-    "synopsis": "Carrie Wells, une ancienne policière de Syracuse, New York, souffre d'hypermnésie, une condition psychologique rare qui lui donne la capacité de se souvenir de tout. Après avoir été témoin d'un meurtre, elle rejoint l'équipe de la criminelle. Elle y retrouve notamment son ancien coéquipier et ex-compagnon Al Burns. Carrie espère également pouvoir élucider le meurtre de sa propre soeur survenu lorsqu'elle était enfant.",
-    "date_ajout": "2017-02-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm170517",
-    "titre": "Fast & Furious 5",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2011,
-    "annee_moyenne": 2011,
-    "duree": "2h 10min",
-    "runtime_minutes": 130,
-    "note_avis": 7.3,
-    "note_recence": 5.5,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/175608399/s592/fast-and-furious-5.jpg",
-    "synopsis": "Depuis que Brian et Mia Toretto ont extirpé Dom des mains de la justice, ils ont dû franchir de nombreuses frontières pour échapper aux autorités. Retirés à Rio, ils sont contraints de monter un dernier coup pour se faire blanchir et recouvrer leur liberté. Ils se constituent une équipe d'élite, réunissant les pilotes les plus avertis, conscients que leur seule chance d'être acquittés pour bonne conduite nécessite une confrontation avec l'homme d'affaires véreux qui souhaite les voir morts. Mais il n'est pas le seul à leurs trousses. L'impitoyable agent fédéral Luke Hobbs n'a jamais loupé sa cible. Affecté à la traque des fugitifs, lui et son équipe de choc élaborent un implacable dispositif d'assaut destiné à les capturer. Passant le Brésil au crible, Hobbs réalise combien la frontière qui sépare les bons des méchants est ténue. Il doit alors s'en remettre à son instinct pour acculer ses proies et éviter qu'un autre ne les débusque avant lui.",
-    "date_ajout": "2011-04-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm34590",
-    "titre": "La Vie des autres",
-    "type": "film",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2006,
-    "annee_moyenne": 2006,
-    "duree": "2h 17min",
-    "runtime_minutes": 137,
-    "note_avis": 8.4,
-    "note_recence": 4,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176571705/s592/la-vie-des-autres.jpg",
-    "synopsis": "Au début des années 1980, en Allemagne de l'Est, l'auteur à succès Georges Dreyman et sa compagne, l'actrice Christa-Maria Sieland, sont considérés comme faisant partie de l'élite des intellectuels de l’État communiste, même si, secrètement, ils n'adhèrent aux idées du parti. Le Ministère de la Culture commence à s'intéresser à Christa et dépêche un agent secret, nommé Wiesler, ayant pour mission de l'observer. Tandis qu'il progresse dans l'enquête, le couple d'intellectuels le fascine de plus en plus…",
-    "date_ajout": "2007-01-31",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm168436",
-    "titre": "Pacific Rim",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "2h 11min",
-    "runtime_minutes": 131,
-    "note_avis": 6.9,
-    "note_recence": 6.1,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/243874224/s592/pacific-rim.jpg",
-    "synopsis": "Surgies des flots, des hordes de créatures monstrueuses, les \"Kaiju\", ont déclenché une guerre qui a fait des millions de victimes et épuisé les ressources naturelles de l'humanité pendant des années. Pour les combattre, une arme d'un genre nouveau a été mise au point : de gigantesques robots, les \"Jaegers\", contrôlés simultanément par deux pilotes qui communiquent par télépathie. Mais même les Jaegers semblent impuissants face aux redoutables Kaiju. Alors que la défaite paraît inéluctable, les forces armées qui protègent l'humanité n'ont d'autre choix que d'avoir recours à deux héros hors normes : un ancien pilote au bout du rouleau et une jeune femme en cours d'entraînement qui font équipe pour manœuvrer un Jaeger légendaire, quoique d'apparence obsolète. Ensemble, ils incarnent désormais le dernier rempart de l'humanité contre une apocalypse de plus en plus imminente…",
-    "date_ajout": "2013-11-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1348305",
-    "titre": "Vermines",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 46min",
-    "runtime_minutes": 106,
-    "note_avis": 6.2,
-    "note_recence": 9.1,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "hrr",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/314635173/s592/vermin-2023.jpg",
-    "synopsis": "Kaleb est un jeune adulte qui vit de petits boulots. Fasciné par les animaux exotiques, il trouve une araignée venimeuse dans un bazar et la ramène dans son appartement. Il ne lui faut qu'un instant pour s'échapper et se reproduire, transformant l'endroit en un terrible piège en toile. La seule option pour Kaleb et ses amis : trouver la sortie, survivre.",
-    "date_ajout": "2023-12-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts41580",
-    "titre": "MacGyver",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2016,
-        "note": 5.5
-      }
-    ],
-    "duree": "42 min/ép.",
-    "runtime_minutes": 42,
-    "note_avis": 5.5,
-    "note_recence": 7,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/108977048/s592/macgyver-2016.jpg",
-    "synopsis": "Âgé d'une vingtaine d'années, MacGyver, qui possède un don unique pour la débrouille et des méthodes peu orthodoxes pour parvenir à ses fins, travaille pour le gouvernement au sein d'une organisation secrète dont le but est de sauver des vies.",
-    "date_ajout": "2026-09-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "mlt": "2026-10-16"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm100061",
     "titre": "Black Swan",
     "type": "film",
@@ -45808,10 +42619,11 @@ const CATALOG_DATA = [
     "note_globale": 6.6,
     "etoiles": 3,
     "categories": [
-      "drame_emotion"
+      "horreur_epouvante"
     ],
     "raw_genres": [
       "drm",
+      "hrr",
       "trl"
     ],
     "badge": "16",
@@ -45922,421 +42734,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts57316",
-    "titre": "Capitaine Marleau",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+",
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png",
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "sxp",
-      "fra"
-    ],
-    "annee": 2015,
-    "annee_fin": 2021,
-    "annee_moyenne": 2018,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2015,
-        "note": 6.9
-      },
-      {
-        "saison": 2,
-        "annee": 2018,
-        "note": 6.9
-      },
-      {
-        "saison": 3,
-        "annee": 2019,
-        "note": 6.9
-      },
-      {
-        "saison": 4,
-        "annee": 2021,
-        "note": 6.9
-      }
-    ],
-    "duree": "95 min/ép.",
-    "runtime_minutes": 95,
-    "note_avis": 6.9,
-    "note_recence": 7.6,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "drm",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/249129012/s592/capitaine-marleau.jpg",
-    "synopsis": "La capitaine Marleau a l'instinct du chasseur sous des manières volontairement décalées. Comme elle le dit elle-même, elle ne survole pas une affaire, elle s'y \"enfonce\". Elle guette ses proies, les piste et les surprend à l’improviste. Ses traques s'organisent, dans chaque épisode, autour d'un personnage central, homme ou femme, à la hauteur de cette flic hors norme.",
-    "date_ajout": "2017-04-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "fra": "2026-10-23"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts22069",
-    "titre": "Naruto: Shippuden",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+",
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "tf1",
-      "sxp"
-    ],
-    "annee": 2007,
-    "annee_moyenne": 2011,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2007,
-        "note": 8.7
-      },
-      {
-        "saison": 2,
-        "annee": 2007,
-        "note": 8.7
-      },
-      {
-        "saison": 3,
-        "annee": 2008,
-        "note": 8.7
-      },
-      {
-        "saison": 4,
-        "annee": 2008,
-        "note": 8.7
-      },
-      {
-        "saison": 5,
-        "annee": 2008,
-        "note": 8.7
-      },
-      {
-        "saison": 6,
-        "annee": 2009,
-        "note": 8.7
-      },
-      {
-        "saison": 7,
-        "annee": 2010,
-        "note": 8.7
-      },
-      {
-        "saison": 8,
-        "annee": 2010,
-        "note": 8.7
-      },
-      {
-        "saison": 9,
-        "annee": 2010,
-        "note": 8.7
-      },
-      {
-        "saison": 10,
-        "annee": 2011,
-        "note": 8.7
-      },
-      {
-        "saison": 11,
-        "annee": 2011,
-        "note": 8.7
-      },
-      {
-        "saison": 12,
-        "annee": 2012,
-        "note": 8.7
-      },
-      {
-        "saison": 13,
-        "annee": 2012,
-        "note": 8.7
-      },
-      {
-        "saison": 14,
-        "annee": 2013,
-        "note": 8.7
-      },
-      {
-        "saison": 15,
-        "annee": 2013,
-        "note": 8.7
-      },
-      {
-        "saison": 16,
-        "annee": 2014,
-        "note": 8.7
-      },
-      {
-        "saison": 17,
-        "annee": 2014,
-        "note": 8.7
-      },
-      {
-        "saison": 18,
-        "annee": 2014,
-        "note": 8.7
-      },
-      {
-        "saison": 19,
-        "annee": 2007,
-        "note": 8.7
-      },
-      {
-        "saison": 20,
-        "annee": 2015,
-        "note": 8.7
-      }
-    ],
-    "duree": "23 min/ép.",
-    "runtime_minutes": 23,
-    "note_avis": 8.7,
-    "note_recence": 5.5,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "drm",
-      "fnt",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/347103972/s592/naruto-shippuden.jpg",
-    "synopsis": "Cela fait désormais trois ans que Naruto est parti de Konoha en entraînement spécial avec le Sannin légendaire Jiraya, avec toujours en tête son fol espoir de retrouver son ami Sasuke et de le ramener parmi les siens au village. Cette suite des aventures du ninja à la tignasse dorée reprend avec son retour dans le village de Konoha, marquées par diverses retrouvailles avec ses amis de toujours et le danger imminent que représente l'organisation Akatsuki à son encontre... ",
-    "date_ajout": "2007-06-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true,
-    "annee_fin": 2015
-  },
-  {
-    "id": "jw-tm1189388",
-    "titre": "King of Killers",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 4.5,
-    "note_recence": 9.1,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/307365100/s592/king-of-killers.jpg",
-    "synopsis": "Marcus Garan, ancien tueur à gages de l'agence, tente de percer le mystère d'un incident tragique. Lorsqu'on lui propose un contrat de 10 millions de dollars pour éliminer le plus grand assassin du monde, Marcus se rend à Tokyo pour rencontrer le client, mais découvre que d'autres tueurs professionnels ont également été invités. Marcus et les autres doivent désormais affronter cet assassin mythique et mortel… ou mourir en essayant.",
-    "date_ajout": "2025-12-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm276128",
-    "titre": "The Endless",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 52min",
-    "runtime_minutes": 112,
-    "note_avis": 6.5,
-    "note_recence": 7.3,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "fnt",
-      "hrr",
-      "trl",
-      "scf"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/126176822/s592/the-endless.jpg",
-    "synopsis": "Deux frères retournent dans la secte qu’ils ont quittée dix ans plus tôt, après avoir reçu une mystérieuse lettre rédigée par l’un des membres de leur ancienne « famille ». Très vite, des événements inexpliqués vont remettre en cause leurs croyances…",
-    "date_ajout": "2019-03-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm313044",
-    "titre": "Venom",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 52min",
-    "runtime_minutes": 112,
-    "note_avis": 6.6,
-    "note_recence": 7.6,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "scf"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/73743781/s592/venom.jpg",
-    "synopsis": "Des symbiotes débarquent sur la Terre, parmi eux, Venom, qui va s’allier avec Eddie Brock. De son côté, un puissant scientifique tente de faire évoluer l’humanité avec les symbiotes, le duo d’anti‐héros va devoir tout faire pour l’arrêter !",
-    "date_ajout": "2018-10-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm137713",
-    "titre": "American Sniper",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "2h 13min",
-    "runtime_minutes": 133,
-    "note_avis": 7.3,
-    "note_recence": 6.4,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "war"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/12305347/s592/american-sniper.jpg",
-    "synopsis": "Tireur d’élite des Navy SEAL, Chris Kyle est envoyé en Irak dans un seul but : protéger ses camarades. Sa précision chirurgicale sauve d’innombrables vies humaines sur le champ de bataille et, tandis que les récits de ses exploits se multiplient, il décroche le surnom de « La Légende ». Cependant, sa réputation se propage au-delà des lignes ennemies, si bien que sa tête est mise à prix et qu’il devient une cible privilégiée des insurgés. Malgré le danger, et l’angoisse dans laquelle vit sa famille, Chris participe à quatre batailles décisives parmi les plus terribles de la guerre en Irak, s’imposant ainsi comme l’incarnation vivante de la devise des SEAL : « Pas de quartier ! ». Mais en rentrant au pays, Chris prend conscience qu’il ne parvient pas à retrouver une vie normale.",
-    "date_ajout": "2015-02-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm244221",
     "titre": "Under the Silver Lake",
     "type": "film",
@@ -46425,248 +42822,6 @@ const CATALOG_DATA = [
     },
     "on_prime": false,
     "on_tnt": false
-  },
-  {
-    "id": "jw-ts481150",
-    "titre": "La Mère et l'Assassin",
-    "type": "serie",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2026,
-        "note": 6
-      }
-    ],
-    "duree": "47 min/ép.",
-    "runtime_minutes": 47,
-    "note_avis": 6,
-    "note_recence": 10,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341362348/s592/la-mere-et-lassassin.jpg",
-    "synopsis": "Morgane Jourdan, la quarantaine, mène une vie bien réglée avec son mari restaurateur, Samuel, et leurs deux filles adolescentes, Océane et Alizée. Professeure, devenue principale d'un collège, elle jongle entre son travail exigeant et sa vie de famille. Tout bascule lorsqu’Océane, 17 ans, disparaît soudainement après une soirée où elle a surpris sa mère dans une situation compromettante avec Hugo Bennec, son professeur de sport. Morgane, rongée par l’angoisse et la culpabilité, se lance à corps perdu dans la recherche de sa fille.",
-    "date_ajout": "2026-08-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "mlt": "2026-10-21"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm222490",
-    "titre": "119 jours : Les survivants de l'océan",
-    "type": "film",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 5.9,
-    "note_recence": 7,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/187105621/s592/119-jours-les-survivants-de-locean.jpg",
-    "synopsis": "Tiré d'une histoire vraie, le film se base sur le livre \"The Spirit of Rose Noëlle\" écrit par l'un des survivants : John Glennie, propriétaire et capitaine du trimaran Rose Noëlle. En 1989, son voilier appareille de Picton en Nouvelle-Zélande à destination des Tonga avec 4 hommes à bord. Au cours d'une tempête, le voilier est retourné par une terrible vague et l'équipage se retrouve confiné dans une étroite cabine, seul espace n'étant pas innondé. Il s'ensuit alors, 119 jours de lutte et d'angoisse pour survivre au beau milieu de l'océan Pacifique.",
-    "date_ajout": "2016-07-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm210043",
-    "titre": "L'Exécuteur",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "2h 01min",
-    "runtime_minutes": 121,
-    "note_avis": 7.3,
-    "note_recence": 7.3,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/11877665/s592/lexecuteur.jpg",
-    "synopsis": "Un gangster récemment sorti de prison est forcé par ses anciens complices à organiser un nouvel acte criminel.",
-    "date_ajout": "2018-01-31",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm923836",
-    "titre": "Marionnette",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 48min",
-    "runtime_minutes": 108,
-    "note_avis": 5.9,
-    "note_recence": 8.2,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/255430934/s592/marionnette.jpg",
-    "synopsis": "Une thérapeute commence à douter de la réalité lorsqu'un de ses patients, un garçon de 10 ans, prétend pouvoir contrôler son futur.",
-    "date_ajout": "2021-11-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts55901",
-    "titre": "The Looming Tower",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 8
-      }
-    ],
-    "duree": "50 min/ép.",
-    "runtime_minutes": 50,
-    "note_avis": 8,
-    "note_recence": 7.6,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "war"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/48005120/s592/the-looming-tower.jpg",
-    "synopsis": "The Looming Tower décrit la menace grandissante représentée par Oussama Ben Laden et Al-Qaida et offre un regard polémique sur la façon dont la rivalité entre la CIA et le FBI a pu involontairement ouvrir la voie à la tragédie du 11 septembre et à la guerre en Irak.",
-    "date_ajout": "2026-09-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
   },
   {
     "id": "jw-tm854100",
@@ -46763,68 +42918,19 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm34380",
-    "titre": "Le Prénom",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2012,
-    "annee_moyenne": 2012,
-    "duree": "1h 50min",
-    "runtime_minutes": 110,
-    "note_avis": 7.3,
-    "note_recence": 5.8,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/238465766/s592/le-prenom.jpg",
-    "synopsis": "Vincent, la quarantaine triomphante, va être père pour la première fois. Invité à dîner chez Élisabeth et Pierre, sa sœur et son beau-frère, il y retrouve Claude, un ami d’enfance.  En attendant l’arrivée d’Anna, sa jeune épouse éternellement en retard, on le presse de questions sur sa future paternité dans la bonne humeur générale… Mais quand on demande à Vincent s’il a déjà choisi un prénom pour l’enfant à naître, sa réponse plonge la famille dans le chaos.",
-    "date_ajout": "2012-09-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm326770",
     "titre": "Lizzie",
     "type": "film",
     "chaine": "Sooner",
     "chaines": [
-      "Sooner",
-      "TF1+"
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/sooner.png",
-      "assets/logos/tf1.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "snr",
-      "tf1"
+      "snr"
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
@@ -46855,101 +42961,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm421588",
-    "titre": "The Prodigy",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 5.9,
-    "note_recence": 7.9,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "fnt",
-      "hrr",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/110194601/s592/the-prodigy.jpg",
-    "synopsis": "Une mère, Sarah, s'occupe de son fils mentalement perturbé, Miles. Il pense que le diable a pris possession de son corps. Pour sa sécurité et celle de sa famille, Sarah va devoir lutter contre son instinct maternel et chercher à comprendre pourquoi son fils s'est tourné vers les forces occultes.",
-    "date_ajout": "2019-02-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
     "on_tnt": false
-  },
-  {
-    "id": "jw-tm1346171",
-    "titre": "Marie-Line et son juge",
-    "type": "film",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 43min",
-    "runtime_minutes": 103,
-    "note_avis": 6.4,
-    "note_recence": 9.1,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306870369/s592/marie-line-et-son-juge.jpg",
-    "synopsis": "Marie-Line a 20 ans. Bien qu’elle ne connaisse que les petits boulots et la vie précaire, Marie-Line est un vrai rayon de soleil. Sa rencontre avec un juge bougon et déprimé, qui décide de l’engager comme chauffeur, va bouleverser sa vie.",
-    "date_ajout": "2023-10-11",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 03/11",
-      "daysLeft": 19,
-      "expirationDate": "2026-11-03",
-      "packageExpirations": {
-        "fra": "2026-11-03"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
   },
   {
     "id": "jw-tm245132",
@@ -46994,104 +43006,6 @@ const CATALOG_DATA = [
     },
     "on_prime": false,
     "on_tnt": false
-  },
-  {
-    "id": "jw-tm318385",
-    "titre": " Doctor Strange in the Multiverse of Madness",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "2h 06min",
-    "runtime_minutes": 126,
-    "note_avis": 6.8,
-    "note_recence": 8.8,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "fnt",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/290212018/s592/doctor-strange-in-the-multiverse-of-madness.jpg",
-    "synopsis": "Le Docteur Strange lance un sort interdit qui ouvre le portail du Multivers, incluant des versions alternatives de lui-même. Cette menace à l'humanité est plus puissante que les pouvoirs combinés de Strange, Wong et Wanda Maximoff.",
-    "date_ajout": "2022-05-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts42051",
-    "titre": "Taboo",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2017,
-        "note": 8.3
-      }
-    ],
-    "duree": "59 min/ép.",
-    "runtime_minutes": 59,
-    "note_avis": 8.3,
-    "note_recence": 7.3,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/91735295/s592/taboo.jpg",
-    "synopsis": "Considéré comme mort depuis des années, James Keziah Delaney refait surface à Londres en 1814, après 10 ans passés en Afrique. De retour en possession de diamants acquis illégalement et bien décidé à venger la mort de son père, il va refuser de vendre ce qu'il reste de l'héritage familial à la Compagnie britannique des Indes orientales et se mettre en tête de bâtir son propre empire de négoce et de transport. Mais James, qui va rapidement comprendre qu'il a de nombreux ennemis, va devoir naviguer bien des eaux troubles pour rester en vie et parvenir à ses fins.",
-    "date_ajout": "2017-04-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
   },
   {
     "id": "jw-tm312967",
@@ -47141,52 +43055,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm311865",
-    "titre": "Mission Pays Basque",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 4.7,
-    "note_recence": 7.3,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9878915/s592/mission-pays-basque.jpg",
-    "synopsis": "Sibylle, jeune parisienne aux dents longues, entend briller dans ses nouvelles fonctions professionnelles en rachetant une quincaillerie au Pays Basque afin d’y implanter un supermarché. Elle s’imagine avoir « roulé » le vieux propriétaire mais ce dernier est sous curatelle. Sibylle doit donc faire affaire avec Ramon, le neveu, pour récupérer son argent et signer au plus vite. Sinon, c’est le siège éjectable assuré. Elle va rapidement s’apercevoir que les basques n’ont pas l’intention de se laisser faire par une parisienne, si jolie soit-elle.",
-    "date_ajout": "2017-07-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm1372953",
     "titre": "Vampire humaniste cherche suicidaire consentant",
     "type": "film",
@@ -47226,438 +43094,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/312557534/s592/humanist-vampire-seeking-consenting-suicidal-person.jpg",
     "synopsis": "Sasha est une jeune vampire avec un grave problème : elle est trop humaniste pour mordre ! Lorsque ses parents, exaspérés, décident de lui couper les vivres, sa survie est menacée. Heureusement pour elle, Sasha fait la rencontre de Paul, un adolescent solitaire aux comportements suicidaires qui consent à lui offrir sa vie. Ce qui devait être un échange de bons procédés se transforme alors en épopée nocturne durant laquelle les deux nouveaux amis chercheront à réaliser les dernières volontés de Paul avant le lever du soleil.",
     "date_ajout": "2023-09-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts467641",
-    "titre": "Les Aventurières",
-    "type": "serie",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 6.5
-      }
-    ],
-    "duree": "47 min/ép.",
-    "runtime_minutes": 47,
-    "note_avis": 6.5,
-    "note_recence": 9.7,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/355392427/s592/les-aventurieres.jpg",
-    "synopsis": "Suite à la disparition de JP, mari et père de Françoise et Sophie, elles partent à l’aventure dans une périlleuse quête ponctuée d’énigmes, de vieux parchemins et de passages secrets qui les mènent au cœur du patrimoine de la région parisienne. L’occasion pour les deux femmes, qui n’ont jamais su se parler, de régler les mensonges du passé.",
-    "date_ajout": "2026-07-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm460935",
-    "titre": "Aquaman et le Royaume perdu",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "2h 04min",
-    "runtime_minutes": 124,
-    "note_avis": 5.6,
-    "note_recence": 9.1,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "fnt",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/311342660/s592/aquaman-et-le-royaume-perdu.jpg",
-    "synopsis": "Alors qu'Arthur Curry affronte ses responsabilités de Roi des Sept Mers, un pouvoir antique enfoui depuis longtemps se déchaîne. Après avoir été témoin de l'effet de ces forces obscures, Aquaman doit forger une alliance difficile avec un vieil ennemi et se lancer dans un voyage périlleux pour protéger sa famille, son royaume et le monde d'une dévastation irréversible.",
-    "date_ajout": "2023-12-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts282215",
-    "titre": "Most Wanted Criminals",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2023,
-    "saisons_disponibles": [
-      {
-        "saison": 3,
-        "annee": 2021,
-        "note": 6.9
-      },
-      {
-        "saison": 4,
-        "annee": 2022,
-        "note": 6.9
-      },
-      {
-        "saison": 5,
-        "annee": 2024,
-        "note": 6.9
-      }
-    ],
-    "duree": "42 min/ép.",
-    "runtime_minutes": 42,
-    "note_avis": 6.9,
-    "note_recence": 9.1,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl",
-      "rma"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/290467457/s592/fbi-most-wanted.jpg",
-    "synopsis": "Jess LaCroix et son équipe d'élite d'agents du FBI, l'Unité de Recherche, pourchassent un médecin impliqué dans le monde du crime organisé et de la drogue. Celui-ci est en fuite après l'interception d'un appel téléphonique prouvant qu'il a tué sa femme.",
-    "date_ajout": "2026-08-31",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "mlt": "2026-10-14"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2024
-  },
-  {
-    "id": "jw-ts21447",
-    "titre": " Luther",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+",
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "tf1",
-      "sxp"
-    ],
-    "annee": 2010,
-    "annee_fin": 2019,
-    "annee_moyenne": 2015,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2010,
-        "note": 8.4
-      },
-      {
-        "saison": 2,
-        "annee": 2011,
-        "note": 8.4
-      },
-      {
-        "saison": 3,
-        "annee": 2013,
-        "note": 8.4
-      },
-      {
-        "saison": 4,
-        "annee": 2015,
-        "note": 8.4
-      },
-      {
-        "saison": 5,
-        "annee": 2019,
-        "note": 8.4
-      }
-    ],
-    "duree": "58 min/ép.",
-    "runtime_minutes": 58,
-    "note_avis": 8.4,
-    "note_recence": 6.7,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/102366090/s592/luther.jpg",
-    "synopsis": "Un inspecteur de police consciencieux tente de ne pas partir à la dérive tandis qu'il démêle les facteurs psychologiques qui sous-tendent ses affaires criminelles.",
-    "date_ajout": "2021-05-23",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm453270",
-    "titre": "Chamboultout",
-    "type": "film",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 5.9,
-    "note_recence": 7.9,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/153330538/s592/chamboultout.jpg",
-    "synopsis": "Béatrice célèbre avec les siens la sortie de son livre, dans lequel elle raconte l’accident de son mari qui a bouleversé leur vie. Frédéric a perdu la vue et ne peut s’empêcher de dire tout ce qu’il pense : c’est devenu un homme imprévisible et sans filtre bien que toujours aussi drôle et séduisant. Mais ce livre, véritable hymne-à-la-vie, va déclencher un joyeux pugilat car même si Béatrice a changé les noms, chacun de ses proches cherche à retrouver son personnage. Le groupe d’amis et la famille tanguent… mais certaines tempêtes sont salutaires.",
-    "date_ajout": "2019-04-03",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 12 j",
-      "daysLeft": 12,
-      "expirationDate": "2026-10-27",
-      "packageExpirations": {
-        "fra": "2026-10-27"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm182527",
-    "titre": "Nuit blanche",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2011,
-    "annee_moyenne": 2011,
-    "duree": "1h 39min",
-    "runtime_minutes": 99,
-    "note_avis": 6.6,
-    "note_recence": 5.5,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/100759566/s592/nuit-blanche.jpg",
-    "synopsis": "Un flic dérobe un gros sac de cocaïne à des trafiquants, mais il est identifié au cours de l’opération. Les truands prennent alors son fils en otage. Vincent doit faire l’échange - son fils contre le sac - dans une immense boîte de nuit tenue par les mafieux. La nuit qui commence sera la plus longue de sa vie et peut-être même la dernière.",
-    "date_ajout": "2011-11-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm205121",
-    "titre": "Manipulation : La Voisine d'à côté",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 5.6,
-    "note_recence": 6.7,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "rma"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/256457472/s592/careful-what-you-wish-for.jpg",
-    "synopsis": "Alors que Doug a une liaison avec Lena, la jeune femme qui a loué la maison voisine de la sienne pour l'été, la mort suspecte du mari de cette dernière révèle l'existence d'une assurance vie conséquente.",
-    "date_ajout": "2018-06-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm244209",
-    "titre": "La Forme de l'eau",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "2h 00min",
-    "runtime_minutes": 120,
-    "note_avis": 7.3,
-    "note_recence": 7.3,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "drm",
-      "fnt",
-      "rma",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/44152976/s592/la-forme-de-leau.jpg",
-    "synopsis": "Modeste employée d’un laboratoire gouvernemental ultra secret, Elisa mène une existence morne et solitaire, d’autant plus isolée qu’elle est muette. Sa vie bascule à jamais lorsqu’elle et sa collègue Zelda découvrent une expérience encore plus secrète que les autres…",
-    "date_ajout": "2018-02-21",
     "expiration": {
       "status": "none",
       "label": null,
@@ -47763,125 +43199,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts21367",
-    "titre": "Jane the Virgin",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2017,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2014,
-        "note": 7.9
-      },
-      {
-        "saison": 2,
-        "annee": 2015,
-        "note": 7.9
-      },
-      {
-        "saison": 3,
-        "annee": 2016,
-        "note": 7.9
-      },
-      {
-        "saison": 4,
-        "annee": 2017,
-        "note": 7.9
-      },
-      {
-        "saison": 5,
-        "annee": 2019,
-        "note": 7.9
-      }
-    ],
-    "duree": "42 min/ép.",
-    "runtime_minutes": 42,
-    "note_avis": 7.9,
-    "note_recence": 7.3,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/120479354/s592/jane-the-virgin.jpg",
-    "synopsis": "Jane, une jeune femme très pieuse, encore vierge, sur le point de se fiancer, se retrouve accidentellement inséminée artificiellement après une suite d'événements improbables. Elle porte l'enfant d'un couple dont le mari, suite à un cancer des testicules, n'avait plus qu'un seul espoir d'être le père naturel de ses enfants. Jane se trouve alors face à un dilemme : devenir leur mère porteuse, garder l'enfant puis l'élever comme le sien, ou avorter ? ",
-    "date_ajout": "2026-02-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true,
-    "annee_fin": 2019
-  },
-  {
-    "id": "jw-tm211204",
-    "titre": "Creed : L'héritage de Rocky Balboa",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "2h 13min",
-    "runtime_minutes": 133,
-    "note_avis": 7.6,
-    "note_recence": 6.7,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9339587/s592/creed-lheritage-de-rocky-balboa.jpg",
-    "synopsis": "Adonis Johnson n’a jamais connu son père, le célèbre champion du monde poids lourd Apollo Creed, décédé avant sa naissance. Malgré tout, il a de toute évidence la boxe dans le sang et il se rend donc à Philadelphie, là même où Apollo Creed a affronté un adversaire ambitieux, Rocky Balboa, lors d’un match mémorable. Une fois sur place, Adonis parvient à retrouver la trace de Rocky et lui demande de devenir son entraîneur. Tout en lui expliquant qu’il n’est plus dans la course depuis longtemps, Rocky décèle chez Adonis la force et la détermination qui animaient Apollo, ce redoutable rival devenu son meilleur ami. Rocky finit par accepter d’entraîner le jeune boxeur, alors même que l’ancien champion doit affronter un adversaire bien plus terrible que tous ceux qu’il a combattus sur le ring. Grâce à Rocky, Adonis ne tarde pas à tenter de remporter le titre… Mais sera‐t‐il à même d’acquérir l’énergie et le courage nécessaires pour tout vrai boxeur qui veut monter sur le ring?",
-    "date_ajout": "2015-11-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm145203",
     "titre": "Bienvenue à Zombieland",
     "type": "film",
@@ -47974,97 +43291,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1167600",
-    "titre": "Ténor",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 6.6,
-    "note_recence": 8.8,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "msc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/273014879/s592/tenor.jpg",
-    "synopsis": "Antoine, jeune banlieusard parisien, suit des études de comptabilité sans grande conviction, partageant son temps entre les battles de rap qu’il pratique avec talent et son job de livreur de sushis. Lors d’une course à l’Opéra Garnier, sa route croise celle de Mme Loyseau, professeur de chant dans la vénérable institution, qui détecte chez Antoine un talent brut à faire éclore. Malgré son absence de culture lyrique, Antoine est fasciné par cette forme d’expression et se laisse convaincre de suivre l’enseignement de Mme Loyseau. Antoine n’a d’autre choix que de mentir à sa famille, ses amis et toute la cité pour qui l’opéra est un truc de bourgeois, loin de leur monde.",
-    "date_ajout": "2022-05-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1444674",
-    "titre": "Five Nights at Freddy's 2",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 5.1,
-    "note_recence": 9.7,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "hrr",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/339565072/s592/five-nights-at-freddys-2.jpg",
-    "synopsis": "Un an s’est écoulé depuis le cauchemar surnaturel survenu chez Freddy Fazbear's Pizza. Un effroyable nouveau chapitre d'horreur s'ouvre lorsqu’Abby, la sœur de Mike, ancien agent de sécurité, s'échappe à la recherche de ses amis animatroniques : Freddy, Bonnie, Chica et Foxy. Alors que de terrifiants événements se déclenchent, de sombres secrets sur les véritables origines de Freddy sont révélés, libérant une horreur oubliée depuis des décennies.",
-    "date_ajout": "2025-12-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm207103",
     "titre": "Le Fils de Saul",
     "type": "film",
@@ -48110,54 +43336,6 @@ const CATALOG_DATA = [
     },
     "on_prime": false,
     "on_tnt": false
-  },
-  {
-    "id": "jw-tm136924",
-    "titre": "Terminator Genisys",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "2h 06min",
-    "runtime_minutes": 126,
-    "note_avis": 6.3,
-    "note_recence": 6.7,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "trl",
-      "scf"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176259730/s592/terminator-genisys.jpg",
-    "synopsis": "Le leader de la résistance, John Connor, envoie le sergent Kyle Reese dans le passé, afin de protéger sa mère, Sarah Connor, et de préserver l’avenir de l’humanité. Des événements inattendus provoquent une fracture temporelle. Sarah et Kyle se retrouvent dans une nouvelle version du passé. Ils y découvrent un allié inattendu : le Guardian. Ensemble, ils doivent faire face à un nouvel ennemi cybernétique. La menace a changé de visage.",
-    "date_ajout": "2015-03-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "nvn": "2026-10-15"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
   },
   {
     "id": "jw-tm1345332",
@@ -48206,52 +43384,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm55213",
-    "titre": "Safe",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2012,
-    "annee_moyenne": 2012,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 6.5,
-    "note_recence": 5.8,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/240691184/s592/safe.jpg",
-    "synopsis": "Un ancien agent secret sauve une petite fille à la mémoire exceptionnelle, déclenchant ainsi une guerre des gangs entre les Triades, la mafia russe et des politiciens new-yorkais corrompus. Tous veulent mettre la main sur l'enfant, la seule à détenir la combinaison d'un coffre-fort très convoité.",
-    "date_ajout": "2012-06-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm322680",
     "titre": "Muse",
     "type": "film",
@@ -48291,54 +43423,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/54776141/s592/muse.jpg",
     "synopsis": "Depuis un an, Samuel, professeur de littérature ancienne, fait chaque nuit le même cauchemar traumatisant où une femme est assassinée lors d’un rituel macabre. En apprenant dans la presse locale qu’un meurtre identique a eu lieu, il comprend que son rêve était prémonitoire. Alors qu’il cherche des réponses sur les lieux du crime, Samuel fait la rencontre de Rachel, une jeune femme qui affirme avoir eu les mêmes visions que lui. Ensemble, ils vont mener l’enquête pour percer le mystère… et entrer dans un monde contrôlé par des créatures terrifiantes : les Muses.",
     "date_ajout": "2017-11-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm213135",
-    "titre": "Barry Seal - American Traffic",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 55min",
-    "runtime_minutes": 115,
-    "note_avis": 7.2,
-    "note_recence": 7.3,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/30018869/s592/barry-seal-american-traffic.jpg",
-    "synopsis": "1978, Barry Seal, un pilote chevronné, s'ennuie ferme dans l'aviation civile et cherche l'aventure. Monty Schafer va lui donner de quoi pimenter son existence. Il lui propose en effet de réaliser des livraisons spéciales pour le compte de la CIA. Entre blanchiment d'argent et transports pour le cartel de Pablo Escobar, ces activités ne sont pas bien légales. Les affaires marchent rapidement très fort et l'argent coule à flots. Mais Barry Seal, grand amateur de Cadillac, ne tarde pas à être dans le collimateur des autorités et de ses clients, au point que la sécurité de sa famille n'est plus assurée.",
-    "date_ajout": "2017-08-23",
     "expiration": {
       "status": "none",
       "label": null,
@@ -48447,97 +43531,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm371397",
-    "titre": "Summer Love",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 5.5,
-    "note_recence": 7.6,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/143636215/s592/summer-love.jpg",
-    "synopsis": "Pour Jamie, 16 ans, la vie n’est pas facile tous les jours. Aux difficultés classiques de l’adolescence s’ajoutent les confessions sur son de lit de mort de sa grand-mère qui souhaite soulager sa conscience. Et son dernier conseil porte sur l’importance de la… fellation ! Les vacances de Jamie peuvent commencer…",
-    "date_ajout": "2019-08-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm316682",
-    "titre": "Problemos",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 6.1,
-    "note_recence": 7.3,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/92429806/s592/problemos.jpg",
-    "synopsis": "Jeanne et Victor sont deux jeunes parisiens de retour de vacances. En chemin, ils font une halte pour saluer leur ami Jean-Paul, sur la prairie où sa communauté a élu résidence. Le groupe lutte contre la construction d’un parc aquatique sur la dernière zone humide de la région, et plus généralement contre la société moderne, la grande Babylone. Séduits par une communauté qui prône le « vivre autrement », où l’individualisme, la technologie et les distinctions de genre sont abolis, Jeanne et Victor acceptent l’invitation qui leur est faite de rester quelques jours. Lorsqu’un beau matin la barrière de CRS qui leur fait face a disparu… la Communauté pense l’avoir emporté sur le monde moderne. Mais le plaisir est de courte durée… à l’exception de leur campement, la population terrestre a été décimée par une terrible pandémie. Ce qui fait du groupe les derniers survivants du monde. Va-t-il falloir se trouver de nouveaux ennemis pour survivre ?",
-    "date_ajout": "2017-05-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1515380",
     "titre": "The Rule of Jenny Pen",
     "type": "film",
@@ -48580,284 +43573,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm11948",
-    "titre": "Toy Story 4",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 7.7,
-    "note_recence": 7.9,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "fnt",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/135270167/s592/toy-story-4.jpg",
-    "synopsis": "Woody a toujours privilégié la joie et le bien‐être de ses jeunes propriétaires – Andy puis Bonnie – et de ses compagnons, n’hésitant pas à prendre tous les risques pour eux, aussi inconsidérés soient‐ils. L’arrivée de Forky, un nouveau jouet qui ne veut pas en être un dans la chambre de Bonnie, met toute la petite bande en émoi. C’est le début d’une grande aventure et d’un extraordinaire voyage pour Woody et ses amis. Le cowboy va découvrir à quel point le monde peut être vaste pour un jouet…",
-    "date_ajout": "2019-06-26",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm177413",
-    "titre": "Polisse",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2011,
-    "annee_moyenne": 2011,
-    "duree": "2h 03min",
-    "runtime_minutes": 123,
-    "note_avis": 7.3,
-    "note_recence": 5.5,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/141285083/s592/polisse.jpg",
-    "synopsis": "Le quotidien des policiers de la BPM (Brigade de Protection des Mineurs) ce sont les gardes à vue de pédophiles, les arrestations de pickpockets mineurs mais aussi la pause déjeuner où l’on se raconte ses problèmes de couple ; ce sont les auditions de parents maltraitants, les dépositions des enfants, les dérives de la sexualité chez les adolescents, mais aussi la solidarité entre collègues et les fous rires incontrôlables dans les moments les plus impensables ; c’est savoir que le pire existe, et tenter de faire avec… Comment ces policiers parviennent-ils à trouver l’équilibre entre leurs vies privées et la réalité à laquelle ils sont confrontés, tous les jours ? Fred, l’écorché du groupe, aura du mal à supporter le regard de Melissa, mandatée par le ministère de l’intérieur pour réaliser un livre de photos sur cette brigade.",
-    "date_ajout": "2012-06-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm61496",
-    "titre": "The Battery",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2012,
-    "annee_moyenne": 2012,
-    "duree": "1h 41min",
-    "runtime_minutes": 101,
-    "note_avis": 6.2,
-    "note_recence": 5.8,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "hrr"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/78489480/s592/the-battery.jpg",
-    "synopsis": "Deux joueurs de baseball aux caractères opposés apprennent à (sur)vivre ensemble dans un monde dévasté et dominé par des « infectés ».",
-    "date_ajout": "2023-10-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm219307",
-    "titre": "La Tour sombre",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 5.6,
-    "note_recence": 7.3,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "fnt",
-      "scf",
-      "wsn"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300960603/s592/la-tour-sombre.jpg",
-    "synopsis": "Le dernier Pistolero, Roland Deschain, est condamné à livrer une éternelle bataille contre Walter O’Dim, alias l’Homme en noir, qu’il doit à tout prix empêcher de détruire la Tour sombre, clé de voûte de la cohésion de l’univers. Le destin de tous les mondes est en jeu, le bien et le mal vont s’affronter dans l’ultime combat, car Roland est le seul à pouvoir défendre la Tour contre l’Homme en noir…",
-    "date_ajout": "2017-08-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1187627",
-    "titre": "Rituel meurtrier",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 4.3,
-    "note_recence": 9.1,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/304441890/s592/muti.jpg",
-    "synopsis": "Un détective (Cole Hauser) à la poursuite d’un tueur en série n’a comme seul allié un anthropologue et professeur (Morgan Freeman) qui cache un terrible secret.",
-    "date_ajout": "2024-09-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm147578",
-    "titre": "Wild",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 55min",
-    "runtime_minutes": 115,
-    "note_avis": 7.1,
-    "note_recence": 6.4,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/177620259/s592/wild.jpg",
-    "synopsis": "Une femme qui essaye de se reconstruire décide de faire une longue randonnée sur la côte ouest des États-Unis. Après plusieurs années d’errance, d’addiction et l’échec de son couple, Cheryl Strayed prend une décision radicale : elle tourne le dos à son passé et, sans aucune expérience, se lance dans un périple en solitaire de 1700 kilomètres, à pied, avec pour seule compagnie le souvenir de sa mère disparue… Cheryl va affronter ses plus grandes peurs, approcher ses limites, frôler la folie et découvrir sa force.",
-    "date_ajout": "2015-01-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
     "on_tnt": false
   },
   {
@@ -49035,7 +43750,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "ima": "2026-12-31"
@@ -49050,17 +43765,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Shadowz",
     "chaines": [
-      "Shadowz",
-      "Molotov Gratuit"
+      "Shadowz"
     ],
     "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/shadowz.png",
-      "assets/logos/molotov.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "sdz",
-      "mlt"
+      "sdz"
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
@@ -49091,201 +43803,6 @@ const CATALOG_DATA = [
     },
     "on_prime": false,
     "on_tnt": false
-  },
-  {
-    "id": "jw-tm290947",
-    "titre": "Patients",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 50min",
-    "runtime_minutes": 110,
-    "note_avis": 7.2,
-    "note_recence": 7.3,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "doc",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300685563/s592/patients.jpg",
-    "synopsis": "Se laver, s'habiller, marcher, jouer au basket, voici ce que Ben ne peut plus faire à son arrivée dans un centre de rééducation suite à un grave accident. Ses nouveaux amis sont tétras, paras, traumas crâniens.... Bref, toute la crème du handicap. Ensemble ils vont apprendre la patience. Ils vont résister, se vanner, s'engueuler, se séduire mais surtout trouver l'énergie pour réapprendre à vivre. Patients est l'histoire d'une renaissance, d'un voyage chaotique fait de victoires et de défaites, de larmes et d’éclats de rire, mais surtout de rencontres : on ne guérit pas seul.",
-    "date_ajout": "2017-03-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts75191",
-    "titre": "Full Moon",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2017,
-        "note": 7
-      }
-    ],
-    "duree": "117 min/ép.",
-    "runtime_minutes": 117,
-    "note_avis": 7,
-    "note_recence": 7.3,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/141761029/s592/full-moon.jpg",
-    "synopsis": "Ferit Aslan est un homme d'affaires très prospère et extrêmement organisé. Il souhaite le même mode d'organisation dans sa vie privée et professionnelle. Nazli, qui étudie la gastronomie, doit trouver un emploi immédiatement car elle doit couvrir les dépenses de la maison qu'elle partage avec son amie et sa sœur. Elle est une personnalité têtue et inflexible, elle a donc du mal à garder un emploi. Les deux complètement opposés, se rencontrent dans cette série.",
-    "date_ajout": "2026-08-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1063493",
-    "titre": "Hitman & Bodyguard 2",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 57min",
-    "runtime_minutes": 117,
-    "note_avis": 6.1,
-    "note_recence": 8.5,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm",
-      "trl",
-      "rma"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/248423435/s592/hitman-and-bodyguard-2.jpg",
-    "synopsis": "Michael Bryce, le célèbre garde du corps, a besoin de repos. Il décide d’entamer un \" voyage spirituel \" en Italie, loin des armes et de la violence. C’est à Capri que Sonia, la femme de Darius Kincaid, vient le chercher pour qu’il l’aide à libérer son mari des griffes de Carlo, un caïd mafieux. Michael accepte – à condition de ne toucher à aucune arme à feu… Ils infiltrent le QG de l’organisation criminelle, faisant échouer au passage une opération de surveillance des autorités, ce qui va leur attirer un autre genre d’ennuis… Le trio va vite se retrouver au cœur d’un chassé-croisé rempli de criminels et d’officiels qui ont tous d’excellentes raisons de leur en vouloir. Est-il vraiment possible de sauver sa peau et le monde sans tirer un seul coup de feu ?",
-    "date_ajout": "2021-06-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm53344",
-    "titre": "Mesrine : L'Ennemi public n°1",
-    "type": "film",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2008,
-    "annee_moyenne": 2008,
-    "duree": "2h 13min",
-    "runtime_minutes": 133,
-    "note_avis": 7.4,
-    "note_recence": 4.6,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/189263864/s592/lennemi-public-no-1.jpg",
-    "synopsis": "Les spectaculaires actions criminelles de Jacques Mesrine que les médias introniseront «Ennemi public n°1» et que toutes les polices de France traqueront sans répit jusqu'à sa mort.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
   },
   {
     "id": "jw-tm1591123",
@@ -49330,594 +43847,6 @@ const CATALOG_DATA = [
     },
     "on_prime": false,
     "on_tnt": false
-  },
-  {
-    "id": "jw-ts113497",
-    "titre": "Blanca",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2023,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2021,
-        "note": 7.3
-      },
-      {
-        "saison": 3,
-        "annee": 2025,
-        "note": 7.3
-      }
-    ],
-    "duree": "83 min/ép.",
-    "runtime_minutes": 83,
-    "note_avis": 7.3,
-    "note_recence": 9.1,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/262196905/s592/blanca.jpg",
-    "synopsis": "Grâce à son handicap, Blanca, une jeune femme aveugle, devient consultante pour la police.",
-    "date_ajout": "2026-10-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "mlt": "2026-10-17"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2025
-  },
-  {
-    "id": "jw-tm309033",
-    "titre": "Chaudes nuits d'été",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 47min",
-    "runtime_minutes": 107,
-    "note_avis": 6.4,
-    "note_recence": 7.6,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "rma"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/142275876/s592/hot-summer-nights.jpg",
-    "synopsis": "Daniel, un adolescent maladroit, se retrouve durant un été à la tête d'un trafic de drogue, tout en tombant amoureux de l'énigmatique sœur de son associé.",
-    "date_ajout": "2018-07-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm544",
-    "titre": "Aquaman",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "2h 23min",
-    "runtime_minutes": 143,
-    "note_avis": 6.8,
-    "note_recence": 7.6,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "fnt",
-      "scf"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/188071985/s592/aquaman.jpg",
-    "synopsis": "Personnage légendaire depuis 70 ans, Aquaman est le Roi des Sept Mers, régnant à contrecœur sur Atlantis. Pris en étau entre les Terriens qui détruisent constamment la mer et les habitants d'Atlantis prêts à se révolter, Aquaman doit protéger la planète tout entière…",
-    "date_ajout": "2018-12-19",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts24486",
-    "titre": "Scènes de ménages",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2009,
-    "annee_fin": 2026,
-    "annee_moyenne": 2018,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2009,
-        "note": 6.3
-      },
-      {
-        "saison": 2,
-        "annee": 2010,
-        "note": 6.3
-      },
-      {
-        "saison": 3,
-        "annee": 2011,
-        "note": 6.3
-      },
-      {
-        "saison": 16,
-        "annee": 2024,
-        "note": 6.3
-      },
-      {
-        "saison": 17,
-        "annee": 2025,
-        "note": 6.3
-      },
-      {
-        "saison": 18,
-        "annee": 2026,
-        "note": 6.3
-      }
-    ],
-    "duree": "20 min/ép.",
-    "runtime_minutes": 20,
-    "note_avis": 6.3,
-    "note_recence": 7.6,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fml",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/110513370/s592/scenes-de-menages.jpg",
-    "synopsis": "Scènes de ménages met en scène le quotidien de plusieurs couples de différentes générations, illustrant avec humour leurs disputes, leurs moments tendres et leurs petites manies. Chaque épisode est composé de saynètes courtes, dans lesquelles les personnages échangent des répliques cinglantes et des situations cocasses.",
-    "date_ajout": "2026-03-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts29568",
-    "titre": "Maîtres et Valets",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+",
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "tf1",
-      "sxp"
-    ],
-    "annee": 2010,
-    "annee_fin": 2012,
-    "annee_moyenne": 2011,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2010,
-        "note": 7.4
-      },
-      {
-        "saison": 2,
-        "annee": 2012,
-        "note": 7.4
-      }
-    ],
-    "duree": "60 min/ép.",
-    "runtime_minutes": 60,
-    "note_avis": 7.4,
-    "note_recence": 5.5,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306981936/s592/upstairs-downstairs.jpg",
-    "synopsis": "Londres, 1936. Le 165 Eaton Place, abandonné depuis le départ des Bellamy 6 ans auparavant, reprend vie grâce à l'arrivée des nouveaux propriétaires : Sir Hallam Holland, diplomate de haut-rang et sa femme Lady Agnès. Pour redonner tout son lustre à cette somptueuse demeure, Lady Agnès consulte Rose Buck, l'ancienne gouvernante des Bellamy, pour qu'elle recrute le personnel adéquat...",
-    "date_ajout": "2025-12-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "art": "2026-12-17"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts306910",
-    "titre": "Les invisibles",
-    "type": "serie",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2023,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2021,
-        "note": 7
-      },
-      {
-        "saison": 2,
-        "annee": 2022,
-        "note": 7
-      },
-      {
-        "saison": 3,
-        "annee": 2023,
-        "note": 7
-      },
-      {
-        "saison": 4,
-        "annee": 2024,
-        "note": 7
-      }
-    ],
-    "duree": "53 min/ép.",
-    "runtime_minutes": 53,
-    "note_avis": 7,
-    "note_recence": 9.1,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322536017/s592/les-invisibles.jpg",
-    "synopsis": "Darius, vif, passionné, un brin magouilleur est le boss des « Invisibles », une brigade à la marge qui gère des enquêtes sur les corps sans identité, sans histoire, sans passé…",
-    "date_ajout": "2026-08-19",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 29/11",
-      "daysLeft": 45,
-      "expirationDate": "2026-11-29",
-      "packageExpirations": {
-        "fra": "2026-11-29"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2024
-  },
-  {
-    "id": "jw-tm1440962",
-    "titre": "Bis Repetita",
-    "type": "film",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 5.7,
-    "note_recence": 9.4,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/311210487/s592/bis-repetita.jpg",
-    "synopsis": "Delphine, prof de lettres désabusée, a un deal bien rôdé avec ses élèves : ils lui fichent une paix royale, elle leur distribue des 19 sur 20. Mais la combine se retourne contre elle quand ses excellents résultats (fictifs) propulsent sa classe au championnat du monde de latin, à Naples. Comble du cauchemar, c'est le neveu très zélé de la Proviseure qui est choisi comme accompagnateur. Pour sauver l’option latin, et surtout sa situation confortable, Delphine ne voit qu’une solution : tricher !",
-    "date_ajout": "2024-03-20",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 12 j",
-      "daysLeft": 12,
-      "expirationDate": "2026-10-27",
-      "packageExpirations": {
-        "fra": "2026-10-27"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts375565",
-    "titre": "Red Eye",
-    "type": "serie",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 7.1
-      }
-    ],
-    "duree": "47 min/ép.",
-    "runtime_minutes": 47,
-    "note_avis": 7.1,
-    "note_recence": 9.4,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354793188/s592/red-eye.jpg",
-    "synopsis": "Après avoir assisté à une conférence médicale à Pékin et avoir frôlé la mort dans un accident de voiture, le Dr Matthew Nolan rentre chez lui. Il est arrêté à l'aéroport londonien d'Heathrow. Épuisé et confus, Nolan est accusé du meurtre d'une femme qui se trouvait dans la voiture qu'il a accidentée.",
-    "date_ajout": "2026-02-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts36545",
-    "titre": "Quantico",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2017,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2015,
-        "note": 6.7
-      },
-      {
-        "saison": 2,
-        "annee": 2016,
-        "note": 6.7
-      },
-      {
-        "saison": 3,
-        "annee": 2018,
-        "note": 6.7
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 6.7,
-    "note_recence": 7.3,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/54057175/s592/quantico.jpg",
-    "synopsis": "De jeunes recrues du FBI se battent de toutes leurs forces sur le camp d'entraînement de Quantico en Virginie, entre tests d'endurance physique, cours de tir et maîtrise de l'art de l'enquête et de l'interrogatoire. Ils ont 50% de chances d'échouer, la compétition fait rage. 9 mois plus tard, l'un d'entre eux est suspecté d'avoir commis la pus grosse attaque terroriste sur le sol Américain depuis le 11 Septembre 2001...",
-    "date_ajout": "2021-03-19",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2018
-  },
-  {
-    "id": "jw-ts37522",
-    "titre": "Dr Foster",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2016,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2015,
-        "note": 7.6
-      },
-      {
-        "saison": 2,
-        "annee": 2017,
-        "note": 7.6
-      }
-    ],
-    "duree": "56 min/ép.",
-    "runtime_minutes": 56,
-    "note_avis": 7.6,
-    "note_recence": 7,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/345463155/s592/docteur-foster.jpg",
-    "synopsis": "Respectée par les gens de son village qui voient en elle une personne de confiance, Gemma Foster mène une vie satisfaisante. Quand elle commence à suspecter que son mari la trompe, elle cherche à découvrir la vérité. Cela la mènera à mettre à jour de nombreux secrets qui vont pousser sa vie, celle de sa famille et de certains de ses clients dans le chaos.",
-    "date_ajout": "2026-01-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true,
-    "annee_fin": 2017
   },
   {
     "id": "jw-tm350379",
@@ -49967,315 +43896,19 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm233247",
-    "titre": "Imperium",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 49min",
-    "runtime_minutes": 109,
-    "note_avis": 6.5,
-    "note_recence": 7,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/279668255/s592/imperium.jpg",
-    "synopsis": "Nate Foster, jeune recrue du FBI, est chargé par sa supérieure d'infiltrer en tant qu'indic un groupuscule néo-nazi. D'abord réticent, Nate comprend vite que pour mettre en confiance les membres de l'organisation, il doit devenir un des leurs...  Crâne rasé, prétendument vétéran de guerre, le voilà contraint de participer aux débordements racistes et d'adhérer aux discours haineux du groupe. Tiraillé entre sa morale et les impératifs de sa mission, Nate est pris de vertiges lorsqu'il découvre que le groupe prépare une attaque terroriste sans précédent...",
-    "date_ajout": "2016-08-19",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "nvn": "2026-11-28"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts34845",
-    "titre": "The Paradise",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+",
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "tf1",
-      "sxp"
-    ],
-    "annee": 2012,
-    "annee_fin": 2013,
-    "annee_moyenne": 2013,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2012,
-        "note": 7.7
-      },
-      {
-        "saison": 2,
-        "annee": 2013,
-        "note": 7.7
-      }
-    ],
-    "duree": "61 min/ép.",
-    "runtime_minutes": 61,
-    "note_avis": 7.7,
-    "note_recence": 6.1,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/331104055/s592/the-paradise.jpg",
-    "synopsis": "Une jeune villageoise animée de grandes ambitions s'installe en ville et devient vendeuse au Paradise, le tout premier grand magasin du pays.",
-    "date_ajout": "2026-01-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "art": "2027-02-06"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts472930",
-    "titre": "L'affaire Laura Stern",
-    "type": "serie",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2026,
-        "note": 7.7
-      }
-    ],
-    "duree": "54 min/ép.",
-    "runtime_minutes": 54,
-    "note_avis": 7.7,
-    "note_recence": 10,
-    "note_globale": 8.9,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/342181879/s592/laura.jpg",
-    "synopsis": "Laura, pharmacienne et mère de famille, a fondé une association d'aide aux femmes victimes de violences, Femmes Debout. Un jour, elle assiste, impuissante, au meurtre d'une de ses membres. Profondément traumatisée par ce féminicide et révoltée par l'inaction de la police et de la justice, elle décide de répondre à la violence des hommes par la violence pour protéger celles qui l'entourent.",
-    "date_ajout": "2026-01-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm91803",
-    "titre": "Les Petits Mouchoirs",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+",
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "tf1",
-      "sxp"
-    ],
-    "annee": 2010,
-    "annee_moyenne": 2010,
-    "duree": "2h 33min",
-    "runtime_minutes": 153,
-    "note_avis": 7.1,
-    "note_recence": 5.2,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176291401/s592/les-petits-mouchoirs.jpg",
-    "synopsis": "À la suite d'un événement bouleversant, une bande de copains décide, malgré tout, de partir en vacances au bord de la mer comme chaque année. Leur amitié, leurs certitudes, leur culpabilité, leurs amours en seront ébranlées. Ils vont enfin devoir lever les « petits mouchoirs » qu'ils ont posés sur leurs secrets et leurs mensonges.",
-    "date_ajout": "2010-10-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts57285",
-    "titre": "La Petite Histoire de France",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2015,
-    "annee_fin": 2025,
-    "annee_moyenne": 2020,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2015,
-        "note": 7.3
-      },
-      {
-        "saison": 2,
-        "annee": 2016,
-        "note": 7.3
-      },
-      {
-        "saison": 3,
-        "annee": 2018,
-        "note": 7.3
-      },
-      {
-        "saison": 4,
-        "annee": 2021,
-        "note": 7.3
-      },
-      {
-        "saison": 5,
-        "annee": 2023,
-        "note": 7.3
-      },
-      {
-        "saison": 6,
-        "annee": 2025,
-        "note": 7.3
-      }
-    ],
-    "duree": "4 min/ép.",
-    "runtime_minutes": 4,
-    "note_avis": 7.3,
-    "note_recence": 8.2,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fml",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/334054102/s592/la-petite-histoire-de-france.jpg",
-    "synopsis": "1810. Renata Plancher, cousine de Napoléon, tient avec son mari Jean Plancher et leur fils Baptiste une auberge, « Chez Bonaparte », à Paris, faubourg Saint-Honoré. Jean se plaint que l’Empereur n’ait plus aucun égard pour eux depuis son accession au pouvoir.\n\n1695. Le comte Philippe-Honoré de Roche Saint-Pierre, cousin de Louis XIV, a été renvoyé de Versailles par ce dernier. Il vit avec sa femme, Marie-Louise, dans leur château de La Croûtinière, situé à 250 kilomètres de Versailles.\n\n1430. François d’Arc, cousin de Jeanne d’Arc, vit à Domrémy — le village natal de Jeanne — avec sa femme Ysabeau et Gaspard, un éleveur de brebis. François tente par tous les moyens de délivrer sa cousine, prisonnière des Bourguignons.\n\nAn 1. Yorik, cousin de Vercingétorix, vit dans la mine de sel de Marsal, en Moselle gallo-romaine, avec sa femme Maëlle, leur fils Briac, leur fille Gwénola, Burgal — le frère de Maëlle — et Lena, la mère de Yorik.",
-    "date_ajout": "2026-01-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "mlt": "2026-10-18"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm235387",
     "titre": "Rester vertical",
     "type": "film",
     "chaine": "Sooner",
     "chaines": [
-      "Sooner",
-      "TF1+"
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/sooner.png",
-      "assets/logos/tf1.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "snr",
-      "tf1"
+      "snr"
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
@@ -50308,7 +43941,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1026705",
@@ -50356,60 +43989,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts226258",
-    "titre": "The Winter King",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2023,
-        "note": 6
-      }
-    ],
-    "duree": "55 min/ép.",
-    "runtime_minutes": 55,
-    "note_avis": 6,
-    "note_recence": 9.1,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "fnt",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306874394/s592/the-winter-king.jpg",
-    "synopsis": "Au cinquième siècle, bien avant que l'unification de la Grande-Bretagne, les vies sont souvent éphémères dans ce pays sauvage constitué de factions et de tribus en guerre. La série permet de suivre l'évolution d'Arthur Pendragon qui, de paria, devient un guerrier et un chef légendaire.",
-    "date_ajout": "2026-09-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm411986",
     "titre": "Ne coupez pas !",
     "type": "film",
@@ -50445,439 +44024,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/155377725/s592/ne-coupez-pas.jpg",
     "synopsis": "« Mais c'est impossible ! » s'écrie le réalisateur Higurashi (Takayumi Hamatsu) quand on lui propose de réaliser un film de zombies sans budget, en un seul plan-séquence et pour une diffusion en direct. Le court-métrage de 37 minutes qui en résulte est effectivement bien décevant, les acteurs jouent mal, les décors sont sans intérêt et en plus la caméra tremble. Mais tout commence réellement après le court-métrage : transporté un mois auparavant, le spectateur découvre alors le film sous un nouvel angle en suivant les coulisses de la production, depuis le moment où la chaîne de télévision a proposé au réalisateur ce projet impossible jusqu'au tournage du film.",
     "date_ajout": "2026-09-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1379242",
-    "titre": "Le Successeur",
-    "type": "film",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 52min",
-    "runtime_minutes": 112,
-    "note_avis": 6.7,
-    "note_recence": 9.4,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/316442678/s592/le-successeur.jpg",
-    "synopsis": "Heureux et accompli, Ellias devient le nouveau directeur artistique d’une célèbre maison de Haute Couture française. Quand il apprend que son père, qu’il ne voit plus depuis de nombreuses années, vient de mourir d’une crise cardiaque, Ellias se rend au Québec pour régler la succession. Le jeune créateur va découvrir qu’il a hérité de bien pire que du cœur fragile de son père.",
-    "date_ajout": "2024-02-02",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 7 j",
-      "daysLeft": 7,
-      "expirationDate": "2026-10-22",
-      "packageExpirations": {
-        "fra": "2026-10-22"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm92075",
-    "titre": "L'Agence tous risques",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2010,
-    "annee_moyenne": 2010,
-    "duree": "1h 57min",
-    "runtime_minutes": 117,
-    "note_avis": 6.7,
-    "note_recence": 5.2,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/251504847/s592/lagence-tous-risques.jpg",
-    "synopsis": "Quatre hommes, hyper qualifiés et autrefois membres respectés d'une unité d'élite de l'armée, sont chargés d'une mission secrète destinée à les piéger et qui les conduit en prison pour un crime qu'ils n'ont pas commis. Mais la somme de leurs talents leur permet de s'évader. Devenus des rebelles, ils décident de blanchir leurs noms et de retrouver les vrais coupables.",
-    "date_ajout": "2010-06-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1354910",
-    "titre": "La jeune fille dans le grenier",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 4.7,
-    "note_recence": 9.1,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306099076/s592/la-jeune-fille-dans-le-grenier.jpg",
-    "synopsis": "Une femme fuyant son ex petit ami trouve refuge dans une ferme isolée, sans savoir que quelque chose de bien pire l'attend à l'intérieur.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts75238",
-    "titre": "Liar : La nuit du mensonge",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2019,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2017,
-        "note": 7.1
-      },
-      {
-        "saison": 2,
-        "annee": 2020,
-        "note": 7.1
-      }
-    ],
-    "duree": "45 min/ép.",
-    "runtime_minutes": 45,
-    "note_avis": 7.1,
-    "note_recence": 7.9,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/174001789/s592/liar-la-nuit-du-mensonge.jpg",
-    "synopsis": "Laura est une professeure récemment séparée qui n'est pas sûre d'être prête à s'engager à nouveau. Andrew est un chirurgien renommé dont le fils étudie dans l'école de Laura. Très vite, Andrew et elle se rencontrent, mais cela va avoir de graves conséquences que personne n'avait anticipé...",
-    "date_ajout": "2025-10-28",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true,
-    "annee_fin": 2020
-  },
-  {
-    "id": "jw-tm434801",
-    "titre": "Downton Abbey",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "2h 02min",
-    "runtime_minutes": 122,
-    "note_avis": 7.4,
-    "note_recence": 7.9,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/170553737/s592/downton-abbey.jpg",
-    "synopsis": "Les Crawley et leur personnel intrépide se préparent à vivre l'événement le plus important de leur vie : une visite du roi et de la reine d'Angleterre. Cette venue ne tardera pas à déclencher scandales, intrigues amoureuses et manigances qui pèseront sur l'avenir même de Downton.",
-    "date_ajout": "2019-09-13",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm218226",
-    "titre": "Babysitting 2",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 6.4,
-    "note_recence": 6.7,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/263018073/s592/babysitting-2.jpg",
-    "synopsis": "Franck, Sonia, Sam, Ernest, Alex et Estelle s’envolent pour le Brésil. Ils se rendent en vacances à l’hôtel d’Alain, le père de Sonia. Franck va profiter de ce voyage entre amis pour la demander en mariage. A l’hôtel, ils sont accueillis par Alain et Yolande, la grand-mère acariâtre de Sonia. Les garçons organisent une excursion dans la jungle avec un guide chevronné. Alain leur confie Yolande de peur qu’elle ne trouble le processus de remise du « label éco VWF ». Le soir, les garçons ne sont pas revenus. Ils ont disparu avec la grand-mère et le guide. Le lendemain matin, la caméra GoPro avec laquelle ils étaient partis est retrouvée…",
-    "date_ajout": "2015-12-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts37786",
-    "titre": "Guerre & Paix",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2016,
-        "note": 8.1
-      }
-    ],
-    "duree": "58 min/ép.",
-    "runtime_minutes": 58,
-    "note_avis": 8.1,
-    "note_recence": 7,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "rma",
-      "war",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/303351612/s592/guerre-et-paix.jpg",
-    "synopsis": "En 1805, alors que la Russie est en guerre avec la France, Pierre Bézoukhov, fils illégitime d'un riche comte, exprime son admiration pour Napoléon auprès de la haute société de Saint Pétersbourg. Pendant ce temps le prince André Bolkonsky, fatigué de la vie en haute société et prisonnier de son épouse enceinte Lise, décide de s’enrôler dans l'armée pour combattre les Français. Après quelques frasques commises avec Anatole Kouraguine, Pierre qui se rend auprès de son père mourant s'arrête en chemin voir de bons amis, la famille Rostov. Natacha Rostov encourage la liaison de son frère Nicolas avec leur cousine sans argent Sonya et rêve d'une vie plus palpitante...\n\nL'adaptation du roman de Tolstoï qui raconte le règne du Tsar Alexandre Ier et le triangle amoureux entre Natasha Rostova, Pierre Bezukhov et Andrei Bolkonsky.",
-    "date_ajout": "2026-03-31",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm34422",
-    "titre": "Mesrine : L'Instinct de mort",
-    "type": "film",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2008,
-    "annee_moyenne": 2008,
-    "duree": "1h 53min",
-    "runtime_minutes": 113,
-    "note_avis": 7.5,
-    "note_recence": 4.6,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/243841532/s592/linstinct-de-mort.jpg",
-    "synopsis": "De retour de la guerre d'Algérie, Jacques Mesrine refuse le travail que lui propose son père. Avec un ami d'enfance, il commence sa carrière de voyou auprès de Guido, le parrain local. Il prendra rapidement du galon, entre cambriolages et évasions spectaculaires. Et ce malgré les suppliques de sa première épouse, une Espagnole qui lui donnera 3 enfants. Avec Jeanne Schneider, en revanche, il vivra une romance à la Bonnie and Clyde avant de devenir en France l'ennemi public n° 1.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm347925",
-    "titre": "Bigoudis et Permanente",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 5.7,
-    "note_recence": 7.3,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/69654911/s592/bigoudis-et-permanente.jpg",
-    "synopsis": "États-Unis, 1983. Alors que toutes les femmes veulent ressembler à Farrah Fawcett, une famille cherche à s'épanouir artistiquement.",
     "expiration": {
       "status": "none",
       "label": null,
@@ -51005,7 +44151,6 @@ const CATALOG_DATA = [
       "drame_emotion"
     ],
     "raw_genres": [
-      "act",
       "cmy",
       "drm",
       "fnt",
@@ -51024,108 +44169,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts440073",
-    "titre": "Des vivants",
-    "type": "serie",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 8.1
-      }
-    ],
-    "duree": "60 min/ép.",
-    "runtime_minutes": 60,
-    "note_avis": 8.1,
-    "note_recence": 9.7,
-    "note_globale": 8.9,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/339094336/s592/des-vivants.jpg",
-    "synopsis": "Des vivants est la première série qui retrace l’histoire méconnue d’hommes et de femmes retenus en otages pendant plus de deux heures par les terroristes, dans un étroit couloir du Bataclan jusqu’à l’assaut de la BRI.  Ils étaient 11. Sept d’entre eux, Marie, Caroline, Sébastien, Arnaud, Grégory, Stéphane et David, se sont surnommés les « potages », contraction de potes et otages. Le soir du 13 novembre 2015, ils ont fait face aux terroristes pendant plus de deux heures dans un étroit couloir du Bataclan. De leur survie miraculeuse est né un lien unique et indéfectible.  Ces 7 victimes ont été associées au projet dès le départ. Et, suite au recueil de leurs témoignages, Jean-Xavier de Lestrade, à travers huit épisodes, a raconté leur processus de retour à la vie. Séquelles et traumatismes : comment ils se sont reconstruits chacun et ensemble durant près de 10 ans, de leur sortie du Bataclan jusqu’au procès.",
-    "date_ajout": "2025-11-02",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 76,
-      "expirationDate": "2026-12-30",
-      "packageExpirations": {
-        "fra": "2026-12-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm175652",
-    "titre": "The Grandmaster",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "2h 10min",
-    "runtime_minutes": 130,
-    "note_avis": 6.6,
-    "note_recence": 6.1,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "hst",
-      "rma",
-      "war"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300961131/s592/the-grandmaster.jpg",
-    "synopsis": "Chine, 1936. Ip Man, maître légendaire de Wing Chun (un des divers styles de Kung‐Fu) et futur mentor de Bruce Lee, mène une vie prospère à Foshan où il partage son temps entre sa famille et les arts‐martiaux. C’est à ce moment que le Grand maître Baosen, à la tête de l’Ordre des Arts Martiaux Chinois, cherche son successeur. Pour sa cérémonie d’adieux, il se rend à Foshan, avec sa fille Gong Er, elle‐même maître du style Ba Gua et la seule à connaître la figure mortelle des 64 mains. Lors de cette cérémonie, Ip Man affronte les grand maîtres du Sud et fait alors la connaissance de Gong Er en qui il trouve son égal. Très vite l’admiration laisse place au désir et dévoile une histoire d’amour impossible. Peu de temps après, le Grand maître Baosen est assassiné par l’un de ses disciples, puis, entre 1937 et 1945, l’occupation japonaise plonge le pays dans le chaos.",
-    "date_ajout": "2016-07-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
     "on_tnt": false
   },
   {
@@ -51174,104 +44217,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts453544",
-    "titre": "Enchaînés",
-    "type": "serie",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2026,
-        "note": 6.5
-      }
-    ],
-    "duree": "49 min/ép.",
-    "runtime_minutes": 49,
-    "note_avis": 6.5,
-    "note_recence": 10,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/350792012/s592/enchaines.jpg",
-    "synopsis": "1806 - Ile de la Réunion. Après le passage d’un cyclone meurtrier, la plantation de Charles Bellevue est dévastée. Ruiné, il n’a d’autre choix que de céder ses terres. Ses esclaves redoutent d’être vendus et séparés les uns des autres. Parmi eux, un homme, Isaac, refuse d’être abandonné à son sort. Isaac vient en effet d’apprendre que Charles Bellevue n’est pas seulement son maître. C’est aussi son père.",
-    "date_ajout": "2026-04-29",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 16/11",
-      "daysLeft": 32,
-      "expirationDate": "2026-11-16",
-      "packageExpirations": {
-        "fra": "2026-11-16"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1676401",
-    "titre": "Mauvaise Pioche",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 5.5,
-    "note_recence": 10,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/347681327/s592/mauvaise-pioche-2026-1.jpg",
-    "synopsis": "​Arrêté par erreur et confondu avec l’homme le plus recherché de France, Serge Martin, paisible retraité, devient la cible des médias. Pris dans un tourbillon sans fin, il va tout tenter pour prouver son innocence et retrouver sa vie... si c’est encore possible !",
-    "date_ajout": "2026-04-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm102558",
     "titre": "127 Heures",
     "type": "film",
@@ -51305,270 +44250,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/83602673/s592/127-heures.jpg",
     "synopsis": "Le 26 avril 2003, Aron Ralston, jeune homme de vingt‐sept ans, se met en route pour une randonnée dans les gorges de l’Utah. Il est seul et n’a prévenu personne de son excursion. Alpiniste expérimenté, il collectionne les plus beaux sommets de la région. Pourtant, au fin fond d’un canyon reculé, l’impensable survient: Au‐dessus de lui un rocher se détache et emprisonne son bras dans le mur de rocaille. Le voilà pris au piège, menacé de déshydratation et d’hypothermie, en proie à des hallucinations… Il parle à son ex petite amie, sa famille, et se demande si les deux filles qu’il a rencontrées dans le canyon juste avant son accident seront les dernières. Cinq jours plus tard, comprenant que les secours n’arriveront pas, il va devoir prendre la plus grave décision de son existence…",
     "date_ajout": "2011-01-28",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts463026",
-    "titre": "The Best Immigrant",
-    "type": "serie",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 6.4
-      }
-    ],
-    "duree": "44 min/ép.",
-    "runtime_minutes": 44,
-    "note_avis": 6.4,
-    "note_recence": 9.7,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/339832509/s592/the-best-immigrant.jpg",
-    "synopsis": "Flandre indépendante, futur proche. Un nouveau gouvernement d’extrême droite décrète l’expulsion de tous les résidents nés à l’étranger. Pour Muna et Jamal, l’arrestation signifie la séparation forcée et le renvoi vers des pays différents. Le couple risque le tout pour le tout en participant à \"The Best Immigrant\". Dans ce jeu de téléréalité impitoyable, les candidats doivent s’affronter pour obtenir le sésame : un permis de séjour.",
-    "date_ajout": "2026-07-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1238886",
-    "titre": "Teen Wolf : Le film",
-    "type": "film",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "2h 20min",
-    "runtime_minutes": 140,
-    "note_avis": 5.6,
-    "note_recence": 9.1,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm",
-      "drm",
-      "fnt",
-      "hrr",
-      "trl",
-      "rma"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/344236168/s592/teen-wolf-le-film.jpg",
-    "synopsis": "Lorsqu'une nouvelle menace plane sur Beacon Hills, Scott McCall se voit dans l'obligation d'appeler à la rescousse les Banshees, les Kistunes, et les autres créatures de la nuit peuplant le monde surnaturel, et de réunir nouveaux alliés et anciens amis de confiance, afin d'affronter ce qui pourrait bien être l'ennemi le plus puissant et le plus dangereux jamais croisé par le jeune loup-garou.",
-    "date_ajout": "2026-08-31",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm177568",
-    "titre": "Fast & Furious 6",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "2h 10min",
-    "runtime_minutes": 130,
-    "note_avis": 7,
-    "note_recence": 6.1,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/175617716/s592/fast-and-furious-6.jpg",
-    "synopsis": "Dom, Brian et toute leur équipe, après le casse de Rio, ayant fait tomber un empire en empochant 100 millions de dollars, se sont dispersés aux quatre coins du globe. Mais l’incapacité de rentrer chez eux, et l’obligation de vivre en cavale permanente, laissent à leur vie le goût amer de l’inaccomplissement. Pendant ce temps Hobbs traque aux 4 coins du monde un groupe de chauffeurs mercenaires aux talents redoutables, dont le meneur, Shaw est secondé d’une de main de fer par l’amour que Dom croyait avoir perdu pour toujours : Letty. La seule façon d’arrêter leurs agissements est de les détrôner en surpassant leur réputation. Hobbs demande donc à Dom de rassembler son équipe de choc à Londres. En retour ? Ils seront tous graciés et pourront retourner auprès des leurs, afin de vivre une vie normale.",
-    "date_ajout": "2013-05-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts41934",
-    "titre": "Victoria",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+",
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png",
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "sxp",
-      "fra"
-    ],
-    "annee": 2016,
-    "annee_fin": 2019,
-    "annee_moyenne": 2018,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2016,
-        "note": 8.2
-      },
-      {
-        "saison": 2,
-        "annee": 2017,
-        "note": 8.2
-      },
-      {
-        "saison": 3,
-        "annee": 2019,
-        "note": 8.2
-      }
-    ],
-    "duree": "48 min/ép.",
-    "runtime_minutes": 48,
-    "note_avis": 8.2,
-    "note_recence": 7.6,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/17033896/s592/victoria.jpg",
-    "synopsis": "Le début de la vie de la reine Victoria, de son arrivée sur le trône à l'âge de 18 ans en passant par ses premiers émois et son mariage avec le prince Albert.",
-    "date_ajout": "2018-03-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "fra": "2026-10-31"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm850854",
-    "titre": "Divorce Club",
-    "type": "film",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 48min",
-    "runtime_minutes": 108,
-    "note_avis": 5.4,
-    "note_recence": 8.2,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "eur"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/203436235/s592/divorce-club.jpg",
-    "synopsis": "Après 5 ans de mariage, Ben est toujours aussi éperdument amoureux. Jusqu’au jour où il découvre en public que sa femme le trompe : humilié et plaqué dans la foulée ! Abattu et lâché par ses proches, Ben peine à remonter la pente jusqu’à ce qu’il croise le chemin de Patrick, un ancien ami lui aussi divorcé qui lui propose d’emménager chez lui. Patrick, au contraire de Ben, entend bien profiter de son célibat retrouvé et de tous les plaisirs auxquels il avait renoncé durant son mariage. Bientôt rejoints par d’autres divorcés, les fêtards quarantenaires ébauchent les premières règles du \"Divorce Club\"...",
-    "date_ajout": "2020-03-25",
     "expiration": {
       "status": "none",
       "label": null,
@@ -51632,17 +44313,14 @@ const CATALOG_DATA = [
     "type": "serie",
     "chaine": "Insomnia",
     "chaines": [
-      "Insomnia",
-      "M6+"
+      "Insomnia"
     ],
     "logo_chaine": "assets/logos/insomnia.png",
     "logos_chaine": [
-      "assets/logos/insomnia.png",
-      "assets/logos/m6_plus.png"
+      "assets/logos/insomnia.png"
     ],
     "package_slugs": [
-      "ima",
-      "sxp"
+      "ima"
     ],
     "annee": 2019,
     "annee_moyenne": 2021,
@@ -51696,64 +44374,8 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true,
+    "on_tnt": false,
     "annee_fin": 2023
-  },
-  {
-    "id": "jw-ts418809",
-    "titre": "Enquêtes au paradis",
-    "type": "serie",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 2,
-        "annee": 2025,
-        "note": 7
-      }
-    ],
-    "duree": "56 min/ép.",
-    "runtime_minutes": 56,
-    "note_avis": 7,
-    "note_recence": 9.7,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/332800947/s592/return-to-paradise.jpg",
-    "synopsis": "Soupçonnée à tort, l'inspectrice Mackenzie Clarke est contrainte de quitter Londres pour retourner là où elle pensait ne jamais remettre les pieds : Dolphin Cove, sa ville natale en Australie.  Son acharnement et son professionnalisme lui permettront de résoudre des énigmes criminelles.\n",
-    "date_ajout": "2026-07-13",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 8 j",
-      "daysLeft": 8,
-      "expirationDate": "2026-10-23",
-      "packageExpirations": {
-        "mlt": "2026-10-23",
-        "fra": "2026-10-23"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
   },
   {
     "id": "jw-tm232579",
@@ -51792,55 +44414,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/59786116/s592/hunt-pour-la-wilderpeople.jpg",
     "synopsis": "Élevé dans une famille d'accueil, un enfant difficile de la ville va vivre un nouveau départ dans la campagne néo-zélandaise. Il se retrouve chez une famille d'accueil aimante quand une tragédie survient, le jeune garçon et Hec, l'oncle de sa nouvelle famille, s'enfuient dans le Bush. Ces nouveaux hors-la-loi vont devoir faire équipe...",
     "date_ajout": "2023-03-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm62638",
-    "titre": "Groupe d'élite",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2012,
-    "annee_moyenne": 2012,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 6.5,
-    "note_recence": 5.8,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "doc",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/11931570/s592/groupe-delite.jpg",
-    "synopsis": "A la veille de l'exposition universelle de Séville, l'unité 7 a une mission des plus importantes: traquer et arrêter le plus dangereux réseau de trafiquants de drogues et parvenir à rétablir l'ordre et la sérénité au sein de la ville. Pour mener à bien cette mission, les 4 policiers vont devoir agir très vite puisqu'ils n'ont que 4 années devant eux. Mais face au réseau de trafiquants de drogues, les 4 policiers vont peu à peu devoir se laisser dépasser par les événements et se laisser corrompre malgré eux par le système",
-    "date_ajout": "2012-04-04",
     "expiration": {
       "status": "none",
       "label": null,
@@ -51944,106 +44517,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm320598",
-    "titre": "Usurpation",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
-    "note_avis": 5.2,
-    "note_recence": 7.3,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/27679548/s592/usurpation.jpg",
-    "synopsis": "Brian mène une vie paisible et confortable avec sa femme Angela et leur fille. Le jour où leur voisine est retrouvée noyée, leur quotidien semble irrémédiablement déraper : Angela échappe de peu à un accident mortel, et des objets disparaissent de la villa. Brian sombre peu à peu dans la paranoïa : que cache l'intrigante jeune femme qui vient de s'installer dans leur guest house ? Leur cauchemar aurait-il un lien avec une mystérieuse série de meurtres remontant à plusieurs années ?",
-    "date_ajout": "2017-09-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts302748",
-    "titre": "Annika",
-    "type": "serie",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2021,
-        "note": 7.3
-      }
-    ],
-    "duree": "47 min/ép.",
-    "runtime_minutes": 47,
-    "note_avis": 7.3,
-    "note_recence": 8.5,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/249963875/s592/annika.jpg",
-    "synopsis": "La DI forte, pleine d'esprit et énigmatique Annika Strandhed, alors qu'elle dirige une nouvelle unité spécialisée dans les homicides marins (MHU) chargée d'enquêter sur les meurtres inexpliqués, brutaux et apparemment insondables.",
-    "date_ajout": "2024-05-26",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 76,
-      "expirationDate": "2026-12-30",
-      "packageExpirations": {
-        "fra": "2026-12-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm233407",
     "titre": "Sing Street",
     "type": "film",
@@ -52092,51 +44565,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1062771",
-    "titre": "The Reef 2 : Traquées",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 4.2,
-    "note_recence": 8.8,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "hrr",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306593979/s592/the-reef-stalked.jpg",
-    "synopsis": "Traumatisée par le meurtre de sa sœur, Nic part se ressourcer avec deux amies sur une île isolée du Pacifique. Alors que les 3 femmes, en quête de quiétude et de liberté, partent pour une expédition de kayak et de plongée, un énorme requin blanc va les prendre en chasse. Pour survivre à la traque incessante du monstre tueur, Nic devra faire face à ses peurs et affronter le terrible prédateur.",
-    "date_ajout": "2022-11-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm855323",
     "titre": "Nomadland",
     "type": "film",
@@ -52170,241 +44598,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/253859148/s592/nomadland.jpg",
     "synopsis": "Après l’effondrement économique de la cité ouvrière du Nevada où elle vivait, Fern décide de prendre la route à bord de son van aménagé et d’adopter une vie de nomade des temps modernes, en rupture avec les standards de la société actuelle. De vrais nomades incarnent les camarades et mentors de Fern et l’accompagnent dans sa découverte des vastes étendues de l’Ouest américain.",
     "date_ajout": "2021-02-19",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts447911",
-    "titre": "Tom et Lola",
-    "type": "serie",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 2,
-        "annee": 2025,
-        "note": 6.5
-      }
-    ],
-    "duree": "50 min/ép.",
-    "runtime_minutes": 50,
-    "note_avis": 6.5,
-    "note_recence": 9.7,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321155691/s592/tom-et-lola.jpg",
-    "synopsis": "Deux amis de longue date, tous deux flics avec des méthodes très opposés, se retrouvent colocataires avec leurs ados respectifs. Ils vont intégrer la même brigade à la PJ.",
-    "date_ajout": "2025-11-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1366215",
-    "titre": "Ducobu passe au vert!",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 4.1,
-    "note_recence": 9.4,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/319610486/s592/ducobu-passe-au-vert.jpg",
-    "synopsis": "Nouvelle rentrée à St Potache. Cette année, Ducobu a une idée de génie : prendre une année sabbatique pour sauver la planète mais surtout pour sécher l’école ! Mais Latouche ne compte pas le laisser faire si facilement… Tricheur et écolo, c’est pas du gâteau !",
-    "date_ajout": "2024-04-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm185648",
-    "titre": "Assaut sur Wall Street",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 37min",
-    "runtime_minutes": 97,
-    "note_avis": 6,
-    "note_recence": 6.1,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300504756/s592/assaut-sur-wall-street.jpg",
-    "synopsis": "Jim jouit d'une vie paisible à New York. Une famille qui l'entoure et qui l'aime, un travail bien rémunéré. Mais lorsque l'économie s'effondre, Jim perd tout, même ses illusions. Il décide de se venger en attaquant le système par des moyens extrêmes.",
-    "date_ajout": "2023-11-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm469043",
-    "titre": "La Ligne de feu",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "2h 10min",
-    "runtime_minutes": 130,
-    "note_avis": 6.5,
-    "note_recence": 8.2,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "hst",
-      "war"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/250847379/s592/la-ligne-de-feu.jpg",
-    "synopsis": "Après l’invasion de l’Union Soviétique en juin 1941 (Opération Barbossa), les blindés du IIIème Reich sont à 200km de Moscou début octobre et rien ne semble pouvoir les arrêter. Seule solution pour le haut commandement de l’Armée Rouge : envoyer les 3500 élèves-officiers de l’école militaire de Podolsk tenir coûte que coûte la ligne Ilyinsky jusqu’à l’arrivée des renforts.",
-    "date_ajout": "2021-07-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm348656",
-    "titre": "Vous avez un message : Un héritage inattendu",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 21min",
-    "runtime_minutes": 81,
-    "note_avis": 7.7,
-    "note_recence": 7.3,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/36701069/s592/vous-avez-un-message-un-heritage-inattendu.jpg",
-    "synopsis": "L’équipe des « Lettres perdues », menée par le charismatique Oliver, se fait un devoir de retrouver les destinataires de courriers oubliés, jusqu’au jour où ses membres découvrent un vase renfermant une lettre...",
     "expiration": {
       "status": "none",
       "label": null,
@@ -52557,291 +44750,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts77461",
-    "titre": "Crimes parfaits",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+",
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png",
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "sxp",
-      "fra"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2019,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2017,
-        "note": 6.8
-      },
-      {
-        "saison": 2,
-        "annee": 2018,
-        "note": 6.8
-      },
-      {
-        "saison": 3,
-        "annee": 2020,
-        "note": 6.8
-      }
-    ],
-    "duree": "52 min/ép.",
-    "runtime_minutes": 52,
-    "note_avis": 6.8,
-    "note_recence": 7.9,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/252540756/s592/crimes-parfaits.jpg",
-    "synopsis": "Des meurtriers, connus dès le début de l’épisode, pensent avoir commis le crime parfait. Mais l'enquêteur (ou l'enquêtrice) va tout faire pour trouver la faille dans le plan machiavélique imaginé par le tueur.",
-    "date_ajout": "2018-05-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "fra": "2026-11-07"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2020
-  },
-  {
-    "id": "jw-tm855362",
-    "titre": "Nightmare Alley",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "2h 31min",
-    "runtime_minutes": 151,
-    "note_avis": 7,
-    "note_recence": 8.5,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/257189076/s592/nightmare-alley.jpg",
-    "synopsis": "Alors qu’il traverse une mauvaise passe, le charismatique Stanton Carlisle débarque dans une foire itinérante et parvient à s’attirer les bonnes grâces d’une voyante, Zeena  et de son mari Pete, une ancienne gloire du mentalisme. S’initiant auprès d’eux, il voit là un moyen de décrocher son ticket pour le succès et décide d’utiliser ses nouveaux talents pour arnaquer l’élite de la bonne société new-yorkaise des années 40. Avec la vertueuse et fidèle Molly à ses côtés, Stanton se met à échafauder un plan pour escroquer un homme aussi puissant que dangereux. Il va recevoir l’aide d’une mystérieuse psychiatre qui pourrait bien se révéler la plus redoutable de ses adversaires.",
-    "date_ajout": "2021-12-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts87106",
-    "titre": "Coroner",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2019,
-    "annee_fin": 2022,
-    "annee_moyenne": 2021,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2019,
-        "note": 6.9
-      },
-      {
-        "saison": 2,
-        "annee": 2020,
-        "note": 6.9
-      },
-      {
-        "saison": 3,
-        "annee": 2021,
-        "note": 6.9
-      },
-      {
-        "saison": 4,
-        "annee": 2022,
-        "note": 6.9
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 6.9,
-    "note_recence": 8.5,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/267121713/s592/coroner.jpg",
-    "synopsis": "Ancien médecin urgentiste et mère d’un adolescent, Jenny Cooper se découvre après le décès de son mari un lien primitif avec les morts, lié à un secret de son passé.",
-    "date_ajout": "2026-10-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1199262",
-    "titre": "Sniper : Le Corbeau Blanc",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "2h 00min",
-    "runtime_minutes": 120,
-    "note_avis": 6.4,
-    "note_recence": 8.8,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "war"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/305288765/s592/sniper-the-white-raven.jpg",
-    "synopsis": "Région du Donbass, Ukraine, 2014. Mykola, un professeur de physique, renonce à son mode de vie paisible suite à la perte de sa femme enceinte, tuée par des soldats à l’aube de l’invasion russe. Souhaitant se venger, il réussit à intégrer les forces armées ukrainiennes et obtient le poste convoité de sniper. Sa cible devient alors un sniper d’élite russe dont l’élimination pourrait changer le cours du conflit.",
-    "date_ajout": "2023-05-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts272625",
-    "titre": "The Equalizer",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2021,
-        "note": 5.6
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 5.6,
-    "note_recence": 8.5,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322411970/s592/the-equalizer.jpg",
-    "synopsis": "Robyn McCall croyait pouvoir reprendre une vie normale. Cette ancienne agente de la CIA est cependant appelée à utiliser ses ressources considérables pour aider Jewel, une adolescente accusée de meurtre et en fuite des criminels qui l'ont piégée.",
-    "date_ajout": "2023-10-02",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire demain",
-      "daysLeft": 1,
-      "expirationDate": "2026-10-16",
-      "packageExpirations": {
-        "mlt": "2026-10-16"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm886713",
     "titre": "La Famille Asada",
     "type": "film",
@@ -52876,52 +44784,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/305541959/s592/the-asadas.jpg",
     "synopsis": "Depuis ses 12 ans, seule compte la photographie pour Masashi. Quand il réalise que ses parents et son frère ont renoncé à leur passion, il décide de les mettre en scène : pompier, femme de yakuzas, pilote de Formule 1... Devant l'objectif de Masashi, toute la famille se prête au jeu pour permettre à chacun de vivre ses rêves de jeunesse. Quand le Japon est touché par le tsunami de 2011, les photos de Masashi prennent une nouvelle dimension.",
     "date_ajout": "2020-10-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm142327",
-    "titre": "Jeune & Jolie",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 6.7,
-    "note_recence": 6.1,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/212960228/s592/jeune-and-jolie.jpg",
-    "synopsis": "Jeune fille de bonne famille, Isabelle est impatiente de vivre sa première expérience sexuelle. Un soir, lors de vacances en famille sur la Côte d'Azur, elle perd sur une plage sa virginité sans éprouver le moindre plaisir. L'automne suivant, dans les beaux quartiers parisiens, cette adolescente de 17 ans décide de vivre une aventure interdite en s'adonnant à la prostitution. Très vite, elle se prend au jeu et multiplie les rendez-vous par internet. Au fil des saisons, Isabelle fait du sexe son passe-temps. Malgré l'incompréhension de sa famille et de ses amants passagers, la jeune femme choisit de vivre pleinement sa propre sexualité…",
-    "date_ajout": "2013-12-12",
     "expiration": {
       "status": "none",
       "label": null,
@@ -53025,51 +44887,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm861271",
-    "titre": "Lucky",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 4.7,
-    "note_recence": 8.2,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/168792714/s592/lucky-2020.jpg",
-    "synopsis": "Pour s’en sortir financièrement, Willy et son pote Tony, endettés de naissance, ont une idée de génie : voler un chien de la brigade des stups. Mais, les choses ne se passent pas tout à fait comme ils l’avaient prévu. La seule solution : s’associer avec Caro, une flic totalement corrompue.",
-    "date_ajout": "2020-02-26",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1438379",
     "titre": "Exhuma",
     "type": "film",
@@ -53108,286 +44925,13 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/03",
-      "daysLeft": 150,
+      "daysLeft": 151,
       "expirationDate": "2027-03-14",
       "packageExpirations": {
         "ima": "2027-03-14"
       }
     },
     "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm439075",
-    "titre": "I Love My Mum",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 4.5,
-    "note_recence": 7.9,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/136690488/s592/i-love-my-mum.jpg",
-    "synopsis": "Un duo mère-fils est expédié par inadvertance dans un conteneur de Londres au Maroc avec rien d'autre que leur pyjama. L'aventure les emmène à travers l'Espagne et la France pour rentrer chez eux et reconstruire leur relation rocailleuse.",
-    "date_ajout": "2021-06-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1025809",
-    "titre": "Creed III",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 56min",
-    "runtime_minutes": 116,
-    "note_avis": 6.7,
-    "note_recence": 9.1,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/303829940/s592/creed-iii.jpg",
-    "synopsis": "Après avoir dominé le monde de la boxe, Adonis Creed s'épanouit tant dans sa carrière que dans sa vie de famille. Lorsqu'un ami d'enfance et ancien prodige de la boxe, Damian Anderson, refait surface après avoir purgé une longue peine de prison, il est impatient de prouver qu'il mérite sa chance sur le ring. Le face-à-face entre les anciens amis est plus qu'un simple combat. Pour régler ses comptes, Adonis doit mettre son avenir en jeu pour affronter Damian - un boxeur qui n'a rien à perdre.",
-    "date_ajout": "2023-03-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm123363",
-    "titre": "Expendables 4",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 43min",
-    "runtime_minutes": 103,
-    "note_avis": 4.8,
-    "note_recence": 9.1,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/348001859/s592/expendables-4.jpg",
-    "synopsis": "Armés de toutes les armes dont ils peuvent disposer, les Expendables sont la dernière ligne de défense du monde et l'équipe que l'on appelle lorsque toutes les autres options ne sont plus possibles. Le mercenaire Barney Ross et sa nouvelle équipe affrontent un marchand d'armes et son armée privée. Nouveaux membres, nouveaux styles, nouvelles tactiques.",
-    "date_ajout": "2023-10-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm232878",
-    "titre": "Manipulations",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 46min",
-    "runtime_minutes": 106,
-    "note_avis": 5.3,
-    "note_recence": 7,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/236926960/s592/manipulation-s.jpg",
-    "synopsis": "Ben est un jeune et ambitieux avocat travaillant pour le cabinet dirigé par Abrams. Il se met en tête d'attaquer le puissant dirigeant d'un important groupe pharmaceutique et se retrouve alors impliqué dans une spirale de chantage et de corruption. Une entrée brutale dans la cour des grands dont il ne pourra se sortir indemne...",
-    "date_ajout": "2016-08-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm232812",
-    "titre": "Les ogres",
-    "type": "film",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "2h 18min",
-    "runtime_minutes": 138,
-    "note_avis": 6.9,
-    "note_recence": 7,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9874333/s592/les-ogres.jpg",
-    "synopsis": "Ils vont de ville en ville, un chapiteau sur le dos, leur spectacle en bandoulière. Dans nos vies ils apportent le rêve et le désordre. Ce sont des ogres, des géants, ils en ont mangé du théâtre et des kilomètres. Mais l’arrivée imminente d’un bébé et le retour d’une ancienne amante vont raviver des blessures que l’on croyait oubliées. Alors que la fête commence !",
-    "date_ajout": "2016-03-16",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
-      "expirationDate": "2026-12-31",
-      "packageExpirations": {
-        "fra": "2026-12-31"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm135109",
-    "titre": "Fleur du Désert",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2009,
-    "annee_moyenne": 2009,
-    "duree": "2h 07min",
-    "runtime_minutes": 127,
-    "note_avis": 7.3,
-    "note_recence": 4.9,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/318006686/s592/fleur-du-desert.jpg",
-    "synopsis": "Issue d'une famille de nomades somaliens, Waris connaît une enfance rude mais heureuse car entourée des siens. Mais quand son père décide de la marier à l'âge de 13 ans, Waris prend la fuite. Traversant le désert au péril de sa vie, elle atteint la ville de Mogadiscio et retrouve sa grand-mère. Cette dernière lui fait quitter le pays en lui trouvant un poste de \"bonne à tout faire\" à l'ambassade de Somalie à Londres. Waris y travaille pendant 6 ans, telle une esclave, totalement recluse et coupée du monde extérieur.Quand la guerre civile éclate en Somalie, l'ambassade ferme. Waris se retrouve livrée à elle-même dans les rues de Londres, ne sachant pas un mot d'anglais. C'est alors qu'elle rencontre Marilyn avec qui elle se lie d'amitié. Cette jeune femme, délurée et originale, l'héberge et l'aide à trouver un emploi.",
-    "date_ajout": "2017-08-13",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
     "on_tnt": false
   },
   {
@@ -53441,248 +44985,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm822330",
-    "titre": "The Division",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "2h 14min",
-    "runtime_minutes": 134,
-    "note_avis": 6.2,
-    "note_recence": 8.2,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/281979648/s592/a-divisao.jpg",
-    "synopsis": "Dans les années 90, Rio de Janeiro est secoué par une vague d'enlèvements. Les forces de sécurité appellent des agents controversés pour aider à sauver la ville des voyous et aussi de la police elle-même.",
-    "date_ajout": "2020-05-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm57798",
-    "titre": "Taken 2",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+",
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "tf1",
-      "sxp"
-    ],
-    "annee": 2012,
-    "annee_moyenne": 2012,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 6.2,
-    "note_recence": 5.8,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/249527320/s592/taken-2.jpg",
-    "synopsis": "L'agent de la CIA Bryan Mills a beau avoir sauvé sa fille Kim des mains de kidnappeurs Albanais, ses problèmes ne sont pas terminés, puisque le père d'un des kidnappeurs décide de se venger en prenant Bryan et sa femme en otages alors que la famille est en vacances. C'est au tour de Kim de sauver ses parents, en employant les techniques particulières de son père.",
-    "date_ajout": "2012-10-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm334382",
-    "titre": "Forever My Girl",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 48min",
-    "runtime_minutes": 108,
-    "note_avis": 6.6,
-    "note_recence": 7.6,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "msc",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/149171870/s592/forever-my-girl.jpg",
-    "synopsis": "Le jour du mariage, Liam quitte son amour de jeunesse, Josie… Huit ans plus tard, il est devenu une star de la chanson. Quand il apprend qu’un ami d’enfance a eu un accident mortel, il quitte sa tournée et revient dans sa petite ville natale pour assister aux funérailles. Il revoit alors Josie pour la première fois depuis leur séparation. Liam découvre avec surprise qu’elle est maintenant mère d’une adorable jeune fille de 7 ans…",
-    "date_ajout": "2018-09-26",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts21944",
-    "titre": "Secrets and Lies",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2015,
-        "note": 7.5
-      }
-    ],
-    "duree": "39 min/ép.",
-    "runtime_minutes": 39,
-    "note_avis": 7.5,
-    "note_recence": 6.7,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/177849885/s592/secrets-and-lies.jpg",
-    "synopsis": "Au petit matin, Ben Garner, un père de famille ordinaire en train de faire son footing dans la forêt, tombe sur le corps mort d'un petit garçon qui n'est autre que le fils de sa voisine. La police le suspecte immédiatemment d'être le meurtrier, d'autant qu'une preuve l'accable, tandis que les médias s'en mêlent, le rendant coupable aux yeux des habitants de son quartier. Il n'a alors pas d'autre choix que d'enquêter lui-même afin de retrouver le vrai tueur et de prouver ainsi son innocence...",
-    "date_ajout": "2026-09-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1288448",
-    "titre": "Justice IA",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 5.7,
-    "note_recence": 9.4,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "doc",
-      "trl",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/330494235/s592/justicia-artificial.jpg",
-    "synopsis": "Dans un avenir proche, le gouvernement entend remplacer les juges par un logiciel d'intelligence artificielle, promettant ainsi d'automatiser et de dépolitiser efficacement le système judiciaire. Carmen Costa, une éminente juge, a été invitée à évaluer cette nouvelle procédure. Cependant, lorsque le créateur du logiciel est retrouvé mort, elle réalise que sa vie est en danger et qu'elle devra lutter contre les intérêts puissants qui se jouent dans les plus hautes sphères de l'État.",
-    "date_ajout": "2026-10-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm826673",
     "titre": "Dark Waters",
     "type": "film",
@@ -53727,147 +45029,6 @@ const CATALOG_DATA = [
     },
     "on_prime": false,
     "on_tnt": false
-  },
-  {
-    "id": "jw-ts414791",
-    "titre": "Sous pression",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 7.2
-      }
-    ],
-    "duree": "46 min/ép.",
-    "runtime_minutes": 46,
-    "note_avis": 7.2,
-    "note_recence": 9.4,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/348012678/s592/the-gathering.jpg",
-    "synopsis": "Après l’agression brutale d’une adolescente lors d’une soirée techno clandestine sur la plage, une atmosphère chargée de soupçons s’installe dans la région. Au fil des épisodes, on retrace le fil des événements qui ont mené à l’attaque. Chassant secrets et mensonges, la vérité se fait jour sur les rivalités qui divisent un groupe disparate d’adolescents et d’adolescentes et leurs parents.",
-    "date_ajout": "2026-09-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm325628",
-    "titre": "Johnny English contre-attaque",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 6.2,
-    "note_recence": 7.6,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/88042782/s592/johnny-english-contre-attaque.jpg",
-    "synopsis": "Une cyberattaque révèle l’identité de tous les agents britanniques sous couverture. Johnny English devient alors le dernier espoir des services secrets. Rappelé de sa retraite, il plonge tête la première dans sa mission : découvrir qui est le génie du piratage qui se cache derrière ces attaques. Avec ses méthodes obsolètes Johnny English doit relever les défis de la technologie moderne pour assurer la réussite de sa mission.",
-    "date_ajout": "2018-10-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm2871815",
-    "titre": "Les murs ont des secrets",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 5.5,
-    "note_recence": 10,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/344620398/s592/les-murs-ont-des-secrets.jpg",
-    "synopsis": "Après une enfance difficile, Daisy a enfin trouvé un équilibre. Avec son mari, Chris, elle rénove et revend des maisons et elle attend un enfant. Par ailleurs, elle a auprès d'elle sa meilleure amie, Louise. Mais un soir, Chris fait une chute mortelle depuis la fenêtre de la maison qu'il rénovait. Le choc provoque la naissance difficile du petit James et les problèmes s'enchaînent pour Daisy qui va même se voir soupçonnée du meurtre. Car oui, Chris a été assassiné...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
   },
   {
     "id": "jw-tm207341",
@@ -53919,387 +45080,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts11744",
-    "titre": "Atlantis",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2013,
-    "annee_fin": 2014,
-    "annee_moyenne": 2014,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2013,
-        "note": 6.5
-      },
-      {
-        "saison": 2,
-        "annee": 2014,
-        "note": 6.5
-      }
-    ],
-    "duree": "45 min/ép.",
-    "runtime_minutes": 45,
-    "note_avis": 6.5,
-    "note_recence": 6.4,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "drm",
-      "fnt",
-      "rma",
-      "scf",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176036503/s592/atlantis.jpg",
-    "synopsis": "Les contes et les légendes au cœur de l'Atlantide, où se croisent géants et déesses à tête de serpent dans de vastes palaces sous la mer, racontées à travers les yeux d'un nouveau venu, le jeune Jason...",
-    "date_ajout": "2026-02-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1287858",
-    "titre": "Arcadian",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 5.5,
-    "note_recence": 9.4,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "hrr",
-      "trl",
-      "scf"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/314372740/s592/arcadian.jpg",
-    "synopsis": "Dans un futur proche, Paul et ses deux fils, Thomas et Joseph, luttent pour survivre dans un monde où, chaque nuit, des créatures féroces rôdent. Un soir, Thomas ne rentre pas avant le coucher du soleil. Paul part alors à sa recherche mais se blesse gravement au cours d'un combat acharné contre un monstre. Désormais, les frères vont devoir survivre, livrés à eux-même.",
-    "date_ajout": "2026-01-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts242085",
-    "titre": "L'Empire du mensonge",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2020,
-        "note": 7.4
-      }
-    ],
-    "duree": "44 min/ép.",
-    "runtime_minutes": 44,
-    "note_avis": 7.4,
-    "note_recence": 8.2,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/299428171/s592/lempire-du-mensonge.jpg",
-    "synopsis": "Elisa Cantú n'a jamais imaginé qu'à son retour au Mexique, elle serait confrontée à une tragédie inattendue qui changera sa vie.",
-    "date_ajout": "2025-08-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm453327",
-    "titre": "Amour, romance & chocolat",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 24min",
-    "runtime_minutes": 84,
-    "note_avis": 6.8,
-    "note_recence": 7.9,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/305974360/s592/love-romance-and-chocolate.jpg",
-    "synopsis": "Emma Colvin, comptable à New York, a le coeur brisé lorsque son petit ami la quitte avant leur escapade romantique prévue pour la saint Valentin. Convaincue par un de ses proches de partir seule en voyage, Emma s'envole pour la Belgique. Sur place, elle fait la connaissance du célèbre chocolatier Luc Simon...",
-    "date_ajout": "2026-02-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "nvn": "2026-12-31"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts84227",
-    "titre": "The Cry",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 7.3
-      }
-    ],
-    "duree": "57 min/ép.",
-    "runtime_minutes": 57,
-    "note_avis": 7.3,
-    "note_recence": 7.6,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "hrr",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320614130/s592/the-cry.jpg",
-    "synopsis": "Dans une petite ville côtière d'Australie, un bébé disparaît. Ce tragique évènement va alors fortement fragiliser le jeune couple que forment Joanna et Alistair. Ensemble ils voient leur marriage s'éffondrer tandis que leur vie privée se retrouve exposée aux yeux du grand public...",
-    "date_ajout": "2026-09-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts215918",
-    "titre": "Made for Love",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "saisons_disponibles": [
-      {
-        "saison": 2,
-        "annee": 2022,
-        "note": 6.9
-      }
-    ],
-    "duree": "29 min/ép.",
-    "runtime_minutes": 29,
-    "note_avis": 6.9,
-    "note_recence": 8.8,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "trl",
-      "rma",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/273373360/s592/made-for-love.jpg",
-    "synopsis": "Hazel Green, une trentenaire, est en fuite après dix ans dans un mariage étouffant avec Byron Gogol, un milliardaire de la technologie qui veut tout contrôler. Elle découvre que son mari a implanté dans son cerveau un dispositif de surveillance, la puce Made for Love, qui lui permet de la suivre, de l’observer et de connaître ses \"données émotionnelles\" alors qu’elle tente de retrouver son indépendance. Grâce à la puce, Byron est capable d’observer les moindres mouvements d’Hazel alors qu’elle s’enfuit dans sa ville natale dans le désert pour se réfugier chez son père veuf et vieillissant Herbert et sa partenaire synthétique, Diane. Une histoire d’amour et de divorce tristement absurde et cynique.",
-    "date_ajout": "2026-02-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts14179",
-    "titre": "Body of Proof",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2011,
-    "annee_moyenne": 2012,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2011,
-        "note": 7.1
-      },
-      {
-        "saison": 2,
-        "annee": 2011,
-        "note": 7.1
-      },
-      {
-        "saison": 3,
-        "annee": 2013,
-        "note": 7.1
-      }
-    ],
-    "duree": "44 min/ép.",
-    "runtime_minutes": 44,
-    "note_avis": 7.1,
-    "note_recence": 5.8,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/284301258/s592/body-of-proof.jpg",
-    "synopsis": "Megan Hunt est une brillante neuro-chirurgienne de Philadelphie reconvertie en médecin légiste, suite aux répercussions d'un accident de voiture qui a failli lui coûter la vie. Dotée d'un tempérament volcanique, elle n'a pas son pareil pour faire parler les corps des victimes. Tous ces indices associés à un flair certain lui permettent d'avoir un temps d'avance sur la police et de résoudre des affaires de meurtre...",
-    "date_ajout": "2021-07-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2013
-  },
-  {
     "id": "jw-tm184072",
     "titre": "Détective Dee : La Légende du dragon des mers",
     "type": "film",
@@ -54347,356 +45127,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts21457",
-    "titre": "Médium",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2010,
-    "annee_moyenne": 2010,
-    "saisons_disponibles": [
-      {
-        "saison": 7,
-        "annee": 2010,
-        "note": 7.2
-      }
-    ],
-    "duree": "45 min/ép.",
-    "runtime_minutes": 45,
-    "note_avis": 7.2,
-    "note_recence": 5.2,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "fnt",
-      "fml",
-      "trl",
-      "scf"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/244000886/s592/medium.jpg",
-    "synopsis": "Allison Dubois est une jeune femme et mère de trois enfants qui veut devenir avocate. Depuis son enfance, elle possède le pouvoir d'entendre les morts, lire les pensées des autres et voir l'avenir dans ses rêves. Son mari, ingénieur aéronautique, est convaincu que sa femme dit la vérité. Mais le plus dur reste à faire: convaincre les autorités que rien de tout cela n'est un canular et qu'elle peut réellement aider la justice.",
-    "date_ajout": "2026-04-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm317063",
-    "titre": "Drone",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 5.4,
-    "note_recence": 7.3,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/331593631/s592/drone-2017.jpg",
-    "synopsis": "Un pilote de drone de haut niveau partage sa vie entre ses missions et sa vie de famille en banlieue, jusqu'à ce qu'une fuite fasse de lui la cible d'un homme d'affaires pakistanais.",
-    "date_ajout": "2018-08-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts44471",
-    "titre": "En Famille",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "saisons_disponibles": [
-      {
-        "saison": 14,
-        "annee": 2026,
-        "note": 5.9
-      }
-    ],
-    "duree": "32 min/ép.",
-    "runtime_minutes": 32,
-    "note_avis": 5.9,
-    "note_recence": 10,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/11784474/s592/en-famille.jpg",
-    "synopsis": "Entre humour et tendresse, les tracas, conflits, contrariétés… mais aussi les joies des uns et des autres au sein de la famille Le Kervellec, révélant la complexité des rapports intergénérationnels, des grands-parents aux petits-enfants.",
-    "date_ajout": "2015-06-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts384125",
-    "titre": "Mademoiselle Holmes",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 6.5
-      },
-      {
-        "saison": 2,
-        "annee": 2025,
-        "note": 6.5
-      }
-    ],
-    "duree": "50 min/ép.",
-    "runtime_minutes": 50,
-    "note_avis": 6.5,
-    "note_recence": 9.7,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/334163010/s592/mademoiselle-holmes.jpg",
-    "synopsis": "Comment imaginer que Charlie, 36 ans, flic discrète et timide qui vit toujours chez son grand-père, est la descendante du célèbre Sherlock Holmes…?! Jusqu'au jour où, percutée par une voiture, elle a un déclic. La Charlie sans saveur et inhibée déborde soudain d'énergie. Pour la première fois, elle croque la vie à pleines dents. Son intelligence et son empathie hors normes font d'elle une flic aussi brillante qu’imprévisible. En rencontrant Samy, celui qui va devenir son Watson, Charlie va enfin s'assumer en tant que flic, femme... et Holmes !",
-    "date_ajout": "2026-10-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "mlt": "2026-10-16"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2025
-  },
-  {
-    "id": "jw-tm322184",
-    "titre": "City of Lies",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 52min",
-    "runtime_minutes": 112,
-    "note_avis": 6.5,
-    "note_recence": 7.6,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/304137955/s592/city-of-lies.jpg",
-    "synopsis": "Russell Poole, un ancien détective, a consacré une grande partie de sa vie à travailler sur une affaire non résolue, celle des meurtres des stars du rap Tupac Shakur et The Notorious B.I.G. Aux côtés d'un journaliste d'ABC qui, au moment des meurtres, avait remporté un Emmy pour son article sur les faits, les deux hommes ont rouvert le dossier et décidé de démasquer la corruption qui avait envahi la police de Los Angeles afin de couvrir le crime.",
-    "date_ajout": "2022-04-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1020312",
-    "titre": "Alpha Rift",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 4.1,
-    "note_recence": 8.5,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "fnt",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/255616375/s592/alpha-rift.jpg",
-    "synopsis": "Lorsqu'un casque magique propulse Nolan Parthmore dans un monde de chevaliers modernes luttant contre le mal surnaturel, il est forcé de devenir le héros qu'il était destiné à être.",
-    "date_ajout": "2024-09-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm446804",
-    "titre": "Le Mystère Henri Pick",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 41min",
-    "runtime_minutes": 101,
-    "note_avis": 6.7,
-    "note_recence": 7.9,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/136682475/s592/le-mystere-henri-pick.jpg",
-    "synopsis": "Une éditrice découvre un roman extraordinaire dans une bibliothèque qui recueille les manuscrits refusés par les éditeurs. Le texte, signé Henri Pick, devient un best-seller. Pourtant, ce pizzaïolo breton décédé deux ans plus tôt, n’aurait jamais lu de livre ni écrit autre chose que sa liste de courses. Un célèbre critique littéraire va mener l’enquête avec l’aide de la fille de l’énigmatique Henri Pick.",
-    "date_ajout": "2019-03-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1431558",
     "titre": "Megalopolis",
     "type": "film",
@@ -54732,529 +45162,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/319613350/s592/megalopolis.jpg",
     "synopsis": "La ville de New Rome doit absolument changer, ce qui crée un conflit majeur entre César Catilina, artiste de génie ayant le pouvoir d’arrêter le temps, et le maire archi-conservateur Franklyn Cicero. Le premier rêve d’un avenir utopique idéal alors que le second reste très attaché à un statu quo régressif protecteur de la cupidité, des privilèges et des milices privées. La fille du maire et jet-setteuse Julia Cicero, amoureuse de César Catilina, est tiraillée entre les deux hommes et devra découvrir ce qui lui semble le meilleur pour l’avenir de l’humanité.",
     "date_ajout": "2024-09-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm205144",
-    "titre": "A bigger splash",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "2h 05min",
-    "runtime_minutes": 125,
-    "note_avis": 6.4,
-    "note_recence": 6.7,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "msc",
-      "trl",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/304522988/s592/a-bigger-splash.jpg",
-    "synopsis": "Lorsque la légende du rock Marianne Lane part sur l’île méditerranéenne de Pantelleria avec Paul, son compagnon, c’est pour se reposer. Mais quand Harry, un producteur de musique iconoclaste avec qui Marianne a eu autrefois une liaison, débarque avec sa fille Pénélope, la situation se complique. Le passé qui ressurgit et beaucoup de sentiments différents vont faire voler la quiétude des vacances en éclats. Personne n’échappera à ces vacances très rock’n’roll…",
-    "date_ajout": "2016-04-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm150698",
-    "titre": "The Messenger",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2009,
-    "annee_moyenne": 2009,
-    "duree": "1h 53min",
-    "runtime_minutes": 113,
-    "note_avis": 7.1,
-    "note_recence": 4.9,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma",
-      "war"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/323320888/s592/the-messenger.jpg",
-    "synopsis": "Une jeune tête brûlée de l’armée doit réorienter sa carrière militaire suite à une blessure de guerre. Il intègre une cellule méconnue, chargée d’annoncer aux familles la mort des victimes tombées au combat. Formé par un vieux routier de cette discipline, il va découvrir que la mission est en réalité bien plus difficile que tout ce qu’il a connu au front...",
-    "date_ajout": "2024-09-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm818564",
-    "titre": "Nuit d'enfer",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 5.7,
-    "note_recence": 7.9,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/191631225/s592/burn-2019.jpg",
-    "synopsis": "Melinda, jeune employée d'une station service, est fatiguée de vivre dans l'ombre de sa collègue Sheila. Quand le jeune Billy vient braquer l'établissement, Melinda profite de l'occasion pour se mettre du côté de l'agresseur et inverser le rapport de force.",
-    "date_ajout": "2020-09-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1492152",
-    "titre": "Les Infaillibles",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 39min",
-    "runtime_minutes": 99,
-    "note_avis": 4.8,
-    "note_recence": 9.4,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/317854275/s592/les-infaillibles.jpg",
-    "synopsis": "Alors qu’un gang de braqueurs sème le chaos à Paris et humilie la police depuis des mois, le Ministre de l’Intérieur veut du sang neuf à la tête de l’enquête : Alia est marseillaise, explosive et ingérable, Hugo est parisien, major de promo et méticuleux. Bref, ils ont tout pour se détester. Une alliance forcée, pour le meilleur et pour le pire… et plus si affinités ?",
-    "date_ajout": "2024-06-19",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts57298",
-    "titre": "Siren",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "saisons_disponibles": [
-      {
-        "saison": 3,
-        "annee": 2020,
-        "note": 7
-      }
-    ],
-    "duree": "42 min/ép.",
-    "runtime_minutes": 42,
-    "note_avis": 7,
-    "note_recence": 8.2,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "fnt",
-      "hrr",
-      "scf"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/307006969/s592/siren.jpg",
-    "synopsis": "Le calme qui règne sur la petite ville portuaire de Bristol Cove, connue pour avoir autrefois, selon la légende, abrité des sirènes, est bouleversé par l'arrivée d'une mystérieuse jeune femme du nom de Ryn, qui sème le chaos sur son passage. Intrigués par son comportement étrange, Ben et Maddie, deux océanologues, découvrent bientôt que Ryn est une sirène. Ils vont alors tenter de lui venir en aide afin de comprendre ce qui l'a poussée à quitter l'océan et à rejoindre la terre ferme, et découvrir s'il existe d'autres prédateurs de son espèce dans les environs de Bristol Cove. Avant qu'il ne soit trop tard et qu'une bataille sans pitié entre l'Homme et la mer ne débute...",
-    "date_ajout": "2026-02-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "mlt": "2026-10-17"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm368538",
-    "titre": "MILF",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 36min",
-    "runtime_minutes": 96,
-    "note_avis": 4.9,
-    "note_recence": 7.6,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/61059532/s592/milf.jpg",
-    "synopsis": "Trois amies d’enfance partent dans le sud pour vider la maison d’une d’elles, pour la vendre. Pendant ces quelques jours, elles deviennent la cible de trois jeunes garçons, pour qui trois femmes seules, approchant la quarantaine, sont bien plus séduisantes que les filles de leur âge. Des relations sentimentales, sexuelles ou sensuelles se créent avec ces trois garçons, pouvant presque être leurs fils ! Cécile, Sonia et Elise découvrent qu’elles sont des MILF (et non des Cougars, puisque ce sont les \"plus jeunes\" qui sont venus vers elles, et non l’inverse.).",
-    "date_ajout": "2018-05-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1680120",
-    "titre": "Project: Affinity",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 21min",
-    "runtime_minutes": 81,
-    "note_avis": 5.1,
-    "note_recence": 9.7,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "trl",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/339095078/s592/affinity.jpg",
-    "synopsis": "Un ancien Navy SEAL souffrant de stress post-traumatique sauve une femme puis en tombe amoureux, avant de la perdre aux mains de mystérieux ravisseurs. Il réunit une équipe d’élite pour la retrouver, mais découvre bientôt la triste vérité : elle a été bio-ingéniérée par un scientifique fou endeuillé par la mort de sa femme.",
-    "date_ajout": "2025-11-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm449500",
-    "titre": "Le Cri du Faucon",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 37min",
-    "runtime_minutes": 97,
-    "note_avis": 7.6,
-    "note_recence": 7.9,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "drm"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/333407082/s592/the-peanut-butter-falcon.jpg",
-    "synopsis": "Une petite frappe en cavale va devenir le coach de catch et allié de Zak, un jeune homme trisomique. Zak est lui aussi en fuite, il a quitté son foyer en vue d'essayer de réaliser son rêve : celui de devenir un catcheur professionnel et rejoindre l'école de catch de Saltwater Redneck.",
-    "date_ajout": "2019-08-23",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm810327",
-    "titre": "Robert the Bruce",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "2h 04min",
-    "runtime_minutes": 124,
-    "note_avis": 5.5,
-    "note_recence": 7.9,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "war"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/256084958/s592/robert-the-bruce.jpg",
-    "synopsis": "Écosse 1306. Après la mort du chef de guerre Richard Wallace, vainqueur des Anglais à la bataille de Stirling, Robert Bruce, comte de Carrick, reprend le flambeau de la lutte pour l’indépendance. Pourchassé par les sbires d’Édouard 1er, il trouve refuge chez une famille de paysans. Il va devoir allier force et courage pour éliminer ses ennemis, réunifier les clans et gagner la liberté de son peuple.",
-    "date_ajout": "2021-03-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm136195",
-    "titre": "Taken 3",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+",
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "tf1",
-      "sxp"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 49min",
-    "runtime_minutes": 109,
-    "note_avis": 6,
-    "note_recence": 6.4,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/303761275/s592/taken-3.jpg",
-    "synopsis": "L’ex-agent spécial Bryan Mills voit son retour à une vie tranquille bouleversé lorsqu’il est accusé à tort du meurtre de son ex-femme, chez lui, à Los Angeles. En fuite et traqué par l’inspecteur Dotzler, Mills va devoir employer ses compétences particulières une dernière fois pour trouver le véritable coupable, prouver son innocence et protéger la seule personne qui compte désormais pour lui – sa fille.",
-    "date_ajout": "2015-01-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm776762",
-    "titre": "Oxana",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 43min",
-    "runtime_minutes": 103,
-    "note_avis": 5.9,
-    "note_recence": 9.7,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/326323289/s592/oxana.jpg",
-    "synopsis": "Ukraine, 2008. La jeune Oxana et son groupe d’amies multiplient les actions, slogans peints sur le corps et couronnes de fleurs dans les cheveux, contre un gouvernement arbitraire et corrompu. C’est la naissance d'un des mouvements les plus importants du XXIe siècle : FEMEN. Réfugiée politique, artiste, activiste, Oxana franchira les frontières et militera sans relâche pour les droits des femmes et la liberté, jusqu'à risquer sa propre vie.",
-    "date_ajout": "2025-04-16",
     "expiration": {
       "status": "none",
       "label": null,
@@ -55357,447 +45264,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts320111",
-    "titre": "Beforeigners",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "saisons_disponibles": [
-      {
-        "saison": 2,
-        "annee": 2021,
-        "note": 7.7
-      }
-    ],
-    "duree": "47 min/ép.",
-    "runtime_minutes": 47,
-    "note_avis": 7.7,
-    "note_recence": 8.5,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "scf"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/256848264/s592/beforeigners.jpg",
-    "synopsis": "A cause d'une faille spatio-temporelle, des \" visiteurs du passé \" surgissent aujourd'hui dans les rues d'Oslo. Parmi eux, des vikings combattifs. Le détective, Lars, est chargé de comprendre ce qui a pu permettre cet incident. Il s'associe alors à Alfhildr Enginnsdóttir, une guerrière viking...",
-    "date_ajout": "2026-05-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts85132",
-    "titre": "L'amour à mort",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 8.3
-      }
-    ],
-    "duree": "59 min/ép.",
-    "runtime_minutes": 59,
-    "note_avis": 8.3,
-    "note_recence": 7.6,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/276506079/s592/amour-a-mort.jpg",
-    "synopsis": "León Carvajal compte parmi les vingt entrepreneurs les plus riches du monde. À l’âge de 60 ans, il décide d’épouser Lucía Borges, une femme d’une beauté éblouissante, de 30 ans sa cadette. Toutefois, le mariage se mue en tragédie, car León, le célèbre millionnaire, est assassiné ce même jour. Au même moment meurent deux autres hommes. « Chino » Valdés, un dangereux criminel, est exécuté par électrocution dans une prison du Texas, tandis que le professeur Beltrán Camacho se jette du haut d’une falaise au volant de sa voiture. Ces trois personnages n’ont absolument rien en commun, et pourtant, ils disparaissent tous en même temps dans différents lieux et diverses circonstances - une coïncidence qui déclenchera une incroyable chaîne de réincarnations...",
-    "date_ajout": "2026-08-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1659506",
-    "titre": "La Femme de",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 5.8,
-    "note_recence": 10,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/348176782/s592/la-femme-de.jpg",
-    "synopsis": "Voilà Marianne aujourd’hui : femme d’un riche industriel, épouse modèle et mère de famille dévouée. Elle va avoir 40 ans, et le confort de la vaste demeure familiale a lentement refermé sur elle son piège impitoyable. Prisonnière d’un inextricable réseau d’obligations sociales, familiales et conjugales, elle a renoncé à elle-même. Alors, quand resurgit l’ombre de son passé, une brèche s’ouvre.",
-    "date_ajout": "2026-04-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm71148",
-    "titre": "Sex Therapy",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 52min",
-    "runtime_minutes": 112,
-    "note_avis": 6.4,
-    "note_recence": 6.1,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/10085788/s592/sex-therapy.jpg",
-    "synopsis": "A New York, de nos jours, Adam vient de rencontrer Phoebe, qui pourrait bien être la femme de sa vie. Cependant un seul obstacle s'oppose à cette idylle : Adam est atteint d'une syndrome, et pas des moindres : il est accro au sexe. Il soigne sa dépendance au sein d'un groupe de parole composé d'autres addicts.  Parmi eux, Mike, son parrain et mentor, Neil, qui vient tout juste de les rejoindre, et Dede, une jeune femme très libre et décomplexée... Réussiront-ils tous à soigner leurs dépendances et leurs troubles obsessionnels ?",
-    "date_ajout": "2015-07-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts36146",
-    "titre": "Minority Report",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2015,
-        "note": 6.8
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 6.8,
-    "note_recence": 6.7,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm",
-      "drm",
-      "trl",
-      "scf"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/179567600/s592/minority-report.jpg",
-    "synopsis": "En 2040, Agatha et ses deux frères jumeaux Dash et Arthur ont la capacité unique de prédire le futur, notamment de prévoir les meurtres avant qu'ils ne soient perpétrés. Sous la supervision de scientifiques, Precrime les a isolé pour exploiter leurs dons et ainsi stopper de nombreux crimes avant qu'ils ne surviennent. En 2065, maintenant dans leurs trentaines, la fratrie a été libérée et Precrime démantelé. Arthur a malheureusement été séparé de son frère et sa soeur. Toujours hanté par des flashs lui montrant le sort funeste de nombreuses victimes, Dash tente en vain d'en sauver au moins une. Mais sans son frère, son don est incomplet. Un enchaînement de circonstances l'amène à collaborer avec une enquêtrice, Lara Vega. Ensemble, ils vont s'efforcer d'arrêter les criminels, tout en préservant le secret de Dash.",
-    "date_ajout": "2026-07-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm266644",
-    "titre": "Une vie cachée",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "2h 54min",
-    "runtime_minutes": 174,
-    "note_avis": 7.4,
-    "note_recence": 7.9,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma",
-      "war"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/180068757/s592/une-vie-cachee.jpg",
-    "synopsis": "Franz Jägerstätter, paysan autrichien, refuse de se battre aux côtés des nazis. Reconnu coupable de trahison par le régime hitlérien, il est passible de la peine capitale. Mais, porté par sa foi inébranlable et son amour pour sa femme, Fani, et ses enfants, Franz reste un homme libre.",
-    "date_ajout": "2019-12-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm461963",
-    "titre": "L'Arnaqueuse",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 6.2,
-    "note_recence": 8.2,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/247928435/s592/larnaqueuse.jpg",
-    "synopsis": "Peg Dahl ferait tout pour échapper à Buffalo. Après s'être embourbée dans un tas de problèmes, elle se retrouve criblée de dettes et la perspective de quitter sa ville natale s'en retrouve bien diminuée. Elle décide alors de se lancer dans le business du recouvrement de dettes et enclenche une guerre avec le roi des chasseurs de dettes de Buffalo...",
-    "date_ajout": "2021-02-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts20129",
-    "titre": "Houdini, l'illusionniste",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2014,
-        "note": 7.3
-      }
-    ],
-    "duree": "76 min/ép.",
-    "runtime_minutes": 76,
-    "note_avis": 7.3,
-    "note_recence": 6.4,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/298711911/s592/houdini.jpg",
-    "synopsis": "Une plongée dans la vie du célèbre maître de l'illusion, Harry Houdini, passé de la pauvreté la plus extrême à une renommée internationale...",
-    "date_ajout": "2020-02-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm354121",
-    "titre": "Dead Ant",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 4.9,
-    "note_recence": 7.3,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "hrr",
-      "msc",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/130472460/s592/dead-ant.jpg",
-    "synopsis": "Le groupe de glam-metal Sonic Grave est l'auteur d'un seul succès. Alors que ses membres embarquent pour Coachella dans l'espoir de réaliser un come-back, ils sont confrontés à une menace d'un autre monde.",
-    "date_ajout": "2019-05-23",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm372729",
     "titre": "Await further instructions",
     "type": "film",
@@ -55841,144 +45307,6 @@ const CATALOG_DATA = [
     },
     "on_prime": true,
     "on_tnt": false
-  },
-  {
-    "id": "jw-tm1424514",
-    "titre": "The Deer",
-    "type": "film",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 20min",
-    "runtime_minutes": 80,
-    "note_avis": 4.8,
-    "note_recence": 9.7,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "hrr",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/345530607/s592/the-deer.jpg",
-    "synopsis": "Après un accident de voiture, une mère et son fils sont traqués par Bambi, un cerf mutant et endeuillé, lancé dans une vendetta meurtrière pour venger la mort de sa mère.\n",
-    "date_ajout": "2025-11-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm373828",
-    "titre": "Bad Samaritan",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 51min",
-    "runtime_minutes": 111,
-    "note_avis": 6.5,
-    "note_recence": 7.6,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "hrr",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/56008020/s592/bad-samaritan.jpg",
-    "synopsis": "Sean Falco est voiturier dans un restaurant et tire le diable par la queue. Il profite des voitures confiées par la clientèle pour cambrioler les maisons des clients. Une nuit, en pénétrant dans une maison, il tombre sur une femme nommée Katie qui y est emprisonnée. Effrayé d'aller en prison, il l'abandonne, appelle la police mais se retrouve dans un jeu du chat et de la souris avec Cale Erendreich, le propriétaire psychotique de la maison.",
-    "date_ajout": "2018-09-26",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm981840",
-    "titre": "Un été à Cold Spring",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 5.4,
-    "note_recence": 8.2,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/301894196/s592/un-ete-a-cold-spring.jpg",
-    "synopsis": "Sammy et Emily, deux adolescentes issues de mondes différents, nouent une amitié improbable dans la chaleur étouffante de l'été 1998. Leurs journées insouciantes se refroidissent rapidement lorsqu'elles se retrouvent au centre d'un effroyable meurtre.",
-    "date_ajout": "2016-02-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
   },
   {
     "id": "jw-tm1084340",
@@ -56026,332 +45354,6 @@ const CATALOG_DATA = [
     },
     "on_prime": false,
     "on_tnt": false
-  },
-  {
-    "id": "jw-tm420429",
-    "titre": "Sacrées Sorcières",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 5.4,
-    "note_recence": 8.2,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fnt",
-      "hrr",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/232989986/s592/sacrees-sorcieres.jpg",
-    "synopsis": "Un jeune garçon et sa grand‐mère, exilés en Angleterre, doivent lutter contre d’horribles sorcières. Contrairement aux idées reçues, les sorcières ne portent ni balai, ni verrue, ni chapeau pointu. Les démasquer représente donc une vraie difficulté pour le petit garçon, qui va devoir rivaliser d’ingéniosité pour échapper à la perfidie de ces vilaines créatures.",
-    "date_ajout": "2021-03-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm233024",
-    "titre": "Friend Request",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 5.2,
-    "note_recence": 7,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "hrr",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/27998291/s592/unfriend.jpg",
-    "synopsis": "Laura, étudiante branchée, partage sa vie sur Facebook avec ses 800 amis. Par gentillesse, elle accepte la demande d’ami de Marina, une étudiante introvertie mais qui devient vite envahissante.  En tentant de la supprimer de sa liste d’amis, Laura va déclencher des forces paranormales et voir ses proches être décimés les uns après les autres…",
-    "date_ajout": "2016-01-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1389450",
-    "titre": "Role Play",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 41min",
-    "runtime_minutes": 101,
-    "note_avis": 5.5,
-    "note_recence": 9.1,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "rma"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/309445382/s592/role-play.jpg",
-    "synopsis": "Emma et Dave pimentent leur soirée d'anniversaire avec un jeu de rôle à New York. Mais les choses deviennent dangereuses lorsque la vie secrète d'assassin international de Emma, inconnue de Dave, est exposée par Bob, ce qui met en danger sa famille. Emma doit se servir de ses compétences mortelles et sa détermination pour protéger sa famille à tout prix.",
-    "date_ajout": "2015-07-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm854278",
-    "titre": "Bronx",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 56min",
-    "runtime_minutes": 116,
-    "note_avis": 6.1,
-    "note_recence": 8.2,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/231080530/s592/bronx.jpg",
-    "synopsis": "Pris entre la corruption policière et la guerre des gangs de Marseille, un flic prend les choses en main afin de protéger son équipe.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm196892",
-    "titre": "Nos Pires Voisins 2",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 5.7,
-    "note_recence": 7,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/314770507/s592/nos-pires-voisins-2.jpg",
-    "synopsis": "Mac et Kelly Radner, pour l’arrivée de leur deuxième enfant, sont enfin prêts à franchir l’étape ultime vers la vie adulte et déménager en banlieue. Mais alors qu’ils mettent tout en œuvre pour vendre leur maison, une sororité d’étudiantes décomplexées succède à l’ancienne fraternité de Teddy, les surpassant largement en termes de débauche et tapage nocturne. Les jeunes filles de Kapa Nu, Shelby flanquée de ses comparses, Beth et Nora, lassées du sexisme et de la rigidité du système universitaire, ont décidé de faire de leur QG l’antre de la contestation et de la liberté néo féministe. Et le fait que ce soit au cœur d’un quartier calme et résidentiel ne les en empêchera pas. Mac et Kelly avec l’aide de leurs amis Jimmy et Paula, vont transformer leur ancien ennemi juré Teddy, avec son charme et ses coups fourrés, en arme secrète. Sa mission : infiltrer la sororité, la conquérir pour mieux la diviser, la détruire, pour la forcer à déménager.",
-    "date_ajout": "2016-05-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm977391",
-    "titre": "Désigné coupable",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "2h 09min",
-    "runtime_minutes": 129,
-    "note_avis": 7.5,
-    "note_recence": 8.5,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/309024439/s592/designe-coupable.jpg",
-    "synopsis": "Capturé par le gouvernement américain, Mohamedou Ould Slahi est détenu depuis des années à Guantánamo, sans jugement ni inculpation. À bout de forces, il se découvre deux alliées inattendues : l’avocate Nancy Hollander et sa collaboratrice Teri Duncan. Avec ténacité, les deux femmes vont affronter l’implacable système au nom d’une justice équitable. Leur plaidoyer polémique, ainsi que les preuves découvertes par le redoutable procureur militaire, le lieutenant-colonel Stuart Couch, finiront par démasquer une conspiration aussi vaste que scandaleuse. L’incroyable histoire vraie d’un combat acharné pour la survie et les droits d’un homme.",
-    "date_ajout": "2021-07-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts82778",
-    "titre": "Les Misérables",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 7.8
-      }
-    ],
-    "duree": "74 min/ép.",
-    "runtime_minutes": 74,
-    "note_avis": 7.8,
-    "note_recence": 7.6,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/100691792/s592/les-miserables.jpg",
-    "synopsis": "Classique de Victor Hugo qui décrit la vie de gens pauvres dans Paris et la France provinciale du XIXe siècle, et qui suit plus spécifiquement le bagnard Jean Valjean dont le destin est bouleversé par sa rencontre avec Fantine, mourante et sans-le-sou, qui lui demande de prendre soin de sa fille Cosette.",
-    "date_ajout": "2020-05-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
   },
   {
     "id": "jw-tm124345",
@@ -56405,17 +45407,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Sooner",
     "chaines": [
-      "Sooner",
-      "France TV"
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/sooner.png",
-      "assets/logos/france_tv.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "snr",
-      "fra"
+      "snr"
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
@@ -56441,14 +45440,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "fra": "2026-11-30"
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1588246",
@@ -56504,107 +45503,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm925355",
-    "titre": "C'est quoi ce papy ?!",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+",
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "tf1",
-      "sxp"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 5,
-    "note_recence": 8.5,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fml",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/257328714/s592/cest-quoi-ce-papy.jpg",
-    "synopsis": "Aurore, la plus déjantée des mamies fait une chute spectaculaire lors d’une danse endiablée. Elle perd la mémoire et se retrouve en convalescence dans une maison de repos. Des bribes de souvenirs lui remontent parfois, évoquant un mystérieux Gégé, qu'elle aurait pu connaître dans sa jeunesse. Ses sept petits enfants décident alors de faire évader leur mamie et partent à travers la France à la recherche de celui qu’ils croient être leur Papy.",
-    "date_ajout": "2021-08-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts84598",
-    "titre": "Mocro maffia",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 6,
-        "annee": 2024,
-        "note": 8.1
-      }
-    ],
-    "duree": "45 min/ép.",
-    "runtime_minutes": 45,
-    "note_avis": 8.1,
-    "note_recence": 9.4,
-    "note_globale": 8.8,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/323229047/s592/mocro-maffia.jpg",
-    "synopsis": "Romano, Petit Stylo et Le Pape, autrefois amis, sont désormais rivaux pour le contrôle du trafic de cocaïne à Amsterdam. Mais l'affrontement fait des victimes de chaque côté et une guerre s ́instaure entre les deux factions. Rein de Waard, écrivain et ancien journaliste criminel, et Matthjis, journaliste stagiaire au sein du journal local, s'associent pour enquêter sur ce que la presse appellera « la guerre de la Mocro Maffia »...",
-    "date_ajout": "2026-03-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm1259479",
     "titre": "Berlin Boys",
     "type": "film",
@@ -56639,51 +45537,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/316770747/s592/sonne-und-beton.jpg",
     "synopsis": "Les quatre amis Lukas, Julius, Gino et Sanchez tentent de survivre à Neukölln, Berlin, entre drogues, gangs, rap, violence et ennui. Jusqu'à ce qu'ils prennent un jour une décision qui aura de graves conséquences…",
     "date_ajout": "2023-09-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm102443",
-    "titre": "Unstoppable",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2010,
-    "annee_moyenne": 2010,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 6.8,
-    "note_recence": 5.2,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/164993124/s592/unstoppable.jpg",
-    "synopsis": "Un ingénieur et un chauffeur vivent une véritable course contre la montre. Les deux hommes tentent de stopper un train qui transporte des produits toxiques avant que celui-ci ne déraille et répande une flaque toxique qui décimera la ville complète.",
-    "date_ajout": "2010-11-10",
     "expiration": {
       "status": "none",
       "label": null,
@@ -56741,96 +45594,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm277185",
-    "titre": "Liberté sauvage",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 5.9,
-    "note_recence": 7.3,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "wsn",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322427224/s592/running-wild.jpg",
-    "synopsis": "La propriétaire d'une ferme, veuf, travaille avec d'anciens prisonniers, aidant à la réinsertion de chevaux sauvages sur son domaine. En oeuvrant ainsi, elle parvient à sauver sa ferme, mais doit faire face aux préjugés, l'avarice, la vanité et la bureaucratie...",
-    "date_ajout": "2020-05-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1045110",
-    "titre": "Harcelés",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 6.4,
-    "note_recence": 8.5,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320368230/s592/harceles-2021.jpg",
-    "synopsis": "Comment réagiriez-vous si vous étiez insidieusement attaqué sur votre téléphone, tablette, et ordinateur ? Que feriez-vous si vous étiez harcelé sur vos réseaux sociaux avec une efficacité redoutable ? Faux messages, identités usurpées, photos intimes dévoilées ; votre vie est mise à nu et vous ne pouvez rien faire... Une famille, comme tant d’autres, va voir son quotidien bouleversé par des attaques virtuelles et tenter de démasquer celui qui se cache derrière ces intrusions ; Isabelle et Eric Vallorca vont devoir être plus solides que jamais, et redoubler d’efforts quand leur fils Hugo se retrouvera en danger de mort…",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm318269",
     "titre": "The Rider",
     "type": "film",
@@ -56874,235 +45637,6 @@ const CATALOG_DATA = [
     },
     "on_prime": false,
     "on_tnt": false
-  },
-  {
-    "id": "jw-tm479381",
-    "titre": "Pour toujours et à jamais",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 4.2,
-    "note_recence": 8.2,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/256457439/s592/always-and-forever.jpg",
-    "synopsis": "Au sein d'un camp de vacances, quatre amis d'enfance ont vécu un profond traumatisme. Chacun a poursuivi sa vie sans reparler des événements aux trois autres. Bientôt, leur passé va venir les hanter par l'intermédiaire d'un harceleur inconnu...",
-    "date_ajout": "2026-08-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm412937",
-    "titre": "La victoire dans le sang",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 4.5,
-    "note_recence": 7.9,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "trl",
-      "spt",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/177401746/s592/trading-paint.jpg",
-    "synopsis": "Un conducteur de voitures de course chevronné ainsi que son fils doivent apprendre à surmonter leurs conflits familiaux et professionnels, mettre de coté leurs égos et le ressentiment afin de gagner la course de leurs vies et en ressortir grandi.",
-    "date_ajout": "2019-02-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1120015",
-    "titre": "À l'ombre des regards",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 51min",
-    "runtime_minutes": 111,
-    "note_avis": 6.1,
-    "note_recence": 7.9,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "fnt",
-      "rma",
-      "spt"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/245340410/s592/above-the-shadows.jpg",
-    "synopsis": "Après plus d'une décennie de solitude à gagner sa vie dans l'ombre en tant que photographe paparazzi, Holly rencontre Shayne, un combattant MMA malchanceux, qui gagne sa vie comme videur. Holly découvre que c'est l'une de ses photographies qui a causé sa chute et décide qu'elle doit lui rendre sa gloire d'antan pour elle-même reprendre pied dans le monde qui l'entoure.",
-    "date_ajout": "2021-05-26",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1283208",
-    "titre": "La Passion de Dodin Bouffant",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "2h 15min",
-    "runtime_minutes": 135,
-    "note_avis": 7.4,
-    "note_recence": 9.1,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/310334573/s592/la-passion-de-dodin-bouffant.jpg",
-    "synopsis": "Eugénie, cuisinière hors pair, est depuis 20 ans au service du célèbre gastronome Dodin. À force de passer du temps ensemble en cuisine, une passion amoureuse s’est construite entre eux où l’amour est étroitement lié à la pratique de la gastronomie.  De cette union naissent des plats tous plus savoureux et délicats les uns que les autres qui vont jusqu’à émerveiller les plus grands de ce monde. Pourtant, Eugénie, avide de liberté, n’a jamais voulu se marier avec Dodin. Ce dernier décide alors de faire quelque chose qu’il n’a encore jamais fait : cuisiner pour elle.",
-    "date_ajout": "2023-11-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm244202",
-    "titre": "Le Livre de l'amour",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 47min",
-    "runtime_minutes": 107,
-    "note_avis": 6,
-    "note_recence": 7.3,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/263943424/s592/the-book-of-love.jpg",
-    "synopsis": "Henry est un architecte introverti. Après le décès de sa femme dans un accident de voiture, il part pour aider Millie, une adolescente sans abri, à construire un radeau pour naviguer à travers l'Atlantique.",
-    "date_ajout": "2017-12-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
   },
   {
     "id": "jw-tm138462",
@@ -57153,388 +45687,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts58609",
-    "titre": "Miniaturiste",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2017,
-        "note": 7
-      }
-    ],
-    "duree": "52 min/ép.",
-    "runtime_minutes": 52,
-    "note_avis": 7,
-    "note_recence": 7.3,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "fnt",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/141710687/s592/miniaturiste.jpg",
-    "synopsis": "Amsterdam, 1686. Nella Oortman épouse un riche marchand dans l'espoir de trouver amour et prospérité. A seulement 18 ans, la jeune femme découvre un monde peuplé de sombres secrets et de mystères qui lui font craindre pour sa vie.",
-    "date_ajout": "2019-03-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm234062",
-    "titre": "Une histoire d'âme",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 22min",
-    "runtime_minutes": 82,
-    "note_avis": 5.7,
-    "note_recence": 6.7,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/290923696/s592/une-histoire-dame.jpg",
-    "synopsis": "Viktoria, fille d’évêque et femme de pasteur, se parle à elle-même. Profondément seule, elle circule dans cette maison qui lui rappelle sa vie et l’habite pleinement. Viktoria voyage de vie en vie et semble jouer plusieurs rôles. Elle se souvient, rêve, fantasme et hallucine, elle fait revivre son mari, sa mère, son père et ses amies. Un portrait de femme en guise de réflexion sur le souvenir, le désir, la liberté et offrant une mise en abîme du métier de comédien.",
-    "date_ajout": "2025-05-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm239722",
-    "titre": "Le Duel",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 50min",
-    "runtime_minutes": 110,
-    "note_avis": 5.8,
-    "note_recence": 7,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "drm",
-      "wsn"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/136985207/s592/the-duel.jpg",
-    "synopsis": "Texas 1887. Le Ranger Kingston est envoyé enquêter sur une série de morts mystérieuses à la frontière Mexicaine. Ses recherches le mènent rapidement à Mount Hermon, une petite ville sous l'emprise de celui qu'on appelle le Prêcheur. Kingston reconnaît alors l'homme qui a tué son père 20 ans auparavant dans un duel sanglant.",
-    "date_ajout": "2018-02-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts475799",
-    "titre": "L'Or bleu",
-    "type": "serie",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2026,
-        "note": 6.6
-      }
-    ],
-    "duree": "50 min/ép.",
-    "runtime_minutes": 50,
-    "note_avis": 6.6,
-    "note_recence": 10,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/345692152/s592/lor-bleu-1.jpg",
-    "synopsis": "Trois femmes et trois générations d’une même famille : Flore, Alice et Marie ne savent pas encore à quel point leurs trajectoires sont liées. Pourtant, la chaleur brutale d'un été de grande sécheresse va faire ressurgir un secret enfoui depuis près d'un siècle, transmis en silence de mère en fille. L’absence d’eau, cette ressource si précieuse, va faire éclater des vérités longtemps tues et entrainer des déchirements au sein de cette famille.",
-    "date_ajout": "2026-05-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm168764",
-    "titre": "Jack le chasseur de géants",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 54min",
-    "runtime_minutes": 114,
-    "note_avis": 6.3,
-    "note_recence": 6.1,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "fnt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/175554106/s592/jack-le-chasseur-de-geants.jpg",
-    "synopsis": "Un jeune ouvrier agricole du nom de Jack ouvre involontairement un passage entre notre monde et celui d’une terrifiante race de géants. Débarquant sur la Terre pour la première fois depuis des siècles et des siècles, les géants n’ont qu’un objectif : reprendre le territoire qu’ils ont jadis perdu. Jack doit tout mettre en œuvre pour les arrêter. Il va devenir malgré lui un guerrier valeureux. Le salut de l’humanité repose sur ses épaules…",
-    "date_ajout": "2013-03-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1273151",
-    "titre": "Śakra, la légende des demi-dieux",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "2h 10min",
-    "runtime_minutes": 130,
-    "note_avis": 5.7,
-    "note_recence": 9.1,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/307452675/s592/tin-lung-baat-bou.jpg",
-    "synopsis": "Royaume de Chine, Xe siècle. Deux clans ennemis s'affrontent : les Song, dynastie royale, et les Khitan, peuple nomade guerrier. Qiao Feng du clan Song est un héros chevaleresque respecté, maître en arts martiaux. Accusé à tort d'avoir tué un chef de son propre clan, Qiao Feng est banni. Pour prouver son innocence, il s’engage dans un long périple, parsemé de combats extraordinaires, entre demi-dieux et semi-démons.",
-    "date_ajout": "2023-09-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm472191",
-    "titre": "Bit",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 4.9,
-    "note_recence": 7.9,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "hrr"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/143627865/s592/bit.jpg",
-    "synopsis": "Une adolescente transgenre en vacances d'été à Los Angeles se bat pour survivre après être tombée sur quatre vampires féministes queer, qui tentent de débarrasser les rues de la ville des hommes prédateurs.",
-    "date_ajout": "2024-10-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts41876",
-    "titre": "Bull",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "saisons_disponibles": [
-      {
-        "saison": 6,
-        "annee": 2021,
-        "note": 7.1
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 7.1,
-    "note_recence": 8.5,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "drm"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/304524362/s592/bull-2016.jpg",
-    "synopsis": "Le Dr Jason Bull est le brillant fondateur d'une firme spécialisée en conseils juridiques. Entourée de son équipe d'experts ultra-compétents, il se démène pour mettre en place de véritables stratégies pour permettre de faire pencher la balance de la justice en faveur de ses clients. Ses méthodes lui permettent d'analyser tout un ensemble de facteurs pour prédire les comportements et décisions des jurés, des avocats ou encore des témoins.\n\nSérie inspirée de la carrière de Dr Phil McGraw.",
-    "date_ajout": "2026-03-31",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm137861",
     "titre": "Le Monde de Nathan",
     "type": "film",
@@ -57577,210 +45729,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm989220",
-    "titre": "Willy's Wonderland",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 5.5,
-    "note_recence": 8.5,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "hrr",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/245468722/s592/willys-wonderland.jpg",
-    "synopsis": "Un gardien se retrouve bloqué à l'intérieur du parc d'attractions qu'il surveille, durant toute une nuit, lors de laquelle les monstres prennent alors vie et se lancent à sa poursuite. L'homme doit les vaincre afin de survivre jusqu’au petit matin et être enfin libéré.",
-    "date_ajout": "2021-11-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts269389",
-    "titre": "César Wagner",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+",
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png",
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "sxp",
-      "fra"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2020,
-        "note": 7.2
-      }
-    ],
-    "duree": "90 min/ép.",
-    "runtime_minutes": 90,
-    "note_avis": 7.2,
-    "note_recence": 8.2,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/240242349/s592/cesar-wagner.jpg",
-    "synopsis": "Fraîchement muté au SRPJ de Strasbourg, le capitaine de police César Wagner prend ses marques au sein de sa nouvelle équipe. César Wagner n’est pas toujours en contrôle de sa vie. Et pour cause : trois femmes l’occupent et le préoccupent : sa mère, sa collègue légiste, et sa boss.",
-    "date_ajout": "2020-11-29",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
-      "expirationDate": "2026-10-19",
-      "packageExpirations": {
-        "fra": "2026-10-19"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1628795",
-    "titre": "Love on Trial",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "2h 04min",
-    "runtime_minutes": 124,
-    "note_avis": 6.3,
-    "note_recence": 10,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "msc",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/345806513/s592/love-on-trial.jpg",
-    "synopsis": "Jeune idole de la pop en pleine ascension, Mai commet l’irréparable : tomber amoureuse, malgré l’interdiction formelle inscrite dans son contrat. Lorsque sa relation éclate au grand jour, Mai est traînée par sa propre agence devant la justice. Confrontés à une machine implacable, les deux amants décident de se battre pour défendre leur droit le plus universel : celui d’aimer.",
-    "date_ajout": "2026-07-23",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts320381",
-    "titre": "Sissi",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "saisons_disponibles": [
-      {
-        "saison": 3,
-        "annee": 2023,
-        "note": 7.1
-      }
-    ],
-    "duree": "49 min/ép.",
-    "runtime_minutes": 49,
-    "note_avis": 7.1,
-    "note_recence": 9.1,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "war"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/339029983/s592/sissi.jpg",
-    "synopsis": "\"Sissi\" suit la vie extraordinaire de l'impératrice Elisabeth d'Autriche. Moderne, honnête et authentique. Racontée du point de vue de ses plus proches confidents, la série jette un nouveau regard sur la vie de l'impératrice et révèle une femme aux multiples facettes.",
-    "date_ajout": "2022-04-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
     "on_tnt": false
   },
   {
@@ -57829,253 +45777,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm205890",
-    "titre": "The Take",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 6.4,
-    "note_recence": 7,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9374650/s592/bastille-day.jpg",
-    "synopsis": "Michael Mason, pickpocket américain, devient l’homme le plus recherché de Paris par la CIA lorsqu’il vole ce qu’il croyait être juste un sac. Sean Briar l’agent chargé de l’enquête, se rend rapidement compte qu’il tient le mauvais homme et qu’un complot de plus grande ampleur se prépare. Commence alors une course contre la montre, où les deux hommes vont devoir faire équipe pour déjouer les plans d’une puissante organisation criminelle.",
-    "date_ajout": "2016-07-13",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm316789",
-    "titre": "Jusqu'à la garde",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 7.5,
-    "note_recence": 7.6,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/34184280/s592/jusqua-la-garde.jpg",
-    "synopsis": "Le couple Besson divorce. Pour protéger son fils d’un père qu’elle accuse de violences, Miriam en demande la garde exclusive. La juge en charge du dossier accorde une garde partagée au père qu’elle considère bafoué. Pris en otage entre ses parents, Julien va tout faire pour empêcher que le pire n’arrive.",
-    "date_ajout": "2017-10-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts76291",
-    "titre": "Retour à Howards End",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2017,
-        "note": 7.2
-      }
-    ],
-    "duree": "58 min/ép.",
-    "runtime_minutes": 58,
-    "note_avis": 7.2,
-    "note_recence": 7.3,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/39957313/s592/howards-end.jpg",
-    "synopsis": "Le changement de paysage social dans l'Angleterre du début du XXe siècle à travers le prisme de trois familles : les Schlegel, intellectuels et idéalistes, les Wilcox, riches hommes d'affaires, et les Bast, de la classe ouvrière.",
-    "date_ajout": "2019-04-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm318224",
-    "titre": "Aladdin",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "2h 07min",
-    "runtime_minutes": 127,
-    "note_avis": 6.9,
-    "note_recence": 7.9,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "drm",
-      "fnt",
-      "fml",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/142924215/s592/aladdin-2019.jpg",
-    "synopsis": "Quand un charmant garçon des rues du nom d’Aladdin cherche à conquérir le cœur de la belle, énigmatique et fougueuse princesse Jasmine, il fait appel au tout puissant Génie, le seul qui puisse lui permettre de réaliser trois vœux, dont celui de devenir le prince Ali pour mieux accéder au palais…",
-    "date_ajout": "2019-05-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts82776",
-    "titre": "La foire aux vanités",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 7.3
-      }
-    ],
-    "duree": "47 min/ép.",
-    "runtime_minutes": 47,
-    "note_avis": 7.3,
-    "note_recence": 7.6,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/347194192/s592/la-foire-aux-vanites.jpg",
-    "synopsis": "Angleterre, première moitié du XIXe siècle. Becky Sharp est une femme hypocrite, ambitieuse et sans scrupules : on assiste à son ascension au sommet de la Société Anglaise et à sa chute. Autour d'elle s'agite, dans une immense fresque, la \"Foire aux Vanités\".",
-    "date_ajout": "2019-12-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm1029799",
     "titre": "Edge of the World",
     "type": "film",
@@ -58119,99 +45820,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm205253",
-    "titre": "Caprice",
-    "type": "film",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 6,
-    "note_recence": 6.7,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/62142804/s592/caprice.jpg",
-    "synopsis": "Clément, instituteur, est comblé jusqu'à l'étourdissement : Alicia, une actrice célèbre qu'il admire au plus haut point, devient sa compagne. Tout se complique quand il rencontre Caprice, une jeune femme excessive et débordante qui s'éprend de lui. Entretemps son meilleur ami, Thomas, se rapproche d'Alicia...",
-    "date_ajout": "2026-07-08",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
-      "expirationDate": "2026-10-31",
-      "packageExpirations": {
-        "fra": "2026-10-31"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm138797",
-    "titre": "Loin de la foule déchaînée",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 59min",
-    "runtime_minutes": 119,
-    "note_avis": 7.1,
-    "note_recence": 6.7,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9639745/s592/loin-de-la-foule-dechainee.jpg",
-    "synopsis": "Dans la campagne anglaise de l’époque victorienne, une jeune héritière, Bathsheba Everdeene doit diriger la ferme léguée par son oncle. Femme belle et libre, elle veut s’assumer seule et sans mari, ce qui n’est pas au goût de tous à commencer par ses ouvriers. Bathsheba ne se mariera qu’une fois amoureuse. Qu’à cela ne tienne, elle se fait courtiser par trois hommes, le berger Gabriel Oake, le riche voisin Mr Boldwood et le Sergent Troy.",
-    "date_ajout": "2015-06-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
     "on_tnt": false
   },
   {
@@ -58351,148 +45959,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts393448",
-    "titre": "Cacao",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 7.2
-      }
-    ],
-    "duree": "50 min/ép.",
-    "runtime_minutes": 50,
-    "note_avis": 7.2,
-    "note_recence": 9.4,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306670537/s592/cacau.jpg",
-    "synopsis": "Au Brésil, Cacau, 22 ans, travaille dans une plantation de cacao à Itacaré et rêve de devenir chocolatière. Sa vie bascule quand elle découvre être la fille illégitime de Justino Vaz, le puissant propriétaire. Entre héritage, jalousie et trahisons, elle devra affronter les secrets du passé pour trouver sa place et bâtir son avenir…",
-    "date_ajout": "2025-11-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1903833",
-    "titre": "Escobank",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 36min",
-    "runtime_minutes": 96,
-    "note_avis": 5.6,
-    "note_recence": 9.7,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "war"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/338136975/s592/escobank.jpg",
-    "synopsis": "Un groupe de vétérans et d'anciens détenus explorent la jungle colombienne pour y retrouver les barils d'argent enterrés laissés par le légendaire baron de la drogue Pablo Escobar. Mais dans cette chasse au cash, le vrai danger n'est pas seulement la jungle...",
-    "date_ajout": "2026-07-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm244381",
-    "titre": "Marauders",
-    "type": "film",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 51min",
-    "runtime_minutes": 111,
-    "note_avis": 5.5,
-    "note_recence": 7,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/304190312/s592/marauders.jpg",
-    "synopsis": "Un agent du FBI poursuit un groupe de braqueurs de banque qui cède ses gains à des oeuvres de charité. Au cours de son enquête, il découvre une nouvelle piste qu'un des propriétaires de banque lui a caché.",
-    "date_ajout": "2015-01-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm138064",
     "titre": "Midnight Special",
     "type": "film",
@@ -58589,53 +46055,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm466946",
-    "titre": "Hansan : La bataille du dragon",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "2h 10min",
-    "runtime_minutes": 130,
-    "note_avis": 6.6,
-    "note_recence": 8.8,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "hst",
-      "war"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/304039487/s592/hansan-rising-dragon.jpg",
-    "synopsis": "En 1592, l'amiral Yi Sun-Sin et sa flotte affrontent la puissance de la marine japonaise envahissante et de ses formidables navires de guerre. Alors que les forces coréennes sont en crise, l'amiral recoure à l'utilisation de son arme secrète, le Dragon Head, connue sous le nom de Geobukseon, afin de changer le cours de cette bataille épique dans les eaux de l'île Hansan.",
-    "date_ajout": "2023-03-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm139841",
     "titre": "Sinister 2",
     "type": "film",
@@ -58678,100 +46097,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm240722",
-    "titre": "The Void",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 5.9,
-    "note_recence": 7,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "hrr",
-      "trl",
-      "scf"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9070589/s592/the-void.jpg",
-    "synopsis": "Un agent de police découvre un homme ensanglanté sur une route déserte et l'emmène en urgence à l'hôpital. Rapidement d'étranges individus entourent le lieu et les patients commencent à devenir fou. Le policier va alors découvrir, à l'intérieur de l'hôpital, une porte vers un monde démoniaque.",
-    "date_ajout": "2018-04-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm360397",
-    "titre": "Mortal",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 5.9,
-    "note_recence": 8.2,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "fnt",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/207737206/s592/mortal.jpg",
-    "synopsis": "Eric, un jeune américano-norvégien, s'est réfugié, seul, au cœur de la forêt, après avoir causé l'incendie d'une ferme, tuant 5 personnes, puis provoqué la mort accidentelle d’une sixième personne. Arrêté par la police, il rencontre une psychologue, Christine, qui semble pouvoir l'aider. Ensemble, ils découvrent vite qu’Eric a en réalité des pouvoirs surnaturels, qu'il ne maîtrise pas…",
-    "date_ajout": "2020-08-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
     "on_tnt": false
   },
   {
@@ -58821,273 +46146,19 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm232802",
-    "titre": "Baywatch : Alerte à Malibu",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 56min",
-    "runtime_minutes": 116,
-    "note_avis": 5.5,
-    "note_recence": 7.3,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/241827200/s592/baywatch-alerte-a-malibu.jpg",
-    "synopsis": "Le légendaire sauveteur Mitch Buchannon est contraint de s’associer à une nouvelle recrue, Matt Brody, aussi ambitieux que tête brûlée ! Ensemble, ils vont tenter de déjouer un complot criminel qui menace l'avenir de la Baie…",
-    "date_ajout": "2017-05-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts80553",
-    "titre": "Mrs Wilson",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 7.4
-      }
-    ],
-    "duree": "57 min/ép.",
-    "runtime_minutes": 57,
-    "note_avis": 7.4,
-    "note_recence": 7.6,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/101172731/s592/mrs-wilson.jpg",
-    "synopsis": "A Londres, dans les années qui ont suivi la Seconde Guerre mondiale, Alison Williams mène une vie heureuse aux côtés de son mari Alec. Mais après le décès soundain de ce dernier, une femme se rend à leur domicile, prétendant être la véritable Mme Wilson.",
-    "date_ajout": "2025-10-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm844486",
-    "titre": "Russian Raid",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 43min",
-    "runtime_minutes": 103,
-    "note_avis": 5.3,
-    "note_recence": 8.2,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/249902042/s592/russkii-reid.jpg",
-    "synopsis": "Nikita, ancien agent des forces spéciales russes, est missionné pour trouver une faille dans la sécurité d’une usine sur laquelle l’organisation secrète qui l’emploie veut mettre la main. Avec son groupe de combattants surentraînés, il va devoir affronter le propriétaire du site, un chef de guerre lié à l’armée russe et à la Nomenklatura.",
-    "date_ajout": "2021-08-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts28425",
-    "titre": "Jane Eyre",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2006,
-    "annee_moyenne": 2006,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2006,
-        "note": 8.3
-      }
-    ],
-    "duree": "50 min/ép.",
-    "runtime_minutes": 50,
-    "note_avis": 8.3,
-    "note_recence": 4,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/151256070/s592/jane-eyre-2006.jpg",
-    "synopsis": "Devenue orpheline très jeune, sans la moindre fortune, la petite Jane Eyre est élevée par une parente aisée, la tante Reed, dans le nord-est de l’Angleterre. Souffre-douleur de ses cousins, maltraitée par leur mère, l’enfant solitaire et rebelle est envoyée à Lockwood, un pensionnat pour jeunes filles pauvres. Durant ces sévères années d’apprentissage, qui font d’elle une jeune fille accomplie, elle affronte la mort de son unique amie et noie sa tristesse dans le dessin. À 19 ans, elle part travailler dans une vaste demeure isolée, Thornfield Hall, comme gouvernante auprès de la pupille d’un riche original, Edward Rochester, lui-même se trouvant à l’étranger. Tous deux se retrouvent face à face pour la première fois sur la lande, un soir d’orage...",
-    "date_ajout": "2026-03-31",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts221672",
-    "titre": "50 Nuances de terreur",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2020,
-        "note": 6.5
-      },
-      {
-        "saison": 2,
-        "annee": 2020,
-        "note": 6.5
-      }
-    ],
-    "duree": "7 min/ép.",
-    "runtime_minutes": 7,
-    "note_avis": 6.5,
-    "note_recence": 8.2,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "hrr"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/344752098/s592/50-nuances-de-terreur.jpg",
-    "synopsis": "Une série anthologique basée sur des légendes urbaines.",
-    "date_ajout": "2026-04-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm275896",
     "titre": "Chez nous",
     "type": "film",
     "chaine": "Sooner",
     "chaines": [
-      "Sooner",
-      "France TV"
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/sooner.png",
-      "assets/logos/france_tv.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "snr",
-      "fra"
+      "snr"
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
@@ -59112,127 +46183,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/12",
-      "daysLeft": 74,
+      "daysLeft": 75,
       "expirationDate": "2026-12-28",
       "packageExpirations": {
         "fra": "2026-12-28"
       }
     },
     "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts20430",
-    "titre": "Le Transporteur : La Série",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2014,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2013,
-        "note": 6.4
-      },
-      {
-        "saison": 2,
-        "annee": 2014,
-        "note": 6.4
-      }
-    ],
-    "duree": "48 min/ép.",
-    "runtime_minutes": 48,
-    "note_avis": 6.4,
-    "note_recence": 6.4,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/335387132/s592/le-transporteur-la-serie.jpg",
-    "synopsis": "Frank Martin est un Transporteur. Il transporte n’importe quoi, n’importe où, pour n’importe qui, dès lors que le client est prêt à payer le prix. Ses règles sont simples. Règle 1 : Jamais de noms. Règle 2 : Ne jamais changer le deal. Règle 3 : Ne jamais ouvrir le colis. Sauf s’il décide de changer les règles : Ce qu’il fait. À chaque fois. Systématiquement.",
-    "date_ajout": "2024-05-31",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2014
-  },
-  {
-    "id": "jw-ts215413",
-    "titre": "The Sounds",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2020,
-        "note": 6.5
-      }
-    ],
-    "duree": "44 min/ép.",
-    "runtime_minutes": 44,
-    "note_avis": 6.5,
-    "note_recence": 8.2,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321302775/s592/the-sounds.jpg",
-    "synopsis": "Dans le contexte des superbes sons de Marlborough en Nouvelle-Zélande, Maggie et Tom arrivent pour échapper à sa famille oppressive et créer une entreprise. Lorsque Tom disparaît, les secrets enfouis et les intrigues familiales rendent le paradis moins que parfait.",
-    "date_ajout": "2026-01-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm630851",
@@ -59272,7 +46230,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "ima": "2026-12-31"
@@ -59280,102 +46238,6 @@ const CATALOG_DATA = [
     },
     "on_prime": false,
     "on_tnt": false
-  },
-  {
-    "id": "jw-tm214934",
-    "titre": "Antigang",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 5.7,
-    "note_recence": 6.7,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306563396/s592/antigang.jpg",
-    "synopsis": "Serge Buren est un flic de légende, entouré d’une bande de jeunes flics aux méthodes peu conventionnelles. Qu’importe qu’ils utilisent des battes de baseball ou « oublient » le règlement au cours d’arrestations spectaculaires, les résultats sont au rendez-vous ! C’est alors qu’un groupe de braqueurs meurtriers entre en scène, dévalisant avec une facilité déconcertante banques et bijouteries de la capitale, à coup d’armes de guerre et de scénarios imparables. Face à tant d’ingéniosité et de brutalité, Buren et son unité se retrouvent confrontés à une situation délicate : leurs méthodes expéditives suffiront-elles à arrêter ces criminels autrement plus machiavéliques ?",
-    "date_ajout": "2015-08-19",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1281195",
-    "titre": "L'amour en double",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 5.5,
-    "note_recence": 9.1,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354632806/s592/one-true-loves.jpg",
-    "synopsis": "Emma et Jesse vivent la vie parfaite ensemble, jusqu'à ce que Jesse disparaisse dans un tragique accident d'hélicoptère. Quatre ans plus tard, Emma retrouve le bonheur avec Sam, son ami d'enfance, qu'elle s'apprête à épouser. Cependant, lorsque Jesse refait surface miraculeusement, Emma se retrouve bientôt déchirée entre ses deux grands amours.",
-    "date_ajout": "2023-09-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "nvn": "2027-02-27"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": true
   },
   {
     "id": "jw-tm984871",
@@ -59425,191 +46287,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1041805",
-    "titre": "Entre Nous",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 4.7,
-    "note_recence": 9.1,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321393597/s592/entre-nous.jpg",
-    "synopsis": "Élodie et Lætitia vivent un amour fusionnel lorsqu’elles décident d’avoir un enfant par procréation médicalement assistée. Alors qu’Élodie découvre qu’elle ne peut pas avoir d’enfant et que des ennuis financiers viennent contrarier leur projet, elles décident de prendre un colocataire.",
-    "date_ajout": "2023-07-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1408656",
-    "titre": "Le Prix de la Rédemption",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 51min",
-    "runtime_minutes": 111,
-    "note_avis": 5.3,
-    "note_recence": 9.4,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "trl",
-      "rma"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341674958/s592/5lbs-of-pressure.jpg",
-    "synopsis": "Après seize ans de prison pour meurtre, Adam retrouve son quartier avec l'espoir de rencontrer le fils qu'il n'a jamais connu. Mais le frère de sa victime rôde. Mike, lui, veut échapper au trafic de son oncle. Quand leurs destins se croisent, une spirale de violence s'enclenche. Une rédemption est-elle encore possible ?",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm998121",
-    "titre": "Pleasure",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 48min",
-    "runtime_minutes": 108,
-    "note_avis": 6.3,
-    "note_recence": 8.5,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/253516861/s592/pleasure-2021.jpg",
-    "synopsis": "Une jeune suédoise de 19 ans arrive à Los Angeles dans le but de faire carrière dans l’industrie du porno. Sa détermination et son ambition la propulsent au sommet d’un monde où le plaisir cède vite la place au risque et à la toxicité.",
-    "date_ajout": "2022-04-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts20426",
-    "titre": "Touch",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "saisons_disponibles": [
-      {
-        "saison": 2,
-        "annee": 2013,
-        "note": 7.3
-      }
-    ],
-    "duree": "44 min/ép.",
-    "runtime_minutes": 44,
-    "note_avis": 7.3,
-    "note_recence": 6.1,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "drm",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322554934/s592/touch-2012.jpg",
-    "synopsis": "Martin Bohm, père célibataire veuf, est hanté par son incapacité à communiquer avec son fils de 11 ans, très perturbé depuis la mort de sa mère. Mais tout change le jour où il découvre que celui-ci est un petit génie, qui voit ce que personne d'autre ne remarque et qui est capable de connecter entre eux deux événements qui semblent ne rien avoir en commun...",
-    "date_ajout": "2026-03-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm155335",
     "titre": "Hippocrate",
     "type": "film",
@@ -59645,338 +46322,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/256363653/s592/hippocrate.jpg",
     "synopsis": "Benjamin va devenir un grand médecin, il en est certain. Mais pour son premier stage d’interne dans le service de son père, rien ne se passe comme prévu. La pratique se révèle plus rude que la théorie. La responsabilité est écrasante, son père est aux abonnés absents et son co-interne, Abdel, est un médecin étranger plus expérimenté que lui. Benjamin va se confronter brutalement à ses limites, à ses peurs, celles de ses patients, des familles, des médecins, et du personnel. Son initiation commence.",
     "date_ajout": "2014-09-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm305899",
-    "titre": "It Comes at Night",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 6.2,
-    "note_recence": 7.3,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "hrr",
-      "trl",
-      "scf"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/8897420/s592/it-comes-at-night.jpg",
-    "synopsis": "Alors que le monde est en proie à une menace terrifiante, un homme vit reclus dans sa propriété, totalement isolée, avec sa femme et son fils. Quand une famille aux abois cherche refuge dans sa propre maison, le fragile équilibre qu'il a mis en place est soudain bouleversé.",
-    "date_ajout": "2017-06-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm143004",
-    "titre": "Le second souffle",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 7.3,
-    "note_recence": 6.4,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/301102308/s592/le-second-souffle.jpg",
-    "synopsis": "Une célèbre pianiste atteinte de la maladie de Charcot embauche une étudiante égocentrique, qui rêve d'être chanteuse de rock, comme aide-soignante à temps partiel. Elle devra la soutenir dans ses tâches quotidiennes, malgré les difficultés de sa patiente ayant du mal à accepter de perdre son autonomie ...",
-    "date_ajout": "2015-09-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm30783",
-    "titre": "L'Intégriste malgré lui",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "2h 10min",
-    "runtime_minutes": 130,
-    "note_avis": 6.8,
-    "note_recence": 6.1,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/243217676/s592/lintegriste-malgre-lui.jpg",
-    "synopsis": "Diplômé de Princeton, Riz Ahmed, jeune Pakistanais et brillant élément, est engagé par une grosse firme de New York où il est chargé de maximiser la valeur d'entreprises en difficultés. Grassement payé, il rencontre Erica, une jeune photographe sophistiquée avec laquelle il noue une relation. Sa vie semble toute tracée jusqu'aux attentats du 11 septembre 2001, qui viennent bouleverser ses certitudes : harcelé par la police en raison de sa couleur de peau, il vit aussi très mal la paranoïa xénophobe qui l'entoure et s'interroge sur son identité...",
-    "date_ajout": "2016-11-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm852860",
-    "titre": "Le Canal des secrets",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 36min",
-    "runtime_minutes": 96,
-    "note_avis": 6.4,
-    "note_recence": 8.2,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/243064931/s592/le-canal-des-secrets.jpg",
-    "synopsis": "À Castelnaudary, dans l'Aude, sur les bords du canal du Midi. En cette journée de vacances d'été, une famille est à la manoeuvre pour que leur péniche passe dans le sas de l'écluse. Les portes s'ouvrent, l'eau s'engouffre dans le sas, et avec elle une forme sombre avec des cheveux qui flottent. Le père se précipite avec sa gaffe pour récupérer le corps qui se retourne : une femme d'une quarantaine d'années, dont les yeux restés ouverts ont gardé l'effroi. Le capitaine Maxime Fabre, 35 ans, identifie la noyée que ses collègues ont déposé sur la berge : c'est Sandrine Richomme, l'épouse d'un magistrat parisien originaire de la région.",
-    "date_ajout": "2025-03-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1441251",
-    "titre": "Le Cauchemar de Peter Pan",
-    "type": "film",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 4.8,
-    "note_recence": 9.7,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "fnt",
-      "hrr",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354889122/s592/le-cauchemar-du-pays-imaginaire-de-peter-pan-2025.jpg",
-    "synopsis": "Wendy Darling part à la recherche de son petit frère Michael, enlevé par un Peter Pan malveillant. Au cours de son périple, elle rencontre une Fée Clochette déchue, qui la guide à travers le dangereux Pays imaginaire. Wendy devra affronter ses propres peurs pour sauver son frère et échapper à l'emprise de Peter Pan.",
-    "date_ajout": "2025-05-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts456796",
-    "titre": "SUPERmad",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 5.9
-      }
-    ],
-    "duree": "24 min/ép.",
-    "runtime_minutes": 24,
-    "note_avis": 5.9,
-    "note_recence": 9.4,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322380986/s592/supermad.jpg",
-    "synopsis": "Après avoir été violée, Amélie, une femme de chambre, développe des super pouvoirs qui lui permettent d'identifier et de combattre les délinquants sexuels. Elle juge le bien et le mal et réprime son propre traumatisme… Jusqu’à ce qu’elle rencontre de manière inattendue son propre violeur. La série explore les thèmes du traumatisme, de la justice et de la rédemption, tout en offrant une perspective féministe sur la lutte contre les violences sexuelles. Programmation spéciale à l’occasion de la Journée internationale pour l'élimination de la violence à l'égard des femmes.",
-    "date_ajout": "2025-12-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts433270",
-    "titre": "Mistletoe Murders",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 2,
-        "annee": 2025,
-        "note": 7.6
-      }
-    ],
-    "duree": "42 min/ép.",
-    "runtime_minutes": 42,
-    "note_avis": 7.6,
-    "note_recence": 9.7,
-    "note_globale": 8.6,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/343172145/s592/mistletoe-murders.jpg",
-    "synopsis": "Propriétaire d'une boutique de Noël, Emily Lane voit ses talents d'enquêtrice mis à l'épreuve lorsqu'elle se met à enquêter sur une série de meurtres locaux.  Malgré l'affection grandissante que lui porte l'inspecteur Sam Wilner, le passé énigmatique d'Emily sème le doute sur ses véritables motivations.\n",
-    "date_ajout": "2025-12-25",
     "expiration": {
       "status": "none",
       "label": null,
@@ -60123,99 +46468,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1243098",
-    "titre": "Margaux",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 4.5,
-    "note_recence": 8.8,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "hrr",
-      "trl",
-      "scf"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300798753/s592/margaux-2022.jpg",
-    "synopsis": "Ce que Margaux veut, elle l’a. Des étudiants en fin de cursus fêtent leurs derniers jours d'études dans une maison intelligente. La fête tourne court quand ils réalisent que Margaux, le système d'IA avancé gérant la maison, a d’autres plans pour eux.",
-    "date_ajout": "2024-03-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm150923",
-    "titre": "Let Us Prey",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 5.8,
-    "note_recence": 6.4,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "hrr",
-      "trl",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/170462051/s592/let-us-prey.jpg",
-    "synopsis": "Rachel, une agent de police récemment transférée dans un village de campagne, arrête le seul criminel du coin lors de sa première tournée de nuit. Si elle l’arrête facilement, elle ne tarde pas à découvrir que sa présence au commissariat fait remonter à la surface le passé trouble de la petite communauté. Et ces réminiscences prennent des formes diverses : massacre d’une famille entière, crime homophobe...",
-    "date_ajout": "2016-04-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm935728",
     "titre": "Terrifier 2",
     "type": "film",
@@ -60295,99 +46547,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/248817774/s592/diamant-noir.jpg",
     "synopsis": "Pier Ulmann vivote à Paris, entre chantiers et larcins qu’il commet pour le compte de Rachid, sa seule « famille ». Son histoire le rattrape le jour où son père est retrouvé mort dans la rue, après une longue déchéance. Bête noire d’une riche famille de diamantaires basée à Anvers, il ne lui laisse rien, à part l'histoire de son bannissement par les Ulmann et une soif amère de vengeance. Sur l’invitation de son cousin Gabi, Pier se rend à Anvers pour rénover les bureaux de la prestigieuse firme Ulmann. La consigne de Rachid est simple : « Tu vas là-bas pour voir, et pour prendre. » Mais un diamant a beaucoup de facettes…",
     "date_ajout": "2016-06-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm419421",
-    "titre": "Primal",
-    "type": "film",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 37min",
-    "runtime_minutes": 97,
-    "note_avis": 4.9,
-    "note_recence": 7.9,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/156065184/s592/primal.jpg",
-    "synopsis": "Frank Walsh, chasseur pour les zoos fait une traversée avec plusieurs de ses \"prises\", parmi lesquelles un jaguar blanc très rare. Lorsqu'un assassin politique s'échappe de sa cabine et relâche les animaux captifs, c'est la panique à bord ! Frank doit désormais sauver l'équipage de ces dangereuses créatures et du criminel.",
-    "date_ajout": "2019-11-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm217910",
-    "titre": "L'Hermine",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 6.5,
-    "note_recence": 6.7,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/309857689/s592/lhermine.jpg",
-    "synopsis": "Xavier Racine est un président de cour d’assises redouté. Aussi dur avec lui qu’avec les autres, on l’appelle « le Président à deux chiffres ». Avec lui, on en prend toujours pour plus de dix ans. Tout bascule le jour où Racine retrouve Birgit Lorensen-Coteret. Elle fait partie du jury qui va devoir juger un homme accusé d’homicide. Six ans auparavant, Racine a aimé cette femme. Presque en secret. Peut-être la seule femme qu’il ait jamais aimée.",
-    "date_ajout": "2015-11-18",
     "expiration": {
       "status": "none",
       "label": null,
@@ -60491,58 +46650,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts440075",
-    "titre": "Bistronomia",
-    "type": "serie",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 7.5
-      }
-    ],
-    "duree": "25 min/ép.",
-    "runtime_minutes": 25,
-    "note_avis": 7.5,
-    "note_recence": 9.7,
-    "note_globale": 8.6,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/336189192/s592/bistronomia.jpg",
-    "synopsis": "Paris, octobre 2005. Johanna, Amandine et Vivian, trois amis vingtenaires, gravitent dans le milieu de la restauration. Ils veulent être chefs ou critiques, vivre de leur passion pour la gastronomie. Mais ils étouffent dans cet environnement feutré, où règne la violence patriarcale et l’esprit élitiste de la course aux étoiles. Ils rêvent d’une nouvelle gastronomie démocratique, plus accessible, libérée de l’académisme. Ensemble, ils vont jeter les premières bases d’une révolution des fourneaux.",
-    "date_ajout": "2025-09-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm828258",
     "titre": "Saint Maud",
     "type": "film",
@@ -60589,309 +46696,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1472286",
-    "titre": "Vingt Dieux",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 7,
-    "note_recence": 9.4,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/316628398/s592/vingt-dieux-2025.jpg",
-    "synopsis": "Totone, 18 ans, passe le plus clair de son temps à boire des bières et écumer les bals du Jura avec sa bande de potes. Mais la réalité le rattrape : il doit s’occuper de sa petite sœur de 7 ans et trouver un moyen de gagner sa vie. Il se met alors en tête de fabriquer le meilleur comté de la région, celui avec lequel il remporterait la médaille d'or du concours agricole et 30 000 euros.",
-    "date_ajout": "2024-12-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts436561",
-    "titre": "Kaboul",
-    "type": "serie",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 7.3
-      }
-    ],
-    "duree": "52 min/ép.",
-    "runtime_minutes": 52,
-    "note_avis": 7.3,
-    "note_recence": 9.7,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "war"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/329525639/s592/kaboul.jpg",
-    "synopsis": "Kaboul, 15 août 2021. Au moment du retrait des troupes américaines, dans un pays en plein tumulte, l'exfiltration chaotique de différents personnages, allant des diplomates aux soldats, en passant par les civils. Ils forment des alliances improbables, cherchant refuge et solidarité pour échapper à la tourmente qui menace leurs vies.",
-    "date_ajout": "2025-03-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm148674",
-    "titre": "Miss Meadows",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 5.8,
-    "note_recence": 6.4,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "drm",
-      "trl",
-      "rma"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/196438282/s592/miss-meadows.jpg",
-    "synopsis": "Enseignante en école élémentaire au comportement irréprochable, portant des robes à fleurs datant du siècle dernier, Miss Meadows est une femme bien sous tout rapport. Mais bien entendu, l’habit ne fait pas le moine. Une fois la cloche sonnée, les enfants remit à leurs parents, le personnage incarné par Katie Holmes se mue en un gardien ne lésinant pas sur la gâchette pour faire régner l’ordre dans sa ville.",
-    "date_ajout": "2023-05-13",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts367759",
-    "titre": "Diane de Poitiers",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2022,
-        "note": 4.6
-      }
-    ],
-    "duree": "77 min/ép.",
-    "runtime_minutes": 77,
-    "note_avis": 4.6,
-    "note_recence": 8.8,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300978196/s592/diane-de-poitiers.jpg",
-    "synopsis": "Duchesse de Valentinois, comtesse de Brézé, dame de Saint-Vallier... Diane de Poitiers, femme de tête, femme de coeur, intrigante et loyale, amie de François 1er et maîtresse du roi Henri II, dont elle était l'aînée de vingt ans. Eclipsant Catherine de Médicis, déjouant les complots et balayant les jalousies, armée de sa légendaire beauté et de sa redoutable intelligence, elle régna dans l'ombre sur le coeur du souterain et les destinées de la France",
-    "date_ajout": "2022-10-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts428906",
-    "titre": "Erica",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2026,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 6.1
-      },
-      {
-        "saison": 2,
-        "annee": 2026,
-        "note": 6.1
-      }
-    ],
-    "duree": "51 min/ép.",
-    "runtime_minutes": 51,
-    "note_avis": 6.1,
-    "note_recence": 10,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354781884/s592/erica.jpg",
-    "synopsis": "Erica Faure, 41 ans, est une écrivaine à succès de romans policiers. De retour dans sa ville natale pour vider la maison de ses parents décédés, elle découvre le corps sans vie d'Alexandra, sa meilleure amie d'enfance, les veines entaillées. Convaincue que ce n'est pas un suicide, Erica se lance dans une enquête, où passé et présent s'entremêlent. Cependant, c'est surtout sa rencontre avec le capitaine Patrick Saab qui va bouleverser sa vie.",
-    "date_ajout": "2026-03-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true,
-    "annee_fin": 2026
-  },
-  {
-    "id": "jw-tm308618",
-    "titre": "Vengeance",
-    "type": "film",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 39min",
-    "runtime_minutes": 99,
-    "note_avis": 5.2,
-    "note_recence": 7.3,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/54926505/s592/vengeance-a-love-story.jpg",
-    "synopsis": "Après une soirée chez des amis, Teena et sa fille Bethie traversent le parc pour rentrer et se font aborder par quatre hommes. Bethie parvient à se cacher mais entend l'agression de sa mère. La fillette prend la fuite et croise l'inspecteur Dromoor. Les responsables sont arrêtés mais leur avocat peu scrupuleux obtient leur libération. Pour Dromoor, justice n'est pas encore faite...",
-    "date_ajout": "2017-04-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm317015",
     "titre": "120 battements par minute",
     "type": "film",
@@ -60926,99 +46730,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/168040725/s592/120-battements-par-minute.jpg",
     "synopsis": "Début des années 90. Alors que le sida tue depuis près de dix ans, les militants d'Act Up-Paris multiplient les actions pour lutter contre l'indifférence générale. Nouveau venu dans le groupe, Nathan va être bouleversé par Sean qui consume ses dernières forces dans l'action.",
     "date_ajout": "2017-05-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm245429",
-    "titre": "Que Dieu nous pardonne",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "2h 07min",
-    "runtime_minutes": 127,
-    "note_avis": 7.1,
-    "note_recence": 7,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302495030/s592/que-dios-nos-perdone.jpg",
-    "synopsis": "Madrid, été 2011. La ville, plongée en pleine crise économique, est confrontée à l’émergence du mouvement des « indignés » et à la visite imminente du Pape Benoît XVI. C’est dans ce contexte hyper-tendu que deux enquêteurs se retrouvent à traquer un serial-killer d’un genre bien particulier.",
-    "date_ajout": "2017-08-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm137402",
-    "titre": "The Signal",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 37min",
-    "runtime_minutes": 97,
-    "note_avis": 6,
-    "note_recence": 6.4,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/65220835/s592/the-signal.jpg",
-    "synopsis": "Nick et Jonas sont étudiants en première année au MIT. Passionnés de piratage, ils ont déjà déjoué le système de sécurité du MIT. Quand ils décident de faire un road trip à travers le Sud‐Ouest des États‐Unis avec la petite amie de Nick, Hailey, leur trajet se trouve être détourné par un génie de l’informatique qui attire leur attention. Le trio se retrouve alors entraîné dans une zone étrangement isolée. Soudain, tout devient noir. Nick est devenu un captif, ils découvrent alors qu’ils font partie d’un complot hors normes.",
-    "date_ajout": "2015-01-30",
     "expiration": {
       "status": "none",
       "label": null,
@@ -61076,52 +46787,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm469067",
-    "titre": "Life Like",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 36min",
-    "runtime_minutes": 96,
-    "note_avis": 5.4,
-    "note_recence": 7.9,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/145800127/s592/life-like.jpg",
-    "synopsis": "Un jeune couple idéaliste et séduisant acquiert un robot magnifique et réaliste pour une aide gratuite, mais à mesure que les trois se rapprochent, leur perception de l’humanité sera modifiée à jamais.",
-    "date_ajout": "2020-11-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm1110157",
     "titre": "The Nocebo Effect",
     "type": "film",
@@ -61168,102 +46833,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm132826",
-    "titre": "Little Accidents",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
-    "note_avis": 5.8,
-    "note_recence": 6.4,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/11656590/s592/little-accidents.jpg",
-    "synopsis": "Un petit garçon disparaît dans une ville américaine. Cet évènement va rapprocher trois personnes aux vies très différentes.",
-    "date_ajout": "2025-06-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts21119",
-    "titre": "Titanic : De sang et d'acier",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2012,
-    "annee_moyenne": 2012,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2012,
-        "note": 7.2
-      }
-    ],
-    "duree": "53 min/ép.",
-    "runtime_minutes": 53,
-    "note_avis": 7.2,
-    "note_recence": 5.8,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302477625/s592/titanic-de-sang-et-dacier.jpg",
-    "synopsis": "Marc Muir arrive à convaincre JP Morgan, un financier, et Lord Pirrie, un homme d’affaires, que ses compétences seront indispensables à la construction du Titanic qui vient de débuter. Il s’aperçoit que ses employeurs sont plus préoccupés par les questions financières et le prestige de leur nom que par la sécurité et la fiabilité du paquebot. Il assiste aux conflits qui divisent les habitants de Belfast surtout entre les Protestants et les Catholiques.",
-    "date_ajout": "2023-02-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm148750",
     "titre": "Twin Peaks : Les Pièces manquantes du dossier",
     "type": "film",
@@ -61300,151 +46869,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/327113695/s592/twin-peaks-the-missing-pieces.jpg",
     "synopsis": "Twin Peaks avant Twin Peaks, et en même temps pas tout à fait au même endroit que Twin Peaks: Fire Walk with Me. Une heure trente de scènes coupées ou alternatives tirées du film précédant la série qui continue de nous raconter l’ultime semaine de Laura Palmer.",
     "date_ajout": "2026-01-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm413465",
-    "titre": "Wildland",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 5.8,
-    "note_recence": 8.2,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/192726607/s592/wildland.jpg",
-    "synopsis": "À la suite d'un accident de voiture qui tue sa mère, Ida, 17 ans, emménage chez sa tante et les fils de cette dernière. Le foyer est rempli de tendresse et d'amour, mais à l'extérieur, la famille mène une vie violente et criminelle. Lorsqu'un meurtre imprévu met sous pression la famille et sa loyauté envers les autres, la tension monte...",
-    "date_ajout": "2021-06-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm211232",
-    "titre": "A Love You",
-    "type": "film",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 5.3,
-    "note_recence": 6.7,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/11316873/s592/a-love-you.jpg",
-    "synopsis": "Après une soirée trop arrosée et une nuit inoubliable avec une inconnue, Manu se réveille seul avec un message sur son bras lui donnant rendez-vous à Avignon. Persuadé qu’il s’agit de la femme de sa vie, il est prêt à tout pour la retrouver. Manu embarque, malgré lui, son pote Fred sur la route. Ce qui semblait être une simple virée entre amis va vite tourner à la catastrophe…",
-    "date_ajout": "2015-06-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts53415",
-    "titre": "Pure",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2017,
-        "note": 7
-      }
-    ],
-    "duree": "41 min/ép.",
-    "runtime_minutes": 41,
-    "note_avis": 7,
-    "note_recence": 7.3,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/131478168/s592/pure.jpg",
-    "synopsis": "Noah Funk, un pasteur mennonite nouvellement élu, est déterminé à débarrasser sa communauté de trafiquants de drogue.Mais au lieu de résoudre le problème, les actions de Noah déclenchent un ultimatum du leader de la Mafia Eli Voss: pour protéger sa famille, il doit s'impliquer dans l'opération illégale. Noé décide que s'il doit travailler pour la Mafia, il recueillera secrètement suffisamment de preuves pour démanteler l'organisation.",
-    "date_ajout": "2026-09-01",
     "expiration": {
       "status": "none",
       "label": null,
@@ -61501,64 +46925,19 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm278435",
-    "titre": "Sword Master",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 48min",
-    "runtime_minutes": 108,
-    "note_avis": 6,
-    "note_recence": 7,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300621446/s592/san-shao-ye-de-jian.jpg",
-    "synopsis": "Le troisième maître du manoir de l'épée, considéré comme le plus puissant épéiste du pays, s’est lassé de la violence qui règne dans le monde des arts martiaux. Fuyant les effusions de sang, il se fait passer pour mort et erre en marge de la société en menant la vie d’un vagabond. Mais bientôt, son passé le rattrape : le maître épéiste va devoir à nouveau combattre pour espérer trouver la paix à laquelle il aspire tant...",
-    "date_ajout": "2022-09-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm458118",
     "titre": "Sans aucun remords",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Action Max",
     "chaines": [
-      "Molotov Gratuit"
+      "Action Max"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/action.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/action.png"
     ],
     "package_slugs": [
-      "mlt"
+      "aca"
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
@@ -61581,202 +46960,17 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/244711358/s592/without-remorse.jpg",
     "synopsis": "Un Marine des forces spéciales découvre une conspiration internationale alors qu’il cherche à obtenir justice pour le meurtre de sa femme enceinte. Lorsque des soldats russes tuent sa famille en représailles de son implication dans une opération secrète, le chef John Kelly poursuit les assassins à tout prix. En rejoignant les forces de la marine de guerre américaine aux côtés d’un confrère et d’un mystérieux agent de la CIA, la mission de Kelly révèle involontairement un complot secret qui menace d'entraîner les États-Unis et la Russie dans une guerre totale. Tiraillé entre honneur et loyauté envers son pays, Kelly doit combattre ses ennemis sans aucun remords s’il souhaite éviter le désastre et révéler les puissants derrière le complot.",
-    "date_ajout": "2021-04-30",
+    "date_ajout": "2026-10-14",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1096589",
-    "titre": "The Last Son",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 36min",
-    "runtime_minutes": 96,
-    "note_avis": 4.9,
-    "note_recence": 8.5,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "trl",
-      "wsn"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/261463962/s592/the-last-son-of-isaac-lemay.jpg",
-    "synopsis": "Sierra Nevada, à la fin du XIXème siècle. Un hors-la-loi vieillissant et repenti est convaincu que le mal coule dans ses veines et celles de ses descendants. Il part alors retrouver, Cal, sa progéniture afin de le tuer...",
-    "date_ajout": "2023-06-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm812665",
-    "titre": "La bonne épouse",
-    "type": "film",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 49min",
-    "runtime_minutes": 109,
-    "note_avis": 5.8,
-    "note_recence": 8.2,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/168038694/s592/la-bonne-epouse.jpg",
-    "synopsis": "Tenir son foyer et se plier au devoir conjugal sans moufter: c’est ce qu’enseigne avec ardeur Paulette Van Der Beck dans son école ménagère. Ses certitudes vacillent quand elle se retrouve veuve et ruinée. Est‐ce le retour de son premier amour ou le vent de liberté de mai 68? Et si la bonne épouse devenait une femme libre?",
-    "date_ajout": "2020-03-11",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
-      "expirationDate": "2026-12-31",
+      "status": "warning",
+      "label": "⏳ Expire dans 6 j",
+      "daysLeft": 6,
+      "expirationDate": "2026-10-21T21:59:59Z",
       "packageExpirations": {
-        "fra": "2026-12-31"
+        "aca": "2026-10-21T21:59:59Z"
       }
     },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm214966",
-    "titre": "Belles Familles",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 53min",
-    "runtime_minutes": 113,
-    "note_avis": 5.7,
-    "note_recence": 6.7,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/156618831/s592/belles-familles.jpg",
-    "synopsis": "Jérôme Varenne, qui vit à Shanghaï, est de passage à Paris. Il apprend que la maison de famille d’Ambray où il a grandi est au cœur d’un conflit local. Il décide de se rendre sur place pour le résoudre. Cette échappée provinciale changera sa vie…",
-    "date_ajout": "2015-10-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm232748",
-    "titre": "xXx : Reactivated",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 47min",
-    "runtime_minutes": 107,
-    "note_avis": 5.2,
-    "note_recence": 7.3,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/187488831/s592/xxx-reactivated.jpg",
-    "synopsis": "Xander Cage, sportif de l’extrême devenu agent d'élite, sort de l’exil qu’il s’était imposé, pour affronter le redoutable guerrier Alpha Xiang et son équipe. Il entre dans une course impitoyable afin de récupérer une arme de destruction massive connue sous le nom de Boîte de Pandore. Recrutant une toute nouvelle équipe d’experts accros à l'adrénaline, Xander se retrouve au cœur d’une conspiration menaçant les gouvernements les plus puissants du monde.",
-    "date_ajout": "2017-01-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
+    "on_prime": true,
     "on_tnt": false
   },
   {
@@ -61821,52 +47015,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm453508",
-    "titre": "Evil Boy",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 4.7,
-    "note_recence": 7.9,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "hrr",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/174843919/s592/evil-boy.jpg",
-    "synopsis": "3 ans après le décès de leur fils, Polina et Igor décident d'adopter un enfant. Le choix de la jeune femme se porte sur un petit garçon sauvage, parlant à peine, auquel elle souhaite venir en aide. Mais l'enfant se révèle être une créature diabolique.",
-    "date_ajout": "2025-11-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
     "on_tnt": false
   },
   {
@@ -61920,51 +47068,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1859882",
-    "titre": "Une Fille en or",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 5.7,
-    "note_recence": 10,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/347498540/s592/une-fille-en-or-2026.jpg",
-    "synopsis": "Un jour, Clémence prend conscience que personne ne l’a jamais admirée. Bercée par les illusions d’une enfance chaotique, elle croise un certain Paul, petit patron autoritaire que rien ni personne n’impressionne. Elle se dit alors qu’il est temps pour elle de se poser la seule question qui vaille : « Et si je valais plus que je ne le crois ? ».",
-    "date_ajout": "2026-04-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1231808",
     "titre": "Annie Colère",
     "type": "film",
@@ -62007,52 +47110,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1102999",
-    "titre": "Ip Man : L'Éveil du Maître",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 16min",
-    "runtime_minutes": 76,
-    "note_avis": 4.7,
-    "note_recence": 8.5,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "hst"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/310485793/s592/ip-man-the-awakening.jpg",
-    "synopsis": "Alors qu'Ip Man étudiait à Hong Kong pendant sa jeunesse, il est accidentellement impliqué dans une affaire d'enlèvement de femmes chinoises par la société britannique Stark Industries pour en faire un trafic à l'étranger. Ip Man s'avance et combat les occidentaux. Il combat les guerriers britanniques Patton à trois reprises et utilise le Wing Chun pour défendre la dignité des Chinois bafoués.",
-    "date_ajout": "2024-02-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
     "on_tnt": false
   },
   {
@@ -62154,334 +47211,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm464512",
-    "titre": "Chanson douce",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 6,
-    "note_recence": 7.9,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176761392/s592/chanson-douce.jpg",
-    "synopsis": "Paul et Myriam ont deux enfants en bas âge. Ils engagent Louise, une nounou expérimentée, pour que Myriam puisse reprendre le travail. Louise se montre dévouée, consciencieuse, volontaire, au point que sa présence occupe une place centrale dans la famille. Mais très vite les réactions de Louise deviennent inquiétantes.",
-    "date_ajout": "2019-11-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm432620",
-    "titre": "L'Ordre des Médecins",
-    "type": "film",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 6.3,
-    "note_recence": 7.6,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/337114102/s592/lordre-des-medecins.jpg",
-    "synopsis": "Simon, 37 ans, est un médecin aguerri. L'hôpital, c'est sa vie. Il côtoie la maladie et la mort tous les jours dans son service de pneumologie et a appris à s'en protéger. Mais quand sa mère est hospitalisée dans une unité voisine, la frontière entre l'intime et le professionnel se brouille. L'univers de Simon, ses certitudes et ses convictions vacillent ...",
-    "date_ajout": "2019-01-23",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
-      "expirationDate": "2026-12-31",
-      "packageExpirations": {
-        "fra": "2026-12-31"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm342608",
-    "titre": "The Neighbor",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
-    "note_avis": 4.8,
-    "note_recence": 8.2,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "rma"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/244533211/s592/the-neighbor.jpg",
-    "synopsis": "Un cinquantenaire au mariage stagnant se découvre une nouvelle obsession lorsqu’une jolie jeune femme et son mari, à première vue abusif, emménagent à côté de chez lui.",
-    "date_ajout": "2021-04-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm178741",
-    "titre": "L'Oracle",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "2h 30min",
-    "runtime_minutes": 150,
-    "note_avis": 7.2,
-    "note_recence": 6.1,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/177918450/s592/loracle.jpg",
-    "synopsis": "Londres, début du XIème siècle. Le jeune Rob Cole découvre à la disparition de sa mère qu’il possède un don particulier lui permettant de ressentir par le toucher l’imminence de la mort. Seul et sans ressource, c’est auprès d’un barbier ambulant qu’il découvre l’art de guérir. Se jurant de devenir médecin et de vaincre la mort elle-même, il décide de se rendre en Perse afin d’étudier auprès du « prince des savants », Avicenne. Face aux invasions barbares, aux guerres de religion, et aux épidémies dévastatrices, parviendra-t-il à accomplir son destin ?",
-    "date_ajout": "2016-01-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm145328",
-    "titre": "Colt 45",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 5.8,
-    "note_recence": 6.4,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/100779343/s592/colt-45.jpg",
-    "synopsis": "Armurier et instructeur de tir à la Police Nationale, Vincent Milès est expert en tir de combat. À seulement 25 ans, ses compétences sont enviées par les élites du monde entier mais dans la plus grande incompréhension de la part de ses collègues, Vincent refuse obstinément d’intégrer une brigade de terrain. Son destin bascule le jour où il fait la connaissance de Milo Cardena, un flic trouble, qui va l’entraîner dans une incontrôlable spirale de violence, plaçant Vincent au centre d’une série d’attaques à main armée, de meurtres et d’une féroce guerre des polices opposant son parrain, le commandant Chavez de la BRB, à son mentor, le commandant Denard de la BRI. Pris au piège d’une véritable poudrière, Vincent n’aura pas d’autre choix qu’embrasser son côté obscur pour survivre…",
-    "date_ajout": "2014-08-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm36107",
-    "titre": "In Another Country",
-    "type": "film",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2012,
-    "annee_moyenne": 2012,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 6.4,
-    "note_recence": 5.8,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/145696648/s592/in-another-country.jpg",
-    "synopsis": "Dans un pays qui n’est pas le sien, une femme qui n’est à la fois ni tout à fait la même ni tout à fait une autre, a rencontré, rencontre et rencontrera au même endroit les mêmes personnes qui lui feront vivre à chaque fois une expérience inédite.",
-    "date_ajout": "2012-10-17",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
-      "expirationDate": "2027-02-28",
-      "packageExpirations": {
-        "fra": "2027-02-28"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm1226689",
-    "titre": "Inspecteur Sun et la malédiction de la veuve noire",
-    "type": "film",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 5.2,
-    "note_recence": 8.8,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "cmy",
-      "fml",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/309502707/s592/inspector-sun-and-the-curse-of-the-black-widow.jpg",
-    "synopsis": "Lorsqu'un détective-araignée monte à bord d'un hydravion pour se rendre à San Francisco après avoir enfin capturé son ennemi juré, un meurtre commis pendant son vol le conduit vers un complot qui menace à la fois le monde des humains et celui des insectes.",
-    "date_ajout": "2024-04-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm1199013",
     "titre": "Pacifiction - Tourment sur les îles",
     "type": "film",
@@ -62572,97 +47301,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm216006",
-    "titre": "My All American",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 58min",
-    "runtime_minutes": 118,
-    "note_avis": 7.2,
-    "note_recence": 6.7,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm",
-      "spt"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/201589847/s592/my-all-american.jpg",
-    "synopsis": "L’histoire vraie de Freddie Steinmark, star du football dans son collège, qui se voit diagnostiquer un cancer après avoir remporté le titre national de 1969.",
-    "date_ajout": "2018-06-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm64158",
-    "titre": "Hitchcock",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2012,
-    "annee_moyenne": 2012,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 6.8,
-    "note_recence": 5.8,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/174806589/s592/hitchcock.jpg",
-    "synopsis": "Alfred Hitchcock, réalisateur reconnu et admiré, surnommé \"le maître du suspense\", est arrivé au sommet de sa carrière. À la recherche d’un nouveau projet risqué et différent, il s'intéresse à l'histoire d'un tueur en série. Mais tous, producteurs, censure, amis, tentent de le décourager. Habituée aux obsessions de son mari et à son goût immodéré pour les actrices blondes, Alma, sa fidèle collaboratrice et épouse, accepte de le soutenir au risque de tout perdre. Ensemble, ils mettent tout en œuvre pour achever le film le plus célèbre et le plus controversé du réalisateur : PSYCHOSE.",
-    "date_ajout": "2013-02-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1478113",
     "titre": "Frankie Freako",
     "type": "film",
@@ -62698,51 +47336,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/321651075/s592/frankie-freako.jpg",
     "synopsis": "Conor, un yuppie bourreau de travail, est dans une ornière existentielle jusqu’à ce qu’une nuit, il tombe sur une publicité bizarre pour une hotline de fête animée par un étrange gobelin dansant : Frankie Freako. Serait-ce juste la recette pour pimenter sa vie ennuyeuse ?",
     "date_ajout": "2025-10-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm942314",
-    "titre": "Ip Man : Naissance d'un combattant",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 19min",
-    "runtime_minutes": 79,
-    "note_avis": 4.7,
-    "note_recence": 8.2,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "hst"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300898120/s592/young-ip-man-crisis-time.jpg",
-    "synopsis": "1917. Le jeune Ip Man pose ses valises à Hong Kong pour y poursuivre ses études à l'université. Sa paisible vie quotidienne sur le campus est cependant troublée par un incident. Au cours d'un concours d'éloquence en anglais organisé par l'université, une prise d'otages sème la panique. Les malfaiteurs menacent d'exécuter un otage toutes les minutes si leurs revendications ne sont pas satisfaites. Décidé à agir, Ip Man découvre l'identité de certains preneurs d'otages et passe à l'action.",
-    "date_ajout": "2023-04-19",
     "expiration": {
       "status": "none",
       "label": null,
@@ -62847,51 +47440,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm683563",
-    "titre": "Badland",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 57min",
-    "runtime_minutes": 117,
-    "note_avis": 5.6,
-    "note_recence": 7.9,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "wsn"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/161123986/s592/badland.jpg",
-    "synopsis": "Un détective avec un permis de tuer parcourt le Far West pour lutter contre les criminels de guerre confédérés. Il fait la rencontre d’une pionnière qui va bouleverser sa traque.",
-    "date_ajout": "2020-09-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm1221128",
     "titre": "Mad Fate",
     "type": "film",
@@ -62980,112 +47528,19 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1634768",
-    "titre": "Allah n'est pas obligé",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 20min",
-    "runtime_minutes": 80,
-    "note_avis": 6.6,
-    "note_recence": 10,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "drm",
-      "war"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/342606710/s592/allah-nest-pas-oblige.jpg",
-    "synopsis": "Birahima, orphelin guinéen d’une dizaine d’années, doit quitter son village pour tenter de passer la frontière et retrouver une tante qui se serait installée au Libéria. Le jeune garçon se met dans les pas de Yacouba, bonimenteur de grands chemins jouant les guides de substitution. Mais sur la route, la rencontre avec des enfants soldats fait basculer le destin de Birahima. Engagé involontaire, que lui réserve le sentier de la guerre ?",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm175425",
-    "titre": "Perfect Mothers",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 47min",
-    "runtime_minutes": 107,
-    "note_avis": 6.2,
-    "note_recence": 6.1,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/87514461/s592/perfect-mothers.jpg",
-    "synopsis": "Inséparables depuis le premier âge, Lil et Roz vivent en parfaite osmose avec leurs deux enfants, deux jeunes garçons à la grâce singulière et qui semblent des prolongements d’elles-mêmes. Les maris sont absents. Inexplicablement, et pourtant comme à l’évidence, chaque femme se rapproche du fils de l’autre, nouant avec lui une relation passionnelle.  A l’abri des regards, dans un Eden balnéaire presque surnaturel, le quatuor va vivre une histoire hors norme jusqu’à ce que l’âge vienne mettre un terme au désordre. En apparence, du moins...",
-    "date_ajout": "2013-04-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1196409",
     "titre": "Return to Seoul",
     "type": "film",
     "chaine": "Sooner",
     "chaines": [
-      "Sooner",
-      "France TV"
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/sooner.png",
-      "assets/logos/france_tv.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "snr",
-      "fra"
+      "snr"
     ],
     "annee": 2022,
     "annee_moyenne": 2022,
@@ -63109,14 +47564,14 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "fra": "2026-12-31"
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm868644",
@@ -63152,143 +47607,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/250980130/s592/de-son-vivant.jpg",
     "synopsis": "Un homme condamné trop jeune par la maladie. La souffrance d’une mère face à l’inacceptable. Le dévouement d’un médecin (le docteur SARA dans son propre rôle) et d’une infirmière pour les accompagner sur l’impossible chemin. Une année, quatre saisons, pour « danser » avec la maladie, l’apprivoiser, et comprendre ce que ça signifie : mourir de son vivant.",
     "date_ajout": "2021-07-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm233519",
-    "titre": "Victoria",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 37min",
-    "runtime_minutes": 97,
-    "note_avis": 6.2,
-    "note_recence": 7,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/313687658/s592/victoria-2016.jpg",
-    "synopsis": "Victoria Spick, avocate pénaliste en plein néant sentimental, débarque à un mariage et y retrouve son ami Vincent et Sam, un ex-dealer qu’elle a sorti d’affaire. Le lendemain, Vincent est accusé de tentative de meurtre par sa compagne. Seul témoin de la scène, le chien de la victime. Victoria accepte à contrecœur de défendre Vincent tandis qu'elle embauche Sam comme jeune homme au pair. Le début d’une série de cataclysmes pour Victoria.",
-    "date_ajout": "2016-09-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1268036",
-    "titre": "Maman, ne me laisse pas m'endormir",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 6.1,
-    "note_recence": 8.8,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/349297918/s592/maman-ne-me-laisse-pas-mendormir.jpg",
-    "synopsis": "Juliette découvre que son fils adolescent, qu’elle croyait épanoui, est en réalité miné par un profond mal-être et qu’il est entré dans une dangereuse dépendance aux médicaments. Déterminée à le sortir de son addiction mortifère, portée par son amour inconditionnel, elle s’engage alors dans un long et douloureux combat, aux côtés de son enfant, sans jamais renoncer à le sauver.",
-    "date_ajout": "2026-06-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm473447",
-    "titre": "Infinite",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 46min",
-    "runtime_minutes": 106,
-    "note_avis": 5.5,
-    "note_recence": 8.5,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "trl",
-      "scf"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/249692462/s592/infinite.jpg",
-    "synopsis": "Un schizophrène découvre l'existence d'une société secrète vieille de plusieurs siècles, la Cognomina. Les membres ont un souvenir précis de leur vie passée et certains ont même contribué à des changements importants dans l'Histoire. Afin d'arrêter les projets d'un cerveau maléfique qui souhaite la destruction de la planète, le groupe doit faire équipe avec l'homme au trouble psychiatrique. Les hallucinations de ce dernier sont en fait des souvenirs d'au moins deux de ses vies passées.",
-    "date_ajout": "2020-08-07",
     "expiration": {
       "status": "none",
       "label": null,
@@ -63346,96 +47664,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1625414",
-    "titre": "Left-Handed Girl",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 48min",
-    "runtime_minutes": 108,
-    "note_avis": 7.3,
-    "note_recence": 9.7,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/330368105/s592/left-handed-girl.jpg",
-    "synopsis": "Une mère célibataire et ses deux filles arrivent à Taipei pour ouvrir une petite cantine au cœur d'un marché nocturne de la capitale taiwanaise. Chacune d'entre elles doit trouver un moyen de s'adapter à cette nouvelle vie et réussir à maintenir l'unité familiale.",
-    "date_ajout": "2025-09-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm176818",
-    "titre": "Canailles Connection",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 47min",
-    "runtime_minutes": 107,
-    "note_avis": 6.3,
-    "note_recence": 6.1,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/309965665/s592/canailles-connection.jpg",
-    "synopsis": "Jonathan a 12 ans. Il est brillant, peut-être un peu trop. C’est pour ça que tout le monde s’en prend à lui à l’école, même ses profs. Son meilleur ami est son père, Daniel, qu’il retrouve après l’école, durant ses heures de travail à la banque. Daniel, chargé de la sécurité de la banque meurt d’une crise cardiaque lors d’une garde de nuit, en présence de son fils qui ne peut le sauver. Avec l’aide d’Eliyahu, son grand-père grincheux, de Nick, l’ami rusé d’Eliyahu, et d’un Lord excentrique tombé en disgrâce, Jonathan a un plan fou pour sauver sa famille et faire payer l’ancien patron de son père : dévaliser la banque !",
-    "date_ajout": "2024-04-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1329790",
     "titre": "Sleep",
     "type": "film",
@@ -63471,61 +47699,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/310549588/s592/sleep.jpg",
     "synopsis": "Une femme enceinte s'inquiète des habitudes de sommeil de son mari. Ce qui commence comme une discussion légère sur le sommeil se transforme rapidement en un comportement grotesque inattendu et ils cherchent désespérément ce qui se passe.",
     "date_ajout": "2024-02-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts3387",
-    "titre": "Brazil Avenue",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2012,
-    "annee_moyenne": 2012,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2012,
-        "note": 8.4
-      }
-    ],
-    "duree": "52 min/ép.",
-    "runtime_minutes": 52,
-    "note_avis": 8.4,
-    "note_recence": 5.8,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "hst",
-      "trl",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306596061/s592/avenida-brasil.jpg",
-    "synopsis": "Prêt à porter plainte, Génèsio, se fait accidentellement renverser par une voiture. Le conducteur, Jorge Tufão, dit « Typhon », célèbre buteur du Flamengo, s'enfuit après avoir pris l'identité de sa victime. Il contacte Carminha pris de remords. La veuve, voyant le footballeur prêt à tout pour se racheter discrètement, décide de frapper un plus grand coup, en le séduisant. Elle abandonne Rita dans un dépôt à ordures qu'elle connaît bien. Carminha réussit à épouser Typhon. Rita alimente une haine et un désir de vengeance envers sa marâtre. Elle est néanmoins recueillie par Lucinda, une femme qui élève dans la décharge des enfants abandonnés comme le petit Patate, premier amour de Rita. Elle est plus tard adoptée en Argentine, dans un milieu aisé, où on la renomme Nina. Pendant ce temps, déçue de donner naissance à une fille, Carminha se résigne à récupérer son fils biologique... Patate. Le garçon présenté comme un orphelin prend alors le nom de son père adoptif, Jorge (ou Jorginho).",
-    "date_ajout": "2026-10-02",
     "expiration": {
       "status": "none",
       "label": null,
@@ -63579,149 +47752,6 @@ const CATALOG_DATA = [
     },
     "on_prime": false,
     "on_tnt": false
-  },
-  {
-    "id": "jw-tm1519172",
-    "titre": "Le Trésor de Noël",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 24min",
-    "runtime_minutes": 84,
-    "note_avis": 6.4,
-    "note_recence": 9.4,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322520484/s592/the-christmas-quest.jpg",
-    "synopsis": "A la veille des vacances de Noël, l'archéologue Stefanie Baxter se lance dans une expédition en Islande pour trouver le légendaire trésor des Lutins et le mettre à l'abri dans un musée. Avec l'aide de son ex-mari, un traducteur spécialiste des langues mortes, et de son ami Oli, un pilote qui l'a accompagnée dans de nombreuses aventures, elle se lance dans une chasse au trésor afin de mettre au jour 13 indices censés la mener à un butin d'une valeur incommensurable. Mais d'autres le convoitent à des fins moins nobles et les richesses ne sont pas toujours celles que l'on croit.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts221304",
-    "titre": "Un homme ordinaire",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2020,
-        "note": 5.8
-      }
-    ],
-    "duree": "52 min/ép.",
-    "runtime_minutes": 52,
-    "note_avis": 5.8,
-    "note_recence": 8.2,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300773014/s592/un-homme-ordinaire.jpg",
-    "synopsis": "Une mère et ses quatre enfants sont retrouvés assassinés, enterrés dans leur jardin. Le père, Christophe de Salin, a disparu. Les soupçons s'orientent immédiatement vers lui. Anna-Rose Gagnières, une jeune femme surdouée du Web, se met à enquêter. Contre toute apparence, cette famille bourgeoise était au bord du gouffre, criblée de dettes. Et l'homme aurait méthodiquement préparé les meurtres…",
-    "date_ajout": "2020-08-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm207546",
-    "titre": "The Wave",
-    "type": "film",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
-    "note_avis": 6.6,
-    "note_recence": 6.7,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/331658967/s592/the-wave.jpg",
-    "synopsis": "Après plusieurs années à surveiller la montagne qui surplombe le fjord où il habite, Kristian, scientifique, s’apprête à quitter la région avec sa famille. Quand un pan de montagne se détache et provoque un Tsunami, il doit retrouver les membres de sa famille et échapper à la vague dévastatrice. Le compte à rebours est lancé...",
-    "date_ajout": "2015-09-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
   },
   {
     "id": "jw-tm141182",
@@ -63816,54 +47846,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm813300",
-    "titre": "L'Esprit s'amuse",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 39min",
-    "runtime_minutes": 99,
-    "note_avis": 5.5,
-    "note_recence": 8.2,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fnt",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302109739/s592/blithe-spirit.jpg",
-    "synopsis": "Un écrivain à succès confronté au syndrome de la page blanche invite, avec sa femme, une voyante afin qu'elle l'aide à remédier à son blocage. À la suite d'une séance de spiritisme, la médium entre en contact avec Elvira, la première épouse de l'écrivain ce qui attise la jalousie de Ruth, la seconde femme.",
-    "date_ajout": "2022-12-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "nvn": "2026-11-09"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm1533420",
     "titre": "Above the Knee",
     "type": "film",
@@ -63897,51 +47879,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/346656813/s592/above-the-knee.jpg",
     "synopsis": "Amir a un terrible secret : sa jambe gauche commence à noircir. Ce pourrissement insidieux gagne du terrain, menaçant d’engloutir son corps tout entier. À moins qu’il ne trouve un moyen de s’en débarrasser avant qu’il ne soit trop tard.",
     "date_ajout": "2025-08-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1241470",
-    "titre": "Sick",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 23min",
-    "runtime_minutes": 83,
-    "note_avis": 6,
-    "note_recence": 8.8,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "hrr",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302465059/s592/sick.jpg",
-    "synopsis": "Au plus fort de la pandémie (COVID-19) et alors que le monde s'arrête en raison de l'aggravation de la crise sanitaire, Parker et sa meilleure amie Miri décident de passer leur temps à s'isoler dans la maison familiale au bord du lac, à des kilomètres du voisin le plus proche. Ce qui commence comme des vacances de quarantaine idéales prend une tournure horrible lorsqu'un intrus inattendu déclenche une lutte effrénée pour la survie.",
-    "date_ajout": "2023-04-27",
     "expiration": {
       "status": "none",
       "label": null,
@@ -63999,49 +47936,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1574094",
-    "titre": "Bénie soit Sixtine",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 37min",
-    "runtime_minutes": 97,
-    "note_avis": 5.5,
-    "note_recence": 9.7,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/324896039/s592/benie-soit-sixtine.jpg",
-    "synopsis": "Lors de son mariage, Sixtine ignorait que Pierre-Louis Sue de La Garde, son époux, faisait partie d'un groupuscule catholique intégriste et que leur idylle se transformerait rapidement en cauchemar. Après le décès de son mari dans d'obscures circonstances, la jeune veuve devient la proie d'une belle-mère qui l'isole du monde extérieur et semble même vouloir lui voler son nouveau-né. Sixtine parvient à s'échapper et s'installe dans un village sous une nouvelle identité. Elle s'attire la sympathie de Lydie, mère isolée comme elle, et du prêtre du bourg. Réfugiée au sein d'une communauté bienveillante, Sixtine recommence à vivre. Mais si elle veut rompre avec la secte qui continue de la pourchasser, Sixtine doit trouver le courage de l'affronter",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1296428",
     "titre": "Elaha",
     "type": "film",
@@ -64083,98 +47977,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1623176",
-    "titre": "Un jour avec mon père",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 7.3,
-    "note_recence": 9.7,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/344271604/s592/my-fathers-shadow.jpg",
-    "synopsis": "Récit semi-autobiographique se déroulant sur une seule journée dans la mégalopole nigériane, Lagos, pendant la crise électorale de 1993. Un père tente de guider ses deux jeunes fils à travers l'immense ville alors que des troubles politiques menacent.",
-    "date_ajout": "2026-03-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm841414",
-    "titre": "Tomiris",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "2h 36min",
-    "runtime_minutes": 156,
-    "note_avis": 6.3,
-    "note_recence": 7.9,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "fnt",
-      "hst",
-      "war"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/213152489/s592/tomiris.jpg",
-    "synopsis": "L'histoire de la légendaire Tomiris, destinée à devenir grande reine de la steppe, cette guerrière redoutable va devoir affronter de nombreuses épreuves pour reconquérir son trône et son royaume. Après avoir survécu au massacre qui a décimé ses proches, elle tentera d'unir les tribus des Scythians et des Sakas sous son autorité pour gagner cette guerre et vaincre les envahisseurs.",
-    "date_ajout": "2020-10-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
     "on_tnt": false
   },
   {
@@ -64223,249 +48025,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm207344",
-    "titre": "Vert émeraude",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+",
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "tf1",
-      "sxp"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 53min",
-    "runtime_minutes": 113,
-    "note_avis": 5.9,
-    "note_recence": 7,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "fnt",
-      "hrr",
-      "fml",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176642577/s592/smaragdgrun.jpg",
-    "synopsis": "Après avoir mis la main sur les notes du Comte de Saint-Germain, Gwendolyn et Gideon en sont maintenant certains : la prophétie des Voyageurs du Temps n'était qu'une chimère destinée à servir les intérêts des veilleurs. Pire, l'humanité pourrait courir un grand danger si le pouvoir du Cercle de Sang était libéré. Quel est ce pouvoir et pourquoi le Cercle cherche-t-il à s'en emparer depuis des siècles ? Quels mystères le chronographe peut-il encore cacher ? Les réponses, Gwen et Gideon devront les chercher à la fois dans le présent et le passé pour mettre définitivement fin aux activités du Cercle.",
-    "date_ajout": "2016-09-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm137869",
-    "titre": "Joker",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 5.6,
-    "note_recence": 6.7,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/204009761/s592/joker.jpg",
-    "synopsis": "Nick Wild, ex-marine addict au jeu, se reconvertit dans la protection rapprochée de clients lucratifs. Il compte ainsi quitter Las Vegas pour mener une vie meilleure. Lorsque son ancienne compagne, Holly, est retrouvée battue et laissée pour morte, Nick accepte de l’aider à se venger. Il va rapidement découvrir que le coupable n’est autre que Danny DeMarco, membre d’une puissante famille du milieu.",
-    "date_ajout": "2015-01-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm889164",
-    "titre": "Ramdam",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 5.3,
-    "note_recence": 8.2,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/293728110/s592/ramdam.jpg",
-    "synopsis": "Signée Zangro et portée par Lyes Salem (L’Oranais, Le Grand bazar), Ramdam est une comédie qui aborde avec beaucoup d’autodérision les relations entre France et Islam, à travers le conflit entre un père et son fils dans un village du Sud-Ouest, où le rugby est roi.",
-    "date_ajout": "2025-09-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1355594",
-    "titre": "La fureur d'une mère",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 4.7,
-    "note_recence": 9.1,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/307638735/s592/mothers-milk.jpg",
-    "synopsis": "Suite au meurtre de son fils avec qui elle n’entretenait plus de contact, une journaliste forme une alliance improbable avec la petite amie enceinte de ce dernier afin de traquer les responsables de sa mort, affrontant ensemble un monde de drogue et de corruption.",
-    "date_ajout": "2026-07-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm135719",
-    "titre": "Bleu saphir",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+",
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "tf1",
-      "sxp"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 56min",
-    "runtime_minutes": 116,
-    "note_avis": 6.2,
-    "note_recence": 6.4,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "fnt",
-      "fml",
-      "trl",
-      "rma",
-      "scf",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176548181/s592/bleu-saphir.jpg",
-    "synopsis": "Elle a hérité d'un don qu'elle a appris à maîtriser pour intégrer les Veilleurs du Temps. Explorez de nouvelles époques. Percez de nouveaux mystères. Bravez de nouveaux dangers. Gwendolyn Shepherd – le « Rubis », se rebelle contre la Loge secrète. Elle est éperdument amoureuse de Gideon de Villiers et expérimente sa première fois avec lui. Gwen veut être libre et refuse donc de céder aux exigences de la Loge. Mais ce désir de liberté la met en danger. L'obscure Comte de Saint-Germain veut se servir d'elle pour accéder au pouvoir absolu du temps. Et pour atteindre son but, il met la vie de Gwen en jeu.",
-    "date_ajout": "2015-04-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm182575",
     "titre": "Gibraltar",
     "type": "film",
@@ -64512,314 +48071,19 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1303196",
-    "titre": "Dark Game",
-    "type": "film",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 4.6,
-    "note_recence": 9.4,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "hrr",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/313336503/s592/darkgame.jpg",
-    "synopsis": "Un détective déterminé se lance dans une course contre la montre pour arrêter un jeu télévisé tordu sur le dark web, où les captifs sont obligés de rivaliser pour leur vie.",
-    "date_ajout": "2026-02-13",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm322429",
-    "titre": "Spinning Man",
-    "type": "film",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 5.7,
-    "note_recence": 7.6,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/191780613/s592/spinning-man.jpg",
-    "synopsis": "Evan Birch est un professeur estimé dans un collège distingué. Son charme et sa réputation ont rendu son cours de philosophie très populaire. Quand une étudiante nommée Joyce disparaît, sa femme ne peut s'empêcher de remettre en cause son alibi.",
-    "date_ajout": "2018-10-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts76278",
-    "titre": "L'envers du paradis",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2017,
-        "note": 7.6
-      }
-    ],
-    "duree": "49 min/ép.",
-    "runtime_minutes": 49,
-    "note_avis": 7.6,
-    "note_recence": 7.3,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/303450697/s592/lenvers-du-paradis.jpg",
-    "synopsis": "Lorsque son mariage tourne au cauchemar, Clara, une modeste provinciale, est internée en hôpital psychiatrique et empêchée de voir grandir son fils. Derrière son malheur se cache sa belle-mère, une femme machiavélique qui souhaite prendre ses terres et exploiter ses mines d'émeraude. Trahie et humiliée, Clara parvient à surmonter cette situation et revient dix ans plus tard comme une femme riche et puissante. En dépit de sa soif de vengeance et de justice, elle décide de regagner avant tout l'affection et la confiance de son fils et peut-être trouver un nouvel amour.",
-    "date_ajout": "2026-05-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm471779",
-    "titre": "Fear of Rain",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 49min",
-    "runtime_minutes": 109,
-    "note_avis": 6,
-    "note_recence": 8.5,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "hrr",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/248705570/s592/fear-of-rain.jpg",
-    "synopsis": "Une adolescente, atteinte de schizophrénie, se débat avec des hallucinations terrifiantes. Elle soupçonne sa voisine d'avoir enlevé un enfant. Ses parents essaient désespérément de l’aider à mener une vie normale. Seul Caleb la croit, un garçon pour lequel elle n'a pas la certitude de son existence.",
-    "date_ajout": "2022-01-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts35461",
-    "titre": "Le mystère Enfield",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2015,
-        "note": 7
-      }
-    ],
-    "duree": "46 min/ép.",
-    "runtime_minutes": 46,
-    "note_avis": 7,
-    "note_recence": 6.7,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "hrr",
-      "trl",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/7173076/s592/le-mystere-enfield.jpg",
-    "synopsis": "Eté 1977, Peggy Hodgson et ses quatre enfants expérimentent des phénomènes très étranges dans leur nouvelle maison située à Einfield. Elle fait alors appel à Maurice Grosse, chercheur débutant dans le paranormal, pour qu’il mène l’enquête. Il est assisté par Guy Lyon Playfair, investigateur expérimenté qui aborde ce cas avec scepticisme.",
-    "date_ajout": "2023-12-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm420439",
-    "titre": "Grâce à Dieu",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "2h 17min",
-    "runtime_minutes": 137,
-    "note_avis": 7.2,
-    "note_recence": 7.9,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/136143848/s592/grace-a-dieu.jpg",
-    "synopsis": "Alexandre vit à Lyon avec sa femme et ses enfants. Un jour, il découvre par hasard que le prêtre qui a abusé de lui aux scouts officie toujours auprès d’enfants. Il se lance alors dans un combat, très vite rejoint par François et Emmanuel, également victimes du prêtre, pour «libérer leur parole» sur ce qu’ils ont subi. Mais les répercussions et conséquences de ces aveux ne laisseront personne indemne.",
-    "date_ajout": "2019-02-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm431781",
     "titre": "Bloodline",
     "type": "film",
     "chaine": "Shadowz",
     "chaines": [
-      "Shadowz",
-      "M6+"
+      "Shadowz"
     ],
     "logo_chaine": "assets/logos/shadowz.png",
     "logos_chaine": [
-      "assets/logos/shadowz.png",
-      "assets/logos/m6_plus.png"
+      "assets/logos/shadowz.png"
     ],
     "package_slugs": [
-      "sdz",
-      "sxp"
+      "sdz"
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
@@ -64851,98 +48115,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm266730",
-    "titre": "Astral",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 23min",
-    "runtime_minutes": 83,
-    "note_avis": 4.6,
-    "note_recence": 7.6,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "hrr",
-      "trl",
-      "scf"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/268088551/s592/astral.jpg",
-    "synopsis": "Un étudiant universitaire en échec doit faire face aux conséquences de la projection astrale lorsqu'il l'utilise pour renouer avec sa mère décédée.",
-    "date_ajout": "2023-01-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm920252",
-    "titre": "I Am Lisa",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 4,
-    "note_recence": 8.2,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "hrr",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/301124175/s592/i-am-lisa.jpg",
-    "synopsis": "Le shérif sadique d'une petite ville et ses subalternes brutalisent Lisa et la laissent pour morte dans les bois. Mordue par un loup-garou, puis alors dotée de capacités surnaturelles, Lisa pourra-t-elle conserver son humanité tout en assouvissant son désir de vengeance ?",
-    "date_ajout": "2022-09-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
     "on_tnt": false
   },
   {
@@ -65036,142 +48208,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm205168",
-    "titre": "Criminal Activities",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 5.8,
-    "note_recence": 6.7,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/195044036/s592/criminal-activities.jpg",
-    "synopsis": "Quatre amis investissent ensemble de grosses sommes. Mais les affaires tournent mal et la mafia est bientôt à leurs trousses...",
-    "date_ajout": "2016-02-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm812218",
-    "titre": "Undercover, Punch & Gun",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 5.3,
-    "note_recence": 7.9,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/338844656/s592/wo-hu-qian-long.jpg",
-    "synopsis": "Wu, policier infiltré au sein d’un réseau de méthamphétamine, doit s'associer à une bande hétéroclite pour faire tomber un énorme trafic de drogue.",
-    "date_ajout": "2021-07-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1624812",
-    "titre": "Une jeunesse indienne",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "2h 02min",
-    "runtime_minutes": 122,
-    "note_avis": 7.4,
-    "note_recence": 9.7,
-    "note_globale": 8.6,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/346165959/s592/homebound-2025.jpg",
-    "synopsis": "Dans un village du nord de l’Inde, deux amis d’enfance tentent de passer le concours de police d’État, un métier qui pourrait leur offrir la dignité qu’ils n’osent espérer. Alors qu’ils touchent du doigt leur rêve, le lien précieux qui les unit est menacé par leurs désillusions…",
-    "date_ajout": "2026-03-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm87536",
     "titre": "L'Illusionniste",
     "type": "film",
@@ -65206,155 +48242,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/176324895/s592/lillusionniste.jpg",
     "synopsis": "À la fin des années 50, une révolution agite l’univers du music-hall: le succès phénoménal du rock, dont les jeunes vedettes attirent les foules, tandis que les numéros traditionnels – acrobates, jongleurs, ventriloques – sont jugés démodés.  Notre héros, l’illusionniste, ne peut que constater qu’il appartient désormais à une catégorie d’artistes en voie de disparition.  Les propositions de contrats se faisant de plus en plus rares, il est contraint de quitter les grandes salles parisiennes et part avec ses colombes et son lapin tenter sa chance à Londres.  Mais la situation est la même au Royaume-Uni: il se résigne alors à se produire dans des petits théâtres, des garden-parties, des cafés, puis dans le pub d’un village de la côte ouest de l’Écosse, où il rencontre Alice, une jeune fille innocente qui va changer sa vie à jamais.",
     "date_ajout": "2010-06-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts63144",
-    "titre": "Les Spécialistes : Investigation scientifique",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2012,
-    "annee_moyenne": 2012,
-    "saisons_disponibles": [
-      {
-        "saison": 8,
-        "annee": 2012,
-        "note": 6.9
-      }
-    ],
-    "duree": "52 min/ép.",
-    "runtime_minutes": 52,
-    "note_avis": 6.9,
-    "note_recence": 5.8,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/305498332/s592/les-specialistes-investigation-scientifique.jpg",
-    "synopsis": "Les enquetes du R.I.S de Parme , le Capitaine Riccardo Venturi est le chef d'équipe",
-    "date_ajout": "2026-10-10",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 9 j",
-      "daysLeft": 9,
-      "expirationDate": "2026-10-24",
-      "packageExpirations": {
-        "mlt": "2026-10-24"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm450452",
-    "titre": "Ensemble à tout Prix",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 5.9,
-    "note_recence": 7.9,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "rma"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/191688401/s592/ensemble-a-tout-prix.jpg",
-    "synopsis": "À la suite d'un meurtre, un jeune couple, en fuite et désespéré, cherche refuge à Kansas City.",
-    "date_ajout": "2021-02-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1525288",
-    "titre": "Falcon Express",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 6.1,
-    "note_recence": 9.7,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "fml",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/338125646/s592/falcon-express.jpg",
-    "synopsis": "Des animaux de compagnie, piégés dans un train lancé à toute allure, vont devoir déjouer les plans de Hans, un blaireau rancunier en quête de vengeance. Alors que le crash semble inévitable, les animaux peuvent compter sur Falcon, un raton-laveur filou et débrouillard, prêt à tout pour les sauver !",
-    "date_ajout": "2025-07-02",
     "expiration": {
       "status": "none",
       "label": null,
@@ -65501,50 +48388,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm327284",
-    "titre": "Une famille en sursis...",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 5.3,
-    "note_recence": 7.3,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/245154537/s592/une-famille-en-sursis.jpg",
-    "synopsis": "Karen, une jeune veuve, mère de deux enfants, décide de reprendre son activité de kinésithérapeute. Elle se met en quête d’une nounou et finit par dénicher Alex, un jeune homme, en tous points parfait. Mais bientôt, le comportement d’Alex change. Greg, le nouveau compagnon de Karen, s’inquiète et enquête.",
-    "date_ajout": "2024-04-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm138635",
     "titre": "Mia Madre",
     "type": "film",
@@ -65590,192 +48433,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1603005",
-    "titre": "Meurtre à la Tour Eiffel",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 5.7,
-    "note_recence": 9.7,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/327599143/s592/le-crime-de-la-tour-eiffel.jpg",
-    "synopsis": "Au lendemain du 14 juillet, le cadavre d'un jeune Youtubeur spécialisé dans les vidéos sur l'Histoire est retrouvé au premier étage de la tour Eiffel. Comment le tueur a-t-il pu agir sans être vu en plein feu d'artifice, alors que les regards de la France entière étaient braqués sur la Tour Eiffel ? La capitaine Laura Giordano, encore marquée par la mort de son ancien partenaire, veut à tout prix mener l'enquête en solitaire, mais elle est contrainte de faire équipe avec un nouveau venu à Paris, Mathieu Bellanger. Dans les coulisses de l'édifice, l'instable duo va peu à peu lever le voile sur l'histoire insoupçonnée de la tour Eiffel pendant la Seconde Guerre mondiale...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm165210",
-    "titre": "Omar m'a tuer",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2011,
-    "annee_moyenne": 2011,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 6.6,
-    "note_recence": 5.5,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/164956441/s592/omar-ma-tuer.jpg",
-    "synopsis": "Le 24 juin 1991, Ghislaine Marchal est retrouvée morte dans la cave de sa villa de Mougins. Des lettres de sang accusent : « Omar m’a tuer ». Quelques jours plus tard, Omar Raddad, son jardinier, est écroué à la prison de Grasse. Il parle peu, comprend mal le français, a la réputation d’être calme et sérieux. Dès lors, il est le coupable évident. Il n’en sortira que sept ans plus tard, gracié, mais toujours coupable aux yeux de la justice. En 1994, révolté par le verdict, Pierre-Emmanuel Vaugrenard, écrivain convaincu de l’innocence d’Omar Raddad, s’installe à Nice pour mener sa propre enquête et rédiger un ouvrage sur l’affaire…",
-    "date_ajout": "2011-06-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm299705",
-    "titre": "Coup de cœur en campagne",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 36min",
-    "runtime_minutes": 96,
-    "note_avis": 5.1,
-    "note_recence": 7.3,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "fml",
-      "msc",
-      "rma",
-      "war"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/326177398/s592/country-crush.jpg",
-    "synopsis": "Une jeune chanteuse de ville aspire à devenir une star, dont la voiture tombe en panne à la campagne. Elle y rencontre Charlie, un mécanicien au grand cœur et un brin timide. Tandis qu'une romance s'installe entre eux, Nancy doit choisir entre ses rêves de gloire à New York et l'amour authentique qu'elle a trouvé dans cette petite ville rurale.",
-    "date_ajout": "2024-10-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm921673",
-    "titre": "Cortex",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 36min",
-    "runtime_minutes": 96,
-    "note_avis": 5.2,
-    "note_recence": 8.2,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/253642550/s592/cortex-2020.jpg",
-    "synopsis": "Voilà des mois que Hagen, un quadra mal dans sa peau, souffre de troubles du sommeil qui renforcent sa paranoïa. Il imagine que sa femme Karoline le trompe. Tout bascule le jour où son épouse a une aventure avec Niko, un jeune voyou...",
-    "date_ajout": "2020-05-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1332118",
     "titre": "The Seeding",
     "type": "film",
@@ -65818,50 +48475,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm462104",
-    "titre": "Lost Transmissions",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
-    "note_avis": 5.1,
-    "note_recence": 8.2,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/288240508/s592/lost-transmissions.jpg",
-    "synopsis": "Hannah, une chanteuse timide, découvre que son ami et producteur Theo Ross a arrêté de prendre ses médicaments contre la schizophrénie. Elle tente avec l'aide de ses amis de le faire interner dans un hôpital psychiatrique.",
-    "date_ajout": "2022-06-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
     "on_tnt": false
   },
   {
@@ -65912,293 +48525,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm244773",
-    "titre": "Permis de tromper",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 46min",
-    "runtime_minutes": 106,
-    "note_avis": 5.6,
-    "note_recence": 7,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/65535349/s592/permis-de-tromper.jpg",
-    "synopsis": "Camila et Mateo forment un couple très heureux depuis 8 ans. À l’occasion d’un dîner entre amis, ils se prêtent au jeu du « permis de tromper » : chacun choisit la célébrité avec laquelle une aventure « serait » autorisée. Cette plaisanterie va chambouler leur vie quand Mateo rencontre accidentellement la sublime actrice Zoe Del Rio, qu’il avait désignée quelques jours plus tôt…",
-    "date_ajout": "2018-06-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm455059",
-    "titre": "Le Sang du cartel",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 5.2,
-    "note_recence": 7.9,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/331106735/s592/le-sang-du-cartel.jpg",
-    "synopsis": "Lucas, un garçon de 14 ans intronisé dans la vie de gang à Washington, D.C., est déterminé à ce que son frère de 10 ans ne suive pas le même chemin. Lorsqu'un ancien combattant de la guerre en Afghanistan arrive dans le quartier, une opportunité se présente.",
-    "date_ajout": "2019-03-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm140734",
-    "titre": "Jamesy Boy",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 49min",
-    "runtime_minutes": 109,
-    "note_avis": 6.3,
-    "note_recence": 6.4,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "rma"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/181391858/s592/jamesy-boy.jpg",
-    "synopsis": "Inspiré de la vie réelle de l'adolescent James Burns, ce film raconte l'histoire mouvementée d'un jeune homme qui passe la banlieue et son lot de délinquances à une prison hautement sécurisée où se côtoient les plus grands criminels. Là-bas, il va se lier d'amitié avec un meurtrier qui deviendra son mentor, le menant progressivement sur le chemin de la rédemption...",
-    "date_ajout": "2015-11-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts77857",
-    "titre": "Souviens-toi",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 5.4
-      }
-    ],
-    "duree": "51 min/ép.",
-    "runtime_minutes": 51,
-    "note_avis": 5.4,
-    "note_recence": 7.6,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/39427871/s592/souviens-toi.jpg",
-    "synopsis": "Un couple et leur bébé sont retrouvés assassinés dans leur maison. Madeleine, leur fille de 8 ans, a miraculeusement été épargnée, et il n'y a aucun signe d'effraction, ni aucun témoin. Sauf la fillette, retrouvée amnésique et mutique. Madeleine est alors prise en charge par un flic et une psychiatre qui vont tout faire pour l'aider et lui permettre de retrouver la mémoire, quitte à faire ressurgir leur passé respectif de manière douloureuse. Mais bien vite, une question impensable va se poser : l'enfant est-elle victime ou coupable ?",
-    "date_ajout": "2018-01-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm147070",
-    "titre": "Docteur Frankenstein",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 50min",
-    "runtime_minutes": 110,
-    "note_avis": 6,
-    "note_recence": 6.7,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "hrr",
-      "trl",
-      "scf"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/175955725/s592/docteur-frankenstein.jpg",
-    "synopsis": "Le scientifique aux méthodes radicales Victor Frankenstein et son tout aussi brillant protégé Igor Strausman partagent une vision noble : celle d’aider l’humanité à travers leurs recherches innovantes sur l’immortalité. Mais les expériences de Victor vont trop loin, et son obsession engendre de terrifiantes conséquences. Seul Igor peut ramener son ami à la raison et le sauver de sa création monstrueuse. Une version enflammée et moderne d’une légende intemporelle.",
-    "date_ajout": "2015-11-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm827277",
-    "titre": "VFW",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 6.1,
-    "note_recence": 7.9,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "hrr",
-      "trl"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/165001492/s592/vfw.jpg",
-    "synopsis": "Fred, un vétéran de la guerre du Vietnam, et ses amis militaires doivent protéger un adolescent et le siège de l'organisation VFW contre un trafiquant de drogues et son armée de mutants punks. Pour les anciens militaires, cette bataille s'annonce la plus difficile de leur carrière...",
-    "date_ajout": "2020-11-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1087994",
     "titre": "Relic",
     "type": "film",
@@ -66245,54 +48571,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm833007",
-    "titre": "The Mortuary",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 48min",
-    "runtime_minutes": 108,
-    "note_avis": 6.4,
-    "note_recence": 8.2,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "fnt",
-      "hrr",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/312758978/s592/the-mortuary-collection.jpg",
-    "synopsis": "Dans la ville fantasmagorique de Raven's End, une jeune fille égarée se réfugie dans une vieille morgue décrépite. Le croque-mort excentrique raconte l'histoire étrange de la ville à travers une série de contes tordus, tous plus terrifiants les uns que les autres, mais le monde de la jeune fille est dérangé quand elle découvre que l'histoire finale... est la sienne.",
-    "date_ajout": "2021-09-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm454167",
     "titre": "Greener grass",
     "type": "film",
@@ -66326,51 +48604,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/145113493/s592/greener-grass.jpg",
     "synopsis": "Jill et Lisa vivent dans un quartier de banlieue idyllique. Lorsque Jill, dans un geste altruiste, offre son nouveau-né à Lisa, la paranoïa la submerge, tandis que ses peurs et ses angoisses prennent rapidement le dessus.",
     "date_ajout": "2021-05-31",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1505866",
-    "titre": "La Reine du crime présente : Meurtre à l'Ambassade",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 23min",
-    "runtime_minutes": 83,
-    "note_avis": 5.1,
-    "note_recence": 9.7,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/338689180/s592/la-reine-du-crime-presente-meurtre-a-lambassade.jpg",
-    "synopsis": "1934. Miranda Green, détective privée, enquête sur un meurtre perpétré à l'ambassade britannique du Caire, où un document top secret a été volé, mettant en péril à la fois le palais de Buckingham et la paix du monde.",
-    "date_ajout": "2025-11-14",
     "expiration": {
       "status": "none",
       "label": null,
@@ -66428,99 +48661,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm200091",
-    "titre": "Ventoux",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 48min",
-    "runtime_minutes": 108,
-    "note_avis": 6.4,
-    "note_recence": 6.7,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/11337864/s592/ventoux.jpg",
-    "synopsis": "Quatre amis de longue date partent à l'assaut du Mont Ventoux, comme ils le faisaient il y a trente ans. Une ascension sous un soleil de plomb qui alterne entre sujets graves et bonnes tranches de rigolade. Jusqu'à ce que leur amie d'enfance, la belle Laura se présente et qu'avec elle, les « fantômes » du passé resurgissent...",
-    "date_ajout": "2021-05-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm180173",
-    "titre": "Le Cœur a ses raisons : Le Journal d'une institutrice",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 6.5,
-    "note_recence": 6.1,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "fml",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/248003133/s592/le-coeur-a-ses-raisons-le-journal-dune-institutrice.jpg",
-    "synopsis": "Elizabeth Thatcher est contrainte de quitter le confort de sa vie à la ville pour partir enseigner dans la ville ouvrière d'Alberta. Réticente au départ, elle lit le journal de sa tante qui avait reçu la même proposition des années plus tôt. Elle découvre que malgré les difficultés de prendre un nouveau départ, elle a réussi à s'adapter et même à rencontrer l'amour…",
-    "date_ajout": "2024-12-13",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm861129",
     "titre": "Jumbo",
     "type": "film",
@@ -66568,330 +48708,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm270994",
-    "titre": "Les derniers Parisiens",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 46min",
-    "runtime_minutes": 106,
-    "note_avis": 5.9,
-    "note_recence": 7.3,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/14211227/s592/les-derniers-parisiens.jpg",
-    "synopsis": "Tout juste sorti de prison, Nas revient dans son quartier, Pigalle, où il retrouve ses amis et son grand frère Arezki, patron du bar Le Prestige. Nas est décidé à se refaire un nom et Le Prestige pourrait bien lui servir de tremplin…",
-    "date_ajout": "2017-02-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm347802",
-    "titre": "Déchaînés",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 5.8,
-    "note_recence": 7.3,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/74263990/s592/dechaines.jpg",
-    "synopsis": "Alors que les célèbres criminels Gary Tison et Randy Greenwalt s'évadent de prison, leur cavale se transforme rapidement en une sanglante chasse à l'homme.",
-    "date_ajout": "2020-08-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts417539",
-    "titre": "Rendez-vous avec le crime",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 5.8
-      }
-    ],
-    "duree": "91 min/ép.",
-    "runtime_minutes": 91,
-    "note_avis": 5.8,
-    "note_recence": 9.7,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320714791/s592/rendez-vous-avec-le-crime.jpg",
-    "synopsis": "Une pensionnaire de la Villa Agatha se présente à Samson. Celui-ci a de bonnes raisons de penser que la vieille dame n'a plus toute sa tête quand elle affirme qu'un fantôme erre la nuit dans la maison. Mais quand la malheureuse meurt accidentellement, il soupçonne aussitôt une affaire louche...",
-    "date_ajout": "2025-10-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1390758",
-    "titre": "La belle étincelle",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 6.5,
-    "note_recence": 9.1,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/308526760/s592/la-belle-etincelle.jpg",
-    "synopsis": "Alors qu’il essuie une polémique ayant entaché son image, Philippe Lamarck, brillant chef étoilé au caractère compliqué, pousse la porte du restaurant La Belle Étincelle pour y prendre les commandes de la cuisine. Ce qu’il ne sait pas, c’est que ce restaurant n’est pas comme les autres.  Virginie, la gérante, pour permettre à Noé, son fils atteint de troubles autistiques de réaliser son rêve et de devenir cuisinier, a monté un restaurant inclusif et embauché uniquement des jeunes porteurs de handicaps cognitifs.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm317867",
-    "titre": "Le Redoutable",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 48min",
-    "runtime_minutes": 108,
-    "note_avis": 6.6,
-    "note_recence": 7.3,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/87775871/s592/le-redoutable.jpg",
-    "synopsis": "Paris 1967. Jean-Luc Godard, le cinéaste le plus en vue de sa génération, tourne La Chinoise avec la femme qu'il aime, Anne Wiazemsky, de 20 ans sa cadette. Ils sont heureux, amoureux, séduisants, ils se marient. Mais la réception du film à sa sortie enclenche chez Jean-Luc une remise en question profonde.  Mai 68 va amplifier le processus, et la crise que traverse Jean-Luc va le transformer profondément, passant de cinéaste star en artiste maoiste hors système aussi incompris qu'incompréhensible.",
-    "date_ajout": "2017-05-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm365456",
-    "titre": "Limonov: The Ballad",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "2h 13min",
-    "runtime_minutes": 133,
-    "note_avis": 5.8,
-    "note_recence": 9.4,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/324388362/s592/limonov-the-ballad-of-eddie.jpg",
-    "synopsis": "Militant révolutionnaire, dandy, voyou, majordome ou sans abri, il fut tout à la fois un poète enragé et belliqueux, un agitateur politique et le romancier de sa propre grandeur. La vie d’Edouard Limonov, telle une traînée de soufre, est une ballade à travers les rues agitées de Moscou et les gratte-ciels de New-York, des ruelles de Paris au cœur des geôles de Sibérie pendant la seconde moitié du XXe siècle.",
-    "date_ajout": "2024-12-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm429588",
-    "titre": "Ride, virée mortelle",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 19min",
-    "runtime_minutes": 79,
-    "note_avis": 4.6,
-    "note_recence": 7.6,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "crm",
-      "hrr",
-      "trl",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/175653747/s592/ride-2018-1.jpg",
-    "synopsis": "James est un chauffeur Uber qui rêve de devenir acteur. Un soir, lorsque la belle Jessica entre dans sa voiture, il est loin d'imaginer la suite des événements. En effet, le prochain passager s'avère être un manipulateur qui va transformer leur trajet dans Los Angeles en une véritable lutte psychologique pour survivre.",
-    "date_ajout": "2020-04-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1444953",
     "titre": "Dead Mail",
     "type": "film",
@@ -66928,197 +48744,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/328540463/s592/dead-mail.jpg",
     "synopsis": "Dans les années 1980, un enquêteur de la Poste tente de retrouver un claviériste kidnappé.",
     "date_ajout": "2025-11-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm471274",
-    "titre": "The Fanatic",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 4.2,
-    "note_recence": 7.9,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/162813489/s592/the-fanatic.jpg",
-    "synopsis": "Un cinéphile enragé poursuit son héros préféré et détruit la vie de la star...",
-    "date_ajout": "2020-10-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm233406",
-    "titre": "Italian race",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 58min",
-    "runtime_minutes": 118,
-    "note_avis": 7.2,
-    "note_recence": 7,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "spt",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/66742967/s592/rapide-comme-le-vent.jpg",
-    "synopsis": "Giulia De Martino, jeune pilote de 17 ans dirigée par son père, participe au Championnat GT. Suite au décès de ce dernier, le grand frère de Giulia, Loris, ex-pilote qui ne court plus, réapparait après de nombreuses années d'absence. Afin de conserver la maison familiale Giulia doit absolument gagner le Championnat.",
-    "date_ajout": "2018-05-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts20745",
-    "titre": "Commissaire Dupin",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2014,
-        "note": 6.6
-      }
-    ],
-    "duree": "89 min/ép.",
-    "runtime_minutes": 89,
-    "note_avis": 6.6,
-    "note_recence": 6.4,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/310272560/s592/commissaire-dupin.jpg",
-    "synopsis": "Le commissaire Georges Dupin est muté par mesure disciplinaire de Paris à Concarneau, en Bretagne. Ses enquêtes nous feront visiter les plus beaux paysages bretons, que ce citadin grognon va apprendre à apprécier.",
-    "date_ajout": "2018-10-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1260484",
-    "titre": "Noël à tout prix !",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 24min",
-    "runtime_minutes": 84,
-    "note_avis": 5.9,
-    "note_recence": 8.8,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "fnt",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/310536177/s592/haul-out-the-holly.jpg",
-    "synopsis": "Après une rupture amoureuse, Emily rentre chez ses parents pour les fêtes. Mais surprise : ils ont décidé de partir vivre en Floride et la laissent gérer seule l’organisation des diverses activités de Noël du voisinage, qui ne plaisante pas sur le sujet. Elle retrouve un ami d’enfance, Jared, qui a pris la tête du Comité de Noël de la rue.",
     "expiration": {
       "status": "none",
       "label": null,
@@ -67271,100 +48896,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm356715",
-    "titre": "Fight Girl",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 24min",
-    "runtime_minutes": 84,
-    "note_avis": 6.4,
-    "note_recence": 7.6,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "fml",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/221213147/s592/fight-girl.jpg",
-    "synopsis": "En colère contre ses parents divorcés qui se déchirent sans cesse, ses camarades de classe qui la malmènent et un peu contre le monde entier, Bo, adolescente, n'arrive plus à contenir sa violence. Elle découvre alors le kickboxing que pratique sa voisine Joy.",
-    "date_ajout": "2021-03-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm136350",
-    "titre": "Un Hologramme pour le Roi",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 6.1,
-    "note_recence": 6.7,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/167501817/s592/un-hologramme-pour-le-roi.jpg",
-    "synopsis": "Alors que l’Amérique est en pleine récession, un homme d’affaires tente une dernière fois d’éviter la banqueroute dans le but de payer les études de sa fille, en se rendant en Arabie Saoudite pour vendre son idée à un puissant monarque.",
-    "date_ajout": "2016-04-28",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm355789",
     "titre": "Dogman",
     "type": "film",
@@ -67401,195 +48932,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/93267101/s592/dogman-2018.jpg",
     "synopsis": "Dans une banlieue déshéritée, Marcello, toiletteur pour chiens discret et apprécié de tous, voit revenir de prison son ami Simoncino, un ancien boxeur accro à la cocaïne qui, très vite, rackette et brutalise le quartier. D’abord confiant, Marcello se laisse entraîner malgré lui dans une spirale criminelle. Il fait alors l’apprentissage de la trahison et de l’abandon, avant d’imaginer une vengeance féroce...",
     "date_ajout": "2018-07-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts57851",
-    "titre": "Les quatre filles du docteur March",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2017,
-        "note": 7.2
-      }
-    ],
-    "duree": "59 min/ép.",
-    "runtime_minutes": 59,
-    "note_avis": 7.2,
-    "note_recence": 7.3,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/36203519/s592/les-quatre-filles-du-docteur-march.jpg",
-    "synopsis": "En pleine guerre de Sécession, quatre jeunes sœurs, Jo, Meg, Beth et Amy March traversent la difficile période de l'enfance à l'adolescence alors que leur père, le docteur March, est au front. Leur mère les aidera à traverser ces temps difficiles.",
-    "date_ajout": "2019-04-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1671839",
-    "titre": "Hierarchy : Braquage au sommet",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 37min",
-    "runtime_minutes": 97,
-    "note_avis": 4.3,
-    "note_recence": 9.7,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/340764449/s592/hierarchy-braquage-au-sommet.jpg",
-    "synopsis": "Deux frères adoptifs s'apprêtent à réaliser le braquage le plus risqué de leur vie, un coup qui pourrait les libérer à jamais. Mais traqués par une mafia impitoyable et une police prête à tout pour les arrêter, ils devront choisir entre la fuite, la loyauté… ou la survie.",
-    "date_ajout": "2026-08-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm950465",
-    "titre": "Blood Conscious: Le lac maudit",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 21min",
-    "runtime_minutes": 81,
-    "note_avis": 4.1,
-    "note_recence": 8.5,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "hrr",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302628463/s592/blood-conscious.jpg",
-    "synopsis": "Une famille en vacances renverse la situation contre un tireur de masse qui prétend combattre des forces démoniaques.",
-    "date_ajout": "2023-04-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm373283",
-    "titre": "La Belle et la Belle",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 5.5,
-    "note_recence": 7.6,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "scf",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302929983/s592/la-belle-et-la-belle.jpg",
-    "synopsis": "Margaux, 20 ans, fait la connaissance de Margaux, 45 ans : tout les unit, il s'avère qu'elles ne forment qu'une seule et même personne, à deux âges différents de leur vie…",
-    "date_ajout": "2018-03-14",
     "expiration": {
       "status": "none",
       "label": null,
@@ -67694,187 +49036,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1489253",
-    "titre": "Des blessures invisibles",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 6.5,
-    "note_recence": 9.4,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320736522/s592/des-blessures-invisibles.jpg",
-    "synopsis": "Camille a disparu. Meurtre, suicide ou fugue ? Les témoignages de son entourage dressent un portrait contradictoire de cette femme mariée et mère de deux petites filles.  Le parcours de Camille jusqu’à sa disparition se rejoue sous nos yeux, en même temps qu’avance l’enquête intime menée par sa meilleure amie et sœur de son mari et l’enquête policière menée par la Capitaine Larivière, pour la retrouver.  Cette plongée dans la vie d’une femme décrit les effets de la manipulation psychologique au sein du couple. Une violence invisible mais si destructrice qu’elle conduit parfois au pire.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm509954",
-    "titre": "Mafia Inc",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "2h 23min",
-    "runtime_minutes": 143,
-    "note_avis": 6.8,
-    "note_recence": 8.2,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/192042697/s592/mafia-inc.jpg",
-    "synopsis": "Les Gamache, tailleurs de père en fils, habillent la famille mafieuse Paternò depuis trois générations. Vince Gamache, téméraire et impétueux, monte un grand coup pour impressionner le parrain Frank Paternò, attisant la jalousie de son fils aîné Giaco. La guerre éclate. Tous doivent choisir leur camp. D’un côté comme de l’autre, il y a un prix à payer.",
-    "date_ajout": "2020-11-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm233061",
-    "titre": "Le Convoi",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 43min",
-    "runtime_minutes": 103,
-    "note_avis": 5.5,
-    "note_recence": 7,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/249061605/s592/le-convoi-2016.jpg",
-    "synopsis": "Organisés en go fast, sept hommes, répartis dans quatre voitures, convoient une tonne trois cent de résine de cannabis au départ de Malaga au sud de l’Espagne. Direction Creil en banlieue parisienne. Mais pour Alex, Yacine, Majid et les autres, ce qui aurait dû être un convoi ordinaire va devenir un convoi fatal.",
-    "date_ajout": "2016-01-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm351183",
-    "titre": "Very Bad Bachelor Party",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 5.1,
-    "note_recence": 7.3,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/304679136/s592/big-bear-2017.jpg",
-    "synopsis": "Quand Joe est largué par sa fiancée pour un autre type peu avant leur mariage, il accepte à contre-cœur de maintenir son week-end d’enterrement de vie de garçon à Big Bear avec ses trois meilleurs amis. Les choses prennent un tout autre tournant quand Joe découvre que ses amis ont kidnappé l’homme avec lequel sa fiancée est partie et que celui-ci est maintenant ligoté dans la cave du chalet où ils passent le week-end…",
-    "date_ajout": "2019-05-23",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1049107",
     "titre": "The Andy Baker Tape",
     "type": "film",
@@ -67921,142 +49082,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm187266",
-    "titre": "We Love Happy Endings !",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 6.1,
-    "note_recence": 6.1,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/256310339/s592/not-another-happy-ending.jpg",
-    "synopsis": "Une écrivain dont les romans dépressifs rencontrent un grand succès perd l'inspiration en même temps qu'elle vit le parfait bonheur. Refusant de renoncer à cette mine d'or, son éditeur décide de rendre sa vie misérable pour lui faire retrouver sa plume.",
-    "date_ajout": "2017-05-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm320753",
-    "titre": "Coup de foudre et petits mensonges",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 6.6,
-    "note_recence": 7.3,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306384956/s592/coup-de-foudre-et-petits-mensonges.jpg",
-    "synopsis": "Découvrez le fabuleux destin de deux amoureux de l'art au destin lié. Alors qu'Harper doit organiser l'exposition d'un artiste renommé, ce dernier se désiste au dernier moment. Elle décide alors de trouver son remplaçant qui ne serait autre qu'un descendant de Van Gogh. Touchant et romantique, laissez-vous emportez par la passion.",
-    "date_ajout": "2023-10-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1120986",
-    "titre": "Tic Tac",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 6,
-    "note_recence": 8.5,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354079194/s592/tic-tac.jpg",
-    "synopsis": "Soan, 20 ans, est un jeune homme comme les autres, mais il souffre de troubles obsessionnels. Il rêve de partager sa musique avec le public, mais le monde extérieur semble lui être hostile. Parviendra-t-il à surmonter ses difficultés pour réaliser son rêve artistique ?",
-    "date_ajout": "2021-11-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm120122",
     "titre": "La Communauté",
     "type": "film",
@@ -68091,280 +49116,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/8800458/s592/la-communaute.jpg",
     "synopsis": "Dans les années 1970, au Danemark, Erik, professeur d'architecture, et Anna, journaliste à la télévision, s'installent avec leur fille de 14 ans, Freja, dans une villa d'un quartier huppé de Copenhague où ils décident de tenter l'expérience de la communauté. Ils y invitent donc des amis mais aussi des nouvelles connaissances à partager là une vie en collectivité où toutes les règles, toutes les décisions sont prises de manière collégiale et soumises à un vote. Si leur communauté favorise l'amitié, l'amour et l'intimité du groupe, une liaison amoureuse entre Erik et l'une de ses étudiantes va venir perturber la vie de tous...",
     "date_ajout": "2017-01-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1538646",
-    "titre": "Joyeux Noël, Docteur Williams !",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 24min",
-    "runtime_minutes": 84,
-    "note_avis": 6.4,
-    "note_recence": 9.4,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322024805/s592/christmas-on-call.jpg",
-    "synopsis": "Hannah, médecin urgentiste, vient de s'installer à Philadelphie. A l'approche de Noël, loin de sa famille, elle se sent un peu seule. Elle croise la route de Wes, infirmier secouriste dévoué, qui s'engage à lui faire découvrir la beauté de la ville et à lui faire oublier son mal du pays. Entre gardes de nuits et appels d'urgences,et sous le regard bienveillant de leurs collègues respectifs, la magie de Noël va opérer entre Hannah et Wes.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm143436",
-    "titre": "Harry Brown",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2009,
-    "annee_moyenne": 2009,
-    "duree": "1h 43min",
-    "runtime_minutes": 103,
-    "note_avis": 7.2,
-    "note_recence": 4.9,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176140220/s592/harry-brown.jpg",
-    "synopsis": "Ancien marine à la retraite, Harry Brown vit dans un quartier difficile de Londres. Témoin de la violence quotidienne engendrée par les trafics de toute sorte, il évite soigneusement toute confrontation et invite son vieil ami Leonard à en faire de même. Le jour où l'inspectrice Frampton lui annonce le meurtre de Leonard, Harry, dévasté, ne peut que constater l'impuissance de la police. Un soir, en rentrant du pub, il se retrouve face à un junkie qui le menace d'un couteau. Malgré les effets de l'alcool, Harry retrouve d'anciens réflexes.",
-    "date_ajout": "2023-10-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm936206",
-    "titre": "Noël au manoir enchanté",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 24min",
-    "runtime_minutes": 84,
-    "note_avis": 7,
-    "note_recence": 8.2,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fnt",
-      "rma",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302060067/s592/noel-au-manoir-enchante.jpg",
-    "synopsis": "En 1903, Charles Whitley, millionnaire et inventeur de génie, achète une vieille horloge pour l'offrir à sa fiancée, à Noël. Alors qu'il essaie de la réparer, il s'évanouit soudainement et se réveille le lendemain, propulsé au XXIe siècle. Là-bas, il fait la connaissance de Megan Turner...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm978887",
-    "titre": "La compétition de Noël",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 5.5,
-    "note_recence": 8.2,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/310222137/s592/la-competition-de-noel.jpg",
-    "synopsis": "Après que son père se soit blessé en travaillant le bois, Katie Jolly s'inscrit à une compétition de bûcheronnage afin de sauver l'entreprise familiale de la faillite. Mais lorsque le secouriste qui a sauvé la vie de son père s'inscrit également, la romance nait juste à temps pour Noël.",
-    "date_ajout": "2023-10-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm847172",
-    "titre": "Serial blogueuse",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 6.2,
-    "note_recence": 7.9,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "drm",
-      "hrr",
-      "trl"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/246427982/s592/serial-blogueuse.jpg",
-    "synopsis": "Femke est une journaliste de talent qui écrit pour le web. À chacune de ses publications, c’est un flot d’insultes et de menaces qui déferle sur les réseaux sociaux. Ces commentaires haineux lui pourrissent la vie. Excédée par cette violence gratuite, elle décide de se venger et de faire taire ses détracteurs, à tout jamais !",
-    "date_ajout": "2021-06-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm224611",
-    "titre": "Père & Fille",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 56min",
-    "runtime_minutes": 116,
-    "note_avis": 7,
-    "note_recence": 6.7,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/336500346/s592/fathers-and-daughters.jpg",
-    "synopsis": "Un célèbre romancier veuf se bat contre la maladie au moment où il essaie d'éduquer sa fille de cinq ans, à New York. On retrouve celle-ci, vingt-cinq ans plus tard, à Manhattan, tentant de surmonter ses traumatismes d'enfance.",
-    "date_ajout": "2017-08-16",
     "expiration": {
       "status": "none",
       "label": null,
@@ -68423,52 +49174,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm810237",
-    "titre": "The Wretched",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 5.8,
-    "note_recence": 7.9,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "hrr",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/198462350/s592/the-wretched.jpg",
-    "synopsis": "Un adolescent provocant, aux prises avec le divorce imminent de ses parents, affronte une sorcière de mille ans qui vit sous la peau de la femme d'à côté et se fait passer pour elle.",
-    "date_ajout": "2020-11-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm977758",
     "titre": "Suis-moi, je te fuis",
     "type": "film",
@@ -68504,282 +49209,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/301123900/s592/suis-moi-je-te-fuis.jpg",
     "synopsis": "Un jeune homme travaillant dans une entreprise de feux d'artifices sauve une jeune femme mystérieuse d'un accident sur un passage à niveau. Il ne sait pas encore à quel point elle va bouleverser sa vie.",
     "date_ajout": "2022-05-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts86716",
-    "titre": "Moscou noir",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2018,
-        "note": 6.6
-      }
-    ],
-    "duree": "44 min/ép.",
-    "runtime_minutes": 44,
-    "note_avis": 6.6,
-    "note_recence": 7.6,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "doc",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/215561856/s592/moscou-noir.jpg",
-    "synopsis": "Un jeune Suédois, négociateur en finances dans les années 1990 à Moscou, va se retrouver embarqué dans une spirale de violence, de corruption et de trahison.",
-    "date_ajout": "2026-05-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm156273",
-    "titre": "Les Vaches à Lunettes",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 7.7,
-    "note_recence": 6.4,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/244516067/s592/las-vacas-con-gafas.jpg",
-    "synopsis": "Mis en scène par un des réalisateurs les plus prometteurs de la nouvelle vague talentueuse du cinéma Porto Ricain, Les Vaches à Lunettes utilise un subtil sens de l'humour pour émouvoir à travers les problématiques de la vieillesse. Marso, un peintre et professeur d'art solitaire et excentrique, est en train de perdre la raison. Alors que le monde tel qu'il le connaît s'écroule, il est désormais obligé de réexaminer une existence remplie de succès professionnels mais aussi de désillusions sentimentales. Il essaie de rétablir une relation avec sa seule fille alors que ses pensées sont remplies de la nostalgie d'une époque où tout était plus simple. La peur et l'incertitude face à ce qui l'attend ont laissé une empreinte indélébile dans son esprit et peut-être même sur ses moeurs. A travers la performance impeccable de Daniel Lugo dans le rôle de Marso, Le Vaches à Lunettes est une fable à propos de la position de l'homme face à l'inévitable.",
-    "date_ajout": "2016-02-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm935327",
-    "titre": "Un Noël d'enfer",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 6.7,
-    "note_recence": 8.2,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/255474621/s592/un-noel-denfer.jpg",
-    "synopsis": "Accompagné de sa meilleure amie Maddy, Hugo rentre passer les fêtes de Noël chez sa mère à Milwaukee, dans le Wisconsin. Il ne cesse de croiser Patrick, un jeune homme qui était dans le même lycée que lui il y a plus de dix ans. Hugo et Patrick ressentent immédiatement une attirance l’un pour l’autre, mais le départ prochain d’Hugo jette une ombre sur leur idylle, d’autant qu’Hugo se voit offrir une promotion qui l’obligera à déménager à Londres, s’il décide de l’accepter. Il doit aussi aider sa mère à préparer un festival magique pour tous les habitants de Carroll Avenue et sauver la gare historique de la ville qui risque d'être démolie.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm208560",
-    "titre": "La fille du livre",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 6.1,
-    "note_recence": 6.7,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/250163162/s592/the-girl-in-the-book.jpg",
-    "synopsis": "Alice 28 ans, travaille dans une maison d'édition en tant qu'assistante. Elle est jolie et intelligente, mais de nature très destructive. Alice est une jeune femme qui ne se voit qu'au travers des yeux des hommes. Lorsqu'elle rencontre l'homme qui pourrait enfin la rendre heureuse, elle a peur, une fois de plus, de tout détruire. Lorsqu'elle ne travaille pas, Alice passe son temps à écrire. En effet, la jeune femme a une histoire extraordinaire à raconter. Seulement voilà, son histoire a déjà été racontée il y a 15 ans, par quelqu'un d'autre. Lorsque son passé va ressurgir dans son présent, la vie d'Alice va changer.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1241472",
-    "titre": "One Way",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 36min",
-    "runtime_minutes": 96,
-    "note_avis": 4.2,
-    "note_recence": 8.8,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300625548/s592/one-way-2022.jpg",
-    "synopsis": "Freddy, un délinquant minable, prend la fuite avec un sac rempli d'argent et de cocaïne pure. Prêt à tout pour conserver son butin quoi qu'il en coûte, il se laisse entraîner dans une spirale de violence qui finit par le rattraper. Car avec une balle logée dans le ventre, il n'ignore pas que le temps lui est désormais compté.",
-    "date_ajout": "2022-11-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1287223",
-    "titre": "Voyages en Italie",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 5.9,
-    "note_recence": 9.1,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/331838682/s592/voyages-en-italie.jpg",
-    "synopsis": "Une escapade romantique peut-elle raviver la flamme dans un couple ? Elle a réussi à le convaincre de partir quelques jours sans enfant. Ce sera où il a envie, sauf en Italie. Il y est déjà allé avec toutes ses ex... L'Espagne ? Les sentiers de l'Aubrac ? Ce sera finalement la Sicile – car selon lui, c'est pas tout à fait l'Italie.",
-    "date_ajout": "2023-03-29",
     "expiration": {
       "status": "none",
       "label": null,
@@ -68837,53 +49266,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1525929",
-    "titre": "Blood Star",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 37min",
-    "runtime_minutes": 97,
-    "note_avis": 6,
-    "note_recence": 9.4,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "hrr",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322552908/s592/blood-star.jpg",
-    "synopsis": "Bobbie traverse seule le désert lorsqu'elle est entraînée dans un jeu du chat et de la souris avec un shérif psychopathe. La poursuite s'intensifie jusqu'à devenir insoutenable. La jeune femme va devoir tout tenter pour prendre l’avantage, et survivre.",
-    "date_ajout": "2024-12-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1466804",
     "titre": "Breathing In",
     "type": "film",
@@ -68919,96 +49301,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/337873664/s592/breathing-in.jpg",
     "synopsis": "1901, Afrique du Sud. Un général blessé cherche refuge dans la modeste maison d'une femme et de sa jeune fille. Il ne tarde pas à découvrir la véritable raison de leur hospitalité et les étranges secrets qui rongent ce foyer.",
     "date_ajout": "2025-01-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm319906",
-    "titre": "Kickboxer : L'Héritage",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 50min",
-    "runtime_minutes": 110,
-    "note_avis": 5,
-    "note_recence": 7.6,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/63507749/s592/kickboxer-lheritage.jpg",
-    "synopsis": "Kurt Sloane est forcé de revenir en Thaïlande pour affronter le terrible Mongkut.",
-    "date_ajout": "2018-02-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm362003",
-    "titre": "Les dents, pipi et au lit",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 5.4,
-    "note_recence": 7.6,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/73220731/s592/les-dents-pipi-au-lit.jpg",
-    "synopsis": "Célibataire et fêtard invétéré, Antoine, bientôt 40 ans, bénéﬁcie d’un plan appart en or qu’il partage depuis plusieurs années avec son colocataire Thomas. Lorsque celui-ci lui annonce son départ à l'étranger et lui envoie comme remplaçante Jeanne, une ravissante jeune femme célibataire, Antoine croit d’abord au Père Noël. C’est avant que débarquent Lou et Théo, ses enfants de 5 et 8 ans: la situation vire alors brutalement au cauchemar...",
-    "date_ajout": "2018-03-21",
     "expiration": {
       "status": "none",
       "label": null,
@@ -69071,52 +49363,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm139495",
-    "titre": "Un Illustre inconnu",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 58min",
-    "runtime_minutes": 118,
-    "note_avis": 6.7,
-    "note_recence": 6.4,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/250042079/s592/un-illustre-inconnu.jpg",
-    "synopsis": "Sébastien Nicolas a toujours rêvé d’être quelqu’un d’autre. Mais il n’a jamais eu d’imagination. Alors il copie. Il observe, suit puis imite les gens qu’il rencontre. Il traverse leurs vies. Mais certains voyages sont sans retour.",
-    "date_ajout": "2014-11-19",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm139527",
     "titre": "Les Chansons que mes frères m'ont apprises",
     "type": "film",
@@ -69150,104 +49396,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/89850791/s592/les-chansons-que-mes-freres-m-ont-apprises.jpg",
     "synopsis": "Johnny termine le lycée. Lui et sa petite amie Aurelia s'apprêtent à quitter la réserve indienne de Pine Ridge pour chercher du travail à Los Angeles. La disparition soudaine du père de Johnny vient bousculer ses projets. Il hésite également à laisser derrière lui Jashaun, sa petite sœur de onze ans dont il est particulièrement proche. C'est tout simplement son avenir que Johnny doit maintenant reconsidérer.",
     "date_ajout": "2015-09-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts517950",
-    "titre": "Apparences",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2026,
-        "note": 5.2
-      }
-    ],
-    "duree": "46 min/ép.",
-    "runtime_minutes": 46,
-    "note_avis": 5.2,
-    "note_recence": 10,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/344634357/s592/apparences-2026.jpg",
-    "synopsis": "Bordeaux. Un chirurgien esthétique, le Docteur Belmont, est retrouvé mort dans une mise en scène macabre sur le parking de la clinique fondée avec ses deux associés et amis. Pour la capitaine Sarah Santoni, cette enquête s’avère vite très sensible : elle a subi une chirurgie reconstructrice du visage suite à une violente agression dans le cadre de ses fonctions. Et le chirurgien assassiné… est celui qui l’a opérée et aidée à surmonter son traumatisme.",
-    "date_ajout": "2026-01-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm167879",
-    "titre": "Killer Elite",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2011,
-    "annee_moyenne": 2011,
-    "duree": "1h 56min",
-    "runtime_minutes": 116,
-    "note_avis": 6.4,
-    "note_recence": 5.5,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/177546324/s592/killer-elite.jpg",
-    "synopsis": "Pour sauver Hunter, son ancien partenaire et mentor, Danny accepte de reprendre du service et de reformer son équipe. Mais celui qui était l'un des meilleurs agents des forces spéciales va cette fois affronter sa mission la plus périlleuse. Pour réussir, il va devoir percer les secrets d'une des unités militaires les plus redoutées qui soit, le SAS britannique. De doubles jeux en trahisons, il va découvrir un complot qui menace le monde et ce pour quoi il s'est toujours battu ?",
-    "date_ajout": "2011-10-26",
     "expiration": {
       "status": "none",
       "label": null,
@@ -69295,7 +49443,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "ima": "2026-12-31"
@@ -69396,238 +49544,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm243247",
-    "titre": "Un petit souhait pour Noël",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 24min",
-    "runtime_minutes": 84,
-    "note_avis": 6,
-    "note_recence": 7,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "fnt",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302203415/s592/a-wish-for-christmas.jpg",
-    "synopsis": "Timide, Sara Thomas, une jeune web designer de Chicago, a du mal à se mettre en avant. Quand son patron lui vole une brillante idée pour Noël, elle fait le voeu au père Noël de trouver le courage de s'affirmer davantage. Son souhait est exaucé, mais pour 48 heures seulement.",
-    "date_ajout": "2025-11-26",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm139303",
-    "titre": "Love & Friendship",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 6.3,
-    "note_recence": 7,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/187785066/s592/love-and-friendship.jpg",
-    "synopsis": "Angleterre, fin du XVIIIe siècle : Lady Susan Vernon est une jeune veuve dont la beauté et le pouvoir de séduction font frémir la haute société. Sa réputation et sa situation financière se dégradant, elle se met en quête de riches époux, pour elle et sa fille adolescente. Épaulée dans ses intrigues par sa meilleure amie Alicia, une Américaine en exil, Lady Susan Vernon devra déployer des trésors d'ingéniosité et de duplicité pour parvenir à ses fins, en ménageant deux prétendants : le charmant Reginald et Sir James Martin, un aristocrate fortuné mais prodigieusement stupide…",
-    "date_ajout": "2016-06-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1358185",
-    "titre": "Bâtiment 5",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
-    "note_avis": 6.3,
-    "note_recence": 9.1,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/313486655/s592/les-indesirables.jpg",
-    "synopsis": "Haby, jeune femme très impliquée dans la vie de sa commune, découvre le nouveau plan de réaménagement du quartier dans lequel elle a grandi. Mené en catimini par Pierre Forges, un jeune pédiatre propulsé maire, il prévoit la démolition de l'immeuble où Haby a grandi. Avec les siens, elle se lance dans un bras de fer contre la municipalité et ses grandes ambitions pour empêcher la destruction du Bâtiment 5.",
-    "date_ajout": "2023-12-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm63197",
-    "titre": "Rommel, le guerrier d'Hitler",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2012,
-    "annee_moyenne": 2012,
-    "duree": "2h 00min",
-    "runtime_minutes": 120,
-    "note_avis": 6.6,
-    "note_recence": 5.8,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "doc",
-      "drm",
-      "hst",
-      "war",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/56815579/s592/rommel-le-guerrier-dhitler.jpg",
-    "synopsis": "1944. Surnommé le Renard du Désert depuis ses campagnes à la tête de l'Africa Korps, le Maréchal Rommel est chargé d’organiser les défenses allemandes en cas de débarquement alié en France. Dans son QG français, il accueille son nouvel adjoint, le Général Speidel. Rapidement les deux hommes sympathisent. Rommel qui compte beaucoup d’ennemis au sein du 3è Reich, sait qu’il peut faire confiance à Peidel, qui n’est pas un fanatique nazi. Persuadé que le débarquement approche, Rommel tente, en vain, de convaincre Hitler de lui accorder des renforts. Face au refus du Fuhrer, Speidel propose à Rommel de participer à un projet d’attentat contre le leader nazi. Le Débarquement a lieu, et l’Histoire s’accélère…",
-    "date_ajout": "2025-05-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1264679",
-    "titre": "Overdose",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 59min",
-    "runtime_minutes": 119,
-    "note_avis": 5.8,
-    "note_recence": 8.8,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/301482666/s592/overdose.jpg",
-    "synopsis": "Sara Bellaïche, capitaine à la DIPJ de Toulouse, enquête sur un go-fast lié au meurtre de deux adolescents, dont s’occupe Richard Cross, flic au 36 à Paris. Obligés de collaborer pour retrouver le meurtrier et arrêter ce go-fast sanglant, Sara et Richard, aux méthodes diamétralement opposées, se retrouvent plongés dans une course contre la montre haletante sur les routes espagnoles et françaises.",
-    "date_ajout": "2022-11-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm449704",
     "titre": "Yves",
     "type": "film",
@@ -69671,53 +49587,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm319470",
-    "titre": "The Professor and the Madman",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "2h 04min",
-    "runtime_minutes": 124,
-    "note_avis": 7.2,
-    "note_recence": 7.9,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/125461913/s592/le-professeur-et-le-fou.jpg",
-    "synopsis": "William Chester Minor, médecin militaire américain, souffre d'une schizophrénie post-traumatique après les horreurs vécues pendant la guerre de Sécession. En 1872, il est interné dans l'hôpital psychiatrique britannique Broadmoor, après s'être rendu coupable de meurtre lors d'un séjour à Londres.  Quelques années plus tard, il va correspondre avec James Murray, lexicographe et philologue écossais. Dès 1878, ce dernier est embauché pour rédiger l'Oxford English Dictionary, ouvrage qui deviendra un dictionnaire de référence. Chester Minor va également y participer fortement en remplissant des milliers de fiches, d'une remarquable qualité, qu'il envoie très régulièrement à Murray.",
-    "date_ajout": "2020-12-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
     "on_tnt": false
   },
   {
@@ -69768,51 +49637,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm314361",
-    "titre": "Dans Les Griffes De Mon Sauveur",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
-    "note_avis": 5.1,
-    "note_recence": 7.3,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/246441159/s592/dans-les-griffes-de-mon-sauveur.jpg",
-    "synopsis": "Alors qu'elle fête son dix-huitième anniversaire, L'aura est victime d'une attaque de requin.Elle est secourue par Bruce, un séduisant jeune homme...",
-    "date_ajout": "2019-07-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm224067",
     "titre": "Une histoire banale",
     "type": "film",
@@ -69847,284 +49671,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/311681181/s592/une-histoire-banale.jpg",
     "synopsis": "Jeune femme de 30 ans, Nathalie a une vie active simple et agréable, travaillant dans le domaine de la santé, sortant souvent entre amis et collègues de boulot. Joyeuse, rêveuse, amoureuse, elle se prépare à emménager bientôt avec son fiancé. Mais un soir, tout va basculer en quelques minutes. Une histoire banale, mais qui laisse des traces.",
     "date_ajout": "2014-04-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm235405",
-    "titre": "Hyena Road",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "2h 00min",
-    "runtime_minutes": 120,
-    "note_avis": 6.5,
-    "note_recence": 6.7,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "trl",
-      "war"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/192059082/s592/hyena-road.jpg",
-    "synopsis": "Un tireur embusqué qui n’a jamais considéré ses victimes comme des êtres humains se lie à l’une d’elles. Un officier du renseignement qui n’a jamais envisagé de tuer devient l’initiateur d’un complot de meurtre. Un guerrier moudjahid qui avait rangé ses armes se retrouve au centre d’une zone de combat. Trois hommes, trois univers et trois combats différents. Mais tous sont confrontés à un univers à la moralité floue et aux apparences trompeuses… où les décisions se prennent à coups de fusil tirés à quelque 850 mètres de distance…",
-    "date_ajout": "2017-09-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1504293",
-    "titre": "Dead Sea",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 5.2,
-    "note_recence": 9.4,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "crm",
-      "hrr",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/329370074/s592/dead-sea-2024.jpg",
-    "synopsis": "Lors d'une excursion en jet-ski, Kaya et ses amis Tessa et Xander sont victimes d'un accident tragique qui les laisse dériver en pleine mer. Après une longue lutte pour leur survie, ils sont secourus par un chalutier dirigé par le capitaine Rey. Cependant, ce sauvetage s'avère être le début d'un nouveau calvaire : le capitaine et le Dr. Hunt sont en réalité des trafiquants d'organes, cherchant à exploiter les victimes pour le marché noir.",
-    "date_ajout": "2025-04-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm33356",
-    "titre": "The Last Tycoon",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2012,
-    "annee_moyenne": 2012,
-    "duree": "1h 58min",
-    "runtime_minutes": 118,
-    "note_avis": 6.5,
-    "note_recence": 5.8,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "hst"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/204076342/s592/the-last-tycoon.jpg",
-    "synopsis": "1920. Shanghaï. La ville sans foi ni loi est en plein essor et le crime organisé s’installe sous l’égide de la suprématie des gangs. Cheng, jeune homme ambitieux et déterminé, devra survivre dans les méandres troubles et sanglants de la ville. Il gravira un à un les échelons de la mafia jusqu’à en devenir son chef suprême et incontesté. Mais pour préserver son empire menacé, il lui faudra déjouer les pièges des services secrets et improviser face à l’invasion imminente de l’armée japonaise.",
-    "date_ajout": "2015-06-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm246847",
-    "titre": "Au bout du tunnel",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "2h 00min",
-    "runtime_minutes": 120,
-    "note_avis": 7,
-    "note_recence": 7,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/10890892/s592/au-bout-du-tunnel.jpg",
-    "synopsis": "Joaquin vit seul dans une grande maison depuis la mort de sa femme et de sa fille. Croulant sous les dettes, il choisit de louer une chambre à Berta, une jeune strip-teaseuse et sa fille. Une nuit, dans son sous-sol, il entend un bruit quasiment imperceptible provenant de l'autre côté du mur. A l'aide d'une caméra et d'un microphone discrètement introduits dans la paroi, il découvre que des malfrats sont en train de creuser un tunnel pour cambrioler la banque voisine...",
-    "date_ajout": "2017-04-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm187142",
-    "titre": "Et (beaucoup) plus si affinités",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 6.8,
-    "note_recence": 6.1,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/239922079/s592/et-beaucoup-plus-si-affinites.jpg",
-    "synopsis": "Wallace, un étudiant en médecine, tombe amoureux de la pétillante Chantry au cours d'une soirée. Leur complicité est immédiate, mais la jeune fille lui apprend qu'elle vit déjà en couple. Chantry propose alors a Wallace qu'ils deviennent amis, ce qu'il accepte. Mais cette relation sera-t-elle viable ?",
-    "date_ajout": "2014-10-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm473749",
-    "titre": "Effroyable invitée",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 5.2,
-    "note_recence": 7.9,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/338570781/s592/effroyable-invitee.jpg",
-    "synopsis": "Peyton Kelly, qui vivait avec une belle-mère mal aimante depuis le décès de son père, décide qu'elle a assez subi cette situation...",
-    "date_ajout": "2026-10-05",
     "expiration": {
       "status": "none",
       "label": null,
@@ -70180,280 +49726,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1003801",
-    "titre": "1618",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 5.7,
-    "note_recence": 8.8,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306563085/s592/1618.jpg",
-    "synopsis": "Porto, 1618. L'Inquisition envoie Sebastião Noronha poursuivre la persécution des Juifs portugais. Toute la population est exhortée à dénoncer les hérésies sous peine d'excommunication. Dans une ville où une grande partie de la population est d'origine juive, les frictions entre les autorités judiciaires et la visite de l'Inquisition atteignent un point de non-retour. Sa famille et sa communauté étant en danger, António Álvares, un marchand de Porto, décide d'élaborer un plan d'évasion pour lui et les siens.",
-    "date_ajout": "2023-05-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm244938",
-    "titre": "Le ciel attendra",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 6.9,
-    "note_recence": 7,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/12361099/s592/le-ciel-attendra.jpg",
-    "synopsis": "Sonia, 17 ans, a failli commettre l'irréparable pour «garantir» à sa famille une place au Paradis. Mélanie, 16 ans, vit avec sa mère, aime l'école et ses copines, joue du violoncelle et veut changer le monde. Elle tombe amoureuse d'un «Prince» sur internet. Elles pourraient s'appeler Anaïs, Manon, Leïla ou Clara et comme elles, croiser un jour la route de l'embrigadement… Pourraient-elles en revenir?",
-    "date_ajout": "2016-10-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm350504",
-    "titre": "N'oublie pas que je t'aime",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 4.8,
-    "note_recence": 7.3,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/113528336/s592/noublie-pas-que-je-taime.jpg",
-    "synopsis": "Artiste peintre, David a le blues : déjà 30 ans, pas de fiancée et toujours chez sa mère. Et, il vient de perdre son job à la Galerie Nationale ! Au détour d'une rue, David a le coup de foudre pour une jeune femme qui décore une vitrine : Teresa. La belle est en couple et triomphe avec son numéro d'acrobatie dans le spectacle de la troupe de son copain. Le coeur de Teresa semble imprenable pour David...",
-    "date_ajout": "2018-02-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm139654",
-    "titre": "Mea Culpa",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 6.1,
-    "note_recence": 6.4,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/250200685/s592/mea-culpa.jpg",
-    "synopsis": "Flics sur Toulon, Simon et Franck fêtent la fin d'une mission. De retour vers chez eux, ils percutent une voiture. Bilan : deux victimes dont un enfant. Franck est indemne. Simon, qui était au volant et alcoolisé, sort grièvement blessé . Il va tout perdre. Sa vie de famille. Son job de flic. Six ans plus tard, divorcé de sa femme Alice, Simon est devenu convoyeur de fonds et peine à tenir son rôle de père auprès de son fils Théo qui a désormais 9 ans. Franck, toujours flic, veille à distance sur lui. Lors d'une corrida, le petit Théo va être malgré lui le témoin d'un règlement de compte mafieux. Très vite, il fera l'objet de menaces. Simon va tout faire pour protéger son fils et retrouver ses poursuivants. Le duo avec Franck va au même moment se recomposer. Mais ce sera aussi pour eux l'occasion de revenir sur les zones d'ombre de leur passé commun.",
-    "date_ajout": "2014-02-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm94038",
-    "titre": "L'Enfant loup",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2010,
-    "annee_moyenne": 2010,
-    "duree": "1h 53min",
-    "runtime_minutes": 113,
-    "note_avis": 6.7,
-    "note_recence": 5.2,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/261001082/s592/lenfant-loup.jpg",
-    "synopsis": "En 1954 à Cordoba, au coeur des montagnes de la Sierra Morena, le jeune Marcos qui fût vendu par son père à un berger, va lors du décès de ce dernier, se retrouver complètement seul et isolé du monde, et vivre au milieu des loups pendant plus de 12 ans.",
-    "date_ajout": "2013-12-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm313639",
-    "titre": "Né dans la mauvaise famille",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 5.6,
-    "note_recence": 7.3,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/326366477/s592/ne-dans-la-mauvaise-famille.jpg",
-    "synopsis": "Lorsque Max, le frère aîné d'Eric, meurt noyé, la mère d'Eric, Briana, n'arrive pas à faire le deuil de son fils préféré, et tombe en grave dépression. Eric, déjà rongé par la culpabilité de n'avoir pu sauver Max, et complètement délaissé, passe du temps avec la famille de Michael, son entraîneur de baseball. Quand sous l'emprise de l'alcool, Briana commet un crime, elle décide de prendre Eric et de se sauver le plus vite possible. En découvrant qu'il est sur le point d'être arraché à sa famille de substitution qu'il aime, Eric décide de ne pas soutenir sa mère",
-    "date_ajout": "2024-08-23",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1055570",
     "titre": "Onyx the Fortuitous and the Talisman of Souls",
     "type": "film",
@@ -70499,143 +49771,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm145364",
-    "titre": "Détestables Nous",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 5.8,
-    "note_recence": 6.4,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/255408765/s592/someone-marry-barry.jpg",
-    "synopsis": "Trois amis décident de tout faire pour que leur ami Barry, socialement inadapté, trouve l'amour. Mais quand Barry rencontre enfin une femme il s'avère que celle-ci est exactement comme lui. Le petit groupe se retrouve donc avec deux Barry sur les bras... A travers les tribulations de ce drôle de couple, ils vont finalement apprendre beaucoup de l'amitié et de l'amour...",
-    "date_ajout": "2016-03-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm851073",
-    "titre": "À l'abordage !",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 7,
-    "note_recence": 8.5,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/250091150/s592/a-labordage.jpg",
-    "synopsis": "Paris, un soir au mois d'août. Un garçon rencontre une fille. Ils ont le même âge, mais n'appartiennent pas au même monde. Félix travaille, Alma part en vacances le lendemain. Qu'à cela ne tienne. Félix décide de rejoindre Alma à l'autre bout de la France. Par surprise. Il embarque son ami Chérif, parce qu'à deux c'est plus drôle. Et comme ils n'ont pas de voiture, ils font le voyage avec Édouard. Évidemment, rien ne se passe comme prévu. Peut-il en être autrement quand on prend ses rêves pour la réalité ?",
-    "date_ajout": "2021-07-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm296507",
-    "titre": "Elaine, portée disparue",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 5.7,
-    "note_recence": 7.3,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/309823699/s592/charlotte-link-die-letzte-spur.jpg",
-    "synopsis": "Plongez dans un thriller palpitant et mystérieux. Une intrigue captivante où la disparition d'Elaine Dawson fait peser les soupçons sur le célèbre avocat Marc Reeve. Un polar intense de vérité et de mensonge.",
-    "date_ajout": "2018-06-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1082930",
     "titre": "Dashcam",
     "type": "film",
@@ -70669,143 +49804,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/283299191/s592/dashcam.jpg",
     "synopsis": "Au début de la pandémie, une musicienne qui faisait des lives d'impro quitte Los Angeles pour Londres, prend la voiture de son ancien collègue et décide de prendre en voiture une vieille femme qui cache quelque chose.",
     "date_ajout": "2023-07-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm244005",
-    "titre": "Golem, le tueur de Londres",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 49min",
-    "runtime_minutes": 109,
-    "note_avis": 6.3,
-    "note_recence": 7.3,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "crm",
-      "hrr",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/41591485/s592/golem-le-tueur-de-londres.jpg",
-    "synopsis": "Londres, 1880. Une série de meurtres secoue le quartier malfamé de Limehouse. Selon la rumeur, ces crimes ne peuvent avoir été perpétrés que par le Golem, une créature des légendes hébraïques d’Europe centrale. Scotland Yard envoie Kildare, l’un de ses meilleurs détectives, pour tenter de résoudre l’affaire.",
-    "date_ajout": "2018-01-23",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm218459",
-    "titre": "Good Kids",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 6.1,
-    "note_recence": 7,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/85780729/s592/good-kids.jpg",
-    "synopsis": "Quatre lycéens exceptionnellement doués obtiennent haut la main leur diplôme, et réalisent qu'ils sont passés à côtés d'expériences clé de leurs vies en étant toujours des \"gentils gamins\". Ils décident de changer de mode de vie pendant les vacances d'été, pour profiter de leurs derniers jours ensemble avant l'université.",
-    "date_ajout": "2023-10-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm442008",
-    "titre": "Un réveillon sur mesure",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 20min",
-    "runtime_minutes": 80,
-    "note_avis": 5.4,
-    "note_recence": 7.6,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "fml",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/252654451/s592/un-reveillon-sur-mesure.jpg",
-    "synopsis": "À l’occasion de Noël, une professionnelle de l’évènementiel tombe amoureuse d’un client, père de famille.",
-    "date_ajout": "2019-11-29",
     "expiration": {
       "status": "none",
       "label": null,
@@ -70862,50 +49860,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm916723",
-    "titre": "100% bio",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 4.7,
-    "note_recence": 8.2,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/301618593/s592/100-bio.jpg",
-    "synopsis": "Marie une sage-femme de 30 ans, apprend qu’elle est enceinte de son copain un kiné du 11ème arrondissement de Paris. Elle décide aussitôt de filer au Pays Basque, annoncer la nouvelle à son père, Gabi, un charcutier basque. Thomas, qui n’a jamais été présenté à sa belle-famille, décide de saisir l’occasion pour lui faire une surprise et arrive sans prévenir à Sare, un village du pays Basque. Gabi découvre avec horreur que son gendre est végan ! Charcutier basque vs végan parisien, lequel convertira-t-il l’autre à son régime alimentaire ? Pour le bien de Marie et des Moreno, père et gendre arriveront-ils à cohabiter sans s’entretuer ?",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1160663",
     "titre": "Aux portes de l'enfer",
     "type": "film",
@@ -70943,7 +49897,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "ima": "2026-12-31"
@@ -70990,53 +49944,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/131079715/s592/starfish.jpg",
     "synopsis": "Un portrait unique, intime et honnête d'une fille en deuil de la perte de sa meilleure amie en même temps qu’elle rassemble les pièces d’un mystérieux puzzle. Cela se produit juste le jour où le monde se termine tel que nous le connaissons.",
     "date_ajout": "2020-10-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1426308",
-    "titre": "The Last Girl",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
-    "note_avis": 4.8,
-    "note_recence": 9.4,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "hrr",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/313008874/s592/the-last-girl.jpg",
-    "synopsis": "Un détective privé et sa partenaire sont entrainés dans un dédale d’intrigues lorsqu’ils traquent un tueur en série qui cible une famille fortunée avec un lourd secret.",
-    "date_ajout": "2024-03-20",
     "expiration": {
       "status": "none",
       "label": null,
@@ -71142,99 +50049,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm407240",
-    "titre": "Death Kiss",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 4.5,
-    "note_recence": 7.6,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/248722113/s592/death-kiss.jpg",
-    "synopsis": "Un homme au passé trouble arrive dans une ville infestée de criminels. Afin de protéger une jeune femme et sa fille, il va faire justice lui-même.",
-    "date_ajout": "2022-02-23",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm322143",
-    "titre": "Une vie violente",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 47min",
-    "runtime_minutes": 107,
-    "note_avis": 6.1,
-    "note_recence": 7.3,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/250633785/s592/une-vie-violente.jpg",
-    "synopsis": "Malgré la menace de mort qui pèse sur sa tête, Stéphane décide de retourner en Corse pour assister à l'enterrement de Christophe, son ami d'enfance et compagnon de lutte, assassiné la veille. C’est l’occasion pour lui de se rappeler les évènements qui l’ont vu passer, petit bourgeois cultivé de Bastia, de la délinquance au radicalisme politique et du radicalisme politique à la clandestinité.",
-    "date_ajout": "2017-08-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm99434",
     "titre": "Seule contre tous",
     "type": "film",
@@ -71316,54 +50130,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/235715042/s592/night-shot.jpg",
     "synopsis": "Une jeune blogueuse spécialisée dans l’exploration urbaine (urbex) décide d’aller visiter un gigantesque hôpital abandonné. Comme toujours elle part seule et de nuit avec son cameraman, afin de faire vivre en direct ses aventures à ses followers, avec une particularité : ne jamais couper la caméra ! Mais ce soir le lieu qu’elle a choisi va lui faire vivre un véritable cauchemar, les drames du passé y ont laissé leurs traces…",
     "date_ajout": "2021-06-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm180456",
-    "titre": "Or Noir",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2011,
-    "annee_moyenne": 2011,
-    "duree": "2h 10min",
-    "runtime_minutes": 130,
-    "note_avis": 6.6,
-    "note_recence": 5.5,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "hst",
-      "war",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/308830283/s592/or-noir.jpg",
-    "synopsis": "Les années 30, un pays imaginaire de l'Arabie... Auda, le fils du roi Amar, est confié à Nesib, le souverain de l'Etat voisin, pour qu'une paix durable puisse être garantie entre les deux royaumes. Mais une fois Auda devenu adulte, son père déclare la guerre à Nesib, une guerre dont le principal enjeu est le pétrole...",
-    "date_ajout": "2011-11-23",
     "expiration": {
       "status": "none",
       "label": null,
@@ -71466,53 +50232,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1120509",
-    "titre": "Never Back Down: La révolte",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 4.2,
-    "note_recence": 8.5,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "spt"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/263905024/s592/never-back-down-revolt.jpg",
-    "synopsis": "Une jeune femme se fait kidnapper et se retrouve forcée de participer à des combats clandestins d'élite. Elle va devoir tout faire en son pouvoir pour parvenir à se frayer un chemin vers la liberté.",
-    "date_ajout": "2022-02-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm822505",
     "titre": "La Reine de la Magie Noire",
     "type": "film",
@@ -71551,102 +50270,11 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "ima": "2026-10-31"
       }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm145959",
-    "titre": "Une bonne étoile pour Noël",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 24min",
-    "runtime_minutes": 84,
-    "note_avis": 6.7,
-    "note_recence": 6.4,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322449057/s592/une-bonne-etoile-pour-noel.jpg",
-    "synopsis": "Sally, une veuve, est très attachée à son chien Buddy. Elle le perd au cours d'une tempête. Tous ses efforts pour le retrouver restent vains, jusqu'à ce qu'elle retrouve sa trace à Boston, où il a été adopté par Mark, un veuf, et sa fille adolescente. Mark a peur de faire souffrir sa fille en rendant Buddy à Sally…",
-    "date_ajout": "2024-12-13",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm151447",
-    "titre": "The November Man",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 48min",
-    "runtime_minutes": 108,
-    "note_avis": 6.3,
-    "note_recence": 6.4,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/175827951/s592/the-november-man.jpg",
-    "synopsis": "Il n'y a pas pire ennemi que celui que l'on a formé.  Peter Deveraux est un ex-agent de la CIA réputé pour sa redoutable efficacité et un passé trouble.  Contacté pour assurer la protection d’Alice Fournier, responsable d'un centre d'accueil pour réfugiés, dont le témoignage pourrait compromettre l'un des favoris à l'élection présidentielle russe, Devereaux comprend rapidement qu’il a été manipulé et qu’il est devenu la cible de son ancien élève, David Mason…",
-    "date_ajout": "2014-10-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": false
@@ -71687,98 +50315,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/292804349/s592/after-blue-paradis-sale.jpg",
     "synopsis": "Dans un futur lointain, sur une planète sauvage, Roxy, une adolescente solitaire, délivre une criminelle ensevelie sous les sables. A peine libérée, cette dernière sème la mort. Tenues pour responsables, Roxy et sa mère Zora sont bannies de leur communauté et condamnées à traquer la meurtrière. Elles arpentent alors les territoires surnaturels de leur paradis sale…",
     "date_ajout": "2022-06-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm847117",
-    "titre": "Au cœur de l'hiver",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 7,
-    "note_recence": 8.2,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/268284950/s592/un-hiver-romantique.jpg",
-    "synopsis": "Chelsea est organisatrice d'évènements à Los Angeles. Lorsqu'elle hérite du chalet de son oncle dans le Colorado, la jeune femme, séduite par le mode de vie authentique des commercants, renonce à sa vie et décide d'aider le village à retrouver ses heures de gloire. La jeune femme se lance dans l'organisation d'un concours culinaire avec l'aide du charmant Owen...",
-    "date_ajout": "2021-01-13",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1553496",
-    "titre": "Saint-Ex",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 5.4,
-    "note_recence": 9.4,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "hst"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/340066446/s592/saint-exupery.jpg",
-    "synopsis": "En 1930, Antoine de Saint-Exupéry est pilote de l’Aéropostale en Argentine. Quand Henri Guillaumet, son meilleur ami et le meilleur pilote, disparaît dans la Cordillère des Andes, Saint-Ex décide malgré tout de partir à sa recherche. Cette quête impossible l'oblige à se dépasser, en faisant de sa capacité à rêver sa plus grande force.",
-    "date_ajout": "2024-12-11",
     "expiration": {
       "status": "none",
       "label": null,
@@ -71836,142 +50372,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm473759",
-    "titre": "Passion orageuse",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 5.5,
-    "note_recence": 7.9,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176330347/s592/passion-orageuse.jpg",
-    "synopsis": "Une institutrice tombe amoureuse d'un don juan après avoir perdu sa maison à la suite d'un ouragan.",
-    "date_ajout": "2020-08-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm440946",
-    "titre": "Un Noël à croquer",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 5.2,
-    "note_recence": 7.6,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "fml",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/94306542/s592/un-noel-a-croquer.jpg",
-    "synopsis": "Un cuisinier et la gérante du restaurant d'une station de ski tombent amoureux malgré leurs différences.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm361746",
-    "titre": "Ophélie",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 54min",
-    "runtime_minutes": 114,
-    "note_avis": 6.5,
-    "note_recence": 7.9,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "rma"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/191658948/s592/ophelia-2019.jpg",
-    "synopsis": "Ophelia devient la dame d'honneur de confiance de la reine Gertrude. À la fois belle et intelligente, elle attire rapidement l'attention du jeune prince Hamlet et un amour réciproque prend racine malgré les interdits de la cour. Alors qu'une guerre se prépare, les alliances se font et se défont au sein du royaume et les trahisons guettent au château d'Elsinore. Ophelia doit également faire des choix : préserver son grand amour ou protéger sa vie afin que son lourd secret ne soit dévoilé…",
-    "date_ajout": "2020-04-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1334537",
     "titre": "You'll Never Find Me",
     "type": "film",
@@ -72007,143 +50407,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/354967830/s592/youll-never-find-me.jpg",
     "synopsis": "En pleine nuit, alors que la tempête fait rage, une jeune femme dans le besoin vient frapper à la porte du mobile home de Patrick, méfiant et solitaire. Il la laisse entrer. Intrigués et soupçonneux, tandis qu’ils apprennent à se connaître, ils se sentent menacés. Mais que doivent-ils vraiment craindre ?",
     "date_ajout": "2024-04-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm428702",
-    "titre": "The Brave",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 43min",
-    "runtime_minutes": 103,
-    "note_avis": 5.2,
-    "note_recence": 7.9,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/245472406/s592/lazarat.jpg",
-    "synopsis": "Dans une ville gangrenée par un important trafic de drogue, un groupe d'élite de la police a décidé de mettre fin une fois pour toute à la guerre entre elle et la pègre locale.",
-    "date_ajout": "2021-06-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm998341",
-    "titre": "The Son",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 5.7,
-    "note_recence": 8.5,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "hrr",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/308788978/s592/son.jpg",
-    "synopsis": "L'histoire terrifiante d'un jeune garçon qui contracte une maladie mystérieuse... Sa mère, hantée par le passé elle aussi, va tout faire pour le débarrasser des forces maléfiques qui l'habitent.",
-    "date_ajout": "2023-04-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm223559",
-    "titre": "La Volante",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 5.6,
-    "note_recence": 6.7,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/101348054/s592/la-volante.jpg",
-    "synopsis": "Alors qu’il emmène sa femme à la maternité pour accoucher, Thomas percute et tue un jeune homme sur la route. Marie-France, la mère de ce dernier, ne parvient pas à se remettre du drame. Neuf ans plus tard, Marie-France devient la secrétaire de Thomas sans qu’il sache qui elle est. Peu à peu, elle s’immisce dangereusement dans sa vie et sa famille jusqu’à lui devenir indispensable.",
-    "date_ajout": "2015-09-02",
     "expiration": {
       "status": "none",
       "label": null,
@@ -72247,142 +50510,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1671843",
-    "titre": "The final run",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 4.3,
-    "note_recence": 9.7,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/340612880/s592/the-final-run.jpg",
-    "synopsis": "Pierce Butler, ancien Marine et contrebandier de marijuana à la retraite depuis longtemps, dont l'épouse souffre d'une forme rare de cancer, est contraint de reprendre ses anciennes activités de trafiquant pour effectuer une dernière livraison, dans l'espoir de sauver sa maison, son entreprise et sa femme malade.",
-    "date_ajout": "2026-03-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm449793",
-    "titre": "La Reine du crime : L'Affaire Florence Nightingale",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 6.3,
-    "note_recence": 7.6,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306800470/s592/la-reine-du-crime-presente-laffaire-florence-nightingale.jpg",
-    "synopsis": "La filleule de Florence Nightingale est retrouvée morte d'un traumatisme crânien dans un train. Difficile de retrouver le tueur suite au tollé général qu'a produit cette nouvelle macabre. Poussée par le manque de progrès de la police, Mabel Rogers commence sa propre enquête. Après avoir trouvé un certain nombre de suspect, elle fait appel à Agatha Christie pour l'aider à résoudre l'affaire.",
-    "date_ajout": "2019-04-19",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm233130",
-    "titre": "Arrêtez-moi là",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 6.5,
-    "note_recence": 7,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9366534/s592/arretez-moi-la.jpg",
-    "synopsis": "Chauffeur de taxi à Nice, Samson Cazalet, la trentaine, charge une cliente ravissante à l’aéroport. Un charme réciproque opère. Le soir même, la fille de cette femme disparaît et des preuves accablent Samson. Comment convaincre de son innocence lorsqu’on est le coupable idéal ?",
-    "date_ajout": "2016-01-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm219233",
     "titre": "Loving",
     "type": "film",
@@ -72428,232 +50555,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm474426",
-    "titre": "Warning : Do not play",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 5.3,
-    "note_recence": 7.9,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "hrr",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/259647934/s592/warning-do-not-play.jpg",
-    "synopsis": "Une réalisatrice en difficulté tente désespérément d'explorer la légende urbaine d'un film tourné par un fantôme, au risque de sa vie.",
-    "date_ajout": "2020-04-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1410142",
-    "titre": "The Draft!",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 24min",
-    "runtime_minutes": 84,
-    "note_avis": 4.9,
-    "note_recence": 9.7,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "hrr",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/343694495/s592/setan-alas.jpg",
-    "synopsis": "Cinq étudiants décident de passer le week-end dans une vieille villa en Indonésie, mais ce qui devait être un moment de détente se transforme en cauchemar : ils doivent affronter une entité terrifiante, toute-puissante et apparemment invincible, dans un jeu de stratégie et de survie. Le combat pour leur destin commence !",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm433589",
-    "titre": "Cops Incrimination",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 4.4,
-    "note_recence": 7.6,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/183660318/s592/cops-incrimination.jpg",
-    "synopsis": "Lorsque le fils d'un juge élu est tué par deux policiers et que le système les libère, un détective vétéran endurci trouve des dossiers impliquant les policiers et le juge fait équipe avec un autre père en deuil pour se faire justice lui-même.",
-    "date_ajout": "2020-05-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm831326",
-    "titre": "War of Technology",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 43min",
-    "runtime_minutes": 103,
-    "note_avis": 4.8,
-    "note_recence": 7.9,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "scf"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/156973253/s592/war-of-technology.jpg",
-    "synopsis": "Lorsqu'une bombe nucléaire provoque une impulsion électromagnétique qui prive d'électricité plus de 200 millions de personnes, une adolescente doit aider sa famille à survivre dans un monde nouveau et obscur.\n",
-    "date_ajout": "2026-06-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm156150",
-    "titre": "Tracks",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 52min",
-    "runtime_minutes": 112,
-    "note_avis": 7.1,
-    "note_recence": 6.1,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/167094240/s592/tracks-2014.jpg",
-    "synopsis": "En 1975, Robyn Davidson, une jeune femme  en quête de sens, abandonne sa vie urbaine, pour traverser le désert australien sur 2700 km, accompagnée de son chien et de quatre chameaux imprévisibles. Inspiré d’une histoire vraie, ce périple bouleversant, est jalonné de rencontres qui lui permettent de découvrir sa force intérieure. Sa solitude sera troublée par Rick Smolan un photographe du National Géographic qui couvre son expédition.",
-    "date_ajout": "2023-11-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1233214",
     "titre": "The Artifice Girl",
     "type": "film",
@@ -72688,142 +50589,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/305216909/s592/the-artifice-girl.jpg",
     "synopsis": "Une équipe d'agents spéciaux découvre un nouveau programme informatique révolutionnaire pour appâter et piéger les prédateurs en ligne. Après s'être associée avec le développeur perturbé du programme, ils découvrent bientôt que l'IA progresse rapidement au-delà de son objectif initial.",
     "date_ajout": "2025-10-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm244390",
-    "titre": "La Fille de Brest",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "2h 08min",
-    "runtime_minutes": 128,
-    "note_avis": 6.6,
-    "note_recence": 7,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9110591/s592/la-fille-de-brest.jpg",
-    "synopsis": "Dans son CHU de Brest, une pneumologue découvre un lien direct entre des morts suspectes et la prise d'un médicament autorisé sur le marché. Elle va se battre pour faire triompher la vérité. L’histoire d’Irène Frachon, à l’origine de la découverte du scandale du Médiator.",
-    "date_ajout": "2016-11-23",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1383594",
-    "titre": "Le Petit Blond de la Casbah",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "2h 09min",
-    "runtime_minutes": 129,
-    "note_avis": 6.5,
-    "note_recence": 9.1,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "hst"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/311369677/s592/le-petit-blond-de-la-casbah.jpg",
-    "synopsis": "L’enfance du cinéaste Antoine Lisner. Accompagné de son fils qui a le même âge que lui quand il a quitté l’Algérie en 1962, il vient présenter un long-métrage à Alger.",
-    "date_ajout": "2023-11-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1117297",
-    "titre": "Coup de foudre avant Noël",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 24min",
-    "runtime_minutes": 84,
-    "note_avis": 7,
-    "note_recence": 8.5,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/255443488/s592/coup-de-foudre-avant-noel.jpg",
-    "synopsis": "Un gars aimable se réveille comme par magie, le jour de Noël, dans une nouvelle vie excitante au premier regard, mais qui bien vite le place face à des défis.",
     "expiration": {
       "status": "none",
       "label": null,
@@ -72881,192 +50646,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm327787",
-    "titre": "Abonnée au Crime",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 5.2,
-    "note_recence": 7.3,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/64311205/s592/abonnee-au-crime.jpg",
-    "synopsis": "Romancière multi-récompensée, Hannah Ryan se voit pourtant remerciée par son éditeur, qui se sépare d'elle du jour au lendemain. Sous l'impulsion de son amie et agent, Hannah décide de publier des chroniques sanglantes sur Internet, fortement inspirées de sa vie. Lorsque l'éditeur est retrouvé mort de la manière décrite dans son premier chapitre, l'intérêt du public va aller en grandissant. S'agit-il d'une coïncidence ou un tueur reproduit-il les meurtres de ses chroniques ?",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm870694",
-    "titre": "See for Me",
-    "type": "film",
-    "chaine": "Shadowz",
-    "chaines": [
-      "Shadowz",
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/shadowz.png",
-    "logos_chaine": [
-      "assets/logos/shadowz.png",
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "sdz",
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 5.8,
-    "note_recence": 8.5,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "hrr",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/265578029/s592/see-for-me.jpg",
-    "synopsis": "Lorsque Sophie, ancienne skieuse aveugle, fait du cat-sitting dans un manoir isolé, trois voleurs envahissent les lieux pour s'emparer du coffre-fort caché. La seule défense de Sophie est Kelly, un vétéran de l'armée. Kelly aide Sophie à se défendre contre les envahisseurs et à survivre.",
-    "date_ajout": "2022-03-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm877203",
-    "titre": "Jamais sans toi",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 6,
-    "note_recence": 8.2,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/301822262/s592/jamais-sans-toi-2020.jpg",
-    "synopsis": "Emma va enfin voir Tracey à l'hôpital, après l'accident qui a failli leur coûter la vie à toutes les deux. Elle y croise Will, le frère de son amie, qui lui en veut d'avoir quitté le village peu de temps après le drame. Will doit présenter un projet de rénovation du vignoble local au conseil municipal mais sa principale opposante est Rose, la grand-mère d'Emma…",
-    "date_ajout": "2021-02-26",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm318284",
-    "titre": "Ava",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
-    "note_avis": 6.6,
-    "note_recence": 7.3,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/39815959/s592/ava.jpg",
-    "synopsis": "Ava, 13 ans, est en vacances au bord de l’océan quand elle apprend qu’elle va perdre la vue plus vite que prévu. Sa mère décide de faire comme si de rien n’était pour passer le plus bel été de leur vie. Ava affronte le problème à sa manière. Elle vole un grand chien noir qui appartient à un jeune homme en fuite…",
-    "date_ajout": "2017-06-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm97124",
     "titre": "Les amours imaginaires",
     "type": "film",
@@ -73102,194 +50681,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/92584948/s592/les-amours-imaginaires.jpg",
     "synopsis": "Francis et Marie, deux amis, tombent amoureux de la même personne. Leur trio va rapidement se transformer en relation malsaine où chacun va tenter d'interpréter à sa manière les mots et gestes de celui qu'il aime…",
     "date_ajout": "2017-05-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1117288",
-    "titre": "Noël au château enchanté",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 24min",
-    "runtime_minutes": 84,
-    "note_avis": 6.3,
-    "note_recence": 8.5,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302808807/s592/noel-au-chateau-enchante.jpg",
-    "synopsis": "Brooke et Margot décident de partir en Irlande pour retrouver la famille de leur père, décédé. Se faisant, au hasard de leur pérégrination, elles rencontrent Aiden, le comte de Glaslough et maître de Castle Hart. Elles se font alors passer pour une célèbre agence événementielle et acceptent d’organiser le gala de Noël annuel du château. Mais leurs mensonges les rattrapent…",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm147478",
-    "titre": "Sexy Therapy",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 5.8,
-    "note_recence": 6.4,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/189163410/s592/a-short-history-of-decay.jpg",
-    "synopsis": "A Brooklyn, Nathan Fisher, 35 ans, est un écrivain en panne d'inspiration. Lassée de le voir incapable d'achever son roman, sa petite-amie, femme ambitieuse sur le point d'éditer son premier livre, le quitte. Nathan apprend alors que son père est victime d'un accident cérébral, il décide de rendre visite à ses parents en Floride...",
-    "date_ajout": "2023-10-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm138096",
-    "titre": "Man Down",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 6,
-    "note_recence": 7,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "war"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/178420765/s592/man-down.jpg",
-    "synopsis": "Un vétéran de la guerre d'Afghanistan essaie de retrouver sa famille dans une Amérique post-apocalyptique.",
-    "date_ajout": "2017-11-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts350828",
-    "titre": "La doc et le véto",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2021,
-        "note": 7.4
-      }
-    ],
-    "duree": "89 min/ép.",
-    "runtime_minutes": 89,
-    "note_avis": 7.4,
-    "note_recence": 8.5,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320292107/s592/la-doc-et-le-veto.jpg",
-    "synopsis": "Emma Colin, jeune diplômée de la Médecine de Paris, arrive dans le petit village auvergnat de Valerande-les-Chantelles. Elle fait la connaissance de Pierre Josset, le vétérinaire local et enfant du pays, de retour après une carrière citadine et un divorce. Contraints de partager leurs cabinets.",
-    "date_ajout": "2026-02-04",
     "expiration": {
       "status": "none",
       "label": null,
@@ -73344,230 +50735,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1368947",
-    "titre": "Bad Actor",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "2h 09min",
-    "runtime_minutes": 129,
-    "note_avis": 7.4,
-    "note_recence": 9.4,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/334356604/s592/bad-actor.jpg",
-    "synopsis": "Lors du tournage d'un film, l'actrice Sandra Navarro accuse son partenaire de jeu, Daniel Zavala, d'agression sexuelle sur le plateau durant le tournage d'une scène.  Daniel clame son innocence tandis que la production tente d'étouffer l'affaire pour éviter un scandale public.\n",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm169071",
-    "titre": "Les Petits Princes",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 6.3,
-    "note_recence": 6.1,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302584594/s592/les-petits-princes-2013.jpg",
-    "synopsis": "JB, jeune prodige de 16 ans, est le dernier à intégrer le centre de formation où évoluent les plus grands espoirs du ballon rond. Entre l'amitié, la compétition, les rivalités et son attirance pour Lila, une jeune fille passionnée de street art, JB va devoir se battre malgré le lourd secret qui pourrait l'empêcher d'atteindre son rêve.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1219652",
-    "titre": "Les Agitateurs",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 5.5,
-    "note_recence": 9.1,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/317521441/s592/horseplay-2022.jpg",
-    "synopsis": "C’est les vacances de Noël et Andy quitte la ville pour passer du temps dans une villa de luxe avec ses meilleurs amis. Le groupe, composé d’une dizaine de garçons à moitié nus et à priori hétéros, passe ses journées à jouer aux jeux vidéo, à boire, à nager et à se faire des farces très portées sur le corps de l’autre. Dans ce microcosme éloigné de la société, les comportements transgressifs et hypersexuels prennent rapidement le dessus. Pourtant, l’arrivée d’un nouveau membre, coïncidant avec la fuite d’une photo très « hot », suffit pour faire exploser la bonne entente initiale.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm511408",
-    "titre": "Représailles: la traque sauvage",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 4.6,
-    "note_recence": 7.9,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/267494685/s592/daughter-of-the-wolf.jpg",
-    "synopsis": "Clair Hamilton, ex-consultante militaire, revient du Moyen-Orient au moment de la mort de son père. Elle est confrontée à Charlie, son fils de 13 ans, en pleine crise d'adolescence. Alors qu'elle s'apprête à hériter d'une somme confortable, Clair est confrontée à un gang local qui prend son fils en otage. En représailles, elle enlève à son tour un des kidnappeurs et l'emmène affronter une nature hostile en Alaska...",
-    "date_ajout": "2019-12-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1544424",
-    "titre": "Levels",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 5,
-    "note_recence": 9.4,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "trl",
-      "scf"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321819567/s592/levels.jpg",
-    "synopsis": "Dans un futur proche, Joe assiste, impuissant, au meurtre de sa compagne Ash, avant que le mystérieux tueur ne disparaisse instantanément. Dévasté, il sombre dans le désespoir, jusqu’à découvrir que la réalité est une illusion. Ash existe encore ailleurs, et Joe est peut-être le seul à pouvoir la retrouver.",
-    "date_ajout": "2025-10-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
     "on_tnt": false
   },
   {
@@ -73663,144 +50830,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts21543",
-    "titre": "Hawaii 5-0",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "saisons_disponibles": [
-      {
-        "saison": 7,
-        "annee": 2016,
-        "note": 7.4
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 7.4,
-    "note_recence": 7,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm",
-      "drm",
-      "trl",
-      "rma"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321743378/s592/hawaii-5-0.jpg",
-    "synopsis": "Le détective Steve McGarrett se rend à Oahu pour enquêter sur l'assassinat de son père. Une fois sur place, le gouverneur le persuade de rester et rejoindre l'unité des forces spéciales, qui combat le crime à Hawaii…",
-    "date_ajout": "2015-09-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "mlt": "2026-10-18"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts21532",
-    "titre": "Rizzoli & Isles",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+",
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "tf1",
-      "sxp"
-    ],
-    "annee": 2010,
-    "annee_fin": 2015,
-    "annee_moyenne": 2013,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2010,
-        "note": 7.7
-      },
-      {
-        "saison": 2,
-        "annee": 2011,
-        "note": 7.7
-      },
-      {
-        "saison": 3,
-        "annee": 2012,
-        "note": 7.7
-      },
-      {
-        "saison": 4,
-        "annee": 2013,
-        "note": 7.7
-      },
-      {
-        "saison": 6,
-        "annee": 2015,
-        "note": 7.7
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 7.7,
-    "note_recence": 6.1,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321055373/s592/rizzoli-and-isles.jpg",
-    "synopsis": "Jane Rizzoli, une enquêtrice de Boston, fait équipe avec le médecin légiste Maura Isles pour résoudre des crimes.\n\nJane est une flic à forte personnalité, qui ne s’en laisse pas conter par ses collègues masculins, ni par ses supérieurs. Ce qu’elle demande est d’être respectée en tant que femme, mais surtout en tant que femme-flic qui est compétente dans son boulot. Maura a toujours été fascinée par les explications rationnelles et les possibilités qu’offrait la science. Élève douée, voire brillante, bien qu’un peu introvertie, elle considère la mort comme une chose qui relève uniquement de la physique et non de la mystique. Le tandem est assez clairement défini. À Rizzoli, l’action. À Isles, la réflexion.",
-    "date_ajout": "2026-05-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "mlt": "2026-10-19"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-ts27623",
     "titre": "Mia et Moi",
     "type": "serie",
@@ -73864,113 +50893,6 @@ const CATALOG_DATA = [
     },
     "on_prime": false,
     "on_tnt": false
-  },
-  {
-    "id": "jw-ts87930",
-    "titre": "Pure",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2019,
-        "note": 7.2
-      }
-    ],
-    "duree": "34 min/ép.",
-    "runtime_minutes": 34,
-    "note_avis": 7.2,
-    "note_recence": 7.9,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/111048799/s592/pure-2019.jpg",
-    "synopsis": "Malheureuse, Marnie, 24 ans, quitte tout pour atterrir à Londres. Cette grande ville, où elle ne connaît personne, semble le lieu idéal pour prendre un nouveau départ. A la fois émerveillée et terrifiée, la jeune femme réalise vite qu’elle n’est pas la seule à se sentir perdue. Alors qu’elle entame ce voyage sur la découverte de soi, Marnie est malgré elle victime d’un trouble compulsif obsessionnel qui se manifeste par des pensées intrusives, souvent sexuelles, qui affectent profondément son quotidien et ses relations.",
-    "date_ajout": "2026-04-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "art": "2027-04-09"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts313367",
-    "titre": "Wolf Pack",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2023,
-        "note": 6.5
-      }
-    ],
-    "duree": "52 min/ép.",
-    "runtime_minutes": 52,
-    "note_avis": 6.5,
-    "note_recence": 9.1,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "fnt",
-      "hrr",
-      "scf"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302456612/s592/wolf-pack.jpg",
-    "synopsis": "Everett et Blake voient leurs vies changer à jamais après qu'un feu de forêt en Californie ait réveillé une créature surnaturelle terrifiante. Blessés, les adolescents sont inexplicablement attirés l'un par l'autre et par deux autres, les faux jumeaux Harlan et Luna, qui ont été adoptés seize ans plus tôt par un garde forestier après un autre mystérieux incendie de forêt. Alors que la pleine lune se lève, les quatre adolescents se réunissent pour percer le secret qui les relie : la morsure et le sang d'un loup-garou.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
   },
   {
     "id": "jw-ts35104",
@@ -74227,8 +51149,8 @@ const CATALOG_DATA = [
     ],
     "annee": 2014,
     "annee_moyenne": 2014,
-    "duree": "1h 48min",
-    "runtime_minutes": 108,
+    "duree": "1h 47min",
+    "runtime_minutes": 107,
     "note_avis": 6.3,
     "note_recence": 6.4,
     "note_globale": 6.4,
@@ -74865,7 +51787,7 @@ const CATALOG_DATA = [
       "expirationDate": null,
       "packageExpirations": {}
     },
-    "on_prime": true,
+    "on_prime": false,
     "on_tnt": false
   },
   {
@@ -75238,7 +52160,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1634392",
@@ -75643,9 +52565,9 @@ const CATALOG_DATA = [
     "annee_moyenne": 2026,
     "duree": "1h 32min",
     "runtime_minutes": 92,
-    "note_avis": 5.5,
+    "note_avis": 5.4,
     "note_recence": 10,
-    "note_globale": 7.8,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "horreur_epouvante"
@@ -75662,7 +52584,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 108,
+      "daysLeft": 109,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "ima": "2027-01-31"
@@ -76137,7 +53059,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm461997",
@@ -76460,7 +53382,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "ima": "2026-12-31"
@@ -76552,7 +53474,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "ima": "2026-12-31"
@@ -76645,7 +53567,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "ima": "2026-12-31"
@@ -78741,7 +55663,7 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm469228",
@@ -79924,7 +56846,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 46,
+      "daysLeft": 47,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "ima": "2026-11-30"
@@ -79939,17 +56861,14 @@ const CATALOG_DATA = [
     "type": "film",
     "chaine": "Sooner",
     "chaines": [
-      "Sooner",
-      "M6+"
+      "Sooner"
     ],
     "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/sooner.png",
-      "assets/logos/m6_plus.png"
+      "assets/logos/sooner.png"
     ],
     "package_slugs": [
-      "snr",
-      "sxp"
+      "snr"
     ],
     "annee": 2012,
     "annee_moyenne": 2012,
@@ -79982,7 +56901,7 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-tm1369103",
@@ -80158,7 +57077,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "ima": "2026-10-31"
@@ -80701,7 +57620,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "ima": "2026-10-31"
@@ -82063,7 +58982,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "ima": "2026-12-31"
@@ -82295,7 +59214,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "ima": "2026-12-31"
@@ -82342,7 +59261,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "ima": "2026-12-31"
@@ -82388,7 +59307,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "ima": "2026-10-31"
@@ -83063,7 +59982,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "ima": "2026-10-31"
@@ -83517,7 +60436,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "ima": "2026-10-31"
@@ -84305,7 +61224,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 136,
+      "daysLeft": 137,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "ima": "2027-02-28"
@@ -86926,7 +63845,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
+      "daysLeft": 17,
       "expirationDate": "2026-10-31",
       "packageExpirations": {
         "ima": "2026-10-31"
@@ -87294,7 +64213,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "ima": "2026-12-31"
@@ -88306,7 +65225,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "ima": "2026-12-31"
@@ -88800,7 +65719,7 @@ const CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 77,
+      "daysLeft": 78,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "ima": "2026-12-31"
@@ -91002,1276 +67921,19 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts501096",
-    "titre": "Le Mystère de la chambre jaune",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2026,
-        "note": 5.9
-      }
-    ],
-    "duree": "51 min/ép.",
-    "runtime_minutes": 51,
-    "note_avis": 5.9,
-    "note_recence": 10,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354328338/s592/le-mystere-de-la-chambre-jaune.jpg",
-    "synopsis": "Jo, jeune journaliste, apprend avec stupeur qu'une tentative de meurtre a eu lieu dans son village natal, L'Artuby, niché dans les Gorges du Verdon. Elle est dévastée d'apprendre que la victime n'est autre que Mathilde, une proche amie d'enfance, qui est dans le coma depuis l'agression. Les circonstances du drame l'intriguent particulièrement : lorsqu'alertés par les cris, certains villageois sont parvenus à entrer dans la chambre de la victime, celle-ci s'y trouvait seule. La porte blindée était pourtant fermée et il n’y a aucune autre issue… Mais où a bien pu passer l'agresseur ?",
-    "date_ajout": "2026-10-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "mlt": "2026-10-18"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts6495",
-    "titre": "Esprits criminels",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2010,
-    "annee_fin": 2018,
-    "annee_moyenne": 2014,
-    "saisons_disponibles": [
-      {
-        "saison": 6,
-        "annee": 2010,
-        "note": 8.1
-      },
-      {
-        "saison": 14,
-        "annee": 2018,
-        "note": 8.1
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 8.1,
-    "note_recence": 6.4,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/252470091/s592/esprits-criminels.jpg",
-    "synopsis": "L'équipe des profilers étudie les comportements et les esprits torturés des criminels les plus dangereux du pays, afin d'anticiper les crimes d'un éventuel tueur. Chaque membre de cette unité d'élite a sa personnalité, son histoire mais aussi sa spécialité. Ils sont tous dépendants les uns des autres et les résultats dépendent aussi de cette complémentarité.",
-    "date_ajout": "2005-09-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "mlt": "2026-10-18"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm39896",
-    "titre": "Dark Shadows",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2012,
-    "annee_moyenne": 2012,
-    "duree": "1h 53min",
-    "runtime_minutes": 113,
-    "note_avis": 6.2,
-    "note_recence": 5.8,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fnt",
-      "hrr"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/295699541/s592/dark-shadows.jpg",
-    "synopsis": "En 1752, Joshua et Naomi Collins quittent Liverpool, en Angleterre, pour prendre la mer avec leur jeune fils Barnabas, et commencer une nouvelle vie en Amérique. Mais même un océan ne parvient pas à les éloigner de la terrible malédiction qui s’est abattue sur leur famille. Vingt années passent et Barnabas a le monde à ses pieds, ou du moins la ville de Collinsport, dans le Maine. Riche et puissant, c’est un séducteur invétéré… jusqu’à ce qu’il commette la grave erreur de briser le cœur d’Angelique Bouchard. C’est une sorcière, dans tous les sens du terme, qui lui jette un sort bien plus maléfique que la mort : celui d’être transformé en vampire et enterré vivant.  Deux siècles plus tard, Barnabas est libéré de sa tombe par inadvertance et débarque en 1972 dans un monde totalement transformé…",
-    "date_ajout": "2024-10-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm307535",
-    "titre": "Nosferatu - Der Untote",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "2h 13min",
-    "runtime_minutes": 133,
-    "note_avis": 7.1,
-    "note_recence": 9.4,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "fnt",
-      "hrr"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/345560961/s592/nosferatu-2023.jpg",
-    "synopsis": "Dans l'Allemagne de 1838, Thomas Hutter, agent immobilier, est envoyé en Transylvanie pour rencontrer le mystérieux comte Orlok, intéressé par l'achat d'une propriété à Wisborg. Laissant derrière lui sa jeune épouse, Ellen, sujette à des visions inquiétantes, Thomas découvre rapidement la véritable nature du comte : un vampire terrifiant. Pendant ce temps, à Wisborg, Ellen est de plus en plus tourmentée par des cauchemars prémonitoires liés à Orlok. Lorsque le comte s'installe dans sa nouvelle demeure, une série d'événements horrifiques se déclenche, plongeant la ville dans la terreur et la désolation.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts20305",
-    "titre": "Naruto",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+",
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png",
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "tf1",
-      "sxp"
-    ],
-    "annee": 2002,
-    "annee_fin": 2017,
-    "annee_moyenne": 2010,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2002,
-        "note": 8.4
-      },
-      {
-        "saison": 2,
-        "annee": 2007,
-        "note": 8.4
-      },
-      {
-        "saison": 3,
-        "annee": 2009,
-        "note": 8.4
-      },
-      {
-        "saison": 4,
-        "annee": 2005,
-        "note": 8.4
-      },
-      {
-        "saison": 5,
-        "annee": 2017,
-        "note": 8.4
-      }
-    ],
-    "duree": "24 min/ép.",
-    "runtime_minutes": 24,
-    "note_avis": 8.4,
-    "note_recence": 5.2,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "fnt",
-      "scf"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322125116/s592/naruto.jpg",
-    "synopsis": "Dans le village de Konoha vit Naruto, un jeune garçon détesté et craint des villageois du fait qu'il détienne en lui Kyuubi (démon renard à neuf queues) d'une incroyable force, qui a tué un grand nombre de personnes. Le ninja le plus puissant de Konoha à l'époque, le quatrième Hokage, Minato Namikaze, réussit à sceller ce démon dans le corps de Naruto. Malheureusement il y laissa la vie.\n\nC'est ainsi que douze ans plus tard, Naruto rêve de devenir le plus grand Hokage de Konoha afin que tous le reconnaissent à sa juste valeur. Mais la route pour devenir Hokage est très longue et Naruto sera confronté à un bon nombre d'épreuves et devra affronter de nombreux ennemis pour atteindre son but !",
-    "date_ajout": "2013-10-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm369243",
-    "titre": "Upgrade",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 7.5,
-    "note_recence": 7.6,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "trl",
-      "scf"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/85378743/s592/upgrade.jpg",
-    "synopsis": "Après la mort de son épouse, lors d'une violente agression, qui l'a lui même laissé paralysé, Grey Trace est contacté par un inventeur milliardaire, qui propose de lui administrer un remède expérimental qui va améliorer son corps et ses facultés. Désormais doté d'un implant fonctionnant à l'intelligence artificielle, Grey voit ses capacités physiques décuplées et cherche à retrouver ses agresseurs, afin de leur faire payer la mort de sa femme.",
-    "date_ajout": "2026-01-31",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts11564",
-    "titre": "Meurtres au paradis",
-    "type": "serie",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "saisons_disponibles": [
-      {
-        "saison": 12,
-        "annee": 2023,
-        "note": 7.8
-      }
-    ],
-    "duree": "59 min/ép.",
-    "runtime_minutes": 59,
-    "note_avis": 7.8,
-    "note_recence": 9.1,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/345795578/s592/meurtres-au-paradis.jpg",
-    "synopsis": "Le détective Richard Poole est muté à Sainte Marie, une île des Caraïbes. Totalement inadapté au style de vie caribéen, Richard déteste le soleil, la mer et le sable et n'est pas habitué aux méthodes policières de Sainte Marie. Travaillant de pair avec l'exotique Camille, chaque semaine, Richard enquête sur des meurtres complexes et inhabituels.",
-    "date_ajout": "2026-06-29",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 03/11",
-      "daysLeft": 19,
-      "expirationDate": "2026-11-03",
-      "packageExpirations": {
-        "fra": "2026-11-03"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm222910",
-    "titre": "Trafic d'adolescents",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 5.5,
-    "note_recence": 6.7,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/190104464/s592/trafic-dadolescents.jpg",
-    "synopsis": "Katherine Hudson est une veuve vivant une vie de banlieue sûre en Californie avec sa fille adolescente, Emma. Quand cette dernière fait le mur pour se rendre à un rendez-vous, elle est droguée, kidnappée et forcée d’intégrer un trafic sexuel souterrain. Katherine prend dès lors les choses en mains avant qu’Emma soit vendue sur le marché international.",
-    "date_ajout": "2026-09-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm336356",
-    "titre": "La Prophétie de l'Horloge",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
-    "note_avis": 6.1,
-    "note_recence": 7.6,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "cmy",
-      "fnt",
-      "hrr",
-      "fml",
-      "trl",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/124996862/s592/la-prophetie-de-lhorloge.jpg",
-    "synopsis": "Cette aventure magique raconte le récit frissonnant de Lewis, 10 ans, lorsqu’il part vivre chez son oncle dans une vieille demeure dont les murs résonnent d’un mystérieux tic-tac. Mais lorsque Lewis réveille les morts accidentellement dans cette ville, en apparence tranquille, c’est tout un monde secret de mages et de sorcières qui vient la secouer.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts222614",
-    "titre": "Superman & Loïs",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 3,
-        "annee": 2023,
-        "note": 7.8
-      },
-      {
-        "saison": 4,
-        "annee": 2024,
-        "note": 7.8
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 7.8,
-    "note_recence": 9.4,
-    "note_globale": 8.6,
-    "etoiles": 5,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "scf"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/245126565/s592/superman-and-lois.jpg",
-    "synopsis": "Le Daily Planet est racheté par Morgan Edge dont l'une des premières décisions est de renvoyer Clark Kent. Le même jour, le journaliste perd sa mère. Il se rend à Smallville pour les funérailles de la vieille dame, accompagné de son épouse Loïs Lane et de leurs jumeaux, Jonathan et Jordan…",
-    "date_ajout": "2025-07-01",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
-      "expirationDate": "2026-10-19",
-      "packageExpirations": {
-        "mlt": "2026-10-19"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false,
-    "annee_fin": 2024
-  },
-  {
-    "id": "jw-ts36147",
-    "titre": "Lucifer",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "saisons_disponibles": [
-      {
-        "saison": 3,
-        "annee": 2017,
-        "note": 8
-      }
-    ],
-    "duree": "47 min/ép.",
-    "runtime_minutes": 47,
-    "note_avis": 8,
-    "note_recence": 7.3,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "fnt",
-      "scf"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/289826994/s592/lucifer.jpg",
-    "synopsis": "Lassé d’être le Seigneur des Enfers, le diable s’installe à Los Angeles où il ouvre une boîte de nuit et se lie avec une policière de la brigade criminelle…",
-    "date_ajout": "2026-10-05",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
-      "expirationDate": "2026-10-19",
-      "packageExpirations": {
-        "mlt": "2026-10-19"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm842459",
-    "titre": "La Maladroite",
-    "type": "film",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 24min",
-    "runtime_minutes": 84,
-    "note_avis": 7.6,
-    "note_recence": 7.9,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/304436003/s592/la-maladroite.jpg",
-    "synopsis": "Ce téléfilm retrace l'histoire tragique de Stella, morte à l'âge de 6 ans de maltraitance. Que ce soit à l'école ou à l'hôpital, on attribue les bleus sur le corps de la fillette à une déficience immunitaire. Souvent, on dit tout simplement qu'elle est maladroite car elle tombe et se blesse tout le temps. Les parents disent qu'elle a une santé fragile, ce qui explique son absence récurrente à l'école. Jusqu'au jour où elle ne viendra plus jamais.",
-    "date_ajout": "2026-10-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm132448",
-    "titre": "Star Trek",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2009,
-    "annee_moyenne": 2009,
-    "duree": "2h 07min",
-    "runtime_minutes": 127,
-    "note_avis": 7.9,
-    "note_recence": 4.9,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176304133/s592/star-trek.jpg",
-    "synopsis": "James T. Kirk tente d'être à la hauteur de son père sous le contrôle de M. Spock alors qu'un Romulien vengeur du futur crée des trous noirs pour détruire la Fédération, planète par planète.",
-    "date_ajout": "2009-05-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1265748",
-    "titre": "Farang",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 6.3,
-    "note_recence": 9.1,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/305469461/s592/farang.jpg",
-    "synopsis": "Sam, un détenu sans problème, se retrouve malgré lui mêlé à une rixe qui se termine mal lors de sa première sortie conditionnelle : son seul salut : la fuite ! 5 ans plus tard, il cherche à acheter un terrain pour finaliser sa nouvelle vie : femme, enfant, travail, tout lui sourit, mais lors de l'achat, à la dernière minute, il apprend que le terrain n'est plus disponible. Il finit par rencontrer le mystérieux acheteur, qui n'est autre que Narong, le parrain local, qui lui fait une offre...",
-    "date_ajout": "2026-09-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts25423",
-    "titre": "Inazuma Eleven",
-    "type": "serie",
-    "chaine": "TF1+",
-    "chaines": [
-      "TF1+"
-    ],
-    "logo_chaine": "assets/logos/tf1.png",
-    "logos_chaine": [
-      "assets/logos/tf1.png"
-    ],
-    "package_slugs": [
-      "tf1"
-    ],
-    "annee": 2008,
-    "annee_fin": 2012,
-    "annee_moyenne": 2010,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2008,
-        "note": 6.8
-      },
-      {
-        "saison": 2,
-        "annee": 2011,
-        "note": 6.8
-      },
-      {
-        "saison": 3,
-        "annee": 2012,
-        "note": 6.8
-      }
-    ],
-    "duree": "23 min/ép.",
-    "runtime_minutes": 23,
-    "note_avis": 6.8,
-    "note_recence": 5.2,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "cmy",
-      "fnt",
-      "fml",
-      "scf",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/343990147/s592/inazuma-eleven.jpg",
-    "synopsis": "Un jeune gardien de but talentueux tente de redonner vie à l'équipe peu reluisante de son école dans cette série animée basée sur le manga et le jeu vidéo à succès.",
-    "date_ajout": "2026-02-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {
-        "mlt": "2026-10-17"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts20845",
-    "titre": "Under the Dome",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2013,
-    "annee_fin": 2015,
-    "annee_moyenne": 2014,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2013,
-        "note": 6.5
-      },
-      {
-        "saison": 2,
-        "annee": 2014,
-        "note": 6.5
-      },
-      {
-        "saison": 3,
-        "annee": 2015,
-        "note": 6.5
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 6.5,
-    "note_recence": 6.4,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "scf"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/77885110/s592/under-the-dome.jpg",
-    "synopsis": "D'après le roman du même nom de Stephen King, cette émission suit les habitants de Chester's Mill, une petite ville des États-Unis où les événements exceptionnels sont rares. Mais un jour, un dôme invisible apparaît et englobe toute la ville. Les habitants sont pris au piège et ne peuvent plus sortir de la ville, et personne ne peut y entrer. Ils doivent dorénavant se soutenir mutuellement pour traverser cette épreuve, mais l'isolement du monde extérieur mettra à rude épreuve la communauté.",
-    "date_ajout": "2026-10-13",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts452246",
-    "titre": "Un soupçon",
-    "type": "serie",
-    "chaine": "France TV",
-    "chaines": [
-      "France TV"
-    ],
-    "logo_chaine": "assets/logos/france_tv.png",
-    "logos_chaine": [
-      "assets/logos/france_tv.png"
-    ],
-    "package_slugs": [
-      "fra"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 6.5
-      }
-    ],
-    "duree": "49 min/ép.",
-    "runtime_minutes": 49,
-    "note_avis": 6.5,
-    "note_recence": 9.4,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321414180/s592/un-soupcon.jpg",
-    "synopsis": "Librement inspiré d'une histoire vraie. Qui est Isabelle ? Une meurtrière ou une mère au foyer ? C’est ce que veut comprendre la capitaine de gendarmerie Mathilde Delboscq chargée de l’enquête sur la mort du mari d’Isabelle... C’est le début d’une enquête, puis d’une plongée dans la vie d’une femme au destin unique.",
-    "date_ajout": "2026-10-12",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 16,
-      "expirationDate": "2026-10-31",
-      "packageExpirations": {
-        "mlt": "2026-10-19",
-        "fra": "2026-10-31"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-ts87912",
-    "titre": "Le Fléau",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2020,
-        "note": 5.7
-      }
-    ],
-    "duree": "57 min/ép.",
-    "runtime_minutes": 57,
-    "note_avis": 5.7,
-    "note_recence": 8.2,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "fnt",
-      "hrr",
-      "trl",
-      "scf"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/347313842/s592/the-stand.jpg",
-    "synopsis": "Le Fléau (The Stand) est la vision apocalyptique de Stephen King d’un monde décimé par la peste et engagé dans une lutte élémentaire entre le bien et le mal. Le destin de l’humanité repose sur les frêles épaules de Mère Abagail, 108 ans, et d’une poignée de survivants. Leurs pires cauchemars sont incarnés par un homme au sourire mortel et aux pouvoirs indescriptibles : Randall Flagg, l’homme noir.",
-    "date_ajout": "2026-10-13",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts444422",
-    "titre": "Tsugai - Daemons of the Shadow Realm",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2026,
-        "note": 7.7
-      }
-    ],
-    "duree": "23 min/ép.",
-    "runtime_minutes": 23,
-    "note_avis": 7.7,
-    "note_recence": 10,
-    "note_globale": 8.9,
-    "etoiles": 5,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "drm",
-      "fnt",
-      "scf"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354197036/s592/daemons-of-the-shadow-realm.jpg",
-    "synopsis": "Yuru, le chasseur, vit séparé de sa sœur jumelle Asa, enfermée dans une prison pour satisfaire un rituel. Tous deux ignorent la vérité sur leur naissance et lorsque leur paisible village est attaqué par de mystérieux ennemis, Yuru découvre qu’il peut commander un puissant duo de créatures appelé « Tsugai ».",
-    "date_ajout": "2026-04-04",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-15",
-      "packageExpirations": {
-        "mlt": "2026-10-15"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts222852",
-    "titre": "Jujutsu Kaisen",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "saisons_disponibles": [
-      {
-        "saison": 2,
-        "annee": 2023,
-        "note": 8.5
-      }
-    ],
-    "duree": "24 min/ép.",
-    "runtime_minutes": 24,
-    "note_avis": 8.5,
-    "note_recence": 9.1,
-    "note_globale": 8.8,
-    "etoiles": 5,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "fnt",
-      "trl",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/338327425/s592/jujutsu-kaisen.jpg",
-    "synopsis": "Souffrance, regrets, humiliations... les sentiments négatifs que ressentent les humains se transforment peu à peu en fléaux se cachant dans notre existence. Sévissant dans le monde entier, ils sont capables d'entraîner les gens dans de terribles malheurs et, parfois même, jusqu'à la mort. De plus, ces créatures ne peuvent être exorcisées que par un autre fléau.\r\n\r\nLycéen ordinaire, Yuji Itadori est toutefois doté d'une force physique hors du commun. Un jour, pour sauver un ami attaqué par un fléau, il mange un des doigts du démon à deux visages, devenant à son tour un fléau. Dès lors, il partage son corps avec le démon...",
-    "date_ajout": "2023-07-20",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-15",
-      "packageExpirations": {
-        "mlt": "2026-10-15"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts20536",
-    "titre": "Fringe",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2009,
-    "annee_fin": 2010,
-    "annee_moyenne": 2010,
-    "saisons_disponibles": [
-      {
-        "saison": 2,
-        "annee": 2009,
-        "note": 8.4
-      },
-      {
-        "saison": 3,
-        "annee": 2010,
-        "note": 8.4
-      }
-    ],
-    "duree": "46 min/ép.",
-    "runtime_minutes": 46,
-    "note_avis": 8.4,
-    "note_recence": 5.2,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/134630249/s592/fringe.jpg",
-    "synopsis": "L'agent spécial du FBI Olivia Dunham, le scientifique Walter Bishop, brillant mais anciennement interné, et son fils Peter, intrigant et réticent, découvrent un mystère mortel impliquant une série d'événements incroyables et réalisent qu'ils font peut-être partie d'un projet plus vaste et plus inquiétant qui brouille la frontière entre science-fiction et technologie.",
-    "date_ajout": "2025-11-30",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 6 j",
-      "daysLeft": 6,
-      "expirationDate": "2026-10-21",
-      "packageExpirations": {
-        "mlt": "2026-10-21"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm243955",
-    "titre": "Dernier train pour Busan",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 58min",
-    "runtime_minutes": 118,
-    "note_avis": 7.6,
-    "note_recence": 7,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "act",
-      "hrr",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/241739745/s592/dernier-train-pour-busan.jpg",
-    "synopsis": "Tandis qu'un virus qui transforme tous les êtres vivants en zombies ravage la Corée du Sud, un père et sa fille tentent de survivre dans le dernier train pour Busan, l'unique ville à n'avoir pas encore été contaminée.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts11795",
-    "titre": "Castle",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2010,
-    "annee_fin": 2012,
-    "annee_moyenne": 2011,
-    "saisons_disponibles": [
-      {
-        "saison": 3,
-        "annee": 2010,
-        "note": 8.1
-      },
-      {
-        "saison": 5,
-        "annee": 2012,
-        "note": 8.1
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 8.1,
-    "note_recence": 5.5,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/348954715/s592/castle.jpg",
-    "synopsis": "Richard Castle est un écrivain à succès spécialisé dans les thrillers. La police s'intéresse de près à lui lorsqu'un tueur copie les meurtres mis en scène dans ses romans. Une fois cette affaire résolue, Castle devient consultant pour la police de New York…",
-    "date_ajout": "2021-02-22",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-15",
-      "packageExpirations": {
-        "mlt": "2026-10-15"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm101914",
     "titre": "Fighter",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Ciné+ OCS",
     "chaines": [
-      "Molotov Gratuit"
+      "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "package_slugs": [
-      "mlt"
+      "aoc"
     ],
     "annee": 2010,
     "annee_moyenne": 2010,
@@ -92293,157 +67955,65 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/177869500/s592/fighter.jpg",
     "synopsis": "Micky Ward est un jeune boxeur dont la carrière stagne. Il va rencontrer Charlene, une femme au caractère bien trempé, qui va l'aider à s'affranchir de l'influence négative de sa mère, qui gère maladroitement sa carrière, et de ses sœurs envahissantes. Son demi-frère Dicky Eklund, lui, a connu la gloire sur le ring, il y a bien longtemps. C'était avant qu'il ne sombre dans la drogue, avant son séjour en prison. Entre le sportif en quête d'un second souffle et l'ex-toxico, il y a longtemps que le courant ne passe plus. Trop de non-dits, d'échecs et de souffrances. Pourtant, parfois, les hommes changent, et Micky et Dicky vont peut-être avoir ensemble, la chance de réussir ce qu'ils ont raté chacun de leur côté…",
+    "date_ajout": "2026-09-06",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-10-14",
+      "packageExpirations": {
+        "aoc": "2026-10-14"
+      }
     },
     "on_prime": false,
     "on_tnt": false
   },
   {
-    "id": "jw-tm50232",
-    "titre": "Les 3 Royaumes - 1ère Partie",
+    "id": "jw-tm1274881",
+    "titre": "L'amour et les forêts",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Ciné+ OCS",
     "chaines": [
-      "Molotov Gratuit"
+      "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/cine_ocs.svg"
     ],
     "package_slugs": [
-      "mlt"
+      "aoc"
     ],
-    "annee": 2008,
-    "annee_moyenne": 2008,
-    "duree": "2h 25min",
-    "runtime_minutes": 145,
-    "note_avis": 8.1,
-    "note_recence": 4.6,
-    "note_globale": 6.4,
-    "etoiles": 3,
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 45min",
+    "runtime_minutes": 105,
+    "note_avis": 6.5,
+    "note_recence": 9.1,
+    "note_globale": 7.8,
+    "etoiles": 4,
     "categories": [
-      "action_aventure"
+      "drame_emotion"
     ],
     "raw_genres": [
-      "act",
       "drm",
-      "hst",
-      "war"
+      "trl"
     ],
     "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/248200801/s592/les-trois-royaumes.jpg",
-    "synopsis": "En 208 après J.-C., l'empereur Han Xiandi règne sur la Chine pourtant divisée en trois royaumes rivaux. L'ambitieux Premier ministre Cao Cao rêve de s'installer sur le trône d'un empire unifié, et se sert de Han Xiandi pour mener une guerre sans merci contre Shu, le royaume du Sud-Ouest dirigé par l'oncle de l'Empereur, Liu Bei. Liu Bei dépêche Zhuge Liang, son conseiller militaire, comme émissaire au royaume de Wu pour tenter de convaincre le Roi Sun Quan d'unir ses forces aux siennes. A Wu, Zhuge Liang rencontre le Vice-Roi Zhou Yu. Très vite, les deux hommes deviennent amis et concluent un pacte d'alliance.",
+    "poster": "https://images.justwatch.com/poster/307684769/s592/lamour-et-les-forets.jpg",
+    "synopsis": "Quand Blanche croise le chemin de Grégoire, elle pense rencontrer celui qu’elle cherche. Les liens qui les unissent se tissent rapidement et leur histoire se construit dans l’emportement. Le couple déménage, Blanche s’éloigne de sa famille, de sa sœur jumelle, s’ouvre à une nouvelle vie. Mais fil après fil, elle se retrouve sous l’emprise d’un homme possessif et dangereux.",
+    "date_ajout": "2026-07-25",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-10-14",
+      "packageExpirations": {
+        "aoc": "2026-10-14"
+      }
     },
     "on_prime": false,
     "on_tnt": false
-  },
-  {
-    "id": "jw-ts20513",
-    "titre": "Fairy Tail",
-    "type": "serie",
-    "chaine": "M6+",
-    "chaines": [
-      "M6+"
-    ],
-    "logo_chaine": "assets/logos/m6_plus.png",
-    "logos_chaine": [
-      "assets/logos/m6_plus.png"
-    ],
-    "package_slugs": [
-      "sxp"
-    ],
-    "annee": 2009,
-    "annee_fin": 2018,
-    "annee_moyenne": 2014,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2009,
-        "note": 7.8
-      },
-      {
-        "saison": 2,
-        "annee": 2010,
-        "note": 7.8
-      },
-      {
-        "saison": 3,
-        "annee": 2011,
-        "note": 7.8
-      },
-      {
-        "saison": 4,
-        "annee": 2012,
-        "note": 7.8
-      },
-      {
-        "saison": 5,
-        "annee": 2014,
-        "note": 7.8
-      },
-      {
-        "saison": 6,
-        "annee": 2015,
-        "note": 7.8
-      },
-      {
-        "saison": 7,
-        "annee": 2016,
-        "note": 7.8
-      },
-      {
-        "saison": 8,
-        "annee": 2018,
-        "note": 7.8
-      },
-      {
-        "saison": 9,
-        "annee": 2018,
-        "note": 7.8
-      }
-    ],
-    "duree": "24 min/ép.",
-    "runtime_minutes": 24,
-    "note_avis": 7.8,
-    "note_recence": 6.4,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "fnt",
-      "scf"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/342010090/s592/fairy-tail.jpg",
-    "synopsis": "Dans le pays de Fiore, il existe parmi le commun des mortels des hommes et des femmes qui manipulent la magie : ils sont appelés des mages. Pour mieux les contrôler, des guildes ont été créées et mises sous la responsabilité du conseil des mages. Outre la nécessité de contrôle des mages, ce réseau a une autre utilité, en effet il permet de fournir un large choix de mages au client, et un large choix de missions au mage par le biais des avis. Parmi toutes ces guildes, une en particulier fait beaucoup parler d'elle : bien sûr par les actes réalisés par ses membres, mais aussi (et surtout) pour les dégâts collatéraux provoqués par ces mêmes membres à chaque mission qu’ils effectuent. Cette guilde s’appelle Fairy Tail. L'histoire se focalise notamment sur les missions effectuées par l'une des équipes de mages de Fairy Tail, composée de Natsu, Lucy et Happy, auxquels viendront se greffer assez rapidement Erza et Grey.",
-    "date_ajout": "2013-10-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
   },
   {
     "id": "jw-ts11846",
@@ -92494,170 +68064,15 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/270392445/s592/candice-renoir.jpg",
     "synopsis": "Candice Renoir, mère de quatre enfants, reprend son métier de policière à la BSU de Sète (Hérault) après avoir arrêté pendant dix ans à la suite d'une mise en disponibilité. Pas facile d'être maman, et commandant de police, d'autant plus que Candice a du mal à se faire accepter de ses collègues (elle ne s'entend d'ailleurs pas du tout avec le commissaire Yasmine Attia, sa première supérieure, et encore avec le commissaire Sylvie Leclerc, sa deuxième supérieure) et qu'elle est un peu dépassée par les nouvelles technologies.",
-    "date_ajout": "2026-10-01",
+    "date_ajout": "2026-09-30",
     "expiration": {
       "status": "urgent",
       "label": "⏳ Expire aujourd'hui",
       "daysLeft": 0,
-      "expirationDate": "2026-10-15",
+      "expirationDate": "2026-10-14",
       "packageExpirations": {
-        "auc": "2026-10-15"
+        "auc": "2026-10-14"
       }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts95189",
-    "titre": "La Saison des feux",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2020,
-        "note": 7.6
-      }
-    ],
-    "duree": "58 min/ép.",
-    "runtime_minutes": 58,
-    "note_avis": 7.6,
-    "note_recence": 8.2,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/296172178/s592/little-fires-everywhere.jpg",
-    "synopsis": "La famille idéale et le duo mère-fille qui va chambouler leur vie...",
-    "date_ajout": "2025-05-28",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 6 j",
-      "daysLeft": 6,
-      "expirationDate": "2026-10-21",
-      "packageExpirations": {
-        "mlt": "2026-10-21"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts22174",
-    "titre": "Super Hero Family",
-    "type": "serie",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2010,
-    "annee_moyenne": 2010,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2010,
-        "note": 6.9
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 6.9,
-    "note_recence": 5.2,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "drm",
-      "fnt",
-      "scf"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/327308032/s592/super-hero-family.jpg",
-    "synopsis": "La famille Powell est une famille américaine comme les autres. Mais un jour, alors qu'il survole l'Amazonie, leur avion s'écrase dans la forêt. Suite à cet événement, les Powell se découvrent des pouvoirs surnaturels. Le père, Jim, devient très fort avec des réflexes incroyables. La mère, Stephanie, peut désormais se déplacer à la vitesse de la lumière. Leur fille, Daphne, peut entendre les pensées de n'importe qui, y compris celles de son petit ami de 16 ans. Et le fils, J.J., passe subitement d'abruti à surdoué.",
-    "date_ajout": "2026-10-14",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 6 j",
-      "daysLeft": 6,
-      "expirationDate": "2026-10-21",
-      "packageExpirations": {
-        "mlt": "2026-10-21"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1903663",
-    "titre": "Noël à Goose Lane",
-    "type": "film",
-    "chaine": "Molotov Gratuit",
-    "chaines": [
-      "Molotov Gratuit"
-    ],
-    "logo_chaine": "assets/logos/molotov.png",
-    "logos_chaine": [
-      "assets/logos/molotov.png"
-    ],
-    "package_slugs": [
-      "mlt"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 6.4,
-    "note_recence": 9.7,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/338198761/s592/noel-a-goose-lane.jpg",
-    "synopsis": "Joy Edward a écrit douze livres de cuisine à succès en s'appuyant sur le récit de sa petite famille. Cette année, pour Noël, son éditeur lui fait une surprise : une chaîne de télévision va venir filmer chez elle son réveillon. Hélas, l'auteure n'a pas de famille. Elle l'a inventée pour les besoins de ses ouvrages. En trois jours, elle va devoir créer de toutes pièces un entourage crédible. Max, son meilleur ami, ne demande pas mieux que de jouer son mari...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": false,
     "on_tnt": false
@@ -92666,16 +68081,16 @@ const CATALOG_DATA = [
     "id": "jw-tm160438",
     "titre": "The Ryan initiative",
     "type": "film",
-    "chaine": "Molotov Gratuit",
+    "chaine": "Action Max",
     "chaines": [
-      "Molotov Gratuit"
+      "Action Max"
     ],
-    "logo_chaine": "assets/logos/molotov.png",
+    "logo_chaine": "assets/logos/action.png",
     "logos_chaine": [
-      "assets/logos/molotov.png"
+      "assets/logos/action.png"
     ],
     "package_slugs": [
-      "mlt"
+      "aca"
     ],
     "annee": 2014,
     "annee_moyenne": 2014,
@@ -92699,11 +68114,13 @@ const CATALOG_DATA = [
     "synopsis": "Ancien Marine, Jack Ryan est devenu un brillant analyste financier. Thomas Harper le recrute au sein de la CIA pour enquêter sur une organisation financière terroriste. Cachant la nature de cette première mission à sa fiancée, Jack Ryan part à Moscou pour rencontrer l’homme d’affaires qu’il soupçonne d’être à la tête du complot. Sur place, trahi et livré à lui-même, Ryan réalise qu’il ne peut plus faire confiance à personne. Pas même à ses proches…",
     "date_ajout": "2014-01-17",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-10-14",
+      "packageExpirations": {
+        "aca": "2026-10-14"
+      }
     },
     "on_prime": false,
     "on_tnt": false
