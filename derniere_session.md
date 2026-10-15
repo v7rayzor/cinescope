@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.58** / Cache **v39**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.59** / Cache **v40**).
 
 ---
 
@@ -78,8 +78,9 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Pour la Famille en Prises de Vue Réelles (`fml` sans `ani`)** : Tout badge (-10, -12, -16, -18) exclut l'œuvre d'`animation_famille` (qui exige un Tout Public strict en live action).
 * **Comédies & Signalétique d'Âge Majeure** :
   - Les œuvres `-16` et `-18` sont formellement interdites de `comedie` et sanctuarisées en `horreur_epouvante` ou `action_aventure`.
-* **Motifs Surnaturels & Fantastiques Universels (`FANTASTIC_PATTERNS` & `SCIFI_PATTERNS`)** :
-  - Les créatures surnaturelles, motifs magiques et anomalies temporelles/prémonitions (*« fragments du futur »*, *« visions du futur »*, *« boucle temporelle »*) priment sur les mots-clés policiers génériques pour attribuer fidèlement `scifi_fantastique` (ex: requalification universelle de *Desde el mañana*).
+* **Sanctuarisation Science-Fiction & Fantastique face aux faux-amis Policiers** :
+  - **Correction structurelle majeure (Zéro rustine textuelle)** : Une œuvre possédant le genre Science-Fiction (`scf`) ou Fantastique (`fnt`) ne reçoit **strictement aucun bonus d'arbitrage Polar (+40 pts)** sans posséder formellement le tag Crime (`crm`).
+  - La présence d'un flic, détective ou shérif dans un univers imaginaire (ex: *Super 8*, *Midnight Special*, *V pour Vendetta*, *Hypnotic*, *Desde el mañana*, *Arès*, *Things Will Be Different*, *Camarade Dracula*) ne peut plus dévoyer l'œuvre vers le thriller policier.
 
 ---
 
@@ -126,6 +127,6 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Titres expirés** : **0**.
   - **Nouveautés actives ($\le 7$ jours)** : 12.
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.58` (`sw.js` : `cinescope-v8.58-streaming`, assets `?v=8.58`).
-  - **Clés LocalStorage Actives** : `_v39` (`cinescope_streaming_catalog_v39`, etc.).
-  - **Optimisation** : Élimination de 490 œuvres parasites TNT/AVOD, épuration totale du header (suppression du bloc de statut/actualiser obsolète), perfectionnement universel des motifs temporels SF.
+  - **Version Application / PWA** : `v8.59` (`sw.js` : `cinescope-v8.59-streaming`, assets `?v=8.59`).
+  - **Clés LocalStorage Actives** : `_v40` (`cinescope_streaming_catalog_v40`, etc.).
+  - **Optimisation** : Élimination de 490 œuvres parasites TNT/AVOD, épuration totale du header, correction structurelle universelle du bonus polar restaurant 8 chefs-d'œuvre en `scifi_fantastique` (114 œuvres SF, 243 thrillers/polars).

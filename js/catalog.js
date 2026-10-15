@@ -806,7 +806,7 @@ const CATALOG_DATA = [
     "note_recence": 7,
     "note_globale": 6.6,
     "categories": [
-      "thriller_policier"
+      "scifi_fantastique"
     ],
     "badge": "12",
     "is_eligible": true,
@@ -3655,7 +3655,7 @@ const CATALOG_DATA = [
     "note_recence": 5.5,
     "note_globale": 6.3,
     "categories": [
-      "thriller_policier"
+      "scifi_fantastique"
     ],
     "badge": null,
     "is_eligible": true,
@@ -7921,7 +7921,7 @@ const CATALOG_DATA = [
     "titre": "Hypnotic",
     "type": "film",
     "categories": [
-      "thriller_policier"
+      "scifi_fantastique"
     ],
     "annee": 2023,
     "chaine": "Ciné+ OCS",
@@ -29376,7 +29376,7 @@ const CATALOG_DATA = [
     "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "cmy",
@@ -42572,7 +42572,7 @@ const CATALOG_DATA = [
     "note_globale": 6.1,
     "etoiles": 3,
     "categories": [
-      "thriller_policier"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "act",
@@ -45982,7 +45982,7 @@ const CATALOG_DATA = [
     "note_globale": 6.8,
     "etoiles": 3,
     "categories": [
-      "thriller_policier"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "act",
@@ -51908,7 +51908,7 @@ const CATALOG_DATA = [
     "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "hrr",
@@ -68126,3 +68126,10 @@ const CATALOG_DATA = [
     "on_tnt": false
   }
 ];
+
+if (typeof window !== 'undefined') {
+  window.CATALOG_DATA = CATALOG_DATA;
+}
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = CATALOG_DATA;
+}
