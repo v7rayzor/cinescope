@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.67** / Cache **v45**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.68** / Cache **v45**).
 
 ---
 
@@ -118,21 +118,34 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 
 ---
 
+* **Réhabilitation Universelle SF & Fantastique vs Faux Positifs Horreur (v8.68)** :
+  - **Règle `isSciFiFantasyHybrid`** : Neutralisation universelle du court-circuit horreur aveugle pour les œuvres cumulant la double étiquette Science-Fiction + Fantastique (`fnt` + `scf`) en prises de vue réelles sans motifs d'horreur stricte (`!rawTags.includes('ani') && !isStrictHorror && !cleanText.includes('creepshow') && !cleanText.includes('cauchemar')`).
+  - **Triomphe du calcul de points réel** : Laisse s'exprimer naturellement le score écrasant de la Science-Fiction & Fantastique (ex: *Le Règne animal* avec 130 pts contre 60 pts d'horreur).
+  - **5 œuvres majeures réhabilitées dans leur catégorie légitime `scifi_fantastique`** :
+    * *Le règne animal* (Thomas Cailley, 5 César, anticipation génétique) $\rightarrow$ `scifi_fantastique`.
+    * *Glass* (M. Night Shyamalan avec Bruce Willis et James McAvoy, suite super-héros d'*Incassable*) $\rightarrow$ `scifi_fantastique`.
+    * *Paradise Hills* (dystopie futuriste en sanatorium) $\rightarrow$ `scifi_fantastique`.
+    * *Else* (anticipation poétique / mutation) $\rightarrow$ `scifi_fantastique`.
+    * *My Mother's Eyes* (SF technologie / implants bioniques) $\rightarrow$ `scifi_fantastique`.
+  - **Sanctuarisation totale de l'horreur pure** : Maintien strict en `horreur_epouvante` des animations gores pour adultes (*Mad God*, *The Spine of Night*), des séries anthologiques de terreur (*Creepshow*), des rituels macabres (*Muse*) et de 100% des films de possession et d'épouvante.
+
+---
+
 ## 5. État Actuel du Catalogue & Versions Déployées
 
 * **Audit de Conformité Catalogue ([js/catalog.js](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js))** :
-  - **Total œuvres qualifiées PC** : **1 424** (1 276 films $\ge 60\text{ min}$, 148 séries).
+  - **Total œuvres qualifiées PC** : **1 431** (1 283 films $\ge 60\text{ min}$, 148 séries).
   - **Total œuvres qualifiées Mobile** : **864** (739 films $\ge 60\text{ min}$, 125 séries).
-  - **Conformité 1 catégorie unique** : **1 424 / 1 424 (100% conforme, 0 anomalie)**.
+  - **Conformité 1 catégorie unique** : **1 431 / 1 431 (100% conforme, 0 anomalie)**.
   - **Répartition des 7 catégories officielles** :
-    * `drame_emotion` : 441
-    * `comedie` : 245
-    * `thriller_policier` : 244
-    * `horreur_epouvante` : 225
-    * `scifi_fantastique` : 104
-    * `animation_famille` : 102
-    * `action_aventure` : 63
+    * `drame_emotion` : 395
+    * `comedie` : 287
+    * `thriller_policier` : 267
+    * `horreur_epouvante` : 220
+    * `scifi_fantastique` : 109
+    * `animation_famille` : 101
+    * `action_aventure` : 52
   - **Titres expirés** : **0**.
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : **v8.67** (`sw.js` : `cinescope-v8.67-streaming`, assets `?v=8.67`).
+  - **Version Application / PWA** : **v8.68** (`sw.js` : `cinescope-v8.68-streaming`).
   - **Clés LocalStorage Actives** : `_v45` (`cinescope_streaming_catalog_v45`, `cinescope_last_specialized_sync_v45`, etc.).

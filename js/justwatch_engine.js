@@ -334,8 +334,9 @@ const JustWatchEngine = (function () {
       const isCyberCrime = rawTags.includes('crm') && rawTags.includes('act') && !isStrictHorror;
       const isDavidLynch = cleanText.includes('inland empire');
       const isShannaraFantasy = (rawTags.includes('fnt') || rawTags.includes('scf')) && (cleanText.includes('quatre terres') || cleanText.includes('shannara') || cleanText.includes('arborlon') || cleanText.includes('elfe'));
+      const isSciFiFantasyHybrid = rawTags.includes('fnt') && rawTags.includes('scf') && !rawTags.includes('ani') && !isStrictHorror && !cleanText.includes('creepshow') && !cleanText.includes('cauchemar');
 
-      if (!isComedyWithoutAge && !isCyberCrime && !isDavidLynch && !isShannaraFantasy) {
+      if (!isComedyWithoutAge && !isCyberCrime && !isDavidLynch && !isShannaraFantasy && !isSciFiFantasyHybrid) {
         if (allowed.has('horreur_epouvante')) return 'horreur_epouvante';
       }
     }
