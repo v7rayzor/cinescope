@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v45';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v45';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v45';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v45';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v46';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v46';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v46';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v46';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -254,19 +254,11 @@ const JustWatchEngine = (function () {
       allowed.add('drame_emotion');
     }
 
-    // 2. Déverrouillage contextuel ciblé et protégé
+    // 2. Déverrouillage contextuel exceptionnel strictement sanctuarisé (Verrou de Genre Obligatoire - Règle 7)
+    // Seuls les motifs d'épouvante extrême absolue ou d'animation formelle peuvent déverrouiller une catégorie hors tags de base
     if (cleanText) {
-      if ((POLICE_CRIME_PATTERNS.test(cleanText) || THRILLER_TENSION_PATTERNS.test(cleanText)) && (!tags.includes('cmy') || tags.includes('crm') || tags.includes('trl') || isHybridWithAge)) {
-        allowed.add('thriller_policier');
-      }
-      if (ADVENTURE_PATTERNS.test(cleanText) && (!tags.includes('cmy') || isHybridWithAge)) {
-        allowed.add('action_aventure');
-      }
-      if (STRICT_HORROR_PATTERNS.test(cleanText) || (tags.includes('hrr') && SLASHER_PATTERNS.test(cleanText))) {
+      if (STRICT_HORROR_PATTERNS.test(cleanText)) {
         allowed.add('horreur_epouvante');
-      }
-      if (SCIFI_PATTERNS.test(cleanText) || FANTASTIC_PATTERNS.test(cleanText)) {
-        allowed.add('scifi_fantastique');
       }
       if (!isMatureFamily && ANIMATION_PATTERNS.test(cleanText)) {
         allowed.add('animation_famille');
@@ -374,6 +366,7 @@ const JustWatchEngine = (function () {
 
     // Action & Aventure
     if (rawTags.includes('act')) scores[4] += 50;
+    if (rawTags.includes('wsn')) scores[4] += 40;
     if (rawTags.includes('war')) scores[4] += 30;
 
     // Comédie (exclue si hybride avec limite d'âge formelle -16/-18)
@@ -385,7 +378,7 @@ const JustWatchEngine = (function () {
     if (rawTags.includes('hst')) scores[6] += 25;
 
     // Contextuel
-    if ((POLICE_CRIME_PATTERNS.test(cleanText) || THRILLER_TENSION_PATTERNS.test(cleanText)) && (!rawTags.includes('cmy') || rawTags.includes('crm') || rawTags.includes('trl') || isHybridWithAge)) scores[3] += 35;
+    if ((POLICE_CRIME_PATTERNS.test(cleanText) || THRILLER_TENSION_PATTERNS.test(cleanText)) && (rawTags.includes('crm') || rawTags.includes('trl'))) scores[3] += 35;
     if (ADVENTURE_PATTERNS.test(cleanText) && (!rawTags.includes('cmy') || isHybridWithAge)) scores[4] += 25;
     if (SCIFI_PATTERNS.test(cleanText) || (FANTASTIC_PATTERNS.test(cleanText) && (!rawTags.includes('cmy') || isHybridWithAge) && (!rawTags.includes('drm') || rawTags.includes('fnt') || rawTags.includes('scf')))) scores[2] += 40;
     if (DRAMA_INTIME_PATTERNS.test(cleanText) && (!rawTags.includes('cmy') || isHybridWithAge)) scores[6] += 35;
@@ -393,9 +386,9 @@ const JustWatchEngine = (function () {
 
     // Arbitrages fins de combinaisons :
     // a) Romance d'auteur / intime / drame réaliste / deuil / passion avec tag fnt accessoire / Biopic musical
-    // Calibrage équitable : neutralisation du bonus Drame automatique en présence d'Action armée, de motifs policiers/criminels ou militaires
+    // Calibrage équitable : neutralisation du bonus Drame automatique en présence d'Action armée, de motifs policiers/criminels ou militaires avérés
     if (rawTags.includes('drm') && !rawTags.includes('scf') && !SCIFI_PATTERNS.test(cleanText)) {
-      const hasActionOrCrimeConflict = rawTags.includes('act') || rawTags.includes('war') || (rawTags.includes('trl') && (POLICE_CRIME_PATTERNS.test(cleanText) || THRILLER_TENSION_PATTERNS.test(cleanText))) || POLICE_CRIME_PATTERNS.test(cleanText) || THRILLER_TENSION_PATTERNS.test(cleanText) || cleanText.includes('militaire') || cleanText.includes('forces speciales');
+      const hasActionOrCrimeConflict = rawTags.includes('act') || rawTags.includes('war') || rawTags.includes('crm') || (rawTags.includes('trl') && (POLICE_CRIME_PATTERNS.test(cleanText) || THRILLER_TENSION_PATTERNS.test(cleanText))) || cleanText.includes('militaire') || cleanText.includes('forces speciales');
       if ((!rawTags.includes('cmy') || isHybridWithAge) && (rawTags.includes('rma') || DRAMA_INTIME_PATTERNS.test(cleanText) || (!hasActionOrCrimeConflict && !rawTags.includes('fnt')) || (rawTags.includes('drm') && rawTags.includes('fnt') && !cleanText.includes('geant') && !cleanText.includes('monstre') && !cleanText.includes('magie') && !cleanText.includes('sorcier') && !cleanText.includes('arthur') && !cleanText.includes('kaamelott') && !cleanText.includes('vampire') && !cleanText.includes('demon') && !cleanText.includes('diable') && !cleanText.includes('shannara') && !cleanText.includes('quatre terres')))) {
         scores[6] += 30;
       }

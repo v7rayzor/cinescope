@@ -40,12 +40,17 @@ Guide de curation et profils de goûts pour les recommandations de films et sér
   - *Pécheresses* (comédie d'émancipation en internat catholique, sororité complice et ton vif en 6x26 min) — **Regardé et aimé (Coup de cœur OCS Signature)**.
   - *LT-21* (anticipation médicale amnésique en 26 min) — **En cours de visionnage (Moins aimé / trop austère & clinique)**.
   - *Reviens-moi* (*Atonement*) (drame romantique en temps de guerre) — **Regardé et rejeté / bof (Narration éclatée, allers-retours temporels confus, points de vue subjectifs répétés, séparation du couple et dureté militaire)**.
+  - *It Feeds* (horreur surnaturelle, entité & angoisse immersive au 1er degré) — **Regardé et aimé (75/100 — Efficace, premier degré franc, menace concrète sans prétention)**.
+  - *Heretic* (huis clos théologique & joute psychologique) — **Regardé et mitigé/bon (60/100 — Hugh Grant magistral et concept captivant, mais trop bavard et dénouement horrifique en demi-teinte)**.
+  - *Les Maudites* (*El llanto*) (drame festivalier déguisé en horreur lente) — **Regardé et rejeté (25/100 — Zéro action, rythme étiré, drame sociétal contemplatif au lieu d'épouvante réelle)**.
+  - *Ghosts : Fantômes en héritage* (sitcom fantastique & colocation spectrale chaleureuse, galerie de fantômes attachants, ton bienveillant et réparties vives) — **Regardé et aimé (Référence comédie fantastique feel-good)**.
 - **Aversions & Rejets Formels** :
   - 🚫 **Zéro vulgarité / Grossièretés appuyées** : Rejet des dialogues orduriers permanents ou du trash gratuit.
   - 🚫 **Zéro armes réelles lourdes / Films de guerre** : Rejet des fusillades militarisées réalistes, combats à la mitraillette ou violence armée pesante.
   - 🚫 **Zéro torture porn / Boucherie gore gratuite** : Rejet des massacres sadiques sans composante paranormale ou des contagions paniques anxiogènes.
   - 🚫 **Zéro narration déconstruite / Allers-retours temporels confus** : Rejet des récits à chronologie éclatée, points de vue subjectifs répétés ou déconstructions littéraires/méta (ex: *Reviens-moi*).
   - 🚫 **Zéro récits trop froids, cliniques ou austères** : Rejet des atmosphères pesantes ou dépressives dénuées de chaleur humaine ou de touches d'humour (ex: *LT-21*).
+  - 🚫 **Zéro faux films d'horreur contemplatifs / Drames lents de festival** : Rejet des films labellisés horreur/épouvante qui ne sont que des drames d'auteur métaphoriques lents sans action ni tension surnaturelle réelle (ex: *Les Maudites*).
   - **Préférence esthétique** : Phénomènes paranormaux, possession, esprits/fantômes, magie, artefacts anciens, anomalies temporelles, mystères occultes feutrés, romances protectrices et touches d'humour bienveillantes.
 
 ### Sélections Validées & Pistes Idéales (Moi)
@@ -175,4 +180,5 @@ Guide de curation et profils de goûts pour les recommandations de films et sér
 | **Harry Wild** | Enquête irlandaise | Passé sur France 3 | Déjà disponible en accès gratuit TNT |
 | **Fargo** | Thriller noir | Inclus Prime Video | Disponibilité catalogue externe standard |
 | **Reviens-moi** | Drame / Romance de guerre | Diffusé Ciné+ OCS | Vu et rejeté (Moi : narration déconstruite/brouillonne, allers-retours temporels confus, couple séparé) |
+| **Les Maudites** (*El llanto*) | Épouvante / Drame psychologique | Diffusé Ciné+ OCS | Vu et rejeté (Moi : 25/100 — zéro action, drame festivalier contemplatif déguisé en horreur, fausse promesse) |
 

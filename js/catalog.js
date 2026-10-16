@@ -458,7 +458,7 @@ const CATALOG_DATA = [
     "note_recence": 9.7,
     "note_globale": 7.7,
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "badge": null,
     "is_eligible": true,
@@ -4444,7 +4444,7 @@ const CATALOG_DATA = [
     "note_recence": 9.4,
     "note_globale": 8.2,
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "badge": null,
     "is_eligible": true,
@@ -12920,7 +12920,7 @@ const CATALOG_DATA = [
     "note_recence": 8.8,
     "note_globale": 7.4,
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "badge": "10",
     "is_eligible": true,
@@ -13882,7 +13882,7 @@ const CATALOG_DATA = [
     "note_recence": 9.1,
     "note_globale": 6.9,
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "badge": "10",
     "is_eligible": true,
@@ -14127,7 +14127,7 @@ const CATALOG_DATA = [
     "note_globale": 6.2,
     "etoiles": 3,
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "raw_genres": [
       "drm"
@@ -16970,7 +16970,7 @@ const CATALOG_DATA = [
     "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "raw_genres": [
       "drm",
@@ -19157,7 +19157,7 @@ const CATALOG_DATA = [
     "note_globale": 7,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "raw_genres": [
       "drm",
@@ -22556,7 +22556,7 @@ const CATALOG_DATA = [
     "note_globale": 8.2,
     "etoiles": 5,
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "raw_genres": [
       "drm"
@@ -22929,7 +22929,7 @@ const CATALOG_DATA = [
     "note_globale": 8.4,
     "etoiles": 5,
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "raw_genres": [
       "drm"
@@ -29036,7 +29036,7 @@ const CATALOG_DATA = [
     "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "raw_genres": [
       "drm"
@@ -34823,7 +34823,7 @@ const CATALOG_DATA = [
     "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "raw_genres": [
       "drm"
@@ -35775,7 +35775,7 @@ const CATALOG_DATA = [
     "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "raw_genres": [
       "drm"
@@ -35819,7 +35819,7 @@ const CATALOG_DATA = [
     "note_globale": 6.1,
     "etoiles": 3,
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "raw_genres": [
       "drm"
@@ -36326,7 +36326,7 @@ const CATALOG_DATA = [
     "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
-      "scifi_fantastique"
+      "drame_emotion"
     ],
     "raw_genres": [
       "drm",
@@ -44155,7 +44155,7 @@ const CATALOG_DATA = [
     "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "raw_genres": [
       "drm"
@@ -49301,7 +49301,7 @@ const CATALOG_DATA = [
     "note_globale": 6.9,
     "etoiles": 3,
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "raw_genres": [
       "drm"
@@ -55110,7 +55110,7 @@ const CATALOG_DATA = [
     "note_globale": 8,
     "etoiles": 5,
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "raw_genres": [
       "drm"
@@ -58440,7 +58440,7 @@ const CATALOG_DATA = [
     "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "raw_genres": [
       "drm"
@@ -65718,7 +65718,7 @@ const CATALOG_DATA = [
     "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "raw_genres": [
       "drm"
@@ -67064,7 +67064,7 @@ const CATALOG_DATA = [
     "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "raw_genres": [
       "msc"
@@ -67686,7 +67686,7 @@ const CATALOG_DATA = [
     "note_globale": 8,
     "etoiles": 5,
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "raw_genres": [
       "drm"
@@ -67955,7 +67955,7 @@ const CATALOG_DATA = [
     "note_globale": 7.9,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "raw_genres": [
       "drm"

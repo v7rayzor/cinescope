@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.68** / Cache **v45**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.69** / Cache **v46**).
 
 ---
 
@@ -128,6 +128,21 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * *Else* (anticipation poétique / mutation) $\rightarrow$ `scifi_fantastique`.
     * *My Mother's Eyes* (SF technologie / implants bioniques) $\rightarrow$ `scifi_fantastique`.
   - **Sanctuarisation totale de l'horreur pure** : Maintien strict en `horreur_epouvante` des animations gores pour adultes (*Mad God*, *The Spine of Night*), des séries anthologiques de terreur (*Creepshow*), des rituels macabres (*Muse*) et de 100% des films de possession et d'épouvante.
+* **Instauration du Verrou de Genre Obligatoire (Genre-Gating Strict) & Éradication des Faux Thrillers (v8.69)** :
+  - **Règle absolue d'ancrage de genre** : Une œuvre ne peut sous aucun prétexte être affiliée à une catégorie thématique sans disposer d'au moins un tag officiel correspondant (`crm`/`trl` pour `thriller_policier`, `cmy` pour `comedie`, `act`/`wsn`/`war` pour `action_aventure`, `scf`/`fnt` pour `scifi_fantastique`, `ani`/`fml` pour `animation_famille`, `hrr` pour `horreur_epouvante`).
+  - **Suppression du déverrouillage contextuel abusif** : Les mots de tension du synopsis (ex: « disparait », « angoisse », « danger ») ne peuvent plus créer artificiellement de catégorie de polar ex nihilo.
+  - **Prise en compte du Western (`wsn`) dans Action & Aventure** : Scoring naturel des westerns sans dépendance textuelle.
+  - **22 œuvres déclassées à tort réhabilitées** :
+    * *Prima la vita* (drame intime père/fille de Francesca Comencini) $\rightarrow$ `drame_emotion`.
+    * *Requiem for a Dream* (drame psychologique de Darren Aronofsky) $\rightarrow$ `drame_emotion`.
+    * *127 Heures* (drame de survie d'alpinisme de Danny Boyle) $\rightarrow$ `drame_emotion`.
+    * *Elle s'appelait Sarah* (drame historique de la rafle du Vel d'Hiv) $\rightarrow$ `drame_emotion`.
+    * *Chien blanc* (drame d'après Romain Gary avec Denis Ménochet) $\rightarrow$ `drame_emotion`.
+    * *À propos d'Elly* (drame d'Asghar Farhadi) $\rightarrow$ `drame_emotion`.
+    * *Les Indes Galantes* (documentaire sur l'opéra) $\rightarrow$ `drame_emotion`.
+    * *Django* (drame d'époque au Far West) $\rightarrow$ `drame_emotion`.
+    * *LT-21* (anticipation médicale dramatique) $\rightarrow$ `drame_emotion`.
+    * *Cuisine interne*, *Magma*, *J'ai tué mon mari*, *Paradise is Burning*, *Sexual Tension: Volatile*, *Si seulement je pouvais hiberner*, *Les Chansons que mes frères m'ont apprises*, *The Owner*, *La Femme qui en savait trop*, *Le Rire et le Couteau*, *Almost Paradise*, *La Femme de* $\rightarrow$ `drame_emotion`.
 
 ---
 
@@ -138,14 +153,23 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Total œuvres qualifiées Mobile** : **864** (739 films $\ge 60\text{ min}$, 125 séries).
   - **Conformité 1 catégorie unique** : **1 431 / 1 431 (100% conforme, 0 anomalie)**.
   - **Répartition des 7 catégories officielles** :
-    * `drame_emotion` : 395
+    * `drame_emotion` : 417
     * `comedie` : 287
-    * `thriller_policier` : 267
+    * `thriller_policier` : 246
     * `horreur_epouvante` : 220
-    * `scifi_fantastique` : 109
+    * `scifi_fantastique` : 108
     * `animation_famille` : 101
     * `action_aventure` : 52
   - **Titres expirés** : **0**.
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : **v8.68** (`sw.js` : `cinescope-v8.68-streaming`).
-  - **Clés LocalStorage Actives** : `_v45` (`cinescope_streaming_catalog_v45`, `cinescope_last_specialized_sync_v45`, etc.).
+  - **Version Application / PWA** : **v8.69** (`sw.js` : `cinescope-v8.69-streaming`).
+  - **Clés LocalStorage Actives** : `_v46` (`cinescope_streaming_catalog_v46`, `cinescope_last_specialized_sync_v46`, etc.).
+
+---
+
+## 6. Historique des Retours Utilisateur & Calibrage Curation
+* **Enregistrement des retours récents dans [`profils_amis.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/profils_amis.md)** :
+  - *It Feeds* : **75/100** (Validé — Surnaturel concret, menace directe, premier degré efficace sans prétention).
+  - *Heretic* : **60/100** (Mitigé/bon — Concept brillant et joute verbale avec Hugh Grant, mais trop bavard/statique).
+  - *Les Maudites* (*El llanto*) : **25/100** (Rejeté & archivé dans l'audit des exclusions — Faux film de genre, drame festivalier lent sans action ni tension).
+  - **Aversion formalisée** : Rejet strict des faux films d'horreur contemplatifs / drames lents de festival.
