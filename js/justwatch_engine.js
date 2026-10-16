@@ -449,55 +449,6 @@ const JustWatchEngine = (function () {
     return catNames[bestIdx];
   }
 
-  // Attribution équitable et déterministe du sous-genre unique dominant pour les œuvres de Science-fiction & Fantastique
-  function computeScifiSubCategory(genres, isSerie = false, title = '', synopsis = '', ageCertification = '', year = null, packages = []) {
-    const rawTags = (genres || []).map(normalizeTag).filter(t => t && t !== 'scf' && t !== 'fnt' && t !== 'ani' && t !== 'hrr');
-    const cleanText = ((title || '') + ' ' + (synopsis || ''))
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase();
-
-    let scoreAct = 0;
-    let scoreTrl = 0;
-    let scoreCmy = 0;
-    let scoreDrm = 0;
-
-    if (rawTags.includes('act')) scoreAct += 50;
-    if (rawTags.includes('war')) scoreAct += 35;
-    if (rawTags.includes('wsn')) scoreAct += 40;
-
-    if (rawTags.includes('crm')) scoreTrl += 55;
-    if (rawTags.includes('trl')) scoreTrl += 45;
-
-    if (rawTags.includes('cmy')) scoreCmy += 55;
-
-    if (rawTags.includes('drm')) scoreDrm += 35;
-    if (rawTags.includes('rma')) scoreDrm += 40;
-    if (rawTags.includes('hst')) scoreDrm += 30;
-
-    if (POLICE_CRIME_PATTERNS.test(cleanText)) scoreTrl += 25;
-    if (ACTION_PATTERNS.test(cleanText) || ADVENTURE_PATTERNS.test(cleanText)) scoreAct += 25;
-    if (COMEDY_PATTERNS.test(cleanText)) scoreCmy += 35;
-    if (DRAMA_INTIME_PATTERNS.test(cleanText)) scoreDrm += 35;
-
-    if (rawTags.length === 0) {
-      if (POLICE_CRIME_PATTERNS.test(cleanText)) return 'thriller_policier';
-      if (ACTION_PATTERNS.test(cleanText) || ADVENTURE_PATTERNS.test(cleanText)) return 'action_aventure';
-      if (COMEDY_PATTERNS.test(cleanText)) return 'comedie';
-      return 'drame_emotion';
-    }
-
-    const scores = [
-      { name: 'action_aventure', score: scoreAct },
-      { name: 'thriller_policier', score: scoreTrl },
-      { name: 'comedie', score: scoreCmy },
-      { name: 'drame_emotion', score: scoreDrm }
-    ];
-
-    scores.sort((a, b) => b.score - a.score);
-    return scores[0].score > 0 ? scores[0].name : 'drame_emotion';
-  }
-
   // Formatage de la durée en minutes -> "Xh XXmin"
   function formatDuration(runtimeMinutes, isSerie) {
     if (!runtimeMinutes || runtimeMinutes <= 0) {
@@ -1386,7 +1337,6 @@ const JustWatchEngine = (function () {
     PACKAGE_SLUGS,
     computeNoteRecence,
     computeCategory,
-    computeScifiSubCategory,
     processTitleNode,
     formatDuration,
     computeExpirationInfo,

@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.66** / Cache **v45**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.67** / Cache **v45**).
 
 ---
 
@@ -76,9 +76,11 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 * **Réhabilitation des Thrillers de Tension (v8.64)** :
   - Prise en compte de `THRILLER_TENSION_PATTERNS` (angoisse, manipulation, piège, huis clos, homejacking, disparition, vengeance).
   - Neutralisation du bonus Drame automatique en présence d'un thriller de tension ou d'enquête (*Corporate*, *5 septembre*, *L'Origine du mal*, *Sans pitié*, *Espion(s)*, etc.).
-* **2ème Volet Contextuel SF & Fantastique (v8.65)** :
-  - Égalité stricte des 4 sous-genres SF (`action_aventure`, `thriller_policier`, `comedie`, `drame_emotion`).
-  - **Harmonisation de franchise *The Librarians*** : Prise en compte universelle des motifs d'aventure archéologique / quête d'artefacts (`artefact|artefacts|aventurier|aventuriers`) dans `ADVENTURE_PATTERNS` (*Flynn Carson 1 & 2* unifiés en Action & Aventure).
+* **Suppression Définitive du 2ème Volet de Sous-Genres SF & Retour au Modèle Pur 1 Catégorie (v8.67)** :
+  - **Épure & Symétrie Parfaite de l'Interface** : Suppression intégrale de la barre de sous-genres SF (`index.html`, `css/style.css`, `js/app.js`, `js/justwatch_engine.js`).
+  - **Zéro Ambiguïté & Allègement** : Éradication de la fonction isolée `computeScifiSubCategory`, des compteurs partiels et des recalculs d'alignement géométrique complexe.
+  - **Modèle Universel Uniforme** : Chaque catégorie de l'application fonctionne désormais exactement de la même manière : 1 clic = 1 catégorie dominante directe.
+  - **Intégrité Totale du Catalogue** : Les 104 œuvres de Science-fiction & Fantastique demeurent intactes et préservées dans leur catégorie.
 
 ---
 
@@ -102,7 +104,7 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 * **Sanctuarisation Mobile Stricte & Inviolable** :
   - Barre des bouquets (`.bouquets-bar-section`) strictement masquée (`display: none !important` pour $< 1024\text{px}$).
   - Périmètre mobile : Strictement les **864 œuvres SVOD payantes de base** (Ciné+ OCS, Action Max, Universal+).
-  - 2ème volet SF : Barre des sous-genres glissable horizontalement au doigt (*swipe* fluide).
+  - Interface épurée : Plus aucune sous-barre glissable, affichage direct et fluide des jaquettes.
 
 ### B. Organisation Multi-Lignes sur Desktop (PC $\ge 1024\text{px}$)
 * **Ligne 0A (Ligne 1) : Bouquets SVOD Payants & Spécialisés** :
@@ -132,5 +134,5 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * `action_aventure` : 63
   - **Titres expirés** : **0**.
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : **v8.66** (`sw.js` : `cinescope-v8.66-streaming`, assets `?v=8.66`).
+  - **Version Application / PWA** : **v8.67** (`sw.js` : `cinescope-v8.67-streaming`, assets `?v=8.67`).
   - **Clés LocalStorage Actives** : `_v45` (`cinescope_streaming_catalog_v45`, `cinescope_last_specialized_sync_v45`, etc.).
