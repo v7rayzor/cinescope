@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.64** / Cache **v43**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.65** / Cache **v44**).
 
 ---
 
@@ -64,9 +64,11 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - Prise en compte de `THRILLER_TENSION_PATTERNS` (angoisse, manipulation, piège, huis clos, homejacking, disparition, vengeance).
   - Neutralisation du bonus Drame automatique en présence d'un thriller de tension ou d'enquête.
   - **Réhabilitation de 12 thrillers majeurs** : *Corporate*, *5 septembre*, *L'Origine du mal*, *Sans pitié*, *Gangs of Taïwan*, *Espion(s)*, *Le Client*, *The Girl in the Pool*, *Homejacking*, *L'Espion de Dieu*, *Sweetness*, *8 months*.
-* **2ème Volet Contextuel SF & Fantastique (v8.64)** :
-  - Égalité stricte des 4 sous-genres SF (`action_aventure`: 36, `thriller_policier`: 24, `comedie`: 23, `drame_emotion`: 20).
-  - Élimination du filtre destructeur sur le tag `cmy` (*Resident Alien*, *Generation Z*, *Vampire humaniste* en Comédie SF).
+* **2ème Volet Contextuel SF & Fantastique (v8.65)** :
+  - Égalité stricte des 4 sous-genres SF (`action_aventure`: 38, `thriller_policier`: 23, `comedie`: 22, `drame_emotion`: 20).
+  - **Harmonisation de franchise *The Librarians*** : Prise en compte universelle des motifs d'aventure archéologique / quête d'artefacts (`artefact|artefacts|aventurier|aventuriers`) dans `ADVENTURE_PATTERNS`.
+  - Résultat : *Flynn Carson et les nouveaux aventuriers* (1) et *The Librarians : L'Héritage de Flynn Carson* (2) sont désormais tous deux qualifiés de manière cohérente dans le sous-genre **Action & Aventure**.
+  - Sanctuarisation totale des comédies SF (*S.O.S. Fantômes*, *Kaamelott*, *Resident Alien*, *Generation Z*, *La Machine à démonter le temps* en Comédie SF).
   - Détection équitable des thrillers spatiaux et d'anticipation (*Untitled Orphan Black Project*, *Rubikon*, *Mission Titan* en Thriller SF).
   - Élimination du repli aveugle sur le Drame.
 
@@ -124,5 +126,5 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * `action_aventure` : 63
   - **Titres expirés** : **0**.
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.64` (`sw.js` : `cinescope-v8.64-streaming`, assets `?v=8.64`).
-  - **Clés LocalStorage Actives** : `_v43` (`cinescope_streaming_catalog_v43`, `cinescope_last_specialized_sync_v43`, etc.).
+  - **Version Application / PWA** : `v8.65` (`sw.js` : `cinescope-v8.65-streaming`, assets `?v=8.65`).
+  - **Clés LocalStorage Actives** : `_v44` (`cinescope_streaming_catalog_v44`, `cinescope_last_specialized_sync_v44`, etc.).

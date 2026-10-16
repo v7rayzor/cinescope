@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v43';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v43';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v43';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v43';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v44';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v44';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v44';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v44';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -217,7 +217,7 @@ const JustWatchEngine = (function () {
   // Motifs contextuels déterminants (Titre & Synopsis)
   const POLICE_CRIME_PATTERNS = /\b(tueur a gages|tueurs a gages|tueuse a gages|tueur en serie|tueurs en serie|meurtre|meurtres|assassinat|assassinats|mafia|gangster|gangsters|cercle de jeu|detective|commissaire|police|policiere|braquage|braqueurs|cambrioleurs|cadavre|cadavres|enquete criminelle|suspect|suspects|cartel|trafic de drogue|section criminelle|dettes de jeu|creanciers|usurpe l identite|pendu|fugitif|homicide|homicides|inculpation|s evader|evader|evade|prise d otages|otages|exfiltration|espionnage|cia|kgb|triade)\b/i;
   const THRILLER_TENSION_PATTERNS = /\b(tension|suspense|angoisse|manipulation|piege|mystere|huis clos|danger|menace|menacant|disparition|disparu|disparus|disparait|intrus|homejacking|chantage|psychopathe|vengeance)\b/i;
-  const ADVENTURE_PATTERNS = /\b(cite perdue|archeologue|archeologues|archeologie|expedition|jungle|amazonie|chasse au tresor|pyramide|pharaon|kheops|western|cowboy|sherif|arts martiaux|kung fu|baston|videur|catastrophe|comete|apocalypse|fin du monde|gladiateur|gladiateurs|peplum|operation militaire|barkhane|deminage|forces speciales|traque terroriste)\b/i;
+  const ADVENTURE_PATTERNS = /\b(cite perdue|archeologue|archeologues|archeologie|expedition|jungle|amazonie|chasse au tresor|pyramide|pharaon|kheops|western|cowboy|sherif|arts martiaux|kung fu|baston|videur|catastrophe|comete|apocalypse|fin du monde|gladiateur|gladiateurs|peplum|operation militaire|barkhane|deminage|forces speciales|traque terroriste|artefact|artefacts|aventurier|aventuriers)\b/i;
   const ACTION_PATTERNS = /\b(combat|combats|combattant|combattants|bataille|batailles|guerre|affrontement|affrontements|explosion|explosions|commando|forces speciales|mission|sauvetage|chasseur|chasseurs|guerrier|guerriers|survie|se battre|armee|soldat|soldats|conquete|invasion|vaisseau|spatial|spatiale)\b/i;
   const STRICT_HORROR_PATTERNS = /\b(satan|satanique|possession demoniaque|possede par|possedee par|exorcisme|exorciste|pacte avec satan|pacte avec le diable|slasher|gore|body horror|zombie|zombies|mort-vivant|morts-vivants|maison hantee|lieu sacre profane|monstre sanguinaire|lovecraft|terreur nocturne|contagion mortelle|magie noire|boite de pandore|pandore|vampirisme|soif de sang|sang humain)\b/i;
   const SLASHER_PATTERNS = /\b(slasher|slashers|tueur masque|tueurs masques|tueuse masquee|tueur au masque|tueur en serie|tueurs en serie|psychopathe|boogeyman|croque-mitaine|massacre au couteau)\b/i;
@@ -473,13 +473,13 @@ const JustWatchEngine = (function () {
     if (rawTags.includes('hst')) scoreDrm += 30;
 
     if (POLICE_CRIME_PATTERNS.test(cleanText)) scoreTrl += 25;
-    if (ACTION_PATTERNS.test(cleanText)) scoreAct += 25;
+    if (ACTION_PATTERNS.test(cleanText) || ADVENTURE_PATTERNS.test(cleanText)) scoreAct += 25;
     if (COMEDY_PATTERNS.test(cleanText)) scoreCmy += 35;
     if (DRAMA_INTIME_PATTERNS.test(cleanText)) scoreDrm += 35;
 
     if (rawTags.length === 0) {
       if (POLICE_CRIME_PATTERNS.test(cleanText)) return 'thriller_policier';
-      if (ACTION_PATTERNS.test(cleanText)) return 'action_aventure';
+      if (ACTION_PATTERNS.test(cleanText) || ADVENTURE_PATTERNS.test(cleanText)) return 'action_aventure';
       if (COMEDY_PATTERNS.test(cleanText)) return 'comedie';
       return 'drame_emotion';
     }
@@ -1312,7 +1312,7 @@ const JustWatchEngine = (function () {
     return null;
   }
 
-  const STORAGE_KEY_SPECIALIZED_SYNC = 'cinescope_last_specialized_sync_v43';
+  const STORAGE_KEY_SPECIALIZED_SYNC = 'cinescope_last_specialized_sync_v44';
 
   function saveSpecializedSyncDate() {
     try {
