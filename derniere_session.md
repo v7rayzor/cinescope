@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.65** / Cache **v44**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.66** / Cache **v45**).
 
 ---
 
@@ -42,35 +42,43 @@ Ce document constitue la référence vivante et synthétique de l'architecture, 
 
 ---
 
-## 2. Règles Métier & Arbitrages Algorithmiques (v8.64)
+## 2. Règles Métier & Arbitrages Algorithmiques (v8.66)
 
 ### A. Règle Fondamentale : 1 Titre = 1 Catégorie Dominante Unique
 Chaque film ou série est qualifié dans **strictement une seule** des 7 catégories officielles :
-1. `drame_emotion` : Drames profonds, romances d'auteur, biopics, drames historiques/sociaux (439 œuvres).
-2. `comedie` : Comédies pures, comédies romantiques et populaires, comédies d'action grand public, satires (244 œuvres).
+1. `drame_emotion` : Drames profonds, romances d'auteur, biopics, drames historiques/sociaux (441 œuvres).
+2. `comedie` : Comédies pures, comédies romantiques et populaires, comédies d'action grand public, satires (245 œuvres).
 3. `thriller_policier` : Polars, enquêtes policières, espionnage, machinations, suspense/angoisse, thrillers criminels (244 œuvres).
-4. `horreur_epouvante` : Slashers, épouvante, body horror, démons/possession, monstres, gore (221 œuvres).
-5. `animation_famille` : Films et séries d'animation, aventures jeunesse, contes familiaux (110 œuvres).
-6. `scifi_fantastique` : Science-fiction, space opera, anticipation, heroic fantasy, super-héros, mystère magique (103 œuvres).
+4. `horreur_epouvante` : Slashers, épouvante, body horror, démons/possession, monstres, gore (225 œuvres).
+5. `scifi_fantastique` : Science-fiction, space opera, anticipation, heroic fantasy, super-héros, mystère magique (104 œuvres).
+6. `animation_famille` : Films et séries d'animation, aventures jeunesse, contes familiaux (102 œuvres).
 7. `action_aventure` : Action grand spectacle, westerns d'action armée, survie, guerre, arts martiaux (63 œuvres).
 
 ### B. Moteur de Catégorisation Purement Algorithmique (100% Déterministe)
 * **Zéro Bidouillage Ad Hoc (Règle 7 d'AGENTS.md)** : Tout arbitrage repose sur des règles logiques universelles déterministes.
+* **Sanctuarisation de l'Horreur & Protection Animation / Famille (v8.66)** :
+  - **Exclusion stricte des pastilles adultes `-16` et `-18`** de la catégorie `animation_famille`.
+  - **Exclusion formelle de l'Horreur (`hrr`)** de `animation_famille`, sauf œuvres expressément étiquetées Famille (`fml`) et Tout Public (comme *Petit vampire* de Joann Sfar et *Une Nuit Au Zoo*).
+  - **Protection des mangas jeunesse et anime ados** : Les œuvres comme *Kuroko's Basket* (`ani, cmy, drm, spt`, badge `-12`), *Dragon Ball Z* (-12) ou les enquêtes Tout Public (*Détective Conan*) restent bien dans `animation_famille`.
+  - **Reclassement naturel des œuvres adultes / horrifiques** :
+    * *Bloodline* (`ani, crm, hrr, trl`, -12, Shadowz) $\rightarrow$ `horreur_epouvante`.
+    * *Stopmotion* (`ani, hrr, trl`, -16, Shadowz) $\rightarrow$ `horreur_epouvante`.
+    * *Mad God* (`ani, fnt, hrr, scf`, Shadowz) $\rightarrow$ `horreur_epouvante`.
+    * *The Spine of Night* (`act, ani, fnt, hrr, scf`, Shadowz) $\rightarrow$ `horreur_epouvante`.
+    * *Warehouse 13* (`act, ani, scf...`, -16) $\rightarrow$ `scifi_fantastique`.
+    * *La Jeune fille et les paysans* (`ani, drm, hst`, -16) $\rightarrow$ `drame_emotion`.
+    * *Flee* (`ani, doc, drm`, -16) $\rightarrow$ `drame_emotion`.
+    * *Totem* (`ani, cmy, hrr`, TP) $\rightarrow$ `comedie`.
 * **Rééquilibrage Universel Drame vs Comédie (v8.64)** :
   - **Assouplissement du verrou d'âge** : Les pastilles de simple sensibilité `-10` et `-12` n'excluent plus la catégorie `comedie` (seules les pastilles adultes `-16` et `-18` l'excluent).
   - **Romance & Comédie** : Dans une comédie romantique (`cmy` + `rma`), le tag romance ne neutralise plus la comédie et ne donne plus de bonus automatique de drame intime.
-  - **Réhabilitation de 36 comédies populaires majeures** : *Crazy Stupid Love*, *LOL*, *Starbuck*, *Bridget Jones*, *Happiness Therapy*, *Irresponsable*, *En attendant Bojangles*, *Good Bye Lenin!*, *La Belle Époque*, *Molière*, *Swiss Army Man*, etc.
+  - **36 comédies populaires majeures réhabilitées** : *Crazy Stupid Love*, *LOL*, *Starbuck*, *Bridget Jones*, *Happiness Therapy*, *Irresponsable*, *En attendant Bojangles*, *Good Bye Lenin!*, *La Belle Époque*, *Molière*, *Swiss Army Man*, etc.
 * **Réhabilitation des Thrillers de Tension (v8.64)** :
   - Prise en compte de `THRILLER_TENSION_PATTERNS` (angoisse, manipulation, piège, huis clos, homejacking, disparition, vengeance).
-  - Neutralisation du bonus Drame automatique en présence d'un thriller de tension ou d'enquête.
-  - **Réhabilitation de 12 thrillers majeurs** : *Corporate*, *5 septembre*, *L'Origine du mal*, *Sans pitié*, *Gangs of Taïwan*, *Espion(s)*, *Le Client*, *The Girl in the Pool*, *Homejacking*, *L'Espion de Dieu*, *Sweetness*, *8 months*.
+  - Neutralisation du bonus Drame automatique en présence d'un thriller de tension ou d'enquête (*Corporate*, *5 septembre*, *L'Origine du mal*, *Sans pitié*, *Espion(s)*, etc.).
 * **2ème Volet Contextuel SF & Fantastique (v8.65)** :
-  - Égalité stricte des 4 sous-genres SF (`action_aventure`: 38, `thriller_policier`: 23, `comedie`: 22, `drame_emotion`: 20).
-  - **Harmonisation de franchise *The Librarians*** : Prise en compte universelle des motifs d'aventure archéologique / quête d'artefacts (`artefact|artefacts|aventurier|aventuriers`) dans `ADVENTURE_PATTERNS`.
-  - Résultat : *Flynn Carson et les nouveaux aventuriers* (1) et *The Librarians : L'Héritage de Flynn Carson* (2) sont désormais tous deux qualifiés de manière cohérente dans le sous-genre **Action & Aventure**.
-  - Sanctuarisation totale des comédies SF (*S.O.S. Fantômes*, *Kaamelott*, *Resident Alien*, *Generation Z*, *La Machine à démonter le temps* en Comédie SF).
-  - Détection équitable des thrillers spatiaux et d'anticipation (*Untitled Orphan Black Project*, *Rubikon*, *Mission Titan* en Thriller SF).
-  - Élimination du repli aveugle sur le Drame.
+  - Égalité stricte des 4 sous-genres SF (`action_aventure`, `thriller_policier`, `comedie`, `drame_emotion`).
+  - **Harmonisation de franchise *The Librarians*** : Prise en compte universelle des motifs d'aventure archéologique / quête d'artefacts (`artefact|artefacts|aventurier|aventuriers`) dans `ADVENTURE_PATTERNS` (*Flynn Carson 1 & 2* unifiés en Action & Aventure).
 
 ---
 
@@ -80,11 +88,9 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - 776 fichiers d'affiches locales obsolètes supprimés de Git et du disque.
   - 100% des jaquettes (1 424 œuvres) sont servies en haute résolution officielle via le CDN direct JustWatch (`https://images.justwatch.com/poster/...`).
 * **Suppression des Logos Obsolètes TNT & Chaînes Défuntes (`assets/logos/`)** :
-  - 15 fichiers orphelins supprimés (`molotov.png`, `tf1.png`, `m6_plus.png`, `france_tv.png`, `gulli.png`, `arte.png`, `novo19.svg`, `13eme_rue.png`, `scifi.png`, `ocs.png`, `cine_classic.png`, `cine_emotion.png`, `cine_family.png`, `cine_festival.png`, `cine_frisson.png`).
-  - Purge des entrées TNT correspondantes dans `sw.js` et dans `js/justwatch_engine.js`.
+  - 15 fichiers orphelins supprimés. Purge dans `sw.js` et `js/justwatch_engine.js`.
 * **Suppression des Scripts de Migration Ponctuels (`scripts/`)** :
-  - 6 anciens scripts à usage unique supprimés (`apply_universal_mlt_flatrate.cjs`, `clean_catalog_arte_tnt.cjs`, `clean_catalog_tnt_and_tf1.cjs`, `clean_france_tv_logo.cjs`, `recompute_catalog_categories.cjs`, `setup_new_logos.cjs`).
-  - Scripts actifs conservés : `scripts/sync_justwatch.cjs` (automatisation GitHub Actions) et `scripts/verify_compliance.cjs` (audit conformité).
+  - Scripts actifs conservés : `scripts/sync_justwatch.cjs` et `scripts/verify_compliance.cjs`.
 * **Nettoyage des Dossiers Temporaires** :
   - Suppression intégrale de `dist/` et de `scratch/`.
 
@@ -117,14 +123,14 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Total œuvres qualifiées Mobile** : **864** (739 films $\ge 60\text{ min}$, 125 séries).
   - **Conformité 1 catégorie unique** : **1 424 / 1 424 (100% conforme, 0 anomalie)**.
   - **Répartition des 7 catégories officielles** :
-    * `drame_emotion` : 439
-    * `comedie` : 244
+    * `drame_emotion` : 441
+    * `comedie` : 245
     * `thriller_policier` : 244
-    * `horreur_epouvante` : 221
-    * `animation_famille` : 110
-    * `scifi_fantastique` : 103
+    * `horreur_epouvante` : 225
+    * `scifi_fantastique` : 104
+    * `animation_famille` : 102
     * `action_aventure` : 63
   - **Titres expirés** : **0**.
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : `v8.65` (`sw.js` : `cinescope-v8.65-streaming`, assets `?v=8.65`).
-  - **Clés LocalStorage Actives** : `_v44` (`cinescope_streaming_catalog_v44`, `cinescope_last_specialized_sync_v44`, etc.).
+  - **Version Application / PWA** : **v8.66** (`sw.js` : `cinescope-v8.66-streaming`, assets `?v=8.66`).
+  - **Clés LocalStorage Actives** : `_v45` (`cinescope_streaming_catalog_v45`, `cinescope_last_specialized_sync_v45`, etc.).

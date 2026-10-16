@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v44';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v44';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v44';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v44';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v45';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v45';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v45';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v45';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -304,9 +304,12 @@ const JustWatchEngine = (function () {
     const otherMeaningfulGenres = rawTags.filter(t => t !== 'cmy' && t !== 'eur' && t !== 'fml' && t !== 'rly');
     const isHybridWithAge = rawTags.includes('cmy') && otherMeaningfulGenres.length > 0 && isAdultAge;
 
-    // Règle Famille en prises de vue réelles : exclue d'animation_famille si pastille d'âge (-10, -12, -16, -18)
-    // Pour l'animation : aucune exclusion d'âge, autorisée peu importe la pastille
-    const isMatureFamily = !rawTags.includes('ani') && hasAnyAgeLimit;
+    // Règle Sanctuarisation Animation & Famille (v8.66) :
+    // 1. Les pastilles adultes (-16, -18) sont strictement interdites en animation_famille
+    // 2. L'Horreur ('hrr') est strictement interdite en animation_famille (sauf œuvres familiales Tout Public avec tag 'fml')
+    // 3. Famille en prises de vue réelles ('fml' sans 'ani') : exclue si pastille d'âge (-10, -12, -16, -18)
+    const isHorrorAnimation = rawTags.includes('hrr') && (!rawTags.includes('fml') || hasAnyAgeLimit);
+    const isMatureFamily = (!rawTags.includes('ani') && hasAnyAgeLimit) || isAdultAge || isHorrorAnimation;
     // Comédies d'horreur autorisées en comédie si < -16 (sauf gore strict non parodique)
     const isComedyWithoutAge = rawTags.includes('cmy') && !isAdultHorrorAge && (!isStrictHorror || PARODY_PATTERNS.test(cleanText) || cleanText.includes('requin') || cleanText.includes('ski'));
 

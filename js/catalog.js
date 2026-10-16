@@ -12430,7 +12430,7 @@ const CATALOG_DATA = [
     "note_recence": 5.8,
     "note_globale": 6.7,
     "categories": [
-      "animation_famille"
+      "scifi_fantastique"
     ],
     "badge": "16",
     "is_eligible": true,
@@ -19681,7 +19681,7 @@ const CATALOG_DATA = [
     "note_globale": 8.3,
     "etoiles": 5,
     "categories": [
-      "animation_famille"
+      "drame_emotion"
     ],
     "raw_genres": [
       "ani",
@@ -45196,7 +45196,7 @@ const CATALOG_DATA = [
     "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
-      "animation_famille"
+      "horreur_epouvante"
     ],
     "raw_genres": [
       "ani",
@@ -45332,7 +45332,7 @@ const CATALOG_DATA = [
     "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
-      "animation_famille"
+      "horreur_epouvante"
     ],
     "raw_genres": [
       "ani",
@@ -48094,7 +48094,7 @@ const CATALOG_DATA = [
     "note_globale": 7,
     "etoiles": 4,
     "categories": [
-      "animation_famille"
+      "horreur_epouvante"
     ],
     "raw_genres": [
       "ani",
@@ -53266,7 +53266,7 @@ const CATALOG_DATA = [
     "note_globale": 8.2,
     "etoiles": 5,
     "categories": [
-      "animation_famille"
+      "drame_emotion"
     ],
     "raw_genres": [
       "ani",
@@ -60564,7 +60564,7 @@ const CATALOG_DATA = [
     "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
-      "animation_famille"
+      "horreur_epouvante"
     ],
     "raw_genres": [
       "act",
@@ -66474,7 +66474,7 @@ const CATALOG_DATA = [
     "note_globale": 6.9,
     "etoiles": 3,
     "categories": [
-      "animation_famille"
+      "comedie"
     ],
     "raw_genres": [
       "ani",
