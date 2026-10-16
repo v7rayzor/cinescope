@@ -655,7 +655,7 @@ const CATALOG_DATA = [
     "note_recence": 7.3,
     "note_globale": 6.9,
     "categories": [
-      "drame_emotion"
+      "thriller_policier"
     ],
     "badge": null,
     "is_eligible": true,
@@ -1457,7 +1457,7 @@ const CATALOG_DATA = [
     "note_recence": 9.7,
     "note_globale": 8.1,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "badge": null,
     "is_eligible": true,
@@ -1961,7 +1961,7 @@ const CATALOG_DATA = [
     "note_recence": 7.6,
     "note_globale": 6.9,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "badge": null,
     "is_eligible": true,
@@ -2012,7 +2012,7 @@ const CATALOG_DATA = [
     "note_recence": 5.8,
     "note_globale": 6.8,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "badge": null,
     "is_eligible": true,
@@ -2358,7 +2358,7 @@ const CATALOG_DATA = [
     "note_recence": 6.4,
     "note_globale": 6.4,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "badge": null,
     "is_eligible": true,
@@ -2755,7 +2755,7 @@ const CATALOG_DATA = [
     "note_recence": 5.4,
     "note_globale": 6.1,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "badge": null,
     "is_eligible": true,
@@ -2900,7 +2900,7 @@ const CATALOG_DATA = [
     "note_recence": 5.6,
     "note_globale": 6.2,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "badge": null,
     "is_eligible": true,
@@ -3096,7 +3096,7 @@ const CATALOG_DATA = [
     "note_recence": 9.4,
     "note_globale": 8.2,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "badge": null,
     "is_eligible": true,
@@ -3857,7 +3857,7 @@ const CATALOG_DATA = [
     "note_recence": 6.1,
     "note_globale": 6.5,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "badge": null,
     "is_eligible": true,
@@ -4591,7 +4591,7 @@ const CATALOG_DATA = [
     "note_recence": 9.4,
     "note_globale": 8.3,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "badge": null,
     "is_eligible": true,
@@ -5038,7 +5038,7 @@ const CATALOG_DATA = [
     "note_recence": 6.4,
     "note_globale": 6.4,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "badge": null,
     "is_eligible": true,
@@ -5225,7 +5225,7 @@ const CATALOG_DATA = [
     "titre": "5 septembre",
     "type": "film",
     "categories": [
-      "drame_emotion"
+      "thriller_policier"
     ],
     "annee": 2024,
     "chaine": "Ciné+ OCS",
@@ -5651,7 +5651,7 @@ const CATALOG_DATA = [
     "titre": "L'Origine du mal",
     "type": "film",
     "categories": [
-      "drame_emotion"
+      "thriller_policier"
     ],
     "annee": 2022,
     "chaine": "Ciné+ OCS",
@@ -6266,7 +6266,7 @@ const CATALOG_DATA = [
     "titre": "La Belle Époque",
     "type": "film",
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "annee": 2019,
     "chaine": "Ciné+ OCS",
@@ -7445,7 +7445,7 @@ const CATALOG_DATA = [
     "titre": "En attendant Bojangles",
     "type": "film",
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "annee": 2021,
     "chaine": "Ciné+ OCS",
@@ -7541,7 +7541,7 @@ const CATALOG_DATA = [
     "titre": "Tralala",
     "type": "film",
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "annee": 2021,
     "chaine": "Ciné+ OCS",
@@ -15686,7 +15686,7 @@ const CATALOG_DATA = [
     "note_globale": 8.5,
     "etoiles": 5,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -15788,7 +15788,7 @@ const CATALOG_DATA = [
     "note_globale": 6.2,
     "etoiles": 3,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -16126,7 +16126,7 @@ const CATALOG_DATA = [
     "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
-      "drame_emotion"
+      "thriller_policier"
     ],
     "raw_genres": [
       "drm",
@@ -16455,7 +16455,7 @@ const CATALOG_DATA = [
     "note_globale": 8.2,
     "etoiles": 5,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -16549,7 +16549,7 @@ const CATALOG_DATA = [
     "note_globale": 8,
     "etoiles": 5,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -17447,7 +17447,7 @@ const CATALOG_DATA = [
     "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -19436,7 +19436,7 @@ const CATALOG_DATA = [
     "note_globale": 8,
     "etoiles": 5,
     "categories": [
-      "drame_emotion"
+      "thriller_policier"
     ],
     "raw_genres": [
       "drm",
@@ -19912,7 +19912,7 @@ const CATALOG_DATA = [
     "note_globale": 8.7,
     "etoiles": 5,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -22591,7 +22591,7 @@ const CATALOG_DATA = [
     "note_globale": 6.3,
     "etoiles": 3,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -24653,7 +24653,7 @@ const CATALOG_DATA = [
     "note_globale": 6.8,
     "etoiles": 3,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -24842,7 +24842,7 @@ const CATALOG_DATA = [
     "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -25047,7 +25047,7 @@ const CATALOG_DATA = [
     "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -25677,7 +25677,7 @@ const CATALOG_DATA = [
     "note_globale": 6,
     "etoiles": 3,
     "categories": [
-      "drame_emotion"
+      "thriller_policier"
     ],
     "raw_genres": [
       "drm",
@@ -25724,7 +25724,7 @@ const CATALOG_DATA = [
     "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -25906,7 +25906,7 @@ const CATALOG_DATA = [
     "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
-      "drame_emotion"
+      "thriller_policier"
     ],
     "raw_genres": [
       "drm",
@@ -26840,7 +26840,7 @@ const CATALOG_DATA = [
     "note_globale": 6.9,
     "etoiles": 3,
     "categories": [
-      "drame_emotion"
+      "thriller_policier"
     ],
     "raw_genres": [
       "drm",
@@ -28472,7 +28472,7 @@ const CATALOG_DATA = [
     "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -31226,7 +31226,7 @@ const CATALOG_DATA = [
     "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -34222,7 +34222,7 @@ const CATALOG_DATA = [
     "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
-      "drame_emotion"
+      "thriller_policier"
     ],
     "raw_genres": [
       "drm",
@@ -34274,7 +34274,7 @@ const CATALOG_DATA = [
     "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -37490,7 +37490,7 @@ const CATALOG_DATA = [
     "note_globale": 6.5,
     "etoiles": 3,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -38693,7 +38693,7 @@ const CATALOG_DATA = [
     "note_globale": 6.2,
     "etoiles": 3,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -39161,7 +39161,7 @@ const CATALOG_DATA = [
     "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
-      "drame_emotion"
+      "thriller_policier"
     ],
     "raw_genres": [
       "drm",
@@ -39314,7 +39314,7 @@ const CATALOG_DATA = [
     "note_globale": 6.1,
     "etoiles": 3,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -39612,7 +39612,7 @@ const CATALOG_DATA = [
     "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -40811,7 +40811,7 @@ const CATALOG_DATA = [
     "note_globale": 6.8,
     "etoiles": 3,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -41197,7 +41197,7 @@ const CATALOG_DATA = [
     "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -43919,7 +43919,7 @@ const CATALOG_DATA = [
     "note_globale": 6.5,
     "etoiles": 3,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -44148,7 +44148,7 @@ const CATALOG_DATA = [
     "note_globale": 7,
     "etoiles": 4,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -44494,7 +44494,7 @@ const CATALOG_DATA = [
     "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -52051,7 +52051,7 @@ const CATALOG_DATA = [
     "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
-      "drame_emotion"
+      "thriller_policier"
     ],
     "raw_genres": [
       "drm",
@@ -54014,7 +54014,7 @@ const CATALOG_DATA = [
     "note_globale": 7.9,
     "etoiles": 4,
     "categories": [
-      "drame_emotion"
+      "thriller_policier"
     ],
     "raw_genres": [
       "drm",
@@ -68126,7 +68126,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   }
 ];
-
 if (typeof window !== 'undefined') {
   window.CATALOG_DATA = CATALOG_DATA;
 }

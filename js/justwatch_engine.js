@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v42';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v42';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v42';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v42';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v43';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v43';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v43';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v43';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -74,31 +74,6 @@ const JustWatchEngine = (function () {
       badgeClass: 'badge-insomnia',
       isPaid: true,
       isSpecialized: true
-    },
-    // Plateformes TNT & Replay Gratuit (Exclusivité PC - Règle 8)
-    tf1: {
-      name: 'TF1+',
-      logo: 'assets/logos/tf1.png',
-      badgeClass: 'badge-tf1',
-      isPaid: false
-    },
-    sxp: {
-      name: 'M6+',
-      logo: 'assets/logos/m6_plus.png',
-      badgeClass: 'badge-m6',
-      isPaid: false
-    },
-    fra: {
-      name: 'France TV',
-      logo: 'assets/logos/france_tv.png',
-      badgeClass: 'badge-francetv',
-      isPaid: false
-    },
-    mlt: {
-      name: 'Molotov Gratuit',
-      logo: 'assets/logos/molotov.png',
-      badgeClass: 'badge-molotov',
-      isPaid: false
     }
   };
 
@@ -241,12 +216,15 @@ const JustWatchEngine = (function () {
 
   // Motifs contextuels déterminants (Titre & Synopsis)
   const POLICE_CRIME_PATTERNS = /\b(tueur a gages|tueurs a gages|tueuse a gages|tueur en serie|tueurs en serie|meurtre|meurtres|assassinat|assassinats|mafia|gangster|gangsters|cercle de jeu|detective|commissaire|police|policiere|braquage|braqueurs|cambrioleurs|cadavre|cadavres|enquete criminelle|suspect|suspects|cartel|trafic de drogue|section criminelle|dettes de jeu|creanciers|usurpe l identite|pendu|fugitif|homicide|homicides|inculpation|s evader|evader|evade|prise d otages|otages|exfiltration|espionnage|cia|kgb|triade)\b/i;
+  const THRILLER_TENSION_PATTERNS = /\b(tension|suspense|angoisse|manipulation|piege|mystere|huis clos|danger|menace|menacant|disparition|disparu|disparus|disparait|intrus|homejacking|chantage|psychopathe|vengeance)\b/i;
   const ADVENTURE_PATTERNS = /\b(cite perdue|archeologue|archeologues|archeologie|expedition|jungle|amazonie|chasse au tresor|pyramide|pharaon|kheops|western|cowboy|sherif|arts martiaux|kung fu|baston|videur|catastrophe|comete|apocalypse|fin du monde|gladiateur|gladiateurs|peplum|operation militaire|barkhane|deminage|forces speciales|traque terroriste)\b/i;
+  const ACTION_PATTERNS = /\b(combat|combats|combattant|combattants|bataille|batailles|guerre|affrontement|affrontements|explosion|explosions|commando|forces speciales|mission|sauvetage|chasseur|chasseurs|guerrier|guerriers|survie|se battre|armee|soldat|soldats|conquete|invasion|vaisseau|spatial|spatiale)\b/i;
   const STRICT_HORROR_PATTERNS = /\b(satan|satanique|possession demoniaque|possede par|possedee par|exorcisme|exorciste|pacte avec satan|pacte avec le diable|slasher|gore|body horror|zombie|zombies|mort-vivant|morts-vivants|maison hantee|lieu sacre profane|monstre sanguinaire|lovecraft|terreur nocturne|contagion mortelle|magie noire|boite de pandore|pandore|vampirisme|soif de sang|sang humain)\b/i;
   const SLASHER_PATTERNS = /\b(slasher|slashers|tueur masque|tueurs masques|tueuse masquee|tueur au masque|tueur en serie|tueurs en serie|psychopathe|boogeyman|croque-mitaine|massacre au couteau)\b/i;
   const FANTASTIC_PATTERNS = /\b(sorciere|sorcieres|sorcier|sorciers|witch|witches|monstre|monstres|monster|monsters|creature|creatures|fantome|fantomes|ghost|ghosts|surnaturel|surnaturels|surnaturelle|surnaturelles|supernatural|paranormal|paranormaux|paranormale|paranormales|occulte|magie|magique|magiques|magic|force mysterieuse|puissance mysterieuse|malediction|enchantement|ensorcele|royaume feerique|conte de fees|vampire|vampires|loup garou|loups garous|werewolf)\b/i;
   const SCIFI_PATTERNS = /\b(vaisseau|vaisseaux|extraterrestre|extraterrestres|alien|aliens|astronaute|astronautes|planete deserte|voyage dans le temps|multivers|reincarnation|changement climatique|androide|ia|robot|intelligence artificielle|dystopie|dystopique|futuriste|mutant|mutants|quatre terres|arborlon|elfe|elfes|druide|druides|virus|epidemie|pandemie|anticipation|eradique|eradiquees|amnesie retrograde)\b/i;
   const DRAMA_INTIME_PATTERNS = /\b(traumatisme|traumatise|monde imaginaire|deuil|orphelin|orpheline|harcele|harcelement|skate|skateur|suisse|euthanasie|aide soignant|actrice|showbiz|homosexualite|homosexuel|desir|compagnie miniere|ressources humaines|obsession|biopic|chanteur|chanteuse|robbie williams|sorrentino|naples|parthenope)\b/i;
+  const COMEDY_PATTERNS = /\b(comedie|drole|humour|burlesque|satire|parodie|gag|sketch|amuse|hilarant|extraterrestre.*humain|quiproquo|decal)\b/i;
   const PARODY_PATTERNS = /\b(oss 117|agent special|parodie|espion malhabile|gaffeur|tournage de film|film dans le film|hazanavicius)\b/i;
   const ANIMATION_PATTERNS = /\b(serie d animation|serie televisee d animation|film d animation|dessin anime|dessins animes|court metrage d animation)\b/i;
   const WESTERN_ACTION_PATTERNS = /\b(gachette|as de la gachette|hors la loi|sherif|bandit|bandits|fusillade|fusillades|duel|duels|chasseur de primes|chasseurs de primes|se bat|combattant|combattants|pionniers|cowboy|cowboys|cow boy|cow boys|diligence|convoi|attaque|braquage|vengeance armee|guerilleros)\b/i;
@@ -278,7 +256,7 @@ const JustWatchEngine = (function () {
 
     // 2. Déverrouillage contextuel ciblé et protégé
     if (cleanText) {
-      if (POLICE_CRIME_PATTERNS.test(cleanText) && (!tags.includes('cmy') || tags.includes('crm') || tags.includes('trl') || isHybridWithAge)) {
+      if ((POLICE_CRIME_PATTERNS.test(cleanText) || THRILLER_TENSION_PATTERNS.test(cleanText)) && (!tags.includes('cmy') || tags.includes('crm') || tags.includes('trl') || isHybridWithAge)) {
         allowed.add('thriller_policier');
       }
       if (ADVENTURE_PATTERNS.test(cleanText) && (!tags.includes('cmy') || isHybridWithAge)) {
@@ -318,13 +296,13 @@ const JustWatchEngine = (function () {
     const hasAnyAgeLimit = ageCertification && ['10', '12', '16', '18'].some(l => ageCertification.toString().includes(l));
     const isMatureAge = ageCertification && ['12', '16', '18'].some(l => ageCertification.toString().includes(l));
     const isAdultHorrorAge = ageCertification && ['16', '18'].some(l => ageCertification.toString().includes(l));
+    const isAdultAge = isAdultHorrorAge;
     const isStrictHorror = STRICT_HORROR_PATTERNS.test(cleanText) || (rawTags.includes('hrr') && SLASHER_PATTERNS.test(cleanText));
 
-    // Règle Comédie Hybride : exclusion de comédie si pastille adulte (-16/-18) pour l'horreur, ou générale pour autres hybrides
+    // Règle Comédie Hybride : exclusion de comédie uniquement si pastille adulte formelle (-16/-18) (Règle Universelle 2)
+    // Les simples pastilles de sensibilité (-10, -12) n'interdisent plus la Comédie
     const otherMeaningfulGenres = rawTags.filter(t => t !== 'cmy' && t !== 'eur' && t !== 'fml' && t !== 'rly');
-    const isHybridWithAge = rawTags.includes('cmy') && otherMeaningfulGenres.length > 0 && (
-      rawTags.includes('hrr') ? isAdultHorrorAge : hasAnyAgeLimit
-    );
+    const isHybridWithAge = rawTags.includes('cmy') && otherMeaningfulGenres.length > 0 && isAdultAge;
 
     // Règle Famille en prises de vue réelles : exclue d'animation_famille si pastille d'âge (-10, -12, -16, -18)
     // Pour l'animation : aucune exclusion d'âge, autorisée peu importe la pastille
@@ -394,27 +372,27 @@ const JustWatchEngine = (function () {
     if (rawTags.includes('act')) scores[4] += 50;
     if (rawTags.includes('war')) scores[4] += 30;
 
-    // Comédie (exclue si hybride avec limite d'âge)
+    // Comédie (exclue si hybride avec limite d'âge formelle -16/-18)
     if (rawTags.includes('cmy') && !isHybridWithAge) scores[5] += 55;
 
-    // Drame & Romance
+    // Drame & Romance (dans une comédie romantique, le tag romance ne neutralise pas la comédie)
     if (rawTags.includes('drm')) scores[6] += 35;
-    if (rawTags.includes('rma')) scores[6] += 40;
+    if (rawTags.includes('rma')) scores[6] += (rawTags.includes('cmy') && !isHybridWithAge ? 15 : 40);
     if (rawTags.includes('hst')) scores[6] += 25;
 
     // Contextuel
-    if (POLICE_CRIME_PATTERNS.test(cleanText) && (!rawTags.includes('cmy') || rawTags.includes('crm') || rawTags.includes('trl') || isHybridWithAge)) scores[3] += 35;
+    if ((POLICE_CRIME_PATTERNS.test(cleanText) || THRILLER_TENSION_PATTERNS.test(cleanText)) && (!rawTags.includes('cmy') || rawTags.includes('crm') || rawTags.includes('trl') || isHybridWithAge)) scores[3] += 35;
     if (ADVENTURE_PATTERNS.test(cleanText) && (!rawTags.includes('cmy') || isHybridWithAge)) scores[4] += 25;
     if (SCIFI_PATTERNS.test(cleanText) || (FANTASTIC_PATTERNS.test(cleanText) && (!rawTags.includes('cmy') || isHybridWithAge) && (!rawTags.includes('drm') || rawTags.includes('fnt') || rawTags.includes('scf')))) scores[2] += 40;
-    if (DRAMA_INTIME_PATTERNS.test(cleanText)) scores[6] += 35;
+    if (DRAMA_INTIME_PATTERNS.test(cleanText) && (!rawTags.includes('cmy') || isHybridWithAge)) scores[6] += 35;
     if (PARODY_PATTERNS.test(cleanText) && rawTags.includes('cmy') && !isAdultHorrorAge) scores[5] += 60;
 
     // Arbitrages fins de combinaisons :
     // a) Romance d'auteur / intime / drame réaliste / deuil / passion avec tag fnt accessoire / Biopic musical
     // Calibrage équitable : neutralisation du bonus Drame automatique en présence d'Action armée, de motifs policiers/criminels ou militaires
     if (rawTags.includes('drm') && !rawTags.includes('scf') && !SCIFI_PATTERNS.test(cleanText)) {
-      const hasActionOrCrimeConflict = rawTags.includes('act') || rawTags.includes('war') || POLICE_CRIME_PATTERNS.test(cleanText) || cleanText.includes('militaire') || cleanText.includes('forces speciales');
-      if (rawTags.includes('rma') || DRAMA_INTIME_PATTERNS.test(cleanText) || (!hasActionOrCrimeConflict && !rawTags.includes('cmy') && !rawTags.includes('fnt')) || (rawTags.includes('drm') && rawTags.includes('fnt') && !cleanText.includes('geant') && !cleanText.includes('monstre') && !cleanText.includes('magie') && !cleanText.includes('sorcier') && !cleanText.includes('arthur') && !cleanText.includes('kaamelott') && !cleanText.includes('vampire') && !cleanText.includes('demon') && !cleanText.includes('diable') && !cleanText.includes('shannara') && !cleanText.includes('quatre terres'))) {
+      const hasActionOrCrimeConflict = rawTags.includes('act') || rawTags.includes('war') || (rawTags.includes('trl') && (POLICE_CRIME_PATTERNS.test(cleanText) || THRILLER_TENSION_PATTERNS.test(cleanText))) || POLICE_CRIME_PATTERNS.test(cleanText) || THRILLER_TENSION_PATTERNS.test(cleanText) || cleanText.includes('militaire') || cleanText.includes('forces speciales');
+      if ((!rawTags.includes('cmy') || isHybridWithAge) && (rawTags.includes('rma') || DRAMA_INTIME_PATTERNS.test(cleanText) || (!hasActionOrCrimeConflict && !rawTags.includes('fnt')) || (rawTags.includes('drm') && rawTags.includes('fnt') && !cleanText.includes('geant') && !cleanText.includes('monstre') && !cleanText.includes('magie') && !cleanText.includes('sorcier') && !cleanText.includes('arthur') && !cleanText.includes('kaamelott') && !cleanText.includes('vampire') && !cleanText.includes('demon') && !cleanText.includes('diable') && !cleanText.includes('shannara') && !cleanText.includes('quatre terres')))) {
         scores[6] += 30;
       }
     }
@@ -427,10 +405,10 @@ const JustWatchEngine = (function () {
     if (isPureSciFiTheme && (SCIFI_PATTERNS.test(cleanText) || rawTags.includes('act') || rawTags.includes('fnt') || rawTags.includes('drm'))) {
       scores[2] += 40;
     }
-    // d) Polar sérieux / Braquage / Cyber-polar / Mafia / Dette de jeu / Homicide -> Thriller (hors parodie pure)
+    // d) Polar sérieux / Braquage / Cyber-polar / Mafia / Dette de jeu / Homicide / Tension psychologique -> Thriller (hors parodie pure)
     // Règle universelle : une oeuvre de SF ('scf') ou Fantastique ('fnt') ne reçoit le bonus polar QUE si elle possède formellement le tag Crime ('crm')
-    if (rawTags.includes('crm') || (rawTags.includes('trl') && POLICE_CRIME_PATTERNS.test(cleanText) && !rawTags.includes('scf') && !rawTags.includes('fnt'))) {
-      if ((!rawTags.includes('cmy') || isHybridWithAge || POLICE_CRIME_PATTERNS.test(cleanText) || isSerie) && !PARODY_PATTERNS.test(cleanText)) {
+    if (rawTags.includes('crm') || (rawTags.includes('trl') && (POLICE_CRIME_PATTERNS.test(cleanText) || THRILLER_TENSION_PATTERNS.test(cleanText)) && !rawTags.includes('scf') && !rawTags.includes('fnt'))) {
+      if ((!rawTags.includes('cmy') || isHybridWithAge || POLICE_CRIME_PATTERNS.test(cleanText) || THRILLER_TENSION_PATTERNS.test(cleanText) || isSerie) && !PARODY_PATTERNS.test(cleanText)) {
         scores[3] += 40;
       }
     }
@@ -439,7 +417,7 @@ const JustWatchEngine = (function () {
       scores[4] += 40;
     }
     // f) Comédie dramatique d'auteur (Ollie, Vera, On ira)
-    if (rawTags.includes('cmy') && rawTags.includes('drm') && !rawTags.includes('act') && (DRAMA_INTIME_PATTERNS.test(cleanText) || (rawTags.includes('rma') && !cleanText.includes('deuxieme acte')))) {
+    if (rawTags.includes('cmy') && rawTags.includes('drm') && !rawTags.includes('act') && DRAMA_INTIME_PATTERNS.test(cleanText) && !COMEDY_PATTERNS.test(cleanText) && (cleanText.includes('deuil') || cleanText.includes('maladie') || cleanText.includes('melancolie') || cleanText.includes('solitude') || cleanText.includes('injustice'))) {
       scores[6] += 25;
     }
 
@@ -468,34 +446,53 @@ const JustWatchEngine = (function () {
     return catNames[bestIdx];
   }
 
-  // Attribution du sous-genre unique dominant pour les œuvres de Science-fiction & Fantastique
+  // Attribution équitable et déterministe du sous-genre unique dominant pour les œuvres de Science-fiction & Fantastique
   function computeScifiSubCategory(genres, isSerie = false, title = '', synopsis = '', ageCertification = '', year = null, packages = []) {
-    let rawTags = (genres || []).map(normalizeTag).filter(t => t && t !== 'scf' && t !== 'fnt' && t !== 'ani' && t !== 'hrr');
+    const rawTags = (genres || []).map(normalizeTag).filter(t => t && t !== 'scf' && t !== 'fnt' && t !== 'ani' && t !== 'hrr');
     const cleanText = ((title || '') + ' ' + (synopsis || ''))
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '')
       .toLowerCase();
 
-    // Règle d'or : Neutralisation du faux tag comédie collé par JustWatch/TMDb
-    // Si une œuvre a des genres sérieux (act, drm, trl, crm) et que le synopsis décrit un drame sérieux ou de la survie sans aucun motif comique
-    const hasHumorPattern = /\b(comedie|drole|humour|burlesque|satire|parodie|gag|sketch|amuse|hilarant)\b/i.test(cleanText);
-    if (rawTags.includes('cmy') && (rawTags.includes('act') || rawTags.includes('drm') || rawTags.includes('trl') || rawTags.includes('crm')) && !hasHumorPattern) {
-      rawTags = rawTags.filter(t => t !== 'cmy');
-    }
+    let scoreAct = 0;
+    let scoreTrl = 0;
+    let scoreCmy = 0;
+    let scoreDrm = 0;
 
-    // Si plus aucun tag secondaire n'est présent, induction contextuelle par synopsis
+    if (rawTags.includes('act')) scoreAct += 50;
+    if (rawTags.includes('war')) scoreAct += 35;
+    if (rawTags.includes('wsn')) scoreAct += 40;
+
+    if (rawTags.includes('crm')) scoreTrl += 55;
+    if (rawTags.includes('trl')) scoreTrl += 45;
+
+    if (rawTags.includes('cmy')) scoreCmy += 55;
+
+    if (rawTags.includes('drm')) scoreDrm += 35;
+    if (rawTags.includes('rma')) scoreDrm += 40;
+    if (rawTags.includes('hst')) scoreDrm += 30;
+
+    if (POLICE_CRIME_PATTERNS.test(cleanText)) scoreTrl += 25;
+    if (ACTION_PATTERNS.test(cleanText)) scoreAct += 25;
+    if (COMEDY_PATTERNS.test(cleanText)) scoreCmy += 35;
+    if (DRAMA_INTIME_PATTERNS.test(cleanText)) scoreDrm += 35;
+
     if (rawTags.length === 0) {
-      if (POLICE_CRIME_PATTERNS.test(cleanText)) rawTags.push('crm');
-      else if (ADVENTURE_PATTERNS.test(cleanText) || /\b(survie|se battre pour survivre|guerre|bataille|combats|armee)\b/i.test(cleanText)) rawTags.push('act');
-      else if (hasHumorPattern) rawTags.push('cmy');
-      else rawTags.push('drm');
+      if (POLICE_CRIME_PATTERNS.test(cleanText)) return 'thriller_policier';
+      if (ACTION_PATTERNS.test(cleanText)) return 'action_aventure';
+      if (COMEDY_PATTERNS.test(cleanText)) return 'comedie';
+      return 'drame_emotion';
     }
 
-    const sub = computeCategory(rawTags, isSerie, title, synopsis, ageCertification, year, packages);
-    if (sub === 'action_aventure' || sub === 'thriller_policier' || sub === 'comedie' || sub === 'drame_emotion') {
-      return sub;
-    }
-    return 'drame_emotion';
+    const scores = [
+      { name: 'action_aventure', score: scoreAct },
+      { name: 'thriller_policier', score: scoreTrl },
+      { name: 'comedie', score: scoreCmy },
+      { name: 'drame_emotion', score: scoreDrm }
+    ];
+
+    scores.sort((a, b) => b.score - a.score);
+    return scores[0].score > 0 ? scores[0].name : 'drame_emotion';
   }
 
   // Formatage de la durée en minutes -> "Xh XXmin"
@@ -1315,7 +1312,7 @@ const JustWatchEngine = (function () {
     return null;
   }
 
-  const STORAGE_KEY_SPECIALIZED_SYNC = 'cinescope_last_specialized_sync_v42';
+  const STORAGE_KEY_SPECIALIZED_SYNC = 'cinescope_last_specialized_sync_v43';
 
   function saveSpecializedSyncDate() {
     try {
