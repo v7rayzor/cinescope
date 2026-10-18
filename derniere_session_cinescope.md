@@ -152,3 +152,9 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - *Les Maudites* (*El llanto*) : **25/100** (Rejeté & archivé dans l'audit des exclusions — Faux film de genre, drame festivalier lent sans action ni tension).
   - *The Batman* (2022) vs *Batman v Superman* : Recommandation duo formalisée (*The Batman* validé comme le compromis parfait entre l'action brute 1er degré de l'Ami et l'enquête/déduction à la *Seven* de l'Amie).
   - **Aversion formalisée** : Rejet strict des faux films d'horreur contemplatifs / drames lents de festival.
+
+* **Nettoyage & Maintenance du Dossier (18/10/2026)** :
+  - **Archive réseau supprimée** : Suppression définitive du dump `www.molotov.tv_Archive [26-10-17 14-03-08].har` (245 Ko).
+  - **Dossiers et fichiers résiduels purgés** : Suppression du dossier temporaire vide `scratch/` et des résidus de parsing obsolètes dans `Site/Films/` (`parsed.json`, `pdf_text.txt`, `tmdb_ocs_results.json`).
+  - **État du workspace** : Dépôt git 100% propre, aucune fuite de fichiers ou d'artefacts orphelins.
+
