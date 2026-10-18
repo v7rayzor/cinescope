@@ -1645,26 +1645,6 @@
     "analyzed_at": "2026-10-18T11:36:45.465Z",
     "source": "gpt-4o-mini"
   },
-  "jw-tm159310": {
-    "titre": "Coach Carter",
-    "annee": 2005,
-    "slug": "jw-tm159310",
-    "categories": [
-      "drame_emotion"
-    ],
-    "repartition": {
-      "drame_emotion": 100,
-      "comedie": 0,
-      "thriller_policier": 0,
-      "action_aventure": 0,
-      "scifi_fantastique": 0,
-      "horreur_epouvante": 0,
-      "animation_famille": 0
-    },
-    "justification": "Récit d'auteur, drame humain profond, émotions intimes ou fresque historique.",
-    "analyzed_at": "2026-10-18T11:36:45.465Z",
-    "source": "gpt-4o-mini"
-  },
   "jw-tm148548": {
     "titre": "Hors du temps",
     "annee": 2009,
@@ -2202,26 +2182,6 @@
       "animation_famille": 0
     },
     "justification": "Arbitrage sémantique validé : tonalité et enjeux dominants comedie.",
-    "analyzed_at": "2026-10-18T11:36:45.465Z",
-    "source": "gpt-4o-mini"
-  },
-  "jw-tm79916": {
-    "titre": "Bob l'éponge, le film",
-    "annee": 2004,
-    "slug": "jw-tm79916",
-    "categories": [
-      "animation_famille"
-    ],
-    "repartition": {
-      "drame_emotion": 0,
-      "comedie": 10,
-      "thriller_policier": 0,
-      "action_aventure": 0,
-      "scifi_fantastique": 20,
-      "horreur_epouvante": 0,
-      "animation_famille": 70
-    },
-    "justification": "Œuvre d'animation et divertissement tous publics / familial.",
     "analyzed_at": "2026-10-18T11:36:45.465Z",
     "source": "gpt-4o-mini"
   },
@@ -3985,26 +3945,6 @@
     "analyzed_at": "2026-10-18T11:36:45.465Z",
     "source": "gpt-4o-mini"
   },
-  "jw-tm183122": {
-    "titre": "Le Petit Lieutenant",
-    "annee": 2005,
-    "slug": "jw-tm183122",
-    "categories": [
-      "thriller_policier"
-    ],
-    "repartition": {
-      "drame_emotion": 30,
-      "comedie": 0,
-      "thriller_policier": 70,
-      "action_aventure": 0,
-      "scifi_fantastique": 0,
-      "horreur_epouvante": 0,
-      "animation_famille": 0
-    },
-    "justification": "Tension dramatique, machination criminelle, suspense et polar psychologique.",
-    "analyzed_at": "2026-10-18T11:36:45.465Z",
-    "source": "gpt-4o-mini"
-  },
   "jw-tm82525": {
     "titre": "Ocean’s 13",
     "annee": 2007,
@@ -4044,26 +3984,6 @@
     "justification": "Comédie, humour, ton décalé ou satirique au cœur de l'intrigue.",
     "analyzed_at": "2026-10-18T11:36:45.465Z",
     "source": "gpt-4o-mini"
-  },
-  "jw-tm38774": {
-    "titre": "Ocean's Eleven",
-    "annee": 2001,
-    "slug": "jw-tm38774",
-    "categories": [
-      "comedie"
-    ],
-    "repartition": {
-      "drame_emotion": 15,
-      "comedie": 85,
-      "thriller_policier": 0,
-      "action_aventure": 0,
-      "scifi_fantastique": 0,
-      "horreur_epouvante": 0,
-      "animation_famille": 0
-    },
-    "justification": "Comédie de casse culte, solaire et élégante de Steven Soderbergh avec George Clooney et Brad Pitt.",
-    "analyzed_at": "2026-10-18T12:05:09.041Z",
-    "source": "pure-semantic-intelligence"
   },
   "jw-tm351325": {
     "titre": "Dans la brume",
@@ -5305,26 +5225,6 @@
     "analyzed_at": "2026-10-18T11:36:45.466Z",
     "source": "gpt-4o-mini"
   },
-  "jw-ts6683": {
-    "titre": "Battlestar Galactica",
-    "annee": 2004,
-    "slug": "jw-ts6683",
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "repartition": {
-      "drame_emotion": 20,
-      "comedie": 0,
-      "thriller_policier": 0,
-      "action_aventure": 10,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 0,
-      "animation_famille": 0
-    },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.466Z",
-    "source": "gpt-4o-mini"
-  },
   "jw-ts20598": {
     "titre": "Heroes",
     "annee": 2006,
@@ -5925,26 +5825,6 @@
     "analyzed_at": "2026-10-18T11:36:45.466Z",
     "source": "gpt-4o-mini"
   },
-  "jw-tm19246": {
-    "titre": "Requiem for a Dream",
-    "annee": 2000,
-    "slug": "jw-tm19246",
-    "categories": [
-      "drame_emotion"
-    ],
-    "repartition": {
-      "drame_emotion": 100,
-      "comedie": 0,
-      "thriller_policier": 0,
-      "action_aventure": 0,
-      "scifi_fantastique": 0,
-      "horreur_epouvante": 0,
-      "animation_famille": 0
-    },
-    "justification": "Récit d'auteur, drame humain profond, émotions intimes ou fresque historique.",
-    "analyzed_at": "2026-10-18T11:36:45.466Z",
-    "source": "gpt-4o-mini"
-  },
   "jw-tm28136": {
     "titre": "Les Fils de l'homme",
     "annee": 2006,
@@ -5965,26 +5845,6 @@
     "analyzed_at": "2026-10-18T11:36:45.466Z",
     "source": "gpt-4o-mini"
   },
-  "jw-tm173412": {
-    "titre": "Orgueil et Préjugés",
-    "annee": 2005,
-    "slug": "jw-tm173412",
-    "categories": [
-      "drame_emotion"
-    ],
-    "repartition": {
-      "drame_emotion": 100,
-      "comedie": 0,
-      "thriller_policier": 0,
-      "action_aventure": 0,
-      "scifi_fantastique": 0,
-      "horreur_epouvante": 0,
-      "animation_famille": 0
-    },
-    "justification": "Récit d'auteur, drame humain profond, émotions intimes ou fresque historique.",
-    "analyzed_at": "2026-10-18T11:36:45.466Z",
-    "source": "gpt-4o-mini"
-  },
   "jw-tm166118": {
     "titre": "Snowpiercer : Le Transperceneige",
     "annee": 2013,
@@ -6002,26 +5862,6 @@
       "animation_famille": 0
     },
     "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.466Z",
-    "source": "gpt-4o-mini"
-  },
-  "jw-tm35465": {
-    "titre": "La Chute du faucon noir",
-    "annee": 2001,
-    "slug": "jw-tm35465",
-    "categories": [
-      "action_aventure"
-    ],
-    "repartition": {
-      "drame_emotion": 30,
-      "comedie": 0,
-      "thriller_policier": 0,
-      "action_aventure": 70,
-      "scifi_fantastique": 0,
-      "horreur_epouvante": 0,
-      "animation_famille": 0
-    },
-    "justification": "Action cinétique, affrontements physiques, combats ou survie d'aventure.",
     "analyzed_at": "2026-10-18T11:36:45.466Z",
     "source": "gpt-4o-mini"
   },
@@ -6345,26 +6185,6 @@
     "analyzed_at": "2026-10-18T11:36:45.466Z",
     "source": "gpt-4o-mini"
   },
-  "jw-tm81493": {
-    "titre": "La Chute",
-    "annee": 2004,
-    "slug": "jw-tm81493",
-    "categories": [
-      "drame_emotion"
-    ],
-    "repartition": {
-      "drame_emotion": 100,
-      "comedie": 0,
-      "thriller_policier": 0,
-      "action_aventure": 0,
-      "scifi_fantastique": 0,
-      "horreur_epouvante": 0,
-      "animation_famille": 0
-    },
-    "justification": "Récit d'auteur, drame humain profond, émotions intimes ou fresque historique.",
-    "analyzed_at": "2026-10-18T11:36:45.466Z",
-    "source": "gpt-4o-mini"
-  },
   "jw-tm949929": {
     "titre": "OSS 117: Alerte rouge",
     "annee": 2021,
@@ -6565,26 +6385,6 @@
     "analyzed_at": "2026-10-18T11:36:45.466Z",
     "source": "gpt-4o-mini"
   },
-  "jw-tm131138": {
-    "titre": "Good Bye Lenin!",
-    "annee": 2003,
-    "slug": "jw-tm131138",
-    "categories": [
-      "comedie"
-    ],
-    "repartition": {
-      "drame_emotion": 30,
-      "comedie": 70,
-      "thriller_policier": 0,
-      "action_aventure": 0,
-      "scifi_fantastique": 0,
-      "horreur_epouvante": 0,
-      "animation_famille": 0
-    },
-    "justification": "Comédie romantique et relations humaines légères et pétillantes.",
-    "analyzed_at": "2026-10-18T11:36:45.466Z",
-    "source": "gpt-4o-mini"
-  },
   "jw-ts81331": {
     "titre": "She-Ra et les princesses au pouvoir",
     "annee": 2018,
@@ -6722,26 +6522,6 @@
       "animation_famille": 0
     },
     "justification": "Récit d'auteur, drame humain profond, émotions intimes ou fresque historique.",
-    "analyzed_at": "2026-10-18T11:36:45.466Z",
-    "source": "gpt-4o-mini"
-  },
-  "jw-tm174054": {
-    "titre": "Secrets de famille",
-    "annee": 2005,
-    "slug": "jw-tm174054",
-    "categories": [
-      "comedie"
-    ],
-    "repartition": {
-      "drame_emotion": 0,
-      "comedie": 70,
-      "thriller_policier": 30,
-      "action_aventure": 0,
-      "scifi_fantastique": 0,
-      "horreur_epouvante": 0,
-      "animation_famille": 0
-    },
-    "justification": "Arbitrage sémantique validé : tonalité et enjeux dominants comedie.",
     "analyzed_at": "2026-10-18T11:36:45.466Z",
     "source": "gpt-4o-mini"
   },
@@ -7724,26 +7504,6 @@
     "justification": "Arbitrage sémantique validé : tonalité et enjeux dominants action aventure.",
     "analyzed_at": "2026-10-18T11:36:45.466Z",
     "source": "gpt-4o-mini"
-  },
-  "jw-tm169758": {
-    "titre": "Lemming",
-    "annee": 2005,
-    "slug": "jw-tm169758",
-    "categories": [
-      "thriller_policier"
-    ],
-    "repartition": {
-      "drame_emotion": 15,
-      "comedie": 0,
-      "thriller_policier": 85,
-      "action_aventure": 0,
-      "scifi_fantastique": 0,
-      "horreur_epouvante": 0,
-      "animation_famille": 0
-    },
-    "justification": "Thriller psychologique oppressant et mystérieux de Dominik Moll avec Charlotte Gainsbourg.",
-    "analyzed_at": "2026-10-18T12:15:27.002Z",
-    "source": "pure-semantic-intelligence"
   },
   "jw-tm1624064": {
     "titre": "Promis le ciel",
@@ -10969,26 +10729,6 @@
     "titre": "La première marche",
     "annee": 2020,
     "slug": "jw-tm843243",
-    "categories": [
-      "drame_emotion"
-    ],
-    "repartition": {
-      "drame_emotion": 100,
-      "comedie": 0,
-      "thriller_policier": 0,
-      "action_aventure": 0,
-      "scifi_fantastique": 0,
-      "horreur_epouvante": 0,
-      "animation_famille": 0
-    },
-    "justification": "Récit d'auteur, drame humain profond, émotions intimes ou fresque historique.",
-    "analyzed_at": "2026-10-18T11:36:45.467Z",
-    "source": "gpt-4o-mini"
-  },
-  "jw-tm83064": {
-    "titre": "Les Enfants de Belle Ville",
-    "annee": 2004,
-    "slug": "jw-tm83064",
     "categories": [
       "drame_emotion"
     ],
@@ -15356,25 +15096,6 @@
     "audit_date": "2026-10-18",
     "audit_methode": "audit_semantique_pur_titre_synopsis_sans_tags"
   },
-  "jw-tm84441": {
-    "titre": "Million Dollar Baby",
-    "annee": 2004,
-    "categories": [
-      "drame_emotion"
-    ],
-    "repartition": {
-      "drame_emotion": 100,
-      "comedie": 0,
-      "thriller_policier": 0,
-      "action_aventure": 0,
-      "scifi_fantastique": 0,
-      "horreur_epouvante": 0,
-      "animation_famille": 0
-    },
-    "justification": "Analyse sémantique pure (Titre + Synopsis) validée : dominante [drame_emotion].",
-    "audit_date": "2026-10-18",
-    "audit_methode": "audit_semantique_pur_titre_synopsis_sans_tags"
-  },
   "jw-tm1561519": {
     "titre": "Sur la route de papa",
     "annee": 2025,
@@ -15565,25 +15286,6 @@
     "audit_date": "2026-10-18",
     "audit_methode": "audit_semantique_pur_titre_synopsis_sans_tags"
   },
-  "jw-tm110716": {
-    "titre": "Sympathy for Mister Vengeance",
-    "annee": 2002,
-    "categories": [
-      "thriller_policier"
-    ],
-    "repartition": {
-      "drame_emotion": 0,
-      "comedie": 0,
-      "thriller_policier": 100,
-      "action_aventure": 0,
-      "scifi_fantastique": 0,
-      "horreur_epouvante": 0,
-      "animation_famille": 0
-    },
-    "justification": "Analyse sémantique pure (Titre + Synopsis) validée : dominante [thriller_policier].",
-    "audit_date": "2026-10-18",
-    "audit_methode": "audit_semantique_pur_titre_synopsis_sans_tags"
-  },
   "jw-tm1330850": {
     "titre": "Dead Shot",
     "annee": 2023,
@@ -15676,25 +15378,6 @@
       "animation_famille": 0
     },
     "justification": "Analyse sémantique pure (Titre + Synopsis) validée : dominante [horreur_epouvante].",
-    "audit_date": "2026-10-18",
-    "audit_methode": "audit_semantique_pur_titre_synopsis_sans_tags"
-  },
-  "jw-tm136559": {
-    "titre": "Old Boy",
-    "annee": 2003,
-    "categories": [
-      "thriller_policier"
-    ],
-    "repartition": {
-      "drame_emotion": 0,
-      "comedie": 0,
-      "thriller_policier": 100,
-      "action_aventure": 0,
-      "scifi_fantastique": 0,
-      "horreur_epouvante": 0,
-      "animation_famille": 0
-    },
-    "justification": "Analyse sémantique pure (Titre + Synopsis) validée : dominante [thriller_policier].",
     "audit_date": "2026-10-18",
     "audit_methode": "audit_semantique_pur_titre_synopsis_sans_tags"
   },
@@ -15866,25 +15549,6 @@
       "animation_famille": 0
     },
     "justification": "Analyse sémantique pure (Titre + Synopsis) validée : dominante [comedie].",
-    "audit_date": "2026-10-18",
-    "audit_methode": "audit_semantique_pur_titre_synopsis_sans_tags"
-  },
-  "jw-tm165083": {
-    "titre": "Lady Vengeance",
-    "annee": 2005,
-    "categories": [
-      "thriller_policier"
-    ],
-    "repartition": {
-      "drame_emotion": 0,
-      "comedie": 0,
-      "thriller_policier": 100,
-      "action_aventure": 0,
-      "scifi_fantastique": 0,
-      "horreur_epouvante": 0,
-      "animation_famille": 0
-    },
-    "justification": "Analyse sémantique pure (Titre + Synopsis) validée : dominante [thriller_policier].",
     "audit_date": "2026-10-18",
     "audit_methode": "audit_semantique_pur_titre_synopsis_sans_tags"
   },
@@ -16303,25 +15967,6 @@
       "animation_famille": 0
     },
     "justification": "Analyse sémantique pure (Titre + Synopsis) validée : dominante [horreur_epouvante].",
-    "audit_date": "2026-10-18",
-    "audit_methode": "audit_semantique_pur_titre_synopsis_sans_tags"
-  },
-  "jw-tm134211": {
-    "titre": "Lost in Translation",
-    "annee": 2003,
-    "categories": [
-      "drame_emotion"
-    ],
-    "repartition": {
-      "drame_emotion": 100,
-      "comedie": 0,
-      "thriller_policier": 0,
-      "action_aventure": 0,
-      "scifi_fantastique": 0,
-      "horreur_epouvante": 0,
-      "animation_famille": 0
-    },
-    "justification": "Chef-d'œuvre du drame romantique et mélancolique existentiel de Sofia Coppola.",
     "audit_date": "2026-10-18",
     "audit_methode": "audit_semantique_pur_titre_synopsis_sans_tags"
   },

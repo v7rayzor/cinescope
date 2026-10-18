@@ -122,22 +122,22 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 ## 5. État Actuel du Catalogue & Versions Déployées
 
 * **Audit de Conformité Catalogue ([js/catalog.js](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js))** :
-  - **Total œuvres qualifiées PC** : **1 431** (1 283 films $\ge 60\text{ min}$, 148 séries).
-  - **Total œuvres qualifiées Mobile** : **864** (739 films $\ge 60\text{ min}$, 125 séries).
-  - **Conformité 1 catégorie unique** : **1 431 / 1 431 (100% conforme, 0 anomalie)**.
-  - **Répartition définitive des 7 catégories officielles (1 431 titres audités sans tags)** :
-    * `drame_emotion` : 468 (32.7%)
-    * `comedie` : 291 (20.3%)
-    * `horreur_epouvante` : 196 (13.7%)
-    * `thriller_policier` : 166 (11.6%)
-    * `animation_famille` : 115 (8.0%)
-    * `action_aventure` : 101 (7.1%)
-    * `scifi_fantastique` : 94 (6.6%)
+  - **Total œuvres qualifiées PC** : **1 413** (films $\ge 60\text{ min}$ et séries sortis entre 2006 et 2026).
+  - **Application stricte des 20 ans glissants ($\ge 2006$)** : 18 titres historiques sortis entre 2000 et 2005 ont été purgés pour respecter rigoureusement la borne temporelle.
+  - **Conformité 1 catégorie unique** : **1 413 / 1 413 (100% conforme, 0 anomalie)**.
+  - **Répartition définitive des 7 catégories officielles (1 413 titres audités sans tags)** :
+    * `drame_emotion` : 461 (32.6%)
+    * `comedie` : 288 (20.4%)
+    * `horreur_epouvante` : 196 (13.9%)
+    * `thriller_policier` : 161 (11.4%)
+    * `animation_famille` : 114 (8.1%)
+    * `action_aventure` : 100 (7.1%)
+    * `scifi_fantastique` : 93 (6.6%)
   - **Titres expirés** : **0**.
-* **Grand Audit Sémantique Intégral 100% Titre + Synopsis (1 431 / 1 431 œuvres)** :
+* **Grand Audit Sémantique Intégral 100% Titre + Synopsis (1 413 / 1 413 œuvres)** :
   - Chaque œuvre a été analysée individuellement sur son Titre et son Synopsis réel sans jamais se fier aux tags bruts JustWatch (`raw_genres`).
   - Les tags bruts sont conservés dans le code source uniquement comme roue de secours en cas d'indisponibilité réseau (`callDeterministicClassifier`).
-  - `data/ai_categories.json` et `js/catalog.js` sont 100% alignés et verrouillés pour les 1 431 œuvres.
+  - `data/ai_categories.json` et `js/catalog.js` sont 100% alignés et verrouillés pour les 1 413 œuvres.
 * **Traçabilité Technique & Cache** :
   - **Version Application / PWA** : **v8.75** (`sw.js` : `cinescope-v8.75-streaming`).
   - **Clés LocalStorage Actives** : `_v46` (`cinescope_streaming_catalog_v46`, `cinescope_last_specialized_sync_v46`, etc.).

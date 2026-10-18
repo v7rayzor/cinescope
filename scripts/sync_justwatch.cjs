@@ -261,7 +261,7 @@ async function fetchBouquetPages(pkgSlug) {
       popularTitlesFilter: {
         packages: [pkgSlug],
         monetizationTypes: ['FLATRATE'],
-        releaseYear: { min: 2000 }
+        releaseYear: { min: 2006 }
       }
     };
 

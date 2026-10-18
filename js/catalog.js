@@ -2551,54 +2551,6 @@ const CATALOG_DATA = [
     "date_ajout": "2018-05-23"
   },
   {
-    "id": "jw-tm159310",
-    "titre": "Coach Carter",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Emotion",
-    "annee": 2005,
-    "note_avis": 7.4,
-    "note_recence": 5.2,
-    "note_globale": 6.3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/175485381/s592/coach-carter.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "2h 16min",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 16/11",
-      "daysLeft": 31,
-      "expirationDate": "2026-11-16",
-      "packageExpirations": {
-        "aoc": "2026-11-16"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 136,
-    "etoiles": 3,
-    "raw_genres": [
-      "drm",
-      "hst",
-      "spt"
-    ],
-    "synopsis": "L'histoire vraie de Ken Carter, l'entraîneur de basket d'une équipe de lycée, qui devint célèbre en 1999 après avoir renvoyé ses joueurs à leurs chères études, déclarant forfait deux matchs de suite alors que l'équipe était invaincue, parce que ces derniers n'avaient pas obtenu des résultats scolaires suffisants.",
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm148548",
     "titre": "Hors du temps",
     "type": "film",
@@ -3990,55 +3942,6 @@ const CATALOG_DATA = [
     ],
     "synopsis": "Adam, Nick et Lou sont trois amis de longue date qui ont une existence des moins heureuses. Un jour, quand Lou, éméché, tente de se suicider, Adam et Nick, accompagnés de Jacob, le neveu du premier, partent de façon impulsive à Kodiak Valley Ski Resort, là où les trois amis passèrent le weekend le plus mémorable de leur adolescence. Les quatre protagonistes passent la nuit dans un jacuzzi en buvant de l'alcool à gogo. Mais, le lendemain, ils se réveillent et découvrent qu'ils sont projetés en 1986.",
     "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm79916",
-    "titre": "Bob l'éponge, le film",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Family",
-    "annee": 2004,
-    "note_avis": 7.2,
-    "note_recence": 4.9,
-    "note_globale": 6.1,
-    "categories": [
-      "animation_famille"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/244238031/s592/the-spongebob-squarepants-movie.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 30min",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 18/12",
-      "daysLeft": 63,
-      "expirationDate": "2026-12-18",
-      "packageExpirations": {
-        "aoc": "2026-12-18"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 90,
-    "etoiles": 3,
-    "raw_genres": [
-      "ani",
-      "cmy",
-      "fnt",
-      "fml"
-    ],
-    "synopsis": "À Bikini Bottom, quelqu'un a volé la couronne du roi Neptune, et le patron de Bob l'éponge, M. Krabs, figure en tête des suspects. Convaincus de son innocence, Bob et Patrick partent pour Shell City avec l'intention de le disculper et de restituer sa couronne à Neptune.",
-    "on_prime": true,
     "on_tnt": false
   },
   {
@@ -8399,52 +8302,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm183122",
-    "titre": "Le Petit Lieutenant",
-    "type": "film",
-    "categories": [
-      "thriller_policier"
-    ],
-    "annee": 2005,
-    "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "poster": "https://images.justwatch.com/poster/174287105/s592/le-petit-lieutenant.jpg",
-    "note_avis": 6.9,
-    "note_recence": 5.2,
-    "note_globale": 6.1,
-    "is_eligible": true,
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "badge": null,
-    "duree": "1h 50min",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 15,
-      "expirationDate": "2026-10-31",
-      "packageExpirations": {
-        "aoc": "2026-10-31"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 110,
-    "etoiles": 3,
-    "raw_genres": [
-      "crm",
-      "drm",
-      "eur"
-    ],
-    "synopsis": "À sa sortie de l'École de Police, Antoine monte à Paris pour intégrer la 2ème division de Police Judiciaire. Caroline Vaudieu, de retour dans le service après avoir vaincu son alcoolisme, choisit le petit lieutenant pour son groupe crim'. Plein d'enthousiasme, Antoine fait son apprentissage du métier aux côtés de ses hommes. Vaudieu s'attache rapidement à ce jeune homme, de l'âge qu'aurait eu son fils disparu...",
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm82525",
     "titre": "Ocean’s 13",
     "type": "film",
@@ -8535,51 +8392,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2019,
     "date_ajout": "2019-07-03"
-  },
-  {
-    "id": "jw-tm38774",
-    "titre": "Ocean's Eleven",
-    "type": "film",
-    "categories": [
-      "comedie"
-    ],
-    "annee": 2001,
-    "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "poster": "https://images.justwatch.com/poster/313066937/s592/oceans-eleven.jpg",
-    "note_avis": 7.7,
-    "note_recence": 4.2,
-    "note_globale": 6,
-    "is_eligible": true,
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "badge": null,
-    "duree": "1h 56min",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 15,
-      "expirationDate": "2026-10-31",
-      "packageExpirations": {
-        "aoc": "2026-10-31"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 116,
-    "etoiles": 3,
-    "raw_genres": [
-      "crm",
-      "trl"
-    ],
-    "synopsis": "A peine sorti de prison, Danny Ocean n'a qu'une idée en tête : organiser le casse du siècle en cambriolant les trois plus grands casinos de Las Vegas. Pour cela il réunit une équipe de malfrats spécialistes dans des domaines aussi variés que les explosifs, l'informatique, le bluff...",
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm1372859",
@@ -12179,79 +11991,6 @@ const CATALOG_DATA = [
     "date_ajout": "2026-09-03"
   },
   {
-    "id": "jw-ts6683",
-    "titre": "Battlestar Galactica",
-    "type": "serie",
-    "chaine": "Universal+",
-    "section": "Séries",
-    "position": "Séries — SCIFI",
-    "annee": 2004,
-    "note_avis": 8.7,
-    "note_recence": 4,
-    "note_globale": 6.4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/159744834/s592/battlestar-galactica.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "chaines": [
-      "Universal+"
-    ],
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "duree": "49 min/ép.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 50,
-      "expirationDate": "2026-12-05",
-      "packageExpirations": {
-        "auc": "2026-12-05"
-      }
-    },
-    "package_slugs": [
-      "auc"
-    ],
-    "runtime_minutes": 49,
-    "etoiles": 3,
-    "raw_genres": [
-      "act",
-      "drm",
-      "scf"
-    ],
-    "synopsis": "Puissants robots, les Cylons règnent en maître sur l'univers. À bord du dernier vaisseau de guerre, le Galactica, des humains tentent de survivre en entreprenant le voyage de la dernière chance : trouver une légendaire planète appelée la Terre.",
-    "on_prime": true,
-    "on_tnt": false,
-    "annee_fin": 2008,
-    "annee_moyenne": 2006,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2004,
-        "note": 8.7
-      },
-      {
-        "saison": 2,
-        "annee": 2005,
-        "note": 8.7
-      },
-      {
-        "saison": 3,
-        "annee": 2006,
-        "note": 8.7
-      },
-      {
-        "saison": 4,
-        "annee": 2008,
-        "note": 8.7
-      }
-    ],
-    "date_ajout": "2021-04-19"
-  },
-  {
     "id": "jw-ts20598",
     "titre": "Heroes",
     "type": "serie",
@@ -14105,48 +13844,6 @@ const CATALOG_DATA = [
     "date_ajout": "2024-03-26"
   },
   {
-    "id": "jw-tm19246",
-    "titre": "Requiem for a Dream",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2000,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 8.3,
-    "note_recence": 4,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/335435823/s592/requiem-for-a-dream.jpg",
-    "synopsis": "Harry Goldfarb est un junkie. Il passe ses journées en compagnie de sa petite amie Marion et son copain Tyrone. Ensemble, ils s’inventent un paradis artificiel. En quête d’une vie meilleure, le trio est entraîné dans une spirale infernale qui les enfonce toujours un peu plus dans l’angoisse et le désespoir. La mère d’Harry, Sara, souffre d’une autre forme d’addiction, la télévision. Juive, fantasque et veuve depuis des années, elle vit seule à Coney Island et nourrit dans le secret l’espoir de participer un jour à son émission préférée. Afin de satisfaire aux canons esthétiques de la télévision, elle s’astreint à un régime draconien. Un jour, elle le sait, elle passera de l’autre côté de l’écran.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm28136",
     "titre": "Les Fils de l'homme",
     "type": "film",
@@ -14194,51 +13891,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2006,
     "date_ajout": "2006-12-25"
-  },
-  {
-    "id": "jw-tm173412",
-    "titre": "Orgueil et Préjugés",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2005,
-    "duree": "2h 08min",
-    "runtime_minutes": 128,
-    "note_avis": 7.8,
-    "note_recence": 5.2,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/8680757/s592/orgueil-and-prejuges.jpg",
-    "synopsis": "Elizabeth Bennet, 20 ans, est la seconde fille de Mr et Mrs Bennet. Elle grandit aux cotés de ses quatre autres sœurs et affectionne particulièrement Jane, de deux ans son aînée. Cette dernière est réputée pour sa douceur et sa beauté dans toute la ville de Meryton. Elizabeth, quant à elle, est une jeune fille ravissante, vive d’esprit, aimant observer la société dans laquelle elle évolue mais aimant surtout se moquer des sottises d’autrui. La famille Bennet est simple et très liée, faisant fi de certaines convenances exigée par l’étiquette à l’époque de Jane Austen. Mrs Bennet n’a qu’une idée en tête : marier ses cinq filles afin d’assurer leur avenir ainsi que celui de toute la famille.",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 6 j",
-      "daysLeft": 6,
-      "expirationDate": "2026-10-22",
-      "packageExpirations": {
-        "aoc": "2026-10-22"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm166118",
@@ -14289,53 +13941,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2013,
     "date_ajout": "2013-10-30"
-  },
-  {
-    "id": "jw-tm35465",
-    "titre": "La Chute du faucon noir",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2001,
-    "duree": "2h 25min",
-    "runtime_minutes": 145,
-    "note_avis": 7.7,
-    "note_recence": 4.2,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "hst",
-      "war"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/164722650/s592/la-chute-du-faucon-noir.jpg",
-    "synopsis": "Le 3 octobre 1993, avec l'appui des Nations Unies, une centaine de marines américains de la Task Force Ranger est envoyée en mission à Mogadiscio, en Somalie, pour assurer le maintien de la paix et capturer les deux principaux lieutenants et quelques autres associés de Mohamed Farrah Aidïd, un chef de guerre local. Cette opération de routine vire rapidement au cauchemar lorsque les militaires sont pris pour cibles par les factions armées rebelles et la population, résolument hostiles à toute présence étrangère sur leur territoire.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 12/11",
-      "daysLeft": 27,
-      "expirationDate": "2026-11-12",
-      "packageExpirations": {
-        "aoc": "2026-11-12"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-ts21527",
@@ -15139,53 +14744,6 @@ const CATALOG_DATA = [
     "date_ajout": "2018-12-05"
   },
   {
-    "id": "jw-tm81493",
-    "titre": "La Chute",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2004,
-    "duree": "2h 35min",
-    "runtime_minutes": 155,
-    "note_avis": 8.2,
-    "note_recence": 4.9,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "war",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/164718573/s592/downfall.jpg",
-    "synopsis": "Berlin, avril 1945. Le IIIe Reich s'effondre. Les Russes sont dans Berlin, les combats font rage dans les rues de la capitale. Hitler, accompagné de ses généraux et de ses plus proches partisans, s'est réfugié dans son bunker, situé dans les sous-sols des jardins de la Chancellerie. À ses côtés, Traudl Junge, la secrétaire particulière du Führer, refuse de l'abandonner. Tandis qu'à l'extérieur la situation se dégrade, Hitler vit ses dernières heures et la chute du régime.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 107,
-      "expirationDate": "2027-01-31",
-      "packageExpirations": {
-        "aoc": "2027-01-31"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm949929",
     "titre": "OSS 117: Alerte rouge",
     "type": "film",
@@ -15666,51 +15224,6 @@ const CATALOG_DATA = [
     "date_ajout": "2025-09-07"
   },
   {
-    "id": "jw-tm131138",
-    "titre": "Good Bye Lenin!",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2003,
-    "duree": "2h 01min",
-    "runtime_minutes": 121,
-    "note_avis": 7.7,
-    "note_recence": 4.7,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/239487179/s592/good-bye-lenin.jpg",
-    "synopsis": "Alex, un jeune Berlinois de l’Est, apprend la chute du mur alors que sa mère est dans le coma à la suite d’un infarctus. Celle‐ci a toujours été quelqu’un d’actif, participant avec enthousiasme à l’animation d’une chorale. Les mois passent et le coma continue. La ville se transforme, les voitures occidentales sillonnent les rues, les publicités envahissent les murs. Au bout de 8 mois, elle ouvre les yeux dans une ville qu’elle ne peut plus reconnaître. Alex veut absolument lui éviter un choc brutal que son cœur affaibli ne pourrait supporter. Profitant de son alitement, avec l’aide de sa famille et de ses amis, il reconstruit autour d’elle son univers familier, convoque les jeunes chanteurs de la chorale, sollicite l’aide d’un ancien cosmonaute, reconverti en chauffeur de taxi, et s’efforce de faire revivre la RDA dans les 79 m² de l’appartement, remis aux normes socialistes.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts81331",
     "titre": "She-Ra et les princesses au pouvoir",
     "type": "serie",
@@ -16049,49 +15562,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2026,
     "date_ajout": "2026-01-14"
-  },
-  {
-    "id": "jw-tm174054",
-    "titre": "Secrets de famille",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2005,
-    "duree": "1h 43min",
-    "runtime_minutes": 103,
-    "note_avis": 6.8,
-    "note_recence": 5.2,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/8688415/s592/secrets-de-famille.jpg",
-    "synopsis": "Le révérend Walter Goodfellow est tellement occupé à écrire ses sermons et à gérer la paroisse de son joli petit village anglais qu'il ne s'aperçoit même pas que sa femme, Gloria, est sur le point de céder aux avances de son professeur de golf. Il n'a pas non plus remarqué que sa fille, Holly, changeait de petit ami toutes les semaines, ni que son fils, Petey, était le souffre-douleur des petites frappes du collège...Entre son couple qui n'en est plus un et ses enfants qui lui échappent, Gloria ne sait plus où elle en est. Même le chien du voisin lui tape sur les nerfs.L'arrivée de Grace, la nouvelle gouvernante, va tout changer. Cette délicieuse vieille dame a une façon aussi efficace que définitive de régler les problèmes. Evidemment, cela peut faire quelques victimes...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm1354988",
@@ -18553,50 +18023,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2019,
     "date_ajout": "2016-02-01"
-  },
-  {
-    "id": "jw-tm169758",
-    "titre": "Lemming",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2005,
-    "duree": "2h 10min",
-    "runtime_minutes": 130,
-    "note_avis": 6.7,
-    "note_recence": 5.2,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/251598092/s592/lemming.jpg",
-    "synopsis": "Bénédicte et Alain Getty, jeune et brillant ingénieur en domotique, récemment installés dans une nouvelle ville, reçoivent à dîner le patron d'Alain, Richard Pollock, et son épouse Alice. Cette rencontre ne sera pas sans conséquences sur l'harmonie du jeune couple. La découverte du cadavre d'un mystérieux rongeur dans l'évacuation bouchée de leur évier n'arrange pas les choses et annonce l'irruption de l'irrationnel dans ce qui était jusqu'alors une vie bien rangée.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm1624064",
@@ -26611,51 +26037,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2020,
     "date_ajout": "2020-10-14"
-  },
-  {
-    "id": "jw-tm83064",
-    "titre": "Les Enfants de Belle Ville",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2004,
-    "duree": "1h 41min",
-    "runtime_minutes": 101,
-    "note_avis": 7.6,
-    "note_recence": 4.9,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/268207973/s592/les-enfants-de-belle-ville.jpg",
-    "synopsis": "Akbar est jeune, il vient d’avoir 18 ans, mais Akbar est condamné à mort. Alors qu’il attend son exécution dans une prison de Téhéran, son meilleur ami et sa sœur vont tenter d’obtenir le pardon du père de sa victime, seul moyen pour lui d’échapper à son destin.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 107,
-      "expirationDate": "2027-01-31",
-      "packageExpirations": {
-        "aoc": "2027-01-31"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm462031",
@@ -37424,51 +36805,6 @@ const CATALOG_DATA = [
     "date_ajout": "2011-09-14"
   },
   {
-    "id": "jw-tm84441",
-    "titre": "Million Dollar Baby",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2004,
-    "duree": "2h 12min",
-    "runtime_minutes": 132,
-    "note_avis": 8.1,
-    "note_recence": 4.9,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/88685344/s592/million-dollar-baby.jpg",
-    "synopsis": "Rejeté depuis longtemps par sa fille, l’entraîneur Frankie Dunn s’est replié sur lui‐même et vit dans un désert affectif, en évitant toute relation qui pourrait accroître sa douleur et sa culpabilité. Le jour où Maggie Fitzgerald, 31 ans, pousse la porte de son gymnase à la recherche d’un coach, elle n’amène pas seulement avec elle sa jeunesse et sa force, mais aussi une histoire jalonnée d’épreuves et une exigence, vitale et urgente : monter sur le ring, entraînée par Frankie, et enfin concrétiser le rêve d’une vie. Après avoir repoussé plusieurs fois sa demande, Frankie se laisse convaincre par l’inflexible détermination de la jeune femme. Une relation mouvementée, tour à tour stimulante et exaspérante, se noue entre eux, au fil de laquelle Maggie et l’entraîneur se découvrent une communauté d’esprit et une complicité inattendues…",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 15,
-      "expirationDate": "2026-10-31",
-      "packageExpirations": {
-        "aoc": "2026-10-31"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1561519",
     "titre": "Sur la route de papa",
     "type": "film",
@@ -37956,52 +37292,6 @@ const CATALOG_DATA = [
     "date_ajout": "2025-06-11"
   },
   {
-    "id": "jw-tm110716",
-    "titre": "Sympathy for Mister Vengeance",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2002,
-    "duree": "2h 09min",
-    "runtime_minutes": 129,
-    "note_avis": 7.5,
-    "note_recence": 4.5,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/308791237/s592/sympathy-for-mr-vengeance-2002.jpg",
-    "synopsis": "Ryu est un ouvrier sourd et muet, dont la sœur est en attente d'une opération chirurgicale. Son patron, Dongjin, est divorcé et père d'une petite fille. Young-Mi, la fiancée de Ryu, est une activiste gauchiste. Lorsque Ryu perd son emploi et voit diminuer les chances d'opération de sa sœur, elle lui propose de kidnapper la fille de Dongjin. La rançon obtenue servirait à pouvoir soigner la sœur de Ryu. Mais le plan parfait tourne à la catastrophe…",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 45,
-      "expirationDate": "2026-11-30",
-      "packageExpirations": {
-        "aoc": "2026-11-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1330850",
     "titre": "Dead Shot",
     "type": "film",
@@ -38239,52 +37529,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2015,
     "date_ajout": "2015-06-26"
-  },
-  {
-    "id": "jw-tm136559",
-    "titre": "Old Boy",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2003,
-    "duree": "2h 00min",
-    "runtime_minutes": 120,
-    "note_avis": 8.3,
-    "note_recence": 4.7,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/8721843/s592/old-boy-2003.jpg",
-    "synopsis": "À la fin des années 80, Oh Dae-Soo, père de famille sans histoire, est enlevé un jour devant chez lui. Séquestré pendant plusieurs années dans une cellule privée, son seul lien avec l'extérieur est une télévision. Par le biais de cette télévision, il apprend le meurtre de sa femme, meurtre dont il est le principal suspect. Au désespoir d'être séquestré sans raison apparente succède alors chez le héros une rage intérieure vengeresse qui lui permet de survivre. Il est relâché 15 ans plus tard, toujours sans explication. Oh Dae-Soo est alors contacté par celui qui semble être le responsable de ses malheurs, qui lui propose de découvrir qui l'a enlevé et pourquoi. Le cauchemar continue pour le héros.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 45,
-      "expirationDate": "2026-11-30",
-      "packageExpirations": {
-        "aoc": "2026-11-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-ts222345",
@@ -38717,52 +37961,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2021,
     "date_ajout": "2021-05-19"
-  },
-  {
-    "id": "jw-tm165083",
-    "titre": "Lady Vengeance",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2005,
-    "duree": "1h 55min",
-    "runtime_minutes": 115,
-    "note_avis": 7.5,
-    "note_recence": 5.2,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/312429862/s592/lady-vengeance.jpg",
-    "synopsis": "Geum-ja, une belle jeune fille, devient un personnage public lorsqu'elle est accusée de l'enlèvement et du meurtre d'un garçon de 5 ans. Ce crime atroce obsède les médias. Geum-ja passe aux aveux et est condamnée à une longue peine de prison. Elle va consacrer ses 13 ans d'enfermement à la préparation méticuleuse de sa vengeance contre son ancien professeur Mr. Baek…",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 45,
-      "expirationDate": "2026-11-30",
-      "packageExpirations": {
-        "aoc": "2026-11-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm79689",
@@ -39821,53 +39019,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2022,
     "date_ajout": "2023-01-06"
-  },
-  {
-    "id": "jw-tm134211",
-    "titre": "Lost in Translation",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2003,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 7.7,
-    "note_recence": 4.7,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/175287463/s592/lost-in-translation.jpg",
-    "synopsis": "Bob Harris, acteur sur le déclin, se rend à Tokyo pour tourner un spot publicitaire. Il a conscience qu'il se trompe - il devrait être chez lui avec sa famille, jouer au théâtre ou encore chercher un rôle dans un film -, mais il a besoin d'argent. Du haut de son hôtel de luxe, il contemple la ville, mais ne voit rien. Il est ailleurs, détaché de tout, incapable de s'intégrer à la réalité qui l'entoure, incapable également de dormir à cause du décalage horaire. Dans ce même établissement, Charlotte, une jeune Américaine fraîchement diplômée, accompagne son mari, photographe de mode. Ce dernier semble s'intéresser davantage à son travail qu'à sa femme. Se sentant délaissée, Charlotte cherche un peu d'attention. Elle va en trouver auprès de Bob…",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/10",
-      "daysLeft": 15,
-      "expirationDate": "2026-10-31",
-      "packageExpirations": {
-        "aoc": "2026-10-31"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm1076773",
