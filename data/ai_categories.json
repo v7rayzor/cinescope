@@ -353,5 +353,290 @@
     "justification": "Comédie satirique mordante et décalée d'Adam McKay sur la crise financière",
     "analyzed_at": "2026-10-18T11:10:54.984Z",
     "source": "expert_audit_gpt4o"
+  },
+  "jw-tm1535068": {
+    "titre": "Haut les mains!",
+    "annee": 2025,
+    "slug": "haut_les_mains__2025",
+    "categories": [
+      "comedie"
+    ],
+    "repartition": {
+      "comedie": 75,
+      "thriller_policier": 25
+    },
+    "justification": "Comédie satirique d'éco-féministes associées à un vieux cambrioleur dépassé",
+    "analyzed_at": "2026-10-18T11:27:04.535Z",
+    "source": "deep_audit_gpt4o"
+  },
+  "jw-tm45399": {
+    "titre": "Burn After Reading",
+    "annee": 2008,
+    "slug": "burn_after_reading_2008",
+    "categories": [
+      "comedie"
+    ],
+    "repartition": {
+      "comedie": 70,
+      "thriller_policier": 20,
+      "drame_emotion": 10
+    },
+    "justification": "Comédie noire satirique et burlesque des frères Coen avec Brad Pitt et George Clooney",
+    "analyzed_at": "2026-10-18T11:27:04.540Z",
+    "source": "deep_audit_gpt4o"
+  },
+  "jw-tm410289": {
+    "titre": "En liberté !",
+    "annee": 2018,
+    "slug": "en_libert__2018",
+    "categories": [
+      "comedie"
+    ],
+    "repartition": {
+      "comedie": 70,
+      "thriller_policier": 20,
+      "drame_emotion": 10
+    },
+    "justification": "Comédie policière burlesque de Pierre Salvadori avec Adèle Haenel et Pio Marmaï",
+    "analyzed_at": "2026-10-18T11:27:04.540Z",
+    "source": "deep_audit_gpt4o"
+  },
+  "jw-tm170374": {
+    "titre": "Je fais le mort",
+    "annee": 2013,
+    "slug": "je_fais_le_mort_2013",
+    "categories": [
+      "comedie"
+    ],
+    "repartition": {
+      "comedie": 75,
+      "thriller_policier": 25
+    },
+    "justification": "Comédie policière hilarante avec François Damiens mimant des cadavres en station de ski",
+    "analyzed_at": "2026-10-18T11:27:04.540Z",
+    "source": "deep_audit_gpt4o"
+  },
+  "jw-tm266647": {
+    "titre": "Ocean's 8",
+    "annee": 2018,
+    "slug": "ocean_s_8_2018",
+    "categories": [
+      "comedie"
+    ],
+    "repartition": {
+      "comedie": 60,
+      "thriller_policier": 35,
+      "action_aventure": 5
+    },
+    "justification": "Comédie de casse glamour et pétillante au Met Gala avec Sandra Bullock et Cate Blanchett",
+    "analyzed_at": "2026-10-18T11:27:04.540Z",
+    "source": "deep_audit_gpt4o"
+  },
+  "jw-tm123158": {
+    "titre": "Insaisissables 2",
+    "annee": 2016,
+    "slug": "insaisissables_2_2016",
+    "categories": [
+      "comedie"
+    ],
+    "repartition": {
+      "comedie": 55,
+      "thriller_policier": 30,
+      "action_aventure": 15
+    },
+    "justification": "Comédie d'illusionnisme et de braquage grand public rythmée et ludique",
+    "analyzed_at": "2026-10-18T11:27:04.540Z",
+    "source": "deep_audit_gpt4o"
+  },
+  "jw-tm138462": {
+    "titre": "The Voices",
+    "annee": 2015,
+    "slug": "the_voices_2015",
+    "categories": [
+      "comedie"
+    ],
+    "repartition": {
+      "comedie": 65,
+      "horreur_epouvante": 25,
+      "thriller_policier": 10
+    },
+    "justification": "Comédie noire déjantée avec Ryan Reynolds et ses animaux domestiques qui parlent",
+    "analyzed_at": "2026-10-18T11:27:04.541Z",
+    "source": "deep_audit_gpt4o"
+  },
+  "jw-tm228888": {
+    "titre": "Braquage à l'Allemande",
+    "annee": 2016,
+    "slug": "braquage_l_allemande_2016",
+    "categories": [
+      "comedie"
+    ],
+    "repartition": {
+      "comedie": 70,
+      "thriller_policier": 25,
+      "action_aventure": 5
+    },
+    "justification": "Comédie populaire de braqueurs amateurs loufoques",
+    "analyzed_at": "2026-10-18T11:27:04.541Z",
+    "source": "deep_audit_gpt4o"
+  },
+  "jw-tm163563": {
+    "titre": "Une pure affaire",
+    "annee": 2011,
+    "slug": "une_pure_affaire_2011",
+    "categories": [
+      "comedie"
+    ],
+    "repartition": {
+      "comedie": 70,
+      "thriller_policier": 25,
+      "drame_emotion": 5
+    },
+    "justification": "Comédie de mœurs policière avec François Damiens en avocat improvisé dealer",
+    "analyzed_at": "2026-10-18T11:27:04.541Z",
+    "source": "deep_audit_gpt4o"
+  },
+  "jw-tm1330568": {
+    "titre": "Omar La Fraise",
+    "annee": 2023,
+    "slug": "omar_la_fraise_2023",
+    "categories": [
+      "comedie"
+    ],
+    "repartition": {
+      "comedie": 65,
+      "thriller_policier": 25,
+      "drame_emotion": 10
+    },
+    "justification": "Comédie de gangsters décalée en cavale à Alger avec Reda Kateb et Benoît Magimel",
+    "analyzed_at": "2026-10-18T11:27:04.542Z",
+    "source": "deep_audit_gpt4o"
+  },
+  "jw-tm145203": {
+    "titre": "Bienvenue à Zombieland",
+    "annee": 2009,
+    "slug": "bienvenue_zombieland_2009",
+    "categories": [
+      "comedie"
+    ],
+    "repartition": {
+      "comedie": 70,
+      "horreur_epouvante": 20,
+      "action_aventure": 10
+    },
+    "justification": "Comédie d'action zombiesque culte et hilarante avec Woody Harrelson et Emma Stone",
+    "analyzed_at": "2026-10-18T11:27:04.542Z",
+    "source": "deep_audit_gpt4o"
+  },
+  "jw-tm1166362": {
+    "titre": "Deadstream",
+    "annee": 2022,
+    "slug": "deadstream_2022",
+    "categories": [
+      "comedie"
+    ],
+    "repartition": {
+      "comedie": 65,
+      "horreur_epouvante": 30,
+      "scifi_fantastique": 5
+    },
+    "justification": "Comédie horrifique satirique d'un influenceur ridicule en direct dans un manoir hanté",
+    "analyzed_at": "2026-10-18T11:27:04.542Z",
+    "source": "deep_audit_gpt4o"
+  },
+  "jw-tm991469": {
+    "titre": "Jakob's Wife",
+    "annee": 2021,
+    "slug": "jakob_s_wife_2021",
+    "categories": [
+      "comedie"
+    ],
+    "repartition": {
+      "comedie": 60,
+      "horreur_epouvante": 30,
+      "thriller_policier": 10
+    },
+    "justification": "Comédie noire vampirique féministe et décalée avec Barbara Crampton",
+    "analyzed_at": "2026-10-18T11:27:04.543Z",
+    "source": "deep_audit_gpt4o"
+  },
+  "jw-tm1469376": {
+    "titre": "RATS!",
+    "annee": 2025,
+    "slug": "rats__2025",
+    "categories": [
+      "comedie"
+    ],
+    "repartition": {
+      "comedie": 65,
+      "thriller_policier": 25,
+      "drame_emotion": 10
+    },
+    "justification": "Comédie rétro adolescente et gaffes criminelles en 2007",
+    "analyzed_at": "2026-10-18T11:27:04.543Z",
+    "source": "deep_audit_gpt4o"
+  },
+  "jw-tm147429": {
+    "titre": "RoboCop",
+    "annee": 2014,
+    "slug": "robocop_2014",
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "repartition": {
+      "scifi_fantastique": 65,
+      "action_aventure": 25,
+      "thriller_policier": 10
+    },
+    "justification": "Cyberpunk et science-fiction d'anticipation avec le flic cyborg Alex Murphy",
+    "analyzed_at": "2026-10-18T11:27:04.543Z",
+    "source": "deep_audit_gpt4o"
+  },
+  "jw-tm1197793": {
+    "titre": "Corrective Measures : Mutants surpuissants",
+    "annee": 2022,
+    "slug": "corrective_measures_mutants_surpuissants_2022",
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "repartition": {
+      "scifi_fantastique": 65,
+      "action_aventure": 25,
+      "thriller_policier": 10
+    },
+    "justification": "Prison futuriste de haute sécurité pour super-vilains et mutants surpuissants",
+    "analyzed_at": "2026-10-18T11:27:04.544Z",
+    "source": "deep_audit_gpt4o"
+  },
+  "jw-tm1588246": {
+    "titre": "Redux Redux",
+    "annee": 2025,
+    "slug": "redux_redux_2025",
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "repartition": {
+      "scifi_fantastique": 65,
+      "thriller_policier": 25,
+      "horreur_epouvante": 10
+    },
+    "justification": "Science-fiction de voyages à travers les univers parallèles et multivers",
+    "analyzed_at": "2026-10-18T11:27:04.544Z",
+    "source": "deep_audit_gpt4o"
+  },
+  "jw-tm1656330": {
+    "titre": "Lady Nazca",
+    "annee": 2025,
+    "slug": "lady_nazca_2025",
+    "categories": [
+      "drame_emotion"
+    ],
+    "repartition": {
+      "drame_emotion": 65,
+      "action_aventure": 35
+    },
+    "justification": "Biopic historique émouvant sur le combat et la vie de l'archéologue Maria Reiche au Pérou",
+    "analyzed_at": "2026-10-18T11:27:04.544Z",
+    "source": "deep_audit_gpt4o"
   }
 }

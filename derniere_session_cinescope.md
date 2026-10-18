@@ -46,13 +46,13 @@ Ce document constitue la référence vivante et synthétique de l'architecture, 
 
 ### A. Règle Fondamentale : 1 Titre = 1 Catégorie Dominante Unique
 Chaque film ou série est qualifié dans **strictement une seule** des 7 catégories officielles :
-1. `drame_emotion` : Drames profonds, romances d'auteur, biopics, drames historiques/sociaux (415 œuvres).
-2. `comedie` : Comédies pures, comédies romantiques et populaires, comédies d'action grand public, satires (291 œuvres).
-3. `thriller_policier` : Polars, enquêtes policières, espionnage, machinations, suspense/angoisse, thrillers criminels (235 œuvres).
-4. `horreur_epouvante` : Slashers, épouvante, body horror, démons/possession, monstres, gore (211 œuvres).
-5. `scifi_fantastique` : Science-fiction, space opera, anticipation, heroic fantasy, super-héros, mystère magique (115 œuvres).
+1. `drame_emotion` : Drames profonds, romances d'auteur, biopics, drames historiques/sociaux (416 œuvres).
+2. `comedie` : Comédies pures, comédies romantiques, comédies policières et parodies (305 œuvres).
+3. `thriller_policier` : Polars, enquêtes policières, espionnage, machinations, thrillers criminels (220 œuvres).
+4. `horreur_epouvante` : Slashers, épouvante, body horror, démons/possession, monstres, gore (209 œuvres).
+5. `scifi_fantastique` : Science-fiction, space opera, anticipation, cyborgs, mondes magiques (118 œuvres).
 6. `animation_famille` : Films et séries d'animation, aventures jeunesse, contes familiaux (101 œuvres).
-7. `action_aventure` : Action grand spectacle, westerns d'action armée, survie, guerre, arts martiaux (63 œuvres).
+7. `action_aventure` : Action grand spectacle, westerns d'action, survie, guerre, arts martiaux (62 œuvres).
 
 ### B. Instauration du Registre Persistant de Qualification Sémantique IA (v8.75)
 * **Architecture de Cache Persistant ([`data/ai_categories.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_categories.json))** :
@@ -63,32 +63,25 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - Intégration native de l'inférence **GPT-4o mini** via `GH_MODELS_TOKEN` (ou `DEEPSEEK_API_KEY`).
   - Lors du scan quotidien de 06:00 UTC, seules les nouvelles œuvres non répertoriées sont transmises à l'IA pour qualification.
   - Fallback déterministe automatique en cas d'indisponibilité réseau pour garantir qu'aucune mise à jour n'échoue.
-* **Application immédiate & Réhabilitation Massive (21 œuvres corrigées)** :
-  - *Hounds of War* (Frank Grillo, Isaac Florentine, 2024) : Reclassé de `thriller_policier` à `action_aventure`.
-  - **10 chefs-d'œuvre et blockbusters d'action pure réhabilités en `action_aventure`** :
-    * *Hunter Killer* (Gerard Butler, Navy SEALs et sous-marins de combat) : `thriller_policier` ➔ `action_aventure`.
-    * *La Vengeance dans le Corps* (Jean-Claude Van Damme, vendetta martiale) : `thriller_policier` ➔ `action_aventure`.
-    * *L'Étranger* (film de mercenaires armés avec Craig Fairbrass) : `thriller_policier` ➔ `action_aventure`.
-    * *Braquage de sang* (fusillades tactiques de braqueurs) : `thriller_policier` ➔ `action_aventure`.
-    * *Détective Dee : La Légende du dragon des mers* (Tsui Hark, combats martiaux wuxia grand spectacle) : `thriller_policier` ➔ `action_aventure`.
-    * *Baby Assassins: Nice Days* (duels martiaux d'adolescentes tueuses) : `thriller_policier` ➔ `action_aventure`.
-    * *Hansel & Gretel : Witch Hunters* (action fantastique grand spectacle de Jeremy Renner) : `horreur_epouvante` ➔ `action_aventure`.
-    * *Monster Summer* (Mel Gibson, aventure jeunesse d'ados à vélo façon *Goonies*) : `horreur_epouvante` ➔ `action_aventure`.
-    * *7 Guardians of the Tomb* (expédition archéologique et pièges périlleux) : `horreur_epouvante` ➔ `action_aventure`.
-    * *Marco* (vendetta physique violente) : `thriller_policier` ➔ `action_aventure`.
-  - **4 comédies majeures réhabilitées en `comedie`** :
-    * *Game Night* (comédie policière culte avec Jason Bateman et Rachel McAdams) : `thriller_policier` ➔ `comedie`.
-    * *The Big Short : Le Casse du Siècle* (satire mordante d'Adam McKay) : `drame_emotion` ➔ `comedie`.
-    * *Rock'n Chili* (comédie parodique avec Antonio Banderas en rock-star) : `thriller_policier` ➔ `comedie`.
-    * *Les Nettoyeurs* (comédie noire burlesque) : `thriller_policier` ➔ `comedie`.
-  - **7 œuvres d'anticipation et de SF pure réhabilitées en `scifi_fantastique`** :
-    * *Battlestar Galactica : The Plan* (space opera spatial et Cylons) : `drame_emotion` ➔ `scifi_fantastique`.
-    * *Curvature* (ingénierie et voyage dans le temps) : `horreur_epouvante` ➔ `scifi_fantastique`.
-    * *Radius* (onde et phénomène d'anticipation) : `horreur_epouvante` ➔ `scifi_fantastique`.
-    * *T.I.M.* (androïde d'intelligence artificielle domestique) : `horreur_epouvante` ➔ `scifi_fantastique`.
-    * *Osiris* (science-fiction spatiale et survie interstellaire) : `horreur_epouvante` ➔ `scifi_fantastique`.
-    * *Monolith* (enquête sur un artefact extraterrestre) : `horreur_epouvante` ➔ `scifi_fantastique`.
-    * *Things Will Be Different* (faille et distorsion temporelle) : `horreur_epouvante` ➔ `scifi_fantastique`.
+* **Grand Assainissement Sémantique Exhaustif (40 œuvres verrouillées au registre)** :
+  - **18 nouvelles comédies, comédies policières et de braquage assainies en `comedie`** :
+    * *Haut les mains !* (comédie éco-féministe burlesque de braquage) : `thriller_policier` ➔ `comedie`.
+    * *Burn After Reading* (frères Coen, satire mordante avec Brad Pitt & George Clooney) : `thriller_policier` ➔ `comedie`.
+    * *En liberté !* (Pierre Salvadori avec Adèle Haenel, comédie burlesque) : `thriller_policier` ➔ `comedie`.
+    * *Je fais le mort* (François Damiens, comédie policière loufoque) : `thriller_policier` ➔ `comedie`.
+    * *Ocean's 8* (Sandra Bullock & Cate Blanchett, comédie de braquage chic) : `thriller_policier` ➔ `comedie`.
+    * *Insaisissables 2* (braquage d'illusionnisme grand public et fun) : `thriller_policier` ➔ `comedie`.
+    * *The Voices* (Ryan Reynolds, comédie noire déjantée avec ses animaux) : `thriller_policier` ➔ `comedie`.
+    * *Bienvenue à Zombieland* (Woody Harrelson, comédie d'action zombiesque culte) : `horreur_epouvante` ➔ `comedie`.
+    * *Deadstream* (comédie horrifique satirique d'un streamer) : `horreur_epouvante` ➔ `comedie`.
+    * *Jakob's Wife* (comédie vampirique décalée) : `thriller_policier` ➔ `comedie`.
+    * *Braquage à l'Allemande*, *Une pure affaire* (François Damiens), *Omar La Fraise*, *RATS!* : `thriller_policier` ➔ `comedie`.
+  - **Science-Fiction & Anticipation réhabilitées en `scifi_fantastique`** :
+    * *RoboCop* (2014, cyborg policier d'anticipation cyberpunk) : `thriller_policier` ➔ `scifi_fantastique`.
+    * *Corrective Measures : Mutants surpuissants* (prison pour super-vilains mutants) : `thriller_policier` ➔ `scifi_fantastique`.
+    * *Redux Redux* (voyages à travers les univers parallèles et multivers) : `thriller_policier` ➔ `scifi_fantastique`.
+  - **Biopics & Drames d'auteur réhabilités en `drame_emotion`** :
+    * *Lady Nazca* (biopic historique émouvant de l'archéologue Maria Reiche au Pérou) : `action_aventure` ➔ `drame_emotion`.
 * **Workflow GitHub Actions ([`.github/workflows/update_catalog.yml`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/.github/workflows/update_catalog.yml))** :
   - Injection chiffrée des secrets `GH_MODELS_TOKEN` et `DEEPSEEK_API_KEY`.
   - Sauvegarde automatique et commit synchronisé de `js/catalog.js` et `data/ai_categories.json`.
@@ -149,13 +142,13 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Total œuvres qualifiées Mobile** : **864** (739 films $\ge 60\text{ min}$, 125 séries).
   - **Conformité 1 catégorie unique** : **1 431 / 1 431 (100% conforme, 0 anomalie)**.
   - **Répartition des 7 catégories officielles** :
-    * `drame_emotion` : 415
-    * `comedie` : 291
-    * `thriller_policier` : 235
-    * `horreur_epouvante` : 211
-    * `scifi_fantastique` : 115
+    * `drame_emotion` : 416
+    * `comedie` : 305
+    * `thriller_policier` : 220
+    * `horreur_epouvante` : 209
+    * `scifi_fantastique` : 118
     * `animation_famille` : 101
-    * `action_aventure` : 63
+    * `action_aventure` : 62
   - **Titres expirés** : **0**.
 * **Traçabilité Technique & Cache** :
   - **Version Application / PWA** : **v8.75** (`sw.js` : `cinescope-v8.75-streaming`).
