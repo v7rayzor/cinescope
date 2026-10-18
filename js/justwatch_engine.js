@@ -409,6 +409,14 @@ const JustWatchEngine = (function () {
         scores[3] += 40;
       }
     }
+
+    // Priorité universelle Action > Thriller (sauf si tag Crime 'crm' présent - Règle v8.79)
+    if (rawTags.includes('act') && rawTags.includes('trl') && !rawTags.includes('crm') && allowed.has('action_aventure')) {
+      if (scores[3] >= scores[4]) {
+        scores[3] = Math.max(0, scores[4] - 1);
+      }
+    }
+
     // e) Action Blockbuster / Novocaïne / Spartacus / Tonnerre sous les tropiques -> Action
     if (rawTags.includes('act') && (rawTags.includes('war') || rawTags.includes('rma') || isHybridWithAge || cleanText.includes('gladiateur') || cleanText.includes('combattant') || cleanText.includes('braquage') || (rawTags.includes('trl') && !rawTags.includes('crm') && !rawTags.includes('scf') && !POLICE_CRIME_PATTERNS.test(cleanText)))) {
       scores[4] += 40;

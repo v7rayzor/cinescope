@@ -9071,7 +9071,7 @@ const CATALOG_DATA = [
     "titre": "Triple Threat",
     "type": "film",
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "annee": 2019,
     "chaine": "Universal+",
@@ -9356,7 +9356,7 @@ const CATALOG_DATA = [
     "titre": "Hounds of War",
     "type": "film",
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "annee": 2024,
     "chaine": "Action Max",
@@ -9404,7 +9404,7 @@ const CATALOG_DATA = [
     "titre": "Final Score",
     "type": "film",
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "annee": 2018,
     "chaine": "Action Max",
@@ -10129,7 +10129,7 @@ const CATALOG_DATA = [
     "titre": "Stratton",
     "type": "film",
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "annee": 2017,
     "chaine": "Action Max",
@@ -10225,7 +10225,7 @@ const CATALOG_DATA = [
     "titre": "Rogue",
     "type": "film",
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "annee": 2020,
     "chaine": "Action Max",
@@ -10368,7 +10368,7 @@ const CATALOG_DATA = [
     "titre": "Tokarev",
     "type": "film",
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "annee": 2014,
     "chaine": "Action Max",
@@ -17463,7 +17463,7 @@ const CATALOG_DATA = [
     "note_globale": 6.5,
     "etoiles": 3,
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -17999,7 +17999,7 @@ const CATALOG_DATA = [
     "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -19156,7 +19156,7 @@ const CATALOG_DATA = [
     "note_globale": 7,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "comedie"
     ],
     "raw_genres": [
       "act",
@@ -19345,7 +19345,7 @@ const CATALOG_DATA = [
     "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -21230,7 +21230,7 @@ const CATALOG_DATA = [
     "note_globale": 6.7,
     "etoiles": 3,
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -39237,7 +39237,7 @@ const CATALOG_DATA = [
     "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
