@@ -140,7 +140,7 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - Les tags bruts sont conservés dans le code source uniquement comme roue de secours en cas d'indisponibilité réseau (`callDeterministicClassifier`).
   - `data/ai_categories.json` et `js/catalog.js` sont 100% alignés et verrouillés pour les 1 414 œuvres.
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : **v8.75** (`sw.js` : `cinescope-v8.75-streaming`).
+  - **Version Application / PWA** : **v8.76** (`sw.js` : `cinescope-v8.76-streaming`).
   - **Clés LocalStorage Actives** : `_v46` (`cinescope_streaming_catalog_v46`, `cinescope_last_specialized_sync_v46`, etc.).
 
 ---
@@ -152,6 +152,12 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - *Les Maudites* (*El llanto*) : **25/100** (Rejeté & archivé dans l'audit des exclusions — Faux film de genre, drame festivalier lent sans action ni tension).
   - *The Batman* (2022) vs *Batman v Superman* : Recommandation duo formalisée (*The Batman* validé comme le compromis parfait entre l'action brute 1er degré de l'Ami et l'enquête/déduction à la *Seven* de l'Amie).
   - **Aversion formalisée** : Rejet strict des faux films d'horreur contemplatifs / drames lents de festival.
+
+* **Nouvelle Fonctionnalité : Tri par Date (18/10/2026 - Règle 8 Exclusivité PC)** :
+  - Bouton interactif `📅 Date` inséré sur la Ligne 2 (Étoiles & Durée) immédiatement à droite du filtre Durée.
+  - Alternance 3 états en boucle au clic : `📅 Date ↓` (Récent $\rightarrow$ Ancien : 2026 $\rightarrow$ 2006) $\rightarrow$ `📅 Date ↑` (Ancien $\rightarrow$ Récent : 2006 $\rightarrow$ 2026) $\rightarrow$ `📅 Date` (Défaut : Fins de droits prioritaires + tirage quotidien).
+  - Gestion des séries conforme : Calcul basé sur `annee_moyenne` $= \frac{\text{Saison début} + \text{Saison fin}}{2}$.
+  - Strictement invisible sur mobile (`display: none !important` sous 1024px).
 
 * **Nettoyage & Maintenance du Dossier (18/10/2026)** :
   - **Archive réseau supprimée** : Suppression définitive du dump `www.molotov.tv_Archive [26-10-17 14-03-08].har` (245 Ko).

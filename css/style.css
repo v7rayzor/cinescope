@@ -533,6 +533,87 @@ body.modal-open {
   color: #ffffff;
 }
 
+/* ==========================================================================
+   Tri par Date (Exclusivité PC Desktop >= 1024px - Règle 8 AGENTS.md)
+   ========================================================================== */
+.date-sort-container-pc {
+  display: none; /* Masqué par défaut sur mobile / tablette */
+}
+
+.date-sort-divider-pc {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .date-sort-container-pc {
+    display: inline-flex;
+    align-items: center;
+  }
+  .date-sort-divider-pc {
+    display: block;
+  }
+}
+
+@media (max-width: 1023px) {
+  .date-sort-container-pc,
+  .date-sort-divider-pc {
+    display: none !important;
+  }
+}
+
+.date-sort-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.45rem 0.95rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  border-radius: var(--radius-md);
+  font-family: var(--font-main);
+  font-size: 0.86rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  user-select: none;
+  white-space: nowrap;
+}
+
+.date-sort-btn:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+.date-sort-btn.active {
+  background: rgba(255, 51, 75, 0.15);
+  border-color: var(--accent-red);
+  color: #ffffff;
+  box-shadow: 0 0 14px var(--accent-red-glow);
+}
+
+.date-sort-btn .date-sort-icon {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.date-sort-btn .date-sort-label {
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.date-sort-btn .date-sort-arrow {
+  font-size: 0.88rem;
+  font-weight: 800;
+  color: var(--accent-red);
+  transition: transform 0.2s ease;
+}
+
+.date-sort-btn.active .date-sort-arrow {
+  color: #ffffff;
+}
+
+
 .star-btn {
   display: inline-flex;
   align-items: center;

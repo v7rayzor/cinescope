@@ -59,6 +59,7 @@ const AppState = {
   isExcludeNoS1: false,        // true pour exclure les séries sans saison 1 disponible
   isAutoStars: true,           // true tant que l'utilisateur n'a pas forcé manuellement un choix
   searchQuery: '',             // Requête de recherche par titre (PC uniquement)
+  dateSortOrder: 'none',       // 'none', 'desc' (récent -> ancien), 'asc' (ancien -> récent) (PC uniquement)
   isSyncing: false,
   catalog: []
 };
@@ -311,13 +312,51 @@ function getItemExpirationInfo(item) {
   return item.expiration;
 }
 
+function getItemReleaseYear(item) {
+  if (!item) return 0;
+  if (typeof item.annee_moyenne === 'number' && !isNaN(item.annee_moyenne)) {
+    return item.annee_moyenne;
+  }
+  if (typeof item.annee === 'number' && !isNaN(item.annee)) {
+    return item.annee;
+  }
+  return 0;
+}
+
 // TRI GLOBAL DU CATALOGUE :
-// RÈGLE CARDINALE : Les œuvres avec date d'expiration (urgences de départ) passent TOUJOURS en priorité absolue !
-// 1. Œuvres avec date d'expiration : triées par ordre croissant de jours restants (0j > 1j > 2j > 5j > 15j...)
-//    En cas d'égalité sur daysLeft : score de profil (si profil actif) puis tirage aléatoire quotidien.
-// 2. Œuvres sans date d'expiration (ou pérennes) :
-//    Triées par score d'affinité profil décroissant (si profil actif) puis tirage aléatoire quotidien.
+// - Si tri par date actif (PC uniquement) : tri chronologique strict par année (décroissant ou croissant), avec départage par expiration puis note.
+// - Sinon (tri par défaut) : Les œuvres avec date d'expiration passent en priorité absolue (ordre d'urgence), puis tirage quotidien / profil.
 function sortCatalogItems(items) {
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
+
+  // Tri par Date de sortie (Exclusivité PC Desktop - Règle 8 AGENTS.md)
+  if (!isMobile && AppState.dateSortOrder && AppState.dateSortOrder !== 'none') {
+    const sorted = [...items];
+    sorted.sort((a, b) => {
+      const yearA = getItemReleaseYear(a);
+      const yearB = getItemReleaseYear(b);
+      const diffYear = AppState.dateSortOrder === 'desc' ? (yearB - yearA) : (yearA - yearB);
+      if (diffYear !== 0) return diffYear;
+
+      // En cas d'égalité sur l'année, priorité aux urgences d'expiration
+      const expA = getItemDaysLeft(a);
+      const expB = getItemDaysLeft(b);
+      if (expA !== null && expB !== null) {
+        if (expA !== expB) return expA - expB;
+      } else if (expA !== null) {
+        return -1;
+      } else if (expB !== null) {
+        return 1;
+      }
+
+      // Puis départager par note globale décroissante
+      const noteA = typeof a.note_globale === 'number' ? a.note_globale : (a.note_avis || 0);
+      const noteB = typeof b.note_globale === 'number' ? b.note_globale : (b.note_avis || 0);
+      return noteB - noteA;
+    });
+    return sorted;
+  }
+
   const withExpiry = [];
   const withoutExpiry = [];
 
@@ -406,6 +445,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   initBouquetsNavigation();
   initStarsNavigation();
   initDurationFilter();
+  initDateSort();
   initModal();
   initSyncControls();
 
@@ -986,6 +1026,44 @@ function initDurationFilter() {
     });
   }
 }
+
+// Tri par Date de sortie (Exclusivité PC Desktop - Règle 8 AGENTS.md)
+function initDateSort() {
+  const dateSortBtn = document.getElementById('dateSortBtn');
+  const dateSortArrow = document.getElementById('dateSortArrow');
+  if (!dateSortBtn) return;
+
+  const updateBtnUI = () => {
+    if (AppState.dateSortOrder === 'desc') {
+      dateSortBtn.classList.add('active');
+      if (dateSortArrow) dateSortArrow.textContent = '↓';
+      dateSortBtn.title = 'Tri par date : Du plus récent au plus ancien (Cliquer pour trier du plus ancien au plus récent)';
+    } else if (AppState.dateSortOrder === 'asc') {
+      dateSortBtn.classList.add('active');
+      if (dateSortArrow) dateSortArrow.textContent = '↑';
+      dateSortBtn.title = 'Tri par date : Du plus ancien au plus récent (Cliquer pour réinitialiser le tri par défaut)';
+    } else {
+      dateSortBtn.classList.remove('active');
+      if (dateSortArrow) dateSortArrow.textContent = '';
+      dateSortBtn.title = 'Trier par année de sortie (Cliquer pour alterner : Récent ➔ Ancien ➔ Par défaut)';
+    }
+  };
+
+  dateSortBtn.addEventListener('click', () => {
+    if (AppState.dateSortOrder === 'none') {
+      AppState.dateSortOrder = 'desc';
+    } else if (AppState.dateSortOrder === 'desc') {
+      AppState.dateSortOrder = 'asc';
+    } else {
+      AppState.dateSortOrder = 'none';
+    }
+    updateBtnUI();
+    renderCatalog();
+  });
+
+  updateBtnUI();
+}
+
 
 // Barre de recherche par titre (PC uniquement)
 function initSearchBar() {

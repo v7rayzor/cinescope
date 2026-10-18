@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=8.67">
+  <link rel="stylesheet" href="css/style.css?v=8.76">
 </head>
 <body>
   <!-- Header / Navigation principale -->
@@ -306,7 +306,20 @@
             </button>
           </div>
         </div>
+
+        <!-- Séparateur vertical sur desktop (PC uniquement - Règle 8) -->
+        <div class="stars-filter-divider date-sort-divider-pc" aria-hidden="true"></div>
+
+        <!-- Tri par Date (PC uniquement - Règle 8) -->
+        <div class="date-sort-container-pc" id="dateSortContainer">
+          <button type="button" class="date-sort-btn" id="dateSortBtn" title="Trier par année de sortie (Cliquer pour alterner : Récent ➔ Ancien ➔ Par défaut)">
+            <span class="date-sort-icon">📅</span>
+            <span class="date-sort-label">Date</span>
+            <span class="date-sort-arrow" id="dateSortArrow"></span>
+          </button>
+        </div>
       </div>
+
     </section>
 
     <!-- En-tête de la section active -->
