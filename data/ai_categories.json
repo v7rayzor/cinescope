@@ -27483,5 +27483,25 @@
     "justification": "Série policière d'enquêtes criminelles menées par la commandante Candice Renoir à la BSU de Sète.",
     "audit_date": "2026-10-18",
     "audit_methode": "audit_semantique_pur_titre_synopsis_sans_tags"
+  },
+  "jw-ts6683": {
+    "titre": "Battlestar Galactica",
+    "annee": 2004,
+    "slug": "jw-ts6683",
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "repartition": {
+      "drame_emotion": 20,
+      "comedie": 0,
+      "thriller_policier": 0,
+      "action_aventure": 10,
+      "scifi_fantastique": 70,
+      "horreur_epouvante": 0,
+      "animation_famille": 0
+    },
+    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
+    "analyzed_at": "2026-10-18T11:36:45.466Z",
+    "source": "gpt-4o-mini"
   }
 }

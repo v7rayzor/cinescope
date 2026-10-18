@@ -67668,6 +67668,79 @@ const CATALOG_DATA = [
     },
     "on_prime": false,
     "on_tnt": false
+  },
+  {
+    "id": "jw-ts6683",
+    "titre": "Battlestar Galactica",
+    "type": "serie",
+    "chaine": "Universal+",
+    "section": "Séries",
+    "position": "Séries — SCIFI",
+    "annee": 2004,
+    "note_avis": 8.7,
+    "note_recence": 4,
+    "note_globale": 6.4,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/159744834/s592/battlestar-galactica.jpg",
+    "logo_chaine": "assets/logos/universal_plus.svg",
+    "chaines": [
+      "Universal+"
+    ],
+    "logos_chaine": [
+      "assets/logos/universal_plus.svg"
+    ],
+    "duree": "49 min/ép.",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 05/12",
+      "daysLeft": 50,
+      "expirationDate": "2026-12-05",
+      "packageExpirations": {
+        "auc": "2026-12-05"
+      }
+    },
+    "package_slugs": [
+      "auc"
+    ],
+    "runtime_minutes": 49,
+    "etoiles": 3,
+    "raw_genres": [
+      "act",
+      "drm",
+      "scf"
+    ],
+    "synopsis": "Puissants robots, les Cylons règnent en maître sur l'univers. À bord du dernier vaisseau de guerre, le Galactica, des humains tentent de survivre en entreprenant le voyage de la dernière chance : trouver une légendaire planète appelée la Terre.",
+    "on_prime": true,
+    "on_tnt": false,
+    "annee_fin": 2008,
+    "annee_moyenne": 2006,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2004,
+        "note": 8.7
+      },
+      {
+        "saison": 2,
+        "annee": 2005,
+        "note": 8.7
+      },
+      {
+        "saison": 3,
+        "annee": 2006,
+        "note": 8.7
+      },
+      {
+        "saison": 4,
+        "annee": 2008,
+        "note": 8.7
+      }
+    ],
+    "date_ajout": "2021-04-19"
   }
 ];
 

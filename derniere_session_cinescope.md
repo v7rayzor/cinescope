@@ -122,22 +122,23 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 ## 5. État Actuel du Catalogue & Versions Déployées
 
 * **Audit de Conformité Catalogue ([js/catalog.js](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js))** :
-  - **Total œuvres qualifiées PC** : **1 413** (films $\ge 60\text{ min}$ et séries sortis entre 2006 et 2026).
-  - **Application stricte des 20 ans glissants ($\ge 2006$)** : 18 titres historiques sortis entre 2000 et 2005 ont été purgés pour respecter rigoureusement la borne temporelle.
-  - **Conformité 1 catégorie unique** : **1 413 / 1 413 (100% conforme, 0 anomalie)**.
-  - **Répartition définitive des 7 catégories officielles (1 413 titres audités sans tags)** :
+  - **Total œuvres qualifiées PC** : **1 414** (1 266 films $\ge 60\text{ min}$ et 148 séries sortis entre 2006 et 2026).
+  - **Application stricte des 20 ans glissants ($\ge 2006$)** : 17 films unitaires historiques (< 2006) ont été purgés.
+  - **Règle des séries multi-saisons respectée** : Calcul basé sur l'année moyenne $\frac{\text{Saison début} + \text{Saison fin}}{2}$ (*Battlestar Galactica* 2004–2008 = moyenne 2006 $\ge 2006$, 100% conforme).
+  - **Conformité 1 catégorie unique** : **1 414 / 1 414 (100% conforme, 0 anomalie)**.
+  - **Répartition définitive des 7 catégories officielles (1 414 titres audités sans tags)** :
     * `drame_emotion` : 461 (32.6%)
     * `comedie` : 288 (20.4%)
     * `horreur_epouvante` : 196 (13.9%)
     * `thriller_policier` : 161 (11.4%)
     * `animation_famille` : 114 (8.1%)
     * `action_aventure` : 100 (7.1%)
-    * `scifi_fantastique` : 93 (6.6%)
+    * `scifi_fantastique` : 94 (6.6%)
   - **Titres expirés** : **0**.
-* **Grand Audit Sémantique Intégral 100% Titre + Synopsis (1 413 / 1 413 œuvres)** :
+* **Grand Audit Sémantique Intégral 100% Titre + Synopsis (1 414 / 1 414 œuvres)** :
   - Chaque œuvre a été analysée individuellement sur son Titre et son Synopsis réel sans jamais se fier aux tags bruts JustWatch (`raw_genres`).
   - Les tags bruts sont conservés dans le code source uniquement comme roue de secours en cas d'indisponibilité réseau (`callDeterministicClassifier`).
-  - `data/ai_categories.json` et `js/catalog.js` sont 100% alignés et verrouillés pour les 1 413 œuvres.
+  - `data/ai_categories.json` et `js/catalog.js` sont 100% alignés et verrouillés pour les 1 414 œuvres.
 * **Traçabilité Technique & Cache** :
   - **Version Application / PWA** : **v8.75** (`sw.js` : `cinescope-v8.75-streaming`).
   - **Clés LocalStorage Actives** : `_v46` (`cinescope_streaming_catalog_v46`, `cinescope_last_specialized_sync_v46`, etc.).
