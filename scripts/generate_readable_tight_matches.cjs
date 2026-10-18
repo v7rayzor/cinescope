@@ -17,13 +17,18 @@ const CAT_LABELS = {
   animation_famille: "Animation & Famille"
 };
 
-function formatRep(rep) {
+function formatRepClean(rep) {
   if (!rep) return "Non renseigné";
-  return Object.entries(rep)
+  const sorted = Object.entries(rep)
     .filter(([k, v]) => v > 0)
-    .sort((a, b) => b[1] - a[1])
-    .map(([k, v]) => `**${CAT_LABELS[k] || k}** : ${v}%`)
-    .join(' · ');
+    .sort((a, b) => b[1] - a[1]);
+
+  return sorted
+    .map(([k, v], idx) => {
+      const label = CAT_LABELS[k] || k;
+      return idx === 0 ? `**${label} : ${v}%**` : `${label} : ${v}%`;
+    })
+    .join('  |  ');
 }
 
 // Extraction des 114 matches serrés
@@ -55,8 +60,6 @@ for (const [id, d] of Object.entries(results)) {
   }
 }
 
-console.log(`[Reformatage] ${tight.length} matches serrés identifiés.`);
-
 // Grouper par duel
 const groups = {};
 tight.forEach(t => {
@@ -65,9 +68,8 @@ tight.forEach(t => {
   groups[k].push(t);
 });
 
-let md = `# Audit d'Arbitrage — Les 114 Matches Serrés\n\n`;
-md += `> **Contexte :** Ce document met face à face, pour chacune des 114 œuvres hybrides, **la qualification actuelle dans CinéScope** (avec ses pourcentages originaux qui totalisent 100%) face à **la proposition de DeepSeek** (avec ses pourcentages qui totalisent 100%).\n`;
-md += `> L'objectif est de te permettre d'arbitrer en voyant clairement où se situe le désaccord entre les deux approches.\n\n`;
+let md = `# Arbitrage des 114 Matches Serrés\n\n`;
+md += `> **Principe :** Pour chaque film, une lecture directe en 3 lignes : le synopsis, la ligne de pourcentages DeepSeek (100%), la ligne de mes pourcentages originaux CinéScope (100%), et le conseil d'arbitrage.\n\n`;
 md += `---\n\n`;
 
 md += `## Sommaire des 114 Duels\n\n`;
@@ -82,47 +84,39 @@ for (const [groupName, items] of Object.entries(groups).sort((a, b) => b[1].leng
   md += `## 🥊 Duel : ${groupName} (${items.length} œuvres)\n\n`;
 
   for (const item of items) {
-    const origFormatted = formatRep(item.origRep);
-    const dsFormatted = formatRep(item.deepseekRep);
-
-    // Analyse d'arbitrage
-    let arbitrageConseil = "";
+    const dsLine = formatRepClean(item.deepseekRep);
+    const origLine = formatRepClean(item.origRep);
     const cur = item.actuelle;
     const ds = item.deepseek;
 
+    let conseil = "";
     if (item.titre.toLowerCase().includes('source code')) {
-      arbitrageConseil = `Conserver **\`${cur}\`** : Même si le film a une trame d'enquête policière, son cœur narratif absolu est la technologie quantique de boucle temporelle dans l'esprit d'un mort (pure SF).`;
+      conseil = `Conserver \`${cur}\` (la technologie quantique de boucle temporelle dans l'esprit d'un mort est de la pure SF, l'enquête policière n'est qu'un prétexte).`;
     } else if (item.titre.toLowerCase().includes('the things you kill')) {
-      arbitrageConseil = `Basculer vers **\`${ds}\`** : La quête de vengeance et le mystère criminel autour du père créent une tension de thriller dominant le drame familial.`;
+      conseil = `Basculer vers \`${ds}\` (la quête vengeresse et les soupçons de meurtre imposent une tension de thriller dominant le drame familial).`;
     } else if (item.titre.toLowerCase().includes('s.o.s. fantômes')) {
-      arbitrageConseil = `Basculer vers **\`${ds}\`** : C'est une comédie dont 100% de l'attrait et de l'univers reposent sur le surnaturel, les spectres et les gadgets de science-fantastique.`;
+      conseil = `Basculer vers \`${ds}\` (comédie fantastique dont tout l'attrait repose sur le paranormal et les fantômes).`;
     } else if (item.titre.toLowerCase().includes('insaisissables')) {
-      arbitrageConseil = `Basculer vers **\`${ds}\`** : L'humour n'est qu'un ton de surface ; c'est un pur film de braquage et de spectacle d'aventure.`;
+      conseil = `Basculer vers \`${ds}\` (pur film de braquage et de grand spectacle).`;
     } else if (item.titre.toLowerCase().includes('sonic')) {
-      arbitrageConseil = `Conserver **\`${cur}\`** : Malgré l'action et les pouvoirs, Sonic est pensé et consommé avant tout comme une franchise familiale/jeunesse.`;
+      conseil = `Conserver \`${cur}\` (franchise pensée et vécue d'abord pour les enfants et la famille).`;
     } else {
-      // Déduction logique du duel
       const dsScore = item.deepseekRep[ds] || 0;
-      const curInDs = item.deepseekRep[cur] || 0;
-      if (dsScore >= curInDs + 15) {
-        arbitrageConseil = `Basculer vers **\`${ds}\`** : DeepSeek identifie une dominante plus marquée (${dsScore}% vs ${curInDs}% pour \`${cur}\`).`;
+      const curScore = item.deepseekRep[cur] || 0;
+      if (dsScore >= curScore + 15) {
+        conseil = `Basculer vers \`${ds}\` (DeepSeek lui donne une nette avance : ${dsScore}% vs ${curScore}%).`;
       } else {
-        arbitrageConseil = `Match très équilibré (${dsScore}% pour \`${ds}\` vs ${curInDs}% pour \`${cur}\`) : À arbitrer selon ta préférence de navigation dans CinéScope.`;
+        conseil = `Match très serré (${dsScore}% pour \`${ds}\` vs ${curScore}% pour \`${cur}\`) : à choisir selon ta sensibilité.`;
       }
     }
 
-    md += `### ${indexCounter}. **${item.titre}** (${item.annee})\n\n`;
+    md += `### ${indexCounter}. ${item.titre} (${item.annee})\n\n`;
     if (item.synopsis) {
-      md += `> 📖 **Synopsis :** *${item.synopsis}*\n\n`;
+      md += `> *${item.synopsis}*\n\n`;
     }
-
-    md += `| Indicateur | 📌 Catégorie Actuelle (CinéScope) | 🤖 Proposition Détectée (DeepSeek) |\n`;
-    md += `| :--- | :--- | :--- |\n`;
-    md += `| **Catégorie** | **\`${item.actuelle}\`** | **\`${item.deepseek}\`** |\n`;
-    md += `| **Répartition 100 %** | ${origFormatted} | ${dsFormatted} |\n`;
-    md += `| **Motivation** | ${item.origJustif || 'Qualification historique'} | ${item.deepseekJustif || 'Analyse sémantique DeepSeek'} |\n\n`;
-
-    md += `⚖️ **Conseil d'arbitrage :** ${arbitrageConseil}\n\n`;
+    md += `* 🤖 **Pourcentages DeepSeek** : ${dsLine}\n`;
+    md += `* 🧠 **Mes pourcentages (CinéScope)** : ${origLine}\n`;
+    md += `* ⚖️ **Conseil d'arbitrage** : ${conseil}\n\n`;
     md += `---\n\n`;
 
     indexCounter++;
@@ -130,4 +124,4 @@ for (const [groupName, items] of Object.entries(groups).sort((a, b) => b[1].leng
 }
 
 fs.writeFileSync(path.join(__dirname, '../matches_serres_arbitrage.md'), md, 'utf8');
-console.log(`✅ Fichier matches_serres_arbitrage.md régénéré avec succès avec les vrais pourcentages CinéScope vs DeepSeek !`);
+console.log(`✅ Fichier matches_serres_arbitrage.md généré en format ultra-lisible (lignes séparées) !`);
