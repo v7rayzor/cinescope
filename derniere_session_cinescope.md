@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.79** / Cache **cinescope-v8.79-streaming**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.80** / Cache **cinescope-v8.80-streaming**).
 
 ---
 
@@ -80,6 +80,9 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - Priorité souveraine à l'Action (`action_aventure`) sur le Thriller (`thriller_policier`) lorsque l'œuvre cumule `act` + `trl`, **sauf si le tag Crime (`crm`) est présent**.
   - Réhabilitation immédiate de 11 purs films d'action armée et de combat physique (*Hunter Killer*, *Triple Threat*, *Stratton*, *Non-Stop*, *Final Score*, *Rogue*, *Hounds of War*, *Tokarev*, *Actes de Vengeance*, etc.).
   - Sanctuarisation absolue des séries procédurales d'enquête policière (*New York, crime organisé*, *B.R.I*) et des polars noirs/psychologiques (*The Batman*, *Drive*, *Les Lyonnais*, *Un traître idéal*) protégés par la présence formelle du tag `crm`.
+* **Souveraineté Hiérarchique de la Science-Fiction & Fantastique (v8.80)** :
+  - Éradication totale des conflits de points : dès qu'une œuvre possède le tag `scf` ou `fnt`, elle est directement et souverainement qualifiée en `scifi_fantastique` (dès lors qu'elle n'a pas été captée en amont par Animation/Famille ou Horreur).
+  - Fin définitive des faux-positifs polars/drames : un décor policier ou criminel accessoire ne peut plus voler la vedette à un univers de science-fiction (*RoboCop*, *Corrective Measures*, *The Suicide Squad*, *Battlestar Galactica : The Plan*, *Scott Pilgrim*, *Deux minutes plus tard*, etc. immédiatement sanctuarisés en SF).
 
 ---
 
@@ -123,17 +126,17 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Application stricte des 20 ans glissants ($\ge 2006$)** : 17 films unitaires historiques (< 2006) purgés.
   - **Règle des séries multi-saisons respectée** : Calcul basé sur l'année moyenne $\frac{\text{Saison début} + \text{Saison fin}}{2}$ (*Battlestar Galactica* 2004–2008 = moyenne 2006 $\ge 2006$, conforme).
   - **Conformité 1 catégorie unique** : **1 414 / 1 414 (100% conforme, 0 anomalie)**.
-  - **Répartition issue du calcul algorithmique déterministe (v8.79 - 1 414 titres)** :
-    * `drame_emotion` : 411 (29.1%)
-    * `comedie` : 286 (20.2%)
-    * `thriller_policier` : 227 (16.1%)
+  - **Répartition issue du calcul algorithmique déterministe (v8.80 - 1 414 titres)** :
+    * `drame_emotion` : 399 (28.2%)
+    * `comedie` : 275 (19.4%)
     * `horreur_epouvante` : 220 (15.6%)
-    * `scifi_fantastique` : 108 (7.6%)
+    * `thriller_policier` : 215 (15.2%)
+    * `scifi_fantastique` : 147 (10.4%)
     * `animation_famille` : 100 (7.1%)
-    * `action_aventure` : 62 (4.4%)
+    * `action_aventure` : 58 (4.1%)
   - **Titres expirés** : **0**.
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : **v8.79** (`sw.js` : `cinescope-v8.79-streaming`).
+  - **Version Application / PWA** : **v8.80** (`sw.js` : `cinescope-v8.80-streaming`).
   - **Clés LocalStorage Actives** : `_v46` (`cinescope_streaming_catalog_v46`, `cinescope_last_specialized_sync_v46`, etc.).
 
 ---

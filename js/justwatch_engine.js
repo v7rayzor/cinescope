@@ -333,6 +333,13 @@ const JustWatchEngine = (function () {
       }
     }
 
+    // 3bis. Règle souveraine Science-Fiction & Fantastique (v8.80) :
+    // Dès qu'une œuvre possède le tag 'scf' ou 'fnt' (hors animation/famille et horreur déjà captées),
+    // elle est immédiatement et souverainement qualifiée en scifi_fantastique sans concours de points.
+    if ((rawTags.includes('scf') || rawTags.includes('fnt')) && allowed.has('scifi_fantastique')) {
+      return 'scifi_fantastique';
+    }
+
     // 4. Règle Western d'action / combat armé (ex: Wild Bill, Terror on the Prairie)
     if (rawTags.includes('wsn') && (rawTags.includes('act') || WESTERN_ACTION_PATTERNS.test(cleanText)) && !rawTags.includes('crm') && !POLICE_CRIME_PATTERNS.test(cleanText) && allowed.has('action_aventure')) {
       return 'action_aventure';
