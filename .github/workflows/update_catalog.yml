@@ -28,7 +28,6 @@ jobs:
 
       - name: Synchroniser le catalogue JustWatch
         env:
-          GH_MODELS_TOKEN: ${{ secrets.GH_MODELS_TOKEN }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
           if [ "${{ inputs.include_specialized }}" = "true" ]; then
