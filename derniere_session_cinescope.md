@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.75** / Cache **v46**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.78** / Cache **cinescope-v8.78-streaming**).
 
 ---
 
@@ -54,21 +54,14 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 6. `scifi_fantastique` : Science-fiction, space opera, anticipation, cyborgs, mondes magiques (97 œuvres).
 7. `action_aventure` : Action grand spectacle, westerns d'action, survie, guerre, arts martiaux (83 œuvres).
 
-### B. Instauration du Registre Persistant de Qualification Sémantique IA (v8.75)
-* **Architecture de Cache Persistant 100% Intégral ([`data/ai_categories.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_categories.json))** :
-  - **1 431 / 1 431 œuvres (100% du catalogue)** sont désormais qualifiées avec précision et mémorisées dans le registre persistant.
-  - L'ancien algorithme de calcul déterministe est désormais rétrogradé au rang strict de **roue de secours** (fallback de sécurité en cas de panne réseau).
-  - Chaque œuvre mémorisée possède sa clé unique, sa répartition détaillée sur 100%, sa justification éditoriale concise et sa catégorie dominante unique.
-  - **Zéro re-calcul inutile** : Lors du scan quotidien ou du lancement local, 100% des œuvres existantes bénéficient d'un cache hit immédiat (0 ms, 0 coût).
-* **Grand Assainissement Sémantique Intégral (211 œuvres corrigées et réhabilitées)** :
-  - **Comédies réhabilitées en `comedie` (347 au total)** : *La Machine à démonter le temps (1 & 2)*, *Mandibules* (Dupieux), *Discount*, *S.O.S. Fantômes*, *Kaamelott : Deuxième Volet*, *Cop Secret*, *Ne coupez pas !*, *The Trip*, *The Outlaws*, *Tschugger*, *Secrets de famille*, *Vampire Zombies From Space!*, *Satanic panic*, *Haut les mains !*, *Burn After Reading*, *En liberté !*, *Je fais le mort*, *Ocean's 8*, *Insaisissables 2*, *The Voices*, *Bienvenue à Zombieland*, etc.
-  - **Action pure & Arts martiaux réhabilités en `action_aventure` (87 au total)** : *The Raid* (Gareth Evans / Iko Uwais), *Triple Threat* (Tony Jaa / Scott Adkins), *Kickboxer : Vengeance* (JCVD), *Avengement*, *Final Score*, *Stratton*, *Rogue*, *64 Minutes Chrono*, *Actes de Vengeance*, *Brothers In Arms*, *Sous haute surveillance*, *Tokarev*, *The Cash Collector 2*, *Non-Stop*, *Hunter Killer*, *Hounds of War*, etc.
-  - **Science-Fiction & Anticipation réhabilitées en `scifi_fantastique` (132 au total)** : *RoboCop (2014)*, *The Walking Dead : Dead City*, *Cloverfield*, *Nope*, *M3GAN*, *Under the Skin*, *Super Icyclone*, *Corrective Measures*, *Redux Redux*, *Battlestar Galactica : The Plan*, *Curvature*, *Radius*, *T.I.M.*, *Osiris*, *Monolith*, etc.
-  - **Polars et Enquêtes assainis en `thriller_policier` (153 au total)** : Élimination de tous les faux-positifs comiques et d'action pure. Recentrage sur les véritables enquêtes, néo-noirs et machinations criminelles (*The Batman*, *Drive*, *Old Boy*, *Elle*, *Mr Wolff*, *B.R.I*, *Les Lyonnais*, *Burning*, *Golden Glove*).
-* **Workflow GitHub Actions ([`.github/workflows/update_catalog.yml`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/.github/workflows/update_catalog.yml))** :
-  - Inférence native **GPT-4o mini** via `GH_MODELS_TOKEN` (ou `DEEPSEEK_API_KEY`).
-  - Lors du scan quotidien de 06:00 UTC, seules les éventuelles *nouvelles* œuvres non encore enregistrées interrogent l'IA.
-  - Commit et synchronisation automatique de `js/catalog.js` et `data/ai_categories.json`.
+### B. Retour au Système de Calcul Déterministe du 17/10/2026 & Archivage IA (v8.78)
+* **Rétablissement du Moteur Algorithmique Déterministe Purement Souverain** :
+  - Suite au constat d'incohérences et de dérives induites par la catégorisation LLM (DeepSeek / GPT-4o mini), retour intégral au moteur déterministe actif le 17/10/2026 (`computeCategory` dans [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js)).
+  - Réapplication immédiate du calcul mathématique pur sur les 1 414 œuvres du catalogue.
+  - Suppression de tout forçage ou surcharge par IA dans [`scripts/sync_justwatch.cjs`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_justwatch.cjs) et dans le workflow GitHub Actions ([`.github/workflows/update_catalog.yml`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/.github/workflows/update_catalog.yml)).
+* **Sanctuarisation & Archivage des Données IA pour Consultation Future** :
+  - **Archive intégrale préservée** : [`data/ai_categories_archive_18102026.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_categories_archive_18102026.json) (1 431 fiches complètes avec répartitions sur 100%, justifications et sources).
+  - Les registres [`data/ai_categories.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_categories.json), [`data/audit_deepseek_results.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/audit_deepseek_results.json) et [`suivi_categorisation.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/suivi_categorisation.md) demeurent archivés pour réutilisation ponctuelle si souhaité.
 
 ### C. Moteur de Catégorisation Algorithmique (Filet de Sécurité Déterministe)
 * **Sanctuarisation de l'Horreur & Protection Animation / Famille (v8.66)** :
@@ -123,35 +116,20 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 
 * **Audit de Conformité Catalogue ([js/catalog.js](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js))** :
   - **Total œuvres qualifiées PC** : **1 414** (1 266 films $\ge 60\text{ min}$ et 148 séries sortis entre 2006 et 2026).
-  - **Application stricte des 20 ans glissants ($\ge 2006$)** : 17 films unitaires historiques (< 2006) ont été purgés.
-  - **Règle des séries multi-saisons respectée** : Calcul basé sur l'année moyenne $\frac{\text{Saison début} + \text{Saison fin}}{2}$ (*Battlestar Galactica* 2004–2008 = moyenne 2006 $\ge 2006$, 100% conforme).
+  - **Application stricte des 20 ans glissants ($\ge 2006$)** : 17 films unitaires historiques (< 2006) purgés.
+  - **Règle des séries multi-saisons respectée** : Calcul basé sur l'année moyenne $\frac{\text{Saison début} + \text{Saison fin}}{2}$ (*Battlestar Galactica* 2004–2008 = moyenne 2006 $\ge 2006$, conforme).
   - **Conformité 1 catégorie unique** : **1 414 / 1 414 (100% conforme, 0 anomalie)**.
-  - **Répartition définitive des 7 catégories officielles (1 414 titres 100% audités)** :
-    * `drame_emotion` : 642 (45.4%)
-    * `thriller_policier` : 208 (14.7%)
-    * `horreur_epouvante` : 170 (12.0%)
-    * `comedie` : 156 (11.0%)
-    * `scifi_fantastique` : 87 (6.2%)
-    * `animation_famille` : 81 (5.7%)
-    * `action_aventure` : 70 (5.0%)
+  - **Répartition issue du calcul algorithmique du 17/10/2026 (1 414 titres)** :
+    * `drame_emotion` : 411 (29.1%)
+    * `comedie` : 285 (20.2%)
+    * `thriller_policier` : 239 (16.9%)
+    * `horreur_epouvante` : 220 (15.6%)
+    * `scifi_fantastique` : 108 (7.6%)
+    * `animation_famille` : 100 (7.1%)
+    * `action_aventure` : 51 (3.6%)
   - **Titres expirés** : **0**.
-* **Audit Croisé Intégral DeepSeek (`deepseek-chat`, température 0.0) sur les 1 414 Œuvres** :
-  - **1 031 œuvres (72,9%)** : Accord parfait dès le départ.
-  - **269 victoires nettes (> 50% et écart > 15%)** : Appliquées et synchronisées (correction des oublis du premier passage).
-  - **104 matches serrés validés** : Basculés sur l'analyse sémantique fine de DeepSeek.
-  - **10 contresens protégés** : Sanctuarisés dans leur catégorie légitime (*Sonic 3*, *Super Charlie*, *Kaamelott*, *Source Code*, *Zombieland*, *127 Heures*, etc.).
-  - **Fichier de workflow GitHub Actions** : Nettoyé ([`.github/workflows/update_catalog.yml`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/.github/workflows/update_catalog.yml)) avec `DEEPSEEK_API_KEY` configuré en secret chiffré et suppression de `GH_MODELS_TOKEN`.
-
-* **Gouvernance de Traçabilité Sémantique : Deux Listes Distinctes (18/10/2026)** :
-  - **Liste « Validé par le binôme » (`valide_binome`)** : **1 414 œuvres (100% du catalogue actuel)** certifiées conformes par le binôme humain + IA, incluant les arbitrages fins et les 10 contresens sanctuarisés.
-  - **Liste « Validé uniquement par DeepSeek » (`auto_deepseek`)** : Réservée aux nouveaux films et séries ajoutés automatiquement lors des synchronisations quotidiennes GitHub Actions via [`scripts/sync_justwatch.cjs`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_justwatch.cjs).
-  - **Outil d'audit des nouveautés ([`scripts/audit_nouveautes.cjs`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/audit_nouveautes.cjs))** :
-    * Analyse les nouveautés, leurs pourcentages DeepSeek et lève des alertes automatiques en cas de contresens potentiel (animation, comédie parodique, concept SF, drame/survie).
-    * Commandes : `node scripts/audit_nouveautes.cjs` (bilan & alertes), `--validate-all` (bascule dans le binôme), `--set <id> <cat>` (correction + validation).
-    * Rapport Markdown synchronisé en temps réel dans [`suivi_categorisation.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/suivi_categorisation.md).
-
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : **v8.77** (`sw.js` : `cinescope-v8.77-streaming`).
+  - **Version Application / PWA** : **v8.78** (`sw.js` : `cinescope-v8.78-streaming`).
   - **Clés LocalStorage Actives** : `_v46` (`cinescope_streaming_catalog_v46`, `cinescope_last_specialized_sync_v46`, etc.).
 
 ---
