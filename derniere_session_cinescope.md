@@ -46,45 +46,29 @@ Ce document constitue la référence vivante et synthétique de l'architecture, 
 
 ### A. Règle Fondamentale : 1 Titre = 1 Catégorie Dominante Unique
 Chaque film ou série est qualifié dans **strictement une seule** des 7 catégories officielles :
-1. `drame_emotion` : Drames profonds, romances d'auteur, biopics, drames historiques/sociaux (416 œuvres).
-2. `comedie` : Comédies pures, comédies romantiques, comédies policières et parodies (305 œuvres).
-3. `thriller_policier` : Polars, enquêtes policières, espionnage, machinations, thrillers criminels (220 œuvres).
-4. `horreur_epouvante` : Slashers, épouvante, body horror, démons/possession, monstres, gore (209 œuvres).
-5. `scifi_fantastique` : Science-fiction, space opera, anticipation, cyborgs, mondes magiques (118 œuvres).
-6. `animation_famille` : Films et séries d'animation, aventures jeunesse, contes familiaux (101 œuvres).
-7. `action_aventure` : Action grand spectacle, westerns d'action, survie, guerre, arts martiaux (62 œuvres).
+1. `drame_emotion` : Drames profonds, romances d'auteur, biopics, drames historiques/sociaux (430 œuvres).
+2. `comedie` : Comédies pures, comédies romantiques, comédies policières, parodies et satires (347 œuvres).
+3. `horreur_epouvante` : Slashers, épouvante, body horror, démons/possession, monstres, gore (160 œuvres).
+4. `thriller_policier` : Polars, enquêtes policières, espionnage, machinations, thrillers criminels (153 œuvres).
+5. `scifi_fantastique` : Science-fiction, space opera, anticipation, cyborgs, mondes magiques (132 œuvres).
+6. `animation_famille` : Films et séries d'animation, aventures jeunesse, contes familiaux (122 œuvres).
+7. `action_aventure` : Action grand spectacle, westerns d'action, survie, guerre, arts martiaux (87 œuvres).
 
 ### B. Instauration du Registre Persistant de Qualification Sémantique IA (v8.75)
-* **Architecture de Cache Persistant ([`data/ai_categories.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_categories.json))** :
-  - Séparation nette entre scraping brut et qualification sémantique fine.
-  - Chaque œuvre mémorisée dans le registre conserve sa clé unique, sa répartition détaillée sur 100%, sa justification éditoriale et sa catégorie dominante unique.
-  - **Zéro re-calcul inutile** : Toute œuvre présente dans le registre est injectée instantanément (0 ms de calcul, 0 coût).
-* **Moteur Automatique GitHub Models / Azure AI (`scripts/sync_justwatch.cjs`)** :
-  - Intégration native de l'inférence **GPT-4o mini** via `GH_MODELS_TOKEN` (ou `DEEPSEEK_API_KEY`).
-  - Lors du scan quotidien de 06:00 UTC, seules les nouvelles œuvres non répertoriées sont transmises à l'IA pour qualification.
-  - Fallback déterministe automatique en cas d'indisponibilité réseau pour garantir qu'aucune mise à jour n'échoue.
-* **Grand Assainissement Sémantique Exhaustif (40 œuvres verrouillées au registre)** :
-  - **18 nouvelles comédies, comédies policières et de braquage assainies en `comedie`** :
-    * *Haut les mains !* (comédie éco-féministe burlesque de braquage) : `thriller_policier` ➔ `comedie`.
-    * *Burn After Reading* (frères Coen, satire mordante avec Brad Pitt & George Clooney) : `thriller_policier` ➔ `comedie`.
-    * *En liberté !* (Pierre Salvadori avec Adèle Haenel, comédie burlesque) : `thriller_policier` ➔ `comedie`.
-    * *Je fais le mort* (François Damiens, comédie policière loufoque) : `thriller_policier` ➔ `comedie`.
-    * *Ocean's 8* (Sandra Bullock & Cate Blanchett, comédie de braquage chic) : `thriller_policier` ➔ `comedie`.
-    * *Insaisissables 2* (braquage d'illusionnisme grand public et fun) : `thriller_policier` ➔ `comedie`.
-    * *The Voices* (Ryan Reynolds, comédie noire déjantée avec ses animaux) : `thriller_policier` ➔ `comedie`.
-    * *Bienvenue à Zombieland* (Woody Harrelson, comédie d'action zombiesque culte) : `horreur_epouvante` ➔ `comedie`.
-    * *Deadstream* (comédie horrifique satirique d'un streamer) : `horreur_epouvante` ➔ `comedie`.
-    * *Jakob's Wife* (comédie vampirique décalée) : `thriller_policier` ➔ `comedie`.
-    * *Braquage à l'Allemande*, *Une pure affaire* (François Damiens), *Omar La Fraise*, *RATS!* : `thriller_policier` ➔ `comedie`.
-  - **Science-Fiction & Anticipation réhabilitées en `scifi_fantastique`** :
-    * *RoboCop* (2014, cyborg policier d'anticipation cyberpunk) : `thriller_policier` ➔ `scifi_fantastique`.
-    * *Corrective Measures : Mutants surpuissants* (prison pour super-vilains mutants) : `thriller_policier` ➔ `scifi_fantastique`.
-    * *Redux Redux* (voyages à travers les univers parallèles et multivers) : `thriller_policier` ➔ `scifi_fantastique`.
-  - **Biopics & Drames d'auteur réhabilités en `drame_emotion`** :
-    * *Lady Nazca* (biopic historique émouvant de l'archéologue Maria Reiche au Pérou) : `action_aventure` ➔ `drame_emotion`.
+* **Architecture de Cache Persistant 100% Intégral ([`data/ai_categories.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_categories.json))** :
+  - **1 431 / 1 431 œuvres (100% du catalogue)** sont désormais qualifiées avec précision et mémorisées dans le registre persistant.
+  - L'ancien algorithme de calcul déterministe est désormais rétrogradé au rang strict de **roue de secours** (fallback de sécurité en cas de panne réseau).
+  - Chaque œuvre mémorisée possède sa clé unique, sa répartition détaillée sur 100%, sa justification éditoriale concise et sa catégorie dominante unique.
+  - **Zéro re-calcul inutile** : Lors du scan quotidien ou du lancement local, 100% des œuvres existantes bénéficient d'un cache hit immédiat (0 ms, 0 coût).
+* **Grand Assainissement Sémantique Intégral (211 œuvres corrigées et réhabilitées)** :
+  - **Comédies réhabilitées en `comedie` (347 au total)** : *La Machine à démonter le temps (1 & 2)*, *Mandibules* (Dupieux), *Discount*, *S.O.S. Fantômes*, *Kaamelott : Deuxième Volet*, *Cop Secret*, *Ne coupez pas !*, *The Trip*, *The Outlaws*, *Tschugger*, *Secrets de famille*, *Vampire Zombies From Space!*, *Satanic panic*, *Haut les mains !*, *Burn After Reading*, *En liberté !*, *Je fais le mort*, *Ocean's 8*, *Insaisissables 2*, *The Voices*, *Bienvenue à Zombieland*, etc.
+  - **Action pure & Arts martiaux réhabilités en `action_aventure` (87 au total)** : *The Raid* (Gareth Evans / Iko Uwais), *Triple Threat* (Tony Jaa / Scott Adkins), *Kickboxer : Vengeance* (JCVD), *Avengement*, *Final Score*, *Stratton*, *Rogue*, *64 Minutes Chrono*, *Actes de Vengeance*, *Brothers In Arms*, *Sous haute surveillance*, *Tokarev*, *The Cash Collector 2*, *Non-Stop*, *Hunter Killer*, *Hounds of War*, etc.
+  - **Science-Fiction & Anticipation réhabilitées en `scifi_fantastique` (132 au total)** : *RoboCop (2014)*, *The Walking Dead : Dead City*, *Cloverfield*, *Nope*, *M3GAN*, *Under the Skin*, *Super Icyclone*, *Corrective Measures*, *Redux Redux*, *Battlestar Galactica : The Plan*, *Curvature*, *Radius*, *T.I.M.*, *Osiris*, *Monolith*, etc.
+  - **Polars et Enquêtes assainis en `thriller_policier` (153 au total)** : Élimination de tous les faux-positifs comiques et d'action pure. Recentrage sur les véritables enquêtes, néo-noirs et machinations criminelles (*The Batman*, *Drive*, *Old Boy*, *Elle*, *Mr Wolff*, *B.R.I*, *Les Lyonnais*, *Burning*, *Golden Glove*).
 * **Workflow GitHub Actions ([`.github/workflows/update_catalog.yml`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/.github/workflows/update_catalog.yml))** :
-  - Injection chiffrée des secrets `GH_MODELS_TOKEN` et `DEEPSEEK_API_KEY`.
-  - Sauvegarde automatique et commit synchronisé de `js/catalog.js` et `data/ai_categories.json`.
+  - Inférence native **GPT-4o mini** via `GH_MODELS_TOKEN` (ou `DEEPSEEK_API_KEY`).
+  - Lors du scan quotidien de 06:00 UTC, seules les éventuelles *nouvelles* œuvres non encore enregistrées interrogent l'IA.
+  - Commit et synchronisation automatique de `js/catalog.js` et `data/ai_categories.json`.
 
 ### C. Moteur de Catégorisation Algorithmique (Filet de Sécurité Déterministe)
 * **Sanctuarisation de l'Horreur & Protection Animation / Famille (v8.66)** :
@@ -142,13 +126,13 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Total œuvres qualifiées Mobile** : **864** (739 films $\ge 60\text{ min}$, 125 séries).
   - **Conformité 1 catégorie unique** : **1 431 / 1 431 (100% conforme, 0 anomalie)**.
   - **Répartition des 7 catégories officielles** :
-    * `drame_emotion` : 416
-    * `comedie` : 305
-    * `thriller_policier` : 220
-    * `horreur_epouvante` : 209
-    * `scifi_fantastique` : 118
-    * `animation_famille` : 101
-    * `action_aventure` : 62
+    * `drame_emotion` : 430
+    * `comedie` : 347
+    * `horreur_epouvante` : 160
+    * `thriller_policier` : 153
+    * `scifi_fantastique` : 132
+    * `animation_famille` : 122
+    * `action_aventure` : 87
   - **Titres expirés** : **0**.
 * **Traçabilité Technique & Cache** :
   - **Version Application / PWA** : **v8.75** (`sw.js` : `cinescope-v8.75-streaming`).
