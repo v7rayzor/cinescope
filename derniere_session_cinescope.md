@@ -136,7 +136,8 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * `action_aventure` : 72 (5.1% total, 5.21% films) 🎯
   - **Titres expirés** : **0**.
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : **v8.81** (`sw.js` : `cinescope-v8.81-streaming`).
+  - **Version Application / PWA** : **v8.82** (`sw.js` : `cinescope-v8.82-streaming`).
+  - **Optimisation Affichage & Fluidité** : Affiches avec `loading="lazy"` natif et préchargement d'arrière-plan temporisé (4 requêtes max via `requestIdleCallback`) éliminant toute congestion réseau.
   - **Clés LocalStorage Actives** : `_v46` (`cinescope_streaming_catalog_v46`, `cinescope_last_specialized_sync_v46`, etc.).
   - **Cache Arbitrage IA** : [`data/ai_duel_cache.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_duel_cache.json) (49 arbitrages validés : 14 Action cinétique, 35 Thriller cérébral).
   - **Règle Séries Famille / Animation** : Exigence formelle du tag `ani` pour les séries en `animation_famille` (*The Spiderwick Chronicles* souverainement en Fantasy).

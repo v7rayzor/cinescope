@@ -418,7 +418,7 @@ function preloadAllCatalogImages() {
   const fullQueue = [...Array.from(priorityUrls), ...Array.from(secondaryUrls)];
   const total = fullQueue.length;
   let cursor = 0;
-  const maxConcurrency = 16;
+  const maxConcurrency = 4;
   let activeLoads = 0;
 
   function processQueue() {
@@ -435,7 +435,12 @@ function preloadAllCatalogImages() {
     }
   }
 
-  processQueue();
+  // Différer le préchargement en arrière-plan pour laisser la priorité absolue aux affiches visibles à l'écran
+  if (typeof requestIdleCallback !== 'undefined') {
+    requestIdleCallback(() => processQueue(), { timeout: 2000 });
+  } else {
+    setTimeout(processQueue, 1500);
+  }
 }
 
 // Initialisation au chargement de la page
@@ -1339,7 +1344,7 @@ function renderCatalog() {
 
     card.innerHTML = `
       <div class="poster-img-container">
-        <img class="poster-img" src="${item.poster}" alt="Affiche ${item.titre}" decoding="async">
+        <img class="poster-img" src="${item.poster}" alt="Affiche ${item.titre}" loading="lazy" decoding="async">
         ${expiryHtml}
         ${badgeHtml}
         ${seasonBadgeHtml}
