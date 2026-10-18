@@ -126,19 +126,20 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Application stricte des 20 ans glissants ($\ge 2006$)** : 17 films unitaires historiques (< 2006) ont été purgés.
   - **Règle des séries multi-saisons respectée** : Calcul basé sur l'année moyenne $\frac{\text{Saison début} + \text{Saison fin}}{2}$ (*Battlestar Galactica* 2004–2008 = moyenne 2006 $\ge 2006$, 100% conforme).
   - **Conformité 1 catégorie unique** : **1 414 / 1 414 (100% conforme, 0 anomalie)**.
-  - **Répartition définitive des 7 catégories officielles (1 414 titres audités sans tags)** :
-    * `drame_emotion` : 461 (32.6%)
-    * `comedie` : 288 (20.4%)
-    * `horreur_epouvante` : 196 (13.9%)
-    * `thriller_policier` : 161 (11.4%)
-    * `animation_famille` : 114 (8.1%)
-    * `action_aventure` : 100 (7.1%)
-    * `scifi_fantastique` : 94 (6.6%)
+  - **Répartition actuelle des 7 catégories officielles (après application des 269 victoires nettes DeepSeek)** :
+    * `drame_emotion` : 622 (44.0%)
+    * `comedie` : 180 (12.7%)
+    * `thriller_policier` : 180 (12.7%)
+    * `horreur_epouvante` : 178 (12.6%)
+    * `scifi_fantastique` : 88 (6.2%)
+    * `action_aventure` : 85 (6.0%)
+    * `animation_famille` : 81 (5.7%)
   - **Titres expirés** : **0**.
-* **Grand Audit Sémantique Intégral 100% Titre + Synopsis (1 414 / 1 414 œuvres)** :
-  - Chaque œuvre a été analysée individuellement sur son Titre et son Synopsis réel sans jamais se fier aux tags bruts JustWatch (`raw_genres`).
-  - Les tags bruts sont conservés dans le code source uniquement comme roue de secours en cas d'indisponibilité réseau (`callDeterministicClassifier`).
-  - `data/ai_categories.json` et `js/catalog.js` sont 100% alignés et verrouillés pour les 1 414 œuvres.
+* **Audit Croisé Intégral DeepSeek (`deepseek-chat`, température 0.0) sur les 1 414 Œuvres** :
+  - **1 031 œuvres (72,9%)** : Accord parfait dès le départ.
+  - **269 victoires nettes (> 50% et écart > 15%)** : Appliquées et enregistrées dans `js/catalog.js` et `data/ai_categories.json`.
+  - **114 matches serrés (écart <= 15% ou dominance <= 50%)** : Documentés intégralement dans `matches_serres_arbitrage.md` avec 100% de la répartition pour arbitrage.
+
 * **Traçabilité Technique & Cache** :
   - **Version Application / PWA** : **v8.76** (`sw.js` : `cinescope-v8.76-streaming`).
   - **Clés LocalStorage Actives** : `_v46` (`cinescope_streaming_catalog_v46`, `cinescope_last_specialized_sync_v46`, etc.).
