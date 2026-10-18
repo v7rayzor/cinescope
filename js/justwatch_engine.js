@@ -32,6 +32,34 @@ const JustWatchEngine = (function () {
 
   cleanLegacyLocalStorage();
 
+  // Cache persistant des arbitrages IA (Duel binaire Action vs Thriller - Règle v8.81)
+  let aiDuelCache = {};
+  if (typeof require !== 'undefined') {
+    try {
+      const fs = require('fs');
+      const path = require('path');
+      const candidatePaths = [
+        path.join(process.cwd(), 'data', 'ai_duel_cache.json'),
+        typeof __dirname !== 'undefined' ? path.join(__dirname, '..', 'data', 'ai_duel_cache.json') : null,
+        typeof __dirname !== 'undefined' ? path.join(__dirname, 'data', 'ai_duel_cache.json') : null
+      ].filter(Boolean);
+      for (const p of candidatePaths) {
+        if (fs.existsSync(p)) {
+          aiDuelCache = JSON.parse(fs.readFileSync(p, 'utf8'));
+          break;
+        }
+      }
+    } catch (e) { }
+  }
+
+  function setAiDuelCache(cache) {
+    aiDuelCache = cache || {};
+  }
+
+  function getAiDuelCache() {
+    return aiDuelCache;
+  }
+
   // Configuration des bouquets et packages JustWatch France avec logos officiels
   const PACKAGES_CONFIG = {
     // Bouquets SVOD Payants (CinéScope standard & mobile)
@@ -230,12 +258,16 @@ const JustWatchEngine = (function () {
   const WESTERN_ACTION_PATTERNS = /\b(gachette|as de la gachette|hors la loi|sherif|bandit|bandits|fusillade|fusillades|duel|duels|chasseur de primes|chasseurs de primes|se bat|combattant|combattants|pionniers|cowboy|cowboys|cow boy|cow boys|diligence|convoi|attaque|braquage|vengeance armee|guerilleros)\b/i;
 
   // Harnais de Cohérence : Détermine les catégories formellement autorisées pour un ensemble de tags et de contexte
-  function getAllowedCategories(tags, cleanText = '', isHybridWithAge = false, isMatureFamily = false, isComedyWithoutAge = false) {
+  function getAllowedCategories(tags, cleanText = '', isHybridWithAge = false, isMatureFamily = false, isComedyWithoutAge = false, isSerie = false) {
     const allowed = new Set();
     
     // 1. Catégories autorisées par les tags de genre
     // Famille / Animation autorisée seulement si pas de signalétique mature (-12, -16, -18)
-    if (!isMatureFamily && (tags.includes('ani') || (tags.includes('fml') && (tags.includes('fnt') || tags.includes('scf') || !tags.includes('cmy'))))) {
+    // Pour les séries : animation formelle ('ani') ou motif explicite obligatoire (pas de séries live-action en famille)
+    const isAnimAllowed = isSerie
+      ? (!isMatureFamily && (tags.includes('ani') || ANIMATION_PATTERNS.test(cleanText)))
+      : (!isMatureFamily && (tags.includes('ani') || (tags.includes('fml') && (tags.includes('fnt') || tags.includes('scf') || !tags.includes('cmy')))));
+    if (isAnimAllowed) {
       allowed.add('animation_famille');
     }
     // Horreur autorisée sauf si comédie/parodie sans pastille d'âge
@@ -305,7 +337,7 @@ const JustWatchEngine = (function () {
     // Comédies d'horreur autorisées en comédie si < -16 (sauf gore strict non parodique)
     const isComedyWithoutAge = rawTags.includes('cmy') && !isAdultHorrorAge && (!isStrictHorror || PARODY_PATTERNS.test(cleanText) || cleanText.includes('requin') || cleanText.includes('ski'));
 
-    const allowed = getAllowedCategories(rawTags, cleanText, isHybridWithAge, isMatureFamily, isComedyWithoutAge);
+    const allowed = getAllowedCategories(rawTags, cleanText, isHybridWithAge, isMatureFamily, isComedyWithoutAge, isSerie);
 
 
     // 1. Règle souveraine Animation / Dessin animé (si autorisée) : 'ani' ou motif explicite d'animation
@@ -313,8 +345,8 @@ const JustWatchEngine = (function () {
       if (allowed.has('animation_famille')) return 'animation_famille';
     }
 
-    // 2. Règle Famille / Jeunesse avec créatures / jeu vidéo / fantasy (ex: Sonic 3, Bigfoot Junior)
-    if (!isMatureFamily && rawTags.includes('fml') && (rawTags.includes('fnt') || rawTags.includes('scf')) && !rawTags.includes('hrr')) {
+    // 2. Règle Famille / Jeunesse avec créatures / jeu vidéo / fantasy (ex: Sonic 3, Bigfoot Junior) - Films uniquement
+    if (!isSerie && !isMatureFamily && rawTags.includes('fml') && (rawTags.includes('fnt') || rawTags.includes('scf')) && !rawTags.includes('hrr')) {
       if (allowed.has('animation_famille')) return 'animation_famille';
     }
 
@@ -355,9 +387,9 @@ const JustWatchEngine = (function () {
     const scores = [0, 0, 0, 0, 0, 0, 0];
 
     // Animation / Famille
-    if (!isMatureFamily) {
+    if (!isMatureFamily && (!isSerie || rawTags.includes('ani'))) {
       if (rawTags.includes('ani')) scores[0] += 100;
-      if (rawTags.includes('fml') && !rawTags.includes('cmy')) scores[0] += 40;
+      if (!isSerie && rawTags.includes('fml') && !rawTags.includes('cmy')) scores[0] += 40;
     }
 
     // Horreur (protégée pour l'horreur pure et les oeuvres matures avec pastille)
@@ -982,7 +1014,11 @@ const JustWatchEngine = (function () {
         continue;
       }
       if (refreshed.raw_genres && refreshed.raw_genres.length > 0) {
-        refreshed.categories = [computeCategory(refreshed.raw_genres, refreshed.type === 'serie', refreshed.titre, refreshed.synopsis, refreshed.badge, refreshed.annee, refreshed.package_slugs)];
+        if (refreshed.id && aiDuelCache[refreshed.id] && aiDuelCache[refreshed.id].category) {
+          refreshed.categories = [aiDuelCache[refreshed.id].category];
+        } else {
+          refreshed.categories = [computeCategory(refreshed.raw_genres, refreshed.type === 'serie', refreshed.titre, refreshed.synopsis, refreshed.badge, refreshed.annee, refreshed.package_slugs)];
+        }
       }
       refreshed.on_prime = Boolean(refreshed.on_prime || isKnownPrimeTitle(refreshed.titre));
       refreshed.on_tnt = Boolean(refreshed.on_tnt);
@@ -999,6 +1035,9 @@ const JustWatchEngine = (function () {
     for (const fresh of freshItems) {
       if (fresh.raw_genres && fresh.raw_genres.includes('rly')) {
         continue;
+      }
+      if (fresh.id && aiDuelCache[fresh.id] && aiDuelCache[fresh.id].category) {
+        fresh.categories = [aiDuelCache[fresh.id].category];
       }
       const key = getDeduplicationKey(fresh) || fresh.id;
       if (map.has(key)) {
@@ -1376,7 +1415,9 @@ const JustWatchEngine = (function () {
     isItemOnPrimeOrTnt,
     isItemBasePaid,
     isItemSpecialized,
-    isItemTntFree
+    isItemTntFree,
+    setAiDuelCache,
+    getAiDuelCache
   };
 })();
 

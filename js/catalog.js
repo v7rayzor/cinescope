@@ -858,7 +858,7 @@ const CATALOG_DATA = [
     "note_recence": 7.9,
     "note_globale": 7.1,
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "badge": "12",
     "is_eligible": true,
@@ -9019,7 +9019,7 @@ const CATALOG_DATA = [
     "titre": "There Are No Saints",
     "type": "film",
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "annee": 2022,
     "chaine": "Ciné+ OCS",
@@ -10176,7 +10176,7 @@ const CATALOG_DATA = [
     "titre": "64 Minutes Chrono",
     "type": "film",
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "annee": 2019,
     "chaine": "Ciné+ OCS",
@@ -14220,7 +14220,7 @@ const CATALOG_DATA = [
     "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -15007,7 +15007,7 @@ const CATALOG_DATA = [
     "note_globale": 6.7,
     "etoiles": 3,
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -15302,7 +15302,7 @@ const CATALOG_DATA = [
     "note_globale": 6.8,
     "etoiles": 3,
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -16724,7 +16724,7 @@ const CATALOG_DATA = [
     "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -16773,7 +16773,7 @@ const CATALOG_DATA = [
     "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -20040,7 +20040,7 @@ const CATALOG_DATA = [
     "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
-      "animation_famille"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "act",
@@ -22940,7 +22940,7 @@ const CATALOG_DATA = [
     "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -31640,7 +31640,7 @@ const CATALOG_DATA = [
     "note_globale": 6.1,
     "etoiles": 3,
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -32419,7 +32419,7 @@ const CATALOG_DATA = [
     "note_globale": 6.3,
     "etoiles": 3,
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -45692,7 +45692,7 @@ const CATALOG_DATA = [
     "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -55532,7 +55532,7 @@ const CATALOG_DATA = [
     "note_globale": 8,
     "etoiles": 5,
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -60773,7 +60773,7 @@ const CATALOG_DATA = [
     "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",

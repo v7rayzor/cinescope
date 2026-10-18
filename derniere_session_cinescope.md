@@ -126,18 +126,21 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Application stricte des 20 ans glissants ($\ge 2006$)** : 17 films unitaires historiques (< 2006) purgés.
   - **Règle des séries multi-saisons respectée** : Calcul basé sur l'année moyenne $\frac{\text{Saison début} + \text{Saison fin}}{2}$ (*Battlestar Galactica* 2004–2008 = moyenne 2006 $\ge 2006$, conforme).
   - **Conformité 1 catégorie unique** : **1 414 / 1 414 (100% conforme, 0 anomalie)**.
-  - **Répartition issue du calcul algorithmique déterministe (v8.80 - 1 414 titres)** :
+  - **Répartition issue de la qualification v8.81 (1 414 titres - Arbitrage binaire IA Action vs Thriller + Règle séries Fantasy)** :
     * `drame_emotion` : 399 (28.2%)
     * `comedie` : 275 (19.4%)
     * `horreur_epouvante` : 220 (15.6%)
-    * `thriller_policier` : 215 (15.2%)
-    * `scifi_fantastique` : 147 (10.4%)
-    * `animation_famille` : 100 (7.1%)
-    * `action_aventure` : 58 (4.1%)
+    * `thriller_policier` : 201 (14.2%)
+    * `scifi_fantastique` : 148 (10.5% total, 30 séries)
+    * `animation_famille` : 99 (7.0% total, 28 séries)
+    * `action_aventure` : 72 (5.1% total, 5.21% films) 🎯
   - **Titres expirés** : **0**.
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : **v8.80** (`sw.js` : `cinescope-v8.80-streaming`).
+  - **Version Application / PWA** : **v8.81** (`sw.js` : `cinescope-v8.81-streaming`).
   - **Clés LocalStorage Actives** : `_v46` (`cinescope_streaming_catalog_v46`, `cinescope_last_specialized_sync_v46`, etc.).
+  - **Cache Arbitrage IA** : [`data/ai_duel_cache.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_duel_cache.json) (49 arbitrages validés : 14 Action cinétique, 35 Thriller cérébral).
+  - **Règle Séries Famille / Animation** : Exigence formelle du tag `ani` pour les séries en `animation_famille` (*The Spiderwick Chronicles* souverainement en Fantasy).
+  - **Workflow GitHub Actions** : Clé secrète `DEEPSEEK_API_KEY` injectée et commit automatique du cache IA.
 
 ---
 

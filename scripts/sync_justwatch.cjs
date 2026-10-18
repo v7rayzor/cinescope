@@ -218,6 +218,110 @@ function loadExistingMetadata() {
   };
 }
 
+const AI_CACHE_FILE = path.join(__dirname, '..', 'data', 'ai_duel_cache.json');
+
+function loadAiCache() {
+  try {
+    if (fs.existsSync(AI_CACHE_FILE)) {
+      return JSON.parse(fs.readFileSync(AI_CACHE_FILE, 'utf8'));
+    }
+  } catch (e) { }
+  return {};
+}
+
+function saveAiCache(cache) {
+  try {
+    fs.mkdirSync(path.dirname(AI_CACHE_FILE), { recursive: true });
+    fs.writeFileSync(AI_CACHE_FILE, JSON.stringify(cache, null, 2), 'utf8');
+  } catch (e) {
+    console.warn('⚠️ Impossible de sauvegarder ai_duel_cache.json :', e.message);
+  }
+}
+
+async function resolveAmbiguousTitlesWithAI(items) {
+  const apiKey = process.env.DEEPSEEK_API_KEY;
+  const cache = loadAiCache();
+  const toResolve = [];
+
+  for (const item of items) {
+    const raw = item.raw_genres || [];
+    if (raw.includes('act') && raw.includes('trl')) {
+      if (!cache[item.id]) {
+        toResolve.push(item);
+      }
+    }
+  }
+
+  if (toResolve.length === 0 || !apiKey) {
+    JustWatchEngine.setAiDuelCache(cache);
+    return;
+  }
+
+  console.log(`\n🤖 Arbitrage IA DeepSeek requis pour ${toResolve.length} nouvelle(s) œuvre(s) hybride(s) (Action vs Thriller)...`);
+
+  for (const item of toResolve) {
+    try {
+      const prompt = `Tu es l'expert cinéphile en charge de la qualification de la filmothèque CinéScope.
+Chaque œuvre doit être classée dans UNE SEULE catégorie dominante selon la règle stricte du catalogue :
+
+- "action_aventure" : Si l'œuvre est dominée par l'action cinétique, les combats physiques (arts martiaux, corps à corps), les fusillades intenses, les poursuites nerveuses et le spectaculaire (ex: The Raid, John Wick, Die Hard, Taken).
+- "thriller_policier" : Si l'œuvre est dominée par l'intrigue criminelle, l'enquête policière, le suspense cérébral, la machination, la manipulation psychologique, le polar d'ambiance ou les braquages sophistiqués (ex: The Batman, Drive, Usual Suspects, Seven).
+
+RÈGLE D'OR : ÉVITER ABSOLUMENT LES CONTRESENS. S'il n'y a pas d'action physique réelle dominante, choisis "thriller_policier".
+
+Œuvre à départager :
+Titre : "${item.titre}" (${item.annee || ''}) [Type: ${item.type || 'film'}, Durée: ${item.duree || ''}]
+Synopsis : "${item.synopsis || 'N/A'}"
+Genres bruts : ${JSON.stringify(item.raw_genres || [])}
+
+Réponds STRICTEMENT sous forme d'un objet JSON valide sans markdown :
+{
+  "choix": "action_aventure" OU "thriller_policier",
+  "action_score": <nombre entre 0 et 100>,
+  "thriller_score": <nombre entre 0 et 100>,
+  "justification": "<Explication concise en 1 phrase>"
+}`;
+
+      const res = await fetch('https://api.deepseek.com/chat/completions', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${apiKey}`
+        },
+        body: JSON.stringify({
+          model: 'deepseek-chat',
+          temperature: 0.1,
+          messages: [{ role: 'user', content: prompt }]
+        })
+      });
+
+      if (!res.ok) {
+        console.warn(`  ⚠️ Échec appel API DeepSeek pour "${item.titre}": ${res.status}`);
+        continue;
+      }
+
+      const json = await res.json();
+      const rawText = json.choices?.[0]?.message?.content?.trim() || '';
+      const cleanJson = rawText.replace(/```json/g, '').replace(/```/g, '').trim();
+      const parsed = JSON.parse(cleanJson);
+
+      if (parsed.choix === 'action_aventure' || parsed.choix === 'thriller_policier') {
+        cache[item.id] = {
+          titre: item.titre,
+          category: parsed.choix,
+          justification: parsed.justification
+        };
+        console.log(`  🎯 [DeepSeek] "${item.titre}" ➡️ ${parsed.choix} (${parsed.justification})`);
+      }
+    } catch (err) {
+      console.warn(`  ⚠️ Erreur analyse DeepSeek pour "${item.titre}":`, err.message);
+    }
+  }
+
+  saveAiCache(cache);
+  JustWatchEngine.setAiDuelCache(cache);
+}
+
 async function run() {
   try {
     const isSpecializedRequested = process.argv.includes('--specialized') || process.argv.includes('--all');
@@ -241,6 +345,9 @@ async function run() {
     if (freshQualified.length === 0 && existing.length === 0) {
       throw new Error('Aucune donnée qualifiée reçue et aucun catalogue de secours.');
     }
+
+    // Résolution IA ciblée (Action vs Thriller) pour toute nouveauté hybride
+    await resolveAmbiguousTitlesWithAI(freshQualified);
 
     console.log('\n🔄 Fusion intelligente et élimination des doublons...');
     const merged = JustWatchEngine.mergeCatalog(existing, freshQualified);
