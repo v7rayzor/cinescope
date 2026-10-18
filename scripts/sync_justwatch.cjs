@@ -404,8 +404,9 @@ async function run() {
             categories: [result.categorie],
             repartition: result.repartition,
             justification: result.justification,
+            statut_validation: 'auto_deepseek',
             analyzed_at: new Date().toISOString(),
-            source: result.source
+            source: result.source || 'deepseek-chat'
           };
           aiClassified++;
           console.log(`OK -> [${result.categorie}] (${result.justification})`);

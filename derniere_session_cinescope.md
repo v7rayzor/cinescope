@@ -142,6 +142,14 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **10 contresens protégés** : Sanctuarisés dans leur catégorie légitime (*Sonic 3*, *Super Charlie*, *Kaamelott*, *Source Code*, *Zombieland*, *127 Heures*, etc.).
   - **Fichier de workflow GitHub Actions** : Nettoyé ([`.github/workflows/update_catalog.yml`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/.github/workflows/update_catalog.yml)) avec `DEEPSEEK_API_KEY` configuré en secret chiffré et suppression de `GH_MODELS_TOKEN`.
 
+* **Gouvernance de Traçabilité Sémantique : Deux Listes Distinctes (18/10/2026)** :
+  - **Liste « Validé par le binôme » (`valide_binome`)** : **1 414 œuvres (100% du catalogue actuel)** certifiées conformes par le binôme humain + IA, incluant les arbitrages fins et les 10 contresens sanctuarisés.
+  - **Liste « Validé uniquement par DeepSeek » (`auto_deepseek`)** : Réservée aux nouveaux films et séries ajoutés automatiquement lors des synchronisations quotidiennes GitHub Actions via [`scripts/sync_justwatch.cjs`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_justwatch.cjs).
+  - **Outil d'audit des nouveautés ([`scripts/audit_nouveautes.cjs`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/audit_nouveautes.cjs))** :
+    * Analyse les nouveautés, leurs pourcentages DeepSeek et lève des alertes automatiques en cas de contresens potentiel (animation, comédie parodique, concept SF, drame/survie).
+    * Commandes : `node scripts/audit_nouveautes.cjs` (bilan & alertes), `--validate-all` (bascule dans le binôme), `--set <id> <cat>` (correction + validation).
+    * Rapport Markdown synchronisé en temps réel dans [`suivi_categorisation.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/suivi_categorisation.md).
+
 * **Traçabilité Technique & Cache** :
   - **Version Application / PWA** : **v8.77** (`sw.js` : `cinescope-v8.77-streaming`).
   - **Clés LocalStorage Actives** : `_v46` (`cinescope_streaming_catalog_v46`, `cinescope_last_specialized_sync_v46`, etc.).
