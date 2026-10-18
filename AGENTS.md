@@ -43,15 +43,17 @@ Une œuvre est éligible (`is_eligible: true`) si et seulement si elle respecte 
 
 ---
 
-## 5. Règle Documentaire : Consultation Initiale & Maintenance de `derniere_session.md`
-- **Consultation obligatoire au début de chaque session** : Au démarrage de toute nouvelle session de travail, l'agent doit **SYSTÉMATIQUEMENT et OBLIGATOIREMENT lire le fichier [`derniere_session.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/derniere_session.md)** afin de s'imprégner immédiatement de l'état exact du projet, des règles métier en vigueur, des algorithmes actifs et des versions déployées avant toute action ou réponse.
-- **Alimentation & Élagage en fin de session** : À la fin de chaque session de travail ou cycle de développement, l'agent doit **SYSTÉMATIQUEMENT et OBLIGATOIREMENT** actualiser et élaguer ce document à la racine du projet.
+## 5. Règle Documentaire : Consultation Initiale & Maintenance des Synthèses de Session (`derniere_session_cinescope.md` & `derniere_session_molotov.md`)
+- **Consultation obligatoire au début de chaque session selon le contexte de travail** :
+  * **Pour CinéScope** (catalogue de films et séries, moteur de streaming JustWatch, filtres de navigation, scoring déterministe, qualification sémantique IA, PWA) : l'agent doit **SYSTÉMATIQUEMENT et OBLIGATOIREMENT lire le fichier [`derniere_session_cinescope.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/derniere_session_cinescope.md)** afin de s'imprégner immédiatement de l'état exact du catalogue, des règles métier et des versions déployées.
+  * **Pour Molotov Abonnements** (page de propositions des offres dans `propositions/`, bannières hero panoramiques, chartes broadcast studio, intégration des chaînes) : l'agent doit **SYSTÉMATIQUEMENT et OBLIGATOIREMENT lire le fichier [`derniere_session_molotov.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/derniere_session_molotov.md)** afin de respecter scrupuleusement les proportions dé-écrasées, les calages au pixel près et l'intégrité des visuels validés.
+- **Alimentation & Élagage en fin de session** : À la fin de chaque session de travail ou cycle de développement, l'agent doit **SYSTÉMATIQUEMENT et OBLIGATOIREMENT** actualiser et élaguer le document correspondant à la racine du projet.
 - **Contenu requis de la synthèse** :
-  1. Le récapitulatif des fonctionnalités et corrections récentes du projet.
-  2. Les règles métier, formules mathématiques et arbitrages algorithmiques en vigueur.
-  3. L'état exact du catalogue, les statistiques de conformité et les décisions techniques actives.
-  4. La version courante de cache PWA et des clés de stockage actives.
-- **Suppression proactive des informations obsolètes** : L'agent doit **systématiquement supprimer ou condenser** les informations superflues, les étapes de débogage intermédiaires dépassées, les logs de migration anciens et les sections devenues caduques, afin que le document reste une synthèse claire, légère et opérationnelle de l'état actuel sans empilement infini.
+  1. Le récapitulatif des fonctionnalités et corrections récentes du projet ciblé.
+  2. Les règles métier, formules mathématiques, ratios d'affichage et arbitrages en vigueur.
+  3. L'état exact des fichiers, les statistiques de conformité et les décisions techniques actives.
+  4. La version courante de cache PWA et des clés de stockage actives (pour CinéScope).
+- **Suppression proactive des informations obsolètes** : L'agent doit **systématiquement supprimer ou condenser** les informations superflues, les étapes de débogage intermédiaires dépassées, les logs de migration anciens et les sections devenues caduques, afin que chaque document reste une synthèse claire, légère et opérationnelle de l'état actuel sans empilement infini.
 
 ---
 
@@ -76,5 +78,12 @@ Une œuvre est éligible (`is_eligible: true`) si et seulement si elle respecte 
 ## 8. Règle d'Exclusivité PC (« Juste pour moi » / « Que pour moi »)
 - Lorsque l'utilisateur formule une demande avec la mention *« juste pour moi »* ou *« que pour moi »*, celle-ci s'applique **STRICTEMENT et EXCLUSIVEMENT à la version PC (Desktop)** du projet (écrans $\ge 1024\text{px}$).
 - Ces fonctionnalités, ajouts de contenus ou filtres ne doivent en aucun cas impacter ou alourdir la version portable / mobile, sur laquelle ils doivent demeurer masqués, exclus ou inactifs.
+
+---
+
+## 9. Règle de Confidentialité & Non-Publication des Propositions Molotov
+- Les maquettes, propositions et fichiers de refonte situés dans `propositions/` (dont [`propositions/molotov_abonnements.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/propositions/molotov_abonnements.html)) sont **STRICTEMENT RÉSERVÉS À UN USAGE LOCAL PRIVÉ**.
+- **Accès direct exclusif pour l'utilisateur** : via l'URL locale `file:///C:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/propositions/molotov_abonnements.html`.
+- **Interdiction formelle de publication publique** : Ces fichiers ne doivent en aucun cas être commités ou poussés sur le dépôt public GitHub. Ils sont sanctuarisés dans le fichier `.gitignore` du projet.
 
 

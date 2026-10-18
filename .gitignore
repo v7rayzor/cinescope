@@ -8,3 +8,8 @@ __pycache__/
 Site/
 .DS_Store
 Thumbs.db
+.env
+*.har
+*.pdf
+propositions/
+refonte_offres_molotov.md

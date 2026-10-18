@@ -18,6 +18,141 @@ const JustWatchEngine = loadJustWatchEngine();
 
 const GRAPHQL_ENDPOINT = 'https://apis.justwatch.com/graphql';
 const CATALOG_FILE_PATH = path.join(__dirname, '..', 'js', 'catalog.js');
+const AI_CATEGORIES_FILE_PATH = path.join(__dirname, '..', 'data', 'ai_categories.json');
+
+const VALID_CATEGORIES = [
+  'drame_emotion',
+  'comedie',
+  'thriller_policier',
+  'action_aventure',
+  'scifi_fantastique',
+  'horreur_epouvante',
+  'animation_famille'
+];
+
+function loadAiCategories() {
+  try {
+    if (fs.existsSync(AI_CATEGORIES_FILE_PATH)) {
+      const content = fs.readFileSync(AI_CATEGORIES_FILE_PATH, 'utf-8');
+      const parsed = JSON.parse(content);
+      console.log(`🧠 Registre IA chargé : ${Object.keys(parsed).length} œuvres mémorisées.`);
+      return parsed;
+    }
+  } catch (err) {
+    console.warn('⚠️ Impossible de charger ai_categories.json :', err.message);
+  }
+  return {};
+}
+
+function saveAiCategories(cache) {
+  try {
+    const dir = path.dirname(AI_CATEGORIES_FILE_PATH);
+    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(AI_CATEGORIES_FILE_PATH, JSON.stringify(cache, null, 2), 'utf-8');
+    console.log(`💾 Registre IA sauvegardé (${Object.keys(cache).length} œuvres au total) : ${AI_CATEGORIES_FILE_PATH}`);
+  } catch (err) {
+    console.error('❌ Erreur lors de la sauvegarde de ai_categories.json :', err.message);
+  }
+}
+
+function normalizeSlug(title, year) {
+  if (!title) return '';
+  const clean = String(title)
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '_')
+    .replace(/^_+|_+$/g, '');
+  return year ? `${clean}_${year}` : clean;
+}
+
+async function callAiClassifier(item) {
+  const token = process.env.GH_MODELS_TOKEN || process.env.DEEPSEEK_API_KEY;
+  if (!token) return null;
+
+  const isDeepSeek = token.startsWith('sk-') && !token.startsWith('ghp_');
+  const endpoint = isDeepSeek
+    ? 'https://api.deepseek.com/chat/completions'
+    : 'https://models.inference.ai.azure.com/chat/completions';
+  const modelName = isDeepSeek ? 'deepseek-chat' : 'gpt-4o-mini';
+
+  const systemPrompt = `Tu es le classificateur sémantique officiel de CinéScope, plateforme de cinéma et séries de référence.
+Ta mission est d'attribuer STRICTEMENT UNE SEULE CATÉGORIE DOMINANTE à chaque œuvre parmi les 7 catégories officielles ci-dessous :
+1. "drame_emotion" : Drames profonds, romances, biopics, drames sociaux, récits d'auteur.
+2. "comedie" : Comédies pures, parodies, satires, comédies romantiques et populaires.
+3. "thriller_policier" : Polars, enquêtes policières, espionnage, machinations, suspense, thrillers psychologiques/criminels.
+4. "action_aventure" : Action grand spectacle, westerns d'action, arts martiaux, survie, guerre, aventures physiques.
+5. "scifi_fantastique" : Science-fiction, space opéra, anticipation, mondes magiques, fantasy, super-héros.
+6. "horreur_epouvante" : Slashers, épouvante, body horror, démons, possession, terreur surnaturelle, gore.
+7. "animation_famille" : Films et séries d'animation, aventures jeunesse, contes familiaux.
+
+RÈGLES STRICTES :
+- La somme des pourcentages de répartition doit être exactement égale à 100%.
+- "categorie_dominante" doit être STRICTEMENT l'une des 7 clés exactes listées ci-dessus.
+- Format JSON strict :
+{
+  "repartition": {
+    "drame_emotion": 0,
+    "comedie": 0,
+    "thriller_policier": 0,
+    "action_aventure": 0,
+    "scifi_fantastique": 0,
+    "horreur_epouvante": 0,
+    "animation_famille": 0
+  },
+  "categorie_dominante": "nom_exact",
+  "justification": "Courte explication concise en 1 phrase"
+}`;
+
+  const userPrompt = `Analyse et qualifie cette œuvre pour CinéScope :
+Titre : ${item.titre}
+Année : ${item.annee || item.annee_moyenne || 'Inconnue'}
+Type : ${item.type}
+Badge d'âge : ${item.badge || 'Tous publics'}
+Tags JustWatch : ${(item.raw_genres || []).join(', ')}
+Synopsis : ${item.synopsis || 'Non renseigné'}`;
+
+  try {
+    const res = await fetch(endpoint, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${token}`
+      },
+      body: JSON.stringify({
+        model: modelName,
+        messages: [
+          { role: 'system', content: systemPrompt },
+          { role: 'user', content: userPrompt }
+        ],
+        temperature: 0.1,
+        response_format: { type: 'json_object' }
+      })
+    });
+
+    if (!res.ok) {
+      console.warn(`⚠️ [AI Classifier] Échec appel (${res.status} ${res.statusText}) pour "${item.titre}"`);
+      return null;
+    }
+
+    const data = await res.json();
+    const content = data?.choices?.[0]?.message?.content;
+    if (!content) return null;
+
+    const parsed = JSON.parse(content);
+    if (parsed.categorie_dominante && VALID_CATEGORIES.includes(parsed.categorie_dominante)) {
+      return {
+        categorie: parsed.categorie_dominante,
+        repartition: parsed.repartition || {},
+        justification: parsed.justification || '',
+        source: modelName
+      };
+    }
+  } catch (err) {
+    console.warn(`⚠️ [AI Classifier] Exception pour "${item.titre}" :`, err.message);
+  }
+  return null;
+}
 
 // Bouquets SVOD payants de référence (quotidiens) et spécialisés (à la demande)
 const BASE_PAID_PACKAGES = ['aoc', 'aca', 'auc'];
@@ -226,6 +361,49 @@ async function run() {
 
     console.log('\n🔄 Fusion intelligente et élimination des doublons...');
     const merged = JustWatchEngine.mergeCatalog(existing, freshQualified);
+
+    // Phase de qualification sémantique IA & Application du registre persistant
+    console.log('\n🧠 [CinéScope AI] Vérification du registre persistant des catégories...');
+    const aiCache = loadAiCategories();
+    let aiHits = 0;
+    let aiClassified = 0;
+    const hasAiToken = Boolean(process.env.GH_MODELS_TOKEN || process.env.DEEPSEEK_API_KEY);
+
+    for (const it of merged) {
+      const slugKey = normalizeSlug(it.titre, it.annee);
+      const cacheHit = aiCache[it.id] || (slugKey && aiCache[slugKey]);
+
+      if (cacheHit && cacheHit.categories && cacheHit.categories[0]) {
+        it.categories = [cacheHit.categories[0]];
+        aiHits++;
+      } else if (hasAiToken) {
+        process.stdout.write(`  🤖 Analyse IA pour "${it.titre}" (${it.annee || 'N/A'})... `);
+        const result = await callAiClassifier(it);
+        if (result && result.categorie) {
+          it.categories = [result.categorie];
+          aiCache[it.id] = {
+            titre: it.titre,
+            annee: it.annee,
+            slug: slugKey,
+            categories: [result.categorie],
+            repartition: result.repartition,
+            justification: result.justification,
+            analyzed_at: new Date().toISOString(),
+            source: result.source
+          };
+          aiClassified++;
+          console.log(`OK -> [${result.categorie}] (${result.justification})`);
+          await new Promise(r => setTimeout(r, 600));
+        } else {
+          console.log(`Fallback algorithmique.`);
+        }
+      }
+    }
+
+    if (aiClassified > 0) {
+      saveAiCategories(aiCache);
+    }
+    console.log(`✨ Bilan Sémantique IA : ${aiHits} œuvres certifiées par le registre, ${aiClassified} nouvelles œuvres analysées.`);
 
     // Validation formelle Règle 1 : Strictement 1 catégorie par œuvre
     let categoryViolations = 0;

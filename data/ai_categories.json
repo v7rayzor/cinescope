@@ -1,0 +1,357 @@
+{
+  "jw-tm1325452": {
+    "titre": "Hounds of War",
+    "annee": 2024,
+    "slug": "hounds_of_war_2024",
+    "categories": [
+      "action_aventure"
+    ],
+    "repartition": {
+      "action_aventure": 55,
+      "thriller_policier": 30,
+      "drame_emotion": 15,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 0,
+      "comedie": 0,
+      "animation_famille": 0
+    },
+    "justification": "Missions de mercenaires, fusillades intenses, combats rapprochés et scènes d'assaut tactiques avec Frank Grillo",
+    "analyzed_at": "2026-10-18T10:48:00.000Z",
+    "source": "gpt-4o-mini"
+  },
+  "jw-tm324458": {
+    "titre": "Hunter Killer",
+    "annee": 2018,
+    "slug": "hunter_killer_2018",
+    "categories": [
+      "action_aventure"
+    ],
+    "repartition": {
+      "action_aventure": 65,
+      "thriller_policier": 25,
+      "drame_emotion": 10
+    },
+    "justification": "Assaut de commandos Navy SEALs, sous-marin de combat et sauvetage armé sous haute tension",
+    "analyzed_at": "2026-10-18T11:10:54.977Z",
+    "source": "expert_audit_gpt4o"
+  },
+  "jw-tm198002": {
+    "titre": "La Vengeance dans le Corps",
+    "annee": 2015,
+    "slug": "la_vengeance_dans_le_corps_2015",
+    "categories": [
+      "action_aventure"
+    ],
+    "repartition": {
+      "action_aventure": 70,
+      "thriller_policier": 20,
+      "drame_emotion": 10
+    },
+    "justification": "Action martiale pure de Jean-Claude Van Damme en vendetta explosive",
+    "analyzed_at": "2026-10-18T11:10:54.981Z",
+    "source": "expert_audit_gpt4o"
+  },
+  "jw-tm147787": {
+    "titre": "L'Étranger",
+    "annee": 2015,
+    "slug": "l_tranger_2015",
+    "categories": [
+      "action_aventure"
+    ],
+    "repartition": {
+      "action_aventure": 60,
+      "thriller_policier": 30,
+      "drame_emotion": 10
+    },
+    "justification": "Mercenaire d'élite en mission de traque et combats à l'arme lourde",
+    "analyzed_at": "2026-10-18T11:10:54.981Z",
+    "source": "expert_audit_gpt4o"
+  },
+  "jw-tm362942": {
+    "titre": "Braquage de sang",
+    "annee": 2017,
+    "slug": "braquage_de_sang_2017",
+    "categories": [
+      "action_aventure"
+    ],
+    "repartition": {
+      "action_aventure": 60,
+      "thriller_policier": 35,
+      "drame_emotion": 5
+    },
+    "justification": "Braquage armé ultra-violent et affrontements tactiques rythmés",
+    "analyzed_at": "2026-10-18T11:10:54.982Z",
+    "source": "expert_audit_gpt4o"
+  },
+  "jw-tm184072": {
+    "titre": "Détective Dee : La Légende du dragon des mers",
+    "annee": 2013,
+    "slug": "d_tective_dee_la_l_gende_du_dragon_des_mers_2013",
+    "categories": [
+      "action_aventure"
+    ],
+    "repartition": {
+      "action_aventure": 60,
+      "scifi_fantastique": 25,
+      "thriller_policier": 15
+    },
+    "justification": "Wuxia spectaculaire de Tsui Hark, combats martiaux grandioses et monstre marin",
+    "analyzed_at": "2026-10-18T11:10:54.982Z",
+    "source": "expert_audit_gpt4o"
+  },
+  "jw-tm1535648": {
+    "titre": "Baby Assassins: Nice Days",
+    "annee": 2024,
+    "slug": "baby_assassins_nice_days_2024",
+    "categories": [
+      "action_aventure"
+    ],
+    "repartition": {
+      "action_aventure": 65,
+      "comedie": 25,
+      "thriller_policier": 10
+    },
+    "justification": "Chorégraphies martiales intenses et duels de tueuses adolescentes au corps-à-corps",
+    "analyzed_at": "2026-10-18T11:10:54.983Z",
+    "source": "expert_audit_gpt4o"
+  },
+  "jw-tm166714": {
+    "titre": "Hansel & Gretel : Witch Hunters",
+    "annee": 2013,
+    "slug": "hansel_gretel_witch_hunters_2013",
+    "categories": [
+      "action_aventure"
+    ],
+    "repartition": {
+      "action_aventure": 65,
+      "scifi_fantastique": 25,
+      "horreur_epouvante": 10
+    },
+    "justification": "Action grand spectacle médiévale, arbalètes et traque guerrière de sorcières",
+    "analyzed_at": "2026-10-18T11:10:54.983Z",
+    "source": "expert_audit_gpt4o"
+  },
+  "jw-tm1506831": {
+    "titre": "Monster Summer",
+    "annee": 2024,
+    "slug": "monster_summer_2024",
+    "categories": [
+      "action_aventure"
+    ],
+    "repartition": {
+      "action_aventure": 55,
+      "animation_famille": 30,
+      "thriller_policier": 15
+    },
+    "justification": "Aventure jeunesse d'ados à vélo et détective privé (Mel Gibson) façon Goonies",
+    "analyzed_at": "2026-10-18T11:10:54.983Z",
+    "source": "expert_audit_gpt4o"
+  },
+  "jw-tm370408": {
+    "titre": "7 Guardians of the Tomb",
+    "annee": 2018,
+    "slug": "7_guardians_of_the_tomb_2018",
+    "categories": [
+      "action_aventure"
+    ],
+    "repartition": {
+      "action_aventure": 65,
+      "scifi_fantastique": 20,
+      "horreur_epouvante": 15
+    },
+    "justification": "Expédition archéologique périlleuse et aventure de survie dans un tombeau maudit",
+    "analyzed_at": "2026-10-18T11:10:54.983Z",
+    "source": "expert_audit_gpt4o"
+  },
+  "jw-tm1536796": {
+    "titre": "Marco",
+    "annee": 2024,
+    "slug": "marco_2024",
+    "categories": [
+      "action_aventure"
+    ],
+    "repartition": {
+      "action_aventure": 65,
+      "thriller_policier": 25,
+      "drame_emotion": 10
+    },
+    "justification": "Vendetta impitoyable et action physique violente au premier degré",
+    "analyzed_at": "2026-10-18T11:10:54.983Z",
+    "source": "expert_audit_gpt4o"
+  },
+  "jw-tm312967": {
+    "titre": "Game Night",
+    "annee": 2018,
+    "slug": "game_night_2018",
+    "categories": [
+      "comedie"
+    ],
+    "repartition": {
+      "comedie": 70,
+      "thriller_policier": 25,
+      "action_aventure": 5
+    },
+    "justification": "Comédie satirique culte de fausse murder party qui dérape avec Jason Bateman",
+    "analyzed_at": "2026-10-18T11:10:54.984Z",
+    "source": "expert_audit_gpt4o"
+  },
+  "jw-tm325101": {
+    "titre": "Rock'n Chili",
+    "annee": 2017,
+    "slug": "rock_n_chili_2017",
+    "categories": [
+      "comedie"
+    ],
+    "repartition": {
+      "comedie": 65,
+      "action_aventure": 25,
+      "thriller_policier": 10
+    },
+    "justification": "Comédie d'action parodique déjantée avec Antonio Banderas en rock star gaffeuse",
+    "analyzed_at": "2026-10-18T11:10:54.984Z",
+    "source": "expert_audit_gpt4o"
+  },
+  "jw-tm1516738": {
+    "titre": "Les Nettoyeurs",
+    "annee": 2024,
+    "slug": "les_nettoyeurs_2024",
+    "categories": [
+      "comedie"
+    ],
+    "repartition": {
+      "comedie": 60,
+      "thriller_policier": 30,
+      "action_aventure": 10
+    },
+    "justification": "Comédie noire burlesque d'une équipe de nettoyeurs confrontée à la pègre",
+    "analyzed_at": "2026-10-18T11:10:54.985Z",
+    "source": "expert_audit_gpt4o"
+  },
+  "jw-tm148237": {
+    "titre": "Battlestar Galactica : The Plan",
+    "annee": 2009,
+    "slug": "battlestar_galactica_the_plan_2009",
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "repartition": {
+      "scifi_fantastique": 70,
+      "drame_emotion": 20,
+      "action_aventure": 10
+    },
+    "justification": "Space opera pur, vaisseaux de guerre spatiaux et soulèvement des androïdes Cylons",
+    "analyzed_at": "2026-10-18T11:10:54.985Z",
+    "source": "expert_audit_gpt4o"
+  },
+  "jw-tm350171": {
+    "titre": "Curvature",
+    "annee": 2017,
+    "slug": "curvature_2017",
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "repartition": {
+      "scifi_fantastique": 65,
+      "thriller_policier": 25,
+      "drame_emotion": 10
+    },
+    "justification": "Science-fiction de voyage dans le temps et paradoxes d'ingénierie temporelle",
+    "analyzed_at": "2026-10-18T11:10:54.985Z",
+    "source": "expert_audit_gpt4o"
+  },
+  "jw-tm327126": {
+    "titre": "Radius",
+    "annee": 2017,
+    "slug": "radius_2017",
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "repartition": {
+      "scifi_fantastique": 65,
+      "thriller_policier": 25,
+      "drame_emotion": 10
+    },
+    "justification": "Anomalie d'anticipation et onde mystérieuse létale à 15 mètres",
+    "analyzed_at": "2026-10-18T11:10:54.985Z",
+    "source": "expert_audit_gpt4o"
+  },
+  "jw-tm1372859": {
+    "titre": "T.I.M.",
+    "annee": 2023,
+    "slug": "t_i_m__2023",
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "repartition": {
+      "scifi_fantastique": 60,
+      "thriller_policier": 30,
+      "horreur_epouvante": 10
+    },
+    "justification": "Anticipation technologique sur un androïde doté d'intelligence artificielle domestique",
+    "analyzed_at": "2026-10-18T11:10:54.985Z",
+    "source": "expert_audit_gpt4o"
+  },
+  "jw-tm1650093": {
+    "titre": "Osiris",
+    "annee": 2025,
+    "slug": "osiris_2025",
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "repartition": {
+      "scifi_fantastique": 65,
+      "action_aventure": 25,
+      "horreur_epouvante": 10
+    },
+    "justification": "Survie et science-fiction spatiale au cœur d'une mission interstellaire",
+    "analyzed_at": "2026-10-18T11:10:54.985Z",
+    "source": "expert_audit_gpt4o"
+  },
+  "jw-tm1255573": {
+    "titre": "Monolith",
+    "annee": 2023,
+    "slug": "monolith_2023",
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "repartition": {
+      "scifi_fantastique": 60,
+      "thriller_policier": 30,
+      "drame_emotion": 10
+    },
+    "justification": "Investigation de science-fiction sur un artefact noir extraterrestre inexpliqué",
+    "analyzed_at": "2026-10-18T11:10:54.985Z",
+    "source": "expert_audit_gpt4o"
+  },
+  "jw-tm1436222": {
+    "titre": "Things Will Be Different",
+    "annee": 2024,
+    "slug": "things_will_be_different_2024",
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "repartition": {
+      "scifi_fantastique": 65,
+      "thriller_policier": 25,
+      "horreur_epouvante": 10
+    },
+    "justification": "Maison isolée fonctionnant comme une faille temporelle d'anticipation",
+    "analyzed_at": "2026-10-18T11:10:54.986Z",
+    "source": "expert_audit_gpt4o"
+  },
+  "jw-tm222133": {
+    "titre": "The Big Short : Le Casse du Siècle",
+    "annee": 2015,
+    "slug": "the_big_short_le_casse_du_si_cle_2015",
+    "categories": [
+      "comedie"
+    ],
+    "repartition": {
+      "comedie": 55,
+      "drame_emotion": 45
+    },
+    "justification": "Comédie satirique mordante et décalée d'Adam McKay sur la crise financière",
+    "analyzed_at": "2026-10-18T11:10:54.984Z",
+    "source": "expert_audit_gpt4o"
+  }
+}
