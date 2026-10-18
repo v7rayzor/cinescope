@@ -84,7 +84,7 @@ function normalizeSlug(title, year) {
 }
 
 async function callAiClassifier(item) {
-  const token = process.env.GH_MODELS_TOKEN || process.env.DEEPSEEK_API_KEY;
+  const token = process.env.DEEPSEEK_API_KEY || process.env.GH_MODELS_TOKEN;
   if (!token) return null;
 
   const isDeepSeek = token.startsWith('sk-') && !token.startsWith('ghp_');
