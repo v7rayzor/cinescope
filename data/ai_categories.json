@@ -1464,20 +1464,20 @@
     "annee": 2013,
     "slug": "jw-tm182062",
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "repartition": {
-      "drame_emotion": 30,
+      "drame_emotion": 15,
       "comedie": 0,
-      "thriller_policier": 70,
+      "thriller_policier": 0,
       "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Tension dramatique, machination criminelle, suspense et polar psychologique.",
-    "analyzed_at": "2026-10-18T11:36:45.465Z",
-    "source": "gpt-4o-mini"
+    "justification": "Drame romantique poignant avec Kate Winslet et Josh Brolin.",
+    "analyzed_at": "2026-10-18T12:05:09.040Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm162516": {
     "titre": "My Week with Marilyn",
@@ -3504,20 +3504,20 @@
     "annee": 2018,
     "slug": "jw-tm371923",
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "repartition": {
-      "drame_emotion": 30,
+      "drame_emotion": 15,
       "comedie": 0,
-      "thriller_policier": 70,
+      "thriller_policier": 0,
       "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Tension dramatique, machination criminelle, suspense et polar psychologique.",
-    "analyzed_at": "2026-10-18T11:36:45.465Z",
-    "source": "gpt-4o-mini"
+    "justification": "Drame crépusculaire et émouvant de Clint Eastwood sur un vieil homme dépassé tentant de renouer avec sa famille.",
+    "analyzed_at": "2026-10-18T12:05:09.041Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm239927": {
     "titre": "Official Secrets",
@@ -3764,20 +3764,20 @@
     "annee": 2013,
     "slug": "jw-tm184546",
     "categories": [
-      "thriller_policier"
+      "comedie"
     ],
     "repartition": {
-      "drame_emotion": 0,
-      "comedie": 0,
-      "thriller_policier": 100,
+      "drame_emotion": 15,
+      "comedie": 85,
+      "thriller_policier": 0,
       "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Tension dramatique, machination criminelle, suspense et polar psychologique.",
-    "analyzed_at": "2026-10-18T11:36:45.465Z",
-    "source": "gpt-4o-mini"
+    "justification": "Comédie de braquage et d'illusionnisme spectaculaire et légère.",
+    "analyzed_at": "2026-10-18T12:05:09.041Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm298080": {
     "titre": "Rampage : Hors de contrôle",
@@ -3964,20 +3964,20 @@
     "annee": 2007,
     "slug": "jw-tm82525",
     "categories": [
-      "thriller_policier"
+      "comedie"
     ],
     "repartition": {
-      "drame_emotion": 0,
-      "comedie": 0,
-      "thriller_policier": 100,
+      "drame_emotion": 15,
+      "comedie": 85,
+      "thriller_policier": 0,
       "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Tension dramatique, machination criminelle, suspense et polar psychologique.",
-    "analyzed_at": "2026-10-18T11:36:45.465Z",
-    "source": "gpt-4o-mini"
+    "justification": "Comédie de braquage étincelante et complice à Las Vegas.",
+    "analyzed_at": "2026-10-18T12:05:09.041Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm464555": {
     "titre": "Ibiza",
@@ -4004,20 +4004,20 @@
     "annee": 2001,
     "slug": "jw-tm38774",
     "categories": [
-      "thriller_policier"
+      "comedie"
     ],
     "repartition": {
-      "drame_emotion": 0,
-      "comedie": 0,
-      "thriller_policier": 100,
+      "drame_emotion": 15,
+      "comedie": 85,
+      "thriller_policier": 0,
       "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Tension dramatique, machination criminelle, suspense et polar psychologique.",
-    "analyzed_at": "2026-10-18T11:36:45.465Z",
-    "source": "gpt-4o-mini"
+    "justification": "Comédie de casse culte, solaire et élégante de Steven Soderbergh avec George Clooney et Brad Pitt.",
+    "analyzed_at": "2026-10-18T12:05:09.041Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm351325": {
     "titre": "Dans la brume",
@@ -4844,20 +4844,20 @@
     "annee": 2016,
     "slug": "jw-tm241259",
     "categories": [
-      "action_aventure"
+      "animation_famille"
     ],
     "repartition": {
-      "drame_emotion": 20,
+      "drame_emotion": 15,
       "comedie": 0,
       "thriller_policier": 0,
-      "action_aventure": 70,
+      "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
-      "animation_famille": 10
+      "animation_famille": 85
     },
-    "justification": "Action cinétique, affrontements physiques, combats ou survie d'aventure.",
-    "analyzed_at": "2026-10-18T11:36:45.465Z",
-    "source": "gpt-4o-mini"
+    "justification": "Aventure jeunesse d'enfants en vacances naviguant sur un lac anglais.",
+    "analyzed_at": "2026-10-18T12:05:09.041Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm229933": {
     "titre": "Robinson Crusoé",
@@ -5404,20 +5404,20 @@
     "annee": 2024,
     "slug": "jw-ts251399",
     "categories": [
-      "action_aventure"
+      "thriller_policier"
     ],
     "repartition": {
-      "drame_emotion": 20,
+      "drame_emotion": 15,
       "comedie": 0,
-      "thriller_policier": 10,
-      "action_aventure": 70,
+      "thriller_policier": 85,
+      "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Action cinétique, affrontements physiques, combats ou survie d'aventure.",
-    "analyzed_at": "2026-10-18T11:36:45.466Z",
-    "source": "gpt-4o-mini"
+    "justification": "Série policière procédurale pure menée par Elliot Stabler au cœur du grand banditisme.",
+    "analyzed_at": "2026-10-18T12:05:09.041Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-ts286379": {
     "titre": "Grace",
@@ -5704,20 +5704,20 @@
     "annee": 2023,
     "slug": "jw-ts341651",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
-      "drame_emotion": 15,
+      "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 10,
-      "action_aventure": 5,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 0,
+      "thriller_policier": 15,
+      "action_aventure": 0,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Arbitrage sémantique validé : tonalité et enjeux dominants scifi fantastique.",
-    "analyzed_at": "2026-10-18T11:36:45.466Z",
-    "source": "gpt-4o-mini"
+    "justification": "Série d'horreur post-apocalyptique et de terreur zombiesque au cœur d'un Manhattan en ruines.",
+    "analyzed_at": "2026-10-18T12:05:09.041Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-ts362915": {
     "titre": "Archie",
@@ -5844,20 +5844,20 @@
     "annee": 2025,
     "slug": "jw-ts3630",
     "categories": [
-      "action_aventure"
+      "drame_emotion"
     ],
     "repartition": {
-      "drame_emotion": 30,
+      "drame_emotion": 15,
       "comedie": 0,
       "thriller_policier": 0,
-      "action_aventure": 70,
+      "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Action cinétique, affrontements physiques, combats ou survie d'aventure.",
-    "analyzed_at": "2026-10-18T11:36:45.466Z",
-    "source": "gpt-4o-mini"
+    "justification": "Série dramatique humaine et héroïque suivant le quotidien des pompiers et secouristes de Chicago.",
+    "analyzed_at": "2026-10-18T12:05:09.041Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-ts8345": {
     "titre": "Fargo",
@@ -7864,20 +7864,20 @@
     "annee": 2022,
     "slug": "jw-tm1191847",
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "repartition": {
-      "drame_emotion": 30,
+      "drame_emotion": 15,
       "comedie": 0,
-      "thriller_policier": 70,
+      "thriller_policier": 0,
       "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Tension dramatique, machination criminelle, suspense et polar psychologique.",
-    "analyzed_at": "2026-10-18T11:36:45.466Z",
-    "source": "gpt-4o-mini"
+    "justification": "Biopic historique bouleversant sur le combat d'une mère pour la mémoire de son fils assassiné.",
+    "analyzed_at": "2026-10-18T12:05:09.041Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm312632": {
     "titre": "Ce qui nous lie",
@@ -8204,20 +8204,20 @@
     "annee": 2018,
     "slug": "jw-tm244229",
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "repartition": {
-      "drame_emotion": 30,
+      "drame_emotion": 15,
       "comedie": 0,
-      "thriller_policier": 70,
+      "thriller_policier": 0,
       "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Tension dramatique, machination criminelle, suspense et polar psychologique.",
-    "analyzed_at": "2026-10-18T11:36:45.466Z",
-    "source": "gpt-4o-mini"
+    "justification": "Drame familial psychologique intense d'Asghar Farhadi avec Penélope Cruz et Javier Bardem.",
+    "analyzed_at": "2026-10-18T12:05:09.041Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm1651114": {
     "titre": "Pour elle",
@@ -8844,20 +8844,20 @@
     "annee": 2016,
     "slug": "jw-tm233312",
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "repartition": {
-      "drame_emotion": 30,
+      "drame_emotion": 15,
       "comedie": 0,
-      "thriller_policier": 70,
+      "thriller_policier": 0,
       "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Tension dramatique, machination criminelle, suspense et polar psychologique.",
-    "analyzed_at": "2026-10-18T11:36:45.466Z",
-    "source": "gpt-4o-mini"
+    "justification": "Drame moral et social roumain poignant de Cristian Mungiu (Prix de la mise en scène à Cannes).",
+    "analyzed_at": "2026-10-18T12:05:09.041Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm1522048": {
     "titre": "Else",
@@ -10704,40 +10704,40 @@
     "annee": 2021,
     "slug": "jw-tm1011252",
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "repartition": {
-      "drame_emotion": 30,
+      "drame_emotion": 15,
       "comedie": 0,
-      "thriller_policier": 70,
+      "thriller_policier": 0,
       "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Tension dramatique, machination criminelle, suspense et polar psychologique.",
-    "analyzed_at": "2026-10-18T11:36:45.466Z",
-    "source": "gpt-4o-mini"
+    "justification": "Drame biographique psychologique tragique de Justin Kurzel sur la solitude et la dérive.",
+    "analyzed_at": "2026-10-18T12:05:09.041Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm1291419": {
     "titre": "Piper, le joueur de flûte",
     "annee": 2023,
     "slug": "jw-tm1291419",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
       "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 0,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 30,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.466Z",
-    "source": "gpt-4o-mini"
+    "justification": "Mythe sombre revisité en film d'épouvante sanglant et maléfique.",
+    "analyzed_at": "2026-10-18T12:05:09.041Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm1261809": {
     "titre": "Egoist",
@@ -12724,20 +12724,20 @@
     "annee": 2021,
     "slug": "jw-tm1133844",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
       "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 0,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 30,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.467Z",
-    "source": "gpt-4o-mini"
+    "justification": "Invasion de zombies et body horror gore dégoulinant.",
+    "analyzed_at": "2026-10-18T12:05:09.041Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm1080220": {
     "titre": "Comme par miracle",
@@ -13504,20 +13504,20 @@
     "annee": 2023,
     "slug": "jw-ts394175",
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "repartition": {
-      "drame_emotion": 0,
+      "drame_emotion": 15,
       "comedie": 0,
-      "thriller_policier": 100,
+      "thriller_policier": 0,
       "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Tension dramatique, machination criminelle, suspense et polar psychologique.",
-    "analyzed_at": "2026-10-18T11:36:45.467Z",
-    "source": "gpt-4o-mini"
+    "justification": "Drame intime et relationnel sur la jeunesse et les fractures d'identité.",
+    "analyzed_at": "2026-10-18T12:05:09.041Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm460629": {
     "titre": "Pulsions Dangereuses",
@@ -14644,20 +14644,20 @@
     "annee": 2023,
     "slug": "jw-tm1300496",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
-      "drame_emotion": 20,
+      "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 0,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 10,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.467Z",
-    "source": "gpt-4o-mini"
+    "justification": "Épouvante rurale et créature cauchemardesque dans une ferme isolée.",
+    "analyzed_at": "2026-10-18T12:05:09.041Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm1340748": {
     "titre": "Dans les tournesols",
@@ -15724,20 +15724,20 @@
     "annee": 2016,
     "slug": "jw-tm1881",
     "categories": [
-      "scifi_fantastique"
+      "action_aventure"
     ],
     "repartition": {
-      "drame_emotion": 0,
+      "drame_emotion": 15,
       "comedie": 0,
       "thriller_policier": 0,
-      "action_aventure": 30,
-      "scifi_fantastique": 70,
+      "action_aventure": 85,
+      "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Blockbuster d'action super-héroïque grand spectacle et affrontements titanesques de Zack Snyder.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm973372": {
     "titre": "Nope",
@@ -15924,20 +15924,20 @@
     "annee": 2017,
     "slug": "jw-tm123152",
     "categories": [
-      "scifi_fantastique"
+      "action_aventure"
     ],
     "repartition": {
-      "drame_emotion": 0,
+      "drame_emotion": 15,
       "comedie": 0,
       "thriller_policier": 0,
-      "action_aventure": 30,
-      "scifi_fantastique": 70,
+      "action_aventure": 85,
+      "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Arbitrage sémantique validé : tonalité et enjeux dominants scifi fantastique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Action de super-héros grand spectacle, combats d'arts martiaux et robots de combat géants.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm428148": {
     "titre": "Five Nights at Freddy's",
@@ -16264,20 +16264,20 @@
     "annee": 2007,
     "slug": "jw-tm70179",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
       "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 20,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 10,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Adaptation de Stephen King, pur film d'épouvante en huis clos dans une chambre d'hôtel hantée.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm439291": {
     "titre": "Midsommar",
@@ -16304,20 +16304,20 @@
     "annee": 2022,
     "slug": "jw-tm939539",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
       "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 20,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 10,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Arbitrage sémantique validé : tonalité et enjeux dominants scifi fantastique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Slasher Blumhouse et film de poupée tueuse dans la lignée de Chucky, tension horrifique et meurtres sanglants.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm134211": {
     "titre": "Lost in Translation",
@@ -16344,20 +16344,20 @@
     "annee": 2023,
     "slug": "jw-tm1076773",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
       "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 20,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 10,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Carnage horrifique et traque sanguinaire de Dracula décimant l'équipage d'un navire de commerce.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm1660393": {
     "titre": "La Petite cuisine de Mehdi",
@@ -17084,20 +17084,20 @@
     "annee": 2018,
     "slug": "jw-tm299687",
     "categories": [
-      "scifi_fantastique"
+      "animation_famille"
     ],
     "repartition": {
-      "drame_emotion": 0,
+      "drame_emotion": 15,
       "comedie": 0,
       "thriller_policier": 0,
-      "action_aventure": 20,
-      "scifi_fantastique": 70,
+      "action_aventure": 0,
+      "scifi_fantastique": 0,
       "horreur_epouvante": 0,
-      "animation_famille": 10
+      "animation_famille": 85
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Grand conte féerique et familial adapté de Michael Ende (L'Histoire sans fin).",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm1637104": {
     "titre": "L'odyssée de Céleste",
@@ -17484,20 +17484,20 @@
     "annee": 2020,
     "slug": "jw-tm854100",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
-      "drame_emotion": 15,
+      "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 10,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 5,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Slasher d'angoisse où une femme est traquée chaque nuit par une figure masquée.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm168111": {
     "titre": "Dallas Buyers Club",
@@ -17684,20 +17684,20 @@
     "annee": 2017,
     "slug": "jw-tm322680",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
-      "drame_emotion": 15,
+      "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 10,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 5,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Épouvante et malédiction de sorcières sanguinaires par Jaume Balagueró.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm408362": {
     "titre": "Burning",
@@ -18084,20 +18084,20 @@
     "annee": 2019,
     "slug": "jw-ts88216",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
       "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 20,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 10,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Anthologie culte d'épouvante et d'horreur macabre dans la pure tradition de George Romero et Stephen King.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm232579": {
     "titre": "À la Poursuite de Ricky Baker",
@@ -18224,20 +18224,20 @@
     "annee": 2009,
     "slug": "jw-tm136806",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
-      "drame_emotion": 15,
+      "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 10,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 5,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Film d'horreur vampirique viscéral et sanglant de Park Chan-wook.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm174707": {
     "titre": "The Artist",
@@ -18444,20 +18444,20 @@
     "annee": 2018,
     "slug": "jw-tm372729",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
       "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 0,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 30,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Arbitrage sémantique validé : tonalité et enjeux dominants scifi fantastique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Horreur claustrophobique et body horror paranoïaque en huis clos familial.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm1084340": {
     "titre": "Mad God",
@@ -18484,20 +18484,20 @@
     "annee": 2023,
     "slug": "jw-tm124345",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
       "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 20,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 10,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Arbitrage sémantique validé : tonalité et enjeux dominants scifi fantastique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Terreur satanique, conspiration occulte et réincarnation démoniaque.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm853055": {
     "titre": "Énorme",
@@ -18824,20 +18824,20 @@
     "annee": 2021,
     "slug": "jw-tm984871",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
-      "drame_emotion": 15,
+      "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 10,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 5,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Épouvante psychologique dérangeante sur des enfants découvrant des pouvoirs maléfiques et sadiques.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm155335": {
     "titre": "Hippocrate",
@@ -19064,20 +19064,20 @@
     "annee": 2022,
     "slug": "jw-tm1110157",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
       "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 20,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 10,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Horreur psychologique et malédiction chamanique angoissante avec Eva Green.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm148750": {
     "titre": "Twin Peaks : Les Pièces manquantes du dossier",
@@ -19204,20 +19204,20 @@
     "annee": 2016,
     "slug": "jw-tm242838",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
-      "drame_emotion": 15,
+      "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 10,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 5,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Créature tentaculaire et horreur érotico-monstrueuse dérangeante d'Amat Escalante.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm1199013": {
     "titre": "Pacifiction - Tourment sur les îles",
@@ -19504,20 +19504,20 @@
     "annee": 2025,
     "slug": "jw-tm1533420",
     "categories": [
-      "thriller_policier"
+      "horreur_epouvante"
     ],
     "repartition": {
       "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 100,
+      "thriller_policier": 15,
       "action_aventure": 0,
       "scifi_fantastique": 0,
-      "horreur_epouvante": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Tension dramatique, machination criminelle, suspense et polar psychologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Body horror angoissant sur une jambe qui se nécrose mystérieusement.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm40319": {
     "titre": "Savages",
@@ -19784,20 +19784,20 @@
     "annee": 2017,
     "slug": "jw-tm317008",
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "repartition": {
-      "drame_emotion": 30,
+      "drame_emotion": 15,
       "comedie": 0,
-      "thriller_policier": 70,
+      "thriller_policier": 0,
       "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Tension dramatique, machination criminelle, suspense et polar psychologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Drame poignant de Fatih Akin sur le deuil et le combat d'une femme brisée (Diane Kruger primée à Cannes).",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm1087994": {
     "titre": "Relic",
@@ -19904,20 +19904,20 @@
     "annee": 2017,
     "slug": "jw-tm252972",
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "repartition": {
-      "drame_emotion": 30,
+      "drame_emotion": 15,
       "comedie": 0,
-      "thriller_policier": 70,
+      "thriller_policier": 0,
       "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Tension dramatique, machination criminelle, suspense et polar psychologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Drame historique coup de poing de Kathryn Bigelow sur les émeutes raciales de 1967.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm246351": {
     "titre": "Le Jeune Karl Marx",
@@ -19964,20 +19964,20 @@
     "annee": 2018,
     "slug": "jw-tm355789",
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "repartition": {
-      "drame_emotion": 30,
+      "drame_emotion": 15,
       "comedie": 0,
-      "thriller_policier": 70,
+      "thriller_policier": 0,
       "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Tension dramatique, machination criminelle, suspense et polar psychologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Drame néoréaliste italien poignant de Matteo Garrone sur un toiletteur pour chiens écrasé par la violence.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm1415272": {
     "titre": "Le Mangeur d'âmes",
@@ -20404,20 +20404,20 @@
     "annee": 2019,
     "slug": "jw-tm431948",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
-      "drame_emotion": 15,
+      "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 10,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 5,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Horreur cosmique et apocalypse de monstres mystérieux.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm50052": {
     "titre": "Lore",
@@ -20584,20 +20584,20 @@
     "annee": 2023,
     "slug": "jw-tm1009151",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
       "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 20,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 10,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Survival d'angoisse et traque par une créature monstrueuse dans la jungle.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm1334537": {
     "titre": "You'll Never Find Me",
@@ -20904,20 +20904,20 @@
     "annee": 2021,
     "slug": "jw-tm1064197",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
-      "drame_emotion": 20,
+      "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 0,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 10,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Conte d'épouvante folklorique islandais dérangeant et anxiogène.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm159220": {
     "titre": "Under the Skin",
@@ -21744,20 +21744,20 @@
     "annee": 2025,
     "slug": "jw-tm1533661",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
       "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 0,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 30,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Horreur déjantée, enlèvement cauchemardesque et torture.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm349755": {
     "titre": "Parvana, une enfance en Afghanistan",
@@ -21824,20 +21824,20 @@
     "annee": 2024,
     "slug": "jw-tm1424449",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
-      "drame_emotion": 20,
+      "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 0,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 10,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Épouvante médiévale sombre sur le fanatisme religieux et la terreur occulte.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-ts83360": {
     "titre": "The Guest",
@@ -22024,20 +22024,20 @@
     "annee": 2022,
     "slug": "jw-tm1196261",
     "categories": [
-      "action_aventure"
+      "drame_emotion"
     ],
     "repartition": {
-      "drame_emotion": 30,
+      "drame_emotion": 15,
       "comedie": 0,
       "thriller_policier": 0,
-      "action_aventure": 70,
+      "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Action cinétique, affrontements physiques, combats ou survie d'aventure.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Conte poétique et drame humaniste bouleversant de Jerzy Skolimowski vu à travers les yeux d'un âne (Prix du Jury à Cannes).",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm1284622": {
     "titre": "Kim's Video",
@@ -22084,20 +22084,20 @@
     "annee": 2015,
     "slug": "jw-tm211656",
     "categories": [
-      "scifi_fantastique"
+      "animation_famille"
     ],
     "repartition": {
-      "drame_emotion": 0,
+      "drame_emotion": 15,
       "comedie": 0,
-      "thriller_policier": 15,
-      "action_aventure": 10,
-      "scifi_fantastique": 70,
+      "thriller_policier": 0,
+      "action_aventure": 0,
+      "scifi_fantastique": 0,
       "horreur_epouvante": 0,
-      "animation_famille": 5
+      "animation_famille": 85
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Aventure jeunesse d'enfants façon Club des Cinq pour toute la famille.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm1165875": {
     "titre": "Soft & Quiet",
@@ -22144,20 +22144,20 @@
     "annee": 2022,
     "slug": "jw-tm1109769",
     "categories": [
-      "thriller_policier"
+      "comedie"
     ],
     "repartition": {
-      "drame_emotion": 0,
-      "comedie": 0,
-      "thriller_policier": 100,
+      "drame_emotion": 15,
+      "comedie": 85,
+      "thriller_policier": 0,
       "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Tension dramatique, machination criminelle, suspense et polar psychologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Comédie documentaire belge burlesque par les créateurs de Strip-Tease et Ni Juge Ni Soumise.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm830329": {
     "titre": "Marche avec les loups",
@@ -22484,20 +22484,20 @@
     "annee": 2008,
     "slug": "jw-tm79522",
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "repartition": {
-      "drame_emotion": 30,
+      "drame_emotion": 15,
       "comedie": 0,
-      "thriller_policier": 70,
+      "thriller_policier": 0,
       "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Tension dramatique, machination criminelle, suspense et polar psychologique.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Drame bouleversant sur la rédemption impossible d'un jeune homme incarné par Andrew Garfield.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm1304465": {
     "titre": "Super bourrés",
@@ -22564,20 +22564,20 @@
     "annee": 2019,
     "slug": "jw-tm449028",
     "categories": [
-      "thriller_policier"
+      "horreur_epouvante"
     ],
     "repartition": {
-      "drame_emotion": 15,
-      "comedie": 5,
-      "thriller_policier": 70,
+      "drame_emotion": 0,
+      "comedie": 0,
+      "thriller_policier": 15,
       "action_aventure": 0,
       "scifi_fantastique": 0,
-      "horreur_epouvante": 10,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Arbitrage sémantique validé : tonalité et enjeux dominants thriller policier.",
-    "analyzed_at": "2026-10-18T11:36:45.468Z",
-    "source": "gpt-4o-mini"
+    "justification": "Horreur sordide, glauque et ultra-réaliste sur le tueur en série Fritz Honka à Hambourg.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm141553": {
     "titre": "Good Kill",
@@ -24324,20 +24324,20 @@
     "annee": 2023,
     "slug": "jw-tm1385069",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
-      "drame_emotion": 20,
+      "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 0,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 10,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.469Z",
-    "source": "gpt-4o-mini"
+    "justification": "Cauchemar horrifique rural et déchéance macabre en Andalousie.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm356663": {
     "titre": "Diane a les épaules",
@@ -24704,20 +24704,20 @@
     "annee": 2023,
     "slug": "jw-tm1280008",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
       "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 20,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 10,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.469Z",
-    "source": "gpt-4o-mini"
+    "justification": "Horreur surnaturelle où une présence démoniaque massacre des adolescents en live stream.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm505042": {
     "titre": "Mon frère chasse les dinosaures",
@@ -25244,20 +25244,20 @@
     "annee": 2024,
     "slug": "jw-tm1398088",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
       "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 0,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 30,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.469Z",
-    "source": "gpt-4o-mini"
+    "justification": "Found footage d'épouvante sur la traque d'un monstre amphibie tueur.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm446577": {
     "titre": "Shooting the Mafia",
@@ -25424,20 +25424,20 @@
     "annee": 2011,
     "slug": "jw-tm164032",
     "categories": [
-      "action_aventure"
+      "drame_emotion"
     ],
     "repartition": {
-      "drame_emotion": 30,
+      "drame_emotion": 15,
       "comedie": 0,
       "thriller_policier": 0,
-      "action_aventure": 70,
+      "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Action cinétique, affrontements physiques, combats ou survie d'aventure.",
-    "analyzed_at": "2026-10-18T11:36:45.469Z",
-    "source": "gpt-4o-mini"
+    "justification": "Drame initiatique doux-amer et poétique de Bouli Lanners sur trois adolescents livrés à eux-mêmes.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm826336": {
     "titre": "Jallikattu",
@@ -25784,20 +25784,20 @@
     "annee": 2022,
     "slug": "jw-tm1191877",
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "repartition": {
-      "drame_emotion": 30,
+      "drame_emotion": 15,
       "comedie": 0,
-      "thriller_policier": 70,
+      "thriller_policier": 0,
       "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Tension dramatique, machination criminelle, suspense et polar psychologique.",
-    "analyzed_at": "2026-10-18T11:36:45.469Z",
-    "source": "gpt-4o-mini"
+    "justification": "Drame social humaniste déchirant des frères Dardenne sur deux jeunes exilés (Prix du 75e Festival de Cannes).",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm313979": {
     "titre": "Tracking satyrs",
@@ -26004,20 +26004,20 @@
     "annee": 2014,
     "slug": "jw-tm155912",
     "categories": [
-      "thriller_policier"
+      "drame_emotion"
     ],
     "repartition": {
-      "drame_emotion": 30,
+      "drame_emotion": 15,
       "comedie": 0,
-      "thriller_policier": 70,
+      "thriller_policier": 0,
       "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
       "animation_famille": 0
     },
-    "justification": "Tension dramatique, machination criminelle, suspense et polar psychologique.",
-    "analyzed_at": "2026-10-18T11:36:45.469Z",
-    "source": "gpt-4o-mini"
+    "justification": "Drame historique tragique d'Alexandre Arcady sur le calvaire d'Ilan Halimi.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm244103": {
     "titre": "Hotel Salvation",
@@ -26044,20 +26044,20 @@
     "annee": 2015,
     "slug": "jw-tm226375",
     "categories": [
-      "scifi_fantastique"
+      "animation_famille"
     ],
     "repartition": {
-      "drame_emotion": 0,
+      "drame_emotion": 15,
       "comedie": 0,
       "thriller_policier": 0,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
+      "scifi_fantastique": 0,
       "horreur_epouvante": 0,
-      "animation_famille": 30
+      "animation_famille": 85
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.469Z",
-    "source": "gpt-4o-mini"
+    "justification": "Aventure fantastique et conte familial pour enfants sur une jeune orpheline découvrant ses dons.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm218046": {
     "titre": "Marguerite",
@@ -26164,40 +26164,40 @@
     "annee": 2018,
     "slug": "jw-tm431908",
     "categories": [
-      "action_aventure"
+      "animation_famille"
     ],
     "repartition": {
-      "drame_emotion": 0,
+      "drame_emotion": 15,
       "comedie": 0,
       "thriller_policier": 0,
-      "action_aventure": 70,
+      "action_aventure": 0,
       "scifi_fantastique": 0,
       "horreur_epouvante": 0,
-      "animation_famille": 30
+      "animation_famille": 85
     },
-    "justification": "Action cinétique, affrontements physiques, combats ou survie d'aventure.",
-    "analyzed_at": "2026-10-18T11:36:45.469Z",
-    "source": "gpt-4o-mini"
+    "justification": "Film d'aventure familiale d'époque viking pour enfants.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm463018": {
     "titre": "Depraved",
     "annee": 2019,
     "slug": "jw-tm463018",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
-      "drame_emotion": 15,
+      "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 10,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 5,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.469Z",
-    "source": "gpt-4o-mini"
+    "justification": "Horreur médicale et réinterprétation viscérale de Frankenstein par Larry Fessenden.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm373888": {
     "titre": "La Permission",
@@ -26384,20 +26384,20 @@
     "annee": 2019,
     "slug": "jw-tm424065",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
       "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 20,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 10,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.469Z",
-    "source": "gpt-4o-mini"
+    "justification": "Épouvante indonésienne et esprits vengeurs dans un immeuble hanté.",
+    "analyzed_at": "2026-10-18T12:05:09.042Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm361588": {
     "titre": "Mission Yéti",
@@ -26564,20 +26564,20 @@
     "annee": 2023,
     "slug": "jw-tm1361935",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
       "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 20,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 10,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.469Z",
-    "source": "gpt-4o-mini"
+    "justification": "Horreur psychologique japonaise traumatique et oppressante.",
+    "analyzed_at": "2026-10-18T12:05:09.043Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm233160": {
     "titre": "Lettres de la guerre",
@@ -26604,20 +26604,20 @@
     "annee": 2021,
     "slug": "jw-tm1021755",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
       "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 20,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 10,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.469Z",
-    "source": "gpt-4o-mini"
+    "justification": "Mockumentaire d'angoisse surnaturelle et disparitions inexpliquées.",
+    "analyzed_at": "2026-10-18T12:05:09.043Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm1435683": {
     "titre": "La Récréation de Juillet",
@@ -26984,20 +26984,20 @@
     "annee": 2022,
     "slug": "jw-tm1188875",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
       "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 20,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 10,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.469Z",
-    "source": "gpt-4o-mini"
+    "justification": "Anthologie d'épouvante et de terreur explorant les légendes urbaines macabres.",
+    "analyzed_at": "2026-10-18T12:05:09.043Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm183362": {
     "titre": "Kotoko",
@@ -27884,20 +27884,20 @@
     "annee": 2023,
     "slug": "jw-tm1229281",
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "repartition": {
-      "drame_emotion": 20,
+      "drame_emotion": 0,
       "comedie": 0,
-      "thriller_policier": 0,
+      "thriller_policier": 15,
       "action_aventure": 0,
-      "scifi_fantastique": 70,
-      "horreur_epouvante": 10,
+      "scifi_fantastique": 0,
+      "horreur_epouvante": 85,
       "animation_famille": 0
     },
-    "justification": "Univers de science-fiction, mondes futuristes, fantastique ou anticipation technologique.",
-    "analyzed_at": "2026-10-18T11:36:45.469Z",
-    "source": "gpt-4o-mini"
+    "justification": "Body horror malsain et relation mère-fils toxique et viscérale.",
+    "analyzed_at": "2026-10-18T12:05:09.043Z",
+    "source": "pure-semantic-intelligence"
   },
   "jw-tm246865": {
     "titre": "Le potager de mon grand-père",

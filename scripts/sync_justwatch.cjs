@@ -7,6 +7,23 @@
 const fs = require('fs');
 const path = require('path');
 
+// Charger automatiquement .env si présent
+const envPath = path.join(__dirname, '..', '.env');
+if (fs.existsSync(envPath)) {
+  const envContent = fs.readFileSync(envPath, 'utf-8');
+  for (const line of envContent.split(/\r?\n/)) {
+    const trimmed = line.trim();
+    if (trimmed && !trimmed.startsWith('#')) {
+      const idx = trimmed.indexOf('=');
+      if (idx !== -1) {
+        const k = trimmed.slice(0, idx).trim();
+        const v = trimmed.slice(idx + 1).trim();
+        if (!process.env[k]) process.env[k] = v;
+      }
+    }
+  }
+}
+
 function loadJustWatchEngine() {
   const code = fs.readFileSync(path.join(__dirname, '..', 'js', 'justwatch_engine.js'), 'utf8');
   const context = { console, localStorage: {}, window: {} };
@@ -104,12 +121,11 @@ RÈGLES STRICTES :
   "justification": "Courte explication concise en 1 phrase"
 }`;
 
-  const userPrompt = `Analyse et qualifie cette œuvre pour CinéScope :
+  const userPrompt = `Analyse et qualifie cette œuvre pour CinéScope (base ton analyse exclusivement sur l'histoire réelle et le synopsis, sans aucune étiquette externe) :
 Titre : ${item.titre}
 Année : ${item.annee || item.annee_moyenne || 'Inconnue'}
 Type : ${item.type}
 Badge d'âge : ${item.badge || 'Tous publics'}
-Tags JustWatch : ${(item.raw_genres || []).join(', ')}
 Synopsis : ${item.synopsis || 'Non renseigné'}`;
 
   try {

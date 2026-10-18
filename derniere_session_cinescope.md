@@ -46,13 +46,13 @@ Ce document constitue la référence vivante et synthétique de l'architecture, 
 
 ### A. Règle Fondamentale : 1 Titre = 1 Catégorie Dominante Unique
 Chaque film ou série est qualifié dans **strictement une seule** des 7 catégories officielles :
-1. `drame_emotion` : Drames profonds, romances d'auteur, biopics, drames historiques/sociaux (430 œuvres).
-2. `comedie` : Comédies pures, comédies romantiques, comédies policières, parodies et satires (347 œuvres).
-3. `horreur_epouvante` : Slashers, épouvante, body horror, démons/possession, monstres, gore (160 œuvres).
-4. `thriller_policier` : Polars, enquêtes policières, espionnage, machinations, thrillers criminels (153 œuvres).
-5. `scifi_fantastique` : Science-fiction, space opera, anticipation, cyborgs, mondes magiques (132 œuvres).
-6. `animation_famille` : Films et séries d'animation, aventures jeunesse, contes familiaux (122 œuvres).
-7. `action_aventure` : Action grand spectacle, westerns d'action, survie, guerre, arts martiaux (87 œuvres).
+1. `drame_emotion` : Drames profonds, romances d'auteur, biopics, drames historiques/sociaux (446 œuvres).
+2. `comedie` : Comédies pures, comédies romantiques, comédies policières, parodies et satires (351 œuvres).
+3. `horreur_epouvante` : Slashers, épouvante, body horror, démons/possession, monstres, gore (192 œuvres).
+4. `thriller_policier` : Polars, enquêtes policières, espionnage, machinations, thrillers criminels (135 œuvres).
+5. `animation_famille` : Films et séries d'animation, aventures jeunesse, contes familiaux (127 œuvres).
+6. `scifi_fantastique` : Science-fiction, space opera, anticipation, cyborgs, mondes magiques (97 œuvres).
+7. `action_aventure` : Action grand spectacle, westerns d'action, survie, guerre, arts martiaux (83 œuvres).
 
 ### B. Instauration du Registre Persistant de Qualification Sémantique IA (v8.75)
 * **Architecture de Cache Persistant 100% Intégral ([`data/ai_categories.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_categories.json))** :
@@ -126,13 +126,13 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Total œuvres qualifiées Mobile** : **864** (739 films $\ge 60\text{ min}$, 125 séries).
   - **Conformité 1 catégorie unique** : **1 431 / 1 431 (100% conforme, 0 anomalie)**.
   - **Répartition des 7 catégories officielles** :
-    * `drame_emotion` : 430
-    * `comedie` : 347
-    * `horreur_epouvante` : 160
-    * `thriller_policier` : 153
-    * `scifi_fantastique` : 132
-    * `animation_famille` : 122
-    * `action_aventure` : 87
+    * `drame_emotion` : 446
+    * `comedie` : 351
+    * `horreur_epouvante` : 192
+    * `thriller_policier` : 135
+    * `animation_famille` : 127
+    * `scifi_fantastique` : 97
+    * `action_aventure` : 83
   - **Titres expirés** : **0**.
 * **Traçabilité Technique & Cache** :
   - **Version Application / PWA** : **v8.75** (`sw.js` : `cinescope-v8.75-streaming`).
