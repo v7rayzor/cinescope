@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.84** / Cache **cinescope-v8.84-streaming**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.86** / Cache **cinescope-v8.86-streaming**).
 
 ---
 
@@ -80,12 +80,22 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - Priorité souveraine à l'Action (`action_aventure`) sur le Thriller (`thriller_policier`) lorsque l'œuvre cumule `act` + `trl`, **sauf si le tag Crime (`crm`) est présent**.
   - Réhabilitation immédiate de 11 purs films d'action armée et de combat physique (*Hunter Killer*, *Triple Threat*, *Stratton*, *Non-Stop*, *Final Score*, *Rogue*, *Hounds of War*, *Tokarev*, *Actes de Vengeance*, etc.).
   - Sanctuarisation absolue des séries procédurales d'enquête policière (*New York, crime organisé*, *B.R.I*) et des polars noirs/psychologiques (*The Batman*, *Drive*, *Les Lyonnais*, *Un traître idéal*) protégés par la présence formelle du tag `crm`.
-* **Architecture Double Duel IA Ciblé (v8.84)** :
+* **Architecture Quintuple Duel IA Ciblé (v8.86)** :
   - **Duel 1 (Action vs Thriller)** : Strictement réservé aux œuvres cumulant `act` + `trl` sans aucun genre dominant (`!cmy`, `!hrr`, `!scf`, `!fnt`, `!ani`, `!doc`).
   - **Duel 2 (Horreur vs Science-Fiction / Fantastique)** : Déclenché pour les œuvres cumulant `hrr` et (`scf` ou `fnt`) sans être des comédies ni de l'animation. Départage entre anticipation technologique/IA/voyage temporel/cosmique et terreur viscérale/monstres/gore.
-  - **Réhabilitation spectaculaire des pépites SF** : ***T.I.M.*** (IA humanoïde), ***Radius*** (phénomène cosmique mortel), ***Curvature*** (machine temporelle), ***Things Will Be Different*** (passage temporel), ***Monolith*** (artefact extraterrestre), ***Nope***, ***Under the Skin***, ***Avant que nous disparaissions*** immédiatement reclassés en `scifi_fantastique`.
-  - **Sanctuarisation de la pure épouvante** : *Sans un bruit*, *The Walking Dead*, *Cloverfield*, *Inland Empire*, *Else*, *Creepshow* confirmés en `horreur_epouvante`.
-  - **Sécurité et intégrité (`isEligibleDuelEntry`)** : Dans [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js), le cache IA n'est appliqué que si l'œuvre respecte rigoureusement les prérequis stricts de son duel.
+    - *Pépites SF sauvées* : ***T.I.M.***, ***Radius***, ***Curvature***, ***Things Will Be Different***, ***Monolith***, ***Nope***, ***Under the Skin***, ***Avant que nous disparaissions*** reclassés en `scifi_fantastique`.
+  - **Duel 3 (Horreur vs Polar Criminel)** : Déclenché pour les œuvres cumulant `hrr` et `crm` sans fantastique ni SF.
+    - *Cyber-polars et enquêtes sauvés* : ***Cloud*** (2024, de Kiyoshi Kurosawa), ***Les Chambres rouges***, ***Le Mangeur d'âmes***, ***Dead Mail***, ***Broadcast Signal Intrusion***, ***Green Room***, ***Becky***, ***Laissez bronzer les cadavres***, ***Devil in Disguise: John Wayne Gacy***, ***The Lost Footage of Leah Sullivan*** reclassés en `thriller_policier`.
+    - *Pure épouvante sanctuarisée* : ***Maniac***, ***Savageland***, ***The Guest***, ***Godless: The Eastfield Exorcism*** confirmés en `horreur_epouvante`.
+  - **Duel 4 (Horreur vs Action / Aventure)** : Déclenché pour les œuvres cumulant `hrr` et `act` (ou `wsn`/`war`) sans crime, SF ni fantastique.
+    - *Survie physique réhabilitée* : ***Fear the Night*** (Maggie Q vétérane en riposte tactique armée) et ***Saýara*** (arts martiaux et vengeance physique pure) réhabilités en `action_aventure`.
+    - *Pure horreur animale et sadisme sanctuarisés* : ***Cub***, ***Aux portes de l'enfer***, ***Beaten to Death***, ***Piégés*** confirmés en `horreur_epouvante`.
+  - **Duel 5 (Tri-Duel Comédie vs Action vs Thriller / Polar)** : Déclenché pour les œuvres cumulant `cmy` avec `act`, `crm` ou `trl` sans fantastique ni horreur. Évaluation par pourcentages croisés sur les 3 composantes.
+    - *Polars noirs et braquages libérés* : ***Sang Froid*** (2019, Liam Neeson : 60% Thriller, 30% Action, 0% Comédie), ***Ocean's 8***, ***Mi$e à prix***, ***Amsterdam***, ***Dark Web: Cicada 3301***, ***Head Count***, ***Les Nettoyeurs*** réhabilités en `thriller_policier`.
+    - *Action physique pure réhabilitée* : ***Insaisissables 2***, ***Novocaïne***, ***Railroad Tigers*** (Jackie Chan), ***The Cash Collector 1 & 2***, ***Baby Assassins: Nice Days***, ***Le Secret de Khéops*** réhabilités en `action_aventure`.
+    - *Pures comédies sanctuarisées* : ***OSS 117*** (tous), ***Hundreds of Beavers***, ***Burn After Reading***, ***Game Night***, ***Projet X***, ***Yannick*** confirmés en `comedie`.
+  - **Règle Jeunesse Tout Public (Films en prises de vue réelles)** : Déverrouillage d'`animation_famille` pour les films Tout Public portant le tag `fml` et axés sur l'enfance, l'école et la jeunesse (***La Formule magique***, ***Les Blagues de Toto***, ***Drôle de prof 2, 3, 4***, ***Mon frère chasse les dinosaures***, ***Ma folle semaine avec Tess***, ***Master spy***, ***L'École buissonnière***).
+  - **Sécurité et intégrité (`isEligibleDuelEntry`)** : Dans [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js) et [`scripts/sync_justwatch.cjs`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_justwatch.cjs), le cache IA n'est appliqué que si l'œuvre respecte rigoureusement les prérequis stricts de son duel respectif.
 
 ---
 
@@ -129,21 +139,21 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Application stricte des 20 ans glissants ($\ge 2006$)** : 17 films unitaires historiques (< 2006) purgés.
   - **Règle des séries multi-saisons respectée** : Calcul basé sur l'année moyenne $\frac{\text{Saison début} + \text{Saison fin}}{2}$ (*Battlestar Galactica* 2004–2008 = moyenne 2006 $\ge 2006$, conforme).
   - **Conformité 1 catégorie unique** : **1 414 / 1 414 (100% conforme, 0 anomalie)**.
-  - **Répartition issue de la qualification v8.81 (1 414 titres - Arbitrage binaire IA Action vs Thriller + Règle séries Fantasy)** :
-    * `drame_emotion` : 399 (28.2%)
-    * `comedie` : 275 (19.4%)
-    * `horreur_epouvante` : 220 (15.6%)
-    * `thriller_policier` : 201 (14.2%)
-    * `scifi_fantastique` : 148 (10.5% total, 30 séries)
-    * `animation_famille` : 99 (7.0% total, 28 séries)
-    * `action_aventure` : 72 (5.1% total, 5.21% films) 🎯
+  - **Répartition issue de la qualification v8.86 (1 414 titres - Architecture Quintuple Duel IA & Jeunesse)** :
+    * `drame_emotion` : 396 (28.0%)
+    * `comedie` : 278 (19.7%)
+    * `thriller_policier` : 202 (14.3%)
+    * `horreur_epouvante` : 201 (14.2%)
+    * `scifi_fantastique` : 159 (11.2%)
+    * `animation_famille` : 110 (7.8%)
+    * `action_aventure` : 68 (4.8%)
   - **Titres expirés** : **0**.
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : **v8.82** (`sw.js` : `cinescope-v8.82-streaming`).
+  - **Version Application / PWA** : **v8.86** (`sw.js` : `cinescope-v8.86-streaming`).
   - **Optimisation Affichage & Fluidité** : Affiches avec `loading="lazy"` natif et préchargement d'arrière-plan temporisé (4 requêtes max via `requestIdleCallback`) éliminant toute congestion réseau.
   - **Clés LocalStorage Actives** : `_v46` (`cinescope_streaming_catalog_v46`, `cinescope_last_specialized_sync_v46`, etc.).
-  - **Cache Arbitrage IA** : [`data/ai_duel_cache.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_duel_cache.json) (49 arbitrages validés : 14 Action cinétique, 35 Thriller cérébral).
-  - **Règle Séries Famille / Animation** : Exigence formelle du tag `ani` pour les séries en `animation_famille` (*The Spiderwick Chronicles* souverainement en Fantasy).
+  - **Cache Arbitrage IA** : [`data/ai_duel_cache.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_duel_cache.json) (162 arbitrages enregistrés et verrouillés).
+  - **Règle Séries Famille / Animation** : Exigence formelle du tag `ani` pour les séries en `animation_famille`.
   - **Workflow GitHub Actions** : Clé secrète `DEEPSEEK_API_KEY` injectée et commit automatique du cache IA.
 
 ---

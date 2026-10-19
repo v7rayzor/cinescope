@@ -255,6 +255,18 @@ async function resolveAmbiguousTitlesWithAI(items) {
     else if (raw.includes('hrr') && (raw.includes('scf') || raw.includes('fnt')) && !raw.some(g => ['cmy', 'ani', 'doc'].includes(g))) {
       toResolve.push({ item, duelType: 'horror_vs_scifi' });
     }
+    // Duel 3 : Purs duels Horreur vs Thriller Criminel (cumule hrr + crm, hors sf, fnt, cmy, ani, doc)
+    else if (raw.includes('hrr') && raw.includes('crm') && !raw.some(g => ['scf', 'fnt', 'cmy', 'ani', 'doc'].includes(g))) {
+      toResolve.push({ item, duelType: 'horror_vs_crime_thriller' });
+    }
+    // Duel 4 : Purs duels Horreur vs Action / Aventure (cumule hrr + act/wsn/war hors crm, sf, fnt, cmy, ani, doc)
+    else if (raw.includes('hrr') && (raw.includes('act') || raw.includes('wsn') || raw.includes('war')) && !raw.includes('crm') && !raw.some(g => ['scf', 'fnt', 'cmy', 'ani', 'doc'].includes(g))) {
+      toResolve.push({ item, duelType: 'horror_vs_action' });
+    }
+    // Duel 5 : Tri-duel Comédie vs Action vs Thriller / Polar (cumule cmy avec act/crm/trl hors hrr, scf, fnt, ani, doc)
+    else if (raw.includes('cmy') && (raw.includes('act') || raw.includes('wsn') || raw.includes('war') || raw.includes('crm') || raw.includes('trl')) && !raw.some(g => ['hrr', 'scf', 'fnt', 'ani', 'doc'].includes(g))) {
+      toResolve.push({ item, duelType: 'action_comedy_thriller' });
+    }
   }
 
   if (toResolve.length === 0 || !apiKey) {
@@ -288,7 +300,7 @@ Réponds STRICTEMENT sous forme d'un objet JSON valide sans markdown :
   "thriller_score": <nombre entre 0 et 100>,
   "justification": "<Explication concise en 1 phrase>"
 }`;
-      } else {
+      } else if (duelType === 'horror_vs_scifi') {
         prompt = `Tu es l'expert cinéphile en charge de la qualification de la filmothèque CinéScope.
 Chaque œuvre doit être classée dans UNE SEULE catégorie dominante selon la règle stricte du catalogue :
 
@@ -307,6 +319,71 @@ Réponds STRICTEMENT sous forme d'un objet JSON valide sans markdown :
   "choix": "scifi_fantastique" OU "horreur_epouvante",
   "scifi_score": <nombre entre 0 et 100>,
   "horreur_score": <nombre entre 0 et 100>,
+  "justification": "<Explication concise en 1 phrase>"
+}`;
+      } else if (duelType === 'horror_vs_crime_thriller') {
+        prompt = `Tu es l'expert cinéphile en charge de la qualification de la filmothèque CinéScope.
+Chaque œuvre doit être classée dans UNE SEULE catégorie dominante selon la règle stricte du catalogue :
+
+- "thriller_policier" : Si le cœur du récit repose sur l'intrigue criminelle, l'enquête policière ou journalistique, le suspense cérébral, la traque, le cyber-harcèlement, la machination ou le polar noir (ex: Cloud, Les Chambres rouges, Le Mangeur d'âmes, Dead Mail, Broadcast Signal Intrusion).
+- "action_aventure" : Si le film est dominé par la vengeance martiale, les arts martiaux et le combat physique pur (ex: Saýara).
+- "horreur_epouvante" : Si le cœur du récit repose sur la terreur viscérale, le sadisme sanguinaire, le slasher, la boucherie gore, la possession démoniaque, l'exorcisme ou des entités surnaturelles (ex: Maniac, Savageland, The Guest, Godless).
+
+RÈGLE D'OR : ÉVITER ABSOLUMENT LES CONTRESENS. S'il s'agit d'une enquête ou d'une traque paranoïaque sans terreur surnaturelle ni gore sadique, choisis "thriller_policier" (ou "action_aventure" si combat physique pur). Si l'œuvre cherche d'abord à effrayer par l'épouvante, choisis "horreur_epouvante".
+
+Œuvre à départager :
+Titre : "${item.titre}" (${item.annee || ''}) [Type: ${item.type || 'film'}, Durée: ${item.duree || ''}]
+Synopsis : "${item.synopsis || 'N/A'}"
+Genres bruts : ${JSON.stringify(item.raw_genres || [])}
+
+Réponds STRICTEMENT sous forme d'un objet JSON valide sans markdown :
+{
+  "choix": "thriller_policier" OU "action_aventure" OU "horreur_epouvante",
+  "score": <nombre entre 0 et 100>,
+  "justification": "<Explication concise en 1 phrase>"
+}`;
+      } else if (duelType === 'horror_vs_action') {
+        prompt = `Tu es l'expert cinéphile en charge de la qualification de la filmothèque CinéScope.
+Chaque œuvre doit être classée dans UNE SEULE catégorie dominante selon la règle stricte du catalogue :
+
+- "action_aventure" : Si le cœur du récit repose sur l'action cinétique, le combat physique, la fusillade, la riposte martiale ou la survie tactique militaire où le protagoniste combat activement ses ennemis (ex: Fear the Night).
+- "horreur_epouvante" : Si le cœur du récit repose sur la terreur viscérale, l'impuissance face à des créatures/monstres, la prédation animale terrifiante ou le massacre sadique (ex: Cub, Aux portes de l'enfer, Beaten to Death, Piégés).
+
+RÈGLE D'OR : ÉVITER ABSOLUMENT LES CONTRESENS. Si le film est dominé par l'action physique et la riposte armée dynamique, choisis "action_aventure". Si le film cherche d'abord à terroriser par l'horreur, choisis "horreur_epouvante".
+
+Œuvre à départager :
+Titre : "${item.titre}" (${item.annee || ''}) [Type: ${item.type || 'film'}, Durée: ${item.duree || ''}]
+Synopsis : "${item.synopsis || 'N/A'}"
+Genres bruts : ${JSON.stringify(item.raw_genres || [])}
+
+Réponds STRICTEMENT sous forme d'un objet JSON valide sans markdown :
+{
+  "choix": "action_aventure" OU "horreur_epouvante",
+  "action_score": <nombre entre 0 et 100>,
+  "horreur_score": <nombre entre 0 et 100>,
+  "justification": "<Explication concise en 1 phrase>"
+}`;
+      } else if (duelType === 'action_comedy_thriller') {
+        prompt = `Tu es l'expert cinéphile en charge de la qualification de la filmothèque CinéScope.
+Chaque œuvre doit être classée dans UNE SEULE catégorie dominante selon la règle stricte du catalogue :
+
+- "action_aventure" : Si l'œuvre est dominée par l'action cinétique, le combat physique (arts martiaux, corps-à-corps), les fusillades intenses, les cascades spectaculaires et la poursuite où l'action physique prime (ex: Insaisissables 2, Novocaïne, The Cash Collector, Railroad Tigers, Baby Assassins).
+- "thriller_policier" : Si l'œuvre est dominée par l'intrigue criminelle, l'enquête policière, le suspense cérébral, la traque, la machination ou le braquage sophistiqué (ex: Sang Froid, Ocean's 8, Mi$e à prix, Dark Web: Cicada 3301, Amsterdam, Head Count).
+- "comedie" : Si l'œuvre est avant tout une comédie, une parodie, une farce satirique ou un film humoristique où l'enquête ou l'action ne sont qu'un prétexte au rire (ex: OSS 117, Hundreds of Beavers, Game Night, Burn After Reading, Projet X, Yannick, Une pure affaire).
+
+RÈGLE D'OR : ÉVITER ABSOLUMENT LES CONTRESENS. Si le film est un polar froid, sombre ou un film de vengeance armée, choisis "thriller_policier" ou "action_aventure". Si le film cherche d'abord à faire rire par la parodie ou le burlesque, choisis "comedie".
+
+Œuvre à départager :
+Titre : "${item.titre}" (${item.annee || ''}) [Type: ${item.type || 'film'}, Durée: ${item.duree || ''}]
+Synopsis : "${item.synopsis || 'N/A'}"
+Genres bruts : ${JSON.stringify(item.raw_genres || [])}
+
+Réponds STRICTEMENT sous forme d'un objet JSON valide sans markdown :
+{
+  "choix": "comedie" OU "action_aventure" OU "thriller_policier",
+  "comedie_score": <nombre entre 0 et 100>,
+  "action_score": <nombre entre 0 et 100>,
+  "thriller_score": <nombre entre 0 et 100>,
   "justification": "<Explication concise en 1 phrase>"
 }`;
       }
@@ -334,9 +411,13 @@ Réponds STRICTEMENT sous forme d'un objet JSON valide sans markdown :
       const cleanJson = rawText.replace(/```json/g, '').replace(/```/g, '').trim();
       const parsed = JSON.parse(cleanJson);
 
-      const validChoices = duelType === 'action_vs_thriller'
-        ? ['action_aventure', 'thriller_policier']
-        : ['scifi_fantastique', 'horreur_epouvante'];
+      const validChoices = {
+        action_vs_thriller: ['action_aventure', 'thriller_policier'],
+        horror_vs_scifi: ['scifi_fantastique', 'horreur_epouvante'],
+        horror_vs_crime_thriller: ['thriller_policier', 'action_aventure', 'horreur_epouvante'],
+        horror_vs_action: ['action_aventure', 'horreur_epouvante'],
+        action_comedy_thriller: ['comedie', 'action_aventure', 'thriller_policier']
+      }[duelType] || [];
 
       if (validChoices.includes(parsed.choix)) {
         cache[item.id] = {

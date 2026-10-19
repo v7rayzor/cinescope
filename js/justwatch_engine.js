@@ -65,11 +65,33 @@ const JustWatchEngine = (function () {
     if (!raw || !duelCategory) return false;
     // Duel 1 : Purs duels Action vs Thriller
     if (duelCategory === 'action_aventure' || duelCategory === 'thriller_policier') {
-      return raw.includes('act') && raw.includes('trl') && !raw.some(g => ['cmy', 'hrr', 'scf', 'fnt', 'ani', 'doc'].includes(g));
+      if (raw.includes('act') && raw.includes('trl') && !raw.some(g => ['cmy', 'hrr', 'scf', 'fnt', 'ani', 'doc'].includes(g))) {
+        return true;
+      }
     }
     // Duel 2 : Purs duels Horreur vs Science-Fiction / Fantastique
     if (duelCategory === 'scifi_fantastique' || duelCategory === 'horreur_epouvante') {
-      return raw.includes('hrr') && (raw.includes('scf') || raw.includes('fnt')) && !raw.some(g => ['cmy', 'ani', 'doc'].includes(g));
+      if (raw.includes('hrr') && (raw.includes('scf') || raw.includes('fnt')) && !raw.some(g => ['cmy', 'ani', 'doc'].includes(g))) {
+        return true;
+      }
+    }
+    // Duel 3 : Purs duels Horreur vs Thriller Criminel
+    if (duelCategory === 'thriller_policier' || duelCategory === 'horreur_epouvante') {
+      if (raw.includes('hrr') && raw.includes('crm') && !raw.some(g => ['scf', 'fnt', 'cmy', 'ani', 'doc'].includes(g))) {
+        return true;
+      }
+    }
+    // Duel 4 : Purs duels Horreur vs Action / Aventure
+    if (duelCategory === 'action_aventure' || duelCategory === 'horreur_epouvante') {
+      if (raw.includes('hrr') && (raw.includes('act') || raw.includes('wsn') || raw.includes('war')) && !raw.some(g => ['scf', 'fnt', 'cmy', 'ani', 'doc'].includes(g))) {
+        return true;
+      }
+    }
+    // Duel 5 : Tri-duel Comédie vs Action vs Thriller / Polar (cumule cmy avec act/crm/trl hors hrr, scf, fnt, ani, doc)
+    if (duelCategory === 'comedie' || duelCategory === 'action_aventure' || duelCategory === 'thriller_policier') {
+      if (raw.includes('cmy') && (raw.includes('act') || raw.includes('wsn') || raw.includes('war') || raw.includes('crm') || raw.includes('trl')) && !raw.some(g => ['hrr', 'scf', 'fnt', 'ani', 'doc'].includes(g))) {
+        return true;
+      }
     }
     return false;
   }
@@ -275,12 +297,10 @@ const JustWatchEngine = (function () {
   function getAllowedCategories(tags, cleanText = '', isHybridWithAge = false, isMatureFamily = false, isComedyWithoutAge = false, isSerie = false) {
     const allowed = new Set();
     
-    // 1. Catégories autorisées par les tags de genre
-    // Famille / Animation autorisée seulement si pas de signalétique mature (-12, -16, -18)
-    // Pour les séries : animation formelle ('ani') ou motif explicite obligatoire (pas de séries live-action en famille)
+    const isYouthLiveActionAllowed = !isMatureFamily && tags.includes('fml') && (tags.includes('fnt') || tags.includes('scf') || !tags.includes('cmy') || /\b(formule magique|chewing|surdouee|toto|drole de prof|classe de decouvertes|dinosaures|tess|master spy|ecole buissonniere)\b/i.test(cleanText));
     const isAnimAllowed = isSerie
       ? (!isMatureFamily && (tags.includes('ani') || ANIMATION_PATTERNS.test(cleanText)))
-      : (!isMatureFamily && (tags.includes('ani') || (tags.includes('fml') && (tags.includes('fnt') || tags.includes('scf') || !tags.includes('cmy')))));
+      : (!isMatureFamily && (tags.includes('ani') || isYouthLiveActionAllowed));
     if (isAnimAllowed) {
       allowed.add('animation_famille');
     }
@@ -366,9 +386,13 @@ const JustWatchEngine = (function () {
       if (allowed.has('animation_famille')) return 'animation_famille';
     }
 
-    // 2. Règle Famille / Jeunesse avec créatures / jeu vidéo / fantasy (ex: Sonic 3, Bigfoot Junior) - Films uniquement
-    if (!isSerie && !isMatureFamily && rawTags.includes('fml') && (rawTags.includes('fnt') || rawTags.includes('scf')) && !rawTags.includes('hrr')) {
-      if (allowed.has('animation_famille')) return 'animation_famille';
+    // 2. Règle Famille / Jeunesse Tout Public (créatures, magie, école, enfance) - Films uniquement
+    const isYouthFamilyFilm = !isSerie && !isMatureFamily && rawTags.includes('fml') && !rawTags.includes('hrr') && (
+      (rawTags.includes('fnt') || rawTags.includes('scf')) ||
+      /\b(formule magique|chewing|surdouee|toto|drole de prof|classe de decouvertes|dinosaures|tess|master spy|ecole buissonniere)\b/i.test(cleanText)
+    );
+    if (isYouthFamilyFilm && allowed.has('animation_famille')) {
+      return 'animation_famille';
     }
 
     // 3. Règle Horreur sanctuarisée :

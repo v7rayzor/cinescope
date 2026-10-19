@@ -560,5 +560,215 @@
     "titre": "Arcadian",
     "category": "horreur_epouvante",
     "justification": "Le récit est centré sur la survie nocturne face à des créatures féroces et la terreur qu'elles inspirent, avec une ambiance de monstres et de tension viscérale typique de l'horreur, la science-fiction n'étant qu'un cadre post-apocalyptique secondaire."
+  },
+  "jw-tm1507724": {
+    "titre": "Cloud",
+    "category": "thriller_policier",
+    "justification": "Un homme traqué par des clients menaçants dans un Japon hyperconnecté, avec une montée de suspense et de paranoïa typique d'un thriller psychologique et criminel."
+  },
+  "jw-tm1345332": {
+    "titre": "Les Chambres rouges",
+    "category": "thriller_policier",
+    "justification": "L'obsession d'une femme pour un tueur en série lors de son procès et sa quête d'une vidéo de meurtre inscrivent l'œuvre dans un thriller psychologique et criminel."
+  },
+  "jw-tm1415272": {
+    "titre": "Le Mangeur d'âmes",
+    "category": "thriller_policier",
+    "justification": "L'enquête policière sur des meurtres et disparitions, menée par deux officiers dans un village hostile, constitue le cœur du récit, avec une dimension occulte secondaire."
+  },
+  "jw-tm1444953": {
+    "titre": "Dead Mail",
+    "category": "thriller_policier",
+    "justification": "L'intrigue centrée sur un enquêteur de la Poste cherchant à retrouver un claviériste kidnappé dans les années 1980 correspond à un thriller policier d'enquête."
+  },
+  "jw-tm1019525": {
+    "titre": "Broadcast Signal Intrusion",
+    "category": "thriller_policier",
+    "justification": "Un archiviste obsédé par des émissions pirates sinistres enquête sur une sombre conspiration, ce qui en fait un thriller psychologique et policier."
+  },
+  "jw-ts443056": {
+    "titre": "Devil in Disguise: John Wayne Gacy",
+    "category": "thriller_policier",
+    "justification": "Cette série true crime explore les crimes et l'enquête autour d'un tueur en série, avec une dimension psychologique et policière dominante."
+  },
+  "jw-tm270997": {
+    "titre": "Laissez bronzer les cadavres",
+    "category": "thriller_policier",
+    "justification": "L'intrigue tourne autour d'un braquage violent et de ses conséquences, avec une tension criminelle et des affrontements, caractéristiques du thriller policier."
+  },
+  "jw-tm142162": {
+    "titre": "Green Room",
+    "category": "thriller_policier",
+    "justification": "Le film est un thriller de survie oppressant où un groupe de punk est traqué par des skinheads après la découverte d'un meurtre, avec une tension policière et des affrontements violents."
+  },
+  "jw-tm890969": {
+    "titre": "Becky",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur une prise d'otage par des criminels évadés et un rapport de force tendu, avec une dimension de survie et de vengeance violente."
+  },
+  "jw-tm514677": {
+    "titre": "The Lost Footage of Leah Sullivan",
+    "category": "thriller_policier",
+    "justification": "Le synopsis décrit une enquête sur un meurtre non résolu via des images trouvées, ce qui correspond à un thriller policier avec une touche d'épouvante."
+  },
+  "jw-tm1352915": {
+    "titre": "Fear the Night",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant une vétérane qui riposte et prend les choses en main face à des cambrioleurs, avec une forte dimension d'action et de survie."
+  },
+  "jw-tm1481642": {
+    "titre": "Saýara",
+    "category": "action_aventure",
+    "justification": "L'histoire se concentre sur une vengeance personnelle menée par une protagoniste formée au combat, avec des affrontements physiques et une quête de justice, ce qui place l'action et l'aventure au premier plan."
+  },
+  "jw-tm167066": {
+    "titre": "Maniac",
+    "category": "horreur_epouvante",
+    "justification": "L'histoire d'un tueur en série obsédé par une jeune femme et collectionnant des scalps relève clairement de l'horreur et du slasher."
+  },
+  "jw-tm198444": {
+    "titre": "Savageland",
+    "category": "horreur_epouvante",
+    "justification": "Un massacre inexpliqué dans une petite ville et des photos révélant une menace surnaturelle relèvent clairement de l'épouvante."
+  },
+  "jw-ts83360": {
+    "titre": "The Guest",
+    "category": "horreur_epouvante",
+    "justification": "L'intrigue centrée sur un esprit assoiffé de sang et la lutte contre une entité surnaturelle place clairement la série dans l'horreur épouvantable."
+  },
+  "jw-tm1315742": {
+    "titre": "Godless: The Eastfield Exorcism",
+    "category": "horreur_epouvante",
+    "justification": "L'intrigue centrée sur un exorcisme et les sévices infligés relève clairement de l'épouvante et de la terreur surnaturelle."
+  },
+  "jw-tm151916": {
+    "titre": "Cub",
+    "category": "horreur_epouvante",
+    "justification": "Un psychopathe décime des enfants dans un camp de scouts, avec un enfant sauvage complice, ce qui relève clairement de l'horreur."
+  },
+  "jw-tm1160663": {
+    "titre": "Aux portes de l'enfer",
+    "category": "horreur_epouvante",
+    "justification": "Le synopsis décrit un culte satanique invoquant un démon qui se nourrit des habitants, ce qui correspond à l'horreur surnaturelle et à l'épouvante."
+  },
+  "jw-tm1264076": {
+    "titre": "Beaten to Death",
+    "category": "horreur_epouvante",
+    "justification": "Un survivant traqué par des psychopathes dans un village isolé, avec une agression brutale et une chasse à l'homme, relève clairement de l'horreur et de l'épouvante."
+  },
+  "jw-tm139063": {
+    "titre": "Piégés",
+    "category": "horreur_epouvante",
+    "justification": "L'intrigue centrée sur des corps décapités et un prédateur redoutable en forêt relève clairement de l'horreur et de l'épouvante."
+  },
+  "jw-tm305296": {
+    "titre": "Sang Froid",
+    "category": "thriller_policier",
+    "justification": "L'histoire suit un homme ordinaire qui se lance dans une vengeance armée contre un cartel de la drogue, mêlant traque criminelle et suspense violent."
+  },
+  "jw-tm266647": {
+    "titre": "Ocean's 8",
+    "category": "thriller_policier",
+    "justification": "Le film est centré sur un braquage d'envergure et une machination criminelle sophistiquée au Met Gala."
+  },
+  "jw-tm25175": {
+    "titre": "Mi$e à prix",
+    "category": "thriller_policier",
+    "justification": "L'intrigue tourne autour d'une enquête du FBI, d'un témoin sous protection mafieuse et d'un contrat de tueurs à gages."
+  },
+  "jw-tm855028": {
+    "titre": "Amsterdam",
+    "category": "thriller_policier",
+    "justification": "L'intrigue centrale repose sur une enquête autour d'un assassinat mystérieux et la mise au jour d'un complot."
+  },
+  "jw-tm996866": {
+    "titre": "Dark Web: Cicada 3301",
+    "category": "thriller_policier",
+    "justification": "Chasse au trésor cybernétique mystérieuse avec des agents fédéraux de la NSA à la poursuite du héros."
+  },
+  "jw-tm1376360": {
+    "titre": "Head Count",
+    "category": "thriller_policier",
+    "justification": "L'histoire tourne autour d'un fugitif sous haute tension avec une structure de suspense criminel."
+  },
+  "jw-tm1516738": {
+    "titre": "Les Nettoyeurs",
+    "category": "thriller_policier",
+    "justification": "L'intrigue tourne autour d'une mallette convoitée par un caïd et le FBI, un polar de suspense criminel."
+  },
+  "jw-tm123158": {
+    "titre": "Insaisissables 2",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par l'action spectaculaire, les braquages d'illusionnistes, les cascades et les courses-poursuites."
+  },
+  "jw-tm1570880": {
+    "titre": "Novocaïne",
+    "category": "action_aventure",
+    "justification": "Un homme insensible à la douleur se lance dans une course-poursuite physique avec combats à mains nues et cascades intenses."
+  },
+  "jw-tm233435": {
+    "titre": "Railroad Tigers",
+    "category": "action_aventure",
+    "justification": "Missions de sabotage ferroviaire et affrontements physiques d'arts martiaux contre l'armée avec Jackie Chan."
+  },
+  "jw-tm406111": {
+    "titre": "The Cash Collector",
+    "category": "action_aventure",
+    "justification": "Un maître en arts martiaux contraint de travailler dans le recouvrement de dettes, multipliant les combats physiques."
+  },
+  "jw-tm885805": {
+    "titre": "The Cash Collector 2",
+    "category": "action_aventure",
+    "justification": "Chasseur de créances pour un criminel avec cascades et affrontements martiaux violents au premier plan."
+  },
+  "jw-tm1535648": {
+    "titre": "Baby Assassins: Nice Days",
+    "category": "action_aventure",
+    "justification": "Adolescentes assassines en mission et affrontements martiaux intenses au corps-à-corps et aux armes à feu."
+  },
+  "jw-tm1561453": {
+    "titre": "Le Secret de Khéops",
+    "category": "action_aventure",
+    "justification": "Quête d'un trésor archéologique à travers Paris avec énigmes physiques et aventure trépidante."
+  },
+  "jw-tm41037": {
+    "titre": "OSS 117 : Le Caire, nid d'espions",
+    "category": "comedie",
+    "justification": "Parodie burlesque et satirique des films d'espionnage, centrée sur le comique de situation."
+  },
+  "jw-tm137377": {
+    "titre": "OSS 117 : Rio ne répond plus",
+    "category": "comedie",
+    "justification": "Comédie parodique centrée sur les bévues et l'humour absurde d'Hubert Bonisseur de La Bath."
+  },
+  "jw-tm949929": {
+    "titre": "OSS 117: Alerte rouge",
+    "category": "comedie",
+    "justification": "Parodie d'espionnage centrée sur l'humour absurde et les gags du duo d'agents secrets."
+  },
+  "jw-tm1261680": {
+    "titre": "Hundreds of Beavers",
+    "category": "comedie",
+    "justification": "Farce absurde et délirante en noir et blanc dans la pure tradition du slapstick comique muet."
+  },
+  "jw-tm312967": {
+    "titre": "Game Night",
+    "category": "comedie",
+    "justification": "Soirée de jeu entre amis qui dérape sur un ton humoristique et déjanté."
+  },
+  "jw-tm45399": {
+    "titre": "Burn After Reading",
+    "category": "comedie",
+    "justification": "Comédie noire satirique et cynique des frères Coen sur la bêtise humaine."
+  },
+  "jw-tm1355255": {
+    "titre": "Yannick",
+    "category": "comedie",
+    "justification": "Comédie satirique et absurde en huis clos de Quentin Dupieux."
+  },
+  "jw-tm68272": {
+    "titre": "Projet X",
+    "category": "comedie",
+    "justification": "Comédie potache festive et chaotique autour d'une soirée lycéenne hors de contrôle."
   }
 }

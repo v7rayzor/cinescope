@@ -356,7 +356,7 @@ const CATALOG_DATA = [
     "note_recence": 9.4,
     "note_globale": 7.9,
     "categories": [
-      "horreur_epouvante"
+      "thriller_policier"
     ],
     "badge": "12",
     "is_eligible": true,
@@ -858,7 +858,7 @@ const CATALOG_DATA = [
     "note_recence": 7.9,
     "note_globale": 7.1,
     "categories": [
-      "comedie"
+      "thriller_policier"
     ],
     "badge": "12",
     "is_eligible": true,
@@ -6069,7 +6069,7 @@ const CATALOG_DATA = [
     "titre": "Le Secret de Khéops",
     "type": "film",
     "categories": [
-      "comedie"
+      "action_aventure"
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
@@ -7490,7 +7490,7 @@ const CATALOG_DATA = [
     "titre": "Ocean's 8",
     "type": "film",
     "categories": [
-      "comedie"
+      "thriller_policier"
     ],
     "annee": 2018,
     "chaine": "Ciné+ OCS",
@@ -7586,7 +7586,7 @@ const CATALOG_DATA = [
     "titre": "Insaisissables 2",
     "type": "film",
     "categories": [
-      "comedie"
+      "action_aventure"
     ],
     "annee": 2016,
     "chaine": "Ciné+ OCS",
@@ -8351,7 +8351,7 @@ const CATALOG_DATA = [
     "titre": "Dark Web: Cicada 3301",
     "type": "film",
     "categories": [
-      "comedie"
+      "thriller_policier"
     ],
     "annee": 2021,
     "chaine": "Universal+",
@@ -9598,7 +9598,7 @@ const CATALOG_DATA = [
     "titre": "Railroad Tigers",
     "type": "film",
     "categories": [
-      "comedie"
+      "action_aventure"
     ],
     "annee": 2016,
     "chaine": "Action Max",
@@ -10293,7 +10293,7 @@ const CATALOG_DATA = [
     "note_recence": 8.2,
     "note_globale": 6.1,
     "categories": [
-      "comedie"
+      "animation_famille"
     ],
     "badge": null,
     "is_eligible": true,
@@ -13880,7 +13880,7 @@ const CATALOG_DATA = [
     "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
-      "comedie"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -14617,7 +14617,7 @@ const CATALOG_DATA = [
     "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
-      "comedie"
+      "thriller_policier"
     ],
     "raw_genres": [
       "cmy",
@@ -16851,7 +16851,7 @@ const CATALOG_DATA = [
     "note_globale": 6,
     "etoiles": 3,
     "categories": [
-      "comedie"
+      "thriller_policier"
     ],
     "raw_genres": [
       "act",
@@ -18816,7 +18816,7 @@ const CATALOG_DATA = [
     "note_globale": 7,
     "etoiles": 4,
     "categories": [
-      "comedie"
+      "thriller_policier"
     ],
     "raw_genres": [
       "act",
@@ -20062,7 +20062,7 @@ const CATALOG_DATA = [
     "note_globale": 7,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -23049,7 +23049,7 @@ const CATALOG_DATA = [
     "note_globale": 6.8,
     "etoiles": 3,
     "categories": [
-      "comedie"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -24969,7 +24969,7 @@ const CATALOG_DATA = [
     "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
-      "comedie"
+      "animation_famille"
     ],
     "raw_genres": [
       "cmy",
@@ -25910,7 +25910,7 @@ const CATALOG_DATA = [
     "note_globale": 6.8,
     "etoiles": 3,
     "categories": [
-      "horreur_epouvante"
+      "thriller_policier"
     ],
     "raw_genres": [
       "crm",
@@ -26886,7 +26886,7 @@ const CATALOG_DATA = [
     "note_globale": 6.8,
     "etoiles": 3,
     "categories": [
-      "comedie"
+      "thriller_policier"
     ],
     "raw_genres": [
       "act",
@@ -33429,7 +33429,7 @@ const CATALOG_DATA = [
     "note_globale": 6.2,
     "etoiles": 3,
     "categories": [
-      "comedie"
+      "animation_famille"
     ],
     "raw_genres": [
       "cmy",
@@ -33478,7 +33478,7 @@ const CATALOG_DATA = [
     "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
-      "comedie"
+      "animation_famille"
     ],
     "raw_genres": [
       "cmy",
@@ -35132,7 +35132,7 @@ const CATALOG_DATA = [
     "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
-      "comedie"
+      "animation_famille"
     ],
     "raw_genres": [
       "cmy",
@@ -38813,7 +38813,7 @@ const CATALOG_DATA = [
     "note_globale": 8.6,
     "etoiles": 5,
     "categories": [
-      "horreur_epouvante"
+      "thriller_policier"
     ],
     "raw_genres": [
       "crm",
@@ -41851,7 +41851,7 @@ const CATALOG_DATA = [
     "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
-      "horreur_epouvante"
+      "thriller_policier"
     ],
     "raw_genres": [
       "crm",
@@ -45116,7 +45116,7 @@ const CATALOG_DATA = [
     "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -47221,7 +47221,7 @@ const CATALOG_DATA = [
     "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "thriller_policier"
     ],
     "raw_genres": [
       "crm",
@@ -47456,7 +47456,7 @@ const CATALOG_DATA = [
     "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "thriller_policier"
     ],
     "raw_genres": [
       "crm",
@@ -48654,7 +48654,7 @@ const CATALOG_DATA = [
     "note_globale": 7,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "thriller_policier"
     ],
     "raw_genres": [
       "crm",
@@ -50169,7 +50169,7 @@ const CATALOG_DATA = [
     "note_globale": 7,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "thriller_policier"
     ],
     "raw_genres": [
       "crm",
@@ -50925,7 +50925,7 @@ const CATALOG_DATA = [
     "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "thriller_policier"
     ],
     "raw_genres": [
       "act",
@@ -57412,7 +57412,7 @@ const CATALOG_DATA = [
     "note_globale": 6.6,
     "etoiles": 3,
     "categories": [
-      "comedie"
+      "animation_famille"
     ],
     "raw_genres": [
       "act",
@@ -58505,7 +58505,7 @@ const CATALOG_DATA = [
     "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
-      "comedie"
+      "animation_famille"
     ],
     "raw_genres": [
       "cmy",
@@ -61374,7 +61374,7 @@ const CATALOG_DATA = [
     "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
-      "comedie"
+      "animation_famille"
     ],
     "raw_genres": [
       "cmy",
@@ -63972,7 +63972,7 @@ const CATALOG_DATA = [
     "note_globale": 8.2,
     "etoiles": 5,
     "categories": [
-      "comedie"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -66129,7 +66129,7 @@ const CATALOG_DATA = [
     "note_globale": 6.7,
     "etoiles": 3,
     "categories": [
-      "horreur_epouvante"
+      "thriller_policier"
     ],
     "raw_genres": [
       "crm",
@@ -66624,7 +66624,7 @@ const CATALOG_DATA = [
     "note_globale": 7.1,
     "etoiles": 4,
     "categories": [
-      "comedie"
+      "animation_famille"
     ],
     "raw_genres": [
       "cmy",
