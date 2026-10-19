@@ -270,5 +270,295 @@
     "titre": "Blackout Mission",
     "category": "action_aventure",
     "justification": "L'alliance d'un assassin et d'un agent de la DEA contre une organisation cyberterroriste suggère une dominante de combats, fusillades et spectaculaire cinétique typique de l'action."
+  },
+  "jw-tm1506831": {
+    "titre": "Monster Summer",
+    "category": "horreur_epouvante",
+    "justification": "Le synopsis évoque une force mystérieuse menaçant des enfants et une île, avec des genres bruts incluant l'horreur et le thriller, orientant le récit vers la survie et l'effroi plutôt que vers un concept de science-fiction."
+  },
+  "jw-tm1372859": {
+    "titre": "T.I.M.",
+    "category": "scifi_fantastique",
+    "justification": "Le cœur du récit repose sur une intelligence artificielle humanoïde développant une obsession, un concept d'anticipation technologique prédominant plutôt qu'un film d'épouvante pur."
+  },
+  "jw-tm327126": {
+    "titre": "Radius",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose sur un phénomène scientifique inexpliqué (un rayon mortel émanant du protagoniste) et sur le mystère de son origine, plutôt que sur une volonté de terrifier par l'horreur viscérale."
+  },
+  "jw-tm350171": {
+    "titre": "Curvature",
+    "category": "scifi_fantastique",
+    "justification": "Le récit est centré sur une machine à voyager dans le temps et une boucle temporelle, avec une tension psychologique mais sans terreur viscérale ni éléments d'épouvante prédominants."
+  },
+  "jw-tm166714": {
+    "titre": "Hansel & Gretel : Witch Hunters",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur la traque sanglante de sorcières diaboliques, la sorcellerie macabre et des sacrifices d'enfants, plaçant la terreur et l'horreur au cœur de l'intrigue plutôt que la science-fiction."
+  },
+  "jw-ts37810": {
+    "titre": "Les Chroniques de Shannara",
+    "category": "scifi_fantastique",
+    "justification": "Bien que des démons et forces obscures soient présents, le cœur du récit est une quête fantastique post-apocalyptique avec des éléments de science-fiction (extinction de la civilisation, arbre protecteur magique), sans terreur viscérale prédominante."
+  },
+  "jw-ts20606": {
+    "titre": "Grimm",
+    "category": "scifi_fantastique",
+    "justification": "Grimm repose avant tout sur un univers fantastique de créatures mythologiques et de chasseurs surnaturels, sans que la terreur viscérale ou l'épouvante pure ne soit le cœur du récit."
+  },
+  "jw-ts341651": {
+    "titre": "The Walking Dead : Dead City",
+    "category": "horreur_epouvante",
+    "justification": "The Walking Dead : Dead City repose avant tout sur la survie face à des zombies et un monde post-apocalyptique empli de terreur, ce qui en fait une œuvre d'horreur épouvante plutôt que de science-fiction."
+  },
+  "jw-tm36606": {
+    "titre": "Cloverfield",
+    "category": "horreur_epouvante",
+    "justification": "Cloverfield est avant tout un film de survie et de terreur viscérale face à un monstre attaquant New York, avec une mise en scène immersive visant à effrayer plutôt qu'à explorer un concept de science-fiction."
+  },
+  "jw-tm1650093": {
+    "titre": "Osiris",
+    "category": "scifi_fantastique",
+    "justification": "L'enlèvement par un vaisseau spatial et la poursuite par une race extraterrestre placent le récit au cœur de la science-fiction, malgré une tension horrifique secondaire."
+  },
+  "jw-tm1465677": {
+    "titre": "Les Linceuls",
+    "category": "scifi_fantastique",
+    "justification": "Le cœur du récit repose sur une technologie d'anticipation (GraveTech) permettant de communiquer avec les défunts, un concept de science-fiction prédominant sur toute visée horrifique."
+  },
+  "jw-ts434037": {
+    "titre": "Revival",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose sur un phénomène fantastique de résurrection mystérieuse et une intrigue policière, sans terreur viscérale ni menace monstrueuse, ce qui en fait avant tout une œuvre d'anticipation/fantastique."
+  },
+  "jw-tm26945": {
+    "titre": "Inland Empire",
+    "category": "horreur_epouvante",
+    "justification": "Inland Empire est un cauchemar psychologique surréaliste de David Lynch, imprégné de terreur onirique et d'angoisse, sans cœur de récit SF ou fantastique structuré."
+  },
+  "jw-tm1522048": {
+    "titre": "Else",
+    "category": "horreur_epouvante",
+    "justification": "L'intrigue repose sur une menace monstrueuse et la survie du couple face à une épidémie terrifiante, avec une esthétique de body horror et de claustration typique de l'épouvante."
+  },
+  "jw-tm1291419": {
+    "titre": "Piper, le joueur de flûte",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur un esprit vengeur et une malédiction punissant les parents, avec une atmosphère de terreur et de surnaturel macabre typique de l'épouvante."
+  },
+  "jw-tm370408": {
+    "titre": "7 Guardians of the Tomb",
+    "category": "horreur_epouvante",
+    "justification": "Le synopsis repose sur la libération d'un cauchemar millénaire et d'une momie maudite, avec une prédominance de la terreur et de la survie face à une menace surnaturelle plutôt que sur un concept de science-fiction."
+  },
+  "jw-tm358770": {
+    "titre": "Paradise Hills",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose sur un sanatorium privé où l'on supprime l'esprit, un concept d'anticipation technologique et de contrôle mental qui prime sur la terreur viscérale."
+  },
+  "jw-tm1133844": {
+    "titre": "Pussy Cake",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur la survie face à des zombies dans une ville déserte, un motif classique d'horreur épouvante, la composante SF étant marginale."
+  },
+  "jw-tm285059": {
+    "titre": "Enlèvement",
+    "category": "horreur_epouvante",
+    "justification": "Le synopsis oriente vers une découverte sinistre et terrifiante lors d'une enquête, avec des genres bruts dominés par l'horreur et le thriller, la composante SF restant secondaire."
+  },
+  "jw-tm1300496": {
+    "titre": "La Chose derrière la porte",
+    "category": "horreur_epouvante",
+    "justification": "Le recours à la magie noire pour faire revenir un défunt et le prix terrible à payer inscrivent le récit dans une terreur surnaturelle et macabre typique de l'épouvante."
+  },
+  "jw-tm973372": {
+    "titre": "Nope",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose avant tout sur un mystère cosmique/scientifique (une entité extraterrestre dans le ciel) et une intrigue d'anticipation, la terreur n'étant qu'un ressort secondaire."
+  },
+  "jw-tm70179": {
+    "titre": "Chambre 1408",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur la terreur paranormale et la survie dans une chambre hantée, sans élément de science-fiction ou d'anticipation technologique."
+  },
+  "jw-tm939539": {
+    "titre": "M3GAN",
+    "category": "horreur_epouvante",
+    "justification": "Bien que le postulat repose sur une poupée dotée d'intelligence artificielle, le récit bascule rapidement dans la terreur et le slasher avec une créature protectrice devenue meurtrière, faisant de l'horreur la véritable expérience dominante."
+  },
+  "jw-tm1076773": {
+    "titre": "Le Dernier Voyage du Demeter",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur une présence maléfique nocturne décimant l'équipage, avec une atmosphère de terreur et de survie face à une entité surnaturelle, sans élément de science-fiction prédominant."
+  },
+  "jw-tm1292243": {
+    "titre": "Le règne animal",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose avant tout sur une prémisse de science-fiction (mutations génétiques transformant les humains en animaux) et explore des thèmes d'anticipation et de drame familial, sans chercher à terrifier par l'horreur viscérale."
+  },
+  "jw-tm854100": {
+    "titre": "Lucky",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur une traque menaçante et la terreur d'une figure masquée, sans aucun élément de science-fiction ou de fantastique."
+  },
+  "jw-tm322680": {
+    "titre": "Muse",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur des cauchemars prémonitoires, un rituel macabre et des créatures terrifiantes, avec une ambiance de terreur et de mystère horrifique dominante."
+  },
+  "jw-tm315727": {
+    "titre": "Glass",
+    "category": "scifi_fantastique",
+    "justification": "Glass explore des super-héros et des capacités surhumaines dans une intrigue de thriller psychologique et de science-fiction, sans que la terreur viscérale soit le cœur du récit."
+  },
+  "jw-ts88216": {
+    "titre": "Creepshow",
+    "category": "horreur_epouvante",
+    "justification": "Creepshow est une anthologie d'histoires terrifiantes inspirées de bandes dessinées d'horreur, dont le cœur du récit vise avant tout à effrayer et à choquer par l'épouvante."
+  },
+  "jw-tm136806": {
+    "titre": "Thirst, ceci est mon sang",
+    "category": "horreur_epouvante",
+    "justification": "Le récit est centré sur la transformation vampirique et la soif de sang, avec une atmosphère de terreur et de désir macabre, plutôt que sur un concept de science-fiction prédominant."
+  },
+  "jw-tm1255573": {
+    "titre": "Monolith",
+    "category": "scifi_fantastique",
+    "justification": "Le récit gravite autour d'un artefact mystérieux et d'une conspiration, relevant davantage du mystère scientifique/fantastique que de la terreur viscérale."
+  },
+  "jw-tm372729": {
+    "titre": "Await further instructions",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose sur un mystère d'anticipation (matière noire, instructions télévisées sibyllines) qui relève d'un concept de science-fiction oppressant plutôt que d'une terreur viscérale ou surnaturelle."
+  },
+  "jw-tm124345": {
+    "titre": "La conspiration du diable",
+    "category": "horreur_epouvante",
+    "justification": "Malgré la technologie de clonage, le cœur du récit repose sur une secte satanique, l'archange Michael et Lucifer, avec une lutte contre les forces du Mal et une possession démoniaque, ce qui en fait avant tout un film d'horreur épouvante."
+  },
+  "jw-tm1588246": {
+    "titre": "Redux Redux",
+    "category": "scifi_fantastique",
+    "justification": "Le voyage entre univers parallèles et la répétition du meurtre constituent le moteur science-fictionnel du récit, la vengeance et la haine relevant davantage du thriller dramatique que de l'épouvante."
+  },
+  "jw-tm984871": {
+    "titre": "The Innocents",
+    "category": "horreur_epouvante",
+    "justification": "Les pouvoirs des enfants servent avant tout à instaurer une tension croissante et une terreur psychologique, avec des genres bruts dominés par l'horreur et le thriller."
+  },
+  "jw-tm1110157": {
+    "titre": "The Nocebo Effect",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur une maladie mystérieuse et une nurse aux pratiques traditionnelles révélant une origine terrifiante, ancrant l'œuvre dans la terreur et le surnaturel macabre plutôt que dans la science-fiction."
+  },
+  "jw-tm242838": {
+    "titre": "La région sauvage",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose sur une créature mystérieuse étudiée par des chercheurs, dont le pouvoir irrésistible relève davantage d'un concept fantastique/SF que d'une pure terreur viscérale."
+  },
+  "jw-tm431948": {
+    "titre": "Starfish",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose sur un mystérieux puzzle et une fin du monde imminente, ancrant l'œuvre dans l'anticipation et le mystère scientifique plutôt que dans la terreur pure."
+  },
+  "jw-tm1009151": {
+    "titre": "Loop Track",
+    "category": "horreur_epouvante",
+    "justification": "Le synopsis décrit une lutte pour la survie dans un environnement isolé avec un sentiment de traque, ce qui correspond à la terreur et à la survie face à une menace, sans élément de science-fiction prédominant."
+  },
+  "jw-tm311993": {
+    "titre": "Avant que nous disparaissions",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose sur un mystère scientifique/fantastique (transformation inexplicable de Shinji, phénomènes étranges) plutôt que sur une terreur viscérale, malgré la présence d'un meurtre brutal."
+  },
+  "jw-tm1064197": {
+    "titre": "Lamb",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose sur un élément fantastique (un enfant mi-humain mi-agneau) et une ambiance de conte nordique, sans chercher à terrifier par le gore ou la peur viscérale."
+  },
+  "jw-tm159220": {
+    "titre": "Under the Skin",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose avant tout sur une prémisse de science-fiction (une extraterrestre en mission sur Terre) et explore des thèmes d'altérité et d'identité, la terreur n'étant qu'un effet secondaire de son mode opératoire."
+  },
+  "jw-tm1436222": {
+    "titre": "Things Will Be Different",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose avant tout sur une distorsion temporelle (passage vers une autre époque) servant de ressort d'anticipation, sans terreur viscérale prédominante."
+  },
+  "jw-tm1533661": {
+    "titre": "Jimmy and Stiggs",
+    "category": "scifi_fantastique",
+    "justification": "Le synopsis repose sur un enlèvement extraterrestre et une vengeance contre les aliens, un ressort de science-fiction, sans indication d'une visée terrorisante prédominante."
+  },
+  "jw-tm1424449": {
+    "titre": "Hérésie",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur la suspicion de sorcellerie, un pacte avec le diable et une ambiance de terreur villageoise médiévale, caractéristiques de l'horreur plutôt que de la science-fiction."
+  },
+  "jw-ts84952": {
+    "titre": "Priest",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur des esprits maléfiques, un exorciste et des attaques démoniaques, plaçant la terreur surnaturelle au cœur de l'intrigue plutôt que la science-fiction."
+  },
+  "jw-tm1498061": {
+    "titre": "Somnium",
+    "category": "horreur_epouvante",
+    "justification": "Malgré un concept SF de rêves rendus réels, le synopsis insiste sur les cauchemars permanents, hallucinations et paranoïa, orientant le récit vers la terreur viscérale et l'épouvante."
+  },
+  "jw-tm1385069": {
+    "titre": "La Espera",
+    "category": "horreur_epouvante",
+    "justification": "Le synopsis décrit une descente aux enfers macabre et une série de tragédies visant à terrifier, sans aucun élément de science-fiction ou de fantastique."
+  },
+  "jw-tm1280008": {
+    "titre": "#No_Filter",
+    "category": "horreur_epouvante",
+    "justification": "Le synopsis décrit une soirée qui vire au cauchemar pour une influenceuse seule chez elle, ce qui relève d'une intrigue de terreur et de survie sans aucun élément de science-fiction ou de fantastique."
+  },
+  "jw-tm1398088": {
+    "titre": "Frogman",
+    "category": "horreur_epouvante",
+    "justification": "Le film exploite la légende de Frogman comme une créature terrifiante dans un contexte de found footage horrifique, visant avant tout à effrayer plutôt qu'à explorer un concept de science-fiction."
+  },
+  "jw-tm463018": {
+    "titre": "Depraved",
+    "category": "horreur_epouvante",
+    "justification": "Le récit de création d'un être à partir de morceaux de cadavres relève avant tout de l'horreur corporelle et de la monstruosité, dans la lignée de Frankenstein, plutôt que d'une anticipation scientifique ou technologique."
+  },
+  "jw-tm424065": {
+    "titre": "DreadOut",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur un immeuble hanté et l'ouverture d'un portail vers l'enfer, avec une visée de terreur et de surnaturel macabre typique de l'épouvante."
+  },
+  "jw-tm1361935": {
+    "titre": "My Mother's Eyes",
+    "category": "horreur_epouvante",
+    "justification": "Le récit d'une vision commune terrifiante après un accident oculaire relève d'une atmosphère d'épouvante et de surnaturel horrifique plutôt que d'une intrigue de science-fiction dominante."
+  },
+  "jw-tm1021755": {
+    "titre": "Howard's Mill",
+    "category": "horreur_epouvante",
+    "justification": "Ce faux documentaire sur des disparitions inexpliquées dans une ferme du Tennessee repose avant tout sur une atmosphère de terreur et de mystère macabre, avec une touche SF secondaire."
+  },
+  "jw-tm1188875": {
+    "titre": "Urban Myths",
+    "category": "horreur_epouvante",
+    "justification": "Le film explore des terreurs quotidiennes et des phénomènes inquiétants dans des lieux familiers, s'inscrivant clairement dans l'horreur plutôt que dans la science-fiction."
+  },
+  "jw-tm1229281": {
+    "titre": "La Pietà",
+    "category": "horreur_epouvante",
+    "justification": "Le récit explore une relation fusionnelle et toxique qui bascule vers une version sombre et malsaine, relevant davantage de la terreur psychologique et de l'horreur intime que de la science-fiction."
+  },
+  "jw-tm312979": {
+    "titre": "Sans un bruit",
+    "category": "horreur_epouvante",
+    "justification": "Le film repose avant tout sur la survie terrifiante face à des créatures carnassières et la tension viscérale du silence, caractéristiques de l'horreur épouvante malgré un léger vernis de science-fiction."
+  },
+  "jw-tm1287858": {
+    "titre": "Arcadian",
+    "category": "horreur_epouvante",
+    "justification": "Le récit est centré sur la survie nocturne face à des créatures féroces et la terreur qu'elles inspirent, avec une ambiance de monstres et de tension viscérale typique de l'horreur, la science-fiction n'étant qu'un cadre post-apocalyptique secondaire."
   }
 }

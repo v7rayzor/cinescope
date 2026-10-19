@@ -60,6 +60,20 @@ const JustWatchEngine = (function () {
     return aiDuelCache;
   }
 
+  // Vérifie si une entrée de cache IA est légitime selon le type de duel
+  function isEligibleDuelEntry(raw, duelCategory) {
+    if (!raw || !duelCategory) return false;
+    // Duel 1 : Purs duels Action vs Thriller
+    if (duelCategory === 'action_aventure' || duelCategory === 'thriller_policier') {
+      return raw.includes('act') && raw.includes('trl') && !raw.some(g => ['cmy', 'hrr', 'scf', 'fnt', 'ani', 'doc'].includes(g));
+    }
+    // Duel 2 : Purs duels Horreur vs Science-Fiction / Fantastique
+    if (duelCategory === 'scifi_fantastique' || duelCategory === 'horreur_epouvante') {
+      return raw.includes('hrr') && (raw.includes('scf') || raw.includes('fnt')) && !raw.some(g => ['cmy', 'ani', 'doc'].includes(g));
+    }
+    return false;
+  }
+
   // Configuration des bouquets et packages JustWatch France avec logos officiels
   const PACKAGES_CONFIG = {
     // Bouquets SVOD Payants (CinéScope standard & mobile)
@@ -301,13 +315,20 @@ const JustWatchEngine = (function () {
   }
 
   // Attribution de la catégorie unique dominante via Système Déterministe Hiérarchique avec Harnais de Cohérence
-  function computeCategory(genres, isSerie = false, title = '', synopsis = '', ageCertification = '', year = null, packages = []) {
+  function computeCategory(genres, isSerie = false, title = '', synopsis = '', ageCertification = '', year = null, packages = [], itemId = null) {
     if (!genres || !Array.isArray(genres) || genres.length === 0) {
       return 'drame_emotion';
     }
 
     const rawTags = genres.map(normalizeTag).filter(Boolean);
     if (!rawTags.length) return 'drame_emotion';
+
+    // Prise en compte prioritaire du duel IA ciblé si l'œuvre est éligible
+    if (itemId && aiDuelCache[itemId] && aiDuelCache[itemId].category) {
+      if (isEligibleDuelEntry(rawTags, aiDuelCache[itemId].category)) {
+        return aiDuelCache[itemId].category;
+      }
+    }
 
     const cleanText = ((title || '') + ' ' + (synopsis || ''))
       .normalize('NFD')
@@ -875,7 +896,7 @@ const JustWatchEngine = (function () {
       note_recence: noteRecence,
       note_globale: noteGlobale,
       etoiles: etoiles,
-      categories: [computeCategory(c.genres, isSerie, c.title, c.shortDescription, c.ageCertification, refYearForRecence, matchedPackages)],
+      categories: [computeCategory(c.genres, isSerie, c.title, c.shortDescription, c.ageCertification, refYearForRecence, matchedPackages, titleNode.id)],
       raw_genres: (c.genres || []).map(normalizeTag).filter(Boolean),
       badge: badge,
       is_eligible: true,
@@ -1015,11 +1036,11 @@ const JustWatchEngine = (function () {
         continue;
       }
       if (refreshed.raw_genres && refreshed.raw_genres.length > 0) {
-        const hasExcludedDuelGenre = refreshed.raw_genres.some(g => ['cmy', 'hrr', 'scf', 'fnt', 'ani', 'doc'].includes(g));
-        if (!hasExcludedDuelGenre && refreshed.id && aiDuelCache[refreshed.id] && aiDuelCache[refreshed.id].category) {
-          refreshed.categories = [aiDuelCache[refreshed.id].category];
+        const cachedDuel = refreshed.id && aiDuelCache[refreshed.id];
+        if (cachedDuel && isEligibleDuelEntry(refreshed.raw_genres, cachedDuel.category)) {
+          refreshed.categories = [cachedDuel.category];
         } else {
-          refreshed.categories = [computeCategory(refreshed.raw_genres, refreshed.type === 'serie', refreshed.titre, refreshed.synopsis, refreshed.badge, refreshed.annee, refreshed.package_slugs)];
+          refreshed.categories = [computeCategory(refreshed.raw_genres, refreshed.type === 'serie', refreshed.titre, refreshed.synopsis, refreshed.badge, refreshed.annee, refreshed.package_slugs, refreshed.id)];
         }
       }
       refreshed.on_prime = Boolean(refreshed.on_prime || isKnownPrimeTitle(refreshed.titre));
@@ -1038,9 +1059,9 @@ const JustWatchEngine = (function () {
       if (fresh.raw_genres && fresh.raw_genres.includes('rly')) {
         continue;
       }
-      const freshHasExcluded = fresh.raw_genres && fresh.raw_genres.some(g => ['cmy', 'hrr', 'scf', 'fnt', 'ani', 'doc'].includes(g));
-      if (!freshHasExcluded && fresh.id && aiDuelCache[fresh.id] && aiDuelCache[fresh.id].category) {
-        fresh.categories = [aiDuelCache[fresh.id].category];
+      const freshCachedDuel = fresh.id && aiDuelCache[fresh.id];
+      if (freshCachedDuel && isEligibleDuelEntry(fresh.raw_genres, freshCachedDuel.category)) {
+        fresh.categories = [freshCachedDuel.category];
       }
       const key = getDeduplicationKey(fresh) || fresh.id;
       if (map.has(key)) {

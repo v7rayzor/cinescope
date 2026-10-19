@@ -8110,7 +8110,7 @@ const CATALOG_DATA = [
     "titre": "T.I.M.",
     "type": "film",
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "annee": 2023,
     "chaine": "Universal+",
@@ -8302,7 +8302,7 @@ const CATALOG_DATA = [
     "titre": "Radius",
     "type": "film",
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "annee": 2017,
     "chaine": "Universal+",
@@ -8494,7 +8494,7 @@ const CATALOG_DATA = [
     "titre": "Curvature",
     "type": "film",
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "annee": 2017,
     "chaine": "Universal+",
@@ -16054,7 +16054,7 @@ const CATALOG_DATA = [
     "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "act",
@@ -17001,7 +17001,7 @@ const CATALOG_DATA = [
     "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "drm",
@@ -17460,7 +17460,7 @@ const CATALOG_DATA = [
     "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "act",
@@ -17857,7 +17857,7 @@ const CATALOG_DATA = [
     "note_globale": 6.1,
     "etoiles": 3,
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "raw_genres": [
       "drm",
@@ -20646,7 +20646,7 @@ const CATALOG_DATA = [
     "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "raw_genres": [
       "drm",
@@ -37174,7 +37174,7 @@ const CATALOG_DATA = [
     "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "hrr",
@@ -43451,7 +43451,7 @@ const CATALOG_DATA = [
     "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "drm",
@@ -43777,7 +43777,7 @@ const CATALOG_DATA = [
     "note_globale": 6.3,
     "etoiles": 3,
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "hrr",
@@ -45675,7 +45675,7 @@ const CATALOG_DATA = [
     "note_globale": 6.6,
     "etoiles": 3,
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "drm",
@@ -48420,7 +48420,7 @@ const CATALOG_DATA = [
     "note_globale": 6.6,
     "etoiles": 3,
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "drm",
@@ -49113,7 +49113,7 @@ const CATALOG_DATA = [
     "note_globale": 6.8,
     "etoiles": 3,
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "drm",
@@ -49597,7 +49597,7 @@ const CATALOG_DATA = [
     "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "drm",
@@ -49646,7 +49646,7 @@ const CATALOG_DATA = [
     "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "drm",
@@ -50398,7 +50398,7 @@ const CATALOG_DATA = [
     "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "hrr",
@@ -51621,7 +51621,7 @@ const CATALOG_DATA = [
     "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "hrr",
@@ -62736,7 +62736,7 @@ const CATALOG_DATA = [
     "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
-      "scifi_fantastique"
+      "horreur_epouvante"
     ],
     "raw_genres": [
       "fnt",

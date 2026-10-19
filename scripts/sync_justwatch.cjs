@@ -243,15 +243,17 @@ async function resolveAmbiguousTitlesWithAI(items) {
   const cache = loadAiCache();
   const toResolve = [];
 
-  const EXCLUDED_GENRES_FOR_DUEL = ['cmy', 'hrr', 'scf', 'fnt', 'ani', 'doc'];
   for (const item of items) {
+    if (cache[item.id]) continue;
     const raw = item.raw_genres || [];
-    // Strictement réservé aux purs duels 50/50 Action vs Thriller
-    // Ne jamais déclencher si l'œuvre possède un genre souverain (Comédie, Horreur, SF/Fantastique, Animation, Docu)
-    if (raw.includes('act') && raw.includes('trl') && !raw.some(g => EXCLUDED_GENRES_FOR_DUEL.includes(g))) {
-      if (!cache[item.id]) {
-        toResolve.push(item);
-      }
+
+    // Duel 1 : Purs duels 50/50 Action vs Thriller (hors comédie, horreur, sf, animation, doc)
+    if (raw.includes('act') && raw.includes('trl') && !raw.some(g => ['cmy', 'hrr', 'scf', 'fnt', 'ani', 'doc'].includes(g))) {
+      toResolve.push({ item, duelType: 'action_vs_thriller' });
+    }
+    // Duel 2 : Purs duels 50/50 Horreur vs Science-Fiction / Fantastique (hors comédie, animation, doc)
+    else if (raw.includes('hrr') && (raw.includes('scf') || raw.includes('fnt')) && !raw.some(g => ['cmy', 'ani', 'doc'].includes(g))) {
+      toResolve.push({ item, duelType: 'horror_vs_scifi' });
     }
   }
 
@@ -260,11 +262,13 @@ async function resolveAmbiguousTitlesWithAI(items) {
     return;
   }
 
-  console.log(`\n🤖 Arbitrage IA DeepSeek requis pour ${toResolve.length} nouvelle(s) œuvre(s) hybride(s) (Action vs Thriller)...`);
+  console.log(`\n🤖 Arbitrage IA DeepSeek requis pour ${toResolve.length} nouvelle(s) œuvre(s) hybride(s)...`);
 
-  for (const item of toResolve) {
+  for (const { item, duelType } of toResolve) {
     try {
-      const prompt = `Tu es l'expert cinéphile en charge de la qualification de la filmothèque CinéScope.
+      let prompt = '';
+      if (duelType === 'action_vs_thriller') {
+        prompt = `Tu es l'expert cinéphile en charge de la qualification de la filmothèque CinéScope.
 Chaque œuvre doit être classée dans UNE SEULE catégorie dominante selon la règle stricte du catalogue :
 
 - "action_aventure" : Si l'œuvre est dominée par l'action cinétique, les combats physiques (arts martiaux, corps à corps), les fusillades intenses, les poursuites nerveuses et le spectaculaire (ex: The Raid, John Wick, Die Hard, Taken).
@@ -284,6 +288,28 @@ Réponds STRICTEMENT sous forme d'un objet JSON valide sans markdown :
   "thriller_score": <nombre entre 0 et 100>,
   "justification": "<Explication concise en 1 phrase>"
 }`;
+      } else {
+        prompt = `Tu es l'expert cinéphile en charge de la qualification de la filmothèque CinéScope.
+Chaque œuvre doit être classée dans UNE SEULE catégorie dominante selon la règle stricte du catalogue :
+
+- "scifi_fantastique" : Si le cœur du récit repose sur la science-fiction, l'anticipation technologique, l'intelligence artificielle ou la robotique (ex: T.I.M., Ex Machina), le voyage dans le temps ou distorsion temporelle (ex: Curvature, Things Will Be Different), l'exploration spatiale, les super-héros, ou un mystère cosmique/scientifique prédominant.
+- "horreur_epouvante" : Si le cœur du récit repose sur la terreur viscérale, la peur, le gore, le slasher, les créatures carnassières, la possession, les démons, les vampires/sorcellerie macabre, ou la survie face à des monstres/zombies (ex: The Walking Dead, Sans un bruit, Cloverfield).
+
+RÈGLE D'OR : ÉVITER ABSOLUMENT LES CONTRESENS. Si l'œuvre est avant tout une intrigue d'anticipation, d'IA, d'univers fantastique ou de concept SF sans être un pur film d'épouvante, choisis "scifi_fantastique". Si l'œuvre cherche d'abord à effrayer et terroriser par l'horreur, choisis "horreur_epouvante".
+
+Œuvre à départager :
+Titre : "${item.titre}" (${item.annee || ''}) [Type: ${item.type || 'film'}, Durée: ${item.duree || ''}]
+Synopsis : "${item.synopsis || 'N/A'}"
+Genres bruts : ${JSON.stringify(item.raw_genres || [])}
+
+Réponds STRICTEMENT sous forme d'un objet JSON valide sans markdown :
+{
+  "choix": "scifi_fantastique" OU "horreur_epouvante",
+  "scifi_score": <nombre entre 0 et 100>,
+  "horreur_score": <nombre entre 0 et 100>,
+  "justification": "<Explication concise en 1 phrase>"
+}`;
+      }
 
       const res = await fetch('https://api.deepseek.com/chat/completions', {
         method: 'POST',
@@ -308,13 +334,17 @@ Réponds STRICTEMENT sous forme d'un objet JSON valide sans markdown :
       const cleanJson = rawText.replace(/```json/g, '').replace(/```/g, '').trim();
       const parsed = JSON.parse(cleanJson);
 
-      if (parsed.choix === 'action_aventure' || parsed.choix === 'thriller_policier') {
+      const validChoices = duelType === 'action_vs_thriller'
+        ? ['action_aventure', 'thriller_policier']
+        : ['scifi_fantastique', 'horreur_epouvante'];
+
+      if (validChoices.includes(parsed.choix)) {
         cache[item.id] = {
           titre: item.titre,
           category: parsed.choix,
           justification: parsed.justification
         };
-        console.log(`  🎯 [DeepSeek] "${item.titre}" ➡️ ${parsed.choix} (${parsed.justification})`);
+        console.log(`  🎯 [DeepSeek ${duelType}] "${item.titre}" ➡️ ${parsed.choix} (${parsed.justification})`);
       }
     } catch (err) {
       console.warn(`  ⚠️ Erreur analyse DeepSeek pour "${item.titre}":`, err.message);
