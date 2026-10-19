@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.80** / Cache **cinescope-v8.80-streaming**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.83** / Cache **cinescope-v8.83-streaming**).
 
 ---
 
@@ -42,17 +42,17 @@ Ce document constitue la référence vivante et synthétique de l'architecture, 
 
 ---
 
-## 2. Règles Métier & Arbitrages Algorithmiques (v8.75)
+## 2. Règles Métier & Arbitrages Algorithmiques (v8.83)
 
 ### A. Règle Fondamentale : 1 Titre = 1 Catégorie Dominante Unique
 Chaque film ou série est qualifié dans **strictement une seule** des 7 catégories officielles :
-1. `drame_emotion` : Drames profonds, romances d'auteur, biopics, drames historiques/sociaux (446 œuvres).
-2. `comedie` : Comédies pures, comédies romantiques, comédies policières, parodies et satires (351 œuvres).
-3. `horreur_epouvante` : Slashers, épouvante, body horror, démons/possession, monstres, gore (192 œuvres).
-4. `thriller_policier` : Polars, enquêtes policières, espionnage, machinations, thrillers criminels (135 œuvres).
-5. `animation_famille` : Films et séries d'animation, aventures jeunesse, contes familiaux (127 œuvres).
-6. `scifi_fantastique` : Science-fiction, space opera, anticipation, cyborgs, mondes magiques (97 œuvres).
-7. `action_aventure` : Action grand spectacle, westerns d'action, survie, guerre, arts martiaux (83 œuvres).
+1. `drame_emotion` : Drames profonds, romances d'auteur, biopics, drames historiques/sociaux (399 œuvres).
+2. `comedie` : Comédies pures, comédies romantiques, comédies policières, parodies et satires (301 œuvres).
+3. `horreur_epouvante` : Slashers, épouvante, body horror, démons/possession, monstres, gore (224 œuvres).
+4. `thriller_policier` : Polars, enquêtes policières, espionnage, machinations, thrillers criminels (179 œuvres).
+5. `scifi_fantastique` : Science-fiction, space opera, anticipation, cyborgs, mondes magiques (147 œuvres).
+6. `animation_famille` : Films et séries d'animation, aventures jeunesse, contes familiaux (99 œuvres).
+7. `action_aventure` : Action grand spectacle, westerns d'action, survie, guerre, arts martiaux (65 œuvres).
 
 ### B. Retour au Système de Calcul Déterministe du 17/10/2026 & Archivage IA (v8.78)
 * **Rétablissement du Moteur Algorithmique Déterministe Purement Souverain** :
@@ -80,9 +80,14 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - Priorité souveraine à l'Action (`action_aventure`) sur le Thriller (`thriller_policier`) lorsque l'œuvre cumule `act` + `trl`, **sauf si le tag Crime (`crm`) est présent**.
   - Réhabilitation immédiate de 11 purs films d'action armée et de combat physique (*Hunter Killer*, *Triple Threat*, *Stratton*, *Non-Stop*, *Final Score*, *Rogue*, *Hounds of War*, *Tokarev*, *Actes de Vengeance*, etc.).
   - Sanctuarisation absolue des séries procédurales d'enquête policière (*New York, crime organisé*, *B.R.I*) et des polars noirs/psychologiques (*The Batman*, *Drive*, *Les Lyonnais*, *Un traître idéal*) protégés par la présence formelle du tag `crm`.
-* **Souveraineté Hiérarchique de la Science-Fiction & Fantastique (v8.80)** :
-  - Éradication totale des conflits de points : dès qu'une œuvre possède le tag `scf` ou `fnt`, elle est directement et souverainement qualifiée en `scifi_fantastique` (dès lors qu'elle n'a pas été captée en amont par Animation/Famille ou Horreur).
-  - Fin définitive des faux-positifs polars/drames : un décor policier ou criminel accessoire ne peut plus voler la vedette à un univers de science-fiction (*RoboCop*, *Corrective Measures*, *The Suicide Squad*, *Battlestar Galactica : The Plan*, *Scott Pilgrim*, *Deux minutes plus tard*, etc. immédiatement sanctuarisés en SF).
+* **Verrouillage Strict du Duel IA Action vs Thriller (v8.83 - Option 2)** :
+  - **Exclusion catégorique des genres dominants** : Le duel binaire IA (`resolveAmbiguousTitlesWithAI`) est strictement interdit et neutralisé si l'œuvre possède au moins un tag de genre prioritaire : `cmy` (Comédie), `hrr` (Horreur), `scf`/`fnt` (SF/Fantastique), `ani` (Animation), `doc` (Documentaire).
+  - **Purge et assainissement du cache** : Purge chirurgicale de 11 œuvres abusivement captées dans [`data/ai_duel_cache.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_duel_cache.json) (38 duels purs restants).
+  - **Double verrou moteur** : Dans [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js), le cache IA ne peut plus court-circuiter une œuvre possédant un de ces genres dominants.
+* **Souveraineté de la Comédie & Réhabilitation Universelle (v8.83)** :
+  - **Fin de l'écrasement Comédie par Action/Crime** : Pour les longs-métrages (`!isSerie`), neutralisation des bonus contextuels polar/action qui dépassaient le score de comédie en l'absence de pastille adulte formelle (-16/-18).
+  - **Réhabilitation immédiate de 26 comédies majeures** : *Game Night*, *Ocean's 8*, *Insaisissables 2*, *Burn After Reading*, *En liberté !*, *Je fais le mort*, *Omar La Fraise*, *Amsterdam*, *Novocaïne*, *Sang Froid*, *Rock'n Chili*, *Les Nettoyeurs*, *Mi$e à prix*, *Cop Secret*, *Oranges sanguines*, etc. réintégrées avec éclat dans `comedie`.
+  - **Correction du filtre Horreur `isCyberCrime`** : Réhabilitation des purs films d'horreur/angoisse (*Cloud*, *Saýara*, *Becky*) abusivement détournés vers le thriller.
 
 ---
 

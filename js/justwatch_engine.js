@@ -353,9 +353,8 @@ const JustWatchEngine = (function () {
     // 3. Règle Horreur sanctuarisée :
     // - Tout film d'horreur ou motif strict horrifique (ex: La Chose derrière la porte, Heretic, It Comes at Night, Walking Dead, Wreck, Good Boy)
     // - Comédies d'horreur avec pastille d'âge mature -16/-18 (ex: Wreck, The Ugly Stepsister, The Trip, Satanic Panic)
-    // - Comédies d'horreur avec pastille <= -12 ou Tout Public -> exclues d'horreur (vont en comédie, ex: L'Année du requin, Coupez !, Les femmes au balcon, Reginald, Monster on a Plane)
     if (rawTags.includes('hrr') || isStrictHorror) {
-      const isCyberCrime = rawTags.includes('crm') && rawTags.includes('act') && !isStrictHorror;
+      const isCyberCrime = (cleanText.includes('hacker') || cleanText.includes('piratage') || cleanText.includes('dark web')) && rawTags.includes('crm') && rawTags.includes('act') && !isStrictHorror;
       const isDavidLynch = cleanText.includes('inland empire');
       const isShannaraFantasy = (rawTags.includes('fnt') || rawTags.includes('scf')) && (cleanText.includes('quatre terres') || cleanText.includes('shannara') || cleanText.includes('arborlon') || cleanText.includes('elfe'));
       const isSciFiFantasyHybrid = rawTags.includes('fnt') && rawTags.includes('scf') && !rawTags.includes('ani') && !isStrictHorror && !cleanText.includes('creepshow') && !cleanText.includes('cauchemar');
@@ -409,7 +408,9 @@ const JustWatchEngine = (function () {
     if (rawTags.includes('war')) scores[4] += 30;
 
     // Comédie (exclue si hybride avec limite d'âge formelle -16/-18)
-    if (rawTags.includes('cmy') && !isHybridWithAge) scores[5] += 55;
+    if (rawTags.includes('cmy') && !isHybridWithAge) {
+      scores[5] += (!isSerie && (rawTags.includes('crm') || rawTags.includes('act') || rawTags.includes('trl')) ? 95 : 55);
+    }
 
     // Drame & Romance (dans une comédie romantique, le tag romance ne neutralise pas la comédie)
     if (rawTags.includes('drm')) scores[6] += 35;
@@ -417,7 +418,7 @@ const JustWatchEngine = (function () {
     if (rawTags.includes('hst')) scores[6] += 25;
 
     // Contextuel
-    if ((POLICE_CRIME_PATTERNS.test(cleanText) || THRILLER_TENSION_PATTERNS.test(cleanText)) && (rawTags.includes('crm') || rawTags.includes('trl'))) scores[3] += 35;
+    if ((POLICE_CRIME_PATTERNS.test(cleanText) || THRILLER_TENSION_PATTERNS.test(cleanText)) && (rawTags.includes('crm') || rawTags.includes('trl')) && (!rawTags.includes('cmy') || isHybridWithAge || isSerie)) scores[3] += 35;
     if (ADVENTURE_PATTERNS.test(cleanText) && (!rawTags.includes('cmy') || isHybridWithAge)) scores[4] += 25;
     if (SCIFI_PATTERNS.test(cleanText) || (FANTASTIC_PATTERNS.test(cleanText) && (!rawTags.includes('cmy') || isHybridWithAge) && (!rawTags.includes('drm') || rawTags.includes('fnt') || rawTags.includes('scf')))) scores[2] += 40;
     if (DRAMA_INTIME_PATTERNS.test(cleanText) && (!rawTags.includes('cmy') || isHybridWithAge)) scores[6] += 35;
@@ -444,7 +445,7 @@ const JustWatchEngine = (function () {
     // d) Polar sérieux / Braquage / Cyber-polar / Mafia / Dette de jeu / Homicide / Tension psychologique -> Thriller (hors parodie pure)
     // Règle universelle : une oeuvre de SF ('scf') ou Fantastique ('fnt') ne reçoit le bonus polar QUE si elle possède formellement le tag Crime ('crm')
     if (rawTags.includes('crm') || (rawTags.includes('trl') && (POLICE_CRIME_PATTERNS.test(cleanText) || THRILLER_TENSION_PATTERNS.test(cleanText)) && !rawTags.includes('scf') && !rawTags.includes('fnt'))) {
-      if ((!rawTags.includes('cmy') || isHybridWithAge || POLICE_CRIME_PATTERNS.test(cleanText) || THRILLER_TENSION_PATTERNS.test(cleanText) || isSerie) && !PARODY_PATTERNS.test(cleanText)) {
+      if ((!rawTags.includes('cmy') || isHybridWithAge || isSerie) && !PARODY_PATTERNS.test(cleanText)) {
         scores[3] += 40;
       }
     }
@@ -456,8 +457,8 @@ const JustWatchEngine = (function () {
       }
     }
 
-    // e) Action Blockbuster / Novocaïne / Spartacus / Tonnerre sous les tropiques -> Action
-    if (rawTags.includes('act') && (rawTags.includes('war') || rawTags.includes('rma') || isHybridWithAge || cleanText.includes('gladiateur') || cleanText.includes('combattant') || cleanText.includes('braquage') || (rawTags.includes('trl') && !rawTags.includes('crm') && !rawTags.includes('scf') && !POLICE_CRIME_PATTERNS.test(cleanText)))) {
+    // e) Action Blockbuster / Spartacus -> Action
+    if (rawTags.includes('act') && (!rawTags.includes('cmy') || isHybridWithAge) && (rawTags.includes('war') || rawTags.includes('rma') || isHybridWithAge || cleanText.includes('gladiateur') || cleanText.includes('combattant') || cleanText.includes('braquage') || (rawTags.includes('trl') && !rawTags.includes('crm') && !rawTags.includes('scf') && !POLICE_CRIME_PATTERNS.test(cleanText)))) {
       scores[4] += 40;
     }
     // f) Comédie dramatique d'auteur (Ollie, Vera, On ira)
@@ -1014,7 +1015,8 @@ const JustWatchEngine = (function () {
         continue;
       }
       if (refreshed.raw_genres && refreshed.raw_genres.length > 0) {
-        if (refreshed.id && aiDuelCache[refreshed.id] && aiDuelCache[refreshed.id].category) {
+        const hasExcludedDuelGenre = refreshed.raw_genres.some(g => ['cmy', 'hrr', 'scf', 'fnt', 'ani', 'doc'].includes(g));
+        if (!hasExcludedDuelGenre && refreshed.id && aiDuelCache[refreshed.id] && aiDuelCache[refreshed.id].category) {
           refreshed.categories = [aiDuelCache[refreshed.id].category];
         } else {
           refreshed.categories = [computeCategory(refreshed.raw_genres, refreshed.type === 'serie', refreshed.titre, refreshed.synopsis, refreshed.badge, refreshed.annee, refreshed.package_slugs)];
@@ -1036,7 +1038,8 @@ const JustWatchEngine = (function () {
       if (fresh.raw_genres && fresh.raw_genres.includes('rly')) {
         continue;
       }
-      if (fresh.id && aiDuelCache[fresh.id] && aiDuelCache[fresh.id].category) {
+      const freshHasExcluded = fresh.raw_genres && fresh.raw_genres.some(g => ['cmy', 'hrr', 'scf', 'fnt', 'ani', 'doc'].includes(g));
+      if (!freshHasExcluded && fresh.id && aiDuelCache[fresh.id] && aiDuelCache[fresh.id].category) {
         fresh.categories = [aiDuelCache[fresh.id].category];
       }
       const key = getDeduplicationKey(fresh) || fresh.id;

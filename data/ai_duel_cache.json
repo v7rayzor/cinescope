@@ -1,15 +1,7 @@
 {
-  "jw-tm1507724": {
-    "titre": "Cloud",
-    "category": "thriller_policier"
-  },
   "jw-tm1617353": {
     "titre": "Coka Chicas",
     "category": "thriller_policier"
-  },
-  "jw-tm305296": {
-    "titre": "Sang Froid",
-    "category": "action_aventure"
   },
   "jw-tm164056": {
     "titre": "Les Lyonnais",
@@ -17,14 +9,6 @@
   },
   "jw-tm204161": {
     "titre": "Mr Wolff",
-    "category": "thriller_policier"
-  },
-  "jw-tm266647": {
-    "titre": "Ocean's 8",
-    "category": "thriller_policier"
-  },
-  "jw-tm123158": {
-    "titre": "Insaisissables 2",
     "category": "thriller_policier"
   },
   "jw-tm1299445": {
@@ -62,10 +46,6 @@
   "jw-ts251399": {
     "titre": "New York, crime organisé",
     "category": "thriller_policier"
-  },
-  "jw-tm1570880": {
-    "titre": "Novocaïne",
-    "category": "action_aventure"
   },
   "jw-tm163491": {
     "titre": "The Raid",
@@ -119,16 +99,8 @@
     "titre": "Miss Bala",
     "category": "thriller_policier"
   },
-  "jw-tm1516738": {
-    "titre": "Les Nettoyeurs",
-    "category": "thriller_policier"
-  },
   "jw-tm373195": {
     "titre": "Agents doubles",
-    "category": "thriller_policier"
-  },
-  "jw-tm325101": {
-    "titre": "Rock'n Chili",
     "category": "thriller_policier"
   },
   "jw-tm362942": {
@@ -151,24 +123,12 @@
     "titre": "The Batman",
     "category": "thriller_policier"
   },
-  "jw-tm312967": {
-    "titre": "Game Night",
-    "category": "thriller_policier"
-  },
   "jw-tm207341": {
     "titre": "Elle",
     "category": "thriller_policier"
   },
-  "jw-tm1481642": {
-    "titre": "Saýara",
-    "category": "action_aventure"
-  },
   "jw-tm166168": {
     "titre": "Drive",
-    "category": "thriller_policier"
-  },
-  "jw-tm890969": {
-    "titre": "Becky",
     "category": "thriller_policier"
   },
   "jw-tm817513": {
@@ -191,84 +151,20 @@
     "titre": "Jallikattu",
     "category": "action_aventure"
   },
-  "jw-tm25175": {
-    "titre": "Mi à prix",
-    "category": "thriller_policier"
-  },
-  "jw-ts341651": {
-    "titre": "The Walking Dead : Dead City",
-    "category": "thriller_policier",
-    "justification": "L'œuvre repose davantage sur la tension, la survie psychologique et les rapports de force entre Maggie et Negan dans un environnement hostile que sur des combats physiques ou des poursuites dominantes."
-  },
-  "jw-tm28136": {
-    "titre": "Les Fils de l'homme",
-    "category": "thriller_policier",
-    "justification": "Le film est dominé par le suspense, la fuite et la protection d'une cible dans un contexte dystopique, sans action physique cinétique ou fusillades intenses en tant que moteur principal."
-  },
-  "jw-tm414396": {
-    "titre": "Greenland : Le Dernier Refuge",
-    "category": "action_aventure",
-    "justification": "Le film est dominé par la course-poursuite survivaliste et les catastrophes spectaculaires enchaînées, avec une action cinétique constante (fuites, chaos urbain, obstacles physiques) plutôt qu'une intrigue criminelle ou une enquête cérébrale."
-  },
   "jw-tm453584": {
     "titre": "Mission : Impossible - The Final Reckoning",
     "category": "action_aventure",
     "justification": "Mission : Impossible - The Final Reckoning est dominé par l'action cinétique spectaculaire (poursuites, combats, cascades) typique de la franchise, malgré une intrigue d'espionnage et de manipulation."
-  },
-  "jw-tm166118": {
-    "titre": "Snowpiercer : Le Transperceneige",
-    "category": "action_aventure",
-    "justification": "Le film est dominé par la progression physique et les combats au corps à corps d'une révolte menée wagon par wagon, avec une action cinétique réelle et spectaculaire."
-  },
-  "jw-tm95252": {
-    "titre": "Le Livre d'Eli",
-    "category": "action_aventure",
-    "justification": "Le film est dominé par les combats physiques et les affrontements violents dans un contexte post-apocalyptique, avec Eli se battant régulièrement pour survivre et protéger Solara, ce qui prime sur l'intrigue criminelle de Carnegie."
-  },
-  "jw-tm170839": {
-    "titre": "Source Code",
-    "category": "thriller_policier",
-    "justification": "Le film est dominé par l'enquête, le suspense et la manipulation temporelle pour identifier les auteurs de l'attentat, sans action physique cinétique prépondérante."
-  },
-  "jw-ts309849": {
-    "titre": "Twisted Metal",
-    "category": "action_aventure",
-    "justification": "L'œuvre est dominée par des combats entre véhicules et un spectacle cinétique post-apocalyptique, avec Sweet Tooth comme antagoniste perturbateur, ce qui correspond à l'action physique et spectaculaire plutôt qu'à une intrigue policière cérébrale."
-  },
-  "jw-tm170890": {
-    "titre": "Super 8",
-    "category": "thriller_policier",
-    "justification": "Le film repose sur le suspense, les disparitions et l'enquête policière autour d'un mystère, sans action physique dominante ni combats ou poursuites continues."
   },
   "jw-tm324458": {
     "titre": "Hunter Killer",
     "category": "action_aventure",
     "justification": "Le film combine des opérations militaires sous-marines intenses et des interventions physiques des Navy SEAL, dominées par l'action spectaculaire et les combats, malgré une intrigue de complot géopolitique."
   },
-  "jw-tm1352915": {
-    "titre": "Fear the Night",
-    "category": "action_aventure",
-    "justification": "Le film est dominé par la riposte physique et les combats de Tess, vétérane des opérations spéciales, contre les cambrioleurs assiégeants, avec une action cinétique et des affrontements directs."
-  },
   "jw-tm244634": {
     "titre": "Atomic Blonde",
     "category": "action_aventure",
     "justification": "Atomic Blonde est dominé par des combats physiques intenses et des scènes d'action spectaculaires (notamment le plan-séquence culte), malgré une intrigue d'espionnage et de manipulation."
-  },
-  "jw-ts341648": {
-    "titre": "The Lazarus Project",
-    "category": "thriller_policier",
-    "justification": "La série repose sur une intrigue de manipulation temporelle, de conspiration et de suspense cérébral plutôt que sur des combats physiques ou des poursuites dominantes."
-  },
-  "jw-tm147429": {
-    "titre": "RoboCop",
-    "category": "action_aventure",
-    "justification": "RoboCop (2014) est dominé par les fusillades, les poursuites et les combats spectaculaires du cyborg policier, l'action cinétique primant sur l'enquête criminelle."
-  },
-  "jw-tm1186806": {
-    "titre": "Hypnotic",
-    "category": "thriller_policier",
-    "justification": "L'intrigue repose sur une enquête policière, des manipulations mentales et un suspense cérébral autour de braquages sophistiqués, sans action physique dominante."
   },
   "jw-tm348003": {
     "titre": "Actes de Vengeance",
@@ -280,21 +176,6 @@
     "category": "thriller_policier",
     "justification": "L'intrigue repose sur une erreur judiciaire, une évasion et un conflit familial dramatique, sans action physique dominante ni spectaculaire cinétique."
   },
-  "jw-tm1376360": {
-    "titre": "Head Count",
-    "category": "thriller_policier",
-    "justification": "Le synopsis centré sur l'évasion, la mémoire fragmentée et le suspense psychologique d'un face-à-face tendu privilégie l'intrigue criminelle et la manipulation plutôt que l'action physique dominante."
-  },
-  "jw-tm1276217": {
-    "titre": "Détective Conan : Le sous-marin noir",
-    "category": "thriller_policier",
-    "justification": "L'intrigue repose sur une enquête criminelle, un assassinat, un enlèvement et une machination de l'Organisation des Hommes en Noir, avec un suspense cérébral dominant plutôt que des combats physiques ou des poursuites nerveuses."
-  },
-  "jw-tm1587742": {
-    "titre": "Reflet dans un diamant mort",
-    "category": "thriller_policier",
-    "justification": "Le synopsis évoque une intrigue psychologique et un suspense cérébral autour d'un ancien agent secret et de sa rivale insaisissable, sans action physique dominante."
-  },
   "jw-tm156923": {
     "titre": "Non-Stop",
     "category": "thriller_policier",
@@ -304,11 +185,6 @@
     "titre": "Life After Fighting",
     "category": "action_aventure",
     "justification": "Le professeur d'arts martiaux affronte physiquement une organisation criminelle, avec des combats et une action cinétique dominante."
-  },
-  "jw-tm1515009": {
-    "titre": "U Are the Universe",
-    "category": "thriller_policier",
-    "justification": "Le synopsis décrit une quête spatiale solitaire et un suspense psychologique (survie, communication, espoir), sans combats physiques, fusillades ou poursuites dominantes, ce qui correspond davantage à un thriller de science-fiction qu'à un film d'action."
   },
   "jw-tm344336": {
     "titre": "Burn Out",
@@ -325,40 +201,10 @@
     "category": "action_aventure",
     "justification": "Le synopsis met en avant une unité paramilitaire, des missions à haut risque et une conspiration internationale avec des mercenaires, ce qui suggère une dominance de l'action cinétique et du spectaculaire."
   },
-  "jw-tm1415146": {
-    "titre": "Détective Conan: l'étoile à 1 million de dollars",
-    "category": "thriller_policier",
-    "justification": "L'intrigue repose sur une enquête criminelle, un cadavre marqué, un trafic d'armes et une chasse au trésor, avec une dominante suspense/polar plutôt que d'action physique cinétique."
-  },
-  "jw-tm1046026": {
-    "titre": "The Trip",
-    "category": "thriller_policier",
-    "justification": "Le film repose sur la manipulation psychologique, les plans de meurtre et le suspense domestique plutôt que sur des combats physiques ou des poursuites dominantes."
-  },
-  "jw-tm1131943": {
-    "titre": "Détective Conan : La Fiancée de Shibuya",
-    "category": "thriller_policier",
-    "justification": "L'œuvre est dominée par l'enquête policière, le suspense et la machination criminelle (poseur de bombes, déguisement, évasion), sans action physique cinétique dominante."
-  },
-  "jw-tm1070911": {
-    "titre": "Cop Secret",
-    "category": "thriller_policier",
-    "justification": "Le synopsis met l'accent sur l'enquête policière et la résolution de braquages, avec une pression procédurale dominante plutôt que sur des combats physiques ou des poursuites spectaculaires."
-  },
   "jw-tm244173": {
     "titre": "Jungle",
     "category": "action_aventure",
     "justification": "Le film est dominé par la survie en milieu hostile et les péripéties physiques dans la jungle, avec une tension dramatique mais sans intrigue criminelle ou enquête policière."
-  },
-  "jw-tm324533": {
-    "titre": "Sang d'acier",
-    "category": "action_aventure",
-    "justification": "Un agent des forces spéciales protégeant une jeune femme contre une organisation malfaisante implique des combats physiques et des fusillades dominants, malgré une intrigue de suspense secondaire."
-  },
-  "jw-tm1287858": {
-    "titre": "Arcadian",
-    "category": "action_aventure",
-    "justification": "Le film est dominé par la survie physique et les combats acharnés contre des créatures, avec une action cinétique réelle (recherche, combat, blessure) plutôt qu'une intrigue policière ou un suspense cérébral."
   },
   "jw-tm288010": {
     "titre": "Final Score",
@@ -400,85 +246,25 @@
     "category": "action_aventure",
     "justification": "Le synopsis met en avant une équipe d'élite devant compter sur ses aptitudes au combat et son mental d'acier dans une mission périlleuse en zone de guerre, ce qui indique une dominance de l'action physique et du spectaculaire."
   },
-  "jw-tm370408": {
-    "titre": "7 Guardians of the Tomb",
-    "category": "action_aventure",
-    "justification": "Le film mêle archéologie et créature monstrueuse avec des séquences d'action physique et de survie, typiques du film d'aventure spectaculaire plutôt que de l'enquête policière cérébrale."
-  },
   "jw-tm235391": {
     "titre": "USS Indianapolis",
     "category": "thriller_policier",
     "justification": "Le film est dominé par le drame historique et le suspense de survie (naufrage, attaques de requins, cour martiale) plutôt que par l'action cinétique ou les combats physiques."
-  },
-  "jw-tm139063": {
-    "titre": "Piégés",
-    "category": "thriller_policier",
-    "justification": "L'intrigue repose sur une enquête autour de corps décapités et une traque angoissante en forêt, dominée par le suspense et la menace criminelle plutôt que par des combats physiques ou des poursuites spectaculaires."
-  },
-  "jw-ts20606": {
-    "titre": "Grimm",
-    "category": "thriller_policier",
-    "justification": "La série est centrée sur une enquête policière et une intrigue criminelle/surnaturelle avec suspense, sans action physique cinétique dominante."
-  },
-  "jw-ts421817": {
-    "titre": "The Copenhagen Test",
-    "category": "thriller_policier",
-    "justification": "L'intrigue repose sur le piratage cérébral, la vigilance constante et la traque des responsables, dominée par le suspense et la manipulation psychologique plutôt que par l'action physique."
-  },
-  "jw-ts21861": {
-    "titre": "Warehouse 13",
-    "category": "thriller_policier",
-    "justification": "La série repose sur une enquête policière et la récupération d'artefacts surnaturels, avec une action physique limitée et non dominante."
-  },
-  "jw-tm305414": {
-    "titre": "Mortal Engines",
-    "category": "action_aventure",
-    "justification": "Mortal Engines est dominé par des poursuites de villes mobiles, des combats physiques et un spectacle visuel constant, reléguant l'intrigue criminelle au second plan."
-  },
-  "jw-ts317683": {
-    "titre": "The Spiderwick Chronicles",
-    "category": "thriller_policier",
-    "justification": "Cette série fantastique familiale est dominée par le mystère, l'enquête sur l'oncle disparu et l'ambiance inquiétante du monde parallèle, sans action physique cinétique dominante."
-  },
-  "jw-ts434037": {
-    "titre": "Revival",
-    "category": "thriller_policier",
-    "justification": "L'intrigue repose sur une enquête policière autour d'un meurtre inexplicable et sur la paranoïa d'une ville, sans action physique dominante."
   },
   "jw-tm1651114": {
     "titre": "Pour elle",
     "category": "thriller_policier",
     "justification": "L'intrigue repose sur l'enlèvement, l'espionnage international et la manipulation psychologique, sans action physique dominante ni spectaculaire cinétique."
   },
-  "jw-tm996866": {
-    "titre": "Dark Web: Cicada 3301",
-    "category": "thriller_policier",
-    "justification": "L'intrigue repose sur une chasse au trésor énigmatique et une poursuite menée par la NSA, avec un suspense cérébral et des indices, sans action physique dominante."
-  },
   "jw-tm315348": {
     "titre": "Triple Threat",
     "category": "action_aventure",
     "justification": "Le film est centré sur des combats physiques et des fusillades entre tueurs à gages et mercenaires, avec une action cinétique dominante."
   },
-  "jw-tm351325": {
-    "titre": "Dans la brume",
-    "category": "thriller_policier",
-    "justification": "Le film est un survival catastrophe centré sur le suspense et la tension psychologique plutôt que sur des combats physiques ou des poursuites, ce qui l'oriente vers le thriller."
-  },
-  "jw-tm1197793": {
-    "titre": "Corrective Measures : Mutants surpuissants",
-    "category": "thriller_policier",
-    "justification": "L'intrigue repose sur les tensions carcérales, la menace virale et les rapports de force psychologiques dans un cadre ultra-sécurisé, sans action physique dominante ni poursuites ou combats cinétiques au premier plan."
-  },
   "jw-tm1408348": {
     "titre": "Impitoyable",
     "category": "action_aventure",
     "justification": "Un entraîneur qui prend les choses en main pour poursuivre et affronter des trafiquants relève d'une vengeance physique et de poursuites, dominée par l'action cinétique plutôt que par l'enquête cérébrale."
-  },
-  "jw-tm285059": {
-    "titre": "Enlèvement",
-    "category": "thriller_policier",
-    "justification": "L'intrigue repose sur une enquête policière et un suspense sinistre autour d'une disparition, sans action physique dominante."
   },
   "jw-tm1272023": {
     "titre": "Blackout Mission",

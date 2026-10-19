@@ -243,9 +243,12 @@ async function resolveAmbiguousTitlesWithAI(items) {
   const cache = loadAiCache();
   const toResolve = [];
 
+  const EXCLUDED_GENRES_FOR_DUEL = ['cmy', 'hrr', 'scf', 'fnt', 'ani', 'doc'];
   for (const item of items) {
     const raw = item.raw_genres || [];
-    if (raw.includes('act') && raw.includes('trl')) {
+    // Strictement réservé aux purs duels 50/50 Action vs Thriller
+    // Ne jamais déclencher si l'œuvre possède un genre souverain (Comédie, Horreur, SF/Fantastique, Animation, Docu)
+    if (raw.includes('act') && raw.includes('trl') && !raw.some(g => EXCLUDED_GENRES_FOR_DUEL.includes(g))) {
       if (!cache[item.id]) {
         toResolve.push(item);
       }
