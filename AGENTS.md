@@ -82,8 +82,8 @@ Une œuvre est éligible (`is_eligible: true`) si et seulement si elle respecte 
 ---
 
 ## 9. Règle de Confidentialité & Non-Publication des Propositions Molotov
-- Les maquettes, propositions et fichiers de refonte situés dans `propositions/` (dont [`propositions/molotov_abonnements.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/propositions/molotov_abonnements.html)) sont **STRICTEMENT RÉSERVÉS À UN USAGE LOCAL PRIVÉ**.
+- Les maquettes, propositions et fichiers de refonte situés dans `propositions/` (dont [`propositions/molotov_abonnements.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/propositions/molotov_abonnements.html)) ainsi que les documents de travail et synthèses associées ([`refonte_offres_molotov.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/refonte_offres_molotov.md) et [`derniere_session_molotov.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/derniere_session_molotov.md)) sont **STRICTEMENT RÉSERVÉS À UN USAGE LOCAL PRIVÉ**.
 - **Accès direct exclusif pour l'utilisateur** : via l'URL locale `file:///C:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/propositions/molotov_abonnements.html`.
-- **Interdiction formelle de publication publique** : Ces fichiers ne doivent en aucun cas être commités ou poussés sur le dépôt public GitHub. Ils sont sanctuarisés dans le fichier `.gitignore` du projet.
+- **Interdiction formelle de publication publique** : Ces fichiers ne doivent en aucun cas être commités ou poussés sur le dépôt public GitHub. Ils sont sanctuarisés dans le fichier `.gitignore` du projet (seul CinéScope et ses synthèses associées sont publiés).
 
 
