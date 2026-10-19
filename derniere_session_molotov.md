@@ -70,7 +70,16 @@ Ce document constitue la référence vivante et synthétique de l'architecture g
 
 ---
 
-## 4. Header Officiel & Navigation Molotov Desktop
+## 4. Section Stockage & Options d'Enregistrement
+
+* **Conformité stricte de la grille tarifaire officielle (7 jours offerts)** :
+  - **Option 80h** : `1,99€ /mois` (`banner_3.png`).
+  - **Option 250h** : `3,99€ /mois` (`banner_4.png`) — tarif rectifié à 3,99€ (coquille 3,98€ résolue).
+  - **Option 500h** : `4,99€ /mois` (`banner_5.png`).
+
+---
+
+## 5. Header Officiel & Navigation Molotov Desktop
 
 * **Hauteur officielle 38px** avec fond sombre flouté (`rgba(0, 0, 0, 0.95)`, backdrop-filter: 12px).
 * **Logo Molotov Officiel Image** : `assets/molotov_logo.png` (hauteur 19px, zéro doublon de texte).
@@ -79,7 +88,7 @@ Ce document constitue la référence vivante et synthétique de l'architecture g
 
 ---
 
-## 5. Structure Propre des Fichiers & Isolation CinéScope
+## 6. Structure Propre des Fichiers & Isolation CinéScope
 
 * **Fichier HTML Principal (Accès Local Privé — Règle 9)** :
   - **URL locale directe** : `file:///C:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/propositions/molotov_abonnements.html`
