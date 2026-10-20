@@ -1280,21 +1280,36 @@ function renderCatalog() {
     themeHeaderEl.classList.toggle('active', isThemeColumnsMode);
   }
 
-  let sortedItems = [];
+  if (countEl) countEl.textContent = items.length;
+
+  if (items.length === 0) {
+    grid.innerHTML = '';
+    emptyState.classList.remove('hidden');
+    const emptyDesc = emptyState.querySelector('.empty-desc');
+    if (emptyDesc) {
+      if (AppState.searchQuery) {
+        emptyDesc.textContent = `Aucun titre ne correspond à « ${AppState.searchQuery} » pour cette sélection.`;
+      } else if (AppState.isOnlyNew) {
+        emptyDesc.textContent = 'Aucune nouveauté récente dans cette sélection actuellement.';
+      } else {
+        emptyDesc.textContent = 'Aucun contenu ne correspond aux critères stricts pour cette sélection actuellement.';
+      }
+    }
+    return;
+  }
+
+  emptyState.classList.add('hidden');
+  grid.innerHTML = '';
 
   if (isThemeColumnsMode) {
-    // 6 colonnes thématiques ordonnées selon l'ordre initial défini (Règle 8 AGENTS.md) :
-    // 1. Action, 2. Thriller, 3. Sci-Fi, 4. Comédie, 5. Drame, 6. Famille
-    // + Horreur & Épouvante en bouche-trou immédiat (Option A)
-    const PC_THEME_ORDER = [
-      'action_aventure',
-      'thriller_policier',
-      'scifi_fantastique',
-      'comedie',
-      'drame_emotion',
-      'animation_famille'
-    ];
-
+    // 6 colonnes thématiques indépendantes (Règle 8 AGENTS.md) :
+    // - Col 1 : Action (68) puis Horreur (201)
+    // - Col 2 : Thriller (202)
+    // - Col 3 : Sci-Fi (159)
+    // - Col 4 : Comédie (278)
+    // - Col 5 : Drame (396)
+    // - Col 6 : Famille (110)
+    // Règle stricte : si une colonne est vide/épuisée, elle s'arrête et n'est PAS remplie par d'autres thèmes.
     const themeBuckets = {
       action_aventure: [],
       thriller_policier: [],
@@ -1314,177 +1329,170 @@ function renderCatalog() {
       }
     });
 
-    // Mise à jour des compteurs individuels par colonne
-    const updateColCount = (id, count) => {
-      const el = document.getElementById(id);
-      if (el) el.textContent = count;
-    };
-    updateColCount('countColAction', themeBuckets.action_aventure.length);
-    updateColCount('countColThriller', themeBuckets.thriller_policier.length);
-    updateColCount('countColScifi', themeBuckets.scifi_fantastique.length);
-    updateColCount('countColComedie', themeBuckets.comedie.length);
-    updateColCount('countColDrame', themeBuckets.drame_emotion.length);
-    updateColCount('countColFamille', themeBuckets.animation_famille.length);
-
     // Tri indépendant dans chaque colonne respectant fidèlement le tri CinéScope :
     // Expiration en tête par ordre d'urgence, puis tirage quotidien (ou tri chronologique si 📅 Date actif)
     for (const key of Object.keys(themeBuckets)) {
       themeBuckets[key] = sortCatalogItems(themeBuckets[key]);
     }
 
-    // Entrelacement ligne par ligne (Option A : Horreur bouche-trou au fil de l'eau)
-    const pointers = {
-      action_aventure: 0,
-      thriller_policier: 0,
-      scifi_fantastique: 0,
-      comedie: 0,
-      drame_emotion: 0,
-      animation_famille: 0,
-      horreur_epouvante: 0
+    // Mise à jour des compteurs sur les pilules d'en-tête :
+    // Col 1 : Action + Horreur combinés !
+    const col1Count = themeBuckets.action_aventure.length + themeBuckets.horreur_epouvante.length;
+    const updateColCount = (id, count) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = count;
     };
+    updateColCount('countColAction', col1Count);
+    updateColCount('countColThriller', themeBuckets.thriller_policier.length);
+    updateColCount('countColScifi', themeBuckets.scifi_fantastique.length);
+    updateColCount('countColComedie', themeBuckets.comedie.length);
+    updateColCount('countColDrame', themeBuckets.drame_emotion.length);
+    updateColCount('countColFamille', themeBuckets.animation_famille.length);
 
-    const totalCount = items.length;
-    while (sortedItems.length < totalCount) {
-      let addedInRow = false;
+    // Définition des 6 colonnes indépendantes
+    const colDefs = [
+      {
+        id: 'col-action',
+        items: themeBuckets.action_aventure,
+        hasHorrorFollowup: themeBuckets.horreur_epouvante.length > 0,
+        horrorItems: themeBuckets.horreur_epouvante
+      },
+      {
+        id: 'col-thriller',
+        items: themeBuckets.thriller_policier
+      },
+      {
+        id: 'col-scifi',
+        items: themeBuckets.scifi_fantastique
+      },
+      {
+        id: 'col-comedie',
+        items: themeBuckets.comedie
+      },
+      {
+        id: 'col-drame',
+        items: themeBuckets.drame_emotion
+      },
+      {
+        id: 'col-famille',
+        items: themeBuckets.animation_famille
+      }
+    ];
 
-      for (let c = 0; c < 6; c++) {
-        if (sortedItems.length >= totalCount) break;
-        const themeKey = PC_THEME_ORDER[c];
+    colDefs.forEach(def => {
+      const colEl = document.createElement('div');
+      colEl.className = 'theme-column';
+      colEl.id = def.id;
 
-        // 1. Thème dédié à la colonne
-        if (pointers[themeKey] < themeBuckets[themeKey].length) {
-          sortedItems.push(themeBuckets[themeKey][pointers[themeKey]]);
-          pointers[themeKey]++;
-          addedInRow = true;
-        }
-        // 2. Option A : Bouche-trou immédiat avec les films d'horreur
-        else if (pointers.horreur_epouvante < themeBuckets.horreur_epouvante.length) {
-          sortedItems.push(themeBuckets.horreur_epouvante[pointers.horreur_epouvante]);
-          pointers.horreur_epouvante++;
-          addedInRow = true;
-        }
-        // 3. Si le thème ET l'horreur sont épuisés, combler avec les autres thèmes ayant encore du contenu
-        else {
-          const fallbackKey = PC_THEME_ORDER.find(t => pointers[t] < themeBuckets[t].length);
-          if (fallbackKey) {
-            sortedItems.push(themeBuckets[fallbackKey][pointers[fallbackKey]]);
-            pointers[fallbackKey]++;
-            addedInRow = true;
-          }
-        }
+      // 1. Ajouter les œuvres principales du thème
+      def.items.forEach(item => {
+        colEl.appendChild(createPosterCard(item));
+      });
+
+      // 2. Si colonne 1 avec suite Horreur :
+      if (def.hasHorrorFollowup && def.horrorItems.length > 0) {
+        const sep = document.createElement('div');
+        sep.className = 'theme-column-subdivider';
+        sep.innerHTML = `<span>👻 Horreur & Épouvante (${def.horrorItems.length})</span>`;
+        colEl.appendChild(sep);
+
+        def.horrorItems.forEach(item => {
+          colEl.appendChild(createPosterCard(item));
+        });
       }
 
-      if (!addedInRow) break;
-    }
+      grid.appendChild(colEl);
+    });
   } else {
     // Mode standard : catégorie unique sélectionnée, recherche textuelle ou mobile
-    sortedItems = sortCatalogItems(items);
-  }
-
-  if (countEl) countEl.textContent = sortedItems.length;
-
-  if (sortedItems.length === 0) {
-    grid.innerHTML = '';
-    emptyState.classList.remove('hidden');
-    const emptyDesc = emptyState.querySelector('.empty-desc');
-    if (emptyDesc) {
-      if (AppState.searchQuery) {
-        emptyDesc.textContent = `Aucun titre ne correspond à « ${AppState.searchQuery} » pour cette sélection.`;
-      } else if (AppState.isOnlyNew) {
-        emptyDesc.textContent = 'Aucune nouveauté récente dans cette sélection actuellement.';
-      } else {
-        emptyDesc.textContent = 'Aucun contenu ne correspond aux critères stricts pour cette sélection actuellement.';
-      }
-    }
-    return;
-  }
-
-  emptyState.classList.add('hidden');
-  grid.innerHTML = '';
-
-  sortedItems.forEach(item => {
-    const card = document.createElement('div');
-    card.className = 'poster-card';
-    card.setAttribute('role', 'button');
-    card.setAttribute('tabindex', '0');
-    card.setAttribute('aria-label', `Voir les détails de ${item.titre}`);
-    card.title = item.titre;
-
-    // Badge CSA / PEGI
-    const badgeHtml = item.badge 
-      ? `<div class="csa-badge-container"><img class="csa-badge-img" src="assets/logos/pegi_${item.badge}.png" alt="-${item.badge}"></div>` 
-      : '';
-
-    // Badge de Nouveauté (7 jours) ou Compte à rebours d'expiration
-    // RÈGLE VISUELLE : Si l'œuvre est arrivée dans le catalogue depuis <= 7 jours, le badge "🆕 Nouveauté" prime sur l'affiche
-    const expInfo = getItemExpirationInfo(item);
-    let expiryHtml = '';
-    if (isItemNew(item)) {
-      expiryHtml = `<div class="card-expiry-badge badge-new" title="Nouveauté ajoutée au catalogue il y a moins de 7 jours">🆕 Nouveauté</div>`;
-    } else if (expInfo && expInfo.label && expInfo.status !== 'none' && expInfo.status !== 'available') {
-      expiryHtml = `<div class="card-expiry-badge expiry-${expInfo.status}">${expInfo.label}</div>`;
-    }
-
-    // Badge de Saison disponible (si la série n'a pas la S1 complète)
-    let seasonBadgeHtml = '';
-    if (item.type === 'serie' && !hasSeasonOne(item)) {
-      const firstS = getFirstAvailableSeason(item);
-      seasonBadgeHtml = `
-        <div class="card-season-badge">
-          <svg class="season-badge-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
-            <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/>
-            <line x1="12" y1="9" x2="12" y2="13"/>
-            <line x1="12" y1="17" x2="12.01" y2="17"/>
-          </svg>
-          <span>Débute S${firstS}</span>
-        </div>`;
-    }
-
-    // Logos des chaînes DYNAMIQUES selon les filtres actifs
-    const activePkgSlugs = getActiveItemPackages(item);
-    const activeLogos = activePkgSlugs
-      .map(slug => JustWatchEngine.PACKAGES_CONFIG[slug]?.logo)
-      .filter(Boolean);
-    const activeNames = activePkgSlugs
-      .map(slug => JustWatchEngine.PACKAGES_CONFIG[slug]?.name)
-      .filter(Boolean);
-
-    // Repli de sécurité si la liste active est vide
-    const finalLogos = activeLogos.length > 0 
-      ? activeLogos 
-      : (item.logos_chaine && item.logos_chaine.length ? [item.logos_chaine[0]] : [item.logo_chaine || JustWatchEngine.PACKAGES_CONFIG.aoc.logo]);
-    const finalNames = activeNames.length > 0 
-      ? activeNames 
-      : (item.chaines && item.chaines.length ? [item.chaines[0]] : [item.chaine || JustWatchEngine.PACKAGES_CONFIG.aoc.name]);
-
-    let channelLogoHtml = '';
-    channelLogoHtml = finalLogos.map((logoUrl, i) => {
-      const chName = finalNames[i] || '';
-      return `<img class="card-channel-logo ${finalLogos.length > 1 ? 'is-multi-channel' : ''}" src="${logoUrl}" alt="${chName}">`;
-    }).join('');
-
-    card.innerHTML = `
-      <div class="poster-img-container">
-        <img class="poster-img" src="${item.poster}" alt="Affiche ${item.titre}" loading="lazy" decoding="async">
-        ${expiryHtml}
-        ${badgeHtml}
-        ${seasonBadgeHtml}
-        <div class="channel-logo-container ${finalLogos.length > 1 ? 'has-multiple-logos' : ''}">
-          ${channelLogoHtml}
-        </div>
-      </div>
-    `;
-
-    card.addEventListener('click', () => openModal(item));
-    card.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        openModal(item);
-      }
+    const sortedItems = sortCatalogItems(items);
+    sortedItems.forEach(item => {
+      grid.appendChild(createPosterCard(item));
     });
+  }
+}
 
-    grid.appendChild(card);
+// Fonction de création unitaire d'une carte d'affiche (Poster Card)
+function createPosterCard(item) {
+  const card = document.createElement('div');
+  card.className = 'poster-card';
+  card.setAttribute('role', 'button');
+  card.setAttribute('tabindex', '0');
+  card.setAttribute('aria-label', `Voir les détails de ${item.titre}`);
+  card.title = item.titre;
+
+  // Badge CSA / PEGI
+  const badgeHtml = item.badge 
+    ? `<div class="csa-badge-container"><img class="csa-badge-img" src="assets/logos/pegi_${item.badge}.png" alt="-${item.badge}"></div>` 
+    : '';
+
+  // Badge de Nouveauté (7 jours) ou Compte à rebours d'expiration
+  const expInfo = getItemExpirationInfo(item);
+  let expiryHtml = '';
+  if (isItemNew(item)) {
+    expiryHtml = `<div class="card-expiry-badge badge-new" title="Nouveauté ajoutée au catalogue il y a moins de 7 jours">🆕 Nouveauté</div>`;
+  } else if (expInfo && expInfo.label && expInfo.status !== 'none' && expInfo.status !== 'available') {
+    expiryHtml = `<div class="card-expiry-badge expiry-${expInfo.status}">${expInfo.label}</div>`;
+  }
+
+  // Badge de Saison disponible (si la série n'a pas la S1 complète)
+  let seasonBadgeHtml = '';
+  if (item.type === 'serie' && !hasSeasonOne(item)) {
+    const firstS = getFirstAvailableSeason(item);
+    seasonBadgeHtml = `
+      <div class="card-season-badge">
+        <svg class="season-badge-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/>
+          <line x1="12" y1="9" x2="12" y2="13"/>
+          <line x1="12" y1="17" x2="12.01" y2="17"/>
+        </svg>
+        <span>Débute S${firstS}</span>
+      </div>`;
+  }
+
+  // Logos des chaînes DYNAMIQUES selon les filtres actifs
+  const activePkgSlugs = getActiveItemPackages(item);
+  const activeLogos = activePkgSlugs
+    .map(slug => JustWatchEngine.PACKAGES_CONFIG[slug]?.logo)
+    .filter(Boolean);
+  const activeNames = activePkgSlugs
+    .map(slug => JustWatchEngine.PACKAGES_CONFIG[slug]?.name)
+    .filter(Boolean);
+
+  const finalLogos = activeLogos.length > 0 
+    ? activeLogos 
+    : (item.logos_chaine && item.logos_chaine.length ? [item.logos_chaine[0]] : [item.logo_chaine || JustWatchEngine.PACKAGES_CONFIG.aoc.logo]);
+  const finalNames = activeNames.length > 0 
+    ? activeNames 
+    : (item.chaines && item.chaines.length ? [item.chaines[0]] : [item.chaine || JustWatchEngine.PACKAGES_CONFIG.aoc.name]);
+
+  let channelLogoHtml = '';
+  channelLogoHtml = finalLogos.map((logoUrl, i) => {
+    const chName = finalNames[i] || '';
+    return `<img class="card-channel-logo ${finalLogos.length > 1 ? 'is-multi-channel' : ''}" src="${logoUrl}" alt="${chName}">`;
+  }).join('');
+
+  card.innerHTML = `
+    <div class="poster-img-container">
+      <img class="poster-img" src="${item.poster}" alt="Affiche ${item.titre}" loading="lazy" decoding="async">
+      ${expiryHtml}
+      ${badgeHtml}
+      ${seasonBadgeHtml}
+      <div class="channel-logo-container ${finalLogos.length > 1 ? 'has-multiple-logos' : ''}">
+        ${channelLogoHtml}
+      </div>
+    </div>
+  `;
+
+  card.addEventListener('click', () => openModal(item));
+  card.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      openModal(item);
+    }
   });
+
+  return card;
 }
 
 // Modale de détails

@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.87** / Cache **cinescope-v8.87-streaming**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.88** / Cache **cinescope-v8.88-streaming**).
 
 ---
 
@@ -149,7 +149,7 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * `action_aventure` : 68 (4.8%)
   - **Titres expirés** : **0**.
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : **v8.87** (`sw.js` : `cinescope-v8.87-streaming`).
+  - **Version Application / PWA** : **v8.88** (`sw.js` : `cinescope-v8.88-streaming`).
   - **Optimisation Affichage & Fluidité** : Affiches avec `loading="lazy"` natif et préchargement d'arrière-plan temporisé (4 requêtes max via `requestIdleCallback`) éliminant toute congestion réseau.
   - **Clés LocalStorage Actives** : `_v46` (`cinescope_streaming_catalog_v46`, `cinescope_last_specialized_sync_v46`, etc.).
   - **Cache Arbitrage IA** : [`data/ai_duel_cache.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_duel_cache.json) (162 arbitrages enregistrés et verrouillés).
@@ -172,19 +172,19 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - Gestion des séries conforme : Calcul basé sur `annee_moyenne` $= \frac{\text{Saison début} + \text{Saison fin}}{2}$.
   - Strictement invisible sur mobile (`display: none !important` sous 1024px).
 
-* **Affichage par Colonnes Thématiques sur PC Desktop (20/10/2026 - v8.87 - Règle 8 AGENTS.md)** :
+* **Affichage par Colonnes Thématiques Indépendantes sur PC Desktop (20/10/2026 - v8.88 - Règle 8 AGENTS.md)** :
   - **Condition d'activation** : Exclusivité PC ($\ge 1024\text{px}$), activé sur la vue générale « Tous les titres » (`activeCategory === 'all'`) en l'absence de recherche textuelle.
-  - **Ordre des 6 colonnes initiales** :
-    1. **Col 1** : 🏹 `action_aventure`
-    2. **Col 2** : 🔍 `thriller_policier`
-    3. **Col 3** : 🚀 `scifi_fantastique`
-    4. **Col 4** : 🎭 `comedie`
-    5. **Col 5** : ❤️ `drame_emotion`
-    6. **Col 6** : 🧸 `animation_famille`
-  - **Option A (Horreur en bouche-trou immédiat au fil de l'eau)** :
-    Dès qu'une colonne épuise les œuvres de son thème (ex: Action après 68 œuvres), les films d'`horreur_epouvante` prennent immédiatement le relais dans cette colonne ligne par ligne pour combler le vide.
+  - **Architecture 6 Couloirs Verticaux Indépendants** (`.theme-column`) :
+    1. **Col 1** : 🏹 **Action & Horreur** (Action 68 titres, puis séparateur `👻 Horreur & Épouvante`, suivi des 201 titres d'horreur $\rightarrow$ **269 titres au total**)
+    2. **Col 2** : 🔍 **Thriller & Policier** (202 titres)
+    3. **Col 3** : 🚀 **Science-Fiction & Fantastique** (159 titres)
+    4. **Col 4** : 🎭 **Comédie** (278 titres)
+    5. **Col 5** : ❤️ **Drame & Émotion** (396 titres)
+    6. **Col 6** : 🧸 **Animation & Famille** (110 titres)
+  - **Règle Stricte d'Isolation Thématique (Zéro Parasitage)** :
+    Chaque colonne est strictement réservée à son propre genre. Lorsqu'une colonne a terminé la liste de ses œuvres (ex: Famille après 110 œuvres), **elle s'arrête naturellement et reste vide en dessous**, sans jamais être polluée par des titres d'autres thèmes.
   - **Maintien intégral du tri souverain** :
-    Chaque colonne applique fidèlement le tri officiel (`sortCatalogItems`) : expiration en tête par ordre d'urgence, puis tirage aléatoire quotidien (ou tri chronologique 2026 $\rightarrow$ 2006 si le bouton `📅 Date` est actif).
-  - **En-tête de colonnes interactif** : Pilules d'en-tête cliquables au sommet de chaque colonne affichant l'icône, le nom et le compteur en temps réel des œuvres disponibles.
+    Dans chaque colonne, les œuvres respectent fidèlement le tri officiel (`sortCatalogItems`) : expiration en tête par ordre d'urgence, puis tirage aléatoire quotidien (ou tri chronologique 2026 $\rightarrow$ 2006 si le bouton `📅 Date` est actif).
+  - **En-tête de colonnes interactif** : Pilule « Action & Horreur » avec compteur combiné (269) et compteurs individuels cliquables au sommet de chaque colonne.
   - **Sanctuarisation mobile** : Strictement masqué sur mobile / tablettes ($< 1024\text{px}$), conservant la grille responsive classique 1 ou 2 colonnes sans régression.
 
