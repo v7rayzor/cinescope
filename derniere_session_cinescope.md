@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.86** / Cache **cinescope-v8.86-streaming**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.87** / Cache **cinescope-v8.87-streaming**).
 
 ---
 
@@ -149,7 +149,7 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * `action_aventure` : 68 (4.8%)
   - **Titres expirés** : **0**.
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : **v8.86** (`sw.js` : `cinescope-v8.86-streaming`).
+  - **Version Application / PWA** : **v8.87** (`sw.js` : `cinescope-v8.87-streaming`).
   - **Optimisation Affichage & Fluidité** : Affiches avec `loading="lazy"` natif et préchargement d'arrière-plan temporisé (4 requêtes max via `requestIdleCallback`) éliminant toute congestion réseau.
   - **Clés LocalStorage Actives** : `_v46` (`cinescope_streaming_catalog_v46`, `cinescope_last_specialized_sync_v46`, etc.).
   - **Cache Arbitrage IA** : [`data/ai_duel_cache.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_duel_cache.json) (162 arbitrages enregistrés et verrouillés).
@@ -172,8 +172,19 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - Gestion des séries conforme : Calcul basé sur `annee_moyenne` $= \frac{\text{Saison début} + \text{Saison fin}}{2}$.
   - Strictement invisible sur mobile (`display: none !important` sous 1024px).
 
-* **Nettoyage & Maintenance du Dossier (18/10/2026)** :
-  - **Archive réseau supprimée** : Suppression définitive du dump `www.molotov.tv_Archive [26-10-17 14-03-08].har` (245 Ko).
-  - **Dossiers et fichiers résiduels purgés** : Suppression du dossier temporaire vide `scratch/` et des résidus de parsing obsolètes dans `Site/Films/` (`parsed.json`, `pdf_text.txt`, `tmdb_ocs_results.json`).
-  - **État du workspace** : Dépôt git 100% propre, aucune fuite de fichiers ou d'artefacts orphelins.
+* **Affichage par Colonnes Thématiques sur PC Desktop (20/10/2026 - v8.87 - Règle 8 AGENTS.md)** :
+  - **Condition d'activation** : Exclusivité PC ($\ge 1024\text{px}$), activé sur la vue générale « Tous les titres » (`activeCategory === 'all'`) en l'absence de recherche textuelle.
+  - **Ordre des 6 colonnes initiales** :
+    1. **Col 1** : 🏹 `action_aventure`
+    2. **Col 2** : 🔍 `thriller_policier`
+    3. **Col 3** : 🚀 `scifi_fantastique`
+    4. **Col 4** : 🎭 `comedie`
+    5. **Col 5** : ❤️ `drame_emotion`
+    6. **Col 6** : 🧸 `animation_famille`
+  - **Option A (Horreur en bouche-trou immédiat au fil de l'eau)** :
+    Dès qu'une colonne épuise les œuvres de son thème (ex: Action après 68 œuvres), les films d'`horreur_epouvante` prennent immédiatement le relais dans cette colonne ligne par ligne pour combler le vide.
+  - **Maintien intégral du tri souverain** :
+    Chaque colonne applique fidèlement le tri officiel (`sortCatalogItems`) : expiration en tête par ordre d'urgence, puis tirage aléatoire quotidien (ou tri chronologique 2026 $\rightarrow$ 2006 si le bouton `📅 Date` est actif).
+  - **En-tête de colonnes interactif** : Pilules d'en-tête cliquables au sommet de chaque colonne affichant l'icône, le nom et le compteur en temps réel des œuvres disponibles.
+  - **Sanctuarisation mobile** : Strictement masqué sur mobile / tablettes ($< 1024\text{px}$), conservant la grille responsive classique 1 ou 2 colonnes sans régression.
 

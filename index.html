@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=8.77">
+  <link rel="stylesheet" href="css/style.css?v=8.87">
 </head>
 <body>
   <!-- Header / Navigation principale -->
@@ -335,6 +335,40 @@
 
     <!-- Grille des films -->
     <section class="grid-section">
+      <!-- En-tête des 6 colonnes thématiques sur PC (Règle 8 AGENTS.md) -->
+      <div class="theme-columns-header" id="themeColumnsHeader" aria-hidden="true">
+        <div class="theme-col-pill" data-category="action_aventure" role="button" tabindex="0" title="Filtrer uniquement sur Action & Aventure">
+          <span class="theme-col-icon">🏹</span>
+          <span class="theme-col-name">Action</span>
+          <span class="theme-col-count" id="countColAction">0</span>
+        </div>
+        <div class="theme-col-pill" data-category="thriller_policier" role="button" tabindex="0" title="Filtrer uniquement sur Thriller & Policier">
+          <span class="theme-col-icon">🔍</span>
+          <span class="theme-col-name">Thriller</span>
+          <span class="theme-col-count" id="countColThriller">0</span>
+        </div>
+        <div class="theme-col-pill" data-category="scifi_fantastique" role="button" tabindex="0" title="Filtrer uniquement sur Science-fiction & Fantastique">
+          <span class="theme-col-icon">🚀</span>
+          <span class="theme-col-name">Sci-Fi</span>
+          <span class="theme-col-count" id="countColScifi">0</span>
+        </div>
+        <div class="theme-col-pill" data-category="comedie" role="button" tabindex="0" title="Filtrer uniquement sur Comédie">
+          <span class="theme-col-icon">🎭</span>
+          <span class="theme-col-name">Comédie</span>
+          <span class="theme-col-count" id="countColComedie">0</span>
+        </div>
+        <div class="theme-col-pill" data-category="drame_emotion" role="button" tabindex="0" title="Filtrer uniquement sur Drame & Émotion">
+          <span class="theme-col-icon">❤️</span>
+          <span class="theme-col-name">Drame</span>
+          <span class="theme-col-count" id="countColDrame">0</span>
+        </div>
+        <div class="theme-col-pill" data-category="animation_famille" role="button" tabindex="0" title="Filtrer uniquement sur Animation & Famille">
+          <span class="theme-col-icon">🧸</span>
+          <span class="theme-col-name">Famille</span>
+          <span class="theme-col-count" id="countColFamille">0</span>
+        </div>
+      </div>
+
       <div class="posters-grid" id="postersGrid">
         <!-- Rendu dynamique via app.js -->
       </div>
@@ -419,9 +453,9 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="js/catalog.js?v=8.84"></script>
-  <script src="js/justwatch_engine.js?v=8.84"></script>
-  <script src="js/app.js?v=8.84"></script>
+  <script src="js/catalog.js?v=8.87"></script>
+  <script src="js/justwatch_engine.js?v=8.87"></script>
+  <script src="js/app.js?v=8.87"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {

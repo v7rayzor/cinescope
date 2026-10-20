@@ -735,6 +735,84 @@ body.modal-open {
   }
 }
 
+/* En-tête des 6 colonnes thématiques sur PC Desktop (Règle 8 AGENTS.md) */
+.theme-columns-header {
+  display: none !important;
+}
+
+@media (min-width: 1024px) {
+  .theme-columns-header.active {
+    display: grid !important;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1.25rem 1rem;
+    margin-bottom: 0.9rem;
+    align-items: stretch;
+  }
+
+  .theme-col-pill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.6rem;
+    background: linear-gradient(135deg, rgba(20, 24, 38, 0.95), rgba(28, 34, 52, 0.9));
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: var(--radius-sm);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: var(--transition-smooth);
+    user-select: none;
+    text-decoration: none;
+  }
+
+  .theme-col-pill:hover {
+    background: linear-gradient(135deg, rgba(32, 38, 60, 0.98), rgba(44, 52, 80, 0.95));
+    border-color: rgba(229, 9, 20, 0.45);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45), 0 0 12px rgba(229, 9, 20, 0.2);
+  }
+
+  .theme-col-icon {
+    font-size: 1.05rem;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .theme-col-name {
+    font-size: 0.84rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    letter-spacing: 0.015em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .theme-col-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 0.12rem 0.42rem;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: var(--radius-full);
+    color: var(--text-muted);
+    transition: var(--transition-smooth);
+  }
+
+  .theme-col-pill:hover .theme-col-count {
+    background: rgba(229, 9, 20, 0.25);
+    color: #fff;
+  }
+
+  .posters-grid.theme-columns-active {
+    grid-template-columns: repeat(6, 1fr) !important;
+  }
+}
+
 /* Poster Card - 100% Visual */
 /* Poster Card - 100% Visual */
 .poster-card {

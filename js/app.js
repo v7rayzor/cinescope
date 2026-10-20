@@ -822,6 +822,17 @@ function initNavigation() {
       openGenreDropdown();
     }
   }
+
+  // Clic sur les pilules des 6 colonnes thématiques PC (Règle 8 AGENTS.md)
+  const themePills = document.querySelectorAll('.theme-col-pill');
+  themePills.forEach(pill => {
+    pill.addEventListener('click', () => {
+      const targetCat = pill.dataset.category;
+      if (targetCat) {
+        setCategory(targetCat);
+      }
+    });
+  });
 }
 
 function openGenreDropdown() {
@@ -1258,8 +1269,118 @@ function renderCatalog() {
   updateStarButtonsCounts(items);
   items = items.filter(item => matchesStars(item, AppState.activeStars));
 
-  // Tri intelligent : Fins de droits en tête par ordre d'urgence, puis aléatoire quotidien (ou affinité profil si actif)
-  const sortedItems = sortCatalogItems(items);
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
+  const isThemeColumnsMode = !isMobile && AppState.activeCategory === 'all' && !AppState.searchQuery;
+
+  const themeHeaderEl = document.getElementById('themeColumnsHeader');
+  if (grid) {
+    grid.classList.toggle('theme-columns-active', isThemeColumnsMode);
+  }
+  if (themeHeaderEl) {
+    themeHeaderEl.classList.toggle('active', isThemeColumnsMode);
+  }
+
+  let sortedItems = [];
+
+  if (isThemeColumnsMode) {
+    // 6 colonnes thématiques ordonnées selon l'ordre initial défini (Règle 8 AGENTS.md) :
+    // 1. Action, 2. Thriller, 3. Sci-Fi, 4. Comédie, 5. Drame, 6. Famille
+    // + Horreur & Épouvante en bouche-trou immédiat (Option A)
+    const PC_THEME_ORDER = [
+      'action_aventure',
+      'thriller_policier',
+      'scifi_fantastique',
+      'comedie',
+      'drame_emotion',
+      'animation_famille'
+    ];
+
+    const themeBuckets = {
+      action_aventure: [],
+      thriller_policier: [],
+      scifi_fantastique: [],
+      comedie: [],
+      drame_emotion: [],
+      animation_famille: [],
+      horreur_epouvante: []
+    };
+
+    items.forEach(item => {
+      const cat = (item.categories && item.categories[0]) || 'drame_emotion';
+      if (themeBuckets[cat]) {
+        themeBuckets[cat].push(item);
+      } else {
+        themeBuckets.drame_emotion.push(item);
+      }
+    });
+
+    // Mise à jour des compteurs individuels par colonne
+    const updateColCount = (id, count) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = count;
+    };
+    updateColCount('countColAction', themeBuckets.action_aventure.length);
+    updateColCount('countColThriller', themeBuckets.thriller_policier.length);
+    updateColCount('countColScifi', themeBuckets.scifi_fantastique.length);
+    updateColCount('countColComedie', themeBuckets.comedie.length);
+    updateColCount('countColDrame', themeBuckets.drame_emotion.length);
+    updateColCount('countColFamille', themeBuckets.animation_famille.length);
+
+    // Tri indépendant dans chaque colonne respectant fidèlement le tri CinéScope :
+    // Expiration en tête par ordre d'urgence, puis tirage quotidien (ou tri chronologique si 📅 Date actif)
+    for (const key of Object.keys(themeBuckets)) {
+      themeBuckets[key] = sortCatalogItems(themeBuckets[key]);
+    }
+
+    // Entrelacement ligne par ligne (Option A : Horreur bouche-trou au fil de l'eau)
+    const pointers = {
+      action_aventure: 0,
+      thriller_policier: 0,
+      scifi_fantastique: 0,
+      comedie: 0,
+      drame_emotion: 0,
+      animation_famille: 0,
+      horreur_epouvante: 0
+    };
+
+    const totalCount = items.length;
+    while (sortedItems.length < totalCount) {
+      let addedInRow = false;
+
+      for (let c = 0; c < 6; c++) {
+        if (sortedItems.length >= totalCount) break;
+        const themeKey = PC_THEME_ORDER[c];
+
+        // 1. Thème dédié à la colonne
+        if (pointers[themeKey] < themeBuckets[themeKey].length) {
+          sortedItems.push(themeBuckets[themeKey][pointers[themeKey]]);
+          pointers[themeKey]++;
+          addedInRow = true;
+        }
+        // 2. Option A : Bouche-trou immédiat avec les films d'horreur
+        else if (pointers.horreur_epouvante < themeBuckets.horreur_epouvante.length) {
+          sortedItems.push(themeBuckets.horreur_epouvante[pointers.horreur_epouvante]);
+          pointers.horreur_epouvante++;
+          addedInRow = true;
+        }
+        // 3. Si le thème ET l'horreur sont épuisés, combler avec les autres thèmes ayant encore du contenu
+        else {
+          const fallbackKey = PC_THEME_ORDER.find(t => pointers[t] < themeBuckets[t].length);
+          if (fallbackKey) {
+            sortedItems.push(themeBuckets[fallbackKey][pointers[fallbackKey]]);
+            pointers[fallbackKey]++;
+            addedInRow = true;
+          }
+        }
+      }
+
+      if (!addedInRow) break;
+    }
+  } else {
+    // Mode standard : catégorie unique sélectionnée, recherche textuelle ou mobile
+    sortedItems = sortCatalogItems(items);
+  }
+
   if (countEl) countEl.textContent = sortedItems.length;
 
   if (sortedItems.length === 0) {
