@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.89** / Cache **cinescope-v8.89-streaming**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.90** / Cache **cinescope-v8.90-streaming**).
 
 ---
 
@@ -191,10 +191,10 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 * **Améliorations Modale & Exclusivité PC Desktop (21/10/2026 - v8.89 - Règle 8 AGENTS.md)** :
   - **Actualisation Officielle du Logo Shadowz** : Remplacement de `assets/logos/shadowz.png` par la version haute résolution officielle issue de Molotov Abonnements (`propositions/assets/logos/shadowz.png`).
   - **Comptage Dynamique des Épisodes des Séries (`.modal-episodes-badge`)** :
-    * Dans l'en-tête de la fiche détail, à côté du sélecteur de saison : pilule indigo satinée affichant le total disponible (ex: `42 épisodes au total`) ou le volume d'une saison unique (ex: *La fortuna* : `6 épisodes`).
-    * Menu déroulant enrichi avec l'option globale `Toutes les saisons (X ép.)` et chaque saison détaillée `Saison N (Y ép.)`.
-    * Mise à jour instantanée au changement de saison : n'affiche que les épisodes de la saison sélectionnée (ex: `16 ép. (Saison 2)`).
-    * Intégration GraphQL pérenne : ingestion de `totalEpisodeCount` sur les saisons JustWatch et injection dans les 147 séries actuelles du catalogue.
+    * **Menu déroulant préservé à l'identique** : Options sobres `Saison 1`, `Saison 2`, etc. sans surcharge de texte dans le sélecteur.
+    * **À côté du sélecteur par défaut** : Affiche directement le nombre total d'épisodes disponibles pour toute la série (ex: `44 épisodes`).
+    * **Au clic sur une saison spécifique** : S'actualise instantanément pour n'afficher que le nombre d'épisodes de la saison choisie (ex: `16 épisodes` pour la Saison 2).
+    * **Calage visuel garanti** : `white-space: nowrap` sur `.modal-year` et `.modal-episodes-badge`, avec `padding-right: 2.75rem` sur `.modal-header-meta` empêchant tout chevauchement avec le bouton de fermeture `(X)`.
   - **Sous-Notes Distinctes Stylisées (`.modal-sub-ratings`)** :
     * Sous la note globale dorée, affichage de deux pastilles colorées harmonieuses :
       - **Avis Critique** (Cyan `#38bdf8`) : `💬 Avis : 7.0/10` (TMDb / IMDb / Rotten Tomatoes).

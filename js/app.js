@@ -1577,16 +1577,11 @@ function openModal(item) {
 
     const totalEpisodes = seasons.reduce((acc, s) => acc + (Number(s.episodes) || 0), 0);
 
-    const updateEpisodesBadge = (epCount, isTotal = false, seasonNum = null) => {
+    const updateEpisodesBadge = (epCount, tooltipText = '') => {
       if (!episodesBadge) return;
       if (epCount && epCount > 0) {
-        if (isTotal) {
-          episodesBadge.textContent = `${epCount} épisodes au total`;
-          episodesBadge.title = `Total : ${epCount} épisodes disponibles sur l'ensemble des saisons`;
-        } else {
-          episodesBadge.textContent = seasonNum ? `${epCount} ép. (Saison ${seasonNum})` : `${epCount} épisodes`;
-          episodesBadge.title = seasonNum ? `Saison ${seasonNum} : ${epCount} épisodes disponibles` : `${epCount} épisodes`;
-        }
+        episodesBadge.textContent = `${epCount} épisodes`;
+        if (tooltipText) episodesBadge.title = tooltipText;
         episodesBadge.style.display = 'inline-flex';
       } else {
         episodesBadge.style.display = 'none';
@@ -1595,54 +1590,36 @@ function openModal(item) {
 
     if (seasonWrapper && seasonSelect) {
       seasonSelect.innerHTML = '';
-      if (seasons.length > 1) {
-        const optAll = document.createElement('option');
-        optAll.value = 'all';
-        optAll.textContent = `Toutes les saisons (${totalEpisodes > 0 ? totalEpisodes + ' ép.' : seasons.length + ' saisons'})`;
-        seasonSelect.appendChild(optAll);
-      }
-
       seasons.forEach((s, idx) => {
         const opt = document.createElement('option');
         opt.value = idx;
-        const epSuffix = s.episodes ? ` (${s.episodes} ép.)` : '';
-        opt.textContent = `Saison ${s.saison}${epSuffix}`;
+        opt.textContent = `Saison ${s.saison}`;
         seasonSelect.appendChild(opt);
       });
       seasonWrapper.style.display = 'inline-flex';
 
-      // Affichage initial du badge d'épisodes
-      if (seasons.length > 1) {
-        seasonSelect.value = 'all';
-        updateEpisodesBadge(totalEpisodes, true);
+      // Par défaut : nombre d'épisodes pour toute la série dispo (uniquement saisons disponibles)
+      if (totalEpisodes > 0) {
+        updateEpisodesBadge(totalEpisodes, `Total : ${totalEpisodes} épisodes disponibles pour l'ensemble des saisons`);
       } else {
-        seasonSelect.value = 0;
         const s0 = seasons[0];
-        updateEpisodesBadge(s0.episodes || totalEpisodes, false, s0.saison);
+        updateEpisodesBadge(s0.episodes, `Saison ${s0.saison} : ${s0.episodes} épisodes`);
       }
 
+      // Quand on clique sur le menu déroulant pour prendre une saison : n'affiche que les épisodes de la saison
       seasonSelect.onchange = (e) => {
-        const val = e.target.value;
-        if (val === 'all') {
-          if (item.annee_fin && item.annee_fin !== item.annee) {
-            year.textContent = `${item.annee} - ${item.annee_fin}`;
+        const selected = seasons[parseInt(e.target.value, 10)];
+        if (selected) {
+          if (selected.annee) {
+            year.textContent = selected.annee;
+          }
+          if (selected.episodes) {
+            updateEpisodesBadge(selected.episodes, `Saison ${selected.saison} : ${selected.episodes} épisodes disponibles`);
           } else {
-            year.textContent = item.annee || '-';
+            if (episodesBadge) episodesBadge.style.display = 'none';
           }
-          updateEpisodesBadge(totalEpisodes, true);
-          if (ratingAvisVal && item.note_avis) {
-            ratingAvisVal.textContent = Number(item.note_avis).toFixed(1);
-          }
-        } else {
-          const selected = seasons[parseInt(val, 10)];
-          if (selected) {
-            if (selected.annee) {
-              year.textContent = selected.annee;
-            }
-            updateEpisodesBadge(selected.episodes, false, selected.saison);
-            if (ratingAvisVal && selected.note) {
-              ratingAvisVal.textContent = Number(selected.note).toFixed(1);
-            }
+          if (ratingAvisVal && selected.note) {
+            ratingAvisVal.textContent = Number(selected.note).toFixed(1);
           }
         }
       };
