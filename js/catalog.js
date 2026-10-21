@@ -10433,22 +10433,26 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2021,
-        "note": 8
+        "note": 8,
+        "episodes": 10
       },
       {
         "saison": 2,
         "annee": 2022,
-        "note": 8
+        "note": 8,
+        "episodes": 16
       },
       {
         "saison": 3,
         "annee": 2024,
-        "note": 8
+        "note": 8,
+        "episodes": 8
       },
       {
         "saison": 4,
         "annee": 2025,
-        "note": 8
+        "note": 8,
+        "episodes": 10
       }
     ],
     "date_ajout": "2025-06-13"
@@ -10505,12 +10509,14 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2023,
-        "note": 6.4
+        "note": 6.4,
+        "episodes": 8
       },
       {
         "saison": 2,
         "annee": 2025,
-        "note": 6.4
+        "note": 6.4,
+        "episodes": 8
       }
     ],
     "date_ajout": "2025-04-29"
@@ -10569,7 +10575,8 @@ const CATALOG_DATA = [
       {
         "saison": 2,
         "annee": 2023,
-        "note": 7.3
+        "note": 7.3,
+        "episodes": 8
       }
     ],
     "date_ajout": "2024-09-04"
@@ -10626,7 +10633,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2024,
-        "note": 6.4
+        "note": 6.4,
+        "episodes": 6
       }
     ],
     "date_ajout": "2026-02-10"
@@ -10685,17 +10693,20 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2022,
-        "note": 7.2
+        "note": 7.2,
+        "episodes": 10
       },
       {
         "saison": 2,
         "annee": 2023,
-        "note": 7.2
+        "note": 7.2,
+        "episodes": 10
       },
       {
         "saison": 3,
         "annee": 2025,
-        "note": 7.2
+        "note": 7.2,
+        "episodes": 10
       }
     ],
     "date_ajout": "2024-01-09"
@@ -10751,7 +10762,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2024,
-        "note": 4.8
+        "note": 4.8,
+        "episodes": 6
       }
     ],
     "date_ajout": "2025-10-30"
@@ -10809,22 +10821,26 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2015,
-        "note": 8.2
+        "note": 8.2,
+        "episodes": 8
       },
       {
         "saison": 2,
         "annee": 2016,
-        "note": 8.2
+        "note": 8.2,
+        "episodes": 13
       },
       {
         "saison": 3,
         "annee": 2017,
-        "note": 8.2
+        "note": 8.2,
+        "episodes": 13
       },
       {
         "saison": 4,
         "annee": 2020,
-        "note": 8.2
+        "note": 8.2,
+        "episodes": 8
       }
     ],
     "date_ajout": "2024-09-08"
@@ -10881,7 +10897,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2020,
-        "note": 6.6
+        "note": 6.6,
+        "episodes": 9
       }
     ],
     "date_ajout": "2024-02-04"
@@ -10939,12 +10956,14 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2016,
-        "note": 7.6
+        "note": 7.6,
+        "episodes": 16
       },
       {
         "saison": 2,
         "annee": 2018,
-        "note": 7.6
+        "note": 7.6,
+        "episodes": 11
       }
     ],
     "date_ajout": "2026-08-01"
@@ -11002,27 +11021,32 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2015,
-        "note": 7.6
+        "note": 7.6,
+        "episodes": 13
       },
       {
         "saison": 2,
         "annee": 2017,
-        "note": 7.6
+        "note": 7.6,
+        "episodes": 13
       },
       {
         "saison": 3,
         "annee": 2018,
-        "note": 7.6
+        "note": 7.6,
+        "episodes": 13
       },
       {
         "saison": 4,
         "annee": 2019,
-        "note": 7.6
+        "note": 7.6,
+        "episodes": 13
       },
       {
         "saison": 5,
         "annee": 2020,
-        "note": 7.6
+        "note": 7.6,
+        "episodes": 13
       }
     ],
     "date_ajout": "2018-02-25"
@@ -11078,7 +11102,8 @@ const CATALOG_DATA = [
       {
         "saison": 2,
         "annee": 2024,
-        "note": 6
+        "note": 6,
+        "episodes": 10
       }
     ],
     "date_ajout": "2024-10-22"
@@ -11136,12 +11161,14 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2023,
-        "note": 5.8
+        "note": 5.8,
+        "episodes": 12
       },
       {
         "saison": 2,
         "annee": 2024,
-        "note": 5.8
+        "note": 5.8,
+        "episodes": 12
       }
     ],
     "date_ajout": "2025-01-07"
@@ -11201,12 +11228,14 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2016,
-        "note": 7.1
+        "note": 7.1,
+        "episodes": 10
       },
       {
         "saison": 2,
         "annee": 2017,
-        "note": 7.1
+        "note": 7.1,
+        "episodes": 10
       }
     ],
     "date_ajout": "2024-03-11"
@@ -11268,32 +11297,38 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2011,
-        "note": 7.9
+        "note": 7.9,
+        "episodes": 22
       },
       {
         "saison": 2,
         "annee": 2012,
-        "note": 7.9
+        "note": 7.9,
+        "episodes": 22
       },
       {
         "saison": 3,
         "annee": 2013,
-        "note": 7.9
+        "note": 7.9,
+        "episodes": 22
       },
       {
         "saison": 4,
         "annee": 2014,
-        "note": 7.9
+        "note": 7.9,
+        "episodes": 22
       },
       {
         "saison": 5,
         "annee": 2015,
-        "note": 7.9
+        "note": 7.9,
+        "episodes": 22
       },
       {
         "saison": 6,
         "annee": 2017,
-        "note": 7.9
+        "note": 7.9,
+        "episodes": 13
       }
     ],
     "date_ajout": "2018-02-11"
@@ -11351,12 +11386,14 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2017,
-        "note": 7.3
+        "note": 7.3,
+        "episodes": 10
       },
       {
         "saison": 2,
         "annee": 2018,
-        "note": 7.3
+        "note": 7.3,
+        "episodes": 9
       }
     ],
     "date_ajout": "2018-02-18"
@@ -11415,22 +11452,26 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2014,
-        "note": 7.3
+        "note": 7.3,
+        "episodes": 10
       },
       {
         "saison": 2,
         "annee": 2015,
-        "note": 7.3
+        "note": 7.3,
+        "episodes": 10
       },
       {
         "saison": 3,
         "annee": 2016,
-        "note": 7.3
+        "note": 7.3,
+        "episodes": 10
       },
       {
         "saison": 4,
         "annee": 2017,
-        "note": 7.3
+        "note": 7.3,
+        "episodes": 12
       }
     ],
     "date_ajout": "2024-10-07"
@@ -11487,7 +11528,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2015,
-        "note": 6.8
+        "note": 6.8,
+        "episodes": 3
       }
     ],
     "date_ajout": "2026-09-03"
@@ -11545,22 +11587,26 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2006,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 23
       },
       {
         "saison": 2,
         "annee": 2007,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 11
       },
       {
         "saison": 3,
         "annee": 2008,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 25
       },
       {
         "saison": 4,
         "annee": 2009,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 19
       }
     ],
     "date_ajout": "2018-10-14"
@@ -11620,27 +11666,32 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2009,
-        "note": 7.6
+        "note": 7.6,
+        "episodes": 12
       },
       {
         "saison": 2,
         "annee": 2010,
-        "note": 7.6
+        "note": 7.6,
+        "episodes": 13
       },
       {
         "saison": 3,
         "annee": 2011,
-        "note": 7.6
+        "note": 7.6,
+        "episodes": 13
       },
       {
         "saison": 4,
         "annee": 2012,
-        "note": 7.6
+        "note": 7.6,
+        "episodes": 20
       },
       {
         "saison": 5,
         "annee": 2014,
-        "note": 7.6
+        "note": 7.6,
+        "episodes": 6
       }
     ],
     "date_ajout": "2025-09-08"
@@ -11696,7 +11747,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2015,
-        "note": 6.6
+        "note": 6.6,
+        "episodes": 13
       }
     ],
     "date_ajout": "2024-11-25"
@@ -11751,7 +11803,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2023,
-        "note": 5.8
+        "note": 5.8,
+        "episodes": 6
       }
     ],
     "date_ajout": "2023-11-26"
@@ -11808,12 +11861,14 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2024,
-        "note": 7.2
+        "note": 7.2,
+        "episodes": 10
       },
       {
         "saison": 2,
         "annee": 2025,
-        "note": 7.2
+        "note": 7.2,
+        "episodes": 13
       }
     ],
     "date_ajout": "2025-03-19",
@@ -11872,7 +11927,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2024,
-        "note": 7.3
+        "note": 7.3,
+        "episodes": 10
       }
     ],
     "date_ajout": "2026-01-11"
@@ -11930,7 +11986,8 @@ const CATALOG_DATA = [
       {
         "saison": 4,
         "annee": 2024,
-        "note": 7.7
+        "note": 7.7,
+        "episodes": 13
       }
     ],
     "date_ajout": "2024-11-25"
@@ -11987,27 +12044,32 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2021,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 2
       },
       {
         "saison": 2,
         "annee": 2022,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 4
       },
       {
         "saison": 3,
         "annee": 2023,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 3
       },
       {
         "saison": 4,
         "annee": 2024,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 4
       },
       {
         "saison": 5,
         "annee": 2025,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 4
       }
     ],
     "date_ajout": "2024-03-03"
@@ -12066,27 +12128,32 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2022,
-        "note": 7.2
+        "note": 7.2,
+        "episodes": 8
       },
       {
         "saison": 2,
         "annee": 2023,
-        "note": 7.2
+        "note": 7.2,
+        "episodes": 6
       },
       {
         "saison": 3,
         "annee": 2024,
-        "note": 7.2
+        "note": 7.2,
+        "episodes": 6
       },
       {
         "saison": 4,
         "annee": 2025,
-        "note": 7.2
+        "note": 7.2,
+        "episodes": 8
       },
       {
         "saison": 5,
         "annee": 2026,
-        "note": 7.2
+        "note": 7.2,
+        "episodes": 6
       }
     ],
     "date_ajout": "2024-03-11"
@@ -12144,7 +12211,8 @@ const CATALOG_DATA = [
       {
         "saison": 3,
         "annee": 2025,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 10
       }
     ],
     "date_ajout": "2024-02-05"
@@ -12197,7 +12265,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2022,
-        "note": 6
+        "note": 6,
+        "episodes": 6
       }
     ],
     "date_ajout": "2022-11-07"
@@ -12254,12 +12323,14 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2019,
-        "note": 7.3
+        "note": 7.3,
+        "episodes": 8
       },
       {
         "saison": 2,
         "annee": 2024,
-        "note": 7.3
+        "note": 7.3,
+        "episodes": 9
       }
     ],
     "date_ajout": "2025-12-29",
@@ -12316,7 +12387,8 @@ const CATALOG_DATA = [
       {
         "saison": 4,
         "annee": 2024,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 8
       }
     ],
     "date_ajout": "2024-11-26"
@@ -12373,37 +12445,44 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2019,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 16
       },
       {
         "saison": 2,
         "annee": 2019,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 19
       },
       {
         "saison": 3,
         "annee": 2021,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 16
       },
       {
         "saison": 4,
         "annee": 2021,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 16
       },
       {
         "saison": 5,
         "annee": 2022,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 20
       },
       {
         "saison": 6,
         "annee": 2023,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 16
       },
       {
         "saison": 7,
         "annee": 2025,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 8
       }
     ],
     "date_ajout": "2024-01-04"
@@ -12460,7 +12539,8 @@ const CATALOG_DATA = [
       {
         "saison": 2,
         "annee": 2023,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 10
       }
     ],
     "date_ajout": "2024-01-04"
@@ -12516,7 +12596,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2022,
-        "note": 4.7
+        "note": 4.7,
+        "episodes": 6
       }
     ],
     "date_ajout": "2022-11-07"
@@ -12570,7 +12651,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2022,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 5
       }
     ],
     "date_ajout": "2025-10-02"
@@ -12624,7 +12706,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2024,
-        "note": 6.7
+        "note": 6.7,
+        "episodes": 6
       }
     ],
     "date_ajout": "2024-12-12"
@@ -12681,12 +12764,14 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2023,
-        "note": 6.7
+        "note": 6.7,
+        "episodes": 10
       },
       {
         "saison": 2,
         "annee": 2025,
-        "note": 6.7
+        "note": 6.7,
+        "episodes": 8
       }
     ],
     "date_ajout": "2024-07-03"
@@ -12740,7 +12825,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2025,
-        "note": 6.6
+        "note": 6.6,
+        "episodes": 10
       }
     ],
     "date_ajout": "2025-12-06"
@@ -12802,12 +12888,14 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2023,
-        "note": 7.3
+        "note": 7.3,
+        "episodes": 10
       },
       {
         "saison": 2,
         "annee": 2025,
-        "note": 7.3
+        "note": 7.3,
+        "episodes": 12
       }
     ],
     "date_ajout": "2024-08-06"
@@ -12865,17 +12953,20 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2023,
-        "note": 7
+        "note": 7,
+        "episodes": 6
       },
       {
         "saison": 2,
         "annee": 2025,
-        "note": 7
+        "note": 7,
+        "episodes": 8
       },
       {
         "saison": 3,
         "annee": 2026,
-        "note": 7
+        "note": 7,
+        "episodes": 8
       }
     ],
     "date_ajout": "2024-11-25"
@@ -12930,7 +13021,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2023,
-        "note": 7
+        "note": 7,
+        "episodes": 4
       }
     ],
     "date_ajout": "2024-08-13"
@@ -12983,7 +13075,8 @@ const CATALOG_DATA = [
       {
         "saison": 2,
         "annee": 2024,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 4
       }
     ],
     "date_ajout": "2025-02-11"
@@ -13038,7 +13131,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2024,
-        "note": 6.8
+        "note": 6.8,
+        "episodes": 8
       }
     ],
     "date_ajout": "2024-10-01"
@@ -13096,17 +13190,20 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2022,
-        "note": 7
+        "note": 7,
+        "episodes": 8
       },
       {
         "saison": 2,
         "annee": 2024,
-        "note": 7
+        "note": 7,
+        "episodes": 6
       },
       {
         "saison": 3,
         "annee": 2026,
-        "note": 7
+        "note": 7,
+        "episodes": 6
       }
     ],
     "date_ajout": "2024-06-03"
@@ -13162,7 +13259,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2023,
-        "note": 4.7
+        "note": 4.7,
+        "episodes": 10
       }
     ],
     "date_ajout": "2026-07-21"
@@ -13264,7 +13362,8 @@ const CATALOG_DATA = [
       {
         "saison": 14,
         "annee": 2025,
-        "note": 8
+        "note": 8,
+        "episodes": 21
       }
     ],
     "date_ajout": "2018-01-11"
@@ -13320,27 +13419,32 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2014,
-        "note": 8.8
+        "note": 8.8,
+        "episodes": 10
       },
       {
         "saison": 2,
         "annee": 2015,
-        "note": 8.8
+        "note": 8.8,
+        "episodes": 10
       },
       {
         "saison": 3,
         "annee": 2017,
-        "note": 8.8
+        "note": 8.8,
+        "episodes": 10
       },
       {
         "saison": 4,
         "annee": 2020,
-        "note": 8.8
+        "note": 8.8,
+        "episodes": 11
       },
       {
         "saison": 5,
         "annee": 2023,
-        "note": 8.8
+        "note": 8.8,
+        "episodes": 10
       }
     ],
     "date_ajout": "2024-03-26"
@@ -13493,17 +13597,20 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2010,
-        "note": 8.4
+        "note": 8.4,
+        "episodes": 13
       },
       {
         "saison": 2,
         "annee": 2012,
-        "note": 8.4
+        "note": 8.4,
+        "episodes": 10
       },
       {
         "saison": 3,
         "annee": 2013,
-        "note": 8.4
+        "note": 8.4,
+        "episodes": 10
       }
     ],
     "date_ajout": "2017-07-01"
@@ -13987,7 +14094,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2024,
-        "note": 6.2
+        "note": 6.2,
+        "episodes": 8
       }
     ],
     "date_ajout": "2026-09-01"
@@ -14090,12 +14198,14 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2025,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 6
       },
       {
         "saison": 2,
         "annee": 2026,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 8
       }
     ],
     "date_ajout": "2026-09-13",
@@ -14717,7 +14827,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2025,
-        "note": 6.3
+        "note": 6.3,
+        "episodes": 12
       }
     ],
     "date_ajout": "2025-09-07"
@@ -14773,7 +14884,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2018,
-        "note": 8.1
+        "note": 8.1,
+        "episodes": 13
       }
     ],
     "date_ajout": "2026-03-15"
@@ -15486,7 +15598,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2025,
-        "note": 4.7
+        "note": 4.7,
+        "episodes": 6
       }
     ],
     "date_ajout": "2026-05-12"
@@ -16759,7 +16872,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2012,
-        "note": 7.9
+        "note": 7.9,
+        "episodes": 20
       }
     ],
     "date_ajout": "2024-04-04"
@@ -16907,22 +17021,26 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2021,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 6
       },
       {
         "saison": 2,
         "annee": 2022,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 6
       },
       {
         "saison": 3,
         "annee": 2024,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 6
       },
       {
         "saison": 4,
         "annee": 2026,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 6
       }
     ],
     "date_ajout": "2023-09-19"
@@ -17218,7 +17336,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2022,
-        "note": 6.7
+        "note": 6.7,
+        "episodes": 7
       }
     ],
     "date_ajout": "2022-08-28"
@@ -17318,7 +17437,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2025,
-        "note": 6.5
+        "note": 6.5,
+        "episodes": 10
       }
     ],
     "date_ajout": "2025-10-02"
@@ -17608,7 +17728,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2025,
-        "note": 6.8
+        "note": 6.8,
+        "episodes": 6
       }
     ],
     "date_ajout": "2026-01-06"
@@ -18376,7 +18497,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2018,
-        "note": 7.1
+        "note": 7.1,
+        "episodes": 26
       }
     ],
     "date_ajout": "2026-05-03"
@@ -19283,22 +19405,26 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2013,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 13
       },
       {
         "saison": 2,
         "annee": 2014,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 13
       },
       {
         "saison": 3,
         "annee": 2015,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 13
       },
       {
         "saison": 4,
         "annee": 2016,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 13
       }
     ],
     "date_ajout": "2025-01-13"
@@ -19542,7 +19668,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2024,
-        "note": 5.3
+        "note": 5.3,
+        "episodes": 8
       }
     ],
     "date_ajout": "2025-04-09"
@@ -19690,12 +19817,14 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2024,
-        "note": 6.4
+        "note": 6.4,
+        "episodes": 10
       },
       {
         "saison": 2,
         "annee": 2025,
-        "note": 6.4
+        "note": 6.4,
+        "episodes": 10
       }
     ],
     "date_ajout": "2025-10-05"
@@ -19846,7 +19975,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2020,
-        "note": 5.8
+        "note": 5.8,
+        "episodes": 26
       }
     ],
     "date_ajout": "2024-10-01"
@@ -19947,7 +20077,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2020,
-        "note": 6
+        "note": 6,
+        "episodes": 5
       }
     ],
     "date_ajout": "2024-09-01"
@@ -20004,7 +20135,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2020,
-        "note": 8.3
+        "note": 8.3,
+        "episodes": 10
       }
     ],
     "date_ajout": "2026-07-05"
@@ -20240,7 +20372,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2024,
-        "note": 5.9
+        "note": 5.9,
+        "episodes": 6
       }
     ],
     "date_ajout": "2024-04-12"
@@ -20580,7 +20713,8 @@ const CATALOG_DATA = [
       {
         "saison": 3,
         "annee": 2024,
-        "note": 7.1
+        "note": 7.1,
+        "episodes": 6
       }
     ],
     "date_ajout": "2025-03-18"
@@ -20817,7 +20951,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2025,
-        "note": 9
+        "note": 9,
+        "episodes": 6
       }
     ],
     "date_ajout": "2025-11-18"
@@ -20920,7 +21055,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2022,
-        "note": 6.4
+        "note": 6.4,
+        "episodes": 10
       }
     ],
     "date_ajout": "2025-03-24"
@@ -22131,12 +22267,14 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2020,
-        "note": 7.3
+        "note": 7.3,
+        "episodes": 10
       },
       {
         "saison": 2,
         "annee": 2022,
-        "note": 7.3
+        "note": 7.3,
+        "episodes": 8
       }
     ],
     "date_ajout": "2020-11-03"
@@ -22480,12 +22618,14 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2022,
-        "note": 7.6
+        "note": 7.6,
+        "episodes": 10
       },
       {
         "saison": 2,
         "annee": 2023,
-        "note": 7.6
+        "note": 7.6,
+        "episodes": 8
       }
     ],
     "date_ajout": "2024-07-03"
@@ -22680,7 +22820,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2025,
-        "note": 6.3
+        "note": 6.3,
+        "episodes": 6
       }
     ],
     "date_ajout": "2026-02-15"
@@ -22779,7 +22920,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2018,
-        "note": 6.1
+        "note": 6.1,
+        "episodes": 12
       }
     ],
     "date_ajout": "2026-05-29"
@@ -23679,7 +23821,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2024,
-        "note": 6.8
+        "note": 6.8,
+        "episodes": 6
       }
     ],
     "date_ajout": "2026-07-02"
@@ -23735,12 +23878,14 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2014,
-        "note": 7.2
+        "note": 7.2,
+        "episodes": 12
       },
       {
         "saison": 3,
         "annee": 2016,
-        "note": 7.2
+        "note": 7.2,
+        "episodes": 13
       }
     ],
     "date_ajout": "2019-05-01"
@@ -23843,7 +23988,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2021,
-        "note": 5.2
+        "note": 5.2,
+        "episodes": 6
       }
     ],
     "date_ajout": "2026-07-06"
@@ -24228,7 +24374,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2025,
-        "note": 7.6
+        "note": 7.6,
+        "episodes": 10
       }
     ],
     "date_ajout": "2025-01-07"
@@ -25588,7 +25735,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2020,
-        "note": 7.3
+        "note": 7.3,
+        "episodes": 8
       }
     ],
     "date_ajout": "2021-03-23"
@@ -25778,7 +25926,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2025,
-        "note": 5.7
+        "note": 5.7,
+        "episodes": 4
       }
     ],
     "date_ajout": "2025-09-04"
@@ -26302,7 +26451,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2025,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 6
       }
     ],
     "date_ajout": "2025-10-21"
@@ -26357,7 +26507,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2018,
-        "note": 6
+        "note": 6,
+        "episodes": 12
       }
     ],
     "date_ajout": "2026-03-15"
@@ -26553,12 +26704,14 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2021,
-        "note": 6.8
+        "note": 6.8,
+        "episodes": 13
       },
       {
         "saison": 2,
         "annee": 2022,
-        "note": 6.8
+        "note": 6.8,
+        "episodes": 7
       }
     ],
     "date_ajout": "2023-12-21"
@@ -26752,7 +26905,8 @@ const CATALOG_DATA = [
       {
         "saison": 2,
         "annee": 2023,
-        "note": 6.8
+        "note": 6.8,
+        "episodes": 8
       }
     ],
     "date_ajout": "2024-07-03"
@@ -27174,17 +27328,20 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2016,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 10
       },
       {
         "saison": 2,
         "annee": 2018,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 10
       },
       {
         "saison": 3,
         "annee": 2019,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 10
       }
     ],
     "date_ajout": "2025-08-05"
@@ -27288,22 +27445,26 @@ const CATALOG_DATA = [
       {
         "saison": 5,
         "annee": 2010,
-        "note": 7.2
+        "note": 7.2,
+        "episodes": 20
       },
       {
         "saison": 6,
         "annee": 2011,
-        "note": 7.2
+        "note": 7.2,
+        "episodes": 21
       },
       {
         "saison": 7,
         "annee": 2012,
-        "note": 7.2
+        "note": 7.2,
+        "episodes": 12
       },
       {
         "saison": 8,
         "annee": 2014,
-        "note": 7.2
+        "note": 7.2,
+        "episodes": 12
       }
     ],
     "date_ajout": "2024-11-25"
@@ -27355,12 +27516,14 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2021,
-        "note": 7.6
+        "note": 7.6,
+        "episodes": 8
       },
       {
         "saison": 2,
         "annee": 2022,
-        "note": 7.6
+        "note": 7.6,
+        "episodes": 8
       }
     ],
     "date_ajout": "2022-06-01"
@@ -27507,7 +27670,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2023,
-        "note": 5.5
+        "note": 5.5,
+        "episodes": 9
       }
     ],
     "date_ajout": "2024-07-03"
@@ -28174,7 +28338,8 @@ const CATALOG_DATA = [
       {
         "saison": 2,
         "annee": 2024,
-        "note": 6.8
+        "note": 6.8,
+        "episodes": 10
       }
     ],
     "date_ajout": "2024-08-25"
@@ -28456,7 +28621,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2009,
-        "note": 7
+        "note": 7,
+        "episodes": 49
       }
     ],
     "date_ajout": "2026-03-21"
@@ -28655,7 +28821,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2018,
-        "note": 6.8
+        "note": 6.8,
+        "episodes": 14
       }
     ],
     "date_ajout": "2026-03-15"
@@ -29081,7 +29248,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2022,
-        "note": 6.7
+        "note": 6.7,
+        "episodes": 6
       }
     ],
     "date_ajout": "2026-06-30"
@@ -30257,7 +30425,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2015,
-        "note": 5.9
+        "note": 5.9,
+        "episodes": 13
       }
     ],
     "date_ajout": "2019-05-01"
@@ -30494,7 +30663,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2018,
-        "note": 5.9
+        "note": 5.9,
+        "episodes": 6
       }
     ],
     "date_ajout": "2022-11-07"
@@ -31012,7 +31182,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2016,
-        "note": 6.3
+        "note": 6.3,
+        "episodes": 26
       }
     ],
     "date_ajout": "2026-03-21"
@@ -31205,12 +31376,14 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2019,
-        "note": 7.1
+        "note": 7.1,
+        "episodes": 20
       },
       {
         "saison": 2,
         "annee": 2020,
-        "note": 7.1
+        "note": 7.1,
+        "episodes": 20
       }
     ],
     "date_ajout": "2026-03-21"
@@ -31405,7 +31578,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2019,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 13
       }
     ],
     "date_ajout": "2026-03-15"
@@ -31643,7 +31817,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2020,
-        "note": 5.8
+        "note": 5.8,
+        "episodes": 7
       }
     ],
     "date_ajout": "2022-12-31"
@@ -31741,7 +31916,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2023,
-        "note": 7.8
+        "note": 7.8,
+        "episodes": 6
       }
     ],
     "date_ajout": "2024-07-03"
@@ -32162,7 +32338,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2018,
-        "note": 6.1
+        "note": 6.1,
+        "episodes": 26
       }
     ],
     "date_ajout": "2026-03-21"
@@ -32263,7 +32440,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2013,
-        "note": 6.5
+        "note": 6.5,
+        "episodes": 50
       }
     ],
     "date_ajout": "2016-08-08"
@@ -32549,7 +32727,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2023,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 6
       }
     ],
     "date_ajout": "2024-07-03"
@@ -32784,7 +32963,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2024,
-        "note": 6.8
+        "note": 6.8,
+        "episodes": 6
       }
     ],
     "date_ajout": "2025-03-05"
@@ -32839,12 +33019,14 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2023,
-        "note": 6.8
+        "note": 6.8,
+        "episodes": 10
       },
       {
         "saison": 2,
         "annee": 2024,
-        "note": 6.8
+        "note": 6.8,
+        "episodes": 10
       }
     ],
     "date_ajout": "2024-07-03"
@@ -32988,7 +33170,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2018,
-        "note": 6.7
+        "note": 6.7,
+        "episodes": 13
       }
     ],
     "date_ajout": "2026-03-15"
@@ -33427,7 +33610,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2020,
-        "note": 7.1
+        "note": 7.1,
+        "episodes": 13
       }
     ],
     "date_ajout": "2026-03-21"
@@ -33478,7 +33662,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2021,
-        "note": 5.8
+        "note": 5.8,
+        "episodes": 6
       }
     ],
     "date_ajout": "2022-11-07"
@@ -33531,7 +33716,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2025,
-        "note": 6.3
+        "note": 6.3,
+        "episodes": 6
       }
     ],
     "date_ajout": "2025-01-14"
@@ -34054,7 +34240,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2025,
-        "note": 6
+        "note": 6,
+        "episodes": 6
       }
     ],
     "date_ajout": "2026-09-15"
@@ -34109,12 +34296,14 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2011,
-        "note": 6.4
+        "note": 6.4,
+        "episodes": 26
       },
       {
         "saison": 2,
         "annee": 2012,
-        "note": 6.4
+        "note": 6.4,
+        "episodes": 26
       }
     ],
     "date_ajout": "2026-03-21"
@@ -34214,7 +34403,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2010,
-        "note": 7.6
+        "note": 7.6,
+        "episodes": 27
       }
     ],
     "date_ajout": "2026-03-28"
@@ -34269,17 +34459,20 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2008,
-        "note": 6.4
+        "note": 6.4,
+        "episodes": 26
       },
       {
         "saison": 2,
         "annee": 2013,
-        "note": 6.4
+        "note": 6.4,
+        "episodes": 26
       },
       {
         "saison": 3,
         "annee": 2016,
-        "note": 6.4
+        "note": 6.4,
+        "episodes": 26
       }
     ],
     "date_ajout": "2026-03-21"
@@ -34332,7 +34525,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2026,
-        "note": 8
+        "note": 8,
+        "episodes": 10
       }
     ],
     "date_ajout": "2026-07-30"
@@ -34982,7 +35176,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2023,
-        "note": 5.8
+        "note": 5.8,
+        "episodes": 8
       }
     ],
     "date_ajout": "2024-07-03"
@@ -35999,7 +36194,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2024,
-        "note": 6.9
+        "note": 6.9,
+        "episodes": 1
       }
     ],
     "date_ajout": "2024-10-29"
@@ -36437,7 +36633,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2025,
-        "note": 7.1
+        "note": 7.1,
+        "episodes": 8
       }
     ],
     "date_ajout": "2026-09-29"
@@ -36826,7 +37023,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2020,
-        "note": 7.2
+        "note": 7.2,
+        "episodes": 9
       }
     ],
     "date_ajout": "2026-09-30"
@@ -37587,7 +37785,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2022,
-        "note": 7.3
+        "note": 7.3,
+        "episodes": 8
       }
     ],
     "date_ajout": "2026-06-04"
@@ -37734,17 +37933,20 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2018,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 10
       },
       {
         "saison": 2,
         "annee": 2019,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 10
       },
       {
         "saison": 3,
         "annee": 2021,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 10
       }
     ],
     "date_ajout": "2026-09-01"
@@ -38573,7 +38775,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2025,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 8
       }
     ],
     "duree": "57 min/ép.",
@@ -38959,7 +39162,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2015,
-        "note": 6.5
+        "note": 6.5,
+        "episodes": 30
       }
     ],
     "duree": "20 min/ép.",
@@ -39644,7 +39848,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2023,
-        "note": 6.7
+        "note": 6.7,
+        "episodes": 8
       }
     ],
     "duree": "49 min/ép.",
@@ -42585,22 +42790,26 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2019,
-        "note": 7
+        "note": 7,
+        "episodes": 6
       },
       {
         "saison": 2,
         "annee": 2021,
-        "note": 7
+        "note": 7,
+        "episodes": 6
       },
       {
         "saison": 3,
         "annee": 2021,
-        "note": 7
+        "note": 7,
+        "episodes": 6
       },
       {
         "saison": 4,
         "annee": 2023,
-        "note": 7
+        "note": 7,
+        "episodes": 6
       }
     ],
     "duree": "47 min/ép.",
@@ -49108,17 +49317,20 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2012,
-        "note": 6.8
+        "note": 6.8,
+        "episodes": 26
       },
       {
         "saison": 2,
         "annee": 2015,
-        "note": 6.8
+        "note": 6.8,
+        "episodes": 26
       },
       {
         "saison": 3,
         "annee": 2017,
-        "note": 6.8
+        "note": 6.8,
+        "episodes": 26
       }
     ],
     "duree": "22 min/ép.",
@@ -49172,7 +49384,8 @@ const CATALOG_DATA = [
       {
         "saison": 2,
         "annee": 2014,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 42
       }
     ],
     "duree": "10 min/ép.",
@@ -49641,7 +49854,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2023,
-        "note": 8
+        "note": 8,
+        "episodes": 7
       }
     ],
     "duree": "72 min/ép.",
@@ -49877,7 +50091,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2021,
-        "note": 7.7
+        "note": 7.7,
+        "episodes": 6
       }
     ],
     "duree": "58 min/ép.",
@@ -50112,7 +50327,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2025,
-        "note": 7.7
+        "note": 7.7,
+        "episodes": 8
       }
     ],
     "duree": "43 min/ép.",
@@ -50208,7 +50424,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2022,
-        "note": 7.6
+        "note": 7.6,
+        "episodes": 6
       }
     ],
     "duree": "52 min/ép.",
@@ -50579,22 +50796,26 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2021,
-        "note": 8.3
+        "note": 8.3,
+        "episodes": 5
       },
       {
         "saison": 2,
         "annee": 2022,
-        "note": 8.3
+        "note": 8.3,
+        "episodes": 5
       },
       {
         "saison": 3,
         "annee": 2023,
-        "note": 8.3
+        "note": 8.3,
+        "episodes": 5
       },
       {
         "saison": 4,
         "annee": 2024,
-        "note": 8.3
+        "note": 8.3,
+        "episodes": 5
       }
     ],
     "duree": "30 min/ép.",
@@ -50963,7 +51184,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2025,
-        "note": 7.1
+        "note": 7.1,
+        "episodes": 4
       }
     ],
     "duree": "56 min/ép.",
@@ -51199,7 +51421,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2022,
-        "note": 7.3
+        "note": 7.3,
+        "episodes": 4
       }
     ],
     "duree": "54 min/ép.",
@@ -51613,7 +51836,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2018,
-        "note": 8
+        "note": 8,
+        "episodes": 17
       }
     ],
     "duree": "66 min/ép.",
@@ -52261,7 +52485,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2024,
-        "note": 6.4
+        "note": 6.4,
+        "episodes": 6
       }
     ],
     "duree": "44 min/ép.",
@@ -52537,7 +52762,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2018,
-        "note": 7
+        "note": 7,
+        "episodes": 16
       }
     ],
     "duree": "60 min/ép.",
@@ -52680,7 +52906,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2024,
-        "note": 8.2
+        "note": 8.2,
+        "episodes": 10
       }
     ],
     "duree": "33 min/ép.",
@@ -55544,7 +55771,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2022,
-        "note": 6.7
+        "note": 6.7,
+        "episodes": 5
       }
     ],
     "duree": "45 min/ép.",
@@ -56092,7 +56320,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2018,
-        "note": 7.6
+        "note": 7.6,
+        "episodes": 8
       }
     ],
     "duree": "30 min/ép.",
@@ -56367,7 +56596,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2019,
-        "note": 7.8
+        "note": 7.8,
+        "episodes": 6
       }
     ],
     "duree": "44 min/ép.",
@@ -58766,7 +58996,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2021,
-        "note": 6.5
+        "note": 6.5,
+        "episodes": 6
       }
     ],
     "duree": "51 min/ép.",
@@ -62313,7 +62544,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2018,
-        "note": 7.5
+        "note": 7.5,
+        "episodes": 6
       }
     ],
     "duree": "53 min/ép.",
@@ -62907,7 +63139,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2022,
-        "note": 6.8
+        "note": 6.8,
+        "episodes": 6
       }
     ],
     "duree": "50 min/ép.",
@@ -63048,7 +63281,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2021,
-        "note": 7
+        "note": 7,
+        "episodes": 8
       }
     ],
     "duree": "44 min/ép.",
@@ -63099,7 +63333,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2018,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 6
       }
     ],
     "duree": "42 min/ép.",
@@ -64006,7 +64241,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2022,
-        "note": 6.1
+        "note": 6.1,
+        "episodes": 6
       }
     ],
     "duree": "21 min/ép.",
@@ -65037,7 +65273,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2024,
-        "note": 7.4
+        "note": 7.4,
+        "episodes": 6
       }
     ],
     "duree": "52 min/ép.",
@@ -65352,7 +65589,8 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2023,
-        "note": 7.1
+        "note": 7.1,
+        "episodes": 6
       }
     ],
     "duree": "59 min/ép.",
@@ -66851,22 +67089,26 @@ const CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2004,
-        "note": 8.7
+        "note": 8.7,
+        "episodes": 13
       },
       {
         "saison": 2,
         "annee": 2005,
-        "note": 8.7
+        "note": 8.7,
+        "episodes": 20
       },
       {
         "saison": 3,
         "annee": 2006,
-        "note": 8.7
+        "note": 8.7,
+        "episodes": 20
       },
       {
         "saison": 4,
         "annee": 2008,
-        "note": 8.7
+        "note": 8.7,
+        "episodes": 21
       }
     ],
     "date_ajout": "2021-04-19"
@@ -67307,6 +67549,3 @@ const CATALOG_DATA = [
     "on_tnt": false
   }
 ];
-const CATALOG_METADATA = {
-  "lastDailySync": "2026-10-20T10:50:14.433Z"
-};

@@ -772,7 +772,8 @@ const JustWatchEngine = (function () {
         return {
           saison: s.content?.seasonNumber || 1,
           annee: s.content?.originalReleaseYear || year,
-          note: sScore
+          note: sScore,
+          episodes: s.totalEpisodeCount || null
         };
       }).sort((a, b) => a.saison - b.saison);
 
@@ -1134,6 +1135,7 @@ const JustWatchEngine = (function () {
                 seasons {
                   id
                   objectId
+                  totalEpisodeCount
                   content(country: $country, language: "fr") {
                     seasonNumber
                     originalReleaseYear

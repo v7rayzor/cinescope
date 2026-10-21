@@ -1560,36 +1560,96 @@ function openModal(item) {
     year.textContent = item.annee || '-';
   }
 
-  // Menu déroulant des saisons disponibles pour les séries
+  // Éléments Desktop pour épisodes et sous-notes
+  const episodesBadge = document.getElementById('modalEpisodesBadge');
+  const subRatings = document.getElementById('modalSubRatings');
+  const ratingAvisVal = document.getElementById('modalRatingAvisVal');
+  const ratingRecenceVal = document.getElementById('modalRatingRecenceVal');
+
+  // Menu déroulant des saisons disponibles pour les séries + Comptage d'épisodes (Règle 8 PC)
   const seasonWrapper = document.getElementById('modalSeasonSelectorWrapper');
   const seasonSelect = document.getElementById('modalSeasonSelect');
 
   if (item.type === 'serie') {
     const seasons = (item.saisons_disponibles && item.saisons_disponibles.length > 0)
       ? item.saisons_disponibles
-      : [{ saison: 1, annee: item.annee, note: item.note_avis }];
+      : [{ saison: 1, annee: item.annee, note: item.note_avis, episodes: null }];
+
+    const totalEpisodes = seasons.reduce((acc, s) => acc + (Number(s.episodes) || 0), 0);
+
+    const updateEpisodesBadge = (epCount, isTotal = false, seasonNum = null) => {
+      if (!episodesBadge) return;
+      if (epCount && epCount > 0) {
+        if (isTotal) {
+          episodesBadge.textContent = `${epCount} épisodes au total`;
+          episodesBadge.title = `Total : ${epCount} épisodes disponibles sur l'ensemble des saisons`;
+        } else {
+          episodesBadge.textContent = seasonNum ? `${epCount} ép. (Saison ${seasonNum})` : `${epCount} épisodes`;
+          episodesBadge.title = seasonNum ? `Saison ${seasonNum} : ${epCount} épisodes disponibles` : `${epCount} épisodes`;
+        }
+        episodesBadge.style.display = 'inline-flex';
+      } else {
+        episodesBadge.style.display = 'none';
+      }
+    };
 
     if (seasonWrapper && seasonSelect) {
       seasonSelect.innerHTML = '';
+      if (seasons.length > 1) {
+        const optAll = document.createElement('option');
+        optAll.value = 'all';
+        optAll.textContent = `Toutes les saisons (${totalEpisodes > 0 ? totalEpisodes + ' ép.' : seasons.length + ' saisons'})`;
+        seasonSelect.appendChild(optAll);
+      }
+
       seasons.forEach((s, idx) => {
         const opt = document.createElement('option');
         opt.value = idx;
-        opt.textContent = `Saison ${s.saison}`;
+        const epSuffix = s.episodes ? ` (${s.episodes} ép.)` : '';
+        opt.textContent = `Saison ${s.saison}${epSuffix}`;
         seasonSelect.appendChild(opt);
       });
       seasonWrapper.style.display = 'inline-flex';
 
+      // Affichage initial du badge d'épisodes
+      if (seasons.length > 1) {
+        seasonSelect.value = 'all';
+        updateEpisodesBadge(totalEpisodes, true);
+      } else {
+        seasonSelect.value = 0;
+        const s0 = seasons[0];
+        updateEpisodesBadge(s0.episodes || totalEpisodes, false, s0.saison);
+      }
+
       seasonSelect.onchange = (e) => {
-        const selected = seasons[parseInt(e.target.value, 10)];
-        if (selected && selected.annee) {
-          year.textContent = selected.annee;
+        const val = e.target.value;
+        if (val === 'all') {
+          if (item.annee_fin && item.annee_fin !== item.annee) {
+            year.textContent = `${item.annee} - ${item.annee_fin}`;
+          } else {
+            year.textContent = item.annee || '-';
+          }
+          updateEpisodesBadge(totalEpisodes, true);
+          if (ratingAvisVal && item.note_avis) {
+            ratingAvisVal.textContent = Number(item.note_avis).toFixed(1);
+          }
+        } else {
+          const selected = seasons[parseInt(val, 10)];
+          if (selected) {
+            if (selected.annee) {
+              year.textContent = selected.annee;
+            }
+            updateEpisodesBadge(selected.episodes, false, selected.saison);
+            if (ratingAvisVal && selected.note) {
+              ratingAvisVal.textContent = Number(selected.note).toFixed(1);
+            }
+          }
         }
       };
     }
   } else {
-    if (seasonWrapper) {
-      seasonWrapper.style.display = 'none';
-    }
+    if (seasonWrapper) seasonWrapper.style.display = 'none';
+    if (episodesBadge) episodesBadge.style.display = 'none';
   }
 
   if (item.badge) {
@@ -1651,6 +1711,20 @@ function openModal(item) {
     const numScore = Number(scoreVal) || 0;
     const starCount = item.etoiles || (numScore >= 8 ? 5 : (numScore >= 7 ? 4 : 3));
     rating.innerHTML = `<span>${scoreVal} / 10</span><span class="modal-stars-pure">${'★'.repeat(starCount)}</span>`;
+  }
+
+  // Sous-notes distinctes Avis & Récence (Règle 8 PC)
+  if (subRatings) {
+    const noteAvis = (item.note_avis !== null && item.note_avis !== undefined) ? Number(item.note_avis).toFixed(1) : null;
+    const noteRecence = (item.note_recence !== null && item.note_recence !== undefined) ? Number(item.note_recence).toFixed(1) : null;
+
+    if (noteAvis !== null && noteRecence !== null) {
+      if (ratingAvisVal) ratingAvisVal.textContent = noteAvis;
+      if (ratingRecenceVal) ratingRecenceVal.textContent = noteRecence;
+      subRatings.style.display = 'inline-flex';
+    } else {
+      subRatings.style.display = 'none';
+    }
   }
 
   // Synopsis

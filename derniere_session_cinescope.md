@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.88** / Cache **cinescope-v8.88-streaming**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.89** / Cache **cinescope-v8.89-streaming**).
 
 ---
 
@@ -187,4 +187,19 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     Dans chaque colonne, les œuvres respectent fidèlement le tri officiel (`sortCatalogItems`) : expiration en tête par ordre d'urgence, puis tirage aléatoire quotidien (ou tri chronologique 2026 $\rightarrow$ 2006 si le bouton `📅 Date` est actif).
   - **En-tête de colonnes interactif** : Pilule « Action & Horreur » avec compteur combiné (269) et compteurs individuels cliquables au sommet de chaque colonne.
   - **Sanctuarisation mobile** : Strictement masqué sur mobile / tablettes ($< 1024\text{px}$), conservant la grille responsive classique 1 ou 2 colonnes sans régression.
+
+* **Améliorations Modale & Exclusivité PC Desktop (21/10/2026 - v8.89 - Règle 8 AGENTS.md)** :
+  - **Actualisation Officielle du Logo Shadowz** : Remplacement de `assets/logos/shadowz.png` par la version haute résolution officielle issue de Molotov Abonnements (`propositions/assets/logos/shadowz.png`).
+  - **Comptage Dynamique des Épisodes des Séries (`.modal-episodes-badge`)** :
+    * Dans l'en-tête de la fiche détail, à côté du sélecteur de saison : pilule indigo satinée affichant le total disponible (ex: `42 épisodes au total`) ou le volume d'une saison unique (ex: *La fortuna* : `6 épisodes`).
+    * Menu déroulant enrichi avec l'option globale `Toutes les saisons (X ép.)` et chaque saison détaillée `Saison N (Y ép.)`.
+    * Mise à jour instantanée au changement de saison : n'affiche que les épisodes de la saison sélectionnée (ex: `16 ép. (Saison 2)`).
+    * Intégration GraphQL pérenne : ingestion de `totalEpisodeCount` sur les saisons JustWatch et injection dans les 147 séries actuelles du catalogue.
+  - **Sous-Notes Distinctes Stylisées (`.modal-sub-ratings`)** :
+    * Sous la note globale dorée, affichage de deux pastilles colorées harmonieuses :
+      - **Avis Critique** (Cyan `#38bdf8`) : `💬 Avis : 7.0/10` (TMDb / IMDb / Rotten Tomatoes).
+      - **Fraîcheur / Récence** (Émeraude `#34d399`) : `⏳ Récence : 8.5/10` (Algorithme chronologique CinéScope).
+    * Adaptation dynamique : reflète la note de saison spécifique si une saison est sélectionnée.
+  - **Sanctuarisation Mobile Stricte (Règle 8)** :
+    * `.modal-episodes-badge` et `.modal-sub-ratings` strictement masqués via `@media (max-width: 1023px) { display: none !important; }`. Mobile intact et épuré.
 

@@ -406,6 +406,7 @@
               <select class="modal-season-select" id="modalSeasonSelect" aria-label="Choisir une saison"></select>
               <span class="modal-season-select-chevron" aria-hidden="true">▾</span>
             </div>
+            <span class="modal-episodes-badge desktop-only-meta" id="modalEpisodesBadge" style="display: none;"></span>
           </div>
 
           <h2 class="modal-title" id="modalTitle">Titre du Film</h2>
@@ -431,9 +432,21 @@
               <div class="modal-categories-chips" id="modalCategories"></div>
             </div>
 
-            <div class="info-row">
+            <div class="info-row modal-rating-row">
               <span class="info-label">⭐ Note</span>
               <span class="info-value highlight-rating" id="modalRating"><span>8.0 / 10</span><span class="modal-stars-pure">★★★★★</span></span>
+              <div class="modal-sub-ratings desktop-only-meta" id="modalSubRatings" style="display: none;">
+                <span class="modal-sub-rating pill-avis" id="modalRatingAvis" title="Note critique (Presse & Spectateurs : TMDb, IMDb, Rotten Tomatoes)">
+                  <span class="sub-rating-icon">💬</span>
+                  <span class="sub-rating-label">Avis :</span>
+                  <span class="sub-rating-val" id="modalRatingAvisVal">7.0</span><span class="sub-rating-max">/10</span>
+                </span>
+                <span class="modal-sub-rating pill-recence" id="modalRatingRecence" title="Note de fraîcheur / récence CinéScope">
+                  <span class="sub-rating-icon">⏳</span>
+                  <span class="sub-rating-label">Récence :</span>
+                  <span class="sub-rating-val" id="modalRatingRecenceVal">8.5</span><span class="sub-rating-max">/10</span>
+                </span>
+              </div>
             </div>
           </div>
 

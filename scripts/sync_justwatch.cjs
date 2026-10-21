@@ -74,6 +74,7 @@ const GRAPHQL_QUERY = `
             seasons {
               id
               objectId
+              totalEpisodeCount
               content(country: $country, language: "fr") {
                 seasonNumber
                 originalReleaseYear
