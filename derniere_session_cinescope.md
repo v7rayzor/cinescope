@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.94** / Cache **cinescope-v8.94-streaming**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.95** / Cache **cinescope-v8.95-streaming** / Stockage **_v47**).
 
 ---
 
@@ -149,12 +149,13 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * `action_aventure` : 68 (4.8%)
   - **Titres expirés** : **0**.
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : **v8.88** (`sw.js` : `cinescope-v8.88-streaming`).
+  - **Version Application / PWA** : **v8.95** (`sw.js` : `cinescope-v8.95-streaming`).
   - **Optimisation Affichage & Fluidité** : Affiches avec `loading="lazy"` natif et préchargement d'arrière-plan temporisé (4 requêtes max via `requestIdleCallback`) éliminant toute congestion réseau.
-  - **Clés LocalStorage Actives** : `_v46` (`cinescope_streaming_catalog_v46`, `cinescope_last_specialized_sync_v46`, etc.).
-  - **Cache Arbitrage IA** : [`data/ai_duel_cache.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_duel_cache.json) (162 arbitrages enregistrés et verrouillés).
+  - **Clés LocalStorage Actives** : `_v47` (`cinescope_streaming_catalog_v47`, `cinescope_streaming_last_sync_v47`, `cinescope_streaming_last_full_sync_v47`, `cinescope_streaming_autosync_v47`).
+  - **Registre Persistant des Arbitrages IA** : [`data/ai_duel_cache.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_duel_cache.json) (Node.js/CI) et [`data/ai_duel_cache.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_duel_cache.js) (`window.AI_DUEL_CACHE` pour le client navigateur et hors-ligne), garantissant la pérennité totale des duels (*T.I.M.* en SF, *Cloud* en Polar).
+  - **Harnais de Préservation Catégorielle Client** : Dans `mergeCatalog()`, préservation absolue de `refreshed.categories` s'il est déjà qualifié dans `catalog.js`, évitant toute régression par le calcul brut `computeCategory`.
   - **Règle Séries Famille / Animation** : Exigence formelle du tag `ani` pour les séries en `animation_famille`.
-  - **Workflow GitHub Actions** : Clé secrète `DEEPSEEK_API_KEY` injectée et commit automatique du cache IA.
+  - **Workflow GitHub Actions** : Clé secrète `DEEPSEEK_API_KEY` injectée et commit automatique du cache IA (.json et .js).
 
 ---
 

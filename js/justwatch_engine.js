@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v46';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v46';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v46';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v46';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v47';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v47';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v47';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v47';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -33,8 +33,8 @@ const JustWatchEngine = (function () {
   cleanLegacyLocalStorage();
 
   // Cache persistant des arbitrages IA (Duel binaire Action vs Thriller - Règle v8.81)
-  let aiDuelCache = {};
-  if (typeof require !== 'undefined') {
+  let aiDuelCache = (typeof window !== 'undefined' && window.AI_DUEL_CACHE) ? window.AI_DUEL_CACHE : {};
+  if (typeof require !== 'undefined' && Object.keys(aiDuelCache).length === 0) {
     try {
       const fs = require('fs');
       const path = require('path');
@@ -57,7 +57,16 @@ const JustWatchEngine = (function () {
   }
 
   function getAiDuelCache() {
+    if (typeof window !== 'undefined' && window.AI_DUEL_CACHE && Object.keys(window.AI_DUEL_CACHE).length > 0) {
+      return window.AI_DUEL_CACHE;
+    }
     return aiDuelCache;
+  }
+
+  function resolveDuelEntry(itemId) {
+    if (!itemId) return null;
+    const cache = getAiDuelCache();
+    return cache && cache[itemId] ? cache[itemId] : null;
   }
 
   // Vérifie si une entrée de cache IA est légitime selon le type de duel
@@ -344,9 +353,10 @@ const JustWatchEngine = (function () {
     if (!rawTags.length) return 'drame_emotion';
 
     // Prise en compte prioritaire du duel IA ciblé si l'œuvre est éligible
-    if (itemId && aiDuelCache[itemId] && aiDuelCache[itemId].category) {
-      if (isEligibleDuelEntry(rawTags, aiDuelCache[itemId].category)) {
-        return aiDuelCache[itemId].category;
+    const cachedDuel = resolveDuelEntry(itemId);
+    if (cachedDuel && cachedDuel.category) {
+      if (isEligibleDuelEntry(rawTags, cachedDuel.category)) {
+        return cachedDuel.category;
       }
     }
 
@@ -1061,10 +1071,10 @@ const JustWatchEngine = (function () {
         continue;
       }
       if (refreshed.raw_genres && refreshed.raw_genres.length > 0) {
-        const cachedDuel = refreshed.id && aiDuelCache[refreshed.id];
+        const cachedDuel = resolveDuelEntry(refreshed.id);
         if (cachedDuel && isEligibleDuelEntry(refreshed.raw_genres, cachedDuel.category)) {
           refreshed.categories = [cachedDuel.category];
-        } else {
+        } else if (!refreshed.categories || refreshed.categories.length === 0) {
           refreshed.categories = [computeCategory(refreshed.raw_genres, refreshed.type === 'serie', refreshed.titre, refreshed.synopsis, refreshed.badge, refreshed.annee, refreshed.package_slugs, refreshed.id)];
         }
       }
@@ -1084,7 +1094,7 @@ const JustWatchEngine = (function () {
       if (fresh.raw_genres && fresh.raw_genres.includes('rly')) {
         continue;
       }
-      const freshCachedDuel = fresh.id && aiDuelCache[fresh.id];
+      const freshCachedDuel = resolveDuelEntry(fresh.id);
       if (freshCachedDuel && isEligibleDuelEntry(fresh.raw_genres, freshCachedDuel.category)) {
         fresh.categories = [freshCachedDuel.category];
       }

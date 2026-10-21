@@ -26,10 +26,17 @@ if (fs.existsSync(envPath)) {
 
 function loadJustWatchEngine() {
   const code = fs.readFileSync(path.join(__dirname, '..', 'js', 'justwatch_engine.js'), 'utf8');
-  const context = { console, localStorage: {}, window: {} };
-  const fn = new Function('window', 'module', 'exports', code + '\nreturn window.JustWatchEngine || (module && module.exports);');
+  let duelCache = {};
+  try {
+    const duelJsonPath = path.join(__dirname, '..', 'data', 'ai_duel_cache.json');
+    if (fs.existsSync(duelJsonPath)) {
+      duelCache = JSON.parse(fs.readFileSync(duelJsonPath, 'utf8'));
+    }
+  } catch (e) { }
+  const context = { console, localStorage: {}, window: { AI_DUEL_CACHE: duelCache }, require };
+  const fn = new Function('window', 'module', 'exports', 'require', code + '\nreturn window.JustWatchEngine || (module && module.exports);');
   const mod = { exports: {} };
-  return fn(context.window, mod, mod.exports);
+  return fn(context.window, mod, mod.exports, require);
 }
 const JustWatchEngine = loadJustWatchEngine();
 
@@ -220,6 +227,7 @@ function loadExistingMetadata() {
 }
 
 const AI_CACHE_FILE = path.join(__dirname, '..', 'data', 'ai_duel_cache.json');
+const AI_CACHE_JS_FILE = path.join(__dirname, '..', 'data', 'ai_duel_cache.js');
 
 function loadAiCache() {
   try {
@@ -234,8 +242,10 @@ function saveAiCache(cache) {
   try {
     fs.mkdirSync(path.dirname(AI_CACHE_FILE), { recursive: true });
     fs.writeFileSync(AI_CACHE_FILE, JSON.stringify(cache, null, 2), 'utf8');
+    const jsContent = '/**\n * CinéScope - Registre persistant des duels IA DeepSeek (navigateur et offline)\n */\nwindow.AI_DUEL_CACHE = ' + JSON.stringify(cache, null, 2) + ';\n';
+    fs.writeFileSync(AI_CACHE_JS_FILE, jsContent, 'utf8');
   } catch (e) {
-    console.warn('⚠️ Impossible de sauvegarder ai_duel_cache.json :', e.message);
+    console.warn('⚠️ Impossible de sauvegarder ai_duel_cache :', e.message);
   }
 }
 
