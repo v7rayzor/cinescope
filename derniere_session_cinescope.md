@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.91** / Cache **cinescope-v8.91-streaming**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.92** / Cache **cinescope-v8.92-streaming**).
 
 ---
 
@@ -190,6 +190,10 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 
 * **Améliorations Modale & Exclusivité PC Desktop (21/10/2026 - v8.89 - Règle 8 AGENTS.md)** :
   - **Actualisation Officielle du Logo Shadowz** : Remplacement de `assets/logos/shadowz.png` par la version haute résolution officielle issue de Molotov Abonnements (`propositions/assets/logos/shadowz.png`).
+  - **Note Avis à Côté de la Date (`.modal-header-avis`)** :
+    * **Position & Libellé** : Directement à droite de la date de sortie (ex: `2021 – 2025  ⭐ Avis : 8.0` ou `2024  ⭐ Avis : 7.8`), sans surcharge visuelle.
+    * **Rendu Typographique** : Aligné sobrement sur les métadonnées (`font-size: 0.95rem; font-weight: 700; color: var(--text-muted)` avec valeur en or lumineux `#fde047`).
+    * **Dynamique par Saison** : Pour les séries, s'actualise en direct avec la note de la saison sélectionnée.
   - **Comptage Dynamique des Épisodes des Séries (`.modal-episodes-badge`)** :
     * **Typographie & Style alignés exactement sur les années** : Rendu en texte sobre sans capsule ni bordure (`color: var(--text-muted); font-size: 0.95rem; font-weight: 700; white-space: nowrap`), identique à `.modal-year`.
     * **Menu déroulant sobre préservé à l'identique** : Options simples `Saison 1`, `Saison 2`, etc. sans surcharge.
@@ -202,5 +206,5 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
       - **Fraîcheur / Récence** (Émeraude `#34d399`) : `⏳ Récence : 8.5/10` (Algorithme chronologique CinéScope).
     * Adaptation dynamique : reflète la note de saison spécifique si une saison est sélectionnée.
   - **Sanctuarisation Mobile Stricte (Règle 8)** :
-    * `.modal-episodes-badge` et `.modal-sub-ratings` strictement masqués via `@media (max-width: 1023px) { display: none !important; }`. Mobile intact et épuré.
+    * `.modal-episodes-badge`, `.modal-header-avis` et `.modal-sub-ratings` strictement masqués via `@media (max-width: 1023px) { display: none !important; }`. Mobile intact et épuré.
 
