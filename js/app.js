@@ -60,6 +60,7 @@ const AppState = {
   isAutoStars: true,           // true tant que l'utilisateur n'a pas forcé manuellement un choix
   searchQuery: '',             // Requête de recherche par titre (PC uniquement)
   dateSortOrder: 'none',       // 'none', 'desc' (récent -> ancien), 'asc' (ancien -> récent) (PC uniquement)
+  avisSortOrder: 'none',       // 'none', 'desc' (meilleur avis -> moins bon), 'asc' (moins bon -> meilleur) (PC uniquement)
   isSyncing: false,
   catalog: []
 };
@@ -357,6 +358,34 @@ function sortCatalogItems(items) {
     return sorted;
   }
 
+  // Tri par Note Avis critique (Exclusivité PC Desktop - Règle 8 AGENTS.md)
+  if (!isMobile && AppState.avisSortOrder && AppState.avisSortOrder !== 'none') {
+    const sorted = [...items];
+    sorted.sort((a, b) => {
+      const avisA = typeof a.note_avis === 'number' ? a.note_avis : 0;
+      const avisB = typeof b.note_avis === 'number' ? b.note_avis : 0;
+      const diffAvis = AppState.avisSortOrder === 'desc' ? (avisB - avisA) : (avisA - avisB);
+      if (diffAvis !== 0) return diffAvis;
+
+      // En cas d'égalité sur l'avis, priorité aux urgences d'expiration
+      const expA = getItemDaysLeft(a);
+      const expB = getItemDaysLeft(b);
+      if (expA !== null && expB !== null) {
+        if (expA !== expB) return expA - expB;
+      } else if (expA !== null) {
+        return -1;
+      } else if (expB !== null) {
+        return 1;
+      }
+
+      // Puis départager par année de sortie la plus récente
+      const yearA = getItemReleaseYear(a);
+      const yearB = getItemReleaseYear(b);
+      return yearB - yearA;
+    });
+    return sorted;
+  }
+
   const withExpiry = [];
   const withoutExpiry = [];
 
@@ -450,7 +479,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   initBouquetsNavigation();
   initStarsNavigation();
   initDurationFilter();
-  initDateSort();
+  initSortControls();
   initModal();
   initSyncControls();
 
@@ -1043,13 +1072,15 @@ function initDurationFilter() {
   }
 }
 
-// Tri par Date de sortie (Exclusivité PC Desktop - Règle 8 AGENTS.md)
-function initDateSort() {
+// Tri par Date et Tri par Avis critique (Exclusivité PC Desktop - Règle 8 AGENTS.md)
+function initSortControls() {
   const dateSortBtn = document.getElementById('dateSortBtn');
   const dateSortArrow = document.getElementById('dateSortArrow');
-  if (!dateSortBtn) return;
+  const avisSortBtn = document.getElementById('avisSortBtn');
+  const avisSortArrow = document.getElementById('avisSortArrow');
 
-  const updateBtnUI = () => {
+  const updateDateUI = () => {
+    if (!dateSortBtn) return;
     if (AppState.dateSortOrder === 'desc') {
       dateSortBtn.classList.add('active');
       if (dateSortArrow) dateSortArrow.textContent = '↓';
@@ -1065,19 +1096,61 @@ function initDateSort() {
     }
   };
 
-  dateSortBtn.addEventListener('click', () => {
-    if (AppState.dateSortOrder === 'none') {
-      AppState.dateSortOrder = 'desc';
-    } else if (AppState.dateSortOrder === 'desc') {
-      AppState.dateSortOrder = 'asc';
+  const updateAvisUI = () => {
+    if (!avisSortBtn) return;
+    if (AppState.avisSortOrder === 'desc') {
+      avisSortBtn.classList.add('active');
+      if (avisSortArrow) avisSortArrow.textContent = '↓';
+      avisSortBtn.title = 'Tri par avis : De la meilleure note à la moins bonne (Cliquer pour trier de la moins bonne à la meilleure)';
+    } else if (AppState.avisSortOrder === 'asc') {
+      avisSortBtn.classList.add('active');
+      if (avisSortArrow) avisSortArrow.textContent = '↑';
+      avisSortBtn.title = 'Tri par avis : De la moins bonne note à la meilleure (Cliquer pour réinitialiser le tri par défaut)';
     } else {
-      AppState.dateSortOrder = 'none';
+      avisSortBtn.classList.remove('active');
+      if (avisSortArrow) avisSortArrow.textContent = '';
+      avisSortBtn.title = 'Trier par note critique Avis (Cliquer pour alterner : Meilleure note ➔ Moins bonne note ➔ Par défaut)';
     }
-    updateBtnUI();
-    renderCatalog();
-  });
+  };
 
-  updateBtnUI();
+  if (dateSortBtn) {
+    dateSortBtn.addEventListener('click', () => {
+      // Désactiver le tri par avis pour éviter tout conflit
+      AppState.avisSortOrder = 'none';
+      updateAvisUI();
+
+      if (AppState.dateSortOrder === 'none') {
+        AppState.dateSortOrder = 'desc';
+      } else if (AppState.dateSortOrder === 'desc') {
+        AppState.dateSortOrder = 'asc';
+      } else {
+        AppState.dateSortOrder = 'none';
+      }
+      updateDateUI();
+      renderCatalog();
+    });
+  }
+
+  if (avisSortBtn) {
+    avisSortBtn.addEventListener('click', () => {
+      // Désactiver le tri par date pour éviter tout conflit
+      AppState.dateSortOrder = 'none';
+      updateDateUI();
+
+      if (AppState.avisSortOrder === 'none') {
+        AppState.avisSortOrder = 'desc';
+      } else if (AppState.avisSortOrder === 'desc') {
+        AppState.avisSortOrder = 'asc';
+      } else {
+        AppState.avisSortOrder = 'none';
+      }
+      updateAvisUI();
+      renderCatalog();
+    });
+  }
+
+  updateDateUI();
+  updateAvisUI();
 }
 
 

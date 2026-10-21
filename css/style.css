@@ -548,6 +548,7 @@ body.modal-open {
   .date-sort-container-pc {
     display: inline-flex;
     align-items: center;
+    gap: 0.5rem;
   }
   .date-sort-divider-pc {
     display: block;

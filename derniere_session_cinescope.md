@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.91** / Cache **cinescope-v8.91-streaming**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.93** / Cache **cinescope-v8.93-streaming**).
 
 ---
 
@@ -166,11 +166,11 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - *The Batman* (2022) vs *Batman v Superman* : Recommandation duo formalisée (*The Batman* validé comme le compromis parfait entre l'action brute 1er degré de l'Ami et l'enquête/déduction à la *Seven* de l'Amie).
   - **Aversion formalisée** : Rejet strict des faux films d'horreur contemplatifs / drames lents de festival.
 
-* **Nouvelle Fonctionnalité : Tri par Date (18/10/2026 - Règle 8 Exclusivité PC)** :
-  - Bouton interactif `📅 Date` inséré sur la Ligne 2 (Étoiles & Durée) immédiatement à droite du filtre Durée.
-  - Alternance 3 états en boucle au clic : `📅 Date ↓` (Récent $\rightarrow$ Ancien : 2026 $\rightarrow$ 2006) $\rightarrow$ `📅 Date ↑` (Ancien $\rightarrow$ Récent : 2006 $\rightarrow$ 2026) $\rightarrow$ `📅 Date` (Défaut : Fins de droits prioritaires + tirage quotidien).
-  - Gestion des séries conforme : Calcul basé sur `annee_moyenne` $= \frac{\text{Saison début} + \text{Saison fin}}{2}$.
-  - Strictement invisible sur mobile (`display: none !important` sous 1024px).
+* **Boutons de Tri Interactifs (Date & Avis critique) (21/10/2026 - v8.93 - Règle 8 Exclusivité PC)** :
+  - **Bouton `📅 Date`** : Alternance 3 états (`📅 Date ↓` Récent $\rightarrow$ Ancien, `📅 Date ↑` Ancien $\rightarrow$ Récent, `📅 Date` Défaut).
+  - **Bouton `⭐ Avis`** : Inséré immédiatement à côté de `📅 Date` sur la barre des filtres. Alternance 3 états en boucle au clic : `⭐ Avis ↓` (Meilleure note critique en premier : 10 $\rightarrow$ 0) $\rightarrow$ `⭐ Avis ↑` (Moins bonne note en premier : 0 $\rightarrow$ 10) $\rightarrow$ `⭐ Avis` (Défaut : Fins de droits prioritaires + tirage quotidien).
+  - **Exclusivité mutuelle** : L'activation de l'un réinitialise automatiquement l'autre pour une clarté totale de la navigation.
+  - **Strictement invisible sur mobile** : Masqué sous 1024px (`display: none !important`).
 
 * **Affichage par Colonnes Thématiques Indépendantes sur PC Desktop (20/10/2026 - v8.88 - Règle 8 AGENTS.md)** :
   - **Condition d'activation** : Exclusivité PC ($\ge 1024\text{px}$), activé sur la vue générale « Tous les titres » (`activeCategory === 'all'`) en l'absence de recherche textuelle.

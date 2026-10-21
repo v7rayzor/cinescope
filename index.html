@@ -310,12 +310,17 @@
         <!-- Séparateur vertical sur desktop (PC uniquement - Règle 8) -->
         <div class="stars-filter-divider date-sort-divider-pc" aria-hidden="true"></div>
 
-        <!-- Tri par Date (PC uniquement - Règle 8) -->
+        <!-- Tri par Date & Tri par Avis (PC uniquement - Règle 8) -->
         <div class="date-sort-container-pc" id="dateSortContainer">
           <button type="button" class="date-sort-btn" id="dateSortBtn" title="Trier par année de sortie (Cliquer pour alterner : Récent ➔ Ancien ➔ Par défaut)">
             <span class="date-sort-icon">📅</span>
             <span class="date-sort-label">Date</span>
             <span class="date-sort-arrow" id="dateSortArrow"></span>
+          </button>
+          <button type="button" class="date-sort-btn avis-sort-btn" id="avisSortBtn" title="Trier par note critique Avis (Cliquer pour alterner : Meilleure note ➔ Moins bonne note ➔ Par défaut)">
+            <span class="date-sort-icon">⭐</span>
+            <span class="date-sort-label">Avis</span>
+            <span class="date-sort-arrow" id="avisSortArrow"></span>
           </button>
         </div>
       </div>
