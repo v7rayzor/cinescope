@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.90** / Cache **cinescope-v8.90-streaming**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.91** / Cache **cinescope-v8.91-streaming**).
 
 ---
 
@@ -191,10 +191,11 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 * **Améliorations Modale & Exclusivité PC Desktop (21/10/2026 - v8.89 - Règle 8 AGENTS.md)** :
   - **Actualisation Officielle du Logo Shadowz** : Remplacement de `assets/logos/shadowz.png` par la version haute résolution officielle issue de Molotov Abonnements (`propositions/assets/logos/shadowz.png`).
   - **Comptage Dynamique des Épisodes des Séries (`.modal-episodes-badge`)** :
-    * **Menu déroulant préservé à l'identique** : Options sobres `Saison 1`, `Saison 2`, etc. sans surcharge de texte dans le sélecteur.
+    * **Typographie & Style alignés exactement sur les années** : Rendu en texte sobre sans capsule ni bordure (`color: var(--text-muted); font-size: 0.95rem; font-weight: 700; white-space: nowrap`), identique à `.modal-year`.
+    * **Menu déroulant sobre préservé à l'identique** : Options simples `Saison 1`, `Saison 2`, etc. sans surcharge.
     * **À côté du sélecteur par défaut** : Affiche directement le nombre total d'épisodes disponibles pour toute la série (ex: `44 épisodes`).
     * **Au clic sur une saison spécifique** : S'actualise instantanément pour n'afficher que le nombre d'épisodes de la saison choisie (ex: `16 épisodes` pour la Saison 2).
-    * **Calage visuel garanti** : `white-space: nowrap` sur `.modal-year` et `.modal-episodes-badge`, avec `padding-right: 2.75rem` sur `.modal-header-meta` empêchant tout chevauchement avec le bouton de fermeture `(X)`.
+    * **Calage visuel garanti sur une seule ligne** : `.modal-card` élargi à `720px` sur PC avec `white-space: nowrap`, évitant tout retour à la ligne ou collision avec le bouton de fermeture `(X)`.
   - **Sous-Notes Distinctes Stylisées (`.modal-sub-ratings`)** :
     * Sous la note globale dorée, affichage de deux pastilles colorées harmonieuses :
       - **Avis Critique** (Cyan `#38bdf8`) : `💬 Avis : 7.0/10` (TMDb / IMDb / Rotten Tomatoes).
