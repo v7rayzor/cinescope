@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.93** / Cache **cinescope-v8.93-streaming**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.94** / Cache **cinescope-v8.94-streaming**).
 
 ---
 
@@ -166,9 +166,13 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - *The Batman* (2022) vs *Batman v Superman* : Recommandation duo formalisée (*The Batman* validé comme le compromis parfait entre l'action brute 1er degré de l'Ami et l'enquête/déduction à la *Seven* de l'Amie).
   - **Aversion formalisée** : Rejet strict des faux films d'horreur contemplatifs / drames lents de festival.
 
-* **Boutons de Tri Interactifs (Date & Avis critique) (21/10/2026 - v8.93 - Règle 8 Exclusivité PC)** :
+* **Boutons de Tri Interactifs (Date & Avis critique) (21/10/2026 - v8.94 - Règle 8 Exclusivité PC)** :
   - **Bouton `📅 Date`** : Alternance 3 états (`📅 Date ↓` Récent $\rightarrow$ Ancien, `📅 Date ↑` Ancien $\rightarrow$ Récent, `📅 Date` Défaut).
-  - **Bouton `⭐ Avis`** : Inséré immédiatement à côté de `📅 Date` sur la barre des filtres. Alternance 3 états en boucle au clic : `⭐ Avis ↓` (Meilleure note critique en premier : 10 $\rightarrow$ 0) $\rightarrow$ `⭐ Avis ↑` (Moins bonne note en premier : 0 $\rightarrow$ 10) $\rightarrow$ `⭐ Avis` (Défaut : Fins de droits prioritaires + tirage quotidien).
+  - **Bouton `💬 Avis`** : Inséré immédiatement à côté de `📅 Date` sur la barre des filtres avec l'icône bulle `💬` identique à la pastille cyan de la fiche détail. Trie rigoureusement sur la **note critique spectateurs/presse (`note_avis`)** et non sur la note générale :
+    * `💬 Avis ↓` : Meilleures notes critiques en premier (10 $\rightarrow$ 4).
+    * `💬 Avis ↑` : Moins bonnes notes critiques en premier (4 $\rightarrow$ 10).
+    * `💬 Avis` : Réinitialisation du tri par défaut.
+    * **Thème visuel** : Surbrillance cyan satiné (`#38bdf8`) à l'état actif, harmonisé avec la pastille Avis de la fiche.
   - **Exclusivité mutuelle** : L'activation de l'un réinitialise automatiquement l'autre pour une clarté totale de la navigation.
   - **Strictement invisible sur mobile** : Masqué sous 1024px (`display: none !important`).
 
