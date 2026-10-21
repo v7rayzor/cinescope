@@ -1560,26 +1560,11 @@ function openModal(item) {
     year.textContent = item.annee || '-';
   }
 
-  // Éléments Desktop pour épisodes, sous-notes et avis à côté de la date
-  const headerAvis = document.getElementById('modalHeaderAvis');
+  // Éléments Desktop pour épisodes et sous-notes
   const episodesBadge = document.getElementById('modalEpisodesBadge');
   const subRatings = document.getElementById('modalSubRatings');
   const ratingAvisVal = document.getElementById('modalRatingAvisVal');
   const ratingRecenceVal = document.getElementById('modalRatingRecenceVal');
-
-  // Affichage de la note Avis à côté de la date (Exclusivité PC)
-  if (headerAvis) {
-    const rawAvis = item.note_avis;
-    if (rawAvis !== null && rawAvis !== undefined && !isNaN(rawAvis)) {
-      const formattedAvis = Number(rawAvis).toFixed(1);
-      headerAvis.innerHTML = `⭐ Avis : <span class="modal-avis-val">${formattedAvis}</span>`;
-      headerAvis.title = `Note critique Avis (Presse & Spectateurs) : ${formattedAvis}/10`;
-      headerAvis.style.display = 'inline-flex';
-    } else {
-      headerAvis.innerHTML = '';
-      headerAvis.style.display = 'none';
-    }
-  }
 
   // Menu déroulant des saisons disponibles pour les séries + Comptage d'épisodes (Règle 8 PC)
   const seasonWrapper = document.getElementById('modalSeasonSelectorWrapper');
@@ -1635,15 +1620,6 @@ function openModal(item) {
           }
           if (ratingAvisVal && selected.note) {
             ratingAvisVal.textContent = Number(selected.note).toFixed(1);
-          }
-          if (headerAvis) {
-            const seasonNote = selected.note || item.note_avis;
-            if (seasonNote) {
-              const formattedAvis = Number(seasonNote).toFixed(1);
-              headerAvis.innerHTML = `⭐ Avis : <span class="modal-avis-val">${formattedAvis}</span>`;
-              headerAvis.title = `Note critique Avis (Saison ${selected.saison}) : ${formattedAvis}/10`;
-              headerAvis.style.display = 'inline-flex';
-            }
           }
         }
       };

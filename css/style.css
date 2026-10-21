@@ -2476,22 +2476,6 @@ body.modal-open {
   color: var(--text-secondary);
 }
 
-/* Note Avis à côté de la date (Exclusivité Desktop PC >= 1024px) */
-.modal-header-avis {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: var(--text-muted);
-  white-space: nowrap;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.25rem;
-}
-
-.modal-header-avis .modal-avis-val {
-  color: #fde047;
-  font-weight: 800;
-}
-
 /* Nombre d'épisodes noté exactement comme l'année (Exclusivité Desktop PC >= 1024px) */
 .modal-episodes-badge {
   font-size: 0.95rem;
