@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.95** / Cache **cinescope-v8.95-streaming** / Stockage **_v47**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.96** / Cache **cinescope-v8.96-streaming** / Stockage **_v47**).
 
 ---
 
@@ -135,21 +135,22 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 ## 5. État Actuel du Catalogue & Versions Déployées
 
 * **Audit de Conformité Catalogue ([js/catalog.js](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js))** :
-  - **Total œuvres qualifiées PC** : **1 414** (1 266 films $\ge 60\text{ min}$ et 148 séries sortis entre 2006 et 2026).
-  - **Application stricte des 20 ans glissants ($\ge 2006$)** : 17 films unitaires historiques (< 2006) purgés.
-  - **Règle des séries multi-saisons respectée** : Calcul basé sur l'année moyenne $\frac{\text{Saison début} + \text{Saison fin}}{2}$ (*Battlestar Galactica* 2004–2008 = moyenne 2006 $\ge 2006$, conforme).
-  - **Conformité 1 catégorie unique** : **1 414 / 1 414 (100% conforme, 0 anomalie)**.
-  - **Répartition issue de la qualification v8.86 (1 414 titres - Architecture Quintuple Duel IA & Jeunesse)** :
-    * `drame_emotion` : 396 (28.0%)
-    * `comedie` : 278 (19.7%)
-    * `thriller_policier` : 202 (14.3%)
-    * `horreur_epouvante` : 201 (14.2%)
-    * `scifi_fantastique` : 159 (11.2%)
-    * `animation_famille` : 110 (7.8%)
-    * `action_aventure` : 68 (4.8%)
+  - **Total œuvres qualifiées PC** : **1 421** (1 271 films $\ge 60\text{ min}$ et 150 séries sortis entre 2006 et 2026).
+  - **Correction Ingestion JustWatch (v8.96)** : Résolution du bogue `titleNode.id` $\rightarrow$ `node.id` dans [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js) débloquant les synchronisations quotidiennes et permettant l'intégration de nouvelles œuvres majeures (ex: *Des jours meilleurs* 2025 sur Ciné+ OCS).
+  - **Application stricte des 20 ans glissants ($\ge 2006$)** : Conforme.
+  - **Règle des séries multi-saisons respectée** : Calcul basé sur l'année moyenne $\frac{\text{Saison début} + \text{Saison fin}}{2}$.
+  - **Conformité 1 catégorie unique** : **1 421 / 1 421 (100% conforme, 0 anomalie)**.
+  - **Répartition issue de la qualification v8.96 (1 421 titres - Architecture Quintuple Duel IA & Jeunesse)** :
+    * `drame_emotion` : 399 (28.1%)
+    * `comedie` : 276 (19.4%)
+    * `horreur_epouvante` : 203 (14.3%)
+    * `thriller_policier` : 201 (14.1%)
+    * `scifi_fantastique` : 158 (11.1%)
+    * `animation_famille` : 112 (7.9%)
+    * `action_aventure` : 72 (5.1%)
   - **Titres expirés** : **0**.
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : **v8.95** (`sw.js` : `cinescope-v8.95-streaming`).
+  - **Version Application / PWA** : **v8.96** (`sw.js` : `cinescope-v8.96-streaming`).
   - **Optimisation Affichage & Fluidité** : Affiches avec `loading="lazy"` natif et préchargement d'arrière-plan temporisé (4 requêtes max via `requestIdleCallback`) éliminant toute congestion réseau.
   - **Clés LocalStorage Actives** : `_v47` (`cinescope_streaming_catalog_v47`, `cinescope_streaming_last_sync_v47`, `cinescope_streaming_last_full_sync_v47`, `cinescope_streaming_autosync_v47`).
   - **Registre Persistant des Arbitrages IA** : [`data/ai_duel_cache.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_duel_cache.json) (Node.js/CI) et [`data/ai_duel_cache.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_duel_cache.js) (`window.AI_DUEL_CACHE` pour le client navigateur et hors-ligne), garantissant la pérennité totale des duels (*T.I.M.* en SF, *Cloud* en Polar).

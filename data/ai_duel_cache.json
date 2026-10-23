@@ -770,5 +770,125 @@
     "titre": "Projet X",
     "category": "comedie",
     "justification": "Comédie potache festive et chaotique autour d'une soirée lycéenne hors de contrôle."
+  },
+  "jw-tm95252": {
+    "titre": "Le Livre d'Eli",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par les combats physiques et les affrontements violents d'Eli contre des bandes criminelles dans un monde post-apocalyptique, avec une progression spectaculaire typique de l'action-aventure."
+  },
+  "jw-tm186578": {
+    "titre": "Les Gamins",
+    "category": "comedie",
+    "justification": "Les Gamins est une comédie française centrée sur l'humour et les péripéties burlesques d'un duo beau-père/gendre, sans intrigue criminelle ni action physique dominante."
+  },
+  "jw-tm1633883": {
+    "titre": "I Love Peru",
+    "category": "comedie",
+    "justification": "Le synopsis met en avant un comédien et une quête spirituelle humoristique, les genres bruts incluant comédie, sans intrigue criminelle ni action physique dominante."
+  },
+  "jw-tm1624813": {
+    "titre": "Indomptables",
+    "category": "thriller_policier",
+    "justification": "Le synopsis centré sur une enquête policière pour meurtre, la tension familiale et la notion de point de rupture indiquent un polar dramatique et non une comédie ou un film d'action pure."
+  },
+  "jw-tm1330568": {
+    "titre": "Omar La Fraise",
+    "category": "comedie",
+    "justification": "Le film est une comédie dramatique où le personnage de bandit à l'ancienne est traité sur un ton humoristique et décalé, l'action et l'intrigue policière n'étant que des prétextes au rire."
+  },
+  "jw-tm1047994": {
+    "titre": "Oranges sanguines",
+    "category": "comedie",
+    "justification": "Oranges sanguines est une comédie noire et satirique où les situations criminelles et dramatiques servent avant tout un humour grinçant et absurde."
+  },
+  "jw-tm145328": {
+    "titre": "Colt 45",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur une spirale criminelle, une guerre des polices et des manipulations psychologiques, avec l'action physique reléguée au second plan derrière le suspense et la machination."
+  },
+  "jw-tm1535068": {
+    "titre": "Haut les mains!",
+    "category": "comedie",
+    "justification": "Le synopsis présente un ton léger et humoristique avec des cambrioleurs écologistes et un vieux voleur dépassé, où l'action et l'enquête ne sont que des prétextes à la comédie."
+  },
+  "jw-ts221469": {
+    "titre": "Cheyenne et Lola",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur un meurtre, une dissimulation de corps et un jeu de dupes criminel, avec suspense et machination, sans que l'action physique ou le rire ne dominent."
+  },
+  "jw-ts359832": {
+    "titre": "Toutouyoutou",
+    "category": "comedie",
+    "justification": "La série est une comédie satirique sur l'émancipation féminine via l'aérobic dans les années 80, où le mystère autour de Jane n'est qu'un ressort humoristique et non un thriller dominant."
+  },
+  "jw-tm207603": {
+    "titre": "Microbe et Gasoil",
+    "category": "comedie",
+    "justification": "Microbe et Gasoil est une comédie d'aventure légère et burlesque portée par l'humour de Michel Gondry, où le road trip improvisé sert avant tout le rire et la fantaisie adolescente."
+  },
+  "jw-tm1624616": {
+    "titre": "Pile ou face",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par la cavalcade, le rodéo et la chasse à l'homme dans un cadre de western aventureux, avec une traque physique et des cascades équestres qui priment sur l'enquête ou le rire."
+  },
+  "jw-tm1070911": {
+    "titre": "Cop Secret",
+    "category": "comedie",
+    "justification": "Cop Secret est une comédie d'action parodique islandaise qui se moque des films de flics et de braquages, l'humour primant sur l'intrigue policière et les scènes d'action."
+  },
+  "jw-ts440556": {
+    "titre": "Deadline",
+    "category": "thriller_policier",
+    "justification": "Le synopsis décrit une intrigue de vol, de chantage et de suspense psychologique autour d'une dépendance aux opioïdes, sans action physique ni ressort comique dominant."
+  },
+  "jw-tm228888": {
+    "titre": "Braquage à l'Allemande",
+    "category": "comedie",
+    "justification": "Le synopsis présente un braquage bancaire aux motivations loufoques et des personnages excentriques, typiques d'une comédie où l'action n'est qu'un prétexte humoristique."
+  },
+  "jw-tm1003856": {
+    "titre": "Opération Delta",
+    "category": "thriller_policier",
+    "justification": "Le synopsis met en avant une crise d'otages avec négociation et un complot géopolitique, dominés par le suspense et la machination plutôt que par des combats physiques ou des poursuites."
+  },
+  "jw-ts414407": {
+    "titre": "Wild Cards",
+    "category": "thriller_policier",
+    "justification": "La série repose sur une intrigue criminelle et une enquête policière avec un duo détective-escroc, où l'humour est présent mais secondaire par rapport au suspense et à la résolution d'affaires."
+  },
+  "jw-ts11846": {
+    "titre": "Candice Renoir",
+    "category": "thriller_policier",
+    "justification": "Candice Renoir est avant tout une série policière centrée sur les enquêtes criminelles et la résolution d'affaires, avec une touche d'humour liée au quotidien de l'héroïne, mais sans que la comédie ne domine."
+  },
+  "jw-ts328439": {
+    "titre": "Harry Wild",
+    "category": "thriller_policier",
+    "justification": "La série est centrée sur la résolution d'enquêtes criminelles et le suspense policier, avec une touche d'humour légère mais sans que la comédie ne domine l'intrigue."
+  },
+  "jw-ts216019": {
+    "titre": "My Life Is Murder",
+    "category": "thriller_policier",
+    "justification": "L'épisode est centré sur une enquête criminelle (meurtre par flèche, liste de suspects, infiltration), avec un ton léger mais sans dominante comique ou d'action physique."
+  },
+  "jw-ts234938": {
+    "titre": "Family Law",
+    "category": "comedie",
+    "justification": "Série dramatique judiciaire à forte tonalité humoristique et satirique, centrée sur les relations père-fille et les déboires d'une avocate alcoolique, sans action physique ni intrigue criminelle dominante."
+  },
+  "jw-tm1082047": {
+    "titre": "Ogre",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur une créature menaçante rôdant la nuit, des disparitions et une atmosphère de terreur viscérale, sans élément de science-fiction ou d'anticipation."
+  },
+  "jw-ts424903": {
+    "titre": "Knok",
+    "category": "comedie",
+    "justification": "Le synopsis repose sur un postulat absurde (un employé d'urinoirs devenu tueur via une app) et un duo comique décalé, typique d'une comédie d'action parodique où l'intrigue criminelle sert de prétexte humoristique."
+  },
+  "jw-ts431432": {
+    "titre": "Factice",
+    "category": "thriller_policier",
+    "justification": "Le synopsis révèle une intrigue de dettes cachées et de mensonge familial qui bascule vers le suspense et la machination, sans action physique ni ressort comique dominant."
   }
 }

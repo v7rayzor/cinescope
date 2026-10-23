@@ -931,7 +931,7 @@ const JustWatchEngine = (function () {
       note_recence: noteRecence,
       note_globale: noteGlobale,
       etoiles: etoiles,
-      categories: [computeCategory(c.genres, isSerie, c.title, c.shortDescription, c.ageCertification, refYearForRecence, matchedPackages, titleNode.id)],
+      categories: [computeCategory(c.genres, isSerie, c.title, c.shortDescription, c.ageCertification, refYearForRecence, matchedPackages, node.id)],
       raw_genres: (c.genres || []).map(normalizeTag).filter(Boolean),
       badge: badge,
       is_eligible: true,
