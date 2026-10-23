@@ -11984,7 +11984,7 @@ const CATALOG_DATA = [
     "note_recence": 9.7,
     "note_globale": 8.6,
     "categories": [
-      "thriller_policier"
+      "comedie"
     ],
     "badge": "16",
     "is_eligible": true,
@@ -20143,7 +20143,7 @@ const CATALOG_DATA = [
     "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
@@ -33519,7 +33519,7 @@ const CATALOG_DATA = [
     "note_globale": 8,
     "etoiles": 5,
     "categories": [
-      "comedie"
+      "thriller_policier"
     ],
     "raw_genres": [
       "cmy",
@@ -33998,7 +33998,7 @@ const CATALOG_DATA = [
     "note_globale": 7.9,
     "etoiles": 4,
     "categories": [
-      "comedie"
+      "thriller_policier"
     ],
     "raw_genres": [
       "cmy",
@@ -36495,7 +36495,7 @@ const CATALOG_DATA = [
     "note_globale": 8,
     "etoiles": 5,
     "categories": [
-      "comedie"
+      "thriller_policier"
     ],
     "raw_genres": [
       "cmy",
@@ -39366,11 +39366,11 @@ const CATALOG_DATA = [
     "date_ajout": "2026-05-11",
     "expiration": {
       "status": "info",
-      "label": "📅 Jusqu'au 23/01",
-      "daysLeft": 92,
-      "expirationDate": "2027-01-23",
+      "label": "📅 Jusqu'au 21/11",
+      "daysLeft": 29,
+      "expirationDate": "2026-11-21",
       "packageExpirations": {
-        "aoc": "2027-01-23"
+        "aoc": "2026-11-21"
       }
     },
     "on_prime": false,
@@ -67669,54 +67669,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm139879",
-    "titre": "Macbeth",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 53min",
-    "runtime_minutes": 113,
-    "note_avis": 6.6,
-    "note_recence": 6.7,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "hst",
-      "war"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/88176093/s592/macbeth-2015.jpg",
-    "synopsis": "11ème siècle : Écosse. Macbeth, chef des armées, sort victorieux de la guerre qui fait rage dans tout le pays. Sur son chemin, trois sorcières lui prédisent qu’il deviendra roi. Comme envoûtés par la prophétie, Macbeth et son épouse montent alors un plan machiavélique pour régner sur le trône, jusqu’à en perdre la raison.",
-    "date_ajout": "2026-09-11",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-23",
-      "packageExpirations": {
-        "aoc": "2026-10-23"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm229933",
     "titre": "Robinson Crusoé",
     "type": "film",
@@ -68024,7 +67976,7 @@ const CATALOG_DATA = [
     "note_globale": 6.9,
     "etoiles": 3,
     "categories": [
-      "action_aventure"
+      "thriller_policier"
     ],
     "raw_genres": [
       "act",
@@ -68321,9 +68273,57 @@ const CATALOG_DATA = [
     },
     "on_prime": false,
     "on_tnt": false
+  },
+  {
+    "id": "jw-tm139879",
+    "titre": "Macbeth",
+    "type": "film",
+    "chaine": "Ciné+ OCS",
+    "chaines": [
+      "Ciné+ OCS"
+    ],
+    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logos_chaine": [
+      "assets/logos/cine_ocs.svg"
+    ],
+    "package_slugs": [
+      "aoc"
+    ],
+    "annee": 2015,
+    "annee_moyenne": 2015,
+    "duree": "1h 53min",
+    "runtime_minutes": 113,
+    "note_avis": 6.6,
+    "note_recence": 6.7,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "hst",
+      "war"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/88176093/s592/macbeth-2015.jpg",
+    "synopsis": "11ème siècle : Écosse. Macbeth, chef des armées, sort victorieux de la guerre qui fait rage dans tout le pays. Sur son chemin, trois sorcières lui prédisent qu’il deviendra roi. Comme envoûtés par la prophétie, Macbeth et son épouse montent alors un plan machiavélique pour régner sur le trône, jusqu’à en perdre la raison.",
+    "date_ajout": "2026-09-11",
+    "expiration": {
+      "status": "urgent",
+      "label": "⏳ Expire aujourd'hui",
+      "daysLeft": 0,
+      "expirationDate": "2026-10-23",
+      "packageExpirations": {
+        "aoc": "2026-10-23"
+      }
+    },
+    "on_prime": false,
+    "on_tnt": false
   }
 ];
 const CATALOG_METADATA = {
-  "lastDailySync": "2026-10-23T06:32:06.657Z",
+  "lastDailySync": "2026-10-23T10:54:26.844Z",
   "lastSpecializedSync": null
 };
