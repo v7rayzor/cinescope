@@ -890,5 +890,20 @@
     "titre": "Factice",
     "category": "thriller_policier",
     "justification": "Le synopsis révèle une intrigue de dettes cachées et de mensonge familial qui bascule vers le suspense et la machination, sans action physique ni ressort comique dominant."
+  },
+  "jw-tm213135": {
+    "titre": "Barry Seal - American Traffic",
+    "category": "comedie",
+    "justification": "Le film est une comédie satirique et décalée portée par l'humour de Tom Cruise, où les activités criminelles et l'action ne sont qu'un prétexte au rire."
+  },
+  "jw-tm1943221": {
+    "titre": "Pitfall",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur l'impuissance et la terreur d'un protagoniste piégé et blessé dans une fosse à pointes, sans riposte active, ce qui correspond à l'horreur viscérale plutôt qu'à l'action."
+  },
+  "jw-tm511408": {
+    "titre": "Représailles: la traque sauvage",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant une traque physique et des représailles violentes en milieu hostile (enlèvement, confrontation avec un gang, survie en Alaska), ce qui domine l'intrigue criminelle."
   }
 }
