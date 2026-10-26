@@ -59,9 +59,8 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - Suite au constat d'incohérences et de dérives induites par la catégorisation LLM (DeepSeek / GPT-4o mini), retour intégral au moteur déterministe actif le 17/10/2026 (`computeCategory` dans [`js/justwatch_engine.js`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js)).
   - Réapplication immédiate du calcul mathématique pur sur les 1 414 œuvres du catalogue.
   - Suppression de tout forçage ou surcharge par IA dans [`scripts/sync_justwatch.cjs`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_justwatch.cjs) et dans le workflow GitHub Actions ([`.github/workflows/update_catalog.yml`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/.github/workflows/update_catalog.yml)).
-* **Sanctuarisation & Archivage des Données IA pour Consultation Future** :
-  - **Archive intégrale préservée** : [`data/ai_categories_archive_18102026.json`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_categories_archive_18102026.json) (1 431 fiches complètes avec répartitions sur 100%, justifications et sources).
-  - Les registres [`data/ai_categories.json`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_categories.json), [`data/audit_deepseek_results.json`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/data/audit_deepseek_results.json) et [`suivi_categorisation.md`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/suivi_categorisation.md) demeurent archivés pour réutilisation ponctuelle si souhaité.
+* **Purge des Registres d'Audit & Allégement du Dépôt (v9.03)** :
+  - Suppression définitive des anciens fichiers de log d'audit temporaires d'octobre 2026 (~2.6 Mo libérés). Seuls le cache persistant actif des duels IA ([`data/ai_duel_cache.json`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_duel_cache.json) et [`data/ai_duel_cache.js`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_duel_cache.js)) est conservé pour le moteur de qualification.
 
 ### C. Moteur de Catégorisation Algorithmique (Filet de Sécurité Déterministe)
 * **Sanctuarisation de l'Horreur & Protection Animation / Famille (v8.66)** :
