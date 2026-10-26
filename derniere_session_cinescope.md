@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.98** / Cache **cinescope-v8.98-streaming** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.99** / Cache **cinescope-v8.99-streaming** / Stockage **_v48**).
 
 ---
 
@@ -250,11 +250,17 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Exclusivité mutuelle avec Date et Avis** : Activer le tri par étoiles réinitialise automatiquement le tri par date et le tri par avis.
   - **Thème visuel & Sanctuarisation mobile** : Habillage doré satiné (`#facc15`), strictement réservé au grand écran PC Desktop ($\ge 1024\text{px}$) et totalement masqué sur portable (`display: none !important;`).
 
-* **Bouton de Bascule `[🏛️ Colonnes]` sur PC Desktop (26/10/2026 - v8.98 - Règle 8 Exclusivité PC)** :
-  - **Emplacement d'élite** : Positionné directement à côté de la pastille du compteur « *x* titres affichés » dans l'en-tête de section (`.filter-stats`), au plus près de la grille.
-  - **Bascule instantanée** : Permet à l'utilisateur d'activer ou de désactiver la vue scindée en 6 couloirs thématiques sur « Tous les titres ».
-    * **Allumé** : Affiche les 6 colonnes thématiques parallèles avec leurs en-têtes et compteurs dédiés.
-    * **Éteint** : Affiche la grande grille continue classique (`.posters-grid`), regroupant l'ensemble des œuvres dans une mosaïque unifiée.
-  - **Persistance locale** : Le choix est sauvegardé dans le `localStorage` (`cinescope_theme_columns`) pour être préservé à chaque chargement.
-  - **Exclusivité PC Desktop** : Strictement masqué sur mobile (`display: none !important;`).
+* **Sélecteur d'Affichage `Affichage : [1] [2]` sur PC Desktop (26/10/2026 - v8.99 - Règle 8 Exclusivité PC)** :
+  - **Emplacement d'élite sur la même ligne** : Positionné immédiatement à gauche de la pastille du compteur « *x* titres affichés » dans l'en-tête de section (`.filter-stats`), sur un alignement horizontal strict (`display: flex; align-items: center; gap: 0.65rem;`).
+  - **Design soigné & discret** :
+    * Label textuel sobre `Affichage :` en typographie secondaire.
+    * Deux boutons carrés compacts 28x28px (`[1]` et `[2]`), fond carte sombre (`var(--bg-card)`), bordure fine et transition au survol.
+    * État actif rehaussé d'une lueur rouge néon (`var(--accent-red)` et ombre portée subtile).
+  - **Modes de présentation** :
+    * **Bouton `[1]`** : Active la vue en 6 colonnes thématiques parallèles (disposition par défaut, séparant les genres majeurs avec leurs en-têtes et compteurs dédiés).
+    * **Bouton `[2]`** : Active la grande grille classique unifiée continue (`.posters-grid`), regroupant tous les titres dans une mosaïque continue.
+  - **Persistance locale** : Le choix est sauvegardé dans le `localStorage` (`cinescope_theme_columns`) et restitué automatiquement à chaque session.
+  - **Visibilité contextuelle & Sanctuarisation Mobile (Règle 8)** :
+    * Strictement masqué sur mobile et tablette (`display: none !important;`).
+    * Masqué automatiquement sur PC lorsqu'une catégorie spécifique ou une recherche textuelle est active (car la grille unifiée s'impose naturellement).
 

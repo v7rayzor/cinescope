@@ -1020,13 +1020,25 @@ function initNavigation() {
     });
   });
 
-  // Toggle Affichage 6 Colonnes vs Grille Classique sur PC (Exclusivité PC - Règle 8)
-  const toggleThemeColumnsBtn = document.getElementById('toggleThemeColumnsBtn');
-  if (toggleThemeColumnsBtn) {
-    toggleThemeColumnsBtn.addEventListener('click', () => {
-      AppState.enableThemeColumns = !AppState.enableThemeColumns;
+  // Sélecteur d'Affichage 1 / 2 sur PC (Exclusivité PC - Règle 8)
+  const btnMode1 = document.getElementById('btnDisplayMode1');
+  const btnMode2 = document.getElementById('btnDisplayMode2');
+
+  if (btnMode1) {
+    btnMode1.addEventListener('click', () => {
+      AppState.enableThemeColumns = true;
       try {
-        localStorage.setItem('cinescope_theme_columns', AppState.enableThemeColumns ? 'true' : 'false');
+        localStorage.setItem('cinescope_theme_columns', 'true');
+      } catch (e) {}
+      renderCatalog();
+    });
+  }
+
+  if (btnMode2) {
+    btnMode2.addEventListener('click', () => {
+      AppState.enableThemeColumns = false;
+      try {
+        localStorage.setItem('cinescope_theme_columns', 'false');
       } catch (e) {}
       renderCatalog();
     });
@@ -1573,14 +1585,15 @@ function renderCatalog() {
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
   const isThemeColumnsMode = !isMobile && AppState.enableThemeColumns && AppState.activeCategory === 'all' && !AppState.searchQuery;
 
-  const toggleThemeColumnsBtn = document.getElementById('toggleThemeColumnsBtn');
-  if (toggleThemeColumnsBtn) {
-    const canShowColumnsBtn = !isMobile && AppState.activeCategory === 'all' && !AppState.searchQuery;
-    toggleThemeColumnsBtn.style.display = canShowColumnsBtn ? 'inline-flex' : 'none';
-    toggleThemeColumnsBtn.classList.toggle('active', AppState.enableThemeColumns);
-    toggleThemeColumnsBtn.title = AppState.enableThemeColumns
-      ? "Mode 6 Colonnes thématiques actif (Cliquer pour basculer vers la grande grille classique)"
-      : "Mode Grille classique actif (Cliquer pour basculer vers les 6 colonnes thématiques)";
+  const modeSelector = document.getElementById('displayModeSelector');
+  const btnMode1 = document.getElementById('btnDisplayMode1');
+  const btnMode2 = document.getElementById('btnDisplayMode2');
+
+  if (modeSelector) {
+    const canShowModeSelector = !isMobile && AppState.activeCategory === 'all' && !AppState.searchQuery;
+    modeSelector.style.display = canShowModeSelector ? 'inline-flex' : 'none';
+    if (btnMode1) btnMode1.classList.toggle('active', AppState.enableThemeColumns);
+    if (btnMode2) btnMode2.classList.toggle('active', !AppState.enableThemeColumns);
   }
 
   const themeHeaderEl = document.getElementById('themeColumnsHeader');
