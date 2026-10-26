@@ -1834,8 +1834,10 @@ body.modal-open {
     gap: 0.5rem;
   }
 
-  .filter-stats {
-    align-items: flex-start;
+  /* Masquer le compteur de titres affichés sur mobile (inutile sur petit écran) */
+  .filter-stats,
+  .stats-pill {
+    display: none !important;
   }
 
   .posters-grid {

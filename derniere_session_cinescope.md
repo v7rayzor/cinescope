@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.00** / Cache **cinescope-v9.00-streaming** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.01** / Cache **cinescope-v9.01-streaming** / Stockage **_v48**).
 
 ---
 
@@ -269,5 +269,6 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Bouton de Tri `[⏳ Expiration]` sur PC Desktop** : Remplace l'ancien bouton de tri étoiles dans la barre de tri PC (`[📅 Date]` `[💬 Avis]` `[⏳ Expiration]`). Deux états actifs : `↓` (titres quittant bientôt le catalogue en premier) et `↑` (titres restant le plus longtemps d'abord).
   - **Épuration Ergonomique Mobile / Portable** :
     * Retrait complet de la ligne Date et de son séparateur sur smartphone.
+    * Retrait complet de la pastille compteur de titres affichés (`.filter-stats`, `.stats-pill { display: none !important; }`), préservant uniquement le titre épuré de la catégorie.
     * Inversion des lignes filtres : ligne Étoiles positionnée en tête (`order: 1`), suivie du séparateur fin (`order: 2`), puis ligne Durée / Temps (`order: 3`), toutes deux harmonieusement centrées.
 
