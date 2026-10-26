@@ -44,6 +44,7 @@ Guide de curation et profils de goûts pour les recommandations de films et sér
   - *Heretic* (huis clos théologique & joute psychologique) — **Regardé et mitigé/bon (60/100 — Hugh Grant magistral et concept captivant, mais trop bavard et dénouement horrifique en demi-teinte)**.
   - *Les Maudites* (*El llanto*) (drame festivalier déguisé en horreur lente) — **Regardé et rejeté (25/100 — Zéro action, rythme étiré, drame sociétal contemplatif au lieu d'épouvante réelle)**.
   - *Ghosts : Fantômes en héritage* (sitcom fantastique & colocation spectrale chaleureuse, galerie de fantômes attachants, ton bienveillant et réparties vives) — **Regardé et aimé (Référence comédie fantastique feel-good)**.
+  - *Renfield* (comédie d'action fantastique & gore décomplexé, Dracula théâtral et tandem avec la police) — **Regardé avec l'ami et validé (ok / bon divertissement rythmé sans temps mort)**.
 - **Aversions & Rejets Formels** :
   - 🚫 **Zéro vulgarité / Grossièretés appuyées** : Rejet des dialogues orduriers permanents ou du trash gratuit.
   - 🚫 **Zéro armes réelles lourdes / Films de guerre** : Rejet des fusillades militarisées réalistes, combats à la mitraillette ou violence armée pesante.
@@ -81,6 +82,7 @@ Guide de curation et profils de goûts pour les recommandations de films et sér
   - *Under the Dome* (mystère de communauté sous cloche)
   - *9-1-1* (adrénaline rythmée, urgence)
   - *30 jours max* de Tarek Boudali (référence comédie d'action policière rythmée et grand public)
+  - *Renfield* (action gore survitaminée, bastons martiales sanglantes, duo policier contre cartel et créatures) — **Regardé avec l'utilisateur et validé**.
 - **Rapport au rythme, à l'humour & aux tons** :
   - **Règle Mathématique du % d'Action ($\ge 11\%$) sur Polars & Comédies** : Élimination 100% automatisée de tout polar ou comédie n'ayant pas un minimum de $11\%$ de composante Action. Cela exclut automatiquement les polars d'époque contemplatifs et cosy crimes au profit d'enquêtes de terrain dynamiques (*Almost Paradise*, *Revival*, *Toronto: Section Criminelle*).
   - Apprécie la **comédie d'action / buddy movie policier** grand public (rythme, action, comique de situation accessible).
@@ -106,6 +108,7 @@ Guide de curation et profils de goûts pour les recommandations de films et sér
 | **Almost Paradise** | Action Policière • Bagarre & Cartels | Universal+ / Ciné+ OCS (Échéance : 30/12) | **85%** — Ancien flic d'élite de la DEA démantelant des réseaux au corps-à-corps sous les tropiques. |
 | **Revival** | Fantastique Sombre • Survie Rurale (Post-2024) | Universal+ / Ciné+ OCS (Pérenne) | **85%** — Ville rurale sous quarantaine où les morts reviennent vivants et conscients. Traité en polar sérieux. |
 | **Sentinelles-Ukraine** | Action Militaire • Tension & Survie | Ciné+ OCS (Pérenne) | **80%** — Immersion réaliste et intense au cœur d'un commando en zone d'opération. Rythme sans temps mort. |
+| **Renfield** | Action Comédie & Vampires • Bastons & Gore | Universal+ (Vu / Échéance : 05/12) | **85%** — Vu et validé. Rythme sans temps mort (1h33), combats sanglants percutants, alliance policière contre la pègre et Dracula en roue libre. |
 
 ---
 

@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.96** / Cache **cinescope-v8.96-streaming** / Stockage **_v47**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.97** / Cache **cinescope-v8.97-streaming** / Stockage **_v48**).
 
 ---
 
@@ -33,10 +33,10 @@ Ce document constitue la référence vivante et synthétique de l'architecture, 
 
 ### C. Synchronisation Hybride par Bouquet & Inférence IA
 * **Automatisation Serveur (GitHub Actions - `.github/workflows/update_catalog.yml`)** :
-  - Exécution quotidienne planifiée à **06:00 UTC** via [`scripts/sync_justwatch.cjs`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_justwatch.cjs) sous Node.js.
+  - Exécution quotidienne planifiée à **06:00 UTC** via [`scripts/sync_justwatch.cjs`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_justwatch.cjs) sous Node.js.
   - Scanne bouquet par bouquet de manière dynamique avec pagination par curseur (`hasNextPage` / `endCursor`) sans limite de page rigide.
   - Scanne uniquement les 3 bouquets SVOD de base (`aoc`, `aca`, `auc`) en ~28 requêtes légères (filtre strict `monetizationTypes: ['FLATRATE']`).
-* **Client Web Résilient & Synchro Manuelle Spécialisées ([`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js))** :
+* **Client Web Résilient & Synchro Manuelle Spécialisées ([`js/justwatch_engine.js`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js))** :
   - Démarrage instantané sur le catalogue pré-embarqué `CATALOG_DATA`.
   - Bouton dédié `[⚡ Synchro Spécialisées]` sur PC Desktop avec horodatage de la dernière exécution.
 
@@ -56,12 +56,12 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 
 ### B. Retour au Système de Calcul Déterministe du 17/10/2026 & Archivage IA (v8.78)
 * **Rétablissement du Moteur Algorithmique Déterministe Purement Souverain** :
-  - Suite au constat d'incohérences et de dérives induites par la catégorisation LLM (DeepSeek / GPT-4o mini), retour intégral au moteur déterministe actif le 17/10/2026 (`computeCategory` dans [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js)).
+  - Suite au constat d'incohérences et de dérives induites par la catégorisation LLM (DeepSeek / GPT-4o mini), retour intégral au moteur déterministe actif le 17/10/2026 (`computeCategory` dans [`js/justwatch_engine.js`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js)).
   - Réapplication immédiate du calcul mathématique pur sur les 1 414 œuvres du catalogue.
-  - Suppression de tout forçage ou surcharge par IA dans [`scripts/sync_justwatch.cjs`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_justwatch.cjs) et dans le workflow GitHub Actions ([`.github/workflows/update_catalog.yml`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/.github/workflows/update_catalog.yml)).
+  - Suppression de tout forçage ou surcharge par IA dans [`scripts/sync_justwatch.cjs`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_justwatch.cjs) et dans le workflow GitHub Actions ([`.github/workflows/update_catalog.yml`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/.github/workflows/update_catalog.yml)).
 * **Sanctuarisation & Archivage des Données IA pour Consultation Future** :
-  - **Archive intégrale préservée** : [`data/ai_categories_archive_18102026.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_categories_archive_18102026.json) (1 431 fiches complètes avec répartitions sur 100%, justifications et sources).
-  - Les registres [`data/ai_categories.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_categories.json), [`data/audit_deepseek_results.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/audit_deepseek_results.json) et [`suivi_categorisation.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/suivi_categorisation.md) demeurent archivés pour réutilisation ponctuelle si souhaité.
+  - **Archive intégrale préservée** : [`data/ai_categories_archive_18102026.json`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_categories_archive_18102026.json) (1 431 fiches complètes avec répartitions sur 100%, justifications et sources).
+  - Les registres [`data/ai_categories.json`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_categories.json), [`data/audit_deepseek_results.json`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/data/audit_deepseek_results.json) et [`suivi_categorisation.md`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/suivi_categorisation.md) demeurent archivés pour réutilisation ponctuelle si souhaité.
 
 ### C. Moteur de Catégorisation Algorithmique (Filet de Sécurité Déterministe)
 * **Sanctuarisation de l'Horreur & Protection Animation / Famille (v8.66)** :
@@ -95,7 +95,7 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     - *Action physique pure réhabilitée* : ***Insaisissables 2***, ***Novocaïne***, ***Railroad Tigers*** (Jackie Chan), ***The Cash Collector 1 & 2***, ***Baby Assassins: Nice Days***, ***Le Secret de Khéops*** réhabilités en `action_aventure`.
     - *Pures comédies sanctuarisées* : ***OSS 117*** (tous), ***Hundreds of Beavers***, ***Burn After Reading***, ***Game Night***, ***Projet X***, ***Yannick*** confirmés en `comedie`.
   - **Règle Jeunesse Tout Public (Films en prises de vue réelles)** : Déverrouillage d'`animation_famille` pour les films Tout Public portant le tag `fml` et axés sur l'enfance, l'école et la jeunesse (***La Formule magique***, ***Les Blagues de Toto***, ***Drôle de prof 2, 3, 4***, ***Mon frère chasse les dinosaures***, ***Ma folle semaine avec Tess***, ***Master spy***, ***L'École buissonnière***).
-  - **Sécurité et intégrité (`isEligibleDuelEntry`)** : Dans [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js) et [`scripts/sync_justwatch.cjs`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_justwatch.cjs), le cache IA n'est appliqué que si l'œuvre respecte rigoureusement les prérequis stricts de son duel respectif.
+  - **Sécurité et intégrité (`isEligibleDuelEntry`)** : Dans [`js/justwatch_engine.js`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js) et [`scripts/sync_justwatch.cjs`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_justwatch.cjs), le cache IA n'est appliqué que si l'œuvre respecte rigoureusement les prérequis stricts de son duel respectif.
 
 ---
 
@@ -124,19 +124,20 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 * **Ligne 0A (Ligne 1) : Bouquets SVOD Payants & Spécialisés** :
   `[✨ Tous les bouquets]` `[Ciné+ OCS]` `[Action Max]` `[Universal+]` `[Sooner]` `[Shadowz]` `[Insomnia]`
 * **Ligne 0B (Ligne 2) : Toggles d'Inclusion (+), Filtres d'Exclusion (-) & Synchro** :
-  1. `[🆕 Nouveautés]` : Isole instantanément les œuvres arrivées depuis $\le 7$ jours ou portant le badge officiel `🆕 Nouveauté`.
-  2. `[🎬 + Spécialisées]` : Inactif par défaut. Clic ajoute Sooner, Shadowz, Insomnia.
-  3. `[🛡️ Hors Prime Video]` : Exclut les œuvres du catalogue Prime Video standard.
-  4. `[🚫 Exclure sans S1]` : Masque les séries tronquées sans saison 1.
-  5. `[⚡ Synchro Spécialisées]` : Déclenche la synchro JustWatch à la demande pour Sooner, Shadowz et Insomnia.
+  1. `[📦 Mode Amazon]` *(Nouveau - Exclusivité PC - Règle 8)* : Bascule exclusive vers le catalogue dédié Amazon Prime Video synchronisé ([`data/prime_catalog.js`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/data/prime_catalog.js), 1 530 titres : 1 041 films, 489 séries). À l'activation, masque tous les autres bouquets et affiche la puce exclusive `[Amazon Prime Video]` avec logo vectoriel officiel réactif. À la désactivation, restaure instantanément l'ensemble des bouquets habituels Molotov SVOD. Script de mise à jour dédié : `npm run sync:prime` ([`scripts/sync_prime.cjs`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_prime.cjs)).
+  2. `[🆕 Nouveautés]` : Isole instantanément les œuvres arrivées depuis $\le 7$ jours ou portant le badge officiel `🆕 Nouveauté`.
+  3. `[🎬 + Spécialisées]` : Inactif par défaut. Clic ajoute Sooner, Shadowz, Insomnia.
+  4. `[🛡️ Hors Prime Video]` : Exclut les œuvres du catalogue Prime Video standard (masqué automatiquement en Mode Amazon).
+  5. `[🚫 Exclure sans S1]` : Masque les séries tronquées sans saison 1.
+  6. `[⚡ Synchro Spécialisées]` : Déclenche la synchro JustWatch à la demande pour Sooner, Shadowz et Insomnia.
 
 ---
 
 ## 5. État Actuel du Catalogue & Versions Déployées
 
-* **Audit de Conformité Catalogue ([js/catalog.js](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js))** :
+* **Audit de Conformité Catalogue ([js/catalog.js](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js))** :
   - **Total œuvres qualifiées PC** : **1 421** (1 271 films $\ge 60\text{ min}$ et 150 séries sortis entre 2006 et 2026).
-  - **Correction Ingestion JustWatch (v8.96)** : Résolution du bogue `titleNode.id` $\rightarrow$ `node.id` dans [`js/justwatch_engine.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js) débloquant les synchronisations quotidiennes et permettant l'intégration de nouvelles œuvres majeures (ex: *Des jours meilleurs* 2025 sur Ciné+ OCS).
+  - **Correction Ingestion JustWatch (v8.96)** : Résolution du bogue `titleNode.id` $\rightarrow$ `node.id` dans [`js/justwatch_engine.js`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js) débloquant les synchronisations quotidiennes et permettant l'intégration de nouvelles œuvres majeures (ex: *Des jours meilleurs* 2025 sur Ciné+ OCS).
   - **Application stricte des 20 ans glissants ($\ge 2006$)** : Conforme.
   - **Règle des séries multi-saisons respectée** : Calcul basé sur l'année moyenne $\frac{\text{Saison début} + \text{Saison fin}}{2}$.
   - **Conformité 1 catégorie unique** : **1 421 / 1 421 (100% conforme, 0 anomalie)**.
@@ -151,9 +152,9 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Titres expirés** : **0**.
 * **Traçabilité Technique & Cache** :
   - **Version Application / PWA** : **v8.96** (`sw.js` : `cinescope-v8.96-streaming`).
-  - **Optimisation Affichage & Fluidité** : Affiches avec `loading="lazy"` natif et préchargement d'arrière-plan temporisé (4 requêtes max via `requestIdleCallback`) éliminant toute congestion réseau.
+  - **Optimisation Affichage, RAM & Fluidité** : Suppression du préchargement agressif en mémoire vive, activation de `content-visibility: auto` (avec `contain-intrinsic-size: 190px 280px`) sur `.poster-card` pour décharger les cartes hors écran du GPU/RAM, et délégation d'événements centralisée sur `#postersGrid` éliminant 2 800+ closures V8 en mémoire. Seules les affiches visibles sont décodées via `loading="lazy"` natif.
   - **Clés LocalStorage Actives** : `_v47` (`cinescope_streaming_catalog_v47`, `cinescope_streaming_last_sync_v47`, `cinescope_streaming_last_full_sync_v47`, `cinescope_streaming_autosync_v47`).
-  - **Registre Persistant des Arbitrages IA** : [`data/ai_duel_cache.json`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_duel_cache.json) (Node.js/CI) et [`data/ai_duel_cache.js`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_duel_cache.js) (`window.AI_DUEL_CACHE` pour le client navigateur et hors-ligne), garantissant la pérennité totale des duels (*T.I.M.* en SF, *Cloud* en Polar).
+  - **Registre Persistant des Arbitrages IA** : [`data/ai_duel_cache.json`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_duel_cache.json) (Node.js/CI) et [`data/ai_duel_cache.js`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_duel_cache.js) (`window.AI_DUEL_CACHE` pour le client navigateur et hors-ligne), garantissant la pérennité totale des duels (*T.I.M.* en SF, *Cloud* en Polar).
   - **Harnais de Préservation Catégorielle Client** : Dans `mergeCatalog()`, préservation absolue de `refreshed.categories` s'il est déjà qualifié dans `catalog.js`, évitant toute régression par le calcul brut `computeCategory`.
   - **Règle Séries Famille / Animation** : Exigence formelle du tag `ani` pour les séries en `animation_famille`.
   - **Workflow GitHub Actions** : Clé secrète `DEEPSEEK_API_KEY` injectée et commit automatique du cache IA (.json et .js).
@@ -161,7 +162,7 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 ---
 
 ## 6. Historique des Retours Utilisateur & Calibrage Curation
-* **Enregistrement des retours récents dans [`profils_amis.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/profils_amis.md)** :
+* **Enregistrement des retours récents dans [`profils_amis.md`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/profils_amis.md)** :
   - *It Feeds* : **75/100** (Validé — Surnaturel concret, menace directe, premier degré efficace sans prétention).
   - *Heretic* : **60/100** (Mitigé/bon — Concept brillant et joute verbale avec Hugh Grant, mais trop bavard/statique).
   - *Les Maudites* (*El llanto*) : **25/100** (Rejeté & archivé dans l'audit des exclusions — Faux film de genre, drame festivalier lent sans action ni tension).
@@ -209,4 +210,26 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * Adaptation dynamique : reflète la note de saison spécifique si une saison est sélectionnée.
   - **Sanctuarisation Mobile Stricte (Règle 8)** :
     * `.modal-episodes-badge` et `.modal-sub-ratings` strictement masqués via `@media (max-width: 1023px) { display: none !important; }`. Mobile intact et épuré.
+
+* **Optimisation Majeure des Performances & Consommation RAM (26/10/2026 - v8.97)** :
+  - **Suppression du préchargement agressif d'images** : Élimination de `preloadAllCatalogImages` qui chargeait simultanément des centaines d'affiches en mémoire dès le démarrage.
+  - **Virtualisation de Rendu CSS (`content-visibility: auto`)** : Les cartes hors de l'écran ne sont plus calculées et peintes par le moteur du navigateur tant qu'elles ne sont pas visibles (`contain-intrinsic-size: 200px 300px`), allégeant drastiquement l'empreinte mémoire vive.
+  - **Délégation d'Événements Unique sur la Grille** : Remplacement des listeners `addEventListener('click')` individuels sur chaque carte par un listener unique délégué sur `#postersGrid`.
+  - **Nettoyage strict des résidus** : Retrait des logs volumineux et libération des références superflues en mémoire.
+
+* **Mode Dédié Amazon Prime Video pour PC Desktop (26/10/2026 - v8.97 - Règle 8 Exclusivité PC)** :
+  - **Catalogue dédié isolé** : Fichier [`data/prime_catalog.js`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/data/prime_catalog.js) contenant 1 530 titres SVOD Prime Video (1 371 films, 159 séries) avec notes, métadonnées, durées et affiches HD officielles.
+  - **Bouton Toggle exclusif PC (`[📦 Mode Amazon]`)** : Permet de basculer en un clic entre le bouquet CinéScope standard et l'univers Prime Video complet.
+  - **Règle d'exclusivité stricte** : Lorsqu'activé, le bouquet Amazon isole ses œuvres et masque l'ensemble des autres bouquets. La désactivation rétablit instantanément le catalogue CinéScope normal.
+  - **Script de synchronisation dédié** : [`scripts/sync_prime.cjs`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_prime.cjs) configuré avec pagination dynamique.
+
+* **Refonte Ergonomique & Centrage des Filtres Mobile / Portable (26/10/2026 - v8.97)** :
+  - **Inversion des Lignes** :
+    * Ligne Durée / Temps positionnée en tête (`order: 1`).
+    * Ligne Étoiles de note positionnée en deuxième (`order: 3`), avec séparateur fin (`.mobile-divider-1`, `order: 2`).
+  - **Boutons de Tri `📅 Date` et `💬 Avis` Déployés sur Mobile** :
+    * Placés en ligne sous les étoiles (`order: 5`), séparés par `.mobile-divider-2` (`order: 4`).
+    * Tri dynamique opérationnel : levée de la restriction mobile dans `sortCatalogItems()`, permettant le tri instantané par date (récent/ancien) et par note d'avis critique sur smartphone et tablette.
+  - **Centrage Intégral** :
+    * Tous les éléments des rangées mobiles (durée, étoiles, boutons de tri date/avis) sont centrés (`justify-content: center`) au lieu de l'alignement à gauche, avec préservation totale du layout horizontal pour ordinateurs de bureau ($\ge 1024\text{px}$).
 

@@ -9,6 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "sync": "node scripts/sync_justwatch.cjs",
+    "sync:prime": "node scripts/sync_prime.cjs",
     "build:catalog": "node scripts/sync_justwatch.cjs",
     "verify": "node scripts/verify_compliance.cjs"
   },

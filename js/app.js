@@ -52,7 +52,9 @@ const AppState = {
   activeType: 'film',          // 'film' ou 'serie'
   activeCategory: 'all',       // 'all' ou l'une des 7 catégories
   activeStars: 'all',          // 'all', '4', '5'
-  activeBouquet: 'all',        // 'all', 'aoc', 'aca', 'auc', 'snr', 'sdz', 'ima'
+  activeBouquet: 'all',        // 'all', 'aoc', 'aca', 'auc', 'snr', 'sdz', 'ima', 'prv'
+  isAmazonMode: false,         // true pour activer le catalogue Amazon Prime Video (exclusif PC)
+  previousBouquetBeforeAmazon: 'all', // bouquet mémorisé avant d'activer le mode Amazon
   isExclusiveOnly: false,      // true pour exclure Prime Video
   isOnlyNew: false,            // true pour afficher uniquement les nouveautés récentes (PC uniquement)
   includeSpecialized: false,   // true pour inclure Sooner, Shadowz, Insomnia (false par défaut = exclu)
@@ -94,13 +96,33 @@ function isItemTntFree(item) {
   return item.package_slugs.some(s => ['mlt', 'tf1', 'sxp', 'fra'].includes(s));
 }
 
+// Vérifier si une œuvre est disponible sur Amazon Prime Video
+function isItemOnPrimeVideo(item) {
+  if (!item) return false;
+  if (item.on_prime === true) return true;
+  if (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.isItemOnPrime === 'function') {
+    return JustWatchEngine.isItemOnPrime(item);
+  }
+  return false;
+}
+
 // Détermine la liste des diffuseurs ACTIFS d'une œuvre selon les filtres courants de l'utilisateur
 function getActiveItemPackages(item) {
-  if (!item || !item.package_slugs || item.package_slugs.length === 0) {
+  if (!item) return [];
+
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
+
+  // Si le Mode Amazon est actif (Exclusivité PC - Règle 8)
+  if (!isMobile && AppState.isAmazonMode) {
+    if (isItemOnPrimeVideo(item)) {
+      return ['prv'];
+    }
     return [];
   }
 
-  const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
+  if (!item.package_slugs || item.package_slugs.length === 0) {
+    return [];
+  }
 
   // 1. Si l'utilisateur est sur un bouquet spécifique (ex: puce 'aoc', 'auc', 'tf1', 'snr', etc.)
   if (AppState.activeBouquet && AppState.activeBouquet !== 'all') {
@@ -330,8 +352,8 @@ function getItemReleaseYear(item) {
 function sortCatalogItems(items) {
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
 
-  // Tri par Date de sortie (Exclusivité PC Desktop - Règle 8 AGENTS.md)
-  if (!isMobile && AppState.dateSortOrder && AppState.dateSortOrder !== 'none') {
+  // Tri par Date de sortie (PC & Mobile)
+  if (AppState.dateSortOrder && AppState.dateSortOrder !== 'none') {
     const sorted = [...items];
     sorted.sort((a, b) => {
       const yearA = getItemReleaseYear(a);
@@ -358,8 +380,8 @@ function sortCatalogItems(items) {
     return sorted;
   }
 
-  // Tri par Note Avis critique (Exclusivité PC Desktop - Règle 8 AGENTS.md)
-  if (!isMobile && AppState.avisSortOrder && AppState.avisSortOrder !== 'none') {
+  // Tri par Note Avis critique (PC & Mobile)
+  if (AppState.avisSortOrder && AppState.avisSortOrder !== 'none') {
     const sorted = [...items];
     sorted.sort((a, b) => {
       const avisA = typeof a.note_avis === 'number' ? a.note_avis : 0;
@@ -413,63 +435,34 @@ function sortCatalogItems(items) {
   return [...withExpiry.map(x => x.item), ...withoutExpiry];
 }
 
-// Préchargement proactif des affiches HD et logos
-function preloadAllCatalogImages() {
-  if (!AppState.catalog || !AppState.catalog.length) return;
+// Délégation d'événements centralisée pour l'ensemble des cartes de la grille (Élimine 3 000 closures en RAM)
+function initGridDelegation() {
+  const grid = document.getElementById('postersGrid');
+  if (!grid) return;
 
-  ['10', '12', '16', '18'].forEach(b => {
-    const img = new Image();
-    img.src = `assets/logos/pegi_${b}.png`;
-  });
-
-  const priorityUrls = new Set();
-  const secondaryUrls = new Set();
-
-  const addLogos = (item, targetSet) => {
-    if (item.logos_chaine && item.logos_chaine.length) {
-      item.logos_chaine.forEach(l => { if (l) targetSet.add(l); });
-    } else if (item.logo_chaine) {
-      targetSet.add(item.logo_chaine);
-    }
+  const triggerModalForTarget = (target) => {
+    const card = target.closest('.poster-card');
+    if (!card) return;
+    const itemId = card.dataset.id;
+    if (!itemId) return;
+    const currentCatalog = getActiveCatalog();
+    const item = currentCatalog.find(i => i.id === itemId);
+    if (item) openModal(item);
   };
 
-  const eligible = getCategoryEligibleItems();
-  eligible.forEach(item => {
-    if (item.poster) priorityUrls.add(item.poster);
-    addLogos(item, priorityUrls);
+  grid.addEventListener('click', (e) => {
+    triggerModalForTarget(e.target);
   });
 
-  AppState.catalog.forEach(item => {
-    if (item.poster && !priorityUrls.has(item.poster)) secondaryUrls.add(item.poster);
-    addLogos(item, secondaryUrls);
-  });
-
-  const fullQueue = [...Array.from(priorityUrls), ...Array.from(secondaryUrls)];
-  const total = fullQueue.length;
-  let cursor = 0;
-  const maxConcurrency = 4;
-  let activeLoads = 0;
-
-  function processQueue() {
-    while (activeLoads < maxConcurrency && cursor < total) {
-      const url = fullQueue[cursor++];
-      activeLoads++;
-      const img = new Image();
-      img.decoding = 'async';
-      img.onload = img.onerror = () => {
-        activeLoads--;
-        processQueue();
-      };
-      img.src = url;
+  grid.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      const card = e.target.closest('.poster-card');
+      if (card) {
+        e.preventDefault();
+        triggerModalForTarget(e.target);
+      }
     }
-  }
-
-  // Différer le préchargement en arrière-plan pour laisser la priorité absolue aux affiches visibles à l'écran
-  if (typeof requestIdleCallback !== 'undefined') {
-    requestIdleCallback(() => processQueue(), { timeout: 2000 });
-  } else {
-    setTimeout(processQueue, 1500);
-  }
+  });
 }
 
 // Initialisation au chargement de la page
@@ -481,6 +474,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   initDurationFilter();
   initSortControls();
   initModal();
+  initGridDelegation();
   initSyncControls();
 
   // Actualisation réactive lors du redimensionnement de la fenêtre (PC / Mobile)
@@ -528,7 +522,6 @@ function refreshApplicationUI() {
   updateMobileGenreDisplay(AppState.activeCategory);
   updateCategoryAutoStar();
   renderCatalog();
-  preloadAllCatalogImages();
   updateFooterDate();
 }
 
@@ -629,15 +622,25 @@ function updateFooterDate() {
   }
 }
 
+// Obtient le catalogue actif selon le mode (Catalogue standard Molotov vs Catalogue dédié Amazon Prime Video - Règle 8)
+function getActiveCatalog() {
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
+  if (!isMobile && AppState.isAmazonMode && typeof PRIME_CATALOG_DATA !== 'undefined' && Array.isArray(PRIME_CATALOG_DATA) && PRIME_CATALOG_DATA.length > 0) {
+    return PRIME_CATALOG_DATA;
+  }
+  return AppState.catalog || [];
+}
+
 // Calcul des compteurs totaux pour les types de médias
 function initCounts() {
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
-  const eligibleFilms = AppState.catalog.filter(item => {
+  const currentCatalog = getActiveCatalog();
+  const eligibleFilms = currentCatalog.filter(item => {
     if (!item.is_eligible || (item.type !== 'film' && item.type !== 'telefilm')) return false;
     if (isMobile && !isItemBasePaid(item)) return false;
     return true;
   });
-  const eligibleSeries = AppState.catalog.filter(item => {
+  const eligibleSeries = currentCatalog.filter(item => {
     if (!item.is_eligible || item.type !== 'serie') return false;
     if (isMobile && !isItemBasePaid(item)) return false;
     return true;
@@ -653,7 +656,8 @@ function initCounts() {
 // Calcul des compteurs de bouquets & toggles
 function initBouquetsCounts() {
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
-  const eligibleTypeItems = AppState.catalog.filter(item => {
+  const currentCatalog = getActiveCatalog();
+  const eligibleTypeItems = currentCatalog.filter(item => {
     if (!item.is_eligible) return false;
     return AppState.activeType === 'film' 
       ? (item.type === 'film' || item.type === 'telefilm')
@@ -676,18 +680,31 @@ function initBouquetsCounts() {
   const countShadowz = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('sdz')).length;
   const countInsomnia = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('ima')).length;
   
+  // Amazon Prime Video (Exclusivité PC - Règle 8)
+  const primeSource = (typeof PRIME_CATALOG_DATA !== 'undefined' && Array.isArray(PRIME_CATALOG_DATA) && PRIME_CATALOG_DATA.length > 0)
+    ? PRIME_CATALOG_DATA.filter(item => {
+        if (!item.is_eligible) return false;
+        return AppState.activeType === 'film' 
+          ? (item.type === 'film' || item.type === 'telefilm')
+          : (item.type === 'serie');
+      })
+    : eligibleTypeItems.filter(i => isItemOnPrimeVideo(i));
+  const countAmazon = primeSource.length;
+
   // Compteur du toggle d'inclusion spécialisées
   const countSpecializedAvailable = eligibleTypeItems.filter(i => isItemSpecialized(i)).length;
 
   // Scope du filtre selon le bouquet actif
-  const currentScope = (AppState.activeBouquet && AppState.activeBouquet !== 'all')
-    ? eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes(AppState.activeBouquet))
-    : eligibleTypeItems.filter(i => {
-        if (isMobile) return isItemBasePaid(i);
-        if (isItemBasePaid(i)) return true;
-        if (AppState.includeSpecialized && isItemSpecialized(i)) return true;
-        return false;
-      });
+  const currentScope = (!isMobile && AppState.isAmazonMode)
+    ? eligibleTypeItems.filter(i => isItemOnPrimeVideo(i))
+    : ((AppState.activeBouquet && AppState.activeBouquet !== 'all')
+        ? eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes(AppState.activeBouquet))
+        : eligibleTypeItems.filter(i => {
+            if (isMobile) return isItemBasePaid(i);
+            if (isItemBasePaid(i)) return true;
+            if (AppState.includeSpecialized && isItemSpecialized(i)) return true;
+            return false;
+          }));
 
   const countExclusive = currentScope.filter(i => !isItemExcludedByPrimeOrTnt(i)).length;
 
@@ -706,10 +723,12 @@ function initBouquetsCounts() {
   const elSooner = document.getElementById('countPkgSooner');
   const elShadowz = document.getElementById('countPkgShadowz');
   const elInsomnia = document.getElementById('countPkgInsomnia');
+  const elAmazon = document.getElementById('countPkgAmazon');
   const elExclusive = document.getElementById('countPkgExclusive');
   const elOnlyNew = document.getElementById('countOnlyNew');
   const elIncludeSpecialized = document.getElementById('countIncludeSpecialized');
   const elExcludeNoS1 = document.getElementById('countExcludeNoS1');
+  const elToggleAmazon = document.getElementById('countToggleAmazon');
 
   if (elAll) elAll.textContent = countAll;
   if (elOcs) elOcs.textContent = countOcs;
@@ -718,10 +737,12 @@ function initBouquetsCounts() {
   if (elSooner) elSooner.textContent = countSooner;
   if (elShadowz) elShadowz.textContent = countShadowz;
   if (elInsomnia) elInsomnia.textContent = countInsomnia;
+  if (elAmazon) elAmazon.textContent = countAmazon;
   if (elExclusive) elExclusive.textContent = countExclusive;
   if (elOnlyNew) elOnlyNew.textContent = countNew;
   if (elIncludeSpecialized) elIncludeSpecialized.textContent = countSpecializedAvailable;
   if (elExcludeNoS1) elExcludeNoS1.textContent = countNoS1;
+  if (elToggleAmazon) elToggleAmazon.textContent = countAmazon;
 
   updateSpecializedSyncDisplay();
 }
@@ -772,6 +793,36 @@ function initBouquetsNavigation() {
     toggleSpecializedBtn.addEventListener('click', () => {
       AppState.includeSpecialized = !AppState.includeSpecialized;
       toggleSpecializedBtn.classList.toggle('active', AppState.includeSpecialized);
+      initBouquetsCounts();
+      updateCategoryAutoStar();
+      renderCatalog();
+    });
+  }
+
+  // Toggle Catalogue Amazon Prime (Exclusivité PC - Règle 8)
+  const toggleAmazonBtn = document.getElementById('toggleAmazonMode');
+  const pkgAmazonBtn = document.getElementById('pkgAmazon');
+  if (toggleAmazonBtn) {
+    toggleAmazonBtn.addEventListener('click', () => {
+      AppState.isAmazonMode = !AppState.isAmazonMode;
+      toggleAmazonBtn.classList.toggle('active', AppState.isAmazonMode);
+      document.body.classList.toggle('amazon-mode-active', AppState.isAmazonMode);
+
+      if (AppState.isAmazonMode) {
+        AppState.previousBouquetBeforeAmazon = AppState.activeBouquet || 'all';
+        AppState.activeBouquet = 'prv';
+        if (pkgAmazonBtn) pkgAmazonBtn.classList.add('active');
+        bouquetBtns.forEach(b => {
+          if (b !== pkgAmazonBtn) b.classList.remove('active');
+        });
+      } else {
+        AppState.activeBouquet = AppState.previousBouquetBeforeAmazon || 'all';
+        if (pkgAmazonBtn) pkgAmazonBtn.classList.remove('active');
+        const prevBtn = document.querySelector(`.bouquets-chips-group .bouquet-btn[data-package="${AppState.activeBouquet}"]`) || document.getElementById('pkgAll');
+        if (prevBtn) prevBtn.classList.add('active');
+      }
+
+      initCounts();
       initBouquetsCounts();
       updateCategoryAutoStar();
       renderCatalog();
@@ -1225,7 +1276,8 @@ function updateCategoryAutoStar() {
 }
 
 function getCategoryEligibleItems() {
-  return AppState.catalog.filter(item => {
+  const currentCatalog = getActiveCatalog();
+  return currentCatalog.filter(item => {
     if (!item.is_eligible) return false;
 
     // Filtre Recherche Titre (PC uniquement)
@@ -1258,25 +1310,32 @@ function getCategoryEligibleItems() {
       if (!isItemBasePaid(item)) return false;
     }
 
-    // Filtre Bouquet
-    if (AppState.activeBouquet && AppState.activeBouquet !== 'all') {
-      if (!item.package_slugs || !item.package_slugs.includes(AppState.activeBouquet)) {
+    // Mode Exclusif Amazon Prime (PC uniquement - Règle 8)
+    if (!isMobile && AppState.isAmazonMode) {
+      if (!isItemOnPrimeVideo(item)) {
         return false;
       }
     } else {
-      // Nous sommes dans "Tous les bouquets" ('all') sur PC Desktop :
-      if (!isMobile) {
-        // Par défaut, les chaînes spécialisées ne sont PAS incluses sauf si le bouton toggleIncludeSpecialized est activé
-        if (isItemSpecialized(item) && !AppState.includeSpecialized) {
+      // Filtre Bouquet
+      if (AppState.activeBouquet && AppState.activeBouquet !== 'all') {
+        if (!item.package_slugs || !item.package_slugs.includes(AppState.activeBouquet)) {
           return false;
         }
+      } else {
+        // Nous sommes dans "Tous les bouquets" ('all') sur PC Desktop :
+        if (!isMobile) {
+          // Par défaut, les chaînes spécialisées ne sont PAS incluses sauf si le bouton toggleIncludeSpecialized est activé
+          if (isItemSpecialized(item) && !AppState.includeSpecialized) {
+            return false;
+          }
+        }
       }
-    }
 
-    // Filtre d'Exclusion Stricte (Hors Prime Video & Hors TNT)
-    if (AppState.isExclusiveOnly) {
-      if (isItemExcludedByPrimeOrTnt(item)) {
-        return false;
+      // Filtre d'Exclusion Stricte (Hors Prime Video & Hors TNT)
+      if (AppState.isExclusiveOnly) {
+        if (isItemExcludedByPrimeOrTnt(item)) {
+          return false;
+        }
       }
     }
 
@@ -1293,7 +1352,6 @@ function getCategoryEligibleItems() {
         return false;
       }
     }
-
 
     // Filtre Catégorie
     if (AppState.activeCategory !== 'all') {
@@ -1557,14 +1615,7 @@ function createPosterCard(item) {
     </div>
   `;
 
-  card.addEventListener('click', () => openModal(item));
-  card.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter' || e.key === ' ') {
-      e.preventDefault();
-      openModal(item);
-    }
-  });
-
+  card.dataset.id = item.id;
   return card;
 }
 

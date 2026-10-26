@@ -110,6 +110,12 @@
               <span class="pkg-name">Insomnia</span>
               <span class="pkg-count" id="countPkgInsomnia">0</span>
             </button>
+            <!-- Bouquet Amazon Prime Video (Exclusivité PC - Règle 8) -->
+            <button class="bouquet-btn bouquet-btn-amazon bouquet-btn-pc-only" data-package="prv" id="pkgAmazon" style="display: none;" title="Catalogue Amazon Prime Video">
+              <img src="assets/logos/prime_video.svg" alt="Amazon Prime Video" class="pkg-logo-img">
+              <span class="pkg-name">Amazon Prime Video</span>
+              <span class="pkg-count" id="countPkgAmazon">0</span>
+            </button>
           </div>
         </div>
       </div>
@@ -121,6 +127,11 @@
       <div class="bouquets-bar-section" id="togglesBarSection">
         <div class="bouquets-wrapper" id="togglesNav">
           <div class="bouquets-chips-group">
+            <button class="bouquet-btn bouquet-btn-toggle-amazon bouquet-btn-pc-only" id="toggleAmazonMode" type="button" title="Activer / Désactiver le catalogue exclusif Amazon Prime Video">
+              <span class="pkg-icon">📦</span>
+              <span class="pkg-name">Mode Amazon</span>
+              <span class="pkg-count" id="countToggleAmazon">0</span>
+            </button>
             <button class="bouquet-btn bouquet-btn-toggle-new bouquet-btn-pc-only" id="toggleOnlyNew" type="button" title="Afficher uniquement les nouveautés récentes (arrivées depuis moins de 7 jours)">
               <span class="pkg-icon">🆕</span>
               <span class="pkg-name">Nouveautés</span>
@@ -265,10 +276,10 @@
         <!-- Séparateur vertical sur desktop -->
         <div class="stars-filter-divider" aria-hidden="true"></div>
 
-        <!-- Séparateur horizontal spécifique mobile entre Étoiles et Durée -->
-        <div class="filters-mobile-divider" aria-hidden="true"></div>
+        <!-- Séparateur horizontal spécifique mobile 1 (entre Temps et Étoiles) -->
+        <div class="filters-mobile-divider mobile-divider-1" aria-hidden="true"></div>
 
-        <!-- Filtre Durée (PC sur la même ligne, Mobile sur la ligne du dessous) -->
+        <!-- Filtre Durée (PC sur la même ligne, Mobile ligne 1) -->
         <div class="duration-filter-container" id="durationFilterContainer">
           <span class="duration-filter-title">
             <span class="duration-filter-icon" aria-hidden="true">⏱️</span>
@@ -307,11 +318,14 @@
           </div>
         </div>
 
-        <!-- Séparateur vertical sur desktop (PC uniquement - Règle 8) -->
+        <!-- Séparateur vertical sur desktop -->
         <div class="stars-filter-divider date-sort-divider-pc" aria-hidden="true"></div>
 
-        <!-- Tri par Date & Tri par Avis (PC uniquement - Règle 8) -->
-        <div class="date-sort-container-pc" id="dateSortContainer">
+        <!-- Séparateur horizontal spécifique mobile 2 (entre Étoiles et Tri) -->
+        <div class="filters-mobile-divider mobile-divider-2" aria-hidden="true"></div>
+
+        <!-- Tri par Date & Tri par Avis (PC & Mobile) -->
+        <div class="date-sort-container-pc date-sort-container" id="dateSortContainer">
           <button type="button" class="date-sort-btn" id="dateSortBtn" title="Trier par année de sortie (Cliquer pour alterner : Récent ➔ Ancien ➔ Par défaut)">
             <span class="date-sort-icon">📅</span>
             <span class="date-sort-label">Date</span>
@@ -473,6 +487,7 @@
   <!-- Scripts -->
   <script src="data/ai_duel_cache.js?v=8.95"></script>
   <script src="js/catalog.js?v=8.95"></script>
+  <script src="data/prime_catalog.js"></script>
   <script src="js/justwatch_engine.js?v=8.95"></script>
   <script src="js/app.js?v=8.95"></script>
   <script>

@@ -147,10 +147,17 @@ const JustWatchEngine = (function () {
       badgeClass: 'badge-insomnia',
       isPaid: true,
       isSpecialized: true
+    },
+    // Catalogue Amazon Prime Video (Exclusivité PC - Règle 8)
+    prv: {
+      name: 'Amazon Prime Video',
+      logo: 'assets/logos/prime_video.svg',
+      badgeClass: 'badge-amazon',
+      isPaid: true
     }
   };
 
-  const PACKAGE_SLUGS = ['aoc', 'aca', 'auc', 'snr', 'sdz', 'ima'];
+  const PACKAGE_SLUGS = ['aoc', 'aca', 'auc', 'snr', 'sdz', 'ima', 'prv'];
   const SPECIALIZED_PACKAGE_SLUGS = ['snr', 'sdz', 'ima'];
   const BASE_PAID_PACKAGE_SLUGS = ['aoc', 'aca', 'auc'];
 
@@ -870,12 +877,21 @@ const JustWatchEngine = (function () {
     const specializedSlugs = ['snr', 'sdz', 'ima'];
     const matchedSpecialized = specializedSlugs.filter(p => resolvedOfferSlugs.includes(p));
 
+    // 3. Catalogue Amazon Prime Video (prv, pva)
+    const primeSlugs = ['prv', 'pva'];
+    const matchedPrime = primeSlugs.filter(p => resolvedOfferSlugs.includes(p));
+
     let matchedPackages = [];
     // 1. Bouquets payants de référence (OCS, Action Max, Universal+)
     for (const p of matchedPaid) matchedPackages.push(p);
 
     // 2. Chaînes spécialisées SVOD (Sooner, Shadowz, Insomnia)
     for (const p of matchedSpecialized) matchedPackages.push(p);
+
+    // 3. Catalogue Amazon Prime Video
+    for (const p of matchedPrime) {
+      if (!matchedPackages.includes('prv')) matchedPackages.push('prv');
+    }
 
     if (matchedPackages.length === 0) return null;
 

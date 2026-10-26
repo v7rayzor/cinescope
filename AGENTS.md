@@ -45,8 +45,8 @@ Une œuvre est éligible (`is_eligible: true`) si et seulement si elle respecte 
 
 ## 5. Règle Documentaire : Consultation Initiale & Maintenance des Synthèses de Session (`derniere_session_cinescope.md` & `derniere_session_molotov.md`)
 - **Consultation obligatoire au début de chaque session selon le contexte de travail** :
-  * **Pour CinéScope** (catalogue de films et séries, moteur de streaming JustWatch, filtres de navigation, scoring déterministe, qualification sémantique IA, PWA) : l'agent doit **SYSTÉMATIQUEMENT et OBLIGATOIREMENT lire le fichier [`derniere_session_cinescope.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/derniere_session_cinescope.md)** afin de s'imprégner immédiatement de l'état exact du catalogue, des règles métier et des versions déployées.
-  * **Pour Molotov Abonnements** (page de propositions des offres dans `propositions/`, bannières hero panoramiques, chartes broadcast studio, intégration des chaînes) : l'agent doit **SYSTÉMATIQUEMENT et OBLIGATOIREMENT lire le fichier [`derniere_session_molotov.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/derniere_session_molotov.md)** afin de respecter scrupuleusement les proportions dé-écrasées, les calages au pixel près et l'intégrité des visuels validés.
+  * **Pour CinéScope** (catalogue de films et séries, moteur de streaming JustWatch, filtres de navigation, scoring déterministe, qualification sémantique IA, PWA) : l'agent doit **SYSTÉMATIQUEMENT et OBLIGATOIREMENT lire le fichier [`derniere_session_cinescope.md`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/derniere_session_cinescope.md)** afin de s'imprégner immédiatement de l'état exact du catalogue, des règles métier et des versions déployées.
+  * **Pour Molotov Abonnements** (page de propositions des offres dans `propositions/`, bannières hero panoramiques, chartes broadcast studio, intégration des chaînes) : l'agent doit **SYSTÉMATIQUEMENT et OBLIGATOIREMENT lire le fichier [`derniere_session_molotov.md`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/derniere_session_molotov.md)** afin de respecter scrupuleusement les proportions dé-écrasées, les calages au pixel près et l'intégrité des visuels validés.
 - **Alimentation & Élagage en fin de session** : À la fin de chaque session de travail ou cycle de développement, l'agent doit **SYSTÉMATIQUEMENT et OBLIGATOIREMENT** actualiser et élaguer le document correspondant à la racine du projet.
 - **Contenu requis de la synthèse** :
   1. Le récapitulatif des fonctionnalités et corrections récentes du projet ciblé.
@@ -58,7 +58,7 @@ Une œuvre est éligible (`is_eligible: true`) si et seulement si elle respecte 
 ---
 
 ## 6. Règle de Recommandation pour les Amis
-- Lors de toute demande de recommandation, conseil ou sélection de films / séries à proposer aux amis de l'utilisateur, l'agent doit **SYSTÉMATIQUEMENT se référer au fichier [`profils_amis.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/profils_amis.md)**.
+- Lors de toute demande de recommandation, conseil ou sélection de films / séries à proposer aux amis de l'utilisateur, l'agent doit **SYSTÉMATIQUEMENT se référer au fichier [`profils_amis.md`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/profils_amis.md)**.
 - L'agent doit scrupuleusement appliquer :
   1. **Les règles d'exclusion impératives** : Zéro TNT / Chaînes gratuites (France TV, TF1, M6...), Zéro abonnement standard Prime Video, et pour les séries diffusées sur l'ancien bouquet SFR (Syfy, 13ème RUE), exigence d'avoir **au moins une saison inédite diffusée à partir de 2024**.
   2. **Les exigences de profil** :
@@ -82,8 +82,8 @@ Une œuvre est éligible (`is_eligible: true`) si et seulement si elle respecte 
 ---
 
 ## 9. Règle de Confidentialité & Non-Publication des Propositions Molotov
-- Les maquettes, propositions et fichiers de refonte situés dans `propositions/` (dont [`propositions/molotov_abonnements.html`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/propositions/molotov_abonnements.html)) ainsi que les documents de travail et synthèses associées ([`refonte_offres_molotov.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/refonte_offres_molotov.md) et [`derniere_session_molotov.md`](file:///c:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/derniere_session_molotov.md)) sont **STRICTEMENT RÉSERVÉS À UN USAGE LOCAL PRIVÉ**.
-- **Accès direct exclusif pour l'utilisateur** : via l'URL locale `file:///C:/Users/cvand/Documents/Antigravity%20Codium/06%20-%20Molotov/propositions/molotov_abonnements.html`.
+- Les maquettes, propositions et fichiers de refonte situés dans `propositions/` (dont [`propositions/molotov_abonnements.html`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/propositions/molotov_abonnements.html)) ainsi que les documents de travail et synthèses associées ([`refonte_offres_molotov.md`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/refonte_offres_molotov.md) et [`derniere_session_molotov.md`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/derniere_session_molotov.md)) sont **STRICTEMENT RÉSERVÉS À UN USAGE LOCAL PRIVÉ**.
+- **Accès direct exclusif pour l'utilisateur** : via l'URL locale `file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/propositions/molotov_abonnements.html`.
 - **Interdiction formelle de publication publique** : Ces fichiers ne doivent en aucun cas être commités ou poussés sur le dépôt public GitHub. Ils sont sanctuarisés dans le fichier `.gitignore` du projet (seul CinéScope et ses synthèses associées sont publiés).
 
 
