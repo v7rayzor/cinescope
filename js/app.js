@@ -641,6 +641,85 @@ async function syncSpecializedChannelsManually() {
   }
 }
 
+function updateAmazonSyncDisplay() {
+  const elDate = document.getElementById('syncAmazonDate');
+  if (!elDate) return;
+  const d = (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.getLastAmazonSyncDate === 'function')
+    ? JustWatchEngine.getLastAmazonSyncDate()
+    : null;
+
+  if (d && !isNaN(d.getTime())) {
+    const day = String(d.getDate()).padStart(2, '0');
+    const month = String(d.getMonth() + 1).padStart(2, '0');
+    elDate.textContent = `${day}/${month}`;
+    const btn = document.getElementById('btnSyncAmazon');
+    if (btn) btn.title = `Dernière synchro Amazon Prime : ${d.toLocaleDateString('fr-FR')} (Cliquer pour rafraîchir le catalogue Prime Video)`;
+  } else {
+    elDate.textContent = '--/--';
+  }
+}
+
+async function syncAmazonChannelsManually() {
+  const btn = document.getElementById('btnSyncAmazon');
+  const countEl = document.getElementById('syncAmazonDate');
+  if (AppState.isSyncing) return;
+  AppState.isSyncing = true;
+  if (btn) btn.classList.add('is-refreshing');
+  if (countEl) countEl.textContent = '...';
+
+  try {
+    console.log('[CinéScope] Synchronisation à la demande du catalogue Amazon Prime Video...');
+    let reloaded = false;
+    const urls = [
+      `data/prime_catalog.js?t=${Date.now()}`,
+      `https://raw.githubusercontent.com/v7rayzor/cinescope/main/data/prime_catalog.js?t=${Date.now()}`
+    ];
+    for (const u of urls) {
+      try {
+        const res = await fetch(u, { cache: 'no-store' });
+        if (!res.ok) continue;
+        const text = await res.text();
+        const matchData = text.match(/const\s+PRIME_CATALOG_DATA\s*=\s*(\[[\s\S]*?\]);\s*(?:const|window)/)
+          || text.match(/window\.PRIME_CATALOG_DATA\s*=\s*(\[[\s\S]*?\]);\s*(?:window|const|\n)/);
+        if (matchData) {
+          const parsed = JSON.parse(matchData[1]);
+          if (Array.isArray(parsed) && parsed.length > 0) {
+            window.PRIME_CATALOG_DATA = parsed;
+            reloaded = true;
+            console.log(`[CinéScope] Catalogue Prime Video rechargé (${parsed.length} œuvres).`);
+            break;
+          }
+        }
+      } catch (err) {
+        console.warn(`[CinéScope] Échec chargement Prime depuis ${u} :`, err.message);
+      }
+    }
+
+    // Tenter également une synchro rapide JustWatch pour prv
+    try {
+      if (typeof JustWatchEngine !== 'undefined') {
+        const freshData = await JustWatchEngine.fetchJustWatchData(false, ['prv']);
+        if (freshData && freshData.length > 0) {
+          AppState.catalog = freshData;
+        }
+      }
+    } catch (e) { }
+
+    if (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.saveAmazonSyncDate === 'function') {
+      JustWatchEngine.saveAmazonSyncDate();
+    }
+    initCounts();
+    initBouquetsCounts();
+    refreshApplicationUI();
+  } catch (err) {
+    console.warn('[CinéScope] Erreur synchro Amazon :', err.message);
+  } finally {
+    AppState.isSyncing = false;
+    if (btn) btn.classList.remove('is-refreshing');
+    updateAmazonSyncDisplay();
+  }
+}
+
 async function performLiveSync(isSilent = false, isFullSync = false) {
   AppState.isSyncing = true;
   const refreshBtn = document.getElementById('syncRefreshBtn');
@@ -830,6 +909,7 @@ function initBouquetsCounts() {
   if (elIncludeAmazon) elIncludeAmazon.textContent = countAmazon;
 
   updateSpecializedSyncDisplay();
+  updateAmazonSyncDisplay();
 }
 
 // Navigation par bouquets, Filtre d'exclusion Prime/TNT, Toggles d'inclusion & Filtre sans S1
@@ -846,13 +926,10 @@ function initBouquetsNavigation() {
     });
   });
 
-  const toggleNewBtn = document.getElementById('toggleOnlyNew');
-  if (toggleNewBtn) {
-    toggleNewBtn.addEventListener('click', () => {
-      AppState.isOnlyNew = !AppState.isOnlyNew;
-      toggleNewBtn.classList.toggle('active', AppState.isOnlyNew);
-      updateCategoryAutoStar();
-      renderCatalog();
+  const btnSyncAmazon = document.getElementById('btnSyncAmazon');
+  if (btnSyncAmazon) {
+    btnSyncAmazon.addEventListener('click', async () => {
+      await syncAmazonChannelsManually();
     });
   }
 

@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.02** / Cache **cinescope-v9.02-streaming** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.03** / Cache **cinescope-v9.03-streaming** / Stockage **_v48**).
 
 ---
 
@@ -123,12 +123,13 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 * **Ligne 0A (Ligne 1) : Bouquets SVOD Payants & Spécialisés** :
   `[✨ Tous les bouquets]` `[Ciné+ OCS]` `[Action Max]` `[Universal+]` `[Sooner]` `[Shadowz]` `[Insomnia]`
 * **Ligne 0B (Ligne 2) : Toggles d'Inclusion (+), Filtres d'Exclusion (-) & Synchro** :
-  1. `[📦 Mode Amazon]` *(Nouveau - Exclusivité PC - Règle 8)* : Bascule exclusive vers le catalogue dédié Amazon Prime Video synchronisé ([`data/prime_catalog.js`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/data/prime_catalog.js), 1 530 titres : 1 041 films, 489 séries). À l'activation, masque tous les autres bouquets et affiche la puce exclusive `[Amazon Prime Video]` avec logo vectoriel officiel réactif. À la désactivation, restaure instantanément l'ensemble des bouquets habituels Molotov SVOD. Script de mise à jour dédié : `npm run sync:prime` ([`scripts/sync_prime.cjs`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_prime.cjs)).
-  2. `[🆕 Nouveautés]` : Isole instantanément les œuvres arrivées depuis $\le 7$ jours ou portant le badge officiel `🆕 Nouveauté`.
-  3. `[🎬 + Spécialisées]` : Inactif par défaut. Clic ajoute Sooner, Shadowz, Insomnia.
-  4. `[🛡️ Hors Prime Video]` : Exclut les œuvres du catalogue Prime Video standard (masqué automatiquement en Mode Amazon).
-  5. `[🚫 Exclure sans S1]` : Masque les séries tronquées sans saison 1.
-  6. `[⚡ Synchro Spécialisées]` : Déclenche la synchro JustWatch à la demande pour Sooner, Shadowz et Insomnia.
+  1. `[📦 Mode Amazon]` *(Exclusivité PC - Règle 8)* : Bascule exclusive vers le catalogue dédié Amazon Prime Video synchronisé ([`data/prime_catalog.js`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/data/prime_catalog.js)).
+  2. `[➕ + Amazon]` *(Exclusivité PC - Règle 8)* : Ajoute les œuvres Amazon Prime Video aux bouquets actifs sans les masquer.
+  3. `[🔄 Synchro Amazon]` *(Nouveau v9.03 - Exclusivité PC - Règle 8)* : Déclenche la synchronisation manuelle à la demande du catalogue Prime Video avec horodatage de la dernière synchro (`--/--` ou `JJ/MM`).
+  4. `[🎬 + Spécialisées]` : Inactif par défaut. Clic ajoute Sooner, Shadowz, Insomnia.
+  5. `[🔄 Synchro Spéc.]` : Déclenche la synchro JustWatch à la demande pour Sooner, Shadowz et Insomnia.
+  6. `[🛡️ Hors Prime Video]` : Exclut les œuvres du catalogue Prime Video standard (masqué automatiquement en Mode Amazon).
+  7. `[🚫 Exclure sans S1]` : Masque les séries tronquées sans saison 1.
 
 ---
 
@@ -283,4 +284,11 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Barre de Tri PC Desktop** :
     * Suppression du bouton de tri Expiration.
     * Rétablissement du bouton **`[⭐ Étoiles]`** positionné immédiatement à gauche de Date (`[⭐ Étoiles]` `[📅 Date]` `[💬 Avis]`) avec thème doré satiné (`#facc15`).
+
+* **Bouton `[🔄 Synchro Amazon]` & Retrait du Filtre Nouveautés (26/10/2026 - v9.03 - Règle 8 AGENTS.md)** :
+  - **Remplacement direct** : Le bouton `[🆕 Nouveautés]` a été retiré de la Ligne 0B au profit du nouveau bouton dédié **`[🔄 Synchro Amazon]`**, positionné immédiatement à droite de `[➕ + Amazon]`.
+  - **Fonctionnement miroir aux Spécialisées** :
+    * Affiche l'icône tournante `🔄`, le libellé `Synchro Amazon` et la pastille de date de dernière mise à jour (`--/--` ou `JJ/MM`).
+    * Au clic, lance la synchronisation du catalogue Prime Video (rechargement sans cache et interroge les ajouts récents), applique l'animation de rotation `spinSync` sur l'icône, enregistre l'horodatage dans le stockage local persistant (`cinescope_last_amazon_sync_v48`) et actualise l'UI en temps réel.
+  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.03-streaming` et `?v=9.03` sur l'ensemble des scripts et styles.
 

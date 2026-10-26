@@ -17,7 +17,9 @@ const JustWatchEngine = (function () {
         STORAGE_KEY_CATALOG,
         STORAGE_KEY_SYNC,
         STORAGE_KEY_FULL_SYNC,
-        STORAGE_KEY_AUTOSYNC
+        STORAGE_KEY_AUTOSYNC,
+        'cinescope_last_specialized_sync_v44',
+        'cinescope_last_amazon_sync_v48'
       ];
       const allKeys = Object.keys(localStorage);
       for (const key of allKeys) {
@@ -1391,6 +1393,7 @@ const JustWatchEngine = (function () {
   }
 
   const STORAGE_KEY_SPECIALIZED_SYNC = 'cinescope_last_specialized_sync_v44';
+  const STORAGE_KEY_AMAZON_SYNC = 'cinescope_last_amazon_sync_v48';
 
   function saveSpecializedSyncDate() {
     try {
@@ -1410,6 +1413,34 @@ const JustWatchEngine = (function () {
     // Fallback sur metadata du catalogue si présent
     if (typeof CATALOG_METADATA !== 'undefined' && CATALOG_METADATA?.lastSpecializedSync) {
       return new Date(CATALOG_METADATA.lastSpecializedSync);
+    }
+    return null;
+  }
+
+  function saveAmazonSyncDate() {
+    try {
+      if (typeof localStorage !== 'undefined') {
+        localStorage.setItem(STORAGE_KEY_AMAZON_SYNC, new Date().toISOString());
+      }
+    } catch (e) { }
+  }
+
+  function getLastAmazonSyncDate() {
+    try {
+      if (typeof localStorage !== 'undefined') {
+        const iso = localStorage.getItem(STORAGE_KEY_AMAZON_SYNC);
+        if (iso) return new Date(iso);
+      }
+    } catch (e) { }
+    // Fallback sur metadata Prime Video si présent
+    if (typeof PRIME_CATALOG_METADATA !== 'undefined' && PRIME_CATALOG_METADATA?.lastSync) {
+      return new Date(PRIME_CATALOG_METADATA.lastSync);
+    }
+    if (typeof window !== 'undefined' && window.PRIME_CATALOG_METADATA?.lastSync) {
+      return new Date(window.PRIME_CATALOG_METADATA.lastSync);
+    }
+    if (typeof window !== 'undefined' && window.PRIME_CATALOG_DATA && window.PRIME_CATALOG_DATA.length > 0) {
+      return new Date('2026-10-26T20:00:00.000Z');
     }
     return null;
   }
@@ -1475,6 +1506,8 @@ const JustWatchEngine = (function () {
     getLastFullSyncDate,
     getLastSpecializedSyncDate,
     saveSpecializedSyncDate,
+    getLastAmazonSyncDate,
+    saveAmazonSyncDate,
     isAutoSyncEnabled,
     setAutoSyncEnabled,
     getAllowedCategories,

@@ -2,6 +2,12 @@
  * Catalogue Amazon Prime Video (prv) - CinéScope Streaming
  * Synchronisation automatique JustWatch GraphQL
  */
+window.PRIME_CATALOG_METADATA = {
+  total: 1530,
+  films: 1041,
+  series: 489,
+  lastSync: "2026-10-26T20:00:00.000Z"
+};
 window.PRIME_CATALOG_DATA = [
   {
     "id": "jw-ts476818",
