@@ -239,3 +239,8 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * Déclaration globale `window.PRIME_CATALOG_DATA` dès le chargement de `data/prime_catalog.js`.
     * Invalidation totale du cache navigateur et PWA via bumping `v=8.98` dans `index.html` et `sw.js` (incluant `data/prime_catalog.js` dans `CORE_ASSETS`), affichant instantanément les 1 041 films et 489 séries sans résidu 0.
 
+* **Bouton Complémentaire `[➕ Amazon]` sur PC Desktop (26/10/2026 - v8.98 - Règle 8 Exclusivité PC)** :
+  - **Inclusion sans masquage des autres bouquets** : Contrairement à `[📦 Mode Amazon]` (qui isole Amazon de façon exclusive), le bouton `[➕ Amazon]` ajoute les 1 530 titres Prime Video au catalogue standard en conservant tous les autres bouquets actifs (Ciné+ OCS, Universal+, Action Max, Spécialisées).
+  - **Dédoublonnage automatique & Puce bouquet `[prv]`** : Les œuvres multi-diffuseurs cumulent leurs logos réactifs et le filtre bouquet Amazon Prime Video (`prv`) devient consultable sans exclure le reste du catalogue.
+  - **Alternance intelligente** : L'activation de `[➕ Amazon]` désactive le mode exclusif `[📦 Mode Amazon]`, et inversement, pour une navigation fluide et sans conflit.
+

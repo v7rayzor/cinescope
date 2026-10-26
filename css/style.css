@@ -2387,27 +2387,32 @@ body.modal-open {
 }
 
 /* Bouton Toggle Catalogue Amazon Prime (Exclusivité PC - Règle 8) */
-.bouquet-btn-toggle-amazon {
+.bouquet-btn-toggle-amazon,
+.bouquet-btn-toggle-include-amazon {
   border-color: rgba(0, 168, 225, 0.4);
   background: rgba(0, 168, 225, 0.08);
   color: #38bdf8;
 }
-.bouquet-btn-toggle-amazon:hover {
+.bouquet-btn-toggle-amazon:hover,
+.bouquet-btn-toggle-include-amazon:hover {
   background: rgba(0, 168, 225, 0.18);
   border-color: rgba(0, 168, 225, 0.7);
   color: #7dd3fc;
 }
-.bouquet-btn-toggle-amazon.active {
+.bouquet-btn-toggle-amazon.active,
+.bouquet-btn-toggle-include-amazon.active {
   background: linear-gradient(135deg, rgba(0, 168, 225, 0.38), rgba(2, 132, 199, 0.22));
   border-color: #00a8e1;
   color: #fff;
   box-shadow: 0 0 16px rgba(0, 168, 225, 0.45);
 }
-.bouquet-btn-toggle-amazon .pkg-count {
+.bouquet-btn-toggle-amazon .pkg-count,
+.bouquet-btn-toggle-include-amazon .pkg-count {
   background: rgba(0, 168, 225, 0.2);
   color: #bae6fd;
 }
-.bouquet-btn-toggle-amazon.active .pkg-count {
+.bouquet-btn-toggle-amazon.active .pkg-count,
+.bouquet-btn-toggle-include-amazon.active .pkg-count {
   background: rgba(0, 168, 225, 0.45);
   color: #fff;
 }
