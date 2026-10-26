@@ -559,13 +559,15 @@ body.modal-open {
   .date-label-mobile {
     display: none;
   }
-  .avis-sort-btn {
+  .avis-sort-btn,
+  .stars-sort-btn {
     display: inline-flex !important;
   }
 }
 
 @media (max-width: 1023px) {
-  .date-sort-divider-pc {
+  .date-sort-divider-pc,
+  .stars-sort-btn {
     display: none !important;
   }
 }
@@ -634,6 +636,21 @@ body.modal-open {
 }
 
 .avis-sort-btn.active .date-sort-arrow {
+  color: #ffffff;
+}
+
+.stars-sort-btn.active {
+  background: rgba(234, 179, 8, 0.16);
+  border-color: #facc15;
+  color: #ffffff;
+  box-shadow: 0 0 14px rgba(234, 179, 8, 0.35);
+}
+
+.stars-sort-btn .date-sort-arrow {
+  color: #facc15;
+}
+
+.stars-sort-btn.active .date-sort-arrow {
   color: #ffffff;
 }
 

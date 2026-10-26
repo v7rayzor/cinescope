@@ -240,7 +240,13 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * Invalidation totale du cache navigateur et PWA via bumping `v=8.98` dans `index.html` et `sw.js` (incluant `data/prime_catalog.js` dans `CORE_ASSETS`), affichant instantanément les 1 041 films et 489 séries sans résidu 0.
 
 * **Bouton Complémentaire `[➕ Amazon]` sur PC Desktop (26/10/2026 - v8.98 - Règle 8 Exclusivité PC)** :
-  - **Inclusion sans masquage des autres bouquets** : Contrairement à `[📦 Mode Amazon]` (qui isole Amazon de façon exclusive), le bouton `[➕ Amazon]` ajoute les 1 530 titres Prime Video au catalogue standard en conservant tous les autres bouquets actifs (Ciné+ OCS, Universal+, Action Max, Spécialisées).
+  - **Inclusion sans masquage des autres bouquets** : Le bouton `[➕ Amazon]` ajoute les 1 530 titres Prime Video au catalogue standard en conservant tous les autres bouquets actifs (Ciné+ OCS, Universal+, Action Max, Spécialisées).
   - **Dédoublonnage automatique & Puce bouquet `[prv]`** : Les œuvres multi-diffuseurs cumulent leurs logos réactifs et le filtre bouquet Amazon Prime Video (`prv`) devient consultable sans exclure le reste du catalogue.
-  - **Alternance intelligente** : L'activation de `[➕ Amazon]` désactive le mode exclusif `[📦 Mode Amazon]`, et inversement, pour une navigation fluide et sans conflit.
+  - **Alternance intelligente** : L'activation de `[➕ Amazon]` désactive le mode exclusif `[📦 Mode Amazon]`, et inversement.
+
+* **Bouton de Tri Interactif par Étoiles `[⭐ Étoiles]` sur PC Desktop (26/10/2026 - v8.98 - Règle 8 Exclusivité PC)** :
+  - **Tri en 3 états** : `⭐ Étoiles ↓` (Meilleures notes/étoiles 5 $\rightarrow$ 1), `⭐ Étoiles ↑` (Moins bonnes notes 1 $\rightarrow$ 5), `⭐ Étoiles` (Réinitialisation par défaut).
+  - **Départage mathématique précis** : Trie d'abord par le nombre d'étoiles (1 à 5), puis départage par la note globale exacte sur 10 (`note_globale` / `note_avis`), les urgences d'expiration, et enfin l'année de sortie la plus récente.
+  - **Exclusivité mutuelle avec Date et Avis** : Activer le tri par étoiles réinitialise automatiquement le tri par date et le tri par avis.
+  - **Thème visuel & Sanctuarisation mobile** : Habillage doré satiné (`#facc15`), strictement réservé au grand écran PC Desktop ($\ge 1024\text{px}$) et totalement masqué sur portable (`display: none !important;`).
 

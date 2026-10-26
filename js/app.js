@@ -64,6 +64,7 @@ const AppState = {
   searchQuery: '',             // Requête de recherche par titre (PC uniquement)
   dateSortOrder: 'none',       // 'none', 'desc' (récent -> ancien), 'asc' (ancien -> récent) (PC uniquement)
   avisSortOrder: 'none',       // 'none', 'desc' (meilleur avis -> moins bon), 'asc' (moins bon -> meilleur) (PC uniquement)
+  starsSortOrder: 'none',      // 'none', 'desc' (meilleures étoiles -> moins bonnes), 'asc' (moins bonnes -> meilleures) (PC uniquement)
   isSyncing: false,
   catalog: []
 };
@@ -416,6 +417,40 @@ function sortCatalogItems(items) {
       }
 
       // Puis départager par année de sortie la plus récente
+      const yearA = getItemReleaseYear(a);
+      const yearB = getItemReleaseYear(b);
+      return yearB - yearA;
+    });
+    return sorted;
+  }
+
+  // Tri par Étoiles (Exclusivité PC Desktop - Règle 8)
+  if (!isMobile && AppState.starsSortOrder && AppState.starsSortOrder !== 'none') {
+    const sorted = [...items];
+    sorted.sort((a, b) => {
+      const starsA = typeof a.etoiles === 'number' ? a.etoiles : (typeof a.note_globale === 'number' ? Math.round(a.note_globale / 2) : 0);
+      const starsB = typeof b.etoiles === 'number' ? b.etoiles : (typeof b.note_globale === 'number' ? Math.round(b.note_globale / 2) : 0);
+      const diffStars = AppState.starsSortOrder === 'desc' ? (starsB - starsA) : (starsA - starsB);
+      if (diffStars !== 0) return diffStars;
+
+      // Départager par la note globale exacte
+      const noteA = typeof a.note_globale === 'number' ? a.note_globale : (a.note_avis || 0);
+      const noteB = typeof b.note_globale === 'number' ? b.note_globale : (b.note_avis || 0);
+      const diffNote = AppState.starsSortOrder === 'desc' ? (noteB - noteA) : (noteA - noteB);
+      if (diffNote !== 0) return diffNote;
+
+      // En cas d'égalité, urgences d'expiration
+      const expA = getItemDaysLeft(a);
+      const expB = getItemDaysLeft(b);
+      if (expA !== null && expB !== null) {
+        if (expA !== expB) return expA - expB;
+      } else if (expA !== null) {
+        return -1;
+      } else if (expB !== null) {
+        return 1;
+      }
+
+      // Puis année de sortie la plus récente
       const yearA = getItemReleaseYear(a);
       const yearB = getItemReleaseYear(b);
       return yearB - yearA;
@@ -1187,12 +1222,14 @@ function initDurationFilter() {
   }
 }
 
-// Tri par Date et Tri par Avis critique (Exclusivité PC Desktop - Règle 8 AGENTS.md)
+// Tri par Date, Tri par Avis critique et Tri par Étoiles (Exclusivité PC Desktop - Règle 8 AGENTS.md)
 function initSortControls() {
   const dateSortBtn = document.getElementById('dateSortBtn');
   const dateSortArrow = document.getElementById('dateSortArrow');
   const avisSortBtn = document.getElementById('avisSortBtn');
   const avisSortArrow = document.getElementById('avisSortArrow');
+  const starsSortBtn = document.getElementById('starsSortBtn');
+  const starsSortArrow = document.getElementById('starsSortArrow');
 
   const updateDateUI = () => {
     if (!dateSortBtn) return;
@@ -1228,11 +1265,30 @@ function initSortControls() {
     }
   };
 
+  const updateStarsUI = () => {
+    if (!starsSortBtn) return;
+    if (AppState.starsSortOrder === 'desc') {
+      starsSortBtn.classList.add('active');
+      if (starsSortArrow) starsSortArrow.textContent = '↓';
+      starsSortBtn.title = 'Tri par étoiles : De la meilleure note à la moins bonne (Cliquer pour trier de la moins bonne à la meilleure)';
+    } else if (AppState.starsSortOrder === 'asc') {
+      starsSortBtn.classList.add('active');
+      if (starsSortArrow) starsSortArrow.textContent = '↑';
+      starsSortBtn.title = 'Tri par étoiles : De la moins bonne note à la meilleure (Cliquer pour réinitialiser le tri par défaut)';
+    } else {
+      starsSortBtn.classList.remove('active');
+      if (starsSortArrow) starsSortArrow.textContent = '';
+      starsSortBtn.title = 'Trier par nombre d\'étoiles (Cliquer pour alterner : Meilleures étoiles ➔ Moins bonnes ➔ Par défaut)';
+    }
+  };
+
   if (dateSortBtn) {
     dateSortBtn.addEventListener('click', () => {
-      // Désactiver le tri par avis pour éviter tout conflit
+      // Désactiver le tri par avis et par étoiles pour éviter tout conflit
       AppState.avisSortOrder = 'none';
+      AppState.starsSortOrder = 'none';
       updateAvisUI();
+      updateStarsUI();
 
       if (AppState.dateSortOrder === 'none') {
         AppState.dateSortOrder = 'desc';
@@ -1248,9 +1304,11 @@ function initSortControls() {
 
   if (avisSortBtn) {
     avisSortBtn.addEventListener('click', () => {
-      // Désactiver le tri par date pour éviter tout conflit
+      // Désactiver le tri par date et par étoiles pour éviter tout conflit
       AppState.dateSortOrder = 'none';
+      AppState.starsSortOrder = 'none';
       updateDateUI();
+      updateStarsUI();
 
       if (AppState.avisSortOrder === 'none') {
         AppState.avisSortOrder = 'desc';
@@ -1264,8 +1322,29 @@ function initSortControls() {
     });
   }
 
+  if (starsSortBtn) {
+    starsSortBtn.addEventListener('click', () => {
+      // Désactiver le tri par date et par avis pour éviter tout conflit
+      AppState.dateSortOrder = 'none';
+      AppState.avisSortOrder = 'none';
+      updateDateUI();
+      updateAvisUI();
+
+      if (AppState.starsSortOrder === 'none') {
+        AppState.starsSortOrder = 'desc';
+      } else if (AppState.starsSortOrder === 'desc') {
+        AppState.starsSortOrder = 'asc';
+      } else {
+        AppState.starsSortOrder = 'none';
+      }
+      updateStarsUI();
+      renderCatalog();
+    });
+  }
+
   updateDateUI();
   updateAvisUI();
+  updateStarsUI();
 }
 
 
