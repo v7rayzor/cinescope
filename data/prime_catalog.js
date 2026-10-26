@@ -2,7 +2,7 @@
  * CinéScope - Catalogue Amazon Prime Video (Exclusivité PC - Règle 8)
  * Généré automatiquement par scripts/sync_prime.cjs
  */
-const PRIME_CATALOG_DATA = [
+var PRIME_CATALOG_DATA = [
   {
     "id": "jw-ts476818",
     "titre": "Carrie",

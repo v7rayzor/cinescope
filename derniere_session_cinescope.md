@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.97** / Cache **cinescope-v8.97-streaming** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.98** / Cache **cinescope-v8.98-streaming** / Stockage **_v48**).
 
 ---
 
@@ -223,13 +223,19 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Règle d'exclusivité stricte** : Lorsqu'activé, le bouquet Amazon isole ses œuvres et masque l'ensemble des autres bouquets. La désactivation rétablit instantanément le catalogue CinéScope normal.
   - **Script de synchronisation dédié** : [`scripts/sync_prime.cjs`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/sync_prime.cjs) configuré avec pagination dynamique.
 
-* **Refonte Ergonomique & Centrage des Filtres Mobile / Portable (26/10/2026 - v8.97)** :
+* **Refonte Ergonomique & Centrage des Filtres Mobile / Portable (26/10/2026 - v8.98)** :
   - **Inversion des Lignes** :
     * Ligne Durée / Temps positionnée en tête (`order: 1`).
     * Ligne Étoiles de note positionnée en deuxième (`order: 3`), avec séparateur fin (`.mobile-divider-1`, `order: 2`).
-  - **Boutons de Tri `📅 Date` et `💬 Avis` Déployés sur Mobile** :
-    * Placés en ligne sous les étoiles (`order: 5`), séparés par `.mobile-divider-2` (`order: 4`).
-    * Tri dynamique opérationnel : levée de la restriction mobile dans `sortCatalogItems()`, permettant le tri instantané par date (récent/ancien) et par note d'avis critique sur smartphone et tablette.
-  - **Centrage Intégral** :
-    * Tous les éléments des rangées mobiles (durée, étoiles, boutons de tri date/avis) sont centrés (`justify-content: center`) au lieu de l'alignement à gauche, avec préservation totale du layout horizontal pour ordinateurs de bureau ($\ge 1024\text{px}$).
+  - **Bouton de Tri `📅 Date de sortie` Déployé sur Mobile** :
+    * Placé en ligne sous les étoiles (`order: 5`), séparé par `.mobile-divider-2` (`order: 4`).
+    * Libellé explicite `📅 Date de sortie` sur mobile (sobre `📅 Date` sur desktop).
+    * Bouton `💬 Avis` masqué sur smartphone à la demande explicite de l'utilisateur (`.avis-sort-btn { display: none !important; }`), préservé sur PC desktop.
+    * Tri chronologique dynamique opérationnel au clic.
+  - **Centrage Intégral & Préservation Catégories** :
+    * Éléments des rangées filtres (durée, étoiles, date de sortie) centrés (`justify-content: center`) sur mobile.
+    * Ligne Filtre / Catégories conservée dans son comportement d'origine.
+  - **Fiabilisation Immédiate Mode Amazon Prime Video PC** :
+    * Déclaration globale `window.PRIME_CATALOG_DATA` dès le chargement de `data/prime_catalog.js`.
+    * Invalidation totale du cache navigateur et PWA via bumping `v=8.98` dans `index.html` et `sw.js` (incluant `data/prime_catalog.js` dans `CORE_ASSETS`), affichant instantanément les 1 041 films et 489 séries sans résidu 0.
 

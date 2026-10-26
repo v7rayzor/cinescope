@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cinescope-v8.97-streaming';
+const CACHE_NAME = 'cinescope-v8.98-streaming';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -6,6 +6,7 @@ const CORE_ASSETS = [
   './css/style.css',
   './data/ai_duel_cache.js',
   './js/catalog.js',
+  './data/prime_catalog.js',
   './js/justwatch_engine.js',
   './js/app.js',
   './assets/favicon.svg',
@@ -16,7 +17,8 @@ const CORE_ASSETS = [
   './assets/logos/universal_plus.svg',
   './assets/logos/sooner.png',
   './assets/logos/shadowz.png',
-  './assets/logos/insomnia.png'
+  './assets/logos/insomnia.png',
+  './assets/logos/prime_video.svg'
 ];
 
 // Installation : mise en cache des fichiers statiques essentiels

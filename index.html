@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=8.88">
+  <link rel="stylesheet" href="css/style.css?v=8.98">
 </head>
 <body>
   <!-- Header / Navigation principale -->
@@ -328,7 +328,10 @@
         <div class="date-sort-container-pc date-sort-container" id="dateSortContainer">
           <button type="button" class="date-sort-btn" id="dateSortBtn" title="Trier par année de sortie (Cliquer pour alterner : Récent ➔ Ancien ➔ Par défaut)">
             <span class="date-sort-icon">📅</span>
-            <span class="date-sort-label">Date</span>
+            <span class="date-sort-label">
+              <span class="date-label-desktop">Date</span>
+              <span class="date-label-mobile">Date de sortie</span>
+            </span>
             <span class="date-sort-arrow" id="dateSortArrow"></span>
           </button>
           <button type="button" class="date-sort-btn avis-sort-btn" id="avisSortBtn" title="Trier par note critique Avis (Cliquer pour alterner : Meilleure note ➔ Moins bonne note ➔ Par défaut)">
@@ -485,11 +488,11 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="data/ai_duel_cache.js?v=8.95"></script>
-  <script src="js/catalog.js?v=8.95"></script>
-  <script src="data/prime_catalog.js"></script>
-  <script src="js/justwatch_engine.js?v=8.95"></script>
-  <script src="js/app.js?v=8.95"></script>
+  <script src="data/ai_duel_cache.js?v=8.98"></script>
+  <script src="js/catalog.js?v=8.98"></script>
+  <script src="data/prime_catalog.js?v=8.98"></script>
+  <script src="js/justwatch_engine.js?v=8.98"></script>
+  <script src="js/app.js?v=8.98"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {

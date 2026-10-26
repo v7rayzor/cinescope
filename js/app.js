@@ -625,8 +625,9 @@ function updateFooterDate() {
 // Obtient le catalogue actif selon le mode (Catalogue standard Molotov vs Catalogue dédié Amazon Prime Video - Règle 8)
 function getActiveCatalog() {
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
-  if (!isMobile && AppState.isAmazonMode && typeof PRIME_CATALOG_DATA !== 'undefined' && Array.isArray(PRIME_CATALOG_DATA) && PRIME_CATALOG_DATA.length > 0) {
-    return PRIME_CATALOG_DATA;
+  const primeData = (typeof window !== 'undefined' && window.PRIME_CATALOG_DATA) || (typeof PRIME_CATALOG_DATA !== 'undefined' ? PRIME_CATALOG_DATA : null);
+  if (!isMobile && AppState.isAmazonMode && Array.isArray(primeData) && primeData.length > 0) {
+    return primeData;
   }
   return AppState.catalog || [];
 }
@@ -681,8 +682,9 @@ function initBouquetsCounts() {
   const countInsomnia = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('ima')).length;
   
   // Amazon Prime Video (Exclusivité PC - Règle 8)
-  const primeSource = (typeof PRIME_CATALOG_DATA !== 'undefined' && Array.isArray(PRIME_CATALOG_DATA) && PRIME_CATALOG_DATA.length > 0)
-    ? PRIME_CATALOG_DATA.filter(item => {
+  const primeData = (typeof window !== 'undefined' && window.PRIME_CATALOG_DATA) || (typeof PRIME_CATALOG_DATA !== 'undefined' ? PRIME_CATALOG_DATA : null);
+  const primeSource = (Array.isArray(primeData) && primeData.length > 0)
+    ? primeData.filter(item => {
         if (!item.is_eligible) return false;
         return AppState.activeType === 'film' 
           ? (item.type === 'film' || item.type === 'telefilm')

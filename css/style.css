@@ -553,6 +553,15 @@ body.modal-open {
   .date-sort-divider-pc {
     display: block;
   }
+  .date-label-desktop {
+    display: inline;
+  }
+  .date-label-mobile {
+    display: none;
+  }
+  .avis-sort-btn {
+    display: inline-flex !important;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -1520,7 +1529,7 @@ body.modal-open {
     background: var(--border-subtle);
   }
 
-  /* Ligne Tri Date & Avis sous la ligne Étoiles sur portable */
+  /* Ligne Tri Date de sortie sous la ligne Étoiles sur portable */
   .date-sort-container-pc,
   .date-sort-container {
     order: 5;
@@ -1528,17 +1537,29 @@ body.modal-open {
     flex-direction: row;
     align-items: center;
     justify-content: center; /* Centré au lieu d'alignement à gauche */
-    gap: 0.65rem;
     width: 100%;
-    padding: 0.1rem 0;
+    padding: 0.15rem 0;
     margin: 0 auto;
   }
 
+  /* Masqué sur portable à la demande de l'utilisateur */
+  .avis-sort-btn {
+    display: none !important;
+  }
+
+  .date-label-desktop {
+    display: none;
+  }
+
+  .date-label-mobile {
+    display: inline;
+  }
+
   .date-sort-btn {
-    flex: 1;
-    max-width: 165px;
+    display: inline-flex;
+    align-items: center;
     justify-content: center; /* Centré */
-    padding: 0.38rem 0.75rem;
+    padding: 0.42rem 1.2rem;
     font-size: 0.82rem;
     border-radius: var(--radius-sm);
   }
