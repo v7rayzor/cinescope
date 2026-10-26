@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v8.99** / Cache **cinescope-v8.99-streaming** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.00** / Cache **cinescope-v9.00-streaming** / Stockage **_v48**).
 
 ---
 
@@ -263,4 +263,11 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Visibilité contextuelle & Sanctuarisation Mobile (Règle 8)** :
     * Strictement masqué sur mobile et tablette (`display: none !important;`).
     * Masqué automatiquement sur PC lorsqu'une catégorie spécifique ou une recherche textuelle est active (car la grille unifiée s'impose naturellement).
+
+* **Tri par Défaut par Note Étoile, Bouton Expiration PC & Épuration Mobile (26/10/2026 - v9.00 - Règle 8 AGENTS.md)** :
+  - **Tri par Défaut par Note Étoile (PC & Mobile)** : Le classement standard de l'application s'effectue désormais automatiquement par nombre d'étoiles décroissant (`5 ➔ 4 ➔ 3 ➔ 2 ➔ 1`), avec départage fin par note globale/critique exacte sur 10, urgences d'expiration, année la plus récente et tirage quotidien.
+  - **Bouton de Tri `[⏳ Expiration]` sur PC Desktop** : Remplace l'ancien bouton de tri étoiles dans la barre de tri PC (`[📅 Date]` `[💬 Avis]` `[⏳ Expiration]`). Deux états actifs : `↓` (titres quittant bientôt le catalogue en premier) et `↑` (titres restant le plus longtemps d'abord).
+  - **Épuration Ergonomique Mobile / Portable** :
+    * Retrait complet de la ligne Date et de son séparateur sur smartphone.
+    * Inversion des lignes filtres : ligne Étoiles positionnée en tête (`order: 1`), suivie du séparateur fin (`order: 2`), puis ligne Durée / Temps (`order: 3`), toutes deux harmonieusement centrées.
 

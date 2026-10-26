@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=8.99">
+  <link rel="stylesheet" href="css/style.css?v=9.00">
 </head>
 <body>
   <!-- Header / Navigation principale -->
@@ -329,14 +329,11 @@
         <!-- Séparateur horizontal spécifique mobile 2 (entre Étoiles et Tri) -->
         <div class="filters-mobile-divider mobile-divider-2" aria-hidden="true"></div>
 
-        <!-- Tri par Date & Tri par Avis (PC & Mobile) -->
+        <!-- Tri par Date, Avis & Expiration (PC uniquement - Règle 8) -->
         <div class="date-sort-container-pc date-sort-container" id="dateSortContainer">
           <button type="button" class="date-sort-btn" id="dateSortBtn" title="Trier par année de sortie (Cliquer pour alterner : Récent ➔ Ancien ➔ Par défaut)">
             <span class="date-sort-icon">📅</span>
-            <span class="date-sort-label">
-              <span class="date-label-desktop">Date</span>
-              <span class="date-label-mobile">Date de sortie</span>
-            </span>
+            <span class="date-sort-label">Date</span>
             <span class="date-sort-arrow" id="dateSortArrow"></span>
           </button>
           <button type="button" class="date-sort-btn avis-sort-btn" id="avisSortBtn" title="Trier par note critique Avis (Cliquer pour alterner : Meilleure note ➔ Moins bonne note ➔ Par défaut)">
@@ -344,10 +341,10 @@
             <span class="date-sort-label">Avis</span>
             <span class="date-sort-arrow" id="avisSortArrow"></span>
           </button>
-          <button type="button" class="date-sort-btn stars-sort-btn" id="starsSortBtn" title="Trier par nombre d'étoiles (Cliquer pour alterner : Meilleures étoiles ➔ Moins bonnes ➔ Par défaut)">
-            <span class="date-sort-icon">⭐</span>
-            <span class="date-sort-label">Étoiles</span>
-            <span class="date-sort-arrow" id="starsSortArrow"></span>
+          <button type="button" class="date-sort-btn expiry-sort-btn" id="expirySortBtn" title="Trier par date d'expiration (Cliquer pour alterner : Bientôt expiré ➔ Plus tard ➔ Par défaut)">
+            <span class="date-sort-icon">⏳</span>
+            <span class="date-sort-label">Expiration</span>
+            <span class="date-sort-arrow" id="expirySortArrow"></span>
           </button>
         </div>
       </div>
@@ -503,11 +500,11 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="data/ai_duel_cache.js?v=8.99"></script>
-  <script src="js/catalog.js?v=8.99"></script>
-  <script src="data/prime_catalog.js?v=8.99"></script>
-  <script src="js/justwatch_engine.js?v=8.99"></script>
-  <script src="js/app.js?v=8.99"></script>
+  <script src="data/ai_duel_cache.js?v=9.00"></script>
+  <script src="js/catalog.js?v=9.00"></script>
+  <script src="data/prime_catalog.js?v=9.00"></script>
+  <script src="js/justwatch_engine.js?v=9.00"></script>
+  <script src="js/app.js?v=9.00"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
