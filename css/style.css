@@ -560,14 +560,14 @@ body.modal-open {
     display: none;
   }
   .avis-sort-btn,
-  .expiry-sort-btn {
+  .stars-sort-btn {
     display: inline-flex !important;
   }
 }
 
 @media (max-width: 1023px) {
   .date-sort-divider-pc,
-  .expiry-sort-btn {
+  .stars-sort-btn {
     display: none !important;
   }
 }
@@ -639,18 +639,18 @@ body.modal-open {
   color: #ffffff;
 }
 
-.expiry-sort-btn.active {
-  background: rgba(245, 158, 11, 0.16);
-  border-color: #f59e0b;
+.stars-sort-btn.active {
+  background: rgba(234, 179, 8, 0.16);
+  border-color: #facc15;
   color: #ffffff;
-  box-shadow: 0 0 14px rgba(245, 158, 11, 0.35);
+  box-shadow: 0 0 14px rgba(234, 179, 8, 0.35);
 }
 
-.expiry-sort-btn .date-sort-arrow {
-  color: #f59e0b;
+.stars-sort-btn .date-sort-arrow {
+  color: #facc15;
 }
 
-.expiry-sort-btn.active .date-sort-arrow {
+.stars-sort-btn.active .date-sort-arrow {
   color: #ffffff;
 }
 
@@ -1604,7 +1604,7 @@ body.modal-open {
   .date-sort-container,
   .date-sort-btn,
   .avis-sort-btn,
-  .expiry-sort-btn {
+  .stars-sort-btn {
     display: none !important;
   }
 

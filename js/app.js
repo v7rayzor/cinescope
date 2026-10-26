@@ -62,9 +62,9 @@ const AppState = {
   isExcludeNoS1: false,        // true pour exclure les séries sans saison 1 disponible
   isAutoStars: true,           // true tant que l'utilisateur n'a pas forcé manuellement un choix
   searchQuery: '',             // Requête de recherche par titre (PC uniquement)
+  starsSortOrder: 'none',      // 'none', 'desc' (meilleures étoiles -> moins bonnes), 'asc' (moins bonnes -> meilleures) (PC uniquement)
   dateSortOrder: 'none',       // 'none', 'desc' (récent -> ancien), 'asc' (ancien -> récent) (PC uniquement)
   avisSortOrder: 'none',       // 'none', 'desc' (meilleur avis -> moins bon), 'asc' (moins bon -> meilleur) (PC uniquement)
-  expirySortOrder: 'none',     // 'none', 'asc' (bientôt expiré -> plus tard), 'desc' (plus tard -> bientôt expiré) (PC uniquement)
   enableThemeColumns: (function() {
     try {
       return localStorage.getItem('cinescope_theme_columns') !== 'false';
@@ -347,9 +347,10 @@ function getItemReleaseYear(item) {
 
 // TRI GLOBAL DU CATALOGUE :
 // - Si tri par avis actif : tri par note critique Allociné/TMDb/IMDb (décroissant ou croissant).
+// - Si tri par étoiles actif (PC uniquement) : tri par note d'étoiles (décroissant 5->1 ou croissant 1->5).
 // - Si tri par date actif : tri chronologique strict par année (décroissant ou croissant).
-// - Si tri par expiration actif (PC uniquement) : tri des urgences d'expiration (les plus proches de quitter le catalogue en premier ou l'inverse).
-// - Tri par défaut (PC & Mobile) : Tri par ÉTOILES décroissant (5 ➔ 4 ➔ 3 ➔ 2 ➔ 1), départagé par la note globale, les urgences d'expiration puis l'année.
+// - Si tri par avis critique actif : tri sur la note critique spectateurs/presse.
+// - Tri par défaut (PC & Mobile) : 1) Nouveautés ➔ 2) Date d'expiration (urgences en premier) ➔ 3) Note d'étoiles (5 ➔ 1).
 function sortCatalogItems(items) {
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
 
@@ -419,52 +420,64 @@ function sortCatalogItems(items) {
     return sorted;
   }
 
-  // 3. Tri par Expiration (Exclusivité PC Desktop - Règle 8)
-  if (!isMobile && AppState.expirySortOrder && AppState.expirySortOrder !== 'none') {
-    const withExpiry = [];
-    const withoutExpiry = [];
+  // 3. Tri par Étoiles (Exclusivité PC Desktop - Règle 8)
+  if (!isMobile && AppState.starsSortOrder && AppState.starsSortOrder !== 'none') {
+    const sorted = [...items];
+    sorted.sort((a, b) => {
+      const starsA = typeof a.etoiles === 'number' ? a.etoiles : (typeof a.note_globale === 'number' ? Math.round(a.note_globale / 2) : 0);
+      const starsB = typeof b.etoiles === 'number' ? b.etoiles : (typeof b.note_globale === 'number' ? Math.round(b.note_globale / 2) : 0);
+      const diffStars = AppState.starsSortOrder === 'desc' ? (starsB - starsA) : (starsA - starsB);
+      if (diffStars !== 0) return diffStars;
 
-    for (const it of items) {
-      const dLeft = getItemDaysLeft(it);
-      if (dLeft !== null && dLeft >= 0) {
-        withExpiry.push({ item: it, daysLeft: dLeft });
-      } else {
-        withoutExpiry.push(it);
+      // Départager par la note globale exacte sur 10
+      const noteA = typeof a.note_globale === 'number' ? a.note_globale : (a.note_avis || 0);
+      const noteB = typeof b.note_globale === 'number' ? b.note_globale : (b.note_avis || 0);
+      const diffNote = noteB - noteA;
+      if (diffNote !== 0) return diffNote;
+
+      // En cas d'égalité, urgences d'expiration
+      const expA = getItemDaysLeft(a);
+      const expB = getItemDaysLeft(b);
+      if (expA !== null && expB !== null) {
+        if (expA !== expB) return expA - expB;
+      } else if (expA !== null) {
+        return -1;
+      } else if (expB !== null) {
+        return 1;
       }
-    }
 
-    if (AppState.expirySortOrder === 'asc') {
-      // Les titres qui quittent bientôt le catalogue en premier
-      withExpiry.sort((a, b) => {
-        const diff = a.daysLeft - b.daysLeft;
-        if (diff !== 0) return diff;
-        const starsA = typeof a.item.etoiles === 'number' ? a.item.etoiles : 0;
-        const starsB = typeof b.item.etoiles === 'number' ? b.item.etoiles : 0;
-        return starsB - starsA;
-      });
-    } else {
-      // Les titres qui expirent le plus tard en premier
-      withExpiry.sort((a, b) => {
-        const diff = b.daysLeft - a.daysLeft;
-        if (diff !== 0) return diff;
-        const starsA = typeof a.item.etoiles === 'number' ? a.item.etoiles : 0;
-        const starsB = typeof b.item.etoiles === 'number' ? b.item.etoiles : 0;
-        return starsB - starsA;
-      });
-    }
+      // Puis année de sortie la plus récente
+      const yearA = getItemReleaseYear(a);
+      const yearB = getItemReleaseYear(b);
+      if (yearB !== yearA) return yearB - yearA;
 
-    withoutExpiry.sort((a, b) => {
-      const starsA = typeof a.etoiles === 'number' ? a.etoiles : 0;
-      const starsB = typeof b.etoiles === 'number' ? b.etoiles : 0;
-      return starsB - starsA;
+      return getDailyScore(a) - getDailyScore(b);
     });
-
-    return [...withExpiry.map(x => x.item), ...withoutExpiry];
+    return sorted;
   }
 
-  // 4. TRI PAR DÉFAUT (PC & Mobile) : TRI PAR ÉTOILES (5 ➔ 4 ➔ 3 ➔ 2 ➔ 1)
+  // 4. TRI PAR DÉFAUT (PC & Mobile) : 1) Nouveautés ➔ 2) Date d'expiration ➔ 3) Note d'étoiles (5 ➔ 1)
   const sorted = [...items];
   sorted.sort((a, b) => {
+    // 1) En 1 : Nouveautés (les nouveautés récentes en priorité)
+    const isNewA = isItemNew(a) ? 1 : 0;
+    const isNewB = isItemNew(b) ? 1 : 0;
+    if (isNewB !== isNewA) return isNewB - isNewA;
+
+    // 2) En 2 : Date d'expiration (titres quittant bientôt le catalogue en premier)
+    const expA = getItemDaysLeft(a);
+    const expB = getItemDaysLeft(b);
+    const hasExpA = expA !== null && expA >= 0;
+    const hasExpB = expB !== null && expB >= 0;
+    if (hasExpA && hasExpB) {
+      if (expA !== expB) return expA - expB;
+    } else if (hasExpA) {
+      return -1;
+    } else if (hasExpB) {
+      return 1;
+    }
+
+    // 3) En 3 : Note d'étoiles (5 ➔ 4 ➔ 3 ➔ 2 ➔ 1)
     const starsA = typeof a.etoiles === 'number' ? a.etoiles : (typeof a.note_globale === 'number' ? Math.round(a.note_globale / 2) : 0);
     const starsB = typeof b.etoiles === 'number' ? b.etoiles : (typeof b.note_globale === 'number' ? Math.round(b.note_globale / 2) : 0);
     const diffStars = starsB - starsA;
@@ -475,17 +488,6 @@ function sortCatalogItems(items) {
     const noteB = typeof b.note_globale === 'number' ? b.note_globale : (b.note_avis || 0);
     const diffNote = noteB - noteA;
     if (diffNote !== 0) return diffNote;
-
-    // En cas d'égalité, urgences d'expiration
-    const expA = getItemDaysLeft(a);
-    const expB = getItemDaysLeft(b);
-    if (expA !== null && expB !== null) {
-      if (expA !== expB) return expA - expB;
-    } else if (expA !== null) {
-      return -1;
-    } else if (expB !== null) {
-      return 1;
-    }
 
     // Puis année de sortie la plus récente
     const yearA = getItemReleaseYear(a);
@@ -1258,29 +1260,29 @@ function initDurationFilter() {
   }
 }
 
-// Tri par Avis critique, Date et Expiration (Exclusivité PC Desktop - Règle 8 AGENTS.md)
+// Tri par Étoiles, Date et Avis critique (Exclusivité PC Desktop - Règle 8 AGENTS.md)
 function initSortControls() {
-  const avisSortBtn = document.getElementById('avisSortBtn');
-  const avisSortArrow = document.getElementById('avisSortArrow');
+  const starsSortBtn = document.getElementById('starsSortBtn');
+  const starsSortArrow = document.getElementById('starsSortArrow');
   const dateSortBtn = document.getElementById('dateSortBtn');
   const dateSortArrow = document.getElementById('dateSortArrow');
-  const expirySortBtn = document.getElementById('expirySortBtn');
-  const expirySortArrow = document.getElementById('expirySortArrow');
+  const avisSortBtn = document.getElementById('avisSortBtn');
+  const avisSortArrow = document.getElementById('avisSortArrow');
 
-  const updateAvisUI = () => {
-    if (!avisSortBtn) return;
-    if (AppState.avisSortOrder === 'desc') {
-      avisSortBtn.classList.add('active');
-      if (avisSortArrow) avisSortArrow.textContent = '↓';
-      avisSortBtn.title = 'Tri par avis : De la meilleure note à la moins bonne (Cliquer pour trier de la moins bonne à la meilleure)';
-    } else if (AppState.avisSortOrder === 'asc') {
-      avisSortBtn.classList.add('active');
-      if (avisSortArrow) avisSortArrow.textContent = '↑';
-      avisSortBtn.title = 'Tri par avis : De la moins bonne note à la meilleure (Cliquer pour réinitialiser le tri par défaut)';
+  const updateStarsUI = () => {
+    if (!starsSortBtn) return;
+    if (AppState.starsSortOrder === 'desc') {
+      starsSortBtn.classList.add('active');
+      if (starsSortArrow) starsSortArrow.textContent = '↓';
+      starsSortBtn.title = 'Tri par étoiles : De la meilleure note à la moins bonne (Cliquer pour trier de la moins bonne à la meilleure)';
+    } else if (AppState.starsSortOrder === 'asc') {
+      starsSortBtn.classList.add('active');
+      if (starsSortArrow) starsSortArrow.textContent = '↑';
+      starsSortBtn.title = 'Tri par étoiles : De la moins bonne note à la meilleure (Cliquer pour réinitialiser le tri par défaut)';
     } else {
-      avisSortBtn.classList.remove('active');
-      if (avisSortArrow) avisSortArrow.textContent = '';
-      avisSortBtn.title = 'Trier par note critique Avis (Cliquer pour alterner : Meilleure note ➔ Moins bonne note ➔ Par défaut)';
+      starsSortBtn.classList.remove('active');
+      if (starsSortArrow) starsSortArrow.textContent = '';
+      starsSortBtn.title = 'Trier par nombre d\'étoiles (Cliquer pour alterner : Meilleures étoiles ➔ Moins bonnes ➔ Par défaut)';
     }
   };
 
@@ -1301,50 +1303,50 @@ function initSortControls() {
     }
   };
 
-  const updateExpiryUI = () => {
-    if (!expirySortBtn) return;
-    if (AppState.expirySortOrder === 'asc') {
-      expirySortBtn.classList.add('active');
-      if (expirySortArrow) expirySortArrow.textContent = '↓';
-      expirySortBtn.title = 'Tri par expiration : Titres quittant bientôt le catalogue en premier (Cliquer pour trier les plus lointains d\'abord)';
-    } else if (AppState.expirySortOrder === 'desc') {
-      expirySortBtn.classList.add('active');
-      if (expirySortArrow) expirySortArrow.textContent = '↑';
-      expirySortBtn.title = 'Tri par expiration : Titres expirant le plus tard en premier (Cliquer pour réinitialiser le tri par défaut)';
+  const updateAvisUI = () => {
+    if (!avisSortBtn) return;
+    if (AppState.avisSortOrder === 'desc') {
+      avisSortBtn.classList.add('active');
+      if (avisSortArrow) avisSortArrow.textContent = '↓';
+      avisSortBtn.title = 'Tri par avis : De la meilleure note à la moins bonne (Cliquer pour trier de la moins bonne à la meilleure)';
+    } else if (AppState.avisSortOrder === 'asc') {
+      avisSortBtn.classList.add('active');
+      if (avisSortArrow) avisSortArrow.textContent = '↑';
+      avisSortBtn.title = 'Tri par avis : De la moins bonne note à la meilleure (Cliquer pour réinitialiser le tri par défaut)';
     } else {
-      expirySortBtn.classList.remove('active');
-      if (expirySortArrow) expirySortArrow.textContent = '';
-      expirySortBtn.title = 'Trier par date d\'expiration (Cliquer pour alterner : Bientôt expiré ➔ Plus tard ➔ Par défaut)';
+      avisSortBtn.classList.remove('active');
+      if (avisSortArrow) avisSortArrow.textContent = '';
+      avisSortBtn.title = 'Trier par note critique Avis (Cliquer pour alterner : Meilleure note ➔ Moins bonne note ➔ Par défaut)';
     }
   };
 
-  if (avisSortBtn) {
-    avisSortBtn.addEventListener('click', () => {
-      // Désactiver le tri par date et par expiration pour éviter tout conflit
+  if (starsSortBtn) {
+    starsSortBtn.addEventListener('click', () => {
+      // Désactiver le tri par date et par avis pour éviter tout conflit
       AppState.dateSortOrder = 'none';
-      AppState.expirySortOrder = 'none';
+      AppState.avisSortOrder = 'none';
       updateDateUI();
-      updateExpiryUI();
-
-      if (AppState.avisSortOrder === 'none') {
-        AppState.avisSortOrder = 'desc';
-      } else if (AppState.avisSortOrder === 'desc') {
-        AppState.avisSortOrder = 'asc';
-      } else {
-        AppState.avisSortOrder = 'none';
-      }
       updateAvisUI();
+
+      if (AppState.starsSortOrder === 'none') {
+        AppState.starsSortOrder = 'desc';
+      } else if (AppState.starsSortOrder === 'desc') {
+        AppState.starsSortOrder = 'asc';
+      } else {
+        AppState.starsSortOrder = 'none';
+      }
+      updateStarsUI();
       renderCatalog();
     });
   }
 
   if (dateSortBtn) {
     dateSortBtn.addEventListener('click', () => {
-      // Désactiver le tri par avis et par expiration pour éviter tout conflit
+      // Désactiver le tri par étoiles et par avis pour éviter tout conflit
+      AppState.starsSortOrder = 'none';
       AppState.avisSortOrder = 'none';
-      AppState.expirySortOrder = 'none';
+      updateStarsUI();
       updateAvisUI();
-      updateExpiryUI();
 
       if (AppState.dateSortOrder === 'none') {
         AppState.dateSortOrder = 'desc';
@@ -1358,29 +1360,29 @@ function initSortControls() {
     });
   }
 
-  if (expirySortBtn) {
-    expirySortBtn.addEventListener('click', () => {
-      // Désactiver le tri par date et par avis pour éviter tout conflit
+  if (avisSortBtn) {
+    avisSortBtn.addEventListener('click', () => {
+      // Désactiver le tri par étoiles et par date pour éviter tout conflit
+      AppState.starsSortOrder = 'none';
       AppState.dateSortOrder = 'none';
-      AppState.avisSortOrder = 'none';
+      updateStarsUI();
       updateDateUI();
-      updateAvisUI();
 
-      if (AppState.expirySortOrder === 'none') {
-        AppState.expirySortOrder = 'asc';
-      } else if (AppState.expirySortOrder === 'asc') {
-        AppState.expirySortOrder = 'desc';
+      if (AppState.avisSortOrder === 'none') {
+        AppState.avisSortOrder = 'desc';
+      } else if (AppState.avisSortOrder === 'desc') {
+        AppState.avisSortOrder = 'asc';
       } else {
-        AppState.expirySortOrder = 'none';
+        AppState.avisSortOrder = 'none';
       }
-      updateExpiryUI();
+      updateAvisUI();
       renderCatalog();
     });
   }
 
-  updateAvisUI();
+  updateStarsUI();
   updateDateUI();
-  updateExpiryUI();
+  updateAvisUI();
 }
 
 

@@ -740,9 +740,9 @@ const JustWatchEngine = (function () {
     // Condition 0 : Au moins un genre valide renseigné (sinon exclu)
     if (!c.genres || !Array.isArray(c.genres) || c.genres.length === 0) return null;
 
-    // Condition 0bis : Exclusion stricte de la télé-réalité (rly)
+    // Condition 0bis : Exclusion stricte de la télé-réalité (rly) et des documentaires (doc)
     const rawGenres = (c.genres || []).map(normalizeTag).filter(Boolean);
-    if (rawGenres.includes('rly')) return null;
+    if (rawGenres.includes('rly') || rawGenres.includes('doc')) return null;
 
     const isSerie = node.id && (node.id.startsWith('ts') || node.nodeType === 'SHOW');
     const typeStr = isSerie ? 'serie' : 'film';

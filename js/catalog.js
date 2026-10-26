@@ -1551,110 +1551,6 @@ const CATALOG_DATA = [
     "date_ajout": "2019-08-28"
   },
   {
-    "id": "jw-tm410289",
-    "titre": "En liberté !",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Emotion",
-    "annee": 2018,
-    "note_avis": 6.2,
-    "note_recence": 7.6,
-    "note_globale": 6.9,
-    "categories": [
-      "comedie"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/85716850/s592/en-liberte.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 48min",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 5 j",
-      "daysLeft": 5,
-      "expirationDate": "2026-10-31",
-      "packageExpirations": {
-        "aoc": "2026-10-31"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 108,
-    "etoiles": 3,
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "doc",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "synopsis": "Yvonne, jeune inspectrice de police, découvre que son mari, le capitaine Santi, héros local tombé au combat, n’était pas le flic courageux et intègre qu’elle croyait, mais un véritable ripou. Déterminée à réparer les torts commis par ce dernier, elle va croiser le chemin d’Antoine, injustement incarcéré par Santi pendant huit longues années. Une rencontre inattendue et folle qui va dynamiter leurs vies à tous les deux.",
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2018,
-    "date_ajout": "2018-10-31"
-  },
-  {
-    "id": "jw-tm149946",
-    "titre": "Les Combattants",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Emotion",
-    "annee": 2014,
-    "note_avis": 6.6,
-    "note_recence": 6.4,
-    "note_globale": 6.5,
-    "categories": [
-      "comedie"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/241918459/s592/les-combattants.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 38min",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 66,
-      "expirationDate": "2026-12-31",
-      "packageExpirations": {
-        "aoc": "2026-12-31"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 98,
-    "etoiles": 3,
-    "raw_genres": [
-      "cmy",
-      "doc",
-      "rma",
-      "eur"
-    ],
-    "synopsis": "Entre ses potes et l’entreprise familiale, l’été d'Arnaud s’annonce tranquille…  Tranquille jusqu'à sa rencontre avec Madeleine, aussi belle que cassante, bloc de muscles tendus et de prophéties catastrophiques. Il ne s’attend à rien ; elle se prépare au pire.  Jusqu'où la suivre alors qu'elle ne lui a rien demandé ?  C’est une histoire d’amour. Ou une histoire de survie. Ou les deux.",
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2014,
-    "date_ajout": "2015-01-07"
-  },
-  {
     "id": "jw-tm361759",
     "titre": "Colette",
     "type": "film",
@@ -11842,71 +11738,6 @@ const CATALOG_DATA = [
     "date_ajout": "2022-11-07"
   },
   {
-    "id": "jw-ts227451",
-    "titre": "Le Voyageur",
-    "type": "serie",
-    "chaine": "Universal+",
-    "section": "Séries",
-    "position": "Séries • 13ème RUE",
-    "annee": 2019,
-    "note_avis": 7.3,
-    "note_recence": 8.8,
-    "note_globale": 8.1,
-    "categories": [
-      "thriller_policier"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/208662554/s592/le-voyageur.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "chaines": [
-      "Universal+"
-    ],
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "duree": "91 min/ép.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 40,
-      "expirationDate": "2026-12-05",
-      "packageExpirations": {
-        "auc": "2026-12-05"
-      }
-    },
-    "package_slugs": [
-      "auc"
-    ],
-    "runtime_minutes": 91,
-    "etoiles": 5,
-    "raw_genres": [
-      "crm",
-      "doc",
-      "drm"
-    ],
-    "synopsis": "Chaque année en France, 310 homicides restent non élucidés, laissant des familles brisées par un deuil impossible...Le système judiciaire national est implacable : pas de résultat, pas de budget pour poursuivre l'enquête...",
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2022,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2019,
-        "note": 7.3,
-        "episodes": 8
-      },
-      {
-        "saison": 2,
-        "annee": 2024,
-        "note": 7.3,
-        "episodes": 9
-      }
-    ],
-    "date_ajout": "2025-12-29",
-    "annee_fin": 2024
-  },
-  {
     "id": "jw-ts216019",
     "titre": "My Life Is Murder",
     "type": "serie",
@@ -13473,52 +13304,6 @@ const CATALOG_DATA = [
     "date_ajout": "2007-11-02"
   },
   {
-    "id": "jw-tm1613259",
-    "titre": "Le Chant des forêts",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2025,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 7.7,
-    "note_recence": 9.7,
-    "note_globale": 8.7,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341444853/s592/le-chant-des-forets.jpg",
-    "synopsis": "Un homme marche, sac au dos, bâton à la main, veste lourde et chaude sur les épaules, vers les profondeurs d’une vieille forêt moussue. Ni le vent, ni la brume, ni même la neige ne l’arrêteront dans son élan pour rejoindre son affût, sa planque : un sapin. En se glissant sous ses branches basses, l’homme s’efface et un monde s’éveille. Celui des bêtes. Le vieux sage nous invite à partager des émotions puissantes à ses côtés, celles qu’il a ressenties au cours de milliers d’affûts. Le moment est venu pour lui d’ouvrir son savoir, ses souvenirs de ses plus belles rencontres sauvages. Au cours d’un voyage dans nos forêts proches, il nous éveillera au \"sensible\", ou plus précisément à la poésie du monde sauvage, celle qu’il a transmise à son fils dès l’âge de 12 ans et qu’il transmettra peut-être à son petit-fils.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 17/01",
-      "daysLeft": 83,
-      "expirationDate": "2027-01-17",
-      "packageExpirations": {
-        "aoc": "2027-01-17"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2025,
-    "date_ajout": "2025-10-20"
-  },
-  {
     "id": "jw-tm36606",
     "titre": "Cloverfield",
     "type": "film",
@@ -14746,54 +14531,6 @@ const CATALOG_DATA = [
     "date_ajout": "2024-08-29"
   },
   {
-    "id": "jw-tm1483750",
-    "titre": "Blur - To the End",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2024,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 7.1,
-    "note_recence": 9.4,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "hst",
-      "msc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/326939283/s592/blur-to-the-end.jpg",
-    "synopsis": "Documentaire sur le retour du groupe britannique Blur, capturé tout au long d'une année au cours de laquelle le groupe a fait un retour surprise avec son premier disque en huit ans, l'album \"The Ballad of Darren\".",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 35,
-      "expirationDate": "2026-11-30",
-      "packageExpirations": {
-        "aoc": "2026-11-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2024,
-    "date_ajout": "2025-04-08"
-  },
-  {
     "id": "jw-tm208924",
     "titre": "Juste la fin du monde",
     "type": "film",
@@ -15225,52 +14962,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2025,
     "date_ajout": "2025-03-12"
-  },
-  {
-    "id": "jw-tm1064422",
-    "titre": "La Panthère des neiges",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2021,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 7.8,
-    "note_recence": 8.5,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302966895/s592/la-panthere-des-neiges.jpg",
-    "synopsis": "Au cœur des hauts plateaux tibétains, le photographe Vincent Munier entraîne l’écrivain Sylvain Tesson dans sa quête de la panthère des neiges. Il l’initie à l’art délicat de l’affût, à la lecture des traces et à la patience nécessaire pour entrevoir les bêtes. En parcourant les sommets habités par des présences invisibles, les deux hommes tissent un dialogue sur notre place parmi les êtres vivants et célèbrent la beauté du monde.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 35,
-      "expirationDate": "2026-11-30",
-      "packageExpirations": {
-        "aoc": "2026-11-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2021,
-    "date_ajout": "2021-12-15"
   },
   {
     "id": "jw-tm1478838",
@@ -15982,55 +15673,6 @@ const CATALOG_DATA = [
     "date_ajout": "2025-09-17"
   },
   {
-    "id": "jw-tm348731",
-    "titre": "Ni juge, ni soumise",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2018,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 7.4,
-    "note_recence": 7.6,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "doc",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/145190153/s592/ni-juge-ni-soumise.jpg",
-    "synopsis": "Pendant 3 ans les réalisateurs ont suivi à Bruxelles la juge Anne Gruwez au cours d'enquêtes criminelles, d’auditions, de visites de scènes de crime. Premier long-métrage StripTease, émission culte de la télévision belge. Ce n'est pas du cinéma, c'est pire.",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 6 j",
-      "daysLeft": 6,
-      "expirationDate": "2026-11-01",
-      "packageExpirations": {
-        "aoc": "2026-11-01"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2018,
-    "date_ajout": "2018-08-13"
-  },
-  {
     "id": "jw-tm144497",
     "titre": "A Serious Man",
     "type": "film",
@@ -16256,52 +15898,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2025,
     "date_ajout": "2025-06-18"
-  },
-  {
-    "id": "jw-tm36005",
-    "titre": "Sugar Man",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2012,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 8.2,
-    "note_recence": 5.8,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "msc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/10710175/s592/sugar-man.jpg",
-    "synopsis": "Au début des années 70, Sixto Rodriguez enregistre deux albums sur un label de Motown. C'est un échec, à tel point qu’on raconte qu’il se serait suicidé sur scène. Plus personne n’entendit parler de Rodriguez. Sauf en Afrique du Sud où, sans qu’il le sache, son disque devint un symbole de la lutte contre l’Apartheid. Des années plus tard, deux fans du Cap partent à la recherche de “Sugar Man”. Ce qu’ils découvrent est une histoire faite de surprises, d’émotions et d’inspiration.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2012,
-    "date_ajout": "2012-12-26"
   },
   {
     "id": "jw-tm25175",
@@ -16723,56 +16319,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2025,
     "date_ajout": "2025-08-18"
-  },
-  {
-    "id": "jw-tm148237",
-    "titre": "Battlestar Galactica : The Plan",
-    "type": "film",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2009,
-    "duree": "1h 52min",
-    "runtime_minutes": 112,
-    "note_avis": 7,
-    "note_recence": 4.9,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "doc",
-      "drm",
-      "rma",
-      "scf"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354999075/s592/battlestar-galactica-the-plan.jpg",
-    "synopsis": "Les événements majeurs de la série Battlestar Galactica revisités d'après le point de vue des Cylons. Créés par l'Homme, ils se sont rebellés. Déterminés à prendre leur revanche, ils ont un plan dont le point de départ est la destruction des colonies...",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 40,
-      "expirationDate": "2026-12-05",
-      "packageExpirations": {
-        "auc": "2026-12-05"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false,
-    "annee_moyenne": 2009,
-    "date_ajout": "2009-01-01"
   },
   {
     "id": "jw-tm1515086",
@@ -17654,55 +17200,6 @@ const CATALOG_DATA = [
     "date_ajout": "2022-10-14"
   },
   {
-    "id": "jw-tm312632",
-    "titre": "Ce qui nous lie",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2017,
-    "duree": "1h 53min",
-    "runtime_minutes": 113,
-    "note_avis": 6.8,
-    "note_recence": 7.3,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "doc",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9643349/s592/ce-qui-nous-lie.jpg",
-    "synopsis": "Jean a quitté sa famille et sa Bourgogne natale il y a dix ans pour faire le tour du monde. En apprenant la mort imminente de son père, il revient dans la terre de son enfance. Il retrouve sa sœur, Juliette, et son frère, Jérémie. Leur père meurt juste avant le début des vendanges. En l’espace d’un an, au rythme des saisons qui s’enchaînent, ces 3 jeunes adultes vont retrouver ou réinventer leur fraternité, s’épanouissant et mûrissant en même temps que le vin qu’ils fabriquent.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 16/12",
-      "daysLeft": 51,
-      "expirationDate": "2026-12-16",
-      "packageExpirations": {
-        "aoc": "2026-12-16"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2017,
-    "date_ajout": "2017-06-14"
-  },
-  {
     "id": "jw-tm336975",
     "titre": "Men of Honor",
     "type": "film",
@@ -18038,52 +17535,6 @@ const CATALOG_DATA = [
       }
     ],
     "date_ajout": "2026-05-03"
-  },
-  {
-    "id": "jw-tm1373317",
-    "titre": "Fragments d'un parcours amoureux",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2025,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 7.1,
-    "note_recence": 9.7,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/331494945/s592/fragments-dun-parcours-amoureux.jpg",
-    "synopsis": "Depuis ses 16 ans, entre Paris et Rome, Chloé a filmé ses amours. Coup de cœur adolescent, relation à distance, passion charnelle... alors qu’elle vivait une histoire, elle en fabriquait déjà le souvenir. Mais de quoi se souviennent ses ex ? Quelle est leur version des faits ? Douze d’entre eux se livrent pour reconstituer un parcours sentimental aussi singulier qu’universel.",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 8 j",
-      "daysLeft": 8,
-      "expirationDate": "2026-11-03",
-      "packageExpirations": {
-        "aoc": "2026-11-03"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2025,
-    "date_ajout": "2025-11-17"
   },
   {
     "id": "jw-tm1506814",
@@ -19114,55 +18565,6 @@ const CATALOG_DATA = [
     "date_ajout": "2021-07-07"
   },
   {
-    "id": "jw-tm170374",
-    "titre": "Je fais le mort",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2013,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 5.9,
-    "note_recence": 6.1,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/305365025/s592/je-fais-le-mort.jpg",
-    "synopsis": "À 40 ans, Jean, comédien, est dans le creux de la vague… Il court le cachet sans succès. Au pôle Emploi Spectacle, sa conseillère lui propose un job un peu particulier : prendre la place du mort pour permettre à la justice de reconstituer les scènes de crime.  Son obsession du détail bluffe les enquêteurs et va permettre à Jean de revenir sur le devant de la scène dans une affaire délicate à Megève, hors saison, suite à une série de meurtres…",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 97,
-      "expirationDate": "2027-01-31",
-      "packageExpirations": {
-        "aoc": "2027-01-31"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2013,
-    "date_ajout": "2013-12-11"
-  },
-  {
     "id": "jw-ts317683",
     "titre": "The Spiderwick Chronicles",
     "type": "serie",
@@ -19422,53 +18824,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2025,
     "date_ajout": "2025-09-10"
-  },
-  {
-    "id": "jw-tm1141821",
-    "titre": "Le Chêne",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2022,
-    "duree": "1h 21min",
-    "runtime_minutes": 81,
-    "note_avis": 7.5,
-    "note_recence": 8.8,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/307668908/s592/heart-of-oak.jpg",
-    "synopsis": "Il était une fois l'histoire d'un chêne pédonculé (Quercus robur), né en 1810, âgé de 210 ans, devenu un pilier en son royaume. Ce film d'aventure spectaculaire rassemble un casting hors du commun : écureuils, balanins, geais, fourmis, mulots... Tout ce petit monde vibrant, vrombissant et merveilleux scelle sa destinée autour de cet arbre majestueux qui les accueille, les nourrit, les protège de ses racines jusqu'à sa cime. Une ode poétique à la vie où la nature est seule à s'exprimer.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 35,
-      "expirationDate": "2026-11-30",
-      "packageExpirations": {
-        "aoc": "2026-11-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2022,
-    "date_ajout": "2022-02-23"
   },
   {
     "id": "jw-ts284726",
@@ -20166,54 +19521,6 @@ const CATALOG_DATA = [
     "date_ajout": "2025-10-01"
   },
   {
-    "id": "jw-tm1625406",
-    "titre": "Put your soul on your hand and walk",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2025,
-    "duree": "1h 53min",
-    "runtime_minutes": 113,
-    "note_avis": 7.5,
-    "note_recence": 9.7,
-    "note_globale": 8.6,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm",
-      "war"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/333587216/s592/put-your-soul-on-your-hand-and-walk.jpg",
-    "synopsis": "Put Your Soul on Your Hand and Walk est ma réponse en tant que cinéaste, aux massacres en cours des Palestiniens. Un miracle a eu lieu lorsque j’ai trouvé Fatem Hassouna, présentée à moi par un ami palestinien. Depuis, elle m’a prêté ses yeux pour voir Gaza où elle résistait en documentant la guerre, et moi, je suis devenue un lien entre elle et le reste du monde, depuis sa « prison de Gaza » comme elle le disait. Nous avons maintenu cette ligne de vie pendant plus de 200 jours. Les bouts de pixels et sons que l’on a échangé, sont devenus le film que vous voyez. L’assassinat de Fatem le 16 avril 2025 suite à une attaque israélienne sur sa maison en change à jamais le sens.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 23/01",
-      "daysLeft": 89,
-      "expirationDate": "2027-01-23",
-      "packageExpirations": {
-        "aoc": "2027-01-23"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2025,
-    "date_ajout": "2025-12-31"
-  },
-  {
     "id": "jw-ts269094",
     "titre": "Whitstable Pearl",
     "type": "serie",
@@ -20406,50 +19713,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2014,
     "date_ajout": "2014-01-27"
-  },
-  {
-    "id": "jw-tm1483266",
-    "titre": "Ce n'est qu'un au revoir",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2025,
-    "duree": "1h 06min",
-    "runtime_minutes": 66,
-    "note_avis": 6.5,
-    "note_recence": 9.7,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/327310546/s592/ce-nest-quun-au-revoir-2024.jpg",
-    "synopsis": "Les amitiés de lycée peuvent-elles durer toute la vie ? Une chose est sûre, dans peu de temps Aurore, Nours, Jeanne, Diane et les autres diront adieu à leur chambre d’internat, aux baignades dans la Drôme, aux fêtes dans la montagne. Louison coupera ses dreads et la petite famille éclatera. Pour certaines d’entre elles, ce n’est pas la première fois et ça fait encore plus mal…",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2025,
-    "date_ajout": "2025-06-29"
   },
   {
     "id": "jw-ts506897",
@@ -20656,52 +19919,6 @@ const CATALOG_DATA = [
     "date_ajout": "2025-02-27"
   },
   {
-    "id": "jw-tm1027760",
-    "titre": "Acts of Love",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2021,
-    "duree": "1h 11min",
-    "runtime_minutes": 71,
-    "note_avis": 4.4,
-    "note_recence": 8.5,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "doc",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/243077760/s592/acts-of-love-2021.jpg",
-    "synopsis": "Quitté par son petit-ami, un cinéaste déménage à Chicago et utilise des applications de rencontre à la recherche de nouveaux amants. Il réalise un projet de film que sa mère déteste. En résulte une histoire fragmentée sur l’amour, la déception et le désir.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false,
-    "annee_moyenne": 2021,
-    "date_ajout": "2023-03-31"
-  },
-  {
     "id": "jw-tm1904037",
     "titre": "Prisonnière",
     "type": "film",
@@ -20744,52 +19961,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2025,
     "date_ajout": "2025-11-13"
-  },
-  {
-    "id": "jw-tm1663879",
-    "titre": "Pompei, Sotto le Nuvole",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2025,
-    "duree": "1h 54min",
-    "runtime_minutes": 114,
-    "note_avis": 6.9,
-    "note_recence": 9.7,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/343815017/s592/below-the-clouds.jpg",
-    "synopsis": "Pompéi, Naples, le Vésuve. Des vies sous la menace du volcan : archéologues, pompiers, éducateurs, marins, photographes… La terre tremble et le passé infuse dans le présent de tous. En donnant voix aux habitants, le film compose un portrait inédit de la ville, comme une machine à voyager dans le temps.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 15/01",
-      "daysLeft": 81,
-      "expirationDate": "2027-01-15",
-      "packageExpirations": {
-        "aoc": "2027-01-15"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2025,
-    "date_ajout": "2025-06-11"
   },
   {
     "id": "jw-tm1279412",
@@ -25020,52 +24191,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm843243",
-    "titre": "La première marche",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2020,
-    "duree": "1h 10min",
-    "runtime_minutes": 70,
-    "note_avis": 7.3,
-    "note_recence": 8.2,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/201277416/s592/la-pride.jpg",
-    "synopsis": "Le 9 juin 2019, quatre étudiants mènent à Saint-Denis la première Marche des fiertés en banlieue. 50 ans après Stonewall, ils imposent le combat LGBT là où personne n’avait voulu l’imaginer. Une immersion trépidante parmi les organisateurs de la pride, banlieusards et fiers. Les enjeux d’intersectionnalité et d’inclusivité des luttes sont clairement posés. Les jeunes militants débordent d’une énergie communicative dans un documentaire plein d’humour et d’engagement, qui inspire une volonté d’unité face aux oppressions. La projection sera suivie d’une rencontre avec les réalisateurs et des membres de l'association organisatrice de la Marche des fiertés en banlieue.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false,
-    "annee_moyenne": 2020,
-    "date_ajout": "2020-10-14"
-  },
-  {
     "id": "jw-tm462031",
     "titre": "Come to Daddy",
     "type": "film",
@@ -29154,52 +28279,6 @@ const CATALOG_DATA = [
     "date_ajout": "2017-08-02"
   },
   {
-    "id": "jw-tm305661",
-    "titre": "Corps électrique",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2017,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 7.4,
-    "note_recence": 7.3,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm",
-      "rma"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/344747190/s592/corpo-eletrico.jpg",
-    "synopsis": "Nouveau venu à Sao Paulo, Elias tente de trouver un équilibre entre son travail dans une usine de textile et ses rencontres amoureuses sans lendemain. Il se sent de plus en plus prisonnier de la routine et sous pression. Sa nouvelle amitié avec ses collègues de travail va lui permettre de s’échapper. Il découvre alors la vie nocturne de sa ville et ses possibilités insoupçonnées.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2017,
-    "date_ajout": "2018-05-16"
-  },
-  {
     "id": "jw-tm1261297",
     "titre": "Neige",
     "type": "film",
@@ -29862,51 +28941,6 @@ const CATALOG_DATA = [
     "date_ajout": "2023-03-29"
   },
   {
-    "id": "jw-tm97591",
-    "titre": "Bébés",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2010,
-    "duree": "1h 19min",
-    "runtime_minutes": 79,
-    "note_avis": 7,
-    "note_recence": 5.2,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/168812882/s592/bebes.jpg",
-    "synopsis": "Une année dans la vie de quatre bébés. Du jour de leur naissance à leurs premiers pas. Suivre quatre bébés dans quatre pays différents (Namibie, Mongolie, Japon, États‐Unis), simultanément, jour après jour, les voir grandir, se développer et découvrir le monde qui les entoure.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2010,
-    "date_ajout": "2010-06-16"
-  },
-  {
     "id": "jw-ts56674",
     "titre": "Le Show de M. Peabody et Sherman",
     "type": "serie",
@@ -30100,52 +29134,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2020,
     "date_ajout": "2026-05-09"
-  },
-  {
-    "id": "jw-tm1589265",
-    "titre": "Premières classes",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2025,
-    "duree": "2h 05min",
-    "runtime_minutes": 125,
-    "note_avis": 7.1,
-    "note_recence": 9.7,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/335753165/s592/timestamp.jpg",
-    "synopsis": "En Ukraine, maintenir les écoles ouvertes est devenu un acte de résistance. Sur la ligne de front ou dans des zones plus reculées, l’apprentissage continue malgré les alertes, les coupures d’électricité et les menaces constantes. Un témoignage précieux où chaque image raconte la ténacité et la dignité face au chaos.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 49,
-      "expirationDate": "2026-12-14",
-      "packageExpirations": {
-        "aoc": "2026-12-14"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2025,
-    "date_ajout": "2025-09-10"
   },
   {
     "id": "jw-ts78691",
@@ -30723,53 +29711,6 @@ const CATALOG_DATA = [
     "date_ajout": "2026-03-21"
   },
   {
-    "id": "jw-tm1466048",
-    "titre": "Les Mots qu'elles eurent un jour",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2024,
-    "duree": "1h 24min",
-    "runtime_minutes": 84,
-    "note_avis": 7.2,
-    "note_recence": 9.4,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "hst"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/330870092/s592/les-mots-quelles-eurent-un-jour.jpg",
-    "synopsis": "1962, à la fin de la Guerre d’Algérie, des militantes de l’indépendance algérienne sortent de la prison de Rennes. Une nuit durant, le cinéaste Yann Le Masson les filme. Elles lui racontent leur vision pour l’avenir de l’Algérie et la place que la femme doit occuper dans la nouvelle société à construire. Cinquante ans plus tard, alors que la bande son a disparu, Raphaël Pillosio pars à la recherche de ces femmes.Deux personnes sourdes s’attellent à lire sur les lèvres des femmes filmées par Yann Le Masson, et nous dévoilent des bribes de phrases, des propos amputés par les revirements de la caméra. Un film-enquête où les quelques militantes encore en vie découvrent leurs anciens témoignages et nous racontent leur histoire silencieuse. La reconstitution de la bande son perdue restera en suspens, nul happy end ne viendra résorber l’absence, annuler l’opération féroce du temps. Un film-essai sur le cinéma qui figure leur disparition, et pour toujours, les garde vivantes.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 10/11",
-      "daysLeft": 15,
-      "expirationDate": "2026-11-10",
-      "packageExpirations": {
-        "aoc": "2026-11-10"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2024,
-    "date_ajout": "2025-09-29"
-  },
-  {
     "id": "jw-tm1518660",
     "titre": "Le Système Victoria",
     "type": "film",
@@ -31161,53 +30102,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2023,
     "date_ajout": "2024-10-15"
-  },
-  {
-    "id": "jw-tm59486",
-    "titre": "Love, Marilyn",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2013,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
-    "note_avis": 7.2,
-    "note_recence": 6.1,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/311488199/s592/love-marilyn.jpg",
-    "synopsis": "A travers des textes intimes écrits par Marilyn Monroe, retrouvés près de cinquante ans après sa mort, retour sur la vie de l'actrice américaine. La comédienne a écrit de nombreux carnets dans lesquels elle se livrait réellement. Ces notes permettent de la découvrir sous une autre facette, loin des lumières de Hollywood et de l'image de femme plantureuse et souriante. De nombreux acteurs témoignent de l'impact de la carrière de Marilyn Monroe sur leur métier et dans leurs vies, à l'instar de Glenn Close, Uma Thurman, Elizabeth Banks, Marisa Tomei, Evan Rachel Wood, Viola Davies, Paul Giamatti ou encore Adrien Brody...",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 35,
-      "expirationDate": "2026-11-30",
-      "packageExpirations": {
-        "aoc": "2026-11-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2013,
-    "date_ajout": "2013-04-30"
   },
   {
     "id": "jw-tm270527",
@@ -31779,50 +30673,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2018,
     "date_ajout": "2019-11-07"
-  },
-  {
-    "id": "jw-tm1541312",
-    "titre": "Becoming Hitchcock: The Legacy of Blackmail",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2024,
-    "duree": "1h 12min",
-    "runtime_minutes": 72,
-    "note_avis": 7.2,
-    "note_recence": 9.4,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321497594/s592/becoming-hitchcock-the-legacy-of-blackmail.jpg",
-    "synopsis": "Retour sur les débuts de la carrière d'Alfred Hitchcock dans les années 1920 et 1930, de la fin du cinéma muet au début du cinéma parlant.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2024,
-    "date_ajout": "2015-04-25"
   },
   {
     "id": "jw-ts80975",
@@ -33000,52 +31850,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2014,
     "date_ajout": "2015-01-01"
-  },
-  {
-    "id": "jw-tm1508008",
-    "titre": "Sauve qui peut",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2025,
-    "duree": "1h 39min",
-    "runtime_minutes": 99,
-    "note_avis": 7.8,
-    "note_recence": 9.7,
-    "note_globale": 8.8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/319394849/s592/sauve-qui-peut.jpg",
-    "synopsis": "À l’hôpital, soignants et soignantes interrogent leur pratique lors d’ateliers de simulation avec des comédiens. Pour annoncer un cancer ou accompagner ses proches, l’empathie avec le patient se travaille. Mais l’idéal relationnel prôné en formation est-il applicable dans un système hospitalier de plus en plus à bout de force ? Peu à peu, la simulation devient un exutoire aux malaises qui rongent l’institution…",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 8 j",
-      "daysLeft": 8,
-      "expirationDate": "2026-11-03",
-      "packageExpirations": {
-        "aoc": "2026-11-03"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2025,
-    "date_ajout": "2025-09-07"
   },
   {
     "id": "jw-tm176270",
@@ -34297,52 +33101,6 @@ const CATALOG_DATA = [
     "date_ajout": "2024-06-11"
   },
   {
-    "id": "jw-tm1657091",
-    "titre": "Elle entend pas la moto",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2025,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 6.7,
-    "note_recence": 9.7,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/337815816/s592/elle-entend-pas-la-moto.jpg",
-    "synopsis": "À la veille d’une célébration familiale, Manon, jeune femme sourde et lumineuse, rejoint ses parents en Haute-Savoie. Dans la beauté des paysages alpestres, l’histoire du clan se redéploie entre archives familiales et images filmées par la réalisatrice depuis 25 ans. Porté par la force intérieure de Manon, le film trace un chemin d’épreuve et de résilience. La parole émerge enfin, là où le silence a longtemps régné.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 20/12",
-      "daysLeft": 55,
-      "expirationDate": "2026-12-20",
-      "packageExpirations": {
-        "aoc": "2026-12-20"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2025,
-    "date_ajout": "2026-04-06"
-  },
-  {
     "id": "jw-tm1333140",
     "titre": "Aurora Teagarden : Nouveau départ",
     "type": "film",
@@ -34432,52 +33190,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2016,
     "date_ajout": "2020-03-19"
-  },
-  {
-    "id": "jw-tm1166773",
-    "titre": "Jacques Tati, tombé de la lune",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2021,
-    "duree": "1h 00min",
-    "runtime_minutes": 60,
-    "note_avis": 7.3,
-    "note_recence": 8.5,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320709284/s592/jacques-tati-tombe-de-la-lune.jpg",
-    "synopsis": "La folle ascension et la chute de Jacques Tati, génie de la comédie, acteur, réalisateur  et athlète du rire. Comment l’inventeur du mythique Monsieur Hulot qui fit rire la France entière, puis le monde, vola de succès en succès, s’élevant toujours plus haut, jusqu’à frôler d’un peu trop près le soleil...",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 04/02",
-      "daysLeft": 101,
-      "expirationDate": "2027-02-04",
-      "packageExpirations": {
-        "aoc": "2027-02-04"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2021,
-    "date_ajout": "2025-02-05"
   },
   {
     "id": "jw-tm917578",
@@ -34627,50 +33339,6 @@ const CATALOG_DATA = [
     "date_ajout": "2024-07-03"
   },
   {
-    "id": "jw-tm1664955",
-    "titre": "Kim Novak's Vertigo",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2026,
-    "duree": "1h 17min",
-    "runtime_minutes": 77,
-    "note_avis": 6.2,
-    "note_recence": 10,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341393510/s592/kim-novaks-vertigo.jpg",
-    "synopsis": "Farouchement indépendante, l'actrice Kim Novak a tout quitté pour vivre selon ses propres règles, effectuant un parcours bouleversant et résilient autour de l'art, de l'identité et de l'authenticité, à l'ombre de l'un des rôles les plus iconiques du cinéma, celui qu'elle tient dans \"Sueurs froides\" d'Alfred Hitchcock.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2026,
-    "date_ajout": "2026-09-01"
-  },
-  {
     "id": "jw-tm1239625",
     "titre": "Loup & Chien",
     "type": "film",
@@ -34808,53 +33476,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2023,
     "date_ajout": "2023-02-01"
-  },
-  {
-    "id": "jw-tm1369447",
-    "titre": "U-96, la véritable histoire de Das Boot",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2023,
-    "duree": "1h 10min",
-    "runtime_minutes": 70,
-    "note_avis": 8.3,
-    "note_recence": 9.1,
-    "note_globale": 8.7,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "hst"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306882493/s592/u-96-la-veritable-histoire-de-das-boot.jpg",
-    "synopsis": "La plus célèbre fiction de guerre sous-marine, Das Boot, fut inspirée par l’U-96, l’un des plus redoutables U-Boote de Hitler, dont la véritable histoire, située sur les côtes françaises, est si exceptionnelle qu’elle dépasse la fiction. Elle est ici dévoilée pour la première fois à l’écran, mettant en lumière des relations franco-allemandes inattendues, et jetant sur ce film culte de Wolfgang Petersen une lumière nouvelle, révélant à quel point ce dernier est (in)directement influencé par les images de la propagande allemande et leur doit une large partie de son efficacité cinématographique.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 66,
-      "expirationDate": "2026-12-31",
-      "packageExpirations": {
-        "aoc": "2026-12-31"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2023,
-    "date_ajout": "2025-04-08"
   },
   {
     "id": "jw-tm1433974",
@@ -35134,51 +33755,6 @@ const CATALOG_DATA = [
     "date_ajout": "2021-02-28"
   },
   {
-    "id": "jw-tm1026007",
-    "titre": "Le Carnaval",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2021,
-    "duree": "1h 18min",
-    "runtime_minutes": 78,
-    "note_avis": 5.4,
-    "note_recence": 8.5,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300684949/s592/the-carnival.jpg",
-    "synopsis": "Vilmar et Franco (alias Toro) ont grandi dans la ville de Gualeguaychú, à l’est de l’Argentine, près de la frontière avec l’Uruguay. Depuis leur enfance, ils participent chaque été aux carnavals traditionnels locaux. Cette célébration magique transforme les hommes de la communauté en figures dionysiaques avec du maquillage, des costumes colorés, des paillettes et des plumes.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2021,
-    "date_ajout": "2021-09-23"
-  },
-  {
     "id": "jw-tm1466347",
     "titre": "Le Fantôme des Saintes",
     "type": "film",
@@ -35271,94 +33847,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2020,
     "date_ajout": "2022-03-09"
-  },
-  {
-    "id": "jw-tm1228719",
-    "titre": "Des Amandiers aux Amandiers",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2022,
-    "duree": "1h 02min",
-    "runtime_minutes": 62,
-    "note_avis": 6.9,
-    "note_recence": 8.8,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/305950753/s592/des-amandiers-aux-amandiers.jpg",
-    "synopsis": "« Je voulais que les acteurs s’emparent des personnages et me dépossèdent de mon image, de mon souvenir. Mais surtout, je voulais qu’ils m’amènent eux-mêmes leur modernité, et qu’avec mes souvenirs ça fasse une chose nouvelle. Je ne voulais pas être figée dans le passé, dans mes souvenirs. »  - Valeria Bruni Tedeschi",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2022,
-    "date_ajout": "2023-04-16"
-  },
-  {
-    "id": "jw-tm1203331",
-    "titre": "Patrick Dewaere, mon héros",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2022,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 7.9,
-    "note_recence": 8.8,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/279513882/s592/patrick-dewaere-mon-heros.jpg",
-    "synopsis": "En 1974, avec \" Les Valseuses \", le public découvre une future icône du cinéma français aux côtés de Gérard Depardieu et Miou-Miou : Patrick Dewaere. A travers son éternelle jeunesse, sa fougue, ses révoltes, mais aussi sa fragilité et ses blessures, Patrick Dewaere incarne toute une génération. Véritable James Dean au destin fulgurant, il se suicide en 1982 à l'âge de 35 ans. Pour la première fois, sa fille Lola Dewaere raconte, avec émotion et pudeur, ce père disparu trop tôt. Elle révèle le vrai Patrick Dewaere et répond enfin aux questions qui entourent le mystère de sa mort.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2022,
-    "date_ajout": "2022-02-01"
   },
   {
     "id": "jw-tm1607171",
@@ -35500,50 +33988,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2020,
     "date_ajout": "2022-03-09"
-  },
-  {
-    "id": "jw-tm1059212",
-    "titre": "Michael Cimino, un mirage américain",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2022,
-    "duree": "2h 10min",
-    "runtime_minutes": 130,
-    "note_avis": 7.2,
-    "note_recence": 8.8,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320384127/s592/michael-cimino-god-bless-america.jpg",
-    "synopsis": "Découvrez le portrait road-movie du réalisateur oscarisé Michael Cimino, raconté par lui-même, avec la participation de Quentin Tarantino et Oliver Stone.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2022,
-    "date_ajout": "2024-10-01"
   },
   {
     "id": "jw-tm1853006",
@@ -37731,51 +36175,6 @@ const CATALOG_DATA = [
     "date_ajout": "2022-06-15"
   },
   {
-    "id": "jw-tm1595274",
-    "titre": "Les Indiens à Hollywood, une tragédie américaine",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2025,
-    "duree": "1h 15min",
-    "runtime_minutes": 75,
-    "note_avis": 7.1,
-    "note_recence": 9.7,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "hst"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/345583027/s592/les-indiens-a-hollywood-une-tragedie-americaine.jpg",
-    "synopsis": "Une histoire de la représentation des Indiens d'Amérique du Nord dans le cinéma hollywoodien, illustrée de nombreux extraits de films et d'interviews.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false,
-    "annee_moyenne": 2025,
-    "date_ajout": "2025-02-04"
-  },
-  {
     "id": "jw-tm70179",
     "titre": "Chambre 1408",
     "type": "film",
@@ -39128,56 +37527,6 @@ const CATALOG_DATA = [
       "expirationDate": "2026-12-16",
       "packageExpirations": {
         "aoc": "2026-12-16"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm218207",
-    "titre": "Les Saisons",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 36min",
-    "runtime_minutes": 96,
-    "note_avis": 7.2,
-    "note_recence": 7,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "doc",
-      "hst",
-      "fml",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9352272/s592/les-saisons.jpg",
-    "synopsis": "Après avoir parcouru le globe à tire d’ailes avec les oiseaux migrateurs et surfé dans tous les océans en compagnie des baleines et des raies mantas, Jacques Perrin et Jacques Cluzaud reviennent pour ce nouvel opus sur des terres plus familières. Ils nous convient à un formidable voyage à travers le temps pour redécouvrir ces territoires européens que nous partageons avec les animaux sauvages depuis la dernière ère glaciaire jusqu’à nos jours. L’hiver durait depuis 80 000 ans lorsque, en un temps très bref, une forêt immense recouvre tout le continent. Une nouvelle configuration planétaire et tout est bouleversé. Le cycle des saisons se met en place, le paysage se métamorphose, la faune et la flore évoluent. L’histoire commence… À un interminable âge de glace succède une forêt profonde et riche puis, sous l’impulsion d’hommes nouveaux, une campagne riante. Les Saisons est une épopée sensible et inédite qui relate la longue et tumultueuse histoire commune qui lie l’homme aux animaux.",
-    "date_ajout": "2016-01-15",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 66,
-      "expirationDate": "2026-12-31",
-      "packageExpirations": {
-        "aoc": "2026-12-31"
       }
     },
     "on_prime": false,
@@ -43319,54 +41668,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm853055",
-    "titre": "Énorme",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 5.8,
-    "note_recence": 8.2,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/208733456/s592/enorme.jpg",
-    "synopsis": "Ça lui prend d’un coup à 40 ans : Frédéric veut un bébé, Claire elle n’en a jamais voulu et ils étaient bien d’accord là-dessus. Il commet l’impardonnable et lui fait un enfant dans le dos. Claire se transforme en baleine et Frédéric devient gnangnan.",
-    "date_ajout": "2020-09-02",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 35,
-      "expirationDate": "2026-11-30",
-      "packageExpirations": {
-        "fra": "2026-11-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1588246",
     "titre": "Redux Redux",
     "type": "film",
@@ -46154,53 +44455,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/335676366/s592/self-driver.jpg",
     "synopsis": "[Shadowz Exclu] Un chauffeur de taxi désespéré rejoint une application mystérieuse qui promet de l'argent facile, l'entraînant dans les bas-fonds de la société. Au fil de la nuit, sa morale est mise à l'épreuve...",
     "date_ajout": "2026-05-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm40618",
-    "titre": "Promised Land",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 46min",
-    "runtime_minutes": 106,
-    "note_avis": 6.6,
-    "note_recence": 6.1,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/142307304/s592/promised-land-2012.jpg",
-    "synopsis": "Steve Butler, représentant d’un grand groupe énergétique, se rend avec Sue Thomason dans une petite ville de campagne. Les deux collègues sont convaincus qu’à cause de la crise économique qui sévit, les habitants ne pourront pas refuser leur lucrative proposition de forer leurs terres pour exploiter les ressources énergétiques qu’elles renferment. Ce qui s’annonçait comme un jeu d’enfant va pourtant se compliquer lorsqu’un enseignant respecté critique le projet, soutenu par un activiste écologiste qui affronte Steve aussi bien sur le plan professionnel que personnel…",
-    "date_ajout": "2013-04-17",
     "expiration": {
       "status": "none",
       "label": null,
@@ -50253,50 +48507,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1231480",
-    "titre": "Au cœur des volcans : Requiem pour Katia et Maurice Krafft",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 7.6,
-    "note_recence": 9.4,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "hst"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300908652/s592/au-coeur-des-volcans-requiem-pour-katia-et-maurice-krafft.jpg",
-    "synopsis": "En s’emparant des captivantes archives cinématographiques des volcanologues Katia et Maurice Krafft, Werner Herzog célèbre avec poésie la vie, brutalement interrompue en 1991, de deux chercheurs et preneurs d’images à l’oeuvre unique.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm890969",
     "titre": "Becky",
     "type": "film",
@@ -50378,49 +48588,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/321153339/s592/the-4-30-movie.jpg",
     "synopsis": "Été 1986, trois amis de seize ans passent leurs samedis à aller voir des films en cachette au ciné du coin. L'un d'entre eux trouve le courage d'inviter la fille de ses rêves à voir la dernière comédie du moment.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1438631",
-    "titre": "Dahomey",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 08min",
-    "runtime_minutes": 68,
-    "note_avis": 6.7,
-    "note_recence": 9.4,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/311795874/s592/dahomey.jpg",
-    "synopsis": "Novembre 2021, vingt-six trésors royaux du Dahomey s’apprêtent à quitter Paris pour être rapatriés vers leur terre d’origine, devenue le Bénin. Avec plusieurs milliers d’autres, ces œuvres furent pillées lors de l’invasion des troupes coloniales françaises en 1892. Mais comment vivre le retour de ces ancêtres dans un pays qui a dû se construire et composer avec leur absence ? Tandis que l’âme des œuvres se libère, le débat fait rage parmi les étudiants de l’université d’Abomey Calavi.",
     "expiration": {
       "status": "none",
       "label": null,
@@ -50949,52 +49116,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm461997",
-    "titre": "In Search of Darkness",
-    "type": "film",
-    "chaine": "Shadowz",
-    "chaines": [
-      "Shadowz"
-    ],
-    "logo_chaine": "assets/logos/shadowz.png",
-    "logos_chaine": [
-      "assets/logos/shadowz.png"
-    ],
-    "package_slugs": [
-      "sdz"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "4h 24min",
-    "runtime_minutes": 264,
-    "note_avis": 8,
-    "note_recence": 7.9,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "doc",
-      "hst",
-      "hrr"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300774734/s592/in-search-of-darkness-a-journey-into-iconic-80s-horror.jpg",
-    "synopsis": "Une exploration des films d'horreur des années 80 à travers la perspective des acteurs, des réalisateurs, des producteurs et des artisans du SFX qui les ont réalisés, et leur impact sur le cinéma contemporain.",
-    "date_ajout": "2023-03-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1533661",
     "titre": "Jimmy and Stiggs",
     "type": "film",
@@ -51119,53 +49240,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/309761981/s592/scrapper-2023.jpg",
     "synopsis": "Banlieue de Londres. Georgie 12 ans vit seule depuis la mort de sa mère. Elle se débrouille au quotidien pour éloigner les travailleurs sociaux, raconte qu’elle vit avec un oncle, gagne de l’argent en faisant un trafic de vélo avec son ami Ali. Cet équilibre fonctionne jusqu’à l’arrivée de Jason, un jeune homme qu’elle ne connait pas et se présente comme étant son père.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm983678",
-    "titre": "Flee",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 7.9,
-    "note_recence": 8.5,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "ani",
-      "doc",
-      "drm",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/284548412/s592/flugt.jpg",
-    "synopsis": "Pour la première fois, Amin, 36 ans, un jeune réfugié afghan homosexuel, accepte de raconter son histoire. Allongé les yeux clos sur une table recouverte d’un tissu oriental, il replonge dans son passé, entre innocence lumineuse de son enfance à Kaboul dans les années 1980 et traumatismes de la fuite de sa famille pour la Russie pendant la guerre civile, avant la prise du pouvoir par les talibans.",
-    "date_ajout": "2025-11-04",
     "expiration": {
       "status": "none",
       "label": null,
@@ -51465,95 +49539,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1428534",
-    "titre": "Vivre avec les loups",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 7.6,
-    "note_recence": 9.4,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/319599389/s592/vivre-avec-les-loups.jpg",
-    "synopsis": "Il y aura bientôt des loups un peu partout en France. Il faut donc apprendre à « vivre avec les loups ».  Dépassant les postures polémiques, l’auteur nous amène de manière sensible et cinématographique à percevoir différemment la nature qui nous entoure et les animaux qui l’habitent : chevreuils, chamois, bouquetins…  Un voyage de Jean-Michel Bertrand avec de surprenantes rencontres, humaines et animales, avec son style inimitable, le réalisateur nous entraîne dans des réflexions naturalistes et philosophiques sur la nature.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1299411",
-    "titre": "Satan Wants You",
-    "type": "film",
-    "chaine": "Shadowz",
-    "chaines": [
-      "Shadowz"
-    ],
-    "logo_chaine": "assets/logos/shadowz.png",
-    "logos_chaine": [
-      "assets/logos/shadowz.png"
-    ],
-    "package_slugs": [
-      "sdz"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 6.7,
-    "note_recence": 9.1,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "crm",
-      "doc",
-      "hrr"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/307702705/s592/satan-wants-you.jpg",
-    "synopsis": "L’histoire d’une jeune femme et de son psychiatre qui, avec leur best-seller Michelle Remembers, ont contribué à alimenter la vague de panique autour du satanisme dans les années 1980.",
-    "date_ajout": "2026-01-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm318293",
     "titre": "Sicilian Ghost Story",
     "type": "film",
@@ -51679,51 +49664,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/301099746/s592/eo-2022.jpg",
     "synopsis": "Le monde est un lieu mystérieux, surtout vu à travers les yeux d'un animal. Sur son chemin, EO, un âne gris aux yeux mélancoliques, rencontre des gens bien et d'autres mauvais, fait l'expérience de la joie et de la peine, et la roue de la fortune transforme tour à tour sa chance en désastre et son désespoir en bonheur inattendu. Mais jamais, à aucun instant, il ne perd son innocence.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1284622",
-    "titre": "Kim's Video",
-    "type": "film",
-    "chaine": "Shadowz",
-    "chaines": [
-      "Shadowz"
-    ],
-    "logo_chaine": "assets/logos/shadowz.png",
-    "logos_chaine": [
-      "assets/logos/shadowz.png"
-    ],
-    "package_slugs": [
-      "sdz"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 6.9,
-    "note_recence": 9.1,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "hst"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/312754349/s592/kims-video.jpg",
-    "synopsis": "Dès 1987, et pendant près de trente ans, les cinéphiles new-yorkais ont eu accès à un véritable trésor de films rares grâce à Kim's Video, un petit empire dirigé par l'énigmatique Yongman Kim, qui avait accumulé plus de cinquante mille cassettes VHS.\n",
-    "date_ajout": "2026-06-04",
     "expiration": {
       "status": "none",
       "label": null,
@@ -51913,138 +49853,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/348213653/s592/doktrinen.jpg",
     "synopsis": "Une jeune journaliste obtient par hasard le scoop politique d’une vie et se retrouve alors propulsée au rang d’attachée de presse du nouveau ministre des Affaires étrangères de Suède. Mais serait-elle devenue, malgré elle, un pion dans un échiquier qui menace la sécurité nationale du pays ? Se déroulant dans le contexte géopolitique actuel, elle va se rapprocher d’une opération des renseignements russes ayant pour but d’affaiblir les relations de la Suède avec l’OTAN.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1109769",
-    "titre": "Poulet Frites",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 7.2,
-    "note_recence": 8.8,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "doc",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/269762762/s592/poulet-frites.jpg",
-    "synopsis": "Strip Tease est de retour ! Dans ce nouveau long-métrage, une prostituée bruxelloise est assassinée à son domicile. Alain, son ex-compagnon boucher et junkie notoire, semble être le coupable idéal...\n Ce film est un remontage en noir et blanc de trois épisodes de 52 minutes tournés dans les années 2000, originellement en couleur et appelés 'Le flic, la juge et l’assassin'.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm830329",
-    "titre": "Marche avec les loups",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 7.2,
-    "note_recence": 8.2,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/208723892/s592/marche-avec-les-loups.jpg",
-    "synopsis": "Le grand mystère de la dispersion des loups. Comment ils quittent le territoire qui les a vus naître et la façon dont ils partent à la conquête de nouveaux territoires. Ce voyage se déroule comme un road-movie entre les Alpes et le Jura.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1301354",
-    "titre": "Sur l'Adamant",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 49min",
-    "runtime_minutes": 109,
-    "note_avis": 6.8,
-    "note_recence": 9.1,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/338358244/s592/sur-ladamant.jpg",
-    "synopsis": "L’Adamant est un Centre de Jour unique en son genre : c’est un bâtiment flottant. Édifié sur la Seine, en plein cœur de Paris, il accueille des adultes souffrant de troubles psychiques, leur offrant un cadre de soins qui les structure dans le temps et l’espace, les aide à renouer avec le monde, à retrouver un peu d’élan. L’équipe qui l’anime est de celles qui tentent de résister autant qu’elles peuvent au délabrement et à la déshumanisation de la psychiatrie. Ce film nous invite à monter à son bord pour aller à la rencontre des patients et soignants qui en inventent jour après jour le quotidien.",
     "expiration": {
       "status": "none",
       "label": null,
@@ -52568,50 +50376,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm831244",
-    "titre": "Phil Tippett: Des rêves et des monstres",
-    "type": "film",
-    "chaine": "Shadowz",
-    "chaines": [
-      "Shadowz"
-    ],
-    "logo_chaine": "assets/logos/shadowz.png",
-    "logos_chaine": [
-      "assets/logos/shadowz.png"
-    ],
-    "package_slugs": [
-      "sdz"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 20min",
-    "runtime_minutes": 80,
-    "note_avis": 7.3,
-    "note_recence": 7.9,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/255895099/s592/phil-tippett-des-reves-et-des-monstres.jpg",
-    "synopsis": "Animateur de stop motion, designer et réalisateur, Phil Tippett a donné naissance à quelques créatures légendaires, de Jabba le Hutt aux insectes géants de Starship Troopers. Mais derrière ce brillant technicien hollywoodien, récompensé aux Oscars pour Le Retour du Jedi et Jurassic Park, il y a un artiste fou, qui passe ses journées à expérimenter dans son atelier avec tout ce qui lui passe sous la main. Bénéficiant d’un accès illimité aux collections et aux archives de Tippett Studio, ce documentaire étudie l’héritage de Phil Tippett, depuis sa collaboration avec George Lucas jusqu’à des œuvres plus personnelles.",
-    "date_ajout": "2025-12-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1411642",
     "titre": "Chainsaws Were Singing",
     "type": "film",
@@ -52835,50 +50599,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm317289",
-    "titre": "12 jours",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 7.1,
-    "note_recence": 7.3,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/298139024/s592/12-jours.jpg",
-    "synopsis": "Avant 12 jours, les personnes hospitalisées en psychiatrie sans leur consentement sont présentées en audience, d’un côté un juge, de l’autre un patient, entre eux naît un dialogue sur le sens du mot liberté et de la vie.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
     "on_tnt": false
   },
   {
@@ -53106,51 +50826,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm247716",
-    "titre": "Le complexe de Frankenstein",
-    "type": "film",
-    "chaine": "Shadowz",
-    "chaines": [
-      "Shadowz"
-    ],
-    "logo_chaine": "assets/logos/shadowz.png",
-    "logos_chaine": [
-      "assets/logos/shadowz.png"
-    ],
-    "package_slugs": [
-      "sdz"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 7.4,
-    "note_recence": 6.7,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/104977325/s592/le-complexe-de-frankenstein.jpg",
-    "synopsis": "Après avoir rendu le plus beau des hommages à l’un des pères fondateurs du cinéma fantastique, Alexandre Poncet et Gilles Penso élargissent le spectre de leur recherche passionnée et cinéphile avec Le Complexe de Frankenstein, documentaire amoureux sur les magiciens responsables de quelques créatures parmi les plus traumatisantes du 7ème Art. Riche en interviews et images inédites, le documentaire des duettistes français n’est pas un simple effort didactique : c’est une véritable invitation au voyage.",
-    "date_ajout": "2025-10-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1524909",
     "titre": "The Severed Sun",
     "type": "film",
@@ -53318,49 +50993,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/335043741/s592/night-of-the-reaper.jpg",
     "synopsis": "Dans une banlieue tranquille des années 80, une baby-sitter est assassinée par un mystérieux tueur masqué surnommé le Faucheur. Des années plus tard, Deena, une jeune étudiante, revient dans sa ville natale et accepte de garder le fils du shérif local, sans savoir que le meurtrier est de retour. Alors que le shérif reçoit d’inquiétantes cassettes révélant des indices du passé, Deena devient la nouvelle cible du Faucheur, déclenchant une nuit de terreur et de révélations autour d’une vengeance cachée.",
     "date_ajout": "2026-02-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1198620",
-    "titre": "Lynch/Oz",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 48min",
-    "runtime_minutes": 108,
-    "note_avis": 6.9,
-    "note_recence": 9.1,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/310525000/s592/lynch-oz.jpg",
-    "synopsis": "Alexandre O. Philippe a invité six critiques de cinéma et cinéastes américains et leur a donné carte blanche pour explorer leur propre théorie sur la relation entre Lynch et Oz. Les participants incluent Karyn Kusama, John Waters, Amy Nicholson. Sept nouvelles perspectives et sept nouvelles façons de considérer comment l’influence et l’inspiration affectent le processus créatif.",
     "expiration": {
       "status": "none",
       "label": null,
@@ -54379,51 +52011,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1513142",
-    "titre": "Chain Reactions",
-    "type": "film",
-    "chaine": "Shadowz",
-    "chaines": [
-      "Shadowz"
-    ],
-    "logo_chaine": "assets/logos/shadowz.png",
-    "logos_chaine": [
-      "assets/logos/shadowz.png"
-    ],
-    "package_slugs": [
-      "sdz"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 7,
-    "note_recence": 9.7,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "doc",
-      "hrr"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/335709986/s592/chain-reactions.jpg",
-    "synopsis": "[Shadowz Exclu] Il y a cinquante ans, Massacre à la Tronçonneuse de Tobe Hooper choquait les spectateurs du monde entier, changeant ainsi à jamais le visage du cinéma et de la culture populaire. Aujourd’hui, ce documentaire retrace l’impact profond et l’influence durable du film sur cinq artistes de talent à travers leurs premiers souvenirs, leurs expériences sensorielles et leurs traumatismes d’enfance.",
-    "date_ajout": "2025-11-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1232530",
     "titre": "Candy Land",
     "type": "film",
@@ -55255,50 +52842,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1480218",
-    "titre": "Les filles du Nil",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 7,
-    "note_recence": 9.7,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/331796024/s592/les-filles-du-nil.jpg",
-    "synopsis": "Dans un village du sud de l’Égypte, une bande de jeunes filles se rebelle en formant une troupe de théâtre de rue. Rêvant de devenir comédiennes, danseuses et chanteuses, elles défient leurs familles coptes et les habitants de la région avec leurs performances audacieuses. Filmé sur 4 années, Les Filles du Nil suit le parcours de ces jeunes filles qui deviennent femmes.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1113206",
     "titre": "Cuddly toys",
     "type": "film",
@@ -55332,50 +52875,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/253247824/s592/cuddly-toys.jpg",
     "synopsis": "[Shadowz Exclu] En une série de vignettes grinçantes, la professeure Kansas Bowling détaille les dangers d’être une jeune femme dans un monde rempli de prédateurs masculins.",
     "date_ajout": "2025-01-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1478632",
-    "titre": "Il était une fois Michel Legrand",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "2h 00min",
-    "runtime_minutes": 120,
-    "note_avis": 7.4,
-    "note_recence": 9.4,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "msc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322117722/s592/il-etait-une-fois-michel-legrand.jpg",
-    "synopsis": "« La Musique, c’est la vie ». Michel Legrand entre au Conservatoire de Paris à l’âge de 10 ans et s’impose très vite comme un surdoué. 3 Oscars et 75 ans plus tard, il se produit pour la première fois à la Philharmonie de Paris devant un public conquis. De la chanson jusqu’au Cinéma, ce véritable virtuose n’a jamais cessé de repousser les frontières de son art, collaborant avec des légendes comme Miles Davis, Jacques Demy, Charles Aznavour, Barbra Streisand ou encore Natalie Dessay. Son énergie infinie en fait l’un des compositeurs les plus acclamés du siècle, dont les mélodies flamboyantes continuent de nous enchanter.",
     "expiration": {
       "status": "none",
       "label": null,
@@ -55421,49 +52920,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/272079437/s592/the-shadow-of-violence.jpg",
     "synopsis": "Dans une ville reculée d’Irlande, Arm, ancien boxeur, est devenu l'homme de main des Devers, famille à la tête d'un réseau de trafic de drogue. Sur son temps libre, il s’efforce d'élever du mieux qu'il peut son fils Jack, atteint d'une forme d'autisme. Mais un jour, la famille Devers demande à Arm l’impensable : pour la première fois, il doit tuer un homme. Tiraillé entre sa loyauté envers ses protecteurs et la sécurité qu'il doit à sa famille, Arm se retrouve face à un dilemme impossible. Il fait alors le choix le plus risqué, celui qui pourrait lui faire tout perdre...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1372208",
-    "titre": "Bye Bye Tibériade",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 23min",
-    "runtime_minutes": 83,
-    "note_avis": 7.4,
-    "note_recence": 9.4,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/311700213/s592/bye-bye-tiberiade.jpg",
-    "synopsis": "Il y a environ trente ans, Hiam Abbass a quitté son village palestinien Deir Hanna, en Galilée, où elle a grandit avec son arrière grand-mère Um Ali, sa mère Neemat et ses sept soeurs, pour poursuivre son rêve de devenir actrice, en France, à Paris. La ville dans laquelle sa fille Lina est née il y a trente-deux ans. Caméra en main, Lina interroge l’exil choisi de sa mère et la façon dont les femmes de la famille, qu’elle a laissées derrière elle, ont pu influencer son imaginaire et ses choix audacieux. Le film met en avant quatre générations de femmes palestiniennes qui préservent leur mémoire intime et collective par la force de leurs relations.",
     "expiration": {
       "status": "none",
       "label": null,
@@ -56025,51 +53481,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/146357751/s592/bauhaus-un-temps-nouveau.jpg",
     "synopsis": "À Weimar, la jeune Dörte découvre avec effroi et délices l'aventure artistique du Bauhaus, fondé par Walter Gropius. Cette série alerte et romanesque retrace les débuts de l'école, son ouverture ambivalente aux femmes et ses méthodes d'enseignement révolutionnaires.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1235862",
-    "titre": "Living with Chucky",
-    "type": "film",
-    "chaine": "Shadowz",
-    "chaines": [
-      "Shadowz"
-    ],
-    "logo_chaine": "assets/logos/shadowz.png",
-    "logos_chaine": [
-      "assets/logos/shadowz.png"
-    ],
-    "package_slugs": [
-      "sdz"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 6.7,
-    "note_recence": 8.8,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "doc",
-      "hrr"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/304818149/s592/living-with-chucky.jpg",
-    "synopsis": "Un cinéaste qui a grandi aux côtés de Chucky, la poupée tueuse, s'adresse aux autres familles des films Child's Play pour qu'elles racontent leurs expériences sur la franchise et ce que signifie faire partie de la famille \"Chucky\".",
-    "date_ajout": "2023-10-31",
     "expiration": {
       "status": "none",
       "label": null,
@@ -57748,52 +55159,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm824273",
-    "titre": "Wrinkles the Clown",
-    "type": "film",
-    "chaine": "Shadowz",
-    "chaines": [
-      "Shadowz"
-    ],
-    "logo_chaine": "assets/logos/shadowz.png",
-    "logos_chaine": [
-      "assets/logos/shadowz.png"
-    ],
-    "package_slugs": [
-      "sdz"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 18min",
-    "runtime_minutes": 78,
-    "note_avis": 4.8,
-    "note_recence": 7.9,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "doc",
-      "hrr"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/152596126/s592/wrinkles-the-clown.jpg",
-    "synopsis": "En Floride, les parents d'enfants turbulents peuvent embaucher \" Wrinkles, le clown \" pour effrayer leur progéniture.",
-    "date_ajout": "2022-06-23",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1603287",
     "titre": "Beef",
     "type": "film",
@@ -57929,49 +55294,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm311952",
-    "titre": "Ex Libris: New York Public Library",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "3h 25min",
-    "runtime_minutes": 205,
-    "note_avis": 7.4,
-    "note_recence": 7.3,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/134184275/s592/ex-libris-new-york-public-library.jpg",
-    "synopsis": "Un documentaire consacré à la New York Public Library, ou comment une institution culturelle et démographique dominante maintient ses activités traditionnelles tout en s'adaptant à la révolution numérique.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
     "on_tnt": false
   },
   {
@@ -58484,98 +55806,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm187199",
-    "titre": "Heli",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
-    "note_avis": 6.8,
-    "note_recence": 6.1,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "doc",
-      "drm",
-      "trl",
-      "rma",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/263170678/s592/heli.jpg",
-    "synopsis": "Au Mexique, la famille d’Estela, une jeune fille de 12 ans est prise dans un engrenage de violence lorsque celle-ci tombe amoureuse d’un  jeune policier impliqué dans un détournement de drogue.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm864166",
-    "titre": "Cyril contre Goliath",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 7.5,
-    "note_recence": 8.2,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/172941425/s592/cyril-contre-goliath.jpg",
-    "synopsis": "Lacoste, village médiéval et emblématique du Luberon fait de l’œil à un collectionneur et pas n’importe lequel. En 20 ans, le couturier milliardaire Pierre Cardin a rénové le château du marquis de Sade qui le surplombe puis acheté près de 40 maisons au sein du village, pour les laisser vides … Cyril Montana, écrivain parisien et enfant du village, révolté par cette situation décide de s’engager dans une aventure militante pour tenter de faire changer les choses.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm246274",
     "titre": "Paris pieds nus",
     "type": "film",
@@ -58804,58 +56034,6 @@ const CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm326814",
-    "titre": "Lino",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 5.6,
-    "note_recence": 7.3,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "doc",
-      "fnt",
-      "fml",
-      "rma",
-      "scf",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/107590479/s592/lino-2017.jpg",
-    "synopsis": "Lino travaille comme mascotte dans des fêtes d'anniversaire pour enfants mais il ne supporte plus la façon dont il est traité, ni son costume de chat. Décidé à changer de vie, il rend visite à un magicien, mais les choses dérapent et en se réveillant, Lino ne fait plus qu'un avec le costume qu'il déteste.",
-    "date_ajout": "2021-12-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
     "on_tnt": false
   },
   {
@@ -59174,51 +56352,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm446577",
-    "titre": "Shooting the Mafia",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 6.9,
-    "note_recence": 7.9,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "hst",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/239387012/s592/shooting-the-mafia.jpg",
-    "synopsis": "La Sicilienne Letizia Battaglia commence son combat contre la mafia le jour où elle ose, pour la première fois, diriger son appareil photo vers une victime brutalement assassinée. En exposant le règne barbare de la Cosa Nostra, elle devient un témoin inébranlable de leurs crimes et mène une vie continuellement marquée par le défi et la passion.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm175624",
     "titre": "Heart of a Lion",
     "type": "film",
@@ -59253,96 +56386,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/791968/s592/heart-of-a-lion.jpg",
     "synopsis": "Lorsque Teppo rencontre la jolie blonde Sari, il tombe immédiatement amoureux. Mais ce n’est pas une histoire d’amour comme les autres. Car Teppo est le leader d’un groupe néo-nazi, et une surprise l’attend à la rencontre du fils de Sari. Il s’appelle Rhamadhani et il est métis. Quand Sari tombe enceinte, Teppo réalise sa chance de devenir père, et fait tout pour vivre en paix avec le jeune garçon. Issu d’un univers de violence, sous la pression de son frère et du groupe néo-nazi, il va être forcé de faire un choix. Un choix simple entre l’amour et la haine",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm177971",
-    "titre": "Conversation animée avec Noam Chomsky",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 7.1,
-    "note_recence": 6.1,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/335907728/s592/conversation-animee-avec-noam-chomsky.jpg",
-    "synopsis": "Conversations avec le linguiste et philosophe américain Noam Chomsky.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm368409",
-    "titre": "L'empire de la perfection",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 6.7,
-    "note_recence": 7.6,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "spt",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/248427013/s592/john-mcenroe-in-the-realm-of-perfection.jpg",
-    "synopsis": "Au début des années 1980, le tennisman John McEnroe est étudié sous tous les coutures, filmé sous tous les angles, copié dans toutes les écoles. Roland Garros 1984: il a tutoyé la perfection, et pourtant…  Un essai cinématographique immersif sur la légende du tennis John McEnroe au sommet de sa carrière de champion du monde, documentant son désir de perfection, ses frustrations et la perte la plus dure de sa carrière à Roland-Garros en 1984.",
     "expiration": {
       "status": "none",
       "label": null,
@@ -60079,98 +57122,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1016371",
-    "titre": "Woodlands Dark and Days Bewitched: A History of Folk Horror",
-    "type": "film",
-    "chaine": "Shadowz",
-    "chaines": [
-      "Shadowz"
-    ],
-    "logo_chaine": "assets/logos/shadowz.png",
-    "logos_chaine": [
-      "assets/logos/shadowz.png"
-    ],
-    "package_slugs": [
-      "sdz"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "3h 14min",
-    "runtime_minutes": 194,
-    "note_avis": 7.6,
-    "note_recence": 8.8,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "doc",
-      "hst",
-      "hrr"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/242606110/s592/woodlands-dark-and-days-bewitched-a-history-of-folk-horror.jpg",
-    "synopsis": "Une exploration de l'histoire cinématographique de l'horreur populaire, depuis ses débuts au Royaume-Uni à la fin des années 60 ; en passant par sa prolifération à la télévision britannique dans les années 70 et ses nombreuses manifestations, culturellement spécifiques, dans d'autres pays ; jusqu'à sa résurgence au cours de la dernière décennie.",
-    "date_ajout": "2024-06-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm267079",
-    "titre": "Je danserai si je veux",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 43min",
-    "runtime_minutes": 103,
-    "note_avis": 7.3,
-    "note_recence": 7,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "crm",
-      "doc",
-      "drm",
-      "hrr"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/12387401/s592/je-danserai-si-je-veux.jpg",
-    "synopsis": "Layla, Salma et Nour, 3 jeunes femmes palestiniennes, partagent un appartement à Tel Aviv, loin du carcan de leurs villes d'origine et à l'abri des regards réprobateurs. Mais le chemin vers la liberté est jalonné d'épreuves…",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm300301",
     "titre": "Tiger Girl",
     "type": "film",
@@ -60381,52 +57332,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/302449867/s592/tori-et-lokita.jpg",
     "synopsis": "Aujourd’hui en Belgique, un jeune garçon et une adolescente venus seuls d’Afrique opposent leur invincible amitié aux cruelles conditions de leur exil.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm313979",
-    "titre": "Tracking satyrs",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 5.8,
-    "note_recence": 7.3,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "doc",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/30794353/s592/thumper.jpg",
-    "synopsis": "Kat Carter est une enquêtrice de la police sous couverture. Elle s'infiltre incognito dans un lycée en se faisant passer pour une nouvelle élève au caractère bien trempé, afin de démanteler un trafic de drogue. Elle tombe malheureusement amoureuse de l'élève défavorisé qui est à l'origine de ce trafic illégal.",
     "expiration": {
       "status": "none",
       "label": null,
@@ -61524,50 +58429,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1304608",
-    "titre": "Le plongeur",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "2h 07min",
-    "runtime_minutes": 127,
-    "note_avis": 7.1,
-    "note_recence": 9.1,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/305139228/s592/le-plongeur.jpg",
-    "synopsis": "Montréal, hiver 2002. Stéphane, 19 ans, fan de Métal, étudiant en graphisme rêve de devenir illustrateur. Mais depuis des mois il s'engouffre dans une spirale menaçante : il est accro aux jeux. Endetté, sans appartement, évitant ses amis à qui il doit de l'argent, Stéphane prend un job de plongeur dans un restaurant afin de s'en sortir. Il découvre la vie survoltée d'un restaurant à l'approche des fêtes et sa galerie de personnages.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm140972",
     "titre": "R100",
     "type": "film",
@@ -61601,96 +58462,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/240125379/s592/r100.jpg",
     "synopsis": "Un homme, qui prend soin de son fils depuis que sa femme est plongée dans le coma, entre dans un immeuble des plus banals. Il décide alors de devenir membre d’un club privé, après avoir pris connaissance des prestations proposées et du fait que l’adhésion n’est valable qu’une seule année et ne peut être annulée que sous certaines conditions. En tant que nouveau membre, un monde de plaisirs s’offre alors à lui. Il en apprécie tout particulièrement l’intrusion dans son quotidien de femmes dominatrices. Jusqu’au jour où celles-ci s’approchent d’un peu trop près de sa famille – laquelle ne se doute de rien – et où, avec un courage rarement affiché dans sa petite vie de vendeur de literie, il va alors tenter d’annuler son adhésion au club.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm322147",
-    "titre": "L'Atelier",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 54min",
-    "runtime_minutes": 114,
-    "note_avis": 6.5,
-    "note_recence": 7.3,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/78808629/s592/latelier.jpg",
-    "synopsis": "La Ciotat, un été. Antoine a accepté de suivre un atelier d’écriture où quelques jeunes en insertion doivent écrire un roman noir avec l’aide d’Olivia, une romancière reconnue. Le travail d’écriture va faire resurgir le passé ouvrier de la ville, son chantier naval fermé depuis 25 ans, toute une nostalgie qui n'intéresse pas Antoine.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm290972",
-    "titre": "Les Habitants",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 24min",
-    "runtime_minutes": 84,
-    "note_avis": 6.3,
-    "note_recence": 7,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320337551/s592/les-habitants-2016.jpg",
-    "synopsis": "Raymond Depardon part à la rencontre des Français pour les écouter parler. De Charleville-Mézières à Nice, de Sète à Cherbourg, il invite des gens rencontrés dans la rue à poursuivre leur conversation devant nous, sans contraintes en toute liberté.",
     "expiration": {
       "status": "none",
       "label": null,
@@ -61984,94 +58755,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm159235",
-    "titre": "Cartoonists: Footsoldiers of Democracy",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 54min",
-    "runtime_minutes": 114,
-    "note_avis": 6.8,
-    "note_recence": 6.4,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320924918/s592/caricaturistes-fantassins-de-la-democratie.jpg",
-    "synopsis": "12 fous formidables, drôles et tragiques, des quatre coins du monde, des caricaturistes, défendent la démocratie en s'amusant, avec, comme seule arme, un crayon, au risque de leurs vies. Ils sont: français, tunisienne, russe, mexicain, américain, burkinabé, chinois, algériens, ivoirien, vénézuélienne, israélien et palestinien.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm52897",
-    "titre": "Profils paysans : La Vie moderne",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2008,
-    "annee_moyenne": 2008,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 7.5,
-    "note_recence": 4.6,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/179303685/s592/la-vie-moderne.jpg",
-    "synopsis": "Raymond Depardon a suivi pendant dix ans des paysans de moyenne montagne. Il nous fait entrer dans leurs fermes avec un naturel extraordinaire. Ce film nous parle, avec une grande sérénité, de nos racines et du devenir des gens de la terre.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm570685",
     "titre": "Puppet Killer",
     "type": "film",
@@ -62301,50 +58984,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm48556",
-    "titre": "Journal de France",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2012,
-    "annee_moyenne": 2012,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 7.1,
-    "note_recence": 5.8,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/169206025/s592/journal-de-france.jpg",
-    "synopsis": "Tout au long de sa carrière et de ses voyages, Raymond Depardon a filmé ses reportages. Il en a conservé des séquences inédites dans sa cave. Alors que son épouse Claudine Nougaret ne l'accompagnait pas dans ses périples, elle a commencé à trier les images tournées au fil des années par son mari cinéaste et photographe. Elle découvre ses débuts à la caméra, ses reportages autour du monde et ses voyages à travers toute la France à la rencontre d'agriculteurs, de paysans et de villageois. Elle les dévoile à présent avec Raymond Depardon, car il s'agit de bribes de leur mémoire, mais surtout de l'histoire de la France, du monde et de ses habitants...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1414532",
     "titre": "Au pays de nos frères",
     "type": "film",
@@ -62377,100 +59016,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/326247002/s592/au-pays-de-nos-freres.jpg",
     "synopsis": "Iran années 2000 : dans l’ombre de l’invasion américaine, une famille élargie de réfugiés afghans tente de reconstruire sa vie dans \"le pays des frères\". Une odyssée sur trois décennies où Mohammad, un jeune étudiant prometteur, Leila, une femme isolée et Qasem qui porte le poids du sacrifice pour sa famille, luttent pour survivre à ce nouveau quotidien incertain.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm151717",
-    "titre": "Le Cousin Jules",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 7.6,
-    "note_recence": 6.1,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/242509067/s592/cousin-jules.jpg",
-    "synopsis": "Dans la campagne bourguignonne, vit un couple d’octogénaires. Jules est forgeron et passe ses journées à créer des objets en fer. Sa femme, Félicie, s’occupe du potager, prépare leurs repas et partage avec lui le café du matin dans la forge. La simplicité de leur routine quotidienne nous immisce dans l’intimité d’une relation de toute une vie…",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm316843",
-    "titre": "Spit’n’Split",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner",
-      "Shadowz"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png",
-      "assets/logos/shadowz.png"
-    ],
-    "package_slugs": [
-      "snr",
-      "sdz"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 6.9,
-    "note_recence": 7.3,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "doc",
-      "drm",
-      "msc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/334936745/s592/spitnsplit.jpg",
-    "synopsis": "On a souvent la fausse impression que les tournées de rock band, c’est le paradis «artificiel» sur Terre, avec ses hordes de fans prêtes à tomber le tanga pour un autographe, des brouettes de coke en guise de Muesli, des hôtels de luxe qui perdent une étoile rien qu’avec le passage de ces anarchistes du riff sauvage, et des cachets qui frôlent le prêt hypothécaire pour le commun des mortels. Les membres de « The Experimental Tropic Blues Band » aimeraient bien confirmer cette version. Sauf qu’eux, ce sont des trajets interminables dans un van qui date de l’époque de Wham !, des cachets d’aspirine surtout, des caves sordides et des bars vides qui les paient avec des Bounty, un petit Baby Bamboo pour s’évader de cette promiscuité insupportable. Et la seule femme qu’ils pénétreront, c’est la Statue de la Liberté s’ils passent par les States.",
-    "date_ajout": "2024-05-23",
     "expiration": {
       "status": "none",
       "label": null,
@@ -63178,50 +59723,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1252083",
-    "titre": "King on Screen",
-    "type": "film",
-    "chaine": "Shadowz",
-    "chaines": [
-      "Shadowz"
-    ],
-    "logo_chaine": "assets/logos/shadowz.png",
-    "logos_chaine": [
-      "assets/logos/shadowz.png"
-    ],
-    "package_slugs": [
-      "sdz"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
-    "note_avis": 6.6,
-    "note_recence": 9.1,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302504024/s592/king-on-screen.jpg",
-    "synopsis": "Une plongée intimiste dans l’univers de Stephen King auprès des réalisateurs qui ont adapté ses livres à l’écran, pour comprendre comment tant de ces films ont eu un impact si crucial dans l’histoire du cinéma, élaborant notamment sur son conflit avec Stanley Kubrick, l’influence de sa femme Tabitha sur son travail ou encore la place qu’il a acquise dans la pop culture actuelle.",
-    "date_ajout": "2026-09-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1440982",
     "titre": "Tenement",
     "type": "film",
@@ -63436,53 +59937,6 @@ const CATALOG_DATA = [
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/341451872/s592/1-girl-infinite.jpg",
     "synopsis": "Deux adolescentes, Yin Jia et Tong Tong, vivent ensemble à Changsha, en Chine. Lorsque Tong Tong se laisse entraîner par un petit dealer, l'amour que lui porte Yin Jia la pousse à tout risquer pour la garder à ses côtés.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm63248",
-    "titre": "NWR (Nicolas Winding Refn)",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner",
-      "Shadowz"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png",
-      "assets/logos/shadowz.png"
-    ],
-    "package_slugs": [
-      "snr",
-      "sdz"
-    ],
-    "annee": 2012,
-    "annee_moyenne": 2012,
-    "duree": "1h 05min",
-    "runtime_minutes": 65,
-    "note_avis": 7.2,
-    "note_recence": 5.8,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320297056/s592/nwr.jpg",
-    "synopsis": "Dans NWR, Laurent Duroche suit le réalisateur danois Nicolas Winding Refn à Bangkok, où celui-ci tourne son film Only God Forgives, à Cannes et à Copenhague. Le documentaire lève le voile sur ce réalisateur danois d’exception : un personnage complexe dont les contradictions incessantes nous le montrent tantôt gamin, tantôt génie…",
     "expiration": {
       "status": "none",
       "label": null,
@@ -64171,138 +60625,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm851800",
-    "titre": "In Search of Tomorrow",
-    "type": "film",
-    "chaine": "Shadowz",
-    "chaines": [
-      "Shadowz"
-    ],
-    "logo_chaine": "assets/logos/shadowz.png",
-    "logos_chaine": [
-      "assets/logos/shadowz.png"
-    ],
-    "package_slugs": [
-      "sdz"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "5h 06min",
-    "runtime_minutes": 306,
-    "note_avis": 7.7,
-    "note_recence": 8.8,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "doc",
-      "hst",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/166176373/s592/in-search-of-tomorrow.jpg",
-    "synopsis": "Un voyage nostalgique à travers les films Sc-Fi des années 80, explorant leur impact et leur pertinence aujourd'hui, raconté par les artistes qui les ont réalisés et par ceux qui ont été inspirés pour transformer leurs visions en réalité.",
-    "date_ajout": "2024-05-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1400241",
-    "titre": "Toxicily",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 10min",
-    "runtime_minutes": 70,
-    "note_avis": 5.3,
-    "note_recence": 9.4,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/317100173/s592/toxicily.jpg",
-    "synopsis": "En Sicile, dans l’ombre de la belle Syracuse, bat le poumon d’un des plus grands complexes pétrochimiques d’Europe. 70 ans après l’arrivée des premières raffineries, le territoire et les hommes semblent aujourd’hui livrés à eux-mêmes dans l’empoisonnement du ciel, de la mer et de la terre. « Mieux vaut mourir d’un cancer que mourir de faim », entend-on sur la plage qui borde la raffinerie. Dans un contexte d’omerta, le film donne à entendre des voix qui luttent, se résignent ou simplement survivent au sein d’un territoire sacrifié sur l’autel du progrès et de la modernité.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm68927",
-    "titre": "Garbage Warrior",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2007,
-    "annee_moyenne": 2007,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 7.7,
-    "note_recence": 4.3,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/177380450/s592/garbage-warrior.jpg",
-    "synopsis": "Le film retrace la vie de Michael Reynolds, architecte des Earthships. Il suit les aventures de Reynolds pour établir une communauté expérimentale et son combat en faveur des logements écologiques.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1137806",
     "titre": "Ghost Therapy",
     "type": "film",
@@ -64562,49 +60884,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/304176990/s592/horror-in-the-high-desert-2-minerva.jpg",
     "synopsis": "En 2018, une série de tragédies a secoué le nord-est du Nevada. Une femme a été retrouvée morte et une autre a disparu sur le même tronçon d'une autoroute isolée. Ces événements pourraient-ils être liés à la disparition de Gary Hinge un an plus tôt ?",
     "date_ajout": "2023-08-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1499674",
-    "titre": "Sept promenades avec Mark Brown",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 6.6,
-    "note_recence": 9.7,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/330624836/s592/7-promenades-avec-mark-brown.jpg",
-    "synopsis": "À la recherche de plantes indigènes, nous suivons le botaniste Mark Brown, depuis Aizier jusqu'à Sainte-Marguerite-sur-Mer, chez lui. De la vallée de la Seine, suivant le littoral cauchois en sept promenades, nous filmons les plantes jusqu'à son projet botanique fou : reconstituer une forêt primaire à L'Aube des Fleurs.",
     "expiration": {
       "status": "none",
       "label": null,
@@ -64933,49 +61212,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm850841",
-    "titre": "Professeur Yamamoto part à la retraite",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "2h 08min",
-    "runtime_minutes": 128,
-    "note_avis": 6.8,
-    "note_recence": 9.1,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302276562/s592/professeur-yamamoto-part-a-la-retraite.jpg",
-    "synopsis": "Pionnier de la psychiatrie au Japon, le professeur Yamamoto s’apprête à prendre sa retraite à l’âge de 82 ans. A l’approche du départ, il sent ses patients de plus en plus déboussolés, alors qu’il ne sait pas lui-même comment affronter ce bouleversement.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts401612",
     "titre": "Taelgia",
     "type": "serie",
@@ -65198,95 +61434,6 @@ const CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/302616377/s592/la-piedad.jpg",
     "synopsis": "Lili et son fils Mateo ont une relation fusionnelle qui les rend dépendant l’un de l’autre. Ils se complaisent dans une réalité suffocante jusqu’au jour où l’un d’entre eux est atteint d’une maladie grave. La simple idée d’être séparés les conduit à développer une version d’eux-mêmes la plus sombre et toxique qui soit.",
     "date_ajout": "2024-01-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm246865",
-    "titre": "Le potager de mon grand-père",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 16min",
-    "runtime_minutes": 76,
-    "note_avis": 6.9,
-    "note_recence": 7,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/82147264/s592/le-potager-de-mon-grand-pere.jpg",
-    "synopsis": "Chez son grand-père, Martin est venu se ressourcer, aider et partager des moments de vie. L’aïeul lui transmettra son savoir, un peu de ses racines et les secrets de ce potager cultivé par amour pour sa femme disparue. Issu de cette génération fast-food, Martin prendra conscience de la valeur de ce précieux héritage. C’est un hymne à la vie et à cette nature que nous devons protéger.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1077667",
-    "titre": "The History of Metal and Horror",
-    "type": "film",
-    "chaine": "Shadowz",
-    "chaines": [
-      "Shadowz"
-    ],
-    "logo_chaine": "assets/logos/shadowz.png",
-    "logos_chaine": [
-      "assets/logos/shadowz.png"
-    ],
-    "package_slugs": [
-      "sdz"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "2h 34min",
-    "runtime_minutes": 154,
-    "note_avis": 6.5,
-    "note_recence": 8.5,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "msc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/303811083/s592/the-history-of-metal-and-horror.jpg",
-    "synopsis": "Le documentaire explore l'histoire de la musique heavy metal et de l'horreur, et la façon dont les deux genres ont fusionné au fil du temps.",
-    "date_ajout": "2024-03-28",
     "expiration": {
       "status": "none",
       "label": null,
@@ -65737,92 +61884,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1350402",
-    "titre": "Maman déchire",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 20min",
-    "runtime_minutes": 80,
-    "note_avis": 6.6,
-    "note_recence": 9.4,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/326179275/s592/maman-dechire.jpg",
-    "synopsis": "Emilie tente de comprendre le mystère de son univers : sa mère Meaud. Grand-mère magique, enfant brisée, mère punk, féministe spontanée, elle fascine autant qu'elle dérange. Comment donner à ses enfants l'amour dont on a été privé soi-même ? Comment nourrir son enfant intérieur quand on a vécu des traumatismes dans son enfance ?",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1556006",
-    "titre": "Voyage à Gaza",
-    "type": "film",
-    "chaine": "Sooner",
-    "chaines": [
-      "Sooner"
-    ],
-    "logo_chaine": "assets/logos/sooner.png",
-    "logos_chaine": [
-      "assets/logos/sooner.png"
-    ],
-    "package_slugs": [
-      "snr"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 08min",
-    "runtime_minutes": 68,
-    "note_avis": 7.3,
-    "note_recence": 9.4,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321884339/s592/voyage-a-gaza.jpg",
-    "synopsis": "À Gaza, il faut arriver le soir au printemps, s'enfermer dans sa chambre et écouter les sons qui entrent par les fenêtres ouvertes… Nous sommes en 2018. J'ai 25 ans et je suis un voyageur étranger. Je rencontre de jeunes palestiniens de mon âge.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm100029",
     "titre": "Scott Pilgrim",
     "type": "film",
@@ -66013,56 +62074,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm316630",
-    "titre": "L'École buissonnière",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 56min",
-    "runtime_minutes": 116,
-    "note_avis": 6.9,
-    "note_recence": 7.3,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "cmy",
-      "doc",
-      "drm",
-      "fml",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/66238857/s592/lecole-buissonniere.jpg",
-    "synopsis": "Paris 1930. Paul n’a toujours eu qu’un seul et même horizon: les hauts murs de l’orphelinat, sévère bâtisse de la banlieue ouvrière parisienne. Confié à une joyeuse dame de la campagne, Célestine et à son mari, Borel, le garde-chasse un peu raide d’un vaste domaine en Sologne, l’enfant des villes, récalcitrant et buté, arrive dans un monde mystérieux et inquiétant, celui d’une région souveraine et sauvage.  L’immense forêt, les étangs embrumés, les landes et les champs, tout ici appartient au Comte de la Fresnaye, un veuf taciturne qui vit solitaire dans son manoir. Le Comte tolère les braconniers sur le domaine, mais Borel les traque sans relâche et s’acharne sur le plus rusé et insaisissable d’entre eux, Totoche. Au cœur de la féérique Sologne, aux côtés du braconnier, grand amoureux de la nature, Paul va faire l’apprentissage de la vie mais aussi celui de la forêt et de ses secrets. Un secret encore plus lourd pèse sur le domaine, car Paul n’est pas venu là par hasard …",
-    "date_ajout": "2026-08-29",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 26/12",
-      "daysLeft": 61,
-      "expirationDate": "2026-12-26",
-      "packageExpirations": {
-        "aoc": "2026-12-26"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm464524",
     "titre": "J'irai où tu iras",
     "type": "film",
@@ -66205,53 +62216,6 @@ const CATALOG_DATA = [
       }
     },
     "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm179368",
-    "titre": "Il était une forêt",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 18min",
-    "runtime_minutes": 78,
-    "note_avis": 6.7,
-    "note_recence": 6.1,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/10405408/s592/il-etait-une-foret.jpg",
-    "synopsis": "Pour la première fois, une forêt tropicale va naître sous nos yeux. De la première pousse à l’épanouissement des arbres géants, de la canopée en passant par le développement des liens cachés entre plantes et animaux, ce ne sont pas moins de sept siècles qui vont s’écouler sous nos yeux. Depuis des années, Luc Jacquet filme la nature, pour émouvoir et émerveiller les spectateurs à travers des histoires uniques et passionnantes. Sa rencontre avec le botaniste Francis Hallé a donné naissance à ce film patrimonial sur les ultimes grandes forêts primaires des tropiques, au confluent de la transmission, de la poésie et de la magie visuelle. « Il était une forêt » offre une plongée exceptionnelle dans ce monde sauvage resté dans son état originel, en parfait équilibre, où chaque organisme du plus petit au plus grand connecté à tous les autres, joue un rôle essentiel.",
-    "date_ajout": "2026-10-13",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 16/11",
-      "daysLeft": 21,
-      "expirationDate": "2026-11-16",
-      "packageExpirations": {
-        "aoc": "2026-11-16"
-      }
-    },
-    "on_prime": false,
     "on_tnt": false
   },
   {
@@ -67287,52 +63251,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm493756",
-    "titre": "Clint Eastwood: la dernière des légendes",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 18min",
-    "runtime_minutes": 78,
-    "note_avis": 6,
-    "note_recence": 7.6,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "hst",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/301592461/s592/clint-eastwood-la-derniere-des-legendes.jpg",
-    "synopsis": "Regard froncé, cool inimitable et succès à la pelle : Clint Eastwood est un monument du cinéma américain. Avec ses personnages de cowboys cyniques et de flics mal embouchés, il a longtemps suscité la méfiance de la critique. Mais, de « Breezy » (1973) à « The Bridges of Madison County (Sur la route de Madison » (1995), ses réalisations de cinéaste ont fini par emporter l'adhésion. Retour sur ce parcours à travers un portrait qui explore toute la complexité du mythe.",
-    "date_ajout": "2025-04-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm1624616",
     "titre": "Pile ou face",
     "type": "film",
@@ -67375,52 +63293,6 @@ const CATALOG_DATA = [
       "expirationDate": "2026-12-09",
       "packageExpirations": {
         "aoc": "2026-12-09"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1478637",
-    "titre": "Jacques Demy, le rose et le noir",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 6.8,
-    "note_recence": 9.4,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/315777187/s592/jacques-demy-le-rose-et-le-noir.jpg",
-    "synopsis": "Jacques Demy, profondément lié à ses rêves d’enfant, est resté un moraliste inébranlable, engagé dans sa vision cinématographique. Bien qu’il n’ait réalisé que 13 longs métrages, il a atteint le statut d’icône avec des succès tels que Les parapluies de Cherbourg, Les demoiselles de Rochefort et Peau D’âne. Sa filmographie, remarquablement cohérente mais relativement brève, est ponctuée de longues périodes de silence. La capacité de Demy à enchanter le public était enracinée dans ses luttes personnelles et ses doutes en tant qu’homme de spectacle, ce qui l’a établi comme l’un des plus grands artistes du cinéma français.",
-    "date_ajout": "2025-06-23",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 11/12",
-      "daysLeft": 46,
-      "expirationDate": "2026-12-11",
-      "packageExpirations": {
-        "aoc": "2026-12-11"
       }
     },
     "on_prime": false,
@@ -68133,55 +64005,6 @@ const CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm201216",
-    "titre": "Mon roi",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "2h 05min",
-    "runtime_minutes": 125,
-    "note_avis": 7.1,
-    "note_recence": 6.7,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/79252703/s592/mon-roi.jpg",
-    "synopsis": "Tony est admise dans un centre de rééducation après une grave chute de ski. Dépendante du personnel médical et des antidouleurs, elle prend le temps de se remémorer l’histoire tumultueuse qu’elle a vécue avec Georgio. Pourquoi se sont-ils aimés ? Qui est réellement l’homme qu’elle a adoré ? Comment a-t-elle pu se soumettre à cette passion étouffante et destructrice ? Pour Tony c’est une difficile reconstruction qui commence désormais, un travail corporel qui lui permettra peut-être de définitivement se libérer…",
-    "date_ajout": "2015-10-21",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire aujourd'hui",
-      "daysLeft": 0,
-      "expirationDate": "2026-10-26",
-      "packageExpirations": {
-        "aoc": "2026-10-26"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1613260",
     "titre": "Yellow Letters",
     "type": "film",
@@ -68275,7 +64098,3 @@ const CATALOG_DATA = [
     "on_tnt": false
   }
 ];
-const CATALOG_METADATA = {
-  "lastDailySync": "2026-10-26T12:07:36.137Z",
-  "lastSpecializedSync": null
-};

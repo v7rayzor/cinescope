@@ -1,8 +1,8 @@
 /**
- * CinéScope - Catalogue Amazon Prime Video (Exclusivité PC - Règle 8)
- * Généré automatiquement par scripts/sync_prime.cjs
+ * Catalogue Amazon Prime Video (prv) - CinéScope Streaming
+ * Synchronisation automatique JustWatch GraphQL
  */
-var PRIME_CATALOG_DATA = [
+window.PRIME_CATALOG_DATA = [
   {
     "id": "jw-ts476818",
     "titre": "Carrie",
@@ -9877,68 +9877,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts75658",
-    "titre": "Mythes et Croyances",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2017,
-    "annee_fin": 2018,
-    "annee_moyenne": 2018,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2017,
-        "note": 6.6,
-        "episodes": 6
-      },
-      {
-        "saison": 2,
-        "annee": 2018,
-        "note": 6.6,
-        "episodes": 6
-      }
-    ],
-    "duree": "42 min/ép.",
-    "runtime_minutes": 42,
-    "note_avis": 6.6,
-    "note_recence": 7.6,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm",
-      "hrr",
-      "trl"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/154001082/s592/lore.jpg",
-    "synopsis": "Par les producteurs délégués de Walking Dead et X-Files, cette série d’anthologie donne vie au podcast « Lore » d’Aaron Mahnke et met en lumière les évènements réels dont se nourrissent nos pires cauchemars. Alliant mises en situation, animation, archive et narration, cette série révèle combien nos légendes glaçantes (vampires, loups-garous, trafic de cadavres, etc.) sont ancrées dans la réalité.",
-    "date_ajout": "2017-10-13",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm266647",
     "titre": "Ocean's 8",
     "type": "film",
@@ -13630,50 +13568,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/346945116/s592/man-of-war.jpg",
     "synopsis": "Lorsqu'une travailleuse humanitaire disparaît dans les premières heures de la guerre en Ukraine, une ancienne membre des Navy SEAL et de la CIA traverse ce pays dévasté pour ramener chez elle des mercenaires, des lignes de bataille mouvantes et des fantômes qu'il pensait avoir laissés derrière lui.",
     "date_ajout": "2026-10-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1111743",
-    "titre": "Frank Miller: American Genius",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 51min",
-    "runtime_minutes": 111,
-    "note_avis": 7.1,
-    "note_recence": 9.4,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354598236/s592/frank-miller-american-genius.jpg",
-    "synopsis": "Un portrait brut et intime de Frank Miller, le visionnaire qui a redéfini la bande dessinée avec Daredevil, The Dark Knight Returns et Sin City. De son ascension fulgurante à sa quasi-autodestruction, le film retrace sa vie, son héritage et son retour triomphal au rang d'icône.",
-    "date_ajout": "2026-09-11",
     "expiration": {
       "status": "none",
       "label": null,
@@ -18099,50 +17993,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm423084",
-    "titre": "Getting Naked: A Burlesque Story",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 6.2,
-    "note_recence": 7.3,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320910400/s592/getting-naked-a-burlesque-story.jpg",
-    "synopsis": "Getting Naked : A Burlesque Story lève le rideau pour révéler la sous-culture sexy de la scène néo-burlesque de New York. Ce véritable documentaire suit de près quatre interprètes, chacun ayant découvert une nouvelle identité et appartenant à un monde de comédie de débauche et de strip-tease.",
-    "date_ajout": "2026-10-23",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1349029",
     "titre": "Saltburn",
     "type": "film",
@@ -20430,51 +20280,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm420167",
-    "titre": "L'insupportable Groo",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 6.4,
-    "note_recence": 7.6,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/326986949/s592/the-insufferable-groo.jpg",
-    "synopsis": "Stephen Groo est le cinéaste le plus prolifique au monde. Au cours des vingt dernières années, il a réalisé 205 films. Pourtant, il n'a toujours pas gagné un sou et sa famille a à peine de quoi survivre. Mais lorsqu'une grande star hollywoodienne accepte soudainement de jouer dans son dernier film, Groo a enfin une chance d'accéder à la gloire et à la fortune.",
-    "date_ajout": "2026-09-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts29568",
     "titre": "Maîtres et Valets",
     "type": "serie",
@@ -21951,50 +21756,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1602403",
-    "titre": "L'hiver de fer",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 7,
-    "note_recence": 9.7,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/327356738/s592/lhiver-de-fer.jpg",
-    "synopsis": "Dans la vallée la plus froide de Mongolie, les chevaux sont synonymes de vie. Mais pendant « l'hiver de fer », rien ne peut survivre seul. Face aux pressions environnementales, deux jeunes amis se sont vu confier la responsabilité de sauver cette tradition. Ils affrontent l'hiver le plus meurtrier jamais enregistré en Mongolie pour maintenir en vie 2 000 chevaux.",
-    "date_ajout": "2026-10-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts93861",
     "titre": "Daisy Jones And the Six",
     "type": "serie",
@@ -22481,52 +22242,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/348764134/s592/boot-camp.jpg",
     "synopsis": "Whitney Carmichael, peu athlétique, s'inscrit à un camp d'entraînement d'été pour se réinventer et tombe amoureuse de son entraîneur personnel. Elle trouve alors la force d'embrasser sa vraie personnalité",
     "date_ajout": "2026-08-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm129247",
-    "titre": "Rêve californien",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2007,
-    "annee_moyenne": 2007,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 7.7,
-    "note_recence": 4.3,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176067765/s592/california-dreaming.jpg",
-    "synopsis": "Dans le camping-car, sur la route, impossible de quitter la ville. Les sacs sont faits, prêts au départ, mais les ennuis ne font que commencer.",
-    "date_ajout": "2026-08-20",
     "expiration": {
       "status": "none",
       "label": null,
@@ -24260,53 +23975,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm340803",
-    "titre": "Midway between life and death",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 22min",
-    "runtime_minutes": 82,
-    "note_avis": 7.2,
-    "note_recence": 6.1,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "doc",
-      "hrr",
-      "fml",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/250069274/s592/midway-between-life-and-death.jpg",
-    "synopsis": "Sara et Alex ont perdu le bébé qu'ils attendaient à la suite d'une fausse couche, et depuis ce jour, leur vie n'a plus jamais été la même. Alors qu'elle s'y attend le moins, Sara découvre qu'elle est de nouveau enceinte, mais décide d'attendre la fin du troisième mois avant de l'annoncer à Alex.",
-    "date_ajout": "2026-10-23",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm55213",
     "titre": "Safe",
     "type": "film",
@@ -24782,66 +24450,6 @@ var PRIME_CATALOG_DATA = [
     },
     "on_prime": true,
     "on_tnt": true
-  },
-  {
-    "id": "jw-ts86833",
-    "titre": "La jetée",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2019,
-    "annee_fin": 2020,
-    "annee_moyenne": 2020,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2019,
-        "note": 7.1,
-        "episodes": 8
-      },
-      {
-        "saison": 2,
-        "annee": 2020,
-        "note": 7.1,
-        "episodes": 8
-      }
-    ],
-    "duree": "45 min/ép.",
-    "runtime_minutes": 45,
-    "note_avis": 7.1,
-    "note_recence": 8.2,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/260835629/s592/la-jetee.jpg",
-    "synopsis": "L'histoire d’Alexandra, une architecte renommée qui, à la suite du suicide de son mari Oscar, se retrouve dévastée par la découverte de la double vie que celui-ci menait avec une autre femme, Veronica, et leur enfant. Pour ne pas sombrer et tout connaître de cette liaison cachée, Alexandra décide de se rapprocher de Veronica, de s’en faire une amie et de lui parler de la disparition d'Oscar. Elle se présente néanmoins sous une fausse identité pour tenter de découvrir pourquoi Oscar, bien que sincèrement amoureux d’elle, a décidé de vivre toutes ces années dans le mensonge et la dissimulation. Que s'est-il donc vraiment passé cette terrible nuit pendant laquelle il a choisi de mettre fin à ses jours ?",
-    "date_ajout": "2026-07-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
   },
   {
     "id": "jw-tm1471610",
@@ -26635,51 +26243,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1138375",
-    "titre": "Tantura",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 8.5,
-    "note_recence": 8.8,
-    "note_globale": 8.7,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "hst"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302188156/s592/tantura.jpg",
-    "synopsis": "Des centaines de villages palestiniens ont été dépeuplés en 1948. Pour les Israéliens, c'était la guerre d'indépendance, pour les Palestiniens, c'était « Al Nakba », la catastrophe. Alon Schwarz interroge d'anciens soldats israéliens ainsi que des habitants palestiniens afin de réexaminer ce qui s'est passé à Tantura, lieu d'un massacre présumé perpétré par les Israéliens.",
-    "date_ajout": "2026-10-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts91820",
     "titre": "Le Mystère Kendrick",
     "type": "serie",
@@ -27215,50 +26778,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1957484",
-    "titre": "Dance for Your Life",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 40min",
-    "runtime_minutes": 100,
-    "note_avis": 9.3,
-    "note_recence": 10,
-    "note_globale": 9.7,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/343689795/s592/dance-for-your-life.jpg",
-    "synopsis": "Dix des meilleurs danseurs australiens se voient offrir l'opportunité de leur vie de s'envoler pour Londres et de passer une audition pour un contrat international déterminant pour leur carrière avec le chorégraphe de renommée mondiale, Dean Lee, au sein de sa compagnie de danse, Shapehaus Dance Theatre.",
-    "date_ajout": "2026-10-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts21428",
     "titre": "Parenthood",
     "type": "serie",
@@ -27586,96 +27105,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/240105109/s592/highschool-of-the-dead.jpg",
     "synopsis": "Alors qu’il sèche les cours, Takashi assiste, impuissant, à l’invasion de son lycée par ce qui semble être des morts-vivants. Réussissant à former un petit groupe de survivants, incluant Reï, son amie d’enfance, il tente d’échapper à la contamination, mais se rend vite compte que le monde entier est touché. Commence alors une longue bataille pour sa survie et celle de ses nouveaux camarades dans une ville de Tôkyô infestée de zombies. ",
     "date_ajout": "2024-03-28",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm483251",
-    "titre": "#jesuislà",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 37min",
-    "runtime_minutes": 97,
-    "note_avis": 6,
-    "note_recence": 8.2,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "doc",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176542499/s592/jesuisla.jpg",
-    "synopsis": "Stéphane mène une vie paisible au Pays Basque entre ses deux fils, aujourd’hui adultes, son ex-femme et son métier de chef cuisinier. Le petit frisson dont chacun rêve, il le trouve sur les réseaux sociaux où il échange au quotidien avec Soo, une jeune sud-coréenne. Sur un coup de tête, il décide de s’envoler pour la Corée dans l’espoir de la rencontrer. Dès son arrivée à l’aéroport de Séoul, un nouveau monde s’ouvre à lui…",
-    "date_ajout": "2026-06-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1952146",
-    "titre": "Contact in the Woods: The Dr. Johnathan Reed Story",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 01min",
-    "runtime_minutes": 61,
-    "note_avis": 5.4,
-    "note_recence": 10,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341269489/s592/contact-in-the-woods-the-dr-johnathan-reed-story.jpg",
-    "synopsis": "La randonnée d'un homme tourne au cauchemar lors d'une rencontre extraterrestre sanglante. Après avoir tué un touriste pour sauver son chien, le Dr Jonathan Reed découvre des preuves terrifiantes avant d'être traqué par des forces obscures. Plongez au cœur de ce mystère de 1996, qui demeure l'affaire d'OVNI la plus controversée au monde.",
-    "date_ajout": "2026-04-28",
     "expiration": {
       "status": "none",
       "label": null,
@@ -28814,55 +28243,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm325739",
-    "titre": "Hostile",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 22min",
-    "runtime_minutes": 82,
-    "note_avis": 5.3,
-    "note_recence": 7.6,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm",
-      "hrr",
-      "rma",
-      "scf",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/313075520/s592/hostile.jpg",
-    "synopsis": "Dans un monde en ruine après une catastrophe inconnue, l'espèce humaine tente de se reconstruire. Les survivants ne sortent que la journée car la nuit venue d'étranges créatures sortent pour chasser. Juliette est la seule à oser s'aventurer près des villes. Un jour, sur le chemin du retour, elle perd le contrôle de sa voiture. Lorsqu'elle reprend connaissance, elle est blessée, coincée dans son véhicule, et… IL FAIT NUIT.",
-    "date_ajout": "2025-06-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1620914",
     "titre": "Merv",
     "type": "film",
@@ -28954,59 +28334,6 @@ var PRIME_CATALOG_DATA = [
       "packageExpirations": {
         "prv": "2027-02-24"
       }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts84969",
-    "titre": "Faits divers, l'Histoire à la Une",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2017,
-        "note": 8,
-        "episodes": 10
-      }
-    ],
-    "duree": "26 min/ép.",
-    "runtime_minutes": 26,
-    "note_avis": 8,
-    "note_recence": 7.3,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "doc"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/178662990/s592/faits-divers-lhistoire-a-la-une.jpg",
-    "synopsis": "Crimes, accidents ou suicides, les faits divers n'ont jamais cessé de nous fasciner. À travers le décryptage minutieux d'un fait divers et de sa fabrication, chaque épisode revisite une page de notre histoire.",
-    "date_ajout": "2026-08-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": true,
     "on_tnt": false
@@ -30814,51 +30141,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1679998",
-    "titre": "Paul McCartney déploie ses ailes",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 55min",
-    "runtime_minutes": 115,
-    "note_avis": 7.5,
-    "note_recence": 10,
-    "note_globale": 8.8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "msc"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/344586610/s592/paul-mccartney-man-on-the-run.jpg",
-    "synopsis": "« Paul McCartney déploie ses ailes » dresse le portrait intime du parcours de Paul McCartney après les Beatles, au moment où il fonde Wings avec son épouse, Linda. Sous la direction du réalisateur oscarisé Morgan Neville, le film explore la renaissance artistique de McCartney à travers des images d'archives rares, révélant ses défis et ses réussites dans sa quête d'une nouvelle identité musicale.",
-    "date_ajout": "2026-02-27",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm73061",
     "titre": "7 Psychopathes",
     "type": "film",
@@ -31944,55 +31226,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/307080842/s592/harlan-cobens-shelter.jpg",
     "synopsis": "Basé sur la série de livres à succès d'Harlan Coben, \"À découvert\" raconte l'histoire de Mickey Bolitar après la mort de son père qui le mène à commencer une nouvelle vie dans le New Jersey. Lorsqu'un nouvel élève disparaît, Mickey se retrouve mêlé à des secrets. Avec l'aide de ses amis, Spoon et Ema, il découvre un souterrain sombre qui pourrait contenir les réponses à des années de disparition.",
     "date_ajout": "2023-08-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm62638",
-    "titre": "Groupe d'élite",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2012,
-    "annee_moyenne": 2012,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 6.5,
-    "note_recence": 5.8,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "doc",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/11931570/s592/groupe-delite.jpg",
-    "synopsis": "A la veille de l'exposition universelle de Séville, l'unité 7 a une mission des plus importantes: traquer et arrêter le plus dangereux réseau de trafiquants de drogues et parvenir à rétablir l'ordre et la sérénité au sein de la ville. Pour mener à bien cette mission, les 4 policiers vont devoir agir très vite puisqu'ils n'ont que 4 années devant eux. Mais face au réseau de trafiquants de drogues, les 4 policiers vont peu à peu devoir se laisser dépasser par les événements et se laisser corrompre malgré eux par le système",
-    "date_ajout": "2026-08-21",
     "expiration": {
       "status": "none",
       "label": null,
@@ -33863,96 +33096,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1591135",
-    "titre": "Hans Zimmer and Friends : Le diamant du désert",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "2h 38min",
-    "runtime_minutes": 158,
-    "note_avis": 8.4,
-    "note_recence": 9.7,
-    "note_globale": 9.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "msc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/326215953/s592/hans-zimmer-et-friends-le-diamant-du-desert.jpg",
-    "synopsis": "Une performance live exceptionnelle de compositions parmi les plus emblématiques de Zimmer, incluant des musiques de Dune, Gladiator, Interstellar, Le Roi Lion et bien d'autres.  Aux côtés d’un orchestre de statut international, son groupe donne vie à des décennies de chefs-d'œuvre cinématographiques dans le cadre emblématique de la Coca-Cola Arena de Dubaï et au-delà : des dunes du désert d’Arabie jusque dans les hauteurs du Burj Al Arab, ces performances offrent une expérience intime et unique des bandes originales de Zimmer les plus célèbres et adorées.  Le film dévoile un aperçu rare du processus créatif de Zimmer, explorant la volonté de créer et les histoires qui se cachent derrière ses plus étroites collaborations.",
-    "date_ajout": "2026-09-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm176080",
-    "titre": "The Flaw",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2011,
-    "annee_moyenne": 2011,
-    "duree": "1h 18min",
-    "runtime_minutes": 78,
-    "note_avis": 7.1,
-    "note_recence": 5.5,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "hst"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/177683810/s592/the-flaw.jpg",
-    "synopsis": "L'histoire de la bulle du crédit qui a provoqué le krach financier. Grâce à des entretiens avec certains des plus grands économistes du monde, dont l'expert en logement Robert Shiller, le lauréat du prix Nobel Joseph Stiglitz et l'historien économique Louis Hyman, ainsi qu'avec des initiés de Wall Street et des victimes du crash, dont Ed Andrews - un ancien correspondant économique du New York Times qui s'est retrouvé face à une saisie - et Andrew Luan, autrefois négociant en obligations à la Deutsche Bank qui dirige maintenant sa propre entreprise de guides touristiques à Wall Street, le film présente un récit original et convaincant de la combinaison toxique de forces qui a presque détruit l'économie mondiale.",
-    "date_ajout": "2021-09-28",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1921165",
     "titre": "More Than a Kiss",
     "type": "film",
@@ -34199,59 +33342,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts529771",
-    "titre": "Young Farts Trailer Parts : La série",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2026,
-        "note": 6.4,
-        "episodes": 6
-      }
-    ],
-    "duree": "27 min/ép.",
-    "runtime_minutes": 27,
-    "note_avis": 6.4,
-    "note_recence": 10,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/345831809/s592/young-farts-trailer-parts.jpg",
-    "synopsis": "Découvrez les frères Jagger et Dawson dans cette hilarante téléréalité. À la tête d'une entreprise florissante de pièces pour VR, ils redonnent vie et cachet à des épaves entre projets délirants, cascades déjantées et coups de folie pleins de bon cœur. Nos gars en roue libre enchaînent les idées saugrenues, toujours motivés par l'amour de leur famille et de l'empire qu'ils tentent de bâtir.",
-    "date_ajout": "2026-07-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1358388",
     "titre": "Rivière",
     "type": "film",
@@ -34415,66 +33505,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/62127160/s592/you-are-wanted.jpg",
     "synopsis": "La vie d'un Berlinois est bouleversée après un \"hacking\".",
     "date_ajout": "2017-03-17",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts312119",
-    "titre": "ORELSAN : Montre jamais ça à personne",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2021,
-    "annee_fin": 2022,
-    "annee_moyenne": 2022,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2021,
-        "note": 8.5,
-        "episodes": 6
-      },
-      {
-        "saison": 2,
-        "annee": 2022,
-        "note": 8.5,
-        "episodes": 4
-      }
-    ],
-    "duree": "41 min/ép.",
-    "runtime_minutes": 41,
-    "note_avis": 8.5,
-    "note_recence": 8.8,
-    "note_globale": 8.7,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "msc"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/253586258/s592/orelsan-montre-jamais-ca-a-personne.jpg",
-    "synopsis": "Au début des années 2000, Aurélien Cotentin est un jeune provincial de classe moyenne à l’avenir flou. Quand il se lance avec ses amis dans le rap, il n’a absolument rien pour réussir. Mais, suivi à la trace par la caméra de son petit frère, il va surmonter épreuves et polémiques pour redéfinir les contours du rap et devenir l’un des artistes français les plus populaires de sa génération.",
-    "date_ajout": "2021-10-15",
     "expiration": {
       "status": "none",
       "label": null,
@@ -34774,60 +33804,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts225170",
-    "titre": "Goulag, une histoire soviétique",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2020,
-        "note": 8,
-        "episodes": 3
-      }
-    ],
-    "duree": "56 min/ép.",
-    "runtime_minutes": 56,
-    "note_avis": 8,
-    "note_recence": 8.2,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "hst",
-      "war"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/242212032/s592/goulag-une-histoire-sovietique.jpg",
-    "synopsis": "Le Goulag, système concentrationnaire soviétique, est demeuré longtemps méconnu. Les premiers camps sont créés en 1918, et connaîtront un développement exponentiel jusqu'à la mort de Staline en 1953. Des archives et témoignages d’anciens \"zeks\" lèvent le voile sur ce qui fut l’instrument de répression et d’industrialisation de l’Union soviétique.",
-    "date_ajout": "2025-10-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm861271",
     "titre": "Lucky",
     "type": "film",
@@ -34969,59 +33945,6 @@ var PRIME_CATALOG_DATA = [
       "packageExpirations": {
         "prv": "2026-10-31"
       }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts517406",
-    "titre": "Soul Power: The Legend of the American Basketball Association",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2026,
-        "note": 7.9,
-        "episodes": 4
-      }
-    ],
-    "duree": "56 min/ép.",
-    "runtime_minutes": 56,
-    "note_avis": 7.9,
-    "note_recence": 10,
-    "note_globale": 9,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/342100836/s592/soul-power-the-legend-of-the-american-basketball-association.jpg",
-    "synopsis": "Experience the ABA's nine-year rivalry with the NBA that changed basketball forever. From the 3-point shot to the Slam Dunk Contest, the ABA's innovations became game staples. Told by \"Dr. J\" Erving, Larry Brown, Bob Costas & other Hall of Famers.",
-    "date_ajout": "2026-02-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": true,
     "on_tnt": false
@@ -35539,50 +34462,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/309150821/s592/control-zeta.jpg",
     "synopsis": "Dans un avenir proche, les crimes et les accidents ont disparu de la société grâce à l'invention de téléphones portables spéciaux avec lesquels il est possible d'appeler le passé. Cependant, la paix de ce monde utopique va être mise en échec par l'apparition d'un assassin méthodique qui semble avoir découvert la seule faille de ce système.",
     "date_ajout": "2026-09-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm418481",
-    "titre": "Life After Flash",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 6.7,
-    "note_recence": 7.3,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300777623/s592/life-after-flash.jpg",
-    "synopsis": "Un aperçu de la vie mouvementée de Sam J. Jones depuis son rôle de Flash Gordon, ses combats et ses réussites, et les conséquences de son affrontement avec l'un des producteurs les plus puissants d'Hollywood.\n",
-    "date_ajout": "2026-06-29",
     "expiration": {
       "status": "none",
       "label": null,
@@ -36196,51 +35075,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm2924214",
-    "titre": "Novak Djoković : Le loup en hiver",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 7.9,
-    "note_recence": 10,
-    "note_globale": 9,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/349255055/s592/novak-djokovic-le-loup-en-hiver.jpg",
-    "synopsis": "Il a remporté tous les titres possibles en tennis, y compris une médaille d'or olympique. Alors pourquoi Novak Djokovic continue-t-il à jouer ? Le documentaire Le Loup en hiver suit le plus grand joueur de tennis de tous les temps lors de son retour à l'Open d'Australie en 2025, capturant son obsession, sa préparation et cette flamme qui ne s'éteint pas, alors qu'il n'a plus rien à prouver.",
-    "date_ajout": "2026-08-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts442979",
     "titre": "Coupez !",
     "type": "serie",
@@ -36345,52 +35179,6 @@ var PRIME_CATALOG_DATA = [
     },
     "on_prime": true,
     "on_tnt": true
-  },
-  {
-    "id": "jw-tm344646",
-    "titre": "Crash and Burn",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 6.9,
-    "note_recence": 7,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "spt",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/311480711/s592/crash-and-burn.jpg",
-    "synopsis": "Pour un court instant dans les années 80, Tommy Byrne était le meilleur pilote de Formule 1 du monde. Pour le monde du pilotage, il était l’équivalent de George Best et Muhammad Ali réunit en une personne. En 4 ans Byrne est monté de pilote de Stock-car en Mini Cooper à un des plus grands pilotes de Formule 1. Pour le dire avec les mots d’Eddie Jordan : « Oublie Schuey et Senna, Tommy Byrne était le meilleur de tous ! » Un aperçu dans l’économie de la Formule 1 due à la montée exceptionnelle de Tommy et sa chute spectaculaire.",
-    "date_ajout": "2026-10-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
   },
   {
     "id": "jw-tm1514285",
@@ -36782,59 +35570,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/302444086/s592/carnival-row.jpg",
     "synopsis": "Dans un monde fantastique à l’époque victorienne, où les créatures mythologiques doivent cohabiter avec les humains, le détective Rycroft Philostrate et une fée réfugiée du nom de Vignette Stonemoss vivent une dangereuse relation au cœur d’une société de plus en plus intolérante.",
     "date_ajout": "2019-08-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts494358",
-    "titre": "Cocaine Quarterback: Signal-Caller for the Cartel",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 6.9,
-        "episodes": 3
-      }
-    ],
-    "duree": "41 min/ép.",
-    "runtime_minutes": 41,
-    "note_avis": 6.9,
-    "note_recence": 9.7,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/336029741/s592/cocaine-quarterback-signal-caller-for-the-cartel.jpg",
-    "synopsis": "Cocaine Quarterback : le meneur de jeu du cartel raconte l'incroyable histoire vraie du trafiquant de drogue Owen Hanson, ou comment un champion de football américain de l'USC est devenu narcotrafiquant pour le cartel le plus dangereux du monde.",
-    "date_ajout": "2025-09-25",
     "expiration": {
       "status": "none",
       "label": null,
@@ -37476,112 +36211,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/300599414/s592/the-swimmer-2021.jpg",
     "synopsis": "Erez a 18 ans. Étoile montante de l’équipe de natation israélienne, il entre dans un internat pour athlètes dans l’espoir d’obtenir un billet pour les Jeux Olympiques. C’est là qu’il fait la rencontre de Nevo, un coéquipier qui a toutes les qualités nécessaires pour devenir champion du monde. Cette rencontre éveille en Erez des désirs inconscients, suscitant la consternation de leurs adversaires et la fureur de leur entraineur.",
     "date_ajout": "2026-09-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts503778",
-    "titre": "Terrain de chasse : Les meurtres de Gilgo Beach",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2026,
-        "note": 6.7,
-        "episodes": 4
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 6.7,
-    "note_recence": 10,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/346712711/s592/terrain-de-chasse-les-meurtres-de-gilgo-beach.jpg",
-    "synopsis": "Un appel de détresse mène à la découverte du charnier d'un tueur en série. Il faudra plus de dix ans pour résoudre cette enquête. De nombreuses pistes non suivies et des défaillances institutionnelles entravent les investigations avant qu'une nouvelle cellule d'enquête identifie enfin un suspect. À l'approche du procès, de nouvelles preuves révèlent les détails de ces crimes tristement célèbres.",
-    "date_ajout": "2026-04-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts98719",
-    "titre": "Ni dieu, ni maître. Une histoire de l'anarchisme",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2017,
-        "note": 8.4,
-        "episodes": 4
-      }
-    ],
-    "duree": "66 min/ép.",
-    "runtime_minutes": 66,
-    "note_avis": 8.4,
-    "note_recence": 7.3,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "hst"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/163038435/s592/ni-dieu-ni-maitre-une-histoire-de-lanarchisme.jpg",
-    "synopsis": "De la Commune de Paris, en 1871, à la grève générale de 1906, de l'émergence des Bourses du travail à celle des grandes organisations syndicales, des premiers votes féminins aux communautés de vie alternative, de l'éducation populaire à la mise en place d'écoles libertaires, le mouvement anarchiste suscite des expériences révolutionnaires inédites et se révèle l'un des principaux promoteurs des grandes avancées sociales.",
-    "date_ajout": "2025-10-09",
     "expiration": {
       "status": "none",
       "label": null,
@@ -38292,55 +36921,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm456746",
-    "titre": "Walter",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 5.2,
-    "note_recence": 7.9,
-    "note_globale": 6.6,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "doc",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/143859700/s592/walter.jpg",
-    "synopsis": "Pour Goran et son équipe de braqueurs amateurs, le plan était presque parfait : pénétrer de nuit dans un hypermarché pour dévaliser une bijouterie. Mais ces « bras cassés » n’avaient pas prévu l’arrivée d’un vigile pas comme les autres : Walter, un ex-chef de guerre africain qui va les envoyer en enfer…",
-    "date_ajout": "2026-08-24",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 24/11",
-      "daysLeft": 29,
-      "expirationDate": "2026-11-24",
-      "packageExpirations": {
-        "prv": "2026-11-24"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm184072",
     "titre": "Détective Dee : La Légende du dragon des mers",
     "type": "film",
@@ -38487,50 +37067,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/136555734/s592/coyote-lake.jpg",
     "synopsis": "Ester et sa mère dominatrice tiennent un petit Bed & Breakfast près de la frontière américano-mexicaine. Une nuit, deux invités indésirables arrivent, menaçant la sécurité de tous. Mais les deux femmes cachent un secret, celui qui peut s'avérer le plus dangereux de tous...",
     "date_ajout": "2026-10-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm2884268",
-    "titre": "Le monde entier est vert",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 08min",
-    "runtime_minutes": 68,
-    "note_avis": 5.7,
-    "note_recence": 10,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/346713270/s592/le-monde-entier-est-vert.jpg",
-    "synopsis": "Nous nous lançons dans un voyage qui nous mènera de la Chine aux États-Unis, à la découverte de la manière dont notre engouement pour les produits d'origine animale a pris le dessus sur notre système alimentaire, poussant nos écosystèmes au bord de l'effondrement au profit d'une poignée de grandes entreprises.",
-    "date_ajout": "2026-06-18",
     "expiration": {
       "status": "none",
       "label": null,
@@ -38731,50 +37267,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/331593631/s592/drone-2017.jpg",
     "synopsis": "Un pilote de drone de haut niveau partage sa vie entre ses missions et sa vie de famille en banlieue, jusqu'à ce qu'une fuite fasse de lui la cible d'un homme d'affaires pakistanais.",
     "date_ajout": "2026-06-28",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1275804",
-    "titre": "L'outsider",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 11min",
-    "runtime_minutes": 71,
-    "note_avis": 5,
-    "note_recence": 8.8,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/313409400/s592/loutsider-2022.jpg",
-    "synopsis": "La vétérinaire Esther van Neerbos consacre chaque instant de son temps libre à la recherche de personnes disparues. Grâce à ses chiens de recherche, elle peut mettre fin à l'angoisse de ceux qui restent. Mais son zèle lui attire les foudres des autorités, qui ont du mal à accepter ce phénomène d'enquêtes menées par des citoyens.",
-    "date_ajout": "2026-10-08",
     "expiration": {
       "status": "none",
       "label": null,
@@ -39806,55 +38298,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm403194",
-    "titre": "Chacun pour tous",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 6.1,
-    "note_recence": 7.6,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "doc",
-      "spt",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/87499241/s592/les-beaux-esprits.jpg",
-    "synopsis": "Martin, coach de l’équipe française de basketteurs déficients mentaux, est au pied du mur. En pleine préparation des Jeux Paralympiques, ses meilleurs joueurs viennent de le laisser tomber. Refusant de perdre la subvention qui est vitale pour sa fédération, il décide de tricher pour participer coûte que coûte à la compétition. Il complète son effectif par des joueurs valides, dont Stan et Pippo, deux trentenaires désœuvrés. Même Julia, la psychologue de la fédération, ne s’aperçoit pas de la supercherie. En s’envolant pour Sydney, Martin est loin d’imaginer le mélange explosif qu’il vient de créer.",
-    "date_ajout": "2026-08-14",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 19,
-      "expirationDate": "2026-11-14",
-      "packageExpirations": {
-        "prv": "2026-11-14"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm178570",
     "titre": "L'Irlandais",
     "type": "film",
@@ -40506,50 +38949,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1408703",
-    "titre": "Playing With Fire",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 06min",
-    "runtime_minutes": 66,
-    "note_avis": 8.9,
-    "note_recence": 9.1,
-    "note_globale": 9,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320314450/s592/playing-with-fire-2023-0.jpg",
-    "synopsis": "Laissée sans soutien et en danger après avoir été violée par un collègue pompier, Abby a entrepris le combat de sa vie.",
-    "date_ajout": "2026-09-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1038597",
     "titre": "Shotgun Wedding",
     "type": "film",
@@ -40729,59 +39128,6 @@ var PRIME_CATALOG_DATA = [
       "packageExpirations": {
         "prv": "2027-03-14"
       }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts530075",
-    "titre": "Operation Deception",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2026,
-        "note": 7.9,
-        "episodes": 2
-      }
-    ],
-    "duree": "45 min/ép.",
-    "runtime_minutes": 45,
-    "note_avis": 7.9,
-    "note_recence": 10,
-    "note_globale": 9,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354556151/s592/operation-deception.jpg",
-    "synopsis": "Suit une opération secrète controversée qui a envoyé Alain Olivier, un étudiant forestier québécois toxicomane, dans le couloir de la mort en Thaïlande en 1989.",
-    "date_ajout": "2026-09-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": true,
     "on_tnt": false
@@ -41034,51 +39380,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/321239916/s592/world-without-end.jpg",
     "synopsis": "A relentless captor preys on young women, forcing them into a deadly game of psychological warfare using costumes. When 17-year-old Skylar becomes the first to outsmart him, a battle of wits ensues in a fight for their very survival.",
     "date_ajout": "2026-07-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm824569",
-    "titre": "Red Penguins",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 20min",
-    "runtime_minutes": 80,
-    "note_avis": 6.8,
-    "note_recence": 7.9,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "spt"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/307159297/s592/red-penguins.jpg",
-    "synopsis": "Documentaire remarquablement écrit et riche en anecdotes savoureuses. Peu de temps après l'effondrement de l'URSS, Steve Warshaw, spécialiste du marketing, est envoyé en Russie afin de transformer la célèbre équipe de hockey sur glace de l'Armée rouge en grand spectacle de show biz. Il convainc le club de s'associer en joint-venture avec les Penguins de Pittsburgh.",
-    "date_ajout": "2025-08-18",
     "expiration": {
       "status": "none",
       "label": null,
@@ -42289,50 +40590,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1535500",
-    "titre": "Bizarrophilie",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 24min",
-    "runtime_minutes": 84,
-    "note_avis": 10,
-    "note_recence": 9.4,
-    "note_globale": 9.7,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321377498/s592/bizarrophilie.jpg",
-    "synopsis": "L'Argentine possède un vaste cinéma, mais à l'intérieur il existe un monde étrange et atypique : le bizarre. Bizarrophilia enquête sur l'origine et le sens de ce mot et sur la façon dont le temps relit certaines œuvres. Ainsi, il se concentre sur un cinéma contemporain qui s'éloigne de la réalité... même si dans un pays comme celui-ci, la réalité dépasse toujours la fiction.",
-    "date_ajout": "2025-01-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1165961",
     "titre": "Le Dernier patient",
     "type": "film",
@@ -42376,52 +40633,6 @@ var PRIME_CATALOG_DATA = [
       "packageExpirations": {
         "prv": "2026-12-31"
       }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1288448",
-    "titre": "Justice IA",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 5.7,
-    "note_recence": 9.4,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "doc",
-      "trl",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/330494235/s592/justicia-artificial.jpg",
-    "synopsis": "Dans un avenir proche, le gouvernement entend remplacer les juges par un logiciel d'intelligence artificielle, promettant ainsi d'automatiser et de dépolitiser efficacement le système judiciaire. Carmen Costa, une éminente juge, a été invitée à évaluer cette nouvelle procédure. Cependant, lorsque le créateur du logiciel est retrouvé mort, elle réalise que sa vie est en danger et qu'elle devra lutter contre les intérêts puissants qui se jouent dans les plus hautes sphères de l'État.",
-    "date_ajout": "2026-10-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": true,
     "on_tnt": false
@@ -42763,61 +40974,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts479240",
-    "titre": "Mengele",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 6.1,
-        "episodes": 3
-      }
-    ],
-    "duree": "52 min/ép.",
-    "runtime_minutes": 52,
-    "note_avis": 6.1,
-    "note_recence": 9.7,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "doc",
-      "hst",
-      "war"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/330909774/s592/mengele.jpg",
-    "synopsis": "Cette minisérie explore la vie de Josef Mengele, « l'Ange de la mort d'Auschwitz », à travers des documents déclassifiés et des témoignages. Elle révèle son obsession pour les jumeaux et l'idéologie eugéniste nazie, ainsi que sa fuite en Amérique du Sud.",
-    "date_ajout": "2026-09-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm135109",
     "titre": "Fleur du Désert",
     "type": "film",
@@ -42946,50 +41102,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/321223145/s592/vinnies-vantastic-rock-n-roll-adventure.jpg",
     "synopsis": "Vinnie adore le rock and roll. Mais quand il perd tout et parcourt la Route 66 dans une camionnette pour voir son groupe préféré, Hugs, Rock and Roll n'aime pas Vinnie en retour. Qu'est-ce qui pourrait mal se passer? La réponse est simplement... tout !",
     "date_ajout": "2026-08-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1612357",
-    "titre": "Reef Builders",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 16min",
-    "runtime_minutes": 76,
-    "note_avis": 7.6,
-    "note_recence": 9.7,
-    "note_globale": 8.6,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/329632573/s592/reef-builders.jpg",
-    "synopsis": "« Reef Builders » propose une plongée dans le programme Sheba Hope Grows™, qui fait partie de l’un des plus grands programmes de restauration des récifs coralliens au monde, dirigé par Mars Sustainable Solutions (MSS). Et ce, avec un regard inédit, celui des communautés côtières qui en dépendent pour leur subsistance.",
-    "date_ajout": "2025-04-29",
     "expiration": {
       "status": "none",
       "label": null,
@@ -43581,94 +41693,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm946755",
-    "titre": "Life After The Navigator",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 7.4,
-    "note_recence": 8.2,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/241617580/s592/life-after-the-navigator.jpg",
-    "synopsis": "Ce documentaire est non seulement un hommage au film culte *L'Aventure intérieure* (1986), mais aussi un regard sur la vie de son enfant star, Joey Cramer, et sur son parcours tumultueux depuis ce rôle marquant.\n",
-    "date_ajout": "2026-04-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm246045",
-    "titre": "You and Me",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 8.4,
-    "note_recence": 7,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320721787/s592/you-and-me-2016.jpg",
-    "synopsis": "Actif et plein de vie, David « Barney » Miller devient tétraplégique après un tragique accident. Plongé dans une période sombre, il retrouve l'espoir grâce à l'amour de sa famille, de ses amis - dont le champion du monde de surf Mick Fanning - et de sa compagne Kathryn « Kate » Southwell.",
-    "date_ajout": "2026-01-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm318206",
     "titre": "Criminal Squad",
     "type": "film",
@@ -43901,51 +41925,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/83641981/s592/await-further-instructions.jpg",
     "synopsis": "Repas de Noël classique chez les Milgram, avec son lot de tensions à peine larvées. Des bruits métalliques se font entendre. La famille se rend compte qu’elle est bloquée à l’intérieur de la maison familiale, les portes et fenêtres obstruées par une mystérieuse matière noire. Sur l’écran de télévision, un message sibyllin : \"Attendez vos instructions\".",
     "date_ajout": "2025-09-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm2978282",
-    "titre": "Higher Calling",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 13min",
-    "runtime_minutes": 73,
-    "note_avis": 7.5,
-    "note_recence": 10,
-    "note_globale": 8.8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "act",
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/351085587/s592/higher-calling.jpg",
-    "synopsis": "Après la perte de son frère, le cinéaste Ben Forman parcourt l'Himalaya avec deux amis. Il rencontre des moines bouddhistes et des communautés isolées, explorant la mort, la spiritualité et la guérison intérieure. Un voyage poignant à travers le deuil, la fraternité et la transformation.",
-    "date_ajout": "2026-10-21",
     "expiration": {
       "status": "none",
       "label": null,
@@ -44329,59 +42308,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/344686030/s592/b-project-kodou-ambitious.jpg",
     "synopsis": "On suit le quotidien de Tsubaki, une jeune femme qui vient d'entrer dans la compagnie Gandala Music en tant que nouveau manager. Pour son premier pas dans l'industrie, elle va s'occuper de B-PROJECT, une unité composée de trois groupes d'idoles masculines : Kitakore, Thrive et MooNs. Avec tous ces jeunes hommes aux personnalités hautes en couleurs, Tsubaki va devoir faire de gros efforts pour tout maintenir en ordre !",
     "date_ajout": "2024-10-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts497387",
-    "titre": "L'Escroc d'Hollywood : paillettes, glamour et bluff",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 6.7,
-        "episodes": 3
-      }
-    ],
-    "duree": "38 min/ép.",
-    "runtime_minutes": 38,
-    "note_avis": 6.7,
-    "note_recence": 9.7,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/338875053/s592/hollywood-hustler-glitz-glam-scam.jpg",
-    "synopsis": "De rêveur du Midwest à arnaqueur à Hollywood, Zach Horwitz met au point une arnaque élaborée pour financer sa quête obsessionnelle de gloire. Ses anciens proches racontent comment Zach a abusé de leur confiance en vivant de façon extravagante. Mais lorsque les investisseurs n'ont plus reçu de paiements, la façade s'est effondrée, dévoilant l'ampleur de ses mensonges.",
-    "date_ajout": "2025-10-17",
     "expiration": {
       "status": "none",
       "label": null,
@@ -45060,50 +42986,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1292130",
-    "titre": "La Longue Marche",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 20min",
-    "runtime_minutes": 80,
-    "note_avis": 10,
-    "note_recence": 8.8,
-    "note_globale": 9.4,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302381112/s592/la-longue-marche.jpg",
-    "synopsis": "Sous un soleil de plomb, deux bushmen et une ancienne top modèle norvégienne de 27 ans entreprennent de traverser la Namibie et ses paysages magnifiques. Muni chacun d'un arc et ses flèches, d'une lance et d'un sac, le trio de marcheurs atypiques part à l'aventure pour tester l'art de la survie dans le désert.",
-    "date_ajout": "2026-10-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm918825",
     "titre": "Rogue",
     "type": "film",
@@ -45149,52 +43031,6 @@ var PRIME_CATALOG_DATA = [
       "packageExpirations": {
         "aca": "2026-11-30"
       }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1501954",
-    "titre": "The Atlantis Puzzle",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 7.1,
-    "note_recence": 9.4,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "doc",
-      "hst",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/318957365/s592/the-atlantis-puzzle.jpg",
-    "synopsis": "De nouvelles traductions fascinantes et de nouvelles recherches transforment le mythe de l’Atlantide du domaine fantastique en une incroyable réalité. Voyagez à travers les continents et les siècles pour percer les secrets de l'héritage final de Platon : une histoire vraie de la Grèce antique, de l'Afrique et du changement climatique à travers les temps.",
-    "date_ajout": "2026-09-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": true,
     "on_tnt": false
@@ -45376,98 +43212,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/323320888/s592/the-messenger.jpg",
     "synopsis": "Une jeune tête brûlée de l’armée doit réorienter sa carrière militaire suite à une blessure de guerre. Il intègre une cellule méconnue, chargée d’annoncer aux familles la mort des victimes tombées au combat. Formé par un vieux routier de cette discipline, il va découvrir que la mission est en réalité bien plus difficile que tout ce qu’il a connu au front...",
     "date_ajout": "2024-09-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1122128",
-    "titre": "Milked, scandales dans l'industrie laitière",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 8,
-    "note_recence": 8.5,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "doc",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321083715/s592/milked-scandales-dans-lindustrie-laitiere.jpg",
-    "synopsis": "MILKED est un long métrage documentaire d'actualité qui expose le blanchiment de l'industrie laitière néo-zélandaise. Le jeune militant Chris Huriwai parcourt le pays à la recherche de la vérité Sur la façon dont cette source de fierté nationale est devenue la plus grande menace de la nation. Le pays est rapidement passé d'une situation où il n'y avait pas de vaches à celui de plus grand exportateur de produits laitiers au monde, mais l'industrie semble échouer sur tous les plans.Avec des interviews de personnalités de premier plan comme le Dr Jane Goodall, l'écologiste et ancienne actrice Suzy Amis Cameron et le codirecteur de Cowspiracy, Keegan Kuhn ;  MILKED révèle des informations alarmantes sur l'impact de l'industrie sur l'environnement et la santé, ce qui nous amène à découvrir que nous sommes à l'aube de la plus grande catastrophe mondiale.",
-    "date_ajout": "2026-10-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1810749",
-    "titre": "Learning to Fly",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 7.6,
-    "note_recence": 10,
-    "note_globale": 8.8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/335727899/s592/de-ses-propres-ailes.jpg",
-    "synopsis": "Aisha McAdams, ancienne coureuse de compétition devenue photographe, entreprend un voyage pour documenter les triomphes et les épreuves de célèbres ultra-traileurs, parmi lesquels Jim Walmsley et Eszter Csillag. À travers des voyages sur des courses mythiques – la Western States Endurance Run dans les montagnes de l'est de la Californie, l'Ultra-Trail du Mont-Blanc dans les Alpes françaises – le film s'émerveille devant ces athlètes qui maintiennent leur intensité tout au long de 160 kilomètres de sentiers de montagne, avec des dénivelés positifs de plusieurs centaines de mètres.",
-    "date_ajout": "2026-09-24",
     "expiration": {
       "status": "none",
       "label": null,
@@ -46093,58 +43837,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts437381",
-    "titre": "Choose Earth",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 7.9,
-        "episodes": 5
-      }
-    ],
-    "duree": "69 min/ép.",
-    "runtime_minutes": 69,
-    "note_avis": 7.9,
-    "note_recence": 9.7,
-    "note_globale": 8.8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/330115821/s592/choose-earth.jpg",
-    "synopsis": "Filmée entre 2014 et 2024, Choose Earth suit l'artiste Anne de Carbuccia à la rencontre des Protecteurs de la Terre, ces voix engagées pour la planète. À travers images saisissantes et témoignages forts, la série explore un monde en mutation : adaptations, pertes culturelles, mobilisations de la jeunesse… Une époque où technologie et société portent aussi l'espoir.",
-    "date_ajout": "2026-04-23",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1340473",
     "titre": "Reflect",
     "type": "film",
@@ -46576,50 +44268,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1462161",
-    "titre": "The Blue Angels",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 7.3,
-    "note_recence": 9.4,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/345915497/s592/the-blue-angels.jpg",
-    "synopsis": "Le documentaire The Blue Angels suit la nouvelle promotion du célèbre escadron de démonstration de la Navy et du Corps des Marines durant une saison où s'enchaînent entraînements intensifs et acrobaties aériennes à couper le souffle, ainsi que les vétérans qui effectueront leurs derniers vols cette année.",
-    "date_ajout": "2024-05-23",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1001508",
     "titre": "Queenpins",
     "type": "film",
@@ -46706,50 +44354,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/260247697/s592/crisis-in-six-scenes.jpg",
     "synopsis": "Une comédie qui se déroule dans les années 1960 pendant les périodes troublées aux États-Unis lorsqu'une famille de banlieue de classe moyenne est visitée par un invité qui chamboule complètement sa maison.",
     "date_ajout": "2017-03-23",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1488590",
-    "titre": "Tax Wars - La guerre des impôts",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 7.7,
-    "note_recence": 9.4,
-    "note_globale": 8.6,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/318385002/s592/tax-wars.jpg",
-    "synopsis": "Dans les pas d'experts militant pour la taxation des profits des multinationales, ce documentaire explore façon Star Wars les enjeux planétaires du combat pour la justice fiscale qui gagne du terrain, de l’Union européenne à la Zambie en passant par l'Inde et le Chili.",
-    "date_ajout": "2026-02-02",
     "expiration": {
       "status": "none",
       "label": null,
@@ -46938,63 +44542,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/172775619/s592/aniara.jpg",
     "synopsis": "Dans un futur proche, la Terre est devenue inhabitable. L'humanité n'a alors qu'un seul objectif : partir vivre sur Mars. C'est la mission d'ANIARA, un immense navire spatial, qui doit transporter en trois semaines la population humaine jusqu'à cette nouvelle planète. Mais, au milieu du trajet, une collision avec une comète force le vaisseau à dévier complètement de sa trajectoire. Les conséquences sont claires : si l'équipage ne trouve pas de solution, le vaisseau sera condamné à errer dans l'espace et ce qui devait n'être qu'un court trajet se transformerait en un voyage d'une vie entière…",
     "date_ajout": "2026-03-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts52822",
-    "titre": "Opération Roméo",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2017,
-        "note": 7.5,
-        "episodes": 10
-      }
-    ],
-    "duree": "108 min/ép.",
-    "runtime_minutes": 108,
-    "note_avis": 7.5,
-    "note_recence": 7.3,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm",
-      "trl",
-      "scf",
-      "war",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/242247886/s592/the-same-sky.jpg",
-    "synopsis": "Dans un Berlin coupé en deux, en pleine période de Guerre froide, un agent est-allemand a pour mission de séduire une jeune femme en Allemagne de l’Ouest. De chaque côté du mur qui les sépare, deux familles aux destins croisés côtoient tour à tour dissidents est-allemands et informateurs, escrocs et agents de l’Ouest, diplomates anglais et américains. Mais même quand les idéologies parviennent à ériger un mur de séparation entre les Berlinois, la seule chose qu’ils peuvent continuer à partager, c’est « le même ciel » au-dessus de leurs têtes !",
-    "date_ajout": "2025-11-21",
     "expiration": {
       "status": "none",
       "label": null,
@@ -47824,61 +45371,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts473771",
-    "titre": "Earnhardt",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 8.7,
-        "episodes": 4
-      }
-    ],
-    "duree": "62 min/ép.",
-    "runtime_minutes": 62,
-    "note_avis": 8.7,
-    "note_recence": 9.7,
-    "note_globale": 9.2,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm",
-      "hst",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/332167965/s592/earnhardt.jpg",
-    "synopsis": "L'histoire méconnue de l'ascension de Dale Earnhardt Sr. au rang de figure emblématique de la NASCAR. Son charme a résonné au-delà du sport, lui apportant gloire et fortune. Une exploration intime de l'influence d'une icône de la classe ouvrière sur sa famille et le monde de la course automobile.",
-    "date_ajout": "2025-05-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts394585",
     "titre": "The Bondsman",
     "type": "serie",
@@ -47981,53 +45473,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm478578",
-    "titre": "Intimations of Immortality",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 01min",
-    "runtime_minutes": 61,
-    "note_avis": 7.7,
-    "note_recence": 7.6,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm",
-      "trl",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320350400/s592/intimations-of-immortality.jpg",
-    "synopsis": "L'icône du cinéma Susan Sarandon, oscarisée, et le peintre arménien Tigran Tsitoghdzyan discutent du temps, de l'identité et de la perception de la beauté et du vieillissement, deux valeurs apparemment contradictoires dans notre société moderne dominée par les réseaux sociaux, tandis qu'il réalise son portrait lors d'une séance hors du temps.  Avec ce film, le réalisateur met en branle sa théorie sur la poétique de l'art cinématographique en recréant les souvenirs sensoriels d'un artiste à travers une narration non linéaire, exigeante et pourtant fascinante.\n",
-    "date_ajout": "2026-06-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm31277",
     "titre": "Sous surveillance",
     "type": "film",
@@ -48106,103 +45551,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/321088289/s592/misplaced.jpg",
     "synopsis": "Un homme rongé par le chagrin perd la capacité de parler après la mort de sa mère. Il demande l'aide d'un médecin non conventionnel avec des résultats inattendus.",
     "date_ajout": "2026-04-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1584960",
-    "titre": "The King of Color",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 22min",
-    "runtime_minutes": 82,
-    "note_avis": 6.9,
-    "note_recence": 9.7,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341405599/s592/the-pantone-guy.jpg",
-    "synopsis": "À 96 ans, Lawrence Herbert revient sur sa vie, de son enfance à Brooklyn pendant la Grande Dépression à la création du système Pantone Matching System, qui a révolutionné l'utilisation de la couleur dans le monde entier.",
-    "date_ajout": "2026-05-19",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts471094",
-    "titre": "Octopus!",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 7.2,
-        "episodes": 2
-      }
-    ],
-    "duree": "39 min/ép.",
-    "runtime_minutes": 39,
-    "note_avis": 7.2,
-    "note_recence": 9.7,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/330814914/s592/octopus.jpg",
-    "synopsis": "Ce documentaire parle de se faire tuer par sa maîtresse, de se perdre au Mexique, de trouver une licorne, d'une quilteuse de compétition, de Tracy Morgan et de l'exploration de notre lien avec ce qui pourrait être un extraterrestre. En d'autres termes, c'est un documentaire sur les poulpes. Raconté par Phoebe Waller-Bridge.",
-    "date_ajout": "2025-05-08",
     "expiration": {
       "status": "none",
       "label": null,
@@ -48556,50 +45904,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1593554",
-    "titre": "Pet Farm",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 23min",
-    "runtime_minutes": 83,
-    "note_avis": 7.2,
-    "note_recence": 9.4,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/324770409/s592/pet-farm.jpg",
-    "synopsis": "Inspiré par une expérience scientifique russe des années 1970 sur la domestication des renards, Joakim se lance dans l'art de la sélection génétique et du dressage, réalisant ainsi son rêve d'enfance : posséder sa propre meute de renards.",
-    "date_ajout": "2026-10-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts81974",
     "titre": "Kally's Mashup, la voix de la pop",
     "type": "serie",
@@ -48779,53 +46083,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/262892251/s592/de-piraten-van-hiernaast.jpg",
     "synopsis": "Une petite ville se retrouve chamboulée quand une famille de pirates pose son ancre dans le quartier. Les respectables habitants ont en effet un peu de mal à s'habituer au bateau-maison et au requin de garde de leurs nouveaux voisins gentils mais exubérants. Rapidement, Michel, 12 ans, noue une amitié avec Billy, jeune pirate de 13 ans. En plus des préjugés de leurs communautés, les nouveaux amis devront affronter Cornelius, le pirate le plus dangereux des mers, qui a retrouvé la trace de la famille de Billy.",
     "date_ajout": "2026-06-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm348392",
-    "titre": "The Last Shaman",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 23min",
-    "runtime_minutes": 83,
-    "note_avis": 6.6,
-    "note_recence": 7.3,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm",
-      "fml",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/30010318/s592/the-last-shaman.jpg",
-    "synopsis": "Le dernier rempart d'un jeune homme atteint d'une sévère dépression nerveuse : un voyage en Amazonie pour se prêter à un ancien rituel hallucinatoire.",
-    "date_ajout": "2026-10-08",
     "expiration": {
       "status": "none",
       "label": null,
@@ -49565,50 +46822,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm821542",
-    "titre": "Beyond the Wasteland",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 6.3,
-    "note_recence": 8.8,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/301067549/s592/beyond-the-wasteland.jpg",
-    "synopsis": "Beyond the Wasteland s'intéresse aux fans de la saga Mad Max, qui partout sur la planète, ont décidé de consacrer une partie de leur vie à l'œuvre de George Miller.",
-    "date_ajout": "2026-06-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm2976171",
     "titre": "Assassin Within",
     "type": "film",
@@ -49644,50 +46857,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/350897833/s592/assassin-within.jpg",
     "synopsis": "Un assassin capturé. Emprisonné dans une simulation contrôlée par une IA. Plus il creuse, plus la vérité éclate : ce n'est pas une simple prison. C'est un interrogatoire. Il doit s'échapper avant qu'ils ne lui extorquent les secrets enfouis dans son esprit.",
     "date_ajout": "2026-10-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1197400",
-    "titre": "Horror Family",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 14min",
-    "runtime_minutes": 74,
-    "note_avis": 9,
-    "note_recence": 8.8,
-    "note_globale": 8.9,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/271582525/s592/horror-family.jpg",
-    "synopsis": "Alberto Luis Galateo était un monstre du football dans les années 30. Il a disputé une Coupe du monde avec l'équipe nationale argentine et a été la star de plusieurs équipes. Mais chez lui, le monstre exerçait la violence familiale, jusqu'à ce qu'un dimanche, trois coups de feu aient déclenché une émeute dans les rues d'un quartier calme.",
-    "date_ajout": "2026-09-09",
     "expiration": {
       "status": "none",
       "label": null,
@@ -50437,51 +47606,6 @@ var PRIME_CATALOG_DATA = [
       "packageExpirations": {
         "prv": "2027-02-22"
       }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1968520",
-    "titre": "Meal Ticket",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 6.2,
-    "note_recence": 10,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/343227470/s592/meal-ticket.jpg",
-    "synopsis": "Découvrez l'histoire inédite des 47 ans d'histoire du McDonald's All American Game et des stars d'hier, d'aujourd'hui et de demain qui l'ont façonné.",
-    "date_ajout": "2026-03-19",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": true,
     "on_tnt": false
@@ -51349,50 +48473,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1304066",
-    "titre": "Caterpillar",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 51min",
-    "runtime_minutes": 111,
-    "note_avis": 6.4,
-    "note_recence": 9.7,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/338063001/s592/caterpillar.jpg",
-    "synopsis": "Endlessly struggling to feel seen, David becomes infatuated with a mysterious company's promise to transform people's lives by permanently changing the color of their eyes. After traveling to India to get the controversial procedure, he begins to question if this artificial beauty will give him the fulfillment he truly seeks.",
-    "date_ajout": "2026-07-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts522949",
     "titre": "Fist of the North Star: HOKUTO NO KEN",
     "type": "serie",
@@ -51726,59 +48806,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/291391712/s592/rogue-agent.jpg",
     "synopsis": "Focus sur le parcours Robert Hendy-Freegard. Cet ancien barman s'est fait passer pendant près de dix ans pour un agent des services secrets britanniques. Il parvenait à convaincre ses victimes qu'elles étaient les proies de terroristes de l'IRA. Contre un apport financier important, il les protégeait en tant que membre du MI5.",
     "date_ajout": "2024-06-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts445047",
-    "titre": "Taurasi: quitter le match",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 7.1,
-        "episodes": 3
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 7.1,
-    "note_recence": 9.7,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/333706431/s592/taurasi-quitter-le-match.jpg",
-    "synopsis": "La légende du basket Diana Taurasi révèle les dessous de sa vie et de sa carrière - dans les moindres détails.",
-    "date_ajout": "2025-08-07",
     "expiration": {
       "status": "none",
       "label": null,
@@ -52141,98 +49168,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1556974",
-    "titre": "Les jours sauvages",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 20min",
-    "runtime_minutes": 80,
-    "note_avis": 7.8,
-    "note_recence": 9.4,
-    "note_globale": 8.6,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321949526/s592/les-jours-sauvages.jpg",
-    "synopsis": "4 amis savoyards ont une idée folle : 50 jours d’autonomie en Alaska dans le massif du Denali. Des amitiés se forgent et sont mises à l’épreuve de l’engagement au fur et à mesure de cette aventure, où la beauté des paysages contraste avec la rudesse des éléments. Des plaines jusqu’aux sommets, en passant par les rivières et l’océan, ce film nous entraîne au rythme d’un carnet de bord qui nous plonge dans l’intimité et la quête de ces 4 compères aussi inspirants qu’attachants.",
-    "date_ajout": "2026-07-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm247654",
-    "titre": "Life on the Line",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 7.2,
-    "note_recence": 7,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "doc",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/10297767/s592/sur-la-corde-raide.jpg",
-    "synopsis": "Le risque est le quotidien de Beau, qui exerce l'une des professions les plus dangereuses au monde : celle d'électricien en lignes haute tension. Dévoué à son travail ainsi qu'à Bailey, sa nièce qui attend un enfant, Beau va devoir faire face à une terrible tempête qui s'abat sur la ville. Au péril de sa vie, il va se battre pour rétablir le courant et ainsi sauver l'avenir de sa famille.",
-    "date_ajout": "2026-07-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts55221",
     "titre": "Too Old to Die Young",
     "type": "serie",
@@ -52465,60 +49400,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/241846558/s592/lenfant-que-je-nattendais-pas.jpg",
     "synopsis": "Accusée de tentative d'infanticide, une mère accomplie ayant fait un déni de grossesse cherche à se reconstruire.",
     "date_ajout": "2026-03-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts466403",
-    "titre": "L'escromantique : Mais qui est ce Jason Porter, p***** ?",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 6.4,
-        "episodes": 2
-      }
-    ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
-    "note_avis": 6.4,
-    "note_recence": 9.7,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "doc",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/335764286/s592/romcon-who-the-f-k-is-jason-porter.jpg",
-    "synopsis": "Ce documentaire glaçant révèle comment la romance parfaite d’Heather Rovert, courtière en immobilier à Toronto, vole en éclats lorsqu’elle découvre que son compagnon Jason Porter, est un criminel notoire pour son passé d’arnaques. Lorsqu’elle fait le lien avec d’autres victimes, Heather se transforme de victime en enquêtrice déterminée, risquant tout pour révéler les mensonges et obtenir justice.",
-    "date_ajout": "2025-06-13",
     "expiration": {
       "status": "none",
       "label": null,
@@ -52828,121 +49709,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/327271151/s592/newtopia.jpg",
     "synopsis": "Jae-yoon, enrôlé à l'armée, et sa petite amie Young-joo, rompent au téléphone après une des malentendus. Mais une épidémie de zombies secoue la planète. L'état d’urgence est déclaré, un avion s'écrase en ville et Jae-yoon et son unité sont coincés sur un gratte-ciel de Séoul. Young-joo emprunte les rues infestées de zombies pour le retrouver. Leur amour survivra-t-il à l'apocalypse ?",
     "date_ajout": "2025-02-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts56210",
-    "titre": "Les Grands Mythes",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2016,
-    "annee_fin": 2021,
-    "annee_moyenne": 2019,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2016,
-        "note": 8.6,
-        "episodes": 20
-      },
-      {
-        "saison": 2,
-        "annee": 2019,
-        "note": 8.6,
-        "episodes": 10
-      },
-      {
-        "saison": 3,
-        "annee": 2021,
-        "note": 8.6,
-        "episodes": 10
-      }
-    ],
-    "duree": "26 min/ép.",
-    "runtime_minutes": 26,
-    "note_avis": 8.6,
-    "note_recence": 7.9,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "doc",
-      "fnt",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/10389567/s592/les-grands-mythes.jpg",
-    "synopsis": "Réalisée à partir d’une animation originale et d’iconographies choisies dans l’ensemble de l’histoire de l’art, cette série de vingt épisodes raconte les mythes grecs. Une création tout en images, qui égrène les destins passionnants des dieux, des héros, et des grandes figures de la mythologie.",
-    "date_ajout": "2023-06-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
-    "id": "jw-tm200459",
-    "titre": "Dixieland",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 7,
-    "note_recence": 6.7,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "doc",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/197750302/s592/dixieland.jpg",
-    "synopsis": "À sa sortie de prison, Kermit retourne s'installer sur un terrain de mobile-homes tels qu'on en trouve dans le sud profond des États-Unis. Décidé à recommencer une nouvelle vie, il tombe amoureux de sa jolie voisine, Rachel, et lui fait la promesse de trouver rapidement de l'argent pour aider sa mère malade. Son passé de jeune homme violent et de criminel ne tarde alors pas à le rattraper…",
-    "date_ajout": "2025-12-08",
     "expiration": {
       "status": "none",
       "label": null,
@@ -53914,52 +50680,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/301677430/s592/mastemah.jpg",
     "synopsis": "Après la mort brutale d’un proche lors d’une séance d’hypnose qu’elle animait, Louise, jeune psychiatre tente de se reconstruire en s’installant dans un petit village de l’Aubrac. L’arrivée d’un nouveau patient au comportement étrange va la plonger dans une spirale infernale. Sa vie et celles des autres vont devenir un véritable enfer.",
     "date_ajout": "2024-09-02",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm314907",
-    "titre": "Spookers",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 23min",
-    "runtime_minutes": 83,
-    "note_avis": 6,
-    "note_recence": 7.3,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "cmy",
-      "doc",
-      "hrr"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/300636036/s592/spookers.jpg",
-    "synopsis": "Documentaire du réalisateur néo-zélandais Florian Habicht sur Spookers, la maison hantée la plus populaire de l'hémisphère sud, située à Auckland.\n",
-    "date_ajout": "2026-09-04",
     "expiration": {
       "status": "none",
       "label": null,
@@ -55436,60 +52156,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts512707",
-    "titre": "Pelayo : Au-delà des limites",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2026,
-        "note": 6.3,
-        "episodes": 3
-      }
-    ],
-    "duree": "51 min/ép.",
-    "runtime_minutes": 51,
-    "note_avis": 6.3,
-    "note_recence": 10,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/340687408/s592/pelayo-beyond-the-limit.jpg",
-    "synopsis": "Après plus de vingt ans de lutte contre le trafic de drogue, Pelayo décide de remonter la piste jusqu'à sa source. En Colombie, il intègre des unités d'élite de l'armée et participe à de véritables opérations dans la jungle, le long des rivières et en montagne. Au cours de ce périple, il découvre que derrière chaque cargaison se cachent la misère et l'abandon. Pelayo : más allá del límite révèle la face sombre d'une guerre mondiale.",
-    "date_ajout": "2026-01-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts504900",
     "titre": "Miss Sophie : Same Procedure As Every Year",
     "type": "serie",
@@ -55896,52 +52562,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/331775118/s592/motorheads-2025.jpg",
     "synopsis": "Dans une ville du Midwest en quête de renouveau, un groupe d'adolescents que tout oppose se découvre une passion commune pour les courses de rue et tente de se faire une place dans l'univers impitoyable du lycée.",
     "date_ajout": "2025-05-20",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm358689",
-    "titre": "Les sacrifiés du peloton",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 11min",
-    "runtime_minutes": 71,
-    "note_avis": 7.4,
-    "note_recence": 7.3,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "spt",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/308536571/s592/wonderful-losers-a-different-world.jpg",
-    "synopsis": "Les cyclistes en queue de peloton sont souvent perçus comme des perdants. Or, ces équipiers, appelés aussi porteurs d’eau, renoncent à l’espoir d’une victoire personnelle et sacrifient leur carrière au profit des stars de leur équipe. Arūnas Matelis a suivi ces guerriers du cyclisme professionnel sur plusieurs années durant le Tour d’Italie. Depuis le point de vue des médecins, nous découvrons le quotidien de ces perdants magnifiques entre les chutes, les déconvenues, et cette énergie qui les porte toujours vers l’avant pour l’équipe.",
-    "date_ajout": "2026-10-05",
     "expiration": {
       "status": "none",
       "label": null,
@@ -57031,50 +53651,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm833265",
-    "titre": "QT8 : Tarantino en 8 films",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 43min",
-    "runtime_minutes": 103,
-    "note_avis": 7.3,
-    "note_recence": 7.9,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/192162072/s592/qt8-the-first-eight.jpg",
-    "synopsis": "À travers l’histoire d’une carrière de cinéaste déjà iconique marquée par 8 films cultes, de Reservoir Dogs à Hateful 8, QT8 remonte la filmographie de Quentin Tarantino, le réalisateur le plus vénéré de ces 30 dernières années",
-    "date_ajout": "2025-06-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm323737",
     "titre": "Je m'appelle Bernadette",
     "type": "film",
@@ -57166,105 +53742,6 @@ var PRIME_CATALOG_DATA = [
     },
     "on_prime": true,
     "on_tnt": false
-  },
-  {
-    "id": "jw-tm200470",
-    "titre": "We Are Still Here",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 23min",
-    "runtime_minutes": 83,
-    "note_avis": 5.7,
-    "note_recence": 6.7,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "doc",
-      "hrr",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/250079424/s592/we-are-still-here.jpg",
-    "synopsis": "Après le décès de leur fils dans un accident de voiture, Paul et Anne décident d’aller vivre à la campagne, dans la paisible Nouvelle-Angleterre, afin de commencer une nouvelle vie. Mais, sans le savoir, le couple en deuil va devenir la proie d’une famille d'esprits vengeurs qui habitent dans leur nouvelle maison. Paul et Anne seront alors amenés à découvrir que le village, si tranquille en apparence, où ils résident désormais, cache en fait un sombre et terrifiant secret…",
-    "date_ajout": "2024-10-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts429708",
-    "titre": "L'Armée des Romantiques",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 8.4,
-        "episodes": 4
-      }
-    ],
-    "duree": "48 min/ép.",
-    "runtime_minutes": 48,
-    "note_avis": 8.4,
-    "note_recence": 9.4,
-    "note_globale": 8.9,
-    "etoiles": 5,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/323088184/s592/larmee-des-romantiques.jpg",
-    "synopsis": "Au cours du turbulent XIXe siècle, un certain nombre de brillants artistes français ont développé le mouvement romantique à Paris : les écrivains Victor Hugo, Alexandre Dumas, George Sand, Honoré de Balzac et Charles Baudelaire, le peintre Eugène Delacroix et le compositeur Hector Berlioz, entre autres, ont changé la façon de voir l'art et créé des œuvres durables qui ont inspiré le monde entier jusqu'à aujourd'hui.",
-    "date_ajout": "2026-01-19",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
   },
   {
     "id": "jw-tm1531715",
@@ -57409,50 +53886,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/311291003/s592/ma-capacite-de-mort-instantanee-est-tellement-maitrisee-que-personne-dans-cet-autre-monde-na-une-chance-contre-moi.jpg",
     "synopsis": "Lors d’un voyage scolaire, des lycéens sont soudainement propulsés dans un monde parallèle, où chacun se voit offrir par un « sage » énigmatique un pouvoir surpuissant. Tous, hormis Tomochika et Takatô qui, ayant été jugés incapables, ont lâchement été abandonnés et laissés comme appât pour distraire le dragon les ayant attaqués. À la merci de tous les dangers, le jeune homme se révèle alors doté d’une capacité dépassant toutes les limites de cet univers. Si bien que ce dernier éveille la curiosité du gouvernement, déterminé à s’en emparer par tous les moyens…",
     "date_ajout": "2024-01-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1306173",
-    "titre": "SLAY",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 8.5,
-    "note_recence": 9.1,
-    "note_globale": 8.8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302916549/s592/slay-2022.jpg",
-    "synopsis": "Un documentaire qui explore les coulisses de l'industrie de la mode pour enquêter sur la fourrure, le cuir et la laine, le greenwashing et l'impact des marques utilisant des peaux d'animaux sur les personnes, la planète et les animaux.",
-    "date_ajout": "2026-10-07",
     "expiration": {
       "status": "none",
       "label": null,
@@ -57814,59 +54247,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts467196",
-    "titre": "Chasseur de mafia",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 7.3,
-        "episodes": 5
-      }
-    ],
-    "duree": "42 min/ép.",
-    "runtime_minutes": 42,
-    "note_avis": 7.3,
-    "note_recence": 9.7,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/324751991/s592/chasseur-de-mafia.jpg",
-    "synopsis": "Les coulisses de l'opération \"Eurêka\", coup de filet géant mené en 2023 dans huit pays européens contre la redoutable pieuvre calabraise 'Ndrangheta. Une traque haletante, de la petite ville allemande de Siegen jusqu'à San Luca, fief de l'organisation criminelle.",
-    "date_ajout": "2026-09-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm813695",
     "titre": "After: Chapitre 2",
     "type": "film",
@@ -58009,51 +54389,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1495985",
-    "titre": "Group Therapy",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 6.7,
-    "note_recence": 9.4,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/328875501/s592/group-therapy.jpg",
-    "synopsis": "Group Therapy réunit des humoristes pour discuter de santé mentale, mêlant récits personnels touchants et humour décomplexé, révélant un lien fort entre leur parcours sur scène et leur bien-être.",
-    "date_ajout": "2025-10-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm866734",
     "titre": "Le Monde de John",
     "type": "film",
@@ -58135,50 +54470,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/335911607/s592/generation-p.jpg",
     "synopsis": "Dans le chaos hallucinatoire du Moscou des années 1990, un poète devenu publicitaire évolue dans un monde de mondialisme mafieux et de marketing occulte. Inspiré du roman culte de Victor Pelevin, il découvre que la réalité elle-même est fabriquée par des politiciens virtuels.",
     "date_ajout": "2026-05-19",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm927272",
-    "titre": "Childhood 2.0",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 7.4,
-    "note_recence": 8.2,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/248342412/s592/childhood-2-0.jpg",
-    "synopsis": "Pour la première fois dans l’histoire, la maladie mentale et le suicide sont devenus l’une des plus grandes menaces pour les enfants d’âge scolaire.  De nombreux parents considèrent encore les dangers comme étant principalement physiques et externes, mais ils passent à côté du véritable danger : les enfants passent plus de temps en ligne et moins de temps à s’engager dans la vie réelle, à jouer librement et à être autonomes.  Quels sont les effets sur la santé mentale, physique et spirituelle de la prochaine génération ?  L’enfance n’a pas beaucoup changé depuis des millénaires, mais nous sommes dans l’Enfance 2.0.",
-    "date_ajout": "2026-01-05",
     "expiration": {
       "status": "none",
       "label": null,
@@ -58786,50 +55077,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm221877",
-    "titre": "Man vs. Snake",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 7,
-    "note_recence": 6.7,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/187878594/s592/man-vs-snake.jpg",
-    "synopsis": "L'histoire vraie, inspirante et scandaleuse, d'un homme en quête du plus haut score jamais obtenu dans un jeu vidéo.",
-    "date_ajout": "2026-06-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1175081",
     "titre": "Terror On The Prairie",
     "type": "film",
@@ -58868,51 +55115,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/306432004/s592/terror-on-the-prairie.jpg",
     "synopsis": "Une famille de pionniers se bat contre une bande de hors-la-loi qui les terrorise dans leur ferme nouvellement construite dans les plaines du Montana.",
     "date_ajout": "2022-06-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1510240",
-    "titre": "Ellis Park",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 7.3,
-    "note_recence": 9.7,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "msc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/335162331/s592/ellis-park.jpg",
-    "synopsis": "Le multi-instrumentiste Warren Ellis, du groupe The Dirty Three et de Nick Cave and the Bad Seeds, a cofondé un sanctuaire pour animaux sauvages à Sumatra avec Femke den Haas. Ce documentaire offre un regard intimiste sur sa vie, sa créativité et le travail d'équipe inspirant dédié au sauvetage et au soin des animaux victimes du trafic.",
-    "date_ajout": "2026-09-11",
     "expiration": {
       "status": "none",
       "label": null,
@@ -59352,58 +55554,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts217531",
-    "titre": "La Conquête de la Lune : Toute l'histoire",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2019,
-        "note": 8.3,
-        "episodes": 3
-      }
-    ],
-    "duree": "112 min/ép.",
-    "runtime_minutes": 112,
-    "note_avis": 8.3,
-    "note_recence": 7.9,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/240588528/s592/la-conquete-de-la-lune-toute-lhistoire.jpg",
-    "synopsis": "Nourrie d’images d’archives exceptionnelles dont la majorité demeurent inédites à ce jour, cette série documentaire en trois parties nous raconte l'histoire de la conquête de la lune qui, en un peu plus d'une décennie, a mené au premier alunissage le 20 juillet 1969.",
-    "date_ajout": "2025-10-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1253617",
     "titre": "L'histoire épatante de M Fikry et autres trésors",
     "type": "film",
@@ -59486,50 +55636,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/322847370/s592/mothers-instinct.jpg",
     "synopsis": "Au début des années 60, deux voisines, Alice et Celine, par ailleurs meilleures amies, mènent une vie paisible et sans histoires entre leurs pelouses bien entretenues, leurs maris prospères et leurs deux fils du même âge. Cette harmonie parfaite se brise tout à coup suite à un tragique accident. La culpabilité, la suspicion et la paranoïa se combinent pour briser leur lien fraternel.",
     "date_ajout": "2024-06-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1217035",
-    "titre": "La générale",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 6.6,
-    "note_recence": 8.8,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/301272052/s592/la-generale.jpg",
-    "synopsis": "Dans son lycée, Christine est professeure principale d’une classe de seconde. Pour ses élèves, un seul objectif : passer en “générale”. Plus qu’une filière, c’est un passeport social. Mais Christine a vu, année après année, son métier se transformer. Entourée d’une bande de profs, elle va se battre pour arracher ces “gosses” au déterminisme social.",
-    "date_ajout": "2025-10-01",
     "expiration": {
       "status": "none",
       "label": null,
@@ -59775,73 +55881,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/327115079/s592/fabrice-eboue-adieu-hier.jpg",
     "synopsis": "Réseaux sociaux, militantisme exacerbé, Cancel Culture, la crise du Covid n’aura fait qu’accélérer l’émergence du nouveau monde… Fabrice Eboué se sent déjà dépassé… Après le succès de « Plus Rien à Perdre » et cette longue période de pandémie, Fabrice Eboué revient sur scène avec son quatrième et nouveau spectacle !",
     "date_ajout": "2023-04-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts18848",
-    "titre": "Les Héritiers",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2014,
-    "annee_fin": 2017,
-    "annee_moyenne": 2016,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2014,
-        "note": 7.6,
-        "episodes": 10
-      },
-      {
-        "saison": 2,
-        "annee": 2015,
-        "note": 7.6,
-        "episodes": 7
-      },
-      {
-        "saison": 3,
-        "annee": 2017,
-        "note": 7.6,
-        "episodes": 9
-      }
-    ],
-    "duree": "57 min/ép.",
-    "runtime_minutes": 57,
-    "note_avis": 7.6,
-    "note_recence": 7,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/72666414/s592/les-heritiers.jpg",
-    "synopsis": "Quatre enfants d'un artiste mondialement connu récemment décéde héritent d'une fortune monumentale. La gestion de l'héritage va détruire leurs relations...",
-    "date_ajout": "2026-01-06",
     "expiration": {
       "status": "none",
       "label": null,
@@ -60210,107 +56249,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-ts531097",
-    "titre": "Meurtre: mode d'emploi",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2026,
-        "note": 7.3,
-        "episodes": 3
-      }
-    ],
-    "duree": "62 min/ép.",
-    "runtime_minutes": 62,
-    "note_avis": 7.3,
-    "note_recence": 10,
-    "note_globale": 8.7,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "doc",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/346536733/s592/murder-101.jpg",
-    "synopsis": "Les équipes créatives qui ont conçu le podcast éponyme et la Trilogie Spider-Man de Marvel vous proposent un docudrame révolutionnaire. À la fois série pour ados, masterclass, et enquête criminelle haletante, MEURTRE : MODE D'EMPLOI est centré sur un cours de sociologie dans un lycée du Tennessee rural visant à rouvrir une affaire classée de longue date pour traquer un tueur contemporain.",
-    "date_ajout": "2026-07-13",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm328038",
-    "titre": "Ötzi, l'homme des glaces",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2017,
-    "annee_moyenne": 2017,
-    "duree": "1h 36min",
-    "runtime_minutes": 96,
-    "note_avis": 6.4,
-    "note_recence": 7.3,
-    "note_globale": 6.9,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/243417778/s592/der-mann-aus-dem-eis.jpg",
-    "synopsis": "Il y a plus de 5 000 ans, Kelab, sa famille et sa tribu vivaient paisiblement dans les Alpes de l'Ötztal. En tant que leader de la communauté, son travail consiste à s'occuper du sanctuaire sacré de la colonie. Mais un jour, quand Kelab revient de la chasse, il se rend compte que la colonie a été envahie et que toute la tribu, sa femme et son fils, ont été assassinés et que le sanctuaire a été volé. Conduit par la colère et le désir de vengeance, Kelab part à la recherche des assaillants…",
-    "date_ajout": "2025-06-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1385752",
     "titre": "L'Âme d'un champion",
     "type": "film",
@@ -60653,52 +56591,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1145164",
-    "titre": "Rooney",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
-    "note_avis": 6.2,
-    "note_recence": 8.8,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/263580821/s592/rooney.jpg",
-    "synopsis": "ROONEY est un documentaire captivant qui dévoile la vie et la carrière du meilleur attaquant de l'équipe d'Angleterre. Ce film offre un aperçu unique du parcours fulgurant de Wayne, de ses humbles débuts jusqu'à ce qu'il devienne un des plus grands noms du football.",
-    "date_ajout": "2022-02-11",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 10/02",
-      "daysLeft": 107,
-      "expirationDate": "2027-02-10",
-      "packageExpirations": {
-        "prv": "2027-02-10"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm827835",
     "titre": "Brothers In Arms : L'honneur Des Marines",
     "type": "film",
@@ -60835,96 +56727,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/207737206/s592/mortal.jpg",
     "synopsis": "Eric, un jeune américano-norvégien, s'est réfugié, seul, au cœur de la forêt, après avoir causé l'incendie d'une ferme, tuant 5 personnes, puis provoqué la mort accidentelle d’une sixième personne. Arrêté par la police, il rencontre une psychologue, Christine, qui semble pouvoir l'aider. Ensemble, ils découvrent vite qu’Eric a en réalité des pouvoirs surnaturels, qu'il ne maîtrise pas…",
     "date_ajout": "2025-12-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1476845",
-    "titre": "La chasse au Lady Olive et au sous-marin allemand",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 15min",
-    "runtime_minutes": 75,
-    "note_avis": 6.9,
-    "note_recence": 9.4,
-    "note_globale": 8.2,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322035382/s592/the-hunt-for-lady-olive-et-the-german-submarine.jpg",
-    "synopsis": "Et si vous pouviez réécrire l'histoire en trouvant deux épaves perdues depuis un siècle? Ce film captivant marque l'aboutissement d'une recherche épique de quatre ans pour retrouver le « Q Ship » Lady Olive de la Royal Navy et le sous-marin allemand UC18.",
-    "date_ajout": "2026-09-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm369818",
-    "titre": "Echo",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 7,
-    "note_recence": 7.6,
-    "note_globale": 7.3,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354526391/s592/echo-2016.jpg",
-    "synopsis": "Hanna, une dame de 66 ans est impliquée dans un accident de voiture ou meurt Luan un jeune immigrant clandestine. Pendant ce temps au Kosovo vit Ismet 71 ans qui est sans nouvelles de son fils, Luan.",
-    "date_ajout": "2026-04-08",
     "expiration": {
       "status": "none",
       "label": null,
@@ -61361,50 +57163,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/139465694/s592/incantations.jpg",
     "synopsis": "Dans sa petite ferme au cœur des montagnes, la jeune Albrun mène avec sa fille une existence modeste et retirée du monde. Indépendante et travailleuse, elle tache d'ignorer depuis des années les quolibets des villageois, qui l'accusent d'être la descendante d'une sorcière.  Un matin, un prêtre des environs lui remet un cadeau des plus étranges : le crâne de son aïeule, sorcière avérée selon lui. La raison d'Albrun vacille alors: que signifient les visions et comportements étranges qu'elle a depuis quelques temps ? Quel sang coule réellement dans ses veines ?",
     "date_ajout": "2025-03-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1000851",
-    "titre": "Nose",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 10min",
-    "runtime_minutes": 70,
-    "note_avis": 6.4,
-    "note_recence": 8.5,
-    "note_globale": 7.5,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/320732456/s592/nose.jpg",
-    "synopsis": "La Maison Dior dévoile les coulisses de la création de ses parfums. Voyageurs dans l’âme, Arthur de Kersauson et Clément Beauvais ont suivi François Demachy durant deux ans et à travers 14 pays, de Grasse aux confins du monde. Des voyages en quête d’inspiration et des matières premières les plus précieuses.",
-    "date_ajout": "2026-10-05",
     "expiration": {
       "status": "none",
       "label": null,
@@ -62552,50 +58310,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1191242",
-    "titre": "Oski",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 47min",
-    "runtime_minutes": 107,
-    "note_avis": 8.1,
-    "note_recence": 8.8,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/270368085/s592/oski.jpg",
-    "synopsis": "Le documentaire « Oski » suit le parcours du skateur Oskar Rozenberg, passé du statut de patineur de rue à celui d'athlète olympique. Il explore l'évolution du skateboard dans le courant dominant et les luttes d'Oski pour sa renommée et son identité alors qu'il vise une médaille d'or à Tokyo.",
-    "date_ajout": "2026-09-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm144050",
     "titre": "Insurrection",
     "type": "film",
@@ -63311,50 +59025,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1035909",
-    "titre": "The High Frontier: The Untold Story of Gerard K. O'Neill [OV]",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 7.5,
-    "note_recence": 8.5,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/307486926/s592/the-high-frontier-the-untold-story-of-gerard-k-oneill.jpg",
-    "synopsis": "The High Frontier raconte l'histoire inédite de Gerard K. O'Neill qui, en 1977, a écrit le livre The High Frontier: Human Colonies in Space, qui a déclenché un mouvement populaire pour construire des habitats semblables à la Terre dans l'espace afin de résoudre les plus grandes crises de la Terre. .",
-    "date_ajout": "2026-06-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1385696",
     "titre": "Your Lucky Day",
     "type": "film",
@@ -63686,51 +59356,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1595626",
-    "titre": "La Piste",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 7.7,
-    "note_recence": 9.7,
-    "note_globale": 8.7,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341674768/s592/la-piste-2025.jpg",
-    "synopsis": "La Piste raconte le parcours initiatique de trois amis qui poursuivent leurs rêves olympiques improbables dans la Bosnie d'après-guerre. S'entraînant sur la piste de luge criblée d'impacts de balles, vestige des Jeux olympiques d'hiver de 1984 à Sarajevo, le film pose une question essentielle : Quel avenir pour une génération dans les cendres ?",
-    "date_ajout": "2026-02-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1220458",
     "titre": "Kantara",
     "type": "film",
@@ -63844,106 +59469,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/174119906/s592/girlfriends-guide-to-divorce.jpg",
     "synopsis": "Lorsque son divorce est prononcé, une quadragénaire prend conseil auprès  de ses amies célibataires, et non celles qui sont mariées, pour  démarrer sa nouvelle vie.",
     "date_ajout": "2026-06-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1072394",
-    "titre": "Voices of My Ancestors",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 7.2,
-    "note_recence": 9.4,
-    "note_globale": 8.3,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322686032/s592/voices-of-my-ancestors.jpg",
-    "synopsis": "Pour la première fois depuis leur fuite de la guerre en Guinée-Bissau, Eny, peintre installé à Berlin, et sa sœur Titina, partent en voyage à travers l'Afrique de l'Ouest. Après 17 ans d'exil et la disparition de leur mère, ils sont guidés vers la terre de leurs ancêtres.",
-    "date_ajout": "2026-10-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts467132",
-    "titre": "Espionnage au lycée",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 6.3,
-        "episodes": 4
-      }
-    ],
-    "duree": "38 min/ép.",
-    "runtime_minutes": 38,
-    "note_avis": 6.3,
-    "note_recence": 9.7,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "cmy",
-      "crm",
-      "doc",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/330115658/s592/spy-high.jpg",
-    "synopsis": "Quand l'adolescent Blake Robbins porte plainte contre son lycée, déclarant qu'on l'espionne, cela déclenche un grand scandale aux implications alarmantes quant à la vie privée numérique.",
-    "date_ajout": "2025-04-08",
     "expiration": {
       "status": "none",
       "label": null,
@@ -64214,51 +59739,6 @@ var PRIME_CATALOG_DATA = [
       "packageExpirations": {
         "prv": "2026-10-31"
       }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1531022",
-    "titre": "The Great Warning",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 5,
-    "note_recence": 9.4,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322948263/s592/the-great-warning.jpg",
-    "synopsis": "Ce documentaire explore un événement apocalyptique sans précédent à travers le prisme de la science, de l'histoire et de la spiritualité. Il relate une enquête approfondie sur ce phénomène inédit qui menace la Terre.\n",
-    "date_ajout": "2026-07-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
     },
     "on_prime": true,
     "on_tnt": false
@@ -65126,51 +60606,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1550128",
-    "titre": "Beyond After",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 6.6,
-    "note_recence": 9.4,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321628033/s592/beyond-after.jpg",
-    "synopsis": "Beyond After est un documentaire qui explore l'impact social et culturel de la franchise After. Il révèle comment les romans d'Anna Todd sont devenus un phénomène cinématographique à travers des entretiens avec Hero Fiennes Tiffin, Josephine Langford et Anna Todd elle-même. Le film présente des témoignages émouvants de fans, illustrant leurs liens émotionnels profonds avec la franchise.",
-    "date_ajout": "2026-01-16",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts219086",
     "titre": "The Wall",
     "type": "serie",
@@ -65371,59 +60806,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/791553/s592/wolf-creek-2.jpg",
     "synopsis": "Mike Taylor est de retour à Wolf Creek.  Un jeune couple de touristes allemands, Katarina Schmidt et Rutger Enqvist, font la traversée de l’Australie en auto-stop. Ils visitent le site du cratère de Wolf Creek. N’ayant pas réussi à trouver de voiture pour les emmener ils décident de dormir sur place dans leur tente. Ils tombent sur le plus dangereux prédateur du coin : Mick Taylor, un bushman psychopathe...",
     "date_ajout": "2020-04-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts449126",
-    "titre": "Courtois, the Return of the Number 1",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 6,
-        "episodes": 4
-      }
-    ],
-    "duree": "40 min/ép.",
-    "runtime_minutes": 40,
-    "note_avis": 6,
-    "note_recence": 9.4,
-    "note_globale": 7.7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321252016/s592/courtois-the-return-of-the-number-1-2024.jpg",
-    "synopsis": "Une immersion inédite dans la carrière du gardien de but belge Thibaut Courtois. Celui qui s'est imposé comme une figure incontournable du football, notamment avec le Real Madrid, partage ici les moments clés de son ascension, ses défis personnels et professionnels et sa lutte pour maintenir son statut de numéro 1.",
-    "date_ajout": "2025-09-05",
     "expiration": {
       "status": "none",
       "label": null,
@@ -66024,69 +61406,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts269167",
-    "titre": "Outer Range",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2022,
-        "note": 7.1,
-        "episodes": 8
-      },
-      {
-        "saison": 2,
-        "annee": 2022,
-        "note": 7.1,
-        "episodes": 7
-      }
-    ],
-    "duree": "51 min/ép.",
-    "runtime_minutes": 51,
-    "note_avis": 7.1,
-    "note_recence": 8.8,
-    "note_globale": 8,
-    "etoiles": 5,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm",
-      "hst",
-      "trl",
-      "scf",
-      "wsn"
-    ],
-    "badge": "18",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/314470266/s592/outer-range.jpg",
-    "synopsis": "Royal Abbott est un éleveur du Wyoming. Il se bat pour conserver ses terres. Bientôt, il découvre un mystère en pleine nature...",
-    "date_ajout": "2022-04-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1914334",
     "titre": "Dis-le-moi tout bas",
     "type": "film",
@@ -66121,51 +61440,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/340039304/s592/dis-le-moi-tout-bas.jpg",
     "synopsis": "Tout est sous contrôle dans la vie de Kamila : études, vie sociale, son image... Mais le retour inattendu de ses voisins, les frères Di Bianco, après 7 ans d'absence, change tout. Thiago lui avait volé son premier baiser, Taylor était son meilleur ami, mais leur retour va chambouler l'univers de Kami. Arriveront-ils à surmonter le passé qui les lie ? Ou les choses vont-elles encore s'envenimer ?",
     "date_ajout": "2025-12-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1633512",
-    "titre": "Big Water Theory",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 23min",
-    "runtime_minutes": 83,
-    "note_avis": 7.8,
-    "note_recence": 9.7,
-    "note_globale": 8.8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/331572214/s592/big-water-theory.jpg",
-    "synopsis": "Suivez la kayakiste extrême Nouria Newman et deux amis d'enfance, tout au long  de leur expédition sur l’une des sections de rivière les plus difficiles au  monde : la Gorge Rondu de l’Indus, au Pakistan.  \"Big Water Theory\" documente la première descente intégrale de cette section de  rivière par une femme, un exploit qui fait entrer Nouria un peu plus dans la  légende de son sport.  Le film est une véritable anatomie de l'esprit d’aventure et du kayak de gros  volume, qui offre au grand public une immersion sans précédent dans le monde  méconnu de ce sport spectaculaire.  Avec en arrière plan les montagnes époustouflantes du Karakoram, les kayakistes mettent en lumière la nature insoupçonnée du kayak de gros volume, qui, loin d'être une lutte acharnée contre les éléments, se révèle être un jeu constant d'observation, de lecture de l'eau, et une quête d'harmonie avec une force naturelle tantôt clémente, tantôt impitoyable.",
-    "date_ajout": "2025-10-23",
     "expiration": {
       "status": "none",
       "label": null,
@@ -66594,59 +61868,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/13076975/s592/phoenix-forgotten.jpg",
     "synopsis": "20 ans après la disparition de trois adolescents quand plusieurs lumières mystérieuses apparu sur Phoenix, en Arizona, des images invisibles ont été découvertes, relatant les dernières heures de leur expédition fatale.",
     "date_ajout": "2026-09-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts105708",
-    "titre": "This Is Football",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2019,
-        "note": 7.9,
-        "episodes": 6
-      }
-    ],
-    "duree": "58 min/ép.",
-    "runtime_minutes": 58,
-    "note_avis": 7.9,
-    "note_recence": 7.9,
-    "note_globale": 7.9,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/141223421/s592/this-is-football.jpg",
-    "synopsis": "Un documentaire émotionnel en 6 parties qui explore l'impact extraordinaire du football dans le monde. Des rues de Delhi aux champs du Rwanda de l'après-guerre en passant par les terrains de la Ligue des champions, cette série d'événements à l'échelle mondiale raconte l'histoire unique du sport et son pouvoir d'unir les pays, d'inspirer les générations et de captiver des milliards de personnes.",
-    "date_ajout": "2019-08-02",
     "expiration": {
       "status": "none",
       "label": null,
@@ -67598,58 +62819,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts415057",
-    "titre": "Núñez - Le Président le Plus Controversé du Barça",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2023,
-        "note": 8,
-        "episodes": 4
-      }
-    ],
-    "duree": "61 min/ép.",
-    "runtime_minutes": 61,
-    "note_avis": 8,
-    "note_recence": 9.1,
-    "note_globale": 8.6,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/310227556/s592/nunez-le-president-le-plus-controverse-du-barca.jpg",
-    "synopsis": "Série documentaire sur un président à mi-chemin entre la comédie et le drame, le football et la politique.",
-    "date_ajout": "2026-05-26",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm824232",
     "titre": "Mont Foster",
     "type": "film",
@@ -67684,51 +62853,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/168436597/s592/mont-foster.jpg",
     "synopsis": "Après un événement traumatisant, un couple se réfugie dans sa maison de campagne. Cependant, d'étranges phénomènes et des secrets enfouis transforment leur paisible escapade en un véritable calvaire.",
     "date_ajout": "2026-06-05",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm221828",
-    "titre": "La Tragédie électronique",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2014,
-    "annee_moyenne": 2014,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 7.5,
-    "note_recence": 6.4,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/172240788/s592/la-tragedie-electronique.jpg",
-    "synopsis": "Que deviennent nos déchets électriques et électroniques ? Ordinateurs, téléphones portables, appareils électroménagers : jusqu’à 50 millions de tonnes sont jetées chaque année dans les pays développés. La totalité devrait être recyclée sur place. Or 75 % de ces déchets finissent leur course dans les pays du tiers-monde, dans des décharges sauvages, où ils dévastent l’environnement et la santé des populations locales. Par la réalisatrice de Prêt à jeter, une enquête internationale stupéfiante sur un trafic illégal en constant développement.",
-    "date_ajout": "2026-02-02",
     "expiration": {
       "status": "none",
       "label": null,
@@ -67988,51 +63112,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1029362",
-    "titre": "Laurent Garnier: Off the Record",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 7.3,
-    "note_recence": 8.8,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "msc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/256838304/s592/laurent-garnier-off-the-record-2021.jpg",
-    "synopsis": "Retour sur les trente ans de carrière du DJ Laurent Garnier, devenu l’une des icônes de la musique électronique après en avoir été l’un des pionniers. De New York à Tokyo, de Hong-Kong, à Détroit ou Londres, Garnier a fait danser les foules du monde entier. Avec en filigrane, le sentiment que le mouvement musical qu’il a contribué à fonder a rythmé les grandes évolutions sociétales des dernières décennies.",
-    "date_ajout": "2025-06-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm823034",
     "titre": "Moffie",
     "type": "film",
@@ -68077,54 +63156,6 @@ var PRIME_CATALOG_DATA = [
       "daysLeft": null,
       "expirationDate": null,
       "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm309000",
-    "titre": "McLaren",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 7.3,
-    "note_recence": 7,
-    "note_globale": 7.2,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9892382/s592/mclaren.jpg",
-    "synopsis": "L'histoire de Bruce McLaren, le New-Zélandais qui a fondé l'équipe McLaren Motor Racing. Un homme qui a montré au monde qu'un homme d'humbles débuts pouvait prendre l'élite de la course automobile et gagner.",
-    "date_ajout": "2025-12-14",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 49,
-      "expirationDate": "2026-12-14",
-      "packageExpirations": {
-        "prv": "2026-12-14"
-      }
     },
     "on_prime": true,
     "on_tnt": false
@@ -68444,51 +63475,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/333272252/s592/follow-2025.jpg",
     "synopsis": "Sebastián, a charismatic con artist who seduces women to steal their money, puts his retirement plans on hold after the sudden appearance of Carolina, an enigmatic woman who will expose him to the greatest danger of his career.",
     "date_ajout": "2025-07-18",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm365503",
-    "titre": "Le Gardien des Mondes",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 56min",
-    "runtime_minutes": 116,
-    "note_avis": 4.5,
-    "note_recence": 7.6,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "doc",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/134466552/s592/a-rough-draft.jpg",
-    "synopsis": "Un jour, Kirill, un concepteur de jeux vidéo en vogue, retrouve une femme inconnue prénommée Renata dans son appartement. Au même moment, il découvre que personne ne le reconnaît plus. Renata lui révèle alors qu'il a été choisi par une organisation secrète pour devenir le gardien des mondes parallèles...",
-    "date_ajout": "2026-06-29",
     "expiration": {
       "status": "none",
       "label": null,
@@ -68900,51 +63886,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm2876997",
-    "titre": "Kyle Larson et le Double Duty",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 6.8,
-    "note_recence": 10,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/344837940/s592/kyle-larson-et-le-double-duty.jpg",
-    "synopsis": "Kyle Larson, double champion de NASCAR, se lance à l'assaut du célèbre \"Double Duty\" : disputer l'Indianapolis 500 et le Coca-Cola 600 le même jour. Entre caprices de la météo, épuisement et prise de risque, ces 1 100 miles offrent un regard inédit sur l'un des défis les plus redoutables du sport automobile et sur l'homme qui a l'audace de le relever.",
-    "date_ajout": "2026-05-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1050622",
     "titre": "Lachrymose Primrose",
     "type": "film",
@@ -69202,51 +64143,6 @@ var PRIME_CATALOG_DATA = [
     },
     "on_prime": true,
     "on_tnt": true
-  },
-  {
-    "id": "jw-tm844083",
-    "titre": "Frida. Viva la Vida",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2019,
-    "annee_moyenne": 2019,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 6,
-    "note_recence": 7.9,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/251815634/s592/frida-viva-la-vida.jpg",
-    "synopsis": "Un documentaire vibrant qui explore la vie et l'œuvre de Frida Kahlo, entre passion, souffrance et art immortel. Voyagez dans l'intimité d'une artiste hors normes et véritable icône, capable de transformer souffrance et douleur en tableaux remplis d'énergie.",
-    "date_ajout": "2025-04-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
   },
   {
     "id": "jw-tm171672",
@@ -69513,59 +64409,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/308738462/s592/awareness.jpg",
     "synopsis": "Ian, un ado qui vit avec son père en marge de la société, possède un étrange pouvoir : celui de créer chez les autres des illusions visuelles. Profitant de ce don, ils vivent de petits larcins jusqu’au jour où, perdant le contrôle de la situation, Ian attire l’attention sur lui. Traqué par une mystérieuse agence, il découvre que d’autres personnes possèdent le même pouvoir et qu’on lui a menti.",
     "date_ajout": "2023-10-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts440293",
-    "titre": "Medina: The Celebrity Scammer",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 6.2,
-        "episodes": 5
-      }
-    ],
-    "duree": "36 min/ép.",
-    "runtime_minutes": 36,
-    "note_avis": 6.2,
-    "note_recence": 9.4,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/332110094/s592/medina-el-estafador-de-famosos.jpg",
-    "synopsis": "Jorge Ponce mène l'enquête pour découvrir l'identité de « Medina », un mystérieux individu qui a passé les 20 dernières années à escroquer des dizaines de personnalités de la télévision en se faisant passer pour un ancien collègue en difficulté.\n",
-    "date_ajout": "2024-10-18",
     "expiration": {
       "status": "none",
       "label": null,
@@ -70202,51 +65045,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1971580",
-    "titre": "Rory McIlroy : En attendant le Masters",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2026,
-    "annee_moyenne": 2026,
-    "duree": "1h 21min",
-    "runtime_minutes": 81,
-    "note_avis": 7.6,
-    "note_recence": 10,
-    "note_globale": 8.8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/343841896/s592/rory-mcilroy-en-attendant-le-masters.jpg",
-    "synopsis": "Après des années mêlant déceptions et persévérance, la quête de Rory McIlroy pour la veste verte tant convoitée au Masters signe le bilan de son héritage et boucle le Grand Chelem de carrière, l'exploit ultime du golf.",
-    "date_ajout": "2026-03-30",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm464068",
     "titre": "Une vie après",
     "type": "film",
@@ -70722,50 +65520,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": true
   },
   {
-    "id": "jw-tm1459803",
-    "titre": "Bad Faith: Christian Nationalism's Unholy War on Democracy",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 7.4,
-    "note_recence": 9.4,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/314627607/s592/bad-faith-christian-nationalisms-unholy-war-on-democracy.jpg",
-    "synopsis": "L’assaut actuel contre la démocratie n’a pas commencé avec le trumpisme. Il n’a pas commencé avec le Tea Party. Il n’a pas commencé avec la majorité morale. Il n’a même pas commencé au cours de ce siècle. L’assaut actuel contre la démocratie a commencé avec le mouvement de suprématie blanche dans les années 1960, dans le cadre d’un plan astucieux, calculé et bien exécuté qui s’est fait passer pour un mouvement religieux. Aujourd’hui, ces suprémacistes blancs et leurs héritiers sont connus sous le nom de nationalistes chrétiens. La mauvaise foi est leur histoire.",
-    "date_ajout": "2024-12-13",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts327428",
     "titre": "Matka King",
     "type": "serie",
@@ -70910,51 +65664,6 @@ var PRIME_CATALOG_DATA = [
     },
     "on_prime": true,
     "on_tnt": false
-  },
-  {
-    "id": "jw-tm1618348",
-    "titre": "La découverte de la Chouette d'or",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 20min",
-    "runtime_minutes": 80,
-    "note_avis": 6.4,
-    "note_recence": 9.7,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "doc",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/337217938/s592/la-decouverte-de-la-chouette-dor.jpg",
-    "synopsis": "11 énigmes, 31 ans de chasse, 1 gagnant parmi des centaines de milliers de Chouetteurs. Retour sur une chasse au trésor exceptionnelle avec des révélations exclusives dont la solution complète des énigmes de la Chouette d’Or et le lancement d’une nouvelle quête.",
-    "date_ajout": "2026-08-10",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
   },
   {
     "id": "jw-tm1555367",
@@ -71129,51 +65838,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/338274879/s592/winter-blues.jpg",
     "synopsis": "Un écrivain déprimé dont le mariage est en difficulté s'échappe de la ville pour rejoindre la campagne de son enfance afin de méditer sur son avenir et de réfléchir à son passé. Il rencontre alors une jeune femme.",
     "date_ajout": "2026-07-08",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm175058",
-    "titre": "Jodorowsky's Dune",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2013,
-    "annee_moyenne": 2013,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 8,
-    "note_recence": 6.1,
-    "note_globale": 7.1,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/333937614/s592/jodorowskys-dune.jpg",
-    "synopsis": "En 1974, le réalisateur franco-chilien Alejandro Jodorowsky se lance dans le projet chimérique d'adapter au grand écran le roman influent de Frank Herbert, « Dune » (1969). Après avoir investi deux ans et des millions de dollars, ce projet gigantesque se solde par un échec ; mais les artistes réunis par Jodorowsky pour le mener à bien continuent à travailler ensemble et finissent par jeter les bases du cinéma de science-fiction moderne.",
-    "date_ajout": "2024-09-02",
     "expiration": {
       "status": "none",
       "label": null,
@@ -72232,51 +66896,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1387804",
-    "titre": "Bye Bye Barry",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 7.7,
-    "note_recence": 9.1,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/307624864/s592/bye-bye-barry.jpg",
-    "synopsis": "Lorsque la superstar de la NFL, Barry Sanders, a disparu au sommet de sa gloire, il a plongé le monde du football américain dans la stupéfaction.  En pleine force de l'âge, alors qu'il poursuivait le record absolu de yards à la course, il a pris un vol pour l'Angleterre et n'a plus jamais remis les pieds sur un terrain.  24 ans plus tard, Barry arpente à nouveau les rues de Londres pour enfin affronter ce mystère.\n",
-    "date_ajout": "2023-11-21",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts34930",
     "titre": "Les bracelets rouges",
     "type": "serie",
@@ -73079,51 +67698,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm430662",
-    "titre": "16 levers de soleil",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2018,
-    "annee_moyenne": 2018,
-    "duree": "1h 50min",
-    "runtime_minutes": 110,
-    "note_avis": 6.3,
-    "note_recence": 7.6,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/137140766/s592/16-levers-de-soleil.jpg",
-    "synopsis": "S'envoler pour l'espace. C'est ce rêve que Thomas Pesquet a réalisé en décollant depuis la base de Baïkonour. À 450 kilomètres de la Terre, durant ces six mois où le monde semble basculer dans l’inconnu, un dialogue se tisse entre l'astronaute et l’œuvre visionnaire de Saint Exupéry qu’il a emportée dans la station spatiale.",
-    "date_ajout": "2026-06-12",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1145118",
     "titre": "Mahaan",
     "type": "film",
@@ -73505,59 +68079,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts451312",
-    "titre": "Le 7ème match",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2024,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2024,
-        "note": 7.7,
-        "episodes": 5
-      }
-    ],
-    "duree": "57 min/ép.",
-    "runtime_minutes": 57,
-    "note_avis": 7.7,
-    "note_recence": 9.4,
-    "note_globale": 8.6,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/323747611/s592/game-7.jpg",
-    "synopsis": "Le 7ème match vous propose la quintessence du sport. Cette série anthologique met en lumière les matchs décisifs les plus mémorables de l'histoire du sport nord-américain.",
-    "date_ajout": "2024-10-22",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1666528",
     "titre": "The Tank",
     "type": "film",
@@ -73653,109 +68174,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm977052",
-    "titre": "You Don't Know Nicotine",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2020,
-    "annee_moyenne": 2020,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 7.3,
-    "note_recence": 8.2,
-    "note_globale": 7.8,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/238489741/s592/you-dont-know-nicotine.jpg",
-    "synopsis": "Alors que la consommation de nicotine connaît des changements radicaux à l'échelle mondiale, le voyage d'un cinéaste primé à travers la confusion et la peur mène à une découverte surprenante sur le stimulant le plus détesté de la planète. La société pourrait bien en être transformée à jamais.",
-    "date_ajout": "2025-11-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts477612",
-    "titre": "Formula E: Driver",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2025,
-        "note": 8,
-        "episodes": 4
-      },
-      {
-        "saison": 2,
-        "annee": 2025,
-        "note": 8,
-        "episodes": 4
-      }
-    ],
-    "duree": "49 min/ép.",
-    "runtime_minutes": 49,
-    "note_avis": 8,
-    "note_recence": 9.7,
-    "note_globale": 8.9,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/330350977/s592/formula-e-driver.jpg",
-    "synopsis": "Quatre pilotes de Formule E - António Félix da Costa, Mitch Evans, Jake Dennis et Dan Ticktum - affrontent des triomphes et des défis au cours de la saison 10 du Championnat du monde de Formule E ABB FIA.",
-    "date_ajout": "2025-05-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm353358",
     "titre": "Instinct de survie, piégés",
     "type": "film",
@@ -73791,95 +68209,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/155326095/s592/47-meters-down-uncaged.jpg",
     "synopsis": "Un groupe de filles décide d'aller nager près de ruines sous-marines au large des côtes brésiliennes. Elles vont vite se rendre compte qu'elles ne sont pas seules sous l'eau...",
     "date_ajout": "2020-01-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1936302",
-    "titre": "No One Cares About Crazy People",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 36min",
-    "runtime_minutes": 96,
-    "note_avis": 8.6,
-    "note_recence": 9.7,
-    "note_globale": 9.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/344873340/s592/no-one-cares-about-crazy-people.jpg",
-    "synopsis": "Une plongée au cœur de la crise et du chaos de la maladie mentale. Un récit intime mêlé à un reportage d'envergure. Un portrait poignant et sans concession de familles confrontées à des épreuves inimaginables. Une œuvre rare, alliant art, profondeur émotionnelle et urgence sociale.",
-    "date_ajout": "2026-06-25",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm310081",
-    "titre": "Belmondo par Belmondo",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2016,
-    "annee_moyenne": 2016,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
-    "note_avis": 7.7,
-    "note_recence": 7,
-    "note_globale": 7.4,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354153542/s592/belmondo-par-belmondo.jpg",
-    "synopsis": "Jean-Paul Belmondo revisite avec son fils Paul Belmondo les étapes de sa carrière. Ensemble, ils parcourent la Côte d'Azur, voyagent de Nice à Monaco en passant par Cannes, s'envolent vers la Copacabana brésilienne, visitent les principaux lieux de tournage originaux et rencontrent des stars comme Ursula Andress et Brigitte Bardot, des amis et compagnons de route comme Jean Rochefort, Claude Lelouch, Charles Gerard ou Alain Delon et son fils Anthony Delon. Ensemble, ils peuvent se targuer d'une carrière sans précédent. En 50 ans, plus de 130 millions de personnes ont vu les films du favori du public. Lorsque les films de Belmondo étaient diffusés pour la première fois à la télévision, des générations entières se rassemblaient en France devant l'écran de leur foyer pour une soirée Belmondo en famille.  Son fils parvient à réaliser ce que personne n'avait réussi jusqu'à présent : pour la première fois, Jean-Paul Belmondo s'exprime lui-même sur sa carrière.",
-    "date_ajout": "2025-09-08",
     "expiration": {
       "status": "none",
       "label": null,
@@ -74244,50 +68573,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/335510115/s592/mcwalter.jpg",
     "synopsis": "McWalter, légendaire agent d’élite américain est accusé à tort d’une série d’attentats aux quatre coins du globe. Bien décidé à laver son honneur, il prend la fuite dans le but de résoudre l’énigme, déjouer un complot mondial et sauver la planète…",
     "date_ajout": "2025-09-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1344599",
-    "titre": "La Terre à tous",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 41min",
-    "runtime_minutes": 101,
-    "note_avis": 7.6,
-    "note_recence": 9.1,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/319819516/s592/common-ground.jpg",
-    "synopsis": "Des fermiers partagent leur pratique de l'agriculture régénérative.",
-    "date_ajout": "2025-04-22",
     "expiration": {
       "status": "none",
       "label": null,
@@ -75777,59 +70062,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-ts366807",
-    "titre": "L'Incroyable Périple de Magellan",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2022,
-        "note": 8.4,
-        "episodes": 4
-      }
-    ],
-    "duree": "54 min/ép.",
-    "runtime_minutes": 54,
-    "note_avis": 8.4,
-    "note_recence": 8.8,
-    "note_globale": 8.6,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "hst"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/310357975/s592/lincroyable-periple-de-magellan.jpg",
-    "synopsis": "Voici le récit du plus grand exploit maritime de tous les temps, l'histoire d'une aventure hors du commun qui a emmené 237 marins à la découverte de nouvelles terres, d'un nouvel océan, de nouveaux peuples et d'un nouveau monde. C'est l'histoire du tout premier tour du monde par voie de mer.",
-    "date_ajout": "2025-09-19",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm247611",
     "titre": "The Fixer",
     "type": "film",
@@ -75865,72 +70097,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/45952625/s592/fixeur.jpg",
     "synopsis": "À la suite du démantèlement d'un trafic de jeunes femmes roumaines en France, Radu, journaliste encore à l’essai voit l’occasion de mener sa première enquête pour l’AFP de Bucarest. Mais sa hiérarchie le bloque. Il décide de faire appel à un reporter français pour partir à la recherche de deux prostituées rapatriées dans un monastère roumain. Mais chacun a ses intentions, ses ambitions, ses restrictions…",
     "date_ajout": "2023-07-03",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-ts399898",
-    "titre": "One Shot: Overtime Elite",
-    "type": "serie",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2023,
-    "annee_fin": 2025,
-    "annee_moyenne": 2024,
-    "saisons_disponibles": [
-      {
-        "saison": 1,
-        "annee": 2023,
-        "note": 7.3,
-        "episodes": 6
-      },
-      {
-        "saison": 2,
-        "annee": 2024,
-        "note": 7.3,
-        "episodes": 6
-      },
-      {
-        "saison": 3,
-        "annee": 2025,
-        "note": 7.3,
-        "episodes": 4
-      }
-    ],
-    "duree": "33 min/ép.",
-    "runtime_minutes": 33,
-    "note_avis": 7.3,
-    "note_recence": 9.4,
-    "note_globale": 8.4,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "spt"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/307613266/s592/one-shot-overtime-elite.jpg",
-    "synopsis": "Une docu-série captivante qui explore le dévouement et la résilience des joueurs et entraîneurs d'Overtime Elite (OTE), à travers leurs victoires et leurs défaites, sur le terrain comme en dehors.\n",
-    "date_ajout": "2023-10-09",
     "expiration": {
       "status": "none",
       "label": null,
@@ -76032,50 +70198,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1093473",
-    "titre": "Maîtres",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2023,
-    "annee_moyenne": 2023,
-    "duree": "1h 37min",
-    "runtime_minutes": 97,
-    "note_avis": 9,
-    "note_recence": 9.1,
-    "note_globale": 9.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302439548/s592/maitres.jpg",
-    "synopsis": "A Strasbourg, un cabinet d’avocates s’est spécialisé en droit des étrangers. Christine Mengus et Nohra Boukara s’y battent chaque jour pour aider leurs clients. Grâce à leur ténacité, leur humour et leur professionnalisme, elles tentent de trouver des solutions humaines face à la Justice et parfois l’injustice de certaines situations. Elles sont pour beaucoup, les avocates de la dernière chance...",
-    "date_ajout": "2025-10-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1665943",
     "titre": "Prisoner of War",
     "type": "film",
@@ -76157,52 +70279,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/336943713/s592/maree-trouble.jpg",
     "synopsis": "De retour sur l'île isolée où elle a grandi, une jeune scientifique découvre un trafic de drogue qui implique directement l'un de ses proches.",
     "date_ajout": "2026-10-06",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1649493",
-    "titre": "Simple Plan : des jeunes parmi la foule",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 7.6,
-    "note_recence": 9.7,
-    "note_globale": 8.6,
-    "etoiles": 5,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "doc",
-      "msc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/332050918/s592/simple-plan-the-kids-in-the-crowd.jpg",
-    "synopsis": "Un regard captivant et nostalgique sur l'une des bandes pop-punk les plus populaires des années 2000. Avec des images inédites et un accès exclusif à sa tournée mondiale de 2024, où les billets ont été vendus, les membres de Simple Plan et un casting de superstars punk-rock racontent les hauts et les bas des 25 premières années de sa carrière. Plongez dans une histoire de sororité, de fans et de résilience.",
-    "date_ajout": "2025-07-08",
     "expiration": {
       "status": "none",
       "label": null,
@@ -76338,50 +70414,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/328928266/s592/meta-take-one-2025.jpg",
     "synopsis": "Un jeune réalisateur obsessionnel et son équipe se lancent dans une odyssée nocturne frénétique et désespérée pour terminer son film à tout prix.",
     "date_ajout": "2026-09-04",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1641105",
-    "titre": "Undercover. Inside the Bunker",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 36min",
-    "runtime_minutes": 96,
-    "note_avis": 7.4,
-    "note_recence": 9.7,
-    "note_globale": 8.6,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/332104041/s592/infiltrada-en-el-bunker.jpg",
-    "synopsis": "Bringing to light real images recorded during the greatest undercover operation in an animal experimentation laboratory in the world, Carlota Saorsa, now a protected witness, sacrifices everything and puts her life on the line to show the world the harsh reality she experienced for 18 months inside what she calls \"The Bunker.\"",
-    "date_ajout": "2025-06-27",
     "expiration": {
       "status": "none",
       "label": null,
@@ -76581,50 +70613,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1853355",
-    "titre": "SAQUON",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 41min",
-    "runtime_minutes": 101,
-    "note_avis": 7.2,
-    "note_recence": 9.7,
-    "note_globale": 8.5,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/335495004/s592/saquon.jpg",
-    "synopsis": "SAQUON a commencé, il y a cinq ans, comme un journal vidéo de convalescence. La caméra a continué de tourner après le retour de Saquon en NFL pour dévoiler une intimité faite de moments simples en famille et de frustrations liées à sa carrière, et pour retracer son année exceptionnelle avec les Eagles, couronnée par le Super Bowl, le jour de son anniversaire. Découvrez Saquon sous un nouveau jour.",
-    "date_ajout": "2025-10-09",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts83616",
     "titre": "Oum le dauphin blanc",
     "type": "serie",
@@ -76729,94 +70717,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/283786916/s592/dinner-in-america.jpg",
     "synopsis": "Un rocker punk et une jeune femme obsédée par son groupe de musique favori tombent amoureux de façon inattendue. Ils partent ensemble pour un voyage épique à travers les banlieues du Midwest américain, laissées à l'abandon.",
     "date_ajout": "2023-03-14",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1585774",
-    "titre": "This Is the Tom Green Documentary",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 7.4,
-    "note_recence": 9.7,
-    "note_globale": 8.6,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/323932696/s592/this-is-the-tom-green-documentary.jpg",
-    "synopsis": "Le parcours du comédien Tom Green prend un tournant inattendu passant de cascadeur fou pour MTV à serieusement malade pour finalement trouver la paix, loin d'Hollywood, dans sa ferme canadienne.",
-    "date_ajout": "2025-01-24",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm991252",
-    "titre": "L'œil du cyclone",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2021,
-    "annee_moyenne": 2021,
-    "duree": "1h 18min",
-    "runtime_minutes": 78,
-    "note_avis": 7.6,
-    "note_recence": 8.5,
-    "note_globale": 8.1,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/301983305/s592/eye-of-the-storm-2021.jpg",
-    "synopsis": "Les œuvres du paysagiste écossais James Morrison sont exposées dans les maisons de JK Rowling et de la famille royale. Aujourd'hui, il est confronté à son plus grand défi : sa vue baisse. Une exploration puissante de ce que signifie être un peintre paysagiste, L'œil du cyclone est aussi l'histoire universelle d'un esprit créatif confronté aux fragilités qui nous rattrapent tous.",
-    "date_ajout": "2023-01-23",
     "expiration": {
       "status": "none",
       "label": null,
@@ -76967,52 +70867,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm216006",
-    "titre": "My All American",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2015,
-    "annee_moyenne": 2015,
-    "duree": "1h 58min",
-    "runtime_minutes": 118,
-    "note_avis": 7.2,
-    "note_recence": 6.7,
-    "note_globale": 7,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm",
-      "spt"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/201589847/s592/my-all-american.jpg",
-    "synopsis": "L’histoire vraie de Freddie Steinmark, star du football dans son collège, qui se voit diagnostiquer un cancer après avoir remporté le titre national de 1969.",
-    "date_ajout": "2025-12-01",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": true
-  },
-  {
     "id": "jw-tm1316364",
     "titre": "All Broke",
     "type": "film",
@@ -77092,50 +70946,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/348010643/s592/dinonauts.jpg",
     "synopsis": "Le futur est préhistorique ! Des dinosaures mutants interplanétaires traversent l'espace et le temps, s'unissant pour défendre la galaxie du tyrannique Dominion plutonien, se lier d'amitié avec des êtres extraterrestres sensibles et créer la mixtape synthwave ultime.",
     "date_ajout": "2026-07-29",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1240261",
-    "titre": "Vols à haut risque",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 6.4,
-    "note_recence": 8.8,
-    "note_globale": 7.6,
-    "etoiles": 4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/301899510/s592/flight-risk.jpg",
-    "synopsis": "Vols à haut risque suit des gens ordinaires qui se retrouvent impliqués dans une tragédie mondiale lorsque deux avions Boeing 737 Max s'écrasent à seulement cinq mois d'intervalle en 2018 et 2019. Ce documentaire poignant est raconté du point de vue des proches touchés, de leurs équipes juridiques, des lanceurs d'alerte et du journaliste du Seattle Times, lauréat du prix Pulitzer, Dominic Gates.",
-    "date_ajout": "2022-09-09",
     "expiration": {
       "status": "none",
       "label": null,
@@ -78006,51 +71816,6 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
-    "id": "jw-tm1196551",
-    "titre": "Zoofobia",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2022,
-    "annee_moyenne": 2022,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 8.6,
-    "note_recence": 8.8,
-    "note_globale": 8.7,
-    "etoiles": 5,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354526403/s592/zoophobia.jpg",
-    "synopsis": "La tragédie d'un ours polaire a conduit à la fermeture du zoo centenaire de Buenos Aires. Dans une affaire historique de défense des droits des animaux, un avocat excentrique a marqué l'histoire en faisant déclarer un orang-outan « personne non humaine », changeant ainsi à jamais le paysage des droits des animaux.",
-    "date_ajout": "2026-04-15",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1351941",
     "titre": "Mutant Tiger Chronicles",
     "type": "film",
@@ -78086,52 +71851,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/320443414/s592/kuang-hu-wei-cheng.jpg",
     "synopsis": "560 après J.C. Au cours de la trente-septième année du règne de Jiajing sous la dynastie Ming, le pouvoir des eunuques était écrasant. Pour améliorer le pouvoir du yin et du yang, le maître du Feng Shui décide de créer une arène de tigres au centre de la capitale. Mais un étrange virus infecte les animaux et des centaines de tigres mutants font irruption dans les rues et noient la ville dans le sang.",
     "date_ajout": "2024-10-07",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm135283",
-    "titre": "Home",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2009,
-    "annee_moyenne": 2009,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 8.5,
-    "note_recence": 4.9,
-    "note_globale": 6.7,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc",
-      "drm",
-      "fml"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/11130025/s592/home-2009-0.jpg",
-    "synopsis": "En 200 000 ans d'existence, l'homme a rompu l'équilibre sur lequel la Terre vivait depuis 4 milliards d'années. Réchauffement climatique, épuisement des ressources, extinction des espèces: l'homme a mis en péril sa propre demeure. Mais il est trop tard pour être pessimiste: il reste à peine dix ans à l'humanité pour inverser la tendance, prendre conscience de son exploitation démesurée des richesses de la Terre, et changer son mode de consommation.",
-    "date_ajout": "2026-07-28",
     "expiration": {
       "status": "none",
       "label": null,
@@ -78225,50 +71944,6 @@ var PRIME_CATALOG_DATA = [
     "poster": "https://images.justwatch.com/poster/248507471/s592/shershaah.jpg",
     "synopsis": "Le film Shershaah raconte l'histoire du courageux soldat indien Vikram Batra, lauréat du prix PVC, dont l'esprit indomptable et le courage inébranlable en chassant les soldats pakistanais du territoire indien ont énormément contribué à la victoire de l'Inde dans la guerre de Kargil en 1999.",
     "date_ajout": "2021-08-11",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm1909263",
-    "titre": "Lost Queen",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2025,
-    "annee_moyenne": 2025,
-    "duree": "1h 08min",
-    "runtime_minutes": 68,
-    "note_avis": 7.9,
-    "note_recence": 9.7,
-    "note_globale": 8.8,
-    "etoiles": 5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "doc"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341333862/s592/lost-queen.jpg",
-    "synopsis": "Lost Queen suit Sultana Begum, descendante du dernier empereur moghol, qui vit dans la pauvreté et lutte pour récupérer l'héritage perdu de sa famille ainsi que ses droits sur le Fort Rouge de Delhi, révélant l'histoire oubliée de la dernière lignée royale de l'Inde.",
-    "date_ajout": "2026-09-28",
     "expiration": {
       "status": "none",
       "label": null,
@@ -78835,17 +72510,3 @@ var PRIME_CATALOG_DATA = [
     "on_tnt": false
   }
 ];
-const PRIME_CATALOG_METADATA = {
-  "total": 1530,
-  "films": 1041,
-  "series": 489,
-  "lastSync": "2026-10-26T17:53:07.784Z"
-};
-
-if (typeof window !== 'undefined') {
-  window.PRIME_CATALOG_DATA = PRIME_CATALOG_DATA;
-  window.PRIME_CATALOG_METADATA = PRIME_CATALOG_METADATA;
-}
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { PRIME_CATALOG_DATA, PRIME_CATALOG_METADATA };
-}

@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.01** / Cache **cinescope-v9.01-streaming** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.02** / Cache **cinescope-v9.02-streaming** / Stockage **_v48**).
 
 ---
 
@@ -271,4 +271,17 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * Retrait complet de la ligne Date et de son séparateur sur smartphone.
     * Retrait complet de la pastille compteur de titres affichés (`.filter-stats`, `.stats-pill { display: none !important; }`), préservant uniquement le titre épuré de la catégorie.
     * Inversion des lignes filtres : ligne Étoiles positionnée en tête (`order: 1`), suivie du séparateur fin (`order: 2`), puis ligne Durée / Temps (`order: 3`), toutes deux harmonieusement centrées.
+
+* **Éradication Totale des Documentaires & Hiérarchie de Tri Souveraine (26/10/2026 - v9.02 - Règles 7 & 8 AGENTS.md)** :
+  - **Exclusion Universelle des Documentaires (`doc`)** :
+    * Ajout de l'exclusion stricte du tag `doc` dans `processTitleNode` ([js/justwatch_engine.js](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js)) au même titre que la télé-réalité (`rly`).
+    * **Purge immédiate des catalogues** : 132 documentaires supprimés du catalogue Amazon Prime Video (1 398 titres 100% fiction) et 91 documentaires supprimés du catalogue CinéScope de base (1 329 titres 100% fiction).
+    * **Libération de Drame & Émotion** : Élimination définitive des 160 documentaires (faits divers, musique, sport, making-of) qui encombraient artificiellement la catégorie.
+  - **Hiérarchie du Tri par Défaut (PC & Mobile)** :
+    1. **1) Nouveautés d'abord** : Les œuvres arrivées récemment (`isItemNew`) sont mises en avant.
+    2. **2) Date d'expiration** : Les œuvres quittant bientôt le catalogue (`getItemDaysLeft`, ordre d'urgence croissant) arrivent immédiatement ensuite.
+    3. **3) Note d'étoiles** : Classement par nombre d'étoiles décroissant (`5 ⭐ ➔ 4 ⭐ ➔ 3 ⭐ ➔ 2 ⭐ ➔ 1 ⭐`), départagé par la note globale exacte, l'année la plus récente et le tirage quotidien.
+  - **Barre de Tri PC Desktop** :
+    * Suppression du bouton de tri Expiration.
+    * Rétablissement du bouton **`[⭐ Étoiles]`** positionné immédiatement à gauche de Date (`[⭐ Étoiles]` `[📅 Date]` `[💬 Avis]`) avec thème doré satiné (`#facc15`).
 
