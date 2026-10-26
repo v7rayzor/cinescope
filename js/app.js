@@ -65,6 +65,13 @@ const AppState = {
   dateSortOrder: 'none',       // 'none', 'desc' (récent -> ancien), 'asc' (ancien -> récent) (PC uniquement)
   avisSortOrder: 'none',       // 'none', 'desc' (meilleur avis -> moins bon), 'asc' (moins bon -> meilleur) (PC uniquement)
   starsSortOrder: 'none',      // 'none', 'desc' (meilleures étoiles -> moins bonnes), 'asc' (moins bonnes -> meilleures) (PC uniquement)
+  enableThemeColumns: (function() {
+    try {
+      return localStorage.getItem('cinescope_theme_columns') !== 'false';
+    } catch (e) {
+      return true;
+    }
+  })(),                         // true pour afficher les 6 colonnes thématiques sur Tous les titres (PC), false pour grande grille classique
   isSyncing: false,
   catalog: []
 };
@@ -1012,6 +1019,18 @@ function initNavigation() {
       }
     });
   });
+
+  // Toggle Affichage 6 Colonnes vs Grille Classique sur PC (Exclusivité PC - Règle 8)
+  const toggleThemeColumnsBtn = document.getElementById('toggleThemeColumnsBtn');
+  if (toggleThemeColumnsBtn) {
+    toggleThemeColumnsBtn.addEventListener('click', () => {
+      AppState.enableThemeColumns = !AppState.enableThemeColumns;
+      try {
+        localStorage.setItem('cinescope_theme_columns', AppState.enableThemeColumns ? 'true' : 'false');
+      } catch (e) {}
+      renderCatalog();
+    });
+  }
 }
 
 function openGenreDropdown() {
@@ -1552,7 +1571,17 @@ function renderCatalog() {
   items = items.filter(item => matchesStars(item, AppState.activeStars));
 
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
-  const isThemeColumnsMode = !isMobile && AppState.activeCategory === 'all' && !AppState.searchQuery;
+  const isThemeColumnsMode = !isMobile && AppState.enableThemeColumns && AppState.activeCategory === 'all' && !AppState.searchQuery;
+
+  const toggleThemeColumnsBtn = document.getElementById('toggleThemeColumnsBtn');
+  if (toggleThemeColumnsBtn) {
+    const canShowColumnsBtn = !isMobile && AppState.activeCategory === 'all' && !AppState.searchQuery;
+    toggleThemeColumnsBtn.style.display = canShowColumnsBtn ? 'inline-flex' : 'none';
+    toggleThemeColumnsBtn.classList.toggle('active', AppState.enableThemeColumns);
+    toggleThemeColumnsBtn.title = AppState.enableThemeColumns
+      ? "Mode 6 Colonnes thématiques actif (Cliquer pour basculer vers la grande grille classique)"
+      : "Mode Grille classique actif (Cliquer pour basculer vers les 6 colonnes thématiques)";
+  }
 
   const themeHeaderEl = document.getElementById('themeColumnsHeader');
   if (grid) {

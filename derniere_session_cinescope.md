@@ -250,3 +250,11 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Exclusivité mutuelle avec Date et Avis** : Activer le tri par étoiles réinitialise automatiquement le tri par date et le tri par avis.
   - **Thème visuel & Sanctuarisation mobile** : Habillage doré satiné (`#facc15`), strictement réservé au grand écran PC Desktop ($\ge 1024\text{px}$) et totalement masqué sur portable (`display: none !important;`).
 
+* **Bouton de Bascule `[🏛️ Colonnes]` sur PC Desktop (26/10/2026 - v8.98 - Règle 8 Exclusivité PC)** :
+  - **Emplacement d'élite** : Positionné directement à côté de la pastille du compteur « *x* titres affichés » dans l'en-tête de section (`.filter-stats`), au plus près de la grille.
+  - **Bascule instantanée** : Permet à l'utilisateur d'activer ou de désactiver la vue scindée en 6 couloirs thématiques sur « Tous les titres ».
+    * **Allumé** : Affiche les 6 colonnes thématiques parallèles avec leurs en-têtes et compteurs dédiés.
+    * **Éteint** : Affiche la grande grille continue classique (`.posters-grid`), regroupant l'ensemble des œuvres dans une mosaïque unifiée.
+  - **Persistance locale** : Le choix est sauvegardé dans le `localStorage` (`cinescope_theme_columns`) pour être préservé à chaque chargement.
+  - **Exclusivité PC Desktop** : Strictement masqué sur mobile (`display: none !important;`).
+

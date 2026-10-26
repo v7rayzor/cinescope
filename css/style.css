@@ -739,9 +739,50 @@ body.modal-open {
 
 .filter-stats {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 0.25rem;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.view-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.85rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-full);
+  font-family: var(--font-main);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  user-select: none;
+}
+
+.view-toggle-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+
+.view-toggle-btn.active {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.25), rgba(168, 85, 247, 0.2));
+  border-color: rgba(168, 85, 247, 0.6);
+  color: #ffffff;
+  box-shadow: 0 0 12px rgba(168, 85, 247, 0.3);
+}
+
+.view-toggle-btn .view-toggle-icon {
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+@media (max-width: 1023px) {
+  .view-toggle-pc-only {
+    display: none !important;
+  }
 }
 
 .stats-pill {
