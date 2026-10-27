@@ -123,8 +123,8 @@ RÈGLES IMPORTANTES :
 - "Action" : pour les combats physiques, fusillades, cascades, arts martiaux, affrontements urbains.
 - "Fantastique" : pour la magie, les sorciers, contes, créatures légendaires, fantômes, malédictions, dieux.
 - "SF" : pour les technologies futures, robots, vaisseaux spatiaux, voyages temporels, cybernétique, anticipation.
-- "Policier" : pour les enquêtes criminelles, inspecteurs, détectives, commissaires, traque de tueurs, FBI.
-- "Thriller" : pour le suspense psychologique, manipulations, faux-semblants, tension cérébrale, paranoïa.
+- "Policier" : pour les séries procédurales (1 épisode = 1 enquête résolue), les enquêtes menées du côté des forces de l'ordre (commissaires, inspecteurs, détectives, brigades criminelles, police scientifique, FBI, médecine légale) ou grandes investigations criminelles réalistes.
+- "Thriller" : pour les séries feuilletonnantes avec intrigue criminelle continue, les machinations et cavales vécues du côté des témoins, civils, coupables ou fugitifs pris au piège (comme Cheyenne et Lola), le suspense psychologique, paranoïa, faux-semblants et tension permanente sans enquête procédurale.
 - "Romantique" (dans Comédie) : comédie romantique légère / rom-com.
 - "Romance" (dans Drame) : grand amour dramatique, mélodrame passionnel déchirant.
 - "Histoire" : drames historiques, guerres réelles, biopics, fresques d'époque véridiques.
@@ -173,10 +173,19 @@ async function run() {
   console.log('🚀 Lancement de l\'arbitrage des sous-catégories par IA DeepSeek...');
   const cache = loadCache();
   const allItems = loadCatalogs();
-  console.log(`📦 Catalogue total combiné : ${allItems.length} œuvres.`);
+  const targetCategoryArg = process.argv.find(a => a.startsWith('--category='));
+  const targetCategory = targetCategoryArg ? targetCategoryArg.split('=')[1] : null;
+  const forceAll = process.argv.includes('--force');
 
-  const toProcess = allItems.filter(it => !cache[it.id]);
-  console.log(`🎯 À arbitrer : ${toProcess.length} œuvre(s) (${Object.keys(cache).length} déjà en cache).\n`);
+  const toProcess = allItems.filter(it => {
+    if (targetCategory) {
+      const cat = (it.categories && it.categories[0]) || 'drame_emotion';
+      return cat === targetCategory;
+    }
+    if (forceAll) return true;
+    return !cache[it.id];
+  });
+  console.log(`🎯 À arbitrer : ${toProcess.length} œuvre(s)${targetCategory ? ` (filtre catégorie : ${targetCategory})` : ` (${Object.keys(cache).length} déjà en cache)`}.\n`);
 
   if (toProcess.length === 0) {
     console.log('✅ Toutes les œuvres sont déjà arbitrées !');

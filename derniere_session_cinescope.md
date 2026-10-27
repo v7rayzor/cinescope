@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.11** / Cache **cinescope-v9.11-streaming** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.12** / Cache **cinescope-v9.12-streaming** / Stockage **_v48**).
 
 ---
 
@@ -346,5 +346,11 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * Titre dynamique de section actualisé avec précision (`Slasher (Films)`, `Aventure (Films)`, etc.).
   - **Sanctuaire Mobile Préservé (Règle 8)** :
     * La barre reste exclusivement visible sur PC ($\ge 1024\text{px}$) et masquée sur smartphone (`.subcategories-pc-only`) pour ne pas encombrer l'écran tactile.
-  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.10-streaming` et `?v=9.10` sur l'ensemble des scripts et styles.
+* **Recalibration Sémantique Déterministe Policier vs Thriller (27/10/2026 - v9.12 - Règles 1 & 7 AGENTS.md)** :
+  - **Affinement du Modèle de Qualification** :
+    * Intégration du critère procédural (*1 épisode = 1 enquête résolue*) et du point de vue d'investigation pour *Policier* (forces de l'ordre, brigade criminelle, police scientifique, médecine légale).
+    * Qualification en *Thriller* des intrigues feuilletonnantes criminelles continues, des cavales, machinations et jeux de dupes vécus du côté des témoins, fugitifs ou civils en sursis (*Cheyenne et Lola*, *Drive*, *Sneaky Pete*, *Jack Ryan*, *Bloodline*, *Sicario*).
+    * Conservation formelle en *Policier* des séries et films procéduraux d'enquête pure (*Almost Paradise*, *Falco*, *Aurora Teagarden*, *Muzzle*, *Reacher*, etc.).
+  - **Recalcul Automatique Global** : Ré-arbitrage de 457 œuvres de la sphère policière et criminelle via DeepSeek et mise à jour synchronisée de `data/ai_subcategories_cache.json` et `data/ai_subcategories_cache.js`.
+  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.12-streaming` et `?v=9.12` sur l'ensemble des scripts et styles.
 
