@@ -95,25 +95,25 @@ const SUB_CATEGORIES_CONFIG = {
 
 // Liste exhaustive ordonnée des 19 sous-catégories indépendantes (Exclusivité Desktop PC - Règle 8 AGENTS.md)
 const ALL_SUB_CATEGORIES = [
-  { name: 'Action', parent: 'action_aventure', color: '#ea580c', glow: 'rgba(234, 88, 12, 0.35)' },
-  { name: 'Aventure', parent: 'action_aventure', color: '#ea580c', glow: 'rgba(234, 88, 12, 0.35)' },
-  { name: 'Policier', parent: 'thriller_policier', color: '#e11d48', glow: 'rgba(225, 29, 72, 0.35)' },
-  { name: 'Thriller', parent: 'thriller_policier', color: '#e11d48', glow: 'rgba(225, 29, 72, 0.35)' },
-  { name: 'SF', parent: 'scifi_fantastique', color: '#06b6d4', glow: 'rgba(6, 182, 212, 0.35)' },
-  { name: 'Fantastique', parent: 'scifi_fantastique', color: '#06b6d4', glow: 'rgba(6, 182, 212, 0.35)' },
-  { name: 'Humour', parent: 'comedie', color: '#eab308', glow: 'rgba(234, 179, 8, 0.35)' },
-  { name: 'Dramatique', parent: 'comedie', color: '#eab308', glow: 'rgba(234, 179, 8, 0.35)' },
-  { name: 'Romantique', parent: 'comedie', color: '#eab308', glow: 'rgba(234, 179, 8, 0.35)' },
-  { name: 'Musical', parent: 'comedie', color: '#eab308', glow: 'rgba(234, 179, 8, 0.35)' },
-  { name: 'Social', parent: 'drame_emotion', color: '#ec4899', glow: 'rgba(236, 72, 153, 0.35)' },
-  { name: 'Histoire', parent: 'drame_emotion', color: '#ec4899', glow: 'rgba(236, 72, 153, 0.35)' },
-  { name: 'Romance', parent: 'drame_emotion', color: '#ec4899', glow: 'rgba(236, 72, 153, 0.35)' },
-  { name: 'Slasher', parent: 'horreur_epouvante', color: '#a855f7', glow: 'rgba(168, 85, 247, 0.35)' },
-  { name: 'Surnaturel', parent: 'horreur_epouvante', color: '#a855f7', glow: 'rgba(168, 85, 247, 0.35)' },
-  { name: 'Monstres', parent: 'horreur_epouvante', color: '#a855f7', glow: 'rgba(168, 85, 247, 0.35)' },
-  { name: 'Angoisse', parent: 'horreur_epouvante', color: '#a855f7', glow: 'rgba(168, 85, 247, 0.35)' },
-  { name: 'Animation', parent: 'animation_famille', color: '#10b981', glow: 'rgba(16, 185, 129, 0.35)' },
-  { name: 'Famille', parent: 'animation_famille', color: '#10b981', glow: 'rgba(16, 185, 129, 0.35)' }
+  { name: 'Action', parent: 'action_aventure', icon: '🏹', color: '#ea580c', glow: 'rgba(234, 88, 12, 0.35)' },
+  { name: 'Aventure', parent: 'action_aventure', icon: '🧭', color: '#ea580c', glow: 'rgba(234, 88, 12, 0.35)' },
+  { name: 'Policier', parent: 'thriller_policier', icon: '🔍', color: '#e11d48', glow: 'rgba(225, 29, 72, 0.35)' },
+  { name: 'Thriller', parent: 'thriller_policier', icon: '⚡', color: '#e11d48', glow: 'rgba(225, 29, 72, 0.35)' },
+  { name: 'SF', parent: 'scifi_fantastique', icon: '🚀', color: '#06b6d4', glow: 'rgba(6, 182, 212, 0.35)' },
+  { name: 'Fantastique', parent: 'scifi_fantastique', icon: '🔮', color: '#06b6d4', glow: 'rgba(6, 182, 212, 0.35)' },
+  { name: 'Humour', parent: 'comedie', icon: '😂', color: '#eab308', glow: 'rgba(234, 179, 8, 0.35)' },
+  { name: 'Dramatique', parent: 'comedie', icon: '🎭', color: '#eab308', glow: 'rgba(234, 179, 8, 0.35)' },
+  { name: 'Romantique', parent: 'comedie', icon: '💕', color: '#eab308', glow: 'rgba(234, 179, 8, 0.35)' },
+  { name: 'Musical', parent: 'comedie', icon: '🎵', color: '#eab308', glow: 'rgba(234, 179, 8, 0.35)' },
+  { name: 'Social', parent: 'drame_emotion', icon: '🤝', color: '#ec4899', glow: 'rgba(236, 72, 153, 0.35)' },
+  { name: 'Histoire', parent: 'drame_emotion', icon: '📜', color: '#ec4899', glow: 'rgba(236, 72, 153, 0.35)' },
+  { name: 'Romance', parent: 'drame_emotion', icon: '❤️', color: '#ec4899', glow: 'rgba(236, 72, 153, 0.35)' },
+  { name: 'Slasher', parent: 'horreur_epouvante', icon: '🔪', color: '#a855f7', glow: 'rgba(168, 85, 247, 0.35)' },
+  { name: 'Surnaturel', parent: 'horreur_epouvante', icon: '👻', color: '#a855f7', glow: 'rgba(168, 85, 247, 0.35)' },
+  { name: 'Monstres', parent: 'horreur_epouvante', icon: '🧟', color: '#a855f7', glow: 'rgba(168, 85, 247, 0.35)' },
+  { name: 'Angoisse', parent: 'horreur_epouvante', icon: '😱', color: '#a855f7', glow: 'rgba(168, 85, 247, 0.35)' },
+  { name: 'Animation', parent: 'animation_famille', icon: '🎨', color: '#10b981', glow: 'rgba(16, 185, 129, 0.35)' },
+  { name: 'Famille', parent: 'animation_famille', icon: '🧸', color: '#10b981', glow: 'rgba(16, 185, 129, 0.35)' }
 ];
 
 // État global de l'application
@@ -1889,24 +1889,34 @@ function renderCatalog() {
   items = items.filter(item => matchesStars(item, AppState.activeStars));
 
   const isThemeColumnsMode = !isMobile && AppState.enableThemeColumns && AppState.activeCategory === 'all' && !AppState.searchQuery;
+  const isSubColumnsMode = !isMobile && AppState.enableThemeColumns && AppState.activeCategory !== 'all' && AppState.activeSubCategory === 'all' && !AppState.searchQuery;
 
   const modeSelector = document.getElementById('displayModeSelector');
   const btnMode1 = document.getElementById('btnDisplayMode1');
   const btnMode2 = document.getElementById('btnDisplayMode2');
 
   if (modeSelector) {
-    const canShowModeSelector = !isMobile && AppState.activeCategory === 'all' && !AppState.searchQuery;
+    const canShowModeSelector = !isMobile && !AppState.searchQuery;
     modeSelector.style.display = canShowModeSelector ? 'inline-flex' : 'none';
     if (btnMode1) btnMode1.classList.toggle('active', AppState.enableThemeColumns);
     if (btnMode2) btnMode2.classList.toggle('active', !AppState.enableThemeColumns);
   }
 
   const themeHeaderEl = document.getElementById('themeColumnsHeader');
+  const subHeaderEl = document.getElementById('subColumnsHeader');
+
   if (grid) {
     grid.classList.toggle('theme-columns-active', isThemeColumnsMode);
+    grid.classList.toggle('sub-columns-active', isSubColumnsMode);
   }
   if (themeHeaderEl) {
     themeHeaderEl.classList.toggle('active', isThemeColumnsMode);
+  }
+  if (subHeaderEl) {
+    subHeaderEl.classList.toggle('active', isSubColumnsMode);
+    if (!isSubColumnsMode) {
+      subHeaderEl.innerHTML = '';
+    }
   }
 
   if (countEl) countEl.textContent = items.length;
@@ -2032,8 +2042,80 @@ function renderCatalog() {
 
       grid.appendChild(colEl);
     });
+  } else if (isSubColumnsMode) {
+    // Mode colonnes par sous-genre sur un genre spécifique (Exclusivité PC - Règle 8 AGENTS.md)
+    const catConfig = SUB_CATEGORIES_CONFIG[AppState.activeCategory];
+    const subNames = (catConfig && catConfig.subs) || [];
+
+    if (grid) {
+      grid.style.setProperty('--sub-col-count', subNames.length);
+    }
+    if (subHeaderEl) {
+      subHeaderEl.style.setProperty('--sub-col-count', subNames.length);
+      subHeaderEl.innerHTML = '';
+    }
+
+    // Répartition déterministe des œuvres par sous-catégorie
+    const subBuckets = {};
+    subNames.forEach(name => { subBuckets[name] = []; });
+
+    items.forEach(item => {
+      let sub = '';
+      if (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.computeSubCategory === 'function') {
+        sub = JustWatchEngine.computeSubCategory(item);
+      }
+      if (subBuckets[sub]) {
+        subBuckets[sub].push(item);
+      } else if (subNames.length > 0) {
+        subBuckets[subNames[0]].push(item);
+      }
+    });
+
+    // Tri indépendant dans chaque colonne (expirations en tête, tirage quotidien / date / avis)
+    for (const name of subNames) {
+      subBuckets[name] = sortCatalogItems(subBuckets[name]);
+    }
+
+    // Construction des en-têtes et des colonnes de sous-catégories
+    subNames.forEach(subName => {
+      const subItems = subBuckets[subName] || [];
+      const subMeta = ALL_SUB_CATEGORIES.find(s => s.name === subName) || {};
+
+      // 1. Pilule d'en-tête cliquable
+      if (subHeaderEl) {
+        const pill = document.createElement('div');
+        pill.className = 'sub-col-pill';
+        pill.setAttribute('role', 'button');
+        pill.setAttribute('tabindex', '0');
+        pill.setAttribute('title', `Filtrer uniquement sur ${subName}`);
+        pill.style.setProperty('--subcat-accent', subMeta.color || '#e50914');
+        pill.style.setProperty('--subcat-glow', subMeta.glow || 'rgba(229, 9, 20, 0.25)');
+        pill.innerHTML = `
+          <span class="sub-col-icon">${subMeta.icon || '🎬'}</span>
+          <span class="sub-col-name">${subName}</span>
+          <span class="sub-col-count">${subItems.length}</span>
+        `;
+        pill.addEventListener('click', () => {
+          AppState.activeSubCategory = subName;
+          renderSubCategories();
+          renderCatalog();
+        });
+        subHeaderEl.appendChild(pill);
+      }
+
+      // 2. Colonne d'œuvres indépendante
+      const colEl = document.createElement('div');
+      colEl.className = 'theme-column sub-column';
+      colEl.id = `col-sub-${subName.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
+
+      subItems.forEach(item => {
+        colEl.appendChild(createPosterCard(item));
+      });
+
+      grid.appendChild(colEl);
+    });
   } else {
-    // Mode standard : catégorie unique sélectionnée, recherche textuelle ou mobile
+    // Mode standard : catégorie unique filtrée, recherche textuelle ou grande grille classique (Affichage 2)
     const sortedItems = sortCatalogItems(items);
     sortedItems.forEach(item => {
       grid.appendChild(createPosterCard(item));

@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.10** / Cache **cinescope-v9.10-streaming** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.11** / Cache **cinescope-v9.11-streaming** / Stockage **_v48**).
 
 ---
 
@@ -255,13 +255,14 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * Label textuel sobre `Affichage :` en typographie secondaire.
     * Deux boutons carrés compacts 28x28px (`[1]` et `[2]`), fond carte sombre (`var(--bg-card)`), bordure fine et transition au survol.
     * État actif rehaussé d'une lueur rouge néon (`var(--accent-red)` et ombre portée subtile).
-  - **Modes de présentation** :
-    * **Bouton `[1]`** : Active la vue en 6 colonnes thématiques parallèles (disposition par défaut, séparant les genres majeurs avec leurs en-têtes et compteurs dédiés).
-    * **Bouton `[2]`** : Active la grande grille classique unifiée continue (`.posters-grid`), regroupant tous les titres dans une mosaïque continue.
+  - **Modes de présentation (v9.11 - Extension Universelle Genre & Sous-genres)** :
+    * **Bouton `[1]` sur « Tous les titres »** : Active la vue en 6 colonnes thématiques parallèles (Action/Horreur, Thriller, Sci-Fi, Comédie, Drame, Famille) avec leurs en-têtes et compteurs dédiés.
+    * **Bouton `[1]` sur un Genre spécifique** : Active la vue découpée en colonnes indépendantes par **sous-genre** pour la catégorie active (ex: 2 colonnes pour Action, 4 pour Comédie, 3 pour Drame, etc.), chacune surmontée de son en-tête pilule avec icône, nom et compteur exact cliquable pour filtrer.
+    * **Bouton `[2]`** : Active la grande grille classique unifiée continue (`.posters-grid`), regroupant tous les titres du filtre dans une mosaïque continue.
   - **Persistance locale** : Le choix est sauvegardé dans le `localStorage` (`cinescope_theme_columns`) et restitué automatiquement à chaque session.
   - **Visibilité contextuelle & Sanctuarisation Mobile (Règle 8)** :
     * Strictement masqué sur mobile et tablette (`display: none !important;`).
-    * Masqué automatiquement sur PC lorsqu'une catégorie spécifique ou une recherche textuelle est active (car la grille unifiée s'impose naturellement).
+    * Visible sur PC sur « Tous les titres » et sur chaque genre, masqué uniquement lors d'une recherche textuelle ou d'un filtrage exclusif sur un sous-genre unique.
 
 * **Tri par Défaut par Note Étoile, Bouton Expiration PC & Épuration Mobile (26/10/2026 - v9.00 - Règle 8 AGENTS.md)** :
   - **Tri par Défaut par Note Étoile (PC & Mobile)** : Le classement standard de l'application s'effectue désormais automatiquement par nombre d'étoiles décroissant (`5 ➔ 4 ➔ 3 ➔ 2 ➔ 1`), avec départage fin par note globale/critique exacte sur 10, urgences d'expiration, année la plus récente et tirage quotidien.

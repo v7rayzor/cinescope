@@ -932,7 +932,8 @@ body.modal-open {
 }
 
 /* En-tête des 6 colonnes thématiques sur PC Desktop (Règle 8 AGENTS.md) */
-.theme-columns-header {
+.theme-columns-header,
+.sub-columns-header {
   display: none !important;
 }
 
@@ -945,7 +946,17 @@ body.modal-open {
     align-items: stretch;
   }
 
-  .theme-col-pill {
+  .sub-columns-header.active {
+    display: grid !important;
+    grid-template-columns: repeat(var(--sub-col-count, 4), minmax(0, 260px)) !important;
+    gap: 1.25rem 1rem;
+    margin-bottom: 0.9rem;
+    align-items: stretch;
+    justify-content: start;
+  }
+
+  .theme-col-pill,
+  .sub-col-pill {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -968,7 +979,15 @@ body.modal-open {
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45), 0 0 12px rgba(229, 9, 20, 0.2);
   }
 
-  .theme-col-icon {
+  .sub-col-pill:hover {
+    background: linear-gradient(135deg, rgba(32, 38, 60, 0.98), rgba(44, 52, 80, 0.95));
+    border-color: var(--subcat-accent, rgba(229, 9, 20, 0.45));
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45), 0 0 12px var(--subcat-glow, rgba(229, 9, 20, 0.2));
+  }
+
+  .theme-col-icon,
+  .sub-col-icon {
     font-size: 1.05rem;
     line-height: 1;
     display: inline-flex;
@@ -976,7 +995,8 @@ body.modal-open {
     justify-content: center;
   }
 
-  .theme-col-name {
+  .theme-col-name,
+  .sub-col-name {
     font-size: 0.84rem;
     font-weight: 700;
     color: var(--text-primary);
@@ -986,7 +1006,8 @@ body.modal-open {
     text-overflow: ellipsis;
   }
 
-  .theme-col-count {
+  .theme-col-count,
+  .sub-col-count {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -1004,11 +1025,24 @@ body.modal-open {
     color: #fff;
   }
 
+  .sub-col-pill:hover .sub-col-count {
+    background: var(--subcat-glow, rgba(229, 9, 20, 0.25));
+    color: #fff;
+  }
+
   .posters-grid.theme-columns-active {
     display: grid !important;
     grid-template-columns: repeat(6, 1fr) !important;
     gap: 1.25rem 1rem !important;
     align-items: start !important;
+  }
+
+  .posters-grid.sub-columns-active {
+    display: grid !important;
+    grid-template-columns: repeat(var(--sub-col-count, 4), minmax(0, 260px)) !important;
+    gap: 1.25rem 1rem !important;
+    align-items: start !important;
+    justify-content: start !important;
   }
 
   .theme-column {

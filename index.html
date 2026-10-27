@@ -367,7 +367,7 @@
       <div class="filter-stats" id="catalogStats">
         <div class="display-mode-selector display-mode-pc-only" id="displayModeSelector">
           <span class="display-mode-label">Affichage :</span>
-          <button type="button" class="display-mode-btn active" id="btnDisplayMode1" title="Affichage 1 : Vue en 6 colonnes thématiques (Exclusivité PC)">1</button>
+          <button type="button" class="display-mode-btn active" id="btnDisplayMode1" title="Affichage 1 : Vue en colonnes par genre ou sous-genre (Exclusivité PC)">1</button>
           <button type="button" class="display-mode-btn" id="btnDisplayMode2" title="Affichage 2 : Grande grille classique unifiée (Exclusivité PC)">2</button>
         </div>
         <span class="stats-pill"><strong id="displayedCount">0</strong> titres affichés</span>
@@ -409,6 +409,9 @@
           <span class="theme-col-count" id="countColFamille">0</span>
         </div>
       </div>
+
+      <!-- En-tête des colonnes de sous-catégories sur PC (Règle 8 AGENTS.md) -->
+      <div class="sub-columns-header" id="subColumnsHeader" aria-hidden="true"></div>
 
       <div class="posters-grid" id="postersGrid">
         <!-- Rendu dynamique via app.js -->
@@ -507,12 +510,12 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="data/ai_duel_cache.js?v=9.10"></script>
-  <script src="data/ai_subcategories_cache.js?v=9.10"></script>
-  <script src="js/catalog.js?v=9.10"></script>
-  <script src="data/prime_catalog.js?v=9.10"></script>
-  <script src="js/justwatch_engine.js?v=9.10"></script>
-  <script src="js/app.js?v=9.10"></script>
+  <script src="data/ai_duel_cache.js?v=9.11"></script>
+  <script src="data/ai_subcategories_cache.js?v=9.11"></script>
+  <script src="js/catalog.js?v=9.11"></script>
+  <script src="data/prime_catalog.js?v=9.11"></script>
+  <script src="js/justwatch_engine.js?v=9.11"></script>
+  <script src="js/app.js?v=9.11"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
