@@ -200,7 +200,7 @@ window.AI_SUBCATEGORIES_CACHE = {
   },
   "jw-tm1219349": {
     "titre": "Le brigand Briquambroque",
-    "subCategory": "Animation"
+    "subCategory": "Famille"
   },
   "jw-tm1253009": {
     "titre": "Hôtel Sinestra",
@@ -1404,7 +1404,7 @@ window.AI_SUBCATEGORIES_CACHE = {
   },
   "jw-tm1395496": {
     "titre": "Heidi et le lynx des montagnes",
-    "subCategory": "Famille"
+    "subCategory": "Animation"
   },
   "jw-ts188766": {
     "titre": "Untitled Orphan Black Project",
@@ -1684,7 +1684,7 @@ window.AI_SUBCATEGORIES_CACHE = {
   },
   "jw-tm1395822": {
     "titre": "La Formule magique",
-    "subCategory": "Animation"
+    "subCategory": "Famille"
   },
   "jw-tm140531": {
     "titre": "J'ai tué ma mère",
@@ -1772,7 +1772,7 @@ window.AI_SUBCATEGORIES_CACHE = {
   },
   "jw-tm863411": {
     "titre": "A.R.I.",
-    "subCategory": "Animation"
+    "subCategory": "Famille"
   },
   "jw-tm1001486": {
     "titre": "Mutant Legacy",
@@ -2328,7 +2328,7 @@ window.AI_SUBCATEGORIES_CACHE = {
   },
   "jw-tm1528617": {
     "titre": "L'Imperméable magique",
-    "subCategory": "Animation"
+    "subCategory": "Famille"
   },
   "jw-tm137090": {
     "titre": "Futuro Beach",
@@ -2728,7 +2728,7 @@ window.AI_SUBCATEGORIES_CACHE = {
   },
   "jw-tm1648990": {
     "titre": "L'étage secret... Bad Gastein",
-    "subCategory": "Animation"
+    "subCategory": "Famille"
   },
   "jw-tm925234": {
     "titre": "Boutchou",
@@ -2800,7 +2800,7 @@ window.AI_SUBCATEGORIES_CACHE = {
   },
   "jw-tm299687": {
     "titre": "Jim Bouton & la cité des dragons",
-    "subCategory": "Animation"
+    "subCategory": "Famille"
   },
   "jw-tm1637104": {
     "titre": "L'odyssée de Céleste",
@@ -4184,7 +4184,7 @@ window.AI_SUBCATEGORIES_CACHE = {
   },
   "jw-tm244940": {
     "titre": "Master spy",
-    "subCategory": "Animation"
+    "subCategory": "Famille"
   },
   "jw-tm864005": {
     "titre": "Don't Let Them In",
@@ -6960,7 +6960,7 @@ window.AI_SUBCATEGORIES_CACHE = {
   },
   "jw-tm122325": {
     "titre": "Ninja Turtles 2",
-    "subCategory": "Animation"
+    "subCategory": "Famille"
   },
   "jw-tm460124": {
     "titre": "Yes, God, Yes",
@@ -9212,7 +9212,7 @@ window.AI_SUBCATEGORIES_CACHE = {
   },
   "jw-ts488270": {
     "titre": "Les Aventures de the Chosen",
-    "subCategory": "Famille"
+    "subCategory": "Animation"
   },
   "jw-tm678706": {
     "titre": "Le Secret de Mes 16 Ans",

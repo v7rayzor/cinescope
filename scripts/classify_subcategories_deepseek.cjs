@@ -209,6 +209,11 @@ async function run() {
       for (const it of batch) {
         let chosenSub = results[it.id];
         const cat = (it.categories && it.categories[0]) || 'drame_emotion';
+        // Règle souveraine déterministe pour animation_famille (Règles 1 & 7 AGENTS.md) :
+        // Le tag officiel 'ani' ou le type série fait foi pour séparer l'animation des prises de vue réelles.
+        if (cat === 'animation_famille') {
+          chosenSub = (it.raw_genres && (it.raw_genres.includes('ani') || it.type === 'serie')) ? 'Animation' : 'Famille';
+        }
         const allowed = ALLOWED_SUBCATEGORIES[cat] || ['Social'];
 
         // Validation stricte : la sous-catégorie doit être autorisée pour cette catégorie

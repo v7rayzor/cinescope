@@ -590,7 +590,18 @@ const JustWatchEngine = (function () {
   function computeSubCategory(item) {
     if (!item) return '';
 
-    // 1. Priorité absolue au registre persistant d'arbitrage IA DeepSeek
+    const cat = (item.categories && item.categories[0]) || 'drame_emotion';
+    const raw = item.raw_genres || [];
+
+    // Règle souveraine déterministe pour animation_famille (Règles 1 & 7 AGENTS.md) :
+    // Binaire et 100% objectif : le tag officiel 'ani' ou série animée sépare physiquement
+    // les dessins animés / 3D ('Animation') des prises de vue réelles avec vrais acteurs ('Famille').
+    if (cat === 'animation_famille') {
+      if (raw.includes('ani') || item.type === 'serie') return 'Animation';
+      return 'Famille';
+    }
+
+    // 1. Priorité absolue au registre persistant d'arbitrage IA DeepSeek pour les autres catégories
     const cache = (typeof window !== 'undefined' && window.AI_SUBCATEGORIES_CACHE)
       ? window.AI_SUBCATEGORIES_CACHE
       : aiSubCategoriesCache;
@@ -601,8 +612,6 @@ const JustWatchEngine = (function () {
     }
 
     // 2. Moteur déterministe en fallback immédiat
-    const cat = (item.categories && item.categories[0]) || 'drame_emotion';
-    const raw = item.raw_genres || [];
     const syn = (item.synopsis || '').toLowerCase();
 
     switch (cat) {

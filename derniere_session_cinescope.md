@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.13** / Cache **cinescope-v9.13-streaming** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.14** / Cache **cinescope-v9.14-streaming** / Stockage **_v48**).
 
 ---
 
@@ -361,4 +361,13 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * Réhabilitation immédiate du film ***Le Secret de Khéops*** (2025) en catégorie officielle `action_aventure` (avec sous-catégorie `Aventure`).
   - **Migration du Stockage Local Client (`_v48`)** : Clés de stockage synchronisées vers `cinescope_streaming_catalog_v48` avec purge automatique proactive des versions obsolètes.
   - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.13-streaming` et `?v=9.13` sur l'ensemble des scripts et styles.
+
+* **Souveraineté Déterministe Animation vs Famille (27/10/2026 - v9.14 - Règles 1 & 7 AGENTS.md)** :
+  - **Critère Binaire Objectif Pur (Zéro Inférence IA)** :
+    * Dans la catégorie `animation_famille`, le tag officiel `ani` sépare à 100% sans ambiguïté les œuvres d'animation graphique (`raw_genres.includes('ani')` ou `type === 'serie'` ➔ `Animation`) des films familiaux en prises de vue réelles avec de vrais acteurs humains (`!raw_genres.includes('ani')` ➔ `Famille`).
+    * Règle appliquée avec priorité souveraine déterministe dans `computeSubCategory()` ([`js/justwatch_engine.js`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js)) et dans [`scripts/classify_subcategories_deepseek.cjs`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/classify_subcategories_deepseek.cjs).
+  - **Correction des 10 Incohérences IA dans le Cache Persistant** :
+    * Réhabilitation en `Famille` des films avec acteurs réels piégés par leur synopsis : *Jim Bouton & la cité des dragons*, *Master spy*, *L'Imperméable magique*, *Le brigand Briquambroque*, *La Formule magique*, *A.R.I.*, *L'étage secret*, *Ninja Turtles 2*.
+    * Rétablissement en `Animation` des dessins animés purs : *Heidi et le lynx des montagnes*, *Les Aventures de the Chosen*.
+  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.14-streaming` et `?v=9.14` sur l'ensemble des scripts et styles.
 
