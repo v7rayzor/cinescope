@@ -576,10 +576,8 @@ const JustWatchEngine = (function () {
         return 'Thriller';
 
       case 'scifi_fantastique':
-        if (raw.includes('scf') && !raw.includes('fnt')) return 'SF';
-        if (raw.includes('fnt') && !raw.includes('scf')) return 'Fantastique';
-        if (raw.includes('scf')) return 'SF';
-        return 'Fantastique';
+        if (raw.includes('fnt')) return 'Fantastique';
+        return 'SF';
 
       case 'comedie':
         if (raw.includes('msc')) return 'Musical';
