@@ -388,6 +388,96 @@ body.modal-open {
   font-size: 1rem;
 }
 
+/* Sous-Catégories Dynamiques en 1 Mot Simple (Desktop PC - Règle 8) */
+.subcategories-bar-section {
+  padding: 0.35rem 0.2rem 0.15rem 0.2rem;
+  margin-top: 0.3rem;
+  width: 100%;
+  animation: fadeInSubcats 0.22s ease-out;
+}
+
+@keyframes fadeInSubcats {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.subcategories-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.subcategories-chips-group {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.subcat-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.26rem 0.72rem;
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-full);
+  color: var(--text-secondary);
+  font-family: var(--font-main);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.subcat-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.22);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.subcat-btn.active {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: var(--subcat-accent, var(--accent-red));
+  color: #fff;
+  box-shadow: 0 0 14px var(--subcat-glow, rgba(255, 51, 75, 0.3));
+}
+
+.subcat-count {
+  font-size: 0.68rem;
+  padding: 0.06rem 0.38rem;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-muted);
+}
+
+.subcat-btn.active .subcat-count {
+  background: rgba(255, 255, 255, 0.22);
+  color: #fff;
+}
+
+.modal-subcat-tag {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.74rem;
+  font-weight: 700;
+  padding: 0.2rem 0.55rem;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  color: #e2e8f0;
+  margin-left: 0.35rem;
+}
+
 /* Mobile Genre Selector (masqué sur desktop/tablette large) */
 .mobile-genre-selector {
   display: none;
@@ -2503,6 +2593,9 @@ body.amazon-mode-active #btnSyncSpecialized {
     display: none !important;
   }
   .filters-bubble-divider.bouquets-divider-line {
+    display: none !important;
+  }
+  .subcategories-pc-only {
     display: none !important;
   }
 }

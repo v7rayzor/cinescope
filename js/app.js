@@ -47,10 +47,57 @@ const CATEGORIES_INFO = {
   }
 };
 
+// Configuration des sous-catégories déterministes en 1 mot (Exclusivité PC - Règle 8 AGENTS.md)
+const SUB_CATEGORIES_CONFIG = {
+  action_aventure: {
+    label: 'Action & Aventure',
+    subs: ['Action', 'Aventure'],
+    color: '#ea580c',
+    glow: 'rgba(234, 88, 12, 0.35)'
+  },
+  thriller_policier: {
+    label: 'Thriller & Policier',
+    subs: ['Policier', 'Thriller'],
+    color: '#e11d48',
+    glow: 'rgba(225, 29, 72, 0.35)'
+  },
+  scifi_fantastique: {
+    label: 'Science-fiction & Fantastique',
+    subs: ['SF', 'Fantastique'],
+    color: '#06b6d4',
+    glow: 'rgba(6, 182, 212, 0.35)'
+  },
+  comedie: {
+    label: 'Comédie',
+    subs: ['Humour', 'Dramatique', 'Romantique', 'Musical'],
+    color: '#eab308',
+    glow: 'rgba(234, 179, 8, 0.35)'
+  },
+  drame_emotion: {
+    label: 'Drame & Émotion',
+    subs: ['Social', 'Romance', 'Histoire'],
+    color: '#ec4899',
+    glow: 'rgba(236, 72, 153, 0.35)'
+  },
+  animation_famille: {
+    label: 'Animation & Famille',
+    subs: ['Animation', 'Famille'],
+    color: '#10b981',
+    glow: 'rgba(16, 185, 129, 0.35)'
+  },
+  horreur_epouvante: {
+    label: 'Horreur & Épouvante',
+    subs: ['Angoisse', 'Surnaturel', 'Slasher', 'Monstres'],
+    color: '#a855f7',
+    glow: 'rgba(168, 85, 247, 0.35)'
+  }
+};
+
 // État global de l'application
 const AppState = {
   activeType: 'film',          // 'film' ou 'serie'
   activeCategory: 'all',       // 'all' ou l'une des 7 catégories
+  activeSubCategory: 'all',    // 'all' ou sous-catégorie déterministe (PC uniquement)
   activeStars: 'all',          // 'all', '4', '5'
   activeBouquet: 'all',        // 'all', 'aoc', 'aca', 'auc', 'snr', 'sdz', 'ima', 'prv'
   isAmazonMode: false,         // true pour activer le catalogue Amazon Prime Video (exclusif PC)
@@ -1204,6 +1251,7 @@ function closeGenreDropdown() {
 
 function setCategory(targetCat) {
   AppState.activeCategory = targetCat;
+  AppState.activeSubCategory = 'all'; // Réinitialise la sous-catégorie active
   AppState.isAutoStars = true;
 
   const catButtons = document.querySelectorAll('.category-btn');
@@ -1227,8 +1275,79 @@ function setCategory(targetCat) {
   });
 
   updateMobileGenreDisplay(targetCat);
+  renderSubCategories();
   updateCategoryAutoStar();
   renderCatalog();
+}
+
+// Affichage et gestion des sous-catégories déterministes sur PC Desktop (Règles 7 & 8 AGENTS.md)
+function renderSubCategories() {
+  const subBarSection = document.getElementById('subcategoriesBarSection');
+  const chipsGroup = document.getElementById('subcategoriesChipsGroup');
+  const parentLabel = document.getElementById('subcatParentLabel');
+  if (!subBarSection || !chipsGroup) return;
+
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
+  if (isMobile || AppState.activeCategory === 'all') {
+    subBarSection.style.display = 'none';
+    return;
+  }
+
+  const conf = SUB_CATEGORIES_CONFIG[AppState.activeCategory];
+  if (!conf || !conf.subs || !conf.subs.length) {
+    subBarSection.style.display = 'none';
+    return;
+  }
+
+  subBarSection.style.display = 'flex';
+  if (parentLabel) {
+    parentLabel.textContent = `${conf.label} :`;
+  }
+
+  // Calcul du nombre d'œuvres éligibles pour chaque sous-catégorie
+  const itemsInCat = getFilteredItemsBeforeStars({ ignoreSubCategory: true });
+  const countsBySub = {};
+  conf.subs.forEach(s => { countsBySub[s] = 0; });
+  let totalInCat = 0;
+
+  itemsInCat.forEach(it => {
+    totalInCat++;
+    if (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.computeSubCategory === 'function') {
+      const s = JustWatchEngine.computeSubCategory(it);
+      if (countsBySub[s] !== undefined) {
+        countsBySub[s]++;
+      }
+    }
+  });
+
+  chipsGroup.innerHTML = '';
+
+  // 1. Puce "✨ Tous"
+  const allBtn = document.createElement('button');
+  allBtn.type = 'button';
+  allBtn.className = `subcat-btn ${AppState.activeSubCategory === 'all' ? 'active' : ''}`;
+  allBtn.innerHTML = `<span>✨ Tous</span><span class="subcat-count">${totalInCat}</span>`;
+  allBtn.addEventListener('click', () => {
+    AppState.activeSubCategory = 'all';
+    renderSubCategories();
+    renderCatalog();
+  });
+  chipsGroup.appendChild(allBtn);
+
+  // 2. Puces pour chaque sous-catégorie en 1 mot
+  conf.subs.forEach(subName => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    const isAct = AppState.activeSubCategory === subName;
+    btn.className = `subcat-btn ${isAct ? 'active' : ''}`;
+    btn.innerHTML = `<span>${subName}</span><span class="subcat-count">${countsBySub[subName] || 0}</span>`;
+    btn.addEventListener('click', () => {
+      AppState.activeSubCategory = (AppState.activeSubCategory === subName) ? 'all' : subName;
+      renderSubCategories();
+      renderCatalog();
+    });
+    chipsGroup.appendChild(btn);
+  });
 }
 
 function updateMobileGenreDisplay(categoryKey) {
@@ -1555,8 +1674,8 @@ function initSearchBar() {
 }
 
 // Items éligibles avant filtre d'étoiles
-function getFilteredItemsBeforeStars() {
-  let items = getCategoryEligibleItems();
+function getFilteredItemsBeforeStars(options = {}) {
+  let items = getCategoryEligibleItems(options);
   const minMin = getDurationMinMinutes();
   const maxMin = getDurationMaxMinutes();
 
@@ -1588,7 +1707,7 @@ function updateCategoryAutoStar() {
   }
 }
 
-function getCategoryEligibleItems() {
+function getCategoryEligibleItems(options = {}) {
   const currentCatalog = getActiveCatalog();
   return currentCatalog.filter(item => {
     if (!item.is_eligible) return false;
@@ -1677,6 +1796,14 @@ function getCategoryEligibleItems() {
     // Filtre Catégorie
     if (AppState.activeCategory !== 'all') {
       if (!item.categories || !item.categories.includes(AppState.activeCategory)) return false;
+
+      // Filtre Sous-Catégorie Déterministe (Exclusivité PC - Règle 8 AGENTS.md)
+      if (!options.ignoreSubCategory && !isMobile && AppState.activeSubCategory && AppState.activeSubCategory !== 'all') {
+        const itemSub = (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.computeSubCategory === 'function')
+          ? JustWatchEngine.computeSubCategory(item)
+          : '';
+        if (itemSub !== AppState.activeSubCategory) return false;
+      }
     }
 
     return true;
@@ -1704,6 +1831,9 @@ function renderCatalog() {
   const titleEl = document.getElementById('currentCategoryTitle');
   const descEl = document.getElementById('currentCategoryDesc');
   const countEl = document.getElementById('displayedCount');
+
+  // Mettre à jour l'affichage des sous-catégories et de leurs compteurs
+  renderSubCategories();
 
   const catInfo = CATEGORIES_INFO[AppState.activeCategory] || CATEGORIES_INFO.all;
   if (titleEl) {
@@ -2124,9 +2254,10 @@ function openModal(item) {
     }
   }
 
-  // Catégorie unique
+  // Catégorie unique (+ sous-catégorie déterministe sur PC)
   categories.innerHTML = '';
   if (item.categories && item.categories.length) {
+    const isMobileModal = typeof window !== 'undefined' && window.innerWidth < 1024;
     item.categories.forEach(catKey => {
       const cat = CATEGORIES_INFO[catKey];
       if (cat) {
@@ -2134,6 +2265,17 @@ function openModal(item) {
         chip.className = 'modal-cat-chip';
         chip.textContent = `${cat.icon} ${cat.title}`;
         categories.appendChild(chip);
+
+        // Sous-catégorie déterministe PC (Règle 8 AGENTS.md)
+        if (!isMobileModal && typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.computeSubCategory === 'function') {
+          const subCat = JustWatchEngine.computeSubCategory(item);
+          if (subCat) {
+            const subTag = document.createElement('span');
+            subTag.className = 'modal-subcat-tag';
+            subTag.textContent = subCat;
+            categories.appendChild(subTag);
+          }
+        }
       }
     });
   }

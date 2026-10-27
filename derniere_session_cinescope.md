@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.06** / Cache **cinescope-v9.06-streaming** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.07** / Cache **cinescope-v9.07-streaming** / Stockage **_v48**).
 
 ---
 
@@ -316,4 +316,25 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **État Inactif Neutre Garanti** : Retrait des bordures et teintes cyan par défaut sur `.bouquet-btn-amazon` afin d'aligner rigoureusement sa sobriété visuelle sur l'ensemble des autres bouquets (`.bouquet-btn`). La surbrillance cyan satiné (`#00a8e1`) n'intervient désormais qu'au survol ou à l'état actif (`.active`).
   - **Calibrage Optique du Logo Prime** : Ajustement de `.bouquet-btn-amazon .pkg-logo-img` à `height: 13px; max-width: 28px;`, supprimant la disproportion visuelle dans la barre des bouquets pour un alignement millimétré avec les logos OCS, Universal+ et Action Max.
   - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.06-streaming` et `?v=9.06` sur l'ensemble des scripts et styles.
+
+* **Sous-Catégories Déterministes en 1 Mot Simple (27/10/2026 - v9.07 - Règles 1, 7 & 8 AGENTS.md)** :
+  - **Moteur Algorithmique Déterministe Universel (`JustWatchEngine.computeSubCategory`)** :
+    * Moteur souverain qualifiant 100% du catalogue sans recours à des API externes, assurant une parfaite reproductibilité mathématique.
+    * Strictement 1 seul mot simple par sous-catégorie pour un confort de lecture optimal :
+      - *Action & Aventure* : `Action`, `Aventure` (Règle impérative respectée : le Western n'est PAS une sous-catégorie d'Action & Aventure et n'y est pas assimilé ; les œuvres comme *Django* demeurent fidèlement en drame).
+      - *Thriller & Policier* : `Policier`, `Thriller`.
+      - *Science-fiction & Fantastique* : `SF`, `Fantastique`.
+      - *Comédie* : `Humour`, `Dramatique`, `Romantique`, `Musical`.
+      - *Drame & Émotion* : `Social`, `Romance`, `Histoire`.
+      - *Horreur & Épouvante* : `Angoisse`, `Surnaturel`, `Slasher`, `Monstres`.
+      - *Animation & Famille* : `Animation`, `Famille`.
+  - **Barre Dédiée Réactive sous la Catégorie Active (`#subcategoriesBarSection`)** :
+    * Visible sur PC Desktop uniquement lorsque l'utilisateur est positionné dans l'une des 7 catégories (`activeCategory !== 'all'`).
+    * Affiche le libellé de la catégorie parente, la puce `✨ Tous` avec le total d'œuvres filtrées, et les puces de chaque sous-catégorie avec leur décompte dynamique en temps réel.
+    * Filtrage instantané au clic sans rechargement de page.
+    * Badge de sous-catégorie visible à côté de la catégorie principale dans la modale de fiche détail sur Desktop (`modal-subcat-tag`).
+  - **Sanctuaire Mobile & Préservation de la Règle 1** :
+    * Totalement invisible et inactif sur mobile via la classe `.subcategories-pc-only` (`display: none !important;`).
+    * L'œuvre conserve rigoureusement une seule catégorie principale unique dans son champ `categories: ["nom_de_la_categorie"]`.
+  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.07-streaming` et `?v=9.07` sur l'ensemble des scripts et styles.
 

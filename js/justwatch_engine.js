@@ -555,6 +555,58 @@ const JustWatchEngine = (function () {
     return catNames[bestIdx];
   }
 
+  // Qualification Déterministe Universelle des Sous-Catégories en 1 Mot Simple (Règle 7)
+  function computeSubCategory(item) {
+    if (!item) return '';
+    const cat = (item.categories && item.categories[0]) || 'drame_emotion';
+    const raw = item.raw_genres || [];
+    const syn = (item.synopsis || '').toLowerCase();
+
+    switch (cat) {
+      case 'action_aventure':
+        if (raw.includes('avt') || /\b(aventure|aventurier|aventuriers|jungle|expedition|archeolog|tresor|survie|foret|quete|odyssee|croisiere|naufrage|pionniers)\b/i.test(syn)) {
+          return 'Aventure';
+        }
+        return 'Action';
+
+      case 'thriller_policier':
+        if (raw.includes('crm') || /\b(police|commissaire|inspecteur|enquete|meurtre|detective|tueur en serie|fbi|cia|gendarme|investigation)\b/i.test(syn)) {
+          return 'Policier';
+        }
+        return 'Thriller';
+
+      case 'scifi_fantastique':
+        if (raw.includes('scf') && !raw.includes('fnt')) return 'SF';
+        if (raw.includes('fnt') && !raw.includes('scf')) return 'Fantastique';
+        if (raw.includes('scf')) return 'SF';
+        return 'Fantastique';
+
+      case 'comedie':
+        if (raw.includes('msc')) return 'Musical';
+        if (raw.includes('rma')) return 'Romantique';
+        if (raw.includes('drm')) return 'Dramatique';
+        return 'Humour';
+
+      case 'drame_emotion':
+        if (raw.includes('rma')) return 'Romance';
+        if (raw.includes('hst') || /\b(biopic|histoire vraie|d apres une histoire|seconde guerre|premier conflit|fresque historique)\b/i.test(syn)) return 'Histoire';
+        return 'Social';
+
+      case 'animation_famille':
+        if (raw.includes('ani') || item.type === 'serie') return 'Animation';
+        return 'Famille';
+
+      case 'horreur_epouvante':
+        if (/\b(slasher|tueur au masque|massacre|gore|body horror|tronconneuse)\b/i.test(syn)) return 'Slasher';
+        if (/\b(fantome|possession|exorc|demon|hante|malediction|sorcier|occulte|satan)\b/i.test(syn)) return 'Surnaturel';
+        if (/\b(zombie|monstre|creature|vampire|loup-garou|alien|infecte|bete)\b/i.test(syn)) return 'Monstres';
+        return 'Angoisse';
+
+      default:
+        return '';
+    }
+  }
+
   // Formatage de la durée en minutes -> "Xh XXmin"
   function formatDuration(runtimeMinutes, isSerie) {
     if (!runtimeMinutes || runtimeMinutes <= 0) {
@@ -1526,7 +1578,8 @@ const JustWatchEngine = (function () {
     isItemSpecialized,
     isItemTntFree,
     setAiDuelCache,
-    getAiDuelCache
+    getAiDuelCache,
+    computeSubCategory
   };
 })();
 
