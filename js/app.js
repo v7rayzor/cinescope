@@ -775,12 +775,60 @@ function getActiveCatalog() {
     }
     if (AppState.includeAmazon && Array.isArray(primeData) && primeData.length > 0) {
       const base = AppState.catalog || [];
-      const seen = new Set(base.map(i => i.id));
-      const combined = [...base];
+      const PKG_ORDER = ['aoc', 'aca', 'auc', 'snr', 'sdz', 'ima', 'prv'];
+      const primeMapById = new Map();
+      const primeMapByKey = new Map();
+
       for (const p of primeData) {
-        if (!seen.has(p.id)) {
+        if (p.id) primeMapById.set(p.id, p);
+        const norm = (p.titre || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '');
+        primeMapByKey.set(`${norm}_${p.annee}_${p.type}`, p);
+      }
+
+      const seenIds = new Set();
+      const seenKeys = new Set();
+      const combined = [];
+
+      for (const item of base) {
+        if (item.id) seenIds.add(item.id);
+        const norm = (item.titre || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '');
+        const key = `${norm}_${item.annee}_${item.type}`;
+        seenKeys.add(key);
+
+        const p = primeMapById.get(item.id) || primeMapByKey.get(key);
+        if (p) {
+          if (p.id) seenIds.add(p.id);
+          const pNorm = (p.titre || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '');
+          seenKeys.add(`${pNorm}_${p.annee}_${p.type}`);
+
+          const mergedSlugs = Array.from(new Set([...(item.package_slugs || []), ...(p.package_slugs || []), 'prv']));
+          mergedSlugs.sort((a, b) => {
+            const idxA = PKG_ORDER.indexOf(a);
+            const idxB = PKG_ORDER.indexOf(b);
+            return (idxA === -1 ? 99 : idxA) - (idxB === -1 ? 99 : idxB);
+          });
+          const mergedChaines = mergedSlugs.map(s => JustWatchEngine.PACKAGES_CONFIG[s]?.name).filter(Boolean);
+          const mergedLogos = mergedSlugs.map(s => JustWatchEngine.PACKAGES_CONFIG[s]?.logo).filter(Boolean);
+
+          combined.push({
+            ...item,
+            on_prime: true,
+            package_slugs: mergedSlugs,
+            chaines: mergedChaines.length > 0 ? mergedChaines : item.chaines,
+            logos_chaine: mergedLogos.length > 0 ? mergedLogos : item.logos_chaine
+          });
+        } else {
+          combined.push(item);
+        }
+      }
+
+      for (const p of primeData) {
+        const norm = (p.titre || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '');
+        const key = `${norm}_${p.annee}_${p.type}`;
+        if (!seenIds.has(p.id) && !seenKeys.has(key)) {
           combined.push(p);
-          seen.add(p.id);
+          if (p.id) seenIds.add(p.id);
+          seenKeys.add(key);
         }
       }
       return combined;

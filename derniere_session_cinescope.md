@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.03** / Cache **cinescope-v9.03-streaming** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.04** / Cache **cinescope-v9.04-streaming** / Stockage **_v48**).
 
 ---
 
@@ -136,22 +136,21 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 ## 5. État Actuel du Catalogue & Versions Déployées
 
 * **Audit de Conformité Catalogue ([js/catalog.js](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js))** :
-  - **Total œuvres qualifiées PC** : **1 421** (1 271 films $\ge 60\text{ min}$ et 150 séries sortis entre 2006 et 2026).
-  - **Correction Ingestion JustWatch (v8.96)** : Résolution du bogue `titleNode.id` $\rightarrow$ `node.id` dans [`js/justwatch_engine.js`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js) débloquant les synchronisations quotidiennes et permettant l'intégration de nouvelles œuvres majeures (ex: *Des jours meilleurs* 2025 sur Ciné+ OCS).
-  - **Application stricte des 20 ans glissants ($\ge 2006$)** : Conforme.
+  - **Total œuvres qualifiées PC** : **1 263** (1 115 films $\ge 60\text{ min}$ et 148 séries sortis entre 2006 et 2026).
+  - **Application stricte des 20 ans glissants ($\ge 2006$)** : Recalibrage universel déterministe (2006 = 4.0, 2026 = 10.0, élimination stricte de 67 œuvres historiques dont la note globale recalculée descendait sous 6.0).
   - **Règle des séries multi-saisons respectée** : Calcul basé sur l'année moyenne $\frac{\text{Saison début} + \text{Saison fin}}{2}$.
-  - **Conformité 1 catégorie unique** : **1 421 / 1 421 (100% conforme, 0 anomalie)**.
-  - **Répartition issue de la qualification v8.96 (1 421 titres - Architecture Quintuple Duel IA & Jeunesse)** :
-    * `drame_emotion` : 399 (28.1%)
-    * `comedie` : 276 (19.4%)
-    * `horreur_epouvante` : 203 (14.3%)
-    * `thriller_policier` : 201 (14.1%)
-    * `scifi_fantastique` : 158 (11.1%)
-    * `animation_famille` : 112 (7.9%)
-    * `action_aventure` : 72 (5.1%)
+  - **Conformité 1 catégorie unique** : **1 263 / 1 263 (100% conforme, 0 anomalie)**.
+  - **Répartition issue de la qualification v9.04 (1 263 titres)** :
+    * `drame_emotion` : 320 (25.3%)
+    * `comedie` : 241 (19.1%)
+    * `horreur_epouvante` : 191 (15.1%)
+    * `thriller_policier` : 189 (15.0%)
+    * `scifi_fantastique` : 151 (12.0%)
+    * `animation_famille` : 105 (8.3%)
+    * `action_aventure` : 66 (5.2%)
   - **Titres expirés** : **0**.
 * **Traçabilité Technique & Cache** :
-  - **Version Application / PWA** : **v8.96** (`sw.js` : `cinescope-v8.96-streaming`).
+  - **Version Application / PWA** : **v9.04** (`sw.js` : `cinescope-v9.04-streaming`).
   - **Optimisation Affichage, RAM & Fluidité** : Suppression du préchargement agressif en mémoire vive, activation de `content-visibility: auto` (avec `contain-intrinsic-size: 190px 280px`) sur `.poster-card` pour décharger les cartes hors écran du GPU/RAM, et délégation d'événements centralisée sur `#postersGrid` éliminant 2 800+ closures V8 en mémoire. Seules les affiches visibles sont décodées via `loading="lazy"` natif.
   - **Clés LocalStorage Actives** : `_v47` (`cinescope_streaming_catalog_v47`, `cinescope_streaming_last_sync_v47`, `cinescope_streaming_last_full_sync_v47`, `cinescope_streaming_autosync_v47`).
   - **Registre Persistant des Arbitrages IA** : [`data/ai_duel_cache.json`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_duel_cache.json) (Node.js/CI) et [`data/ai_duel_cache.js`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/data/ai_duel_cache.js) (`window.AI_DUEL_CACHE` pour le client navigateur et hors-ligne), garantissant la pérennité totale des duels (*T.I.M.* en SF, *Cloud* en Polar).
@@ -291,4 +290,15 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * Affiche l'icône tournante `🔄`, le libellé `Synchro Amazon` et la pastille de date de dernière mise à jour (`--/--` ou `JJ/MM`).
     * Au clic, lance la synchronisation du catalogue Prime Video (rechargement sans cache et interroge les ajouts récents), applique l'animation de rotation `spinSync` sur l'icône, enregistre l'horodatage dans le stockage local persistant (`cinescope_last_amazon_sync_v48`) et actualise l'UI en temps réel.
   - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.03-streaming` et `?v=9.03` sur l'ensemble des scripts et styles.
+
+* **Fusion Multi-Diffuseurs Amazon & Recalibrage Récence / Note Globale (27/10/2026 - v9.04 - Règles 7 & 8 AGENTS.md)** :
+  - **Fusion Multi-Diffuseurs Réactifs (`getActiveCatalog`)** :
+    * Correction de l'assemblage dans `js/app.js` lors de l'activation de `[➕ + Amazon]` : détection des œuvres communes au catalogue standard et à Prime Video (par ID et clé titre/année/type).
+    * Cumul dynamique des diffuseurs dans `package_slugs` (`['auc', 'prv']`), des chaînes et des logos vectoriels HD officiels.
+    * Affichage côte à côte des logos (Universal+ et Prime Video) sur la jaquette et dans la modale de fiche détail, avec compatibilité totale sur les filtres par bouquet individuels.
+  - **Harmonisation Récence 20 ans glissants & Condition Éliminatoire Note Globale $\ge 6.0$** :
+    * Recalcul déterministe universel de `note_recence` sur les 20 ans glissants ($2026 - 20 = 2006$, où 2006 vaut exactement 4.0/10).
+    * Application stricte de la règle éliminatoire : toute œuvre dont la note globale recalculée $\frac{\text{note avis} + \text{note récence}}{2} < 6.0$ est écartée du catalogue.
+    * 67 œuvres historiques aux notes recalculées $< 6.0$ (dont *OSS 117 : Le Caire*, *OSS 117 : Rio ne répond plus*, *Burn After Reading*, *MR 73*, etc.) éliminées, maintenant un catalogue de 1 263 œuvres 100% conformes et de haute qualité.
+  - **Cache et PWA** : Mise à niveau globale vers `v9.04` (`sw.js` : `cinescope-v9.04-streaming` et `?v=9.04` sur `index.html`).
 

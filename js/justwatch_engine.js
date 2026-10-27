@@ -837,7 +837,7 @@ const JustWatchEngine = (function () {
     noteAvis = Math.round(noteAvis * 10) / 10;
     if (noteAvis < 4.0) return null;
 
-    // Condition 2 : Note Récence >= 4.0 / 10 (KO automatique < 2000)
+    // Condition 2 : Note Récence >= 4.0 / 10 (KO automatique < 2006)
     // Pour les séries : basée sur l'année moyenne des saisons disponibles
     const refYearForRecence = isSerie ? anneeMoyenne : year;
     const noteRecence = computeNoteRecence(refYearForRecence);
@@ -995,8 +995,8 @@ const JustWatchEngine = (function () {
     let allPkgs = Array.from(new Set([...getPkgs(base), ...getPkgs(incoming)]))
       .filter(p => PACKAGES_CONFIG[p]);
 
-    // Ordre stable d'affichage par défaut : bouquets payants de référence, puis spécialisées
-    const PKG_ORDER = ['aoc', 'aca', 'auc', 'snr', 'sdz', 'ima'];
+    // Ordre stable d'affichage par défaut : bouquets payants de référence, spécialisées, puis Amazon
+    const PKG_ORDER = ['aoc', 'aca', 'auc', 'snr', 'sdz', 'ima', 'prv'];
     allPkgs.sort((a, b) => {
       const idxA = PKG_ORDER.indexOf(a);
       const idxB = PKG_ORDER.indexOf(b);

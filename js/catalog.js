@@ -1008,55 +1008,6 @@ const CATALOG_DATA = [
     "date_ajout": "2018-06-06"
   },
   {
-    "id": "jw-tm49769",
-    "titre": "Pour elle",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ligne 9, N° 4",
-    "annee": 2008,
-    "note_avis": 7.1,
-    "note_recence": 5.8,
-    "note_globale": 6.5,
-    "categories": [
-      "thriller_policier"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/344386218/s592/pour-elle.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 36min",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 96,
-      "expirationDate": "2027-01-31",
-      "packageExpirations": {
-        "aoc": "2027-01-31"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 96,
-    "etoiles": 3,
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "synopsis": "Lisa et Julien sont mariés et mènent une vie heureuse et sans histoire avec leur fils Oscar. Mais leur vie bascule quand un matin la police vient arrêter Lisa pour meurtre. Elle est condamnée à 20 ans de prison. Persuadé de l'innocence de sa femme, Julien décide d'agir. Jusqu'où sera-t-il prêt à aller \"pour elle\" ?",
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm147429",
     "titre": "RoboCop",
     "type": "film",
@@ -1106,152 +1057,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2014,
     "date_ajout": "2014-02-06"
-  },
-  {
-    "id": "jw-tm24554",
-    "titre": "La Raison du plus faible",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ligne 15, N° 1",
-    "annee": 2006,
-    "note_avis": 6.8,
-    "note_recence": 5.4,
-    "note_globale": 6.1,
-    "categories": [
-      "thriller_policier"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/319585102/s592/la-raison-du-plus-faible.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 56min",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
-      "expirationDate": "2026-10-31",
-      "packageExpirations": {
-        "aoc": "2026-10-31"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 116,
-    "etoiles": 3,
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "synopsis": "L'histoire se passe à Liège, Belgique, aujourd'hui. C'est l'histoire de quatre hommes, d'une femme et d'un enfant que le destin va réunir. C'est une histoire qui commence dans la chaleur. La chaleur de l'été, la chaleur d'un café où les hommes se retrouvent pour jouer aux cartes. C'est une histoire de pudeur où on ne dit son mal que quand il est trop tard. C'est une histoire où l'argent manque ici, est trop visible là. C'est l'histoire de gens qui n'en peuvent plus, usés, brisés, vidés par leur travail. C'est l'histoire d'hommes qui vont prendre des armes pour aller chercher l'argent là où il est, dans la poche d'autres car ils pensent qu'ils en ont le droit ! Une histoire sans bons et sans méchants. Une histoire de forts et de faibles. Où chacun a ses raisons, où chacun choisit son camp. C'est une histoire où certains mourront pendant que d'autres survivront mais dont personne ne sortira indemne.",
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm31922",
-    "titre": "MR 73",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ligne 2, N° 3",
-    "annee": 2008,
-    "note_avis": 6.6,
-    "note_recence": 5.8,
-    "note_globale": 6.2,
-    "categories": [
-      "thriller_policier"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/76879226/s592/mr-73.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "2h 05min",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 34,
-      "expirationDate": "2026-11-30",
-      "packageExpirations": {
-        "aoc": "2026-11-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 125,
-    "etoiles": 3,
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "synopsis": "Un tueur en série ensanglante Marseille. Louis Schneider, flic au SRPJ, mène l'enquête malgré l'alcool et les fantômes de son passé. Le passé resurgit aussi pour Justine. Vingt-cinq ans plus tôt, ses parents ont été sauvagement assassinés par Charles Subra. Schneider l’avait alors arrêté. Mais aujourd’hui, par le jeu des remises de peine et pour bonne conduite, Subra sort de prison. Cette libération anticipée va alors réunir Schneider et Justine, deux êtres qui tentent de survivre au drame de leur vie...",
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm172716",
-    "titre": "Destination finale 5",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ligne 2, N° 1",
-    "annee": 2011,
-    "note_avis": 5.9,
-    "note_recence": 6.5,
-    "note_globale": 6.2,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321844476/s592/destination-finale-5.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 31min",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 34,
-      "expirationDate": "2026-11-30",
-      "packageExpirations": {
-        "aoc": "2026-11-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 91,
-    "etoiles": 3,
-    "raw_genres": [
-      "hrr",
-      "trl",
-      "eur"
-    ],
-    "synopsis": "Dans ce cinquième épisode, la Mort est toujours aussi omniprésente et se déchaîne après qu’un homme est victime d’une terrible prémonition, laquelle permet de sauver ses collègues de l’effondrement d’un pont suspendu. Ce groupe d’âmes innocentes n’était pas supposé survivre, et, dans une course terrifiante contre le temps, ces malheureux tentent frénétiquement de trouver le moyen d’échapper au sinistre agenda de la Mort.",
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm1406900",
@@ -1759,53 +1564,6 @@ const CATALOG_DATA = [
     "date_ajout": "2011-11-16"
   },
   {
-    "id": "jw-tm27526",
-    "titre": "Les Noces rebelles",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Emotion",
-    "annee": 2008,
-    "note_avis": 7.3,
-    "note_recence": 5.8,
-    "note_globale": 6.6,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/28160621/s592/les-noces-rebelles.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 59min",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 02/12",
-      "daysLeft": 36,
-      "expirationDate": "2026-12-02",
-      "packageExpirations": {
-        "aoc": "2026-12-02"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 119,
-    "etoiles": 3,
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "synopsis": "Dans l'Amérique des années 50, Frank et April Wheeler se considèrent comme des êtres à part, des gens spéciaux, différents des autres. Ils ont toujours voulu fonder leur existence sur des idéaux élevés. Lorsqu'ils emménagent dans leur nouvelle maison sur Revolutionary Road, ils proclament fièrement leur indépendance. Jamais ils ne se conformeront à l'inertie banlieusarde qui les entoure, jamais ils ne se feront piéger par les conventions sociales. Pourtant, malgré leur charme et leur insolence, les Wheeler deviennent exactement ce qu'ils ne voulaient pas : un homme coincé dans un emploi sans intérêt ; une ménagère qui rêve de passion et d'une existence trépidante. Une famille américaine ordinaire ayant perdu ses rêves et ses illusions. Décidée à changer de vie, April imagine un plan audacieux pour tout recommencer, quitter leur petite routine confortable dans le Connecticut pour aller vivre à Paris...",
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm177250",
     "titre": "Poulet aux Prunes",
     "type": "film",
@@ -2305,199 +2063,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2013,
     "date_ajout": "2014-04-09"
-  },
-  {
-    "id": "jw-tm79793",
-    "titre": "Jane",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Emotion",
-    "annee": 2007,
-    "note_avis": 7,
-    "note_recence": 5.6,
-    "note_globale": 6.3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/312152833/s592/jane.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "2h 00min",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
-      "expirationDate": "2026-10-31",
-      "packageExpirations": {
-        "aoc": "2026-10-31"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 120,
-    "etoiles": 3,
-    "raw_genres": [
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "synopsis": "Un portrait de la célèbre écrivain britannique Jane Austen, à travers son histoire d'amour vécue, à l'aube de ses vingt ans, avec Tom Lefroy...",
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm28739",
-    "titre": "Fauteuils d'orchestre",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Emotion",
-    "annee": 2006,
-    "note_avis": 6.7,
-    "note_recence": 5.4,
-    "note_globale": 6.1,
-    "categories": [
-      "comedie"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/309931943/s592/fauteuils-dorchestre.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 46min",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
-      "expirationDate": "2026-10-31",
-      "packageExpirations": {
-        "aoc": "2026-10-31"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 106,
-    "etoiles": 3,
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "synopsis": "Une actrice populaire mais rêvant de cinéma intimiste, un pianiste surdoué qui rêve de jouer devant un public ignorant et naïf, un collectionneur qui vend en un soir toute l'œuvre de sa vie, une jeune provinciale qui tente sa chance à Paris car sa grand-mère lui a dit : « Je n'avais pas les moyens de vivre dans le luxe, alors j'ai décidé d'y travailler. »  Tous ces personnages et leurs compagnons vont se croiser et se retrouver le temps d'une soirée au Café des Théâtres, où ils viendront soigner leur névrose devant un café ou un « tartare frites ».",
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm97583",
-    "titre": "Last Night",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Emotion",
-    "annee": 2010,
-    "note_avis": 6.5,
-    "note_recence": 6.3,
-    "note_globale": 6.4,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/341794252/s592/last-night.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 33min",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
-      "expirationDate": "2026-10-31",
-      "packageExpirations": {
-        "aoc": "2026-10-31"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 93,
-    "etoiles": 3,
-    "raw_genres": [
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "synopsis": "Joanna et Michael vivent à New York. Aucun nuage, aucun doute n’est jamais venu assombrir leur union, jusqu’à ce que chacun d’eux soit tenté, la même nuit… Pendant que Michael est en déplacement professionnel avec Laura, jeune femme aussi attirante qu’énigmatique, Joanna recroise Alex, l’autre grand amour de sa vie. Les 36 heures qui suivent vont obliger chacun à faire des choix…",
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm70640",
-    "titre": "Lettre ouverte à Jane Austen",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Emotion",
-    "annee": 2007,
-    "note_avis": 6.7,
-    "note_recence": 5.6,
-    "note_globale": 6.2,
-    "categories": [
-      "comedie"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9641347/s592/lettre-ouverte-a-jane-austen.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 44min",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
-      "expirationDate": "2026-10-31",
-      "packageExpirations": {
-        "aoc": "2026-10-31"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 104,
-    "etoiles": 3,
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "synopsis": "Bernadette, une quinquagénaire six fois divorcée, a l'idée de fonder un club de lecture quand elle rencontre Prudie, une jeune enseignante de français très élégante et mariée, lors d'un festival de cinéma sur Jane Austen. Le concept est que chacun des six membres accueille à tour de rôle le groupe une fois par mois, pour discuter entre eux des six romans d'Austen. Les autres membres du club sont Sylvia, une femme au foyer quadragénaire récemment séparée de son mari Daniel, avocat et coureur, après plus de vingt ans de mariage ; sa fille lesbienne de 20 ans Allegra ; Jocelyn, une célibataire heureuse de l'être, obsédée par la maîtrise de soi et éleveuse de chiens de Rhodésie, qui est amie avec Sylvia depuis l'enfance ; et Grigg, un fan de science-fiction que Jocelyn a invité à les rejoindre dans l'espoir que Sylvia et lui formeront un couple assorti.",
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm1582523",
@@ -3110,53 +2675,6 @@ const CATALOG_DATA = [
     "date_ajout": "2011-06-10"
   },
   {
-    "id": "jw-tm145303",
-    "titre": "Bliss",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Family",
-    "annee": 2009,
-    "note_avis": 6.9,
-    "note_recence": 6.1,
-    "note_globale": 6.5,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/240950794/s592/bliss.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 51min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 2 j",
-      "daysLeft": 2,
-      "expirationDate": "2026-10-29",
-      "packageExpirations": {
-        "aoc": "2026-10-29"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 111,
-    "etoiles": 3,
-    "raw_genres": [
-      "drm",
-      "spt"
-    ],
-    "synopsis": "Par tous les moyens, Bliss Cavendar veut échapper à sa petite ville perdue du Texas et à sa mère qui est convaincue que sa seule chance de réussir dans la vie est de gagner les concours de beauté locaux. Bliss rêve d'autre chose... Lorsqu'elle se rend en cachette dans la grande ville d'Austin avec sa meilleure amie Pash, Bliss découvre un univers qu'elle n'aurait jamais imaginé : le roller derby. Associant girl power et punk-rock, cette discipline permet à chaque fille de laisser libre cours à sa personnalité...",
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm175783",
     "titre": "Albator - Corsaire de l’espace",
     "type": "film",
@@ -3265,54 +2783,6 @@ const CATALOG_DATA = [
     "date_ajout": "2013-04-17"
   },
   {
-    "id": "jw-tm144685",
-    "titre": "Adventureland : un job d'été à éviter",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Family",
-    "annee": 2009,
-    "note_avis": 6.8,
-    "note_recence": 6.1,
-    "note_globale": 6.5,
-    "categories": [
-      "comedie"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/261001423/s592/adventureland-un-job-dete-a-eviter.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 47min",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
-      "expirationDate": "2026-10-31",
-      "packageExpirations": {
-        "aoc": "2026-10-31"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 107,
-    "etoiles": 3,
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "synopsis": "1987. A peine diplômé de l'université, un jeune homme réalise qu'il n'aura pas les moyens de se payer son tour de l'Europe. Obligé de travailler dans le parc d'attractions local, il se rend finalement compte qu'il y a partout des expériences à vivre...",
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm197031",
     "titre": "S.O.S. Fantômes",
     "type": "film",
@@ -3362,102 +2832,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2016,
     "date_ajout": "2016-08-10"
-  },
-  {
-    "id": "jw-tm103568",
-    "titre": "Fatal",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Family",
-    "annee": 2010,
-    "note_avis": 5.9,
-    "note_recence": 6.3,
-    "note_globale": 6.1,
-    "categories": [
-      "comedie"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/52194722/s592/fatal.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 35min",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 34,
-      "expirationDate": "2026-11-30",
-      "packageExpirations": {
-        "aoc": "2026-11-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 95,
-    "etoiles": 3,
-    "raw_genres": [
-      "cmy",
-      "msc",
-      "eur"
-    ],
-    "synopsis": "Fatal... c'est Fatal Bazooka, un rappeur bling-bling et hardcore. Fatal est désormais une énorme star. Des millions de fans, des dizaines de tubes, 4 Music Awards de la Musique du meilleur artiste de l'année, une ligne de vêtements, un magazine et prochainement l'ouverture de son propre parc d'attraction : Fataland. Il est le N°1 incontesté. En apparence tout va bien... mais en réalité, Fatal ne sait plus où il va, parce qu'il ne sait plus d'où il vient : depuis ses débuts, il fait croire qu'il a grandi dans le ghetto... alors qu'en fait, il est né dans un petit village de Savoie, en plein coeur des Alpes. Mais on ne peut pas être un \"gansta\" quand on est un fils de bergers de Savoie, alors Fatal a préféré cacher ses origines et oublier son passé...",
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm78919",
-    "titre": "Les Vacances de Mr. Bean",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Family",
-    "annee": 2007,
-    "note_avis": 6.4,
-    "note_recence": 5.6,
-    "note_globale": 6,
-    "categories": [
-      "comedie"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/151403553/s592/les-vacances-de-mr-bean.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 30min",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 15/11",
-      "daysLeft": 19,
-      "expirationDate": "2026-11-15",
-      "packageExpirations": {
-        "aoc": "2026-11-15"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 90,
-    "etoiles": 3,
-    "raw_genres": [
-      "cmy",
-      "fml",
-      "eur"
-    ],
-    "synopsis": "Mr. Bean a gagné une semaine de vacances sur la Côte d'Azur, et une caméra vidéo. Il quitte son Angleterre natale pour la France. Arrivé à Paris, il demande à un autre passager de le filmer en train de monter à bord du train pour Cannes. L'homme est en fait le réalisateur russe Emil Duchevsky, qui se rend à Cannes pour faire partie du jury du Festival du Film. Dans la confusion du départ, Duchevsky rate le train, et Mr. Bean se retrouve à bord avec Stepan, son fils de dix ans, qui ne parle pas un mot d'anglais. Pour Mr. Bean et Stepan commence alors un périple vers le sud de la France plein de surprises, de rencontres et d'aventures toutes plus délirantes les unes que les autres...",
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm1515031",
@@ -4199,53 +3573,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2014,
     "date_ajout": "2026-09-03"
-  },
-  {
-    "id": "jw-tm105060",
-    "titre": "Memory Lane",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Festival",
-    "annee": 2010,
-    "note_avis": 6.1,
-    "note_recence": 6.3,
-    "note_globale": 6.2,
-    "categories": [
-      "drame_emotion"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/11505090/s592/memory-lane-mikhael-hers.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 38min",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-10-30",
-      "packageExpirations": {
-        "aoc": "2026-10-30"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 98,
-    "etoiles": 3,
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "synopsis": "Août, Hauts de Seine, dans la banlieue Sud-Ouest de Paris, sept amis de 25 ans se retrouvent plus ou moins \"fortuitement\" à passer quelques jours dans cette ville qui les a vus grandir. Chacun a ses raisons d'être là : certains y vivent encore, d'autres y reviennent pour des raisons familiales, d'autres y cherchent des traces d'une adolescence tenace, d'autres pensent peut-être échapper au désoeuvrement ou y trouver l'amour... Pendant une semaine, nous les suivons de manière isolée et en groupe. Au détour des rues désertées de cette ville fantôme, alors que les journées filent sous le bleu profond du ciel d'août, chacun porte en lui l'intuition que ces moments partagés sont peut-être les derniers...",
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm453584",
@@ -7099,53 +6426,6 @@ const CATALOG_DATA = [
     "date_ajout": "2010-01-01"
   },
   {
-    "id": "jw-tm137377",
-    "titre": "OSS 117 : Rio ne répond plus",
-    "type": "film",
-    "categories": [
-      "comedie"
-    ],
-    "annee": 2009,
-    "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "poster": "https://images.justwatch.com/poster/176204387/s592/oss-117-rio-ne-repond-plus.jpg",
-    "note_avis": 6.8,
-    "note_recence": 6.1,
-    "note_globale": 6.5,
-    "is_eligible": true,
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "badge": null,
-    "duree": "1h 40min",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
-      "expirationDate": "2026-10-31",
-      "packageExpirations": {
-        "aoc": "2026-10-31"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 100,
-    "etoiles": 3,
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm",
-      "eur"
-    ],
-    "synopsis": "Douze ans après Le Caire, OSS 117 est de retour pour une nouvelle mission à l’autre bout du monde. Lancé sur les traces d’un microfilm compromettant pour l’État français, le plus célèbre de nos agents va devoir faire équipe avec la plus séduisante des lieutenants‐colonels du Mossad pour capturer un nazi maître chanteur. Des plages ensoleillées de Rio aux luxuriantes forêts amazoniennes, des plus profondes grottes secrètes au sommet du Christ du Corcovado, c’est une nouvelle aventure qui commence. Quel que soit le danger, quel que soit l’enjeu, on peut toujours compter sur Hubert Bonisseur de la Bath pour s’en sortir…",
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm867409",
     "titre": "Chacun chez soi",
     "type": "film",
@@ -7290,98 +6570,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2023,
     "date_ajout": "2023-01-25"
-  },
-  {
-    "id": "jw-tm41037",
-    "titre": "OSS 117 : Le Caire, nid d'espions",
-    "type": "film",
-    "categories": [
-      "comedie"
-    ],
-    "annee": 2006,
-    "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "poster": "https://images.justwatch.com/poster/338568408/s592/oss-117-le-caire-nid-despions.jpg",
-    "note_avis": 7,
-    "note_recence": 5.4,
-    "note_globale": 6.2,
-    "is_eligible": true,
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "badge": null,
-    "duree": "1h 39min",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
-      "expirationDate": "2026-10-31",
-      "packageExpirations": {
-        "aoc": "2026-10-31"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 99,
-    "etoiles": 3,
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm",
-      "eur"
-    ],
-    "synopsis": "Égypte, 1955, le Caire est un véritable nid d’espions. Tout le monde se méfie de tout le monde, tout le monde complote contre tout le monde : Anglais, Français, Soviétiques, la famille du Roi déchu Farouk qui veut retrouver son trône, les Aigles de Khéops, secte religieuse qui veut prendre le pouvoir. Le Président de la République Française, Monsieur René Coty, envoie son arme maîtresse mettre de l’ordre dans cette pétaudière au bord du chaos : Hubert Bonisseur de la Bath, dit OSS 117.",
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm82525",
-    "titre": "Ocean’s 13",
-    "type": "film",
-    "categories": [
-      "thriller_policier"
-    ],
-    "annee": 2007,
-    "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "poster": "https://images.justwatch.com/poster/313474232/s592/oceans-thirteen.jpg",
-    "note_avis": 6.9,
-    "note_recence": 5.6,
-    "note_globale": 6.3,
-    "is_eligible": true,
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "badge": null,
-    "duree": "2h 02min",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
-      "expirationDate": "2026-10-31",
-      "packageExpirations": {
-        "aoc": "2026-10-31"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 122,
-    "etoiles": 3,
-    "raw_genres": [
-      "crm",
-      "trl"
-    ],
-    "synopsis": "Willy Bank n'aurait pas dû s'attaquer à un ami de Danny Ocean... Pour avoir trahi Reuben Tishkoff, Willy Bank, propriétaire sans scrupule d'un casino flambant neuf, va être sévèrement attaqué par toute l'équipe de Danny Ocean. Celle-ci n'aura plus qu'un objectif: infliger à Bank un châtiment exemplaire le soir de l'inauguration de son nouveau casino. Mais cette fois la chance ne leur suffira pas pour faire sauter The Bank...",
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm1372859",
@@ -7834,51 +7022,6 @@ const CATALOG_DATA = [
     "date_ajout": "2017-06-30"
   },
   {
-    "id": "jw-tm65446",
-    "titre": "Le Royaume interdit",
-    "type": "film",
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "annee": 2008,
-    "chaine": "Universal+",
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "poster": "https://images.justwatch.com/poster/346994549/s592/le-royaume-interdit.jpg",
-    "note_avis": 6.5,
-    "note_recence": 5.8,
-    "note_globale": 6.2,
-    "is_eligible": true,
-    "chaines": [
-      "Universal+"
-    ],
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "badge": null,
-    "duree": "1h 44min",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
-      "expirationDate": "2026-10-31",
-      "packageExpirations": {
-        "auc": "2026-10-31"
-      }
-    },
-    "package_slugs": [
-      "auc"
-    ],
-    "runtime_minutes": 104,
-    "etoiles": 3,
-    "raw_genres": [
-      "act",
-      "fnt"
-    ],
-    "synopsis": "Fan de kung-fu et de cinéma hong-kongais, Jason Tripitika, 17 ans, rêve souvent du Roi Singe. Il découvre un jour, dans une boutique de Chinatown tenue par le vieux Hop, une longue canne - un \"bo\" - ornée d'un singe en bronze qui ressemble à celui du personnage de ses rêves. Quelque temps après, une bande de malfaiteurs oblige Jason à s'introduire dans la boutique pour la dévaliser. Hop est abattu d'une balle, mais il a juste le temps de confier la canne à Jason et de lui faire promettre de la restituer à son propriétaire. Paniqué, le garçon s'enfuit et, serrant la canne contre lui, tombe du toit. Quand il reprend connaissance, il se retrouve plongé dans la Chine ancienne, toujours en possession de la canne. Alors qu'il est attaqué par les guerriers de Jade, Lu Yan, un ivrogne, vient à son secours et réussit en quelques mouvements de kung-fu à le débarrasser des agresseurs.",
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm167082",
     "titre": "L'Ordre des gardiens",
     "type": "film",
@@ -7927,54 +7070,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2013,
     "date_ajout": "2024-09-04"
-  },
-  {
-    "id": "jw-tm45815",
-    "titre": "Les Aventures de Flynn Carson : Le Secret de la coupe maudite",
-    "type": "film",
-    "categories": [
-      "animation_famille"
-    ],
-    "annee": 2008,
-    "chaine": "Universal+",
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "poster": "https://images.justwatch.com/poster/99231550/s592/les-aventures-de-flynn-carson-le-secret-de-la-coupe-maudite.jpg",
-    "note_avis": 6.4,
-    "note_recence": 5.8,
-    "note_globale": 6.1,
-    "is_eligible": true,
-    "chaines": [
-      "Universal+"
-    ],
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "badge": null,
-    "duree": "1h 35min",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "package_slugs": [
-      "auc"
-    ],
-    "runtime_minutes": 95,
-    "etoiles": 3,
-    "raw_genres": [
-      "act",
-      "cmy",
-      "fnt",
-      "fml",
-      "trl",
-      "rma",
-      "scf"
-    ],
-    "synopsis": "De retour à New York après sa dernière aventure, Flynn essaie tant bien que mal de reprendre le cours normal de sa vie. Mais hanté par d'étranges rêves, il s'envole pour la Nouvelle-Orléans pour découvrir l'existence d'une conspiration menée par le plus célèbre des vampires : le Prince Vlad Dracul !",
-    "on_prime": true,
-    "on_tnt": false
   },
   {
     "id": "jw-tm1299445",
@@ -8132,52 +7227,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2019,
     "date_ajout": "2019-11-06"
-  },
-  {
-    "id": "jw-tm196292",
-    "titre": "7 Minutes",
-    "type": "film",
-    "categories": [
-      "thriller_policier"
-    ],
-    "annee": 2014,
-    "chaine": "Universal+",
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "poster": "https://images.justwatch.com/poster/249908708/s592/7-minutes.jpg",
-    "note_avis": 5,
-    "note_recence": 7.2,
-    "note_globale": 6.1,
-    "is_eligible": true,
-    "badge": null,
-    "chaines": [
-      "Universal+"
-    ],
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "duree": "1h 32min",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 39,
-      "expirationDate": "2026-12-05",
-      "packageExpirations": {
-        "auc": "2026-12-05"
-      }
-    },
-    "package_slugs": [
-      "auc"
-    ],
-    "runtime_minutes": 92,
-    "etoiles": 3,
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "synopsis": "Après avoir contracté une dette auprès d’un dangereux baron de la drogue, trois jeunes hommes désespérés décident de commettre un braquage pour réunir l’argent qui leur manque. Ce qui s’annonçait comme un plan simple et efficace (entre et sortir de la banque en sept minutes) dérape bien vite… Chaque minute qui passe révèle les secrets inavoués de chacun. En sortiront-ils indemnes ?",
-    "on_prime": true,
-    "on_tnt": false
   },
   {
     "id": "jw-tm1088788",
@@ -9417,53 +8466,6 @@ const CATALOG_DATA = [
     "date_ajout": "2020-03-11"
   },
   {
-    "id": "jw-tm152893",
-    "titre": "Tokarev",
-    "type": "film",
-    "categories": [
-      "action_aventure"
-    ],
-    "annee": 2014,
-    "chaine": "Action Max",
-    "logo_chaine": "assets/logos/action.png",
-    "poster": "https://images.justwatch.com/poster/9612613/s592/rage.jpg",
-    "note_avis": 5,
-    "note_recence": 7.2,
-    "note_globale": 6.1,
-    "is_eligible": true,
-    "badge": null,
-    "exclusion": "Globale (5.8 < 6)",
-    "chaines": [
-      "Action Max"
-    ],
-    "logos_chaine": [
-      "assets/logos/action.png"
-    ],
-    "duree": "1h 38min",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 34,
-      "expirationDate": "2026-11-30",
-      "packageExpirations": {
-        "aca": "2026-11-30"
-      }
-    },
-    "package_slugs": [
-      "aca"
-    ],
-    "runtime_minutes": 98,
-    "etoiles": 3,
-    "raw_genres": [
-      "act",
-      "trl",
-      "eur"
-    ],
-    "synopsis": "Paul Maguire est un homme d'affaires respectable et un père aimant qui mène une vie paisible, jusqu'au jour où son passé violent revient le hanter. Lorsque sa fille se fait kidnapper, Paul réunit son ancienne équipe pour l'aider à la retrouver... par tous les moyens nécessaires. Sa quête de justice le mène sur la voie sombre et sanglante de la vengeance, de la trahison et des secrets enfouis depuis longtemps.",
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm207719",
     "titre": "La Tortue rouge",
     "type": "film",
@@ -9776,57 +8778,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2014,
     "date_ajout": "2014-08-06"
-  },
-  {
-    "id": "jw-tm1832",
-    "titre": "Alvin et les Chipmunks : À fond la caisse",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "section": "Films",
-    "position": "Films — Ciné+ Family",
-    "annee": 2015,
-    "note_avis": 5,
-    "note_recence": 7.5,
-    "note_globale": 6.3,
-    "categories": [
-      "animation_famille"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/309279884/s592/alvin-et-les-chipmunks-a-fond-la-caisse.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "duree": "1h 32min",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 96,
-      "expirationDate": "2027-01-31",
-      "packageExpirations": {
-        "aoc": "2027-01-31"
-      }
-    },
-    "package_slugs": [
-      "aoc"
-    ],
-    "runtime_minutes": 92,
-    "etoiles": 3,
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "fnt",
-      "fml",
-      "msc"
-    ],
-    "synopsis": "Après une série de malentendus, Alvin, Simon et Théodore comprennent que Dave va demander sa petite amie en mariage à Miami et risque de les abandonner. Ils ont trois jours pour le retrouver et empêcher ce mariage. Ils se lancent alors dans un road trip à travers l'Amérique : aventure, musique et grosses bêtises.",
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-ts282248",
@@ -13316,53 +12267,6 @@ const CATALOG_DATA = [
     "date_ajout": "2007-11-02"
   },
   {
-    "id": "jw-tm36606",
-    "titre": "Cloverfield",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2008,
-    "duree": "1h 25min",
-    "runtime_minutes": 85,
-    "note_avis": 7,
-    "note_recence": 5.8,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "act",
-      "hrr",
-      "trl",
-      "scf"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/249167082/s592/cloverfield.jpg",
-    "synopsis": "New York - Ses amis et relations ont organisé chez Rob une fête en l'honneur de son départ pour le Japon. Parmi eux, Hud, vidéaste d'un soir, chargé d'immortaliser l'événement. Soudain une violente secousse ébranle l'immeuble. Les invités se précipitent dans la rue où une foule inquiète s'est rassemblée en quelques instants. Une ombre immense se profile dans le ciel, un grondement sourd se fait entendre... et la tête de la Statue de la Liberté s'effondre brutalement sur la chaussée. L'attaque du siècle vient de commencer...",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 12/12",
-      "daysLeft": 46,
-      "expirationDate": "2026-12-12",
-      "packageExpirations": {
-        "aoc": "2026-12-12"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1480657",
     "titre": "Une enfance allemande - Île d'Amrum, 1945",
     "type": "film",
@@ -13772,52 +12676,6 @@ const CATALOG_DATA = [
     "date_ajout": "2015-10-28"
   },
   {
-    "id": "jw-tm67682",
-    "titre": "Radiostars",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2012,
-    "duree": "1h 37min",
-    "runtime_minutes": 97,
-    "note_avis": 6,
-    "note_recence": 6.8,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302403548/s592/radiostars.jpg",
-    "synopsis": "En plein échec professionnel et sentimental, Ben, qui se rêvait comique à New York, est de retour à Paris. Il rencontre Alex, présentateur-vedette du Breakfast-club, le Morning star de la radio. Avec Cyril, un quadra mal assumé, et Arnold, le leader charismatique de la bande, ils font la pluie et le beau temps sur Blast FM. Très vite Ben est engagé : Il écrira pour eux. Alors qu’il a à peine rejoint l’équipe, un raz de marée frappe de plein fouet la station : l’audience du breakfast est en chute libre. C’est en bus qu’ils sillonneront les routes de France pour rencontrer et reconquérir leur public. Pour ces Parisiens arrogants, de ce road trip radiophonique naîtra un véritable parcours initiatique qui bousculera leurs certitudes.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 96,
-      "expirationDate": "2027-01-31",
-      "packageExpirations": {
-        "aoc": "2027-01-31"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1131320",
     "titre": "Tár",
     "type": "film",
@@ -14008,51 +12866,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2022,
     "date_ajout": "2026-05-01"
-  },
-  {
-    "id": "jw-tm177735",
-    "titre": "Eyjafjallajökull",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2013,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 5.6,
-    "note_recence": 7,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/303450491/s592/eyjafjallajokull.jpg",
-    "synopsis": "Pour les voyageurs du monde entier, l’éruption du volcan islandais Eyjafjallajökull est un coup dur. Pour Alain et Valérie, c’est une catastrophe. Car pour arriver à temps dans le petit village de Grèce où se marie leur fille, ce couple de divorcés, qui se voue l’un l’autre une détestation sans borne, va être amené par la force des choses à prendre la route ensemble.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 12/11",
-      "daysLeft": 16,
-      "expirationDate": "2026-11-12",
-      "packageExpirations": {
-        "aoc": "2026-11-12"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm1624180",
@@ -14747,52 +13560,6 @@ const CATALOG_DATA = [
     "date_ajout": "2025-06-11"
   },
   {
-    "id": "jw-tm144054",
-    "titre": "Tellement proches",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2009,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 6.4,
-    "note_recence": 6.1,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/307035835/s592/tellement-proches.jpg",
-    "synopsis": "Famille : Groupe de personnes réunies par des liens de parenté et un fort sentiment de solidarité morale et matérielle. Quand Alain a épousé Nathalie, il ne savait pas qu'il épouserait aussi sa famille. Ce samedi, comme toutes les semaines, ils sont invités à dîner chez son beau-frère, Jean-Pierre à Créteil. Mais ce soir, plus que d'habitude, Alain est à bloc, il bout comme une cocotte prête à exploser. Il en a marre, marre de se planter à chaque fois sur le chemin pour aller à Créteil, marre de se taper les petits conseils de vie de Jean-Pierre et de sa femme Catherine qui élève ses enfants comme des chevaux, marre d'attendre de dîner l'estomac vide en regardant les spectacles soporifiques de leur fille Gaëlle, marre de regarder pour la énième fois la vidéo de leur mariage, marre aussi de son autre belle-sœur Roxane, qui, affolée par son horloge biologique, a jeté son dévolu sur Bruno, jeune interne en médecine qui se demande un peu comment il a atterri à ce dîner.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 38,
-      "expirationDate": "2026-12-04",
-      "packageExpirations": {
-        "aoc": "2026-12-04"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1629225",
     "titre": "Kika",
     "type": "film",
@@ -15036,53 +13803,6 @@ const CATALOG_DATA = [
     "on_tnt": true,
     "annee_moyenne": 2024,
     "date_ajout": "2025-09-01"
-  },
-  {
-    "id": "jw-tm167066",
-    "titre": "Maniac",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2012,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 6.1,
-    "note_recence": 6.8,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "crm",
-      "hrr",
-      "trl",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9095917/s592/maniac.jpg",
-    "synopsis": "Dans les rues qu'on croyait tranquilles, un tueur en série en quête de scalps se remet en chasse. Frank est le timide propriétaire d'une boutique de mannequins. Sa vie prend un nouveau tournant quand Anna, une jeune artiste, vient lui demander de l'aide pour sa nouvelle exposition. Alors que leurs liens se font plus forts, Frank commence à développer une véritable obsession pour la jeune fille. Au point de donner libre cours à une pulsion trop longtemps réfrénée - celle qui le pousse à traquer pour tuer.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 124,
-      "expirationDate": "2027-02-28",
-      "packageExpirations": {
-        "aoc": "2027-02-28"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm1515296",
@@ -15763,50 +14483,6 @@ const CATALOG_DATA = [
     "date_ajout": "2010-01-20"
   },
   {
-    "id": "jw-tm78774",
-    "titre": "L'homme qui était ailleurs",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2007,
-    "duree": "2h 15min",
-    "runtime_minutes": 135,
-    "note_avis": 6.8,
-    "note_recence": 5.6,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "msc",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/324917940/s592/im-not-there.jpg",
-    "synopsis": "Un voyage à travers les âges de la vie de Bob Dylan. Six acteurs incarnent Dylan tel un kaléïdoscope de personnages changeants : poète, prophète, hors-la-loi, imposteur, comédien, martyr et \"Born Again\". Ils participent tous à l'esquisse d'un portrait de cette icône américaine définitivement insaisissable.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm164263",
     "titre": "Carnage",
     "type": "film",
@@ -15853,49 +14529,6 @@ const CATALOG_DATA = [
     "date_ajout": "2026-05-01"
   },
   {
-    "id": "jw-tm46907",
-    "titre": "Outlander : Le Dernier Viking",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2008,
-    "duree": "1h 55min",
-    "runtime_minutes": 115,
-    "note_avis": 6.2,
-    "note_recence": 5.8,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/243429059/s592/outlander-le-dernier-viking.jpg",
-    "synopsis": "Sous le règne des Vikings, un homme venu de l'espace - Kainan - s'écrase sur la Terre, apportant avec lui une créature terrifiante, un prédateur extraterrestre connu sous le nom de Moorwen. Alors que la bête plonge les environs dans le chaos, les vikings, d'abord suspicieux envers ce mystérieux étranger, s'associent bientôt à Kainan pour en venir à bout. Lui seul pourra les mener à la victoire...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1623201",
     "titre": "Enzo",
     "type": "film",
@@ -15940,53 +14573,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2025,
     "date_ajout": "2025-06-18"
-  },
-  {
-    "id": "jw-tm25175",
-    "titre": "Mi$e à prix",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2006,
-    "duree": "1h 49min",
-    "runtime_minutes": 109,
-    "note_avis": 6.6,
-    "note_recence": 5.4,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm",
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/90347942/s592/mi-e-a-prix.jpg",
-    "synopsis": "Stanley Locke, directeur adjoint du FBI, envoie ses meilleurs agents, Richard Messner et Donald Carruthers, à Lake Tahoe. Ils ont pour mission de retrouver Buddy \"Aces\" Israel, un magicien louche de Las Vegas, et de le protéger de Primo Sparazza, un gros bonnet de la Mafia dont on dit qu'il a fait assassiner plus de 130 personnes. Buddy a en effet promis de donner à la justice des preuves contre Sparazza afin de sauver sa propre peau, et la Mafia offre un million de dollars pour le faire disparaître. Peu importe qui fait le boulot, du moment qu'il est abattu rapidement. Attirés par l'argent, mercenaires, assassins et tueurs à gages de tous horizons débarquent à Lake Tahoe.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-ts9630",
@@ -16047,50 +14633,6 @@ const CATALOG_DATA = [
       }
     ],
     "date_ajout": "2024-04-04"
-  },
-  {
-    "id": "jw-tm78592",
-    "titre": "Michael Clayton",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2007,
-    "duree": "2h 00min",
-    "runtime_minutes": 120,
-    "note_avis": 7.2,
-    "note_recence": 5.6,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/244196318/s592/michael-clayton.jpg",
-    "synopsis": "Avocat dans l'un des plus grands cabinets juridiques de New York, Michael Clayton arrange discrètement et par tous les moyens les affaires embarrassantes de ses clients. On lui confie le dossier douteux d'une puissante firme agrochimique. Lorsqu'il découvre que cette multinationale sans scrupules est prête à faire des millions de victimes pour s'enrichir, il ne peut plus échapper au choix qui s'impose à lui : étouffer la vérité ou la faire éclater, au péril de sa vie...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
   },
   {
     "id": "jw-tm1465677",
@@ -16465,50 +15007,6 @@ const CATALOG_DATA = [
       }
     ],
     "date_ajout": "2022-08-28"
-  },
-  {
-    "id": "jw-tm107093",
-    "titre": "Elena",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2010,
-    "duree": "1h 51min",
-    "runtime_minutes": 111,
-    "note_avis": 6.1,
-    "note_recence": 6.3,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/63415218/s592/elena-undone.jpg",
-    "synopsis": "Peyton est une auteure à succès rendue célèbre par un livre où elle raconte son agoraphobie. Elena est mariée à un pasteur et élève avec ce dernier son fils de 15 ans. Toutes les deux souhaitent avoir un enfant. Elles se rencontrent dans une agence d’adoption et commencent à sympathiser.  Ayant besoin d’un photographe pour son nouveau projet, Peyton demande à Elena qui a exercé cette profession il y a plusieurs années de travailler avec elle. Les deux femmes se rapprochent et réalisent bientôt qu’elles sont amoureuses.  Comment Elena peut-elle concilier sa foi et sa famille avec ce qu’elle ressent ? Peyton peut-elle attendre et la partager ?",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
   },
   {
     "id": "jw-ts434037",
@@ -16914,54 +15412,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2025,
     "date_ajout": "2025-01-22"
-  },
-  {
-    "id": "jw-tm26945",
-    "titre": "Inland Empire",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2006,
-    "duree": "3h 00min",
-    "runtime_minutes": 180,
-    "note_avis": 6.8,
-    "note_recence": 5.4,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "drm",
-      "fnt",
-      "hrr",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/305310549/s592/inland-empire.jpg",
-    "synopsis": "Nous voici plongés dans une histoire de mystère, l'énigme d'un monde au coeur des mondes, le secret d'une femme en proie à l'amour et aux tourments...",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 06/02",
-      "daysLeft": 102,
-      "expirationDate": "2027-02-06",
-      "packageExpirations": {
-        "aoc": "2027-02-06"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm201436",
@@ -19119,94 +17569,6 @@ const CATALOG_DATA = [
     "date_ajout": "2026-07-05"
   },
   {
-    "id": "jw-tm309232",
-    "titre": "La Deuxième Étoile",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2017,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
-    "note_avis": 4,
-    "note_recence": 7.9,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/58906955/s592/la-deuxieme-etoile.jpg",
-    "synopsis": "Jean-Gabriel a décidé d’emmener toute sa petite famille passer les fêtes à la montagne pour Noël. Et cette fois, tout devrait bien se passer. C’est sans compter sur sa mère qui débarque des Antilles, ses enfants qui n’ont pas envie de partir, Jojo qui lui confie son Hummer et sa femme qui lui annonce qu’elle doit s’occuper de son père qu’elle n’a pas revu depuis qu’elle a fait le choix d’épouser Jean-Gabriel. Mais pour Jean-Gabriel, la famille c’est sacré et Noël aussi !",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
-      "expirationDate": "2026-10-30",
-      "packageExpirations": {
-        "aoc": "2026-10-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm163859",
-    "titre": "Ne nous soumets pas à la tentation",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2011,
-    "duree": "1h 49min",
-    "runtime_minutes": 109,
-    "note_avis": 6.1,
-    "note_recence": 6.5,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/306064865/s592/ne-nous-soumets-pas-a-la-tentation.jpg",
-    "synopsis": "Lolita au rire léger, Anna prétexte une panne de scooter pour s’introduire dans la vie de Tristan, avocat grisonnant et austère, marié à une femme plus austère encore. Mais la farce adultère qui tire le quinquagénaire suisse de son monotone train de vie tourne court au retour de l’épouse trompée. Figure blafarde et traits tirés, Rachel s’accommode étrangement de la présence d’Anna, profondément blessée mais fascinée par la jeune femme. Derrière cette classique histoire d’adultère, se cache des motivations bien plus obscures, des secrets, des règlements de comptes...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1276217",
     "titre": "Détective Conan : Le sous-marin noir",
     "type": "film",
@@ -19257,52 +17619,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2023,
     "date_ajout": "2023-08-02"
-  },
-  {
-    "id": "jw-tm94640",
-    "titre": "Mammuth",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2010,
-    "duree": "1h 32min",
-    "runtime_minutes": 92,
-    "note_avis": 6.1,
-    "note_recence": 6.3,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/271308175/s592/mammuth.jpg",
-    "synopsis": "Serge Pilardosse vient d'avoir 60 ans. Il travaille depuis l'âge de 16 ans, jamais au chômage, jamais malade. Mais l'heure de la retraite a sonné, et c'est la désillusion : il lui manque des points, certains employeurs ayant oublié de le déclarer ! Poussé par Catherine, sa femme, il enfourche sa vieille moto des années 70, une \" Mammut \" qui lui vaut son surnom, et part à la recherche de ses bulletins de salaires. Durant son périple, il retrouve son passé et sa quête de documents administratifs devient bientôt accessoire...",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 16/03",
-      "daysLeft": 140,
-      "expirationDate": "2027-03-16",
-      "packageExpirations": {
-        "aoc": "2027-03-16"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-ts424903",
@@ -20185,96 +18501,6 @@ const CATALOG_DATA = [
     "date_ajout": "2023-03-23"
   },
   {
-    "id": "jw-tm163563",
-    "titre": "Une pure affaire",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2011,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 5.7,
-    "note_recence": 6.5,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/318675498/s592/une-pure-affaire.jpg",
-    "synopsis": "David Pelame a la quarantaine. Il est marié à Christine depuis assez longtemps pour avoir oublié qu’ils s’aimaient autrefois. Il a deux enfants avec qui la communication se fait de plus en plus rare. Professionnellement, David n’est jamais devenu le grand avocat associé d’un cabinet de renom qu’il rêvait d’être mais plutôt un simple gratte-papier qui excelle dans les tâches les plus rébarbatives. Bref, la vie de David ne fait pas rêver. Si on avait un conseil à lui donner ?… Ce serait qu’il se ressaisisse. C’est ce qu’il va faire, en découvrant, le soir de Noël, une valise pleine de cocaïne et un téléphone croulant sous les appels de clients. David pense alors avoir trouvé le moyen de relancer sa vie. Si on avait un second conseil à donner à David ? … Ce serait qu’il y réfléchisse à deux fois.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 96,
-      "expirationDate": "2027-01-31",
-      "packageExpirations": {
-        "aoc": "2027-01-31"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm173051",
-    "titre": "Last Summer",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2013,
-    "duree": "1h 13min",
-    "runtime_minutes": 73,
-    "note_avis": 5.6,
-    "note_recence": 7,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/242111234/s592/last-summer.jpg",
-    "synopsis": "Deux lycéens amoureux, Luke et Jonah, passent leurs derniers mois ensemble dans le Sud rural des Etats-Unis. Au cours d’un été long et tranquille, ils contemplent leur avenir incertain et celui de l’Amérique.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm142392",
     "titre": "Maps to the Stars",
     "type": "film",
@@ -20413,52 +18639,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2025,
     "date_ajout": "2025-04-30"
-  },
-  {
-    "id": "jw-tm54228",
-    "titre": "Louise-Michel",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2008,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 6.5,
-    "note_recence": 5.8,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/11126930/s592/louise-michel.jpg",
-    "synopsis": "Quelque part en Picardie, le patron d'une entreprise de cintres vide son usine dans la nuit pour la délocaliser. Le lendemain, les ouvrières se réunissent et mettent le peu d'argent de leurs indemnités dans un projet commun : faire buter le patron par un professionnel.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 16/03",
-      "daysLeft": 140,
-      "expirationDate": "2027-03-16",
-      "packageExpirations": {
-        "aoc": "2027-03-16"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm1222539",
@@ -20939,54 +19119,6 @@ const CATALOG_DATA = [
     "date_ajout": "2025-10-01"
   },
   {
-    "id": "jw-tm211939",
-    "titre": "Flight 42 : Retour vers l'enfer",
-    "type": "film",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2015,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
-    "note_avis": 4.4,
-    "note_recence": 7.5,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "act",
-      "fnt",
-      "trl",
-      "scf",
-      "war"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/255980090/s592/flight-world-war-ii.jpg",
-    "synopsis": "Après que leur avion a mystérieusement franchi une faille dans l’espace-temps, les passagers d’un Boeing se retrouvent au cœur du conflit de la Seconde Guerre Mondiale sous le feu des Alliés et des Allemands. Ils désespèrent de revenir sains et saufs à leur époque. Y parviendront-ils et ont-ils le droit avec leur savoir, de changer le cours de l’Histoire ?",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 39,
-      "expirationDate": "2026-12-05",
-      "packageExpirations": {
-        "auc": "2026-12-05"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts225559",
     "titre": "Devils",
     "type": "serie",
@@ -21451,52 +19583,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2014,
     "date_ajout": "2014-10-08"
-  },
-  {
-    "id": "jw-tm238664",
-    "titre": "Les Zombies font du Ski",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2016,
-    "duree": "1h 18min",
-    "runtime_minutes": 78,
-    "note_avis": 4.6,
-    "note_recence": 7.7,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "hrr",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354619245/s592/les-zombies-font-du-ski.jpg",
-    "synopsis": "Un groupe de snowboarders est bloqué dans un refuge de montagne. Ils organisent une fête qui va rapidement être prise d'assaut par des zombies...",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 12/01",
-      "daysLeft": 77,
-      "expirationDate": "2027-01-12",
-      "packageExpirations": {
-        "aoc": "2027-01-12"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false
   },
   {
     "id": "jw-tm235793",
@@ -22143,52 +20229,6 @@ const CATALOG_DATA = [
     "date_ajout": "2025-01-29"
   },
   {
-    "id": "jw-tm48494",
-    "titre": "Morsures",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2012,
-    "duree": "1h 54min",
-    "runtime_minutes": 114,
-    "note_avis": 6.1,
-    "note_recence": 6.8,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/301007381/s592/morsures.jpg",
-    "synopsis": "Détective vétéran, Sang-gil est chargé d’enquêter sur un banal suicide. Lorsque d’autres morts similaires sont découvertes, ce qui devait être une enquête de routine s’oriente vers un tueur en série…",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 124,
-      "expirationDate": "2027-02-28",
-      "packageExpirations": {
-        "aoc": "2027-02-28"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm404961",
     "titre": "Jeunesse aux cœurs ardents",
     "type": "film",
@@ -22690,53 +20730,6 @@ const CATALOG_DATA = [
       }
     ],
     "date_ajout": "2019-05-01"
-  },
-  {
-    "id": "jw-tm77612",
-    "titre": "Molière",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2007,
-    "duree": "1h 55min",
-    "runtime_minutes": 115,
-    "note_avis": 7.1,
-    "note_recence": 5.6,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/151851944/s592/moliere.jpg",
-    "synopsis": "En 1644, Molière n'a encore que 22 ans. Criblé de dettes, poursuivi par les huissiers, il s'entête à monter sur scène des tragédies dans lesquelles il est indéniablement mauvais, puis un jour, après avoir été emprisonné par des créanciers impatients, il disparaît… Deux années capitales faites de rencontres, d'apprentissages, d'aventures, qui forgeront le destin… du grand Molière.",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
-      "expirationDate": "2026-10-31",
-      "packageExpirations": {
-        "aoc": "2026-10-31"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-ts314104",
@@ -23339,53 +21332,6 @@ const CATALOG_DATA = [
     "date_ajout": "2025-10-04"
   },
   {
-    "id": "jw-tm153242",
-    "titre": "Espion(s)",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2009,
-    "duree": "1h 39min",
-    "runtime_minutes": 99,
-    "note_avis": 5.9,
-    "note_recence": 6.1,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "rma",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/302518776/s592/espion-s.jpg",
-    "synopsis": "Vincent, un ex-étudiant de Sciences Po, marginal et délinquant, se retrouve bagagiste dans un aéroport. Avec son collègue, il a l'habitude de fouiller les valises. C'est ainsi qu'il se retrouve alors embarqué dans une histoire un peu louche. Des agents de la DST lui proposent de séduire et surveiller les agissements de Claire, la femme d'un homme d'affaires.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 64,
-      "expirationDate": "2026-12-30",
-      "packageExpirations": {
-        "aoc": "2026-12-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm458871",
     "titre": "Mom + Mom",
     "type": "film",
@@ -23434,48 +21380,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2018,
     "date_ajout": "2021-03-15"
-  },
-  {
-    "id": "jw-tm225275",
-    "titre": "Riot - Enfermé pour tuer",
-    "type": "film",
-    "chaine": "Action Max",
-    "chaines": [
-      "Action Max"
-    ],
-    "logo_chaine": "assets/logos/action.png",
-    "logos_chaine": [
-      "assets/logos/action.png"
-    ],
-    "package_slugs": [
-      "aca"
-    ],
-    "annee": 2015,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 5.1,
-    "note_recence": 7.5,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/11281278/s592/riot-enferme-pour-tuer.jpg",
-    "synopsis": "Jack Stone orchestre délibérément un braquage de banque raté, afin d’être incarcéré et pouvoir infiltrer le gang de Balam, un caïd russe détenu dans une prison d’état. Balam est plus qu’un criminel psychopathe ; il est la tête pensante d’une importante organisation criminelle. Chef intelligent et dangereux, il dirige son business illicite en contrôlant les forces de police corrompues. Il vit depuis ses quartiers personnels, situés dans les profondeurs de la prison, où même le personnel pénitencier craint d’y pénétrer.  Jack devra survivre dans ce milieu hostile impitoyable, peuplé de criminels hyper-violents, de malades mentaux et de serial killers… Il devra enfin déjouer une garde rapprochée dévouée à son maître pour atteindre et se venger du criminel qui a assassiné froidement sa famille.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
   },
   {
     "id": "jw-tm472195",
@@ -24298,52 +22202,6 @@ const CATALOG_DATA = [
     "date_ajout": "2016-10-19"
   },
   {
-    "id": "jw-tm24970",
-    "titre": "The Bubble",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2006,
-    "duree": "1h 54min",
-    "runtime_minutes": 114,
-    "note_avis": 7.2,
-    "note_recence": 5.4,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/122541914/s592/the-bubble.jpg",
-    "synopsis": "Trois jeunes Israéliens, Noam, disquaire, Yali, gérant de café, et Lulu, vendeuse dans une boutique de produits de beauté, partagent un appartement dans un quartier branché de Tel-Aviv, symbole de cette \"bulle\", surnom donné à la ville. Dans ce cocon quasi déconnecté de la réalité des territoires et des conflits politiques qui agitent le pays, ils mènent une existence tout à fait ordinaire, préférant se concentrer sur leur vie amoureuse. Leur quotidien va pourtant être bouleversé par l'arrivée d'Ashraf, un Palestinien dont Noam tombe amoureux lors d'un incident au Check Point de Naplouse.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 96,
-      "expirationDate": "2027-01-31",
-      "packageExpirations": {
-        "aoc": "2027-01-31"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm462031",
     "titre": "Come to Daddy",
     "type": "film",
@@ -24543,50 +22401,6 @@ const CATALOG_DATA = [
       }
     ],
     "date_ajout": "2021-03-23"
-  },
-  {
-    "id": "jw-tm132531",
-    "titre": "La Machine à Démonter le Temps 2",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2015,
-    "duree": "1h 33min",
-    "runtime_minutes": 93,
-    "note_avis": 5,
-    "note_recence": 7.5,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "scifi_fantastique"
-    ],
-    "raw_genres": [
-      "cmy",
-      "scf",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/243473366/s592/la-machine-a-demonter-le-temps-2.jpg",
-    "synopsis": "Jacob et Nick doivent à nouveau remonter le temps pour sauver Lou qui s’est fait tirer dessus. Malheureusement, ils se retrouvent transportés dans le futur, en 2024.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm354124",
@@ -25075,50 +22889,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2015,
     "date_ajout": "2015-02-06"
-  },
-  {
-    "id": "jw-tm152862",
-    "titre": "Cracks",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2009,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 6.6,
-    "note_recence": 6.1,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "eur"
-    ],
-    "badge": "16",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/190235734/s592/cracks.jpg",
-    "synopsis": "Dans un pensionnat pour jeunes filles retiré du monde, Di et ses amies s'adonnent à des jeux fantaisistes, insolents et parfois cruels, encouragées par leur professeur de plongée, miss G, qu'elles idolâtrent.Miss G est une très belle femme, charismatique, cultivée, et pleine de surprises. Elle les fait rêver en leur contant ses nombreux voyages exotiques et ses liaisons passionnées.Fiamma, une nouvelle élève arrivée d'Espagne, vient bousculer le quotidien des jeunes filles et provoquer à son insu leur jalousie. Cette belle aristocrate, éprise de liberté, captive entièrement l'attention de Miss G au grand désarroi de Di et sa bande. Pourtant, lorsque Miss G tente de gagner les faveurs de Fiamma, à la fois fascinée et attirée par elle, celle-ci la rejette.Miss G perd alors le contrôle d'elle-même et déclenche une série d'événements tragiques qui fera perdre leur innocence aux jeunes filles.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm175261",
@@ -25733,49 +23503,6 @@ const CATALOG_DATA = [
       }
     ],
     "date_ajout": "2024-07-03"
-  },
-  {
-    "id": "jw-tm649",
-    "titre": "Une Star dans ma vie",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2006,
-    "duree": "1h 21min",
-    "runtime_minutes": 81,
-    "note_avis": 6.5,
-    "note_recence": 5.4,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/215291326/s592/une-star-dans-ma-vie.jpg",
-    "synopsis": "Pour préparer un rôle, un comédien fait la connaissance d'une vendeuse d'épicerie...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
   },
   {
     "id": "jw-tm285109",
@@ -26703,51 +24430,6 @@ const CATALOG_DATA = [
     "date_ajout": "2025-06-04"
   },
   {
-    "id": "jw-tm185697",
-    "titre": "Les Mythos",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2011,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 5.7,
-    "note_recence": 6.5,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/90942002/s592/les-mythos.jpg",
-    "synopsis": "En interceptant par hasard une demande de protection sur un téléphone mobile à la suite de leur prospection (infructueuse) dans des palaces parisiens, trois jeunes de banlieue, ex-agents de sécurité, se font passer pour des gardes du corps expérimentés et sont chargés de protéger Marie Van Verten, jeune et riche (et capricieuse) héritière belge. D'abord opposés par leurs différences sociales et culturelles, les garçons mal dégrossis et la fille choyée vont faire corps et fraterniser afin d'échapper aux ravisseurs lancés sur la piste de Marie. L'histoire s'achève beaucoup mieux qu'elle a commencé puisque l'amour se mêle de jeter l'un des trois jeunes aulnaysiens et la millionnaire bruxelloise dans les bras l'un de l'autre.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 96,
-      "expirationDate": "2027-01-31",
-      "packageExpirations": {
-        "aoc": "2027-01-31"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm135032",
     "titre": "À propos d'Elly",
     "type": "film",
@@ -26987,50 +24669,6 @@ const CATALOG_DATA = [
     "date_ajout": "2024-07-15"
   },
   {
-    "id": "jw-tm182393",
-    "titre": "Absent",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2011,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
-    "note_avis": 6.3,
-    "note_recence": 6.5,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/207670834/s592/absent.jpg",
-    "synopsis": "Martin se blesse lors d’un cours de natation. Après l’avoir emmené à l’hôpital, Sebastian, son professeur, propose à Martin de le raccompagner chez lui. Mais il n’y a personne.  Le professeur n’a alors d’autre choix que de lui proposer de passer la nuit chez lui, sans encore se douter des vraies intentions de son jeune hôte…",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm509042",
     "titre": "Camarade Dracula",
     "type": "film",
@@ -27234,97 +24872,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2019,
     "date_ajout": "2024-05-07"
-  },
-  {
-    "id": "jw-tm153030",
-    "titre": "Tetro",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2009,
-    "duree": "2h 07min",
-    "runtime_minutes": 127,
-    "note_avis": 6.8,
-    "note_recence": 6.1,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176100162/s592/tetro.jpg",
-    "synopsis": "Tetro est un homme sans passé. Il y a dix ans, il a rompu tout lien avec sa famille pour s'exiler en Argentine. À l'aube de ses 18 ans, Bennie, son frère cadet, part le retrouver à Buenos Aires. Entre les deux frères, l'ombre d'un père despotique, illustre chef d'orchestre, continue de planer et de les opposer. Mais Bennie veut comprendre. À tout prix. Quitte à rouvrir certaines blessures et à faire remonter à la surface des secrets de famille jusqu'ici bien enfouis.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 96,
-      "expirationDate": "2027-01-31",
-      "packageExpirations": {
-        "aoc": "2027-01-31"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm70415",
-    "titre": "Nocturna, la nuit magique",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2007,
-    "duree": "1h 23min",
-    "runtime_minutes": 83,
-    "note_avis": 7.2,
-    "note_recence": 5.6,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "fnt",
-      "fml",
-      "trl",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/250537260/s592/nocturna-la-nuit-magique.jpg",
-    "synopsis": "Tim passe beaucoup de temps sur le toit de l’orphelinat où il vit depuis toujours. Il adore scruter les étoiles. Cette nuit-là, il remarque que sa minuscule et fragile étoile, Adhara, est tombée du ciel. Quelque chose ne tourne pas rond. Il réalise alors que la nuit qui commence ne sera pas comme les autres…",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": true,
-    "on_tnt": false
   },
   {
     "id": "jw-tm179415",
@@ -27679,99 +25226,6 @@ const CATALOG_DATA = [
     "date_ajout": "2026-03-15"
   },
   {
-    "id": "jw-tm325101",
-    "titre": "Rock'n Chili",
-    "type": "film",
-    "chaine": "Action Max",
-    "chaines": [
-      "Action Max"
-    ],
-    "logo_chaine": "assets/logos/action.png",
-    "logos_chaine": [
-      "assets/logos/action.png"
-    ],
-    "package_slugs": [
-      "aca"
-    ],
-    "annee": 2017,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
-    "note_avis": 4.1,
-    "note_recence": 7.9,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "act",
-      "cmy",
-      "crm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/33796693/s592/gun-shy.jpg",
-    "synopsis": "En vacances avec sa femme au Chili, une rock star déjantée, Turk Henry, apprend qu'elle a été kidnappée par des terroristes lors d'une expédition.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 34,
-      "expirationDate": "2026-11-30",
-      "packageExpirations": {
-        "aca": "2026-11-30"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm362942",
-    "titre": "Braquage de sang",
-    "type": "film",
-    "chaine": "Action Max",
-    "chaines": [
-      "Action Max"
-    ],
-    "logo_chaine": "assets/logos/action.png",
-    "logos_chaine": [
-      "assets/logos/action.png"
-    ],
-    "package_slugs": [
-      "aca"
-    ],
-    "annee": 2017,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
-    "note_avis": 4.1,
-    "note_recence": 7.9,
-    "note_globale": 6,
-    "etoiles": 3,
-    "categories": [
-      "thriller_policier"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/42554137/s592/cops-and-robbers.jpg",
-    "synopsis": "Un négociateur en otage de la police joue un jeu dangereux de chat et de souris avec un voleur de banque acculé qui est déterminé à sortir de la banque et à humilier son frère, le négociateur de la police en otage, dans le processus.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 34,
-      "expirationDate": "2026-11-30",
-      "packageExpirations": {
-        "aca": "2026-11-30"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1408348",
     "titre": "Impitoyable",
     "type": "film",
@@ -27917,52 +25371,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2016,
     "date_ajout": "2016-03-02"
-  },
-  {
-    "id": "jw-tm183547",
-    "titre": "Les Zévadés de l'espace",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2013,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
-    "note_avis": 5.8,
-    "note_recence": 7,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "act",
-      "ani",
-      "cmy",
-      "fml",
-      "scf"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176326707/s592/les-zevades-de-lespace.jpg",
-    "synopsis": "Scorch Supernova, l’explorateur spatial le plus célèbre de la planète Baab, est un héros interplanétaire, dont les exploits sont retransmis dans toute la galaxie pour le bonheur de ses nombreux fans. Avec l’aide de son génie de frère Gary, chef de mission de la BASA, Scorch est devenu une légende, récoltant au passage l’amour d’une journaliste télé, la belle Gabby Babblerock, et la dévotion éternelle du fils de Gary, Kip. Lorsque Lena, la directrice de la BASA, intercepte un signal de détresse provenant de la Planète Sombre, un monde tristement célèbre pour ses périls en tous genres, Scorch refuse de laisser passer ce qui pourrait être le plus grand exploit de sa carrière : une mission de sauvetage sur la planète la plus dangereuse de l’univers.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm458612",
@@ -29808,53 +27216,6 @@ const CATALOG_DATA = [
     "date_ajout": "2021-10-13"
   },
   {
-    "id": "jw-tm147787",
-    "titre": "L'Étranger",
-    "type": "film",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2015,
-    "duree": "1h 34min",
-    "runtime_minutes": 94,
-    "note_avis": 4.7,
-    "note_recence": 7.5,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "drm",
-      "trl"
-    ],
-    "badge": "10",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/256457080/s592/the-outsider-2014.jpg",
-    "synopsis": "Lorsque le mercenaire Lex Walker doit identifier le corps de sa fille, il découvre que le cadavre à la morgue est celui d'une étrangère. Walker réussit alors à convaincre un détective qu'elle est toujours en vie et en danger. Les deux suivront la piste les menant à l'ancien patron de sa fille, un cyber-millionnaire corrompu qui fera tout en son pouvoir pour protéger son empire. Walker devra combattre une armée de bandits pour sauver la seule personne qui compte pour lui.",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 39,
-      "expirationDate": "2026-12-05",
-      "packageExpirations": {
-        "auc": "2026-12-05"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm464674",
     "titre": "Aurora Teagarden : Mystères en série",
     "type": "film",
@@ -30511,50 +27872,6 @@ const CATALOG_DATA = [
     "date_ajout": "2022-12-31"
   },
   {
-    "id": "jw-tm198002",
-    "titre": "La Vengeance dans le Corps",
-    "type": "film",
-    "chaine": "Action Max",
-    "chaines": [
-      "Action Max"
-    ],
-    "logo_chaine": "assets/logos/action.png",
-    "logos_chaine": [
-      "assets/logos/action.png"
-    ],
-    "package_slugs": [
-      "aca"
-    ],
-    "annee": 2015,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 5.1,
-    "note_recence": 7.5,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "crm",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/331313372/s592/pound-of-flesh.jpg",
-    "synopsis": "Arrivé en Chine pour donner un de ses reins à sa nièce mourante, Deacon se réveille la veille de l'opération et découvre qu'il est victime d'un réseau de trafic d'organes...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts394175",
     "titre": "Croisement Gaza - Boulevard Saint-Germain",
     "type": "serie",
@@ -30703,49 +28020,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2016,
     "date_ajout": "2017-04-28"
-  },
-  {
-    "id": "jw-tm150357",
-    "titre": "Adieu Gary",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2009,
-    "duree": "1h 15min",
-    "runtime_minutes": 75,
-    "note_avis": 6,
-    "note_recence": 6.1,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/241439635/s592/adieu-gary.jpg",
-    "synopsis": "Samir revient chez son père Francis après avoir purgé une peine de prison de moyenne durée pour petit trafic. Francis est veuf et vit dans un quartier ouvrier dont l'usine a fermé quelque temps auparavant laissant la population, majoritairement immigrée de l'Afrique du Nord, désœuvrée. Icham, le frère de Samir, lui trouve un travail de réinsertion dans le supermarché local, mais rapidement ce dernier ne peut supporter cette condition et quitte son travail, au grand dam de son père. Francis, lui-même licencié de son usine malgré les actions des syndicats, continue de réparer seul l'ultime grosse machine de l'usine, ne supportant pas de laisser un travail inachevé. Il entretient également une liaison secrète avec sa voisine Maria, dont le mari est parti quelques années auparavant, la laissant seule avec un fils devenu mutique et attendant le retour hypothétique de son père...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm364594",
@@ -31294,52 +28568,6 @@ const CATALOG_DATA = [
     "date_ajout": "2020-01-08"
   },
   {
-    "id": "jw-tm25209",
-    "titre": "La Fête du feu",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2006,
-    "duree": "1h 42min",
-    "runtime_minutes": 102,
-    "note_avis": 7.6,
-    "note_recence": 5.4,
-    "note_globale": 6.5,
-    "etoiles": 3,
-    "categories": [
-      "drame_emotion"
-    ],
-    "raw_genres": [
-      "drm",
-      "trl",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/9621937/s592/la-fete-du-feu.jpg",
-    "synopsis": "Ce mardi est \"Chahar shanbeh souri\", une fête du feu plurimillénaire. Rouhi, une jeune aide-ménagère qui vit un bonheur complet et va bientôt se marier, est employée pour la journée chez un jeune couple. Elle découvre un foyer en pleine crise, dont la femme soupçonne son mari de la tromper avec une voisine...",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 96,
-      "expirationDate": "2027-01-31",
-      "packageExpirations": {
-        "aoc": "2027-01-31"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts200630",
     "titre": "Besoin d’amour",
     "type": "serie",
@@ -31485,49 +28713,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2015,
     "date_ajout": "2018-05-16"
-  },
-  {
-    "id": "jw-tm663",
-    "titre": "Un Amour de père",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2008,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 6.3,
-    "note_recence": 5.8,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/285601633/s592/un-amour-de-pere.jpg",
-    "synopsis": "Nat est un homme qui aime profiter de la vie. Il se complaît en remportant quotidiennement des concours à la radio, en buvant du café gratuit dans les halls d'hôtel et en conduisant une voiture rose bonbon dont il a gagné l'usage pendant un an. Nat est un débrouillard et un bon. Il est capable d'obtenir presque tout ce qu'il veut pour 5$ par jour. La seule chose que Nat n'a pas, cependant et qu'il désire plus que tout c'est une relation plus étroite avec son fils, Flynn. Mais Flynn a ses problèmes, il vient de perdre son emploi, sa petite amie le quitte, et maintenant Nat l'appelle pour lui dire qu'il va mourir. Sans aucun autre recours, Flynn accepte à contrecœur de conduire son père au Nouveau-Mexique pour un traitement expérimental.",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm1243880",
@@ -31737,50 +28922,6 @@ const CATALOG_DATA = [
     "date_ajout": "2026-05-30"
   },
   {
-    "id": "jw-ts310222",
-    "titre": "Oui-Oui au pays des jouets",
-    "type": "serie",
-    "chaine": "Universal+",
-    "chaines": [
-      "Universal+"
-    ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
-    "logos_chaine": [
-      "assets/logos/universal_plus.svg"
-    ],
-    "package_slugs": [
-      "auc"
-    ],
-    "annee": 2009,
-    "duree": "11 min/ép.",
-    "runtime_minutes": 11,
-    "note_avis": 6.7,
-    "note_recence": 6.1,
-    "note_globale": 6.4,
-    "etoiles": 3,
-    "categories": [
-      "animation_famille"
-    ],
-    "raw_genres": [
-      "ani",
-      "fml",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/321391560/s592/noddy-in-toyland.jpg",
-    "synopsis": "Découvrez une toute nouvelle série Oui-Oui avec de nouveaux personnages, de nouveaux véhicules et de nouveaux accessoires pour accompagner Oui-Oui dans toutes ses aventures...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts82160",
     "titre": "Les enfants de Harvey Street",
     "type": "serie",
@@ -31939,52 +29080,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2019,
     "date_ajout": "2021-05-19"
-  },
-  {
-    "id": "jw-tm63920",
-    "titre": "Un Jour de chance",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2011,
-    "duree": "1h 38min",
-    "runtime_minutes": 98,
-    "note_avis": 6.1,
-    "note_recence": 6.5,
-    "note_globale": 6.3,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "eur"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/176060740/s592/un-jour-de-chance.jpg",
-    "synopsis": "Ancien publicitaire à succès désormais sans emploi, Roberto ne supporte plus d'être au chômage. Désespéré, il veut faire une surprise à sa femme en l'invitant dans l'hôtel qui fut le théâtre de leur lune de miel. Mais l'établissement a laissé place à un musée, sur le point d'être inauguré et présenté à de nombreux journalistes. Au cours de sa visite, Roberto fait une grave chute... En quelques minutes il devient l'attraction numéro 1 des médias présents et comprend que cet accident pourrait finalement lui être très profitable...",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 96,
-      "expirationDate": "2027-01-31",
-      "packageExpirations": {
-        "aoc": "2027-01-31"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm160538",
@@ -35465,53 +32560,6 @@ const CATALOG_DATA = [
     "date_ajout": "2015-02-25"
   },
   {
-    "id": "jw-tm53839",
-    "titre": "LOL (Laughing Out Loud)",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2009,
-    "duree": "1h 43min",
-    "runtime_minutes": 103,
-    "note_avis": 6.3,
-    "note_recence": 6.1,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "drm",
-      "rma",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/41320230/s592/lol-laughing-out-loud.jpg",
-    "synopsis": "LOL ? Ça veut dire Laughing Out Loud - mort de rire - en langage internet ou par SMS. C'est aussi comme ça que les amis de Lola l'appellent. Pourtant, le jour de sa rentrée, Lola n'a pas le cœur à rire. Arthur, son copain, la provoque en lui disant qu'il l'a trompée pendant l'été. Et sa bande de potes a le don pour tout compliquer. Tout comme sa mère, Anne, avec qui le dialogue est devenu impossible, et pas seulement parce qu'elle ignore ce que LOL signifie. Que ses parents aient divorcé est une chose. Qu'Anne traite son ado comme une enfant en lui mentant sur l'essentiel, par exemple sur le fait qu'elle revoit son ex en cachette ou qu'elle se fait draguer par un flic, en est une autre. De son côté, Anne se demande ce qui a bien pu arriver à sa douce petite fille. De la fusion à la confusion, les relations mères-filles bouillonnent d'amour et de LOL.",
-    "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 6 j",
-      "daysLeft": 6,
-      "expirationDate": "2026-11-02",
-      "packageExpirations": {
-        "aoc": "2026-11-02"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-tm1587533",
     "titre": "It Feeds",
     "type": "film",
@@ -35606,49 +32654,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2021,
     "date_ajout": "2021-05-19"
-  },
-  {
-    "id": "jw-tm79689",
-    "titre": "30 jours de nuit",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2007,
-    "duree": "1h 53min",
-    "runtime_minutes": 113,
-    "note_avis": 6.6,
-    "note_recence": 5.6,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "hrr",
-      "trl"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/175724477/s592/30-jours-de-nuit.jpg",
-    "synopsis": "Alaska, de nos jours. Au coeur de l'hiver, les habitants de la paisible ville de Barrow s'apprêtent à passer, comme tous les ans, un mois sans soleil. À la suite d'une série d'évènements étranges, Eben et Stella, les deux shérifs locaux, vont découvrir l'invraisemblable vérité. Un gang de vampires a investi la ville pour l'éradiquer de tous ses habitants. Eben, Stella et un petit groupe de survivants vont alors tenter de survivre jusqu'à l'aube...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm1038333",
@@ -36047,52 +33052,6 @@ const CATALOG_DATA = [
     "date_ajout": "2023-04-14"
   },
   {
-    "id": "jw-tm79696",
-    "titre": "Le Come-back",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2007,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 6.5,
-    "note_recence": 5.6,
-    "note_globale": 6.1,
-    "etoiles": 3,
-    "categories": [
-      "comedie"
-    ],
-    "raw_genres": [
-      "cmy",
-      "msc",
-      "rma"
-    ],
-    "badge": null,
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/311661211/s592/le-come-back.jpg",
-    "synopsis": "Le chanteur pop Alex Fletcher a connu la gloire dans les années 80, avant d'en être réduit à hanter les podiums des parcs de loisirs, foires agricoles et autres temples de la chansonnette rétro. Ce talentueux musicien, que chacun croit fini, se voit cependant offrir un come-back de la dernière chance lorsque la jeune diva Cora Corman l'invite à écrire et enregistrer en duo avec elle une chanson de son prochain album. L'ennui est qu'Alex n'a rien composé depuis dix ans, qu'il n'a jamais été parolier... et qu'il doit livrer son chef-d’œuvre dans la semaine ! C'est alors qu'entre en scène la fantasque et craquante Sophie Fisher, dont le verbe haut en couleur, aussi inventif qu'imagé, ravit notre artiste. Celle-ci hésite à collaborer avec un personnage aussi léger qu'Alex, mais la musique, qui sait si bien adoucir les mœurs, a aussi le don d'enflammer les cœurs...",
-    "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 14/11",
-      "daysLeft": 18,
-      "expirationDate": "2026-11-14",
-      "packageExpirations": {
-        "aoc": "2026-11-14"
-      }
-    },
-    "on_prime": false,
-    "on_tnt": false
-  },
-  {
     "id": "jw-ts110467",
     "titre": "Un Entretien",
     "type": "serie",
@@ -36486,51 +33445,6 @@ const CATALOG_DATA = [
     "on_tnt": false,
     "annee_moyenne": 2020,
     "date_ajout": "2022-06-15"
-  },
-  {
-    "id": "jw-tm70179",
-    "titre": "Chambre 1408",
-    "type": "film",
-    "chaine": "Ciné+ OCS",
-    "chaines": [
-      "Ciné+ OCS"
-    ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
-    "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
-    ],
-    "package_slugs": [
-      "aoc"
-    ],
-    "annee": 2007,
-    "duree": "1h 44min",
-    "runtime_minutes": 104,
-    "note_avis": 6.8,
-    "note_recence": 5.6,
-    "note_globale": 6.2,
-    "etoiles": 3,
-    "categories": [
-      "horreur_epouvante"
-    ],
-    "raw_genres": [
-      "fnt",
-      "hrr",
-      "trl",
-      "eur"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/35351631/s592/chambre-1408.jpg",
-    "synopsis": "Bien qu'il soit un auteur réputé de romans d'épouvante, Mike Enslin n'a jamais cru aux fantômes et aux esprits. Pour lui, la vie après la mort n'est que pure invention, et il a passé suffisamment de temps dans des maisons hantées et des cimetières pour le vérifier... En travaillant sur son dernier ouvrage, il découvre l'existence d'une chambre, la 1408 du Dolphin Hotel, où se sont produites de nombreuses morts inexpliquées et souvent violentes. Malgré les mises en garde du directeur de l'hôtel, Enslin décide d'y passer une nuit. Face à ce qu'il va vivre, son scepticisme va voler en éclats. Pour lui, la question n'est plus de savoir si le paranormal existe, mais d'espérer survivre à la nuit de tous les cauchemars...",
-    "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
-    },
-    "on_prime": false,
-    "on_tnt": false
   },
   {
     "id": "jw-tm439291",
