@@ -2462,15 +2462,14 @@ body.modal-open {
   color: #fff;
 }
 
-/* Bouquet Puce Amazon Prime Video */
-.bouquet-btn-amazon {
-  border-color: rgba(0, 168, 225, 0.45);
-  background: rgba(0, 168, 225, 0.1);
-  color: #38bdf8;
+/* Bouquet Puce Amazon Prime Video : neutre par défaut, couleur uniquement à l'état actif */
+.bouquet-btn-amazon .pkg-logo-img {
+  height: 13px;
+  max-width: 28px;
 }
 .bouquet-btn-amazon:hover {
-  background: rgba(0, 168, 225, 0.2);
-  border-color: rgba(0, 168, 225, 0.8);
+  background: rgba(0, 168, 225, 0.15);
+  border-color: rgba(0, 168, 225, 0.6);
   color: #7dd3fc;
 }
 .bouquet-btn-amazon.active {
@@ -2478,10 +2477,6 @@ body.modal-open {
   border-color: #00a8e1;
   color: #fff;
   box-shadow: 0 0 18px rgba(0, 168, 225, 0.45);
-}
-.bouquet-btn-amazon .pkg-count {
-  background: rgba(0, 168, 225, 0.22);
-  color: #bae6fd;
 }
 .bouquet-btn-amazon.active .pkg-count {
   background: rgba(0, 168, 225, 0.5);

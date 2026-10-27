@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.05** / Cache **cinescope-v9.05-streaming** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.06** / Cache **cinescope-v9.06-streaming** / Stockage **_v48**).
 
 ---
 
@@ -311,4 +311,9 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * Nouveau fichier vectoriel SVG officiel pur ([`assets/logos/prime_video.svg`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/assets/logos/prime_video.svg)) extrait de la charte de référence et conforme rigoureusement à la capture d'écran de l'utilisateur (lettres *prime* blanches et flèche-sourire emblématique).
     * Rendu ultra-net à toute résolution, sans cartouche artificiel, parfaitement positionné sur les cartes et dans la pastille de bouquet.
   - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.05-streaming` et `?v=9.05` sur l'ensemble des scripts et styles.
+
+* **Harmonisation Neutre & Calibrage Optique de la Puce Amazon Prime (27/10/2026 - v9.06 - Règle 8 AGENTS.md)** :
+  - **État Inactif Neutre Garanti** : Retrait des bordures et teintes cyan par défaut sur `.bouquet-btn-amazon` afin d'aligner rigoureusement sa sobriété visuelle sur l'ensemble des autres bouquets (`.bouquet-btn`). La surbrillance cyan satiné (`#00a8e1`) n'intervient désormais qu'au survol ou à l'état actif (`.active`).
+  - **Calibrage Optique du Logo Prime** : Ajustement de `.bouquet-btn-amazon .pkg-logo-img` à `height: 13px; max-width: 28px;`, supprimant la disproportion visuelle dans la barre des bouquets pour un alignement millimétré avec les logos OCS, Universal+ et Action Max.
+  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.06-streaming` et `?v=9.06` sur l'ensemble des scripts et styles.
 
