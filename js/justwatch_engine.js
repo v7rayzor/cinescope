@@ -4,10 +4,10 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v47';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v47';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v47';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v47';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v48';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v48';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v48';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v48';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -1432,7 +1432,12 @@ const JustWatchEngine = (function () {
             .map(it => {
               const refreshed = refreshItemExpiration(it);
               if (refreshed.raw_genres && refreshed.raw_genres.length > 0) {
-                refreshed.categories = [computeCategory(refreshed.raw_genres, refreshed.type === 'serie', refreshed.titre, refreshed.synopsis, refreshed.badge, refreshed.annee)];
+                const cachedDuel = resolveDuelEntry(refreshed.id);
+                if (cachedDuel && isEligibleDuelEntry(refreshed.raw_genres, cachedDuel.category)) {
+                  refreshed.categories = [cachedDuel.category];
+                } else if (!refreshed.categories || refreshed.categories.length === 0) {
+                  refreshed.categories = [computeCategory(refreshed.raw_genres, refreshed.type === 'serie', refreshed.titre, refreshed.synopsis, refreshed.badge, refreshed.annee, refreshed.package_slugs, refreshed.id)];
+                }
               }
               refreshed.on_prime = Boolean(refreshed.on_prime || isKnownPrimeTitle(refreshed.titre));
               refreshed.on_tnt = Boolean(refreshed.on_tnt);

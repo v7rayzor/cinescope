@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.12** / Cache **cinescope-v9.12-streaming** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.13** / Cache **cinescope-v9.13-streaming** / Stockage **_v48**).
 
 ---
 
@@ -353,4 +353,12 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * Conservation formelle en *Policier* des séries et films procéduraux d'enquête pure (*Almost Paradise*, *Falco*, *Aurora Teagarden*, *Muzzle*, *Reacher*, etc.).
   - **Recalcul Automatique Global** : Ré-arbitrage de 457 œuvres de la sphère policière et criminelle via DeepSeek et mise à jour synchronisée de `data/ai_subcategories_cache.json` et `data/ai_subcategories_cache.js`.
   - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.12-streaming` et `?v=9.12` sur l'ensemble des scripts et styles.
+
+* **Correction du Harnais de Cache Client & Réhabilitation des Duels IA au Démarrage (27/10/2026 - v9.13 - Règles 1 & 7 AGENTS.md)** :
+  - **Correction Chirurgicale de `loadCatalogFromCache()` ([`js/justwatch_engine.js`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/js/justwatch_engine.js))** :
+    * Correction de l'écrasement aveugle des catégories lors de la lecture du cache `localStorage`.
+    * Intégration du contrôle prioritaire de duel IA (`resolveDuelEntry`) avec passage de `refreshed.id` et préservation absolue de `refreshed.categories` lorsqu'il est déjà qualifié dans `catalog.js`.
+    * Réhabilitation immédiate du film ***Le Secret de Khéops*** (2025) en catégorie officielle `action_aventure` (avec sous-catégorie `Aventure`).
+  - **Migration du Stockage Local Client (`_v48`)** : Clés de stockage synchronisées vers `cinescope_streaming_catalog_v48` avec purge automatique proactive des versions obsolètes.
+  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.13-streaming` et `?v=9.13` sur l'ensemble des scripts et styles.
 
