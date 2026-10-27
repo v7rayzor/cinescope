@@ -2489,12 +2489,6 @@ body.modal-open {
 }
 
 /* Masquage / Affichage exclusif en Mode Amazon Prime (Desktop PC) */
-body.amazon-mode-active #bouquetsChipsGroup > button:not(#pkgAmazon) {
-  display: none !important;
-}
-body.amazon-mode-active #pkgAmazon {
-  display: inline-flex !important;
-}
 body.amazon-mode-active #pkgExclusive,
 body.amazon-mode-active #toggleIncludeSpecialized,
 body.amazon-mode-active #btnSyncSpecialized {

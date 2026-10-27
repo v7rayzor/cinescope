@@ -770,7 +770,7 @@ function getActiveCatalog() {
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
   const primeData = (typeof window !== 'undefined' && window.PRIME_CATALOG_DATA) || (typeof PRIME_CATALOG_DATA !== 'undefined' ? PRIME_CATALOG_DATA : null);
   if (!isMobile) {
-    if (AppState.isAmazonMode && Array.isArray(primeData) && primeData.length > 0) {
+    if ((AppState.isAmazonMode || AppState.activeBouquet === 'prv') && Array.isArray(primeData) && primeData.length > 0) {
       return primeData;
     }
     if (AppState.includeAmazon && Array.isArray(primeData) && primeData.length > 0) {
@@ -874,6 +874,7 @@ function initBouquetsCounts() {
     if (isMobile) return isItemBasePaid(i);
     if (isItemBasePaid(i)) return true;
     if (AppState.includeSpecialized && isItemSpecialized(i)) return true;
+    if (AppState.includeAmazon && isItemOnPrimeVideo(i)) return true;
     return false;
   }).length;
 
@@ -968,6 +969,12 @@ function initBouquetsNavigation() {
       bouquetBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       AppState.activeBouquet = btn.dataset.package || 'all';
+      if (AppState.activeBouquet !== 'prv' && AppState.isAmazonMode) {
+        AppState.isAmazonMode = false;
+        const toggleAmazonBtn = document.getElementById('toggleAmazonMode');
+        if (toggleAmazonBtn) toggleAmazonBtn.classList.remove('active');
+        document.body.classList.remove('amazon-mode-active');
+      }
       initBouquetsCounts();
       updateCategoryAutoStar();
       renderCatalog();

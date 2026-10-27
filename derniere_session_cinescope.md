@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.04** / Cache **cinescope-v9.04-streaming** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.05** / Cache **cinescope-v9.05-streaming** / Stockage **_v48**).
 
 ---
 
@@ -121,7 +121,7 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 
 ### B. Organisation Multi-Lignes sur Desktop (PC $\ge 1024\text{px}$)
 * **Ligne 0A (Ligne 1) : Bouquets SVOD Payants & Spécialisés** :
-  `[✨ Tous les bouquets]` `[Ciné+ OCS]` `[Action Max]` `[Universal+]` `[Sooner]` `[Shadowz]` `[Insomnia]`
+  `[✨ Tous les bouquets]` `[Ciné+ OCS]` `[Action Max]` `[Universal+]` `[Sooner]` `[Shadowz]` `[Insomnia]` `[Amazon Prime]`
 * **Ligne 0B (Ligne 2) : Toggles d'Inclusion (+), Filtres d'Exclusion (-) & Synchro** :
   1. `[📦 Mode Amazon]` *(Exclusivité PC - Règle 8)* : Bascule exclusive vers le catalogue dédié Amazon Prime Video synchronisé ([`data/prime_catalog.js`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/data/prime_catalog.js)).
   2. `[➕ + Amazon]` *(Exclusivité PC - Règle 8)* : Ajoute les œuvres Amazon Prime Video aux bouquets actifs sans les masquer.
@@ -301,4 +301,14 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * Application stricte de la règle éliminatoire : toute œuvre dont la note globale recalculée $\frac{\text{note avis} + \text{note récence}}{2} < 6.0$ est écartée du catalogue.
     * 67 œuvres historiques aux notes recalculées $< 6.0$ (dont *OSS 117 : Le Caire*, *OSS 117 : Rio ne répond plus*, *Burn After Reading*, *MR 73*, etc.) éliminées, maintenant un catalogue de 1 263 œuvres 100% conformes et de haute qualité.
   - **Cache et PWA** : Mise à niveau globale vers `v9.04` (`sw.js` : `cinescope-v9.04-streaming` et `?v=9.04` sur `index.html`).
+
+* **Intégration Permanente du Bouquet Amazon Prime & Logo Vectoriel Officiel HD (27/10/2026 - v9.05 - Règles 4 & 8 AGENTS.md)** :
+  - **Affichage Permanent du Bouquet Amazon Prime en Ligne 0A** :
+    * La puce `[Amazon Prime]` (`#pkgAmazon`, data-package="prv") est désormais affichée en permanence sur PC Desktop aux côtés de Ciné+ OCS, Universal+, Action Max, Sooner, Shadowz et Insomnia.
+    * Le compteur dynamique affiche fidèlement le nombre de titres Prime Video disponibles pour le type de média sélectionné (945 films).
+    * Au clic sur `[Amazon Prime]`, le catalogue charge et affiche instantanément les œuvres Prime Video. Le clic sur un autre bouquet désactive proprement le mode exclusif.
+  - **Remplacement Officiel du Logo Prime Video par le Vectoriel Blanc HD** :
+    * Nouveau fichier vectoriel SVG officiel pur ([`assets/logos/prime_video.svg`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/assets/logos/prime_video.svg)) extrait de la charte de référence et conforme rigoureusement à la capture d'écran de l'utilisateur (lettres *prime* blanches et flèche-sourire emblématique).
+    * Rendu ultra-net à toute résolution, sans cartouche artificiel, parfaitement positionné sur les cartes et dans la pastille de bouquet.
+  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.05-streaming` et `?v=9.05` sur l'ensemble des scripts et styles.
 
