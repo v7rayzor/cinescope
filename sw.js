@@ -1,10 +1,11 @@
-const CACHE_NAME = 'cinescope-v9.08-streaming';
+const CACHE_NAME = 'cinescope-v9.09-streaming';
 const CORE_ASSETS = [
   './',
   './index.html',
   './manifest.json',
   './css/style.css',
   './data/ai_duel_cache.js',
+  './data/ai_subcategories_cache.js',
   './js/catalog.js',
   './data/prime_catalog.js',
   './js/justwatch_engine.js',

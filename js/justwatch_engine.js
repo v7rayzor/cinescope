@@ -65,6 +65,37 @@ const JustWatchEngine = (function () {
     return aiDuelCache;
   }
 
+  // Cache persistant des sous-catégories IA DeepSeek (Règle v9.09)
+  let aiSubCategoriesCache = (typeof window !== 'undefined' && window.AI_SUBCATEGORIES_CACHE) ? window.AI_SUBCATEGORIES_CACHE : {};
+  if (typeof require !== 'undefined' && Object.keys(aiSubCategoriesCache).length === 0) {
+    try {
+      const fs = require('fs');
+      const path = require('path');
+      const candidatePaths = [
+        path.join(process.cwd(), 'data', 'ai_subcategories_cache.json'),
+        typeof __dirname !== 'undefined' ? path.join(__dirname, '..', 'data', 'ai_subcategories_cache.json') : null,
+        typeof __dirname !== 'undefined' ? path.join(__dirname, 'data', 'ai_subcategories_cache.json') : null
+      ].filter(Boolean);
+      for (const p of candidatePaths) {
+        if (fs.existsSync(p)) {
+          aiSubCategoriesCache = JSON.parse(fs.readFileSync(p, 'utf8'));
+          break;
+        }
+      }
+    } catch (e) { }
+  }
+
+  function setAiSubCategoriesCache(cache) {
+    aiSubCategoriesCache = cache || {};
+  }
+
+  function getAiSubCategoriesCache() {
+    if (typeof window !== 'undefined' && window.AI_SUBCATEGORIES_CACHE && Object.keys(window.AI_SUBCATEGORIES_CACHE).length > 0) {
+      return window.AI_SUBCATEGORIES_CACHE;
+    }
+    return aiSubCategoriesCache;
+  }
+
   function resolveDuelEntry(itemId) {
     if (!itemId) return null;
     const cache = getAiDuelCache();
@@ -555,9 +586,21 @@ const JustWatchEngine = (function () {
     return catNames[bestIdx];
   }
 
-  // Qualification Déterministe Universelle des Sous-Catégories en 1 Mot Simple (Règle 7)
+  // Qualification des Sous-Catégories en 1 Mot Simple (avec Priorité Cache IA DeepSeek)
   function computeSubCategory(item) {
     if (!item) return '';
+
+    // 1. Priorité absolue au registre persistant d'arbitrage IA DeepSeek
+    const cache = (typeof window !== 'undefined' && window.AI_SUBCATEGORIES_CACHE)
+      ? window.AI_SUBCATEGORIES_CACHE
+      : aiSubCategoriesCache;
+    if (cache && cache[item.id]) {
+      const entry = cache[item.id];
+      const sub = typeof entry === 'string' ? entry : (entry.subCategory || entry.choix);
+      if (sub) return sub;
+    }
+
+    // 2. Moteur déterministe en fallback immédiat
     const cat = (item.categories && item.categories[0]) || 'drame_emotion';
     const raw = item.raw_genres || [];
     const syn = (item.synopsis || '').toLowerCase();
@@ -1577,6 +1620,8 @@ const JustWatchEngine = (function () {
     isItemTntFree,
     setAiDuelCache,
     getAiDuelCache,
+    setAiSubCategoriesCache,
+    getAiSubCategoriesCache,
     computeSubCategory
   };
 })();

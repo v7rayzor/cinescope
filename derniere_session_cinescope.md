@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.08** / Cache **cinescope-v9.08-streaming** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.09** / Cache **cinescope-v9.09-streaming** / Stockage **_v48**).
 
 ---
 
@@ -317,24 +317,20 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Calibrage Optique du Logo Prime** : Ajustement de `.bouquet-btn-amazon .pkg-logo-img` à `height: 13px; max-width: 28px;`, supprimant la disproportion visuelle dans la barre des bouquets pour un alignement millimétré avec les logos OCS, Universal+ et Action Max.
   - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.06-streaming` et `?v=9.06` sur l'ensemble des scripts et styles.
 
-* **Sous-Catégories Déterministes & Priorité Fantastique (27/10/2026 - v9.08 - Règles 1, 7 & 8 AGENTS.md)** :
-  - **Moteur Algorithmique Déterministe Universel (`JustWatchEngine.computeSubCategory`)** :
-    * Moteur souverain qualifiant 100% du catalogue sans recours à des API externes, assurant une parfaite reproductibilité mathématique.
-    * Strictement 1 seul mot simple par sous-catégorie pour un confort de lecture optimal :
-      - *Action & Aventure* : `Action`, `Aventure` (Règle impérative respectée : le Western n'est PAS une sous-catégorie d'Action & Aventure et n'y est pas assimilé ; les œuvres comme *Django* demeurent fidèlement en drame).
-      - *Thriller & Policier* : `Policier`, `Thriller`.
-      - *Science-fiction & Fantastique* : `SF`, `Fantastique` (Arbitrage prioritaire : en cas de double présence `scf` + `fnt`, le tag `fnt` prend la priorité, attribuant fidèlement au *Fantastique* des séries/films de magie et surnaturel comme *The Magicians*, *S.O.S. Fantômes*, *Grimm*, *Shannara*, pour un équilibre parfait de 75 SF / 76 Fantastique).
-      - *Comédie* : `Humour`, `Dramatique`, `Romantique`, `Musical`.
-      - *Drame & Émotion* : `Social`, `Romance`, `Histoire`.
-      - *Horreur & Épouvante* : `Angoisse`, `Surnaturel`, `Slasher`, `Monstres`.
-      - *Animation & Famille* : `Animation`, `Famille`.
-  - **Barre Dédiée Réactive sous la Catégorie Active (`#subcategoriesBarSection`)** :
-    * Visible sur PC Desktop uniquement lorsque l'utilisateur est positionné dans l'une des 7 catégories (`activeCategory !== 'all'`).
-    * Affiche le libellé de la catégorie parente, la puce `✨ Tous` avec le total d'œuvres filtrées, et les puces de chaque sous-catégorie avec leur décompte dynamique en temps réel.
-    * Filtrage instantané au clic sans rechargement de page.
-    * Badge de sous-catégorie visible à côté de la catégorie principale dans la modale de fiche détail sur Desktop (`modal-subcat-tag`).
-  - **Sanctuaire Mobile & Préservation de la Règle 1** :
-    * Totalement invisible et inactif sur mobile via la classe `.subcategories-pc-only` (`display: none !important;`).
-    * L'œuvre conserve rigoureusement une seule catégorie principale unique dans son champ `categories: ["nom_de_la_categorie"]`.
-  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.08-streaming` et `?v=9.08` sur l'ensemble des scripts et styles.
+* **Arbitrage Expert des Sous-Catégories par IA DeepSeek (27/10/2026 - v9.09 - Règles 1, 7 & 8 AGENTS.md)** :
+  - **Qualification Sémantique Complète (2 586 œuvres arbitrées)** :
+    * Création du script d'arbitrage automatisé [`scripts/classify_subcategories_deepseek.cjs`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/scripts/classify_subcategories_deepseek.cjs) interrogeant l'API `deepseek-chat` par lots de 10 titres.
+    * Résolution des limites du balisage brut JustWatch : analyse approfondie des synopsis pour attribuer rigoureusement à chaque œuvre la sous-catégorie la plus juste tout en respectant strictement sa catégorie principale officielle.
+    * **Distribution équilibrée et réaliste sur le catalogue CinéScope (1 263 œuvres)** :
+      - *Action & Aventure* : Action (49), Aventure (17) (des films comme *Rogue* ou de grandes expéditions enfin qualifiés en Aventure).
+      - *Horreur & Épouvante* : Angoisse (68), Surnaturel (79), Slasher (23), Monstres (21) (répartition spectaculaire débloquant les slashers et films de monstres/fantômes jusqu'ici piégés dans Angoisse).
+      - *Drame & Émotion* : Social (204), Histoire (60), Romance (56).
+      - *Thriller & Policier* : Policier (121), Thriller (68).
+      - *Comédie* : Dramatique (109), Humour (77), Romantique (49), Musical (6).
+      - *Science-fiction & Fantastique* : SF (92), Fantastique (59).
+      - *Animation & Famille* : Animation (92), Famille (13).
+  - **Registre Persistant Hors-Ligne & 0 Latence (`data/ai_subcategories_cache.js`)** :
+    * Stockage de l'ensemble des 2 586 arbitrages dans `window.AI_SUBCATEGORIES_CACHE` (219 Ko).
+    * Zéro appel API en direct sur le site : exécution 100% hors-ligne, zéro latence pour l'utilisateur, compatible Service Worker PWA.
+  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.09-streaming` et `?v=9.09` sur l'ensemble des scripts et styles.
 
