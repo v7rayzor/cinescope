@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.09** / Cache **cinescope-v9.09-streaming** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.10** / Cache **cinescope-v9.10-streaming** / Stockage **_v48**).
 
 ---
 
@@ -333,4 +333,17 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * Stockage de l'ensemble des 2 586 arbitrages dans `window.AI_SUBCATEGORIES_CACHE` (219 Ko).
     * Zéro appel API en direct sur le site : exécution 100% hors-ligne, zéro latence pour l'utilisateur, compatible Service Worker PWA.
   - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.09-streaming` et `?v=9.09` sur l'ensemble des scripts et styles.
+
+* **Affichage Permanent & Filtrage Indépendant des Sous-Catégories (27/10/2026 - v9.10 - Règles 1, 7 & 8 AGENTS.md)** :
+  - **Émancipation Totale des 19 Sous-Catégories sur PC Desktop** :
+    * La rangée de sous-catégories est désormais **affichée en permanence sur PC Desktop**, même lorsque l'utilisateur est sur *Tous les genres* (`activeCategory === 'all'`).
+    * Les 19 sous-catégories sont présentées avec leur palette chromatique dédiée (bordure gauche et lueur subtile au survol).
+    * Chaque puce affiche son compteur dynamique en temps réel calculé sur le mode actif (films/séries, bouquets).
+  - **Filtrage Indépendant Direct en 1 Clic** :
+    * Clic direct sur n'importe quelle sous-catégorie (ex: `Slasher`, `Aventure`, `Histoire`) : filtre instantanément le catalogue sans nécessiter de sélection préalable d'une catégorie mère.
+    * Synchronisation visuelle harmonieuse avec la catégorie mère correspondante.
+    * Titre dynamique de section actualisé avec précision (`Slasher (Films)`, `Aventure (Films)`, etc.).
+  - **Sanctuaire Mobile Préservé (Règle 8)** :
+    * La barre reste exclusivement visible sur PC ($\ge 1024\text{px}$) et masquée sur smartphone (`.subcategories-pc-only`) pour ne pas encombrer l'écran tactile.
+  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.10-streaming` et `?v=9.10` sur l'ensemble des scripts et styles.
 

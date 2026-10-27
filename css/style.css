@@ -424,14 +424,15 @@ body.modal-open {
 .subcat-btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  padding: 0.26rem 0.72rem;
-  background: rgba(255, 255, 255, 0.035);
+  gap: 0.38rem;
+  padding: 0.24rem 0.65rem;
+  background: rgba(255, 255, 255, 0.032);
   border: 1px solid var(--border-subtle);
+  border-left: 2.5px solid var(--subcat-accent, rgba(255, 255, 255, 0.2));
   border-radius: var(--radius-full);
   color: var(--text-secondary);
   font-family: var(--font-main);
-  font-size: 0.78rem;
+  font-size: 0.76rem;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -440,16 +441,22 @@ body.modal-open {
 
 .subcat-btn:hover {
   background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.22);
+  border-color: var(--subcat-accent, rgba(255, 255, 255, 0.35));
   color: #fff;
   transform: translateY(-1px);
+  box-shadow: 0 2px 8px var(--subcat-glow, rgba(0, 0, 0, 0.3));
 }
 
 .subcat-btn.active {
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.14);
   border-color: var(--subcat-accent, var(--accent-red));
   color: #fff;
-  box-shadow: 0 0 14px var(--subcat-glow, rgba(255, 51, 75, 0.3));
+  box-shadow: 0 0 14px var(--subcat-glow, rgba(255, 51, 75, 0.35));
+}
+
+.subcat-btn.subcat-parent-match {
+  border-color: rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.055);
 }
 
 .subcat-count {

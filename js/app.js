@@ -93,6 +93,29 @@ const SUB_CATEGORIES_CONFIG = {
   }
 };
 
+// Liste exhaustive ordonnée des 19 sous-catégories indépendantes (Exclusivité Desktop PC - Règle 8 AGENTS.md)
+const ALL_SUB_CATEGORIES = [
+  { name: 'Action', parent: 'action_aventure', color: '#ea580c', glow: 'rgba(234, 88, 12, 0.35)' },
+  { name: 'Aventure', parent: 'action_aventure', color: '#ea580c', glow: 'rgba(234, 88, 12, 0.35)' },
+  { name: 'Policier', parent: 'thriller_policier', color: '#e11d48', glow: 'rgba(225, 29, 72, 0.35)' },
+  { name: 'Thriller', parent: 'thriller_policier', color: '#e11d48', glow: 'rgba(225, 29, 72, 0.35)' },
+  { name: 'SF', parent: 'scifi_fantastique', color: '#06b6d4', glow: 'rgba(6, 182, 212, 0.35)' },
+  { name: 'Fantastique', parent: 'scifi_fantastique', color: '#06b6d4', glow: 'rgba(6, 182, 212, 0.35)' },
+  { name: 'Humour', parent: 'comedie', color: '#eab308', glow: 'rgba(234, 179, 8, 0.35)' },
+  { name: 'Dramatique', parent: 'comedie', color: '#eab308', glow: 'rgba(234, 179, 8, 0.35)' },
+  { name: 'Romantique', parent: 'comedie', color: '#eab308', glow: 'rgba(234, 179, 8, 0.35)' },
+  { name: 'Musical', parent: 'comedie', color: '#eab308', glow: 'rgba(234, 179, 8, 0.35)' },
+  { name: 'Social', parent: 'drame_emotion', color: '#ec4899', glow: 'rgba(236, 72, 153, 0.35)' },
+  { name: 'Histoire', parent: 'drame_emotion', color: '#ec4899', glow: 'rgba(236, 72, 153, 0.35)' },
+  { name: 'Romance', parent: 'drame_emotion', color: '#ec4899', glow: 'rgba(236, 72, 153, 0.35)' },
+  { name: 'Slasher', parent: 'horreur_epouvante', color: '#a855f7', glow: 'rgba(168, 85, 247, 0.35)' },
+  { name: 'Surnaturel', parent: 'horreur_epouvante', color: '#a855f7', glow: 'rgba(168, 85, 247, 0.35)' },
+  { name: 'Monstres', parent: 'horreur_epouvante', color: '#a855f7', glow: 'rgba(168, 85, 247, 0.35)' },
+  { name: 'Angoisse', parent: 'horreur_epouvante', color: '#a855f7', glow: 'rgba(168, 85, 247, 0.35)' },
+  { name: 'Animation', parent: 'animation_famille', color: '#10b981', glow: 'rgba(16, 185, 129, 0.35)' },
+  { name: 'Famille', parent: 'animation_famille', color: '#10b981', glow: 'rgba(16, 185, 129, 0.35)' }
+];
+
 // État global de l'application
 const AppState = {
   activeType: 'film',          // 'film' ou 'serie'
@@ -1280,7 +1303,7 @@ function setCategory(targetCat) {
   renderCatalog();
 }
 
-// Affichage et gestion des sous-catégories déterministes sur PC Desktop (Règles 7 & 8 AGENTS.md)
+// Affichage et gestion des sous-catégories indépendantes sur PC Desktop (Règles 7 & 8 AGENTS.md)
 function renderSubCategories() {
   const subBarSection = document.getElementById('subcategoriesBarSection');
   const chipsGroup = document.getElementById('subcategoriesChipsGroup');
@@ -1288,30 +1311,25 @@ function renderSubCategories() {
   if (!subBarSection || !chipsGroup) return;
 
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
-  if (isMobile || AppState.activeCategory === 'all') {
+  if (isMobile) {
     subBarSection.style.display = 'none';
     return;
   }
 
-  const conf = SUB_CATEGORIES_CONFIG[AppState.activeCategory];
-  if (!conf || !conf.subs || !conf.subs.length) {
-    subBarSection.style.display = 'none';
-    return;
-  }
-
+  // Affichage permanent sur PC Desktop
   subBarSection.style.display = 'flex';
   if (parentLabel) {
-    parentLabel.textContent = `${conf.label} :`;
+    parentLabel.textContent = 'Sous-catégories :';
   }
 
   // Calcul du nombre d'œuvres éligibles pour chaque sous-catégorie
-  const itemsInCat = getFilteredItemsBeforeStars({ ignoreSubCategory: true });
+  const itemsForCounts = getFilteredItemsBeforeStars({ ignoreSubCategory: true, ignoreCategory: true });
   const countsBySub = {};
-  conf.subs.forEach(s => { countsBySub[s] = 0; });
-  let totalInCat = 0;
+  ALL_SUB_CATEGORIES.forEach(s => { countsBySub[s.name] = 0; });
+  let totalAll = 0;
 
-  itemsInCat.forEach(it => {
-    totalInCat++;
+  itemsForCounts.forEach(it => {
+    totalAll++;
     if (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.computeSubCategory === 'function') {
       const s = JustWatchEngine.computeSubCategory(it);
       if (countsBySub[s] !== undefined) {
@@ -1322,11 +1340,12 @@ function renderSubCategories() {
 
   chipsGroup.innerHTML = '';
 
-  // 1. Puce "✨ Tous"
+  // 1. Puce globale "✨ Tous"
   const allBtn = document.createElement('button');
   allBtn.type = 'button';
-  allBtn.className = `subcat-btn ${AppState.activeSubCategory === 'all' ? 'active' : ''}`;
-  allBtn.innerHTML = `<span>✨ Tous</span><span class="subcat-count">${totalInCat}</span>`;
+  const isAllActive = AppState.activeSubCategory === 'all';
+  allBtn.className = `subcat-btn ${isAllActive ? 'active' : ''}`;
+  allBtn.innerHTML = `<span>✨ Tous</span><span class="subcat-count">${totalAll}</span>`;
   allBtn.addEventListener('click', () => {
     AppState.activeSubCategory = 'all';
     renderSubCategories();
@@ -1334,15 +1353,30 @@ function renderSubCategories() {
   });
   chipsGroup.appendChild(allBtn);
 
-  // 2. Puces pour chaque sous-catégorie en 1 mot
-  conf.subs.forEach(subName => {
+  // 2. Puces pour chacune des 19 sous-catégories (indépendantes et permanentes)
+  ALL_SUB_CATEGORIES.forEach(sub => {
     const btn = document.createElement('button');
     btn.type = 'button';
-    const isAct = AppState.activeSubCategory === subName;
-    btn.className = `subcat-btn ${isAct ? 'active' : ''}`;
-    btn.innerHTML = `<span>${subName}</span><span class="subcat-count">${countsBySub[subName] || 0}</span>`;
+    const isAct = AppState.activeSubCategory === sub.name;
+    const isSameParent = AppState.activeCategory !== 'all' && AppState.activeCategory === sub.parent;
+    btn.className = `subcat-btn ${isAct ? 'active' : ''} ${isSameParent ? 'subcat-parent-match' : ''}`;
+    btn.style.setProperty('--subcat-accent', sub.color);
+    btn.style.setProperty('--subcat-glow', sub.glow);
+    btn.innerHTML = `<span>${sub.name}</span><span class="subcat-count">${countsBySub[sub.name] || 0}</span>`;
+    btn.title = `Filtrer sur ${sub.name}`;
+
     btn.addEventListener('click', () => {
-      AppState.activeSubCategory = (AppState.activeSubCategory === subName) ? 'all' : subName;
+      if (AppState.activeSubCategory === sub.name) {
+        AppState.activeSubCategory = 'all';
+      } else {
+        AppState.activeSubCategory = sub.name;
+        // Synchronisation visuelle bienveillante avec la catégorie mère
+        if (sub.parent) {
+          AppState.activeCategory = sub.parent;
+          const catButtons = document.querySelectorAll('.category-btn');
+          catButtons.forEach(b => b.classList.toggle('active', b.dataset.category === sub.parent));
+        }
+      }
       renderSubCategories();
       renderCatalog();
     });
@@ -1793,17 +1827,15 @@ function getCategoryEligibleItems(options = {}) {
       }
     }
 
-    // Filtre Catégorie
-    if (AppState.activeCategory !== 'all') {
+    // Filtre Sous-Catégorie Indépendant (Exclusivité PC - Règle 8 AGENTS.md)
+    if (!options.ignoreSubCategory && !isMobile && AppState.activeSubCategory && AppState.activeSubCategory !== 'all') {
+      const itemSub = (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.computeSubCategory === 'function')
+        ? JustWatchEngine.computeSubCategory(item)
+        : '';
+      if (itemSub !== AppState.activeSubCategory) return false;
+    } else if (!options.ignoreCategory && AppState.activeCategory !== 'all') {
+      // Filtre Catégorie Principale (actif si aucune sous-catégorie spécifique n'est sélectionnée)
       if (!item.categories || !item.categories.includes(AppState.activeCategory)) return false;
-
-      // Filtre Sous-Catégorie Déterministe (Exclusivité PC - Règle 8 AGENTS.md)
-      if (!options.ignoreSubCategory && !isMobile && AppState.activeSubCategory && AppState.activeSubCategory !== 'all') {
-        const itemSub = (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.computeSubCategory === 'function')
-          ? JustWatchEngine.computeSubCategory(item)
-          : '';
-        if (itemSub !== AppState.activeSubCategory) return false;
-      }
     }
 
     return true;
@@ -1835,12 +1867,17 @@ function renderCatalog() {
   // Mettre à jour l'affichage des sous-catégories et de leurs compteurs
   renderSubCategories();
 
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
   const catInfo = CATEGORIES_INFO[AppState.activeCategory] || CATEGORIES_INFO.all;
   if (titleEl) {
     const mediaLabel = AppState.activeType === 'film' ? 'Films' : 'Séries';
-    titleEl.textContent = AppState.activeCategory === 'all' 
-      ? `Tous les ${mediaLabel.toLowerCase()}` 
-      : `${catInfo.title} (${mediaLabel})`;
+    if (!isMobile && AppState.activeSubCategory && AppState.activeSubCategory !== 'all') {
+      titleEl.textContent = `${AppState.activeSubCategory} (${mediaLabel})`;
+    } else {
+      titleEl.textContent = AppState.activeCategory === 'all' 
+        ? `Tous les ${mediaLabel.toLowerCase()}` 
+        : `${catInfo.title} (${mediaLabel})`;
+    }
   }
   if (descEl) {
     descEl.textContent = catInfo.desc || '';
@@ -1851,7 +1888,6 @@ function renderCatalog() {
   updateStarButtonsCounts(items);
   items = items.filter(item => matchesStars(item, AppState.activeStars));
 
-  const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
   const isThemeColumnsMode = !isMobile && AppState.enableThemeColumns && AppState.activeCategory === 'all' && !AppState.searchQuery;
 
   const modeSelector = document.getElementById('displayModeSelector');
