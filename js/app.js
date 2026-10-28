@@ -319,8 +319,10 @@ function isItemEligibleForProfile(item, profileKey) {
     if (cat === 'thriller_policier' && !raw.includes('act')) return false;
     if (cat === 'scifi_fantastique' && !raw.includes('act')) return false;
     // 5. Horreur : exclusion des drames horrifiques lents d'auteur (ex: Les Maudites, Else, Ogre = 'drm' sans 'act')
+    // et exclusion du sous-genre psychologique/expérimental 'Angoisse' ou 'eur' s'il n'y a pas d'Action ('act')
     if (cat === 'horreur_epouvante') {
       if (raw.includes('drm') && !raw.includes('act')) return false;
+      if ((sub === 'Angoisse' || raw.includes('eur')) && !raw.includes('act')) return false;
       if (!item.badge && !raw.includes('act')) return false;
     }
     return true;
@@ -480,7 +482,7 @@ function getAutoStarTier(categoryEligibleItems) {
 
 // Calculer la carte des paliers d'étoiles requis par sous-genre (Règle du seuil >= 30 œuvres)
 function getSubCategoriesStarTiersMap() {
-  const pool = getFilteredItemsBeforeStars({ ignoreSubCategory: true, ignoreCategory: true });
+  const pool = getFilteredItemsBeforeStars({ ignoreSubCategory: true, ignoreCategory: true, ignoreProfile: true });
   const stats = {};
   ALL_SUB_CATEGORIES.forEach(s => { stats[s.name] = { c4: 0, c5: 0 }; });
   pool.forEach(it => {
@@ -1432,7 +1434,8 @@ function initNavigation() {
 
   if (btnMode1) {
     btnMode1.addEventListener('click', () => {
-      if (AppState.activeProfile) {
+      const isProfileRoot = AppState.activeProfile && AppState.activeCategory === 'all' && (!AppState.activeSubCategory || AppState.activeSubCategory === 'all');
+      if (isProfileRoot) {
         AppState.profileDisplayMode = '1';
       } else {
         AppState.enableThemeColumns = true;
@@ -1446,7 +1449,8 @@ function initNavigation() {
 
   if (btnMode2) {
     btnMode2.addEventListener('click', () => {
-      if (AppState.activeProfile) {
+      const isProfileRoot = AppState.activeProfile && AppState.activeCategory === 'all' && (!AppState.activeSubCategory || AppState.activeSubCategory === 'all');
+      if (isProfileRoot) {
         AppState.profileDisplayMode = '2';
       } else {
         AppState.enableThemeColumns = false;
@@ -1479,8 +1483,7 @@ function closeGenreDropdown() {
 
 function setCategory(targetCat) {
   AppState.activeCategory = targetCat;
-  AppState.activeSubCategory = 'all'; // Réinitialise la sous-catégorie active
-  AppState.activeProfile = null;      // Réinitialise le mode profil lors d'un choix de catégorie directe
+  AppState.activeSubCategory = 'all'; // Réinitialise la sous-catégorie active (conserve le profil actif s'il y en a un)
   AppState.isAutoStars = true;
 
   const catButtons = document.querySelectorAll('.category-btn');
@@ -1518,16 +1521,13 @@ function initProfileCurationButtons() {
       if (AppState.activeProfile === prof) {
         // Toggle désactivation : retour à la vue normale
         AppState.activeProfile = null;
-        const catButtons = document.querySelectorAll('.category-btn');
-        catButtons.forEach(cb => cb.classList.toggle('active', cb.dataset.category === AppState.activeCategory));
       } else {
-        // Toggle activation du profil
+        // Toggle activation du profil (combinable avec les catégories et sous-catégories)
         AppState.activeProfile = prof;
-        AppState.activeSubCategory = 'all';
-        // En mode profil, atténuer visuellement la sélection de catégorie pour clarifier la vue
-        const catButtons = document.querySelectorAll('.category-btn');
-        catButtons.forEach(cb => cb.classList.remove('active'));
       }
+      const catButtons = document.querySelectorAll('.category-btn');
+      catButtons.forEach(cb => cb.classList.toggle('active', cb.dataset.category === AppState.activeCategory));
+      updateCategoryAutoStar();
       renderSubCategories();
       renderCatalog();
     });
@@ -1559,7 +1559,7 @@ function renderSubCategories() {
     b.classList.toggle('active', AppState.activeProfile === b.dataset.profile);
   });
 
-  // Calcul du nombre d'œuvres éligibles pour chaque sous-catégorie
+  // Calcul du nombre d'œuvres éligibles pour chaque sous-catégorie (adapté au profil actif s'il y en a un)
   const itemsForCounts = getFilteredItemsBeforeStars({ ignoreSubCategory: true, ignoreCategory: true });
   const countsBySub = {};
   ALL_SUB_CATEGORIES.forEach(s => { countsBySub[s.name] = 0; });
@@ -1580,27 +1580,27 @@ function renderSubCategories() {
   // 1. Puce globale "✨ Tous"
   const allBtn = document.createElement('button');
   allBtn.type = 'button';
-  const isAllActive = !AppState.activeProfile && AppState.activeSubCategory === 'all';
+  const isAllActive = AppState.activeSubCategory === 'all' && AppState.activeCategory === 'all';
   allBtn.className = `subcat-btn ${isAllActive ? 'active' : ''}`;
   allBtn.innerHTML = `<span>✨ Tous</span><span class="subcat-count">${totalAll}</span>`;
   allBtn.addEventListener('click', () => {
     AppState.activeSubCategory = 'all';
-    AppState.activeProfile = null; // Désactive le profil si actif
+    AppState.activeCategory = 'all';
     AppState.isAutoStars = true;
     const catButtons = document.querySelectorAll('.category-btn');
-    catButtons.forEach(cb => cb.classList.toggle('active', cb.dataset.category === AppState.activeCategory));
+    catButtons.forEach(cb => cb.classList.toggle('active', cb.dataset.category === 'all'));
     updateCategoryAutoStar();
     renderSubCategories();
     renderCatalog();
   });
   chipsGroup.appendChild(allBtn);
 
-  // 2. Puces pour chacune des 19 sous-catégories (indépendantes et permanentes)
+  // 2. Puces pour chacune des 19 sous-catégories (combinables avec le profil actif)
   ALL_SUB_CATEGORIES.forEach(sub => {
     const btn = document.createElement('button');
     btn.type = 'button';
-    const isAct = !AppState.activeProfile && AppState.activeSubCategory === sub.name;
-    const isSameParent = !AppState.activeProfile && AppState.activeCategory !== 'all' && AppState.activeCategory === sub.parent;
+    const isAct = AppState.activeSubCategory === sub.name;
+    const isSameParent = AppState.activeCategory !== 'all' && AppState.activeCategory === sub.parent;
     btn.className = `subcat-btn ${isAct ? 'active' : ''} ${isSameParent ? 'subcat-parent-match' : ''}`;
     btn.style.setProperty('--subcat-accent', sub.color);
     btn.style.setProperty('--subcat-glow', sub.glow);
@@ -1608,7 +1608,6 @@ function renderSubCategories() {
     btn.title = `Filtrer sur ${sub.name}`;
 
     btn.addEventListener('click', () => {
-      AppState.activeProfile = null; // Priorité au filtre de sous-catégorie
       AppState.isAutoStars = true;
       if (AppState.activeSubCategory === sub.name) {
         AppState.activeSubCategory = 'all';
@@ -1988,6 +1987,11 @@ function updateCategoryAutoStar() {
 
 function getCategoryEligibleItems(options = {}) {
   const currentCatalog = getActiveCatalog();
+  const isMobileGlobal = typeof window !== 'undefined' && window.innerWidth < 1024;
+  const subTiersMap = (!options.ignoreProfile && !isMobileGlobal && AppState.activeProfile)
+    ? getSubCategoriesStarTiersMap()
+    : null;
+
   return currentCatalog.filter(item => {
     if (!item.is_eligible) return false;
 
@@ -2072,6 +2076,12 @@ function getCategoryEligibleItems(options = {}) {
       }
     }
 
+    // Filtre Profil Curation (Moi, Ami, Amie, Duo - Exclusivité PC - Règles 6, 7 & 8 AGENTS.md)
+    if (!options.ignoreProfile && !isMobile && AppState.activeProfile) {
+      if (!isItemEligibleForProfile(item, AppState.activeProfile)) return false;
+      if (subTiersMap && !matchesSubCategoryAutoStar(item, subTiersMap)) return false;
+    }
+
     // Filtre Sous-Catégorie Indépendant (Exclusivité PC - Règle 8 AGENTS.md)
     if (!options.ignoreSubCategory && !isMobile && AppState.activeSubCategory && AppState.activeSubCategory !== 'all') {
       const itemSub = (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.computeSubCategory === 'function')
@@ -2116,7 +2126,9 @@ function renderCatalog() {
 
   // Mode Curation Profil (Moi, Ami, Amie, Duo - Exclusivité Desktop PC - Règles 6, 7 & 8)
   const isProfileMode = !isMobile && !!AppState.activeProfile;
-  if (isProfileMode) {
+  const hasSpecificCatOrSub = AppState.activeCategory !== 'all' || (AppState.activeSubCategory && AppState.activeSubCategory !== 'all');
+
+  if (isProfileMode && !hasSpecificCatOrSub) {
     const profConf = WEEKLY_PROPOSALS[AppState.activeProfile] || WEEKLY_PROPOSALS.moi;
     const isMode1 = AppState.profileDisplayMode === '1';
 
@@ -2157,6 +2169,9 @@ function renderCatalog() {
     if (emptyState) emptyState.classList.add('hidden');
     if (grid) grid.innerHTML = '';
 
+    let profileBeforeStars = getFilteredItemsBeforeStars();
+    updateStarButtonsCounts(profileBeforeStars);
+
     if (isMode1) {
       // AFFICHAGE 1 : Les 7 propositions de la semaine dans la grille normale
       grid.classList.remove('theme-columns-active', 'sub-columns-active', 'profile-columns-active');
@@ -2175,30 +2190,9 @@ function renderCatalog() {
     grid.classList.add('profile-columns-active');
     grid.classList.remove('theme-columns-active', 'sub-columns-active');
 
-    const subTiersMap = getSubCategoriesStarTiersMap();
-    let profileAll = AppState.catalog.filter(it => {
-      if (!isItemEligibleForProfile(it, AppState.activeProfile)) return false;
-      return matchesSubCategoryAutoStar(it, subTiersMap);
-    });
-    if (AppState.activeType && AppState.activeType !== 'all') {
-      if (AppState.activeType === 'film') {
-        profileAll = profileAll.filter(it => it.type === 'film' || it.type === 'telefilm');
-      } else {
-        profileAll = profileAll.filter(it => it.type === AppState.activeType);
-      }
-    }
-    if (!AppState.includeSpecialized) {
-      profileAll = profileAll.filter(it => !isItemSpecialized(it) || isItemBasePaid(it));
-    }
-    if (AppState.activeBouquet !== 'all') {
-      profileAll = profileAll.filter(it => (it.package_slugs || []).includes(AppState.activeBouquet));
-    }
-    if (AppState.activeStars !== 'all') {
-      profileAll = profileAll.filter(it => matchesStars(it, AppState.activeStars));
-    }
-    if (AppState.isOnlyNew) {
-      profileAll = profileAll.filter(it => it.annee >= 2024);
-    }
+    let profileAll = AppState.activeStars !== 'all'
+      ? profileBeforeStars.filter(it => matchesStars(it, AppState.activeStars))
+      : profileBeforeStars;
 
     if (countEl) countEl.textContent = profileAll.length;
 
@@ -2235,12 +2229,16 @@ function renderCatalog() {
       const colDiv = document.createElement('div');
       colDiv.className = 'theme-column profile-col';
       colDiv.innerHTML = `
-        <div class="profile-col-header">
+        <div class="profile-col-header" style="cursor: pointer;" title="Filtrer sur ${col.name}">
           <span class="prof-col-title">${col.icon} ${col.name}</span>
           <span class="prof-col-count">${col.items.length}</span>
         </div>
         <div class="profile-col-items"></div>
       `;
+      const headerEl = colDiv.querySelector('.profile-col-header');
+      if (headerEl) {
+        headerEl.addEventListener('click', () => setCategory(col.cat));
+      }
       const itemsCont = colDiv.querySelector('.profile-col-items');
       if (col.items.length === 0) {
         itemsCont.innerHTML = `<div class="profile-col-empty">Exclu pour ce profil</div>`;
@@ -2254,15 +2252,22 @@ function renderCatalog() {
     return;
   }
 
+  if (grid) {
+    grid.classList.remove('profile-columns-active');
+  }
+
   const catInfo = CATEGORIES_INFO[AppState.activeCategory] || CATEGORIES_INFO.all;
+  const profPrefix = isProfileMode && WEEKLY_PROPOSALS[AppState.activeProfile]
+    ? `${WEEKLY_PROPOSALS[AppState.activeProfile].icon} ${WEEKLY_PROPOSALS[AppState.activeProfile].label} — `
+    : '';
   if (titleEl) {
     const mediaLabel = AppState.activeType === 'film' ? 'Films' : 'Séries';
     if (!isMobile && AppState.activeSubCategory && AppState.activeSubCategory !== 'all') {
-      titleEl.textContent = `${AppState.activeSubCategory} (${mediaLabel})`;
+      titleEl.textContent = `${profPrefix}${AppState.activeSubCategory} (${mediaLabel})`;
     } else {
       titleEl.textContent = AppState.activeCategory === 'all' 
-        ? `Tous les ${mediaLabel.toLowerCase()}` 
-        : `${catInfo.title} (${mediaLabel})`;
+        ? `${profPrefix}Tous les ${mediaLabel.toLowerCase()}` 
+        : `${profPrefix}${catInfo.title} (${mediaLabel})`;
     }
   }
   if (descEl) {
