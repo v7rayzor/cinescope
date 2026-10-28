@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.14** / Cache **cinescope-v9.14-streaming** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.15** / Cache **cinescope-v9.15-streaming** / Stockage **_v48**).
 
 ---
 
@@ -161,7 +161,15 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 ---
 
 ## 6. Historique des Retours Utilisateur & Calibrage Curation
-* **Enregistrement des retours récents dans [`profils_amis.md`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/profils_amis.md)** :
+* **Boutons Profils Curation PC & Propositions Hebdomadaires Films (28/10/2026 - v9.15 - Règles 6, 7 & 8)** :
+  - **Boutons Profils Curation (`🧙‍♂️ Moi`, `👤 Ami`, `👩 Amie`, `👫 Duo`)** : Intégrés directement à gauche de la barre des sous-catégories sur PC Desktop, séparés par un diviseur vertical subtil.
+  - **Ordre Rectifié des Sous-Catégories** : Repositionnement rigoureux des 4 sous-catégories d'Horreur (*Slasher*, *Surnaturel*, *Monstres*, *Angoisse*) **avant** Comédie, aligné parfaitement sur la barre des catégories mères.
+  - **Affichage Dédié à Deux Paliers** :
+    * **Partie 1** : `🎯 Propositions de la semaine` : Cartes grand format des 7 films sélectionnés pour le profil, tous garantis avec une expiration supérieure à 10 jours et une grande variété de styles.
+    * **Partie 2** : `📚 Toutes les œuvres éligibles au profil` : Présentées en colonnes de catégories étanches et filtrées selon les règles du profil.
+  - **Fiche Markdown Dédiée d'Évaluation** : Création de [`propositions_films_semaine.md`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/propositions_films_semaine.md) pour consigner les 7 films hebdomadaires et noter le bilan en fin de semaine (`[ ] Vu / Pas vu`, `[ ] OK / Pas OK`).
+  - **Calibrage Profil Duo Ami + Amie (KO Action Pure / OK Aventure)** : Remplacement du seuil arithmétique de 33% par l'arbitrage sémantique — exclusion stricte de l'Action pure (commandos, guerre, fusillades, baston brute) mais pleine ouverture à l'Aventure (quêtes, expéditions, trésors, survie nature comme *La fortuna* et *Jungle*).
+  - **Calibrage Profil Amie (Comédies douces & Noël)** : Clarification formelle validée — 0 comédie conne / potache / vulgaire, mais les comédies douces, romantiques, familiales et comédies de Noël feel-good sont pleinement autorisées et appréciées.
   - *It Feeds* : **75/100** (Validé — Surnaturel concret, menace directe, premier degré efficace sans prétention).
   - *Heretic* : **60/100** (Mitigé/bon — Concept brillant et joute verbale avec Hugh Grant, mais trop bavard/statique).
   - *Les Maudites* (*El llanto*) : **25/100** (Rejeté & archivé dans l'audit des exclusions — Faux film de genre, drame festivalier lent sans action ni tension).

@@ -1,6 +1,8 @@
-# Fiche de Recommandation & Profils Séries (Amis & Utilisateur)
+# Fiche de Recommandation & Profils Séries & Films (Amis & Utilisateur)
 
 Guide de curation et profils de goûts pour les recommandations de films et séries (catalogues Universal+, Ciné+ OCS, etc.).
+
+> 🎯 **Sélection Hebdomadaire Films Actifs** : Consulter la fiche dédiée [`propositions_films_semaine.md`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/propositions_films_semaine.md) (7 films par profil avec validité > 10 jours et grille d'évaluation fin de semaine).
 
 ---
 
@@ -112,27 +114,27 @@ Guide de curation et profils de goûts pour les recommandations de films et sér
 
 ---
 
-## 👩 Profil Féminin : Enquête, Déduction, Tandem & Drames / Émotion / Noël
-> **Exigence clé** : **Matière Grise, Duos Complices & Temps Morts • Drames Émouvants & Romances de Noël**
+## 👩 Profil Féminin : Enquête, Déduction, Tandem, Comédies Réconfortantes & Romances de Noël
+> **Exigence clé** : **Matière Grise, Duos Complices & Temps Morts • Comédies & Romances de Noël • 0 Humour Potache / Vulgaire**
 
 - **Références socles** :
   - *Castle* (dynamique et complicité flic/civil, répartie vive)
   - *Bull* (joutes judiciaires, psychologie comportementale, tactique et matière grise)
   - *Family Law* (cabinet d'avocats, réparties et drames humains)
-  - **Drames & Romances de Noël** (films réconfortants d'hiver style TF1, belles histoires d'amour sincères, drames familiaux touchants).
+  - **Comédies & Romances de Noël / Feel-Good** (films et téléfilms réconfortants d'hiver style TF1/Hallmark, romances tendres, belles histoires d'amour sincères, drames familiaux touchants).
 - **Rapport au rythme & à l'action** :
   - **Règle Mathématique du % d'Action ($\le 33\%$)** : Calcul précis du poids des points de la composante Action par rapport au total des genres de l'œuvre ($\% \text{ Action} = \frac{\text{Score Action}}{\text{Total Points}} \times 100 \le 33\%$). L'action pure ou dominante est ainsi mathématiquement exclue au profit d'une action modérée d'enquête ou de terrain.
   - **Besoin fondamental de respirations et de "temps morts"** : Apprécie les scènes de dialogue calmes, les moments complices autour d'un café, les interrogatoires posés et les joutes verbales.
   - **Rejet de l'action lourde ou frénétique non-stop** : Rejet des fusillades ininterrompues, des commandos militaires, des mercenaires et des batailles armées permanentes.
 - **Exclusions, Rejets & Déjà Vus** :
   - **Séries déjà vues** : *SurrealEstate*.
-  - **Exclusion totale de la catégorie Comédie** : Élimination formelle de toute comédie potache, parodie ou farce afin de garantir 0 vulgarité ou « comédie conne ».
+  - **Filtrage Comédie (0 comédie conne / potache)** : Élimination formelle de toute comédie potache, parodie burlesque, humour gras, régressif ou scatologique afin de garantir 0 vulgarité. En revanche, **les comédies douces, romantiques, familiales et comédies de Noël feel-good sont pleinement autorisées et appréciées**.
   - Zéro rediffusions du dimanche soir France 3 (rejet de *Harry Wild*, *Professeur T*, *Whitstable Pearl / Pearl Nolan*, *Le Sang de la vigne*).
   - Éviter le remake direct d'*Astrid et Raphaëlle* (*Patience*).
   - **Exclusion totale de l'animation** (films et séries) et des slashers/gore/guerre sanglante.
 - **Types de récits recherchés** :
   - D'un côté : Enquêtes judiciaires posées, déduction, duos charismatiques et psychologie (`thriller_policier`).
-  - De l'autre : Drames poignants, romances de fin d'année, feel-good chaleureux, histoires de famille et émotion sincère (`drame_emotion`).
+  - De l'autre : Comédies de fin d'année, romances d'hiver, feel-good chaleureux, drames poignants, histoires de famille et émotion sincère (`drame_emotion` et `comedie` romantique/feel-good).
 
 ### Sélections Validées (Femme)
 | Titre | Genre / Style | Plateforme / Statut | Description |
@@ -144,18 +146,21 @@ Guide de curation et profils de goûts pour les recommandations de films et sér
 
 ---
 
-## 👫 Profil Combiné (Duo Ami & Amie) : Intersection Mathématique & Consensus
-> **Exigence clé** : **Équilibre d'Action ($11\% \le \% \text{ Action} \le 33\%$) • Polars Rythmés & Suspense de Terrain • Techno-Thrillers Partagés**
+## 👫 Profil Combiné (Duo Ami & Amie) : Intersection Sémantique & Consensus
+> **Exigence clé** : **Polars Rythmés, Techno-Thrillers & Grands Récits d'Aventure • KO Action Pure (Fusillades/Commandos) • OK Aventure (Quêtes/Expéditions/Survie)**
 
 - **Principe Fondateur de l'Intersection** :
-  - Trouve mathématiquement le compromis idéal entre la recherche d'adrénaline de l'Ami ($\ge 11\%$ d'action) et le besoin de respiration/psychologie de l'Amie ($\le 33\%$ d'action).
-  - Élimine automatiquement les œuvres trop lentes/contemplatives ($< 11\%$ d'action) ET les œuvres trop frénétiques/militarisées ($> 33\%$ d'action).
+  - Trouve le compromis idéal entre le besoin de rythme / danger de l'Ami et le besoin d'intrigue / respirations de l'Amie.
+  - **Arbitrage Action vs Aventure (Suppression du seuil arithmétique 33%)** :
+    - 🚫 **KO Action pure** : Exclusion systématique de l'action militaire lourde, des commandos mercenaires, des fusillades ininterrompues et des combats martiaux bruts (*The Raid*, *B.R.I*, *Hunter Killer*, *Stratton*, *Démineurs*).
+    - ✅ **OK Aventure** : Pleine éligibilité des grandes expéditions, quêtes archéologiques, chasses au trésor, explorations historiques et survie en milieu naturel (*La fortuna*, *Jungle*, *Le Secret de Khéops*, *Le Livre d'Eli*).
 - **Catégories Communes Autorisées** :
   - `thriller_policier` : Enquêtes de terrain dynamiques, interrogatoires et profiling avec tension active.
   - `scifi_fantastique` : Techno-thrillers d'anticipation, mystères de communauté rurale sans grotesque.
+  - `action_aventure` *(Sous-catégorie Aventure)* : Quêtes, expéditions maritimes/terrestres, trésors et survie nature.
 - **Exclusions Partagées Strictes** :
   - 🚫 Zéro Animation (films & séries).
-  - 🚫 Zéro Comédie potache / comédie d'action (exclusion de la catégorie `comedie`).
+  - 🚫 Zéro Comédie potache / comédie d'action (exclusion de la catégorie `comedie` pour les séances ensemble).
   - 🚫 Zéro Slasher / Horreur gore (`horreur_epouvante` exclue).
   - 🚫 Zéro TNT / Zéro Prime Video.
 - **Formule de Score d'Affinité Duo** :
@@ -164,8 +169,10 @@ Guide de curation et profils de goûts pour les recommandations de films et sér
 ### Sélections Validées (Duo Amis)
 | Titre | Genre / Style | Plateforme / Statut | Affinité & Description |
 | :--- | :--- | :--- | :--- |
+| **La fortuna** | Aventure & Quête Sous-Marine • Trésor & Diplomatie | Sooner (Série complète) | **85%** — Chasse au trésor d'un galion coulé dans l'Atlantique, tandem diplomate/archiviste combatif, intrigue captivante sans guerre lourde. |
 | **Toronto: Section Criminelle** | Enquête Psychologique & Tension | Universal+ / 13ème Rue (Inédit 2024) | **83%** — Profiling serré, énigmes criminelles avec dynamisme de terrain. Dialogue ciselé et rythme captivant. |
 | **Revival** | Surnaturel Rural & Polar Sérieux | Universal+ / Ciné+ OCS (Pérenne) | **83%** — Mystère pesant de quarantaine où les morts reviennent. Traitement 1er degré sans excès gore. |
+| **Jungle** | Aventure & Survie Réelle • Forêt Hostile | Action Max | **80%** — Daniel Radcliffe en expédition en Amazonie. Dépaysement total, dépassement de soi et solidarité face aux éléments. |
 | **Novocaïne** | Thriller Médical & Machination | Action Max / Ciné+ OCS | **80%** — Piège machiavélique et suspense haletant avec Kevin Bacon. Équilibre parfait tension / cerveau. |
 | **Hypnotic** | Thriller Cérébral & Action | Ciné+ OCS | **73%** — Machination mentale et faux-semblants par Robert Rodriguez avec Ben Affleck. |
 | **Sang Froid** | Polar Nordique & Tension | Action Max | **60%** — Traque méthodique et implacable dans les neiges avec Liam Neeson. |

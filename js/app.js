@@ -67,6 +67,12 @@ const SUB_CATEGORIES_CONFIG = {
     color: '#06b6d4',
     glow: 'rgba(6, 182, 212, 0.35)'
   },
+  horreur_epouvante: {
+    label: 'Horreur & Épouvante',
+    subs: ['Angoisse', 'Surnaturel', 'Slasher', 'Monstres'],
+    color: '#a855f7',
+    glow: 'rgba(168, 85, 247, 0.35)'
+  },
   comedie: {
     label: 'Comédie',
     subs: ['Humour', 'Dramatique', 'Romantique', 'Musical'],
@@ -84,34 +90,36 @@ const SUB_CATEGORIES_CONFIG = {
     subs: ['Animation', 'Famille'],
     color: '#10b981',
     glow: 'rgba(16, 185, 129, 0.35)'
-  },
-  horreur_epouvante: {
-    label: 'Horreur & Épouvante',
-    subs: ['Angoisse', 'Surnaturel', 'Slasher', 'Monstres'],
-    color: '#a855f7',
-    glow: 'rgba(168, 85, 247, 0.35)'
   }
 };
 
 // Liste exhaustive ordonnée des 19 sous-catégories indépendantes (Exclusivité Desktop PC - Règle 8 AGENTS.md)
+// Calée rigoureusement sur l'ordre visuel des catégories mères : Action -> Thriller -> SF -> Horreur -> Comédie -> Drame -> Animation
 const ALL_SUB_CATEGORIES = [
+  // 1. Action & Aventure
   { name: 'Action', parent: 'action_aventure', icon: '🏹', color: '#ea580c', glow: 'rgba(234, 88, 12, 0.35)' },
   { name: 'Aventure', parent: 'action_aventure', icon: '🧭', color: '#ea580c', glow: 'rgba(234, 88, 12, 0.35)' },
+  // 2. Thriller & Policier
   { name: 'Policier', parent: 'thriller_policier', icon: '🔍', color: '#e11d48', glow: 'rgba(225, 29, 72, 0.35)' },
   { name: 'Thriller', parent: 'thriller_policier', icon: '⚡', color: '#e11d48', glow: 'rgba(225, 29, 72, 0.35)' },
+  // 3. Sci-Fi & Fantastique
   { name: 'SF', parent: 'scifi_fantastique', icon: '🚀', color: '#06b6d4', glow: 'rgba(6, 182, 212, 0.35)' },
   { name: 'Fantastique', parent: 'scifi_fantastique', icon: '🔮', color: '#06b6d4', glow: 'rgba(6, 182, 212, 0.35)' },
-  { name: 'Humour', parent: 'comedie', icon: '😂', color: '#eab308', glow: 'rgba(234, 179, 8, 0.35)' },
-  { name: 'Dramatique', parent: 'comedie', icon: '🎭', color: '#eab308', glow: 'rgba(234, 179, 8, 0.35)' },
-  { name: 'Romantique', parent: 'comedie', icon: '💕', color: '#eab308', glow: 'rgba(234, 179, 8, 0.35)' },
-  { name: 'Musical', parent: 'comedie', icon: '🎵', color: '#eab308', glow: 'rgba(234, 179, 8, 0.35)' },
-  { name: 'Social', parent: 'drame_emotion', icon: '🤝', color: '#ec4899', glow: 'rgba(236, 72, 153, 0.35)' },
-  { name: 'Histoire', parent: 'drame_emotion', icon: '📜', color: '#ec4899', glow: 'rgba(236, 72, 153, 0.35)' },
-  { name: 'Romance', parent: 'drame_emotion', icon: '❤️', color: '#ec4899', glow: 'rgba(236, 72, 153, 0.35)' },
+  // 4. Horreur & Épouvante (Positionné rigoureusement avant Comédie pour respecter la barre principale)
   { name: 'Slasher', parent: 'horreur_epouvante', icon: '🔪', color: '#a855f7', glow: 'rgba(168, 85, 247, 0.35)' },
   { name: 'Surnaturel', parent: 'horreur_epouvante', icon: '👻', color: '#a855f7', glow: 'rgba(168, 85, 247, 0.35)' },
   { name: 'Monstres', parent: 'horreur_epouvante', icon: '🧟', color: '#a855f7', glow: 'rgba(168, 85, 247, 0.35)' },
   { name: 'Angoisse', parent: 'horreur_epouvante', icon: '😱', color: '#a855f7', glow: 'rgba(168, 85, 247, 0.35)' },
+  // 5. Comédie
+  { name: 'Humour', parent: 'comedie', icon: '😂', color: '#eab308', glow: 'rgba(234, 179, 8, 0.35)' },
+  { name: 'Dramatique', parent: 'comedie', icon: '🎭', color: '#eab308', glow: 'rgba(234, 179, 8, 0.35)' },
+  { name: 'Romantique', parent: 'comedie', icon: '💕', color: '#eab308', glow: 'rgba(234, 179, 8, 0.35)' },
+  { name: 'Musical', parent: 'comedie', icon: '🎵', color: '#eab308', glow: 'rgba(234, 179, 8, 0.35)' },
+  // 6. Drame & Émotion
+  { name: 'Social', parent: 'drame_emotion', icon: '🤝', color: '#ec4899', glow: 'rgba(236, 72, 153, 0.35)' },
+  { name: 'Histoire', parent: 'drame_emotion', icon: '📜', color: '#ec4899', glow: 'rgba(236, 72, 153, 0.35)' },
+  { name: 'Romance', parent: 'drame_emotion', icon: '❤️', color: '#ec4899', glow: 'rgba(236, 72, 153, 0.35)' },
+  // 7. Animation & Famille
   { name: 'Animation', parent: 'animation_famille', icon: '🎨', color: '#10b981', glow: 'rgba(16, 185, 129, 0.35)' },
   { name: 'Famille', parent: 'animation_famille', icon: '🧸', color: '#10b981', glow: 'rgba(16, 185, 129, 0.35)' }
 ];
@@ -121,6 +129,7 @@ const AppState = {
   activeType: 'film',          // 'film' ou 'serie'
   activeCategory: 'all',       // 'all' ou l'une des 7 catégories
   activeSubCategory: 'all',    // 'all' ou sous-catégorie déterministe (PC uniquement)
+  activeProfile: null,         // null, 'moi', 'ami', 'amie', 'duo' (Curation profils PC uniquement)
   activeStars: 'all',          // 'all', '4', '5'
   activeBouquet: 'all',        // 'all', 'aoc', 'aca', 'auc', 'snr', 'sdz', 'ima', 'prv'
   isAmazonMode: false,         // true pour activer le catalogue Amazon Prime Video (exclusif PC)
@@ -191,6 +200,124 @@ function isItemOnlyOnPrime(item) {
   if (!item) return false;
   if (!isItemOnPrimeVideo(item)) return false;
   return !isItemBasePaid(item) && !isItemSpecialized(item);
+}
+
+// Propositions hebdomadaires de 7 films unitaires par profil (Règles 6, 7 & 8 AGENTS.md)
+// Expiration > 10 jours garantie • Variété des sous-genres • Zéro TNT • Zéro Prime
+const WEEKLY_PROPOSALS = {
+  moi: {
+    label: 'Moi',
+    icon: '🧙‍♂️',
+    desc: 'Curation hebdomadaire : Aventure Fantastique, Mystère Temporel, Paranormal Feutré & Épouvante 1er degré sans torture.',
+    ids: [
+      'jw-tm1433824', // Oddity (2024, Horreur surnaturelle & Manoir hanté)
+      'jw-tm170839',  // Source Code (2011, SF, boucle temporelle & romance)
+      'jw-tm148548',  // Hors du temps (2009, Mystère temporel & romance protectrice)
+      'jw-tm469231',  // La Belle Époque (2019, Voyage d'époque & comédie sensible)
+      'jw-tm1425480', // Mlle Bottine (2024, Comédie feel-good & tandem complice)
+      'jw-tm1561453', // Le Secret de Khéops (2025, Quête archéologique & trésor)
+      'jw-tm1372859'  // T.I.M. (2023, Anticipation feutrée & maison connectée)
+    ]
+  },
+  ami: {
+    label: 'Ami',
+    icon: '👤',
+    desc: 'Curation hebdomadaire : Action physique, Survie extrême, Monstres & Suspense au 1er degré sans temps mort (zéro animation).',
+    ids: [
+      'jw-tm1038333', // Black Phone (2022, Horreur claustrophobe & tueur masqué)
+      'jw-tm453584',  // Mission : Impossible - The Final Reckoning (2025, Cascades & adrénaline)
+      'jw-tm1076773', // Le Dernier Voyage du Demeter (2023, Traque de Dracula en pleine mer)
+      'jw-tm244173',  // Jungle (2017, Survie extrême en forêt amazonienne)
+      'jw-tm60292',   // Argo (2012, Infiltration sous haute tension à Téhéran)
+      'jw-tm244634',  // Atomic Blonde (2017, Combats physiques brutaux & espionnage)
+      'jw-tm170890'   // Super 8 (2011, Catastrophe spectaculaire & menace extraterrestre)
+    ]
+  },
+  amie: {
+    label: 'Amie',
+    icon: '👩',
+    desc: 'Curation hebdomadaire : Matière grise, Enquêtes judiciaires, Déduction, Romances tendres & Comédies douces (zéro vulgarité potache).',
+    ids: [
+      'jw-tm998431',  // Aurora Teagarden : Les secrets oubliés (2021, Cosy crime & déduction)
+      'jw-tm1040743', // Là où chantent les écrevisses (2022, Drame romantique & procès)
+      'jw-tm64395',   // Un bonheur n'arrive jamais seul (2012, Comédie romantique chaleureuse)
+      'jw-tm1622508', // Deux procureurs (2025, Polar judiciaire & prétoire)
+      'jw-tm1496573', // Jane Austen a gâché ma vie (2025, Comédie d'esprit & lettres)
+      'jw-tm244229',  // Everybody Knows (2018, Secrets de famille & disparition)
+      'jw-tm367470'   // Mia et le lion blanc (2018, Aventure & émotion en savane)
+    ]
+  },
+  duo: {
+    label: 'Duo',
+    icon: '👫',
+    desc: 'Consensus Ami + Amie : Polars rythmés, Techno-Thrillers & Grands récits d\'Aventure (KO Action pure, OK Aventure/Survie).',
+    ids: [
+      'jw-tm1040743', // Là où chantent les écrevisses (2022)
+      'jw-tm244173',  // Jungle (2017)
+      'jw-tm60292',   // Argo (2012)
+      'jw-tm170890',  // Super 8 (2011)
+      'jw-tm1570880', // Novocaïne (2025)
+      'jw-tm305296',  // Sang Froid (2019)
+      'jw-tm1393841'  // Noir comme neige : Morts au Sommet (2023)
+    ]
+  }
+};
+
+// Qualification déterministe et universelle d'éligibilité selon le profil sélectionné (Règles 6 & 7 AGENTS.md)
+function isItemEligibleForProfile(item, profileKey) {
+  if (!item || !profileKey) return false;
+  // Exclusion stricte TNT et Prime standard (Règle 6)
+  if (item.on_tnt || item.on_prime) return false;
+  const cat = (item.categories && item.categories[0]) || '';
+  const syn = (item.synopsis || '').toLowerCase();
+  const raw = item.raw_genres || [];
+  let sub = '';
+  if (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.computeSubCategory === 'function') {
+    sub = JustWatchEngine.computeSubCategory(item);
+  }
+
+  if (profileKey === 'moi') {
+    // 1. Zéro guerre réaliste avec fusillades lourdes (sauf SF/Fantastique)
+    if (raw.includes('war') && !raw.includes('fnt') && !raw.includes('scf')) return false;
+    // 2. Zéro torture porn / boucherie gore / slasher sanglant
+    if (sub === 'Slasher' || /\b(gore|torture|tronconneuse|massacre au hachoir|boucherie)\b/i.test(syn)) return false;
+    // 3. Animation adulte ou enfantine faible note (< 7) exclue
+    if (cat === 'animation_famille' && sub === 'Animation' && (item.note_avis || 0) < 7) return false;
+    // 4. Action armée lourde éliminée au profit de l'Aventure
+    if (cat === 'action_aventure' && sub !== 'Aventure') {
+      if (raw.includes('war') || (item.badge && ['16', '18'].includes(item.badge))) return false;
+    }
+    return true;
+  }
+
+  if (profileKey === 'ami') {
+    // 1. Exclusion absolue de toute l'animation
+    if (cat === 'animation_famille') return false;
+    // 2. Exclusion des comédies romantiques ou dramatiques lentes
+    if (cat === 'comedie' && (sub === 'Romantique' || sub === 'Dramatique' || sub === 'Musical')) return false;
+    // 3. Exclusion des drames sentimentaux purs ou contemplatifs
+    if (cat === 'drame_emotion' && (sub === 'Romance' || sub === 'Social')) return false;
+    return true;
+  }
+
+  if (profileKey === 'amie') {
+    // 1. Exclusion absolue de l'animation et de l'horreur
+    if (cat === 'animation_famille' || cat === 'horreur_epouvante') return false;
+    // 2. Exclusion formelle de l'Action pure (seule l'Aventure est éligible)
+    if (cat === 'action_aventure' && sub !== 'Aventure') return false;
+    // 3. Exclusion des films de guerre
+    if (raw.includes('war')) return false;
+    // 4. Comédies : 0 comédie conne / potache (bloque badge 16/18 ou humour gras)
+    if (cat === 'comedie' && sub === 'Humour' && item.badge && ['16', '18'].includes(item.badge)) return false;
+    return true;
+  }
+
+  if (profileKey === 'duo') {
+    // Consensus strict Ami + Amie
+    return isItemEligibleForProfile(item, 'ami') && isItemEligibleForProfile(item, 'amie');
+  }
+
+  return true;
 }
 
 // Détermine la liste des diffuseurs ACTIFS d'une œuvre selon les filtres courants de l'utilisateur
@@ -607,6 +734,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   initStarsNavigation();
   initDurationFilter();
   initSortControls();
+  initProfileCurationButtons();
   initModal();
   initGridDelegation();
   initSyncControls();
@@ -1275,6 +1403,7 @@ function closeGenreDropdown() {
 function setCategory(targetCat) {
   AppState.activeCategory = targetCat;
   AppState.activeSubCategory = 'all'; // Réinitialise la sous-catégorie active
+  AppState.activeProfile = null;      // Réinitialise le mode profil lors d'un choix de catégorie directe
   AppState.isAutoStars = true;
 
   const catButtons = document.querySelectorAll('.category-btn');
@@ -1303,6 +1432,31 @@ function setCategory(targetCat) {
   renderCatalog();
 }
 
+// Initialisation des boutons de Curation Profils Amis & Moi (Exclusivité Desktop PC - Règle 8 AGENTS.md)
+function initProfileCurationButtons() {
+  const profButtons = document.querySelectorAll('.profile-curation-btn');
+  profButtons.forEach(b => {
+    b.addEventListener('click', () => {
+      const prof = b.dataset.profile;
+      if (AppState.activeProfile === prof) {
+        // Toggle désactivation : retour à la vue normale
+        AppState.activeProfile = null;
+        const catButtons = document.querySelectorAll('.category-btn');
+        catButtons.forEach(cb => cb.classList.toggle('active', cb.dataset.category === AppState.activeCategory));
+      } else {
+        // Toggle activation du profil
+        AppState.activeProfile = prof;
+        AppState.activeSubCategory = 'all';
+        // En mode profil, atténuer visuellement la sélection de catégorie pour clarifier la vue
+        const catButtons = document.querySelectorAll('.category-btn');
+        catButtons.forEach(cb => cb.classList.remove('active'));
+      }
+      renderSubCategories();
+      renderCatalog();
+    });
+  });
+}
+
 // Affichage et gestion des sous-catégories indépendantes sur PC Desktop (Règles 7 & 8 AGENTS.md)
 function renderSubCategories() {
   const subBarSection = document.getElementById('subcategoriesBarSection');
@@ -1321,6 +1475,12 @@ function renderSubCategories() {
   if (parentLabel) {
     parentLabel.textContent = 'Sous-catégories :';
   }
+
+  // Mise à jour visuelle des 4 boutons Profils Curation
+  const profButtons = document.querySelectorAll('.profile-curation-btn');
+  profButtons.forEach(b => {
+    b.classList.toggle('active', AppState.activeProfile === b.dataset.profile);
+  });
 
   // Calcul du nombre d'œuvres éligibles pour chaque sous-catégorie
   const itemsForCounts = getFilteredItemsBeforeStars({ ignoreSubCategory: true, ignoreCategory: true });
@@ -1343,11 +1503,14 @@ function renderSubCategories() {
   // 1. Puce globale "✨ Tous"
   const allBtn = document.createElement('button');
   allBtn.type = 'button';
-  const isAllActive = AppState.activeSubCategory === 'all';
+  const isAllActive = !AppState.activeProfile && AppState.activeSubCategory === 'all';
   allBtn.className = `subcat-btn ${isAllActive ? 'active' : ''}`;
   allBtn.innerHTML = `<span>✨ Tous</span><span class="subcat-count">${totalAll}</span>`;
   allBtn.addEventListener('click', () => {
     AppState.activeSubCategory = 'all';
+    AppState.activeProfile = null; // Désactive le profil si actif
+    const catButtons = document.querySelectorAll('.category-btn');
+    catButtons.forEach(cb => cb.classList.toggle('active', cb.dataset.category === AppState.activeCategory));
     renderSubCategories();
     renderCatalog();
   });
@@ -1357,8 +1520,8 @@ function renderSubCategories() {
   ALL_SUB_CATEGORIES.forEach(sub => {
     const btn = document.createElement('button');
     btn.type = 'button';
-    const isAct = AppState.activeSubCategory === sub.name;
-    const isSameParent = AppState.activeCategory !== 'all' && AppState.activeCategory === sub.parent;
+    const isAct = !AppState.activeProfile && AppState.activeSubCategory === sub.name;
+    const isSameParent = !AppState.activeProfile && AppState.activeCategory !== 'all' && AppState.activeCategory === sub.parent;
     btn.className = `subcat-btn ${isAct ? 'active' : ''} ${isSameParent ? 'subcat-parent-match' : ''}`;
     btn.style.setProperty('--subcat-accent', sub.color);
     btn.style.setProperty('--subcat-glow', sub.glow);
@@ -1366,6 +1529,7 @@ function renderSubCategories() {
     btn.title = `Filtrer sur ${sub.name}`;
 
     btn.addEventListener('click', () => {
+      AppState.activeProfile = null; // Priorité au filtre de sous-catégorie
       if (AppState.activeSubCategory === sub.name) {
         AppState.activeSubCategory = 'all';
       } else {
@@ -1868,6 +2032,150 @@ function renderCatalog() {
   renderSubCategories();
 
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
+
+  // Mode Curation Profil (Moi, Ami, Amie, Duo - Exclusivité Desktop PC - Règles 6, 7 & 8)
+  const isProfileMode = !isMobile && !!AppState.activeProfile;
+  if (isProfileMode) {
+    const profConf = WEEKLY_PROPOSALS[AppState.activeProfile] || WEEKLY_PROPOSALS.moi;
+    if (titleEl) {
+      titleEl.innerHTML = `<span>${profConf.icon} Curation : ${profConf.label}</span>`;
+    }
+    if (descEl) {
+      descEl.textContent = profConf.desc;
+      descEl.style.display = 'block';
+    }
+
+    // Récupérer les 7 films de la semaine
+    const weekItems = profConf.ids.map(id => AppState.catalog.find(it => it.id === id)).filter(Boolean);
+
+    // Récupérer l'ensemble des œuvres éligibles au profil
+    let profileAll = AppState.catalog.filter(it => isItemEligibleForProfile(it, AppState.activeProfile));
+    if (AppState.activeType && AppState.activeType !== 'all') {
+      profileAll = profileAll.filter(it => it.type === AppState.activeType);
+    }
+    if (!AppState.includeSpecialized) {
+      profileAll = profileAll.filter(it => !isItemSpecialized(it));
+    }
+    if (AppState.activeBouquet !== 'all') {
+      profileAll = profileAll.filter(it => (it.package_slugs || []).includes(AppState.activeBouquet));
+    }
+    if (AppState.activeStars !== 'all') {
+      profileAll = profileAll.filter(it => matchesStars(it, AppState.activeStars));
+    }
+    if (AppState.isOnlyNew) {
+      profileAll = profileAll.filter(it => it.annee >= 2024);
+    }
+
+    if (countEl) countEl.textContent = profileAll.length;
+
+    // Masquer les sélecteurs de mode colonnes classiques
+    const modeSelector = document.getElementById('displayModeSelector');
+    if (modeSelector) modeSelector.style.display = 'none';
+    const themeHeaderEl = document.getElementById('themeColumnsHeader');
+    if (themeHeaderEl) themeHeaderEl.classList.remove('active');
+    const subHeaderEl = document.getElementById('subColumnsHeader');
+    if (subHeaderEl) {
+      subHeaderEl.classList.remove('active');
+      subHeaderEl.innerHTML = '';
+    }
+    if (grid) {
+      grid.classList.remove('theme-columns-active', 'sub-columns-active');
+      grid.innerHTML = '';
+    }
+    if (emptyState) emptyState.classList.add('hidden');
+
+    // 1. Partie 1 : Propositions de la semaine (7 films unitaires)
+    const part1El = document.createElement('div');
+    part1El.className = 'profile-view-section profile-week-section';
+    part1El.innerHTML = `
+      <div class="profile-section-header">
+        <div class="profile-section-title-wrap">
+          <span class="profile-section-badge">1</span>
+          <h3 class="profile-section-title">🎯 Propositions de la semaine (${weekItems.length} films à évaluer)</h3>
+        </div>
+        <p class="profile-section-subtitle">Sélection de 7 films variés, validité garantie &gt; 10 jours. À évaluer en fin de semaine (vu / pas vu, ok / pas ok).</p>
+      </div>
+      <div class="profile-week-grid" id="profileWeekGrid"></div>
+    `;
+    const weekGrid = part1El.querySelector('#profileWeekGrid');
+    weekItems.forEach(item => {
+      const card = createPosterCard(item);
+      card.classList.add('profile-week-card');
+      weekGrid.appendChild(card);
+    });
+    grid.appendChild(part1El);
+
+    // 2. Partie 2 : Toutes les œuvres éligibles au format colonnes par catégorie
+    const part2El = document.createElement('div');
+    part2El.className = 'profile-view-section profile-all-section';
+    part2El.innerHTML = `
+      <div class="profile-section-header">
+        <div class="profile-section-title-wrap">
+          <span class="profile-section-badge">2</span>
+          <h3 class="profile-section-title">📚 Toutes les œuvres éligibles au profil (${profileAll.length} titres)</h3>
+        </div>
+        <p class="profile-section-subtitle">Toutes les œuvres du catalogue correspondant aux critères stricts du profil, affichées par colonnes de catégories.</p>
+      </div>
+    `;
+
+    const themeBuckets = {
+      action_aventure: [],
+      thriller_policier: [],
+      scifi_fantastique: [],
+      horreur_epouvante: [],
+      comedie: [],
+      drame_emotion: [],
+      animation_famille: []
+    };
+
+    profileAll.forEach(item => {
+      const cat = (item.categories && item.categories[0]) || 'drame_emotion';
+      if (themeBuckets[cat]) themeBuckets[cat].push(item);
+    });
+
+    for (const k of Object.keys(themeBuckets)) {
+      themeBuckets[k] = sortCatalogItems(themeBuckets[k]);
+    }
+
+    const columnsWrap = document.createElement('div');
+    columnsWrap.className = 'profile-columns-grid';
+
+    const profColDefs = [
+      { cat: 'action_aventure', name: 'Action & Aventure', icon: '🏹', items: themeBuckets.action_aventure },
+      { cat: 'thriller_policier', name: 'Thriller & Policier', icon: '🔍', items: themeBuckets.thriller_policier },
+      { cat: 'scifi_fantastique', name: 'SF & Fantastique', icon: '🚀', items: themeBuckets.scifi_fantastique },
+      { cat: 'horreur_epouvante', name: 'Horreur & Épouvante', icon: '👻', items: themeBuckets.horreur_epouvante },
+      { cat: 'comedie', name: 'Comédie', icon: '🎭', items: themeBuckets.comedie },
+      { cat: 'drame_emotion', name: 'Drame & Émotion', icon: '❤️', items: themeBuckets.drame_emotion },
+      { cat: 'animation_famille', name: 'Animation & Famille', icon: '🧸', items: themeBuckets.animation_famille }
+    ];
+
+    profColDefs.forEach(col => {
+      const colDiv = document.createElement('div');
+      colDiv.className = 'profile-theme-column';
+      colDiv.innerHTML = `
+        <div class="profile-col-header">
+          <span class="prof-col-title">${col.icon} ${col.name}</span>
+          <span class="prof-col-count">${col.items.length}</span>
+        </div>
+        <div class="profile-col-items"></div>
+      `;
+      const itemsCont = colDiv.querySelector('.profile-col-items');
+      if (col.items.length === 0) {
+        itemsCont.innerHTML = `<div class="profile-col-empty">Exclu pour ce profil</div>`;
+      } else {
+        col.items.forEach(it => {
+          itemsCont.appendChild(createPosterCard(it));
+        });
+      }
+      columnsWrap.appendChild(colDiv);
+    });
+
+    part2El.appendChild(columnsWrap);
+    grid.appendChild(part2El);
+    return;
+  }
+
   const catInfo = CATEGORIES_INFO[AppState.activeCategory] || CATEGORIES_INFO.all;
   if (titleEl) {
     const mediaLabel = AppState.activeType === 'film' ? 'Films' : 'Séries';

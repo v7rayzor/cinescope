@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=9.10">
+  <link rel="stylesheet" href="css/style.css?v=9.15">
 </head>
 <body>
   <!-- Header / Navigation principale -->
@@ -207,9 +207,29 @@
           </button>
         </div>
 
-        <!-- Sous-Catégories Dynamiques en 1 Mot Simple (Exclusivité Desktop PC - Règle 8) -->
+        <!-- Sous-Catégories Dynamiques & Boutons Profils Curation (Exclusivité Desktop PC - Règle 8) -->
         <div class="subcategories-bar-section subcategories-pc-only" id="subcategoriesBarSection">
           <div class="subcategories-wrapper" id="subcategoriesNav">
+            <!-- Boutons Curation Profils Amis & Moi (Exclusivité PC) -->
+            <div class="profiles-curation-group" id="profilesCurationGroup">
+              <button class="profile-curation-btn" type="button" data-profile="moi" id="profBtnMoi" title="Curation & Sélection : Moi">
+                <span class="prof-icon">🧙‍♂️</span>
+                <span class="prof-name">Moi</span>
+              </button>
+              <button class="profile-curation-btn" type="button" data-profile="ami" id="profBtnAmi" title="Curation & Sélection : Ami (Homme)">
+                <span class="prof-icon">👤</span>
+                <span class="prof-name">Ami</span>
+              </button>
+              <button class="profile-curation-btn" type="button" data-profile="amie" id="profBtnAmie" title="Curation & Sélection : Amie (Femme)">
+                <span class="prof-icon">👩</span>
+                <span class="prof-name">Amie</span>
+              </button>
+              <button class="profile-curation-btn" type="button" data-profile="duo" id="profBtnDuo" title="Curation & Consensus : Duo (Ami + Amie)">
+                <span class="prof-icon">👫</span>
+                <span class="prof-name">Duo</span>
+              </button>
+            </div>
+            <div class="profiles-subcat-divider" aria-hidden="true"></div>
             <div class="subcategories-chips-group" id="subcategoriesChipsGroup"></div>
           </div>
         </div>
@@ -510,12 +530,12 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="data/ai_duel_cache.js?v=9.14"></script>
-  <script src="data/ai_subcategories_cache.js?v=9.14"></script>
-  <script src="js/catalog.js?v=9.14"></script>
-  <script src="data/prime_catalog.js?v=9.14"></script>
-  <script src="js/justwatch_engine.js?v=9.14"></script>
-  <script src="js/app.js?v=9.14"></script>
+  <script src="data/ai_duel_cache.js?v=9.15"></script>
+  <script src="data/ai_subcategories_cache.js?v=9.15"></script>
+  <script src="js/catalog.js?v=9.15"></script>
+  <script src="data/prime_catalog.js?v=9.15"></script>
+  <script src="js/justwatch_engine.js?v=9.15"></script>
+  <script src="js/app.js?v=9.15"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
