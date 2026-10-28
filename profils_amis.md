@@ -128,7 +128,8 @@ Guide de curation et profils de goûts pour les recommandations de films et sér
   - **Rejet de l'action lourde ou frénétique non-stop** : Rejet des fusillades ininterrompues, des commandos militaires, des mercenaires et des batailles armées permanentes.
 - **Exclusions, Rejets & Déjà Vus** :
   - **Séries déjà vues** : *SurrealEstate*.
-  - **Filtrage Comédie (0 comédie conne / potache)** : Élimination formelle de toute comédie potache, parodie burlesque, humour gras, régressif ou scatologique afin de garantir 0 vulgarité. En revanche, **les comédies douces, romantiques, familiales et comédies de Noël feel-good sont pleinement autorisées et appréciées**.
+  - **Filtrage Comédie (Exclusion stricte du sous-genre `Humour`)** : Élimination formelle du sous-genre `Humour` (comédies potaches, parodies burlesques, gags) pour garantir 0 vulgarité. Seules les sous-catégories **`Romantique`**, **`Musical`** et **`Dramatique`** (à $\ge 4\star$) sont autorisées.
+  - **Verrou Anti-Enfantin / Jeunesse (`Ami`, `Amie` & `Duo`)** : Exclusion stricte de toute œuvre enfantine ou familiale (`raw_genres` contenant `'fml'`, diffusion `Ciné+ Family`, ou films Tout Public centrés sur des enfants/adolescents comme *Monster Summer* ou *Mia et le lion blanc*).
   - Zéro rediffusions du dimanche soir France 3 (rejet de *Harry Wild*, *Professeur T*, *Whitstable Pearl / Pearl Nolan*, *Le Sang de la vigne*).
   - Éviter le remake direct d'*Astrid et Raphaëlle* (*Patience*).
   - **Exclusion totale de l'animation** (films et séries) et des slashers/gore/guerre sanglante.

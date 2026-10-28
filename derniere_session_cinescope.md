@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.16** / Cache **cinescope-v9.16-streaming** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.17** / Cache **cinescope-v9.17-streaming** / Stockage **_v48**).
 
 ---
 
@@ -378,4 +378,20 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * Réhabilitation en `Famille` des films avec acteurs réels piégés par leur synopsis : *Jim Bouton & la cité des dragons*, *Master spy*, *L'Imperméable magique*, *Le brigand Briquambroque*, *La Formule magique*, *A.R.I.*, *L'étage secret*, *Ninja Turtles 2*.
     * Rétablissement en `Animation` des dessins animés purs : *Heidi et le lynx des montagnes*, *Les Aventures de the Chosen*.
   - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.14-streaming` et `?v=9.14` sur l'ensemble des scripts et styles.
+
+* **Curation Hebdomadaire par Profil (`Moi`, `Ami`, `Amie`, `Duo`), Seuil Dynamique 30★ par Sous-Genre & Verrous Sémantiques (28/10/2026 - v9.17 - Règles 6, 7 & 8 AGENTS.md)** :
+  - **Boutons de Curation sur la Barre des Sous-Catégories (Exclusivité PC Desktop)** :
+    * Intégration de 4 boutons de profil (`🧙‍♂️ Moi`, `👤 Ami`, `👩 Amie`, `👫 Duo`) alignés avec les 19 sous-catégories, et réorganisation des sous-catégories `horreur_epouvante` (`Slasher`, `Surnaturel`, `Monstres`, `Angoisse`) avant `comedie`.
+    * Connexion au sélecteur `Affichage : [ 1 ] [ 2 ]` :
+      - **Affichage `1`** : Grille normale présentant les **7 propositions de films de la semaine** (`WEEKLY_PROPOSALS` dans [`js/app.js`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/js/app.js) et [`propositions_films_semaine.md`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/propositions_films_semaine.md)), 100 % issues des bouquets SVOD de base (`aoc`, `auc`, `aca`), avec expiration $> 10\text{ jours}$ et variété des sous-genres.
+      - **Affichage `2`** : Vue en **7 colonnes thématiques** (`profile-columns-active`) présentant toutes les œuvres éligibles au profil.
+  - **Règle Dynamique du Seuil de 30 Œuvres par Sous-Genre (Étoiles)** :
+    * Pour chaque sous-genre (`getSubCategoriesStarTiersMap()` et `getAutoStarTier()`), si le sous-genre compte $\ge 30$ films en `5★` ($\ge 8.0$), seuls les films `5★` sont retenus (`Social`). S'il compte $\ge 30$ films en `4+★` ($\ge 7.0$), seuls les films `4+★` sont retenus (`Thriller`, `Policier`, `Humour`, `Dramatique`). Sinon, tous les films éligibles du sous-genre sont autorisés (`Tous`).
+  - **Verrous Sémantiques Universels (`isItemEligibleForProfile`)** :
+    * **Verrou Anti-Enfantin (`Ami`, `Amie`, `Duo`)** : Exclusion de `animation_famille`, du tag `fml`, de `Ciné+ Family` et des films Tout Public centrés sur des enfants/adolescents.
+    * **Verrou Anti-Lenteur (`Ami`)** : Exclusion de `drame_emotion`, obligation du tag dynamique `act` en `thriller_policier`, `scifi_fantastique` et `comedie` (`Humour`), et exclusion en `horreur_epouvante` des drames horrifiques lents (`drm` sans `act`, ex: *Les Maudites*).
+    * **Exclusion `Humour` (`Amie`)** : Exclusion stricte du sous-genre `Humour` en `comedie` au profit exclusif de `Romantique`, `Dramatique` ($\ge 4\star$) et `Musical`.
+    * **Consensus `Duo`** : Suppression du plafond rigide de $33\%$ d'action au profit de la règle sémantique **KO Action pure (`Action`) / OK Aventure (`Aventure`)**.
+  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.17-streaming` et `?v=9.17` sur l'ensemble des scripts et styles.
+
 

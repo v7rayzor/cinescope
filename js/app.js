@@ -204,48 +204,48 @@ function isItemOnlyOnPrime(item) {
 }
 
 // Propositions hebdomadaires de 7 films unitaires par profil (Règles 6, 7 & 8 AGENTS.md)
-// Expiration > 10 jours garantie • Variété des sous-genres • Zéro TNT • Zéro Prime
+// 100% Bouquets de base (aoc, auc, aca) • Expiration > 10 jours • Seuil 30★ par sous-genre • Variété des styles • Zéro TNT • Zéro Prime
 const WEEKLY_PROPOSALS = {
   moi: {
     label: 'Moi',
     icon: '🧙‍♂️',
     desc: 'Curation hebdomadaire : Aventure Fantastique, Mystère Temporel, Paranormal Feutré & Épouvante 1er degré sans torture.',
     ids: [
-      'jw-tm1433824', // Oddity (2024, Horreur surnaturelle & Manoir hanté)
-      'jw-tm170839',  // Source Code (2011, SF, boucle temporelle & romance)
-      'jw-tm148548',  // Hors du temps (2009, Mystère temporel & romance protectrice)
-      'jw-tm469231',  // La Belle Époque (2019, Voyage d'époque & comédie sensible)
-      'jw-tm1425480', // Mlle Bottine (2024, Comédie feel-good & tandem complice)
-      'jw-tm1561453', // Le Secret de Khéops (2025, Quête archéologique & trésor)
-      'jw-tm1372859'  // T.I.M. (2023, Anticipation feutrée & maison connectée)
+      'jw-tm939539',  // M3GAN (2022, Horreur Monstres / IA 1er degré, Universal+)
+      'jw-tm1501899', // Life of Chuck (2025, Fantastique lumineux Stephen King, Ciné+ OCS)
+      'jw-tm170839',  // Source Code (2011, SF boucle temporelle & romance, Ciné+ OCS)
+      'jw-tm469231',  // La Belle Époque (2019, Voyage d'époque & charme nostalgique, Ciné+ OCS)
+      'jw-tm1561453', // Le Secret de Khéops (2025, Aventure & chasse au trésor, Ciné+ OCS)
+      'jw-tm1425480', // Mlle Bottine (2024, Comédie feel-good & tandem 5★, Ciné+ OCS)
+      'jw-tm143992'   // Le Petit Prince (2015, Animation poétique & merveilleux, Ciné+ OCS)
     ]
   },
   ami: {
     label: 'Ami',
     icon: '👤',
-    desc: 'Curation hebdomadaire : Action physique, Survie extrême, Monstres & Suspense au 1er degré sans temps mort (zéro animation).',
+    desc: 'Curation hebdomadaire : Action physique, Survie extrême, Monstres & Suspense au 1er degré sans temps mort (zéro lent, zéro enfantin).',
     ids: [
-      'jw-tm1038333', // Black Phone (2022, Horreur claustrophobe & tueur masqué)
-      'jw-tm453584',  // Mission : Impossible - The Final Reckoning (2025, Cascades & adrénaline)
-      'jw-tm1076773', // Le Dernier Voyage du Demeter (2023, Traque de Dracula en pleine mer)
-      'jw-tm244173',  // Jungle (2017, Survie extrême en forêt amazonienne)
-      'jw-tm60292',   // Argo (2012, Infiltration sous haute tension à Téhéran)
-      'jw-tm244634',  // Atomic Blonde (2017, Combats physiques brutaux & espionnage)
-      'jw-tm170890'   // Super 8 (2011, Catastrophe spectaculaire & menace extraterrestre)
+      'jw-tm453584',  // Mission : Impossible - The Final Reckoning (2025, Action & cascades, Ciné+ OCS)
+      'jw-tm244634',  // Atomic Blonde (2017, Action & espionnage brutal, Ciné+ OCS)
+      'jw-tm244173',  // Jungle (2017, Aventure & survie extrême en Amazonie, Action Max)
+      'jw-tm244142',  // The Batman (2022, Policier noir & action 5★, Ciné+ OCS)
+      'jw-tm305296',  // Sang Froid (2019, Thriller d'action & vengeance 4★, Ciné+ OCS)
+      'jw-tm1038333', // Black Phone (2022, Horreur Slasher & tueur masqué, Universal+)
+      'jw-tm1076773'  // Le Dernier Voyage du Demeter (2023, Horreur Monstres & survie en mer, Universal+)
     ]
   },
   amie: {
     label: 'Amie',
     icon: '👩',
-    desc: 'Curation hebdomadaire : Matière grise, Enquêtes judiciaires, Déduction, Romances tendres & Comédies douces (zéro vulgarité potache).',
+    desc: 'Curation hebdomadaire : Matière grise, Enquêtes judiciaires, Déduction, Romances & Récits d\'époque (zéro Humour potache, zéro enfantin).',
     ids: [
-      'jw-tm998431',  // Aurora Teagarden : Les secrets oubliés (2021, Cosy crime & déduction)
-      'jw-tm1040743', // Là où chantent les écrevisses (2022, Drame romantique & procès)
-      'jw-tm64395',   // Un bonheur n'arrive jamais seul (2012, Comédie romantique chaleureuse)
-      'jw-tm1622508', // Deux procureurs (2025, Polar judiciaire & prétoire)
-      'jw-tm1496573', // Jane Austen a gâché ma vie (2025, Comédie d'esprit & lettres)
-      'jw-tm244229',  // Everybody Knows (2018, Secrets de famille & disparition)
-      'jw-tm367470'   // Mia et le lion blanc (2018, Aventure & émotion en savane)
+      'jw-tm998431',  // Aurora Teagarden : Les secrets oubliés (2021, Policier Cosy Mystery 4★, Universal+)
+      'jw-tm1622508', // Deux procureurs (2025, Policier judiciaire 5★, Ciné+ OCS)
+      'jw-tm1040743', // Là où chantent les écrevisses (2022, Thriller & procès 5★, Ciné+ OCS)
+      'jw-tm244229',  // Everybody Knows (2018, Thriller psychologique & secrets 4★, Ciné+ OCS)
+      'jw-tm1496573', // Jane Austen a gâché ma vie (2025, Comédie Romantique 5★, Ciné+ OCS)
+      'jw-tm64395',   // Un bonheur n'arrive jamais seul (2012, Comédie Romantique, Ciné+ OCS)
+      'jw-tm885567'   // Illusions perdues (2021, Grand récit Histoire 5★, Ciné+ OCS)
     ]
   },
   duo: {
@@ -253,16 +253,31 @@ const WEEKLY_PROPOSALS = {
     icon: '👫',
     desc: 'Consensus Ami + Amie : Polars rythmés, Techno-Thrillers & Grands récits d\'Aventure (KO Action pure, OK Aventure/Survie).',
     ids: [
-      'jw-tm1040743', // Là où chantent les écrevisses (2022)
-      'jw-tm244173',  // Jungle (2017)
-      'jw-tm60292',   // Argo (2012)
-      'jw-tm170890',  // Super 8 (2011)
-      'jw-tm1570880', // Novocaïne (2025)
-      'jw-tm305296',  // Sang Froid (2019)
-      'jw-tm1393841'  // Noir comme neige : Morts au Sommet (2023)
+      'jw-tm244173',  // Jungle (2017, Aventure & survie, Action Max)
+      'jw-tm1561453', // Le Secret de Khéops (2025, Aventure & chasse au trésor, Ciné+ OCS)
+      'jw-tm244142',  // The Batman (2022, Policier & enquête sous tension 5★, Ciné+ OCS)
+      'jw-tm1510326', // L'ultime braquage (2024, Policier & braquage rythmé 4★, Ciné+ OCS)
+      'jw-tm305296',  // Sang Froid (2019, Thriller sous la neige 4★, Ciné+ OCS)
+      'jw-tm1617353', // Coka Chicas (2025, Thriller sous haute tension 4★, Ciné+ OCS)
+      'jw-tm414396'   // Greenland : Le Dernier Refuge (2020, SF survie & catastrophe, Ciné+ OCS)
     ]
   }
 };
+
+// Détection déterministe des œuvres enfantines / jeunesse (exclues pour Ami, Amie et Duo)
+function isItemInfantileOrFamily(item) {
+  if (!item) return false;
+  const cat = (item.categories && item.categories[0]) || '';
+  const raw = item.raw_genres || [];
+  const pos = (item.position || '').toLowerCase();
+  const syn = (item.synopsis || '').toLowerCase();
+  if (cat === 'animation_famille') return true;
+  if (raw.includes('fml') || pos.includes('family')) return true;
+  if ((!item.badge || item.badge === '10') && /\b(enfant|enfants|adolescent|adolescents|collégien|lycéen|écolier|vacances d'été|vacances d’été|colonie de vacances|petit garçon|petite fille|lionceau)\b/i.test(syn)) {
+    return true;
+  }
+  return false;
+}
 
 // Qualification déterministe et universelle d'éligibilité selon le profil sélectionné (Règles 6 & 7 AGENTS.md)
 function isItemEligibleForProfile(item, profileKey) {
@@ -292,29 +307,39 @@ function isItemEligibleForProfile(item, profileKey) {
   }
 
   if (profileKey === 'ami') {
-    // 1. Exclusion absolue de toute l'animation
-    if (cat === 'animation_famille') return false;
-    // 2. Exclusion des comédies romantiques ou dramatiques lentes
-    if (cat === 'comedie' && (sub === 'Romantique' || sub === 'Dramatique' || sub === 'Musical')) return false;
-    // 3. Exclusion des drames sentimentaux purs ou contemplatifs
-    if (cat === 'drame_emotion' && (sub === 'Romance' || sub === 'Social')) return false;
+    // 1. Verrou anti-enfantin / jeunesse (zéro animation, zéro film familial/jeunesse type Monster Summer)
+    if (isItemInfantileOrFamily(item)) return false;
+    // 2. Verrou anti-lenteur : exclusion totale des drames contemplatifs/émotionnels
+    if (cat === 'drame_emotion') return false;
+    // 3. Comédies : uniquement Comédie d'Action (Humour + tag Action 'act'), zéro comédie lente/bavarde
+    if (cat === 'comedie') {
+      if (sub !== 'Humour' || !raw.includes('act')) return false;
+    }
+    // 4. Thrillers / Policiers & SF / Fantastique : composante dynamique 'act' obligatoire (zéro film lent)
+    if (cat === 'thriller_policier' && !raw.includes('act')) return false;
+    if (cat === 'scifi_fantastique' && !raw.includes('act')) return false;
+    // 5. Horreur : exclusion des drames horrifiques lents d'auteur (ex: Les Maudites, Else, Ogre = 'drm' sans 'act')
+    if (cat === 'horreur_epouvante') {
+      if (raw.includes('drm') && !raw.includes('act')) return false;
+      if (!item.badge && !raw.includes('act')) return false;
+    }
     return true;
   }
 
   if (profileKey === 'amie') {
-    // 1. Exclusion absolue de l'animation et de l'horreur
-    if (cat === 'animation_famille' || cat === 'horreur_epouvante') return false;
+    // 1. Verrou anti-enfantin / jeunesse & exclusion absolue de l'horreur
+    if (isItemInfantileOrFamily(item) || cat === 'horreur_epouvante') return false;
     // 2. Exclusion formelle de l'Action pure (seule l'Aventure est éligible)
     if (cat === 'action_aventure' && sub !== 'Aventure') return false;
     // 3. Exclusion des films de guerre
     if (raw.includes('war')) return false;
-    // 4. Comédies : 0 comédie conne / potache (bloque badge 16/18 ou humour gras)
-    if (cat === 'comedie' && sub === 'Humour' && item.badge && ['16', '18'].includes(item.badge)) return false;
+    // 4. Comédies : exclusion stricte du sous-genre Humour (potache/gags), seules Romantique/Dramatique/Musical passent
+    if (cat === 'comedie' && sub === 'Humour') return false;
     return true;
   }
 
   if (profileKey === 'duo') {
-    // Consensus strict Ami + Amie
+    // Consensus strict Ami + Amie (KO Action pure, OK Aventure, zéro lent, zéro enfantin)
     return isItemEligibleForProfile(item, 'ami') && isItemEligibleForProfile(item, 'amie');
   }
 
@@ -438,9 +463,52 @@ function matchesStars(item, starTier) {
   return true;
 }
 
-// Déterminer le palier d'étoiles par défaut (sélectionne toujours toutes les étoiles quel que soit le nombre d'œuvres)
+// Déterminer le palier d'étoiles automatique :
+// Règle du seuil de 30 œuvres par sous-genre :
+// - Si >= 30 œuvres en 5★ -> palier '5'
+// - Sinon si >= 30 œuvres en 4+★ -> palier '4'
+// - Sinon -> 'all'
 function getAutoStarTier(categoryEligibleItems) {
+  if (!AppState.activeProfile && AppState.activeSubCategory && AppState.activeSubCategory !== 'all') {
+    const c5 = categoryEligibleItems.filter(it => matchesStars(it, '5')).length;
+    if (c5 >= 30) return '5';
+    const c4 = categoryEligibleItems.filter(it => matchesStars(it, '4')).length;
+    if (c4 >= 30) return '4';
+  }
   return 'all';
+}
+
+// Calculer la carte des paliers d'étoiles requis par sous-genre (Règle du seuil >= 30 œuvres)
+function getSubCategoriesStarTiersMap() {
+  const pool = getFilteredItemsBeforeStars({ ignoreSubCategory: true, ignoreCategory: true });
+  const stats = {};
+  ALL_SUB_CATEGORIES.forEach(s => { stats[s.name] = { c4: 0, c5: 0 }; });
+  pool.forEach(it => {
+    if (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.computeSubCategory === 'function') {
+      const sub = JustWatchEngine.computeSubCategory(it);
+      if (stats[sub]) {
+        if (matchesStars(it, '4')) stats[sub].c4++;
+        if (matchesStars(it, '5')) stats[sub].c5++;
+      }
+    }
+  });
+  const tiers = {};
+  for (const [sub, st] of Object.entries(stats)) {
+    if (st.c5 >= 30) tiers[sub] = '5';
+    else if (st.c4 >= 30) tiers[sub] = '4';
+    else tiers[sub] = 'all';
+  }
+  return tiers;
+}
+
+function matchesSubCategoryAutoStar(item, tiersMap) {
+  if (!item || !tiersMap) return true;
+  if (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.computeSubCategory === 'function') {
+    const sub = JustWatchEngine.computeSubCategory(item);
+    const reqTier = tiersMap[sub] || 'all';
+    return matchesStars(item, reqTier);
+  }
+  return true;
 }
 
 // Générateur de clé de jour (ex: "2026-09-23")
@@ -1518,8 +1586,10 @@ function renderSubCategories() {
   allBtn.addEventListener('click', () => {
     AppState.activeSubCategory = 'all';
     AppState.activeProfile = null; // Désactive le profil si actif
+    AppState.isAutoStars = true;
     const catButtons = document.querySelectorAll('.category-btn');
     catButtons.forEach(cb => cb.classList.toggle('active', cb.dataset.category === AppState.activeCategory));
+    updateCategoryAutoStar();
     renderSubCategories();
     renderCatalog();
   });
@@ -1539,6 +1609,7 @@ function renderSubCategories() {
 
     btn.addEventListener('click', () => {
       AppState.activeProfile = null; // Priorité au filtre de sous-catégorie
+      AppState.isAutoStars = true;
       if (AppState.activeSubCategory === sub.name) {
         AppState.activeSubCategory = 'all';
       } else {
@@ -1550,6 +1621,7 @@ function renderSubCategories() {
           catButtons.forEach(b => b.classList.toggle('active', b.dataset.category === sub.parent));
         }
       }
+      updateCategoryAutoStar();
       renderSubCategories();
       renderCatalog();
     });
@@ -2088,7 +2160,9 @@ function renderCatalog() {
     if (isMode1) {
       // AFFICHAGE 1 : Les 7 propositions de la semaine dans la grille normale
       grid.classList.remove('theme-columns-active', 'sub-columns-active', 'profile-columns-active');
-      const weekItems = profConf.ids.map(id => AppState.catalog.find(it => it.id === id)).filter(Boolean);
+      const weekItems = profConf.ids
+        .map(id => AppState.catalog.find(it => it.id === id))
+        .filter(it => it && (AppState.includeSpecialized || !isItemSpecialized(it) || isItemBasePaid(it)));
       if (countEl) countEl.textContent = weekItems.length;
 
       weekItems.forEach(item => {
@@ -2101,12 +2175,20 @@ function renderCatalog() {
     grid.classList.add('profile-columns-active');
     grid.classList.remove('theme-columns-active', 'sub-columns-active');
 
-    let profileAll = AppState.catalog.filter(it => isItemEligibleForProfile(it, AppState.activeProfile));
+    const subTiersMap = getSubCategoriesStarTiersMap();
+    let profileAll = AppState.catalog.filter(it => {
+      if (!isItemEligibleForProfile(it, AppState.activeProfile)) return false;
+      return matchesSubCategoryAutoStar(it, subTiersMap);
+    });
     if (AppState.activeType && AppState.activeType !== 'all') {
-      profileAll = profileAll.filter(it => it.type === AppState.activeType);
+      if (AppState.activeType === 'film') {
+        profileAll = profileAll.filter(it => it.type === 'film' || it.type === 'telefilm');
+      } else {
+        profileAll = profileAll.filter(it => it.type === AppState.activeType);
+      }
     }
     if (!AppState.includeSpecialized) {
-      profileAll = profileAll.filter(it => !isItemSpecialized(it));
+      profileAll = profileAll.filter(it => !isItemSpecialized(it) || isItemBasePaid(it));
     }
     if (AppState.activeBouquet !== 'all') {
       profileAll = profileAll.filter(it => (it.package_slugs || []).includes(AppState.activeBouquet));
