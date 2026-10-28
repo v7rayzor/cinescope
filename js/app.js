@@ -273,7 +273,7 @@ function isItemInfantileOrFamily(item) {
   const syn = (item.synopsis || '').toLowerCase();
   if (cat === 'animation_famille') return true;
   if (raw.includes('fml') || pos.includes('family')) return true;
-  if ((!item.badge || item.badge === '10') && /\b(enfant|enfants|adolescent|adolescents|collégien|lycéen|écolier|vacances d'été|vacances d’été|colonie de vacances|petit garçon|petite fille|lionceau)\b/i.test(syn)) {
+  if ((!item.badge || item.badge === '10') && /\b(enfant|enfants|adolescent|adolescents|ado|ados|collégien|lycéen|écolier|vacances d'été|vacances d’été|colonie de vacances|petit garçon|petite fille|lionceau)\b/i.test(syn)) {
     return true;
   }
   return false;
@@ -307,18 +307,20 @@ function isItemEligibleForProfile(item, profileKey) {
   }
 
   if (profileKey === 'ami') {
-    // 1. Verrou anti-enfantin / jeunesse (zéro animation, zéro film familial/jeunesse type Monster Summer)
+    // 1. Verrou anti-enfantin / jeunesse (zéro animation, zéro film familial/jeunesse type Monster Summer, Microbe et Gasoil)
     if (isItemInfantileOrFamily(item)) return false;
-    // 2. Verrou anti-lenteur : exclusion totale des drames contemplatifs/émotionnels
-    if (cat === 'drame_emotion') return false;
-    // 3. Comédies : uniquement Comédie d'Action (Humour + tag Action 'act'), zéro comédie lente/bavarde
+    // 2. Verrou anti-lenteur & anti-romance : exclusion totale des drames et de toute romance ('rma', ex: U Are the Universe)
+    if (cat === 'drame_emotion' || raw.includes('rma')) return false;
+    // 3. Action & Aventure : obligation du tag 'act' (élimine les drames western lents sans action comme Pile ou face ou Wild Bill)
+    if (cat === 'action_aventure' && !raw.includes('act')) return false;
+    // 4. Comédies : uniquement Comédie d'Action pure (Humour + tag 'act' sans drame 'drm'), zéro comédie lente/bavarde
     if (cat === 'comedie') {
-      if (sub !== 'Humour' || !raw.includes('act')) return false;
+      if (sub !== 'Humour' || !raw.includes('act') || raw.includes('drm')) return false;
     }
-    // 4. Thrillers / Policiers & SF / Fantastique : composante dynamique 'act' obligatoire (zéro film lent)
+    // 5. Thrillers / Policiers & SF / Fantastique : composante dynamique 'act' obligatoire (zéro film lent)
     if (cat === 'thriller_policier' && !raw.includes('act')) return false;
     if (cat === 'scifi_fantastique' && !raw.includes('act')) return false;
-    // 5. Horreur : exclusion des drames horrifiques lents d'auteur (ex: Les Maudites, Else, Ogre = 'drm' sans 'act')
+    // 6. Horreur : exclusion des drames horrifiques lents d'auteur (ex: Les Maudites, Else, Ogre = 'drm' sans 'act')
     // et exclusion du sous-genre psychologique/expérimental 'Angoisse' ou 'eur' s'il n'y a pas d'Action ('act')
     if (cat === 'horreur_epouvante') {
       if (raw.includes('drm') && !raw.includes('act')) return false;
