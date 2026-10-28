@@ -910,5 +910,15 @@
     "titre": "Farang",
     "category": "action_aventure",
     "justification": "Le synopsis évoque une rixe, une fuite et un affrontement avec un parrain local, suggérant une dominante d'action physique et de spectaculaire malgré la présence d'une intrigue criminelle."
+  },
+  "jw-tm886283": {
+    "titre": "Jeux d'espions",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur une machination d'espionnage, des documents compromettants et un compte à rebours psychologique, sans action physique dominante."
+  },
+  "jw-ts413949": {
+    "titre": "Allegiance",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur une enquête policière, un système judiciaire défectueux et des manœuvres politiques, sans action physique dominante."
   }
 }
