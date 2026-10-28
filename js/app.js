@@ -130,6 +130,7 @@ const AppState = {
   activeCategory: 'all',       // 'all' ou l'une des 7 catégories
   activeSubCategory: 'all',    // 'all' ou sous-catégorie déterministe (PC uniquement)
   activeProfile: null,         // null, 'moi', 'ami', 'amie', 'duo' (Curation profils PC uniquement)
+  profileDisplayMode: '1',     // '1' = 7 propositions semaine, '2' = toutes les œuvres éligibles en colonnes par catégorie (PC)
   activeStars: 'all',          // 'all', '4', '5'
   activeBouquet: 'all',        // 'all', 'aoc', 'aca', 'auc', 'snr', 'sdz', 'ima', 'prv'
   isAmazonMode: false,         // true pour activer le catalogue Amazon Prime Video (exclusif PC)
@@ -1363,20 +1364,28 @@ function initNavigation() {
 
   if (btnMode1) {
     btnMode1.addEventListener('click', () => {
-      AppState.enableThemeColumns = true;
-      try {
-        localStorage.setItem('cinescope_theme_columns', 'true');
-      } catch (e) {}
+      if (AppState.activeProfile) {
+        AppState.profileDisplayMode = '1';
+      } else {
+        AppState.enableThemeColumns = true;
+        try {
+          localStorage.setItem('cinescope_theme_columns', 'true');
+        } catch (e) {}
+      }
       renderCatalog();
     });
   }
 
   if (btnMode2) {
     btnMode2.addEventListener('click', () => {
-      AppState.enableThemeColumns = false;
-      try {
-        localStorage.setItem('cinescope_theme_columns', 'false');
-      } catch (e) {}
+      if (AppState.activeProfile) {
+        AppState.profileDisplayMode = '2';
+      } else {
+        AppState.enableThemeColumns = false;
+        try {
+          localStorage.setItem('cinescope_theme_columns', 'false');
+        } catch (e) {}
+      }
       renderCatalog();
     });
   }
@@ -2037,18 +2046,61 @@ function renderCatalog() {
   const isProfileMode = !isMobile && !!AppState.activeProfile;
   if (isProfileMode) {
     const profConf = WEEKLY_PROPOSALS[AppState.activeProfile] || WEEKLY_PROPOSALS.moi;
+    const isMode1 = AppState.profileDisplayMode === '1';
+
     if (titleEl) {
       titleEl.innerHTML = `<span>${profConf.icon} Curation : ${profConf.label}</span>`;
     }
     if (descEl) {
-      descEl.textContent = profConf.desc;
+      descEl.textContent = isMode1
+        ? `${profConf.desc} (Affichage 1 : 7 propositions de la semaine)`
+        : `${profConf.desc} (Affichage 2 : Toutes les œuvres éligibles en colonnes par catégorie)`;
       descEl.style.display = 'block';
     }
 
-    // Récupérer les 7 films de la semaine
-    const weekItems = profConf.ids.map(id => AppState.catalog.find(it => it.id === id)).filter(Boolean);
+    // Afficher et synchroniser le sélecteur Affichage : [ 1 ] [ 2 ]
+    const modeSelector = document.getElementById('displayModeSelector');
+    const btnMode1 = document.getElementById('btnDisplayMode1');
+    const btnMode2 = document.getElementById('btnDisplayMode2');
+    if (modeSelector) {
+      modeSelector.style.display = 'inline-flex';
+      if (btnMode1) {
+        btnMode1.classList.toggle('active', isMode1);
+        btnMode1.title = 'Affichage 1 : Propositions de la semaine (7 films)';
+      }
+      if (btnMode2) {
+        btnMode2.classList.toggle('active', !isMode1);
+        btnMode2.title = 'Affichage 2 : Toutes les œuvres éligibles par catégorie (Colonnes)';
+      }
+    }
 
-    // Récupérer l'ensemble des œuvres éligibles au profil
+    const themeHeaderEl = document.getElementById('themeColumnsHeader');
+    if (themeHeaderEl) themeHeaderEl.classList.remove('active');
+    const subHeaderEl = document.getElementById('subColumnsHeader');
+    if (subHeaderEl) {
+      subHeaderEl.classList.remove('active');
+      subHeaderEl.innerHTML = '';
+    }
+
+    if (emptyState) emptyState.classList.add('hidden');
+    if (grid) grid.innerHTML = '';
+
+    if (isMode1) {
+      // AFFICHAGE 1 : Les 7 propositions de la semaine dans la grille normale
+      grid.classList.remove('theme-columns-active', 'sub-columns-active', 'profile-columns-active');
+      const weekItems = profConf.ids.map(id => AppState.catalog.find(it => it.id === id)).filter(Boolean);
+      if (countEl) countEl.textContent = weekItems.length;
+
+      weekItems.forEach(item => {
+        grid.appendChild(createPosterCard(item));
+      });
+      return;
+    }
+
+    // AFFICHAGE 2 : Toutes les œuvres éligibles au format colonnes par catégorie
+    grid.classList.add('profile-columns-active');
+    grid.classList.remove('theme-columns-active', 'sub-columns-active');
+
     let profileAll = AppState.catalog.filter(it => isItemEligibleForProfile(it, AppState.activeProfile));
     if (AppState.activeType && AppState.activeType !== 'all') {
       profileAll = profileAll.filter(it => it.type === AppState.activeType);
@@ -2067,56 +2119,6 @@ function renderCatalog() {
     }
 
     if (countEl) countEl.textContent = profileAll.length;
-
-    // Masquer les sélecteurs de mode colonnes classiques
-    const modeSelector = document.getElementById('displayModeSelector');
-    if (modeSelector) modeSelector.style.display = 'none';
-    const themeHeaderEl = document.getElementById('themeColumnsHeader');
-    if (themeHeaderEl) themeHeaderEl.classList.remove('active');
-    const subHeaderEl = document.getElementById('subColumnsHeader');
-    if (subHeaderEl) {
-      subHeaderEl.classList.remove('active');
-      subHeaderEl.innerHTML = '';
-    }
-    if (grid) {
-      grid.classList.remove('theme-columns-active', 'sub-columns-active');
-      grid.innerHTML = '';
-    }
-    if (emptyState) emptyState.classList.add('hidden');
-
-    // 1. Partie 1 : Propositions de la semaine (7 films unitaires)
-    const part1El = document.createElement('div');
-    part1El.className = 'profile-view-section profile-week-section';
-    part1El.innerHTML = `
-      <div class="profile-section-header">
-        <div class="profile-section-title-wrap">
-          <span class="profile-section-badge">1</span>
-          <h3 class="profile-section-title">🎯 Propositions de la semaine (${weekItems.length} films à évaluer)</h3>
-        </div>
-        <p class="profile-section-subtitle">Sélection de 7 films variés, validité garantie &gt; 10 jours. À évaluer en fin de semaine (vu / pas vu, ok / pas ok).</p>
-      </div>
-      <div class="profile-week-grid" id="profileWeekGrid"></div>
-    `;
-    const weekGrid = part1El.querySelector('#profileWeekGrid');
-    weekItems.forEach(item => {
-      const card = createPosterCard(item);
-      card.classList.add('profile-week-card');
-      weekGrid.appendChild(card);
-    });
-    grid.appendChild(part1El);
-
-    // 2. Partie 2 : Toutes les œuvres éligibles au format colonnes par catégorie
-    const part2El = document.createElement('div');
-    part2El.className = 'profile-view-section profile-all-section';
-    part2El.innerHTML = `
-      <div class="profile-section-header">
-        <div class="profile-section-title-wrap">
-          <span class="profile-section-badge">2</span>
-          <h3 class="profile-section-title">📚 Toutes les œuvres éligibles au profil (${profileAll.length} titres)</h3>
-        </div>
-        <p class="profile-section-subtitle">Toutes les œuvres du catalogue correspondant aux critères stricts du profil, affichées par colonnes de catégories.</p>
-      </div>
-    `;
 
     const themeBuckets = {
       action_aventure: [],
@@ -2137,9 +2139,6 @@ function renderCatalog() {
       themeBuckets[k] = sortCatalogItems(themeBuckets[k]);
     }
 
-    const columnsWrap = document.createElement('div');
-    columnsWrap.className = 'profile-columns-grid';
-
     const profColDefs = [
       { cat: 'action_aventure', name: 'Action & Aventure', icon: '🏹', items: themeBuckets.action_aventure },
       { cat: 'thriller_policier', name: 'Thriller & Policier', icon: '🔍', items: themeBuckets.thriller_policier },
@@ -2152,7 +2151,7 @@ function renderCatalog() {
 
     profColDefs.forEach(col => {
       const colDiv = document.createElement('div');
-      colDiv.className = 'profile-theme-column';
+      colDiv.className = 'theme-column profile-col';
       colDiv.innerHTML = `
         <div class="profile-col-header">
           <span class="prof-col-title">${col.icon} ${col.name}</span>
@@ -2168,11 +2167,8 @@ function renderCatalog() {
           itemsCont.appendChild(createPosterCard(it));
         });
       }
-      columnsWrap.appendChild(colDiv);
+      grid.appendChild(colDiv);
     });
-
-    part2El.appendChild(columnsWrap);
-    grid.appendChild(part2El);
     return;
   }
 

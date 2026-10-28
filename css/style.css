@@ -410,15 +410,12 @@ body.modal-open {
 .subcategories-wrapper {
   display: flex;
   align-items: center;
-  gap: 0.45rem;
+  gap: 0.38rem;
   flex-wrap: wrap;
 }
 
 .subcategories-chips-group {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  flex-wrap: wrap;
+  display: contents;
 }
 
 .subcat-btn {
@@ -497,7 +494,7 @@ body.modal-open {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  padding: 0.24rem 0.65rem;
+  padding: 0.24rem 0.62rem;
   background: rgba(255, 255, 255, 0.038);
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: var(--radius-full);
@@ -549,84 +546,23 @@ body.modal-open {
 
 .profiles-subcat-divider {
   width: 1.5px;
-  height: 20px;
+  height: 18px;
   background: rgba(255, 255, 255, 0.14);
-  margin: 0 0.45rem 0 0.15rem;
+  margin: 0 0.3rem;
   flex-shrink: 0;
+  align-self: center;
 }
 
-/* Sections d'Affichage Curation Profil : 1 = Propositions Semaine, 2 = Toutes les œuvres par colonne */
-.profile-view-section {
-  width: 100%;
-  margin-bottom: 2.5rem;
+/* Grille en Colonnes Thématiques par Catégorie pour le Mode 2 Profil */
+.posters-grid.profile-columns-active {
+  display: grid !important;
+  grid-template-columns: repeat(7, minmax(0, 1fr)) !important;
+  gap: 1.25rem 0.75rem !important;
+  align-items: start !important;
+  width: 100% !important;
 }
 
-.profile-section-header {
-  margin-bottom: 1.1rem;
-  padding-bottom: 0.65rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-.profile-section-title-wrap {
-  display: flex;
-  align-items: center;
-  gap: 0.65rem;
-}
-
-.profile-section-badge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--accent-red), #e11d48);
-  color: #ffffff;
-  font-size: 0.72rem;
-  font-weight: 800;
-  box-shadow: 0 0 10px rgba(255, 51, 75, 0.35);
-}
-
-.profile-section-title {
-  font-size: 1.22rem;
-  font-weight: 800;
-  color: #ffffff;
-  margin: 0;
-  letter-spacing: -0.01em;
-}
-
-.profile-section-subtitle {
-  font-size: 0.82rem;
-  color: var(--text-muted);
-  margin: 0.35rem 0 0 0;
-}
-
-.profile-week-grid {
-  display: grid;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
-  gap: 0.85rem;
-  width: 100%;
-}
-
-.profile-week-card {
-  position: relative;
-  transition: transform 0.22s ease, box-shadow 0.22s ease;
-}
-
-.profile-week-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.55);
-}
-
-.profile-columns-grid {
-  display: grid;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
-  gap: 0.75rem;
-  width: 100%;
-  align-items: start;
-}
-
-.profile-theme-column {
+.theme-column.profile-col {
   background: rgba(255, 255, 255, 0.018);
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 10px;

@@ -64,3 +64,4 @@
 | **5** | **Novocaïne** | 2025 • Ciné+ OCS | **Thriller machiavélique & piège criminel** | **6.5** / 10 | 📅 03/01/2027 | [ ] Vu &nbsp; [ ] Pas vu<br>[ ] OK &nbsp; [ ] Pas OK<br>Avis : |
 | **6** | **Sang Froid** | 2019 • Ciné+ OCS | **Polar nordique & traque méthodique** | **6.2** / 10 | 📅 30/11/2026 | [ ] Vu &nbsp; [ ] Pas vu<br>[ ] OK &nbsp; [ ] Pas OK<br>Avis : |
 | **7** | **Noir comme neige : Morts au Sommet** | 2023 • Universal+ | **Enquête de haute montagne & tandem flic/pisteuse** | **5.7** / 10 | 📅 05/12/2026 | [ ] Vu &nbsp; [ ] Pas vu<br>[ ] OK &nbsp; [ ] Pas OK<br>Avis : |
+
