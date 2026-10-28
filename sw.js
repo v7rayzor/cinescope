@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cinescope-v9.19-streaming';
+const CACHE_NAME = 'cinescope-v9.20-streaming';
 const CORE_ASSETS = [
   './',
   './index.html',
