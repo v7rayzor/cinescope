@@ -309,7 +309,7 @@ function isItemEligibleForProfile(item, profileKey) {
   if (profileKey === 'ami') {
     // 1. Verrou anti-enfantin / jeunesse (zéro animation, zéro film familial/jeunesse type Monster Summer, Microbe et Gasoil)
     if (isItemInfantileOrFamily(item)) return false;
-    // 2. Verrou anti-lenteur, anti-romance & anti-introspection (ex: U Are the Universe, Reflet dans un diamant mort, L'Homme qui rétrécit)
+    // 2. Verrou anti-lenteur, anti-romance & anti-introspection (ex: U Are the Universe, Reflet dans un diamant mort)
     if (cat === 'drame_emotion' || raw.includes('rma')) return false;
     if (/\b(remonte le film de sa vie|reclus dans un palace|oscillant entre présent et passé|contemplatif|mélancolique|introspectif)\b/i.test(syn)) return false;
     // 3. Action & Aventure : obligation du tag 'act' (élimine les drames western lents sans action comme Pile ou face ou Wild Bill)
@@ -318,17 +318,13 @@ function isItemEligibleForProfile(item, profileKey) {
     if (cat === 'comedie') {
       if (sub !== 'Humour' || !raw.includes('act') || raw.includes('drm')) return false;
     }
-    // 5. Thrillers / Policiers & SF / Fantastique : composante dynamique 'act' obligatoire et exclusion des drames existentiels (cmy+drm en SF)
+    // 5. Thrillers / Policiers & SF / Fantastique : composante dynamique 'act' obligatoire (zéro film lent)
     if (cat === 'thriller_policier' && !raw.includes('act')) return false;
-    if (cat === 'scifi_fantastique') {
-      if (!raw.includes('act')) return false;
-      if (raw.includes('drm') && raw.includes('cmy')) return false;
-    }
-    // 6. Horreur : exclusion des drames horrifiques lents ('drm' sans 'act'), de l'Angoisse/eur sans 'act', et des téléfilms lents sans 'act' (< 6.0 d'avis)
+    if (cat === 'scifi_fantastique' && !raw.includes('act')) return false;
+    // 6. Horreur : exclusion des drames horrifiques lents ('drm' sans 'act') et de l'Angoisse/eur sans 'act'
     if (cat === 'horreur_epouvante') {
       if (raw.includes('drm') && !raw.includes('act')) return false;
       if ((sub === 'Angoisse' || raw.includes('eur')) && !raw.includes('act')) return false;
-      if (!raw.includes('act') && (item.note_avis || 0) < 6.0) return false;
       if (!item.badge && !raw.includes('act')) return false;
     }
     return true;

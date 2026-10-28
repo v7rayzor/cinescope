@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.20** / Cache **cinescope-v9.20-streaming** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.21** / Cache **cinescope-v9.21-streaming** / Stockage **_v48**).
 
 ---
 
@@ -379,7 +379,7 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * Rétablissement en `Animation` des dessins animés purs : *Heidi et le lynx des montagnes*, *Les Aventures de the Chosen*.
   - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.14-streaming` et `?v=9.14` sur l'ensemble des scripts et styles.
 
-* **Curation Hebdomadaire par Profil (`Moi`, `Ami`, `Amie`, `Duo`), Filtrage Combiné, Seuil Dynamique 30★ & Verrous Sémantiques (28/10/2026 - v9.20 - Règles 6, 7 & 8 AGENTS.md)** :
+* **Curation Hebdomadaire par Profil (`Moi`, `Ami`, `Amie`, `Duo`), Filtrage Combiné, Seuil Dynamique 30★ & Verrous Sémantiques (28/10/2026 - v9.21 - Règles 6, 7 & 8 AGENTS.md)** :
   - **Boutons de Curation Combinables avec Catégories & Sous-Catégories (Exclusivité PC Desktop)** :
     * Intégration de 4 boutons de profil (`🧙‍♂️ Moi`, `👤 Ami`, `👩 Amie`, `👫 Duo`) alignés avec les 19 sous-catégories, et réorganisation des sous-catégories `horreur_epouvante` (`Slasher`, `Surnaturel`, `Monstres`, `Angoisse`) avant `comedie`.
     * **Combinaison active Profil + Catégorie / Sous-catégorie** : Lorsqu'un profil est actif, cliquer sur une catégorie ou une sous-catégorie conserve le profil actif et filtre ses œuvres sur la catégorie ou sous-catégorie choisie, avec mise à jour temps réel des compteurs des 19 sous-catégories et des paliers d'étoiles.
@@ -390,9 +390,9 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * Pour chaque sous-genre (`getSubCategoriesStarTiersMap()` et `getAutoStarTier()`), si le sous-genre compte $\ge 30$ films en `5★` ($\ge 8.0$), seuls les films `5★` sont retenus (`Social`). S'il compte $\ge 30$ films en `4+★` ($\ge 7.0$), seuls les films `4+★` sont retenus (`Thriller`, `Policier`, `Humour`, `Dramatique`). Sinon, tous les films éligibles du sous-genre sont autorisés (`Tous`).
   - **Verrous Sémantiques Universels (`isItemEligibleForProfile`)** :
     * **Verrou Anti-Enfantin (`Ami`, `Amie`, `Duo`)** : Exclusion de `animation_famille`, du tag `fml`, de `Ciné+ Family` et des films Tout Public centrés sur des enfants/adolescents/ados.
-    * **Verrou Anti-Lenteur, Anti-Romance & Anti-Introspection (`Ami`)** : Exclusion de `drame_emotion`, du tag `rma` (*U Are the Universe*, *Attraction*, *Scott Pilgrim*) et des récits introspectifs/contemplatifs (*Reflet dans un diamant mort*, *L'Homme qui rétrécit*), obligation du tag dynamique `act` en `action_aventure` (*Pile ou face*, *Wild Bill*), `thriller_policier`, `scifi_fantastique` (hors `cmy`+`drm`), et `comedie` (`Humour` + `act` autorisé sans `drm`), et exclusion en `horreur_epouvante` des drames horrifiques lents (`drm` sans `act`), de l'`Angoisse`/`eur` sans `act` et des téléfilms lents sans `act` ($< 6.0$ d'avis, ex: *La Dernière Plongée*).
+    * **Verrou Anti-Lenteur, Anti-Romance & Anti-Introspection (`Ami`)** : Exclusion de `drame_emotion`, du tag `rma` (*U Are the Universe*, *Attraction*, *Scott Pilgrim*) et des récits introspectifs/expérimentaux sans action (*Reflet dans un diamant mort*), obligation du tag dynamique `act` en `action_aventure` (*Pile ou face*, *Wild Bill*), `thriller_policier`, `scifi_fantastique` (maintien de la survie physique *L'Homme qui rétrécit*), et `comedie` (`Humour` + `act` autorisé sans `drm`), et exclusion en `horreur_epouvante` des drames horrifiques lents (`drm` sans `act`), et de l'`Angoisse`/`eur` sans `act` (maintien de la survie sous-marine *La Dernière Plongée*).
     * **Exclusion `Humour` (`Amie`)** : Exclusion stricte du sous-genre `Humour` en `comedie` au profit exclusif de `Romantique`, `Dramatique` ($\ge 4\star$) et `Musical`.
     * **Consensus `Duo`** : Suppression du plafond rigide de $33\%$ d'action au profit de la règle sémantique **KO Action pure (`Action`) / OK Aventure (`Aventure`)**.
-  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.20-streaming` et `?v=9.20` sur l'ensemble des scripts et styles.
+  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.21-streaming` et `?v=9.21` sur l'ensemble des scripts et styles.
 
 
