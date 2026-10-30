@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.29** / Cache **cinescope-v9.29-clean-headings** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.30** / Cache **cinescope-v9.30-film-sort-pc-clean** / Stockage **_v48**).
 
 ---
 
@@ -428,7 +428,14 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Sanctuaire PC Desktop Intact (Règle 8)** :
     * Le portail mobile est strictement exclusif aux résolutions `< 1024px` (`.mobile-only-portal` masqué en `display: none !important` sur PC).
     * L'affichage PC en colonnes et les profils restent 100% inchangés.
-  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.29-clean-headings` et `?v=9.29` sur l'ensemble des scripts et styles.
+  - **Épuration PC & Nouveau Tri par Défaut des Films (v9.30)** :
+    * **Masquage des boutons profils sur PC** : `.profiles-curation-group` et `.profiles-subcat-divider` masqués (`display: none !important`) pour une barre sous-catégories PC directe et épurée.
+    * **Tri des Films re-calibré** : 
+      1. 🆕 Nouveautés (< 7 jours).
+      2. ⏳ Expirations imminentes uniquement (badges jaune $\le 14$ j et rouge $\le 3$ j), classées par jours restants croissants. Les films à expiration lointaine (> 14 j, badge bleu) ne polluent plus le haut du catalogue et sont ordonnés selon leurs étoiles.
+      3. ⭐ Classement par étoiles décroissant (5★ ➔ 1★), départagé par la note critique exacte sur 10 puis l'année de sortie.
+    * **Séries intactes** : Algorithme de tri par défaut des séries maintenu à l'identique.
+  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.30-film-sort-pc-clean` et `?v=9.30` sur l'ensemble des scripts et styles.
 
 
 

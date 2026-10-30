@@ -727,7 +727,9 @@ function sortCatalogItems(items) {
     return sorted;
   }
 
-  // 4. TRI PAR DÉFAUT (PC & Mobile) : 1) Nouveautés ➔ 2) Date d'expiration ➔ 3) Note d'étoiles (5 ➔ 1)
+  // 4. TRI PAR DÉFAUT (PC & Mobile) :
+  // - Pour les Films : 1) Nouveautés ➔ 2) Expirations imminentes uniquement (<= 14 j, badges jaune & rouge) ➔ 3) Note d'étoiles (5 ➔ 1).
+  // - Pour les Séries : 1) Nouveautés ➔ 2) Expirations (toutes) ➔ 3) Note d'étoiles (5 ➔ 1).
   const sorted = [...items];
   sorted.sort((a, b) => {
     // 1) En 1 : Nouveautés (les nouveautés récentes en priorité)
@@ -735,16 +737,26 @@ function sortCatalogItems(items) {
     const isNewB = isItemNew(b) ? 1 : 0;
     if (isNewB !== isNewA) return isNewB - isNewA;
 
-    // 2) En 2 : Date d'expiration (titres quittant bientôt le catalogue en premier)
-    const expA = getItemDaysLeft(a);
-    const expB = getItemDaysLeft(b);
-    const hasExpA = expA !== null && expA >= 0;
-    const hasExpB = expB !== null && expB >= 0;
-    if (hasExpA && hasExpB) {
+    // Helper qualification expiration prioritaire
+    // Films : seules les expirations imminentes (<= 14 jours, alertes jaune & rouge) remontent en haut.
+    // Séries : maintien de la priorité pour toutes les dates d'expiration.
+    const isPriorityExp = (item) => {
+      const exp = getItemDaysLeft(item);
+      if (exp === null || exp < 0) return false;
+      if (item.type === 'serie') return true;
+      return exp <= 14;
+    };
+
+    const hasPrioExpA = isPriorityExp(a);
+    const hasPrioExpB = isPriorityExp(b);
+
+    if (hasPrioExpA && hasPrioExpB) {
+      const expA = getItemDaysLeft(a);
+      const expB = getItemDaysLeft(b);
       if (expA !== expB) return expA - expB;
-    } else if (hasExpA) {
+    } else if (hasPrioExpA) {
       return -1;
-    } else if (hasExpB) {
+    } else if (hasPrioExpB) {
       return 1;
     }
 

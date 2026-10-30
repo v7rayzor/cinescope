@@ -482,9 +482,9 @@ body.modal-open {
   margin-left: 0.35rem;
 }
 
-/* Boutons Curation Profils Amis & Moi (Exclusivité Desktop PC - Règle 8 AGENTS.md) */
+/* Boutons Curation Profils Amis & Moi (Retirés temporairement sur PC à la demande utilisateur) */
 .profiles-curation-group {
-  display: inline-flex;
+  display: none !important;
   align-items: center;
   gap: 0.35rem;
   flex-shrink: 0;
@@ -545,6 +545,7 @@ body.modal-open {
 }
 
 .profiles-subcat-divider {
+  display: none !important;
   width: 1.5px;
   height: 18px;
   background: rgba(255, 255, 255, 0.14);
