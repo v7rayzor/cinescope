@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cinescope-v9.24-mobile-portal';
+const CACHE_NAME = 'cinescope-v9.25-mobile-portal';
 const CORE_ASSETS = [
   './',
   './index.html',

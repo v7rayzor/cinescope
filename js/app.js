@@ -2214,7 +2214,7 @@ function renderMobilePortal() {
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
   const portalSection = document.getElementById('mobilePortalSection');
   const titlesTopBar = document.getElementById('mobileTitlesTopBar');
-  const filtersBubble = document.getElementById('filtersBubble');
+  const filtersBubble = document.getElementById('filtersUnifiedBubble');
   const sectionIntro = document.querySelector('.section-intro');
   const postersGrid = document.getElementById('postersGrid');
   const emptyState = document.getElementById('emptyState');
