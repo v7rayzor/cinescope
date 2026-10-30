@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.32** / Cache **cinescope-v9.32-universal-4plus-prime-sync** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.33** / Cache **cinescope-v9.33-remove-sync-amazon** / Stockage **_v48**).
 
 ---
 
@@ -439,11 +439,12 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * **Ajout du catalogue Prime Video sur portable** : Combinaison et déduplication en temps réel avec les bouquets SVOD de base, montant le catalogue mobile brut à 2 133 œuvres (1 563 films, 570 séries) avec logo officiel Prime Video sur les cartes d'affiches.
     * **Filtre exclusif « 4+ » sur portable** : Conservation stricte des œuvres de haute qualité notées >= 7.0/10 (4★ et 5★) sur smartphone, isolant une sélection d'élite de 1 455 œuvres (975 films 4+, 480 séries 4+).
     * **Tri des Nouveautés optimisé** : Au sein des nouveautés (< 7 jours), classement en priorité par note d'étoiles (5★ ➔ 4★ ➔ etc.) et note sur 10, puis départage par date d'expiration (la plus proche en tête) en cas d'égalité stricte.
-  - **Synchronisation Automatique Amazon Prime & Filtre 4+ Universel PC & Portable (v9.32)** :
-    * **Automatisation quotidienne Amazon Prime Video** : Intégration de `node scripts/sync_prime.cjs` dans le workflow GitHub Actions (`.github/workflows/update_catalog.yml`), synchronisant automatiquement et chaque matin à 06:00 UTC `data/prime_catalog.js` au même titre que Ciné+ OCS, Universal+ et Action Max.
+  - **Synchronisation Automatique Amazon Prime & Filtre 4+ Universel PC & Portable (v9.32 & v9.33)** :
+    * **Automatisation quotidienne Amazon Prime Video** : Intégration de `prv` directement dans `BASE_PAID_PACKAGES` du moteur de synchronisation quotidien (`scripts/sync_justwatch.cjs`), synchronisant automatiquement et chaque matin à 06:00 UTC `js/catalog.js` et `data/prime_catalog.js` au même titre que Ciné+ OCS, Universal+ et Action Max.
+    * **Suppression du bouton manuel [ 🔄 Synchro Amazon ]** : Le catalogue Prime Video étant 100% synchronisé automatiquement chaque jour, le bouton manuel devenu inutile a été retiré de l'interface PC.
     * **Filtre Universel 4+ (PC et Portable)** : L'ensemble du catalogue exclut strictement toutes les œuvres dont la note critique est < 7.0/10. Sur PC comme sur smartphone, seules les œuvres 4★ et 5★ sont désormais visibles.
     * **Bouton « Tous » masqué sur PC** : Remplacement de l'option « Tous » par le palier par défaut `[ ★ 4+ ]` complété par `[ ★ 5 ]` sur grand écran.
-  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.32-universal-4plus-prime-sync` et `?v=9.32` sur l'ensemble des scripts et styles.
+  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.33-remove-sync-amazon` et `?v=9.33` sur l'ensemble des scripts et styles.
 
 
 

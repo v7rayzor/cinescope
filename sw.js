@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cinescope-v9.32-universal-4plus-prime-sync';
+const CACHE_NAME = 'cinescope-v9.33-remove-sync-amazon';
 const CORE_ASSETS = [
   './',
   './index.html',
