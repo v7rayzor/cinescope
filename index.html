@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=9.21">
+  <link rel="stylesheet" href="css/style.css?v=9.22">
 </head>
 <body>
   <!-- Header / Navigation principale -->
@@ -378,6 +378,50 @@
 
     </section>
 
+    <!-- Portail d'Accueil & Navigation Progressive Mobile (Exclusivité Smartphone/Mobile < 1024px) -->
+    <div class="mobile-portal-section mobile-only-portal" id="mobilePortalSection" style="display: none;">
+      <!-- Arrière-plan cinématique du film le mieux noté -->
+      <div class="mobile-portal-backdrop" id="mobilePortalBackdrop"></div>
+      <div class="mobile-portal-overlay"></div>
+
+      <!-- Contenu au premier plan -->
+      <div class="mobile-portal-content">
+        <!-- Bouton En-tête : Cliquez ici pour changer de catégorie (Étape 2) -->
+        <div class="mobile-portal-top-bar" id="mobilePortalTopBar" style="display: none;">
+          <button type="button" class="mobile-change-cat-btn" id="mobileChangeCatBtn">
+            <span class="change-cat-arrow">⟵</span>
+            <span class="change-cat-text">Cliquez ici pour changer de catégorie</span>
+          </button>
+        </div>
+
+        <!-- Étape 1 : Liste verticale des Catégories Principales -->
+        <div class="mobile-step-categories" id="mobileStepCategories">
+          <div class="mobile-portal-hero-badge">
+            <span class="hero-badge-star">⭐</span>
+            <span id="mobileHeroBadgeText">Film le mieux noté</span>
+          </div>
+          <h2 class="mobile-step-heading">Catégories</h2>
+          <div class="mobile-categories-vlist" id="mobileCategoriesVList"></div>
+        </div>
+
+        <!-- Étape 2 : Liste verticale des Sous-Catégories -->
+        <div class="mobile-step-subcategories" id="mobileStepSubcategories" style="display: none;">
+          <div class="mobile-subcat-parent-badge" id="mobileSubcatParentBadge"></div>
+          <h2 class="mobile-step-heading" id="mobileSubcatHeading">Sous-catégories</h2>
+          <div class="mobile-subcategories-vlist" id="mobileSubcategoriesVList"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bouton En-tête au-dessus des titres sur mobile (Étape 3) -->
+    <div class="mobile-titles-top-bar mobile-only-portal" id="mobileTitlesTopBar" style="display: none;">
+      <button type="button" class="mobile-change-cat-btn" id="mobileChangeCatBtnTitles">
+        <span class="change-cat-arrow">⟵</span>
+        <span class="change-cat-text">Cliquez ici pour changer de catégorie</span>
+      </button>
+      <div class="mobile-active-breadcrumb" id="mobileActiveBreadcrumb"></div>
+    </div>
+
     <!-- En-tête de la section active -->
     <section class="section-intro">
       <div class="section-intro-text">
@@ -530,12 +574,12 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="data/ai_duel_cache.js?v=9.21"></script>
-  <script src="data/ai_subcategories_cache.js?v=9.21"></script>
-  <script src="js/catalog.js?v=9.21"></script>
-  <script src="data/prime_catalog.js?v=9.21"></script>
-  <script src="js/justwatch_engine.js?v=9.21"></script>
-  <script src="js/app.js?v=9.21"></script>
+  <script src="data/ai_duel_cache.js?v=9.22"></script>
+  <script src="data/ai_subcategories_cache.js?v=9.22"></script>
+  <script src="js/catalog.js?v=9.22"></script>
+  <script src="data/prime_catalog.js?v=9.22"></script>
+  <script src="js/justwatch_engine.js?v=9.22"></script>
+  <script src="js/app.js?v=9.22"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {

@@ -1741,10 +1741,7 @@ body.modal-open {
   }
 
   .mobile-genre-selector {
-    display: flex;
-    align-items: center;
-    gap: 0.65rem;
-    padding-left: 0;
+    display: none !important;
   }
 
   .stars-filter-section {
@@ -3079,4 +3076,247 @@ body.amazon-mode-active #btnSyncSpecialized {
     display: none !important;
   }
 }
+
+/* ==========================================================================
+   PORTAIL D'ACCUEIL & NAVIGATION PROGRESSIVE MOBILE (< 1024px)
+   Règle 8 AGENTS.md : Exclusivité Mobile (Totalement masqué sur Desktop PC)
+   ========================================================================== */
+@media (min-width: 1024px) {
+  .mobile-only-portal {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1023px) {
+  .mobile-portal-section {
+    position: relative;
+    border-radius: var(--radius-lg, 16px);
+    overflow: hidden;
+    min-height: calc(100vh - 160px);
+    margin: 0.5rem 0 1.5rem 0;
+    padding: 1.25rem 1rem 2rem 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .mobile-portal-backdrop {
+    position: absolute;
+    inset: -20px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    filter: blur(14px) brightness(0.35);
+    transform: scale(1.1);
+    z-index: 1;
+    transition: background-image 0.4s ease;
+  }
+
+  .mobile-portal-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(11, 15, 25, 0.65) 0%, rgba(11, 15, 25, 0.88) 45%, rgba(11, 15, 25, 0.98) 100%);
+    z-index: 2;
+  }
+
+  .mobile-portal-content {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    width: 100%;
+  }
+
+  /* Bouton d'action proéminent : Cliquez ici pour changer de catégorie */
+  .mobile-change-cat-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.65rem;
+    width: 100%;
+    padding: 0.85rem 1.2rem;
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.95), rgba(15, 23, 42, 0.98));
+    color: #ffffff;
+    font-size: 0.92rem;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 0.01em;
+    border: 1px solid rgba(239, 68, 68, 0.45);
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(239, 68, 68, 0.18), 0 2px 6px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: transform 0.12s ease, background 0.12s ease, border-color 0.12s ease;
+  }
+
+  .mobile-change-cat-btn:active {
+    transform: scale(0.98);
+    background: linear-gradient(135deg, rgba(239, 68, 68, 0.25), rgba(15, 23, 42, 0.98));
+    border-color: #ef4444;
+  }
+
+  .mobile-change-cat-btn .change-cat-arrow {
+    font-size: 1.15rem;
+    color: #ef4444;
+    line-height: 1;
+    transition: transform 0.15s ease;
+  }
+
+  .mobile-change-cat-btn:active .change-cat-arrow {
+    transform: translateX(-3px);
+  }
+
+  .mobile-portal-hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.3rem 0.8rem;
+    background: rgba(0, 0, 0, 0.55);
+    border: 1px solid rgba(251, 191, 36, 0.35);
+    border-radius: 9999px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #fbbf24;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    margin-bottom: 0.35rem;
+    width: fit-content;
+  }
+
+  .mobile-step-heading {
+    font-size: 1.35rem;
+    font-weight: 800;
+    font-family: 'Outfit', sans-serif;
+    color: #ffffff;
+    margin: 0.2rem 0 0.6rem 0;
+    letter-spacing: -0.01em;
+  }
+
+  .mobile-subcat-parent-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.9rem;
+    background: rgba(15, 23, 42, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0.4rem;
+    width: fit-content;
+  }
+
+  /* Listes verticales des catégories et sous-catégories */
+  .mobile-categories-vlist,
+  .mobile-subcategories-vlist {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+  }
+
+  .mobile-category-card,
+  .mobile-subcategory-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.05rem 1.2rem;
+    background: rgba(15, 23, 42, 0.82);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-left: 5px solid var(--cat-accent, #3b82f6);
+    border-radius: 14px;
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+    transition: transform 0.12s ease, background 0.12s ease, border-color 0.12s ease;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .mobile-category-card:active,
+  .mobile-subcategory-card:active {
+    transform: scale(0.98);
+    background: rgba(30, 41, 59, 0.95);
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .card-left-info {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+  }
+
+  .card-left-icon {
+    font-size: 1.55rem;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+  .card-left-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .card-title-main {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    color: #ffffff;
+    line-height: 1.2;
+  }
+
+  .card-right-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .card-count-pill {
+    padding: 0.25rem 0.65rem;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 9999px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--text-secondary, #94a3b8);
+  }
+
+  .card-chevron {
+    color: var(--text-muted, #64748b);
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  /* Barre en haut des titres affichés sur mobile (Étape 3) */
+  .mobile-titles-top-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+    margin: 0.5rem 0 1rem 0;
+    width: 100%;
+  }
+
+  .mobile-active-breadcrumb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem 0.95rem;
+    background: rgba(15, 23, 42, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary, #94a3b8);
+  }
+
+  .mobile-active-breadcrumb .breadcrumb-accent {
+    color: #ffffff;
+    font-weight: 700;
+  }
+}
+
 

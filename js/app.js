@@ -128,7 +128,8 @@ const ALL_SUB_CATEGORIES = [
 const AppState = {
   activeType: 'film',          // 'film' ou 'serie'
   activeCategory: 'all',       // 'all' ou l'une des 7 catégories
-  activeSubCategory: 'all',    // 'all' ou sous-catégorie déterministe (PC uniquement)
+  activeSubCategory: 'all',    // 'all' ou sous-catégorie déterministe (PC & Mobile Step 3)
+  mobileNavStep: 'categories', // 'categories' (Étape 1), 'subcategories' (Étape 2), 'titles' (Étape 3) (Mobile < 1024px)
   activeProfile: null,         // null, 'moi', 'ami', 'amie', 'duo' (Curation profils PC uniquement)
   profileDisplayMode: '1',     // '1' = 7 propositions semaine, '2' = toutes les œuvres éligibles en colonnes par catégorie (PC)
   activeStars: 'all',          // 'all', '4', '5'
@@ -1364,6 +1365,11 @@ function initNavigation() {
       mediaTabs.forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
       AppState.activeType = tab.dataset.type;
+      if (window.innerWidth < 1024) {
+        AppState.mobileNavStep = 'categories';
+        AppState.activeCategory = 'all';
+        AppState.activeSubCategory = 'all';
+      }
       initBouquetsCounts();
       updateCategoryAutoStar();
       renderCatalog();
@@ -1412,11 +1418,35 @@ function initNavigation() {
         closeGenreDropdown();
       });
     });
+  }
 
-    // Déploiement automatique du menu filtre à l'ouverture sur mobile (Idée utilisateur)
-    if (window.innerWidth < 1024) {
-      openGenreDropdown();
-    }
+  // Boutons de retour mobile : "Cliquez ici pour changer de catégorie"
+  const resetToMobileCategories = () => {
+    AppState.mobileNavStep = 'categories';
+    AppState.activeCategory = 'all';
+    AppState.activeSubCategory = 'all';
+    renderCatalog();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const btnChangeCatStep2 = document.getElementById('mobileChangeCatBtn');
+  if (btnChangeCatStep2) {
+    btnChangeCatStep2.addEventListener('click', resetToMobileCategories);
+  }
+
+  const btnChangeCatStep3 = document.getElementById('mobileChangeCatBtnTitles');
+  if (btnChangeCatStep3) {
+    btnChangeCatStep3.addEventListener('click', resetToMobileCategories);
+  }
+
+  const brandEl = document.querySelector('.brand');
+  if (brandEl) {
+    brandEl.style.cursor = 'pointer';
+    brandEl.addEventListener('click', () => {
+      if (window.innerWidth < 1024) {
+        resetToMobileCategories();
+      }
+    });
   }
 
   // Clic sur les pilules des 6 colonnes thématiques PC (Règle 8 AGENTS.md)
@@ -1487,6 +1517,14 @@ function setCategory(targetCat) {
   AppState.activeCategory = targetCat;
   AppState.activeSubCategory = 'all'; // Réinitialise la sous-catégorie active (conserve le profil actif s'il y en a un)
   AppState.isAutoStars = true;
+
+  if (typeof window !== 'undefined' && window.innerWidth < 1024) {
+    if (targetCat === 'all') {
+      AppState.mobileNavStep = 'categories';
+    } else {
+      AppState.mobileNavStep = 'subcategories';
+    }
+  }
 
   const catButtons = document.querySelectorAll('.category-btn');
   catButtons.forEach(b => {
@@ -2084,8 +2122,8 @@ function getCategoryEligibleItems(options = {}) {
       if (subTiersMap && !matchesSubCategoryAutoStar(item, subTiersMap)) return false;
     }
 
-    // Filtre Sous-Catégorie Indépendant (Exclusivité PC - Règle 8 AGENTS.md)
-    if (!options.ignoreSubCategory && !isMobile && AppState.activeSubCategory && AppState.activeSubCategory !== 'all') {
+    // Filtre Sous-Catégorie Indépendant (Exclusivité PC & Navigation Progressive Mobile Step 3)
+    if (!options.ignoreSubCategory && AppState.activeSubCategory && AppState.activeSubCategory !== 'all') {
       const itemSub = (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.computeSubCategory === 'function')
         ? JustWatchEngine.computeSubCategory(item)
         : '';
@@ -2113,6 +2151,312 @@ function updateStarButtonsCounts(items) {
   if (el5) el5.textContent = c5;
 }
 
+// Déterminer dynamiquement le film / la série avec la meilleure note pour le fond d'écran cinématique mobile
+function getMobileBestRatedFilm() {
+  if (!AppState.catalog || AppState.catalog.length === 0) return null;
+  const targetType = AppState.activeType || 'film';
+  const pool = AppState.catalog.filter(it => {
+    if (!it || !it.is_eligible || !it.poster) return false;
+    if (targetType === 'film') {
+      if (it.type !== 'film' && it.type !== 'telefilm') return false;
+    } else {
+      if (it.type !== targetType) return false;
+    }
+    // Mobile : bouquets de base uniquement (Règle 8 AGENTS.md)
+    if (!isItemBasePaid(it)) return false;
+    return true;
+  });
+
+  if (pool.length === 0) return null;
+
+  return pool.reduce((best, curr) => {
+    if (!best) return curr;
+    const scoreCurr = Number(curr.note_globale || curr.note_avis || 0);
+    const scoreBest = Number(best.note_globale || best.note_avis || 0);
+    if (scoreCurr > scoreBest) return curr;
+    if (scoreCurr === scoreBest) {
+      return (curr.note_avis || 0) > (best.note_avis || 0) ? curr : best;
+    }
+    return best;
+  }, null);
+}
+
+function getMobileBestRatedFilmForCategory(catKey) {
+  if (!AppState.catalog || AppState.catalog.length === 0) return null;
+  const targetType = AppState.activeType || 'film';
+  const pool = AppState.catalog.filter(it => {
+    if (!it || !it.is_eligible || !it.poster) return false;
+    if (targetType === 'film') {
+      if (it.type !== 'film' && it.type !== 'telefilm') return false;
+    } else {
+      if (it.type !== targetType) return false;
+    }
+    if (!isItemBasePaid(it)) return false;
+    return it.categories && it.categories.includes(catKey);
+  });
+
+  if (pool.length === 0) return null;
+
+  return pool.reduce((best, curr) => {
+    if (!best) return curr;
+    const scoreCurr = Number(curr.note_globale || curr.note_avis || 0);
+    const scoreBest = Number(best.note_globale || best.note_avis || 0);
+    if (scoreCurr > scoreBest) return curr;
+    if (scoreCurr === scoreBest) {
+      return (curr.note_avis || 0) > (best.note_avis || 0) ? curr : best;
+    }
+    return best;
+  }, null);
+}
+
+// Rendu et gestion de la navigation progressive mobile en 3 étapes (Exclusivité Mobile < 1024px)
+function renderMobilePortal() {
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
+  const portalSection = document.getElementById('mobilePortalSection');
+  const titlesTopBar = document.getElementById('mobileTitlesTopBar');
+  const filtersBubble = document.getElementById('filtersBubble');
+  const sectionIntro = document.querySelector('.section-intro');
+  const postersGrid = document.getElementById('postersGrid');
+  const emptyState = document.getElementById('emptyState');
+
+  if (!isMobile) {
+    if (portalSection) portalSection.style.display = 'none';
+    if (titlesTopBar) titlesTopBar.style.display = 'none';
+    if (filtersBubble) filtersBubble.style.display = '';
+    if (sectionIntro) sectionIntro.style.display = '';
+    return false;
+  }
+
+  // ÉTAPE 1 : Page d'accueil mobile avec le fond d'écran du film le mieux noté et les 7 catégories en vertical
+  if (AppState.mobileNavStep === 'categories') {
+    if (portalSection) portalSection.style.display = 'block';
+    if (titlesTopBar) titlesTopBar.style.display = 'none';
+    if (filtersBubble) filtersBubble.style.display = 'none';
+    if (sectionIntro) sectionIntro.style.display = 'none';
+    if (postersGrid) {
+      postersGrid.innerHTML = '';
+      postersGrid.style.display = 'none';
+    }
+    if (emptyState) emptyState.classList.add('hidden');
+
+    const stepCategories = document.getElementById('mobileStepCategories');
+    const stepSubcategories = document.getElementById('mobileStepSubcategories');
+    const topBar = document.getElementById('mobilePortalTopBar');
+    const backdrop = document.getElementById('mobilePortalBackdrop');
+    const heroBadgeText = document.getElementById('mobileHeroBadgeText');
+    const catList = document.getElementById('mobileCategoriesVList');
+
+    if (topBar) topBar.style.display = 'none';
+    if (stepCategories) stepCategories.style.display = 'block';
+    if (stepSubcategories) stepSubcategories.style.display = 'none';
+
+    // Fond d'écran cinématique du film/série le mieux noté
+    const bestFilm = getMobileBestRatedFilm();
+    if (backdrop && bestFilm && bestFilm.poster) {
+      backdrop.style.backgroundImage = `url("${bestFilm.poster}")`;
+    }
+    if (heroBadgeText && bestFilm) {
+      const bestScore = bestFilm.note_globale || bestFilm.note_avis || '';
+      heroBadgeText.textContent = `N°1 Étoiles : ${bestFilm.titre}${bestScore ? ` (${bestScore}★)` : ''}`;
+    }
+
+    if (catList) {
+      catList.innerHTML = '';
+      const pool = getFilteredItemsBeforeStars({ ignoreCategory: true, ignoreSubCategory: true, ignoreProfile: true });
+
+      const MAIN_CATS = [
+        { key: 'action_aventure', name: 'Action & Aventure', icon: '🏹', color: '#ea580c' },
+        { key: 'thriller_policier', name: 'Thriller & Policier', icon: '🔍', color: '#e11d48' },
+        { key: 'scifi_fantastique', name: 'Science-fiction & Fantastique', icon: '🚀', color: '#06b6d4' },
+        { key: 'horreur_epouvante', name: 'Horreur & Épouvante', icon: '👻', color: '#a855f7' },
+        { key: 'comedie', name: 'Comédie', icon: '🎭', color: '#eab308' },
+        { key: 'drame_emotion', name: 'Drame & Émotion', icon: '❤️', color: '#ec4899' },
+        { key: 'animation_famille', name: 'Animation & Famille', icon: '🧸', color: '#10b981' }
+      ];
+
+      MAIN_CATS.forEach(c => {
+        const count = pool.filter(it => it.categories && it.categories.includes(c.key)).length;
+        const card = document.createElement('div');
+        card.className = 'mobile-category-card';
+        card.style.setProperty('--cat-accent', c.color);
+        card.setAttribute('role', 'button');
+        card.setAttribute('tabindex', '0');
+        card.setAttribute('data-category', c.key);
+        card.innerHTML = `
+          <div class="card-left-info">
+            <span class="card-left-icon">${c.icon}</span>
+            <div class="card-left-text">
+              <span class="card-title-main">${c.name}</span>
+            </div>
+          </div>
+          <div class="card-right-meta">
+            <span class="card-count-pill">${count}</span>
+            <span class="card-chevron">➔</span>
+          </div>
+        `;
+        card.addEventListener('click', () => {
+          AppState.activeCategory = c.key;
+          AppState.activeSubCategory = 'all';
+          AppState.mobileNavStep = 'subcategories';
+          renderCatalog();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        catList.appendChild(card);
+      });
+    }
+
+    return true; // Rendu complet de l'étape 1
+  }
+
+  // ÉTAPE 2 : Affichage vertical des sous-catégories de la catégorie sélectionnée
+  if (AppState.mobileNavStep === 'subcategories') {
+    if (portalSection) portalSection.style.display = 'block';
+    if (titlesTopBar) titlesTopBar.style.display = 'none';
+    if (filtersBubble) filtersBubble.style.display = 'none';
+    if (sectionIntro) sectionIntro.style.display = 'none';
+    if (postersGrid) {
+      postersGrid.innerHTML = '';
+      postersGrid.style.display = 'none';
+    }
+    if (emptyState) emptyState.classList.add('hidden');
+
+    const stepCategories = document.getElementById('mobileStepCategories');
+    const stepSubcategories = document.getElementById('mobileStepSubcategories');
+    const topBar = document.getElementById('mobilePortalTopBar');
+    const parentBadge = document.getElementById('mobileSubcatParentBadge');
+    const subList = document.getElementById('mobileSubcategoriesVList');
+    const backdrop = document.getElementById('mobilePortalBackdrop');
+
+    if (topBar) topBar.style.display = 'block';
+    if (stepCategories) stepCategories.style.display = 'none';
+    if (stepSubcategories) stepSubcategories.style.display = 'block';
+
+    const catKey = AppState.activeCategory;
+    const catConfig = SUB_CATEGORIES_CONFIG[catKey] || { label: 'Catégorie', subs: [], color: '#3b82f6' };
+    const catIcon = (CATEGORIES_INFO[catKey] && CATEGORIES_INFO[catKey].icon) || '🎬';
+
+    // Fond d'écran cinématique : film le mieux noté de la catégorie sélectionnée
+    const bestCatFilm = getMobileBestRatedFilmForCategory(catKey) || getMobileBestRatedFilm();
+    if (backdrop && bestCatFilm && bestCatFilm.poster) {
+      backdrop.style.backgroundImage = `url("${bestCatFilm.poster}")`;
+    }
+
+    if (parentBadge) {
+      parentBadge.innerHTML = `<span>${catIcon}</span> <span>${catConfig.label}</span>`;
+      parentBadge.style.borderColor = catConfig.color;
+    }
+
+    if (subList) {
+      subList.innerHTML = '';
+      const pool = getFilteredItemsBeforeStars({ ignoreCategory: true, ignoreSubCategory: true, ignoreProfile: true });
+      const catPool = pool.filter(it => it.categories && it.categories.includes(catKey));
+
+      // Option 1 : "Tous les films / séries de la catégorie"
+      const allSubCard = document.createElement('div');
+      allSubCard.className = 'mobile-subcategory-card';
+      allSubCard.style.setProperty('--cat-accent', catConfig.color);
+      allSubCard.setAttribute('role', 'button');
+      allSubCard.setAttribute('tabindex', '0');
+      const mediaLabel = AppState.activeType === 'film' ? 'films' : 'séries';
+      allSubCard.innerHTML = `
+        <div class="card-left-info">
+          <span class="card-left-icon">✨</span>
+          <div class="card-left-text">
+            <span class="card-title-main">Tous les ${mediaLabel} (${catConfig.label})</span>
+          </div>
+        </div>
+        <div class="card-right-meta">
+          <span class="card-count-pill">${catPool.length}</span>
+          <span class="card-chevron">➔</span>
+        </div>
+      `;
+      allSubCard.addEventListener('click', () => {
+        AppState.activeSubCategory = 'all';
+        AppState.mobileNavStep = 'titles';
+        renderCatalog();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+      subList.appendChild(allSubCard);
+
+      // Option 2+ : Les sous-catégories spécifiques
+      const subNames = catConfig.subs || [];
+      subNames.forEach(sName => {
+        const subMeta = ALL_SUB_CATEGORIES.find(s => s.name === sName && s.parent === catKey) ||
+                        ALL_SUB_CATEGORIES.find(s => s.name === sName) ||
+                        { name: sName, icon: '🎬', color: catConfig.color };
+
+        const subCount = catPool.filter(it => {
+          const sub = (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.computeSubCategory === 'function')
+            ? JustWatchEngine.computeSubCategory(it)
+            : '';
+          return sub === sName;
+        }).length;
+
+        const subCard = document.createElement('div');
+        subCard.className = 'mobile-subcategory-card';
+        subCard.style.setProperty('--cat-accent', subMeta.color || catConfig.color);
+        subCard.setAttribute('role', 'button');
+        subCard.setAttribute('tabindex', '0');
+        subCard.innerHTML = `
+          <div class="card-left-info">
+            <span class="card-left-icon">${subMeta.icon || '🎬'}</span>
+            <div class="card-left-text">
+              <span class="card-title-main">${sName}</span>
+            </div>
+          </div>
+          <div class="card-right-meta">
+            <span class="card-count-pill">${subCount}</span>
+            <span class="card-chevron">➔</span>
+          </div>
+        `;
+        subCard.addEventListener('click', () => {
+          AppState.activeSubCategory = sName;
+          AppState.mobileNavStep = 'titles';
+          renderCatalog();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        subList.appendChild(subCard);
+      });
+    }
+
+    return true; // Rendu complet de l'étape 2
+  }
+
+  // ÉTAPE 3 : Affichage de la grille des titres
+  if (portalSection) portalSection.style.display = 'none';
+  if (titlesTopBar) titlesTopBar.style.display = 'flex';
+  if (filtersBubble) filtersBubble.style.display = 'flex';
+  if (postersGrid) postersGrid.style.display = '';
+  if (sectionIntro) sectionIntro.style.display = '';
+
+  const breadcrumb = document.getElementById('mobileActiveBreadcrumb');
+  if (breadcrumb) {
+    const catKey = AppState.activeCategory;
+    const catConfig = SUB_CATEGORIES_CONFIG[catKey] || { label: 'Catégorie' };
+    const catIcon = (CATEGORIES_INFO[catKey] && CATEGORIES_INFO[catKey].icon) || '🎬';
+    const subLabel = (AppState.activeSubCategory && AppState.activeSubCategory !== 'all')
+      ? AppState.activeSubCategory
+      : 'Tous';
+
+    breadcrumb.innerHTML = `
+      <span style="cursor: pointer; text-decoration: underline;" id="breadcrumbToSubcats">${catIcon} ${catConfig.label}</span>
+      <span>➔</span>
+      <span class="breadcrumb-accent">${subLabel}</span>
+    `;
+
+    const toSubcatsBtn = document.getElementById('breadcrumbToSubcats');
+    if (toSubcatsBtn) {
+      toSubcatsBtn.addEventListener('click', () => {
+        AppState.mobileNavStep = 'subcategories';
+        renderCatalog();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+  }
+
+  return false; // Continuer l'exécution normale de renderCatalog()
+}
+
 // Rendu du catalogue
 function renderCatalog() {
   const grid = document.getElementById('postersGrid');
@@ -2125,6 +2469,10 @@ function renderCatalog() {
   renderSubCategories();
 
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
+  const isPortalHandled = renderMobilePortal();
+  if (isPortalHandled) {
+    return;
+  }
 
   // Mode Curation Profil (Moi, Ami, Amie, Duo - Exclusivité Desktop PC - Règles 6, 7 & 8)
   const isProfileMode = !isMobile && !!AppState.activeProfile;
@@ -2264,7 +2612,7 @@ function renderCatalog() {
     : '';
   if (titleEl) {
     const mediaLabel = AppState.activeType === 'film' ? 'Films' : 'Séries';
-    if (!isMobile && AppState.activeSubCategory && AppState.activeSubCategory !== 'all') {
+    if (AppState.activeSubCategory && AppState.activeSubCategory !== 'all') {
       titleEl.textContent = `${profPrefix}${AppState.activeSubCategory} (${mediaLabel})`;
     } else {
       titleEl.textContent = AppState.activeCategory === 'all' 
