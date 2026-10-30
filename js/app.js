@@ -132,7 +132,7 @@ const AppState = {
   mobileNavStep: 'categories', // 'categories' (Étape 1), 'subcategories' (Étape 2), 'titles' (Étape 3) (Mobile < 1024px)
   activeProfile: null,         // null, 'moi', 'ami', 'amie', 'duo' (Curation profils PC uniquement)
   profileDisplayMode: '1',     // '1' = 7 propositions semaine, '2' = toutes les œuvres éligibles en colonnes par catégorie (PC)
-  activeStars: 'all',          // 'all', '4', '5'
+  activeStars: '4',            // '4', '5' (Affichage universel 4+ sur PC et Portable)
   activeBouquet: 'all',        // 'all', 'aoc', 'aca', 'auc', 'snr', 'sdz', 'ima', 'prv'
   isAmazonMode: false,         // true pour activer le catalogue Amazon Prime Video (exclusif PC)
   includeAmazon: false,        // true pour inclure Amazon Prime Video avec les autres bouquets sans les supprimer (exclusif PC)
@@ -459,11 +459,10 @@ function getItemScore(item) {
   return Number(item.note_globale || item.note_avis || 0);
 }
 
-// Vérifier la correspondance avec le palier d'étoiles (4+ = à partir de 7, 5 = à partir de 8)
+// Vérifier la correspondance avec le palier d'étoiles (Règle 4+ universelle : afficher uniquement à partir de 4+, score >= 7.0)
 function matchesStars(item, starTier) {
-  if (starTier === 'all') return true;
   const score = getItemScore(item);
-  if (starTier === '4') return score >= 7.0 && score <= 10.0;
+  if (score < 7.0) return false;
   if (starTier === '5') return score >= 8.0 && score <= 10.0;
   return true;
 }
@@ -471,16 +470,13 @@ function matchesStars(item, starTier) {
 // Déterminer le palier d'étoiles automatique :
 // Règle du seuil de 30 œuvres par sous-genre :
 // - Si >= 30 œuvres en 5★ -> palier '5'
-// - Sinon si >= 30 œuvres en 4+★ -> palier '4'
-// - Sinon -> 'all'
+// - Sinon -> palier '4'
 function getAutoStarTier(categoryEligibleItems) {
   if (!AppState.activeProfile && AppState.activeSubCategory && AppState.activeSubCategory !== 'all') {
     const c5 = categoryEligibleItems.filter(it => matchesStars(it, '5')).length;
     if (c5 >= 30) return '5';
-    const c4 = categoryEligibleItems.filter(it => matchesStars(it, '4')).length;
-    if (c4 >= 30) return '4';
   }
-  return 'all';
+  return '4';
 }
 
 // Calculer la carte des paliers d'étoiles requis par sous-genre (Règle du seuil >= 30 œuvres)
@@ -1177,14 +1173,14 @@ function initCounts() {
   const currentCatalog = getActiveCatalog();
   const eligibleFilms = currentCatalog.filter(item => {
     if (!item.is_eligible || (item.type !== 'film' && item.type !== 'telefilm')) return false;
+    if (!matchesStars(item, '4')) return false;
     if (isMobile && !isItemBasePaid(item) && !isItemOnPrimeVideo(item)) return false;
-    if (isMobile && !matchesStars(item, '4')) return false;
     return true;
   });
   const eligibleSeries = currentCatalog.filter(item => {
     if (!item.is_eligible || item.type !== 'serie') return false;
+    if (!matchesStars(item, '4')) return false;
     if (isMobile && !isItemBasePaid(item) && !isItemOnPrimeVideo(item)) return false;
-    if (isMobile && !matchesStars(item, '4')) return false;
     return true;
   });
 
@@ -1201,13 +1197,14 @@ function initBouquetsCounts() {
   const currentCatalog = getActiveCatalog();
   const eligibleTypeItems = currentCatalog.filter(item => {
     if (!item.is_eligible) return false;
+    if (!matchesStars(item, '4')) return false;
     return AppState.activeType === 'film' 
       ? (item.type === 'film' || item.type === 'telefilm')
       : (item.type === 'serie');
   });
 
   const countAll = eligibleTypeItems.filter(i => {
-    if (isMobile) return (isItemBasePaid(i) || isItemOnPrimeVideo(i)) && matchesStars(i, '4');
+    if (isMobile) return isItemBasePaid(i) || isItemOnPrimeVideo(i);
     if (isItemBasePaid(i)) return true;
     if (AppState.includeSpecialized && isItemSpecialized(i)) return true;
     if (AppState.includeAmazon && isItemOnPrimeVideo(i)) return true;
@@ -1223,11 +1220,12 @@ function initBouquetsCounts() {
   const countShadowz = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('sdz')).length;
   const countInsomnia = eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes('ima')).length;
   
-  // Amazon Prime Video (Exclusivité PC - Règle 8)
+  // Amazon Prime Video
   const primeData = (typeof window !== 'undefined' && window.PRIME_CATALOG_DATA) || (typeof PRIME_CATALOG_DATA !== 'undefined' ? PRIME_CATALOG_DATA : null);
   const primeSource = (Array.isArray(primeData) && primeData.length > 0)
     ? primeData.filter(item => {
         if (!item.is_eligible) return false;
+        if (!matchesStars(item, '4')) return false;
         return AppState.activeType === 'film' 
           ? (item.type === 'film' || item.type === 'telefilm')
           : (item.type === 'serie');
@@ -1246,7 +1244,7 @@ function initBouquetsCounts() {
             ? eligibleTypeItems.filter(i => isItemOnPrimeVideo(i))
             : eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes(AppState.activeBouquet)))
         : eligibleTypeItems.filter(i => {
-            if (isMobile) return (isItemBasePaid(i) || isItemOnPrimeVideo(i)) && matchesStars(i, '4');
+            if (isMobile) return isItemBasePaid(i) || isItemOnPrimeVideo(i);
             if (isItemBasePaid(i)) return true;
             if (AppState.includeSpecialized && isItemSpecialized(i)) return true;
             if (AppState.includeAmazon && isItemOnPrimeVideo(i)) return true;
@@ -2121,12 +2119,13 @@ function getCategoryEligibleItems(options = {}) {
       if (item.type !== AppState.activeType) return false;
     }
 
+    // Règle 4+ universelle (PC et Portable) : affiche strictement à partir de 4+ (score >= 7.0 / 4★ et 5★)
+    if (!matchesStars(item, '4')) return false;
+
     // Sur mobile (largeur < 1024px) : SVOD de base (aoc, aca, auc) ET Prime Video (prv).
-    // Restriction stricte aux œuvres 4+ (score >= 7.0 / 4 et 5 étoiles).
     const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
     if (isMobile) {
       if (!isItemBasePaid(item) && !isItemOnPrimeVideo(item)) return false;
-      if (!matchesStars(item, '4')) return false;
     }
 
     // Mode Exclusif Amazon Prime (PC uniquement - Règle 8)

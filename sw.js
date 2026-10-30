@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cinescope-v9.31-prime-mobile-4plus';
+const CACHE_NAME = 'cinescope-v9.32-universal-4plus-prime-sync';
 const CORE_ASSETS = [
   './',
   './index.html',

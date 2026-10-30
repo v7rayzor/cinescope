@@ -44,8 +44,8 @@ const GRAPHQL_ENDPOINT = 'https://apis.justwatch.com/graphql';
 const CATALOG_FILE_PATH = path.join(__dirname, '..', 'js', 'catalog.js');
 
 
-// Bouquets SVOD payants de référence (quotidiens) et spécialisés (à la demande)
-const BASE_PAID_PACKAGES = ['aoc', 'aca', 'auc'];
+// Bouquets SVOD payants de référence (quotidiens : OCS, Action Max, Universal+, Amazon Prime) et spécialisés (à la demande)
+const BASE_PAID_PACKAGES = ['aoc', 'aca', 'auc', 'prv'];
 const SPECIALIZED_PACKAGES = ['snr', 'sdz', 'ima'];
 
 const GRAPHQL_QUERY = `
@@ -126,7 +126,9 @@ async function fetchBouquetPages(pkgSlug) {
   let totalInPkg = 0;
   const qualifiedItems = [];
 
-  while (hasNext) {
+  const maxPages = (pkgSlug === 'prv') ? 60 : 200;
+
+  while (hasNext && page <= maxPages) {
     process.stdout.write(`  ⏳ Page ${page}... `);
 
     const variables = {
@@ -169,6 +171,9 @@ async function fetchBouquetPages(pkgSlug) {
       for (const edge of edges) {
         const item = JustWatchEngine.processTitleNode(edge.node);
         if (item) {
+          if (pkgSlug === 'prv') {
+            item.on_prime = true;
+          }
           qualifiedItems.push(item);
           qualifiedInPage++;
         }
@@ -505,6 +510,40 @@ async function run() {
     const fileContent = `const CATALOG_DATA = ${JSON.stringify(merged, null, 2)};\nconst CATALOG_METADATA = ${JSON.stringify(metadata, null, 2)};\n`;
     fs.writeFileSync(CATALOG_FILE_PATH, fileContent, 'utf-8');
     console.log(`💾 Fichier sauvegardé avec succès : ${CATALOG_FILE_PATH}`);
+
+    // Synchronisation et écriture du catalogue dédié data/prime_catalog.js
+    const primeItems = merged.filter(it => it.on_prime || (it.package_slugs && it.package_slugs.includes('prv')));
+    if (primeItems.length > 0) {
+      const primeMetadata = {
+        total: primeItems.length,
+        films: primeItems.filter(i => (i.type === 'film' || i.type === 'telefilm') && i.is_eligible).length,
+        series: primeItems.filter(i => i.type === 'serie' && i.is_eligible).length,
+        lastSync: nowIso
+      };
+      const primeFilePath = path.join(__dirname, '..', 'data', 'prime_catalog.js');
+      const primeContent = `/**
+ * CinéScope - Catalogue Amazon Prime Video (prv)
+ * Synchronisation automatique JustWatch GraphQL
+ */
+const PRIME_CATALOG_DATA = ${JSON.stringify(primeItems, null, 2)};
+const PRIME_CATALOG_METADATA = ${JSON.stringify(primeMetadata, null, 2)};
+
+if (typeof window !== 'undefined') {
+  window.PRIME_CATALOG_DATA = PRIME_CATALOG_DATA;
+  window.PRIME_CATALOG_METADATA = PRIME_CATALOG_METADATA;
+}
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { PRIME_CATALOG_DATA, PRIME_CATALOG_METADATA };
+}
+`;
+      fs.writeFileSync(primeFilePath, primeContent, 'utf-8');
+      console.log(`💾 Fichier Prime sauvegardé avec succès : ${primeFilePath}`);
+
+      try {
+        const { execSync } = require('child_process');
+        execSync('git add data/prime_catalog.js', { stdio: 'ignore' });
+      } catch (e) { }
+    }
 
     console.log('✅ Synchronisation CinéScope terminée avec succès !');
   } catch (err) {

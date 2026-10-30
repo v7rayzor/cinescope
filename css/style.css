@@ -882,6 +882,9 @@ body.modal-open {
   color: #ffffff;
 }
 
+#starAll {
+  display: none !important;
+}
 
 .star-btn {
   display: inline-flex;
