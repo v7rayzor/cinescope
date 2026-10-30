@@ -2427,7 +2427,7 @@ function renderMobilePortal() {
   // ÉTAPE 3 : Affichage de la grille des titres
   if (portalSection) portalSection.style.display = 'none';
   if (titlesTopBar) titlesTopBar.style.display = 'flex';
-  if (filtersBubble) filtersBubble.style.display = 'flex';
+  if (filtersBubble) filtersBubble.style.display = 'none';
   if (postersGrid) postersGrid.style.display = '';
   if (sectionIntro) sectionIntro.style.display = '';
 

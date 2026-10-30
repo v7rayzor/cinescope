@@ -1716,10 +1716,9 @@ body.modal-open {
     display: none;
   }
 
-  /* Bulle Unifiée des Filtres sur Mobile / Tablette */
+  /* Bulle Unifiée des Filtres sur Mobile / Tablette : Totalement masquée car le portail progressif gère toute la navigation */
   .filters-unified-bubble {
-    padding: 0.55rem 0.85rem;
-    gap: 0.55rem;
+    display: none !important;
   }
 
   .filters-bubble-divider {
@@ -2191,8 +2190,7 @@ body.modal-open {
   }
 
   .filters-unified-bubble {
-    padding: 0.55rem 0.85rem;
-    gap: 0.5rem;
+    display: none !important;
   }
 
   .categories-bar-section {

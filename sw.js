@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cinescope-v9.26-universal-logo';
+const CACHE_NAME = 'cinescope-v9.27-mobile-clean';
 const CORE_ASSETS = [
   './',
   './index.html',
