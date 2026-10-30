@@ -1216,9 +1216,9 @@ window.PRIME_CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -2042,9 +2042,9 @@ window.PRIME_CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -4203,9 +4203,9 @@ window.PRIME_CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -10650,9 +10650,9 @@ window.PRIME_CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -14513,9 +14513,9 @@ window.PRIME_CATALOG_DATA = [
       "Sooner",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/sooner.png",
       "assets/logos/prime_video.svg"
     ],
@@ -28705,9 +28705,9 @@ window.PRIME_CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -35143,9 +35143,9 @@ window.PRIME_CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -37641,9 +37641,9 @@ window.PRIME_CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -57593,9 +57593,9 @@ window.PRIME_CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -70486,9 +70486,9 @@ window.PRIME_CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -71064,9 +71064,9 @@ window.PRIME_CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [

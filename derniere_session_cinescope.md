@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.25** / Cache **cinescope-v9.25-mobile-portal** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.26** / Cache **cinescope-v9.26-universal-logo** / Stockage **_v48**).
 
 ---
 
@@ -413,10 +413,13 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * Masquage complet de `.stars-filter-section` (`display: none !important`) et de ses séparateurs sur mobile (`< 1024px`).
     * Zéro encombrement visuel : sur mobile, la navigation s'effectue purement par les catégories et sous-catégories.
     * Maintien 100% opérationnel des filtres étoiles et durée sur PC Desktop ($\ge 1024\text{px}$).
+  - **Nouveau Logo Officiel HD Universal+ (PC & Portable)** :
+    * Remplacement du logo par la version officielle haute définition transparente (`universal_plus.png` et `universal_plus.svg` actualisés).
+    * Synchronisation complète dans la puce bouquet de l'en-tête, les cartes d'affiches du catalogue et la modale détaillée.
   - **Sanctuaire PC Desktop Intact (Règle 8)** :
     * Le portail mobile est strictement exclusif aux résolutions `< 1024px` (`.mobile-only-portal` masqué en `display: none !important` sur PC).
     * L'affichage PC en colonnes et les profils restent 100% inchangés.
-  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.25-mobile-portal` et `?v=9.25` sur l'ensemble des scripts et styles.
+  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.26-universal-logo` et `?v=9.26` sur l'ensemble des scripts et styles.
 
 
 

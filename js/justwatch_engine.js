@@ -155,7 +155,7 @@ const JustWatchEngine = (function () {
     },
     auc: {
       name: 'Universal+',
-      logo: 'assets/logos/universal_plus.svg',
+      logo: 'assets/logos/universal_plus.png',
       badgeClass: 'badge-universal',
       isPaid: true
     },

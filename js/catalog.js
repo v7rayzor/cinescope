@@ -2595,9 +2595,9 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/176292918/s592/albator-corsaire-de-lespace.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/sooner.png",
       "assets/logos/prime_video.svg"
     ],
@@ -6381,7 +6381,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2023,
     "chaine": "Universal+",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "poster": "https://images.justwatch.com/poster/310191565/s592/t-i-m.jpg",
     "note_avis": 5.5,
     "note_recence": 9.1,
@@ -6391,7 +6391,7 @@ const CATALOG_DATA = [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "badge": null,
     "duree": "1h 41min",
@@ -6429,7 +6429,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2018,
     "chaine": "Universal+",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "poster": "https://images.justwatch.com/poster/87405549/s592/dans-la-brume-2018.jpg",
     "note_avis": 5.9,
     "note_recence": 7.6,
@@ -6439,7 +6439,7 @@ const CATALOG_DATA = [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "badge": null,
     "duree": "1h 30min",
@@ -6479,7 +6479,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2023,
     "chaine": "Universal+",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "poster": "https://images.justwatch.com/poster/305319458/s592/the-secret-kingdom-2024.jpg",
     "note_avis": 4.9,
     "note_recence": 9.1,
@@ -6490,7 +6490,7 @@ const CATALOG_DATA = [
       "Amazon Prime Video"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "badge": null,
@@ -6528,7 +6528,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2022,
     "chaine": "Universal+",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "poster": "https://images.justwatch.com/poster/317466131/s592/rubikon.jpg",
     "note_avis": 5,
     "note_recence": 8.8,
@@ -6539,7 +6539,7 @@ const CATALOG_DATA = [
       "Amazon Prime Video"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "badge": null,
@@ -6579,7 +6579,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2017,
     "chaine": "Universal+",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "poster": "https://images.justwatch.com/poster/30910908/s592/radius.jpg",
     "note_avis": 6.2,
     "note_recence": 7.3,
@@ -6589,7 +6589,7 @@ const CATALOG_DATA = [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "badge": "12",
     "duree": "1h 33min",
@@ -6628,7 +6628,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2021,
     "chaine": "Universal+",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "poster": "https://images.justwatch.com/poster/242799766/s592/dark-web-cicada-3301.jpg",
     "note_avis": 5,
     "note_recence": 8.5,
@@ -6640,7 +6640,7 @@ const CATALOG_DATA = [
       "Amazon Prime Video"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "duree": "1h 44min",
@@ -6679,7 +6679,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2022,
     "chaine": "Universal+",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "poster": "https://images.justwatch.com/poster/303914685/s592/corrective-measures.jpg",
     "note_avis": 4.3,
     "note_recence": 8.8,
@@ -6690,7 +6690,7 @@ const CATALOG_DATA = [
       "Amazon Prime Video"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "badge": "12",
@@ -6730,7 +6730,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2022,
     "chaine": "Universal+",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "poster": "https://images.justwatch.com/poster/272852331/s592/escape-the-field.jpg",
     "note_avis": 4.5,
     "note_recence": 8.8,
@@ -6741,7 +6741,7 @@ const CATALOG_DATA = [
       "Amazon Prime Video"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "badge": "12",
@@ -6780,7 +6780,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2017,
     "chaine": "Universal+",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "poster": "https://images.justwatch.com/poster/46610719/s592/curvature.jpg",
     "note_avis": 4.7,
     "note_recence": 7.3,
@@ -6791,7 +6791,7 @@ const CATALOG_DATA = [
       "Amazon Prime Video"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "badge": "12",
@@ -6831,7 +6831,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2013,
     "chaine": "Universal+",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "poster": "https://images.justwatch.com/poster/258588080/s592/lordre-des-gardiens.jpg",
     "note_avis": 7.7,
     "note_recence": 6.1,
@@ -6842,7 +6842,7 @@ const CATALOG_DATA = [
       "Amazon Prime Video"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "badge": null,
@@ -6881,7 +6881,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2023,
     "chaine": "Universal+",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "poster": "https://images.justwatch.com/poster/305538657/s592/the-locksmith.jpg",
     "note_avis": 4.9,
     "note_recence": 9.1,
@@ -6893,7 +6893,7 @@ const CATALOG_DATA = [
       "Amazon Prime Video"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "duree": "1h 31min",
@@ -6947,7 +6947,7 @@ const CATALOG_DATA = [
     ],
     "logos_chaine": [
       "assets/logos/cine_ocs.svg",
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "duree": "1h 45min",
@@ -6988,7 +6988,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2019,
     "chaine": "Universal+",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "poster": "https://images.justwatch.com/poster/120325698/s592/triple-threat.jpg",
     "note_avis": 5.6,
     "note_recence": 7.9,
@@ -7000,7 +7000,7 @@ const CATALOG_DATA = [
       "Amazon Prime Video"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "duree": "1h 36min",
@@ -8599,12 +8599,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/320293659/s592/arcadia.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "46 min/ép.",
     "expiration": {
@@ -8723,12 +8723,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/311577152/s592/domino-day.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "43 min/ép.",
     "expiration": {
@@ -8781,12 +8781,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/270393625/s592/surrealestate.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "42 min/ép.",
     "expiration": {
@@ -8853,12 +8853,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/323292152/s592/generation-z.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "46 min/ép.",
     "expiration": {
@@ -8910,13 +8910,13 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/350977660/s592/the-ministry-of-time.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+",
       "Amazon Prime Video"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "duree": "68 min/ép.",
@@ -8990,12 +8990,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/332515549/s592/brave-new-world.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "20 min/ép.",
     "expiration": {
@@ -9048,12 +9048,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/46451309/s592/timeless.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "45 min/ép.",
     "expiration": {
@@ -9113,13 +9113,13 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/298710176/s592/the-magicians.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+",
       "Amazon Prime Video"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "duree": "44 min/ép.",
@@ -9200,12 +9200,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/321851541/s592/reginald-the-vampire.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "43 min/ép.",
     "expiration": {
@@ -9257,12 +9257,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/348700590/s592/the-ark.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "43 min/ép.",
     "expiration": {
@@ -9328,12 +9328,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/355069307/s592/les-chroniques-de-shannara.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "41 min/ép.",
     "expiration": {
@@ -9394,13 +9394,13 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/49637074/s592/grimm.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+",
       "Amazon Prime Video"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "duree": "43 min/ép.",
@@ -9490,12 +9490,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/88941736/s592/midnight-texas.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "42 min/ép.",
     "expiration": {
@@ -9555,13 +9555,13 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/331775335/s592/the-librarians.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+",
       "Amazon Prime Video"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "duree": "43 min/ép.",
@@ -9636,12 +9636,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/321975374/s592/childhoods-end-les-enfants-dicare.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "81 min/ép.",
     "expiration": {
@@ -9694,12 +9694,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/293327370/s592/heroes.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "43 min/ép.",
     "expiration": {
@@ -9771,12 +9771,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/302382771/s592/warehouse-13.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "44 min/ép.",
     "expiration": {
@@ -9856,12 +9856,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/293310325/s592/heroes-reborn.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "43 min/ép.",
     "expiration": {
@@ -9913,12 +9913,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/308890678/s592/follow.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "40 min/ép.",
     "expiration": {
@@ -9969,12 +9969,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/311544406/s592/wild-cards.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "42 min/ép.",
     "expiration": {
@@ -10034,12 +10034,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/355237887/s592/toronto-section-criminelle.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "44 min/ép.",
     "expiration": {
@@ -10093,12 +10093,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/243050141/s592/grace.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "89 min/ép.",
     "expiration": {
@@ -10175,12 +10175,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/340527320/s592/harry-wild.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "47 min/ép.",
     "expiration": {
@@ -10259,12 +10259,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/320919897/s592/family-law.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "43 min/ép.",
     "expiration": {
@@ -10318,12 +10318,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/301738382/s592/cuisine-interne.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "40 min/ép.",
     "expiration": {
@@ -10372,12 +10372,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/323290962/s592/my-life-is-murder.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "43 min/ép.",
     "expiration": {
@@ -10429,12 +10429,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/347339448/s592/hudson-et-rex.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "42 min/ép.",
     "expiration": {
@@ -10523,12 +10523,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/326187647/s592/almost-paradise.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "44 min/ép.",
     "expiration": {
@@ -10581,12 +10581,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/282105101/s592/marion-2022.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "42 min/ép.",
     "expiration": {
@@ -11341,9 +11341,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -12054,9 +12054,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -12158,9 +12158,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -12654,9 +12654,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -12708,9 +12708,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -12766,9 +12766,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -13343,9 +13343,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -13493,9 +13493,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -14311,9 +14311,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -14420,9 +14420,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -14745,9 +14745,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -15045,9 +15045,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -15582,9 +15582,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -15676,9 +15676,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -16119,9 +16119,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -16556,9 +16556,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -16777,9 +16777,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -16931,9 +16931,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -17040,9 +17040,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -17203,9 +17203,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -17313,9 +17313,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -17607,9 +17607,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -18050,9 +18050,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -18926,7 +18926,7 @@ const CATALOG_DATA = [
     "logo_chaine": "assets/logos/cine_ocs.svg",
     "logos_chaine": [
       "assets/logos/cine_ocs.svg",
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -19120,9 +19120,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -19325,9 +19325,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -19483,9 +19483,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -19534,9 +19534,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -20358,9 +20358,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -20421,9 +20421,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -21464,9 +21464,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -21988,9 +21988,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -22333,9 +22333,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -22382,9 +22382,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -22432,9 +22432,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -22481,9 +22481,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -22731,9 +22731,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -22881,9 +22881,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -22930,9 +22930,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -23091,9 +23091,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -23593,9 +23593,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -23645,9 +23645,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -24261,9 +24261,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -24515,9 +24515,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -24657,9 +24657,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -24858,9 +24858,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -24916,9 +24916,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -25254,9 +25254,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -25543,9 +25543,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -25936,9 +25936,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -26029,9 +26029,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -26076,9 +26076,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -26124,9 +26124,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -26221,9 +26221,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -26329,9 +26329,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -26378,9 +26378,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -26424,9 +26424,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -26860,9 +26860,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -26909,9 +26909,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -27061,9 +27061,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -27263,9 +27263,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -27461,9 +27461,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -27666,9 +27666,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -27761,9 +27761,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -27861,9 +27861,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -27961,9 +27961,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -28069,9 +28069,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -28263,9 +28263,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -28518,9 +28518,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -28564,9 +28564,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -28620,9 +28620,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -28924,9 +28924,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -28980,9 +28980,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -29032,9 +29032,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -29135,9 +29135,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -29282,9 +29282,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg",
+      "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -29379,9 +29379,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -29427,9 +29427,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -29528,9 +29528,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -29638,9 +29638,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -29691,9 +29691,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -30086,9 +30086,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -30134,9 +30134,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -30511,9 +30511,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -30788,9 +30788,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -31506,9 +31506,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -32008,9 +32008,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -32247,9 +32247,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -32346,9 +32346,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -32393,9 +32393,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -32442,9 +32442,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -32594,9 +32594,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -33090,9 +33090,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -33138,9 +33138,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -33814,9 +33814,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -33873,9 +33873,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -34504,9 +34504,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -34645,9 +34645,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -59204,12 +59204,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/159744834/s592/battlestar-galactica.jpg",
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "chaines": [
       "Universal+"
     ],
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "duree": "49 min/ép.",
     "expiration": {
@@ -60188,9 +60188,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -60252,9 +60252,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -60308,9 +60308,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -61172,9 +61172,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -61507,9 +61507,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
@@ -61582,9 +61582,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Universal+"
     ],
-    "logo_chaine": "assets/logos/universal_plus.svg",
+    "logo_chaine": "assets/logos/universal_plus.png",
     "logos_chaine": [
-      "assets/logos/universal_plus.svg"
+      "assets/logos/universal_plus.png"
     ],
     "package_slugs": [
       "auc"
