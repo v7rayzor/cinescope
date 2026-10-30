@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cinescope-v9.35-unified-sticky-header';
+const CACHE_NAME = 'cinescope-v9.36-strict-flatrate-all-bouquets';
 const CORE_ASSETS = [
   './',
   './index.html',

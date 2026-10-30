@@ -194,57 +194,6 @@ const JustWatchEngine = (function () {
   const SPECIALIZED_PACKAGE_SLUGS = ['snr', 'sdz', 'ima'];
   const BASE_PAID_PACKAGE_SLUGS = ['aoc', 'aca', 'auc'];
 
-  // Motifs d'identification des œuvres et séries incluses ou diffusées sur Prime Video
-  const KNOWN_PRIME_PATTERNS = [
-    /\bgrimm\b/i,
-    /\bchicago fire\b/i,
-    /\bchicago p\.?d\.?\b/i,
-    /\bchicago med\b/i,
-    /\bthe magicians\b/i,
-    /\bfargo\b/i,
-    /\bbattlestar galactica\b/i,
-    /\bheroes\b/i,
-    /\bheroes reborn\b/i,
-    /\bspartacus\b/i,
-    /\bspartacus: house of ashur\b/i,
-    /\bminist[eè]re du temps\b/i,
-    /\bflynn carson\b/i,
-    /\bwarehouse 13\b/i,
-    /\bburn after reading\b/i,
-    /\bcomancheria\b/i,
-    /\bamerican gangster\b/i,
-    /\bmr wolff\b/i,
-    /\bocean'?s 8\b/i,
-    /\bofficial secrets\b/i,
-    /\btout ce qui brille\b/i,
-    /\bles lyonnais\b/i,
-    /\bmr 73\b/i,
-    /\balbator\b/i,
-    /\bs\.?o\.?s\.? fant[oô]mes\b/i,
-    /\bdark web: cicada\b/i,
-    /\bkickboxer : vengeance\b/i,
-    /\btriple threat\b/i,
-    /\bfinal score\b/i,
-    /\b64 minutes chrono\b/i,
-    /\bbullet head\b/i,
-    /\bescape the field\b/i,
-    /\bcorrective measures\b/i,
-    /\bthere are no saints\b/i,
-    /\ble virtuose\b/i,
-    /\bsous haute surveillance\b/i,
-    /\bthe minute you wake up dead\b/i,
-    /\brubikon\b/i,
-    /\bthe secret kingdom\b/i,
-    /\bibiza\b/i,
-    /\bhounds of war\b/i,
-    /\b7 minutes\b/i
-  ];
-
-  function isKnownPrimeTitle(title) {
-    if (!title || typeof title !== 'string') return false;
-    return KNOWN_PRIME_PATTERNS.some(regex => regex.test(title));
-  }
-
   // Bouquets et chaînes officielles de la TNT française (TF1+, M6+, France TV)
   const TNT_PACKAGE_SLUGS = ['tf1', 'myt', 'sxp', '6pt', 'mms', 'fra'];
 
@@ -252,10 +201,11 @@ const JustWatchEngine = (function () {
     return false;
   }
 
+  // Vérifier si une œuvre est disponible dans l'abonnement standard Amazon Prime Video (Ligne ABO / Forfait uniquement)
   function isItemOnPrime(item) {
     if (!item) return false;
     if (item.on_prime === true) return true;
-    if (isKnownPrimeTitle(item.titre)) return true;
+    if (item.package_slugs && item.package_slugs.includes('prv')) return true;
     return false;
   }
 
@@ -862,11 +812,11 @@ const JustWatchEngine = (function () {
 
     if (isSerie) {
       const allSeasons = node.seasons || [];
-      // Filtrer les saisons avec une offre FLATRATE sur nos bouquets cibles (aoc, aca, auc)
+      // Filtrer les saisons avec une offre FLATRATE stricte (Ligne 1 ABO / Forfait uniquement) sur nos bouquets cibles
       const availableSeasons = allSeasons.filter(s => {
         const sOffers = s.offers || [];
         return sOffers.some(o => 
-          ['FLATRATE', 'FREE', 'ADS'].includes(o.monetizationType) && 
+          o.monetizationType === 'FLATRATE' && 
           o.package && 
           PACKAGE_SLUGS.includes(o.package.shortName)
         );
@@ -955,11 +905,11 @@ const JustWatchEngine = (function () {
     else if (noteGlobale >= 7.0) etoiles = 4;
 
     const rawOffers = node.offers || [];
-    // VERROUILLAGE STREAMING STRICT : Seules les offres de streaming gratuit ou abonnement sont admises.
-    // Les offres de boutique payante à l'acte (RENT / BUY) sont formellement exclues (zéro VOD payante).
-    const offers = rawOffers.filter(o => ['FLATRATE', 'FREE', 'ADS'].includes(o.monetizationType));
+    // VERROUILLAGE STRICT UNIVERSEL : Seule et exclusivement la 1ère ligne "ABO" (Forfait HD / FLATRATE) est admise pour TOUS les bouquets.
+    // Toute offre de Location (RENT), Achat (BUY), Free ou Ads est formellement bannie (zéro VOD payante).
+    const offers = rawOffers.filter(o => o && o.monetizationType === 'FLATRATE');
 
-    // Table d'alias JustWatch vers nos diffuseurs officiels gratuits / TNT
+    // Table d'alias JustWatch vers nos diffuseurs officiels
     // Note : atb (ARTE VOD payant à l'acte), tfa (TFOU MAX payant 3.99€) et gum (Gullimax payant 2.99€)
     // sont formellement exclus pour sanctuariser la gratuité réelle.
     const PKG_ALIASES = {
@@ -1021,8 +971,8 @@ const JustWatchEngine = (function () {
 
     const expiration = computeExpirationInfo(offers);
 
-    const onPrime = offers.some(o => (o.package?.shortName === 'prv' || o.package?.shortName === 'pva') && o.monetizationType === 'FLATRATE') || isKnownPrimeTitle(c.title);
-    const onTnt = offers.some(o => TNT_PACKAGE_SLUGS.includes(o.package?.shortName) && ['ADS', 'FREE', 'FLATRATE'].includes(o.monetizationType));
+    const onPrime = offers.some(o => (o.package?.shortName === 'prv' || o.package?.shortName === 'pva') && o.monetizationType === 'FLATRATE');
+    const onTnt = offers.some(o => TNT_PACKAGE_SLUGS.includes(o.package?.shortName) && o.monetizationType === 'FLATRATE');
 
     // Extraction de la date d'arrivée / nouveauté
     let dateAjout = null;
@@ -1157,7 +1107,7 @@ const JustWatchEngine = (function () {
       }
     }
 
-    const onPrime = Boolean(base.on_prime || incoming.on_prime || isKnownPrimeTitle(base.titre) || isKnownPrimeTitle(incoming.titre));
+    const onPrime = Boolean(base.on_prime || incoming.on_prime || (incoming.package_slugs && incoming.package_slugs.includes('prv')) || (base.package_slugs && base.package_slugs.includes('prv')));
     const onTnt = incoming.on_tnt !== undefined ? incoming.on_tnt : Boolean(base.on_tnt);
 
     return {
@@ -1198,7 +1148,7 @@ const JustWatchEngine = (function () {
           refreshed.categories = [computeCategory(refreshed.raw_genres, refreshed.type === 'serie', refreshed.titre, refreshed.synopsis, refreshed.badge, refreshed.annee, refreshed.package_slugs, refreshed.id)];
         }
       }
-      refreshed.on_prime = Boolean(refreshed.on_prime || isKnownPrimeTitle(refreshed.titre));
+      refreshed.on_prime = Boolean(refreshed.on_prime || (refreshed.package_slugs && refreshed.package_slugs.includes('prv')));
       refreshed.on_tnt = Boolean(refreshed.on_tnt);
       const key = getDeduplicationKey(refreshed) || refreshed.id;
       if (map.has(key)) {
@@ -1448,7 +1398,7 @@ const JustWatchEngine = (function () {
                   refreshed.categories = [computeCategory(refreshed.raw_genres, refreshed.type === 'serie', refreshed.titre, refreshed.synopsis, refreshed.badge, refreshed.annee, refreshed.package_slugs, refreshed.id)];
                 }
               }
-              refreshed.on_prime = Boolean(refreshed.on_prime || isKnownPrimeTitle(refreshed.titre));
+              refreshed.on_prime = Boolean(refreshed.on_prime || (refreshed.package_slugs && refreshed.package_slugs.includes('prv')));
               refreshed.on_tnt = Boolean(refreshed.on_tnt);
               return refreshed;
             })
@@ -1624,7 +1574,6 @@ const JustWatchEngine = (function () {
     TNT_PACKAGE_SLUGS,
     SPECIALIZED_PACKAGE_SLUGS,
     BASE_PAID_PACKAGE_SLUGS,
-    isKnownPrimeTitle,
     isKnownTntTitle,
     isItemOnPrime,
     isItemOnTnt,

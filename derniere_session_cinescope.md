@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.35** / Cache **cinescope-v9.35-unified-sticky-header** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.36** / Cache **cinescope-v9.36-strict-flatrate-all-bouquets** / Stockage **_v48**).
 
 ---
 
@@ -449,7 +449,12 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * **Intégration directe du bloc mobile dans `.main-header`** : Déplacement de `.mobile-titles-top-bar` (bouton `[ ⟵ Cliquez ici pour changer de catégorie ]` et fil d'Ariane) directement au sein du `<header class="main-header">`. L'en-tête forme désormais un bloc 100% solidaire collé au sommet (`top: 0`), sans dépendance à un calcul d'offset JS, sans décalage de scroll, avec effet de verre dépoli unifié (`backdrop-filter: blur(20px)`).
     * **Masquage du titre redondant `.section-intro` sur mobile** : Retrait définitif de `Action (Films)` et de son séparateur sur smartphone.
     * **Sanctuaire PC Desktop** : Aucun impact sur la version grand écran (`display: none !important` via `.mobile-only-portal`).
-  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.35-unified-sticky-header` et `?v=9.35` sur l'ensemble des scripts et styles.
+  - **Verrouillage Universel Strict : 1ère Ligne « ABO » (Forfait HD / FLATRATE) Exclusivement pour Tous les Bouquets (v9.36)** :
+    * **Règle absolue sur la ligne 1 ABO (`FLATRATE`)** : Filtrage strict et exclusif des offres JustWatch de type `FLATRATE` pour tous les bouquets sans exception (Amazon Prime Video, Ciné+ OCS, Universal+, Action Max, Sooner, Shadowz, Insomnia).
+    * **Bannissement total de la VOD payante** : Élimination formelle de la ligne 2 « LOCATION » (`RENT`) et de la ligne 3 « ACHAT » (`BUY`), ainsi que des offres `FREE` ou `ADS`.
+    * **Éradication des motifs en dur** : Suppression définitive de `KNOWN_PRIME_PATTERNS` (42 regex résiduelles de titres forçant le badge Prime Video) conformément à la Règle 7 d'amélioration algorithmique universelle.
+    * **Prise en compte unifiée PC et Mobile** : Application rigoureuse aussi bien sur la version portable que sur la version grand écran PC.
+  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.36-strict-flatrate-all-bouquets` et `?v=9.36` sur l'ensemble des scripts et styles.
 
 
 
