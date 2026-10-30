@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.36** / Cache **cinescope-v9.36-strict-flatrate-all-bouquets** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.37** / Cache **cinescope-v9.37-strict-flatrate-v49** / Stockage **_v49**).
 
 ---
 
@@ -454,7 +454,10 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * **Bannissement total de la VOD payante** : Élimination formelle de la ligne 2 « LOCATION » (`RENT`) et de la ligne 3 « ACHAT » (`BUY`), ainsi que des offres `FREE` ou `ADS`.
     * **Éradication des motifs en dur** : Suppression définitive de `KNOWN_PRIME_PATTERNS` (42 regex résiduelles de titres forçant le badge Prime Video) conformément à la Règle 7 d'amélioration algorithmique universelle.
     * **Prise en compte unifiée PC et Mobile** : Application rigoureuse aussi bien sur la version portable que sur la version grand écran PC.
-  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.36-strict-flatrate-all-bouquets` et `?v=9.36` sur l'ensemble des scripts et styles.
+  - **Purge Forcée du Cache Navigateur & Mise à Niveau Stockage `_v49` (v9.37)** :
+    * **Bascule immédiate vers `_v49`** : Remplacement des clés de stockage local (`STORAGE_KEY_CATALOG`, `STORAGE_KEY_AMAZON_SYNC`) de `_v48` vers `_v49` et déclenchement du nettoyage proactif `cleanLegacyLocalStorage()`. Cela force tous les navigateurs (en local comme en ligne) à purger l'ancien catalogue en mémoire pour charger immédiatement le nouveau catalogue Amazon épuré.
+    * **Déploiement effectif de `data/prime_catalog.js`** : Actualisation et publication du fichier avec les 1 397 œuvres qualifiées exclusivement en ABO Forfait.
+  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.37-strict-flatrate-v49` et `?v=9.37` sur l'ensemble des scripts et styles.
 
 
 

@@ -4,10 +4,12 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v48';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v48';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v48';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v48';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v49';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v49';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v49';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v49';
+  const STORAGE_KEY_SPECIALIZED_SYNC = 'cinescope_last_specialized_sync_v44';
+  const STORAGE_KEY_AMAZON_SYNC = 'cinescope_last_amazon_sync_v49';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -18,12 +20,12 @@ const JustWatchEngine = (function () {
         STORAGE_KEY_SYNC,
         STORAGE_KEY_FULL_SYNC,
         STORAGE_KEY_AUTOSYNC,
-        'cinescope_last_specialized_sync_v44',
-        'cinescope_last_amazon_sync_v48'
+        STORAGE_KEY_SPECIALIZED_SYNC,
+        STORAGE_KEY_AMAZON_SYNC
       ];
       const allKeys = Object.keys(localStorage);
       for (const key of allKeys) {
-        if (key.startsWith('cinescope_streaming_') && !keysToKeep.includes(key)) {
+        if (key.startsWith('cinescope_') && !keysToKeep.includes(key)) {
           localStorage.removeItem(key);
         }
       }
@@ -1448,9 +1450,6 @@ const JustWatchEngine = (function () {
     } catch (e) { }
     return null;
   }
-
-  const STORAGE_KEY_SPECIALIZED_SYNC = 'cinescope_last_specialized_sync_v44';
-  const STORAGE_KEY_AMAZON_SYNC = 'cinescope_last_amazon_sync_v48';
 
   function saveSpecializedSyncDate() {
     try {
