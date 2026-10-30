@@ -16,12 +16,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/331279332/s592/maldoror.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "2h 34min",
     "expiration": {
@@ -66,12 +66,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/338305950/s592/reflet-dans-un-diamant-mort.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 27min",
     "expiration": {
@@ -116,12 +116,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/263846833/s592/goliath-2022.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "2h 01min",
     "expiration": {
@@ -168,9 +168,9 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/331888576/s592/haut-les-mains.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 24min",
     "expiration": {
@@ -214,12 +214,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/336383799/s592/que-ma-volonte-soit-faite.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 35min",
     "expiration": {
@@ -263,12 +263,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/328425354/s592/les-arenes-2025.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 34min",
     "expiration": {
@@ -312,12 +312,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/331505260/s592/kuraudo.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "2h 04min",
     "expiration": {
@@ -364,12 +364,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/338243557/s592/the-ugly-stepsister.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 49min",
     "expiration": {
@@ -414,12 +414,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/331876879/s592/magma.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 25min",
     "expiration": {
@@ -462,12 +462,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/332391138/s592/belladone.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 31min",
     "expiration": {
@@ -512,12 +512,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/312595687/s592/moi-vivant-vous-ne-serez-jamais-morts.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 46min",
     "expiration": {
@@ -562,12 +562,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/330205641/s592/coka-chica.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 40min",
     "expiration": {
@@ -612,12 +612,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/321816556/s592/the-last-breath.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 36min",
     "expiration": {
@@ -661,12 +661,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/185099522/s592/source-code.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 33min",
     "expiration": {
@@ -713,12 +713,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/60568766/s592/ares.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 20min",
     "expiration": {
@@ -764,12 +764,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/111080988/s592/sang-froid.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 59min",
     "expiration": {
@@ -816,12 +816,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/301926173/s592/lannee-du-requin.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 27min",
     "expiration": {
@@ -867,13 +867,13 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/319969998/s592/les-lyonnais.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "duree": "1h 42min",
@@ -924,12 +924,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/86674543/s592/volontaire.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 41min",
     "expiration": {
@@ -974,12 +974,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/97749140/s592/robocop-2014.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "2h 01min",
     "expiration": {
@@ -1025,12 +1025,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/322412164/s592/we-live-in-time.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 48min",
     "expiration": {
@@ -1074,12 +1074,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/333582063/s592/reading-lolita-in-tehran.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 47min",
     "expiration": {
@@ -1125,9 +1125,9 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/326069373/s592/bridget-jones-mad-about-the-boy.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "2h 04min",
     "expiration": {
@@ -1172,13 +1172,13 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/40696204/s592/moi-tonya.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS",
       "Sooner"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "duree": "2h 00min",
@@ -1225,12 +1225,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/104804577/s592/mademoiselle-de-joncquieres.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 50min",
     "expiration": {
@@ -1278,9 +1278,9 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/164747559/s592/la-vie-scolaire.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 51min",
     "expiration": {
@@ -1326,13 +1326,13 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/97549675/s592/colette.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS",
       "Sooner"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "duree": "1h 51min",
@@ -1380,12 +1380,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/238705545/s592/la-belle-saison.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 45min",
     "expiration": {
@@ -1430,12 +1430,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/103602301/s592/lhomme-fidele.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 15min",
     "expiration": {
@@ -1481,12 +1481,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/253517486/s592/le-stratege.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "2h 13min",
     "expiration": {
@@ -1530,12 +1530,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/122497045/s592/poulet-aux-prunes.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 32min",
     "expiration": {
@@ -1580,12 +1580,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/178533532/s592/last-days-of-summer.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 51min",
     "expiration": {
@@ -1631,12 +1631,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/8657946/s592/my-week-with-marilyn.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 39min",
     "expiration": {
@@ -1680,12 +1680,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/169553372/s592/les-saveurs-du-palais.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 34min",
     "expiration": {
@@ -1730,12 +1730,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/243626694/s592/gemma-bovery.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 39min",
     "expiration": {
@@ -1781,12 +1781,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/147575099/s592/beaux-parents.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 23min",
     "expiration": {
@@ -1830,12 +1830,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/90391925/s592/reviens-moi.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "2h 03min",
     "expiration": {
@@ -1880,12 +1880,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/56321599/s592/la-fete-des-meres.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 41min",
     "expiration": {
@@ -1930,12 +1930,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/205711538/s592/hors-du-temps.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 47min",
     "expiration": {
@@ -1982,12 +1982,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/203443343/s592/coup-de-foudre-a-austenland.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 37min",
     "expiration": {
@@ -2034,9 +2034,9 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/332310461/s592/la-vie-devant-moi-2025.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 33min",
     "expiration": {
@@ -2081,12 +2081,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/238527386/s592/la-grande-boucle.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 38min",
     "expiration": {
@@ -2131,12 +2131,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/325960528/s592/mlle-bottine.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 51min",
     "expiration": {
@@ -2182,12 +2182,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/336789444/s592/monster-summer-2024.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 38min",
     "expiration": {
@@ -2233,12 +2233,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/87604228/s592/mia-et-le-lion-blanc.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 38min",
     "expiration": {
@@ -2284,12 +2284,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/256287060/s592/mon-pere-est-une-saucisse.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 20min",
     "expiration": {
@@ -2334,12 +2334,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/302406451/s592/lyle-lyle-crocodile.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 46min",
     "expiration": {
@@ -2387,12 +2387,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/346442010/s592/le-brigand-briquambroque.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 46min",
     "expiration": {
@@ -2439,12 +2439,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/301465080/s592/hotel-sinestra.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 25min",
     "expiration": {
@@ -2489,12 +2489,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/168085179/s592/venise-nest-pas-en-italie.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 35min",
     "expiration": {
@@ -2540,12 +2540,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/249449471/s592/super-8.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 52min",
     "expiration": {
@@ -2648,12 +2648,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/324950790/s592/les-gamins.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 35min",
     "expiration": {
@@ -2698,12 +2698,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/250584605/s592/s-o-s-fantomes-3.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 57min",
     "expiration": {
@@ -2752,9 +2752,9 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/324394171/s592/je-suis-encore-la.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "2h 15min",
     "expiration": {
@@ -2798,12 +2798,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/330620650/s592/bird-2024.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 59min",
     "expiration": {
@@ -2846,12 +2846,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/332560527/s592/slow.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 43min",
     "expiration": {
@@ -2895,12 +2895,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/334612862/s592/lettres-siciliennes.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "2h 02min",
     "expiration": {
@@ -2944,12 +2944,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/321840594/s592/elskling.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 41min",
     "expiration": {
@@ -2993,12 +2993,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/340495752/s592/pierce.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 49min",
     "expiration": {
@@ -3043,12 +3043,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/331989788/s592/il-tempo-che-ci-vuole.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 50min",
     "expiration": {
@@ -3091,12 +3091,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/345803953/s592/escape-from-the-21st-century.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 38min",
     "expiration": {
@@ -3142,12 +3142,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/345489295/s592/the-astronaut-lovers.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 55min",
     "expiration": {
@@ -3192,12 +3192,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/302125011/s592/babysitter-2022.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 28min",
     "expiration": {
@@ -3241,12 +3241,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/250045744/s592/jackie.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 40min",
     "expiration": {
@@ -3290,12 +3290,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/86978170/s592/foxcatcher.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "2h 14min",
     "expiration": {
@@ -3341,12 +3341,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/344037061/s592/le-gamin-au-velo.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 27min",
     "expiration": {
@@ -3390,12 +3390,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/197757201/s592/ce-sentiment-de-lete.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 46min",
     "expiration": {
@@ -3439,12 +3439,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/344202889/s592/tokyo-fiancee.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 40min",
     "expiration": {
@@ -3482,7 +3482,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/325489727/s592/mission-impossible-8.jpg",
     "note_avis": 7.1,
     "note_recence": 9.7,
@@ -3493,7 +3493,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "2h 50min",
     "expiration": {
@@ -3529,7 +3529,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2024,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/353803348/s592/september-5.jpg",
     "note_avis": 7.1,
     "note_recence": 9.4,
@@ -3540,7 +3540,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 34min",
     "expiration": {
@@ -3577,7 +3577,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2024,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/323703747/s592/the-room-next-door.jpg",
     "note_avis": 6.7,
     "note_recence": 9.4,
@@ -3587,7 +3587,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": "12",
     "duree": "1h 46min",
@@ -3623,7 +3623,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2024,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/325203770/s592/better-man.jpg",
     "note_avis": 7.5,
     "note_recence": 9.4,
@@ -3633,7 +3633,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "2h 15min",
@@ -3671,7 +3671,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2023,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/312765004/s592/yannick.jpg",
     "note_avis": 7,
     "note_recence": 9.1,
@@ -3681,7 +3681,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 07min",
@@ -3719,7 +3719,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2024,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/331876888/s592/le-dernier-souffle.jpg",
     "note_avis": 6.7,
     "note_recence": 9.4,
@@ -3729,7 +3729,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 37min",
@@ -3765,7 +3765,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/346166187/s592/eleonora-duse.jpg",
     "note_avis": 5.9,
     "note_recence": 9.7,
@@ -3775,7 +3775,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "2h 02min",
@@ -3812,7 +3812,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/336046915/s592/the-chronology-of-water.jpg",
     "note_avis": 6.3,
     "note_recence": 9.7,
@@ -3822,7 +3822,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": "12",
     "duree": "2h 08min",
@@ -3859,7 +3859,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/322056962/s592/le-quatrieme-mur-2025.jpg",
     "note_avis": 6.2,
     "note_recence": 9.7,
@@ -3870,7 +3870,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 56min",
     "expiration": {
@@ -3907,7 +3907,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2022,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/300794790/s592/where-the-crawdads-sing.jpg",
     "note_avis": 7.2,
     "note_recence": 8.8,
@@ -3918,7 +3918,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "2h 06min",
     "expiration": {
@@ -3955,7 +3955,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2022,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/302981941/s592/lorigine-du-mal.jpg",
     "note_avis": 6.6,
     "note_recence": 8.8,
@@ -3966,7 +3966,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "2h 03min",
     "expiration": {
@@ -4002,7 +4002,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2024,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/325889128/s592/parthenope-2024.jpg",
     "note_avis": 6.5,
     "note_recence": 9.4,
@@ -4013,7 +4013,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "2h 17min",
     "expiration": {
@@ -4049,7 +4049,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/341608037/s592/lhomme-qui-retrecit-2025.jpg",
     "note_avis": 5.8,
     "note_recence": 9.7,
@@ -4059,7 +4059,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 39min",
@@ -4098,7 +4098,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/345888842/s592/deux-procureurs.jpg",
     "note_avis": 7,
     "note_recence": 9.7,
@@ -4108,7 +4108,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 58min",
@@ -4147,7 +4147,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/343223396/s592/jean-valjean-2025.jpg",
     "note_avis": 6.3,
     "note_recence": 9.7,
@@ -4157,7 +4157,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 39min",
@@ -4194,7 +4194,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/346166055/s592/urchin.jpg",
     "note_avis": 6.7,
     "note_recence": 9.7,
@@ -4204,7 +4204,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": "12",
     "duree": "1h 39min",
@@ -4240,7 +4240,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/330734142/s592/dans-leau.jpg",
     "note_avis": 5,
     "note_recence": 9.7,
@@ -4250,7 +4250,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 30min",
@@ -4286,7 +4286,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/346192403/s592/la-petite-derniere.jpg",
     "note_avis": 6.8,
     "note_recence": 9.7,
@@ -4296,7 +4296,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 52min",
@@ -4333,7 +4333,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/327406490/s592/la-cache.jpg",
     "note_avis": 5.8,
     "note_recence": 9.7,
@@ -4343,7 +4343,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 30min",
@@ -4380,7 +4380,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/332749848/s592/dans-la-cuisine-des-nguyen-2025.jpg",
     "note_avis": 6.3,
     "note_recence": 9.7,
@@ -4390,7 +4390,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 39min",
@@ -4427,7 +4427,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2019,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/168800812/s592/jaccuse-2019.jpg",
     "note_avis": 7.2,
     "note_recence": 7.9,
@@ -4437,7 +4437,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "2h 12min",
@@ -4476,7 +4476,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2019,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/174776778/s592/la-belle-epoque.jpg",
     "note_avis": 7.4,
     "note_recence": 7.9,
@@ -4486,7 +4486,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 55min",
@@ -4526,7 +4526,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2024,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/321612818/s592/maria-2025.jpg",
     "note_avis": 6.4,
     "note_recence": 9.4,
@@ -4537,7 +4537,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "2h 04min",
     "expiration": {
@@ -4573,7 +4573,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2020,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/208454480/s592/adieu-les-cons.jpg",
     "note_avis": 6.7,
     "note_recence": 8.2,
@@ -4583,7 +4583,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 27min",
@@ -4620,7 +4620,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2023,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/305444944/s592/le-livre-des-solutions.jpg",
     "note_avis": 6.1,
     "note_recence": 9.1,
@@ -4630,7 +4630,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 43min",
@@ -4667,7 +4667,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/328933150/s592/le-routard.jpg",
     "note_avis": 4.5,
     "note_recence": 9.7,
@@ -4677,7 +4677,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 25min",
@@ -4713,7 +4713,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/326922177/s592/le-secret-de-kheops.jpg",
     "note_avis": 5.4,
     "note_recence": 9.7,
@@ -4723,7 +4723,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 38min",
@@ -4760,7 +4760,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/330249764/s592/lamour-cest-surcote.jpg",
     "note_avis": 6.6,
     "note_recence": 9.7,
@@ -4770,7 +4770,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 38min",
@@ -4807,7 +4807,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/324899089/s592/le-melange-des-genres.jpg",
     "note_avis": 5.5,
     "note_recence": 9.7,
@@ -4817,7 +4817,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 43min",
@@ -4854,7 +4854,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/332206466/s592/une-pointe-damour-2025-1.jpg",
     "note_avis": 6.5,
     "note_recence": 9.7,
@@ -4864,7 +4864,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 24min",
@@ -4901,7 +4901,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/322778925/s592/mikado-2025.jpg",
     "note_avis": 6.1,
     "note_recence": 9.7,
@@ -4911,7 +4911,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 34min",
@@ -4949,7 +4949,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/341326228/s592/nino.jpg",
     "note_avis": 6.9,
     "note_recence": 9.7,
@@ -4959,7 +4959,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 36min",
@@ -4995,7 +4995,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/344507997/s592/rebuilding.jpg",
     "note_avis": 6.8,
     "note_recence": 9.7,
@@ -5005,7 +5005,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 36min",
@@ -5041,7 +5041,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2016,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/8812073/s592/captain-fantastic.jpg",
     "note_avis": 7.8,
     "note_recence": 7,
@@ -5052,7 +5052,7 @@ const CATALOG_DATA = [
       "Sooner"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "badge": null,
@@ -5091,7 +5091,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2020,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/235103243/s592/ete-85.jpg",
     "note_avis": 6.9,
     "note_recence": 8.2,
@@ -5102,7 +5102,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 41min",
     "expiration": {
@@ -5138,7 +5138,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2022,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/300936719/s592/z-comme-z.jpg",
     "note_avis": 6.3,
     "note_recence": 8.8,
@@ -5149,7 +5149,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 50min",
     "expiration": {
@@ -5185,7 +5185,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2022,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/313908200/s592/les-femmes-du-square.jpg",
     "note_avis": 6.5,
     "note_recence": 8.8,
@@ -5195,7 +5195,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 45min",
@@ -5231,7 +5231,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/333274244/s592/100-millions.jpg",
     "note_avis": 4.3,
     "note_recence": 9.7,
@@ -5241,7 +5241,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 37min",
@@ -5277,7 +5277,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/334275825/s592/doux-jesus-2025.jpg",
     "note_avis": 5,
     "note_recence": 9.7,
@@ -5287,7 +5287,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 26min",
@@ -5323,7 +5323,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/340332004/s592/delocalises.jpg",
     "note_avis": 4.9,
     "note_recence": 9.7,
@@ -5333,7 +5333,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 25min",
@@ -5369,7 +5369,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/331917636/s592/vacances-forcees.jpg",
     "note_avis": 5.5,
     "note_recence": 9.7,
@@ -5379,7 +5379,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 40min",
@@ -5415,7 +5415,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/340612324/s592/toujours-possible-2025.jpg",
     "note_avis": 5.6,
     "note_recence": 9.7,
@@ -5425,7 +5425,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 30min",
@@ -5462,7 +5462,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/332634838/s592/prosper-2025-0.jpg",
     "note_avis": 5.2,
     "note_recence": 9.7,
@@ -5472,7 +5472,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 32min",
@@ -5510,7 +5510,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2018,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/111219199/s592/la-mule.jpg",
     "note_avis": 7,
     "note_recence": 7.6,
@@ -5521,7 +5521,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 56min",
     "expiration": {
@@ -5559,7 +5559,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2019,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/344122932/s592/official-secrets.jpg",
     "note_avis": 7.3,
     "note_recence": 7.9,
@@ -5570,7 +5570,7 @@ const CATALOG_DATA = [
       "Amazon Prime Video"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "badge": null,
@@ -5612,7 +5612,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2021,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/259005694/s592/en-attendant-bojangles.jpg",
     "note_avis": 6.4,
     "note_recence": 8.5,
@@ -5622,7 +5622,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": "10",
     "duree": "2h 04min",
@@ -5660,7 +5660,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2019,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/143420308/s592/alice-et-le-maire.jpg",
     "note_avis": 6.4,
     "note_recence": 7.9,
@@ -5670,7 +5670,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 43min",
@@ -5708,7 +5708,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/324898078/s592/les-tuche-god-save-the-tuche-2025.jpg",
     "note_avis": 4.4,
     "note_recence": 9.7,
@@ -5718,7 +5718,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 41min",
@@ -5754,7 +5754,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2025,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/327439556/s592/les-bodins-partent-en-vrille.jpg",
     "note_avis": 5.2,
     "note_recence": 9.7,
@@ -5764,7 +5764,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 45min",
@@ -5800,7 +5800,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2016,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/241902267/s592/the-accountant.jpg",
     "note_avis": 7.3,
     "note_recence": 7,
@@ -5811,7 +5811,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "2h 08min",
     "expiration": {
@@ -5849,7 +5849,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2012,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/9916780/s592/argo.jpg",
     "note_avis": 7.7,
     "note_recence": 5.8,
@@ -5860,7 +5860,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "2h 00min",
     "expiration": {
@@ -5897,7 +5897,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2016,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/346548227/s592/mal-de-pierres.jpg",
     "note_avis": 6.6,
     "note_recence": 7,
@@ -5908,7 +5908,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "2h 00min",
     "expiration": {
@@ -5945,7 +5945,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2017,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/35438140/s592/atomic-blonde.jpg",
     "note_avis": 6.7,
     "note_recence": 7.3,
@@ -5956,7 +5956,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 55min",
     "expiration": {
@@ -5993,7 +5993,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2023,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/304949609/s592/hypnotic-2023.jpg",
     "note_avis": 5.5,
     "note_recence": 9.1,
@@ -6004,7 +6004,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 32min",
     "expiration": {
@@ -6042,7 +6042,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2018,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/66726884/s592/oceans-eight.jpg",
     "note_avis": 6.3,
     "note_recence": 7.6,
@@ -6053,7 +6053,7 @@ const CATALOG_DATA = [
       "Amazon Prime Video"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "badge": null,
@@ -6095,7 +6095,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2013,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/340832378/s592/insaisissables.jpg",
     "note_avis": 7.2,
     "note_recence": 6.1,
@@ -6105,7 +6105,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 56min",
@@ -6142,7 +6142,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2016,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/8750537/s592/insaisissables-2.jpg",
     "note_avis": 6.4,
     "note_recence": 7,
@@ -6152,7 +6152,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "2h 09min",
@@ -6191,7 +6191,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2018,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/59994998/s592/rampage.jpg",
     "note_avis": 6.1,
     "note_recence": 7.6,
@@ -6202,7 +6202,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 47min",
     "expiration": {
@@ -6238,7 +6238,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2006,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/9030429/s592/a-la-recherche-du-bonheur.jpg",
     "note_avis": 8,
     "note_recence": 4,
@@ -6248,7 +6248,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 57min",
@@ -6285,7 +6285,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2021,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/170655167/s592/chacun-chez-soi-2020-0.jpg",
     "note_avis": 4.8,
     "note_recence": 8.5,
@@ -6295,7 +6295,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 23min",
@@ -6332,7 +6332,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2023,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/296062047/s592/vaincre-ou-mourir.jpg",
     "note_avis": 5.4,
     "note_recence": 9.1,
@@ -6342,7 +6342,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "badge": null,
     "duree": "1h 55min",
@@ -6933,7 +6933,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2022,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/304800990/s592/there-are-no-saints.jpg",
     "note_avis": 4.9,
     "note_recence": 8.8,
@@ -6946,7 +6946,7 @@ const CATALOG_DATA = [
       "Amazon Prime Video"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
@@ -7038,7 +7038,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2021,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/302134366/s592/inexorable.jpg",
     "note_avis": 6.1,
     "note_recence": 8.5,
@@ -7049,7 +7049,7 @@ const CATALOG_DATA = [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 38min",
     "expiration": {
@@ -7575,7 +7575,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2017,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/48367302/s592/bullet-head.jpg",
     "note_avis": 5.4,
     "note_recence": 7.3,
@@ -7588,7 +7588,7 @@ const CATALOG_DATA = [
       "Amazon Prime Video"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/action.png",
       "assets/logos/prime_video.svg"
     ],
@@ -8075,7 +8075,7 @@ const CATALOG_DATA = [
     ],
     "annee": 2019,
     "chaine": "Ciné+ OCS",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "poster": "https://images.justwatch.com/poster/193796981/s592/ligne-dattaque.jpg",
     "note_avis": 5.9,
     "note_recence": 7.9,
@@ -8086,7 +8086,7 @@ const CATALOG_DATA = [
       "Amazon Prime Video"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "badge": "12",
@@ -8285,12 +8285,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/188185379/s592/la-tortue-rouge.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 21min",
     "expiration": {
@@ -8338,12 +8338,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/150681789/s592/le-petit-prince.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 48min",
     "expiration": {
@@ -8393,12 +8393,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/211573521/s592/les-blagues-de-toto.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 24min",
     "expiration": {
@@ -8442,12 +8442,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/10619167/s592/bigfoot-junior.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 32min",
     "expiration": {
@@ -8496,12 +8496,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/322821124/s592/swallows-and-amazons.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 37min",
     "expiration": {
@@ -8547,12 +8547,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/31584310/s592/operation-casse-noisette.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "1h 25min",
     "expiration": {
@@ -8666,9 +8666,9 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/302903963/s592/the-lazarus-project-2022.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "44 min/ép.",
     "expiration": {
@@ -10638,12 +10638,12 @@ const CATALOG_DATA = [
     "badge": "12",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/301234738/s592/la-nuit-ou-laurier-gaudreault-sest-reveille.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "59 min/ép.",
     "expiration": {
@@ -10693,12 +10693,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/321726869/s592/joan.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "47 min/ép.",
     "expiration": {
@@ -10748,12 +10748,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/332271589/s592/aspergirl.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "20 min/ép.",
     "expiration": {
@@ -10812,12 +10812,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/338473116/s592/spartacus-house-of-ashur.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "58 min/ép.",
     "expiration": {
@@ -10867,12 +10867,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/335509057/s592/twisted-metal.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "31 min/ép.",
     "expiration": {
@@ -10936,12 +10936,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/305454437/s592/the-walking-dead-dead-city.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "48 min/ép.",
     "expiration": {
@@ -11007,12 +11007,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/317049489/s592/archie.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "46 min/ép.",
     "expiration": {
@@ -11063,12 +11063,12 @@ const CATALOG_DATA = [
     "badge": null,
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/304154059/s592/funny-woman.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "47 min/ép.",
     "expiration": {
@@ -11117,12 +11117,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/315984614/s592/hotel-cocaine.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "51 min/ép.",
     "expiration": {
@@ -11173,12 +11173,12 @@ const CATALOG_DATA = [
     "badge": "16",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/302552922/s592/el-inmortal-gangs-of-madrid.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "47 min/ép.",
     "expiration": {
@@ -11244,12 +11244,12 @@ const CATALOG_DATA = [
     "badge": "10",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/302948038/s592/django.jpg",
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "chaines": [
       "Ciné+ OCS"
     ],
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "duree": "52 min/ép.",
     "expiration": {
@@ -11292,9 +11292,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -11466,9 +11466,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -11550,9 +11550,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -11598,9 +11598,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -11648,9 +11648,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -11715,9 +11715,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -11763,9 +11763,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -11812,9 +11812,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -11859,9 +11859,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -11906,9 +11906,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -11956,9 +11956,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -12006,9 +12006,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -12110,9 +12110,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -12221,9 +12221,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -12270,9 +12270,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -12317,9 +12317,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -12364,9 +12364,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -12414,9 +12414,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -12461,9 +12461,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -12562,9 +12562,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -12606,9 +12606,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -12817,9 +12817,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -12863,9 +12863,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -12911,9 +12911,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -12958,9 +12958,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -13005,9 +13005,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -13053,9 +13053,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -13104,9 +13104,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -13153,9 +13153,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Shadowz"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/shadowz.png"
     ],
     "package_slugs": [
@@ -13202,9 +13202,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -13248,9 +13248,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -13296,9 +13296,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -13399,9 +13399,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -13445,9 +13445,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -13541,9 +13541,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -13588,9 +13588,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -13639,9 +13639,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -13688,9 +13688,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -13736,9 +13736,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -13784,9 +13784,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -13830,9 +13830,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -13878,9 +13878,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -13923,9 +13923,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Action Max"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/action.png"
     ],
     "package_slugs": [
@@ -13974,9 +13974,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -14074,9 +14074,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -14124,9 +14124,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -14172,9 +14172,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -14219,9 +14219,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -14265,9 +14265,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -14371,9 +14371,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -14496,9 +14496,9 @@ const CATALOG_DATA = [
       "Action Max",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/action.png",
       "assets/logos/prime_video.svg"
     ],
@@ -14549,9 +14549,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -14597,9 +14597,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -14644,9 +14644,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -14691,9 +14691,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -14802,9 +14802,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -14849,9 +14849,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Shadowz"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/shadowz.png"
     ],
     "package_slugs": [
@@ -14900,9 +14900,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -14949,9 +14949,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -14999,9 +14999,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -15102,9 +15102,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -15151,9 +15151,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -15199,9 +15199,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -15247,9 +15247,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -15296,9 +15296,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -15345,9 +15345,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -15391,9 +15391,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -15438,9 +15438,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -15485,9 +15485,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -15534,9 +15534,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -15629,9 +15629,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -15733,9 +15733,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -15782,9 +15782,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -15831,9 +15831,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -15879,9 +15879,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -15927,9 +15927,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -15975,9 +15975,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -16021,9 +16021,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -16069,9 +16069,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -16170,9 +16170,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Shadowz"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/shadowz.png"
     ],
     "package_slugs": [
@@ -16220,9 +16220,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -16268,9 +16268,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -16315,9 +16315,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -16362,9 +16362,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -16409,9 +16409,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -16459,9 +16459,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -16506,9 +16506,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -16632,9 +16632,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -16680,9 +16680,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -16729,9 +16729,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -16834,9 +16834,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -16885,9 +16885,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -16993,9 +16993,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -17099,9 +17099,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -17149,9 +17149,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -17262,9 +17262,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -17367,9 +17367,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -17414,9 +17414,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -17462,9 +17462,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -17509,9 +17509,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -17557,9 +17557,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -17660,9 +17660,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -17707,9 +17707,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -17754,9 +17754,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -17801,9 +17801,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -17854,9 +17854,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -17902,9 +17902,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -17958,9 +17958,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -18005,9 +18005,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -18099,9 +18099,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -18146,9 +18146,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -18193,9 +18193,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -18239,9 +18239,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -18285,9 +18285,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -18334,9 +18334,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -18381,9 +18381,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -18428,9 +18428,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -18477,9 +18477,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -18523,9 +18523,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -18572,9 +18572,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -18618,9 +18618,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -18669,9 +18669,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -18716,9 +18716,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -18764,9 +18764,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -18811,9 +18811,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -18871,9 +18871,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -18923,9 +18923,9 @@ const CATALOG_DATA = [
       "Universal+",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
@@ -18976,9 +18976,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -19022,9 +19022,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -19071,9 +19071,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -19170,9 +19170,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -19230,9 +19230,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -19277,9 +19277,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -19382,9 +19382,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -19429,9 +19429,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -19583,9 +19583,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -19678,9 +19678,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -19726,9 +19726,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -19775,9 +19775,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -19822,9 +19822,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -19867,9 +19867,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -19918,9 +19918,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -20015,9 +20015,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -20064,9 +20064,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -20112,9 +20112,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -20160,9 +20160,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -20208,9 +20208,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -20256,9 +20256,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -20304,9 +20304,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -20478,9 +20478,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -20527,9 +20527,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -20578,9 +20578,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -20627,9 +20627,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -20675,9 +20675,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -20723,9 +20723,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -20771,9 +20771,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -20821,9 +20821,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -20874,9 +20874,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -20924,9 +20924,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -20974,9 +20974,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -21022,9 +21022,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -21072,9 +21072,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -21121,9 +21121,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -21170,9 +21170,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -21217,9 +21217,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -21265,9 +21265,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -21316,9 +21316,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -21366,9 +21366,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -21415,9 +21415,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -21511,9 +21511,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -21558,9 +21558,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -21605,9 +21605,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -21654,9 +21654,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -21703,9 +21703,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -21752,9 +21752,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -21797,9 +21797,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -21843,9 +21843,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -21891,9 +21891,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -21938,9 +21938,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Shadowz"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/shadowz.png"
     ],
     "package_slugs": [
@@ -22037,9 +22037,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -22092,9 +22092,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -22136,9 +22136,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -22186,9 +22186,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -22240,9 +22240,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -22286,9 +22286,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -22530,9 +22530,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -22580,9 +22580,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -22629,9 +22629,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -22677,9 +22677,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -22788,9 +22788,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -22835,9 +22835,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -22993,9 +22993,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -23041,9 +23041,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -23142,9 +23142,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -23194,9 +23194,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -23290,9 +23290,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -23337,9 +23337,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -23478,9 +23478,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -23526,9 +23526,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -23718,9 +23718,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -23778,9 +23778,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Insomnia"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/insomnia.png"
     ],
     "package_slugs": [
@@ -23826,9 +23826,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -23874,9 +23874,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -23926,9 +23926,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -24024,9 +24024,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -24072,9 +24072,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -24119,9 +24119,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -24165,9 +24165,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -24212,9 +24212,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -24311,9 +24311,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -24359,9 +24359,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -24413,9 +24413,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -24461,9 +24461,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -24564,9 +24564,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -24611,9 +24611,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -24713,9 +24713,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -24811,9 +24811,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -24966,9 +24966,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -25014,9 +25014,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -25062,9 +25062,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -25107,9 +25107,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -25209,9 +25209,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -25301,9 +25301,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -25347,9 +25347,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -25400,9 +25400,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -25448,9 +25448,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -25495,9 +25495,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -25591,9 +25591,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -25640,9 +25640,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -25690,9 +25690,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -25738,9 +25738,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -25789,9 +25789,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -25840,9 +25840,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -25890,9 +25890,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -25985,9 +25985,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -26174,9 +26174,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -26278,9 +26278,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -26477,9 +26477,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -26523,9 +26523,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -26573,9 +26573,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -26624,9 +26624,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -26672,9 +26672,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -26718,9 +26718,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -26765,9 +26765,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -26810,9 +26810,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -26965,9 +26965,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -27013,9 +27013,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -27122,9 +27122,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -27217,9 +27217,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -27320,9 +27320,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -27364,9 +27364,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -27413,9 +27413,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -27515,9 +27515,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -27571,9 +27571,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -27619,9 +27619,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -27716,9 +27716,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -27810,9 +27810,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -27915,9 +27915,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -28018,9 +28018,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -28118,9 +28118,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -28165,9 +28165,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -28210,9 +28210,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -28309,9 +28309,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -28357,9 +28357,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -28403,9 +28403,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -28456,9 +28456,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -28671,9 +28671,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -28724,9 +28724,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -28773,9 +28773,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -28825,9 +28825,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -28876,9 +28876,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -29087,9 +29087,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -29184,9 +29184,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -29234,9 +29234,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -29333,9 +29333,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -29474,9 +29474,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -29590,9 +29590,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -29759,9 +29759,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -29813,9 +29813,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -29860,9 +29860,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -29904,9 +29904,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -29948,9 +29948,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -29994,9 +29994,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -30038,9 +30038,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -30180,9 +30180,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -30272,9 +30272,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -30319,9 +30319,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -30372,9 +30372,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -30463,9 +30463,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -30557,9 +30557,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -30605,9 +30605,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -30649,9 +30649,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -30694,9 +30694,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -30740,9 +30740,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -30836,9 +30836,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -30882,9 +30882,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -30931,9 +30931,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -30977,9 +30977,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -31023,9 +31023,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -31070,9 +31070,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -31123,9 +31123,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -31173,9 +31173,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -31219,9 +31219,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -31266,9 +31266,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -31318,9 +31318,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -31363,9 +31363,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -31410,9 +31410,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -31458,9 +31458,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -31563,9 +31563,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -31611,9 +31611,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -31708,9 +31708,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -31755,9 +31755,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -31804,9 +31804,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -31854,9 +31854,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -31908,9 +31908,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -31957,9 +31957,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -32056,9 +32056,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -32104,9 +32104,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -32152,9 +32152,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -32199,9 +32199,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -32295,9 +32295,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -32490,9 +32490,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -32538,9 +32538,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -32643,9 +32643,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -32708,9 +32708,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -32755,9 +32755,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -32802,9 +32802,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -32850,9 +32850,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -32901,9 +32901,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -32947,9 +32947,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -32992,9 +32992,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -33039,9 +33039,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -33186,9 +33186,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -33233,9 +33233,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -33281,9 +33281,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -33330,9 +33330,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -33377,9 +33377,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -33427,9 +33427,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -33481,9 +33481,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -33529,9 +33529,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -33578,9 +33578,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -33624,9 +33624,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -33672,9 +33672,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -33719,9 +33719,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -33767,9 +33767,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -33920,9 +33920,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -33968,9 +33968,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -34017,9 +34017,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -34067,9 +34067,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -34115,9 +34115,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -34164,9 +34164,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -34211,9 +34211,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -34259,9 +34259,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -34307,9 +34307,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -34355,9 +34355,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -34402,9 +34402,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -34450,9 +34450,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -34551,9 +34551,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -34597,9 +34597,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -34693,9 +34693,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -34741,9 +34741,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -34838,9 +34838,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -34886,9 +34886,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -34936,9 +34936,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -34984,9 +34984,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -35033,9 +35033,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -35083,9 +35083,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -35130,9 +35130,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -41116,9 +41116,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -41571,9 +41571,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Sooner"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/sooner.png"
     ],
     "package_slugs": [
@@ -43790,9 +43790,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -43858,9 +43858,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -58717,9 +58717,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -58766,9 +58766,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -58813,9 +58813,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -58859,9 +58859,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -58907,9 +58907,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -58955,9 +58955,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -59004,9 +59004,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -59055,9 +59055,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -59102,9 +59102,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -59149,9 +59149,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -59272,9 +59272,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -59321,9 +59321,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -59370,9 +59370,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -59416,9 +59416,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -59462,9 +59462,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -59512,9 +59512,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -59617,9 +59617,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -59666,9 +59666,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -59712,9 +59712,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -59758,9 +59758,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -59806,9 +59806,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -59852,9 +59852,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -59899,9 +59899,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -59945,9 +59945,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -59995,9 +59995,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -60045,9 +60045,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -60356,9 +60356,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -60403,9 +60403,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -60451,9 +60451,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -60500,9 +60500,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -60551,9 +60551,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -60598,9 +60598,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -60648,9 +60648,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -60745,9 +60745,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -60791,9 +60791,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -60838,9 +60838,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -60885,9 +60885,9 @@ const CATALOG_DATA = [
       "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg",
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
@@ -60935,9 +60935,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -60981,9 +60981,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -61029,9 +61029,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -61220,9 +61220,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -61268,9 +61268,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -61318,9 +61318,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -61363,9 +61363,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -61413,9 +61413,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"
@@ -61461,9 +61461,9 @@ const CATALOG_DATA = [
     "chaines": [
       "Ciné+ OCS"
     ],
-    "logo_chaine": "assets/logos/cine_ocs.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
       "aoc"

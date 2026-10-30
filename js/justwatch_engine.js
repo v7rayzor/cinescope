@@ -143,7 +143,7 @@ const JustWatchEngine = (function () {
     // Bouquets SVOD Payants (CinéScope standard & mobile)
     aoc: {
       name: 'Ciné+ OCS',
-      logo: 'assets/logos/cine_ocs.svg',
+      logo: 'assets/logos/cine_ocs.png',
       badgeClass: 'badge-ocs',
       isPaid: true
     },

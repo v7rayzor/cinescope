@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cinescope-v9.27-mobile-clean';
+const CACHE_NAME = 'cinescope-v9.28-official-logos';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -14,6 +14,7 @@ const CORE_ASSETS = [
   './assets/icon-192.png',
   './assets/icon-512.png',
   './assets/logos/cine_ocs.svg',
+  './assets/logos/cine_ocs.png',
   './assets/logos/action.png',
   './assets/logos/universal_plus.svg',
   './assets/logos/universal_plus.png',
