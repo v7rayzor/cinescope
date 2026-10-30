@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cinescope-v9.30-film-sort-pc-clean';
+const CACHE_NAME = 'cinescope-v9.31-prime-mobile-4plus';
 const CORE_ASSETS = [
   './',
   './index.html',

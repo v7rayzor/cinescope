@@ -378,9 +378,9 @@ function getActiveItemPackages(item) {
   }
 
   // 2. Si l'utilisateur est dans "Tous les bouquets" ('all') :
-  // Sur mobile : STRICTEMENT les bouquets payants de base (aoc, aca, auc)
+  // Sur mobile : les bouquets payants de base (aoc, aca, auc) et Prime Video (prv)
   if (isMobile) {
-    return item.package_slugs.filter(p => ['aoc', 'aca', 'auc'].includes(p));
+    return (item.package_slugs || []).filter(p => ['aoc', 'aca', 'auc', 'prv'].includes(p));
   }
 
   // Sur Desktop PC :
@@ -728,16 +728,51 @@ function sortCatalogItems(items) {
   }
 
   // 4. TRI PAR DÉFAUT (PC & Mobile) :
-  // - Pour les Films : 1) Nouveautés ➔ 2) Expirations imminentes uniquement (<= 14 j, badges jaune & rouge) ➔ 3) Note d'étoiles (5 ➔ 1).
-  // - Pour les Séries : 1) Nouveautés ➔ 2) Expirations (toutes) ➔ 3) Note d'étoiles (5 ➔ 1).
+  // - Pour les Nouveautés : Tri par étoiles (5★ ➔ 1★), puis par date d'expiration en cas d'égalité sur la note.
+  // - Pour les Films non-nouveaux : 1) Expirations imminentes uniquement (<= 14 j, badges jaune & rouge) ➔ 2) Note d'étoiles (5 ➔ 1).
+  // - Pour les Séries non-nouvelles : 1) Expirations (toutes) ➔ 2) Note d'étoiles (5 ➔ 1).
   const sorted = [...items];
   sorted.sort((a, b) => {
-    // 1) En 1 : Nouveautés (les nouveautés récentes en priorité)
+    // 1) En 1 : Nouveautés (les nouveautés récentes en priorité absolue)
     const isNewA = isItemNew(a) ? 1 : 0;
     const isNewB = isItemNew(b) ? 1 : 0;
     if (isNewB !== isNewA) return isNewB - isNewA;
 
-    // Helper qualification expiration prioritaire
+    // A) Entre NOUVEAUTÉS : Tri par étoiles en 1er, puis départager par date d'expiration si égalité
+    if (isNewA && isNewB) {
+      const starsA = typeof a.etoiles === 'number' ? a.etoiles : (typeof a.note_globale === 'number' ? Math.round(a.note_globale / 2) : 0);
+      const starsB = typeof b.etoiles === 'number' ? b.etoiles : (typeof b.note_globale === 'number' ? Math.round(b.note_globale / 2) : 0);
+      const diffStars = starsB - starsA;
+      if (diffStars !== 0) return diffStars;
+
+      // Départager par la note globale exacte sur 10
+      const noteA = typeof a.note_globale === 'number' ? a.note_globale : (a.note_avis || 0);
+      const noteB = typeof b.note_globale === 'number' ? b.note_globale : (b.note_avis || 0);
+      const diffNote = noteB - noteA;
+      if (diffNote !== 0) return diffNote;
+
+      // En cas d'égalité sur les étoiles et la note : départager par la date d'expiration (la plus proche en 1er)
+      const expA = getItemDaysLeft(a);
+      const expB = getItemDaysLeft(b);
+      const hasExpA = expA !== null && expA >= 0;
+      const hasExpB = expB !== null && expB >= 0;
+      if (hasExpA && hasExpB) {
+        if (expA !== expB) return expA - expB;
+      } else if (hasExpA) {
+        return -1;
+      } else if (hasExpB) {
+        return 1;
+      }
+
+      // Puis année de sortie la plus récente
+      const yearA = getItemReleaseYear(a);
+      const yearB = getItemReleaseYear(b);
+      if (yearB !== yearA) return yearB - yearA;
+
+      return getDailyScore(a) - getDailyScore(b);
+    }
+
+    // B) Entre œuvres NON-NOUVEAUTÉS :
     // Films : seules les expirations imminentes (<= 14 jours, alertes jaune & rouge) remontent en haut.
     // Séries : maintien de la priorité pour toutes les dates d'expiration.
     const isPriorityExp = (item) => {
@@ -1049,7 +1084,12 @@ function updateFooterDate() {
   }
 }
 
-// Obtient le catalogue actif selon le mode (Catalogue standard Molotov vs Catalogue dédié Amazon Prime Video - Règle 8)
+// Mémoisation du catalogue combiné SVOD + Prime Video
+let _memoCombinedCatalog = null;
+let _memoBaseCatalogRef = null;
+let _memoPrimeDataRef = null;
+
+// Obtient le catalogue actif selon le mode (Catalogue standard Molotov vs Catalogue dédié Amazon Prime Video)
 function getActiveCatalog() {
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
   const primeData = (typeof window !== 'undefined' && window.PRIME_CATALOG_DATA) || (typeof PRIME_CATALOG_DATA !== 'undefined' ? PRIME_CATALOG_DATA : null);
@@ -1057,66 +1097,76 @@ function getActiveCatalog() {
     if ((AppState.isAmazonMode || AppState.activeBouquet === 'prv') && Array.isArray(primeData) && primeData.length > 0) {
       return primeData;
     }
-    if (AppState.includeAmazon && Array.isArray(primeData) && primeData.length > 0) {
-      const base = AppState.catalog || [];
-      const PKG_ORDER = ['aoc', 'aca', 'auc', 'snr', 'sdz', 'ima', 'prv'];
-      const primeMapById = new Map();
-      const primeMapByKey = new Map();
+  }
 
-      for (const p of primeData) {
-        if (p.id) primeMapById.set(p.id, p);
-        const norm = (p.titre || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '');
-        primeMapByKey.set(`${norm}_${p.annee}_${p.type}`, p);
-      }
-
-      const seenIds = new Set();
-      const seenKeys = new Set();
-      const combined = [];
-
-      for (const item of base) {
-        if (item.id) seenIds.add(item.id);
-        const norm = (item.titre || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '');
-        const key = `${norm}_${item.annee}_${item.type}`;
-        seenKeys.add(key);
-
-        const p = primeMapById.get(item.id) || primeMapByKey.get(key);
-        if (p) {
-          if (p.id) seenIds.add(p.id);
-          const pNorm = (p.titre || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '');
-          seenKeys.add(`${pNorm}_${p.annee}_${p.type}`);
-
-          const mergedSlugs = Array.from(new Set([...(item.package_slugs || []), ...(p.package_slugs || []), 'prv']));
-          mergedSlugs.sort((a, b) => {
-            const idxA = PKG_ORDER.indexOf(a);
-            const idxB = PKG_ORDER.indexOf(b);
-            return (idxA === -1 ? 99 : idxA) - (idxB === -1 ? 99 : idxB);
-          });
-          const mergedChaines = mergedSlugs.map(s => JustWatchEngine.PACKAGES_CONFIG[s]?.name).filter(Boolean);
-          const mergedLogos = mergedSlugs.map(s => JustWatchEngine.PACKAGES_CONFIG[s]?.logo).filter(Boolean);
-
-          combined.push({
-            ...item,
-            on_prime: true,
-            package_slugs: mergedSlugs,
-            chaines: mergedChaines.length > 0 ? mergedChaines : item.chaines,
-            logos_chaine: mergedLogos.length > 0 ? mergedLogos : item.logos_chaine
-          });
-        } else {
-          combined.push(item);
-        }
-      }
-
-      for (const p of primeData) {
-        const norm = (p.titre || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '');
-        const key = `${norm}_${p.annee}_${p.type}`;
-        if (!seenIds.has(p.id) && !seenKeys.has(key)) {
-          combined.push(p);
-          if (p.id) seenIds.add(p.id);
-          seenKeys.add(key);
-        }
-      }
-      return combined;
+  // Si on est sur mobile ou que includeAmazon est actif sur PC, combiner base SVOD et Prime Video
+  const shouldCombinePrime = isMobile || (!isMobile && AppState.includeAmazon);
+  if (shouldCombinePrime && Array.isArray(primeData) && primeData.length > 0) {
+    const base = AppState.catalog || [];
+    if (_memoCombinedCatalog && _memoBaseCatalogRef === base && _memoPrimeDataRef === primeData) {
+      return _memoCombinedCatalog;
     }
+
+    const PKG_ORDER = ['aoc', 'aca', 'auc', 'snr', 'sdz', 'ima', 'prv'];
+    const primeMapById = new Map();
+    const primeMapByKey = new Map();
+
+    for (const p of primeData) {
+      if (p.id) primeMapById.set(p.id, p);
+      const norm = (p.titre || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '');
+      primeMapByKey.set(`${norm}_${p.annee}_${p.type}`, p);
+    }
+
+    const seenIds = new Set();
+    const seenKeys = new Set();
+    const combined = [];
+
+    for (const item of base) {
+      if (item.id) seenIds.add(item.id);
+      const norm = (item.titre || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '');
+      const key = `${norm}_${item.annee}_${item.type}`;
+      seenKeys.add(key);
+
+      const p = primeMapById.get(item.id) || primeMapByKey.get(key);
+      if (p) {
+        if (p.id) seenIds.add(p.id);
+        const pNorm = (p.titre || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '');
+        seenKeys.add(`${pNorm}_${p.annee}_${p.type}`);
+
+        const mergedSlugs = Array.from(new Set([...(item.package_slugs || []), ...(p.package_slugs || []), 'prv']));
+        mergedSlugs.sort((a, b) => {
+          const idxA = PKG_ORDER.indexOf(a);
+          const idxB = PKG_ORDER.indexOf(b);
+          return (idxA === -1 ? 99 : idxA) - (idxB === -1 ? 99 : idxB);
+        });
+        const mergedChaines = mergedSlugs.map(s => JustWatchEngine.PACKAGES_CONFIG[s]?.name).filter(Boolean);
+        const mergedLogos = mergedSlugs.map(s => JustWatchEngine.PACKAGES_CONFIG[s]?.logo).filter(Boolean);
+
+        combined.push({
+          ...item,
+          on_prime: true,
+          package_slugs: mergedSlugs,
+          chaines: mergedChaines.length > 0 ? mergedChaines : item.chaines,
+          logos_chaine: mergedLogos.length > 0 ? mergedLogos : item.logos_chaine
+        });
+      } else {
+        combined.push(item);
+      }
+    }
+
+    for (const p of primeData) {
+      const norm = (p.titre || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '');
+      const key = `${norm}_${p.annee}_${p.type}`;
+      if (!seenIds.has(p.id) && !seenKeys.has(key)) {
+        combined.push(p);
+        if (p.id) seenIds.add(p.id);
+        seenKeys.add(key);
+      }
+    }
+    _memoBaseCatalogRef = base;
+    _memoPrimeDataRef = primeData;
+    _memoCombinedCatalog = combined;
+    return combined;
   }
   return AppState.catalog || [];
 }
@@ -1127,12 +1177,14 @@ function initCounts() {
   const currentCatalog = getActiveCatalog();
   const eligibleFilms = currentCatalog.filter(item => {
     if (!item.is_eligible || (item.type !== 'film' && item.type !== 'telefilm')) return false;
-    if (isMobile && !isItemBasePaid(item)) return false;
+    if (isMobile && !isItemBasePaid(item) && !isItemOnPrimeVideo(item)) return false;
+    if (isMobile && !matchesStars(item, '4')) return false;
     return true;
   });
   const eligibleSeries = currentCatalog.filter(item => {
     if (!item.is_eligible || item.type !== 'serie') return false;
-    if (isMobile && !isItemBasePaid(item)) return false;
+    if (isMobile && !isItemBasePaid(item) && !isItemOnPrimeVideo(item)) return false;
+    if (isMobile && !matchesStars(item, '4')) return false;
     return true;
   });
 
@@ -1155,7 +1207,7 @@ function initBouquetsCounts() {
   });
 
   const countAll = eligibleTypeItems.filter(i => {
-    if (isMobile) return isItemBasePaid(i);
+    if (isMobile) return (isItemBasePaid(i) || isItemOnPrimeVideo(i)) && matchesStars(i, '4');
     if (isItemBasePaid(i)) return true;
     if (AppState.includeSpecialized && isItemSpecialized(i)) return true;
     if (AppState.includeAmazon && isItemOnPrimeVideo(i)) return true;
@@ -1194,7 +1246,7 @@ function initBouquetsCounts() {
             ? eligibleTypeItems.filter(i => isItemOnPrimeVideo(i))
             : eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes(AppState.activeBouquet)))
         : eligibleTypeItems.filter(i => {
-            if (isMobile) return isItemBasePaid(i);
+            if (isMobile) return (isItemBasePaid(i) || isItemOnPrimeVideo(i)) && matchesStars(i, '4');
             if (isItemBasePaid(i)) return true;
             if (AppState.includeSpecialized && isItemSpecialized(i)) return true;
             if (AppState.includeAmazon && isItemOnPrimeVideo(i)) return true;
@@ -2069,12 +2121,12 @@ function getCategoryEligibleItems(options = {}) {
       if (item.type !== AppState.activeType) return false;
     }
 
-    // RÈGLE D'EXCLUSIVITÉ PC (Règle 8 AGENTS.md) :
-    // Sur mobile (largeur < 1024px), STRICTEMENT les œuvres SVOD de base (aoc, aca, auc).
-    // Zéro TNT, zéro chaînes spécialisées.
+    // Sur mobile (largeur < 1024px) : SVOD de base (aoc, aca, auc) ET Prime Video (prv).
+    // Restriction stricte aux œuvres 4+ (score >= 7.0 / 4 et 5 étoiles).
     const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
     if (isMobile) {
-      if (!isItemBasePaid(item)) return false;
+      if (!isItemBasePaid(item) && !isItemOnPrimeVideo(item)) return false;
+      if (!matchesStars(item, '4')) return false;
     }
 
     // Mode Exclusif Amazon Prime (PC uniquement - Règle 8)
@@ -2165,17 +2217,18 @@ function updateStarButtonsCounts(items) {
 
 // Déterminer dynamiquement le film / la série avec la meilleure note pour le fond d'écran cinématique mobile
 function getMobileBestRatedFilm() {
-  if (!AppState.catalog || AppState.catalog.length === 0) return null;
+  const currentCatalog = getActiveCatalog();
+  if (!currentCatalog || currentCatalog.length === 0) return null;
   const targetType = AppState.activeType || 'film';
-  const pool = AppState.catalog.filter(it => {
+  const pool = currentCatalog.filter(it => {
     if (!it || !it.is_eligible || !it.poster) return false;
     if (targetType === 'film') {
       if (it.type !== 'film' && it.type !== 'telefilm') return false;
     } else {
       if (it.type !== targetType) return false;
     }
-    // Mobile : bouquets de base uniquement (Règle 8 AGENTS.md)
-    if (!isItemBasePaid(it)) return false;
+    if (!isItemBasePaid(it) && !isItemOnPrimeVideo(it)) return false;
+    if (!matchesStars(it, '4')) return false;
     return true;
   });
 
@@ -2194,16 +2247,18 @@ function getMobileBestRatedFilm() {
 }
 
 function getMobileBestRatedFilmForCategory(catKey) {
-  if (!AppState.catalog || AppState.catalog.length === 0) return null;
+  const currentCatalog = getActiveCatalog();
+  if (!currentCatalog || currentCatalog.length === 0) return null;
   const targetType = AppState.activeType || 'film';
-  const pool = AppState.catalog.filter(it => {
+  const pool = currentCatalog.filter(it => {
     if (!it || !it.is_eligible || !it.poster) return false;
     if (targetType === 'film') {
       if (it.type !== 'film' && it.type !== 'telefilm') return false;
     } else {
       if (it.type !== targetType) return false;
     }
-    if (!isItemBasePaid(it)) return false;
+    if (!isItemBasePaid(it) && !isItemOnPrimeVideo(it)) return false;
+    if (!matchesStars(it, '4')) return false;
     return it.categories && it.categories.includes(catKey);
   });
 

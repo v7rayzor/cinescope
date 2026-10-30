@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.30** / Cache **cinescope-v9.30-film-sort-pc-clean** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.31** / Cache **cinescope-v9.31-prime-mobile-4plus** / Stockage **_v48**).
 
 ---
 
@@ -435,7 +435,11 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
       2. ⏳ Expirations imminentes uniquement (badges jaune $\le 14$ j et rouge $\le 3$ j), classées par jours restants croissants. Les films à expiration lointaine (> 14 j, badge bleu) ne polluent plus le haut du catalogue et sont ordonnés selon leurs étoiles.
       3. ⭐ Classement par étoiles décroissant (5★ ➔ 1★), départagé par la note critique exacte sur 10 puis l'année de sortie.
     * **Séries intactes** : Algorithme de tri par défaut des séries maintenu à l'identique.
-  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.30-film-sort-pc-clean` et `?v=9.30` sur l'ensemble des scripts et styles.
+  - **Intégration Prime Video sur Portable & Filtre Stricte 4+ Mobile (v9.31)** :
+    * **Ajout du catalogue Prime Video sur portable** : Combinaison et déduplication en temps réel avec les bouquets SVOD de base, montant le catalogue mobile brut à 2 133 œuvres (1 563 films, 570 séries) avec logo officiel Prime Video sur les cartes d'affiches.
+    * **Filtre exclusif « 4+ » sur portable** : Conservation stricte des œuvres de haute qualité notées >= 7.0/10 (4★ et 5★) sur smartphone, isolant une sélection d'élite de 1 455 œuvres (975 films 4+, 480 séries 4+).
+    * **Tri des Nouveautés optimisé** : Au sein des nouveautés (< 7 jours), classement en priorité par note d'étoiles (5★ ➔ 4★ ➔ etc.) et note sur 10, puis départage par date d'expiration (la plus proche en tête) en cas d'égalité stricte.
+  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.31-prime-mobile-4plus` et `?v=9.31` sur l'ensemble des scripts et styles.
 
 
 
