@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.22** / Cache **cinescope-v9.22-mobile-portal** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.23** / Cache **cinescope-v9.23-mobile-portal** / Stockage **_v48**).
 
 ---
 
@@ -398,6 +398,7 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
 * **Portail d'Accueil & Navigation Progressive Mobile en 3 Étapes (30/10/2026 - v9.22 - Règles 1, 7 & 8 AGENTS.md)** :
   - **Étape 1 : Page d'Accueil Mobile Épurée avec Fond d'Écran Cinématique & 7 Catégories Verticales** :
     * Arrière-plan cinématique dynamique flouté (`filter: blur(14px) brightness(0.35)`) basé sur l'affiche de l'œuvre n°1 en étoiles (*Je suis toujours là* en Films, *Extra-Lucide* en Séries).
+    * Badge textuel "N°1 Étoiles" retiré pour ne conserver strictement que le titre "Catégories" et les cartes verticales.
     * Présentation **exclusive et verticale** des 7 catégories principales sur la page (`dedans mettre les categorie principal en vertical que sa dans cette page`).
     * Masquage complet du catalogue lourd (zéro DOM inutile) et des contrôles annexes.
   - **Étape 2 : Transition Immédiate vers les Sous-Catégories & Bouton de Changement Dédié** :
@@ -410,7 +411,7 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Sanctuaire PC Desktop Intact (Règle 8)** :
     * Le portail mobile est strictement exclusif aux résolutions `< 1024px` (`.mobile-only-portal` masqué en `display: none !important` sur PC).
     * L'affichage PC en colonnes et les profils restent 100% inchangés.
-  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.22-mobile-portal` et `?v=9.22` sur l'ensemble des scripts et styles.
+  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.23-mobile-portal` et `?v=9.23` sur l'ensemble des scripts et styles.
 
 
 

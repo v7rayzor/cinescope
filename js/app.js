@@ -2243,7 +2243,6 @@ function renderMobilePortal() {
     const stepSubcategories = document.getElementById('mobileStepSubcategories');
     const topBar = document.getElementById('mobilePortalTopBar');
     const backdrop = document.getElementById('mobilePortalBackdrop');
-    const heroBadgeText = document.getElementById('mobileHeroBadgeText');
     const catList = document.getElementById('mobileCategoriesVList');
 
     if (topBar) topBar.style.display = 'none';
@@ -2254,10 +2253,6 @@ function renderMobilePortal() {
     const bestFilm = getMobileBestRatedFilm();
     if (backdrop && bestFilm && bestFilm.poster) {
       backdrop.style.backgroundImage = `url("${bestFilm.poster}")`;
-    }
-    if (heroBadgeText && bestFilm) {
-      const bestScore = bestFilm.note_globale || bestFilm.note_avis || '';
-      heroBadgeText.textContent = `N°1 Étoiles : ${bestFilm.titre}${bestScore ? ` (${bestScore}★)` : ''}`;
     }
 
     if (catList) {
