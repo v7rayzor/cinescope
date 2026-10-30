@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cinescope-v9.34-sticky-mobile-nav';
+const CACHE_NAME = 'cinescope-v9.35-unified-sticky-header';
 const CORE_ASSETS = [
   './',
   './index.html',

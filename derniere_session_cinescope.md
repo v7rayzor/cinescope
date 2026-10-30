@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.34** / Cache **cinescope-v9.34-sticky-mobile-nav** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.35** / Cache **cinescope-v9.35-unified-sticky-header** / Stockage **_v48**).
 
 ---
 
@@ -444,10 +444,12 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
     * **Suppression du bouton manuel [ 🔄 Synchro Amazon ]** : Le catalogue Prime Video étant 100% synchronisé automatiquement chaque jour, le bouton manuel devenu inutile a été retiré de l'interface PC.
     * **Filtre Universel 4+ (PC et Portable)** : L'ensemble du catalogue exclut strictement toutes les œuvres dont la note critique est < 7.0/10. Sur PC comme sur smartphone, seules les œuvres 4★ et 5★ sont désormais visibles.
     * **Bouton « Tous » masqué sur PC** : Remplacement de l'option « Tous » par le palier par défaut `[ ★ 4+ ]` complété par `[ ★ 5 ]` sur grand écran.
-  - **En-tête Mobile Fixé (Sticky) & Épuration du Titre Redondant (v9.34)** :
-    * **Masquage du titre redondant `.section-intro` sur mobile** : Retrait du titre textuel `Action (Films)` et de sa ligne horizontale grise sur smartphone (`display: none !important`), laissant la grille d'affiches remonter immédiatement sous la barre de navigation.
-    * **Barre de navigation mobile fixée (`sticky`)** : `.mobile-titles-top-bar` (bouton retour `[ ⟵ Cliquez ici pour changer de catégorie ]` et fil d'Ariane `[ 🏹 Action & Aventure ➔ Action ]`) fixé en permanence au défilement sous le header avec un fond en verre dépoli (`backdrop-filter: blur(16px)`). Les jaquettes défilent en dessous de manière fluide et le bouton retour reste immédiatement accessible sans remonter la page.
-  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.34-sticky-mobile-nav` et `?v=9.34` sur l'ensemble des scripts et styles.
+  - **En-tête Mobile Fixé 100% Solidaire & Compatibilité Sticky Mobile Totale (v9.35)** :
+    * **Remplacement de `overflow-x: hidden` par `overflow-x: clip`** : Élimination du blocage natif de `position: sticky` propre aux moteurs mobiles (Safari iOS et Chrome Android), réactivant instantanément le collage matériel sans aucun glissement horizontal.
+    * **Intégration directe du bloc mobile dans `.main-header`** : Déplacement de `.mobile-titles-top-bar` (bouton `[ ⟵ Cliquez ici pour changer de catégorie ]` et fil d'Ariane) directement au sein du `<header class="main-header">`. L'en-tête forme désormais un bloc 100% solidaire collé au sommet (`top: 0`), sans dépendance à un calcul d'offset JS, sans décalage de scroll, avec effet de verre dépoli unifié (`backdrop-filter: blur(20px)`).
+    * **Masquage du titre redondant `.section-intro` sur mobile** : Retrait définitif de `Action (Films)` et de son séparateur sur smartphone.
+    * **Sanctuaire PC Desktop** : Aucun impact sur la version grand écran (`display: none !important` via `.mobile-only-portal`).
+  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.35-unified-sticky-header` et `?v=9.35` sur l'ensemble des scripts et styles.
 
 
 

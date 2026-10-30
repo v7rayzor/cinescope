@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=9.34">
+  <link rel="stylesheet" href="css/style.css?v=9.35">
 </head>
 <body>
   <!-- Header / Navigation principale -->
@@ -64,6 +64,15 @@
           <span class="tab-badge" id="seriesCount">0</span>
         </button>
       </nav>
+    </div>
+
+    <!-- En-tête de navigation mobile fixée au défilement (Étape 3 : Changement de catégorie & Fil d'Ariane) -->
+    <div class="mobile-titles-top-bar mobile-only-portal" id="mobileTitlesTopBar" style="display: none;">
+      <button type="button" class="mobile-change-cat-btn" id="mobileChangeCatBtnTitles">
+        <span class="change-cat-arrow">⟵</span>
+        <span class="change-cat-text">Cliquez ici pour changer de catégorie</span>
+      </button>
+      <div class="mobile-active-breadcrumb" id="mobileActiveBreadcrumb"></div>
     </div>
   </header>
 
@@ -404,15 +413,6 @@
       </div>
     </div>
 
-    <!-- Bouton En-tête au-dessus des titres sur mobile (Étape 3) -->
-    <div class="mobile-titles-top-bar mobile-only-portal" id="mobileTitlesTopBar" style="display: none;">
-      <button type="button" class="mobile-change-cat-btn" id="mobileChangeCatBtnTitles">
-        <span class="change-cat-arrow">⟵</span>
-        <span class="change-cat-text">Cliquez ici pour changer de catégorie</span>
-      </button>
-      <div class="mobile-active-breadcrumb" id="mobileActiveBreadcrumb"></div>
-    </div>
-
     <!-- En-tête de la section active -->
     <section class="section-intro">
       <div class="section-intro-text">
@@ -565,12 +565,12 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="data/ai_duel_cache.js?v=9.34"></script>
-  <script src="data/ai_subcategories_cache.js?v=9.34"></script>
-  <script src="js/catalog.js?v=9.34"></script>
-  <script src="data/prime_catalog.js?v=9.34"></script>
-  <script src="js/justwatch_engine.js?v=9.34"></script>
-  <script src="js/app.js?v=9.34"></script>
+  <script src="data/ai_duel_cache.js?v=9.35"></script>
+  <script src="data/ai_subcategories_cache.js?v=9.35"></script>
+  <script src="js/catalog.js?v=9.35"></script>
+  <script src="data/prime_catalog.js?v=9.35"></script>
+  <script src="js/justwatch_engine.js?v=9.35"></script>
+  <script src="js/app.js?v=9.35"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
