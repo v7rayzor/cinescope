@@ -856,8 +856,17 @@ document.addEventListener('DOMContentLoaded', async () => {
   initGridDelegation();
   initSyncControls();
 
+  const updateHeaderOffset = () => {
+    const header = document.querySelector('.main-header');
+    if (header) {
+      document.documentElement.style.setProperty('--header-offset', `${header.offsetHeight}px`);
+    }
+  };
+  updateHeaderOffset();
+
   // Actualisation réactive lors du redimensionnement de la fenêtre (PC / Mobile)
   window.addEventListener('resize', () => {
+    updateHeaderOffset();
     initCounts();
     initBouquetsCounts();
     renderCatalog();
