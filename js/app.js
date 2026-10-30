@@ -2260,6 +2260,7 @@ function renderMobilePortal() {
       const pool = getFilteredItemsBeforeStars({ ignoreCategory: true, ignoreSubCategory: true, ignoreProfile: true });
 
       const MAIN_CATS = [
+        { key: 'all', name: 'Tous les titres', icon: '✨', color: '#e50914' },
         { key: 'action_aventure', name: 'Action & Aventure', icon: '🏹', color: '#ea580c' },
         { key: 'thriller_policier', name: 'Thriller & Policier', icon: '🔍', color: '#e11d48' },
         { key: 'scifi_fantastique', name: 'Science-fiction & Fantastique', icon: '🚀', color: '#06b6d4' },
@@ -2270,7 +2271,9 @@ function renderMobilePortal() {
       ];
 
       MAIN_CATS.forEach(c => {
-        const count = pool.filter(it => it.categories && it.categories.includes(c.key)).length;
+        const count = c.key === 'all'
+          ? pool.length
+          : pool.filter(it => it.categories && it.categories.includes(c.key)).length;
         const card = document.createElement('div');
         card.className = 'mobile-category-card';
         card.style.setProperty('--cat-accent', c.color);
@@ -2292,7 +2295,11 @@ function renderMobilePortal() {
         card.addEventListener('click', () => {
           AppState.activeCategory = c.key;
           AppState.activeSubCategory = 'all';
-          AppState.mobileNavStep = 'subcategories';
+          if (c.key === 'all') {
+            AppState.mobileNavStep = 'titles';
+          } else {
+            AppState.mobileNavStep = 'subcategories';
+          }
           renderCatalog();
           window.scrollTo({ top: 0, behavior: 'smooth' });
         });
@@ -2427,25 +2434,31 @@ function renderMobilePortal() {
   const breadcrumb = document.getElementById('mobileActiveBreadcrumb');
   if (breadcrumb) {
     const catKey = AppState.activeCategory;
+    const isAll = catKey === 'all';
     const catConfig = SUB_CATEGORIES_CONFIG[catKey] || { label: 'Catégorie' };
-    const catIcon = (CATEGORIES_INFO[catKey] && CATEGORIES_INFO[catKey].icon) || '🎬';
+    const catIcon = isAll ? '✨' : ((CATEGORIES_INFO[catKey] && CATEGORIES_INFO[catKey].icon) || '🎬');
+    const catLabel = isAll ? 'Tous les titres' : catConfig.label;
     const subLabel = (AppState.activeSubCategory && AppState.activeSubCategory !== 'all')
       ? AppState.activeSubCategory
-      : 'Tous';
+      : '';
 
-    breadcrumb.innerHTML = `
-      <span style="cursor: pointer; text-decoration: underline;" id="breadcrumbToSubcats">${catIcon} ${catConfig.label}</span>
-      <span>➔</span>
-      <span class="breadcrumb-accent">${subLabel}</span>
-    `;
+    if (isAll || !subLabel) {
+      breadcrumb.innerHTML = `<span class="breadcrumb-accent">${catIcon} ${catLabel}</span>`;
+    } else {
+      breadcrumb.innerHTML = `
+        <span style="cursor: pointer; text-decoration: underline;" id="breadcrumbToSubcats">${catIcon} ${catLabel}</span>
+        <span>➔</span>
+        <span class="breadcrumb-accent">${subLabel}</span>
+      `;
 
-    const toSubcatsBtn = document.getElementById('breadcrumbToSubcats');
-    if (toSubcatsBtn) {
-      toSubcatsBtn.addEventListener('click', () => {
-        AppState.mobileNavStep = 'subcategories';
-        renderCatalog();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      });
+      const toSubcatsBtn = document.getElementById('breadcrumbToSubcats');
+      if (toSubcatsBtn) {
+        toSubcatsBtn.addEventListener('click', () => {
+          AppState.mobileNavStep = 'subcategories';
+          renderCatalog();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
     }
   }
 
