@@ -1,6 +1,6 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.28** / Cache **cinescope-v9.28-official-logos** / Stockage **_v48**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.29** / Cache **cinescope-v9.29-clean-headings** / Stockage **_v48**).
 
 ---
 
@@ -422,10 +422,13 @@ Chaque film ou série est qualifié dans **strictement une seule** des 7 catégo
   - **Nouveaux Logos Officiels HD Ciné+ OCS, Insomnia & Sooner (PC & Portable)** :
     * Intégration des logos officiels transparents fournis pour **Ciné+ OCS** (`assets/logos/cine_ocs.png` et `assets/logos/cine_ocs.svg`), **Insomnia** (`assets/logos/insomnia.png`), et **Sooner** (`assets/logos/sooner.png`).
     * Éradication des anciens visuels carrés / bricolés pour un rendu net, harmonieux et calibré au pixel près dans les puces bouquets et sur les jaquettes d'affiches.
+  - **Suppression Totale des Textes Explicatifs des Catégories / Sous-Catégories** :
+    * Suppression de l'ensemble des descriptions textuelles redondantes (`desc: ""` dans `CATEGORIES_INFO` et masquage complet de `.section-description`).
+    * Écran épuré et sobre sur PC comme sur mobile, sans paragraphes descriptifs superflus.
   - **Sanctuaire PC Desktop Intact (Règle 8)** :
     * Le portail mobile est strictement exclusif aux résolutions `< 1024px` (`.mobile-only-portal` masqué en `display: none !important` sur PC).
     * L'affichage PC en colonnes et les profils restent 100% inchangés.
-  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.28-official-logos` et `?v=9.28` sur l'ensemble des scripts et styles.
+  - **Cache et PWA** : Cache service worker mis à niveau vers `cinescope-v9.29-clean-headings` et `?v=9.29` sur l'ensemble des scripts et styles.
 
 
 

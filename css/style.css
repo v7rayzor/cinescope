@@ -959,9 +959,7 @@ body.modal-open {
 }
 
 .section-description {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
-  max-width: 680px;
+  display: none !important;
 }
 
 .filter-stats {

@@ -13,37 +13,37 @@ const CATEGORIES_INFO = {
   action_aventure: {
     icon: "🏹",
     title: "Action & Aventure",
-    desc: "Pour le grand spectacle, le rythme et le mouvement. Action pure, western, arts martiaux, guerre, survie et grandes épopées."
+    desc: ""
   },
   thriller_policier: {
     icon: "🔍",
     title: "Thriller & Policier",
-    desc: "Pour le mystère, la tension et l'enquête. Polars urbains, enquêtes judiciaires, espionnage, machinations politiques et thrillers psychologiques."
+    desc: ""
   },
   scifi_fantastique: {
     icon: "🚀",
     title: "Science-fiction & Fantastique",
-    desc: "Pour l'évasion, le voyage et l'imaginaire. Voyages dans le temps, espace, anticipation/dystopie, super-héros et mondes magiques."
+    desc: ""
   },
   horreur_epouvante: {
     icon: "👻",
     title: "Horreur & Épouvante",
-    desc: "Pour le frisson, la peur et l'angoisse. Films de monstres, slashers, surnaturel/démons, gore et body horror."
+    desc: ""
   },
   comedie: {
     icon: "🎭",
     title: "Comédie",
-    desc: "Pour décompresser et rire. Comédies populaires, satires, parodies et comédies d'action."
+    desc: ""
   },
   drame_emotion: {
     icon: "❤️",
     title: "Drame & Émotion",
-    desc: "Pour les récits profonds, réalistes et touchants. Drames familiaux, histoires vraies/biopics, chroniques sociales et romances dramatiques."
+    desc: ""
   },
   animation_famille: {
     icon: "🧸",
     title: "Animation & Famille",
-    desc: "Pour un public jeune ou un visionnage tous publics. Films et séries d'animation, aventures jeunesse et contes familiaux."
+    desc: ""
   }
 };
 
@@ -2629,8 +2629,8 @@ function renderCatalog() {
     }
   }
   if (descEl) {
-    descEl.textContent = catInfo.desc || '';
-    descEl.style.display = catInfo.desc ? 'block' : 'none';
+    descEl.textContent = '';
+    descEl.style.display = 'none';
   }
 
   let items = getFilteredItemsBeforeStars();
