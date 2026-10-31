@@ -1,6 +1,16 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.37** / Cache **cinescope-v9.37-strict-flatrate-v49** / Stockage **_v49**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.38** / Cache **cinescope-v9.38-season-selector-v50** / Stockage **_v49**).
+
+---
+
+## Nouveautés de la Session (v9.38)
+* **Sélecteur de Saisons Intelligent dans la Modale Série** :
+  - Lorsqu'une série possède plusieurs saisons disponibles, le sélecteur s'ouvre par défaut sur l'option **`Saisons`** (vue globale : cumul total d'épisodes et plage d'années globale).
+  - Un clic direct sur **`Saison 1`**, **`Saison 2`**, etc. actualise instantanément le badge avec le nombre d'épisodes de la saison choisie et son année de diffusion.
+  - L'utilisateur peut à tout moment re-sélectionner **`Saisons`** pour retrouver le cumul d'épisodes de la série.
+  - **Sanctuarisation de la Note** : La note critique/globale affichée demeure **strictement et immuablement la note moyenne de la série**, le sélecteur ayant pour vocation exclusive de consulter le nombre d'épisodes.
+  - Pour les séries à saison unique, le sélecteur demeure directement sur `Saison 1`.
 
 ---
 

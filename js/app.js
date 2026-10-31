@@ -3109,25 +3109,59 @@ function openModal(item) {
 
     if (seasonWrapper && seasonSelect) {
       seasonSelect.innerHTML = '';
+      const hasMultipleSeasons = seasons.length > 1;
+
+      // S'il y a plusieurs saisons, ajouter l'option "Saisons" en tête
+      if (hasMultipleSeasons) {
+        const allOpt = document.createElement('option');
+        allOpt.value = 'all';
+        allOpt.textContent = 'Saisons';
+        seasonSelect.appendChild(allOpt);
+      }
+
       seasons.forEach((s, idx) => {
         const opt = document.createElement('option');
-        opt.value = idx;
+        opt.value = String(idx);
         opt.textContent = `Saison ${s.saison}`;
         seasonSelect.appendChild(opt);
       });
       seasonWrapper.style.display = 'inline-flex';
 
-      // Par défaut : nombre d'épisodes pour toute la série dispo (uniquement saisons disponibles)
-      if (totalEpisodes > 0) {
-        updateEpisodesBadge(totalEpisodes, `Total : ${totalEpisodes} épisodes disponibles pour l'ensemble des saisons`);
+      const showGlobalSeriesMeta = () => {
+        if (item.annee_fin && item.annee_fin !== item.annee) {
+          year.textContent = `${item.annee} - ${item.annee_fin}`;
+        } else {
+          year.textContent = item.annee || '-';
+        }
+        if (totalEpisodes > 0) {
+          updateEpisodesBadge(totalEpisodes, `Total : ${totalEpisodes} épisodes disponibles pour l'ensemble des saisons`);
+        } else {
+          const s0 = seasons[0];
+          updateEpisodesBadge(s0.episodes, `Saison ${s0.saison} : ${s0.episodes} épisodes`);
+        }
+      };
+
+      // Initialiser par défaut : "Saisons" (vue globale) si plusieurs saisons, ou la saison unique
+      if (hasMultipleSeasons) {
+        seasonSelect.value = 'all';
+        showGlobalSeriesMeta();
       } else {
+        seasonSelect.value = '0';
         const s0 = seasons[0];
+        if (s0.annee) year.textContent = s0.annee;
         updateEpisodesBadge(s0.episodes, `Saison ${s0.saison} : ${s0.episodes} épisodes`);
       }
 
-      // Quand on clique sur le menu déroulant pour prendre une saison : n'affiche que les épisodes de la saison
+      // Quand on clique sur le menu déroulant :
+      // La note moyenne de la série reste strictement fixe et inchangée.
+      // Le sélecteur sert UNIQUEMENT à consulter le nombre d'épisodes (et l'année de la saison).
       seasonSelect.onchange = (e) => {
-        const selected = seasons[parseInt(e.target.value, 10)];
+        const val = e.target.value;
+        if (val === 'all') {
+          showGlobalSeriesMeta();
+          return;
+        }
+        const selected = seasons[parseInt(val, 10)];
         if (selected) {
           if (selected.annee) {
             year.textContent = selected.annee;
@@ -3136,9 +3170,6 @@ function openModal(item) {
             updateEpisodesBadge(selected.episodes, `Saison ${selected.saison} : ${selected.episodes} épisodes disponibles`);
           } else {
             if (episodesBadge) episodesBadge.style.display = 'none';
-          }
-          if (ratingAvisVal && selected.note) {
-            ratingAvisVal.textContent = Number(selected.note).toFixed(1);
           }
         }
       };

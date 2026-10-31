@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cinescope-v9.37-strict-flatrate-v49';
+const CACHE_NAME = 'cinescope-v9.38-season-selector-v50';
 const CORE_ASSETS = [
   './',
   './index.html',
