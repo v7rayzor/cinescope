@@ -920,5 +920,1570 @@
     "titre": "Allegiance",
     "category": "thriller_policier",
     "justification": "L'intrigue repose sur une enquête policière, un système judiciaire défectueux et des manœuvres politiques, sans action physique dominante."
+  },
+  "jw-tm1484207": {
+    "titre": "The Substance",
+    "category": "horreur_epouvante",
+    "justification": "Malgré un prétexte de modification d'ADN, le film est avant tout un body horror satirique dont le cœur repose sur la terreur viscérale et la dégradation monstrueuse du corps."
+  },
+  "jw-ts476818": {
+    "titre": "Carrie",
+    "category": "horreur_epouvante",
+    "justification": "Le récit de Carrie repose avant tout sur la terreur, la persécution et le pouvoir télékinétique comme source d'effroi, inscrivant l'œuvre dans l'horreur plutôt que dans la science-fiction."
+  },
+  "jw-ts387023": {
+    "titre": "Cat's Eyes",
+    "category": "action_aventure",
+    "justification": "Adaptation du manga Cat's Eye centrée sur des sœurs cambrioleuses accomplissant des vols risqués et des cascades, avec une dominante action-aventure plutôt qu'enquête policière ou comédie."
+  },
+  "jw-ts314375": {
+    "titre": "Reacher",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose avant tout sur une conspiration criminelle et une enquête policière, avec un Reacher qui déjoue un complot par son astuce plutôt que par des combats physiques dominants."
+  },
+  "jw-ts450756": {
+    "titre": "Neagley",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur une enquête de détective privé autour d'un accident suspect et d'une quête de justice, dominée par le suspense criminel plutôt que par l'action physique."
+  },
+  "jw-ts233781": {
+    "titre": "The Terminal List",
+    "category": "action_aventure",
+    "justification": "La série est portée par la vengeance physique et les opérations de traque menées par un ancien commando, avec des fusillades et des combats dominants, malgré une intrigue de conspiration."
+  },
+  "jw-tm1674486": {
+    "titre": "Normal",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur une enquête de shérif, des secrets, la corruption et un hold-up dérapé, sans action physique dominante."
+  },
+  "jw-ts9": {
+    "titre": "The Walking Dead",
+    "category": "horreur_epouvante",
+    "justification": "The Walking Dead est avant tout une série de survie face à des zombies, centrée sur la terreur, la peur et l'horreur viscérale, correspondant pleinement à la catégorie horreur_epouvante."
+  },
+  "jw-ts354502": {
+    "titre": "Reine rouge",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur une enquête criminelle et une résolution cérébrale menée par une profileuse surdouée, sans action physique dominante."
+  },
+  "jw-ts13608": {
+    "titre": "Banshee",
+    "category": "action_aventure",
+    "justification": "Banshee est dominée par des combats physiques intenses et des scènes d'action spectaculaires, portées par un protagoniste expert en arts martiaux, malgré une intrigue criminelle secondaire."
+  },
+  "jw-tm276128": {
+    "titre": "The Endless",
+    "category": "scifi_fantastique",
+    "justification": "Le film explore un mystère cosmique et une distorsion temporelle dans un cadre de secte, avec des événements inexpliqués relevant davantage de la science-fiction fantastique que de l'horreur pure."
+  },
+  "jw-ts3447": {
+    "titre": "Chicago Police Department",
+    "category": "thriller_policier",
+    "justification": "Série policière centrée sur les enquêtes criminelles, le crime organisé et les affaires majeures, avec une action physique non dominante."
+  },
+  "jw-tm2930066": {
+    "titre": "Masterplan",
+    "category": "thriller_policier",
+    "justification": "Le synopsis met en avant un casse sophistiqué (vol de la Joconde) avec une intrigue criminelle et des tensions familiales, sans indiquer une dominante comique ou d'action physique pure."
+  },
+  "jw-tm1436682": {
+    "titre": "Pinocchio : Déchaîné",
+    "category": "horreur_epouvante",
+    "justification": "Le synopsis décrit une marionnette animée par une âme qui se lance dans une quête sanglante pour éradiquer le mal, ce qui place le récit au cœur de l'horreur macabre et de la terreur, plutôt que de la science-fiction ou du fantastique."
+  },
+  "jw-ts20142": {
+    "titre": "Hannibal",
+    "category": "thriller_policier",
+    "justification": "Le cœur du récit repose sur la traque psychologique et l'enquête du profiler Will Graham face à la machination criminelle de Hannibal Lecter, sans que la terreur surnaturelle ou le gore sadique ne dominent."
+  },
+  "jw-tm860276": {
+    "titre": "Nobody",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant une avalanche de combats physiques, fusillades et poursuites, avec un protagoniste aux compétences létales insoupçonnées, ce qui place l'action cinétique au premier plan."
+  },
+  "jw-tm1453013": {
+    "titre": "Les Spécialistes",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant une recouvreuse de dettes de haut vol entourée de protecteurs pour des négociations dangereuses, suggérant une dominante d'action physique et de spectaculaire plutôt qu'une intrigue policière cérébrale."
+  },
+  "jw-tm2869846": {
+    "titre": "The Get Out",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur la trahison, le blanchiment d'argent et la fuite face aux cartels, avec un suspense criminel dominant plutôt que des combats physiques ou des poursuites spectaculaires."
+  },
+  "jw-ts21247": {
+    "titre": "Vampire Diaries",
+    "category": "horreur_epouvante",
+    "justification": "Le cœur du récit repose sur les vampires, la sorcellerie et les créatures surnaturelles macabres, avec une atmosphère de terreur et de mystère gothique typique de l'horreur épouvante."
+  },
+  "jw-tm188690": {
+    "titre": "Le Loup de Wall Street",
+    "category": "comedie",
+    "justification": "Le film est avant tout une satire burlesque et outrancière du monde de la finance, où l'humour et l'excès dominent, reléguant l'intrigue criminelle au second plan."
+  },
+  "jw-tm1305864": {
+    "titre": "Land of Bad",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par des combats physiques, des fusillades et une opération de sauvetage spectaculaire au cœur d'un affrontement mortel, caractéristiques de l'action cinétique."
+  },
+  "jw-tm327097": {
+    "titre": "Once Upon a Time in... Hollywood",
+    "category": "comedie",
+    "justification": "Le film est une comédie dramatique satirique sur Hollywood, où l'humour et la nostalgie dominent, l'action et le suspense étant secondaires."
+  },
+  "jw-ts501458": {
+    "titre": "L'amour sous couverture",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur une enquête policière, un meurtre et une infiltration sous couverture, avec une romance secondaire, ce qui en fait un thriller policier dominant."
+  },
+  "jw-ts385816": {
+    "titre": "The Day of the Jackal",
+    "category": "thriller_policier",
+    "justification": "L'œuvre est dominée par la traque, l'enquête de renseignement et le suspense psychologique entre le tueur et l'officier, sans action physique cinétique dominante."
+  },
+  "jw-tm39030": {
+    "titre": "Casino Royale",
+    "category": "action_aventure",
+    "justification": "Casino Royale est dominé par des séquences d'action physiques spectaculaires (poursuite en parkour, combats au corps à corps, fusillades) qui structurent le film, malgré une intrigue criminelle et un suspense cérébral autour du poker."
+  },
+  "jw-tm1610095": {
+    "titre": "Les Moutons détectives",
+    "category": "comedie",
+    "justification": "Un troupeau de moutons enquêtant sur un meurtre est un prétexte burlesque et absurde typique d'une comédie, où l'enquête ne sert qu'au rire."
+  },
+  "jw-tm160558": {
+    "titre": "Equalizer",
+    "category": "action_aventure",
+    "justification": "Equalizer est dominé par les combats physiques et la violence cinétique de McCall contre les gangsters russes, malgré une intrigue criminelle secondaire."
+  },
+  "jw-ts36000": {
+    "titre": "Fear the Walking Dead",
+    "category": "horreur_epouvante",
+    "justification": "Prequel de The Walking Dead centré sur le début d'une épidémie zombie et la survie face à des morts-vivants, relevant clairement de l'horreur épouvante."
+  },
+  "jw-tm137875": {
+    "titre": "The Witch",
+    "category": "horreur_epouvante",
+    "justification": "The Witch est un film d'horreur folklorique centré sur la sorcellerie, la possession et la terreur psychologique dans une ambiance puritaine, sans aucun élément de science-fiction."
+  },
+  "jw-tm141107": {
+    "titre": "Sicario",
+    "category": "thriller_policier",
+    "justification": "Sicario est dominé par le suspense cérébral, la machination et l'ambiance policière sombre plutôt que par des combats physiques ou des poursuites nerveuses."
+  },
+  "jw-tm1069551": {
+    "titre": "Bullet Train",
+    "category": "action_aventure",
+    "justification": "Bullet Train est dominé par des combats chorégraphiés, des cascades et une action cinétique constante dans un espace confiné, l'humour n'étant qu'un habillage secondaire."
+  },
+  "jw-ts3979": {
+    "titre": "Elementary",
+    "category": "thriller_policier",
+    "justification": "La série est centrée sur des enquêtes policières et le suspense cérébral, sans action physique dominante."
+  },
+  "jw-tm1249609": {
+    "titre": "Saw X",
+    "category": "horreur_epouvante",
+    "justification": "Saw X repose sur des pièges sadiques et une boucherie gore infligée à des victimes, cœur viscéral de la franchise horrifique, malgré la structure de vengeance."
+  },
+  "jw-ts21499": {
+    "titre": "Justified",
+    "category": "thriller_policier",
+    "justification": "Justified est avant tout un polar rural centré sur les conflits criminels, les manipulations et l'enquête du marshall Raylan Givens, avec une action physique limitée et non dominante."
+  },
+  "jw-ts79848": {
+    "titre": "Age of the Living Dead",
+    "category": "horreur_epouvante",
+    "justification": "Malgré un cadre d'anticipation (quarantaine, traité de paix), le cœur du récit repose sur les vampires, créatures de l'horreur, et les complots menaçant la survie des humains, ce qui en fait une série d'épouvante avant tout."
+  },
+  "jw-tm239632": {
+    "titre": "Fast & Furious 9",
+    "category": "action_aventure",
+    "justification": "Fast & Furious 9 est dominé par les poursuites spectaculaires, les combats physiques et les cascades extrêmes, caractéristiques du cinéma d'action cinétique."
+  },
+  "jw-tm2950208": {
+    "titre": "The Runner",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur un enlèvement, des ordres cruels et une manipulation psychologique sous contrainte, sans combats physiques ni fusillades dominantes, ce qui en fait un suspense criminel plutôt qu'un film d'action."
+  },
+  "jw-tm853917": {
+    "titre": "Un Homme en colère",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par les fusillades intenses et la précision des tirs de riposte du protagoniste lors des braquages, ce qui place l'action cinétique au premier plan malgré la dimension criminelle."
+  },
+  "jw-ts20254": {
+    "titre": "The Strain",
+    "category": "horreur_epouvante",
+    "justification": "The Strain est avant tout une série d'horreur centrée sur des vampires parasites et une épidémie transformant les humains en créatures sanguinaires, avec une terreur viscérale et gore prédominante plutôt qu'un concept de science-fiction."
+  },
+  "jw-ts446863": {
+    "titre": "Young Sherlock",
+    "category": "thriller_policier",
+    "justification": "Le synopsis met en avant une enquête sur un meurtre et une conspiration, éléments dominants du thriller policier, sans indiquer une prédominance de l'action physique ou du comique."
+  },
+  "jw-tm1367421": {
+    "titre": "Hellboy: The Crooked Man",
+    "category": "horreur_epouvante",
+    "justification": "Hellboy: The Crooked Man repose sur des sorcières, un diable local et une communauté hantée, avec une terreur surnaturelle et macabre au cœur du récit plutôt qu'un concept de science-fiction."
+  },
+  "jw-ts20088": {
+    "titre": "Penny Dreadful",
+    "category": "horreur_epouvante",
+    "justification": "Penny Dreadful plonge dans l'horreur gothique victorienne avec vampires, démons, possession et créatures macabres, la terreur et le surnaturel horrifique étant le cœur du récit plutôt que la science-fiction."
+  },
+  "jw-tm206726": {
+    "titre": "Uncharted",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par une course au trésor spectaculaire avec cascades, poursuites et combats physiques, typique du registre action-aventure."
+  },
+  "jw-tm213066": {
+    "titre": "Equalizer 2",
+    "category": "action_aventure",
+    "justification": "Equalizer 2 est dominé par les combats physiques et la violence cinétique de Robert McCall, malgré une intrigue criminelle de vengeance."
+  },
+  "jw-tm321227": {
+    "titre": "Hellboy",
+    "category": "scifi_fantastique",
+    "justification": "Hellboy est avant tout un film de super-héros et de fantasy (Nimue, Merlin, fin du monde) avec des éléments horrifiques secondaires, ce qui le classe dans la science-fiction/fantastique."
+  },
+  "jw-ts21543": {
+    "titre": "Hawaii 5-0",
+    "category": "thriller_policier",
+    "justification": "La série est centrée sur une unité spéciale de police enquêtant sur des crimes et traquant des criminels à Hawaï, avec une intrigue criminelle et une traque dominantes, l'action étant présente mais secondaire par rapport au suspense policier."
+  },
+  "jw-ts21253": {
+    "titre": "NCIS : Los Angeles",
+    "category": "thriller_policier",
+    "justification": "Série d'enquêtes criminelles et d'infiltration où l'intrigue policière et le suspense priment sur l'action pure ou l'humour."
+  },
+  "jw-tm362071": {
+    "titre": "Summer of 84",
+    "category": "thriller_policier",
+    "justification": "Le récit est centré sur une enquête d'adolescents soupçonnant un tueur en série, avec suspense et traque, sans terreur surnaturelle ni gore sadique."
+  },
+  "jw-ts37909": {
+    "titre": "Sneaky Pete",
+    "category": "thriller_policier",
+    "justification": "Sneaky Pete est avant tout un thriller policier centré sur l'escroquerie, la dissimulation d'identité et la menace criminelle, avec une touche d'humour mais sans que la comédie ne domine."
+  },
+  "jw-tm1314959": {
+    "titre": "Le Ministère de la Sale Guerre",
+    "category": "action_aventure",
+    "justification": "Le film est centré sur une unité de forces spéciales menant des missions de combat non conventionnelles contre les nazis, avec une dominante d'action physique et de guerre, malgré un ton potentiellement humoristique."
+  },
+  "jw-tm1358983": {
+    "titre": "The Beekeeper",
+    "category": "action_aventure",
+    "justification": "La quête brutale de vengeance et le passé d'agent secret révélé indiquent une dominance d'action cinétique et de combats physiques, typique du style Jason Statham."
+  },
+  "jw-tm2890987": {
+    "titre": "Man of War",
+    "category": "action_aventure",
+    "justification": "Le synopsis décrit une mission de sauvetage menée par un vétéran des forces spéciales, dominée par les combats physiques et le spectaculaire, ce qui correspond à la catégorie action_aventure."
+  },
+  "jw-ts75062": {
+    "titre": "Jack Ryan",
+    "category": "thriller_policier",
+    "justification": "Jack Ryan est avant tout une série d'espionnage et d'enquête de la CIA, dominée par le suspense géopolitique et les machinations plutôt que par l'action physique intense."
+  },
+  "jw-ts10364": {
+    "titre": "Devious Maids",
+    "category": "thriller_policier",
+    "justification": "La série est centrée sur une intrigue criminelle et un mystère de meurtre à résoudre, avec un ton de satire sociale mais sans que l'action physique ou la comédie pure ne dominent."
+  },
+  "jw-tm1124551": {
+    "titre": "The Covenant : Mission en Afghanistan",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par des combats physiques, une embuscade, une poursuite et une mission de sauvetage spectaculaire, caractéristiques de l'action cinétique."
+  },
+  "jw-ts18690": {
+    "titre": "Bates Motel",
+    "category": "thriller_policier",
+    "justification": "Bates Motel est un drame criminel psychologique centré sur les secrets, la manipulation et la tension paranoïaque plutôt que sur la terreur surnaturelle ou le gore sadique."
+  },
+  "jw-ts91583": {
+    "titre": "Citadel",
+    "category": "action_aventure",
+    "justification": "Bien que l'intrigue d'espionnage et la conspiration mondiale soient présentes, la série est dominée par les scènes d'action spectaculaires (combats, poursuites, fusillades) typiques des productions Russo Brothers, avec des agents d'élite au cœur de l'action."
+  },
+  "jw-ts377948": {
+    "titre": "Cœurs Noirs",
+    "category": "action_aventure",
+    "justification": "Un commando des forces spéciales en mission d'exfiltration à Mossoul implique des combats physiques, des fusillades et des opérations militaires spectaculaires, dominés par l'action cinétique."
+  },
+  "jw-ts81064": {
+    "titre": "Legacies",
+    "category": "scifi_fantastique",
+    "justification": "Legacies est avant tout une série fantastique centrée sur une école de créatures surnaturelles (vampires, sorciers, loups-garous) et des intrigues de magie et de mythologie, sans que la terreur viscérale ou le gore ne soit le cœur du récit."
+  },
+  "jw-tm159081": {
+    "titre": "Need for Speed",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par les courses-poursuites automobiles spectaculaires et l'action cinétique, reléguant l'intrigue de vengeance et de trahison au second plan."
+  },
+  "jw-tm1586797": {
+    "titre": "Guns Up",
+    "category": "action_aventure",
+    "justification": "Le synopsis annonce un film de vengeance armée où l'action physique et les affrontements priment, la touche humoristique n'étant qu'un habillage secondaire."
+  },
+  "jw-tm53381": {
+    "titre": "Jack Reacher",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur une enquête policière, un complot et une manipulation psychologique, avec des scènes d'action ponctuelles mais non dominantes."
+  },
+  "jw-ts415554": {
+    "titre": "Ride or Die",
+    "category": "comedie",
+    "justification": "Le duo improbable d'une comptable et d'une tueuse à gages en cavale à travers l'Europe, avec un ton léger et des situations burlesques, place la comédie d'action au premier plan."
+  },
+  "jw-tm2858518": {
+    "titre": "Sierra Madre",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant un assaut de forces spéciales, un siège par un cartel et un ultime combat physique, dominés par l'action cinétique et le spectaculaire."
+  },
+  "jw-tm138395": {
+    "titre": "Agents très spéciaux : Code U.N.C.L.E.",
+    "category": "action_aventure",
+    "justification": "Le film est un divertissement d'espionnage à gros budget où l'action cinétique, les bagarres et les cascades dominent, malgré un ton léger et des touches d'humour."
+  },
+  "jw-ts468951": {
+    "titre": "Memory of a Killer",
+    "category": "thriller_policier",
+    "justification": "Malgré le profil de tueur à gages, l'intrigue repose sur la double vie, le secret et la menace psychologique liée à l'Alzheimer, sans action physique dominante."
+  },
+  "jw-tm421588": {
+    "titre": "The Prodigy",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur la possession démoniaque et les forces occultes, avec pour objectif de terrifier, ce qui correspond pleinement à l'horreur épouvante."
+  },
+  "jw-tm1553570": {
+    "titre": "Un voleur sur le toit",
+    "category": "comedie",
+    "justification": "Le synopsis met en avant une situation absurde et humoristique (cambriolage de McDonald's par les toits, vie cachée dans un Toys R Us) et une romance compliquant la double vie, ce qui prime sur l'action ou l'enquête policière."
+  },
+  "jw-tm46613": {
+    "titre": "21 Jump Street",
+    "category": "comedie",
+    "justification": "21 Jump Street est avant tout une comédie parodique et burlesque où l'infiltration policière sert de prétexte à des situations humoristiques et à un duo comique, l'action et l'enquête restant secondaires."
+  },
+  "jw-ts20824": {
+    "titre": "The Originals",
+    "category": "horreur_epouvante",
+    "justification": "The Originals est centré sur les vampires, la sorcellerie et les conflits surnaturels macabres, avec une atmosphère de terreur et de drame horrifique plutôt que sur la science-fiction ou l'anticipation technologique."
+  },
+  "jw-tm1101718": {
+    "titre": "Call of Silence",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose avant tout sur la survie face à des infectés sanguinaires et la terreur viscérale, le cadre post-apocalyptique viral servant de toile de fond plutôt que de cœur conceptuel SF."
+  },
+  "jw-tm305899": {
+    "titre": "It Comes at Night",
+    "category": "horreur_epouvante",
+    "justification": "Le film est avant tout un thriller de survie oppressant et paranoïaque où la menace extérieure et la terreur psychologique dominent, la composante science-fictionnelle restant un simple arrière-plan non explicité."
+  },
+  "jw-tm72846": {
+    "titre": "Skyfall",
+    "category": "action_aventure",
+    "justification": "Skyfall combine une intrigue d'espionnage et de vengeance avec des séquences d'action spectaculaires (poursuite à Istanbul, combat au casino, assaut final) qui dominent le récit."
+  },
+  "jw-tm154187": {
+    "titre": "Sherlock Holmes",
+    "category": "thriller_policier",
+    "justification": "L'œuvre est dominée par l'enquête, la déduction et le suspense autour de meurtres rituels et d'une machination, l'action physique restant secondaire malgré quelques scènes de combat."
+  },
+  "jw-tm1856965": {
+    "titre": "Over Your Dead Body",
+    "category": "comedie",
+    "justification": "Le synopsis décrit une comédie noire où les plans d'assassinat conjugaux sont un prétexte humoristique, avec des intrusions burlesques, ce qui prime sur l'action ou le suspense policier."
+  },
+  "jw-ts59114": {
+    "titre": "Steal",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur un braquage sophistiqué, une enquête policière et une machination financière, sans action physique dominante."
+  },
+  "jw-ts11404": {
+    "titre": "Following",
+    "category": "thriller_policier",
+    "justification": "Le récit est centré sur la traque d'un serial killer manipulateur et l'enquête du FBI, avec une intrigue criminelle et un suspense cérébral sans terreur surnaturelle ni gore sadique."
+  },
+  "jw-tm2871230": {
+    "titre": "Une Famille De Bâtards",
+    "category": "thriller_policier",
+    "justification": "Le synopsis décrit un univers criminel brutal (machines à sous illégales, prostitution, dettes, rivalités explosives) et une plongée dans le crime, sans indice de ton comique ou d'action physique dominante, ce qui en fait un thriller policier."
+  },
+  "jw-ts86380": {
+    "titre": "No Easy Days",
+    "category": "action_aventure",
+    "justification": "L'intrigue repose sur une prise d'assaut par une unité des Navy SEALs et une fusillade brutale, dominée par l'action physique et le spectaculaire."
+  },
+  "jw-tm1038839": {
+    "titre": "Les Crimes du futur",
+    "category": "scifi_fantastique",
+    "justification": "Le film explore avant tout un univers d'anticipation sur la mutation du corps et l'évolution humaine, avec des performances artistiques et une intrigue de science-fiction corporelle, sans que la terreur viscérale soit le cœur du récit."
+  },
+  "jw-tm138858": {
+    "titre": "The Guest",
+    "category": "action_aventure",
+    "justification": "The Guest est dominé par la riposte armée et les combats physiques du protagoniste soldat, l'horreur n'étant qu'un suspense secondaire."
+  },
+  "jw-ts381061": {
+    "titre": "La liste terminale: L'ombre du loup",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur une conspiration d'espionnage international et des opérations secrètes de la CIA, avec une dimension psychologique dominante plutôt que des combats physiques ou poursuites spectaculaires."
+  },
+  "jw-tm345841": {
+    "titre": "Cold Skin",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose avant tout sur la survie face à des créatures marines hostiles et la terreur nocturne, avec une ambiance d'épouvante et de tension viscérale plutôt que sur un concept de science-fiction."
+  },
+  "jw-tm1670283": {
+    "titre": "Protector",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant une ex-héroïne de guerre qui infiltre la pègre et une course effrénée pour sauver sa fille, dominée par l'action physique et le spectaculaire plutôt que par l'enquête ou la machination."
+  },
+  "jw-tm218937": {
+    "titre": "Mission : Impossible - Fallout",
+    "category": "action_aventure",
+    "justification": "Mission : Impossible - Fallout est dominé par des séquences d'action spectaculaires (poursuites, combats, cascades) et une intrigue d'espionnage orientée vers le spectaculaire, malgré une composante thriller présente."
+  },
+  "jw-tm1509495": {
+    "titre": "Apocalypse Z: Le début de la fin",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose avant tout sur la survie face à une pandémie de rage transformant les humains en créatures agressives, un motif classique de film de zombies/épouvante, la science-fiction n'étant qu'un cadre secondaire."
+  },
+  "jw-ts252256": {
+    "titre": "Memento Mori",
+    "category": "thriller_policier",
+    "justification": "Le synopsis décrit explicitement une traque policière et un duel entre un meurtrier et l'enquêteur, cœur du thriller criminel, sans mention de terreur surnaturelle ou de gore sadique."
+  },
+  "jw-tm1857554": {
+    "titre": "Muzzle 2: City of Wolves",
+    "category": "action_aventure",
+    "justification": "Le récit repose sur la riposte armée, la protection active de la famille et la traque d'un cartel par un ancien policier, avec une dynamique d'action cinétique et de combat plutôt que de terreur viscérale."
+  },
+  "jw-tm37263": {
+    "titre": "Underworld : Nouvelle ère",
+    "category": "scifi_fantastique",
+    "justification": "Underworld : Nouvelle ère repose avant tout sur un univers fantastique de vampires et de lycans, avec une intrigue d'anticipation impliquant des scientifiques et une traque militaire, sans que l'horreur viscérale soit le cœur du récit."
+  },
+  "jw-tm166978": {
+    "titre": "Mission : Impossible - Protocole Fantôme",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par les séquences d'action spectaculaires et physiques (escalade de Burj Khalifa, poursuites, combats) typiques de la franchise Mission Impossible, reléguant l'intrigue d'espionnage au second plan."
+  },
+  "jw-tm1899901": {
+    "titre": "Refuge Fatal",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant un ancien agent traqué par une unité d'élite du MI6, avec sauvetage, identification et affrontements imminents, ce qui place l'action cinétique et le spectaculaire au premier plan."
+  },
+  "jw-ts85612": {
+    "titre": "Mirzapur",
+    "category": "thriller_policier",
+    "justification": "Mirzapur est dominé par les luttes de pouvoir mafieuses, les machinations criminelles et les manipulations psychologiques plutôt que par l'action physique cinétique."
+  },
+  "jw-ts531725": {
+    "titre": "The Loyalty Game",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur la manipulation psychologique, les secrets et le suspense cérébral plutôt que sur des combats physiques ou des poursuites."
+  },
+  "jw-tm1189388": {
+    "titre": "King of Killers",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant des affrontements physiques entre tueurs professionnels et un assassin mythique, avec une forte dimension de combat et de survie, caractéristique de l'action cinétique."
+  },
+  "jw-tm1352628": {
+    "titre": "Sentinelle",
+    "category": "comedie",
+    "justification": "Le synopsis met en avant un flic médiatique et chanteur de charme, avec des situations loufoques et un ton parodique, reléguant l'enquête policière au second plan."
+  },
+  "jw-tm170517": {
+    "titre": "Fast & Furious 5",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par les poursuites spectaculaires, les fusillades et les combats physiques, caractéristiques de la franchise Fast & Furious, malgré une intrigue criminelle secondaire."
+  },
+  "jw-tm139204": {
+    "titre": "Régression",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur une enquête policière et psychologique autour d'un crime et de la mémoire, avec un suspense cérébral et une machination, sans terreur surnaturelle ni gore sadique."
+  },
+  "jw-tm239778": {
+    "titre": "Sicario : La Guerre des cartels",
+    "category": "thriller_policier",
+    "justification": "Le film privilégie l'intrigue criminelle, les machinations de la CIA et le suspense psychologique plutôt que l'action physique dominante."
+  },
+  "jw-ts87384": {
+    "titre": "The Widow",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur la découverte de la vérité et le suspense autour du passé du mari, sans action physique dominante ni spectaculaire cinétique."
+  },
+  "jw-tm222490": {
+    "titre": "119 jours : Les survivants de l'océan",
+    "category": "thriller_policier",
+    "justification": "Le film est un survival dramatique centré sur la lutte psychologique et l'angoisse de survivre en mer, sans action cinétique ni combats physiques dominants, ce qui le rapproche du suspense et de la tension psychologique du thriller."
+  },
+  "jw-tm122327": {
+    "titre": "La Momie",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose avant tout sur une malédiction égyptienne et une créature surnaturelle vengeresse déversant la terreur, avec une esthétique de monstres et de divinités relevant davantage de l'épouvante fantastique que de la science-fiction."
+  },
+  "jw-tm1159326": {
+    "titre": "Le Maître et Marguerite",
+    "category": "scifi_fantastique",
+    "justification": "L'œuvre est avant tout une adaptation fantastique et satirique du roman de Boulgakov, où le surnaturel (Satan, sorcellerie, ballet macabre) sert un propos métaphysique et critique plutôt qu'une terreur viscérale, malgré des éléments horrifiques secondaires."
+  },
+  "jw-tm244140": {
+    "titre": "En eaux troubles",
+    "category": "horreur_epouvante",
+    "justification": "Le film repose avant tout sur la survie face à une créature marine gigantesque et carnassière, avec une tension viscérale et des attaques monstrueuses, ce qui en fait un film d'horreur plutôt qu'une pure anticipation scientifique."
+  },
+  "jw-ts378625": {
+    "titre": "Le Jeu de la mort",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose sur un concept de science-fiction (revivre la mort dans d'autres vies pour obtenir une seconde chance), avec une dimension fantastique prédominante sur l'horreur pure."
+  },
+  "jw-tm1928900": {
+    "titre": "SAKAMOTO DAYS",
+    "category": "action_aventure",
+    "justification": "Le film repose avant tout sur des combats physiques spectaculaires et des cascades pour protéger la famille, l'humour n'étant qu'un ton secondaire et l'intrigue criminelle servant de prétexte à l'action."
+  },
+  "jw-tm1349029": {
+    "titre": "Saltburn",
+    "category": "thriller_policier",
+    "justification": "Saltburn est un thriller psychologique et satirique dominé par la manipulation, la tension sociale et une intrigue de machination plutôt que par l'action physique ou le rire pur."
+  },
+  "jw-tm167386": {
+    "titre": "Le Territoire des loups",
+    "category": "thriller_policier",
+    "justification": "Le film est dominé par la survie psychologique et le suspense de la traque dans un environnement hostile, sans action cinétique ou combats physiques prédominants."
+  },
+  "jw-tm1425500": {
+    "titre": "Road House",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par les combats physiques et la violence cinétique de Dalton, ancien combattant UFC devenu videur, avec des affrontements spectaculaires contre le gang, reléguant l'intrigue criminelle au second plan."
+  },
+  "jw-tm818706": {
+    "titre": "30 Jours Max",
+    "category": "comedie",
+    "justification": "Le synopsis présente un flic trouillard et maladroit dont la méprise médicale déclenche des situations comiques, l'action et l'enquête n'étant que des prétextes à l'humour."
+  },
+  "jw-tm1855322": {
+    "titre": "Une journée incontrôlable",
+    "category": "comedie",
+    "justification": "Le synopsis insiste sur les obstacles absurdes et le ton chaotique d'une comédie familiale où l'action n'est qu'un prétexte humoristique."
+  },
+  "jw-tm182527": {
+    "titre": "Nuit blanche",
+    "category": "thriller_policier",
+    "justification": "Le film repose sur une intrigue criminelle et un suspense de confrontation (échange otage contre drogue) plutôt que sur une action physique dominante."
+  },
+  "jw-tm1374920": {
+    "titre": "Muzzle",
+    "category": "thriller_policier",
+    "justification": "L'œuvre est dominée par l'enquête policière et la conspiration, sans action physique cinétique prépondérante."
+  },
+  "jw-tm464322": {
+    "titre": "The Captain",
+    "category": "thriller_policier",
+    "justification": "Le film repose sur le suspense et la tension psychologique d'une situation de crise en vol, sans action physique dominante ni intrigue criminelle, ce qui l'oriente vers le thriller."
+  },
+  "jw-tm1902814": {
+    "titre": "Hellfire",
+    "category": "action_aventure",
+    "justification": "Un ancien Béret vert affrontant physiquement un syndicat criminel pour libérer une communauté, avec un synopsis centré sur l'intervention violente et le spectaculaire, domine l'action cinétique sur l'enquête ou la machination."
+  },
+  "jw-tm1187627": {
+    "titre": "Rituel meurtrier",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur une enquête policière et un suspense psychologique autour d'un tueur en série, sans action physique dominante."
+  },
+  "jw-tm137836": {
+    "titre": "Mission : Impossible - Rogue Nation",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par des séquences d'action spectaculaires et physiques (poursuites, combats, cascades) typiques de la franchise Mission Impossible, malgré une intrigue d'espionnage."
+  },
+  "jw-tm218129": {
+    "titre": "Jack Reacher : Never Go Back",
+    "category": "action_aventure",
+    "justification": "Jack Reacher : Never Go Back est dominé par les combats physiques, fusillades et poursuites de Reacher, malgré une intrigue de complot d'État."
+  },
+  "jw-ts371529": {
+    "titre": "Cross",
+    "category": "thriller_policier",
+    "justification": "L'œuvre est centrée sur une obsession criminelle et une traque psychologique suite à un meurtre, sans action physique dominante, ce qui correspond au thriller policier."
+  },
+  "jw-ts189659": {
+    "titre": "The Walking Dead: World Beyond",
+    "category": "horreur_epouvante",
+    "justification": "Spin-off de The Walking Dead centré sur la survie post-apocalyptique face à des zombies, avec une terreur et une menace omniprésentes typiques du genre horreur."
+  },
+  "jw-tm948973": {
+    "titre": "Cult Of Nightmares",
+    "category": "horreur_epouvante",
+    "justification": "Malgré un prétexte d'anticipation (médicament militaire), le récit est dominé par les effets secondaires cauchemardesques et l'horreur viscérale, ce qui en fait avant tout une œuvre d'épouvante."
+  },
+  "jw-tm207115": {
+    "titre": "Fast & Furious 8",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par des poursuites spectaculaires, des combats physiques et des scènes d'action explosives à travers le globe, caractéristiques du style Fast & Furious."
+  },
+  "jw-tm171108": {
+    "titre": "The House at the end of time",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose avant tout sur des hallucinations, une maison hantée et une atmosphère de terreur psychologique, avec un twist fantastique mais sans cœur de science-fiction dominant."
+  },
+  "jw-tm1453315": {
+    "titre": "Sirènes",
+    "category": "comedie",
+    "justification": "Le duo improbable et le ton potache d'Alice Pol et Ramzy Bedia, ainsi que le cadre léger de la Riviera, indiquent une comédie policière où l'enquête sert de prétexte humoristique."
+  },
+  "jw-tm138257": {
+    "titre": "007 Spectre",
+    "category": "action_aventure",
+    "justification": "Spectre est dominé par les séquences d'action spectaculaires (poursuite à Mexico, bagarres, explosions) typiques de la franchise Bond, malgré une intrigue d'espionnage criminel."
+  },
+  "jw-tm55213": {
+    "titre": "Safe",
+    "category": "action_aventure",
+    "justification": "L'ancien agent secret qui sauve une fillette et affronte des gangs enchaîne les combats physiques et fusillades, dominante d'action cinétique typique du film."
+  },
+  "jw-tm1932225": {
+    "titre": "Team Démolition",
+    "category": "thriller_policier",
+    "justification": "Le synopsis met l'accent sur la quête de vérité, les secrets enfouis et un complot familial, caractéristiques d'une intrigue criminelle et de suspense plutôt que d'action physique ou de comédie."
+  },
+  "jw-ts272814": {
+    "titre": "Mr & Mrs Smith",
+    "category": "comedie",
+    "justification": "La série Mr & Mrs Smith (2024) est avant tout une comédie d'espionnage où l'humour et la dynamique de couple primes sur l'action et le suspense."
+  },
+  "jw-tm1471610": {
+    "titre": "A Working Man",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant un ancien des forces spéciales qui utilise ses compétences physiques pour sauver une jeune fille enlevée, ce qui indique une dominance de l'action cinétique et des combats."
+  },
+  "jw-tm1302396": {
+    "titre": "Dans les contrées perdues",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose avant tout sur une quête fantastique avec sorcière, démons et contrées magiques, sans que la terreur viscérale soit le cœur dominant."
+  },
+  "jw-ts38145": {
+    "titre": "American Patriot",
+    "category": "comedie",
+    "justification": "Malgré son synopsis d'espionnage, la série est une comédie noire où l'humour absurde et le burlesque de l'agent infiltré priment sur l'action et le suspense."
+  },
+  "jw-ts289336": {
+    "titre": "Leverage: Redemption",
+    "category": "thriller_policier",
+    "justification": "Leverage: Redemption est une série de braquages et d'escroqueries sophistiquées où l'intrigue criminelle et la machination priment, avec une touche d'humour mais sans que la comédie soit dominante."
+  },
+  "jw-ts41883": {
+    "titre": "The K2",
+    "category": "action_aventure",
+    "justification": "La série est portée par un ex-agent secret devenu garde du corps, avec des combats physiques, des fusillades et des poursuites spectaculaires qui dominent la narration, malgré une intrigue de vengeance et de manipulation politique."
+  },
+  "jw-tm1943324": {
+    "titre": "Vengeance",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant un héros des forces spéciales transformant sa fortune en arsenal pour une traque impitoyable, dominée par l'action physique et les combats, malgré une intrigue criminelle de vengeance."
+  },
+  "jw-tm155607": {
+    "titre": "La French",
+    "category": "thriller_policier",
+    "justification": "Le film est dominé par l'enquête policière, la machination criminelle et le suspense cérébral autour de la French Connection, sans action physique cinétique dominante."
+  },
+  "jw-ts397277": {
+    "titre": "Good Boy",
+    "category": "comedie",
+    "justification": "Le synopsis présente des anciens champions sportifs maladroits et méprisés intégrant une force spéciale, un postulat burlesque typique d'une comédie où l'action policière sert de prétexte au rire."
+  },
+  "jw-tm1180577": {
+    "titre": "Le Contracteur",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant un ancien Marine traqué qui doit se battre pour survivre, avec une équipe d'élite et des combats physiques, ce qui domine l'action cinétique."
+  },
+  "jw-tm79442": {
+    "titre": "La Vengeance dans la peau",
+    "category": "action_aventure",
+    "justification": "La traque de Jason Bourne est dominée par des poursuites nerveuses, des combats rapprochés et un spectaculaire cinétique constant, caractéristiques de l'action physique."
+  },
+  "jw-tm455203": {
+    "titre": "La couleur tombée du ciel",
+    "category": "horreur_epouvante",
+    "justification": "Malgré la prémisse extraterrestre, le récit est centré sur la terreur viscérale et la mutation corporelle cauchemardesque, conformément à l'œuvre de Lovecraft, ce qui en fait avant tout un film d'épouvante."
+  },
+  "jw-tm1650452": {
+    "titre": "Bang",
+    "category": "thriller_policier",
+    "justification": "Le synopsis met l'accent sur la rédemption morale, la manipulation et l'intrigue criminelle plutôt que sur des combats physiques ou des poursuites dominantes."
+  },
+  "jw-tm1520381": {
+    "titre": "Mr Wolff 2",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur une conspiration, une enquête et des messages énigmatiques, avec un suspense cérébral dominant plutôt que des combats physiques ou des poursuites continues."
+  },
+  "jw-tm68950": {
+    "titre": "Jason Bourne : L'Héritage",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par les poursuites, les combats rapprochés et les séquences d'évasion spectaculaires, caractéristiques de la franchise Bourne, malgré une intrigue de conspiration gouvernementale."
+  },
+  "jw-tm1497397": {
+    "titre": "Duchess",
+    "category": "thriller_policier",
+    "justification": "Le synopsis met l'accent sur le trafic de diamants, les trahisons et manipulations, et une vengeance planifiée plutôt que sur des combats physiques ou poursuites dominants."
+  },
+  "jw-tm138641": {
+    "titre": "Fast & Furious 7",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par des poursuites spectaculaires, des combats physiques et des scènes d'action explosives typiques de la franchise, reléguant l'intrigue criminelle au second plan."
+  },
+  "jw-tm825695": {
+    "titre": "K.G.F: Chapter 2",
+    "category": "action_aventure",
+    "justification": "K.G.F: Chapter 2 est dominé par des combats physiques spectaculaires, des fusillades intenses et une mise en scène surdimensionnée typique du cinéma d'action indien, malgré une intrigue criminelle sous-jacente."
+  },
+  "jw-tm512536": {
+    "titre": "Le son de la liberté",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant une mission de sauvetage dangereuse avec des affrontements physiques et une course contre la montre dans la jungle, dominée par l'action cinétique et le spectaculaire."
+  },
+  "jw-tm1978067": {
+    "titre": "Jack Ryan: Guerre fantôme",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur une conspiration d'espionnage et une enquête clandestine menée par la CIA et le MI6, avec un suspense cérébral dominant plutôt que des combats physiques ou des poursuites cinétiques."
+  },
+  "jw-tm120074": {
+    "titre": "Mechanic : Résurrection",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par des assassinats spectaculaires, des poursuites et des combats physiques, avec une course contre la montre haletante typique de l'action cinétique."
+  },
+  "jw-tm372212": {
+    "titre": "Rebirth Island",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur une machination d'espionnage, une enquête secrète et un suspense géopolitique (arme biologique, agent CIA) plutôt que sur des combats physiques ou des poursuites dominantes."
+  },
+  "jw-tm1005559": {
+    "titre": "Canailles",
+    "category": "comedie",
+    "justification": "Le synopsis met en avant une relation de force et de complicité entre un braqueur et un professeur, avec un ton léger et des situations absurdes typiques d'une comédie, l'enquête policière n'étant qu'un ressort secondaire."
+  },
+  "jw-ts409219": {
+    "titre": "Flashback",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur une enquête policière et un meurtre non résolu, avec un suspense lié à la traque du passé, la dynamique explosive entre les personnages n'étant qu'un ressort secondaire."
+  },
+  "jw-ts506127": {
+    "titre": "Love Is Never Gone",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur la trahison, l'infiltration, les secrets de famille et la vengeance psychologique, sans action physique dominante."
+  },
+  "jw-tm1284007": {
+    "titre": "Phantom",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur le suspense, l'infiltration et la manipulation psychologique dans un huis clos d'espionnage, sans action physique dominante."
+  },
+  "jw-tm275058": {
+    "titre": "Hurricane",
+    "category": "action_aventure",
+    "justification": "Le film combine un braquage sophistiqué avec des poursuites et des combats physiques en pleine tempête, l'action cinétique et le spectaculaire dominant le suspense criminel."
+  },
+  "jw-tm165521": {
+    "titre": "Crazy Joe",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant la force physique, les combats et la vengeance personnelle d'un ex-militaire, avec une progression dans la mafia chinoise qui suggère une dominance de l'action cinétique et des affrontements."
+  },
+  "jw-tm1627219": {
+    "titre": "Chefs d'États",
+    "category": "comedie",
+    "justification": "La rivalité publique entre dirigeants et la 'folle course multinationale' avec une agente MI6 évoquent une comédie d'action à duo improbable, où l'humour prime sur l'intrigue criminelle ou les cascades."
+  },
+  "jw-tm1633867": {
+    "titre": "Worldbreaker",
+    "category": "scifi_fantastique",
+    "justification": "Le synopsis évoque un entraînement pour affronter des combats déterminant l'avenir de l'Humanité, ce qui relève d'une intrigue d'anticipation et de science-fiction plutôt que d'une terreur viscérale."
+  },
+  "jw-ts463519": {
+    "titre": "Esref Rüya",
+    "category": "thriller_policier",
+    "justification": "Le synopsis centré sur une romance obsessionnelle et des genres criminel/drame/thriller, sans mention d'action physique dominante, oriente vers un thriller psychologique et policier."
+  },
+  "jw-tm1484938": {
+    "titre": "Piège en altitude",
+    "category": "thriller_policier",
+    "justification": "Le film repose sur un détournement aérien et une lutte d'ingéniosité contre un terroriste, avec une tension psychologique et un suspense criminel dominants plutôt que des combats physiques ou des poursuites cinétiques."
+  },
+  "jw-tm73061": {
+    "titre": "7 Psychopathes",
+    "category": "comedie",
+    "justification": "Malgré son intrigue criminelle, le film est avant tout une comédie noire et méta sur l'écriture de scénario, où les psychopathes et les situations criminelles servent un humour absurde et parodique."
+  },
+  "jw-tm406864": {
+    "titre": "Peppermint",
+    "category": "action_aventure",
+    "justification": "Le film est centré sur une vengeance personnelle menée par une protagoniste qui prend les armes et affronte physiquement le gang, avec des fusillades et des combats rapprochés dominants, reléguant l'enquête policière au second plan."
+  },
+  "jw-tm177568": {
+    "titre": "Fast & Furious 6",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par des poursuites automobiles spectaculaires, des combats physiques et des scènes d'action cinétique typiques de la franchise Fast & Furious."
+  },
+  "jw-ts439296": {
+    "titre": "Atomic",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur un complot criminel, une traque par des agences de renseignement et un suspense géopolitique, sans action physique dominante."
+  },
+  "jw-tm232579": {
+    "titre": "À la Poursuite de Ricky Baker",
+    "category": "comedie",
+    "justification": "Malgré une fuite dans le bush, le film est avant tout une comédie dramatique et familiale néo-zélandaise où l'humour et la tendresse dominent, l'action n'étant qu'un prétexte narratif."
+  },
+  "jw-tm1978758": {
+    "titre": "Balls Up: Mettez le paquet!",
+    "category": "comedie",
+    "justification": "Le synopsis décrit explicitement une comédie déjantée et exubérante où l'action et les poursuites ne sont qu'un prétexte au rire, conformément à la règle d'or."
+  },
+  "jw-tm185648": {
+    "titre": "Assaut sur Wall Street",
+    "category": "thriller_policier",
+    "justification": "Le synopsis évoque une vengeance contre le système financier par des moyens extrêmes, dominée par la machination et le suspense criminel plutôt que par des combats physiques ou des poursuites."
+  },
+  "jw-ts443624": {
+    "titre": "La Maison aux esprits",
+    "category": "horreur_epouvante",
+    "justification": "Malgré une étiquette fantastique, l'œuvre est une saga familiale historique où les éléments surnaturels servent une atmosphère inquiétante et macabre, sans cœur de récit SF ou d'anticipation."
+  },
+  "jw-tm101552": {
+    "titre": "Weird: The Al Yankovic Story",
+    "category": "comedie",
+    "justification": "Ce faux biopic parodique de Weird Al Yankovic est avant tout une comédie satirique et burlesque où l'humour prime sur toute intrigue policière ou action physique."
+  },
+  "jw-tm48280": {
+    "titre": "The Tower",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par le spectaculaire et le sauvetage physique des pompiers face à un incendie massif, avec des scènes de tension cinétique et d'action concrète plutôt qu'une intrigue criminelle ou une enquête policière."
+  },
+  "jw-tm1870174": {
+    "titre": "Trahison",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur la méfiance, les secrets et la manipulation psychologique entre agents confinés, avec une tension cérébrale dominante plutôt que des combats physiques ou poursuites spectaculaires."
+  },
+  "jw-tm1492101": {
+    "titre": "Elevation",
+    "category": "horreur_epouvante",
+    "justification": "Malgré un cadre postapocalyptique d'invasion extraterrestre, le récit repose avant tout sur la survie face à des créatures monstrueuses et la terreur qu'elles inspirent, avec une tension horrifique dominante."
+  },
+  "jw-ts218314": {
+    "titre": "Catch the Ghost",
+    "category": "comedie",
+    "justification": "La série repose sur le duo comique entre une policière maladroite et son chef excédé, l'enquête policière servant surtout de prétexte à des situations humoristiques."
+  },
+  "jw-ts237215": {
+    "titre": "Paatal Lok",
+    "category": "thriller_policier",
+    "justification": "L'œuvre est centrée sur une enquête policière, le suspense et les machinations, sans action physique dominante."
+  },
+  "jw-tm1561674": {
+    "titre": "Backwoods Blood Feud",
+    "category": "horreur_epouvante",
+    "justification": "Le récit place des humains en position de proies impuissantes face à des factions monstrueuses dans une forêt isolée, privilégiant la terreur et la prédation plutôt que la riposte armée active."
+  },
+  "jw-tm1310432": {
+    "titre": "Sentinelle",
+    "category": "scifi_fantastique",
+    "justification": "Le synopsis décrit une situation d'anticipation militaire dans un avant-poste isolé, avec une tension liée à l'attente d'une invasion ennemie, ce qui relève davantage de la science-fiction que de l'horreur pure."
+  },
+  "jw-tm356560": {
+    "titre": "L'Ombre d'Emily",
+    "category": "thriller_policier",
+    "justification": "L'Ombre d'Emily est un thriller policier centré sur une enquête criminelle, des secrets et une machination, avec une touche d'humour noir mais sans prédominance comique ni action physique."
+  },
+  "jw-ts58272": {
+    "titre": "Le Continental : D'après l'univers de John Wick",
+    "category": "action_aventure",
+    "justification": "L'intrigue repose sur une conspiration et une vengeance, mais le synopsis souligne explicitement une action et une hémoglobine dominantes, typiques de l'univers John Wick."
+  },
+  "jw-tm1942192": {
+    "titre": "La Falaise",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant un siège féroce, des affrontements physiques et la libération de dons mortels pour sauver les siens, ce qui place l'action cinétique et le spectaculaire au premier plan."
+  },
+  "jw-tm1644386": {
+    "titre": "Karma Bums",
+    "category": "thriller_policier",
+    "justification": "Le film repose sur le vol d'un trafiquant et la fuite qui s'ensuit, avec une tension criminelle et un suspense de poursuite plutôt que des combats physiques ou des fusillades intenses dominantes."
+  },
+  "jw-tm1487418": {
+    "titre": "Blackwater Lane",
+    "category": "horreur_epouvante",
+    "justification": "Le synopsis met en avant une entité fantomatique perturbant la santé mentale de l'héroïne, ce qui place le surnaturel et l'épouvante au cœur du récit."
+  },
+  "jw-ts20336": {
+    "titre": "Velvet",
+    "category": "thriller_policier",
+    "justification": "Malgré des genres bruts incluant action et crime, le synopsis révèle un drame romantique et social centré sur un amour impossible et les intrigues d'une maison de couture, sans action physique dominante, ce qui oriente vers le thriller policier par défaut."
+  },
+  "jw-tm1488884": {
+    "titre": "Vol à haut risque",
+    "category": "thriller_policier",
+    "justification": "Le synopsis repose sur une intrigue de corruption, un témoin protégé et un suspense psychologique (pilote suspect) sans action physique dominante, ce qui correspond au thriller policier."
+  },
+  "jw-tm1514285": {
+    "titre": "Riff Raff",
+    "category": "comedie",
+    "justification": "Malgré des genres criminels et dramatiques, le synopsis et le ton suggèrent une comédie noire où l'arrivée des gangsters sert de prétexte humoristique plutôt qu'à une intrigue policière sérieuse."
+  },
+  "jw-tm841797": {
+    "titre": "Ice Road",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par la mission de sauvetage périlleuse sur la route de glace, avec des scènes de conduite intense, des avaries mécaniques spectaculaires et des attaques physiques, ce qui en fait une œuvre d'action-aventure avant tout."
+  },
+  "jw-ts113507": {
+    "titre": "Hotel Costiera",
+    "category": "thriller_policier",
+    "justification": "L'intrigue dominante repose sur la traque d'une fille disparue et la résolution de problèmes criminels, avec un ex-Marine au passé mystérieux, ce qui place le suspense et l'enquête au premier plan malgré quelques touches d'action et d'humour."
+  },
+  "jw-tm120551": {
+    "titre": "Inferno",
+    "category": "thriller_policier",
+    "justification": "L'œuvre repose sur une intrigue de complot mondial, une enquête et une course contre la montre cérébrale, sans action physique dominante ni combats ou poursuites nerveuses au premier plan."
+  },
+  "jw-ts381385": {
+    "titre": "SWARM",
+    "category": "thriller_policier",
+    "justification": "Série policière sombre sur un tueur en série, dominée par l'enquête criminelle et le suspense, sans dimension comique ni action physique prépondérante."
+  },
+  "jw-tm244703": {
+    "titre": "Daylight's End",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose avant tout sur la survie face à des créatures cannibales issues d'une épidémie, avec une tension et une terreur viscérale dominantes, la composante post-apocalyptique SF restant secondaire."
+  },
+  "jw-tm307541": {
+    "titre": "High Life",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose avant tout sur une mission spatiale d'anticipation et des expériences scientifiques en apesanteur, l'horreur n'étant qu'un ressort secondaire."
+  },
+  "jw-tm178570": {
+    "titre": "L'Irlandais",
+    "category": "comedie",
+    "justification": "Le synopsis met en avant le contraste humoristique entre le flic irlandais flegmatique et l'agent du FBI maniaque, avec un ton léger et des situations comiques plutôt qu'une intrigue policière sérieuse ou des scènes d'action intenses."
+  },
+  "jw-tm1492152": {
+    "titre": "Les Infaillibles",
+    "category": "comedie",
+    "justification": "Le duo antagoniste explosif/méticuleux et le ton léger du synopsis (alliance forcée, 'plus si affinités') indiquent une comédie policière où l'enquête sert de prétexte au rire."
+  },
+  "jw-tm870694": {
+    "titre": "See for Me",
+    "category": "thriller_policier",
+    "justification": "Le film repose sur un home invasion et une traque tendue où Sophie doit déjouer les voleurs, sans surnaturel ni gore sadique, ce qui en fait un suspense criminel plutôt qu'un film d'épouvante."
+  },
+  "jw-tm860022": {
+    "titre": "Sputnik : Espèce inconnue",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose avant tout sur un mystère scientifique et une entité extraterrestre issue d'un incident spatial, avec une ambiance de thriller SF plutôt que sur une terreur viscérale pure."
+  },
+  "jw-tm1669536": {
+    "titre": "Play Dirty",
+    "category": "thriller_policier",
+    "justification": "Le synopsis met en avant un braquage sophistiqué et une intrigue criminelle face à des adversaires puissants, sans indiquer d'action physique dominante."
+  },
+  "jw-tm430592": {
+    "titre": "Killer Inside",
+    "category": "thriller_policier",
+    "justification": "Le récit est centré sur une enquête paranoïaque et une suspicion criminelle (le père potentiellement tueur en série), sans terreur surnaturelle ni gore sadique dominant."
+  },
+  "jw-tm1038597": {
+    "titre": "Shotgun Wedding",
+    "category": "comedie",
+    "justification": "Le synopsis et les genres bruts (comédie, action, romance) indiquent une comédie d'action romantique où l'humour prime sur l'action et le suspense."
+  },
+  "jw-tm348198": {
+    "titre": "Attaque à Mumbai",
+    "category": "thriller_policier",
+    "justification": "Malgré des fusillades, le film est dominé par le suspense, la tension psychologique et la machination terroriste plutôt que par l'action cinétique spectaculaire."
+  },
+  "jw-tm1590024": {
+    "titre": "Zion",
+    "category": "thriller_policier",
+    "justification": "Le synopsis privilégie le trafic de stupéfiants, la mission périlleuse et le suspense autour du colis anonyme, sans action physique dominante."
+  },
+  "jw-tm1410387": {
+    "titre": "Tenants",
+    "category": "horreur_epouvante",
+    "justification": "Le synopsis met en avant une poursuite par une silhouette obscure et une survie dans un lieu inconnu, éléments typiques de l'horreur, sans concept de science-fiction prédominant."
+  },
+  "jw-tm418495": {
+    "titre": "Nécrologies",
+    "category": "horreur_epouvante",
+    "justification": "Le synopsis met en avant des histoires macabres, des créatures malveillantes et des faits surnaturels dans un cadre de cimetière, avec pour objectif explicite de provoquer l'angoisse et la terreur, sans élément de science-fiction ou d'anticipation."
+  },
+  "jw-tm239712": {
+    "titre": "Nerve",
+    "category": "thriller_policier",
+    "justification": "Le film repose sur la manipulation psychologique et le suspense d'un jeu contrôlé par une communauté anonyme, sans action physique dominante ni combats ou poursuites nerveuses."
+  },
+  "jw-tm318206": {
+    "titre": "Criminal Squad",
+    "category": "thriller_policier",
+    "justification": "Le film est centré sur un braquage sophistiqué et l'affrontement stratégique entre braqueurs et forces de l'ordre, avec une intrigue criminelle et un suspense cérébral dominants plutôt que des combats physiques ou des poursuites nerveuses."
+  },
+  "jw-tm207670": {
+    "titre": "Howl, la terreur est sur la bonne voie",
+    "category": "horreur_epouvante",
+    "justification": "Le synopsis décrit une lutte à mort contre une créature maléfique et terrifiante dans un train, ce qui place clairement le récit au cœur de l'horreur et de l'épouvante."
+  },
+  "jw-tm818564": {
+    "titre": "Nuit d'enfer",
+    "category": "comedie",
+    "justification": "Le synopsis présente un braquage détourné en situation absurde et farcesque, où l'humour prime sur l'action ou l'enquête."
+  },
+  "jw-ts10673": {
+    "titre": "Being Human",
+    "category": "scifi_fantastique",
+    "justification": "La série repose sur un concept fantastique de créatures surnaturelles (vampire, loup-garou, fantôme) vivant une vie normale, sans terreur viscérale ni gore prédominant."
+  },
+  "jw-tm373828": {
+    "titre": "Bad Samaritan",
+    "category": "thriller_policier",
+    "justification": "Le récit repose sur un jeu du chat et de la souris, une traque psychologique et un suspense criminel entre un cambrioleur et un psychopathe, sans terreur surnaturelle ni gore sadique dominant."
+  },
+  "jw-tm459955": {
+    "titre": "La Loi de Téhéran",
+    "category": "thriller_policier",
+    "justification": "Le film est centré sur une traque policière, une confrontation psychologique et une intrigue criminelle liée au narcotrafic, sans action physique dominante."
+  },
+  "jw-tm310522": {
+    "titre": "Captive State",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose sur une occupation extraterrestre et une résistance clandestine, relevant clairement de l'anticipation et de la science-fiction plutôt que de la terreur viscérale."
+  },
+  "jw-ts384613": {
+    "titre": "Tout cela je te le donnerai",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur une enquête autour d'une mort suspecte, des secrets de famille et un suspense cérébral, sans action physique dominante ni visée comique."
+  },
+  "jw-tm422340": {
+    "titre": "Le Casse-cœur",
+    "category": "comedie",
+    "justification": "Le synopsis évoque un cambriolage servant de prétexte à une rencontre romantique et à une dynamique humoristique, avec des genres bruts incluant comédie et romance, ce qui en fait une comédie dominante."
+  },
+  "jw-tm449500": {
+    "titre": "Le Cri du Faucon",
+    "category": "comedie",
+    "justification": "Le film est une comédie dramatique centrée sur un duo improbable et le rêve de catch, où l'action et la fuite ne sont que des prétextes à l'humour et à l'émotion."
+  },
+  "jw-tm307888": {
+    "titre": "Traquées",
+    "category": "thriller_policier",
+    "justification": "Le film est un drame carcéral centré sur l'injustice et la survie psychologique, sans action physique dominante ni fusillades ou poursuites."
+  },
+  "jw-tm864319": {
+    "titre": "Legacy",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur une machination criminelle et l'élimination de témoins avant un procès, avec un suspense policier dominant plutôt que des combats physiques ou poursuites spectaculaires."
+  },
+  "jw-tm1284018": {
+    "titre": "Crépuscule pour un tueur",
+    "category": "thriller_policier",
+    "justification": "L'œuvre est dominée par la traque policière, la machination criminelle et le suspense psychologique plutôt que par des combats physiques ou des poursuites spectaculaires."
+  },
+  "jw-tm408506": {
+    "titre": "Mermaid, le lac des âmes perdues",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur une sirène maléfique, une malédiction et des événements surnaturels terrifiants, s'inscrivant dans l'horreur fantastique plutôt que dans la science-fiction."
+  },
+  "jw-tm1001508": {
+    "titre": "Queenpins",
+    "category": "comedie",
+    "justification": "Queenpins est une comédie satirique légère sur un cartel de contrefaçon de coupons, où l'humour prime sur l'enquête policière et toute action physique."
+  },
+  "jw-tm143360": {
+    "titre": "The Raid 2",
+    "category": "action_aventure",
+    "justification": "Malgré l'intrigue d'infiltration criminelle, le film est dominé par des combats physiques intenses et des scènes d'action spectaculaires (arts martiaux, fusillades, poursuites), caractéristiques du genre action_aventure."
+  },
+  "jw-ts41916": {
+    "titre": "Agatha Raisin",
+    "category": "comedie",
+    "justification": "Agatha Raisin est une série cosy mystery légère et humoristique où l'enquête sert surtout de prétexte à des situations comiques et à un ton enlevé, sans action physique ni suspense cérébral dominant."
+  },
+  "jw-tm1529383": {
+    "titre": "Very Bad Job",
+    "category": "comedie",
+    "justification": "Le synopsis mise sur le duo comique d'un tueur médiocre et d'un fils empoté, avec un ton burlesque et des situations chaotiques qui privilégient le rire sur l'action pure ou le suspense criminel."
+  },
+  "jw-tm1377835": {
+    "titre": "L'ingénieur",
+    "category": "thriller_policier",
+    "justification": "Le film est dominé par la traque, l'enquête et la machination du Mossad plutôt que par des combats physiques ou des poursuites spectaculaires."
+  },
+  "jw-tm1572658": {
+    "titre": "Le Jardinier",
+    "category": "comedie",
+    "justification": "Le synopsis et les genres bruts (comédie, action) indiquent une farce satirique où l'action n'est qu'un prétexte humoristique, typique des comédies françaises sur fond de complot."
+  },
+  "jw-ts254617": {
+    "titre": "No Man's Land",
+    "category": "thriller_policier",
+    "justification": "L'œuvre est dominée par la quête personnelle, le suspense et la découverte de la vérité dans un contexte de guerre, sans action physique cinétique ou spectaculaire dominante."
+  },
+  "jw-tm881529": {
+    "titre": "Survivre",
+    "category": "thriller_policier",
+    "justification": "Le film repose sur un huis clos tendu où la menace criminelle et la manipulation psychologique dominent, sans action physique réelle ou spectaculaire."
+  },
+  "jw-tm266900": {
+    "titre": "Baba Yaga",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur une entité démoniaque, la possession et des phénomènes surnaturels visant à terrifier, sans aucun ancrage scientifique ou anticipation technologique."
+  },
+  "jw-tm1082496": {
+    "titre": "Poker Face",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur des secrets révélés, un complot de vengeance et un braquage, avec une tension psychologique et criminelle dominante plutôt que des combats ou poursuites physiques."
+  },
+  "jw-tm1374396": {
+    "titre": "Wake Up",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur la prédation sadique d'un gardien déséquilibré traquant des adolescents impuissants, une chasse à l'homme terrorisante plutôt qu'une riposte armée active."
+  },
+  "jw-tm355413": {
+    "titre": "The Informer",
+    "category": "thriller_policier",
+    "justification": "L'œuvre est dominée par l'infiltration, l'enquête et la machination criminelle autour d'un informateur, sans action physique cinétique prépondérante."
+  },
+  "jw-tm1068411": {
+    "titre": "Opération Fortune : Ruse de guerre",
+    "category": "action_aventure",
+    "justification": "Malgré une touche d'humour via la star hollywoodienne, le film est dominé par les scènes d'action, d'infiltration et de combat physique typiques d'un blockbuster d'espionnage."
+  },
+  "jw-tm1457560": {
+    "titre": "Criminal Squad : Pantera",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur un braquage sophistiqué et une infiltration criminelle en Europe, avec une dimension de machination et de suspense policier dominante plutôt que sur des combats physiques ou des poursuites nerveuses."
+  },
+  "jw-tm1350406": {
+    "titre": "Les enfants perdus",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur une maison et une forêt hostiles qui s'en prennent à une enfant, avec des cauchemars à combattre, ce qui relève d'une atmosphère de terreur et de surnaturel horrifique plutôt que de science-fiction."
+  },
+  "jw-tm442190": {
+    "titre": "Shock Wave 2",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par les scènes d'action spectaculaires (explosions, évasion, déminage) et les affrontements physiques, typiques du cinéma d'action hongkongais, malgré une intrigue criminelle de fond."
+  },
+  "jw-tm1237574": {
+    "titre": "The Lair",
+    "category": "horreur_epouvante",
+    "justification": "Malgré l'origine scientifique des créatures mi-humaines mi-aliennes, le récit est centré sur la survie et la terreur face à des monstres carnassiers, ce qui en fait avant tout un film d'horreur."
+  },
+  "jw-tm233222": {
+    "titre": "Carnage Park",
+    "category": "horreur_epouvante",
+    "justification": "Le récit bascule dans la traque sadique et sanguinaire d'un sniper psychotique dans un lieu isolé, dominé par la terreur viscérale et le gore plutôt que par l'enquête policière."
+  },
+  "jw-tm1306942": {
+    "titre": "Darkland Undercover",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur l'infiltration, la manipulation et le suspense criminel plutôt que sur une action physique dominante."
+  },
+  "jw-tm233123": {
+    "titre": "Le Secret de la chambre noire",
+    "category": "horreur_epouvante",
+    "justification": "Le récit est un thriller psychologique oppressant centré sur l'emprise toxique et la terreur intime, sans aucun élément de science-fiction ou de fantastique."
+  },
+  "jw-ts404617": {
+    "titre": "Butterfly",
+    "category": "action_aventure",
+    "justification": "Ancien agent traqué par une assassin et une organisation d'espionnage, avec des genres bruts incluant 'act', suggère une dominance d'action cinétique et de confrontations physiques."
+  },
+  "jw-tm1608740": {
+    "titre": "Infiltration en profondeur",
+    "category": "comedie",
+    "justification": "Trois acteurs d'improvisation recrutés par la police pour des opérations sous couverture absurdes et périlleuses : le prétexte policier sert avant tout un humour de situation et de personnage, typique d'une comédie."
+  },
+  "jw-tm1650101": {
+    "titre": "La Place du mort",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant une fuite pour échapper à un gang criminel, avec des enjeux de protection familiale et de survie, ce qui suggère une dominante d'action cinétique et de poursuites."
+  },
+  "jw-tm474450": {
+    "titre": "L'Homme du labyrinthe",
+    "category": "thriller_policier",
+    "justification": "Le synopsis centré sur un détective privé rouvrant une affaire classée et une traque paranoïaque où chasseur et proie s'inversent correspond au cœur du thriller policier, sans terreur surnaturelle ni gore sadique."
+  },
+  "jw-tm239640": {
+    "titre": "Next Level",
+    "category": "scifi_fantastique",
+    "justification": "Le cœur du récit repose sur une technologie de réalité virtuelle immersive et un concept d'anticipation où le jeu met en jeu la vie des joueurs, la dimension horrifique restant secondaire."
+  },
+  "jw-tm412937": {
+    "titre": "La victoire dans le sang",
+    "category": "action_aventure",
+    "justification": "Le film est centré sur la course automobile et la compétition, avec une dimension spectaculaire et physique dominante, sans intrigue criminelle ou enquête policière."
+  },
+  "jw-tm1249871": {
+    "titre": "Bonne nuit, maman",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur une tension paranoïaque et l'angoisse d'une possible usurpation d'identité maternelle, avec une atmosphère de terreur psychologique et de suspense viscéral typique de l'épouvante."
+  },
+  "jw-tm1269887": {
+    "titre": "Jailer",
+    "category": "action_aventure",
+    "justification": "Jailer est un film d'action tamoul centré sur un geôlier affrontant un gang, avec des combats physiques et des cascades typiques du genre, l'humour et l'enquête n'étant que secondaires."
+  },
+  "jw-ts504900": {
+    "titre": "Miss Sophie : Same Procedure As Every Year",
+    "category": "comedie",
+    "justification": "Malgré l'intrigue criminelle, le ton léger, les disputes amoureuses et l'idylle avec le majordome évoquent une comédie romantique et satirique plutôt qu'un thriller policier."
+  },
+  "jw-ts381362": {
+    "titre": "Le Daron",
+    "category": "comedie",
+    "justification": "Le synopsis présente un avocat fantasque et un conflit familial léger, typique d'une comédie judiciaire où l'intrigue sert le rire plutôt que l'action ou le suspense policier."
+  },
+  "jw-tm1235387": {
+    "titre": "Rogue Agent",
+    "category": "thriller_policier",
+    "justification": "L'œuvre est centrée sur la manipulation psychologique et l'escroquerie d'un faux agent secret, sans action physique dominante, ce qui en fait un thriller policier."
+  },
+  "jw-tm915192": {
+    "titre": "Terrible jungle",
+    "category": "comedie",
+    "justification": "Le synopsis et le ton burlesque (aventurier candide, mère terrifiante, militaire incompétent) indiquent une comédie d'aventure parodique où l'action n'est qu'un prétexte comique."
+  },
+  "jw-tm1215434": {
+    "titre": "L'Ombre d'Emily 2",
+    "category": "thriller_policier",
+    "justification": "L'Ombre d'Emily 2 est un thriller policier centré sur le meurtre, la trahison et les rebondissements criminels, avec un ton noir et suspense plutôt que comique ou purement action."
+  },
+  "jw-tm1472393": {
+    "titre": "Die Hart 2: Die Harter",
+    "category": "comedie",
+    "justification": "Die Hart 2 est une comédie d'action parodique où Kevin Hart joue son propre rôle de star d'action, l'humour et la satire du genre primant sur l'action ou le suspense."
+  },
+  "jw-tm1537224": {
+    "titre": "Jacob Tyler",
+    "category": "action_aventure",
+    "justification": "Un ancien soldat affrontant un gang de clowns suggère des combats physiques et un spectacle cinétique dominant, typique de l'action."
+  },
+  "jw-tm245334": {
+    "titre": "Pet",
+    "category": "thriller_policier",
+    "justification": "Le récit repose sur l'obsession, la traque et la séquestration psychologique sans terreur surnaturelle ni gore sadique, ce qui en fait un thriller policier dominant."
+  },
+  "jw-ts295139": {
+    "titre": "Deadloch",
+    "category": "comedie",
+    "justification": "Deadloch est une série policière à l'humour noir et décalé où le duo d'enquêtrices et les situations absurdes servent avant tout la comédie, l'enquête n'étant qu'un prétexte."
+  },
+  "jw-tm847836": {
+    "titre": "Superdeep",
+    "category": "horreur_epouvante",
+    "justification": "Malgré un cadre de forage scientifique souterrain, le récit repose avant tout sur la terreur et l'épouvante suscitées par des voix et cris inquiétants venus des profondeurs, avec une atmosphère de survie horrifique."
+  },
+  "jw-ts482671": {
+    "titre": "Gayriresmi",
+    "category": "comedie",
+    "justification": "Le synopsis met en avant une dynamique de comédie romantique et de quiproquo autour d'une double identité, avec un ton explicitement qualifié d'« hilarious », reléguant l'action et le crime au rang de prétexte humoristique."
+  },
+  "jw-tm244381": {
+    "titre": "Marauders",
+    "category": "thriller_policier",
+    "justification": "L'œuvre est dominée par l'enquête du FBI, la machination des braqueurs et le suspense criminel plutôt que par des combats physiques ou des poursuites intenses."
+  },
+  "jw-tm1640370": {
+    "titre": "Great White Waters",
+    "category": "horreur_epouvante",
+    "justification": "Le récit est dominé par la menace prédatrice des requins féroces qui terrorisent quiconque s'approche de la cachette, plaçant la terreur viscérale et l'impuissance face aux créatures au cœur du film plutôt que la riposte armée."
+  },
+  "jw-tm1858163": {
+    "titre": "Le Mécanicien",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant un ancien marine qui renoue avec ses instincts de soldat pour affronter physiquement des criminels, indiquant une dominance de l'action cinétique et des combats."
+  },
+  "jw-ts186618": {
+    "titre": "La Unidad: Unité anti-terroriste",
+    "category": "thriller_policier",
+    "justification": "La série est dominée par l'enquête antiterroriste, le suspense et la machination plutôt que par des combats physiques ou des poursuites spectaculaires."
+  },
+  "jw-tm925584": {
+    "titre": "The Vanished",
+    "category": "thriller_policier",
+    "justification": "Le film repose sur une intrigue de disparition et d'enquête, avec suspense psychologique et initiatives parentales, sans action physique dominante ni spectaculaire cinétique."
+  },
+  "jw-tm884662": {
+    "titre": "Dark Harvest",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur un rituel macabre et une créature menaçante (Jack Dents-de-Scie) traquant des adolescents, avec une course à la survie purement horrifique sans élément de science-fiction ou d'anticipation."
+  },
+  "jw-tm1546551": {
+    "titre": "The Trail",
+    "category": "scifi_fantastique",
+    "justification": "La menace extraterrestre et la lutte pour la survie en pleine nature ancrent le récit dans la science-fiction, malgré une tension horrifique secondaire."
+  },
+  "jw-tm144537": {
+    "titre": "Redirected",
+    "category": "comedie",
+    "justification": "Malgré un synopsis criminel et une traque, le film est avant tout une comédie d'action décalée portée par l'humour noir et les situations absurdes du trio de bras cassés."
+  },
+  "jw-tm345729": {
+    "titre": "Incantations",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur la sorcellerie, les accusations de descendance maléfique et la terreur psychologique liée au crâne de l'aïeule sorcière, sans aucun élément de science-fiction."
+  },
+  "jw-ts201838": {
+    "titre": "Le Consultant",
+    "category": "comedie",
+    "justification": "La série est une satire noire et absurde du monde de l'entreprise, où le mystérieux consultant et la tragédie servent avant tout un humour grinçant plutôt qu'une intrigue policière ou des scènes d'action."
+  },
+  "jw-ts14798": {
+    "titre": "Covert Affairs",
+    "category": "thriller_policier",
+    "justification": "La série est centrée sur l'espionnage, les manipulations et les enquêtes de la CIA plutôt que sur des combats physiques ou des poursuites spectaculaires dominants."
+  },
+  "jw-ts20441": {
+    "titre": "U.S. Marshals, Protection de témoins",
+    "category": "thriller_policier",
+    "justification": "La série est centrée sur la protection de témoins, les menaces criminelles et le suspense, sans action physique dominante ni spectaculaire cinétique."
+  },
+  "jw-tm811653": {
+    "titre": "The Goya Murders",
+    "category": "thriller_policier",
+    "justification": "Le récit est centré sur une enquête policière menée par deux inspectrices pour arrêter un tueur en série, avec une intrigue criminelle et un suspense cérébral dominant, sans terreur surnaturelle ni gore sadique."
+  },
+  "jw-tm248562": {
+    "titre": "La Gunguna",
+    "category": "comedie",
+    "justification": "Le synopsis met en avant l'humour noir et une structure à sketches autour d'un objet maudit, l'action et l'enquête n'étant que des prétextes comiques."
+  },
+  "jw-tm942315": {
+    "titre": "Combattantes",
+    "category": "action_aventure",
+    "justification": "Le film est centré sur un club de combat clandestin féminin, avec des affrontements physiques et des arts martiaux, ce qui en fait une œuvre dominée par l'action cinétique."
+  },
+  "jw-tm167682": {
+    "titre": "Infiltré",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur l'infiltration, le suspense et la machination criminelle plutôt que sur des combats physiques ou des poursuites dominantes."
+  },
+  "jw-tm817661": {
+    "titre": "Escape from Mogadishu",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par des scènes de fuite, de poursuite et de survie en zone de guerre, avec une action cinétique réelle (courses, esquives, convois sous le feu) qui prime sur l'enquête ou la machination policière."
+  },
+  "jw-ts269919": {
+    "titre": "Ipcress File",
+    "category": "thriller_policier",
+    "justification": "L'œuvre est dominée par l'espionnage, l'enquête et le conditionnement psychologique, sans action physique cinétique prépondérante."
+  },
+  "jw-tm1220458": {
+    "titre": "Kantara",
+    "category": "action_aventure",
+    "justification": "Kantara est dominé par des séquences d'action physique intenses (combats, poursuites, affrontements tribaux) et un final spectaculaire, malgré une intrigue de conflit foncier."
+  },
+  "jw-tm1335163": {
+    "titre": "Le Horla",
+    "category": "horreur_epouvante",
+    "justification": "Le Horla est une adaptation du récit fantastique de Maupassant centré sur une entité invisible qui tourmente et détruit psychologiquement un individu, relevant avant tout de l'épouvante et de la terreur psychologique plutôt que de la science-fiction."
+  },
+  "jw-tm309719": {
+    "titre": "Phoenix Forgotten",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose avant tout sur un mystère cosmique/scientifique (lumières mystérieuses, disparition inexpliquée) traité en found footage d'anticipation, sans terreur viscérale ni créature carnassière dominante."
+  },
+  "jw-tm945146": {
+    "titre": "Voler Chaplin",
+    "category": "comedie",
+    "justification": "L'histoire de deux escrocs volant le cadavre de Chaplin pour une rançon, avec des voyous et flics corrompus, est avant tout une farce burlesque et satirique où l'intrigue criminelle sert de prétexte au rire."
+  },
+  "jw-ts287720": {
+    "titre": "Panic",
+    "category": "thriller_policier",
+    "justification": "Le jeu illégal et les défis psychologiques imposés par des juges anonymes relèvent davantage du suspense cérébral et de la machination que de l'action physique dominante."
+  },
+  "jw-tm468772": {
+    "titre": "Mon espion",
+    "category": "comedie",
+    "justification": "La prémisse repose sur une fillette de 9 ans qui fait chanter un agent pour qu'il lui apprenne le métier d'espion, un ressort comique évident où l'enquête n'est qu'un prétexte au rire."
+  },
+  "jw-tm1130127": {
+    "titre": "Crush",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur une traque et un combat désespéré pour la survie face à une femme mystérieuse et menaçante, avec une tension viscérale et des genres bruts incluant l'horreur (hrr), ce qui prime sur l'enquête policière."
+  },
+  "jw-ts77946": {
+    "titre": "Aurore",
+    "category": "thriller_policier",
+    "justification": "Le synopsis évoque une intrigue criminelle, un secret d'enfance et une confrontation psychologique vingt ans plus tard, sans action physique ni humour, ce qui correspond au thriller policier."
+  },
+  "jw-tm1568638": {
+    "titre": "Velhos Bandidos",
+    "category": "comedie",
+    "justification": "Avec Fernanda Montenegro et Ary Fontoura, le film est une comédie brésilienne légère sur des bandits âgés, où l'humour prime sur l'action ou le suspense."
+  },
+  "jw-tm437040": {
+    "titre": "Banco",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur un braquage bancaire et une course contre la montre pour obtenir une rançon, avec un suspense et une tension psychologique dominants plutôt que des combats physiques ou des poursuites spectaculaires."
+  },
+  "jw-tm175843": {
+    "titre": "Dark Skies",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose sur une force extra-terrestre et des phénomènes d'enlèvement/contrôle, relevant de l'anticipation SF, même si l'ambiance emprunte au thriller horrifique."
+  },
+  "jw-tm1390987": {
+    "titre": "Drone Games",
+    "category": "thriller_policier",
+    "justification": "Le synopsis met en avant une intrigue de braquages sophistiqués et de manipulation psychologique plutôt que des combats physiques ou des poursuites nerveuses dominantes."
+  },
+  "jw-tm1559728": {
+    "titre": "Porch Pirates",
+    "category": "comedie",
+    "justification": "Le synopsis présente une aventure de vacances loufoque avec des détectives et des voleurs de Noël, clairement orientée vers l'humour et la parodie plutôt que l'action pure ou le suspense policier."
+  },
+  "jw-tm240722": {
+    "titre": "The Void",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose avant tout sur la terreur viscérale, les créatures démoniaques et la survie face à un monde infernal, sans que la science-fiction soit le cœur du propos."
+  },
+  "jw-tm141354": {
+    "titre": "En cavale",
+    "category": "comedie",
+    "justification": "Le duo improbable d'une policière coincée et d'une veuve sexy en cavale au Texas, avec des genres bruts incluant 'cmy' (comédie), indique une comédie d'action où l'humour prime sur le suspense ou l'action pure."
+  },
+  "jw-tm308618": {
+    "titre": "Vengeance",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur une agression, une enquête policière et une quête de justice face à un système judiciaire défaillant, sans action physique dominante."
+  },
+  "jw-tm902330": {
+    "titre": "Ghosts of War",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose avant tout sur une force surnaturelle terrifiante et une atmosphère d'épouvante dans un château hanté, la dimension science-fiction n'étant qu'un twist secondaire."
+  },
+  "jw-tm435646": {
+    "titre": "Été mortel",
+    "category": "thriller_policier",
+    "justification": "Le synopsis évoque un vol et une situation qui dégénère, avec une intrigue criminelle et un suspense psychologique dominants, sans action physique intense ni spectaculaire."
+  },
+  "jw-tm865930": {
+    "titre": "Piège de métal",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur la recherche d'un magot caché et la course contre la montre dans un bâtiment piégé, avec une tension criminelle et un suspense de braquage plutôt que des combats physiques ou des poursuites dominantes."
+  },
+  "jw-tm147287": {
+    "titre": "The Prey: Legend of Karnoctus",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur la survie et la terreur dans une grotte où les protagonistes découvrent une créature menaçante, sans concept de science-fiction prédominant."
+  },
+  "jw-tm858512": {
+    "titre": "Jolt",
+    "category": "action_aventure",
+    "justification": "Le film repose avant tout sur une vengeance explosive et des combats physiques portés par une héroïne impulsive, l'humour et l'enquête policière n'étant que secondaires."
+  },
+  "jw-tm1541543": {
+    "titre": "Agent Zeta",
+    "category": "thriller_policier",
+    "justification": "Le synopsis privilégie l'enquête, la conspiration et la manipulation psychologique autour d'une opération passée plutôt que des combats physiques ou des poursuites dominantes."
+  },
+  "jw-tm1441251": {
+    "titre": "Le Cauchemar de Peter Pan",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur un Peter Pan malveillant et un Pays imaginaire dangereux, avec une Fée Clochette déchue, visant clairement à terrifier et à jouer sur la peur plutôt que sur un concept de science-fiction."
+  },
+  "jw-tm983721": {
+    "titre": "Premier rencard",
+    "category": "comedie",
+    "justification": "Le synopsis décrit une série de mésaventures surréalistes autour d'un premier rendez-vous, clairement orientée vers l'humour et la comédie plutôt que l'action ou le suspense criminel."
+  },
+  "jw-tm1491679": {
+    "titre": "Harsh Treatment",
+    "category": "comedie",
+    "justification": "Le synopsis met en avant des hors-la-loi ratés et un ton léger, suggérant une comédie où l'action et le suspense sont des prétextes humoristiques."
+  },
+  "jw-tm363441": {
+    "titre": "L'inciseur",
+    "category": "thriller_policier",
+    "justification": "Le récit repose sur un jeu de piste macabre et une enquête sous contrainte pour sauver une victime séquestrée, sans terreur surnaturelle ni gore sadique dominant."
+  },
+  "jw-tm521918": {
+    "titre": "Vault : Casse contre la mafia",
+    "category": "thriller_policier",
+    "justification": "L'œuvre est centrée sur un braquage sophistiqué et l'intrigue criminelle contre la mafia, sans action physique dominante, ce qui correspond au thriller policier."
+  },
+  "jw-tm1666528": {
+    "titre": "The Tank",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant une mission de guerre avec affrontements ennemis et traversée d'un no man's land, dominée par l'action physique et le spectaculaire des combats de char."
+  },
+  "jw-tm1654993": {
+    "titre": "McWalter",
+    "category": "comedie",
+    "justification": "Le synopsis parodie les films d'espionnage (agent légendaire accusé à tort, complot mondial) avec un ton humoristique typique des comédies d'action comme OSS 117, où l'intrigue n'est qu'un prétexte au rire."
+  },
+  "jw-tm158907": {
+    "titre": "Timelapse",
+    "category": "scifi_fantastique",
+    "justification": "Le cœur du récit repose sur une machine photographiant le futur à 24h, un concept de science-fiction temporelle, la tension psychologique n'étant qu'une conséquence du dispositif SF plutôt qu'une terreur viscérale."
+  },
+  "jw-tm1570732": {
+    "titre": "Patsers",
+    "category": "thriller_policier",
+    "justification": "Le synopsis décrit une intrigue criminelle sombre centrée sur le trafic de cocaïne, la traque par un cartel et une vengeance, avec des genres bruts de crime et drame, ce qui correspond à un thriller policier plutôt qu'à une comédie ou un film d'action pure."
+  },
+  "jw-tm322485": {
+    "titre": "Peur Bleue",
+    "category": "thriller_policier",
+    "justification": "Le film repose sur la survie et la tension psychologique en milieu hostile (océan) plutôt que sur des combats physiques ou des poursuites, ce qui correspond à la dominance du suspense et de la menace criminelle involontaire."
+  },
+  "jw-tm240655": {
+    "titre": "Invisible",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose sur un pouvoir d'invisibilité (élément de science-fiction/fantastique) utilisé pour retrouver sa fille, sans que l'horreur ou la terreur ne soit le cœur du film."
+  },
+  "jw-tm214845": {
+    "titre": "Summer Camp",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose avant tout sur une infection transformant les victimes en agresseurs et sur la survie terrifiante du groupe, caractéristiques d'un film d'horreur plutôt que d'une intrigue de science-fiction dominante."
+  },
+  "jw-tm148674": {
+    "titre": "Miss Meadows",
+    "category": "thriller_policier",
+    "justification": "Miss Meadows est un thriller policier noir centré sur une justicière vengeresse, dont l'humour noir n'efface pas la froideur du polar et la traque criminelle."
+  },
+  "jw-tm999993": {
+    "titre": "Gaia",
+    "category": "horreur_epouvante",
+    "justification": "Gaia est avant tout un film d'horreur forestier et de survie où la terreur viscérale et les créatures monstrueuses dominent, malgré un cadre post-apocalyptique et des éléments fantastiques."
+  },
+  "jw-tm1145118": {
+    "titre": "Mahaan",
+    "category": "thriller_policier",
+    "justification": "Le film est dominé par une intrigue criminelle et des enjeux familiaux avec une dimension polar, sans action physique cinétique prépondérante."
+  },
+  "jw-tm1355424": {
+    "titre": "Bienvenue à Ciudad Juarez",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant une mission commando, des affrontements physiques contre des narcotrafiquants et un sauvetage spectaculaire, dominés par l'action cinétique."
+  },
+  "jw-tm1225525": {
+    "titre": "Canary Black",
+    "category": "action_aventure",
+    "justification": "Le synopsis décrit une course mortelle, des contacts clandestins et une remise de rançon sous chantage, avec une dominante d'action cinétique et de spectaculaire typique des films d'espionnage."
+  },
+  "jw-tm315983": {
+    "titre": "MMA: l'amour ne meurt jamais [ sous-titré ]",
+    "category": "action_aventure",
+    "justification": "L'ancien champion de MMA retourne dans le ring pour un dernier combat, ce qui place les combats physiques et l'action cinétique au cœur de l'intrigue, malgré la présence d'éléments criminels et de suspense."
+  },
+  "jw-tm1665943": {
+    "titre": "Prisoner of War",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par la survie physique, les combats quotidiens et un plan d'évasion spectaculaire dans un contexte de guerre, ce qui prime sur l'enquête ou la machination criminelle."
+  },
+  "jw-tm1096589": {
+    "titre": "The Last Son",
+    "category": "thriller_policier",
+    "justification": "Western dramatique centré sur la traque et la confrontation psychologique d'un père vers son fils, sans action cinétique dominante ni fusillades ou poursuites intenses."
   }
 }
