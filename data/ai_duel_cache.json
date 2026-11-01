@@ -2485,5 +2485,50 @@
     "titre": "The Last Son",
     "category": "thriller_policier",
     "justification": "Western dramatique centré sur la traque et la confrontation psychologique d'un père vers son fils, sans action cinétique dominante ni fusillades ou poursuites intenses."
+  },
+  "jw-tm145876": {
+    "titre": "Noé",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par le spectaculaire biblique et les affrontements physiques contre une armée, avec une action cinétique réelle (combats, poursuites, bataille autour de l'arche), plutôt qu'une intrigue policière ou un suspense cérébral."
+  },
+  "jw-tm811260": {
+    "titre": "Haut perchés",
+    "category": "thriller_policier",
+    "justification": "Le synopsis décrit une confrontation psychologique et un suspense autour d'un secret partagé, sans action physique ni ressort comique dominant, ce qui en fait un thriller de vengeance intime."
+  },
+  "jw-tm1585104": {
+    "titre": "Légitime vengeance",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant un ancien des forces spéciales déclenchant une guerre brutale et une confrontation explosive pour se venger, dominé par l'action physique et le spectaculaire."
+  },
+  "jw-tm2962321": {
+    "titre": "Apocalypse Z : Nouveau Monde",
+    "category": "action_aventure",
+    "justification": "Le récit repose sur une unité militaire en mission de ravitaillement à Madrid, avec survie tactique, affrontements contre les infectés et dilemmes de loyauté, ce qui place l'action cinétique et la riposte active au cœur du film."
+  },
+  "jw-tm167232": {
+    "titre": "Sans identité",
+    "category": "thriller_policier",
+    "justification": "Le film repose sur une intrigue de manipulation psychologique et d'usurpation d'identité avec suspense cérébral, sans action physique dominante."
+  },
+  "jw-tm429008": {
+    "titre": "Gretel & Hansel",
+    "category": "horreur_epouvante",
+    "justification": "Conte macabre centré sur une présence maléfique et une sorcière, visant la terreur et l'angoisse plutôt que la science-fiction."
+  },
+  "jw-tm1477837": {
+    "titre": "Valiant One",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant la survie, l'évasion et la protection d'un civil dans un contexte de crash et de tensions militaires, avec des affrontements physiques probables, ce qui domine sur l'enquête criminelle."
+  },
+  "jw-tm307077": {
+    "titre": "Nomis",
+    "category": "thriller_policier",
+    "justification": "Le synopsis centré sur une traque policière d'un prédateur en ligne et une enquête criminelle relève du suspense et de l'intrigue policière, sans action physique dominante."
+  },
+  "jw-tm1385696": {
+    "titre": "Your Lucky Day",
+    "category": "thriller_policier",
+    "justification": "Le film repose sur une prise d'otages et des dilemmes moraux autour d'un magot, avec une tension psychologique et criminelle dominante plutôt que des combats ou poursuites spectaculaires."
   }
 }
