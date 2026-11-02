@@ -2530,5 +2530,15 @@
     "titre": "Your Lucky Day",
     "category": "thriller_policier",
     "justification": "Le film repose sur une prise d'otages et des dilemmes moraux autour d'un magot, avec une tension psychologique et criminelle dominante plutôt que des combats ou poursuites spectaculaires."
+  },
+  "jw-tm1602658": {
+    "titre": "Ed Kemper",
+    "category": "horreur_epouvante",
+    "justification": "Le récit centré sur un tueur en série sadique et la mutilation, avec une dimension macabre et terrifiante, relève d'une terreur viscérale plutôt que d'une enquête policière."
+  },
+  "jw-tm266703": {
+    "titre": "Sleepless",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant un flic blessé et traqué devenant un adversaire brutal et impitoyable pour sauver son fils, avec une forte dimension de combats physiques et de survie nocturne, typique de l'action cinétique."
   }
 }
