@@ -1,11 +1,17 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.38** / Cache **cinescope-v9.38-season-selector-v50** / Stockage **_v49**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.39** / Cache **cinescope-v9.39-genre-gating-v51** / Stockage **_v50**).
 
 ---
 
-## Nouveautés de la Session (v9.38)
-* **Sélecteur de Saisons Intelligent dans la Modale Série** :
+## Nouveautés de la Session (v9.39)
+* **Sanctuarisation du Verrou de Genre Strict & Correction Faux Positifs Horreur** :
+  - **Interdiction formelle de l'Horreur sans tag officiel** : Restauration absolue de la règle du Verrou de Genre (*Genre-Gating Strict*). L'horreur ne peut en aucun cas être déverrouillée si l'œuvre porte un tag Fantastique (`fnt`), Science-Fiction (`scf`) ou Animation (`ani`) sans disposer du tag officiel `hrr`.
+  - **Élimination des faux positifs fantastiques** : Retrait définitif de `magie noire` et `boîte de Pandore` de l'expression `STRICT_HORROR_PATTERNS`. Ces termes relèvent de l'aventure féerique et fantastique, non de l'épouvante pure.
+  - **Garantie de Cohérence Sous-Catégorie / Catégorie Mère** : Dans `computeSubCategory`, une sous-catégorie en cache ne peut plus être retournée si elle n'appartient pas légitimement à la catégorie mère active (empêche formellement d'associer la sous-catégorie *Fantastique* à *Horreur & Épouvante*).
+  - Réhabilitation immédiate et universelle de ***Flynn Carson et les nouveaux aventuriers*** (*The Librarians*) dans **`scifi_fantastique`** (sous-catégorie *Fantastique*).
+  - Bump des clés de stockage local (`_v50`) et du cache PWA (`v9.39` / `cinescope-v9.39-genre-gating-v51`) pour forcer la mise à jour immédiate côté client.
+* **Sélecteur de Saisons Intelligent dans la Modale Série (v9.38)** :
   - Lorsqu'une série possède plusieurs saisons disponibles, le sélecteur s'ouvre par défaut sur l'option **`Saisons`** (vue globale : cumul total d'épisodes et plage d'années globale).
   - Un clic direct sur **`Saison 1`**, **`Saison 2`**, etc. actualise instantanément le badge avec le nombre d'épisodes de la saison choisie et son année de diffusion.
   - L'utilisateur peut à tout moment re-sélectionner **`Saisons`** pour retrouver le cumul d'épisodes de la série.

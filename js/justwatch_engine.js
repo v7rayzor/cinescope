@@ -4,12 +4,12 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v49';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v49';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v49';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v49';
-  const STORAGE_KEY_SPECIALIZED_SYNC = 'cinescope_last_specialized_sync_v44';
-  const STORAGE_KEY_AMAZON_SYNC = 'cinescope_last_amazon_sync_v49';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v50';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v50';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v50';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v50';
+  const STORAGE_KEY_SPECIALIZED_SYNC = 'cinescope_last_specialized_sync_v50';
+  const STORAGE_KEY_AMAZON_SYNC = 'cinescope_last_amazon_sync_v50';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -284,7 +284,7 @@ const JustWatchEngine = (function () {
   const THRILLER_TENSION_PATTERNS = /\b(tension|suspense|angoisse|manipulation|piege|mystere|huis clos|danger|menace|menacant|disparition|disparu|disparus|disparait|intrus|homejacking|chantage|psychopathe|vengeance)\b/i;
   const ADVENTURE_PATTERNS = /\b(cite perdue|archeologue|archeologues|archeologie|expedition|jungle|amazonie|chasse au tresor|pyramide|pharaon|kheops|western|cowboy|sherif|arts martiaux|kung fu|baston|videur|catastrophe|comete|apocalypse|fin du monde|gladiateur|gladiateurs|peplum|operation militaire|barkhane|deminage|forces speciales|traque terroriste|artefact|artefacts|aventurier|aventuriers)\b/i;
   const ACTION_PATTERNS = /\b(combat|combats|combattant|combattants|bataille|batailles|guerre|affrontement|affrontements|explosion|explosions|commando|forces speciales|mission|sauvetage|chasseur|chasseurs|guerrier|guerriers|survie|se battre|armee|soldat|soldats|conquete|invasion|vaisseau|spatial|spatiale)\b/i;
-  const STRICT_HORROR_PATTERNS = /\b(satan|satanique|possession demoniaque|possede par|possedee par|exorcisme|exorciste|pacte avec satan|pacte avec le diable|slasher|gore|body horror|zombie|zombies|mort-vivant|morts-vivants|maison hantee|lieu sacre profane|monstre sanguinaire|lovecraft|terreur nocturne|contagion mortelle|magie noire|boite de pandore|pandore|vampirisme|soif de sang|sang humain)\b/i;
+  const STRICT_HORROR_PATTERNS = /\b(satan|satanique|possession demoniaque|possede par|possedee par|exorcisme|exorciste|pacte avec satan|pacte avec le diable|slasher|gore|body horror|zombie|zombies|mort-vivant|morts-vivants|maison hantee|lieu sacre profane|monstre sanguinaire|lovecraft|terreur nocturne|contagion mortelle|vampirisme|soif de sang|sang humain)\b/i;
   const SLASHER_PATTERNS = /\b(slasher|slashers|tueur masque|tueurs masques|tueuse masquee|tueur au masque|tueur en serie|tueurs en serie|psychopathe|boogeyman|croque-mitaine|massacre au couteau)\b/i;
   const FANTASTIC_PATTERNS = /\b(sorciere|sorcieres|sorcier|sorciers|witch|witches|monstre|monstres|monster|monsters|creature|creatures|fantome|fantomes|ghost|ghosts|surnaturel|surnaturels|surnaturelle|surnaturelles|supernatural|paranormal|paranormaux|paranormale|paranormales|occulte|magie|magique|magiques|magic|force mysterieuse|puissance mysterieuse|malediction|enchantement|ensorcele|royaume feerique|conte de fees|vampire|vampires|loup garou|loups garous|werewolf)\b/i;
   const SCIFI_PATTERNS = /\b(vaisseau|vaisseaux|extraterrestre|extraterrestres|alien|aliens|astronaute|astronautes|planete deserte|voyage dans le temps|multivers|reincarnation|changement climatique|androide|ia|robot|intelligence artificielle|dystopie|dystopique|futuriste|mutant|mutants|quatre terres|arborlon|elfe|elfes|druide|druides|virus|epidemie|pandemie|anticipation|eradique|eradiquees|amnesie retrograde)\b/i;
@@ -322,9 +322,10 @@ const JustWatchEngine = (function () {
     }
 
     // 2. Déverrouillage contextuel exceptionnel strictement sanctuarisé (Verrou de Genre Obligatoire - Règle 7)
-    // Seuls les motifs d'épouvante extrême absolue ou d'animation formelle peuvent déverrouiller une catégorie hors tags de base
+    // Seuls les motifs d'épouvante extrême absolue ou d'animation formelle peuvent déverrouiller une catégorie hors tags de base.
+    // VERROU STRICT : L'horreur ne peut JAMAIS être déverrouillée si l'œuvre porte un tag Fantastique ('fnt'), SF ('scf') ou Animation ('ani').
     if (cleanText) {
-      if (STRICT_HORROR_PATTERNS.test(cleanText)) {
+      if (STRICT_HORROR_PATTERNS.test(cleanText) && !tags.includes('fnt') && !tags.includes('scf') && !tags.includes('ani')) {
         allowed.add('horreur_epouvante');
       }
       if (!isMatureFamily && ANIMATION_PATTERNS.test(cleanText)) {
@@ -538,6 +539,17 @@ const JustWatchEngine = (function () {
     return catNames[bestIdx];
   }
 
+  // Sous-catégories légitimes par catégorie mère (Cohérence stricte Règle 7)
+  const VALID_SUBS_BY_CATEGORY = {
+    drame_emotion: ['Romance', 'Histoire', 'Social'],
+    comedie: ['Humour', 'Romantique', 'Dramatique', 'Musical'],
+    thriller_policier: ['Policier', 'Thriller'],
+    action_aventure: ['Action', 'Aventure'],
+    scifi_fantastique: ['SF', 'Fantastique'],
+    horreur_epouvante: ['Angoisse', 'Surnaturel', 'Slasher', 'Monstres'],
+    animation_famille: ['Animation', 'Famille']
+  };
+
   // Qualification des Sous-Catégories en 1 Mot Simple (avec Priorité Cache IA DeepSeek)
   function computeSubCategory(item) {
     if (!item) return '';
@@ -554,13 +566,15 @@ const JustWatchEngine = (function () {
     }
 
     // 1. Priorité absolue au registre persistant d'arbitrage IA DeepSeek pour les autres catégories
+    // Validation stricte : la sous-catégorie du cache DOIT être légitime pour la catégorie mère actuelle
     const cache = (typeof window !== 'undefined' && window.AI_SUBCATEGORIES_CACHE)
       ? window.AI_SUBCATEGORIES_CACHE
       : aiSubCategoriesCache;
     if (cache && cache[item.id]) {
       const entry = cache[item.id];
       const sub = typeof entry === 'string' ? entry : (entry.subCategory || entry.choix);
-      if (sub) return sub;
+      const validSubs = VALID_SUBS_BY_CATEGORY[cat] || [];
+      if (sub && validSubs.includes(sub)) return sub;
     }
 
     // 2. Moteur déterministe en fallback immédiat

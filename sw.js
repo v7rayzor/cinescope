@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cinescope-v9.38-season-selector-v50';
+const CACHE_NAME = 'cinescope-v9.39-genre-gating-v51';
 const CORE_ASSETS = [
   './',
   './index.html',
