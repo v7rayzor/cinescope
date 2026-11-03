@@ -323,9 +323,9 @@ const JustWatchEngine = (function () {
 
     // 2. Déverrouillage contextuel exceptionnel strictement sanctuarisé (Verrou de Genre Obligatoire - Règle 7)
     // Seuls les motifs d'épouvante extrême absolue ou d'animation formelle peuvent déverrouiller une catégorie hors tags de base.
-    // VERROU STRICT : L'horreur ne peut JAMAIS être déverrouillée si l'œuvre porte un tag Fantastique ('fnt'), SF ('scf') ou Animation ('ani').
+    // VERROU STRICT : L'horreur ne peut JAMAIS être déverrouillée si l'œuvre porte un tag Fantastique ('fnt') ou Animation ('ani').
     if (cleanText) {
-      if (STRICT_HORROR_PATTERNS.test(cleanText) && !tags.includes('fnt') && !tags.includes('scf') && !tags.includes('ani')) {
+      if (STRICT_HORROR_PATTERNS.test(cleanText) && !tags.includes('fnt') && !tags.includes('ani')) {
         allowed.add('horreur_epouvante');
       }
       if (!isMatureFamily && ANIMATION_PATTERNS.test(cleanText)) {

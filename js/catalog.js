@@ -8463,7 +8463,7 @@ const CATALOG_DATA = [
     "note_recence": 7,
     "note_globale": 7.2,
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "badge": "12",
     "is_eligible": true,
@@ -64073,7 +64073,7 @@ const CATALOG_DATA = [
     "note_globale": 7,
     "etoiles": 4,
     "categories": [
-      "horreur_epouvante"
+      "scifi_fantastique"
     ],
     "raw_genres": [
       "drm",

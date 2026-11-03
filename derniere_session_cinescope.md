@@ -1,16 +1,16 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.39** / Cache **cinescope-v9.39-genre-gating-v51** / Stockage **_v50**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.40** / Cache **cinescope-v9.40-genre-gating-v52** / Stockage **_v50**).
 
 ---
 
-## Nouveautés de la Session (v9.39)
+## Nouveautés de la Session (v9.40)
 * **Sanctuarisation du Verrou de Genre Strict & Correction Faux Positifs Horreur** :
-  - **Interdiction formelle de l'Horreur sans tag officiel** : Restauration absolue de la règle du Verrou de Genre (*Genre-Gating Strict*). L'horreur ne peut en aucun cas être déverrouillée si l'œuvre porte un tag Fantastique (`fnt`), Science-Fiction (`scf`) ou Animation (`ani`) sans disposer du tag officiel `hrr`.
+  - **Correction directe dans les fichiers statiques de catalogue** : Réhabilitation physique de ***Flynn Carson et les nouveaux aventuriers*** (*The Librarians*) et de ***Once Upon a Time: Il était une fois*** dans [`js/catalog.js`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js) et [`data/prime_catalog.js`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/data/prime_catalog.js) (remise en `scifi_fantastique`).
+  - **Interdiction formelle de l'Horreur sans tag officiel** : Restauration absolue de la règle du Verrou de Genre (*Genre-Gating Strict*). L'horreur ne peut en aucun cas être déverrouillée si l'œuvre porte un tag Fantastique (`fnt`) ou Animation (`ani`) sans disposer du tag officiel `hrr`.
   - **Élimination des faux positifs fantastiques** : Retrait définitif de `magie noire` et `boîte de Pandore` de l'expression `STRICT_HORROR_PATTERNS`. Ces termes relèvent de l'aventure féerique et fantastique, non de l'épouvante pure.
   - **Garantie de Cohérence Sous-Catégorie / Catégorie Mère** : Dans `computeSubCategory`, une sous-catégorie en cache ne peut plus être retournée si elle n'appartient pas légitimement à la catégorie mère active (empêche formellement d'associer la sous-catégorie *Fantastique* à *Horreur & Épouvante*).
-  - Réhabilitation immédiate et universelle de ***Flynn Carson et les nouveaux aventuriers*** (*The Librarians*) dans **`scifi_fantastique`** (sous-catégorie *Fantastique*).
-  - Bump des clés de stockage local (`_v50`) et du cache PWA (`v9.39` / `cinescope-v9.39-genre-gating-v51`) pour forcer la mise à jour immédiate côté client.
+  - Bump des clés de stockage local (`_v50`) et du cache PWA (`v9.40` / `cinescope-v9.40-genre-gating-v52`) pour forcer la purge et la prise en compte immédiate chez l'utilisateur.
 * **Sélecteur de Saisons Intelligent dans la Modale Série (v9.38)** :
   - Lorsqu'une série possède plusieurs saisons disponibles, le sélecteur s'ouvre par défaut sur l'option **`Saisons`** (vue globale : cumul total d'épisodes et plage d'années globale).
   - Un clic direct sur **`Saison 1`**, **`Saison 2`**, etc. actualise instantanément le badge avec le nombre d'épisodes de la saison choisie et son année de diffusion.
