@@ -2540,5 +2540,30 @@
     "titre": "Sleepless",
     "category": "action_aventure",
     "justification": "Le synopsis met en avant un flic blessé et traqué devenant un adversaire brutal et impitoyable pour sauver son fils, avec une forte dimension de combats physiques et de survie nocturne, typique de l'action cinétique."
+  },
+  "jw-tm345037": {
+    "titre": "Revenge",
+    "category": "action_aventure",
+    "justification": "Le récit bascule après l'agression vers une traque et une riposte armée où l'héroïne combat activement ses poursuivants, ce qui place l'action cinétique et la survie tactique au cœur du film."
+  },
+  "jw-tm1504293": {
+    "titre": "Dead Sea",
+    "category": "thriller_policier",
+    "justification": "Le récit repose sur une machination criminelle (trafiquants d'organes) et une traque/survie face à des criminels, sans terreur surnaturelle ni gore sadique dominant."
+  },
+  "jw-tm163453": {
+    "titre": "Malveillance",
+    "category": "thriller_policier",
+    "justification": "Le récit repose sur une machination obsessionnelle et une traque psychologique d'un gardien d'immeuble, sans terreur surnaturelle ni gore sadique, ce qui correspond au suspense cérébral et à la machination du thriller policier."
+  },
+  "jw-tm167879": {
+    "titre": "Killer Elite",
+    "category": "action_aventure",
+    "justification": "Killer Elite est dominé par les combats physiques, fusillades et poursuites d'un ancien agent des forces spéciales, malgré une intrigue de complot et de trahisons."
+  },
+  "jw-tm1426308": {
+    "titre": "The Last Girl",
+    "category": "thriller_policier",
+    "justification": "Le synopsis centré sur un détective privé traquant un tueur en série ciblant une famille fortunée place l'intrigue criminelle et l'enquête au cœur du récit, sans indice de terreur surnaturelle ou de gore sadique dominant."
   }
 }
