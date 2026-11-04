@@ -2565,5 +2565,35 @@
     "titre": "The Last Girl",
     "category": "thriller_policier",
     "justification": "Le synopsis centré sur un détective privé traquant un tueur en série ciblant une famille fortunée place l'intrigue criminelle et l'enquête au cœur du récit, sans indice de terreur surnaturelle ou de gore sadique dominant."
+  },
+  "jw-tm1599337": {
+    "titre": "Dracula",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur la malédiction vampirique, la damnation et l'errance macabre de Dracula, ancrant l'œuvre dans l'horreur gothique plutôt que dans la science-fiction."
+  },
+  "jw-tm2926377": {
+    "titre": "The Mongoose",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant une course-poursuite à tombeau ouvert et une fuite spectaculaire, dominée par l'action cinétique plutôt que par l'enquête ou la machination."
+  },
+  "jw-tm1263826": {
+    "titre": "Mirror Moves",
+    "category": "thriller_policier",
+    "justification": "Le récit repose sur la découverte d'un tueur en série et l'interrogation sur la complicité, ancré dans une intrigue criminelle et psychologique sans terreur surnaturelle ni gore sadique."
+  },
+  "jw-ts435506": {
+    "titre": "Like a Dragon : Yakuza",
+    "category": "thriller_policier",
+    "justification": "L'œuvre est dominée par les tensions entre clans yakuzas, les trahisons et l'intrigue criminelle sur fond de drame, sans action physique cinétique réellement prépondérante."
+  },
+  "jw-tm233059": {
+    "titre": "Un taxi inquiétant",
+    "category": "thriller_policier",
+    "justification": "Le film est un thriller de vengeance centré sur une enquête criminelle et une traque personnelle, sans dimension comique ni action physique dominante."
+  },
+  "jw-tm266730": {
+    "titre": "Astral",
+    "category": "horreur_epouvante",
+    "justification": "La projection astrale sert de prétexte à une descente terrifiante vers des entités et phénomènes surnaturels menaçants, faisant de la peur et de l'épouvante le cœur du récit plutôt que la spéculation scientifique."
   }
 }
