@@ -2541,6 +2541,101 @@
     "category": "action_aventure",
     "justification": "Le synopsis met en avant un flic blessé et traqué devenant un adversaire brutal et impitoyable pour sauver son fils, avec une forte dimension de combats physiques et de survie nocturne, typique de l'action cinétique."
   },
+  "jw-tm345037": {
+    "titre": "Revenge",
+    "category": "action_aventure",
+    "justification": "Le récit bascule après l'agression vers une traque et une riposte armée où l'héroïne combat activement ses poursuivants, ce qui place l'action cinétique et la survie tactique au cœur du film."
+  },
+  "jw-tm1504293": {
+    "titre": "Dead Sea",
+    "category": "thriller_policier",
+    "justification": "Le récit repose sur une machination criminelle (trafiquants d'organes) et une traque/survie face à des criminels, sans terreur surnaturelle ni gore sadique dominant."
+  },
+  "jw-tm163453": {
+    "titre": "Malveillance",
+    "category": "thriller_policier",
+    "justification": "Le récit repose sur une machination obsessionnelle et une traque psychologique d'un gardien d'immeuble, sans terreur surnaturelle ni gore sadique, ce qui correspond au suspense cérébral et à la machination du thriller policier."
+  },
+  "jw-tm167879": {
+    "titre": "Killer Elite",
+    "category": "action_aventure",
+    "justification": "Killer Elite est dominé par les combats physiques, fusillades et poursuites d'un ancien agent des forces spéciales, malgré une intrigue de complot et de trahisons."
+  },
+  "jw-tm1426308": {
+    "titre": "The Last Girl",
+    "category": "thriller_policier",
+    "justification": "Le synopsis centré sur un détective privé traquant un tueur en série ciblant une famille fortunée place l'intrigue criminelle et l'enquête au cœur du récit, sans indice de terreur surnaturelle ou de gore sadique dominant."
+  },
+  "jw-tm1599337": {
+    "titre": "Dracula",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur la malédiction vampirique, la damnation et l'errance macabre de Dracula, ancrant l'œuvre dans l'horreur gothique plutôt que dans la science-fiction."
+  },
+  "jw-tm2926377": {
+    "titre": "The Mongoose",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant une course-poursuite à tombeau ouvert et une fuite spectaculaire, dominée par l'action cinétique plutôt que par l'enquête ou la machination."
+  },
+  "jw-tm1263826": {
+    "titre": "Mirror Moves",
+    "category": "thriller_policier",
+    "justification": "Le récit repose sur la découverte d'un tueur en série et l'interrogation sur la complicité, ancré dans une intrigue criminelle et psychologique sans terreur surnaturelle ni gore sadique."
+  },
+  "jw-ts435506": {
+    "titre": "Like a Dragon : Yakuza",
+    "category": "thriller_policier",
+    "justification": "L'œuvre est dominée par les tensions entre clans yakuzas, les trahisons et l'intrigue criminelle sur fond de drame, sans action physique cinétique réellement prépondérante."
+  },
+  "jw-tm233059": {
+    "titre": "Un taxi inquiétant",
+    "category": "thriller_policier",
+    "justification": "Le film est un thriller de vengeance centré sur une enquête criminelle et une traque personnelle, sans dimension comique ni action physique dominante."
+  },
+  "jw-tm266730": {
+    "titre": "Astral",
+    "category": "horreur_epouvante",
+    "justification": "La projection astrale sert de prétexte à une descente terrifiante vers des entités et phénomènes surnaturels menaçants, faisant de la peur et de l'épouvante le cœur du récit plutôt que la spéculation scientifique."
+  },
+  "jw-ts398643": {
+    "titre": "Has Fallen",
+    "category": "action_aventure",
+    "justification": "L'attaque terroriste d'une ambassade par un ancien légionnaire et la cible ministérielle impliquent des combats physiques et des fusillades dominants, typiques de l'action cinétique."
+  },
+  "jw-tm414396": {
+    "titre": "Greenland : Le Dernier Refuge",
+    "category": "action_aventure",
+    "justification": "Le film est dominé par la course-poursuite survivaliste et les catastrophes spectaculaires enchaînées, avec une action cinétique réelle (fuites, chaos, sauvetages) plutôt qu'une intrigue criminelle ou une enquête cérébrale."
+  },
+  "jw-tm232802": {
+    "titre": "Baywatch : Alerte à Malibu",
+    "category": "comedie",
+    "justification": "Baywatch est avant tout une comédie parodique et potache où l'enquête criminelle et l'action ne servent que de prétexte aux gags et à l'humour décalé."
+  },
+  "jw-ts306198": {
+    "titre": "Faux",
+    "category": "thriller_policier",
+    "justification": "Le synopsis met en avant une intrigue criminelle de contrefaçon et un jeu du chat et de la souris entre un faussaire et un officier, dominée par le suspense et la traque plutôt que par l'action physique ou l'humour."
+  },
+  "jw-tm442817": {
+    "titre": "Achoura",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur une demeure maudite, la disparition mystérieuse d'un enfant et le retour d'un passé terrifiant, ancré dans l'épouvante et le surnaturel horrifique plutôt que dans la science-fiction."
+  },
+  "jw-tm1427741": {
+    "titre": "La forêt sombre",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur une entité démoniaque traquant et tuant les participants, avec une dynamique de survie et de terreur pure typique de l'horreur."
+  },
+  "jw-tm2927063": {
+    "titre": "Red Days 2: Cecilia",
+    "category": "action_aventure",
+    "justification": "Le récit suit une protagoniste transformée en vampire qui intègre une organisation secrète pour devenir tueuse d'entreprises, orientant le cœur du film vers l'action et la riposte armée plutôt que la terreur impuissante."
+  },
+  "jw-tm1395058": {
+    "titre": "Vessel",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur une possession corporelle par une entité malveillante aux intentions cachées, un ressort classique de l'épouvante plutôt que d'anticipation scientifique."
+  },
   "saga:aurora teagarden": {
     "titre": "Saga Aurora Teagarden",
     "category": "thriller_policier",

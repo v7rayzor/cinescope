@@ -30,7 +30,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/01",
-      "daysLeft": 73,
+      "daysLeft": 70,
       "expirationDate": "2027-01-14",
       "packageExpirations": {
         "aoc": "2026-10-31",
@@ -141,11 +141,11 @@ const PRIME_CATALOG_DATA = [
     "duree": "1h 57min",
     "expiration": {
       "status": "info",
-      "label": "📅 Jusqu'au 22/12",
-      "daysLeft": 50,
-      "expirationDate": "2026-12-22",
+      "label": "📅 Jusqu'au 31/01",
+      "daysLeft": 87,
+      "expirationDate": "2027-01-31",
       "packageExpirations": {
-        "aoc": "2026-12-22"
+        "aoc": "2027-01-31"
       }
     },
     "package_slugs": [
@@ -244,7 +244,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 10/12",
-      "daysLeft": 38,
+      "daysLeft": 35,
       "expirationDate": "2026-12-10",
       "packageExpirations": {
         "aoc": "2026-12-10"
@@ -293,7 +293,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 147,
+      "daysLeft": 144,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "aoc": "2026-10-31",
@@ -306,7 +306,6 @@ const PRIME_CATALOG_DATA = [
     "runtime_minutes": 111,
     "etoiles": 4,
     "raw_genres": [
-      "act",
       "cmy",
       "crm",
       "trl"
@@ -441,7 +440,7 @@ const PRIME_CATALOG_DATA = [
       "assets/logos/universal_plus.png",
       "assets/logos/prime_video.svg"
     ],
-    "duree": "1h 44min",
+    "duree": "2h 25min",
     "expiration": {
       "status": "none",
       "label": null,
@@ -455,7 +454,7 @@ const PRIME_CATALOG_DATA = [
       "auc",
       "prv"
     ],
-    "runtime_minutes": 104,
+    "runtime_minutes": 145,
     "etoiles": 3,
     "raw_genres": [
       "act",
@@ -593,7 +592,7 @@ const PRIME_CATALOG_DATA = [
       "assets/logos/prime_video.svg"
     ],
     "badge": "12",
-    "duree": "1h 30min",
+    "duree": "1h 29min",
     "expiration": {
       "status": "none",
       "label": null,
@@ -605,7 +604,7 @@ const PRIME_CATALOG_DATA = [
       "auc",
       "prv"
     ],
-    "runtime_minutes": 90,
+    "runtime_minutes": 89,
     "etoiles": 3,
     "raw_genres": [
       "drm",
@@ -837,7 +836,7 @@ const PRIME_CATALOG_DATA = [
     "annee": 2024,
     "chaine": "Action Max",
     "logo_chaine": "assets/logos/action.png",
-    "poster": "https://images.justwatch.com/poster/323535504/s592/hounds-of-war.jpg",
+    "poster": "https://images.justwatch.com/poster/356509621/s592/hounds-of-war.jpg",
     "note_avis": 4.6,
     "note_recence": 9.4,
     "note_globale": 7,
@@ -1265,7 +1264,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 118,
+      "daysLeft": 115,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28",
@@ -1500,7 +1499,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/02",
-      "daysLeft": 104,
+      "daysLeft": 101,
       "expirationDate": "2027-02-14",
       "packageExpirations": {
         "auc": "2026-12-05",
@@ -2178,7 +2177,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-11-30",
@@ -2265,7 +2264,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 118,
+      "daysLeft": 115,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2026-12-27",
@@ -2518,7 +2517,7 @@ const PRIME_CATALOG_DATA = [
     "annee": 2024,
     "duree": "1h 33min",
     "runtime_minutes": 93,
-    "note_avis": 4.1,
+    "note_avis": 4.2,
     "note_recence": 9.4,
     "note_globale": 6.8,
     "etoiles": 3,
@@ -2777,6 +2776,7 @@ const PRIME_CATALOG_DATA = [
     ],
     "raw_genres": [
       "act",
+      "crm",
       "drm",
       "trl"
     ],
@@ -3122,8 +3122,8 @@ const PRIME_CATALOG_DATA = [
       "prv"
     ],
     "annee": 2017,
-    "duree": "1h 55min",
-    "runtime_minutes": 115,
+    "duree": "1h 47min",
+    "runtime_minutes": 107,
     "note_avis": 6.7,
     "note_recence": 7.3,
     "note_globale": 7,
@@ -3732,7 +3732,8 @@ const PRIME_CATALOG_DATA = [
       "drame_emotion"
     ],
     "raw_genres": [
-      "drm"
+      "drm",
+      "rma"
     ],
     "badge": null,
     "is_eligible": true,
@@ -3991,7 +3992,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -5022,7 +5023,7 @@ const PRIME_CATALOG_DATA = [
       "act",
       "scf"
     ],
-    "badge": "16",
+    "badge": "10",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/300672092/s592/enhanced.jpg",
     "synopsis": "Doté d’une action de kick-ass et des lancers super puissants, Enhanced est un thriller d’action de science-fiction intense pour ravir les fans ! Un groupe de mutants parias, dont une jeune femme aux super-forces renforcées, se retrouvent traqués, un par un, par un sinistre organisme gouvernemental. Mais quand un tueur en série encore plus puissant émerge sur la scène, agents et mutants sont forcés de remettre en question leurs allégeances.",
@@ -5226,7 +5227,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/04",
-      "daysLeft": 179,
+      "daysLeft": 176,
       "expirationDate": "2027-04-30",
       "packageExpirations": {
         "aoc": "2027-04-30"
@@ -5570,6 +5571,7 @@ const PRIME_CATALOG_DATA = [
       "thriller_policier"
     ],
     "raw_genres": [
+      "crm",
       "trl"
     ],
     "badge": null,
@@ -6123,7 +6125,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/04",
-      "daysLeft": 179,
+      "daysLeft": 176,
       "expirationDate": "2027-04-30",
       "packageExpirations": {
         "prv": "2026-10-31",
@@ -6661,6 +6663,7 @@ const PRIME_CATALOG_DATA = [
       "animation_famille"
     ],
     "raw_genres": [
+      "act",
       "ani",
       "cmy",
       "fnt",
@@ -6765,7 +6768,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "raw_genres": [
       "crm",
-      "drm"
+      "drm",
+      "trl"
     ],
     "badge": null,
     "is_eligible": true,
@@ -7255,8 +7259,8 @@ const PRIME_CATALOG_DATA = [
       "prv"
     ],
     "annee": 2016,
-    "duree": "2h 31min",
-    "runtime_minutes": 151,
+    "duree": "2h 32min",
+    "runtime_minutes": 152,
     "note_avis": 6.5,
     "note_recence": 7,
     "note_globale": 6.8,
@@ -7276,7 +7280,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/01",
-      "daysLeft": 63,
+      "daysLeft": 60,
       "expirationDate": "2027-01-04",
       "packageExpirations": {
         "aoc": "2026-10-31",
@@ -7341,17 +7345,14 @@ const PRIME_CATALOG_DATA = [
     "type": "film",
     "chaine": "Ciné+ OCS",
     "chaines": [
-      "Ciné+ OCS",
-      "Amazon Prime Video"
+      "Ciné+ OCS"
     ],
     "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
-      "assets/logos/cine_ocs.png",
-      "assets/logos/prime_video.svg"
+      "assets/logos/cine_ocs.png"
     ],
     "package_slugs": [
-      "aoc",
-      "prv"
+      "aoc"
     ],
     "annee": 2017,
     "duree": "2h 04min",
@@ -7374,11 +7375,11 @@ const PRIME_CATALOG_DATA = [
     "synopsis": "Cinq adolescents ordinaires doivent devenir extraordinaires quand ils apprennent que leur petite ville de Angel Grove, et le monde,  est sur le point d'être détruite par des extraterrestres. Choisis par le destin, ils découvrent rapidement qu'ils sont les seuls à pouvoir sauver la planète. Mais, pour ce faire, ils devront surmonter leurs problèmes personnels et, avant qu'il ne soit trop tard, s'allier afin de devenir les Power Rangers.",
     "expiration": {
       "status": "info",
-      "label": "📅 Jusqu'au 14/01",
-      "daysLeft": 73,
-      "expirationDate": "2027-01-14",
+      "label": "📅 Jusqu'au 08/02",
+      "daysLeft": 95,
+      "expirationDate": "2027-02-08",
       "packageExpirations": {
-        "aoc": "2027-01-14",
+        "aoc": "2027-02-08",
         "prv": "2026-11-04"
       }
     },
@@ -7406,8 +7407,8 @@ const PRIME_CATALOG_DATA = [
       "prv"
     ],
     "annee": 2019,
-    "duree": "2h 27min",
-    "runtime_minutes": 147,
+    "duree": "2h 28min",
+    "runtime_minutes": 148,
     "note_avis": 7.1,
     "note_recence": 7.9,
     "note_globale": 7.5,
@@ -7427,7 +7428,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 90,
+      "daysLeft": 87,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2026-12-08",
@@ -7902,8 +7903,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
+    "duree": "1h 46min",
+    "runtime_minutes": 106,
     "note_avis": 5.9,
     "note_recence": 7.6,
     "note_globale": 6.8,
@@ -8496,8 +8497,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
-    "duree": "1h 36min",
-    "runtime_minutes": 96,
+    "duree": "1h 30min",
+    "runtime_minutes": 90,
     "note_avis": 4.9,
     "note_recence": 7.6,
     "note_globale": 6.3,
@@ -8771,6 +8772,56 @@ const PRIME_CATALOG_DATA = [
     "on_tnt": false
   },
   {
+    "id": "jw-tm984871",
+    "titre": "The Innocents",
+    "type": "film",
+    "chaine": "Sooner",
+    "chaines": [
+      "Sooner",
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/sooner.png",
+    "logos_chaine": [
+      "assets/logos/sooner.png",
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "snr",
+      "prv"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 57min",
+    "runtime_minutes": 117,
+    "note_avis": 7,
+    "note_recence": 8.5,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "fnt",
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/310360339/s592/de-uskyldige.jpg",
+    "synopsis": "Dans la quiétude d’une banlieue assoupie par l’été nordique, quatre enfants se découvrent d’étonnants pouvoirs qu’ils convoquent innocemment dans leurs jeux, loin du regard des adultes. Alors qu'ils explorent leurs nouvelles aptitudes dans la forêt et le parc environnants, leurs distractions prennent peu à peu une tournure inquiétante.",
+    "date_ajout": "2022-02-09",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
     "id": "jw-tm854058",
     "titre": "Psycho Goreman",
     "type": "film",
@@ -8871,14 +8922,17 @@ const PRIME_CATALOG_DATA = [
     "type": "film",
     "chaine": "Sooner",
     "chaines": [
-      "Sooner"
+      "Sooner",
+      "Amazon Prime Video"
     ],
     "logo_chaine": "assets/logos/sooner.png",
     "logos_chaine": [
-      "assets/logos/sooner.png"
+      "assets/logos/sooner.png",
+      "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
-      "snr"
+      "snr",
+      "prv"
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
@@ -10392,7 +10446,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 33,
+      "daysLeft": 30,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -10687,7 +10741,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 118,
+      "daysLeft": 115,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "prv": "2027-02-28",
@@ -10717,8 +10771,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
-    "duree": "1h 54min",
-    "runtime_minutes": 114,
+    "duree": "1h 53min",
+    "runtime_minutes": 113,
     "note_avis": 7.5,
     "note_recence": 8.2,
     "note_globale": 7.9,
@@ -10739,7 +10793,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 90,
+      "daysLeft": 87,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31",
@@ -11215,13 +11269,13 @@ const PRIME_CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2026,
-        "note": 6.4,
+        "note": 6.3,
         "episodes": 6
       }
     ],
     "duree": "31 min/ép.",
     "runtime_minutes": 31,
-    "note_avis": 6.4,
+    "note_avis": 6.3,
     "note_recence": 10,
     "note_globale": 8.2,
     "etoiles": 5,
@@ -11263,8 +11317,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
-    "duree": "1h 52min",
-    "runtime_minutes": 112,
+    "duree": "1h 50min",
+    "runtime_minutes": 110,
     "note_avis": 6.8,
     "note_recence": 10,
     "note_globale": 8.4,
@@ -11559,7 +11613,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -11678,7 +11732,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 149,
+      "daysLeft": 146,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "prv": "2027-03-31"
@@ -12042,7 +12096,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 149,
+      "daysLeft": 146,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "prv": "2027-03-31"
@@ -12144,7 +12198,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/03",
-      "daysLeft": 132,
+      "daysLeft": 129,
       "expirationDate": "2027-03-14",
       "packageExpirations": {
         "prv": "2027-03-14"
@@ -12370,8 +12424,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2012,
     "annee_moyenne": 2012,
-    "duree": "2h 46min",
-    "runtime_minutes": 166,
+    "duree": "2h 49min",
+    "runtime_minutes": 169,
     "note_avis": 7.8,
     "note_recence": 5.8,
     "note_globale": 6.8,
@@ -12391,7 +12445,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -12579,8 +12633,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
-    "duree": "1h 43min",
-    "runtime_minutes": 103,
+    "duree": "1h 44min",
+    "runtime_minutes": 104,
     "note_avis": 7.8,
     "note_recence": 7.3,
     "note_globale": 7.6,
@@ -12600,7 +12654,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 90,
+      "daysLeft": 87,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -12900,8 +12954,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2025-11-14",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 12 j",
-      "daysLeft": 12,
+      "label": "⏳ Expire dans 9 j",
+      "daysLeft": 9,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "prv": "2026-11-14"
@@ -13262,7 +13316,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 58,
+      "daysLeft": 55,
       "expirationDate": "2026-12-30",
       "packageExpirations": {
         "prv": "2026-12-30"
@@ -13288,8 +13342,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2014,
     "annee_moyenne": 2014,
-    "duree": "2h 05min",
-    "runtime_minutes": 125,
+    "duree": "2h 03min",
+    "runtime_minutes": 123,
     "note_avis": 6.6,
     "note_recence": 6.4,
     "note_globale": 6.5,
@@ -13763,39 +13817,39 @@ const PRIME_CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2011,
-        "note": 8.5,
+        "note": 8.4,
         "episodes": 23
       },
       {
         "saison": 2,
         "annee": 2012,
-        "note": 8.5,
+        "note": 8.4,
         "episodes": 22
       },
       {
         "saison": 3,
         "annee": 2013,
-        "note": 8.5,
+        "note": 8.4,
         "episodes": 23
       },
       {
         "saison": 4,
         "annee": 2014,
-        "note": 8.5,
+        "note": 8.4,
         "episodes": 22
       },
       {
         "saison": 5,
         "annee": 2016,
-        "note": 8.5,
+        "note": 8.4,
         "episodes": 13
       }
     ],
     "duree": "44 min/ép.",
     "runtime_minutes": 44,
-    "note_avis": 8.5,
+    "note_avis": 8.4,
     "note_recence": 6.4,
-    "note_globale": 7.5,
+    "note_globale": 7.4,
     "etoiles": 4,
     "categories": [
       "scifi_fantastique"
@@ -13926,15 +13980,18 @@ const PRIME_CATALOG_DATA = [
     "id": "jw-tm188690",
     "titre": "Le Loup de Wall Street",
     "type": "film",
-    "chaine": "Amazon Prime Video",
+    "chaine": "Ciné+ OCS",
     "chaines": [
+      "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/prime_video.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
+      "aoc",
       "prv"
     ],
     "annee": 2013,
@@ -13960,11 +14017,12 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2025-11-30",
     "expiration": {
       "status": "info",
-      "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
-      "expirationDate": "2026-11-30",
+      "label": "📅 Jusqu'au 24/12",
+      "daysLeft": 49,
+      "expirationDate": "2026-12-24",
       "packageExpirations": {
-        "prv": "2026-11-30"
+        "prv": "2026-11-30",
+        "aoc": "2026-12-24"
       }
     },
     "on_prime": true,
@@ -14071,7 +14129,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/04",
-      "daysLeft": 173,
+      "daysLeft": 170,
       "expirationDate": "2027-04-24",
       "packageExpirations": {
         "prv": "2027-04-24"
@@ -14402,13 +14460,13 @@ const PRIME_CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2026,
-        "note": 7.5,
+        "note": 7.6,
         "episodes": 12
       }
     ],
     "duree": "65 min/ép.",
     "runtime_minutes": 65,
-    "note_avis": 7.5,
+    "note_avis": 7.6,
     "note_recence": 10,
     "note_globale": 8.8,
     "etoiles": 5,
@@ -14463,8 +14521,8 @@ const PRIME_CATALOG_DATA = [
         "episodes": 5
       }
     ],
-    "duree": "16 min/ép.",
-    "runtime_minutes": 16,
+    "duree": "17 min/ép.",
+    "runtime_minutes": 17,
     "note_avis": 5.2,
     "note_recence": 6.7,
     "note_globale": 6,
@@ -14529,7 +14587,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 147,
+      "daysLeft": 144,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -14727,7 +14785,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -14802,7 +14860,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 42,
+      "daysLeft": 39,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "prv": "2026-12-14"
@@ -15020,12 +15078,11 @@ const PRIME_CATALOG_DATA = [
     "note_globale": 7.9,
     "etoiles": 4,
     "categories": [
-      "drame_emotion"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
       "drm",
-      "hst",
       "msc"
     ],
     "badge": null,
@@ -15036,7 +15093,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -15139,7 +15196,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/02",
-      "daysLeft": 112,
+      "daysLeft": 109,
       "expirationDate": "2027-02-22",
       "packageExpirations": {
         "prv": "2027-02-22"
@@ -15272,7 +15329,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -15305,10 +15362,11 @@ const PRIME_CATALOG_DATA = [
     "note_globale": 8.7,
     "etoiles": 5,
     "categories": [
-      "comedie"
+      "animation_famille"
     ],
     "raw_genres": [
       "act",
+      "ani",
       "cmy",
       "fml",
       "trl"
@@ -15349,15 +15407,15 @@ const PRIME_CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2026,
-        "note": 6.2,
+        "note": 6.3,
         "episodes": 14
       }
     ],
     "duree": "64 min/ép.",
     "runtime_minutes": 64,
-    "note_avis": 6.2,
+    "note_avis": 6.3,
     "note_recence": 10,
-    "note_globale": 8.1,
+    "note_globale": 8.2,
     "etoiles": 5,
     "categories": [
       "comedie"
@@ -15399,8 +15457,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
-    "duree": "1h 43min",
-    "runtime_minutes": 103,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
     "note_avis": 5.6,
     "note_recence": 10,
     "note_globale": 7.8,
@@ -15599,7 +15657,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 118,
+      "daysLeft": 115,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "prv": "2027-02-28"
@@ -15627,9 +15685,9 @@ const PRIME_CATALOG_DATA = [
     "annee_moyenne": 2026,
     "duree": "1h 29min",
     "runtime_minutes": 89,
-    "note_avis": 5.1,
+    "note_avis": 5,
     "note_recence": 10,
-    "note_globale": 7.6,
+    "note_globale": 7.5,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -15914,7 +15972,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 149,
+      "daysLeft": 146,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "prv": "2027-03-31"
@@ -16007,7 +16065,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 147,
+      "daysLeft": 144,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -16057,7 +16115,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 90,
+      "daysLeft": 87,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -16149,7 +16207,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -16244,7 +16302,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/03",
-      "daysLeft": 124,
+      "daysLeft": 121,
       "expirationDate": "2027-03-06",
       "packageExpirations": {
         "prv": "2027-03-06"
@@ -16608,8 +16666,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2015,
     "annee_moyenne": 2015,
-    "duree": "2h 17min",
-    "runtime_minutes": 137,
+    "duree": "2h 16min",
+    "runtime_minutes": 136,
     "note_avis": 6.6,
     "note_recence": 6.7,
     "note_globale": 6.7,
@@ -16723,7 +16781,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -16834,7 +16892,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -17023,7 +17081,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/01",
-      "daysLeft": 83,
+      "daysLeft": 80,
       "expirationDate": "2027-01-24",
       "packageExpirations": {
         "prv": "2027-01-24"
@@ -17070,7 +17128,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 147,
+      "daysLeft": 144,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -17416,7 +17474,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/03",
-      "daysLeft": 133,
+      "daysLeft": 130,
       "expirationDate": "2027-03-15",
       "packageExpirations": {
         "prv": "2027-03-15"
@@ -17465,7 +17523,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 90,
+      "daysLeft": 87,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -17536,7 +17594,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/03",
-      "daysLeft": 129,
+      "daysLeft": 126,
       "expirationDate": "2027-03-11",
       "packageExpirations": {
         "prv": "2027-03-11"
@@ -17673,7 +17731,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 149,
+      "daysLeft": 146,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "prv": "2027-03-31"
@@ -17721,7 +17779,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 147,
+      "daysLeft": 144,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -17803,6 +17861,7 @@ const PRIME_CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "raw_genres": [
+      "act",
       "cmy",
       "fnt",
       "scf"
@@ -17992,7 +18051,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/03",
-      "daysLeft": 132,
+      "daysLeft": 129,
       "expirationDate": "2027-03-14",
       "packageExpirations": {
         "prv": "2027-03-14"
@@ -18141,7 +18200,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 147,
+      "daysLeft": 144,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -18243,7 +18302,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -18290,7 +18349,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 42,
+      "daysLeft": 39,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "prv": "2026-12-14"
@@ -18337,7 +18396,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 20/01",
-      "daysLeft": 79,
+      "daysLeft": 76,
       "expirationDate": "2027-01-20",
       "packageExpirations": {
         "prv": "2027-01-20"
@@ -18878,7 +18937,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 118,
+      "daysLeft": 115,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "prv": "2027-02-28"
@@ -18925,7 +18984,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 42,
+      "daysLeft": 39,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "prv": "2026-12-14"
@@ -19138,8 +19197,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2019,
     "annee_moyenne": 2019,
-    "duree": "2h 01min",
-    "runtime_minutes": 121,
+    "duree": "2h 00min",
+    "runtime_minutes": 120,
     "note_avis": 5.3,
     "note_recence": 7.9,
     "note_globale": 6.6,
@@ -19162,7 +19221,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/03",
-      "daysLeft": 132,
+      "daysLeft": 129,
       "expirationDate": "2027-03-14",
       "packageExpirations": {
         "prv": "2027-03-14"
@@ -19263,7 +19322,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/02",
-      "daysLeft": 98,
+      "daysLeft": 95,
       "expirationDate": "2027-02-08",
       "packageExpirations": {
         "prv": "2027-02-08"
@@ -19489,7 +19548,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/12",
-      "daysLeft": 57,
+      "daysLeft": 54,
       "expirationDate": "2026-12-29",
       "packageExpirations": {
         "prv": "2026-12-29"
@@ -19585,7 +19644,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -19824,8 +19883,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2014,
     "annee_moyenne": 2014,
-    "duree": "2h 14min",
-    "runtime_minutes": 134,
+    "duree": "2h 15min",
+    "runtime_minutes": 135,
     "note_avis": 7.6,
     "note_recence": 6.4,
     "note_globale": 7,
@@ -19846,7 +19905,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -19986,7 +20045,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 147,
+      "daysLeft": 144,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -20073,10 +20132,10 @@ const PRIME_CATALOG_DATA = [
       "trl",
       "war"
     ],
-    "badge": null,
+    "badge": "18",
     "is_eligible": true,
     "poster": "https://images.justwatch.com/poster/346945116/s592/man-of-war.jpg",
-    "synopsis": "Un vétéran des forces spéciales américaines pénètre en Ukraine, aux tout premiers jours de l'invasion russe, pour sauver sa fille adoptive, une travailleuse humanitaire retenue en otage par des mercenaires russes. Il doit lancer une mission de sauvetage mortelle pour la ramener chez elle saine et sauve.",
+    "synopsis": "Aux premiers jours de l'invasion russe en Ukraine, un ancien soldat des forces spéciales américaines se lance dans une périlleuse mission pour sauver sa fille adoptive, une humanitaire prise en otage par des mercenaires russes.",
     "date_ajout": "2026-10-22",
     "expiration": {
       "status": "none",
@@ -20194,7 +20253,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/12",
-      "daysLeft": 43,
+      "daysLeft": 40,
       "expirationDate": "2026-12-15",
       "packageExpirations": {
         "prv": "2026-12-15"
@@ -20328,12 +20387,11 @@ const PRIME_CATALOG_DATA = [
     "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
-      "thriller_policier"
+      "comedie"
     ],
     "raw_genres": [
       "cmy",
-      "drm",
-      "trl"
+      "drm"
     ],
     "badge": "10",
     "is_eligible": true,
@@ -20802,7 +20860,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 147,
+      "daysLeft": 144,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -21017,7 +21075,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/04",
-      "daysLeft": 163,
+      "daysLeft": 160,
       "expirationDate": "2027-04-14",
       "packageExpirations": {
         "prv": "2027-04-14"
@@ -21065,7 +21123,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/03",
-      "daysLeft": 142,
+      "daysLeft": 139,
       "expirationDate": "2027-03-24",
       "packageExpirations": {
         "prv": "2027-03-24"
@@ -21287,16 +21345,16 @@ const PRIME_CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2026,
-        "note": 5.9,
+        "note": 5.8,
         "episodes": 8
       }
     ],
     "duree": "7 min/ép.",
     "runtime_minutes": 7,
-    "note_avis": 5.9,
+    "note_avis": 5.8,
     "note_recence": 10,
-    "note_globale": 8,
-    "etoiles": 5,
+    "note_globale": 7.9,
+    "etoiles": 4,
     "categories": [
       "horreur_epouvante"
     ],
@@ -21359,7 +21417,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/01",
-      "daysLeft": 68,
+      "daysLeft": 65,
       "expirationDate": "2027-01-09",
       "packageExpirations": {
         "prv": "2027-01-09"
@@ -21594,7 +21652,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -21642,7 +21700,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/12",
-      "daysLeft": 37,
+      "daysLeft": 34,
       "expirationDate": "2026-12-09",
       "packageExpirations": {
         "prv": "2026-12-09"
@@ -21678,7 +21736,8 @@ const PRIME_CATALOG_DATA = [
       "horreur_epouvante"
     ],
     "raw_genres": [
-      "hrr"
+      "hrr",
+      "trl"
     ],
     "badge": "16",
     "is_eligible": true,
@@ -21779,58 +21838,10 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 147,
+      "daysLeft": 144,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
-      }
-    },
-    "on_prime": true,
-    "on_tnt": false
-  },
-  {
-    "id": "jw-tm166548",
-    "titre": "Warrior",
-    "type": "film",
-    "chaine": "Amazon Prime Video",
-    "chaines": [
-      "Amazon Prime Video"
-    ],
-    "logo_chaine": "assets/logos/prime_video.svg",
-    "logos_chaine": [
-      "assets/logos/prime_video.svg"
-    ],
-    "package_slugs": [
-      "prv"
-    ],
-    "annee": 2011,
-    "annee_moyenne": 2011,
-    "duree": "2h 20min",
-    "runtime_minutes": 140,
-    "note_avis": 8.1,
-    "note_recence": 5.5,
-    "note_globale": 6.8,
-    "etoiles": 3,
-    "categories": [
-      "action_aventure"
-    ],
-    "raw_genres": [
-      "act",
-      "drm",
-      "spt"
-    ],
-    "badge": "12",
-    "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/354621765/s592/warrior.jpg",
-    "synopsis": "Ancien Marine brisé, Tommy Conlon rentre au pays et demande à son père de le préparer pour un tournoi d’arts martiaux mixtes qui lui permettrait de gagner une fortune. Personne ne sait ce qu’il espère faire de cet argent. Le propre frère de Tommy, Brendan, décide lui aussi de s’engager dans la compétition pour essayer de sauver sa famille. Entre les deux frères, les années n’ont pas adouci les rancœurs. Immanquablement, les routes de Tommy et de Brendan vont bientôt se croiser. Au‐delà de l’affrontement qui s’annonce, pour chacun, quelle que soit la cause qu’ils défendent, il n’est pas seulement question de remporter un prix, mais de mener le combat d’une vie…",
-    "date_ajout": "2026-05-04",
-    "expiration": {
-      "status": "urgent",
-      "label": "⏳ Expire dans 2 j",
-      "daysLeft": 2,
-      "expirationDate": "2026-11-04",
-      "packageExpirations": {
-        "prv": "2026-11-04"
       }
     },
     "on_prime": true,
@@ -21931,7 +21942,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 58,
+      "daysLeft": 55,
       "expirationDate": "2026-12-30",
       "packageExpirations": {
         "prv": "2026-12-30"
@@ -22072,7 +22083,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -22168,7 +22179,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 118,
+      "daysLeft": 115,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "prv": "2027-02-28"
@@ -22602,8 +22613,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
+    "duree": "1h 37min",
+    "runtime_minutes": 97,
     "note_avis": 6.2,
     "note_recence": 7.3,
     "note_globale": 6.8,
@@ -22761,7 +22772,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/12",
-      "daysLeft": 43,
+      "daysLeft": 40,
       "expirationDate": "2026-12-15",
       "packageExpirations": {
         "prv": "2026-12-15"
@@ -22862,7 +22873,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -22910,7 +22921,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 90,
+      "daysLeft": 87,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -23003,7 +23014,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 20/03",
-      "daysLeft": 138,
+      "daysLeft": 135,
       "expirationDate": "2027-03-20",
       "packageExpirations": {
         "prv": "2027-03-20"
@@ -23219,7 +23230,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -23710,7 +23721,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/01",
-      "daysLeft": 65,
+      "daysLeft": 62,
       "expirationDate": "2027-01-06",
       "packageExpirations": {
         "prv": "2027-01-06"
@@ -23759,7 +23770,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 149,
+      "daysLeft": 146,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "prv": "2027-03-31"
@@ -23795,6 +23806,7 @@ const PRIME_CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "raw_genres": [
+      "act",
       "fnt"
     ],
     "badge": "12",
@@ -23851,7 +23863,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 147,
+      "daysLeft": 144,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -24001,9 +24013,9 @@ const PRIME_CATALOG_DATA = [
     "annee_moyenne": 2025,
     "duree": "1h 47min",
     "runtime_minutes": 107,
-    "note_avis": 6.4,
+    "note_avis": 6.2,
     "note_recence": 9.7,
-    "note_globale": 8.1,
+    "note_globale": 8,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -24068,7 +24080,7 @@ const PRIME_CATALOG_DATA = [
     ],
     "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/322710988/s592/the-terminal-list-dark-wolf.jpg",
+    "poster": "https://images.justwatch.com/poster/356521505/s592/the-terminal-list-dark-wolf.jpg",
     "synopsis": "Plusieurs années avant les événements de La Liste Terminale, les Navy SEAL Ben Edwards et Raife Hastings se retrouvent impliqués dans une conspiration d'espionnage international alors qu'ils sont affectés à la CIA. Cependant, dans les opérations secrètes, personne n'en ressort indemne. Ce ne sont pas seulement des vies qui sont perdues. Parfois, c'est votre âme.",
     "date_ajout": "2025-08-27",
     "expiration": {
@@ -24126,7 +24138,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -24176,7 +24188,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 90,
+      "daysLeft": 87,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -24314,7 +24326,8 @@ const PRIME_CATALOG_DATA = [
       "cmy",
       "fnt",
       "hrr",
-      "rma"
+      "rma",
+      "scf"
     ],
     "badge": "16",
     "is_eligible": true,
@@ -24535,7 +24548,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -24630,7 +24643,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/02",
-      "daysLeft": 99,
+      "daysLeft": 96,
       "expirationDate": "2027-02-09",
       "packageExpirations": {
         "prv": "2027-02-09"
@@ -24945,7 +24958,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/01",
-      "daysLeft": 62,
+      "daysLeft": 59,
       "expirationDate": "2027-01-03",
       "packageExpirations": {
         "prv": "2027-01-03"
@@ -25016,8 +25029,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2011,
     "annee_moyenne": 2011,
-    "duree": "2h 13min",
-    "runtime_minutes": 133,
+    "duree": "2h 12min",
+    "runtime_minutes": 132,
     "note_avis": 7.4,
     "note_recence": 5.5,
     "note_globale": 6.5,
@@ -25037,7 +25050,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/02",
-      "daysLeft": 99,
+      "daysLeft": 96,
       "expirationDate": "2027-02-09",
       "packageExpirations": {
         "prv": "2027-02-09"
@@ -25185,7 +25198,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 90,
+      "daysLeft": 87,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -25708,15 +25721,15 @@ const PRIME_CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2026,
-        "note": 8.1,
+        "note": 7.9,
         "episodes": 12
       }
     ],
     "duree": "67 min/ép.",
     "runtime_minutes": 67,
-    "note_avis": 8.1,
+    "note_avis": 7.9,
     "note_recence": 10,
-    "note_globale": 9.1,
+    "note_globale": 9,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -26049,8 +26062,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2023,
     "annee_moyenne": 2023,
-    "duree": "1h 57min",
-    "runtime_minutes": 117,
+    "duree": "1h 56min",
+    "runtime_minutes": 116,
     "note_avis": 6.7,
     "note_recence": 9.1,
     "note_globale": 7.9,
@@ -26071,7 +26084,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -26182,7 +26195,7 @@ const PRIME_CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm243100",
@@ -26457,14 +26470,14 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/03",
-      "daysLeft": 133,
+      "daysLeft": 130,
       "expirationDate": "2027-03-15",
       "packageExpirations": {
         "prv": "2027-03-15"
       }
     },
     "on_prime": true,
-    "on_tnt": true
+    "on_tnt": false
   },
   {
     "id": "jw-ts285371",
@@ -26744,7 +26757,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 147,
+      "daysLeft": 144,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -26792,7 +26805,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 42,
+      "daysLeft": 39,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "prv": "2026-12-14"
@@ -26839,7 +26852,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 42,
+      "daysLeft": 39,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "prv": "2026-12-14"
@@ -27015,7 +27028,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -27154,8 +27167,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2026-06-14",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 12 j",
-      "daysLeft": 12,
+      "label": "⏳ Expire dans 9 j",
+      "daysLeft": 9,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "prv": "2026-11-14"
@@ -27206,7 +27219,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 90,
+      "daysLeft": 87,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -27256,7 +27269,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/04",
-      "daysLeft": 163,
+      "daysLeft": 160,
       "expirationDate": "2027-04-14",
       "packageExpirations": {
         "prv": "2027-04-14"
@@ -27349,7 +27362,8 @@ const PRIME_CATALOG_DATA = [
     "raw_genres": [
       "cmy",
       "fnt",
-      "rma"
+      "rma",
+      "scf"
     ],
     "badge": null,
     "is_eligible": true,
@@ -27534,8 +27548,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2026-02-14",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 12 j",
-      "daysLeft": 12,
+      "label": "⏳ Expire dans 9 j",
+      "daysLeft": 9,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "prv": "2026-11-14"
@@ -27582,7 +27596,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/01",
-      "daysLeft": 62,
+      "daysLeft": 59,
       "expirationDate": "2027-01-03",
       "packageExpirations": {
         "prv": "2027-01-03"
@@ -27698,7 +27712,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/01",
-      "daysLeft": 78,
+      "daysLeft": 75,
       "expirationDate": "2027-01-19",
       "packageExpirations": {
         "prv": "2027-01-19"
@@ -27938,7 +27952,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 118,
+      "daysLeft": 115,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "prv": "2027-02-28"
@@ -28377,7 +28391,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 147,
+      "daysLeft": 144,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -28418,8 +28432,8 @@ const PRIME_CATALOG_DATA = [
         "episodes": 5
       }
     ],
-    "duree": "59 min/ép.",
-    "runtime_minutes": 59,
+    "duree": "60 min/ép.",
+    "runtime_minutes": 60,
     "note_avis": 7.6,
     "note_recence": 9.1,
     "note_globale": 8.4,
@@ -28549,7 +28563,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 147,
+      "daysLeft": 144,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -28788,7 +28802,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 32,
+      "daysLeft": 29,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "prv": "2026-12-04"
@@ -28882,7 +28896,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/12",
-      "daysLeft": 37,
+      "daysLeft": 34,
       "expirationDate": "2026-12-09",
       "packageExpirations": {
         "prv": "2026-12-09"
@@ -28978,7 +28992,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -29083,7 +29097,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/04",
-      "daysLeft": 163,
+      "daysLeft": 160,
       "expirationDate": "2027-04-14",
       "packageExpirations": {
         "prv": "2027-04-14"
@@ -29310,8 +29324,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
-    "duree": "1h 54min",
-    "runtime_minutes": 114,
+    "duree": "2h 01min",
+    "runtime_minutes": 121,
     "note_avis": 6.2,
     "note_recence": 9.4,
     "note_globale": 7.8,
@@ -29360,15 +29374,15 @@ const PRIME_CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2018,
-        "note": 5,
+        "note": 5.1,
         "episodes": 280
       }
     ],
     "duree": "22 min/ép.",
     "runtime_minutes": 22,
-    "note_avis": 5,
+    "note_avis": 5.1,
     "note_recence": 7.6,
-    "note_globale": 6.3,
+    "note_globale": 6.4,
     "etoiles": 3,
     "categories": [
       "thriller_policier"
@@ -29433,7 +29447,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/03",
-      "daysLeft": 133,
+      "daysLeft": 130,
       "expirationDate": "2027-03-15",
       "packageExpirations": {
         "prv": "2027-03-15"
@@ -29546,7 +29560,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/02",
-      "daysLeft": 104,
+      "daysLeft": 101,
       "expirationDate": "2027-02-14",
       "packageExpirations": {
         "prv": "2027-02-14"
@@ -29693,7 +29707,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 149,
+      "daysLeft": 146,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "prv": "2027-03-31"
@@ -29795,7 +29809,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/11",
-      "daysLeft": 26,
+      "daysLeft": 23,
       "expirationDate": "2026-11-28",
       "packageExpirations": {
         "prv": "2026-11-28"
@@ -29844,7 +29858,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -30014,7 +30028,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/01",
-      "daysLeft": 73,
+      "daysLeft": 70,
       "expirationDate": "2027-01-14",
       "packageExpirations": {
         "prv": "2027-01-14"
@@ -30179,7 +30193,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/11",
-      "daysLeft": 27,
+      "daysLeft": 24,
       "expirationDate": "2026-11-29",
       "packageExpirations": {
         "prv": "2026-11-29"
@@ -30341,7 +30355,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/03",
-      "daysLeft": 142,
+      "daysLeft": 139,
       "expirationDate": "2027-03-24",
       "packageExpirations": {
         "prv": "2027-03-24"
@@ -30389,7 +30403,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -30745,8 +30759,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2025-10-14",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 12 j",
-      "daysLeft": 12,
+      "label": "⏳ Expire dans 9 j",
+      "daysLeft": 9,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "prv": "2026-11-14"
@@ -30849,7 +30863,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/02",
-      "daysLeft": 106,
+      "daysLeft": 103,
       "expirationDate": "2027-02-16",
       "packageExpirations": {
         "prv": "2027-02-16"
@@ -31634,7 +31648,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/12",
-      "daysLeft": 35,
+      "daysLeft": 32,
       "expirationDate": "2026-12-07",
       "packageExpirations": {
         "prv": "2026-12-07"
@@ -32184,7 +32198,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -32278,7 +32292,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/02",
-      "daysLeft": 99,
+      "daysLeft": 96,
       "expirationDate": "2027-02-09",
       "packageExpirations": {
         "prv": "2027-02-09"
@@ -32304,8 +32318,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
+    "duree": "1h 30min",
+    "runtime_minutes": 90,
     "note_avis": 6.5,
     "note_recence": 7,
     "note_globale": 6.8,
@@ -32314,7 +32328,6 @@ const PRIME_CATALOG_DATA = [
       "animation_famille"
     ],
     "raw_genres": [
-      "act",
       "ani",
       "cmy",
       "fml"
@@ -32466,7 +32479,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/01",
-      "daysLeft": 68,
+      "daysLeft": 65,
       "expirationDate": "2027-01-09",
       "packageExpirations": {
         "prv": "2027-01-09"
@@ -32514,7 +32527,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/04",
-      "daysLeft": 153,
+      "daysLeft": 150,
       "expirationDate": "2027-04-04",
       "packageExpirations": {
         "prv": "2027-04-04"
@@ -32625,7 +32638,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 90,
+      "daysLeft": 87,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -32732,7 +32745,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 33,
+      "daysLeft": 30,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "prv": "2026-12-05"
@@ -33008,7 +33021,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/03",
-      "daysLeft": 133,
+      "daysLeft": 130,
       "expirationDate": "2027-03-15",
       "packageExpirations": {
         "prv": "2027-03-15"
@@ -33058,7 +33071,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/02",
-      "daysLeft": 106,
+      "daysLeft": 103,
       "expirationDate": "2027-02-16",
       "packageExpirations": {
         "prv": "2027-02-16"
@@ -33395,7 +33408,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 90,
+      "daysLeft": 87,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -33729,7 +33742,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -34136,7 +34149,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -34162,8 +34175,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
-    "duree": "1h 26min",
-    "runtime_minutes": 86,
+    "duree": "1h 25min",
+    "runtime_minutes": 85,
     "note_avis": 6.1,
     "note_recence": 8.5,
     "note_globale": 7.3,
@@ -34188,7 +34201,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/12",
-      "daysLeft": 30,
+      "daysLeft": 27,
       "expirationDate": "2026-12-02",
       "packageExpirations": {
         "prv": "2026-12-02"
@@ -34281,7 +34294,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 149,
+      "daysLeft": 146,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "prv": "2027-03-31"
@@ -34491,7 +34504,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/04",
-      "daysLeft": 179,
+      "daysLeft": 176,
       "expirationDate": "2027-04-30",
       "packageExpirations": {
         "prv": "2027-04-30"
@@ -34598,7 +34611,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/04",
-      "daysLeft": 163,
+      "daysLeft": 160,
       "expirationDate": "2027-04-14",
       "packageExpirations": {
         "prv": "2027-04-14"
@@ -34693,7 +34706,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/01",
-      "daysLeft": 63,
+      "daysLeft": 60,
       "expirationDate": "2027-01-04",
       "packageExpirations": {
         "prv": "2027-01-04"
@@ -35405,7 +35418,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/02",
-      "daysLeft": 104,
+      "daysLeft": 101,
       "expirationDate": "2027-02-14",
       "packageExpirations": {
         "prv": "2027-02-14"
@@ -35505,7 +35518,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/04",
-      "daysLeft": 163,
+      "daysLeft": 160,
       "expirationDate": "2027-04-14",
       "packageExpirations": {
         "prv": "2027-04-14"
@@ -35679,7 +35692,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/04",
-      "daysLeft": 153,
+      "daysLeft": 150,
       "expirationDate": "2027-04-04",
       "packageExpirations": {
         "prv": "2027-04-04"
@@ -35783,7 +35796,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/02",
-      "daysLeft": 104,
+      "daysLeft": 101,
       "expirationDate": "2027-02-14",
       "packageExpirations": {
         "prv": "2027-02-14"
@@ -35875,7 +35888,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 149,
+      "daysLeft": 146,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "prv": "2027-03-31"
@@ -36265,6 +36278,7 @@ const PRIME_CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "raw_genres": [
+      "act",
       "cmy",
       "scf",
       "eur"
@@ -36277,7 +36291,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 90,
+      "daysLeft": 87,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -36327,7 +36341,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/04",
-      "daysLeft": 163,
+      "daysLeft": 160,
       "expirationDate": "2027-04-14",
       "packageExpirations": {
         "prv": "2027-04-14"
@@ -36374,7 +36388,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 149,
+      "daysLeft": 146,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "prv": "2027-03-31"
@@ -36723,8 +36737,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2015,
     "annee_moyenne": 2015,
-    "duree": "2h 20min",
-    "runtime_minutes": 140,
+    "duree": "2h 18min",
+    "runtime_minutes": 138,
     "note_avis": 7.1,
     "note_recence": 6.7,
     "note_globale": 6.9,
@@ -36734,6 +36748,7 @@ const PRIME_CATALOG_DATA = [
     ],
     "raw_genres": [
       "act",
+      "crm",
       "trl"
     ],
     "badge": null,
@@ -36744,7 +36759,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/03",
-      "daysLeft": 133,
+      "daysLeft": 130,
       "expirationDate": "2027-03-15",
       "packageExpirations": {
         "prv": "2027-03-15"
@@ -36790,7 +36805,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/03",
-      "daysLeft": 127,
+      "daysLeft": 124,
       "expirationDate": "2027-03-09",
       "packageExpirations": {
         "prv": "2027-03-09"
@@ -37116,8 +37131,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2016,
     "annee_moyenne": 2016,
-    "duree": "2h 00min",
-    "runtime_minutes": 120,
+    "duree": "2h 01min",
+    "runtime_minutes": 121,
     "note_avis": 5.7,
     "note_recence": 7,
     "note_globale": 6.4,
@@ -37139,7 +37154,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -37552,8 +37567,8 @@ const PRIME_CATALOG_DATA = [
         "episodes": 13
       }
     ],
-    "duree": "43 min/ép.",
-    "runtime_minutes": 43,
+    "duree": "42 min/ép.",
+    "runtime_minutes": 42,
     "note_avis": 6.6,
     "note_recence": 8.5,
     "note_globale": 7.6,
@@ -37574,7 +37589,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -37621,7 +37636,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/12",
-      "daysLeft": 47,
+      "daysLeft": 44,
       "expirationDate": "2026-12-19",
       "packageExpirations": {
         "prv": "2026-12-19"
@@ -37734,7 +37749,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/04",
-      "daysLeft": 179,
+      "daysLeft": 176,
       "expirationDate": "2027-04-30",
       "packageExpirations": {
         "prv": "2027-04-30"
@@ -37781,7 +37796,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 118,
+      "daysLeft": 115,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "prv": "2027-02-28"
@@ -38024,7 +38039,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 90,
+      "daysLeft": 87,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -38060,7 +38075,6 @@ const PRIME_CATALOG_DATA = [
       "scifi_fantastique"
     ],
     "raw_genres": [
-      "act",
       "drm",
       "scf"
     ],
@@ -38187,7 +38201,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/01",
-      "daysLeft": 62,
+      "daysLeft": 59,
       "expirationDate": "2027-01-03",
       "packageExpirations": {
         "prv": "2027-01-03"
@@ -38398,15 +38412,15 @@ const PRIME_CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2012,
-        "note": 7.5,
+        "note": 7.4,
         "episodes": 13
       }
     ],
     "duree": "22 min/ép.",
     "runtime_minutes": 22,
-    "note_avis": 7.5,
+    "note_avis": 7.4,
     "note_recence": 5.8,
-    "note_globale": 6.7,
+    "note_globale": 6.6,
     "etoiles": 3,
     "categories": [
       "horreur_epouvante"
@@ -38918,7 +38932,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/02",
-      "daysLeft": 114,
+      "daysLeft": 111,
       "expirationDate": "2027-02-24",
       "packageExpirations": {
         "prv": "2027-02-24"
@@ -39280,7 +39294,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -39673,7 +39687,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/12",
-      "daysLeft": 49,
+      "daysLeft": 46,
       "expirationDate": "2026-12-21",
       "packageExpirations": {
         "prv": "2026-12-21"
@@ -39825,7 +39839,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/12",
-      "daysLeft": 52,
+      "daysLeft": 49,
       "expirationDate": "2026-12-24",
       "packageExpirations": {
         "prv": "2026-12-24"
@@ -40332,8 +40346,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
-    "duree": "1h 31min",
-    "runtime_minutes": 91,
+    "duree": "1h 29min",
+    "runtime_minutes": 89,
     "note_avis": 4.5,
     "note_recence": 7.6,
     "note_globale": 6.1,
@@ -40398,7 +40412,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/02",
-      "daysLeft": 117,
+      "daysLeft": 114,
       "expirationDate": "2027-02-27",
       "packageExpirations": {
         "prv": "2027-02-27"
@@ -40446,7 +40460,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/03",
-      "daysLeft": 135,
+      "daysLeft": 132,
       "expirationDate": "2027-03-17",
       "packageExpirations": {
         "prv": "2027-03-17"
@@ -40637,7 +40651,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 118,
+      "daysLeft": 115,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "prv": "2027-02-28"
@@ -40785,7 +40799,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -40886,7 +40900,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/12",
-      "daysLeft": 47,
+      "daysLeft": 44,
       "expirationDate": "2026-12-19",
       "packageExpirations": {
         "prv": "2026-12-19"
@@ -40934,7 +40948,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/12",
-      "daysLeft": 31,
+      "daysLeft": 28,
       "expirationDate": "2026-12-03",
       "packageExpirations": {
         "prv": "2026-12-03"
@@ -40981,7 +40995,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/01",
-      "daysLeft": 65,
+      "daysLeft": 62,
       "expirationDate": "2027-01-06",
       "packageExpirations": {
         "prv": "2027-01-06"
@@ -41007,8 +41021,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2012,
     "annee_moyenne": 2012,
-    "duree": "1h 50min",
-    "runtime_minutes": 110,
+    "duree": "1h 46min",
+    "runtime_minutes": 106,
     "note_avis": 7.1,
     "note_recence": 5.8,
     "note_globale": 6.5,
@@ -41075,7 +41089,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/11",
-      "daysLeft": 22,
+      "daysLeft": 19,
       "expirationDate": "2026-11-24",
       "packageExpirations": {
         "prv": "2026-11-24"
@@ -41122,7 +41136,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/03",
-      "daysLeft": 133,
+      "daysLeft": 130,
       "expirationDate": "2027-03-15",
       "packageExpirations": {
         "prv": "2027-03-15"
@@ -41431,7 +41445,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/12",
-      "daysLeft": 35,
+      "daysLeft": 32,
       "expirationDate": "2026-12-07",
       "packageExpirations": {
         "prv": "2026-12-07"
@@ -41622,7 +41636,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/01",
-      "daysLeft": 62,
+      "daysLeft": 59,
       "expirationDate": "2027-01-03",
       "packageExpirations": {
         "prv": "2027-01-03"
@@ -41648,8 +41662,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
-    "duree": "1h 36min",
-    "runtime_minutes": 96,
+    "duree": "1h 35min",
+    "runtime_minutes": 95,
     "note_avis": 7.1,
     "note_recence": 9.7,
     "note_globale": 8.4,
@@ -42079,7 +42093,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 42,
+      "daysLeft": 39,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "prv": "2026-12-14"
@@ -42228,7 +42242,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 90,
+      "daysLeft": 87,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -42375,7 +42389,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/02",
-      "daysLeft": 104,
+      "daysLeft": 101,
       "expirationDate": "2027-02-14",
       "packageExpirations": {
         "prv": "2027-02-14"
@@ -42532,7 +42546,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/01",
-      "daysLeft": 61,
+      "daysLeft": 58,
       "expirationDate": "2027-01-02",
       "packageExpirations": {
         "prv": "2027-01-02"
@@ -42579,7 +42593,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 90,
+      "daysLeft": 87,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -42811,7 +42825,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/02",
-      "daysLeft": 114,
+      "daysLeft": 111,
       "expirationDate": "2027-02-24",
       "packageExpirations": {
         "prv": "2027-02-24"
@@ -42913,8 +42927,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2026-06-30",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 12 j",
-      "daysLeft": 12,
+      "label": "⏳ Expire dans 9 j",
+      "daysLeft": 9,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "prv": "2026-11-14"
@@ -43352,9 +43366,9 @@ const PRIME_CATALOG_DATA = [
     "annee_moyenne": 2020,
     "duree": "1h 27min",
     "runtime_minutes": 87,
-    "note_avis": 5,
+    "note_avis": 5.1,
     "note_recence": 8.2,
-    "note_globale": 6.6,
+    "note_globale": 6.7,
     "etoiles": 3,
     "categories": [
       "thriller_policier"
@@ -43608,7 +43622,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/01",
-      "daysLeft": 68,
+      "daysLeft": 65,
       "expirationDate": "2027-01-09",
       "packageExpirations": {
         "prv": "2027-01-09"
@@ -43710,7 +43724,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -44164,7 +44178,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/11",
-      "daysLeft": 19,
+      "daysLeft": 16,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "prv": "2026-11-21"
@@ -44301,9 +44315,9 @@ const PRIME_CATALOG_DATA = [
     "synopsis": "Une mine de diamants s’effondre dans le Grand Nord canadien et piège près de trente mineurs. Pour mener une mission de sauvetage périlleuse, Jim Goldenrod engage Mike McCann, un conducteur de camion expérimenté. Ils vont mener un convoi qui va emprunter la « route de glace », un océan gelé et instable qui couvre les presque 500 km du lac Winnipeg. Aux intempéries et avaries mécaniques, s’ajoute une série d’attaques mystérieuses, qui prouvent que quelqu’un n’a pas intérêt à ce que ce sauvetage ait lieu…",
     "date_ajout": "2026-05-19",
     "expiration": {
-      "status": "info",
-      "label": "📅 Jusqu'au 19/11",
-      "daysLeft": 17,
+      "status": "warning",
+      "label": "⏳ Expire dans 14 j",
+      "daysLeft": 14,
       "expirationDate": "2026-11-19",
       "packageExpirations": {
         "prv": "2026-11-19"
@@ -44518,8 +44532,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2017,
     "annee_moyenne": 2017,
-    "duree": "1h 37min",
-    "runtime_minutes": 97,
+    "duree": "1h 31min",
+    "runtime_minutes": 91,
     "note_avis": 5.7,
     "note_recence": 7.3,
     "note_globale": 6.5,
@@ -44539,7 +44553,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 32,
+      "daysLeft": 29,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "prv": "2026-12-04"
@@ -45063,7 +45077,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -45362,7 +45376,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/02",
-      "daysLeft": 99,
+      "daysLeft": 96,
       "expirationDate": "2027-02-09",
       "packageExpirations": {
         "prv": "2027-02-09"
@@ -46005,8 +46019,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2025-10-31",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 12 j",
-      "daysLeft": 12,
+      "label": "⏳ Expire dans 9 j",
+      "daysLeft": 9,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "prv": "2026-11-14"
@@ -46343,7 +46357,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/04",
-      "daysLeft": 163,
+      "daysLeft": 160,
       "expirationDate": "2027-04-14",
       "packageExpirations": {
         "prv": "2027-04-14"
@@ -46391,7 +46405,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/03",
-      "daysLeft": 132,
+      "daysLeft": 129,
       "expirationDate": "2027-03-14",
       "packageExpirations": {
         "prv": "2027-03-14"
@@ -46438,7 +46452,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/01",
-      "daysLeft": 89,
+      "daysLeft": 86,
       "expirationDate": "2027-01-30",
       "packageExpirations": {
         "prv": "2027-01-30"
@@ -47224,8 +47238,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
-    "duree": "2h 07min",
-    "runtime_minutes": 127,
+    "duree": "2h 08min",
+    "runtime_minutes": 128,
     "note_avis": 5.9,
     "note_recence": 9.7,
     "note_globale": 7.8,
@@ -47946,7 +47960,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/03",
-      "daysLeft": 132,
+      "daysLeft": 129,
       "expirationDate": "2027-03-14",
       "packageExpirations": {
         "prv": "2027-03-14"
@@ -48153,7 +48167,7 @@ const PRIME_CATALOG_DATA = [
     ],
     "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/281979483/s592/absolution-2015.jpg",
+    "poster": "https://images.justwatch.com/poster/356542876/s592/absolution-2015.jpg",
     "synopsis": "Alors qu'ils se précipitent à l'hôpital pour la naissance de leur enfant, un couple percute quelque chose sur la route, mais ne s'arrête pas. Peu après, la jeune mère se lie d'amitié avec une femme dont le mari est dans le coma et découvre l'effroyable vérité.",
     "date_ajout": "2025-10-01",
     "expiration": {
@@ -49019,7 +49033,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -49112,7 +49126,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -49390,7 +49404,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/01",
-      "daysLeft": 62,
+      "daysLeft": 59,
       "expirationDate": "2027-01-03",
       "packageExpirations": {
         "prv": "2027-01-03"
@@ -49573,8 +49587,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
-    "duree": "1h 46min",
-    "runtime_minutes": 106,
+    "duree": "1h 45min",
+    "runtime_minutes": 105,
     "note_avis": 4.6,
     "note_recence": 7.6,
     "note_globale": 6.1,
@@ -49758,10 +49772,11 @@ const PRIME_CATALOG_DATA = [
     "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
-      "scifi_fantastique"
+      "animation_famille"
     ],
     "raw_genres": [
       "drm",
+      "fml",
       "scf"
     ],
     "badge": null,
@@ -49862,7 +49877,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -50159,7 +50174,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 147,
+      "daysLeft": 144,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -50300,7 +50315,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -51075,15 +51090,18 @@ const PRIME_CATALOG_DATA = [
     "id": "jw-tm1524615",
     "titre": "Box 234",
     "type": "film",
-    "chaine": "Amazon Prime Video",
+    "chaine": "Ciné+ OCS",
     "chaines": [
+      "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/prime_video.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
+      "aoc",
       "prv"
     ],
     "annee": 2024,
@@ -51248,7 +51266,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/01",
-      "daysLeft": 63,
+      "daysLeft": 60,
       "expirationDate": "2027-01-04",
       "packageExpirations": {
         "prv": "2027-01-04"
@@ -52191,8 +52209,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2026-05-14",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 12 j",
-      "daysLeft": 12,
+      "label": "⏳ Expire dans 9 j",
+      "daysLeft": 9,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "prv": "2026-11-14"
@@ -52764,7 +52782,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/01",
-      "daysLeft": 73,
+      "daysLeft": 70,
       "expirationDate": "2027-01-14",
       "packageExpirations": {
         "prv": "2027-01-14"
@@ -53253,7 +53271,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -53345,7 +53363,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -54209,7 +54227,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/01",
-      "daysLeft": 73,
+      "daysLeft": 70,
       "expirationDate": "2027-01-14",
       "packageExpirations": {
         "prv": "2027-01-14"
@@ -54292,7 +54310,6 @@ const PRIME_CATALOG_DATA = [
       "animation_famille"
     ],
     "raw_genres": [
-      "act",
       "ani",
       "cmy",
       "fnt",
@@ -54308,7 +54325,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 90,
+      "daysLeft": 87,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -54771,8 +54788,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2025,
     "annee_moyenne": 2025,
-    "duree": "2h 12min",
-    "runtime_minutes": 132,
+    "duree": "2h 24min",
+    "runtime_minutes": 144,
     "note_avis": 6.3,
     "note_recence": 9.7,
     "note_globale": 8,
@@ -54792,9 +54809,9 @@ const PRIME_CATALOG_DATA = [
     "synopsis": "Big Nick se lance à la poursuite de Donnie qui a réussi à s'enfuir lors du braquage de la Banque Fédérale de Los Angeles. Il retrouve sa trace en Europe au sein de l'organisation criminelle Pantera. Et contre toute attente, Big Nick lui propose de s'associer pour braquer la plus grande réserve mondiale de diamants.",
     "date_ajout": "2026-06-07",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 5 j",
-      "daysLeft": 5,
+      "status": "urgent",
+      "label": "⏳ Expire dans 2 j",
+      "daysLeft": 2,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "prv": "2026-11-07"
@@ -55432,16 +55449,16 @@ const PRIME_CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2022,
-        "note": 7.1,
+        "note": 7,
         "episodes": 48
       }
     ],
     "duree": "23 min/ép.",
     "runtime_minutes": 23,
-    "note_avis": 7.1,
+    "note_avis": 7,
     "note_recence": 8.8,
-    "note_globale": 8,
-    "etoiles": 5,
+    "note_globale": 7.9,
+    "etoiles": 4,
     "categories": [
       "animation_famille"
     ],
@@ -55785,7 +55802,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/02",
-      "daysLeft": 112,
+      "daysLeft": 109,
       "expirationDate": "2027-02-22",
       "packageExpirations": {
         "prv": "2027-02-22"
@@ -55949,7 +55966,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -56251,7 +56268,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 42,
+      "daysLeft": 39,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "prv": "2026-12-14"
@@ -56337,6 +56354,7 @@ const PRIME_CATALOG_DATA = [
     ],
     "raw_genres": [
       "drm",
+      "hst",
       "war"
     ],
     "badge": "10",
@@ -57518,16 +57536,15 @@ const PRIME_CATALOG_DATA = [
     "annee_moyenne": 2025,
     "duree": "1h 00min",
     "runtime_minutes": 60,
-    "note_avis": 5.8,
+    "note_avis": 5.7,
     "note_recence": 9.7,
-    "note_globale": 7.8,
+    "note_globale": 7.7,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
     ],
     "raw_genres": [
-      "drm",
-      "trl"
+      "drm"
     ],
     "badge": null,
     "is_eligible": true,
@@ -58088,7 +58105,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 149,
+      "daysLeft": 146,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "prv": "2027-03-31"
@@ -58756,7 +58773,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 147,
+      "daysLeft": 144,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -58849,7 +58866,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 90,
+      "daysLeft": 87,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -59268,7 +59285,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -59330,7 +59347,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/01",
-      "daysLeft": 83,
+      "daysLeft": 80,
       "expirationDate": "2027-01-24",
       "packageExpirations": {
         "prv": "2027-01-24"
@@ -59470,7 +59487,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 32,
+      "daysLeft": 29,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "prv": "2026-12-04"
@@ -60892,8 +60909,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
+    "duree": "1h 29min",
+    "runtime_minutes": 89,
     "note_avis": 5.5,
     "note_recence": 8.5,
     "note_globale": 7,
@@ -61066,7 +61083,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/01",
-      "daysLeft": 73,
+      "daysLeft": 70,
       "expirationDate": "2027-01-14",
       "packageExpirations": {
         "prv": "2027-01-14"
@@ -61585,8 +61602,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2026-07-31",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 13 j",
-      "daysLeft": 13,
+      "label": "⏳ Expire dans 10 j",
+      "daysLeft": 10,
       "expirationDate": "2026-11-15",
       "packageExpirations": {
         "prv": "2026-11-15"
@@ -62446,7 +62463,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -62693,7 +62710,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/04",
-      "daysLeft": 177,
+      "daysLeft": 174,
       "expirationDate": "2027-04-28",
       "packageExpirations": {
         "prv": "2027-04-28"
@@ -62955,8 +62972,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2020,
     "annee_moyenne": 2020,
-    "duree": "1h 53min",
-    "runtime_minutes": 113,
+    "duree": "1h 55min",
+    "runtime_minutes": 115,
     "note_avis": 5.8,
     "note_recence": 8.2,
     "note_globale": 7,
@@ -62967,6 +62984,7 @@ const PRIME_CATALOG_DATA = [
     "raw_genres": [
       "act",
       "crm",
+      "hrr",
       "trl"
     ],
     "badge": "12",
@@ -64004,7 +64022,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 42,
+      "daysLeft": 39,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "prv": "2026-12-14"
@@ -64295,7 +64313,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -64375,8 +64393,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
-    "duree": "1h 35min",
-    "runtime_minutes": 95,
+    "duree": "1h 34min",
+    "runtime_minutes": 94,
     "note_avis": 4.3,
     "note_recence": 8.5,
     "note_globale": 6.4,
@@ -64899,7 +64917,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/11",
-      "daysLeft": 22,
+      "daysLeft": 19,
       "expirationDate": "2026-11-24",
       "packageExpirations": {
         "prv": "2026-11-24"
@@ -65354,7 +65372,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -66218,7 +66236,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/01",
-      "daysLeft": 70,
+      "daysLeft": 67,
       "expirationDate": "2027-01-11",
       "packageExpirations": {
         "prv": "2027-01-11"
@@ -66370,7 +66388,7 @@ const PRIME_CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts458784",
@@ -66545,11 +66563,13 @@ const PRIME_CATALOG_DATA = [
     "synopsis": "Une jeune stagiaire polyglotte de la CIA, Annie Walker, est subitement promue agent de terrain. Alors qu'elle pense le devoir à ses capacités linguistiques, la véritable raison semble être pour la CIA d'attirer et de capturer Ben, l'homme dont elle était tombée amoureuse, qui lui a brisé le cœur, et dont elle ignore finalement tout. Pour l'aider dans ses nouvelles fonctions, elle est épaulée par August « Auggie » Anderson, un officier de la CIA ayant perdu la vue en Irak, toujours prêt à l'aider et l'appuyer, et de Jai Willcox, fils d'un ancien ponte de la CIA.",
     "date_ajout": "2025-05-02",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 02/05",
+      "daysLeft": 178,
+      "expirationDate": "2027-05-02",
+      "packageExpirations": {
+        "prv": "2027-05-02"
+      }
     },
     "on_prime": true,
     "on_tnt": false
@@ -67486,7 +67506,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/01",
-      "daysLeft": 68,
+      "daysLeft": 65,
       "expirationDate": "2027-01-09",
       "packageExpirations": {
         "prv": "2027-01-09"
@@ -67723,8 +67743,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2026-05-14",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 12 j",
-      "daysLeft": 12,
+      "label": "⏳ Expire dans 9 j",
+      "daysLeft": 9,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "prv": "2026-11-14"
@@ -68195,7 +68215,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 42,
+      "daysLeft": 39,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "prv": "2026-12-14"
@@ -68480,10 +68500,10 @@ const PRIME_CATALOG_DATA = [
     "annee_moyenne": 2024,
     "duree": "1h 29min",
     "runtime_minutes": 89,
-    "note_avis": 4.5,
+    "note_avis": 4.3,
     "note_recence": 9.4,
-    "note_globale": 7,
-    "etoiles": 4,
+    "note_globale": 6.9,
+    "etoiles": 3,
     "categories": [
       "drame_emotion"
     ],
@@ -69528,15 +69548,14 @@ const PRIME_CATALOG_DATA = [
     "annee_moyenne": 2019,
     "duree": "2h 04min",
     "runtime_minutes": 124,
-    "note_avis": 7.2,
+    "note_avis": 7.3,
     "note_recence": 7.9,
     "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
-      "action_aventure"
+      "drame_emotion"
     ],
     "raw_genres": [
-      "act",
       "drm",
       "hst",
       "war",
@@ -70010,7 +70029,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/03",
-      "daysLeft": 133,
+      "daysLeft": 130,
       "expirationDate": "2027-03-15",
       "packageExpirations": {
         "prv": "2027-03-15"
@@ -70167,7 +70186,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/02",
-      "daysLeft": 104,
+      "daysLeft": 101,
       "expirationDate": "2027-02-14",
       "packageExpirations": {
         "prv": "2027-02-14"
@@ -70397,7 +70416,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/12",
-      "daysLeft": 37,
+      "daysLeft": 34,
       "expirationDate": "2026-12-09",
       "packageExpirations": {
         "prv": "2026-12-09"
@@ -70513,7 +70532,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 90,
+      "daysLeft": 87,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -70785,7 +70804,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/11",
-      "daysLeft": 20,
+      "daysLeft": 17,
       "expirationDate": "2026-11-22",
       "packageExpirations": {
         "prv": "2026-11-22"
@@ -71041,8 +71060,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2015,
     "annee_moyenne": 2015,
-    "duree": "1h 28min",
-    "runtime_minutes": 88,
+    "duree": "1h 27min",
+    "runtime_minutes": 87,
     "note_avis": 5.2,
     "note_recence": 6.7,
     "note_globale": 6,
@@ -71064,7 +71083,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -71576,7 +71595,7 @@ const PRIME_CATALOG_DATA = [
     "annee_moyenne": 2021,
     "duree": "1h 21min",
     "runtime_minutes": 81,
-    "note_avis": 8.4,
+    "note_avis": 8.5,
     "note_recence": 8.5,
     "note_globale": 8.5,
     "etoiles": 5,
@@ -72064,7 +72083,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 90,
+      "daysLeft": 87,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -72201,7 +72220,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -73784,7 +73803,6 @@ const PRIME_CATALOG_DATA = [
       "crm",
       "drm",
       "fnt",
-      "trl",
       "scf"
     ],
     "badge": "12",
@@ -73842,7 +73860,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -73890,7 +73908,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -74352,9 +74370,9 @@ const PRIME_CATALOG_DATA = [
     "annee_moyenne": 2026,
     "duree": "1h 59min",
     "runtime_minutes": 119,
-    "note_avis": 5.7,
+    "note_avis": 5.6,
     "note_recence": 10,
-    "note_globale": 7.9,
+    "note_globale": 7.8,
     "etoiles": 4,
     "categories": [
       "comedie"
@@ -76224,7 +76242,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -76649,7 +76667,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 28,
+      "daysLeft": 25,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -77277,7 +77295,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -78455,6 +78473,7 @@ const PRIME_CATALOG_DATA = [
     ],
     "raw_genres": [
       "crm",
+      "hrr",
       "trl"
     ],
     "badge": "12",
@@ -78652,7 +78671,7 @@ const PRIME_CATALOG_DATA = [
     "annee_moyenne": 2026,
     "duree": "1h 36min",
     "runtime_minutes": 96,
-    "note_avis": 6.1,
+    "note_avis": 6.2,
     "note_recence": 10,
     "note_globale": 8.1,
     "etoiles": 5,
@@ -78660,7 +78679,6 @@ const PRIME_CATALOG_DATA = [
       "horreur_epouvante"
     ],
     "raw_genres": [
-      "act",
       "hrr",
       "trl"
     ],
@@ -78812,7 +78830,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -78869,9 +78887,9 @@ const PRIME_CATALOG_DATA = [
     "synopsis": "Héritier de la fortune familiale, le jeune Masaru Saïga, onze ans, devient la cible de ravisseurs dotés de marionnettes aussi étranges que mortelles. Il leur échappe avec l’aide de Narumi Kato, un employé de cirque, mais ils sont bientôt rattrapés. Tout semble perdu quand survient la mystérieuse Shirogané qui les sauve grâce à sa marionnette. Dès lors, les destins du trio se lient inexorablement.",
     "date_ajout": "2019-02-07",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 5 j",
-      "daysLeft": 5,
+      "status": "urgent",
+      "label": "⏳ Expire dans 2 j",
+      "daysLeft": 2,
       "expirationDate": "2026-11-07",
       "packageExpirations": {
         "prv": "2026-11-07"
@@ -78919,7 +78937,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -79118,8 +79136,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2026-05-14",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 12 j",
-      "daysLeft": 12,
+      "label": "⏳ Expire dans 9 j",
+      "daysLeft": 9,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "prv": "2026-11-14"
@@ -79260,7 +79278,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -79306,7 +79324,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/04",
-      "daysLeft": 179,
+      "daysLeft": 176,
       "expirationDate": "2027-04-30",
       "packageExpirations": {
         "prv": "2027-04-30"
@@ -79355,7 +79373,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 59,
+      "daysLeft": 56,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -79444,11 +79462,13 @@ const PRIME_CATALOG_DATA = [
     "synopsis": "David, jeune paysan du Cantal, vient d’avoir une idée : pour sauver son exploitation de la faillite, il va monter un cabaret à la ferme. Le spectacle sera sur scène et dans l’assiette, avec les bons produits du terroir. Il en est sûr, ça ne peut que marcher ! Ses proches, sa mère et surtout son grand-père, sont plus sceptiques.",
     "date_ajout": "2026-11-01",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 01/05",
+      "daysLeft": 177,
+      "expirationDate": "2027-05-01",
+      "packageExpirations": {
+        "prv": "2027-05-01"
+      }
     },
     "on_prime": true,
     "on_tnt": false
@@ -79543,11 +79563,13 @@ const PRIME_CATALOG_DATA = [
     "synopsis": "Comment vivre heureux et riche sans travailler ? Être Gigolo. Mais après 25 ans de vie commune avec Denise, Alex le « gigolo » se fait congédier sans préavis et se retrouve à la rue. Forcé de s’installer chez sa sœur et son neveu de 10 ans, il n’a alors qu’une obsession : retrouver au plus vite une riche héritière.",
     "date_ajout": "2026-11-01",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 01/05",
+      "daysLeft": 177,
+      "expirationDate": "2027-05-01",
+      "packageExpirations": {
+        "prv": "2027-05-01"
+      }
     },
     "on_prime": true,
     "on_tnt": false
@@ -79678,7 +79700,7 @@ const PRIME_CATALOG_DATA = [
     "note_globale": 6.5,
     "etoiles": 3,
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -79693,6 +79715,2275 @@ const PRIME_CATALOG_DATA = [
     "synopsis": "Une grosse livraison de cocaïne destinée à la mafia est détournée. Vincent Downs et Sean Tip, deux flics de Las Vegas, sont rapidement suspectés. La police des polices les met sous pression. La mafia aussi. En kidnappant le fils de Downs, la mafia franchit la ligne blanche : blessé et traqué, Downs va devenir un adversaire brutal et impitoyable. Il est prêt à tout pour sauver son fils et il n’a qu’une nuit devant lui.",
     "date_ajout": "2026-11-01",
     "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 01/05",
+      "daysLeft": 177,
+      "expirationDate": "2027-05-01",
+      "packageExpirations": {
+        "prv": "2027-05-01"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm163453",
+    "titre": "Malveillance",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2011,
+    "annee_moyenne": 2011,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 7.2,
+    "note_recence": 5.5,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "hrr",
+      "trl",
+      "eur"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/180689263/s592/malveillance.jpg",
+    "synopsis": "César est un gardien d'immeuble toujours disponible, efficace et discret. Disponible pour s'immiscer dans la vie des habitants jusqu'à les connaître par coeur ; discret quand il emploie ses nuits à détruire leur bonheur ; efficace quand il s'acharne jusqu'à l'obsession sur Clara, une jeune femme insouciante et heureuse.",
+    "date_ajout": "2025-10-10",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm167879",
+    "titre": "Killer Elite",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2011,
+    "annee_moyenne": 2011,
+    "duree": "1h 56min",
+    "runtime_minutes": 116,
+    "note_avis": 6.4,
+    "note_recence": 5.5,
+    "note_globale": 6,
+    "etoiles": 3,
+    "categories": [
+      "action_aventure"
+    ],
+    "raw_genres": [
+      "act",
+      "crm",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/177546324/s592/killer-elite.jpg",
+    "synopsis": "Pour sauver Hunter, son ancien partenaire et mentor, Danny accepte de reprendre du service et de reformer son équipe. Mais celui qui était l'un des meilleurs agents des forces spéciales va cette fois affronter sa mission la plus périlleuse. Pour réussir, il va devoir percer les secrets d'une des unités militaires les plus redoutées qui soit, le SAS britannique. De doubles jeux en trahisons, il va découvrir un complot qui menace le monde et ce pour quoi il s'est toujours battu ?",
+    "date_ajout": "2026-11-01",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 01/05",
+      "daysLeft": 177,
+      "expirationDate": "2027-05-01",
+      "packageExpirations": {
+        "prv": "2027-05-01"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm432624",
+    "titre": "Jusqu'ici tout va bien",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 30min",
+    "runtime_minutes": 90,
+    "note_avis": 5.9,
+    "note_recence": 7.9,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/313647456/s592/zone-franche.jpg",
+    "synopsis": "Une société de publicité branchée située en plein centre de Paris est depuis des années faussement déclarée en Zone Franche à La Courneuve, une domiciliation qui lui permet d’obtenir des aides et des exonérations de charges. Lors d’un contrôle, l’administration fiscale se rend compte de la supercherie et vient en informer le patron. Le deal est le suivant, soit la société paye des millions d’euros d’amende pour rembourser les aides qu’elle a indûment perçues, ou elle doit réellement s’installer à La Courneuve et on oublie la dette. Fred, le PDG, n’a pas le choix et déménage donc en banlieue avec ses salariés, tétanisés par cette arrivée en terre inconnue. Ils sont guidés dans cette installation par un jeune employé par la ville qui fait la sécurité de la zone franche dans laquelle ils s’installent.",
+    "date_ajout": "2026-11-01",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 01/05",
+      "daysLeft": 177,
+      "expirationDate": "2027-05-01",
+      "packageExpirations": {
+        "prv": "2027-05-01"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1159385",
+    "titre": "Les SEGPA",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 39min",
+    "runtime_minutes": 99,
+    "note_avis": 4.1,
+    "note_recence": 8.8,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/299702118/s592/les-segpa.jpg",
+    "synopsis": "Les SEGPA se font virer de leur établissement. À leur grande surprise, ils intègrent le prestigieux collège Franklin D. Roosevelt.  Le Principal, peu enclin à voir la réputation de son école se détériorer, imagine un stratagème pour virer les SEGPA tout en conservant les aides.  Alors qu’ils savourent leur nouvelle vie, lient des amitiés et deviennent de plus en plus populaires, les SEGPA découvrent le projet du Principal. Ils décident alors de tout faire pour déjouer ses manigances...",
+    "date_ajout": "2026-10-31",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 30/04",
+      "daysLeft": 176,
+      "expirationDate": "2027-04-30",
+      "packageExpirations": {
+        "prv": "2027-04-30"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1426308",
+    "titre": "The Last Girl",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 45min",
+    "runtime_minutes": 105,
+    "note_avis": 4.8,
+    "note_recence": 9.4,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/313008874/s592/the-last-girl.jpg",
+    "synopsis": "Un détective privé et sa partenaire sont entrainés dans un dédale d’intrigues lorsqu’ils traquent un tueur en série qui cible une famille fortunée avec un lourd secret.",
+    "date_ajout": "2026-10-31",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": true
+  },
+  {
+    "id": "jw-tm1121076",
+    "titre": "My Husband, My Lover",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 49min",
+    "runtime_minutes": 109,
+    "note_avis": 4.5,
+    "note_recence": 8.5,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/254385201/s592/my-husband-my-lover.jpg",
+    "synopsis": "Alice et Noel vivent un mariage heureux. Alice est une femme accomplie et une épouse dévouée à son mari, Noel, un homme bon et intelligent.  Cependant, elle est également la maîtresse passionnée de Dennis, qu'elle entretient.  Son mariage est sans nuage, mais Alice ressent le besoin d'avoir à la fois un mari et un amant. Tout se passe bien jusqu'au jour où Alice découvre qu'elle est enceinte.  Ignorant qui est le père, elle avoue tout à Noel et à Dennis, une décision qui va bouleverser sa vie. Noel décide de rompre avec Alice, tandis que Dennis promet de prendre soin d'elle et de son bébé.\n",
+    "date_ajout": "2026-11-02",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1248301",
+    "titre": "Summit Fever",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 55min",
+    "runtime_minutes": 115,
+    "note_avis": 5.3,
+    "note_recence": 8.8,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/305973845/s592/summit-fever.jpg",
+    "synopsis": "Ryan Phillippe et Freddie Thorp sont les vedettes de cette course à l'adrénaline où une ambitieuse expédition en montagne devient une lutte à couper le souffle pour la survie. Un rêve audacieux d'escalader le trio de montagnes le plus difficile au monde se transforme en un cauchemar terrifiant pour un groupe d'amis lorsqu'une tempête mortelle piège les alpinistes près du sommet et leur coupe tout espoir de secours. Les chances de réussite étant très faibles, les amis sont obligés de se faire confiance pour se sauver par tous les moyens.",
+    "date_ajout": "2022-10-14",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm230249",
+    "titre": "Au fond des bois",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2015,
+    "annee_moyenne": 2015,
+    "duree": "1h 30min",
+    "runtime_minutes": 90,
+    "note_avis": 6.3,
+    "note_recence": 6.7,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "trl",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/75686904/s592/au-fond-des-bois-2015.jpg",
+    "synopsis": "Dans un village de montagne isolé, le petit Tommy, 3 ans, disparaît pendant la nuit du carnaval. Son père, Manuel, est immédiatement suspecté ; Linda, sa mère est anéantie. Cinq ans plus tard, un jeune garçon est retrouvé...et les tests ADN sont formels : il s'agit de Tommy. Pourtant, son comportement sème rapidement le doute chez ses parents : cet enfant est-il réellement le leur ? Manuel décide alors de mener sa propre enquête et de se replonger dans le passé. Pour que surgisse la vérité, il doit faire toute la lumière sur ce qui s'est passé cette nuit-là il y a cinq ans, au fond des bois...",
+    "date_ajout": "2026-11-02",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm511514",
+    "titre": "Les Disparues de Valan",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 37min",
+    "runtime_minutes": 97,
+    "note_avis": 6.8,
+    "note_recence": 7.6,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "eur"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/270192596/s592/les-disparues-de-valan.jpg",
+    "synopsis": "Traumatisé par la disparition de sa sœur Julie voici 22 ans, Peter a quitté Valan, sa ville natale, pour la métropole voisine où il a intégré une brigade d'inspecteurs spécialisée dans les disparitions. Lorsque le corps congelé d'une jeune fille est retrouvé à Valan, le passé de Peter resurgit. Persuadé qu'il s'agit de Julie, il retourne là-bas, et découvre qu'une autre adolescente est portée disparue. Contraint de réveiller les démons endormis et d'affronter la pègre locale, il se plonge alors dans une enquête qui le confrontera à l'impensable : tous les ans depuis vingt ans, une jeune fille disparaît la veille de Noël...",
+    "date_ajout": "2026-11-02",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm2926377",
+    "titre": "The Mongoose",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2026,
+    "annee_moyenne": 2026,
+    "duree": "1h 38min",
+    "runtime_minutes": 98,
+    "note_avis": 5,
+    "note_recence": 10,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "action_aventure"
+    ],
+    "raw_genres": [
+      "act",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/347360147/s592/the-mongoose.jpg",
+    "synopsis": "Accusé à tort d'un crime et n'ayant rien à perdre, un héros de guerre qui lutte contre le PTSD entraîne la police dans une course-poursuite à tombeau ouvert à travers le pays avec l'aide de ses frères d'armes, tandis qu'un public captivé soutient sa fuite.",
+    "date_ajout": "2026-11-04",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts321529",
+    "titre": "Cupidon mon amour",
+    "type": "serie",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2023,
+        "note": 7.2,
+        "episodes": 16
+      }
+    ],
+    "duree": "62 min/ép.",
+    "runtime_minutes": 62,
+    "note_avis": 7.2,
+    "note_recence": 9.1,
+    "note_globale": 8.2,
+    "etoiles": 5,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "fnt",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/310035507/s592/my-man-is-cupid.jpg",
+    "synopsis": "Cheon Sang-hyuk est un Cupidon immortel qui aide les humains à tomber amoureux depuis 500 ans, mais il ne connaît pas lui-même l'amour. Un jour, il tombe sous le charme de Oh Baek-ryeon, une femme belle et optimiste mais maudite : tous ses amours finissent tragiquement. Ensemble, ils doivent apprendre à aimer malgré les malédictions et les obstacles du destin, mêlant romance, humour et fantastique.",
+    "date_ajout": "2023-12-01",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm313683",
+    "titre": "Veronica",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "1h 45min",
+    "runtime_minutes": 105,
+    "note_avis": 6.2,
+    "note_recence": 7.3,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/44803694/s592/veronica-2017.jpg",
+    "synopsis": "Madrid, années 90. Après avoir fait une séance de spiritisme avec des amies, une adolescente est harcelée par de mystérieuses présences qui menacent de s’en prendre à toute sa famille. D’après une affaire policière jamais élucidée.",
+    "date_ajout": "2024-11-30",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": true
+  },
+  {
+    "id": "jw-tm1263826",
+    "titre": "Mirror Moves",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 25min",
+    "runtime_minutes": 85,
+    "note_avis": 8,
+    "note_recence": 8.8,
+    "note_globale": 8.4,
+    "etoiles": 5,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/340110391/s592/mirror-moves.jpg",
+    "synopsis": "Une femme découvre qu'elle est mariée à un tueur en série depuis quinze ans. Son esprit se fragmente alors qu'elle s'interroge sur sa propre complicité : aurait-elle dû s'en douter ? Aurait-elle pu l'empêcher de tuer ? Ou bien une part d'elle-même était-elle, inconsciemment, attirée par cette idée ?",
+    "date_ajout": "2026-11-03",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1561504",
+    "titre": "Lumière du Monde",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 31min",
+    "runtime_minutes": 91,
+    "note_avis": 6.4,
+    "note_recence": 9.7,
+    "note_globale": 8.1,
+    "etoiles": 5,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "ani",
+      "drm",
+      "fml"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/344825114/s592/light-of-the-world.jpg",
+    "synopsis": "Nous sommes en l'an 30 après J.-C. et tout le monde attend avec impatience la venue du Messie. Même si Jésus ne correspond pas tout à fait à ce qu'ils avaient imaginé, cet homme a quelque chose de particulier. Très vite, Jean, Jacques, André, Pierre et d'autres se mettent à suivre Jésus dans une aventure inattendue. Cette histoire de Jésus, magnifiquement animée, est racontée à travers le regard de son jeune ami bien-aimé, l'apôtre Jean.",
+    "date_ajout": "2026-11-03",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts86021",
+    "titre": "Molang",
+    "type": "serie",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2015,
+    "annee_fin": 2025,
+    "annee_moyenne": 2020,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2015,
+        "note": 8.2,
+        "episodes": 52
+      },
+      {
+        "saison": 2,
+        "annee": 2016,
+        "note": 8.2,
+        "episodes": 52
+      },
+      {
+        "saison": 3,
+        "annee": 2018,
+        "note": 8.2,
+        "episodes": 52
+      },
+      {
+        "saison": 6,
+        "annee": 2025,
+        "note": 8.2,
+        "episodes": 52
+      }
+    ],
+    "duree": "4 min/ép.",
+    "runtime_minutes": 4,
+    "note_avis": 8.2,
+    "note_recence": 8.2,
+    "note_globale": 8.2,
+    "etoiles": 5,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "ani",
+      "cmy",
+      "fnt",
+      "fml",
+      "eur"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/292476661/s592/molang.jpg",
+    "synopsis": "Molang est une perspective affectueuse et humoristique sur la relation entre un lapin excentrique, joyeux et enthousiaste, et un petit poussin timide, discret et émotif. Malgré leurs nombreuses différences, ces deux personnes entretiennent une amitié unique. Ils passent de bons moments ensemble, allant du banal à l'extraordinaire. Qu'ils s'envolent vers la lune ou qu'ils arrosent simplement le potager, Molang et Piu Piu vivent des situations inattendues, voire troublantes. Les incidents et les malentendus se transforment rapidement en occasions de passer des moments amusants et d'humour, que les amis de Molang sont heureux de venir partager.",
+    "date_ajout": "2022-08-31",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": true
+  },
+  {
+    "id": "jw-ts55801",
+    "titre": "Clockwork Planet",
+    "type": "serie",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2017,
+        "note": 5.6,
+        "episodes": 12
+      }
+    ],
+    "duree": "24 min/ép.",
+    "runtime_minutes": 24,
+    "note_avis": 5.6,
+    "note_recence": 7.3,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "act",
+      "ani",
+      "drm",
+      "fnt",
+      "rma",
+      "scf"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/320214558/s592/clockwork-planet.jpg",
+    "synopsis": "Il y a environ mille ans, la Terre était condamnée à embrasser sa fin. Une mystérieuse personne reproduisit et recréa tout ce qui existait sur Terre avec d’innombrables mécanismes avant ce jour final, ce qui permit finalement aux êtres humains de survivre. Un jour, une boîte tomba soudainement dans l’appartement de Naoto Miura, un garçon qui possède un certain talent concernant les méchanismes. Dans la boîte, il y avait un automate féminin nommé RyuZU. La rencontre entre Naoto et RyuZU amorce le mouvement des roues de la destinée…",
+    "date_ajout": "2026-05-03",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts217703",
+    "titre": "Sorcerous Stabber Orphen",
+    "type": "serie",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2020,
+        "note": 6.9,
+        "episodes": 14
+      }
+    ],
+    "duree": "24 min/ép.",
+    "runtime_minutes": 24,
+    "note_avis": 6.9,
+    "note_recence": 8.2,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "action_aventure"
+    ],
+    "raw_genres": [
+      "act"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/322145214/s592/majutsushi-orphen-hagure-tabi.jpg",
+    "synopsis": "Orphen, un jeune sorcier autrefois connu comme étant l'un des sorciers noirs les plus prometteurs de la Tour de Fang, se voit proposer un plan afin de gagner de l'argent. Vulcan et Dortin, les instigateurs, proposent de se déguiser en riches marchands et de se rendre à la maison Erverlasting afin d'engager un faux mariage. Cependant, tout ne se passe pas comme prévu puisqu'un monstre attaque soudainement le manoir. Et il se trouve que ce monstre n'est autre qu'Azalie, la sœur d'Orphen !",
+    "date_ajout": "2022-03-02",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts435506",
+    "titre": "Like a Dragon : Yakuza",
+    "type": "serie",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2024,
+        "note": 5.5,
+        "episodes": 6
+      }
+    ],
+    "duree": "47 min/ép.",
+    "runtime_minutes": 47,
+    "note_avis": 5.5,
+    "note_recence": 9.4,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "act",
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/321621600/s592/like-a-dragon-yakuza.jpg",
+    "synopsis": "Dans cette histoire qui se déroule dans la ville fictive de Kamurocho, deux époques se croisent : 1995 et 2005. En 1995, quatre amis désireux d'échapper aux contraintes de leurs vies à l'orphelinat plongent dans le monde des yakuzas de Kamurocho. En 2005, leur amitié s'est détériorée et les tensions entre le clan Tojo et l'alliance Omi sont à leur comble.",
+    "date_ajout": "2024-10-24",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm307584",
+    "titre": "Rock, Paper, Scissors",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 24min",
+    "runtime_minutes": 84,
+    "note_avis": 4.1,
+    "note_recence": 7.9,
+    "note_globale": 6,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": "18",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/294874835/s592/rock-paper-scissors-2017.jpg",
+    "synopsis": "Peter retourne dans sa maison familiale ancestrale, hantée par des souvenirs et des visites fantomatiques. Avec l'arrivée d'Ashley, il prend une décision fatidique pour raviver de vieux désirs de meurtre.",
+    "date_ajout": "2026-10-31",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm233059",
+    "titre": "Un taxi inquiétant",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2016,
+    "annee_moyenne": 2016,
+    "duree": "1h 24min",
+    "runtime_minutes": 84,
+    "note_avis": 5.7,
+    "note_recence": 7,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "cmy",
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/292084596/s592/un-taxi-inquietant.jpg",
+    "synopsis": "A la sortie d'une boîte de nuit, Trudy, étudiante en droit et en criminologie, fait appel aux services d'une société de chauffeurs privés, Netcar, pour rentrer chez elle. Le lendemain matin, elle se réveille nue, sans aucun souvenir de la fin de sa soirée, dans la chambre d'un motel. Elle prend conscience qu'elle a été droguée, puis violée. Frustrée par l'impuissance de la justice et la lenteur de l'enquête de police, elle décide de traquer elle-même son violeur",
+    "date_ajout": "2026-11-02",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm247298",
+    "titre": "We Go On",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2016,
+    "annee_moyenne": 2016,
+    "duree": "1h 29min",
+    "runtime_minutes": 89,
+    "note_avis": 5.8,
+    "note_recence": 7,
+    "note_globale": 6.4,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/316437071/s592/we-go-on.jpg",
+    "synopsis": "Miles Grissom a une grande peur : celle du grand vide après la mort, qui lui donne des vertiges. Il décide de passer une annonce dans laquelle il est prêt à offrir 30.000 dollars à quiconque arrive à lui montrer un ange, un démon, un fantôme.",
+    "date_ajout": "2025-01-01",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm458613",
+    "titre": "Les Mystères d'Emma Fielding : La Société secrète",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 23min",
+    "runtime_minutes": 83,
+    "note_avis": 6.4,
+    "note_recence": 7.9,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/247331486/s592/les-mysteres-demma-fielding-la-societe-secrete.jpg",
+    "synopsis": "Le Congrès annuel de l'ASAA, l'Association de Soutien à l'Archéologie Américaine, est organisé au collège Kenzer ; un prestigieux évènement où la Présidente doit cette année annoncer le nom de son successeur. Cependant, de mystérieux incidents surviennent sur le campus : une œuvre est brulée lors de son transport, un cambriolage a lieu dans le musée et la Présidente est victime d'un empoissonnement mortel… Aidée par son ami, l'agent spécial Connor, Emma fait tout pour découvrir l'assassin et enquête sur une société secrète qui sévirait sur le campus…",
+    "date_ajout": "2020-06-16",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm266730",
+    "titre": "Astral",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 23min",
+    "runtime_minutes": 83,
+    "note_avis": 4.6,
+    "note_recence": 7.6,
+    "note_globale": 6.1,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl",
+      "scf"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/268088551/s592/astral.jpg",
+    "synopsis": "Un étudiant universitaire en échec doit faire face aux conséquences de la projection astrale lorsqu'il l'utilise pour renouer avec sa mère décédée.",
+    "date_ajout": "2026-10-31",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts488601",
+    "titre": "House for the Broken",
+    "type": "serie",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2026,
+    "annee_moyenne": 2026,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2026,
+        "note": 9.5,
+        "episodes": 8
+      }
+    ],
+    "duree": "35 min/ép.",
+    "runtime_minutes": 35,
+    "note_avis": 9.5,
+    "note_recence": 10,
+    "note_globale": 9.8,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/346730100/s592/house-for-the-broken.jpg",
+    "synopsis": "Un jeune pasteur et son église deviennent un refuge pour des personnes portant de profondes blessures, mais alors que des vies brisées se heurtent sous un même toit, la foi, le pardon et la rédemption sont mis à l'épreuve d'une manière à laquelle aucun d'entre eux ne s'attend.",
+    "date_ajout": "2026-09-03",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1938533",
+    "titre": "Gobblefoot",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 11min",
+    "runtime_minutes": 71,
+    "note_avis": 5,
+    "note_recence": 9.7,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/340586756/s592/gobblefoot.jpg",
+    "synopsis": "Une semaine avant Thanksgiving, un minuscule village de Nouvelle-Angleterre est terrorisé par une créature légendaire, mi-dinde, mi-Bigfoot ! Alors que les cadavres s'accumulent, un professeur de folklore doit faire éclater la vérité sur « Gobblefoot » avant que les habitants ne finissent au menu.",
+    "date_ajout": "2026-11-03",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1190247",
+    "titre": "L'Œil du mal",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 40min",
+    "runtime_minutes": 100,
+    "note_avis": 5.6,
+    "note_recence": 8.8,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/305318215/s592/mal-de-ojo.jpg",
+    "synopsis": "Nala, une jeune fille de Mexico, se rend avec sa famille dans la maison de campagne de sa grand-mère. Ses parents espèrent y trouver le remède qui soignera la mystérieuse maladie de sa petite sœur. Mais Nala va bientôt découvrir que sa grand-mère n’est pas exactement la gentille dame qu’elle s’attendait à rencontrer.",
+    "date_ajout": "2022-09-22",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm155098",
+    "titre": "Transformers : L’Âge de l’extinction",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2014,
+    "annee_moyenne": 2014,
+    "duree": "2h 45min",
+    "runtime_minutes": 165,
+    "note_avis": 5.6,
+    "note_recence": 6.4,
+    "note_globale": 6,
+    "etoiles": 3,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "act",
+      "cmy",
+      "trl",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/313787248/s592/transformers-4-lage-de-lextinction.jpg",
+    "synopsis": "Alors que l’humanité panse ses plaies, après les événements de Transformers : La Face cachée de la Lune, les Autobots et les Decepticons ont disparu de la surface de la Terre. Mais un groupe formé de financiers et scientifiques puissants et ingénieux étudient les invasions successives des Transformers, afin de repousser les limites de la technologie au‐delà de ce qu’ils peuvent contrôler. Et pendant ce temps, une menace Transformer ancienne et puissante prend la Terre pour cible.",
+    "date_ajout": "2014-06-27",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 04/03",
+      "daysLeft": 119,
+      "expirationDate": "2027-03-04",
+      "packageExpirations": {
+        "prv": "2027-03-04"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1467867",
+    "titre": "Friends 2 Foe",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 05min",
+    "runtime_minutes": 65,
+    "note_avis": 6.7,
+    "note_recence": 9.4,
+    "note_globale": 8.1,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/318715991/s592/friends-2-foe.jpg",
+    "synopsis": "Deux meilleurs amis se tournent vers un membre de leur famille pour obtenir de l'aide afin de s'attaquer au milieu clandestin de la drogue - mensonges, trahisons, et qui sait ce qui les attend ensuite.",
+    "date_ajout": "2026-11-03",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts306198",
+    "titre": "Faux",
+    "type": "serie",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2023,
+        "note": 8.3,
+        "episodes": 8
+      }
+    ],
+    "duree": "56 min/ép.",
+    "runtime_minutes": 56,
+    "note_avis": 8.3,
+    "note_recence": 9.1,
+    "note_globale": 8.7,
+    "etoiles": 5,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "cmy",
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/303328500/s592/farzi.jpg",
+    "synopsis": "Sunny, un brillant artiste amateur, est catapulté dans le monde à hauts risques de la contrefaçon lorsqu'il parvient à créer le parfait faux billet, alors même que Michael, un fougueux officier des forces spéciales veut débarrasser le pays de la menace qu'est la contrefaçon. Dans ce jeu du chat et de la souris, perdre n'est pas une option !",
+    "date_ajout": "2023-02-09",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1565965",
+    "titre": "Fatal Affair",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 01min",
+    "runtime_minutes": 61,
+    "note_avis": 6.3,
+    "note_recence": 9.4,
+    "note_globale": 7.9,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/323674639/s592/fatal-affair.jpg",
+    "synopsis": "La vie d'une therapeute mariee bascule apres qu'elle a cede a la tentation avec un patient seduisant mais instable.",
+    "date_ajout": "2026-11-03",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm209527",
+    "titre": "Transformers : The Last Knight",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2017,
+    "annee_moyenne": 2017,
+    "duree": "2h 28min",
+    "runtime_minutes": 148,
+    "note_avis": 5.2,
+    "note_recence": 7.3,
+    "note_globale": 6.3,
+    "etoiles": 3,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "act",
+      "cmy",
+      "trl",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/8637651/s592/transformers-the-last-knight.jpg",
+    "synopsis": "The Last Knight fait voler en éclats les mythes essentiels de la franchise Transformers, et redéfinit ce que signifie être un héros. Les humains et les Transformers sont en guerre, Optimus a disparu. La clé pour sauver notre futur réside dans les secrets enfouis du passé, dans l’histoire cachée des Transformers sur Terre. La sauvegarde de notre monde repose sur les épaules d’une alliance inattendue : Cade Yeager, Bumblebee, un Lord anglais et un professeur d’Oxford. Vient un moment dans la vie de chacun où nous sommes appelés à changer les choses. Dans Transformers : The Last Knight, les proies vont devenir des héros. Les héros vont devenir des méchants. Un seule monde survivra : le leur, ou le nôtre.",
+    "date_ajout": "2017-06-21",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 04/03",
+      "daysLeft": 119,
+      "expirationDate": "2027-03-04",
+      "packageExpirations": {
+        "prv": "2027-03-04"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1285513",
+    "titre": "Adult Swim Yule Log",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 32min",
+    "runtime_minutes": 92,
+    "note_avis": 6.3,
+    "note_recence": 8.8,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "scifi_fantastique"
+    ],
+    "raw_genres": [
+      "cmy",
+      "hrr",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/302141108/s592/adult-swim-yule-log.jpg",
+    "synopsis": "Mettez-vous dans l'esprit des fêtes avec ce feu crépitant et douillet.",
+    "date_ajout": "2026-11-04",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm442817",
+    "titre": "Achoura",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "1h 30min",
+    "runtime_minutes": 90,
+    "note_avis": 4.8,
+    "note_recence": 8.2,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "fnt",
+      "hrr",
+      "trl"
+    ],
+    "badge": "12",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/256671316/s592/achoura.jpg",
+    "synopsis": "Quatre gosses jouent à se faire peur et se rendent dans une demeure condamnée, réputée maudite. L'un deux disparaît dans des circonstances mystérieuses. Les trois survivants refoulent le souvenir de ce qui a bien pu se passer, jusqu'à ce que Samir ne ressurgisse 25 ans plus tard. La bande recomposée va devoir se confronter à son passé.",
+    "date_ajout": "2026-11-03",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 12/01",
+      "daysLeft": 68,
+      "expirationDate": "2027-01-12",
+      "packageExpirations": {
+        "prv": "2027-01-12"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1401205",
+    "titre": "Voodun",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 15min",
+    "runtime_minutes": 75,
+    "note_avis": 4.7,
+    "note_recence": 9.7,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/347350336/s592/voodun.jpg",
+    "synopsis": "Lorsque deux femmes disparaissent lors d'un voyage en voiture et que le détective chargé de l'affaire disparaît, une journaliste déterminée suit la piste dans un réseau mortel de secrets, où découvrir la vérité pourrait lui coûter la vie.",
+    "date_ajout": "2026-11-03",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm350283",
+    "titre": "Still Born: Au-delà de deux âmes",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 27min",
+    "runtime_minutes": 87,
+    "note_avis": 5.4,
+    "note_recence": 7.6,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/302413259/s592/still-born-au-dela-de-deux-ames.jpg",
+    "synopsis": "Mary donne naissance à des jumeaux, mais un seul d'entre eux survit. Alors qu'elle débute son deuil, la jeune femme se rend compte qu'une entité maléfique et surnaturelle cherche à lui prendre Adam, son autre bébé, et ne reculera devant rien pour le lui enlever. Après le départ de son mari pour un voyage d'affaires, Mary commence à craindre pour la vie de son enfant.",
+    "date_ajout": "2026-10-31",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1427741",
+    "titre": "La forêt sombre",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 12min",
+    "runtime_minutes": 72,
+    "note_avis": 4.1,
+    "note_recence": 9.1,
+    "note_globale": 6.6,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "fnt",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/321223466/s592/la-foret-sombre.jpg",
+    "synopsis": "Un groupe pénètre dans une forêt pour participer à une émission de téléréalité. Tout se déroule sans encombre jusqu'à leur rencontre avec une entité démoniaque. Cruelle et meurtrière, elle les traque et les tue un par un. Les survivants doivent fuir avant qu'il ne soit trop tard.",
+    "date_ajout": "2026-11-03",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1554475",
+    "titre": "Lady Outlaw",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 48min",
+    "runtime_minutes": 108,
+    "note_avis": 6.2,
+    "note_recence": 9.4,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "action_aventure"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma",
+      "wsn"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/321826393/s592/lady-outlaw.jpg",
+    "synopsis": "Les hors-la-loi George Newcomb et Rose Dunn tentent de regagner Ingalls, en Oklahoma, poursuivis par des représentants de la loi et des chasseurs de primes.",
+    "date_ajout": "2026-11-03",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1175865",
+    "titre": "Because We Are Too Many",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 31min",
+    "runtime_minutes": 91,
+    "note_avis": 6.6,
+    "note_recence": 9.4,
+    "note_globale": 8,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/333968826/s592/because-we-are-too-many.jpg",
+    "synopsis": "Une mère célibataire est contrainte d'affronter son passé douloureux tout en élevant son jeune fils autiste. Tourné et se déroulant à Glasgow pendant la pandémie, le film met en scène la réalisatrice et son fils dans les rôles principaux.",
+    "date_ajout": "2026-11-03",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm950465",
+    "titre": "Blood Conscious: Le lac maudit",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 21min",
+    "runtime_minutes": 81,
+    "note_avis": 4.1,
+    "note_recence": 8.5,
+    "note_globale": 6.3,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/302628463/s592/blood-conscious.jpg",
+    "synopsis": "Une famille en vacances renverse la situation contre un tireur de masse qui prétend combattre des forces démoniaques.",
+    "date_ajout": "2026-10-30",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts483763",
+    "titre": "Ventura Shores",
+    "type": "serie",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2026,
+    "annee_moyenne": 2026,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2026,
+        "note": 8.1,
+        "episodes": 6
+      }
+    ],
+    "duree": "29 min/ép.",
+    "runtime_minutes": 29,
+    "note_avis": 8.1,
+    "note_recence": 10,
+    "note_globale": 9.1,
+    "etoiles": 5,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/350410845/s592/ventura-shores.jpg",
+    "synopsis": "Ventura Shores renoue avec le délicieux romanesque des feuilletons télévisés des années 1980. Une agente de mannequins impitoyable et une créatrice de maillots de bain ambitieuse évoluent dans un univers peuplé de gens sublimes, d'ambitions dangereuses et de liaisons scandaleuses. Ici, les secrets vont de pair avec le bronzage.",
+    "date_ajout": "2026-11-03",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1342159",
+    "titre": "Paper Dream",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 38min",
+    "runtime_minutes": 98,
+    "note_avis": 4.9,
+    "note_recence": 8.8,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/305419025/s592/paper-dream.jpg",
+    "synopsis": "Un jeune garçon albinos a décidé de quitter la scène publique parce qu'il est albinos. Une jeune femme profite de sa gentillesse et fait de lui un influenceur sur les réseaux sociaux. Pendant ce temps, le jeune garçon albinos tombe amoureux de la femme.",
+    "date_ajout": "2026-11-03",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm675820",
+    "titre": "Un garçon nommé Noël",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2021,
+    "annee_moyenne": 2021,
+    "duree": "1h 46min",
+    "runtime_minutes": 106,
+    "note_avis": 6.7,
+    "note_recence": 8.5,
+    "note_globale": 7.6,
+    "etoiles": 4,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "act",
+      "drm",
+      "fnt",
+      "fml"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/279711882/s592/a-boy-called-christmas.jpg",
+    "synopsis": "Dans la Finlande du XVIIIe siècle, un garçon ordinaire, Nikolas (surnommé « Noël » depuis sa plus tendre enfance) part à la recherche de son père, qui, lui­-même, est en quête du légendaire village des Elfes. Ces derniers peuvent aider à ramener la magie dans le monde. Accompagné sur son chemin par Blitzen, le renne têtu et une fidèle petite souris, Nikolas va à la rencontre de sa destinée dans les merveilleux paysages enneigés du Grand Nord. Une belle aventure mêlant magie, humour et valeurs de Noël qui rappelle aux petits comme aux grands que rien n'est impossible…",
+    "date_ajout": "2026-11-04",
+    "expiration": {
+      "status": "info",
+      "label": "📅 Jusqu'au 15/01",
+      "daysLeft": 71,
+      "expirationDate": "2027-01-15",
+      "packageExpirations": {
+        "prv": "2027-01-15"
+      }
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm2927063",
+    "titre": "Red Days 2: Cecilia",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2026,
+    "annee_moyenne": 2026,
+    "duree": "1h 50min",
+    "runtime_minutes": 110,
+    "note_avis": 4.2,
+    "note_recence": 10,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "act",
+      "hrr",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/346871382/s592/red-days-2-cecilia.jpg",
+    "synopsis": "À l'instar de Cecilia dans Red Days, une jeune femme devient vampire lors d'une épidémie de zombies. Pour survivre et trouver un nouveau foyer, elle intègre une organisation secrète qui fait d'elle une tueuse d'entreprises.",
+    "date_ajout": "2026-11-03",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts287503",
+    "titre": "DOM",
+    "type": "serie",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2021,
+    "annee_fin": 2024,
+    "annee_moyenne": 2023,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2021,
+        "note": 7.2,
+        "episodes": 8
+      },
+      {
+        "saison": 2,
+        "annee": 2023,
+        "note": 7.2,
+        "episodes": 8
+      },
+      {
+        "saison": 3,
+        "annee": 2024,
+        "note": 7.2,
+        "episodes": 5
+      }
+    ],
+    "duree": "55 min/ép.",
+    "runtime_minutes": 55,
+    "note_avis": 7.2,
+    "note_recence": 9.1,
+    "note_globale": 8.2,
+    "etoiles": 5,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm"
+    ],
+    "badge": "18",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/306616880/s592/dom.jpg",
+    "synopsis": "Victor a dédié sa vie en tant que policier à la lutte contre la criminalité et plus particulièrement le trafic de drogue. Mais son fils, Dom, sombre progressivement dans la drogue, jusqu'à devenir un des criminels les plus recherchés du Brésil.",
+    "date_ajout": "2021-06-04",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1395058",
+    "titre": "Vessel",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "2h 06min",
+    "runtime_minutes": 126,
+    "note_avis": 4.7,
+    "note_recence": 9.1,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "drm",
+      "hrr",
+      "trl",
+      "scf"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/320313107/s592/vessel-2023.jpg",
+    "synopsis": "Marcus Surgeons peut permettre aux esprits des défunts récents de pénétrer dans son corps pour faire son deuil avant de passer à l'autre monde. Il agit ainsi par appât du gain, laissant son corps, son âme et son esprit à la merci d'une entité indésirable aux intentions cachées.",
+    "date_ajout": "2026-11-03",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1523259",
+    "titre": "Last Date",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 00min",
+    "runtime_minutes": 60,
+    "note_avis": 6,
+    "note_recence": 9.4,
+    "note_globale": 7.7,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/318728119/s592/last-date.jpg",
+    "synopsis": "Un mari en instance de divorce apprend que son ex-épouse réclame la garde exclusive de leur fille ; jusqu'où ira-t-il pour préserver sa famille ?",
+    "date_ajout": "2026-11-03",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1386182",
+    "titre": "I want to jump",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2023,
+    "annee_moyenne": 2023,
+    "duree": "1h 14min",
+    "runtime_minutes": 74,
+    "note_avis": 6.4,
+    "note_recence": 9.1,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/326170519/s592/i-want-to-jump.jpg",
+    "synopsis": "« I Want to Jump » est un drame poignant qui raconte l'histoire d'une famille confrontée à la dépression adolescente, à la foi et aux difficultés de communication. Alors que Justin est en proie à des pensées suicidaires, ses parents doivent affronter leurs propres peurs et puiser de la force dans leur famille et leur foi pour surmonter les épreuves de la vie.",
+    "date_ajout": "2026-11-03",
+    "expiration": {
       "status": "none",
       "label": null,
       "daysLeft": null,
@@ -79704,16 +81995,16 @@ const PRIME_CATALOG_DATA = [
   }
 ];
 const PRIME_CATALOG_METADATA = {
-  "total": 1543,
-  "films": 1081,
-  "series": 462,
-  "lastSync": "2026-11-02T14:36:00.552Z"
+  "total": 1590,
+  "films": 1119,
+  "series": 471,
+  "lastSync": "2026-11-05T13:53:44.668Z"
 };
 
-if (typeof window !== 'undefined') {
+if (typeof window !== "undefined") {
   window.PRIME_CATALOG_DATA = PRIME_CATALOG_DATA;
   window.PRIME_CATALOG_METADATA = PRIME_CATALOG_METADATA;
 }
-if (typeof module !== 'undefined' && module.exports) {
+if (typeof module !== "undefined" && module.exports) {
   module.exports = { PRIME_CATALOG_DATA, PRIME_CATALOG_METADATA };
 }
