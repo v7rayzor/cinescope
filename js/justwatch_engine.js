@@ -4,12 +4,12 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v50';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v50';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v50';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v50';
-  const STORAGE_KEY_SPECIALIZED_SYNC = 'cinescope_last_specialized_sync_v50';
-  const STORAGE_KEY_AMAZON_SYNC = 'cinescope_last_amazon_sync_v50';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v51';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v51';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v51';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v51';
+  const STORAGE_KEY_SPECIALIZED_SYNC = 'cinescope_last_specialized_sync_v51';
+  const STORAGE_KEY_AMAZON_SYNC = 'cinescope_last_amazon_sync_v51';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -1129,6 +1129,7 @@ const JustWatchEngine = (function () {
     return {
       ...base,
       ...incoming,
+      categories: (base.categories && base.categories.length > 0) ? base.categories : incoming.categories,
       chaine: primaryPkg.name,
       chaines: allChaines,
       logo_chaine: primaryPkg.logo,
@@ -1141,6 +1142,102 @@ const JustWatchEngine = (function () {
       on_prime: onPrime,
       on_tnt: onTnt
     };
+  }
+
+  // Extraction universelle de racine de franchise / saga de films (Règles 1 & 7 AGENTS.md)
+  function extractFranchiseKey(title) {
+    if (!title || typeof title !== 'string') return null;
+    const t = title.trim();
+
+    // Cas spécifique universel : 'Mission : Impossible'
+    if (/^Mission\s*:\s*Impossible\b/i.test(t)) {
+      return 'mission impossible';
+    }
+
+    // Motif 1 : 'Franchise et le/la/les/l\'' (ex: 'Harry Potter et les Reliques de la Mort')
+    const mEt = t.match(/^([A-Za-z0-9\u00C0-\u017F\s'’\-]+?)\s+et\s+(?:le|la|les|l'|un|une)\b/i);
+    if (mEt && mEt[1].trim().length >= 4) {
+      return mEt[1].trim().toLowerCase();
+    }
+
+    // Motif 2 : Séparateurs classiques ':' '-' '–' '—' (ex: 'Aurora Teagarden : Meurtre...', 'Hunger Games : ...')
+    const mSep = t.match(/^([^:\-–—]+?)\s*[:\-–—]\s*(.+)$/);
+    if (mSep) {
+      let p = mSep[1].trim();
+      p = p.replace(/\s+(?:chapitre|partie|saison|episode|\d+|[ivxlcdm]+)$/i, '').trim();
+      if (p.length >= 4 && !['épisode', 'saison', 'partie', 'chapitre', 'film'].includes(p.toLowerCase())) {
+        return p.toLowerCase();
+      }
+    }
+
+    // Motif 3 : Suffixe numérique, chiffres romains ou 'Chapitre X', 'Partie X' (ex: 'Creed III', 'Ip Man 3', 'Terrifier 2')
+    const mNum = t.match(/^(.+?)\s+(?:chapitre\s+\d+|partie\s+\d+|\d+|[IVXLCDM]+)$/i);
+    if (mNum) {
+      let r = mNum[1].trim().replace(/[:\-–—]\s*$/, '').trim();
+      if (r.length >= 4) {
+        return r.toLowerCase();
+      }
+    }
+
+    return null;
+  }
+
+  // Harmonisation universelle des sagas de films (Règles 1 & 7 AGENTS.md) :
+  // Si plusieurs films partagent la même franchise, applique la catégorie dominante de la saga
+  function harmonizeFranchiseCategories(items) {
+    if (!Array.isArray(items) || items.length === 0) return items;
+
+    // Regrouper les films et téléfilms par clé de franchise
+    const clusters = new Map();
+    for (const it of items) {
+      if (it.type === 'serie') continue;
+      const key = extractFranchiseKey(it.titre);
+      if (!key) continue;
+      if (!clusters.has(key)) {
+        clusters.set(key, []);
+      }
+      clusters.get(key).push(it);
+    }
+
+    // Traitement de chaque saga ayant au moins 2 œuvres
+    for (const [key, films] of clusters.entries()) {
+      if (films.length < 2) continue;
+
+      let dominantCategory = null;
+
+      // 1. Vérifier si un arbitrage IA existe en cache persistant pour cette saga
+      const cachedSaga = resolveDuelEntry('saga:' + key);
+      if (cachedSaga && cachedSaga.category) {
+        dominantCategory = cachedSaga.category;
+      } else {
+        // 2. Calcul déterministe de dominance par comptage de votes
+        const counts = {};
+        for (const f of films) {
+          const cat = f.categories && f.categories[0] ? f.categories[0] : 'drame_emotion';
+          counts[cat] = (counts[cat] || 0) + 1;
+        }
+
+        const sortedCounts = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+        const topCat = sortedCounts[0][0];
+        const topCount = sortedCounts[0][1];
+        const secondCount = sortedCounts.length > 1 ? sortedCounts[1][1] : 0;
+
+        if (topCount > secondCount) {
+          dominantCategory = topCat;
+        }
+      }
+
+      // 3. Application de la catégorie dominante harmonisée
+      if (dominantCategory) {
+        for (const f of films) {
+          if (!f.categories || f.categories[0] !== dominantCategory) {
+            f.categories = [dominantCategory];
+          }
+        }
+      }
+    }
+
+    return items;
   }
 
   // Fusion intelligente (Merge) : conserve les anciens films et élimine STRICTEMENT les doublons
@@ -1193,7 +1290,9 @@ const JustWatchEngine = (function () {
       }
     }
 
-    return Array.from(map.values());
+    const mergedList = Array.from(map.values());
+    harmonizeFranchiseCategories(mergedList);
+    return mergedList;
   }
 
   // Requête GraphQL JustWatch (isFullSync: false -> 1 requête de 50; isFullSync: true -> 2 pages de 100)
@@ -1562,6 +1661,8 @@ const JustWatchEngine = (function () {
     PACKAGE_SLUGS,
     computeNoteRecence,
     computeCategory,
+    extractFranchiseKey,
+    harmonizeFranchiseCategories,
     processTitleNode,
     formatDuration,
     computeExpirationInfo,

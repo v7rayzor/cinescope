@@ -2540,5 +2540,30 @@
     "titre": "Sleepless",
     "category": "action_aventure",
     "justification": "Le synopsis met en avant un flic blessé et traqué devenant un adversaire brutal et impitoyable pour sauver son fils, avec une forte dimension de combats physiques et de survie nocturne, typique de l'action cinétique."
+  },
+  "saga:aurora teagarden": {
+    "titre": "Saga Aurora Teagarden",
+    "category": "thriller_policier",
+    "justification": "Franchise de téléfilms d'enquêtes criminelles et policières (cosy mystery)."
+  },
+  "saga:apocalypse z": {
+    "titre": "Saga Apocalypse Z",
+    "category": "horreur_epouvante",
+    "justification": "Franchise post-apocalyptique d'infection et de survie contre des créatures/zombies, relevant de l'horreur épouvante."
+  },
+  "saga:fast & furious": {
+    "titre": "Saga Fast & Furious",
+    "category": "action_aventure",
+    "justification": "Franchise majeure de cinéma d'action cinétique, courses et cascades spectaculaires."
+  },
+  "saga:ip man": {
+    "titre": "Saga Ip Man",
+    "category": "action_aventure",
+    "justification": "Franchise d'action martiale centrée sur le Wing Chun et les combats physiques."
+  },
+  "saga:la trilogie d'oslo": {
+    "titre": "La Trilogie d'Oslo",
+    "category": "comedie",
+    "justification": "Trilogie de comédies dramatiques romantiques d'auteur à tonalité légère dominante."
   }
 }

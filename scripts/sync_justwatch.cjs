@@ -452,6 +452,105 @@ Réponds STRICTEMENT sous forme d'un objet JSON valide sans markdown :
   JustWatchEngine.setAiDuelCache(cache);
 }
 
+async function resolveFranchiseTiesWithAI(items) {
+  const apiKey = process.env.DEEPSEEK_API_KEY;
+  const cache = loadAiCache();
+
+  // Regrouper les films par franchise
+  const clusters = new Map();
+  for (const it of items) {
+    if (it.type === 'serie') continue;
+    const key = JustWatchEngine.extractFranchiseKey(it.titre);
+    if (!key) continue;
+    if (!clusters.has(key)) clusters.set(key, []);
+    clusters.get(key).push(it);
+  }
+
+  const tiesToResolve = [];
+  for (const [key, films] of clusters.entries()) {
+    if (films.length < 2) continue;
+    const sagaCacheKey = 'saga:' + key;
+    if (cache[sagaCacheKey]) continue;
+
+    const counts = {};
+    for (const f of films) {
+      const cat = f.categories?.[0] || 'drame_emotion';
+      counts[cat] = (counts[cat] || 0) + 1;
+    }
+    const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+    const topCount = sorted[0][1];
+    const secondCount = sorted.length > 1 ? sorted[1][1] : 0;
+
+    if (topCount === secondCount) {
+      tiesToResolve.push({ key, films, tiedCategories: sorted.filter(s => s[1] === topCount).map(s => s[0]) });
+    }
+  }
+
+  if (tiesToResolve.length === 0 || !apiKey) {
+    return;
+  }
+
+  console.log(`\n🤖 Arbitrage IA DeepSeek requis pour ${tiesToResolve.length} égalité(s) de franchise...`);
+
+  for (const { key, films, tiedCategories } of tiesToResolve) {
+    try {
+      const titlesList = films.map(f => `"${f.titre}" (${f.annee || ''})`).join(', ');
+      const prompt = `Tu es l'expert cinéphile en charge de la qualification de la filmothèque CinéScope.
+Une saga ou collection de films présente une égalité stricte de catégorisation :
+Franchise : "${key}"
+Films composant la saga : ${titlesList}
+Catégories en balance : ${JSON.stringify(tiedCategories)}
+
+Quelle est la catégorie dominante unique qui représente le mieux l'ADN global de cette saga parmi les 7 catégories officielles :
+"drame_emotion", "comedie", "thriller_policier", "action_aventure", "scifi_fantastique", "horreur_epouvante", "animation_famille".
+
+Réponds STRICTEMENT sous forme d'un objet JSON valide sans markdown :
+{
+  "choix": "<l'une des catégories en balance>",
+  "justification": "<Explication concise en 1 phrase>"
+}`;
+
+      const res = await fetch('https://api.deepseek.com/chat/completions', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${apiKey}`
+        },
+        body: JSON.stringify({
+          model: 'deepseek-chat',
+          temperature: 0.1,
+          messages: [{ role: 'user', content: prompt }]
+        })
+      });
+
+      if (!res.ok) {
+        console.warn(`  ⚠️ Échec appel API DeepSeek pour la saga "${key}": ${res.status}`);
+        continue;
+      }
+
+      const json = await res.json();
+      const rawText = json.choices?.[0]?.message?.content?.trim() || '';
+      const cleanJson = rawText.replace(/```json/g, '').replace(/```/g, '').trim();
+      const parsed = JSON.parse(cleanJson);
+
+      if (parsed.choix) {
+        const sagaCacheKey = 'saga:' + key;
+        cache[sagaCacheKey] = {
+          titre: `Saga ${key}`,
+          category: parsed.choix,
+          justification: parsed.justification
+        };
+        console.log(`  🎯 [DeepSeek Saga] "${key}" ➡️ ${parsed.choix} (${parsed.justification})`);
+      }
+    } catch (err) {
+      console.warn(`  ⚠️ Erreur analyse DeepSeek saga "${key}":`, err.message);
+    }
+  }
+
+  saveAiCache(cache);
+  JustWatchEngine.setAiDuelCache(cache);
+}
+
 async function run() {
   try {
     const isSpecializedRequested = process.argv.includes('--specialized') || process.argv.includes('--all');
@@ -481,6 +580,10 @@ async function run() {
 
     console.log('\n🔄 Fusion intelligente et élimination des doublons...');
     const merged = JustWatchEngine.mergeCatalog(existing, freshQualified);
+
+    // Résolution IA des éventuelles égalités de saga et harmonisation universelle
+    await resolveFranchiseTiesWithAI(merged);
+    JustWatchEngine.harmonizeFranchiseCategories(merged);
 
     // Validation formelle Règle 1 : Strictement 1 catégorie par œuvre
     let categoryViolations = 0;

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cinescope-v9.40-genre-gating-v52';
+const CACHE_NAME = 'cinescope-v9.41-saga-dominance-v53';
 const CORE_ASSETS = [
   './',
   './index.html',

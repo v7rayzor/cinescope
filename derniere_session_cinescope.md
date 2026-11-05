@@ -1,16 +1,30 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.40** / Cache **cinescope-v9.40-genre-gating-v52** / Stockage **_v50**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.41** / Cache **cinescope-v9.41-saga-dominance-v53** / Stockage **_v51**).
 
 ---
 
-## Nouveautés de la Session (v9.40)
+## Nouveautés de la Session (v9.41)
+* **Moteur Universel d'Harmonisation & Dominance des Sagas / Franchises (Règles 1 & 7 AGENTS.md)** :
+  - **Extraction Universelle de Clé de Saga (`extractFranchiseKey`)** : Détection automatique des licences cinématographiques sans bidouillage codé en dur (séparateurs `:`, `-`, `–`, `—`, numérotations `1, 2, 3`, chiffres romains `I, II, III`, ou tournures `Franchise et le/la/les...`).
+  - **Règle de Dominance Catégorielle de Franchise (`harmonizeFranchiseCategories`)** : Pour tout ensemble d'au moins 2 films d'une même saga, calcul de la distribution des catégories attribuées par le moteur. La catégorie strictement majoritaire est universellement appliquée à **100 % des opus de la franchise**.
+    * *Cas Aurora Teagarden* : JustWatch n'ayant fourni que le tag `drm` sur *Aurora Teagarden : Meurtre au bord du lac*, la dominance des 11 autres films (en `thriller_policier`) harmonise instantanément l'intégralité des 12 films sous `thriller_policier`.
+    * *Cas Fast & Furious* : *Hobbs & Shaw* (qui portait un tag cyborg `scf`) est réaligné avec les 5 autres films en `action_aventure`.
+    * *Cas Ip Man* : *Ip Man 3* est réaligné en `action_aventure` (arts martiaux).
+    * *Cas La Trilogie d'Oslo* : *Désir* est réaligné en `comedie` (avec *Amour* et *Rêves*).
+  - **Gestion des Égalités de Saga via DeepSeek AI (`resolveFranchiseTiesWithAI`)** :
+    * En cas d'égalité stricte (ex: 1 vs 1 comme sur *Apocalypse Z* entre Horreur et Action) : interrogation de DeepSeek pour trancher la tonalité souveraine de la licence entière, mise en cache pérenne dans `data/ai_duel_cache.json` et `data/ai_duel_cache.js` (`saga:apocalypse z` tranché en `horreur_epouvante`).
+  - **Harnais de Protection Catégorielle dans `mergeTwoItems`** : Préservation formelle de `base.categories` lors de la fusion d'œuvres existantes pour empêcher qu'un tag incomplet JustWatch n'écrase une qualification validée.
+  - Bump des clés de stockage local (`_v51`) et du cache PWA (`v9.41` / `cinescope-v9.41-saga-dominance-v53`) pour forcer l'actualisation instantanée chez l'utilisateur.
+
+---
+
+## Nouveautés Précédentes (v9.40)
 * **Sanctuarisation du Verrou de Genre Strict & Correction Faux Positifs Horreur** :
   - **Correction directe dans les fichiers statiques de catalogue** : Réhabilitation physique de ***Flynn Carson et les nouveaux aventuriers*** (*The Librarians*) et de ***Once Upon a Time: Il était une fois*** dans [`js/catalog.js`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/js/catalog.js) et [`data/prime_catalog.js`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/data/prime_catalog.js) (remise en `scifi_fantastique`).
   - **Interdiction formelle de l'Horreur sans tag officiel** : Restauration absolue de la règle du Verrou de Genre (*Genre-Gating Strict*). L'horreur ne peut en aucun cas être déverrouillée si l'œuvre porte un tag Fantastique (`fnt`) ou Animation (`ani`) sans disposer du tag officiel `hrr`.
   - **Élimination des faux positifs fantastiques** : Retrait définitif de `magie noire` et `boîte de Pandore` de l'expression `STRICT_HORROR_PATTERNS`. Ces termes relèvent de l'aventure féerique et fantastique, non de l'épouvante pure.
   - **Garantie de Cohérence Sous-Catégorie / Catégorie Mère** : Dans `computeSubCategory`, une sous-catégorie en cache ne peut plus être retournée si elle n'appartient pas légitimement à la catégorie mère active (empêche formellement d'associer la sous-catégorie *Fantastique* à *Horreur & Épouvante*).
-  - Bump des clés de stockage local (`_v50`) et du cache PWA (`v9.40` / `cinescope-v9.40-genre-gating-v52`) pour forcer la purge et la prise en compte immédiate chez l'utilisateur.
 * **Sélecteur de Saisons Intelligent dans la Modale Série (v9.38)** :
   - Lorsqu'une série possède plusieurs saisons disponibles, le sélecteur s'ouvre par défaut sur l'option **`Saisons`** (vue globale : cumul total d'épisodes et plage d'années globale).
   - Un clic direct sur **`Saison 1`**, **`Saison 2`**, etc. actualise instantanément le badge avec le nombre d'épisodes de la saison choisie et son année de diffusion.

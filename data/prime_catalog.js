@@ -1,6 +1,5 @@
 /**
- * CinéScope - Catalogue Amazon Prime Video (prv)
- * Synchronisation automatique JustWatch GraphQL
+ * CinéScope - Catalogue Prime Video Inclus Dédié
  */
 const PRIME_CATALOG_DATA = [
   {
@@ -29418,7 +29417,7 @@ const PRIME_CATALOG_DATA = [
     "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
-      "scifi_fantastique"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -55495,7 +55494,7 @@ const PRIME_CATALOG_DATA = [
     "note_globale": 6.9,
     "etoiles": 3,
     "categories": [
-      "thriller_policier"
+      "action_aventure"
     ],
     "raw_genres": [
       "act",
@@ -78658,7 +78657,7 @@ const PRIME_CATALOG_DATA = [
     "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
-      "action_aventure"
+      "horreur_epouvante"
     ],
     "raw_genres": [
       "act",
