@@ -2660,5 +2660,30 @@
     "titre": "La Trilogie d'Oslo",
     "category": "comedie",
     "justification": "Trilogie de comédies dramatiques romantiques d'auteur à tonalité légère dominante."
+  },
+  "jw-tm812916": {
+    "titre": "BAC Nord",
+    "category": "thriller_policier",
+    "justification": "BAC Nord est dominé par l'intrigue policière, la corruption et le retournement judiciaire, avec des scènes d'action ponctuelles mais non structurantes."
+  },
+  "jw-tm153649": {
+    "titre": "John Wick",
+    "category": "action_aventure",
+    "justification": "John Wick est dominé par des fusillades intenses, des combats au corps à corps et des poursuites spectaculaires, caractéristiques de l'action cinétique."
+  },
+  "jw-tm475372": {
+    "titre": "John Wick : Chapitre 4",
+    "category": "action_aventure",
+    "justification": "John Wick : Chapitre 4 est dominé par des combats physiques intenses, des fusillades spectaculaires et des poursuites nerveuses, caractéristiques de l'action cinétique."
+  },
+  "jw-tm233164": {
+    "titre": "John Wick : Chapitre 2",
+    "category": "action_aventure",
+    "justification": "John Wick : Chapitre 2 est dominé par des fusillades intenses, des combats rapprochés et des poursuites spectaculaires, caractéristiques de l'action cinétique."
+  },
+  "jw-tm322433": {
+    "titre": "John Wick : Parabellum",
+    "category": "action_aventure",
+    "justification": "John Wick : Parabellum est dominé par des combats physiques intenses, des fusillades et des poursuites spectaculaires, caractéristiques de l'action cinétique."
   }
 }
