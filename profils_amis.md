@@ -47,8 +47,13 @@ Guide de curation et profils de goûts pour les recommandations de films et sér
   - *Les Maudites* (*El llanto*) (drame festivalier déguisé en horreur lente) — **Regardé et rejeté (25/100 — Zéro action, rythme étiré, drame sociétal contemplatif au lieu d'épouvante réelle)**.
   - *Ghosts : Fantômes en héritage* (sitcom fantastique & colocation spectrale chaleureuse, galerie de fantômes attachants, ton bienveillant et réparties vives) — **Regardé et aimé (Référence comédie fantastique feel-good)**.
   - *Renfield* (comédie d'action fantastique & gore décomplexé, Dracula théâtral et tandem avec la police) — **Regardé avec l'ami et validé (ok / bon divertissement rythmé sans temps mort)**.
+  - *Archie* (biopic britannique d'époque, résilience de Cary Grant, élégance hollywoodienne, charme et romance avec Jason Isaacs) — **En cours de visionnage (Aimé & validé)**.
+  - *Macbeth* (grande tragédie de destin au 1er degré, prophéties occultes des sorcières, spectres et tension shakespearienne) — **Regardé en entier (Validé / OK)**.
+  - *Julian* (mélodrame lacrymal sur la maladie incurable et la déchéance physique) — **Stoppé à 30 min et rejeté (Trop lourd, plombant et axé sur la fatalité médicale)**.
+  - *La Petite Dernière* (drame d'émancipation en banlieue) — **Stoppé à 30 min et rejeté (Rejet immédiat du langage cru/argot de rue et du milieu de banlieue/cité)**.
 - **Aversions & Rejets Formels** :
-  - 🚫 **Zéro vulgarité / Grossièretés appuyées** : Rejet des dialogues orduriers permanents ou du trash gratuit.
+  - 🚫 **Zéro vulgarité, argot de rue & récits de cité** : Rejet formel des dialogues orduriers, du langage cru, des milieux de banlieue difficiles et de l'argot permanent au profit d'œuvres soignées, littéraires, historiques ou chaleureuses (ex: *La Petite Dernière*).
+  - 🚫 **Zéro mélodrames médicaux lacrymaux / Maladies incurables** : Rejet des drames construits sur l'agonie, les hôpitaux ou le deuil programmé sans mystère (ex: *Julian*).
   - 🚫 **Zéro armes réelles lourdes / Films de guerre** : Rejet des fusillades militarisées réalistes, combats à la mitraillette ou violence armée pesante.
   - 🚫 **Zéro torture porn / Boucherie gore gratuite** : Rejet des massacres sadiques sans composante paranormale ou des contagions paniques anxiogènes.
   - 🚫 **Zéro narration déconstruite / Allers-retours temporels confus** : Rejet des récits à chronologie éclatée, points de vue subjectifs répétés ou déconstructions littéraires/méta (ex: *Reviens-moi*).
