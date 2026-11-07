@@ -2685,5 +2685,15 @@
     "titre": "John Wick : Parabellum",
     "category": "action_aventure",
     "justification": "John Wick : Parabellum est dominé par des combats physiques intenses, des fusillades et des poursuites spectaculaires, caractéristiques de l'action cinétique."
+  },
+  "jw-tm1212710": {
+    "titre": "White Elephant",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur la conscience morale, le code d'honneur et le nettoyage d'un assassinat bâclé, dominée par le suspense criminel plutôt que par l'action physique."
+  },
+  "jw-tm1635572": {
+    "titre": "La saison de chasse",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur la poursuite criminelle et la protection d'une victime d'enlèvement, avec un suspense et une traque psychologique dominants plutôt que des combats physiques ou des fusillades intenses."
   }
 }
