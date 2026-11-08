@@ -4,7 +4,8 @@ Ce fichier définit les directives et règles impératives que l'agent doit TOUJ
 
 ## 0. Règle Impérative : Aucune Modification Sans Validation Formelle Explicite
 - **Demandes d'avis vs ordres directs** : Lorsque l'utilisateur utilise des formulations interrogatives, réflexives ou de discussion (ex: *« qu'en penses-tu ? »*, *« je pense que... »*, *« est-ce qu'on ne pourrait pas... ? »*, *« un ami m'a dit... »*, *« tu trouves pas que... »*), l'agent doit **STRICTEMENT** traiter le message comme une demande d'analyse, de réflexion ou de conseil, et **JAMAIS** comme un feu vert pour modifier directement le projet.
-- **Attente obligatoire d'un accord formel** : L'agent doit analyser la question, partager son avis/recommandation en détail, et **ATTENDRE TOUJOURS la validation formelle explicite** de l'utilisateur (ex: *« d'accord applique »*, *« oui modifie »*, *« valide »*) avant d'effectuer la moindre modification dans le code source, le catalogue, les fichiers de style ou la documentation.
+- **Attente obligatoire d'un accord formel** : L'agent doit analyser la question, partager son avis/recommandation en détail, et **ATTENDRE TOUJOURS la validation formelle explicite** de l'utilisateur (ex: *« d'accord applique »*, *« oui modifie »*, *« valide »*) avant d'effectuer la moindre modification dans le code source, le catalogue, les fichiers de style, les algorithmes ou la structure du site.
+- **Prise de note automatique pour les retours de visionnage (`profils_amis.md`)** : Lorsque l'utilisateur partage un retour sur une œuvre qu'il a regardée, aimée ou rejetée (ex: *« je confirme j'ai regardé et aimé »*, *« pas trop aimé »*), l'agent doit **immédiatement et automatiquement mettre à jour [`profils_amis.md`](file:///home/cedric/Documents/Antigravity%20Codium/06%20-%20Molotov/profils_amis.md)** sans demander de confirmation. Cette règle de validation formelle ne s'applique pas aux simples prises de notes de retours spectateurs.
 
 ---
 

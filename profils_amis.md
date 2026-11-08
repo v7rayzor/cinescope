@@ -51,6 +51,7 @@ Guide de curation et profils de goûts pour les recommandations de films et sér
   - *Macbeth* (grande tragédie de destin au 1er degré, prophéties occultes des sorcières, spectres et tension shakespearienne) — **Regardé en entier (Validé / OK)**.
   - *Julian* (mélodrame lacrymal sur la maladie incurable et la déchéance physique) — **Stoppé à 30 min et rejeté (Trop lourd, plombant et axé sur la fatalité médicale)**.
   - *La Petite Dernière* (drame d'émancipation en banlieue) — **Stoppé à 30 min et rejeté (Rejet immédiat du langage cru/argot de rue et du milieu de banlieue/cité)**.
+  - *Jane Eyre* (drame romantique victorien & mystère gothique de Charlotte Brontë, résilience d'une orpheline digne, élégance littéraire, secrets de Thornfield Hall et alchimie Wasikowska / Fassbender) — **Regardé et aimé (Référence clé drame romantique & d'époque)**.
 - **Aversions & Rejets Formels** :
   - 🚫 **Zéro vulgarité, argot de rue & récits de cité** : Rejet formel des dialogues orduriers, du langage cru, des milieux de banlieue difficiles et de l'argot permanent au profit d'œuvres soignées, littéraires, historiques ou chaleureuses (ex: *La Petite Dernière*).
   - 🚫 **Zéro mélodrames médicaux lacrymaux / Maladies incurables** : Rejet des drames construits sur l'agonie, les hôpitaux ou le deuil programmé sans mystère (ex: *Julian*).
