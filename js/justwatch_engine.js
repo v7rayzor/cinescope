@@ -4,12 +4,12 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v51';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v51';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v51';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v51';
-  const STORAGE_KEY_SPECIALIZED_SYNC = 'cinescope_last_specialized_sync_v51';
-  const STORAGE_KEY_AMAZON_SYNC = 'cinescope_last_amazon_sync_v51';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v52';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v52';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v52';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v52';
+  const STORAGE_KEY_SPECIALIZED_SYNC = 'cinescope_last_specialized_sync_v52';
+  const STORAGE_KEY_AMAZON_SYNC = 'cinescope_last_amazon_sync_v52';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {

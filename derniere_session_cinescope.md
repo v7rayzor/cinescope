@@ -1,10 +1,22 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.41** / Cache **cinescope-v9.41-saga-dominance-v53** / Stockage **_v51**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.42** / Cache **cinescope-v9.42-expiration-active-pkgs-v54** / Stockage **_v52**).
 
 ---
 
-## Nouveautés de la Session (v9.41)
+## Nouveautés de la Session (v9.42)
+* **Dynamisation Réactive des Dates d'Expiration selon les Bouquets Actifs (`getItemExpirationInfo` & `getItemDaysLeft`)** :
+  - **Correction du faux affichage de fin de droits multi-plateformes** : Lorsqu'une œuvre est disponible sur plusieurs bouquets (ex: *The Magicians* sur Universal+ expirant le 05/12 et sur Prime Video expirant le 14/02), le badge d'expiration et la modale s'alignent désormais **strictement et exclusivement sur les bouquets actifs pour l'utilisateur** (`getActiveItemPackages`).
+  - **Cohérence totale Vue Globale vs Vue Bouquet** :
+    * Sur PC Desktop par défaut (sans Amazon), *The Magicians* affiche fidèlement **`05/12`** (date Universal+).
+    * Si l'utilisateur active le toggle `+ Amazon`, la date passe dynamiquement à **`14/02`**.
+    * Si une œuvre est disponible de façon pérenne sur un bouquet actif (sans date d'expiration), le badge d'urgence est proprement masqué.
+  - **Harmonisation du Tri par Urgence** : `getItemDaysLeft` calcule désormais le compte à rebours sur les seuls diffuseurs actifs, garantissant que les œuvres remontent à leur date d'échéance effective.
+  - Bump des clés de stockage local (`_v52`) et du cache PWA (`v9.42` / `cinescope-v9.42-expiration-active-pkgs-v54`) pour forcer l'actualisation instantanée chez l'utilisateur.
+
+---
+
+## Nouveautés Précédentes (v9.41)
 * **Moteur Universel d'Harmonisation & Dominance des Sagas / Franchises (Règles 1 & 7 AGENTS.md)** :
   - **Extraction Universelle de Clé de Saga (`extractFranchiseKey`)** : Détection automatique des licences cinématographiques sans bidouillage codé en dur (séparateurs `:`, `-`, `–`, `—`, numérotations `1, 2, 3`, chiffres romains `I, II, III`, ou tournures `Franchise et le/la/les...`).
   - **Règle de Dominance Catégorielle de Franchise (`harmonizeFranchiseCategories`)** : Pour tout ensemble d'au moins 2 films d'une même saga, calcul de la distribution des catégories attribuées par le moteur. La catégorie strictement majoritaire est universellement appliquée à **100 % des opus de la franchise**.

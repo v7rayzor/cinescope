@@ -555,50 +555,60 @@ function getDailyScore(item) {
   return score;
 }
 
-// Helper pour récupérer le nombre de jours restants (adapté au bouquet filtré si applicable)
-function getItemDaysLeft(item) {
-  if (!item || !item.expiration) return null;
-  
-  if (AppState.activeBouquet && AppState.activeBouquet !== 'all') {
-    const pkgExps = item.expiration.packageExpirations;
-    if (pkgExps && pkgExps[AppState.activeBouquet]) {
-      const d = new Date(pkgExps[AppState.activeBouquet]);
+// Helper pour récupérer les infos d'expiration (statut, label, etc.) adaptées aux diffuseurs actifs pour l'utilisateur
+function getItemExpirationInfo(item) {
+  if (!item || !item.expiration) return { status: 'none', label: null, daysLeft: null, expirationDate: null };
+
+  const pkgExps = item.expiration.packageExpirations || {};
+  const activePkgs = (typeof getActiveItemPackages === 'function') ? getActiveItemPackages(item) : (item.package_slugs || []);
+
+  // Si des diffuseurs actifs sont identifiés selon les filtres courants
+  if (activePkgs && activePkgs.length > 0) {
+    let hasUnlimited = false;
+    let latestDate = null;
+    let latestIsoStr = null;
+
+    for (const pkg of activePkgs) {
+      const dateStr = pkgExps[pkg];
+      if (!dateStr) {
+        // Disponible sans date d'expiration connue sur ce diffuseur actif (accès pérenne)
+        hasUnlimited = true;
+        break;
+      }
+      const d = new Date(dateStr);
       if (!isNaN(d.getTime())) {
-        const now = new Date();
-        return Math.ceil((d.getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
+        if (!latestDate || d > latestDate) {
+          latestDate = d;
+          latestIsoStr = dateStr;
+        }
       }
     }
-  }
 
-  return (item.expiration.daysLeft !== null && item.expiration.daysLeft !== undefined)
-    ? item.expiration.daysLeft
-    : null;
-}
+    if (hasUnlimited) {
+      return { status: 'none', label: null, daysLeft: null, expirationDate: null };
+    }
 
-// Helper pour récupérer les infos d'expiration (statut, label, etc.) adaptées au bouquet sélectionné
-function getItemExpirationInfo(item) {
-  if (!item || !item.expiration) return { status: 'none', label: null, daysLeft: null };
-  
-  if (AppState.activeBouquet && AppState.activeBouquet !== 'all') {
-    const pkgExps = item.expiration.packageExpirations;
-    if (pkgExps && pkgExps[AppState.activeBouquet]) {
-      const d = new Date(pkgExps[AppState.activeBouquet]);
-      if (!isNaN(d.getTime())) {
-        const now = new Date();
-        const daysLeft = Math.ceil((d.getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
-        if (daysLeft < 0) return { status: 'expired', label: 'Expiré', daysLeft };
-        if (daysLeft === 0) return { status: 'urgent', label: "⏳ Expire aujourd'hui", daysLeft: 0 };
-        if (daysLeft === 1) return { status: 'urgent', label: '⏳ Expire demain', daysLeft: 1 };
-        if (daysLeft <= 3) return { status: 'urgent', label: `⏳ Expire dans ${daysLeft} j`, daysLeft };
-        if (daysLeft <= 14) return { status: 'warning', label: `⏳ Expire dans ${daysLeft} j`, daysLeft };
-        const day = d.getDate().toString().padStart(2, '0');
-        const month = (d.getMonth() + 1).toString().padStart(2, '0');
-        return { status: 'info', label: `📅 Jusqu'au ${day}/${month}`, daysLeft };
-      }
+    if (latestDate) {
+      const now = new Date();
+      const daysLeft = Math.ceil((latestDate.getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
+      if (daysLeft < 0) return { status: 'expired', label: 'Expiré', daysLeft, expirationDate: latestIsoStr };
+      if (daysLeft === 0) return { status: 'urgent', label: "⏳ Expire aujourd'hui", daysLeft: 0, expirationDate: latestIsoStr };
+      if (daysLeft === 1) return { status: 'urgent', label: '⏳ Expire demain', daysLeft: 1, expirationDate: latestIsoStr };
+      if (daysLeft <= 3) return { status: 'urgent', label: `⏳ Expire dans ${daysLeft} j`, daysLeft, expirationDate: latestIsoStr };
+      if (daysLeft <= 14) return { status: 'warning', label: `⏳ Expire dans ${daysLeft} j`, daysLeft, expirationDate: latestIsoStr };
+      const day = latestDate.getDate().toString().padStart(2, '0');
+      const month = (latestDate.getMonth() + 1).toString().padStart(2, '0');
+      return { status: 'info', label: `📅 Jusqu'au ${day}/${month}`, daysLeft, expirationDate: latestIsoStr };
     }
   }
 
   return item.expiration;
+}
+
+// Helper pour récupérer le nombre de jours restants (adapté aux diffuseurs actifs pour l'utilisateur)
+function getItemDaysLeft(item) {
+  const info = getItemExpirationInfo(item);
+  return (info && info.daysLeft !== null && info.daysLeft !== undefined) ? info.daysLeft : null;
 }
 
 function getItemReleaseYear(item) {
