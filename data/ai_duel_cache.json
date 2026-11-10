@@ -2700,5 +2700,15 @@
     "titre": "The Spacewalker",
     "category": "thriller_policier",
     "justification": "Ce film de guerre froide est un drame historique de suspense centré sur une mission spatiale à haut risque, dominé par la tension et la traque plutôt que par l'action physique ou l'humour."
+  },
+  "jw-ts305975": {
+    "titre": "Face à face",
+    "category": "thriller_policier",
+    "justification": "La série est centrée sur une enquête criminelle menée par une juge d'instruction et une capitaine de police, avec une intrigue policière et un suspense cérébral dominant, sans action physique prépondérante ni comédie."
+  },
+  "jw-tm1421742": {
+    "titre": "Fight or Flight",
+    "category": "action_aventure",
+    "justification": "Le film repose sur une mercenaire contrainte de protéger sa cible dans un avion assiégé par des tueurs, avec une dominante de combat physique et de cascades en espace confiné, l'humour n'étant qu'un ton secondaire."
   }
 }
