@@ -31,7 +31,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/01",
-      "daysLeft": 64,
+      "daysLeft": 63,
       "expirationDate": "2027-01-14",
       "packageExpirations": {
         "aoc": "2026-10-31",
@@ -139,11 +139,11 @@ const PRIME_CATALOG_DATA = [
     "logos_chaine": [
       "assets/logos/cine_ocs.png"
     ],
-    "duree": "1h 57min",
+    "duree": "1h 56min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 81,
+      "daysLeft": 80,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2027-01-31"
@@ -152,7 +152,7 @@ const PRIME_CATALOG_DATA = [
     "package_slugs": [
       "aoc"
     ],
-    "runtime_minutes": 117,
+    "runtime_minutes": 116,
     "etoiles": 3,
     "raw_genres": [
       "act",
@@ -245,7 +245,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-12-31"
@@ -290,11 +290,11 @@ const PRIME_CATALOG_DATA = [
       "assets/logos/prime_video.svg"
     ],
     "badge": null,
-    "duree": "1h 51min",
+    "duree": "1h 50min",
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 138,
+      "daysLeft": 137,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "aoc": "2026-10-31",
@@ -304,7 +304,7 @@ const PRIME_CATALOG_DATA = [
     "package_slugs": [
       "prv"
     ],
-    "runtime_minutes": 111,
+    "runtime_minutes": 110,
     "etoiles": 4,
     "raw_genres": [
       "cmy",
@@ -1264,7 +1264,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 109,
+      "daysLeft": 108,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2027-02-28",
@@ -1497,7 +1497,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/02",
-      "daysLeft": 95,
+      "daysLeft": 94,
       "expirationDate": "2027-02-14",
       "packageExpirations": {
         "auc": "2026-12-05",
@@ -2175,7 +2175,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "aoc": "2026-11-30",
@@ -2262,7 +2262,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 109,
+      "daysLeft": 108,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "aoc": "2026-12-27",
@@ -2815,9 +2815,9 @@ const PRIME_CATALOG_DATA = [
     "annee": 2025,
     "duree": "1h 48min",
     "runtime_minutes": 108,
-    "note_avis": 4.7,
+    "note_avis": 4.8,
     "note_recence": 9.7,
-    "note_globale": 7.2,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "scifi_fantastique"
@@ -3989,7 +3989,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "aca": "2026-11-30"
@@ -5224,7 +5224,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/04",
-      "daysLeft": 170,
+      "daysLeft": 169,
       "expirationDate": "2027-04-30",
       "packageExpirations": {
         "aoc": "2027-04-30"
@@ -5302,8 +5302,8 @@ const PRIME_CATALOG_DATA = [
       "prv"
     ],
     "annee": 2009,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
+    "duree": "1h 26min",
+    "runtime_minutes": 86,
     "note_avis": 8,
     "note_recence": 4.9,
     "note_globale": 6.5,
@@ -5313,7 +5313,6 @@ const PRIME_CATALOG_DATA = [
     ],
     "raw_genres": [
       "drm",
-      "hst",
       "rma"
     ],
     "badge": null,
@@ -6122,7 +6121,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/04",
-      "daysLeft": 170,
+      "daysLeft": 169,
       "expirationDate": "2027-04-30",
       "packageExpirations": {
         "prv": "2026-10-31",
@@ -7276,7 +7275,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/01",
-      "daysLeft": 54,
+      "daysLeft": 53,
       "expirationDate": "2027-01-04",
       "packageExpirations": {
         "aoc": "2026-10-31",
@@ -7372,7 +7371,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/02",
-      "daysLeft": 89,
+      "daysLeft": 88,
       "expirationDate": "2027-02-08",
       "packageExpirations": {
         "aoc": "2027-02-08",
@@ -7424,7 +7423,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 81,
+      "daysLeft": 80,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "aoc": "2026-12-08",
@@ -10442,7 +10441,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 24,
+      "daysLeft": 23,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "auc": "2026-12-05"
@@ -10619,9 +10618,9 @@ const PRIME_CATALOG_DATA = [
     "annee_moyenne": 2026,
     "duree": "1h 48min",
     "runtime_minutes": 108,
-    "note_avis": 4.4,
+    "note_avis": 4.5,
     "note_recence": 10,
-    "note_globale": 7.2,
+    "note_globale": 7.3,
     "etoiles": 4,
     "categories": [
       "horreur_epouvante"
@@ -10737,7 +10736,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 109,
+      "daysLeft": 108,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "prv": "2027-02-28",
@@ -10789,7 +10788,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 81,
+      "daysLeft": 80,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31",
@@ -11126,7 +11125,7 @@ const PRIME_CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-ts450756",
@@ -11501,8 +11500,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
-    "duree": "1h 30min",
-    "runtime_minutes": 90,
+    "duree": "1h 31min",
+    "runtime_minutes": 91,
     "note_avis": 6.3,
     "note_recence": 10,
     "note_globale": 8.2,
@@ -11609,7 +11608,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -11728,7 +11727,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 140,
+      "daysLeft": 139,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "prv": "2027-03-31"
@@ -12092,7 +12091,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 140,
+      "daysLeft": 139,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "prv": "2027-03-31"
@@ -12194,7 +12193,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/03",
-      "daysLeft": 123,
+      "daysLeft": 122,
       "expirationDate": "2027-03-14",
       "packageExpirations": {
         "prv": "2027-03-14"
@@ -12442,7 +12441,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -12651,7 +12650,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 81,
+      "daysLeft": 80,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -12951,8 +12950,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2025-11-14",
     "expiration": {
       "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
+      "label": "⏳ Expire dans 2 j",
+      "daysLeft": 2,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "prv": "2026-11-14"
@@ -12997,7 +12996,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "raw_genres": [
       "crm",
-      "drm"
+      "drm",
+      "trl"
     ],
     "badge": "18",
     "is_eligible": true,
@@ -13319,7 +13319,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 49,
+      "daysLeft": 48,
       "expirationDate": "2026-12-30",
       "packageExpirations": {
         "prv": "2026-12-30"
@@ -14021,7 +14021,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/12",
-      "daysLeft": 43,
+      "daysLeft": 42,
       "expirationDate": "2026-12-24",
       "packageExpirations": {
         "prv": "2026-11-30",
@@ -14132,7 +14132,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/04",
-      "daysLeft": 164,
+      "daysLeft": 163,
       "expirationDate": "2027-04-24",
       "packageExpirations": {
         "prv": "2027-04-24"
@@ -14463,15 +14463,15 @@ const PRIME_CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2026,
-        "note": 7.8,
+        "note": 7.9,
         "episodes": 12
       }
     ],
     "duree": "65 min/ép.",
     "runtime_minutes": 65,
-    "note_avis": 7.8,
+    "note_avis": 7.9,
     "note_recence": 10,
-    "note_globale": 8.9,
+    "note_globale": 9,
     "etoiles": 5,
     "categories": [
       "thriller_policier"
@@ -14590,7 +14590,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 138,
+      "daysLeft": 137,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -14788,7 +14788,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -14863,7 +14863,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 33,
+      "daysLeft": 32,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "prv": "2026-12-14"
@@ -15097,7 +15097,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -15200,7 +15200,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/02",
-      "daysLeft": 103,
+      "daysLeft": 102,
       "expirationDate": "2027-02-22",
       "packageExpirations": {
         "prv": "2027-02-22"
@@ -15311,8 +15311,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2006,
     "annee_moyenne": 2006,
-    "duree": "2h 27min",
-    "runtime_minutes": 147,
+    "duree": "2h 24min",
+    "runtime_minutes": 144,
     "note_avis": 8,
     "note_recence": 4,
     "note_globale": 6,
@@ -15333,7 +15333,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -15372,8 +15372,7 @@ const PRIME_CATALOG_DATA = [
       "act",
       "ani",
       "cmy",
-      "fml",
-      "trl"
+      "fml"
     ],
     "badge": null,
     "is_eligible": true,
@@ -15425,7 +15424,6 @@ const PRIME_CATALOG_DATA = [
       "comedie"
     ],
     "raw_genres": [
-      "cmy",
       "drm",
       "rma"
     ],
@@ -15661,7 +15659,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 109,
+      "daysLeft": 108,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "prv": "2027-02-28"
@@ -15976,7 +15974,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 140,
+      "daysLeft": 139,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "prv": "2027-03-31"
@@ -16069,7 +16067,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 138,
+      "daysLeft": 137,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -16119,7 +16117,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 81,
+      "daysLeft": 80,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -16211,7 +16209,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -16306,7 +16304,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/03",
-      "daysLeft": 115,
+      "daysLeft": 114,
       "expirationDate": "2027-03-06",
       "packageExpirations": {
         "prv": "2027-03-06"
@@ -16670,8 +16668,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2015,
     "annee_moyenne": 2015,
-    "duree": "2h 16min",
-    "runtime_minutes": 136,
+    "duree": "2h 17min",
+    "runtime_minutes": 137,
     "note_avis": 6.6,
     "note_recence": 6.7,
     "note_globale": 6.7,
@@ -16785,7 +16783,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -16896,7 +16894,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -17085,7 +17083,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/01",
-      "daysLeft": 74,
+      "daysLeft": 73,
       "expirationDate": "2027-01-24",
       "packageExpirations": {
         "prv": "2027-01-24"
@@ -17111,8 +17109,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2014,
     "annee_moyenne": 2014,
-    "duree": "1h 54min",
-    "runtime_minutes": 114,
+    "duree": "1h 53min",
+    "runtime_minutes": 113,
     "note_avis": 7.9,
     "note_recence": 6.4,
     "note_globale": 7.2,
@@ -17132,7 +17130,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 138,
+      "daysLeft": 137,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -17478,7 +17476,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/03",
-      "daysLeft": 124,
+      "daysLeft": 123,
       "expirationDate": "2027-03-15",
       "packageExpirations": {
         "prv": "2027-03-15"
@@ -17527,7 +17525,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 81,
+      "daysLeft": 80,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -17598,7 +17596,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/03",
-      "daysLeft": 120,
+      "daysLeft": 119,
       "expirationDate": "2027-03-11",
       "packageExpirations": {
         "prv": "2027-03-11"
@@ -17735,7 +17733,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 140,
+      "daysLeft": 139,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "prv": "2027-03-31"
@@ -17763,7 +17761,7 @@ const PRIME_CATALOG_DATA = [
     "annee_moyenne": 2013,
     "duree": "1h 31min",
     "runtime_minutes": 91,
-    "note_avis": 7.7,
+    "note_avis": 7.6,
     "note_recence": 6.1,
     "note_globale": 6.9,
     "etoiles": 3,
@@ -17783,7 +17781,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 138,
+      "daysLeft": 137,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -18056,7 +18054,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/03",
-      "daysLeft": 123,
+      "daysLeft": 122,
       "expirationDate": "2027-03-14",
       "packageExpirations": {
         "prv": "2027-03-14"
@@ -18205,7 +18203,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 138,
+      "daysLeft": 137,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -18307,7 +18305,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -18354,7 +18352,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 33,
+      "daysLeft": 32,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "prv": "2026-12-14"
@@ -18380,8 +18378,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2024,
     "annee_moyenne": 2024,
-    "duree": "1h 43min",
-    "runtime_minutes": 103,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
     "note_avis": 6.5,
     "note_recence": 9.4,
     "note_globale": 8,
@@ -18390,7 +18388,6 @@ const PRIME_CATALOG_DATA = [
       "horreur_epouvante"
     ],
     "raw_genres": [
-      "hrr",
       "trl"
     ],
     "badge": "12",
@@ -18401,7 +18398,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 20/01",
-      "daysLeft": 70,
+      "daysLeft": 69,
       "expirationDate": "2027-01-20",
       "packageExpirations": {
         "prv": "2027-01-20"
@@ -18942,7 +18939,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 109,
+      "daysLeft": 108,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "prv": "2027-02-28"
@@ -18989,7 +18986,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 33,
+      "daysLeft": 32,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "prv": "2026-12-14"
@@ -19226,7 +19223,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/03",
-      "daysLeft": 123,
+      "daysLeft": 122,
       "expirationDate": "2027-03-14",
       "packageExpirations": {
         "prv": "2027-03-14"
@@ -19316,6 +19313,7 @@ const PRIME_CATALOG_DATA = [
       "horreur_epouvante"
     ],
     "raw_genres": [
+      "hrr",
       "trl"
     ],
     "badge": "12",
@@ -19326,7 +19324,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 08/02",
-      "daysLeft": 89,
+      "daysLeft": 88,
       "expirationDate": "2027-02-08",
       "packageExpirations": {
         "prv": "2027-02-08"
@@ -19552,7 +19550,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/12",
-      "daysLeft": 48,
+      "daysLeft": 47,
       "expirationDate": "2026-12-29",
       "packageExpirations": {
         "prv": "2026-12-29"
@@ -19648,7 +19646,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -19909,7 +19907,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -20049,7 +20047,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 138,
+      "daysLeft": 137,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -20236,8 +20234,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2011,
     "annee_moyenne": 2011,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
+    "duree": "1h 46min",
+    "runtime_minutes": 106,
     "note_avis": 7.4,
     "note_recence": 5.5,
     "note_globale": 6.5,
@@ -20257,7 +20255,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/05",
-      "daysLeft": 171,
+      "daysLeft": 170,
       "expirationDate": "2027-05-01",
       "packageExpirations": {
         "prv": "2027-05-01"
@@ -20864,7 +20862,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 138,
+      "daysLeft": 137,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -21079,7 +21077,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/04",
-      "daysLeft": 154,
+      "daysLeft": 153,
       "expirationDate": "2027-04-14",
       "packageExpirations": {
         "prv": "2027-04-14"
@@ -21127,7 +21125,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/03",
-      "daysLeft": 133,
+      "daysLeft": 132,
       "expirationDate": "2027-03-24",
       "packageExpirations": {
         "prv": "2027-03-24"
@@ -21155,9 +21153,9 @@ const PRIME_CATALOG_DATA = [
     "annee_moyenne": 2025,
     "duree": "1h 42min",
     "runtime_minutes": 102,
-    "note_avis": 6.9,
+    "note_avis": 7,
     "note_recence": 9.7,
-    "note_globale": 8.3,
+    "note_globale": 8.4,
     "etoiles": 5,
     "categories": [
       "comedie"
@@ -21421,7 +21419,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/01",
-      "daysLeft": 59,
+      "daysLeft": 58,
       "expirationDate": "2027-01-09",
       "packageExpirations": {
         "prv": "2027-01-09"
@@ -21530,15 +21528,15 @@ const PRIME_CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2026,
-        "note": 6.2,
+        "note": 6.3,
         "episodes": 6
       }
     ],
     "duree": "24 min/ép.",
     "runtime_minutes": 24,
-    "note_avis": 6.2,
+    "note_avis": 6.3,
     "note_recence": 10,
-    "note_globale": 8.1,
+    "note_globale": 8.2,
     "etoiles": 5,
     "categories": [
       "animation_famille"
@@ -21656,7 +21654,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -21704,7 +21702,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/12",
-      "daysLeft": 28,
+      "daysLeft": 27,
       "expirationDate": "2026-12-09",
       "packageExpirations": {
         "prv": "2026-12-09"
@@ -21842,7 +21840,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 138,
+      "daysLeft": 137,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -21946,7 +21944,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/12",
-      "daysLeft": 49,
+      "daysLeft": 48,
       "expirationDate": "2026-12-30",
       "packageExpirations": {
         "prv": "2026-12-30"
@@ -22087,7 +22085,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -22182,7 +22180,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 109,
+      "daysLeft": 108,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "prv": "2027-02-28"
@@ -22777,7 +22775,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/12",
-      "daysLeft": 34,
+      "daysLeft": 33,
       "expirationDate": "2026-12-15",
       "packageExpirations": {
         "prv": "2026-12-15"
@@ -22878,7 +22876,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -22926,7 +22924,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 81,
+      "daysLeft": 80,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -23019,7 +23017,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 20/03",
-      "daysLeft": 129,
+      "daysLeft": 128,
       "expirationDate": "2027-03-20",
       "packageExpirations": {
         "prv": "2027-03-20"
@@ -23235,7 +23233,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -23726,7 +23724,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/01",
-      "daysLeft": 56,
+      "daysLeft": 55,
       "expirationDate": "2027-01-06",
       "packageExpirations": {
         "prv": "2027-01-06"
@@ -23775,7 +23773,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 140,
+      "daysLeft": 139,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "prv": "2027-03-31"
@@ -23868,7 +23866,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 138,
+      "daysLeft": 137,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -24018,9 +24016,9 @@ const PRIME_CATALOG_DATA = [
     "annee_moyenne": 2025,
     "duree": "1h 47min",
     "runtime_minutes": 107,
-    "note_avis": 5.9,
+    "note_avis": 5.5,
     "note_recence": 9.7,
-    "note_globale": 7.8,
+    "note_globale": 7.6,
     "etoiles": 4,
     "categories": [
       "drame_emotion"
@@ -24143,7 +24141,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -24193,7 +24191,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 81,
+      "daysLeft": 80,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -24554,7 +24552,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -24649,7 +24647,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/02",
-      "daysLeft": 90,
+      "daysLeft": 89,
       "expirationDate": "2027-02-09",
       "packageExpirations": {
         "prv": "2027-02-09"
@@ -24964,7 +24962,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/01",
-      "daysLeft": 53,
+      "daysLeft": 52,
       "expirationDate": "2027-01-03",
       "packageExpirations": {
         "prv": "2027-01-03"
@@ -25056,7 +25054,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/02",
-      "daysLeft": 90,
+      "daysLeft": 89,
       "expirationDate": "2027-02-09",
       "packageExpirations": {
         "prv": "2027-02-09"
@@ -25204,7 +25202,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 81,
+      "daysLeft": 80,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -26092,7 +26090,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -26209,15 +26207,18 @@ const PRIME_CATALOG_DATA = [
     "id": "jw-tm243100",
     "titre": "Comancheria",
     "type": "film",
-    "chaine": "Amazon Prime Video",
+    "chaine": "Ciné+ OCS",
     "chaines": [
+      "Ciné+ OCS",
       "Amazon Prime Video"
     ],
-    "logo_chaine": "assets/logos/prime_video.svg",
+    "logo_chaine": "assets/logos/cine_ocs.png",
     "logos_chaine": [
+      "assets/logos/cine_ocs.png",
       "assets/logos/prime_video.svg"
     ],
     "package_slugs": [
+      "aoc",
       "prv"
     ],
     "annee": 2016,
@@ -26247,7 +26248,9 @@ const PRIME_CATALOG_DATA = [
       "label": null,
       "daysLeft": null,
       "expirationDate": null,
-      "packageExpirations": {}
+      "packageExpirations": {
+        "aoc": "2026-11-30"
+      }
     },
     "on_prime": true,
     "on_tnt": false
@@ -26478,7 +26481,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/03",
-      "daysLeft": 124,
+      "daysLeft": 123,
       "expirationDate": "2027-03-15",
       "packageExpirations": {
         "prv": "2027-03-15"
@@ -26765,7 +26768,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 138,
+      "daysLeft": 137,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -26813,7 +26816,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 33,
+      "daysLeft": 32,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "prv": "2026-12-14"
@@ -26860,7 +26863,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 33,
+      "daysLeft": 32,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "prv": "2026-12-14"
@@ -27036,7 +27039,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -27175,8 +27178,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2026-06-14",
     "expiration": {
       "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
+      "label": "⏳ Expire dans 2 j",
+      "daysLeft": 2,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "prv": "2026-11-14"
@@ -27227,7 +27230,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 81,
+      "daysLeft": 80,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -27277,7 +27280,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/04",
-      "daysLeft": 154,
+      "daysLeft": 153,
       "expirationDate": "2027-04-14",
       "packageExpirations": {
         "prv": "2027-04-14"
@@ -27556,8 +27559,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2026-02-14",
     "expiration": {
       "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
+      "label": "⏳ Expire dans 2 j",
+      "daysLeft": 2,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "prv": "2026-11-14"
@@ -27604,7 +27607,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/01",
-      "daysLeft": 53,
+      "daysLeft": 52,
       "expirationDate": "2027-01-03",
       "packageExpirations": {
         "prv": "2027-01-03"
@@ -27720,7 +27723,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/01",
-      "daysLeft": 69,
+      "daysLeft": 68,
       "expirationDate": "2027-01-19",
       "packageExpirations": {
         "prv": "2027-01-19"
@@ -27960,7 +27963,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 109,
+      "daysLeft": 108,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "prv": "2027-02-28"
@@ -28399,7 +28402,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 138,
+      "daysLeft": 137,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -28571,7 +28574,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 138,
+      "daysLeft": 137,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -28788,8 +28791,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
-    "duree": "2h 01min",
-    "runtime_minutes": 121,
+    "duree": "2h 00min",
+    "runtime_minutes": 120,
     "note_avis": 6.9,
     "note_recence": 7.6,
     "note_globale": 7.3,
@@ -28810,7 +28813,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 23,
+      "daysLeft": 22,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "prv": "2026-12-04"
@@ -28904,7 +28907,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/12",
-      "daysLeft": 28,
+      "daysLeft": 27,
       "expirationDate": "2026-12-09",
       "packageExpirations": {
         "prv": "2026-12-09"
@@ -29000,7 +29003,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -29080,8 +29083,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
-    "duree": "1h 22min",
-    "runtime_minutes": 82,
+    "duree": "1h 25min",
+    "runtime_minutes": 85,
     "note_avis": 6.4,
     "note_recence": 7.6,
     "note_globale": 7,
@@ -29105,7 +29108,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/04",
-      "daysLeft": 154,
+      "daysLeft": 153,
       "expirationDate": "2027-04-14",
       "packageExpirations": {
         "prv": "2027-04-14"
@@ -29455,7 +29458,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/03",
-      "daysLeft": 124,
+      "daysLeft": 123,
       "expirationDate": "2027-03-15",
       "packageExpirations": {
         "prv": "2027-03-15"
@@ -29568,7 +29571,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/02",
-      "daysLeft": 95,
+      "daysLeft": 94,
       "expirationDate": "2027-02-14",
       "packageExpirations": {
         "prv": "2027-02-14"
@@ -29715,7 +29718,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 140,
+      "daysLeft": 139,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "prv": "2027-03-31"
@@ -29817,7 +29820,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/11",
-      "daysLeft": 17,
+      "daysLeft": 16,
       "expirationDate": "2026-11-28",
       "packageExpirations": {
         "prv": "2026-11-28"
@@ -29866,7 +29869,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -30036,7 +30039,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/01",
-      "daysLeft": 64,
+      "daysLeft": 63,
       "expirationDate": "2027-01-14",
       "packageExpirations": {
         "prv": "2027-01-14"
@@ -30201,7 +30204,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/11",
-      "daysLeft": 18,
+      "daysLeft": 17,
       "expirationDate": "2026-11-29",
       "packageExpirations": {
         "prv": "2026-11-29"
@@ -30363,7 +30366,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/03",
-      "daysLeft": 133,
+      "daysLeft": 132,
       "expirationDate": "2027-03-24",
       "packageExpirations": {
         "prv": "2027-03-24"
@@ -30411,7 +30414,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -30766,8 +30769,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2025-10-14",
     "expiration": {
       "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
+      "label": "⏳ Expire dans 2 j",
+      "daysLeft": 2,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "prv": "2026-11-14"
@@ -30817,7 +30820,7 @@ const PRIME_CATALOG_DATA = [
     ],
     "badge": null,
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/343059721/s592/the-silent-noise.jpg",
+    "poster": "https://images.justwatch.com/poster/356946303/s592/the-silent-noise.jpg",
     "synopsis": "Dans la ville côtière d'Escondido, Eli, un enfant sourd de 10 ans, lutte pour comprendre la mort soudaine de son professeur bien-aimé, Sam Ignacio. Alors que la police approfondit son enquête, les soupçons se portent sur sa famille. En cherchant la vérité, Eli voit son foyer s'effondrer alors que des secrets dévastateurs se dévoilent.",
     "date_ajout": "2026-03-20",
     "expiration": {
@@ -30870,7 +30873,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/02",
-      "daysLeft": 97,
+      "daysLeft": 96,
       "expirationDate": "2027-02-16",
       "packageExpirations": {
         "prv": "2027-02-16"
@@ -31305,15 +31308,15 @@ const PRIME_CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2026,
-        "note": 9.2,
+        "note": 7.1,
         "episodes": 8
       }
     ],
     "duree": "42 min/ép.",
     "runtime_minutes": 42,
-    "note_avis": 9.2,
+    "note_avis": 7.1,
     "note_recence": 10,
-    "note_globale": 9.6,
+    "note_globale": 8.6,
     "etoiles": 5,
     "categories": [
       "drame_emotion"
@@ -31655,7 +31658,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/12",
-      "daysLeft": 26,
+      "daysLeft": 25,
       "expirationDate": "2026-12-07",
       "packageExpirations": {
         "prv": "2026-12-07"
@@ -32205,7 +32208,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -32299,7 +32302,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/02",
-      "daysLeft": 90,
+      "daysLeft": 89,
       "expirationDate": "2027-02-09",
       "packageExpirations": {
         "prv": "2027-02-09"
@@ -32487,7 +32490,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/01",
-      "daysLeft": 59,
+      "daysLeft": 58,
       "expirationDate": "2027-01-09",
       "packageExpirations": {
         "prv": "2027-01-09"
@@ -32535,7 +32538,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/04",
-      "daysLeft": 144,
+      "daysLeft": 143,
       "expirationDate": "2027-04-04",
       "packageExpirations": {
         "prv": "2027-04-04"
@@ -32646,7 +32649,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 81,
+      "daysLeft": 80,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -32753,7 +32756,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/12",
-      "daysLeft": 24,
+      "daysLeft": 23,
       "expirationDate": "2026-12-05",
       "packageExpirations": {
         "prv": "2026-12-05"
@@ -32826,7 +32829,7 @@ const PRIME_CATALOG_DATA = [
     "annee_moyenne": 2019,
     "duree": "1h 50min",
     "runtime_minutes": 110,
-    "note_avis": 7.3,
+    "note_avis": 7.2,
     "note_recence": 7.9,
     "note_globale": 7.6,
     "etoiles": 4,
@@ -33029,7 +33032,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/03",
-      "daysLeft": 124,
+      "daysLeft": 123,
       "expirationDate": "2027-03-15",
       "packageExpirations": {
         "prv": "2027-03-15"
@@ -33079,7 +33082,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 16/02",
-      "daysLeft": 97,
+      "daysLeft": 96,
       "expirationDate": "2027-02-16",
       "packageExpirations": {
         "prv": "2027-02-16"
@@ -33416,7 +33419,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 81,
+      "daysLeft": 80,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -33750,7 +33753,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -34157,7 +34160,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -34209,7 +34212,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/12",
-      "daysLeft": 21,
+      "daysLeft": 20,
       "expirationDate": "2026-12-02",
       "packageExpirations": {
         "prv": "2026-12-02"
@@ -34302,7 +34305,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 140,
+      "daysLeft": 139,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "prv": "2027-03-31"
@@ -34512,7 +34515,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/04",
-      "daysLeft": 170,
+      "daysLeft": 169,
       "expirationDate": "2027-04-30",
       "packageExpirations": {
         "prv": "2027-04-30"
@@ -34619,7 +34622,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/04",
-      "daysLeft": 154,
+      "daysLeft": 153,
       "expirationDate": "2027-04-14",
       "packageExpirations": {
         "prv": "2027-04-14"
@@ -34714,7 +34717,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/01",
-      "daysLeft": 54,
+      "daysLeft": 53,
       "expirationDate": "2027-01-04",
       "packageExpirations": {
         "prv": "2027-01-04"
@@ -35426,7 +35429,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/02",
-      "daysLeft": 95,
+      "daysLeft": 94,
       "expirationDate": "2027-02-14",
       "packageExpirations": {
         "prv": "2027-02-14"
@@ -35526,7 +35529,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/04",
-      "daysLeft": 154,
+      "daysLeft": 153,
       "expirationDate": "2027-04-14",
       "packageExpirations": {
         "prv": "2027-04-14"
@@ -35700,7 +35703,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/04",
-      "daysLeft": 144,
+      "daysLeft": 143,
       "expirationDate": "2027-04-04",
       "packageExpirations": {
         "prv": "2027-04-04"
@@ -35804,7 +35807,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/02",
-      "daysLeft": 95,
+      "daysLeft": 94,
       "expirationDate": "2027-02-14",
       "packageExpirations": {
         "prv": "2027-02-14"
@@ -35897,7 +35900,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 140,
+      "daysLeft": 139,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "prv": "2027-03-31"
@@ -36298,7 +36301,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 81,
+      "daysLeft": 80,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -36348,7 +36351,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/04",
-      "daysLeft": 154,
+      "daysLeft": 153,
       "expirationDate": "2027-04-14",
       "packageExpirations": {
         "prv": "2027-04-14"
@@ -36395,7 +36398,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 140,
+      "daysLeft": 139,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "prv": "2027-03-31"
@@ -36764,7 +36767,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/03",
-      "daysLeft": 124,
+      "daysLeft": 123,
       "expirationDate": "2027-03-15",
       "packageExpirations": {
         "prv": "2027-03-15"
@@ -36810,7 +36813,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/03",
-      "daysLeft": 118,
+      "daysLeft": 117,
       "expirationDate": "2027-03-09",
       "packageExpirations": {
         "prv": "2027-03-09"
@@ -37159,7 +37162,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -37594,7 +37597,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -37642,7 +37645,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/12",
-      "daysLeft": 38,
+      "daysLeft": 37,
       "expirationDate": "2026-12-19",
       "packageExpirations": {
         "prv": "2026-12-19"
@@ -37755,7 +37758,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/04",
-      "daysLeft": 170,
+      "daysLeft": 169,
       "expirationDate": "2027-04-30",
       "packageExpirations": {
         "prv": "2027-04-30"
@@ -37802,7 +37805,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 109,
+      "daysLeft": 108,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "prv": "2027-02-28"
@@ -38045,7 +38048,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 81,
+      "daysLeft": 80,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -38208,7 +38211,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/01",
-      "daysLeft": 53,
+      "daysLeft": 52,
       "expirationDate": "2027-01-03",
       "packageExpirations": {
         "prv": "2027-01-03"
@@ -38939,7 +38942,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/02",
-      "daysLeft": 105,
+      "daysLeft": 104,
       "expirationDate": "2027-02-24",
       "packageExpirations": {
         "prv": "2027-02-24"
@@ -39301,7 +39304,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -39694,7 +39697,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 21/12",
-      "daysLeft": 40,
+      "daysLeft": 39,
       "expirationDate": "2026-12-21",
       "packageExpirations": {
         "prv": "2026-12-21"
@@ -39846,7 +39849,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/12",
-      "daysLeft": 43,
+      "daysLeft": 42,
       "expirationDate": "2026-12-24",
       "packageExpirations": {
         "prv": "2026-12-24"
@@ -40419,7 +40422,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 27/02",
-      "daysLeft": 108,
+      "daysLeft": 107,
       "expirationDate": "2027-02-27",
       "packageExpirations": {
         "prv": "2027-02-27"
@@ -40467,7 +40470,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 17/03",
-      "daysLeft": 126,
+      "daysLeft": 125,
       "expirationDate": "2027-03-17",
       "packageExpirations": {
         "prv": "2027-03-17"
@@ -40658,7 +40661,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/02",
-      "daysLeft": 109,
+      "daysLeft": 108,
       "expirationDate": "2027-02-28",
       "packageExpirations": {
         "prv": "2027-02-28"
@@ -40806,7 +40809,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -40907,7 +40910,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 19/12",
-      "daysLeft": 38,
+      "daysLeft": 37,
       "expirationDate": "2026-12-19",
       "packageExpirations": {
         "prv": "2026-12-19"
@@ -40955,7 +40958,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/12",
-      "daysLeft": 22,
+      "daysLeft": 21,
       "expirationDate": "2026-12-03",
       "packageExpirations": {
         "prv": "2026-12-03"
@@ -41002,7 +41005,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 06/01",
-      "daysLeft": 56,
+      "daysLeft": 55,
       "expirationDate": "2027-01-06",
       "packageExpirations": {
         "prv": "2027-01-06"
@@ -41095,8 +41098,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2026-05-24",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 13 j",
-      "daysLeft": 13,
+      "label": "⏳ Expire dans 12 j",
+      "daysLeft": 12,
       "expirationDate": "2026-11-24",
       "packageExpirations": {
         "prv": "2026-11-24"
@@ -41143,7 +41146,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/03",
-      "daysLeft": 124,
+      "daysLeft": 123,
       "expirationDate": "2027-03-15",
       "packageExpirations": {
         "prv": "2027-03-15"
@@ -41452,7 +41455,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 07/12",
-      "daysLeft": 26,
+      "daysLeft": 25,
       "expirationDate": "2026-12-07",
       "packageExpirations": {
         "prv": "2026-12-07"
@@ -41643,7 +41646,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/01",
-      "daysLeft": 53,
+      "daysLeft": 52,
       "expirationDate": "2027-01-03",
       "packageExpirations": {
         "prv": "2027-01-03"
@@ -42101,7 +42104,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 33,
+      "daysLeft": 32,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "prv": "2026-12-14"
@@ -42250,7 +42253,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 81,
+      "daysLeft": 80,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -42397,7 +42400,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/02",
-      "daysLeft": 95,
+      "daysLeft": 94,
       "expirationDate": "2027-02-14",
       "packageExpirations": {
         "prv": "2027-02-14"
@@ -42554,7 +42557,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/01",
-      "daysLeft": 52,
+      "daysLeft": 51,
       "expirationDate": "2027-01-02",
       "packageExpirations": {
         "prv": "2027-01-02"
@@ -42601,7 +42604,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 81,
+      "daysLeft": 80,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -42833,7 +42836,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/02",
-      "daysLeft": 105,
+      "daysLeft": 104,
       "expirationDate": "2027-02-24",
       "packageExpirations": {
         "prv": "2027-02-24"
@@ -42935,8 +42938,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2026-06-30",
     "expiration": {
       "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
+      "label": "⏳ Expire dans 2 j",
+      "daysLeft": 2,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "prv": "2026-11-14"
@@ -43631,7 +43634,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/01",
-      "daysLeft": 59,
+      "daysLeft": 58,
       "expirationDate": "2027-01-09",
       "packageExpirations": {
         "prv": "2027-01-09"
@@ -43733,7 +43736,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -44186,8 +44189,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2026-07-02",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 10 j",
-      "daysLeft": 10,
+      "label": "⏳ Expire dans 9 j",
+      "daysLeft": 9,
       "expirationDate": "2026-11-21",
       "packageExpirations": {
         "prv": "2026-11-21"
@@ -44325,8 +44328,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2026-05-19",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 8 j",
-      "daysLeft": 8,
+      "label": "⏳ Expire dans 7 j",
+      "daysLeft": 7,
       "expirationDate": "2026-11-19",
       "packageExpirations": {
         "prv": "2026-11-19"
@@ -44562,7 +44565,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 23,
+      "daysLeft": 22,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "prv": "2026-12-04"
@@ -45031,7 +45034,8 @@ const PRIME_CATALOG_DATA = [
       "comedie"
     ],
     "raw_genres": [
-      "cmy"
+      "cmy",
+      "drm"
     ],
     "badge": null,
     "is_eligible": true,
@@ -45086,7 +45090,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -45385,7 +45389,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/02",
-      "daysLeft": 90,
+      "daysLeft": 89,
       "expirationDate": "2027-02-09",
       "packageExpirations": {
         "prv": "2027-02-09"
@@ -46028,8 +46032,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2025-10-31",
     "expiration": {
       "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
+      "label": "⏳ Expire dans 2 j",
+      "daysLeft": 2,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "prv": "2026-11-14"
@@ -46366,7 +46370,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/04",
-      "daysLeft": 154,
+      "daysLeft": 153,
       "expirationDate": "2027-04-14",
       "packageExpirations": {
         "prv": "2027-04-14"
@@ -46414,7 +46418,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/03",
-      "daysLeft": 123,
+      "daysLeft": 122,
       "expirationDate": "2027-03-14",
       "packageExpirations": {
         "prv": "2027-03-14"
@@ -46461,7 +46465,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/01",
-      "daysLeft": 80,
+      "daysLeft": 79,
       "expirationDate": "2027-01-30",
       "packageExpirations": {
         "prv": "2027-01-30"
@@ -46968,8 +46972,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
-    "duree": "2h 16min",
-    "runtime_minutes": 136,
+    "duree": "2h 15min",
+    "runtime_minutes": 135,
     "note_avis": 7,
     "note_recence": 7.6,
     "note_globale": 7.3,
@@ -47969,7 +47973,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/03",
-      "daysLeft": 123,
+      "daysLeft": 122,
       "expirationDate": "2027-03-14",
       "packageExpirations": {
         "prv": "2027-03-14"
@@ -49041,7 +49045,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -49134,7 +49138,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -49412,7 +49416,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 03/01",
-      "daysLeft": 53,
+      "daysLeft": 52,
       "expirationDate": "2027-01-03",
       "packageExpirations": {
         "prv": "2027-01-03"
@@ -49595,8 +49599,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2018,
     "annee_moyenne": 2018,
-    "duree": "1h 45min",
-    "runtime_minutes": 105,
+    "duree": "1h 50min",
+    "runtime_minutes": 110,
     "note_avis": 4.6,
     "note_recence": 7.6,
     "note_globale": 6.1,
@@ -49885,7 +49889,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -50182,7 +50186,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 138,
+      "daysLeft": 137,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -50323,7 +50327,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -51274,7 +51278,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/01",
-      "daysLeft": 54,
+      "daysLeft": 53,
       "expirationDate": "2027-01-04",
       "packageExpirations": {
         "prv": "2027-01-04"
@@ -52217,8 +52221,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2026-05-14",
     "expiration": {
       "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
+      "label": "⏳ Expire dans 2 j",
+      "daysLeft": 2,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "prv": "2026-11-14"
@@ -52790,7 +52794,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/01",
-      "daysLeft": 64,
+      "daysLeft": 63,
       "expirationDate": "2027-01-14",
       "packageExpirations": {
         "prv": "2027-01-14"
@@ -53279,7 +53283,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -53371,7 +53375,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -54235,7 +54239,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/01",
-      "daysLeft": 64,
+      "daysLeft": 63,
       "expirationDate": "2027-01-14",
       "packageExpirations": {
         "prv": "2027-01-14"
@@ -54334,7 +54338,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 81,
+      "daysLeft": 80,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -55767,7 +55771,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 22/02",
-      "daysLeft": 103,
+      "daysLeft": 102,
       "expirationDate": "2027-02-22",
       "packageExpirations": {
         "prv": "2027-02-22"
@@ -55931,7 +55935,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -56233,7 +56237,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 33,
+      "daysLeft": 32,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "prv": "2026-12-14"
@@ -57085,11 +57089,13 @@ const PRIME_CATALOG_DATA = [
     "synopsis": "Royaume de Chine, Xe siècle. Deux clans ennemis s'affrontent : les Song, dynastie royale, et les Khitan, peuple nomade guerrier. Qiao Feng du clan Song est un héros chevaleresque respecté, maître en arts martiaux. Accusé à tort d'avoir tué un chef de son propre clan, Qiao Feng est banni. Pour prouver son innocence, il s’engage dans un long périple, parsemé de combats extraordinaires, entre demi-dieux et semi-démons.",
     "date_ajout": "2025-09-15",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 10/12",
+      "daysLeft": 28,
+      "expirationDate": "2026-12-10",
+      "packageExpirations": {
+        "prv": "2026-12-10"
+      }
     },
     "on_prime": true,
     "on_tnt": false
@@ -58069,7 +58075,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 140,
+      "daysLeft": 139,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "prv": "2027-03-31"
@@ -58737,7 +58743,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 29/03",
-      "daysLeft": 138,
+      "daysLeft": 137,
       "expirationDate": "2027-03-29",
       "packageExpirations": {
         "prv": "2027-03-29"
@@ -58830,7 +58836,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 81,
+      "daysLeft": 80,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -59249,7 +59255,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -59311,7 +59317,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 24/01",
-      "daysLeft": 74,
+      "daysLeft": 73,
       "expirationDate": "2027-01-24",
       "packageExpirations": {
         "prv": "2027-01-24"
@@ -59451,7 +59457,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/12",
-      "daysLeft": 23,
+      "daysLeft": 22,
       "expirationDate": "2026-12-04",
       "packageExpirations": {
         "prv": "2026-12-04"
@@ -60872,8 +60878,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2021,
     "annee_moyenne": 2021,
-    "duree": "1h 29min",
-    "runtime_minutes": 89,
+    "duree": "1h 28min",
+    "runtime_minutes": 88,
     "note_avis": 5.5,
     "note_recence": 8.5,
     "note_globale": 7,
@@ -61046,7 +61052,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/01",
-      "daysLeft": 64,
+      "daysLeft": 63,
       "expirationDate": "2027-01-14",
       "packageExpirations": {
         "prv": "2027-01-14"
@@ -61565,9 +61571,9 @@ const PRIME_CATALOG_DATA = [
     "synopsis": "Un journaliste tente de surmonter une dépression en retrouvant son amoureuse qu'il avait perdu de vue. Celle-ci est depuis devenue une des femmes les plus puissantes de la planète…",
     "date_ajout": "2026-07-31",
     "expiration": {
-      "status": "warning",
-      "label": "⏳ Expire dans 4 j",
-      "daysLeft": 4,
+      "status": "urgent",
+      "label": "⏳ Expire dans 3 j",
+      "daysLeft": 3,
       "expirationDate": "2026-11-15",
       "packageExpirations": {
         "prv": "2026-11-15"
@@ -62427,7 +62433,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -62453,8 +62459,8 @@ const PRIME_CATALOG_DATA = [
     ],
     "annee": 2026,
     "annee_moyenne": 2026,
-    "duree": "1h 27min",
-    "runtime_minutes": 87,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
     "note_avis": 4.7,
     "note_recence": 10,
     "note_globale": 7.4,
@@ -62464,7 +62470,6 @@ const PRIME_CATALOG_DATA = [
     ],
     "raw_genres": [
       "drm",
-      "hrr",
       "trl"
     ],
     "badge": "16",
@@ -62473,11 +62478,13 @@ const PRIME_CATALOG_DATA = [
     "synopsis": "Inspiré de faits réels. Le 12 août 1967, dans le parc national de Glacier au Montana, l'impensable se produit : la même nuit, à 15 km d'intervalle, surviennent non pas une, mais deux attaques mortelles de grizzli.",
     "date_ajout": "2026-06-04",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 10/12",
+      "daysLeft": 28,
+      "expirationDate": "2026-12-10",
+      "packageExpirations": {
+        "prv": "2026-12-10"
+      }
     },
     "on_prime": true,
     "on_tnt": false
@@ -62674,7 +62681,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 28/04",
-      "daysLeft": 168,
+      "daysLeft": 167,
       "expirationDate": "2027-04-28",
       "packageExpirations": {
         "prv": "2027-04-28"
@@ -63529,11 +63536,13 @@ const PRIME_CATALOG_DATA = [
     "synopsis": "Un groupe d'adolescents de Salem découvrent une lame maudite qui les oblige à jouer à des versions horribles et mortelles des jeux d'enfance. Mais il n'y a pas de gagnants, seulement des survivants.",
     "date_ajout": "2025-11-14",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 09/12",
+      "daysLeft": 27,
+      "expirationDate": "2026-12-09",
+      "packageExpirations": {
+        "prv": "2026-12-09"
+      }
     },
     "on_prime": true,
     "on_tnt": false
@@ -63986,7 +63995,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 33,
+      "daysLeft": 32,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "prv": "2026-12-14"
@@ -64277,7 +64286,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -64885,8 +64894,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2026-05-24",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 13 j",
-      "daysLeft": 13,
+      "label": "⏳ Expire dans 12 j",
+      "daysLeft": 12,
       "expirationDate": "2026-11-24",
       "packageExpirations": {
         "prv": "2026-11-24"
@@ -65185,7 +65194,7 @@ const PRIME_CATALOG_DATA = [
     "annee_moyenne": 2020,
     "duree": "1h 33min",
     "runtime_minutes": 93,
-    "note_avis": 4.8,
+    "note_avis": 4.7,
     "note_recence": 8.2,
     "note_globale": 6.5,
     "etoiles": 3,
@@ -65341,7 +65350,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -65430,11 +65439,13 @@ const PRIME_CATALOG_DATA = [
     "synopsis": "Un ancien mercenaire des forces spéciales mène désormais une vie paisible comme producteur d'avocats au Mexique. Mais lorsque des gangsters locaux tentent de chasser sa famille de leur ferme, il est contraint de reprendre les armes. Le cartel va vite réaliser qu'il s'est attaqué au mauvais fermier…",
     "date_ajout": "2026-08-04",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
-      "packageExpirations": {}
+      "status": "info",
+      "label": "📅 Jusqu'au 10/12",
+      "daysLeft": 28,
+      "expirationDate": "2026-12-10",
+      "packageExpirations": {
+        "prv": "2026-12-10"
+      }
     },
     "on_prime": true,
     "on_tnt": false
@@ -66205,7 +66216,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 11/01",
-      "daysLeft": 61,
+      "daysLeft": 60,
       "expirationDate": "2027-01-11",
       "packageExpirations": {
         "prv": "2027-01-11"
@@ -66534,7 +66545,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 02/05",
-      "daysLeft": 172,
+      "daysLeft": 171,
       "expirationDate": "2027-05-02",
       "packageExpirations": {
         "prv": "2027-05-02"
@@ -67475,7 +67486,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/01",
-      "daysLeft": 59,
+      "daysLeft": 58,
       "expirationDate": "2027-01-09",
       "packageExpirations": {
         "prv": "2027-01-09"
@@ -67712,8 +67723,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2026-05-14",
     "expiration": {
       "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
+      "label": "⏳ Expire dans 2 j",
+      "daysLeft": 2,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "prv": "2026-11-14"
@@ -68184,7 +68195,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/12",
-      "daysLeft": 33,
+      "daysLeft": 32,
       "expirationDate": "2026-12-14",
       "packageExpirations": {
         "prv": "2026-12-14"
@@ -70000,7 +70011,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/03",
-      "daysLeft": 124,
+      "daysLeft": 123,
       "expirationDate": "2027-03-15",
       "packageExpirations": {
         "prv": "2027-03-15"
@@ -70157,7 +70168,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/02",
-      "daysLeft": 95,
+      "daysLeft": 94,
       "expirationDate": "2027-02-14",
       "packageExpirations": {
         "prv": "2027-02-14"
@@ -70387,7 +70398,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/12",
-      "daysLeft": 28,
+      "daysLeft": 27,
       "expirationDate": "2026-12-09",
       "packageExpirations": {
         "prv": "2026-12-09"
@@ -70502,7 +70513,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 81,
+      "daysLeft": 80,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -70773,8 +70784,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2025-11-22",
     "expiration": {
       "status": "warning",
-      "label": "⏳ Expire dans 11 j",
-      "daysLeft": 11,
+      "label": "⏳ Expire dans 10 j",
+      "daysLeft": 10,
       "expirationDate": "2026-11-22",
       "packageExpirations": {
         "prv": "2026-11-22"
@@ -71053,7 +71064,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -72012,7 +72023,7 @@ const PRIME_CATALOG_DATA = [
       "packageExpirations": {}
     },
     "on_prime": true,
-    "on_tnt": false
+    "on_tnt": true
   },
   {
     "id": "jw-tm219263",
@@ -72053,7 +72064,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/01",
-      "daysLeft": 81,
+      "daysLeft": 80,
       "expirationDate": "2027-01-31",
       "packageExpirations": {
         "prv": "2027-01-31"
@@ -72190,7 +72201,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -73830,7 +73841,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -73878,7 +73889,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -76212,7 +76223,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -76637,7 +76648,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/11",
-      "daysLeft": 19,
+      "daysLeft": 18,
       "expirationDate": "2026-11-30",
       "packageExpirations": {
         "prv": "2026-11-30"
@@ -77265,7 +77276,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -78501,12 +78512,13 @@ const PRIME_CATALOG_DATA = [
     "synopsis": "Jack Johnson, ancien membre des forces spéciales, invoque la loi « Stand Your Ground » pour se venger du meurtre de sa femme, déclenchant une guerre brutale contre la famille d'un baron du crime local qui aboutit à une confrontation explosive.",
     "date_ajout": "2025-11-21",
     "expiration": {
-      "status": "none",
-      "label": null,
-      "daysLeft": null,
-      "expirationDate": null,
+      "status": "info",
+      "label": "📅 Jusqu'au 09/12",
+      "daysLeft": 27,
+      "expirationDate": "2026-12-09",
       "packageExpirations": {
-        "aca": "2026-11-30"
+        "aca": "2026-11-30",
+        "prv": "2026-12-09"
       }
     },
     "on_prime": true,
@@ -78641,14 +78653,15 @@ const PRIME_CATALOG_DATA = [
     "annee_moyenne": 2026,
     "duree": "1h 36min",
     "runtime_minutes": 96,
-    "note_avis": 6,
+    "note_avis": 6.2,
     "note_recence": 10,
-    "note_globale": 8,
+    "note_globale": 8.1,
     "etoiles": 5,
     "categories": [
       "horreur_epouvante"
     ],
     "raw_genres": [
+      "act",
       "hrr",
       "trl"
     ],
@@ -78800,7 +78813,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -78848,7 +78861,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -79047,8 +79060,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2026-05-14",
     "expiration": {
       "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
+      "label": "⏳ Expire dans 2 j",
+      "daysLeft": 2,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "prv": "2026-11-14"
@@ -79189,7 +79202,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -79235,7 +79248,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/04",
-      "daysLeft": 170,
+      "daysLeft": 169,
       "expirationDate": "2027-04-30",
       "packageExpirations": {
         "prv": "2027-04-30"
@@ -79284,7 +79297,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/12",
-      "daysLeft": 50,
+      "daysLeft": 49,
       "expirationDate": "2026-12-31",
       "packageExpirations": {
         "prv": "2026-12-31"
@@ -79375,7 +79388,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/05",
-      "daysLeft": 171,
+      "daysLeft": 170,
       "expirationDate": "2027-05-01",
       "packageExpirations": {
         "prv": "2027-05-01"
@@ -79476,7 +79489,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/05",
-      "daysLeft": 171,
+      "daysLeft": 170,
       "expirationDate": "2027-05-01",
       "packageExpirations": {
         "prv": "2027-05-01"
@@ -79628,7 +79641,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/05",
-      "daysLeft": 171,
+      "daysLeft": 170,
       "expirationDate": "2027-05-01",
       "packageExpirations": {
         "prv": "2027-05-01"
@@ -79724,7 +79737,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/05",
-      "daysLeft": 171,
+      "daysLeft": 170,
       "expirationDate": "2027-05-01",
       "packageExpirations": {
         "prv": "2027-05-01"
@@ -79772,7 +79785,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/05",
-      "daysLeft": 171,
+      "daysLeft": 170,
       "expirationDate": "2027-05-01",
       "packageExpirations": {
         "prv": "2027-05-01"
@@ -79818,7 +79831,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 30/04",
-      "daysLeft": 170,
+      "daysLeft": 169,
       "expirationDate": "2027-04-30",
       "packageExpirations": {
         "prv": "2027-04-30"
@@ -80820,9 +80833,9 @@ const PRIME_CATALOG_DATA = [
     "annee_moyenne": 2025,
     "duree": "1h 11min",
     "runtime_minutes": 71,
-    "note_avis": 4.8,
+    "note_avis": 4.7,
     "note_recence": 9.7,
-    "note_globale": 7.3,
+    "note_globale": 7.2,
     "etoiles": 4,
     "categories": [
       "horreur_epouvante"
@@ -80929,7 +80942,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/03",
-      "daysLeft": 113,
+      "daysLeft": 112,
       "expirationDate": "2027-03-04",
       "packageExpirations": {
         "prv": "2027-03-04"
@@ -81123,7 +81136,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 04/03",
-      "daysLeft": 113,
+      "daysLeft": 112,
       "expirationDate": "2027-03-04",
       "packageExpirations": {
         "prv": "2027-03-04"
@@ -81217,7 +81230,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 12/01",
-      "daysLeft": 62,
+      "daysLeft": 61,
       "expirationDate": "2027-01-12",
       "packageExpirations": {
         "prv": "2027-01-12"
@@ -81635,7 +81648,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/01",
-      "daysLeft": 65,
+      "daysLeft": 64,
       "expirationDate": "2027-01-15",
       "packageExpirations": {
         "prv": "2027-01-15"
@@ -81981,7 +81994,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/05",
-      "daysLeft": 175,
+      "daysLeft": 174,
       "expirationDate": "2027-05-05",
       "packageExpirations": {
         "prv": "2027-05-05"
@@ -82082,7 +82095,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/02",
-      "daysLeft": 86,
+      "daysLeft": 85,
       "expirationDate": "2027-02-05",
       "packageExpirations": {
         "prv": "2027-02-05"
@@ -82176,7 +82189,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/05",
-      "daysLeft": 175,
+      "daysLeft": 174,
       "expirationDate": "2027-05-05",
       "packageExpirations": {
         "prv": "2027-05-05"
@@ -82224,7 +82237,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/05",
-      "daysLeft": 175,
+      "daysLeft": 174,
       "expirationDate": "2027-05-05",
       "packageExpirations": {
         "prv": "2027-05-05"
@@ -82272,7 +82285,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 05/05",
-      "daysLeft": 175,
+      "daysLeft": 174,
       "expirationDate": "2027-05-05",
       "packageExpirations": {
         "prv": "2027-05-05"
@@ -82320,7 +82333,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/01",
-      "daysLeft": 64,
+      "daysLeft": 63,
       "expirationDate": "2027-01-14",
       "packageExpirations": {
         "prv": "2027-01-14"
@@ -82503,7 +82516,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 01/01",
-      "daysLeft": 51,
+      "daysLeft": 50,
       "expirationDate": "2027-01-01",
       "packageExpirations": {
         "prv": "2027-01-01"
@@ -82871,9 +82884,9 @@ const PRIME_CATALOG_DATA = [
       "drm",
       "trl"
     ],
-    "badge": null,
+    "badge": "12",
     "is_eligible": true,
-    "poster": "https://images.justwatch.com/poster/339859093/s592/hunting-season-2025.jpg",
+    "poster": "https://images.justwatch.com/poster/356918173/s592/hunting-season-2025.jpg",
     "synopsis": "Dans les forêts reculées de l’Oklahoma, Bowdrie vit en marge du monde avec Tag, l’adolescente qu’il élève. Leur quotidien bascule lorsqu’ils recueillent une jeune femme grièvement blessée, seule survivante d’un enlèvement sanglant. Tandis qu’un criminel impitoyable se lance à leur poursuite, Bowdrie doit tout risquer pour protéger ceux qu’il aime.",
     "date_ajout": "2026-11-06",
     "expiration": {
@@ -83202,15 +83215,15 @@ const PRIME_CATALOG_DATA = [
       {
         "saison": 1,
         "annee": 2026,
-        "note": 7.5,
+        "note": 7.4,
         "episodes": 12
       }
     ],
     "duree": "24 min/ép.",
     "runtime_minutes": 24,
-    "note_avis": 7.5,
+    "note_avis": 7.4,
     "note_recence": 10,
-    "note_globale": 8.8,
+    "note_globale": 8.7,
     "etoiles": 5,
     "categories": [
       "animation_famille"
@@ -83340,8 +83353,8 @@ const PRIME_CATALOG_DATA = [
     "date_ajout": "2019-02-07",
     "expiration": {
       "status": "urgent",
-      "label": "⏳ Expire dans 3 j",
-      "daysLeft": 3,
+      "label": "⏳ Expire dans 2 j",
+      "daysLeft": 2,
       "expirationDate": "2026-11-14",
       "packageExpirations": {
         "prv": "2026-11-14"
@@ -83808,7 +83821,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 09/03",
-      "daysLeft": 118,
+      "daysLeft": 117,
       "expirationDate": "2027-03-09",
       "packageExpirations": {
         "prv": "2027-03-09"
@@ -83963,7 +83976,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 31/03",
-      "daysLeft": 140,
+      "daysLeft": 139,
       "expirationDate": "2027-03-31",
       "packageExpirations": {
         "prv": "2027-03-31"
@@ -84431,7 +84444,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 14/01",
-      "daysLeft": 64,
+      "daysLeft": 63,
       "expirationDate": "2027-01-14",
       "packageExpirations": {
         "prv": "2027-01-14"
@@ -84478,7 +84491,7 @@ const PRIME_CATALOG_DATA = [
     "expiration": {
       "status": "info",
       "label": "📅 Jusqu'au 15/01",
-      "daysLeft": 65,
+      "daysLeft": 64,
       "expirationDate": "2027-01-15",
       "packageExpirations": {
         "prv": "2027-01-15"
@@ -84486,13 +84499,789 @@ const PRIME_CATALOG_DATA = [
     },
     "on_prime": true,
     "on_tnt": false
+  },
+  {
+    "id": "jw-ts66425",
+    "titre": "Léo Matteï, Brigade des mineurs",
+    "type": "serie",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2013,
+    "annee_fin": 2016,
+    "annee_moyenne": 2015,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2013,
+        "note": 6.7,
+        "episodes": 2
+      },
+      {
+        "saison": 2,
+        "annee": 2014,
+        "note": 6.7,
+        "episodes": 4
+      },
+      {
+        "saison": 3,
+        "annee": 2015,
+        "note": 6.7,
+        "episodes": 6
+      },
+      {
+        "saison": 4,
+        "annee": 2016,
+        "note": 6.7,
+        "episodes": 6
+      }
+    ],
+    "duree": "50 min/ép.",
+    "runtime_minutes": 50,
+    "note_avis": 6.7,
+    "note_recence": 6.7,
+    "note_globale": 6.7,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "crm",
+      "drm",
+      "fml"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/172629638/s592/leo-mattei-brigade-des-mineurs.jpg",
+    "synopsis": "Le Commandant Léo Matteï est à la tête de la Brigade des mineurs. Doté d'une grande empathie et d'un sens aigu de la justice, cet ancien flic de la BAC dirige une équipe aussi compétente que dévouée. Pour Matteï, seul le résultat compte et il n'hésite pas à bousculer les conventions avec un seul mot d'ordre : protéger les mineurs de tout danger, y compris d'eux-mêmes.",
+    "date_ajout": "2026-10-31",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": true
+  },
+  {
+    "id": "jw-ts14179",
+    "titre": "Body of Proof",
+    "type": "serie",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2011,
+    "annee_fin": 2013,
+    "annee_moyenne": 2012,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2011,
+        "note": 7.1,
+        "episodes": 9
+      },
+      {
+        "saison": 2,
+        "annee": 2011,
+        "note": 7.1,
+        "episodes": 20
+      },
+      {
+        "saison": 3,
+        "annee": 2013,
+        "note": 7.1,
+        "episodes": 13
+      }
+    ],
+    "duree": "45 min/ép.",
+    "runtime_minutes": 45,
+    "note_avis": 7.1,
+    "note_recence": 5.8,
+    "note_globale": 6.5,
+    "etoiles": 3,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "cmy",
+      "crm",
+      "drm"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/284301258/s592/body-of-proof.jpg",
+    "synopsis": "Megan Hunt est une brillante neuro-chirurgienne de Philadelphie reconvertie en médecin légiste, suite aux répercussions d'un accident de voiture qui a failli lui coûter la vie. Dotée d'un tempérament volcanique, elle n'a pas son pareil pour faire parler les corps des victimes. Tous ces indices associés à un flair certain lui permettent d'avoir un temps d'avance sur la police et de résoudre des affaires de meurtre...",
+    "date_ajout": "2021-07-14",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm864459",
+    "titre": "Der Überläufer",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2020,
+    "annee_moyenne": 2020,
+    "duree": "2h 53min",
+    "runtime_minutes": 173,
+    "note_avis": 6.8,
+    "note_recence": 8.2,
+    "note_globale": 7.5,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "hst",
+      "war"
+    ],
+    "badge": "10",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/313952800/s592/lost-soldier-de-lautre-cote-du-front.jpg",
+    "synopsis": "Été 1944. En pleine débâcle, les dernières forces allemandes sont dépêchées pour maintenir coûte que coûte le front de l'Est. Jeune soldat de la Wehrmacht, Walter retourne au combat pour protéger une ligne de chemin de fer stratégique. Mais lorsque son convoi est pris d’assaut, il rallie en première ligne une unité durement éprouvée. Face aux directives insensées de son propre camp, Walter se met à douter : doit-il suivre aveuglément les ordres dans un combat perdu d’avance, ou passer de l’autre côté du front pour sauver sa peau ?",
+    "date_ajout": "2026-11-10",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts221362",
+    "titre": "The Family Man",
+    "type": "serie",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2019,
+    "annee_fin": 2025,
+    "annee_moyenne": 2022,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2019,
+        "note": 8.6,
+        "episodes": 10
+      },
+      {
+        "saison": 2,
+        "annee": 2021,
+        "note": 8.6,
+        "episodes": 9
+      },
+      {
+        "saison": 3,
+        "annee": 2025,
+        "note": 8.6,
+        "episodes": 7
+      }
+    ],
+    "duree": "47 min/ép.",
+    "runtime_minutes": 47,
+    "note_avis": 8.6,
+    "note_recence": 8.8,
+    "note_globale": 8.7,
+    "etoiles": 5,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "act",
+      "cmy",
+      "crm",
+      "drm",
+      "trl"
+    ],
+    "badge": "16",
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/146823074/s592/the-family-man.jpg",
+    "synopsis": "Srikant Tiwari tente de concilier sa vie de famille avec son travail d'espion relevant d'une cellule spéciale hautement secrète de la National Intelligence Agency. Il essaye de prévenir les attaques terroristes à l'encontre de son pays tout en protégeant ses proches.",
+    "date_ajout": "2019-09-19",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm2999446",
+    "titre": "As Ghost",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2026,
+    "annee_moyenne": 2026,
+    "duree": "1h 30min",
+    "runtime_minutes": 90,
+    "note_avis": 9.2,
+    "note_recence": 10,
+    "note_globale": 9.6,
+    "etoiles": 5,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/354950170/s592/as-ghost.jpg",
+    "synopsis": "Marta et Giulia s'installent dans une ancienne villa italienne pour y mener des études. Ce qui s'annonçait comme une simple colocation tourne au cauchemar lorsque des phénomènes inexplicables commencent à hanter Giulia, poussant les deux jeunes femmes à faire appel à un détective privé.",
+    "date_ajout": "2026-11-11",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm308028",
+    "titre": "Un Noël de Cendrillon",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2016,
+    "annee_moyenne": 2016,
+    "duree": "1h 33min",
+    "runtime_minutes": 93,
+    "note_avis": 6.2,
+    "note_recence": 7,
+    "note_globale": 6.6,
+    "etoiles": 3,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/257838725/s592/un-noel-de-cendrillon.jpg",
+    "synopsis": "Angie, une organisatrice d'événements, prépare un bal masqué de Noël chez Nicholas Karmichael, un riche célibataire. Elle travaille avec sa cousine Candace, qui récolte constamment le fruit de ses efforts. Otto, l'oncle d'Angie, l'a recueillie à l'âge de 6 ans, à la mort de ses parents. Angie rêve de pouvoir enfin gérer l'entreprise toute seule, sans Candace qui se comporte comporte en tyran. Cette dernière cherche justement à se marier avec un riche célibataire et voit le bal de Nicholas comme une opportunité. Elles font un marché : Angie aide Candace à trouver un mari riche et Candace lui cédera PrestigeTraiteur, l'entreprise, en retour.",
+    "date_ajout": "2026-11-09",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1650448",
+    "titre": "Filmmaker",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 38min",
+    "runtime_minutes": 98,
+    "note_avis": 5.7,
+    "note_recence": 9.7,
+    "note_globale": 7.7,
+    "etoiles": 4,
+    "categories": [
+      "action_aventure"
+    ],
+    "raw_genres": [
+      "act",
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/332097795/s592/filmmaker.jpg",
+    "synopsis": "Un jeune cinéaste fauché et sans expérience se lance seul dans la production de son premier long-métrage, un film d'aventure se déroulant au coeur de la jungle Vietnamienne.",
+    "date_ajout": "2026-11-10",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1399508",
+    "titre": "Les tortues",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2024,
+    "annee_moyenne": 2024,
+    "duree": "1h 23min",
+    "runtime_minutes": 83,
+    "note_avis": 6.2,
+    "note_recence": 9.4,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy",
+      "drm",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/319838448/s592/les-tortues.jpg",
+    "synopsis": "Henri et Thom vivent ensemble à Bruxelles et filent le parfait amour depuis 35 ans, enfin en apparence. Depuis qu’Henri a pris sa retraite de policier, rien ne va plus. Ses journées sont fades et interminables, ses sentiments s'estompent et leur maison est devenue un vrai champ de bataille. Toujours amoureux, Thom est prêt à tout pour raviver la flamme et sauver leur couple, quitte à demander lui-même le divorce…",
+    "date_ajout": "2026-11-10",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts321833",
+    "titre": "SOKO Linz",
+    "type": "serie",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2022,
+    "annee_fin": 2024,
+    "annee_moyenne": 2023,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2022,
+        "note": 6.4,
+        "episodes": 13
+      },
+      {
+        "saison": 2,
+        "annee": 2023,
+        "note": 6.4,
+        "episodes": 13
+      },
+      {
+        "saison": 3,
+        "annee": 2024,
+        "note": 6.4,
+        "episodes": 13
+      }
+    ],
+    "duree": "43 min/ép.",
+    "runtime_minutes": 43,
+    "note_avis": 6.4,
+    "note_recence": 9.1,
+    "note_globale": 7.8,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "act",
+      "crm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/309353652/s592/soko-linz.jpg",
+    "synopsis": "À Linz, dans la capitale de la Haute-Autriche, une nouvelle équipe enquête sur les affaires criminelles qui se déroulent dans la ville baroque, menée par l'intrépide inspecteur en chef Johanna Joe Haizinger.",
+    "date_ajout": "2026-10-01",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1261503",
+    "titre": "The Man from Rome",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2022,
+    "annee_moyenne": 2022,
+    "duree": "1h 56min",
+    "runtime_minutes": 116,
+    "note_avis": 5.9,
+    "note_recence": 8.8,
+    "note_globale": 7.4,
+    "etoiles": 4,
+    "categories": [
+      "thriller_policier"
+    ],
+    "raw_genres": [
+      "trl"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/323326268/s592/the-man-from-rome-2022-0.jpg",
+    "synopsis": "Un hacker déjoue la sécurité informatique du Vatican et envoie un appel à l'aide anonyme au Pape. Le séduisant Père Quart, membre des services de renseignements du Vatican, est chargé de l'affaire. Dans son message, le hacker prétendait qu'une église baroque du 17ème siècle, tombant en ruines dans le centre de Séville, \"tue pour se défendre\".",
+    "date_ajout": "2026-11-10",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1552630",
+    "titre": "Or Noir",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2025,
+    "annee_moyenne": 2025,
+    "duree": "1h 03min",
+    "runtime_minutes": 63,
+    "note_avis": 4.6,
+    "note_recence": 9.7,
+    "note_globale": 7.2,
+    "etoiles": 4,
+    "categories": [
+      "horreur_epouvante"
+    ],
+    "raw_genres": [
+      "hrr"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/321706100/s592/oro-negro.jpg",
+    "synopsis": "Après des années sans se voir, Ramiro retrouve Damián, qui l'entraîne dans un plan louche pour trouver un trésor dans un couvent abandonné. Lara, la petite amie méfiante de Ramiro, les accompagne. À leur insu, prendre le trésor déclenchera une malédiction qui ne pourra être brisée qu'en le remettant exactement tel qu'ils l'ont trouvé.",
+    "date_ajout": "2026-11-10",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-ts81252",
+    "titre": "Calimero",
+    "type": "serie",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2014,
+    "annee_moyenne": 2014,
+    "saisons_disponibles": [
+      {
+        "saison": 1,
+        "annee": 2014,
+        "note": 7.3,
+        "episodes": 104
+      }
+    ],
+    "duree": "12 min/ép.",
+    "runtime_minutes": 12,
+    "note_avis": 7.3,
+    "note_recence": 6.4,
+    "note_globale": 6.9,
+    "etoiles": 3,
+    "categories": [
+      "animation_famille"
+    ],
+    "raw_genres": [
+      "ani",
+      "fml"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/349716942/s592/calimero-2014.jpg",
+    "synopsis": "Petit poussin au grand cœur, Caliméro est un sentimental. Surtout à l'égard de sa chère et tendre Priscilla. Sensible aux injustices, d'où sa célèbre tirade \"c'est vraiment trop injuste\", et courageux, il n'hésite jamais à venir en aide pour les torts causés.",
+    "date_ajout": "2026-11-10",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm1873900",
+    "titre": "PARANORIAS Les dossiers perdus du Dr Romanoski",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2026,
+    "annee_moyenne": 2026,
+    "duree": "1h 02min",
+    "runtime_minutes": 62,
+    "note_avis": 8.3,
+    "note_recence": 10,
+    "note_globale": 9.2,
+    "etoiles": 5,
+    "categories": [
+      "comedie"
+    ],
+    "raw_genres": [
+      "cmy"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/346687184/s592/paranorias-les-dossiers-perdus-du-dr-romanoski.jpg",
+    "synopsis": "Un psychiatre découvre un mystérieux dossier et adopte une fausse identité pour approcher Rómulo, un homme obsédé par les ovnis, les complots et les phénomènes paranormaux. Mais ce qui semble être un simple cas clinique devient vite une énigme inattendue. Une comédie de faux documentaires et de found footage où paranoïa et mystère vont de pair.",
+    "date_ajout": "2026-11-10",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm376822",
+    "titre": "Mapplethorpe",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2019,
+    "annee_moyenne": 2019,
+    "duree": "1h 42min",
+    "runtime_minutes": 102,
+    "note_avis": 6.2,
+    "note_recence": 7.9,
+    "note_globale": 7.1,
+    "etoiles": 4,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/65000287/s592/mapplethorpe.jpg",
+    "synopsis": "Biopic sur le sulfureux photographe américain Robert Mapplethorpe, mort du sida en 1989 et dont la vie était encore plus scandaleuse que ses photographies.",
+    "date_ajout": "2019-08-28",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": false
+  },
+  {
+    "id": "jw-tm438429",
+    "titre": "Un Noël décisif",
+    "type": "film",
+    "chaine": "Amazon Prime Video",
+    "chaines": [
+      "Amazon Prime Video"
+    ],
+    "logo_chaine": "assets/logos/prime_video.svg",
+    "logos_chaine": [
+      "assets/logos/prime_video.svg"
+    ],
+    "package_slugs": [
+      "prv"
+    ],
+    "annee": 2018,
+    "annee_moyenne": 2018,
+    "duree": "1h 30min",
+    "runtime_minutes": 90,
+    "note_avis": 5.9,
+    "note_recence": 7.6,
+    "note_globale": 6.8,
+    "etoiles": 3,
+    "categories": [
+      "drame_emotion"
+    ],
+    "raw_genres": [
+      "drm",
+      "fml",
+      "rma"
+    ],
+    "badge": null,
+    "is_eligible": true,
+    "poster": "https://images.justwatch.com/poster/245154974/s592/un-noel-decisif.jpg",
+    "synopsis": "Les soeurs Marvin se retrouvent pour passer ce qui doit être leur dernier Noël dans la maison de leur enfance.",
+    "date_ajout": "2026-10-23",
+    "expiration": {
+      "status": "none",
+      "label": null,
+      "daysLeft": null,
+      "expirationDate": null,
+      "packageExpirations": {}
+    },
+    "on_prime": true,
+    "on_tnt": true
   }
 ];
 const PRIME_CATALOG_METADATA = {
-  "total": 1641,
-  "films": 1157,
-  "series": 484,
-  "lastSync": "2026-11-11T13:27:14.506Z"
+  "total": 1656,
+  "films": 1167,
+  "series": 489,
+  "lastSync": "2026-11-12T14:30:44.670Z"
 };
 
 if (typeof window !== 'undefined') {

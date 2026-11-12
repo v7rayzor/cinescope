@@ -2715,5 +2715,15 @@
     "titre": "Le jour du kidnapping",
     "category": "thriller_policier",
     "justification": "Le synopsis repose sur un enlèvement, une rançon, une amnésie et une méfiance croissante, avec des genres bruts dominés par le crime et le thriller, sans indication d'action physique intense ni de comédie."
+  },
+  "jw-ts14179": {
+    "titre": "Body of Proof",
+    "category": "thriller_policier",
+    "justification": "Série centrée sur des enquêtes médico-légales et la résolution de meurtres, dominée par le suspense criminel et l'investigation plutôt que par l'action physique ou l'humour."
+  },
+  "jw-ts221362": {
+    "titre": "The Family Man",
+    "category": "comedie",
+    "justification": "La série mêle espionnage et vie familiale sur un ton humoristique et satirique, l'action et le suspense n'étant que des prétextes à la comédie."
   }
 }
