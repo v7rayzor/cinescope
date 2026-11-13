@@ -2725,5 +2725,45 @@
     "titre": "The Family Man",
     "category": "comedie",
     "justification": "La série mêle espionnage et vie familiale sur un ton humoristique et satirique, l'action et le suspense n'étant que des prétextes à la comédie."
+  },
+  "jw-ts21532": {
+    "titre": "Rizzoli & Isles",
+    "category": "thriller_policier",
+    "justification": "La série est centrée sur des enquêtes criminelles et le duo flic-légiste, avec une intrigue policière et un suspense cérébral dominants, l'action et l'humour restant secondaires."
+  },
+  "jw-tm1011547": {
+    "titre": "Cargo",
+    "category": "comedie",
+    "justification": "Le synopsis évoque une situation absurde et décalée (festival d'art itinérant sur un navire marchand) typique d'une comédie, sans action physique ni intrigue criminelle dominante."
+  },
+  "jw-tm2883372": {
+    "titre": "Vibe",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant une aventure à haute énergie qui pousse les instincts de survie et l'amitié à leurs limites, avec des genres bruts dominés par l'action (act) et l'aventure, sans indice fort de comédie ou d'enquête policière."
+  },
+  "jw-tm1670539": {
+    "titre": "Bad Man",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant un conflit explosif entre agents des stupéfiants, avec une dominante d'action physique et de confrontation directe plutôt qu'une enquête cérébrale ou une comédie."
+  },
+  "jw-tm1291578": {
+    "titre": "Full River Red",
+    "category": "thriller_policier",
+    "justification": "Le film est un polar historique centré sur une enquête sous pression, des alliances et des secrets, avec une intrigue criminelle et un suspense cérébral dominants plutôt que de l'action pure ou de l'humour."
+  },
+  "jw-tm1338808": {
+    "titre": "The Killer's Game",
+    "category": "action_aventure",
+    "justification": "Le film repose sur un tueur à gages confronté à une horde d'assassins, avec des combats et des poursuites physiques dominants, malgré une touche d'humour noir et une intrigue de traque."
+  },
+  "jw-tm1528629": {
+    "titre": "Good Neighbours",
+    "category": "horreur_epouvante",
+    "justification": "Le synopsis décrit une lutte pour la survie lors d'un dîner qui tourne au mortel, ce qui place la terreur et la survie au cœur du récit plutôt qu'un concept de science-fiction."
+  },
+  "jw-tm1638882": {
+    "titre": "Burner",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur la survie, la menace criminelle et la machination pour se débarrasser d'un ex dealer violent, sans action physique dominante ni spectaculaire cinétique."
   }
 }
