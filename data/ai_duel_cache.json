@@ -2765,5 +2765,30 @@
     "titre": "Burner",
     "category": "thriller_policier",
     "justification": "L'intrigue repose sur la survie, la menace criminelle et la machination pour se débarrasser d'un ex dealer violent, sans action physique dominante ni spectaculaire cinétique."
+  },
+  "jw-tm1524079": {
+    "titre": "Delivery Run",
+    "category": "action_aventure",
+    "justification": "Le récit repose sur une course-poursuite dynamique et une survie active face à un chasse-neige, avec une riposte et une fuite tactique plutôt qu'une terreur impuissante."
+  },
+  "jw-tm318729": {
+    "titre": "Braquage à Londres",
+    "category": "thriller_policier",
+    "justification": "Le synopsis met en avant une quête de vengeance criminelle et une intrigue de braquage, dominée par le suspense et la machination plutôt que par l'action physique intense."
+  },
+  "jw-tm2993436": {
+    "titre": "Stellar Web",
+    "category": "horreur_epouvante",
+    "justification": "Bien que le cadre spatial soit science-fictionnel, le récit est centré sur une menace terrifiante introduite par un passager clandestin qui disloque l'équipage, ce qui en fait avant tout une œuvre d'horreur."
+  },
+  "jw-tm1109766": {
+    "titre": "Dangerous",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant un assaut de mercenaires et une vengeance implacable, dominés par des combats physiques et un spectacle cinétique typique de l'action."
+  },
+  "jw-tm915168": {
+    "titre": "Initiation",
+    "category": "horreur_epouvante",
+    "justification": "Le synopsis décrit explicitement un slasher avec un tueur masqué multipliant les victimes sur un campus, ce qui place le sadisme sanguinaire et la terreur viscérale au cœur du récit."
   }
 }
