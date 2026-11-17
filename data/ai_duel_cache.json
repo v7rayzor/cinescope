@@ -2805,5 +2805,10 @@
     "titre": "Videoteka",
     "category": "horreur_epouvante",
     "justification": "Le récit d'anthologie autour de cassettes maudites plongeant dans une réalité grotesque et troublante vise avant tout à terrifier et déstabiliser, s'inscrivant dans une veine d'horreur fantastique plutôt que dans une intrigue de science-fiction."
+  },
+  "jw-ts252831": {
+    "titre": "Tale of the Nine Tailed",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose avant tout sur le fantastique et le surnaturel (créature légendaire, renard à neuf queues) plutôt que sur la terreur viscérale, malgré quelques éléments d'horreur."
   }
 }
