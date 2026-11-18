@@ -2810,5 +2810,20 @@
     "titre": "Tale of the Nine Tailed",
     "category": "scifi_fantastique",
     "justification": "Le récit repose avant tout sur le fantastique et le surnaturel (créature légendaire, renard à neuf queues) plutôt que sur la terreur viscérale, malgré quelques éléments d'horreur."
+  },
+  "jw-tm1452845": {
+    "titre": "Y a-t-il un flic pour sauver le monde?",
+    "category": "comedie",
+    "justification": "Il s'agit d'une parodie burlesque de film policier où l'enquête et l'action ne sont que des prétextes au rire, dans la lignée de la saga Y a-t-il un flic."
+  },
+  "jw-tm244210": {
+    "titre": "The Passenger",
+    "category": "thriller_policier",
+    "justification": "Le film repose sur une intrigue de conspiration et de suspense psychologique dans un espace confiné, sans action physique dominante ni spectaculaire cinétique."
+  },
+  "jw-ts242693": {
+    "titre": "Them",
+    "category": "horreur_epouvante",
+    "justification": "Cette anthologie horrifique est explicitement centrée sur la terreur et l'épouvante, comme l'indique son synopsis et son genre brut 'hrr', sans que l'intrigue criminelle ne soit dominante."
   }
 }
