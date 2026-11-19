@@ -2825,5 +2825,20 @@
     "titre": "Them",
     "category": "horreur_epouvante",
     "justification": "Cette anthologie horrifique est explicitement centrée sur la terreur et l'épouvante, comme l'indique son synopsis et son genre brut 'hrr', sans que l'intrigue criminelle ne soit dominante."
+  },
+  "jw-tm318592": {
+    "titre": "Otages à Entebbe",
+    "category": "thriller_policier",
+    "justification": "Le film est une reconstitution historique d'une prise d'otages et d'un raid, dominée par la tension, le suspense et la machination criminelle plutôt que par l'action physique continue."
+  },
+  "jw-tm1524353": {
+    "titre": "Long Gone Heroes",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant un soldat des forces spéciales retournant sur le champ de bataille pour une mission de sauvetage, avec des combats physiques et une opération paramilitaire tournant mal, ce qui domine l'action cinétique."
+  },
+  "jw-ts222740": {
+    "titre": "S.O.Z. Soldiers or Zombies",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose avant tout sur la survie face à des zombies mutants mortels, avec une terreur viscérale et des créatures carnassières comme moteur principal, la composante SF (mutation) restant secondaire."
   }
 }
