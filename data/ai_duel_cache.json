@@ -2840,5 +2840,15 @@
     "titre": "S.O.Z. Soldiers or Zombies",
     "category": "horreur_epouvante",
     "justification": "Le récit repose avant tout sur la survie face à des zombies mutants mortels, avec une terreur viscérale et des créatures carnassières comme moteur principal, la composante SF (mutation) restant secondaire."
+  },
+  "jw-tm324876": {
+    "titre": "Parallel",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose avant tout sur un portail vers un multivers et les conséquences de l'importation de connaissances, un concept de science-fiction prédominant malgré des éléments de thriller et d'horreur."
+  },
+  "jw-tm148161": {
+    "titre": "Big Game",
+    "category": "action_aventure",
+    "justification": "Le film repose avant tout sur l'action cinétique et les cascades (évasion d'Air Force One, poursuites, combats) avec un ton aventureux, la comédie et le suspense policier restant secondaires."
   }
 }
