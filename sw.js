@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cinescope-v9.42-expiration-active-pkgs-v54';
+const CACHE_NAME = 'cinescope-v9.43-ocs-specialized-v55';
 const CORE_ASSETS = [
   './',
   './index.html',

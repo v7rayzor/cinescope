@@ -1,10 +1,21 @@
 # Synthèse & État Actuel du Projet — CinéScope
 
-Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.42** / Cache **cinescope-v9.42-expiration-active-pkgs-v54** / Stockage **_v52**).
+Ce document constitue la référence vivante et synthétique de l'architecture, des règles métier, des algorithmes en vigueur et de l'état actif du catalogue **CinéScope** (Version active : **v9.43** / Cache **cinescope-v9.43-ocs-specialized-v55** / Stockage **_v53**).
 
 ---
 
-## Nouveautés de la Session (v9.42)
+## Nouveautés de la Session (v9.43)
+* **Bascule de Ciné+ OCS en Bouquet Spécialisé PC & Epuration Mobile (Règle 8)** :
+  - **Portable / Mobile (`< 1024px`)** : Conservation stricte des seuls abonnements actifs **Universal+** (`auc`) et **Amazon Prime Video** (`prv`). Suppression de Ciné+ OCS et Action Max de la vue mobile.
+  - **Desktop PC (`>= 1024px`)** :
+    * **Bouquets de base** : **Action Max** (`aca`) et **Universal+** (`auc`) restent actifs par défaut.
+    * **Ciné+ OCS (`aoc`) basculé en chaîne spécialisée** : Rejoint `SPECIALIZED_PACKAGE_SLUGS` aux côtés de **Sooner**, **Shadowz** et **Insomnia**. Le bouton `Ciné+ OCS` devient exclusif PC (`bouquet-btn-pc-only`), et ses titres exclusifs ne s'affichent dans « Tous les bouquets » que lorsque le toggle **`+ Spécialisées`** est activé (ou via sélection directe de sa puce).
+    * **Logique de filtrage positive unifiée** : Dans `getFilteredItems()`, une œuvre est visible sur PC si elle est sur un bouquet de base (`aca`, `auc`), OU spécialisée avec `+ Spécialisées` actif, OU sur Prime avec `+ Amazon` actif. Les œuvres multi-diffuseurs (ex: Ciné+ OCS + Universal+) demeurent visibles via Universal+ avec uniquement le logo Universal+.
+  - Bump des clés de stockage local (`_v53`) et du cache PWA (`v9.43` / `cinescope-v9.43-ocs-specialized-v55`).
+
+---
+
+## Nouveautés Précédentes (v9.42)
 * **Dynamisation Réactive des Dates d'Expiration selon les Bouquets Actifs (`getItemExpirationInfo` & `getItemDaysLeft`)** :
   - **Correction du faux affichage de fin de droits multi-plateformes** : Lorsqu'une œuvre est disponible sur plusieurs bouquets (ex: *The Magicians* sur Universal+ expirant le 05/12 et sur Prime Video expirant le 14/02), le badge d'expiration et la modale s'alignent désormais **strictement et exclusivement sur les bouquets actifs pour l'utilisateur** (`getActiveItemPackages`).
   - **Cohérence totale Vue Globale vs Vue Bouquet** :

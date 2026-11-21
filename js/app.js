@@ -157,22 +157,22 @@ const AppState = {
   catalog: []
 };
 
-// Vérifier si une œuvre provient d'un bouquet SVOD de base (Ciné+ OCS, Action Max, Universal+)
+// Vérifier si une œuvre provient d'un bouquet SVOD de base (Action Max, Universal+)
 function isItemBasePaid(item) {
   if (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.isItemBasePaid === 'function') {
     return JustWatchEngine.isItemBasePaid(item);
   }
   if (!item || !item.package_slugs) return false;
-  return item.package_slugs.some(s => ['aoc', 'aca', 'auc'].includes(s));
+  return item.package_slugs.some(s => ['aca', 'auc'].includes(s));
 }
 
-// Vérifier si une œuvre provient d'une chaîne spécialisée (Sooner, Shadowz, Insomnia)
+// Vérifier si une œuvre provient d'une chaîne spécialisée (Ciné+ OCS, Sooner, Shadowz, Insomnia)
 function isItemSpecialized(item) {
   if (typeof JustWatchEngine !== 'undefined' && typeof JustWatchEngine.isItemSpecialized === 'function') {
     return JustWatchEngine.isItemSpecialized(item);
   }
   if (!item || !item.package_slugs) return false;
-  return item.package_slugs.some(s => ['snr', 'sdz', 'ima'].includes(s));
+  return item.package_slugs.some(s => ['aoc', 'snr', 'sdz', 'ima'].includes(s));
 }
 
 // Vérifier si une œuvre provient de la TNT ou du catalogue gratuit Molotov
@@ -378,21 +378,21 @@ function getActiveItemPackages(item) {
   }
 
   // 2. Si l'utilisateur est dans "Tous les bouquets" ('all') :
-  // Sur mobile : les bouquets payants de base (aoc, aca, auc) et Prime Video (prv)
+  // Sur mobile : uniquement Universal+ (auc) et Prime Video (prv)
   if (isMobile) {
-    return (item.package_slugs || []).filter(p => ['aoc', 'aca', 'auc', 'prv'].includes(p));
+    return (item.package_slugs || []).filter(p => ['auc', 'prv'].includes(p));
   }
 
   // Sur Desktop PC :
   return item.package_slugs.filter(pkg => {
-    // Bouquets payants de référence (toujours actifs par défaut)
-    if (['aoc', 'aca', 'auc'].includes(pkg)) {
+    // Bouquets payants de référence sur PC (Action Max, Universal+)
+    if (['aca', 'auc'].includes(pkg)) {
       return true;
     }
 
-    // Chaînes spécialisées SVOD (Sooner, Shadowz, Insomnia) :
+    // Chaînes spécialisées SVOD (Ciné+ OCS, Sooner, Shadowz, Insomnia) :
     // Actives UNIQUEMENT si le toggle + Spécialisées est allumé
-    if (['snr', 'sdz', 'ima'].includes(pkg)) {
+    if (['aoc', 'snr', 'sdz', 'ima'].includes(pkg)) {
       return AppState.includeSpecialized;
     }
 
@@ -1214,7 +1214,7 @@ function initBouquetsCounts() {
   });
 
   const countAll = eligibleTypeItems.filter(i => {
-    if (isMobile) return isItemBasePaid(i) || isItemOnPrimeVideo(i);
+    if (isMobile) return Boolean(i.package_slugs && (i.package_slugs.includes('auc') || i.package_slugs.includes('prv')));
     if (isItemBasePaid(i)) return true;
     if (AppState.includeSpecialized && isItemSpecialized(i)) return true;
     if (AppState.includeAmazon && isItemOnPrimeVideo(i)) return true;
@@ -1254,7 +1254,7 @@ function initBouquetsCounts() {
             ? eligibleTypeItems.filter(i => isItemOnPrimeVideo(i))
             : eligibleTypeItems.filter(i => i.package_slugs && i.package_slugs.includes(AppState.activeBouquet)))
         : eligibleTypeItems.filter(i => {
-            if (isMobile) return isItemBasePaid(i) || isItemOnPrimeVideo(i);
+            if (isMobile) return Boolean(i.package_slugs && (i.package_slugs.includes('auc') || i.package_slugs.includes('prv')));
             if (isItemBasePaid(i)) return true;
             if (AppState.includeSpecialized && isItemSpecialized(i)) return true;
             if (AppState.includeAmazon && isItemOnPrimeVideo(i)) return true;
@@ -2132,10 +2132,10 @@ function getCategoryEligibleItems(options = {}) {
     // Règle 4+ universelle (PC et Portable) : affiche strictement à partir de 4+ (score >= 7.0 / 4★ et 5★)
     if (!matchesStars(item, '4')) return false;
 
-    // Sur mobile (largeur < 1024px) : SVOD de base (aoc, aca, auc) ET Prime Video (prv).
+    // Sur mobile (largeur < 1024px) : uniquement Universal+ (auc) ET Prime Video (prv).
     const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
     if (isMobile) {
-      if (!isItemBasePaid(item) && !isItemOnPrimeVideo(item)) return false;
+      if (!item.package_slugs || (!item.package_slugs.includes('auc') && !item.package_slugs.includes('prv'))) return false;
     }
 
     // Mode Exclusif Amazon Prime (PC uniquement - Règle 8)
@@ -2156,12 +2156,10 @@ function getCategoryEligibleItems(options = {}) {
       } else {
         // Nous sommes dans "Tous les bouquets" ('all') sur PC Desktop :
         if (!isMobile) {
-          // Par défaut, les chaînes spécialisées ne sont PAS incluses sauf si le bouton toggleIncludeSpecialized est activé
-          if (isItemSpecialized(item) && !AppState.includeSpecialized) {
-            return false;
-          }
-          // Par défaut, les œuvres exclusives à Amazon Prime Video ne sont PAS incluses sauf si le bouton toggleIncludeAmazon est activé
-          if (isItemOnlyOnPrime(item) && !AppState.includeAmazon) {
+          const visibleOnBase = isItemBasePaid(item);
+          const visibleOnSpecialized = AppState.includeSpecialized && isItemSpecialized(item);
+          const visibleOnAmazon = AppState.includeAmazon && isItemOnPrimeVideo(item);
+          if (!visibleOnBase && !visibleOnSpecialized && !visibleOnAmazon) {
             return false;
           }
         }

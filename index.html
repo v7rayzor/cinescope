@@ -88,11 +88,6 @@
               <span class="pkg-name">Tous les bouquets</span>
               <span class="pkg-count" id="countPkgAll">0</span>
             </button>
-            <button class="bouquet-btn" data-package="aoc" id="pkgOcs">
-              <img src="assets/logos/cine_ocs.png" alt="Ciné+ OCS" class="pkg-logo-img">
-              <span class="pkg-name">Ciné+ OCS</span>
-              <span class="pkg-count" id="countPkgOcs">0</span>
-            </button>
             <button class="bouquet-btn" data-package="aca" id="pkgAction">
               <img src="assets/logos/action.png" alt="Action Max" class="pkg-logo-img">
               <span class="pkg-name">Action Max</span>
@@ -104,6 +99,11 @@
               <span class="pkg-count" id="countPkgUniversal">0</span>
             </button>
             <!-- Chaînes Spécialisées (Exclusivité Desktop PC - Règle 8) -->
+            <button class="bouquet-btn bouquet-btn-pc-only" data-package="aoc" id="pkgOcs" title="Afficher les œuvres Ciné+ OCS">
+              <img src="assets/logos/cine_ocs.png" alt="Ciné+ OCS" class="pkg-logo-img">
+              <span class="pkg-name">Ciné+ OCS</span>
+              <span class="pkg-count" id="countPkgOcs">0</span>
+            </button>
             <button class="bouquet-btn bouquet-btn-pc-only" data-package="snr" id="pkgSooner" title="Afficher les œuvres Sooner">
               <img src="assets/logos/sooner.png" alt="Sooner" class="pkg-logo-img">
               <span class="pkg-name">Sooner</span>
@@ -146,7 +146,7 @@
               <span class="pkg-name">+ Amazon</span>
               <span class="pkg-count" id="countIncludeAmazon">0</span>
             </button>
-            <button class="bouquet-btn bouquet-btn-toggle-specialized bouquet-btn-pc-only" id="toggleIncludeSpecialized" type="button" title="Inclure ou retirer les œuvres de Sooner, Shadowz et Insomnia">
+            <button class="bouquet-btn bouquet-btn-toggle-specialized bouquet-btn-pc-only" id="toggleIncludeSpecialized" type="button" title="Inclure ou retirer les œuvres de Ciné+ OCS, Sooner, Shadowz et Insomnia">
               <span class="pkg-icon">🎬</span>
               <span class="pkg-name">+ Spécialisées</span>
               <span class="pkg-count" id="countIncludeSpecialized">0</span>

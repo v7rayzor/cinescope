@@ -4,12 +4,12 @@
  */
 
 const JustWatchEngine = (function () {
-  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v52';
-  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v52';
-  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v52';
-  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v52';
-  const STORAGE_KEY_SPECIALIZED_SYNC = 'cinescope_last_specialized_sync_v52';
-  const STORAGE_KEY_AMAZON_SYNC = 'cinescope_last_amazon_sync_v52';
+  const STORAGE_KEY_CATALOG = 'cinescope_streaming_catalog_v53';
+  const STORAGE_KEY_SYNC = 'cinescope_streaming_last_sync_v53';
+  const STORAGE_KEY_FULL_SYNC = 'cinescope_streaming_last_full_sync_v53';
+  const STORAGE_KEY_AUTOSYNC = 'cinescope_streaming_autosync_v53';
+  const STORAGE_KEY_SPECIALIZED_SYNC = 'cinescope_last_specialized_sync_v53';
+  const STORAGE_KEY_AMAZON_SYNC = 'cinescope_last_amazon_sync_v53';
 
   // Purge proactive des anciennes versions de cache pour éviter le dépassement de quota
   function cleanLegacyLocalStorage() {
@@ -193,8 +193,8 @@ const JustWatchEngine = (function () {
   };
 
   const PACKAGE_SLUGS = ['aoc', 'aca', 'auc', 'snr', 'sdz', 'ima', 'prv'];
-  const SPECIALIZED_PACKAGE_SLUGS = ['snr', 'sdz', 'ima'];
-  const BASE_PAID_PACKAGE_SLUGS = ['aoc', 'aca', 'auc'];
+  const SPECIALIZED_PACKAGE_SLUGS = ['aoc', 'snr', 'sdz', 'ima'];
+  const BASE_PAID_PACKAGE_SLUGS = ['aca', 'auc'];
 
   // Bouquets et chaînes officielles de la TNT française (TF1+, M6+, France TV)
   const TNT_PACKAGE_SLUGS = ['tf1', 'myt', 'sxp', '6pt', 'mms', 'fra'];
