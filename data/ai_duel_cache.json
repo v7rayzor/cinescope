@@ -2850,5 +2850,15 @@
     "titre": "Big Game",
     "category": "action_aventure",
     "justification": "Le film repose avant tout sur l'action cinétique et les cascades (évasion d'Air Force One, poursuites, combats) avec un ton aventureux, la comédie et le suspense policier restant secondaires."
+  },
+  "jw-tm347836": {
+    "titre": "Bad Match",
+    "category": "thriller_policier",
+    "justification": "Le récit repose sur l'obsession, la manipulation et l'intrusion psychologique d'une conquête amoureuse, sans terreur surnaturelle ni gore sadique, ce qui en fait un thriller de traque paranoïaque."
+  },
+  "jw-tm1671839": {
+    "titre": "Hierarchy : Braquage au sommet",
+    "category": "thriller_policier",
+    "justification": "Le synopsis met en avant un braquage sophistiqué, une traque policière et mafieuse ainsi qu'un dilemme psychologique, sans indiquer d'action physique dominante."
   }
 }
