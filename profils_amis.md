@@ -33,7 +33,8 @@ Guide de curation et profils de goûts pour les recommandations de films et sér
   - *The Librarians : L'Héritage de Flynn Carson / The Next Chapter* (artefacts magiques, mythologie, esprit d'équipe) — **Regardé et aimé**.
   - *Le Ministère du Temps* (missions historiques, voyages temporels, intrigue intelligente et liens du cœur) — **En cours (fin saison 2, validé)**.
   - *Midnight, Texas* (communauté paranormale refuge, mystère feutré et touches d'humour) — **En cours de visionnage (Fin saison 1, aimé & validé)**.
-  - *Wild Cards* (duo d'enquête complice détective/arnaqueuse, dynamique vive et touches d'humour esprit *Castle*) — **En cours de visionnage (2 épisodes vus, validé)**.
+  - *Wild Cards* (duo d'enquête complice détective/arnaqueuse, dynamique vive et touches d'humour esprit *Castle*) — **En cours de visionnage (validé ; suivi saison 3 au fil de l'eau : 1 épisode le jeudi + 1 le samedi, 2 nouveaux épisodes par semaine)**.
+  - **Rotation de la semaine (nov. 2026)** : *Family Law*, *Grimm*, *The Magicians* en cours ; hésitation pour compléter avec *Jane the Virgin* (comédie romantique feel-good, SFR Play / Molotov) ou *Bad Mothers* (drame-mystère australien, SFR Play / Molotov).
   - *Toutouyoutou* (comédie d'espionnage rétro et sororité complice en 26 min) — **En cours de visionnage (OCS Signature)**.
   - *Boy 7* (anticipation amnésique sublimée par la romance, la complicité et la confiance mutuelle du duo) — **Regardé et aimé (Référence clé romance & mystère)**.
   - *Bull* (procès et psychologie comportementale, matière grise, éloquence et esprit d'équipe) — **Regardé et aimé**.
