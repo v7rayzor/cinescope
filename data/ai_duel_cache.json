@@ -2860,5 +2860,15 @@
     "titre": "Hierarchy : Braquage au sommet",
     "category": "thriller_policier",
     "justification": "Le synopsis met en avant un braquage sophistiqué, une traque policière et mafieuse ainsi qu'un dilemme psychologique, sans indiquer d'action physique dominante."
+  },
+  "jw-tm232800": {
+    "titre": "Annihilation",
+    "category": "scifi_fantastique",
+    "justification": "Le récit repose avant tout sur un phénomène scientifique et cosmique mystérieux (la Zone X, les mutations, l'entité extraterrestre) qui prime sur la terreur viscérale, malgré une atmosphère angoissante."
+  },
+  "jw-tm893570": {
+    "titre": "Force of Nature",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur un braquage criminel et un suspense de survie confiné, sans action physique dominante ni spectaculaire cinétique."
   }
 }
