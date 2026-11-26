@@ -2880,5 +2880,30 @@
     "titre": "World War Z",
     "category": "horreur_epouvante",
     "justification": "World War Z est avant tout un film de survie face à une horde de zombies rapides et contagieux, dont la terreur viscérale et l'apocalypse pandémique dominent le récit malgré un cadre d'anticipation scientifique."
+  },
+  "jw-tm827140": {
+    "titre": "355",
+    "category": "action_aventure",
+    "justification": "Le film privilégie les affrontements physiques, les fusillades et les poursuites spectaculaires entre espionnes, avec une action cinétique dominante malgré une intrigue d'espionnage."
+  },
+  "jw-tm415595": {
+    "titre": "Lukas",
+    "category": "thriller_policier",
+    "justification": "L'intrigue repose sur l'infiltration et la collaboration avec la police face à un chef de gang, dominée par le suspense criminel plutôt que par des combats physiques ou poursuites spectaculaires."
+  },
+  "jw-tm1436087": {
+    "titre": "Red Right Hand",
+    "category": "action_aventure",
+    "justification": "Le synopsis met en avant un protagoniste prêt à tout, même à tuer, pour protéger sa famille, suggérant une dominance d'action physique et de violence, typique du genre action-aventure."
+  },
+  "jw-tm827850": {
+    "titre": "Guns Akimbo",
+    "category": "action_aventure",
+    "justification": "Guns Akimbo est un film d'action frénétique et stylisé centré sur des fusillades et des cascades, malgré un ton humoristique et satirique, l'action cinétique prime."
+  },
+  "jw-tm1538739": {
+    "titre": "Monster Island",
+    "category": "horreur_epouvante",
+    "justification": "Le récit repose sur la survie face à une créature monstrueuse (l'Orang Ikan) qui poursuit les protagonistes, avec une tension de terreur viscérale typique de l'épouvante, sans concept de science-fiction prédominant."
   }
 }
